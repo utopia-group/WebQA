@@ -1,0 +1,660 @@
+<html>
+<head>
+<meta content="text/html" http-equiv="Content-Style-Type"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,500italic,700,700italic,300,300italic&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Mono&amp;display=swap" rel="stylesheet"/>
+<link href="course.css" rel="stylesheet" type="text/css"/>
+<title>CIS 341 Spring 2020</title>
+</head>
+<body>
+<div id="content">
+<div class="banner">
+<center>
+<h1>
+  CIS 341 - Compilers <br/>
+  Spring 2020
+</h1>
+</center>
+</div>
+<div id="menu">
+<center>
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%; text-align: center;">
+<tbody>
+<tr>
+<td><div class="link">
+<a href="#topics">Topics</a> </div>
+</td>
+<td><div class="link">
+<a href="#reading">Reading</a>
+</div></td>
+<td><div class="link">
+<a href="#projects">Projects</a>
+</div></td>
+<td><div class="link">
+<a href="https://fling.seas.upenn.edu/~cis341/cgi-bin/20sp/submit.cgi">Submit</a>
+</div></td>
+<td><div class="link">
+<a href="#grading">Grading</a>
+</div></td>
+<td><div class="link">
+<a href="#lectures">Schedule</a>
+</div></td>
+<td><div class="link">
+<a href="#policies">Policies</a>
+</div></td>
+</tr>
+</tbody>
+</table>
+</center>
+</div>
+<div class="section1">
+<h3> Instructor </h3>
+<a href="http://www.cis.upenn.edu/~stevez"><span style="font-size:20px">Steve Zdancewic</span></a>
+<br/> &amp;nbsp &amp;nbsp <i>office hours:</i>  Wednesdays 2:00-3:00 pm
+  (and by appointment) Levine 511<br/>
+<h3> Teaching Assistants </h3>
+<p>
+<span style="font-size:20px">Calvin Beck</span>
+<br/> &amp;nbsp &amp;nbsp <i>office hours:</i>  Mondays 15:30-16:30 Levine 5th floor bump space
+</p>
+<p>
+<span style="font-size:20px">Paul He</span>
+<br/> &amp;nbsp &amp;nbsp <i>office hours:</i> Tuesdays 9:30-10:30 am Levine 5th floor bump space
+</p>
+<p>
+<span style="font-size:20px">Nick Rioux</span>
+<br/> &amp;nbsp &amp;nbsp <i>office hours:</i>  Mondays 13:00-14:00 GRW 5th floor bump space ("Levine North")
+</p>
+<h3> Course information: </h3>
+&amp;nbsp <i>time:</i> TR 10:30am - noon<br/>
+&amp;nbsp <i>room:</i> Towne 313 <br/>
+
+&amp;nbsp <i>piazza:</i> <a href="http://piazza.com/upenn/Spring2020/cis341">cis341</a><br/>
+&amp;nbsp <i>email:</i> cis341@seas.upenn.edu
+
+<h3> Prerequisites: CIS 121 and CIS 240</h3>
+</div>
+<a name="topics"></a>
+<div class="section">
+<h3>Topics:</h3>
+<ul>
+<li><b>Lexing/Parsing</b></li>
+<li><b>Code generation</b></li>
+<li><b>Semantic analysis</b></li>
+<li><b>Optimization</b></li>
+<li><b>Run-time support</b></li>
+</ul>
+</div>
+<a name="reading"></a>
+<div class="section">
+<h3>Reading and References</h3>
+<p>
+The following books contain useful course material, and much of
+the lecture content is derived from them (and other sources).
+
+</p><ul>
+<li><i>Compilers (2nd edition)</i> by Aho, Lam, Sethi, and Ullman</li>
+<li><i>Advanced Compiler Design and Implementation</i> by Muchnick</li>
+<li><i>Modern Compiler Implementation in ML</i> by Appel</li>
+</ul>
+
+
+In addition, the following papers and web sites provide supplementary
+material.  Reading selections from these sources will be announced in class.
+
+<ul>
+<li> <a href="http://llvm.org/">llvm.org</a></li>
+<li> <a href="https://realworldocaml.org/">Real World OCaml</a></li>
+<li> <a href="programming_style.shtml">OCaml Programming Style Guide</a></li>
+<li> <a href="http://caml.inria.fr/">The Caml Web Site</a>,
+  particularly the <a href="http://caml.inria.fr/pub/docs/manual-ocaml/index.html">
+  documentation and users' manual</a> and the <a href="http://caml.inria.fr/pub/docs/manual-ocaml/stdlib.html">standard libraries</a></li>
+<li> <a href="https://ocaml.org/">OCaml.org</a></li>
+<li> <a href="http://caml.inria.fr/pub/docs/oreilly-book/">Developing
+  Applications with Objective Caml</a> by Emmanuel Chailloux, Pascal Manoury and Bruno Pagano</li>
+<li> <a href="ocaml-book.pdf">Introduction to Objective Caml</a> by
+  Jason Hickey</li>
+</ul>
+</div>
+<a name="projects"></a>
+<div class="section">
+<div>
+<h3>Projects: Building a Compiler </h3>
+<p>There are several homework projects.  Homework 1 is an individual assignment.
+  The rest of the projects are pair-programming projects -- students are
+  strongly encouraged to work in pairs, but may ask permission to work
+  alone on them.</p>
+<p>
+<a href="https://fling.seas.upenn.edu/~cis341/cgi-bin/20sp/submit.cgi">Submit</a>
+</p>
+<p><a href="toolchain.shtml">CIS 341 Toolchain</a>  - instructions for getting access to
+  the tools you need to complete course assignments.</p>
+</div>
+<ul>
+<li> <a href="hw/hw01/">Homework 1: Hellocaml</a><br/>
+     Due: Wednesday, January 29th at 11:59pm
+</li>
+<br/>
+<li> <a href="hw/hw02/">Homework 2: X86lite </a> <br/>
+      Due: Wednesday, February 12th at 11:59pm
+</li>
+<br/>
+<li> <a href="hw/hw03/">Homework 3: Compiling LLVMlite</a><br/>
+     Due: Wednesday, March 4th at 11:59pm
+</li>
+<br/>
+<li> <a href="hw/hw04/">Homework 4: Compiling Oat v.1</a>
+<br/>
+     Due: Monday, March 30th at 11:59pm
+</li>
+<br/>
+<li> <a href="hw/hw05/">Homework 5: Full Oat</a>
+<br/>
+    Due:Friday, April 17 at 11:59pm
+</li>
+<br/>
+<li> <a href="hw/hw06/">Homework 6: Dataflow Analysis and Register Allocation</a>
+<br/>
+(Tentatively) Due: Wednesday, April 29 at 11:59pm
+</li>
+</ul>
+</div>
+<a name="grading"></a>
+<div class="section">
+<h3>Grading Criteria </h3>
+<ul>
+<li>12%   Midterm - Date: Thursday, March 5 in class
+  </li>
+<ul>
+<li> <a href="exams/midterm-20sp.pdf">Midterm 2020</a> and
+        <a href="exams/midterm-20sp-solutions.pdf">Solutions 2020</a> </li>
+<li> <a href="exams/midterm-2018.pdf">Midterm 2018</a> and
+        <a href="exams/midterm-2018-solutions.pdf">Solutions 2018</a> </li>
+<li> <a href="exams/midterm-2017.pdf">Midterm 2017</a> and
+        <a href="exams/midterm-2017-solutions.pdf">Solutions 2017</a> </li>
+<li> <a href="exams/midterm-2015.pdf">Midterm 2015</a> and
+        <a href="exams/midterm-2015-solutions.pdf">Solutions 2015</a> </li>
+<!-- <li> <a href="exams/midterm-2013.pdf">Midterm 2013</a> and -->
+<!-- (partial) <a href="exams/midterm-2013-solutions.pdf">Solutions 2013</a> -->
+<!--   </li> -->
+</ul>
+<li>18%   Final exam - Date: May 4, 2018.
+  <ul>
+<li>
+<a href="exams/final-2018.pdf">Final Exam 2018</a> and
+    <a href="exams/final-2018-solutions.pdf">Solutions 2018</a>
+</li><li>
+<a href="exams/final-2017.pdf">Final Exam 2017</a>  and
+      <a href="exams/final-2017-solutions.pdf">Solutions 2017</a>
+<!-- <li> -->
+<!-- <a href="exams/final-2013.pdf">Final Exam 2013</a> -->
+<!--   and (partial) -->
+<!--       <a href="exams/final-2013-soln.pdf">Solutions (2013)</a> -->
+<!-- </li> -->
+</li></ul>
+</li><li>70%   Course projects </li>
+</ul>
+<a href="https://fling.seas.upenn.edu/~cis341/cgi-bin/20sp/submit.cgi">Check your current scores.</a>
+</div>
+<a name="lectures"></a>
+<div class="section">
+<h3> Lecture Slides and Notes</h3>
+<!-- New Scheduling Functionality -->
+<script type="text/javascript">
+
+// SEMESTER SETUP:
+
+// 1. Update the start date
+//   - it should be the Monday of the first week of classes
+//   - Note: do _not_ use 00:00:00 since the time change affects that!
+var semesterStartMonday = new Date('Mon Jan 13 2020 11:00:00');
+
+// 2. Skip down to "SCHEDULE"
+
+// -----------------------------------------------------------------------------------------
+// Code for the schedule layout
+
+// control visibility of lecture information (used to generate the "elide" tag)
+var HIDE = false;
+var SHOW = true;
+
+// count the total number of days from the semesterStartMonday
+var dayOfSemester = 1;    // 1 == start on Tuesday
+// count the number of TR slots
+var trCount = 0;
+// count the number of lectures (start at 1)
+var lecCount = 1;
+// count the number of homework assignments (start at 1)
+var hwCount = 1;
+
+// dayOfSemester to account for starting on Tuesday
+var day = 60 * 60 * 24 * 1000;
+function getSlotDateString() {
+    var date = new Date(semesterStartMonday.getTime() + (day * dayOfSemester));
+    return (date.getMonth() + 1).toString()  + '/' + date.getDate().toString();
+}
+
+function checkDate(tgtMonth, tgtDay) {
+    var date = new Date(semesterStartMonday.getTime() + (day * dayOfSemester));
+    var d = date.getDate();
+    var m = (date.getMonth() + 1);
+    if ((tgtMonth != m) || (tgtDay != d)) {
+	document.write('<tr style="background:red"><td></td><td>ERROR: slot expected on ' + tgtMonth + '/' + tgtDay + ' but positioned at: ' + m + '/' + d + '</td></tr>')
+    }
+}
+
+function nextDay() {
+    trCount = trCount + 1;
+    if (trCount % 2 === 0) {
+	dayOfSemester = dayOfSemester + 5;  // also skip Sunday and Monday.
+    } else {
+	dayOfSemester = dayOfSemester + 2;
+    }
+}
+
+// get the class that changes colors every two slots
+function getDateClass() {
+    if ((trCount % 4) < 2) {
+	return "week1";
+    } else {
+	return "week2";
+    }
+}
+
+function tdC(cls, data) {
+    document.write('<td class="' + cls + '">' + data + '</td>');
+}
+
+// just writes strings to the document
+function rawRowC(cls, date, topic, slides, code) {
+    document.write('<tr class="' + cls + '">');
+    tdC("date", date);
+    tdC("topic", topic);
+    tdC("slides", slides);
+    tdC("handout", code);
+    document.write('</tr>');
+}
+
+// Creates a string representing a link
+//  path : path relative to the web directory, e.g.:  "hw" or "lectures"
+//  filename : the file at that path, e.g.: "hw01" or "lec01.pdf"
+//  link : the displayed name of the link, e.g.: "Finger Exercises" or "lec01.pdf"
+function mkARef(path, filename, link) {
+    return ('<a href="' + path + '/' + filename + '">' + link + '</a>');
+}
+
+function italicize(str) {
+    return ('<i>' + str + '</i>');
+}
+
+function bright(str) {
+    return ('<span class="tipt">' + str + '</span>');
+}
+
+function mkSlide(filename) {
+    return mkARef("lectures", filename, filename);
+}
+
+function mkCodeFile(filename) {
+    return mkARef("lectures/code", filename, filename);
+}
+
+function mkCode(filenames) {
+    return filenames.map(mkCodeFile).join('</br>');
+}
+
+
+// Creates a lecture row in the schedule.
+//   visible : boolean indicating whether links should be displayed (e.g. HIDE or SHOW)
+//   topic : string identifying the subject of the lecture  (e.g. "Binary Search Trees")
+//   code : filename list  -  files found in lectures/code/file1 ...
+//   reading : string list - (links to) reading material (see notes() function)
+//
+//  Consumes a TR slot and advances the schedule appropriately.
+function lec(visible, topic, code) {
+    var date = getSlotDateString();
+    var cls = getDateClass();
+    if (!visible) {
+	cls = cls + ' elide';
+    }
+    var slides = 'lec' + ("0" + lecCount).slice(-2) + '.pdf';
+    rawRowC(cls, date, topic, mkSlide(slides), mkCode(code));
+    nextDay();
+    lecCount = lecCount + 1;
+}
+
+// creates a link named <reading> to the 120notes.pdf file
+function notes(reading) {
+    return mkARef("notes", "120notes.pdf", reading)
+}
+
+// Creates an "no class day" row in the table
+//  desc - a string describing the reason there is no class
+//
+//  Consumes a TR slot and advances the schedule appropriately.
+function noClass(desc) {
+    var date = getSlotDateString();
+    var cls = getDateClass();
+    rawRowC(cls, date, italicize(desc), "", "");
+    nextDay();
+}
+
+// same as noClass but also takes a target month and day
+//  desc - a string describing the reason there is no class
+//  tgtMonth - integer month that the row should land on (1-12)
+//  tgtDay - integer day that the row should land on (1-31)
+//
+//   gives an error if the row does not line up on the target date
+//   useful for: Fall / Spring breaks
+//
+//  Consumes a TR slot and advances the schedule appropriately.
+function noClassDate(tgtMonth, tgtDay, desc) {
+    checkDate(tgtMonth, tgtDay);
+    noClass(desc);
+}
+
+// Create a homework row in the table
+//  visible : is the link to the web page active?  (HIDE or SHOW)
+//  duedate : a string indicating the due date
+//  name : homework name like "Finger Exercises"
+//
+// Does _not_ consumer a TR slot
+function hw(visible, duedate, name) {
+    var hwNum = ("0" + hwCount).slice(-2);
+    var file = "hw" + hwNum;
+    var link = mkARef("hw", file, "("+name+")");
+    var tag = "HW" + hwNum;
+    if (visible) {
+	rawRowC("hw", duedate, tag + '&nbsp ' + link + ' due', "", "");
+    } else {
+	rawRowC("hw elide", duedate, tag + '&nbsp (' + name + ') due', "", "");
+    }
+    hwCount = hwCount + 1;
+}
+
+function hwReminder(visible, hwNum, duedate, name) {
+    var file = "hw" + hwNum;
+    var link = mkARef("hw", file, name);
+    var tag = "HW" + hwNum;
+    if (visible) {
+	rawRowC("hw", duedate, tag + '&nbsp ' + link + ' due', "", "");
+    } else {
+	rawRowC("hw elide", duedate, tag + '&nbsp ' + name + ' due', "", "");
+    }
+}
+
+// generate the filename for a blank exam
+function blankExam(name, semester) {
+    return name + '-' + semester + '-' + 'blank.pdf';
+}
+
+// generate the filename for exam solutions
+function solnExam(name, semester) {
+    return name + '-' + semester + '-' + 'solutions.pdf';
+}
+
+// generate two links to blank|solution
+function mkExam(name, semester) {
+    var blank = mkARef("exams", blankExam(name,semester), "blank");
+    var solution = mkARef("exams", solnExam(name,semester), "solution");
+    return (blank + ' | ' + solution);
+}
+
+// Creates an exam row in the table
+//  tgtMonth - month of the exam date (in 1-12)
+//  tgtDay - day of the exam (in 1-31)
+//  tag - string naming the exam, e.g. "Midterm 1"
+//  info - string containing location info  (can include <br>)
+//  name - used to generated filenames, e.g. "midterm1"
+//  examples - string list of semesters to generate example exams from
+//             e.g. ["15fa", "15sp"]    generates links to:  midterm1-15fa-blank.pdf and midterm1-15fa-solution.pdf
+//  thisSemester - string that is either
+//        ""  - omit any links
+//    or a string like "16fa"  - generate a link to blank + solution
+//
+//  Consumes a TR slot and advances the schedule appropriately.
+//
+//   NOTE: If exams are _not_ held during class periods, then this should be modified to be more like hw
+function exam(tgtMonth, tgtDay, tag, info, name, examples, thisSemester) {
+    checkDate(tgtMonth, tgtDay);
+    var date = getSlotDateString();
+    //var date = tgtMonth + "/" + tgtDay;
+    var cls = getDateClass();
+    var solutions = "";
+    if (!(thisSemester === "")) {
+	solutions = '</br>' + mkExam(name, thisSemester);
+    }
+    rawRowC(cls, date, bright(tag) + '</br>' + info, "",
+	    examples.map(function(sem){return (sem + ': ' + mkExam(name,sem));}).join('</br>') +  solutions
+	   );
+    nextDay();
+}
+
+// --------------------------------------------------------------------------
+</script>
+<!-- ------------------------ -->
+<!-- SEMESTER SETUP: SCHEDULE -->
+<!-- SEMESTER SETUP: LECTURES
+This table is generated using javascript functions (see code above) that generate each row.
+The dates of each lecture are calculated automatically from semesterStartMonday.
+Each row either:
+    - consumes a TR slot:  lec, exam, noCLass, noClassDate
+    - does not affect the schedule but displays a date string: hw, rawRowC
+
+lec : lecture rows
+  Lecture slide links are automatically generated and are numbered as:
+    lec01.pdf, lec02.pdf,  .. , lecNN.pdf
+
+  Mark as HIDE until the lecture content is uploaded, then mark as SHOW.
+
+Rearrange the schedule by moving the rows around.
+-->
+<div class="note">
+<p>
+  Recorded Zoom sessions starting from Lecture 15 (3/24/20) are available at
+  <a href="https://upenn.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=b8326e8e-f7c1-4ffb-91ad-ab880171e202">
+  Penn's PanOpto Site
+  </a>.
+</p>
+</div>
+<table cellpadding="4" cellspacing="2" class="table" width="100%">
+<script type="text/javascript">
+
+rawRowC("week2", "<b>Date</b>", "<b>Topic</b>", "<b>Slides</b>", "<b>Handouts</b>");
+
+noClass("");
+
+lec(SHOW, "Introductions: Compilers, Interpreters, and OCaml", ["lec01.zip"]);
+
+lec(SHOW, "*OCaml Crash Course: Translating Simple to OCaml",   ["lec02.zip"]);
+
+lec(SHOW, "*OCaml Crash Course, Part II", []);
+
+lec(SHOW, "X86lite", ["lec04.zip"]);
+
+lec(SHOW, "X86lite programming / C calling conventions", ["lec05.zip"]);
+
+lec(SHOW, "Intermediate Representations I", ["lec06.zip"]);
+
+lec(SHOW, "Intermediate Representations II", ["lec07.zip"]);
+
+lec(SHOW, "IRs III / LLVM ", ["lec08.zip"]);
+
+lec(SHOW, "Structured Data in the LLVM IR", ["struct.c", "unsafestack.c"]);
+
+lec(SHOW, "Lexing: DFAs and ocamllex", ["lec09.zip"]);
+
+lec(SHOW, "Parsing I: Context Free Grammars", ["lec10.zip"]);
+
+lec(SHOW, "Parsing II: LL(k) parsing, LR(0) parsing", ["parser.ml"]);
+
+exam(2, 27, "Midterm", "", "midterm", [], "");
+
+
+lec(SHOW, "Parsing III: LR(1) Parsing", ["lec12.zip"]);
+
+lec(SHOW, "Parsing in Practice, OAT v1 overview", ["lec12.zip"]);
+
+
+noClassDate(3, 10, "Spring Break");
+
+noClassDate(3, 12, "Spring Break");
+
+noClassDate(3, 17, "(COVID-19) Spring Break");
+
+noClassDate(3, 19, "(COVID-19) Spring Break");
+
+lec(SHOW, "First-class Functions I", ["fun.ml"]);
+
+lec(SHOW, "Types I: Scope / Typechecking", ["fun.ml","tc.ml"]);
+
+lec(SHOW, "Types II: Judgments and Derivations", ["oat-v1-defn.pdf"]); 
+
+lec(SHOW, "Types III: Rich Types, Subtyping", []);
+
+lec(SHOW, "Types IV: Mutability, Higher-order Features: Closure Conversion", ["cc.ml"]); 
+  
+lec(SHOW, "Closure Conversion II / OO: Dynamic Dispatch and Inheritance", ["cc.ml"]);
+
+<!-- lec(HIDE, "Multiple Inheritance", []); -->
+
+lec(HIDE, "Optimizations I", []);
+
+lec(HIDE, "Data Flow Analysis", []);
+
+lec(HIDE, "Register Allocation", []);
+
+lec(HIDE, "Data Flow Analysis II", []);
+
+lec(HIDE, "Control Flow Analysis / SSA Revisited", []);
+
+<!-- lec(HIDE, "Compiler Verification / Course Wrap Up", []); -->
+
+</script>
+</table>
+
+
+
+
+*Prof. Zdancewic will be absent.
+
+
+
+
+<p>Some of the slides in these lectures have been adapted (with
+   permission) from course materials by Andrew Myers at Cornell
+   University and Greg Morrisett at Harvard University.
+
+</p></div>
+<a name="policies"></a>
+<div class="section">
+<img align="right" src="http://imgs.xkcd.com/comics/compiling.png"/>
+<h3>Course Policies </h3>
+<h4>General Project Guidelines</h4>
+<ul>
+<li><b>Groups:</b> <br/>Teams for group projects will consist of two students.
+</li>
+<li> <b>Difficulty:</b> <br/> The course projects are
+<i>challenging</i> and <i>time consuming</i>. They may require
+significant effort to understand the implementation details and concepts:
+   <div class="notice">Start Early!</div>
+</li>
+<li><b>Late Projects:</b> <br/> All projects are due at 11:59pm on the
+due date.
+
+<ul>
+<li> Projects submitted late, but within 24 hours of the deadline
+  are subject to a 10 point penalty. </li>
+<li> Projects submitted late, but between 24 and 48 hours of the
+  deadline are subject to a 20 point penalty. </li>
+</ul>
+
+If you have an extremely unusual circumstance, such as a serious and extended
+illness, contact the course instructor for special consideration.
+
+<ul>
+<li> If, for some reason, you have an extension of less than 48
+  hours on the homework, the extension only overrides the associated
+  late penalty -- it does not extend the late period! </li>
+</ul>
+</li>
+<li><b>Regrade Policy:</b> <br/>
+
+Regrade requests should be sent to the TA.  Only reasonable requests
+will be considered.  The entire project or exam will be regraded.
+Note that this means that the score on a regraded project might
+decrease.
+</li>
+</ul>
+<h4> Submission Policy</h4>
+<ul>
+<li> Projects that do not compile will get no credit.
+</li>
+<li> Projects that compile will receive partial credit according to
+the grading guidelines provided in the project description.
+</li>
+</ul>
+<h4> Academic Integrity</h4>
+
+This course will abide by the University's <a href="http://www.vpul.upenn.edu/osl/acadint.html">Code of Academic
+Integrity</a>.  In particular, for individual projects and group
+projects, the following guidelines should be followed:
+
+<ul>
+<li><strong>For individual projects, you must type in and edit
+      your own code, documentation, and any other materials submitted
+      for grading.</strong>
+<ul>
+<li>Copying someone else's file is not allowed.</li>
+<li>Allowing someone else to copy a file of yours, either explicitly or
+        implicitly by leaving your code unprotected, is not allowed.</li>
+<li>Editing each other's files is not allowed</li>
+</ul>
+</li>
+<li><strong>Regarding the ethics of what you may or may not discuss with
+      others:</strong>
+<ul>
+<li><strong>"High level" discussions are fine.</strong> <br/>
+        For example, discussions about the problem statement. </li>
+<li><strong>"Low level" discussions are fine.</strong> <br/>
+        For example, discussions about OCaml syntax or using omake,
+        understanding compiler error messages, understanding the
+        mechanics of the tools and libraries used for the projects.
+        </li>
+<li><strong>"Mid level" discussions require
+        discretion.</strong> In this CIS course, discussions at this
+        level must be limited.  Unless explicitly stated
+        otherwise, you may not collaborate significantly with
+        classmates (except group project members) at this level. 
+        If you have minor discussions with others at this level or get
+        help from outside resources (tutors, web sites, etc), you must
+        cite in the readme of the submitted projects the names of the
+        people or websites who helped you and how they did. For
+        example:
+
+        <pre> Name: Chris Brown
+ Email: ***@seas.upenn.edu
+ I received tips from Jo Johnson on the i/o and example.com/mem.htm on memory
+ ...</pre>
+</li>
+</ul>
+</li>
+<li>
+<strong>If there is any doubt about the use of external
+      sources or collaboration, please ask for clarification by the
+      course staff.</strong>
+</li>
+</ul>
+<div class="note">
+<p>
+	Although we encourage you to use version control software
+ (e.g. <tt>git</tt>) for the course projects, please <i>do not</i> distribute the
+ solutions.
+	</p>
+</div>
+</div>
+<font size="1">
+<!-- hhmts start -->Last modified: Thu Apr  9 09:51:26 EDT 2020 <!-- hhmts end -->
+</font>
+</div></body>
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head><title></title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="TeX4ht (http://www.tug.org/tex4ht/)" name="generator"/>
+<meta content="TeX4ht (http://www.tug.org/tex4ht/)" name="originator"/>
+<!-- html -->
+<meta content="course-overview.tex" name="src"/>
+<link href="course-overview.css" rel="stylesheet" type="text/css"/>
+</head><body>
+<h3 class="likesectionHead"><a id="x1-1000"></a>CS 565: Programming Languages</h3>
+<!--l. 16--><p class="noindent">
+</p><h4 class="likesubsectionHead"><a id="x1-2000"></a><span class="underline">Meeting Time</span></h4>
+<!--l. 18--><p class="noindent">Monday, Wednesday, Friday: 1:30 - 2:20<br class="newline"/>FRNY G124
+<!--l. 21--></p><p class="noindent">
+</p><h4 class="likesubsectionHead"><a id="x1-3000"></a><span class="underline">Instructor</span></h4>
+<div class="minipage"><!--l. 24--><p class="noindent">Suresh Jagannathan<br class="newline"/>LWSN 3154J<br class="newline"/>Ph: x4-0971<br class="newline"/>email: <span class="cmtt-10x-x-109">suresh@cs.purdue.edu</span><br class="newline"/>Office Hours: Monday, Wednesday: 3 - 4pm</p></div>
+<h4 class="likesubsectionHead"><a id="x1-3000"></a><span class="underline">Teaching Assistant</span></h4>
+<div class="minipage"><!--l. 24--><p class="noindent">Kia Rahmani<br class="newline"/>HAAS GO50<br class="newline"/>email: <span class="cmtt-10x-x-109">rahmank@purdue.edu</span><br class="newline"/>Office Hours: Friday: 12 - 1pm</p></div>
+<!--l. 31--><p class="noindent">
+</p><h4 class="likesubsectionHead"><a id="x1-4000"></a><span class="underline">Course Overview</span></h4>
+<!--l. 33--><p class="noindent">The field of programming languages is as old as computing itself, and is central to the way we transform
+abstract algorithmic notions to concrete executable plans. While some aspects of language design entail
+issues related to choice of syntax (e.g., Lisp), contain features that are only relevant to the specific
+domains in which the language is intended to operate (e.g., Cuda), or are centered around particular
+methdologies the language designer wishes to promote (e.g., Javascript), other aspects of the
+study of programming languages are more universal, concerned with exploring foundational
+questions. That is, beyond thinking of programming languages in terms of qualitative judgments
+(why is language <span class="cmmi-10x-x-109">X </span>better to write programs in than language <span class="cmmi-10x-x-109">Y </span>?), we might pursue a more
+substantive line of inquiry centered around notions of <span class="cmti-10x-x-109">semantics </span>and <span class="cmti-10x-x-109">correctness </span>- how can
+we best describe what a program does or means, without injecting subjective bias into our
+characterization; and, how do we ascertain from this description, assurance that any execution of this
+program will be faithful to the intent of the developer? Surprisingly, answers to these questions
+can often be pursued without appealing to specific syntactic forms or any particular design
+features.
+
+<!--l. 54--></p><p class="noindent">More generally, these questions broadly Fall under the term <span class="cmti-10x-x-109">formal methods</span>, an important branch of
+computer science that looks to mathematics (specifically, logic) to help us (at least in this class) precisely
+reason about programming language features and behaviors. Our focus will be to explore core ideas in
+programming languages from a rigorous, foundational, and principled perspective enabled by couching
+programming language concepts and the vocabulary we use to reason about them in terms of
+well-defined mathematical objects (e.g., sets, functions, relations) and associated reasoning
+strategies (e.g., induction). To do so, we will undertake our study using small language definitions
+(program calcuii), sufficiently expressive to serve as a useful object of study, but not burdened
+with features that while perhaps necessary for real-world implementations, are semantically
+uninteresting.
+<!--l. 69--></p><p class="noindent">The course will be centered around the use of tools (proof assistants, model checkers, type systems) that
+enable better understanding of how we might design, specify, and implement language features. We will
+also use these tools to help us think about how to gain stronger assurance and confidence that the
+programs we write do what we expect them to do.
+<!--l. 76--></p><p class="noindent">From the above description, you can conclude that this course will <span class="cmti-10x-x-109">not </span>be a survey of existing languages or
+a taxonomy of language constructs. Neither will it be a course on programming or software
+engineering per se. Instead, presented material  will be structured to allow us to explore new ways to
+understand programming languages generally that help us to answer questions such as the
+following:
+<!--l. 83--></p><p class="noindent">
+</p><ol class="enumerate1">
+<li class="enumerate" id="x1-4002x1">What is a program <span class="cmti-10x-x-109">specification </span>and what role do specifications play in program construction
+     and reliability?
+     </li>
+<li class="enumerate" id="x1-4004x2">What does <span class="cmti-10x-x-109">program verification </span>mean?
+     </li>
+<li class="enumerate" id="x1-4006x3">What are sensible and tractable notions of program correctness? What are the conditions
+     under which we can assert that a program is “safe”?
+     </li>
+<li class="enumerate" id="x1-4008x4">How do we <span class="cmti-10x-x-109">prove </span>useful properties about a program; what do we mean by a <span class="cmti-10x-x-109">proof  </span>in this
+     context?
+     </li>
+<li class="enumerate" id="x1-4010x5">How do we qualify the “expressive power” of a language feature? How do we relate different
+     features found in different languages?
+     </li>
+<li class="enumerate" id="x1-4012x6">What is a <span class="cmti-10x-x-109">type </span>and how can they be used to reason about program correctness?
+     </li>
+<li class="enumerate" id="x1-4014x7">How foundationally different are various methodologies espoused by different languages (e.g.,
+     object-oriented, functional, imperative)?
+
+     </li>
+<li class="enumerate" id="x1-4016x8">How  do  we  reason  about  the  equivalence  of  programs,  or  programs  and  their  compiled
+     translation?
+     </li>
+<li class="enumerate" id="x1-4018x9">What tools can we bring to bear to help automate the way we reason about a program’s
+     behavior?
+     </li></ol>
+<!--l. 116--><p class="noindent">To help answer these questions, the course is designed around several interleaved themes: (1) the role of
+logic and related mathematical formalisms in programming language specification and design; (2) formal
+reasoning devices that precisely explain the meaning of programming language features and program
+executions; (3) the use of types to define and specify safety conditions on program executions, and to
+enrich language expressivity; (4) characterization of different notions of correctness and development of
+mechanisms to verify that programs are correct with respect to their specification; (5) the use of
+automated tools (e.g., proof assistants, program verifiers) to help validate important theorems that
+describe useful properties based on the structure of (2) and (3), using techniques enabled by
+(1).
+<!--l. 129--></p><p class="noindent">By the end of the class, students should be comfortable with objectively assessing and comparing
+superficially disparate language features, understanding how these features impact implementations, be
+able to distinguish concepts that are truly foundational from those that just appear to be, and be able to
+critically reason about program correctness and safety. Most importantly, the overarching goal of this
+course is to equip students <span class="cmti-10x-x-109">to ask better questions </span>about language design, even if the answers themselves
+are not readily apparent.
+<!--l. 139--></p><p class="noindent">
+</p><h4 class="likesubsectionHead"><a id="x1-5000"></a><span class="underline">Prerequistes</span></h4>
+<!--l. 141--><p class="noindent">It is assumed that students taking this class would have had exposure to an undergraduate software
+engineering and/or compilers class, and be comfortable with basic mathematical concepts, and software
+implementation techniques. There will be a number of programming exercises in the class, but no prior
+background in any specific programming language is necessary.
+<!--l. 148--></p><p class="noindent">
+</p><h4 class="likesubsectionHead"><a id="x1-6000"></a><span class="underline">Academic Honesty</span></h4>
+<!--l. 150--><p class="noindent">Students are encouraged to work together to clarify issues presented in class. However, students are not
+allowed to collaborate on programming assignments or examinations.
+
+<!--l. 154--></p><p class="noindent">
+</p><h4 class="likesubsectionHead"><a id="x1-7000"></a><span class="underline">Grading</span></h4>
+<!--l. 156--><p class="noindent">Grading for the class is as follows:
+<!--l. 158--></p><p class="noindent">
+</p><ol class="enumerate1">
+<li class="enumerate" id="x1-7004x2"><span class="cmbx-10x-x-109">Homeworks</span>: 30%
+     </li>
+<li class="enumerate" id="x1-7006x3"><span class="cmbx-10x-x-109">Midterm</span>: 35%
+     </li>
+<li class="enumerate" id="x1-7008x4"><span class="cmbx-10x-x-109">Final</span>: 35%</li></ol>
+<!--l. 179--><p class="noindent">
+</p><h4 class="likesubsectionHead"><a id="x1-8000"></a><span class="underline">Text</span></h4>
+<!--l. 181--><p class="noindent">We will use the online textbook <span class="cmbx-10x-x-109"><b>Software Foundations</b></span>, available 
+<a href="https://softwarefoundations.cis.upenn.edu">here</a>
+for part of the course. Students should download the text, and install the Coq mechanized proof assistant (see <a href="https://coq.inria.fr">here</a>).
+
+<!--l. 195--></p><p class="noindent">In fact, the textbook is essentially one large Coq program, with explanation provided in comments, so
+students are encouraged to bring their laptops to class to interactively explore the material along with the
+instructor.
+<!--l. 200--></p><p class="noindent">In addition, students might find the following texts also useful:
+     </p><ul class="itemize1">
+<li class="itemize"><span class="cmbx-10x-x-109">Certified Programming with Dependent Types, Adam Chlipala, MIT Press, 2013
+     </span></li>
+<li class="itemize"><span class="cmbx-10x-x-109">Types and Programming Languages</span>, Benjamin Pierce, MIT Press, 2002.
+     </li></ul>
+<!--l. 212--><p class="noindent">
+</p><h4 class="likesubsectionHead"><a id="x1-9000"></a><span class="underline">Topics</span></h4>
+<!--l. 214--><p class="noindent"><span class="cmbx-10x-x-109"><i>Foundations</i></span>
+</p><ul class="itemize1">
+<li class="itemize">Functional Programming
+     </li>
+<li class="itemize">Induction Principles
+     </li>
+<li class="itemize">Logic and Propositions
+     </li>
+<li class="itemize">Curry-Howard Correspondence
+     </li>
+<li class="itemize">Relations
+     </li></ul>
+<!--l. 226--><p class="noindent"><span class="cmbx-10x-x-109"><i>Specifications, Semantics, and Verification</i></span>
+</p><ul class="itemize1">
+<li class="itemize">Program Equivalence
+     </li>
+<li class="itemize">Operational Semantics
+
+     </li>
+<li class="itemize">Hoare Logic
+     </li>
+<li class="itemize">Automated Program Verification 
+     </li></ul>
+<!--l. 237--><p class="noindent"><span class="cmbx-10x-x-109"><i>Types</i></span>
+</p><ul class="itemize1">
+<li class="itemize">Simply-Typed Lambda Calculus
+     </li>
+<li class="itemize">Polymorphism
+     </li>
+<li class="itemize">Subtyping
+     </li>
+<li class="itemize">Refinement Types 
+     </li>
+<li class="itemize">Advanced Topics
+     </li></ul>
+</body></html>

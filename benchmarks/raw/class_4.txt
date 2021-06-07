@@ -1,0 +1,160 @@
+<html><head>
+<title>
+331H: Algorithms and Complexity
+</title>
+</head>
+<body><h2 align="center">CS331H: Algorithms and Complexity (Honors), Spring 2019</h2>
+<table align="center" border="0" cellpadding="0" cellspacing="8">
+<tr valign="top">
+<td><b>Logistics:</b></td>
+<td> Lecture: Mon/Wed 2:00 - 3:30, GDC 1.304<br/>
+      Discussion section: Fri 10:00-11:00 / 11:00-12:00, RLP 0.122<br/>
+	Course web page:
+	<a href=".">
+	http://www.cs.utexas.edu/~ecprice/courses/331h/
+	</a>
+<br/>
+        Unique number: 50910 / 50915
+	</td>
+</tr>
+<tr valign="top">
+<td><b>Professor:</b></td>
+<td><a href="http://www.cs.utexas.edu/~ecprice">Eric Price</a><br/>
+        Email: <a href="mailto:ecprice@cs.utexas.edu"><tt>ecprice@cs.utexas.edu</tt></a><br/>
+        Office: GDC 4.510<br/>
+        Office Hours: 3:30-4:30pm Wednesday
+</td></tr>
+<tr valign="top">
+<td><b>TA:</b></td>
+<td>Akshay Kamath<br/>
+        Email: <a href="mailto:kamath@cs.utexas.edu"><tt>kamath@cs.utexas.edu</tt></a><br/>
+      Office Hours: 12:00-1:00pm Friday<br/>
+      GDC basement
+    </td>
+</tr>
+<tr valign="top">
+<td><b>Problem Sets:</b></td>
+<td>
+<ul>
+<li><a href="psets/331h-ps1.pdf">Problem set 1</a> due Monday, February 4. <a download="" href="psets/fib.ipynb">Jupyter Notebook</a>.</li>
+<li><a href="psets/331h-ps2.pdf">Problem set 2</a> due Monday, February 11.</li>
+<li><a href="psets/331h-ps3.pdf">Problem set 3</a> due Monday, February 18. <a download="" href="psets/knapsack.ipynb">Jupyter Notebook</a>.</li>
+<li><a href="psets/331h-ps4.pdf">Problem set 4</a> due Monday, March 4. <a download="" href="psets/reductions.ipynb">Jupyter Notebook</a>.</li>
+<li><a href="psets/331h-ps5.pdf">Problem set 5</a> due Monday, March 11. <a download="" href="psets/astar.ipynb">Jupyter Notebook</a>.</li>
+<li><a href="psets/331h-ps6.pdf">Problem set 6</a> due Monday, March 25. <a href="psets/331h-ps6-exercises.pdf">Supplemental exercises</a>.</li>
+<li><a href="psets/331h-ps7.pdf">Problem set 7</a> due Thursday, April 4. <a download="" href="psets/netflow.ipynb">Jupyter Notebook</a>.</li>
+<li><a href="psets/331h-ps8.pdf">Problem set 8</a> due Monday, April 15. <a download="" href="psets/linear-programming.ipynb">Jupyter Notebook</a>.</li>
+<li><a href="psets/331h-ps9.pdf">Problem set 9</a> due Monday, April 22.</li>
+<li><a href="psets/331h-ps10.pdf">Problem set 10</a> due Monday, April 29.</li>
+<li><a href="psets/331h-ps11.pdf">Problem set 11</a> due Monday, May 6.</li>
+</ul>
+</td></tr>
+<tr valign="top">
+<td><b>Course Notes:</b></td>
+<td>
+     Lecture notes may be provided after class, but you should keep
+     your own notes: topics will be covered in more detail in class
+     than in the posted notes.
+     <ul>
+<li><a href="notes/multiplication.pdf">Multiplication</a> (Jan 23)</li>
+<li><a href="notes/fibonacci.pdf">Fibonacci numbers</a> (Jan 28)</li>
+<li><a href="notes/intervalscheduling.pdf">Interval Scheduling</a> (Jan 30)</li>
+<li>Dynamic Programming: <a href="notes/dp1.pdf">intro</a>, <a href="notes/dp-lis.pdf">longest increasing subsequence</a>, knapsack (Feb 4-13)</li>
+<li><a href="notes/bfs-dfs.pdf">BFS and DFS</a> (February 18)</li>
+<li>Shortest Paths: <a href="notes/sssp-bellman.pdf">Bellman Ford</a>, <a href="notes/dijkstra.pdf">Dijkstra</a> (February 27)</li>
+<li><a href="notes/network-flow.pdf">Network Flow and Minimum Cut</a> (March 11,13,25)</li>
+<li><a href="notes/linear-programming.pdf">Linear Programming</a> (March 27, April 1, 8)</li>
+<li>For NP-hardness, see <a href="http://jeffe.cs.illinois.edu/teaching/algorithms/book/12-nphard.pdf">Jeff Erickson's book</a> (April 10,15,17)</li>
+<li><a href="notes/computability.pdf">Computability</a> (April 22)</li>
+<li><a href="notes/approximation-algorithms.pdf">Approximation Algorithms</a> (April 24)</li>
+</ul>
+</td>
+</tr>
+<tr valign="top">
+<td><b>Content:</b></td>
+<td>
+     This honors undergraduate course will cover the basics of
+     algorithms.  The tentative outline for the course is as follows,
+     with one week per topic:
+     <ul>
+<li>Introduction: interval scheduling</li>
+<li>Basic dynamic programming</li>
+<li>Advanced dynamic programming</li>
+<li>Introduction to graphs; Test 1</li>
+<li>Shortest paths, minimum spanning trees</li>
+<li>Network flows, maximum matching, and minimum cut</li>
+<li>Linear Programming</li>
+<li>Test 2; Randomized algorithms</li>
+<li>Approximation algorithms</li>
+<li>NP-completeness</li>
+<li>Hash tables</li>
+<li>Advanced topics</li>
+<!-- <li>Undecidability; halting problem</li> -->
+</ul>
+</td>
+</tr>
+<tr valign="top">
+<td><b>Prerequisites:</b></td>
+<td>
+      The following coursework with a grade of at least C-: CS 311,
+      311H, 313H, or 313K; CS 307, 314, 314H, 315, or 315H; CS 310,
+      310H, 429, or 429H; M362K or SSC321; credit with a grade of at
+      least C- or registration for M340L or SSC329C; and consent of
+      the honors director.
+    </td>
+</tr>
+<tr valign="top">
+<td><b>Grading:</b></td>
+<td>40%: Homework<br/>
+         30%: Two in-class exams<br/>
+         20%: Final exam<br/>
+         10%: Class attendance and participation
+         </td>
+</tr>
+<tr valign="top">
+<td><b>Key dates:</b></td>
+<td><ul><li>Exam 1: Wednesday, February 20.</li>
+<li>Exam 2 : Wednesday, April 3.</li>
+<li>Final exam: take-home between last two classes.</li>
+</ul></td></tr>
+<tr valign="top">
+<td><b>Text:</b></td>
+<td>There is no formal requirement of a textbook for this course.
+    You may benefit from
+    referencing <a href="https://en.wikipedia.org/wiki/Introduction_to_Algorithms">Introduction
+    to Algorithms</a> by Cormen, Leiserson, Rivest, and Stein,
+    or <a href="http://jeffe.cs.illinois.edu/teaching/algorithms/">Jeff
+    Erickson's notes</a>.
+    </td></tr>
+<tr valign="top">
+<td><b>Homework <br/>policy:</b></td>
+<td>
+          There will be a homework assignment every week.<br/><br/>
+<em>Collaboration policy</em>: You are encouraged to
+        collaborate on homework.  However, you must write up your own
+        solutions.  You should also state the names of those you
+        collaborated with on the first page of your submission.
+        </td></tr>
+<tr valign="top">
+<td><b>
+Students with <br/>
+Disabilites:
+    </b></td>
+<td>Any student with a documented disability (physical or
+    cognitive) who requires academic accommodations should contact the
+    Services for Students with Disabilities area of the Office of the
+    Dean of Students at 471-6259 (voice) or 471-4641 (TTY for users
+    who are deaf or hard of hearing) as soon as possible to request an
+    official letter outlining authorized accommodations.
+</td></tr>
+<tr valign="top">
+<td><b>
+<b>Additional Class Policies</b></b><p>
+</p></td><td>
+You should read the
+<a href="http://www.cs.utexas.edu/users/ear/CodeOfConduct.html">CS Department Code of Conduct</a>.  The policies described there will be followed in this class.
+</td>
+</tr>
+</table>
+<hr/>
+</body></html>

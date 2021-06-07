@@ -1,0 +1,1164 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Soft String 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20140101
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Slawek Lasota's homepage</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<!--link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900|Quicksand:400,700|Questrial" rel="stylesheet" /-->
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+<link rel="shortcut icon" href="" />
+</head>
+
+
+<body>
+<div id="header-wrapper">
+<div id="header-wrapper2">
+    <div id="header" class="container">
+        <div id="logo">
+            <h1><a href="#">Sławek Lasota</a></h1>
+        </div>
+        <div id="menu">
+            <ul>
+                <!--li class="current_page_item"><a href="#" accesskey="1" title="">Homepage</a></li-->
+                <li><a href="#teaching" accesskey="1" title="">teaching</a></li>
+                <li><a href="#papers" accesskey="2" title="">papers</a></li>
+                <li><a href="#slides" accesskey="3" title="">slides</a></li>
+                <li><a href="#pc" accesskey="3" title="">PC participation</a></li>
+                <li><a href="#invited" accesskey="3" title="">invited talks</a></li>
+                <li><a href="#projects" accesskey="4" title="">projects</a></li>
+                <li><a href="#contact" accesskey="5" title="">contact</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<div id="page-wrapper">
+    <div id="page" class="container">
+
+        <div id="sidebar">
+            <div class="title">
+	        <img src="sl.jpg" alt="me" style="width:220px;">  
+            </div>
+
+            <div class="title">
+                <h2><font color="#E85D4B">Positions</font></h2>
+            <font color="#E85D4B">
+	    <p>I offer a fully-funded <strong>PhD position</strong> within the NCN grant
+               <em>Data-enriched models of computation</em>. 
+            <a href="2020-PhD-recr.pdf">Here are further details.</a>
+<!--	    Further details (in Polish):
+	    <ul>
+	      <li>&nbsp; &nbsp; &nbsp; &nbsp; &#8226;&nbsp;<a href="https://www.mimuw.edu.pl/stypendium-studenckie-w-projekcie-ncn-automatyczna-analiza-systemow-wspolbieznych">MS scholarships</a>
+	    </ul>
+	    Please contact me if you are interested!
+-->
+            </font>
+	    </div>
+            <br/>
+
+            <div class="title">
+                <h2>About me</h2>
+            <p>I am a professor in the 
+                 <a href="http://automataseminar.wikispaces.com/">Automata theory group</a>
+                 at the <A HREF="http://www.mimuw.edu.pl/english">Faculty of Mathematics, Informatics and Mechanics</A>,
+                 <A href="http://www.uw.edu.pl">University of Warsaw</a>.</p>
+                 <p>My research areas are: &nbsp; automata theory, concurrency theory, formal verification, systems biology.
+                 <p>Here is <a href="http://atoms.mimuw.edu.pl">the blog on computation with atoms</a>. 
+            </p>
+            </div>
+            <br/>
+
+
+            <a name="contact" id="contact"></a>
+            <div class="title">
+                <h2>Contact</h2>
+            <p><dt>E-mail: &nbsp; <tt>sl at mimuw edu pl</tt></dt>
+               <dt>Phone: &nbsp; <tt>+48 22 5544566</tt></dt>
+               <dt>Office hours: &nbsp; Wednesdays, 16:00--17:30, office 5660</dt>
+            <p/>
+            </div>
+            <br/>
+
+            
+            <a name="teaching" id="teaching"></a>
+            <div class="title">
+                <h2>Current teaching</h2>
+
+            <ul class="default">
+                <li>Masters seminar <a href="http://www.mimuw.edu.pl/~sl/teaching/SEMLOG/">Logic and theory of computation</a></li>
+		<li>Tutorials on <a href="https://www.mimuw.edu.pl/~parys/?dir=teaching/zlo2020">Complexity theory</a></li>
+            </ul>
+            </div>
+            <br/>
+
+
+            <a name="past teaching" id="past teaching"></a>
+            <div class="title">
+                <h2>Past teaching</h2>
+
+            <ul class="default">
+                <li>lecture <a href="http://www.mimuw.edu.pl/~sl/teaching/18_19/ISS">Infinite-state systems</a> (2018/19)
+<!--                    <li>&nbsp; &nbsp; &nbsp; &nbsp; &#8226;&nbsp;<a href="http://www.mimuw.edu.pl/~sl/teaching/16_17/Kosaraju.pdf">a note on VASS reachability</a></li> 
+-->
+                <li>lecture <a href="http://www.mimuw.edu.pl/~bojan/20162017-2/infinite-alphabets">Infinite alphabets</a> (2016/17)
+                    (together with <a href="http://www.mimuw.edu.pl/~bojan">Mikołaj Bojańczyk</a>)</li>
+		<ul>
+                    <li>&nbsp; &nbsp; &nbsp; &nbsp; &#8226;&nbsp;<a href="http://www.mimuw.edu.pl/~bojan/20162017-2/infinite-alphabets/lecture-notes">reading notes</a></li> 
+		<ul>
+                    <li>&nbsp; &nbsp; &nbsp; &nbsp; &#8226;&nbsp;<a href="http://www.mimuw.edu.pl/~sl/teaching/16_17/homework-atoms.pdf">homework on atoms</a></li> 
+		</ul>
+                <li>lecture <a href="teaching/15_16/JAiO">Languages, automata and computation</a> (2015/16) </li> 
+                <li>lecture <a href="teaching/15_16/WWK">Computer aided verification</a> (2015/16) 
+		<ul>
+                    <li>&nbsp; &nbsp; &nbsp; &nbsp; &#8226;&nbsp;<a href="teaching/15_16/WWK/WWK-ad.pdf">advertising slides</a></li> 
+		</ul>
+	        <li><a href="http://www.mimuw.edu.pl/~urzy/Pmat/">Foundations of mathematics</a> (2015/16)</li>
+                <li>lecture <a href="teaching/13_14/ATW">Algorithmic concurrency theory</a> (2013/14)</li>
+                <li> lab <a href="http://www.mimuw.edu.pl/~krzadca">Concurrent and distributed programming</a> (2013/14):
+                    <ul>
+                    <li>&nbsp; &nbsp; &nbsp; &nbsp; &#8226;&nbsp;<a href="teaching/13_14/PWiR/02-spin/index.htm">lab 02</a>, 
+                        &nbsp;<a href="teaching/13_14/PWiR/zadanie1/index.htm">zadanie 1</a>,
+                        &nbsp;<a href="teaching/13_14/PWiR/03-spin/index.htm">lab 03</a>
+                    </ul>
+                <li>lecture <a href="teaching/11_12/MC-Intro">Introduction to model-checking</a> (2013)</li>
+                <li>Masters seminar  <a href="teaching/SEMNIEZ">Reliability of concurrent and object-oriented systems</a></li>
+                <li>lecture <a href="teaching/12_13/W">Concurrency</a> (2012/13)</li>
+                <li>lecture <a href="teaching/11_12/PDSN">Decision problems for infinite-state systems</a> (2011/12)</li>
+		<li><a href="teaching/13_14/index.html">earlier teaching</a>
+            </ul>
+            </div>
+            <br/>
+
+
+            <a name="events" id="invited"></a>
+            <div class="title">
+                <h2>Invited talks</h2>
+
+            <ul class="default">
+	        <li> <a href="https://acpn2020.mat.umk.pl/">6th Advanced Course on Petri Nets 2020</a>
+	        <li> <a href="https://infinity.mpi-sws.org">Infinity'20</a>
+	        <li> <a href="https://sites.uclouvain.be/rp2019/">Reachability Problems'19</a>
+	        <li> <a href="https://www.mimuw.edu.pl/~fopss19/">3rd School on Foundations of Programming and Software Systems on Nominal Techniques</a>
+	        <li> <a href="https://www.cse.iitb.ac.in/~krishnas/averts2016/index.html">AVeRTS'16</a>
+	        <li> <a href="http://pn2016.mat.umk.pl/">PN'16 / ACSD'16</a> 
+		<li> <a href="http://user.it.uu.se/~aiscy966/Infinity2015/main.html">Infinity'15</a> 
+                <li> <a href="http://fmi.unibuc.ro/CiE2015/sessions.html">CiE'15, special session on automata, logic and infinite games</a> 
+                <li> <a href="http://www2.warwick.ac.uk/fac/cross_fac/dimap/events/dimap-logic-day-2015/">DIMAP Logic Day 2015</a> 
+                <li> <a href="http://basics.sjtu.edu.cn/summer_school/basics13/">Basics 2013 Summer School on Verification on Infinite State Systems</a>
+                <li> <a href="http://www.informatik.uni-bremen.de/~goeller/AISS12/Algorithmics_on_Infinite-State_Systems.html">Algorithmics on Infinite State Systems AISS 2012</a> 
+            </ul>
+            </div>
+            <br/>
+
+            <a name="events" id="cs"></a>
+            <div class="title">
+                <h2>Community service</h2>
+            <ul class="default">
+	        <li> managing editor of <a href="http://fi.mimuw.edu.pl/index.php/FI">Fundamenta Informaticae</a> (2018-)
+	        <li> member of <a href="http://eatcs.org/index.php/council">EATCS Council</a> (2019-)
+	        <li> member of <a href="https://www.rdn.gov.pl/">Rada Doskonałości Naukowej</a> (2019-)
+            </ul>
+
+            </div>
+            <br/>
+
+            <a name="events" id="pc"></a>
+            <div class="title">
+                <h2>PC participation</h2>
+
+	    <p>
+                <a href="">CSL'21</a>,
+                <a href="https://www.irif.fr/~rp2020/">RP'20</a>,
+                <a href="http://ciaa2020.lboro.ac.uk/">CIAA'20</a>,
+                <a href="https://di.ulb.ac.be/verif/gandalf2020/">GandALF'20</a>,
+                <a href="https://www.etaps.org/2020/fossacs">FoSSaCS'20</a>,
+                <a href="https://gandalf2019.sciencesconf.org/">GandALF'19</a>,
+                <a href="http://lics.siglog.org/lics19/">LICS'19</a>,
+                <a href="https://rp2018.lis-lab.fr">RP'18</a>,
+	        <a href="https://www.benedikt-bollig.org/movep-2018">MOVEP'18</a>,
+	        <a href="http://events.cs.bham.ac.uk/csl18/">CSL'18</a>,
+	        <a href="http://latin2018.dc.uba.ar/">LATIN'18</a>,
+	        <a href="http://mfcs2017.cs.aau.dk/">MFCS'17</a>,
+                <a href="http://www.etaps.org/index.php/2017/fossacs">FoSSaCS'17</a>,
+                <a href="http://www.fsttcs.org/">FSTTCS'16</a>, 
+                <a href="http://rp16.cs.aau.dk">RP'16</a>,
+                <a href="http://mfcs.ki.agh.edu.pl/">MFCS'16</a>,
+                <a href="http://www.stacs-conf.org/">STACS'16</a>,
+                <a href="http://rp2015.mimuw.edu.pl/">RP'15</a> (PC co-chair and co-organizer),
+                <a href="http://highlights-conference.org/">Highlights'15</a>,
+                <a href="http://www.etaps.org/index.php/2015/fossacs"> FoSSaCS'15</a>,
+                <a href="http://icalp2014.itu.dk/">ICALP'14</a>,
+                <a href="http://www.etaps.org/index.php/2014/fossacs">FoSSaCS'14</a>,
+                <a href="http://www.win.tue.nl/expresssos2013/">Express/SOS'13</a>,
+                <a href="http://dlt2013.sciencesconf.org/">DLT'13</a>,
+                <a href="http://www.mimuw.edu.pl/~klin/nsmat12/">Nominal sets meet automata theory</a> (co-organizer),   
+                <a href=" http://www.csc.liv.ac.uk/~rp2010/">RP'10</a>, 
+                <a href="http://iis.ipipan.waw.pl">IIS'10</a>,
+                <a href="http://www.dsi.uniroma1.it/~gorla/EXPRESS09/">Express'09</a>.
+	    </p>
+            </div>
+            <br/>
+
+
+            <div class="title">
+                <h2>PhD students</h2>
+
+            <ul class="default">
+	        <li><a href="">Mohnish Pattathurajan</a> (2018-)</li>
+	        <li><a href="http://mimuw.edu.pl/~rp">Radosław Piórkowski</a> (2017-)</li>
+		<li><a href="">Robert Bartold</a> (2017-)</li>
+                <!-- <li><a href="">Marek Grabowski</a> (2009-)</li> -->
+                <li><a href="http://www.mimuw.edu.pl/~ph209519/">Piotr Hofman</a> (2009-2013)</li>
+                <li><a href="http://www.mimuw.edu.pl/~wczerwin/">Wojciech Czerwiński</a> (2008-2012)</li> 
+            </ul>
+            </div>
+            <br/>
+
+
+            <a name="projects" id="projects"></a>
+            <div class="title">
+                <h2>Current projects</h2>
+
+            <ul class="default">
+	        <li> <em><a href="">Data-enriched models of computation</a></em>, NCN grant 2019/35/B/ST6/02322 &#8226; coordinator
+	        <li> <em><a href="">Automatic analysis of concurrent systems</a></em>, NCN grant 2017/27/B/ST6/02093 &#8226; coordinator
+		<li>ERC project <em><a href="https://www.mimuw.edu.pl/~bojan/lipa">Lipa</a></em> (grant agreement No. 683080) &#8226; participant
+            </ul>
+            </div>
+            <br/>
+
+
+            <div class="title">
+                <h2>Past projects</h2>
+
+            <ul class="default">
+	        <li> <em><a href="">Symbolic computations on first-order definable objects</a></em>,
+                    NCN grant 2016/21/B/ST6/01505 &#8226; coordinator
+                <li> <em><a href="">Frontiers of automatic verification: new methods of analysis of infinite-state systems</a></em>, 
+                    NCN grant 2013/09/B/ST6/01575 &#8226; coordinator
+                <li> <em><a href="">New notion of finiteness in theory of computation</a></em>, NCN grant 2012/07/B/ST6/01497  &#8226; participant
+                <li> <em><a href="http://www.mimuw.edu.pl/~ph209519/GRANT_AUTOMATOWY/">New models of automata</a></em>, 
+                    Polish Ministry of Science grant nr N N206 567840
+                    (<a href="https://sites.google.com/site/automatagrant/">web page</a>)  &#8226; coordinator
+                <li> <em>Foundations of XML</em> - <a href="http://fox7.eu/">FOX</a>,
+                    ERC networking programme FP7-ICT-233599 &#8226; participant
+                <li> <em><a href="">Modelowanie matematyczne i analiza algorytmiczna molekularnych szlaków sygnalowych</a></em>,
+                    Polish government grant N N206 356036 &#8226; coordinator
+                <li> European Science Foundation project <em>Games for Design and Verification</em>
+                    <a href="http://www.games.rwth-aachen.de/">GAMES</a> &#8226; participant
+                <li> <em><a href="">Zaawansowane problemy teorii automatów</a>,</em>
+                    Polish government grant N206 008 32/0810 &#8226; participant
+                <li> EU-FET-IP <em>Software Engineering for Service-Oriented Overlay Computers</em>
+                    <a href="http://sensoria.fast.de/">SENSORIA</a> &#8226; participant
+                <li> <em><a href="">Identification and analysis of transposable sequences in plant genomes</a>,</em>
+                    Polish goverment grant N301 036 31/1203 &#8226; participant
+                <li> European Community RTN <em>Games and Automata for Synthesis and Validation</em>
+                    <a href="http://www.games.rwth-aachen.de/History/">GAMES</a> &#8226; participant
+                <li> <em>Architectures for Mobility</em>
+                    <a href="http://www.pst.informatik.uni-muenchen.de/projekte/agile/index-e.html">AGILE</a> &#8226; participant
+                <li> <em>Weryfikacja i zapytania dotyczace struktur z danymi</em>, Polonium project &#8226; participant
+            </ul>
+            </div>
+
+            <a href="#" class="button button-small">To the top</a>
+        </div>
+
+
+        <div id="content">
+            <a name="slides" id="slides"></a>
+            <div class="title">
+                <h2>Slides</h2>
+
+            <ul class="default">
+	      <li> <a href="SLIDES/2020-07-Infinity.pdf">Lower bounds for reachability in VASS in fixed dimension</a>
+	      <li> <a href="SLIDES/I-sets.pdf">Computation theory with atoms I</a>
+	      <li> <a href="SLIDES/II-computation-models.pdf">Computation theory with atoms II</a>
+	      <li> <a href="SLIDES/Brussels.2019.09.pdf">The reachability problem for Petri nets is not elementary</a>
+	      <li> <a href="SLIDES/Chennai.2016.12-tpda.pdf">Timed pushdown automata and branching vector addition systems</a>
+	      <li> <a href="SLIDES/Chennai.2016.12-hom-def.pdf">Homomorphism problems for FO definable structures</a>
+	      <li> <a href="SLIDES/Torun.2016.06.pdf">Decidability border for Petri nets with data: WQO dichotomy conjecture</a>
+	      <li> <a href="SLIDES/Bengaluru.2015.12.pdf">Automata with timed atoms</a>
+	      <li> <a href="SLIDES/Bucarest.2015.07.pdf">Reachability analysis of first-order definable pushdown automata</a>
+              <li> <a href="SLIDES/lsv.2014.07.pdf">Computation with atoms</a>
+              <li> <a href="SLIDES/dagstuhl.2014.04.pdf">Turing machines over infinite alphabets</a>
+              <li> <a href="SLIDES/basics13.2013.08.pdf">Fast bisimulation-checking for normed context-free processes</a>
+            </ul>
+            </div>
+	    <br/>
+
+            <a name="papers" id="papers"></a>
+            <div class="title">
+                <h2>Papers</h2>
+
+                (see also my <a href="https://dblp.uni-trier.de/pers/hd/l/Lasota_0001:Slawomir">DBLP entry</a></dt>
+                or my <a href="http://www.ncbi.nlm.nih.gov/sites/entrez?db=pubmed&cmd=DetailsSearch&term=Lasota,+Slawomir&log$=activity">PubMed entry</a>
+                or my <a href="https://arxiv.org/search/?query=Lasota+S%C5%82awomir&searchtype=author&abstracts=show&order=-announced_date_first&size=50">Arxiv reports</a> 
+                or my <a href="#reports">other technical reports</a> below
+	        or my <a href="https://orcid.org/0000-0001-8674-4470">ORCID</a>
+	        or my <a href="https://www.scopus.com/authid/detail.uri?authorId=8987815500">Scopus entry</a>)
+            </div>
+            <ul class="default">
+
+<li> L. Clemente, S. Lasota, R. Piórkowski,
+<b>Determinizability of one-clock timed automata. </b> CONCUR'20.
+<br/>
+<tt>[<a href="https://drops.dagstuhl.de/opus/volltexte/2020/12854/pdf/LIPIcs-CONCUR-2020-42.pdf"> on-line version </a>]</tt>
+<tt>[<a href="https://arxiv.org/abs/2007.09340"> arXiv report </a>]</tt>
+<p/>
+
+<li> W. Czerwiński, S. Lasota, R. Lazic, J. Leroux, F. Mazowiecki,
+<b>Reachability in fixed dimension vector addition systems with states.</b> CONCUR'20.
+<br/>
+<tt>[<a href="https://drops.dagstuhl.de/opus/volltexte/2020/12854/pdf/LIPIcs-CONCUR-2020-48.pdf"> on-line version </a>]</tt>
+<tt>[<a href="https://arxiv.org/abs/2001.04327"> arXiv report </a>]</tt>
+<p/>
+
+<li> L. Clemente, S. Lasota, R. Piórkowski,
+<b>Timed games and deterministic separability. </b> ICALP'20.
+<br/>
+<tt>[<a href="https://drops.dagstuhl.de/opus/volltexte/2020/12528/pdf/LIPIcs-ICALP-2020-121.pdf"> on-line version </a>]</tt>
+<tt>[<a href="https://arxiv.org/abs/2004.12868"> arXiv report </a>]</tt>
+<p/>
+
+<li> S. Lasota, R. Piórkowski,
+<b> WQO dichotomy for 3-graphs. </b> 
+<em>Information and Computation</em>, accepted.
+<br>
+<tt>[<a href="https://www.sciencedirect.com/science/article/abs/pii/S0890540120300298"> on-line version </a>]</tt>
+<tt>[<a href="https://arxiv.org/abs/1802.07612"> arXiv report </a>]</tt>
+<p/>
+
+
+<li> K. Keshvardoost, B.Klin, S.Lasota, J.Ochremiak, Sz. Toruńczyk, 
+<b> Definable isomorphism problem. </b> 
+<em>Logical Methods in Computer Science</em> 15(4), 2019.
+<br/>
+<tt>[<a href="https://lmcs.episciences.org/5963"> on-line version </a>]</tt>
+<tt>[<a href="https://arxiv.org/abs/1802.08500"> arXiv report </a>]</tt>
+
+
+<li> W. Czerwiński, S. Lasota, C. Löding, R. Piórkowski,
+<b> New Pumping Technique for 2-Dimensional VASS. </b> MFCS'19.
+<br/>
+<tt>[<a href="https://drops.dagstuhl.de/opus/volltexte/2019/11006/pdf/LIPIcs-MFCS-2019-62.pdf"> on-line version </a>]</tt>
+<tt>[<a href="https://arxiv.org/abs/1906.10494"> arXiv report </a>]</tt>
+<p/>
+
+<li> W. Czerwiński, S. Lasota, R. Lazic, J. Leroux, F. Mazowiecki,
+<b>The Reachability Problem for Petri Nets is Not Elementary.</b> STOC'19. 
+<font color="#E85D4B">BEST PAPER AWARD.</font>
+<br/>
+<tt>[<a href="PAPERS/stoc19.pdf" > PDF </a>]</tt>
+<tt>[<a href="http://arxiv.org/abs/1809.07115"> arXiv report </a>]</tt>
+<p/>
+
+<li> L. Clemente, S. Lasota, R. Lazic, F. Mazowiecki,
+<b>Binary reachability of timed-register pushdown automata, and branching vector addition systems. </b> 
+<em>ACM Transactions on Computational Logic</em> 20(3), 2019.
+<br/>
+<tt>[<a href="PAPERS/tocl19.pdf" > PDF </a>]</tt>
+<p/>
+
+<li> W. Czerwiński, S. Lasota, 
+<b> Regular separability of one counter automata. </b>
+<em>Logical Methods in Computer Science</em> 15(2), 2019.
+<br/>
+<tt>[<a href="https://lmcs.episciences.org/5563"> on-line version </a>]</tt>
+<tt>[<a href="https://arxiv.org/abs/1701.02808"> arXiv report </a>]</tt>
+<p/>
+
+<li> S. Lasota, 
+<b>VASS reachability in three steps.</b>
+<br/>
+<tt>[<a href="https://arxiv.org/abs/1812.11966"> arXiv report </a>]</tt>
+<p/>
+
+<li> W. Czerwiński, S. Lasota, R. Meyer, S. Muskalla, K Narayan Kumar, P. Saivasan,
+<b>Regular Separability of Well Structured Transition Systems. </b> CONCUR'18.
+<br/>
+<tt>[<a href="https://drops.dagstuhl.de/opus/volltexte/2018/9573/pdf/LIPIcs-CONCUR-2018-35.pdf"> on-line version </a>]</tt>
+<tt>[<a href="https://arxiv.org/abs/1702.05334"> arXiv report </a>]</tt>
+<p/>
+
+<li> P. Hofman, S. Lasota,
+<b>Linear Equations with Ordered Data. </b> CONCUR'18.
+<br/>
+<tt>[<a href="https://drops.dagstuhl.de/opus/volltexte/2018/9562/pdf/LIPIcs-CONCUR-2018-24.pdf"> on-line version </a>]</tt>
+<tt>[<a href="https://arxiv.org/abs/1802.06660"> arXiv report </a>]</tt>
+<p/>
+
+<li> L. Clemente, S. Lasota,
+<b>Binary reachability of timed pushdown automata via quantifier elimination and cyclic order atoms. </b> ICALP'18.
+<br/>
+<tt>[<a href="https://drops.dagstuhl.de/opus/volltexte/2018/9122/pdf/LIPIcs-ICALP-2018-118.pdf"> on-line version </a>]</tt>
+<tt>[<a href="https://arxiv.org/abs/1804.10772"> arXiv report </a>]</tt>
+<p/>
+
+<li> S. Lasota, R. Piórkowski,
+<b> WQO dichotomy for 3-graphs. </b> FOSSACS'18.
+<br>
+<tt>[<a href="PAPERS/fossacs18.pdf" > PDF </a>]</tt>
+<tt>[<a href="https://arxiv.org/abs/1802.07612"> arXiv report </a>]</tt>
+<p/>
+
+<li> L. Clemente, W. Czerwiński, S. Lasota, C. Paperman,
+<b> Regular Separability of Parikh Automata. </b> ICALP'17.
+<br>
+<tt>[<a href="PAPERS/icalp17.pdf" > PDF </a>]</tt>
+<tt>[<a href="https://arxiv.org/abs/1612.06233"> arXiv report </a>]</tt>
+<p/>
+
+<li> W. Czerwiński, S. Lasota, 
+<b> Regular separability of one counter automata. </b> LICS'17.
+<br>
+<tt>[<a href="PAPERS/lics17-oca.pdf" > PDF </a>]</tt>
+<tt>[<a href="https://arxiv.org/abs/1701.02808"> arXiv report </a>]</tt>
+<p/>
+
+<li> L. Clemente, S. Lasota, R. Lazic, F. Mazowiecki,
+<b>Timed pushdown automata and branching vector addition systems. </b> LICS'17.
+<br/>
+<tt>[<a href="PAPERS/lics17-tpda.pdf" > PDF </a>]</tt>
+<p/>
+
+<li> L. Clemente, W. Czerwiński, S. Lasota, C. Paperman,
+<b> Separability of Reachability Sets of Vector Addition Systems. </b> STACS'17.
+<br>
+<tt>[<a href="PAPERS/stacs17.pdf" > PDF </a>]</tt>
+<tt>[<a href="https://arxiv.org/abs/1609.00214"> arXiv report </a>]</tt>
+<p/>
+
+<li> B. Klin, S. Lasota, J. Ochremiak, Sz. Toruńczyk,
+<b> Homomorphism problems for first-order definable structures. </b> FSTTCS'16.
+<br>
+<tt>[<a href="PAPERS/fsttcs16.pdf" > PDF </a>]</tt>
+<p/>
+
+<li> S. Lasota,
+<b> Equivariant algorithms for constraint satisfaction problems over coset templates. </b>
+<em>Information Processing Letters</em> 118, 2017.
+<br>
+<tt>[<a href="http://arxiv.org/abs/1412.4020"> arXiv report </a>]</tt>
+<tt>[<a href="http://dx.doi.org/10.1016/j.ipl.2016.09.009"> on-line version </a>]</tt>
+<!--http://www.sciencedirect.com/science/article/pii/S0020019016301363"-->
+<a href="http://www.elsevier.com"> @Elsevier </a>
+<br>
+<p/>
+
+<li> S. Lasota, 
+<b> Decidability border for Petri nets with data: WQO dichotomy conjecture. </b> 
+Petri Nets'16.
+<br/>
+<tt>[<a href="PAPERS/pn16.pdf" > PDF </a>]</tt>
+<p/>
+
+<li> P. Hofman, S. Lasota, R. Mayr, P. Totzke,
+<b> Simulation Problems Over One-Counter Nets. </b> 
+<em>Logical Methods in Computer Science</em> 12(1), 2016.
+<br/>
+<tt>[<a href="PAPERS/fsttcs13full.bibtex" > BibTex entry </a>]</tt>
+<tt>[<a href="http://arxiv.org/abs/1602.00476"> arXiv report </a>]</tt>
+<p/>
+
+<li> Lasota, S., Poturalski, M.,
+<b> Undecidability of performance equivalence of Petri nets. </b>
+<em>Theoretical Computer Science</em> 655 (part B), 2016.
+<br>
+<tt>[<a href="PAPERS/poturalski.bibtex" > BibTex entry </a>]</tt>
+<tt>[<a href="http://dx.doi.org/10.1016/j.tcs.2016.01.034"> on-line version </a>]</tt>
+<a href="http://www.elsevier.com"> @Elsevier </a>
+<p/>
+
+<li> P. Hofman, S. Lasota, R. Lazic, J. Leroux, S. Schmitz, P. Totzke,
+<b>Coverability Trees for Petri Nets with Unordered Data. </b> FOSSACS'16.
+<br/>
+<tt>[<a href="PAPERS/fossacs16.pdf" > PDF </a>]</tt>
+<tt>[<a href="PAPERS/fossacs16.bibtex" > BibTex entry </a>]</tt>
+<tt>[<a href="https://hal.inria.fr/hal-01252674"> full version </a>]</tt>
+<p/>
+
+<li> L. Clemente, S. Lasota,
+<b>Reachability analysis of first-order definable pushdown systems. </b> CSL'15.
+<br/>
+<tt>[<a href="PAPERS/csl15.pdf" > PDF </a>]</tt>
+<tt>[<a href="PAPERS/csl15.bibtex" > BibTex entry </a>]</tt>
+<tt>[<a href="http://arxiv.org/abs/1504.02651"> arXiv report </a>]</tt>
+<p/>
+
+<li> L. Clemente, S. Lasota,
+<b>Timed pushdown automata revisited. </b> LICS'15.
+<br/>
+<tt>[<a href="PAPERS/lics15.pdf" > PDF </a>]</tt>
+<tt>[<a href="PAPERS/lics15.bibtex" > BibTex entry </a>]</tt>
+<tt>[<a href="http://arxiv.org/abs/1503.02422"> arXiv report </a>]</tt>
+<p/>
+
+<li> B. Klin, S. Lasota, J. Ochremiak, Sz. Toruńczyk,
+<b> Turing Machines with Atoms, Constraint Satisfaction Problems, and Descriptive Complexity. </b> CSL/LICS'14.
+<br/>
+<tt>[<a href="PAPERS/lics14.pdf" > PDF </a>]</tt>
+<tt>[<a href="PAPERS/lics14.bibtex" > BibTex entry </a>]</tt>
+<p/>
+
+<li> G. Anielak, G. Jakacki, S. Lasota,
+<b> Incremental Test Case Generation Using Bounded Model Checking: an Application to Automatic Rating. </b>
+<em>International Journal on Software Tools for Technology Transfer</em> 17:339-349, 2015.
+<br/>
+<tt>[<a href="http://download-v2.springer.com/static/pdf/14/art%253A10.1007%252Fs10009-014-0317-2.pdf?token2=exp=1431983251~acl=%2Fstatic%2Fpdf%2F14%2Fart%25253A10.1007%25252Fs10009-014-0317-2.pdf*~hmac=f8da7840f5199792ac4d2daf500f1dbb4d7010bdf7a1c2f132be08ff7b03167e" > PDF </a>]</tt>
+<tt>[<a href="PAPERS/sttt14.bibtex" > BibTex entry </a>]</tt>
+<tt>[<a href="http://link.springer.com/article/10.1007/s10009-014-0317-2"> on-line version </a>]</tt>
+<p/>
+
+
+<li> W. Czerwiński, P. Hofman, S. Lasota,
+<b> Decidability of bisimulation on normed commutative context-free processes with silent moves. </b>
+<em>Theory of Computing Systems</em> 55(1):136-169, 2014.
+<br/>
+<tt>[<a href="PAPERS/concur11full.pdf" > PDF </a>]</tt>
+<tt>[<a href="PAPERS/concur11full.bibtex" > BibTex entry </a>]</tt>
+<tt>[<a href="http://link.springer.com/article/10.1007/s00224-013-9505-9/fulltext.html"> on-line version </a>]</tt>
+<p/>
+
+
+<li> M. Bojańczyk, B. Klin, S. Lasota,
+<b> Automata theory in nominal sets. </b>
+<em>Logical Methods in Computer Science</em> 10 (3:4), 2014.
+<br/>
+<tt>[<a href="PAPERS/lics11full.pdf" > PDF </a>]</tt>
+<tt>[<a href="PAPERS/lics11full.bibtex" > BibTex entry </a>]</tt> 
+<tt>[<a href="http://www.lmcs-online.org/ojs/viewarticle.php?id=1124&layout=abstract"> on-line version </a>]</tt>
+<p/>
+
+<li> D. Figueira, P. Hofman, S. Lasota,
+<b> Relating timed and register automata. </b>
+<em>Mathematical Structures in Computer Science</em> 26(6), 2016.
+<br/>
+<tt>[<a href="PAPERS/express10full.bibtex" > BibTex entry </a>]</tt>
+<tt>[<a href="http://journals.cambridge.org/repo_A94TtL06"> on-line version </a>]</tt>
+<!-- <tt>[<a href="http://journals.cambridge.org/article_S0960129514000322"> on-line version </a>]</tt> -->
+<a href="http://www.cambridge.org"> @Cambridge University Press </a>
+<p/>
+
+<li> P. Hofman, S. Lasota, R. Mayr, P. Totzke,
+<b> Simulation Over One-counter Nets is PSPACE-Complete. </b> FSTTCS'13.
+<br>
+<!-- <tt>[<a href="fsttcs13.pdf" > PDF </a>]</tt> -->
+<tt>[<a href="http://arxiv.org/abs/1310.6303" > arXiv report </a>]</tt>
+<tt>[<a href="PAPERS/fsttcs13.bibtex" > BibTex entry </a>]</tt>
+<p/>
+
+<li> M. Bojańczyk, B. Klin, S. Lasota, Sz. Toruńczyk,
+<b> Turing machines with atoms. </b> LICS'13.
+<br/>
+<tt>[<a href="PAPERS/lics13.pdf" > PDF </a>]</tt>
+<tt>[<a href="PAPERS/lics13.bibtex" > BibTex entry </a>]</tt>
+<p/>
+
+<li> A. Gambin, S. Lasota, M. Rybiński, Z. Szymańska,
+<b> Modelling the efficacy of hyperthermia treatment. </b>
+<em>Journal of the Royal Society Interface</em>, 10(88):20130527, 2013.
+<br/>
+<tt>[<a href="http://www.ncbi.nlm.nih.gov/pubmed/23985732"> on-line version </a>]</tt>
+<tt>[<a href="PAPERS/JRSI13.bibtex" > BibTex entry </a>]</tt>
+<p/>
+
+
+<li> W. Czerwiński, P. Hofman, S. Lasota,
+<b> Reachability problem for weak multi-pushdown automata. </b>
+<em>Logical Methods in Computer Science</em> 9 (3:13), 2013.
+<br/>
+<tt>[<a href="PAPERS/concur12full.pdf" > PDF </a>]</tt>
+<tt>[<a href="PAPERS/concur12full.bibtex" > BibTex entry </a>]</tt>
+<p/>
+
+<li> M. Bojańczyk, S. Lasota,
+<b> Fraenkel-Mostowski sets with non-homogeneous atoms. </b> RP'12.
+<br/>
+<tt>[<a href="PAPERS/rp12.pdf" > PDF </a>]</tt>
+<tt>[<a href="PAPERS/rp12.bibtex" > BibTex entry </a>]</tt>
+<p/>
+
+<li> W. Czerwiński, S. Lasota,
+<b> Partially-commutative context-free languages. </b> EXPRESS'12.
+<br>
+<!-- <tt>[<a href="express12.pdf" > PDF (full version) </a>]</tt> -->
+<tt>[<a href="PAPERS/express12.bibtex" > BibTex entry </a>]</tt>
+<tt>[<a href="http://cgi.cse.unsw.edu.au/~rvg/eptcs/paper.cgi?EXPRESSSOS12.4" > on-line version </a>]</tt>
+<p/>
+
+<li> W. Czerwiński, P. Hofman, S. Lasota,
+<b> Reachability problem for weak multi-pushdown automata. </b> CONCUR'12.
+<br>
+<tt>[<a href="PAPERS/concur12.pdf" > PDF (full version) </a>]</tt>
+<tt>[<a href="PAPERS/concur12.bibtex" > BibTex entry </a>]</tt>
+<p/>
+
+<li> M. Bojańczyk, S. Lasota,
+<b> A machine-independent characterization of timed languages. </b> ICALP'12.
+<br/>
+<tt>[<a href="PAPERS/icalp12.pdf" > PDF </a>]</tt>
+<tt>[<a href="PAPERS/icalp12.bibtex" > BibTex entry </a>]</tt>
+<p/>
+
+<li> M. Bojańczyk, L. Braud, B. Klin, S. Lasota,
+<b> Towards nominal computation. </b> POPL'12.
+<br/>
+<tt>[<a href="PAPERS/popl12.pdf" > PDF </a>]</tt>
+<tt>[<a href="PAPERS/popl12.bibtex" > BibTex entry </a>]</tt>
+<p/>
+
+<li> M. Bojańczyk, S. Lasota,
+<b> An extension of data automata that captures XPath. </b>
+<em>Logical Methods in Computer Science</em> 8 (1:5), 2012.
+<br/>
+<tt>[<a href="http://arxiv.org/pdf/1201.0597" > arXiv report </a>]</tt>
+<tt>[<a href="PAPERS/lmcs12.bibtex" > BibTex entry </a>]</tt>
+<tt>[<a href="http://www.lmcs-online.org/ojs/viewarticle.php?id=841&layout=abstract"> on-line version </a>]</tt>
+<p/>
+
+<li> P. Banasik, A. Gambin, S. Lasota, M. Lula, M. Rybiński,
+<b> Tav4SB: integrating tools for analysis of kinetic models of biological systems. </b>
+<em>BMC Systems Biology</em> 6:25, 2012.
+<br/>
+<tt>[<a href="http://www.biomedcentral.com/1752-0509/6/25"> on-line version </a>]</tt>
+<!-- <tt>[<a href="BMCSB12.pdf" > PDF </a>]</tt> -->
+<tt>[<a href="PAPERS/BMCSB12.bibtex" > BibTex entry </a>]</tt>
+<p/>
+
+
+<li> M. Startek, S. Lasota, M. Sykulski, A. Bulak, L. Noe, G. Kucherov, A. Gambin,
+<b> Efficient alternatives to PSI-BLAST. </b>
+<em>Bulletin of the Polish Academy of Sciences: Technical Sciences</em>, 60(3):495-505, 2012.
+<br/>
+<tt>[<a href="PAPERS/AltPSIBLAST.pdf"> PDF </a>]</tt>
+</p>
+
+<li> W. Czerwiński, P. Hofman, S. Lasota,
+<b> Decidability of branching bisimulation on normed commutative context-free processes. </b> CONCUR'11.
+<br>
+<tt>[<a href="PAPERS/concur11.pdf" > PDF (full version) </a>]</tt>
+<tt>[<a href="PAPERS/concur11.bibtex" > BibTex entry </a>]</tt>
+<a href="http://www.springer.de/comp/lncs/index.html"> @Springer-Verlag </a>
+<p/>
+
+<li> W. Czerwiński, S. Froeschle, S. Lasota,
+<b> Partially-commutative context-free processes: expressibility and tractability. </b>
+<em>Information and Computation</em> 209:782-798, 2011.
+<br>
+<tt>[<a href="PAPERS/IandC11.bibtex" > BibTex entry </a>]</tt>
+<tt>[<a href="http://dx.doi.org/10.1016/j.ic.2010.12.003">on-line version </a>]</tt>
+<a href="http://www.elsevier.com"> @Elsevier </a>
+<p/>
+
+<li> M. Rybiński, M. Lula, S. Lasota, A. Gambin,
+<b> Tav4SB: grid environment for analysis of kinetic models of biological systems. </b> ISBRA'11 Short Abstract.
+<br/>
+<tt>[<a href="PAPERS/ISBRA2011ShortAbstracts.pdf"> PDF </a>]</tt>
+<tt>[<a href="PAPERS/isbra11.bibtex" > BibTex entry </a>]</tt>
+<a href="http://www.springer.de/comp/lncs/index.html"> @Springer-Verlag </a>
+<p/>
+
+<li> M. Bojańczyk, B. Klin, S. Lasota,
+<b> Automata with group actions. </b> LICS'11.
+<br/>
+<tt>[<a href="PAPERS/lics11.pdf" > PDF </a>]</tt>
+<tt>[<a href="PAPERS/lics11.bibtex" > BibTex entry </a>]</tt>
+<p/>
+
+<li> A. Gambin, G. Kucherov, S. Lasota, L. Noe, M. Startek, M. Sykulski,
+<b> Subset seed extension to protein BLAST.</b> Bioinformatics'11.
+<br/>
+<tt>[<a href="PAPERS/seedblast.bibtex" > BibTex entry </a>]</tt>
+<tt>[<a href="http://hal.inria.fr/inria-00609791"> on-line version </a>]</tt>
+<p/>
+
+<li> W. Czerwiński, S. Lasota,
+<b> Fast equivalence-checking for normed context-free processes. </b> FSTTCS'10.
+<br/>
+<tt>[<a href="PAPERS/fsttcs10.pdf" > PDF </a>]</tt>
+<tt>[<a href="PAPERS/fsttcs10.bibtex" > BibTex entry </a>]</tt>
+<tt>[<a href="http://www.dagstuhl.de/dagpub/978-3-939897-23-1" > on-line version </a>]</tt>
+<p/>
+
+<li> D. Figueira, P. Hofman, S. Lasota,
+<b> Relating timed and register automata. </b> EXPRESS'10.
+<br/>
+<tt>[<a href="PAPERS/express10.pdf" > PDF </a>]</tt>
+<tt>[<a href="PAPERS/express10.bibtex" > BibTex entry </a>]</tt>
+<tt>[<a href="http://arxiv.org/abs/1011.6432v1"> arXiv report </a>]</tt>
+<p/>
+
+<li> M. Bojańczyk, S. Lasota,
+<b> An extension of data automata that captures XPath. </b> LICS'10.
+<br/>
+<tt>[<a href="PAPERS/lics10.pdf" > PDF (full version) </a>]</tt>
+<tt>[<a href="PAPERS/lics10.bibtex" > BibTex entry </a>]</tt>
+<p/>
+
+<li> S. Froeschle, P. Jancar, S. Lasota, Z.Sawa,                    
+<b> Non-Interleaving Bisimulation Equivalences on Basic Parallel Processes. </b>
+<em>Information and Computation</em> 208(1):42-62, 2010.
+<br>
+<tt>[<a href="PAPERS/IandC08.bibtex"> BibTex entry </a>]</tt>
+<tt>[<a href="http://dx.doi.org/10.1016/j.ic.2009.06.001"> on-line version </a>]</tt>
+<a href="http://www.elsevier.com"> @Elsevier </a>
+<br>
+<p/>
+
+<li> S. Lasota,
+<b> EXPSPACE lower bounds for the simulation preorder between a communication-free Petri net and a finite-state system. </b>
+<em>Information Processing Letters</em> 109:850-855, 2009.
+<br>
+<tt>[<a href="PAPERS/ipl09.pdf"> PDF </a>]</tt>
+<tt>[<a href="PAPERS/ipl09.bibtex"> BibTex entry </a>]</tt>
+<tt>[<a href="http://dx.doi.org/10.1016/j.ipl.2009.04.003"> on-line version </a>]</tt>
+<a href="http://www.elsevier.com"> @Elsevier </a>
+<br>
+<p/>
+
+<li> E. Furletova, A. Gambin, G. Kucherov, S. Lasota, L. Noe, M. Roytberg, E. Szczurek,
+<b> On subset seeds for protein alignment. </b>
+<em>IEEE/ACM Transactions on Computational Biology and Bioinformatics</em> 6(3):483-494, 2009.
+<br>
+<tt>[<a href="PAPERS/albio08full.bibtex"> BibTex entry </a>]</tt>
+<tt>[<a href="http://dx.doi.org/10.1109/TCBB.2009.4"> on-line version </a>]</tt>
+<a href="http://www.ieee.org"> @IEEE </a>
+<p/>
+
+<li> W. Czerwiński, S. Froeschle, S. Lasota,
+<b> Partially-commutative context-free processes. </b> CONCUR'09.
+<br>
+<tt>[<a href="PAPERS/concur09.pdf" > PDF </a>]</tt>
+<tt>[<a href="PAPERS/concur09.bibtex" > BibTex entry </a>]</tt>
+<tt>[<a href="PAPERS/concur09-slides.pdf" > slides (PDF) </a>]</tt>
+<a href="http://www.springer.de/comp/lncs/index.html"> @Springer-Verlag </a>
+<p/>
+
+<li> Froeschle, S., Lasota, S.
+<b> Normed Processes, Unique Decomposition, and Complexity of Bisimulation Equivalences. </b> INFINITY'06, ENTCS 239, 2009.
+<br>
+<tt>[<a href="PAPERS/infinity06-final.pdf" > PDF </a>]</tt>
+<tt>[<a href="PAPERS/infinity06.bibtex" > BibTex entry </a>]</tt>
+<tt>[<a href="http://dx.doi.org/10.1016/j.entcs.2009.05.028"> on-line version </a>]</tt>
+<a href="http://www.elsevier.com"> @Elsevier </a>
+<p/>
+
+<li> Goubault-Larrecq, J., Lasota, S., Nowak, D.
+<b> Logical Relations for Monadic Types. </b>
+<em> Mathematical Structures in Computer Science</em> 18(6):1169-1217, 2008.
+<br>
+<tt>[<a href="PAPERS/csl02full.bibtex" > BibTex entry </a>]</tt>
+<tt>[<a href=http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=2637872> on-line version </a>]</tt>
+<a href="http://www.cambridge.org"> @Cambridge University Press </a>
+<p/>
+
+
+<li> Lasota, S., Walukiewicz, I.
+<b> Alternating Timed Automata. </b>
+<em>ACM Transactions on Computational Logic</em> 9(2), Article 10, 2008.
+<br>
+<tt>[<a href="PAPERS/fossacs05-full.pdf" > PDF </a>]</tt>
+<tt>[<a href="PAPERS/tocl06.bibtex" > BibTex entry </a>]</tt>
+<!-- <tt>[<a href=http://www.acm.org/pubs/tocl/accepted/313lasota.pdf> on-line version </a>]</tt> -->
+<tt>[<a href=http://doi.acm.org/10.1145/1342991.1342994> on-line version </a>]</tt>
+<a href="http://www.acm.org"> @ACM </a>
+<p/>
+
+<li> E. Furletova, A. Gambin, G. Kucherov, S. Lasota, L. Noe, M. Roytberg, E. Szczurek.
+<b> Efficient seeding techniques for protein similarity search. </b>
+        Bioinformatics Research and Development (BIRD'08), Communications in Computer and Information Science.
+<br>
+<tt>[<a href="PAPERS/albio08.pdf"> PDF </a>]</tt>
+<tt>[<a href="PAPERS/albio08.bibtex"> BibTex entry </a>]</tt>
+<tt>[<a href="http://www.springerlink.com/content/m3560l36r573xjr5/"> on-line version </a>]</tt>
+<a href="http://www.springer.de/comp/lncs/index.html"> @Springer-Verlag </a>
+<p/>
+
+<li> Grzebelus, D., Lasota, S., Gambin, T., Kucherov, G., Gambin A.
+<b> Diversity and structure of PIF/Harbinger-like elements in the genome of Medicago truncatula. </b>
+<em>BMC Genomics</em> 8:409, 2007.
+<br>
+<!-- <tt>[<a href="bmc_genomics07.bibtex" > BibTex entry </a>]</tt> -->
+<tt>[<a href="http://www.biomedcentral.com/1471-2164/8/409"> on-line version </a>]</tt>
+<a href="http://www.biomedcentral.com"> @BioMed Central Ltd </a>
+<p/>
+
+<li> Froeschle, S., Lasota, S.
+<b>
+Causality Versus True-Concurrency.
+</b>
+<em>Theoretical Computer Science</em> 386:169-187, 2007.
+<br>
+<tt>[<a href="PAPERS/express05-full.bibtex" > BibTex entry </a>]</tt>
+<tt>[<a href="http://www.sciencedirect.com/science?_ob=MImg&_imagekey=B6V1G-4P8B11M-2-1&_cdi=5674&_user=3934946&_orig=search&_coverDate=07%2F24%2F2007&_sk=999999999&view=c&wchp=dGLzVzz-zSkWW&md5=19ca13e97577c04088342fee19c97578&ie=/sdarticle.pdf"> on-line version </a>]</tt>
+<a href="http://www.elsevier.com"> @Elsevier </a>
+<p/>
+
+<li> S. Lasota, D. Nowak and Y. Zhang.  
+<b> On completeness of logical relations for monadic types.</b>  ASIAN'06.
+<br>
+<tt>[<a href="PAPERS/asian06-short.pdf"> PDF </a>]</tt>
+<tt>[<a href="PAPERS/asian06.bibtex"> BibTex entry </a>]</tt>
+<tt>[<a href="http://www.springerlink.com/content/bt8447p21832n473/"> on-line version </a>]</tt>
+<a href="http://www.springer.de/comp/lncs/index.html"> @Springer-Verlag </a>
+<p/>
+
+<li>
+Lasota, S.
+<b> Decidability of Performance Equivalence for Basic Parallel Processes. </b>
+<em>Theoretical Computer Science</em> 360:172-192, 2006.
+<br>
+<tt>[<a href="PAPERS/tcs06.bibtex" > BibTex entry </a>]</tt>
+<!-- <tt>[<a href="http://dx.doi.org/10.1016/j.tcs.2006.02.020"> on-line version </a>]</tt> -->
+<!-- <tt>[<a href="http://www.sciencedirect.com/science?_ob=MImg&_imagekey=B6V1G-4JK4NRF-2-2&_cdi=5674&_user=3934946&_orig=search&_coverDate=08%2F21%2F2006&_sk=996399998&view=c&wchp=dGLzVzz-zSkWW&md5=8a627a32347e8ef841ac31f67913e4e1&ie=/sdarticle.pdf"> on-line version </a>]</tt>
+-->
+<a href="http://www.elsevier.com"> @Elsevier </a>
+<p/>
+
+<li>
+Gambin A., Lasota, S., Rutkowski, M.
+<b> Analyzing stationary states of gene regulatory network using Petri nets. </b>
+<em>In Silico Biology</em> 6, 0010, 2006.
+<br>
+<tt>[<a href="PAPERS/isb06.bibtex"> BibTex entry </a>]</tt>
+<tt>[<a href="http://www.bioinfo.de/isb/2006060010/"> on-line version </a>]</tt>
+<p/>
+
+<li> Lasota, S., Rytter, W.
+<b> Faster Algorithm for Bisimulation Equivalence of  Normed Context-Free  Processes. </b> MFCS'06.
+<br>
+<tt>[<a href="PAPERS/mfcs06.ps.gz" > gzipped postscript </a>]</tt>
+<tt>[<a href="PAPERS/mfcs06.pdf" > PDF </a>]</tt>
+<tt>[<a href="PAPERS/mfcs06.bibtex" > BibTex entry </a>]</tt>
+<tt>[<a href="http://www.springerlink.com/content/n27w3m44670v4561/"> on-line version </a>]</tt>
+<a href="http://www.springer.de/comp/lncs/index.html"> @Springer-Verlag </a>
+<p/>
+
+<li> Froeschle, S., Lasota, S.
+<b> Causality Versus True-Concurrency. </b> EXPRESS'05, ENTCS 154(3), 2006.
+<br>
+<tt>[<a href="PAPERS/express05.ps.gz" > gzipped postscript </a>]</tt>
+<tt>[<a href="PAPERS/express05.bibtex" > BibTex entry </a>]</tt>
+<tt>[<a href="http://dx.doi.org/10.1016/j.entcs.2006.05.003"> on-line version </a>]</tt>
+<a href="http://www.elsevier.com"> @Elsevier </a>
+<p/>
+
+<li> Froeschle, S., Lasota, S.
+<b> Decomposition and Complexity of Hereditary History Preserving Bisimulation on BPP. </b> CONCUR'05.
+<br>
+<tt>[<a href="PAPERS/concur05.ps.gz" > gzipped postscript </a>]</tt>
+<tt>[<a href="PAPERS/concur05.bibtex" > BibTex entry </a>]</tt>
+<a href="http://www.springer.de/comp/lncs/index.html"> @Springer-Verlag </a>
+<p/>
+
+<li> Lasota, S., Walukiewicz, I.
+<b> Alternating Timed Automata. </b> FOSSACS'05.
+<br>
+<tt>[<a href="PAPERS/fossacs05.ps.gz" > gzipped postscript </a>]</tt>
+<tt>[<a href="PAPERS/fossacs05.bibtex" > BibTex entry </a>]</tt>
+<a href="http://www.springer.de/comp/lncs/index.html"> @Springer-Verlag </a>
+<p/>
+
+<li> Koronacki, J., Lasota, S., Niemiro, W.
+<b> Position Emission Tomography by Markov Chain Monte Carlo with Auxiliary Variables. </b>
+<em>Pattern Recognition</em>  38(2):241-250, 2005.
+<br>
+<tt>[<a href="PAPERS/pr05.bibtex" > BibTex entry </a>]</tt>
+<tt>[<a href="http://www.sciencedirect.com/science?_ob=MImg&_imagekey=B6V14-4DCMDGR-2-R&_cdi=5664&_user=3934946&_orig=search&_coverDate=02%2F01%2F2005&_sk=999619997&view=c&wchp=dGLzVzz-zSkWW&md5=4bb957b29c1b2d5c2b38d32d0f8c05ed&ie=/sdarticle.pdf"> on-line version </a>]</tt>
+<a href="http://www.elsevier.com"> @Elsevier </a>
+<p/>
+
+<li> Gambin, A., Hidders, J., Kwaśnikowska, N., Lasota, S., Sroka, J., Tyszkiewicz, J., Van den Bussche, J. 
+<b> Well Constructed Workflows in Bioinformatics. </b> Workshop on Database Issues in Biological Databases (DBiBD 2005).
+<br>
+<p/>
+
+<li> Goubault-Larrecq, J., Lasota, S., Nowak, D., Zhang, Y. 
+<b> Complete lax logical relations for cryptographic lambda-calculi.</b>  CSL'04.
+<br>
+<tt>[<a href="PAPERS/csl04.ps.gz" > gzipped postscript </a>]</tt>
+<tt>[<a href="PAPERS/csl04.bibtex" > BibTex entry </a>]</tt>
+<a href="http://www.springer.de/comp/lncs/index.html"> @Springer-Verlag </a>
+<p/>
+
+<li> Lasota, S.
+<b> A Polynomial-Time Algorithm for Deciding True Concurrency Equivalences of Basic Parallel Processes. </b> MFCS'03.
+<br> 
+<tt>[<a href="PAPERS/mfcs03.ps.gz" > gzipped postscript </a>]</tt>
+<tt>[<a href="PAPERS/mfcs03_full.ps.gz" > gzipped postscript of the full version </a>]</tt>
+<tt>[<a href="PAPERS/mfcs03.bibtex" > BibTex entry </a>]</tt>
+<a href="http://www.springer.de/comp/lncs/index.html"> @Springer-Verlag </a>
+<p/>
+
+<li> 
+Lasota, S.,  Niemiro, W.
+<b> A Version of the Swandsen-Wang Algorithm for Restoration of Images Degraded by Poisson Noise. </b>
+<em>Pattern Recognition</em> 36(4):931-941, 2003.
+<br>
+<tt>[<a href="PAPERS/pr03.bibtex" > BibTex entry </a>]</tt>
+<tt>[<a href="http://www.sciencedirect.com/science?_ob=MImg&_imagekey=B6V14-4607YFW-1-77&_cdi=5664&_user=3934946&_orig=search&_coverDate=04%2F30%2F2003&_sk=999639995&view=c&wchp=dGLzVzz-zSkWW&md5=ba536e5cd9d2200234a64215380b8d5e&ie=/sdarticle.pdf"> on-line version </a>]</tt>
+<a href="http://www.elsevier.com"> @Elsevier </a>
+<p/>
+
+<li> Goubault-Larrecq, J., Lasota, S., Nowak, D.
+<b> Logical Relations for Monadic Types. </b> CSL'02.
+<br> 
+<tt>[<a href="PAPERS/csl02.ps.gz" > gzipped postscript </a>]</tt>
+<tt>[<a href="PAPERS/csl02.bibtex" > BibTex entry </a>]</tt>
+<a href="http://www.springer.de/comp/lncs/index.html"> @Springer-Verlag </a>
+<p/>
+
+<li> Lasota, S.
+<b> Decidability of strong bisimilarity for timed BPP. </b> CONCUR'02.
+<br> 
+<tt>[<a href="PAPERS/bistbpp.ps.gz" > gzipped postscript </a>]</tt>
+<tt>[<a href="PAPERS/bistbpp.bibtex" > BibTex entry </a>]</tt>
+<a href="http://www.springer.de/comp/lncs/index.html"> @Springer-Verlag </a>
+<p/>
+
+<li> Gambin, A., Lasota, S., Szklarczyk, R., Tiuryn, J., Tyszkiewicz, J.
+<b> Contextual Alignment of Biological Sequences. </b>
+Proc. ECCB'02, <em>Bioinformatics</em> 18:116-127, Oxford University Press, 2002.
+<br> 
+<tt>[<a href="PAPERS/eccb02.ps.gz" > gzipped postscript </a>]</tt>
+<tt>[<a href="PAPERS/eccb02.bibtex" > BibTex entry </a>]</tt>
+<p/>
+
+<li> 
+Lasota, S.
+<b> Coalgebra morphisms subsume open maps. </b>
+<em>Theoretical Computer Science</em> 280:123-135, 2002.
+<br>
+<tt>[<a href="PAPERS/tcs02.bibtex" > BibTex entry </a>]</tt>
+<tt>[<a href="http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6V1G-45VCGT6-6&_user=3934946&_coverDate=05%2F30%2F2002&_alid=627958110&_rdoc=31&_fmt=summary&_orig=search&_cdi=5674&_sort=d&_docanchor=&view=c&_ct=86&_acct=C000054122&_version=1&_urlVersion=0&_userid=3934946&md5=2c21b81de49c3872b24ece4f66b21303"> on-line version </a>]</tt>
+<a href="http://www.elsevier.com"> @Elsevier </a>
+<p/>
+
+<li>
+Dietzfelbinger, M., Gambin, A., Lasota, S.
+<b> On Different Models for Packet Flow in Multistage Interconnection Networks. </b> 
+<em>Fundamenta Informaticae</em> 46(4):287-314, 2001.
+<p/>
+
+<li> Lasota, S.
+<b> Behavioural constructor implementation for regular algebras. </b> LPAR'2000.
+<br> 
+<tt>[<a href="PAPERS/reg_imp.ps.gz" > gzipped postscript </a>]</tt>
+<a href="http://www.springer.de/comp/lncs/index.html"> @Springer-Verlag </a>
+<p/>
+
+<li> Lasota, S.
+<b> Finitary observations in regular algebras. </b> SOFSEM '2000.
+<br> 
+<tt>[<a href="PAPERS/reg_finit.ps.gz" > gzipped postscript </a>]</tt>
+<a href="http://www.springer.de/comp/lncs/index.html"> @Springer-Verlag </a>
+<p/>
+
+<li> Lasota, S.
+<b> Coalgebra morphisms subsume open maps (preliminary version). </b> CMCS'99, volume 19 of ENTCS, 1999.
+<br> 
+<tt>[<a href="PAPERS/open_coalg.ps.gz" > gzipped postscript </a>]</tt>
+<p/>
+
+<li> Lasota, S.
+<b> Weak Bisimilarity and Open Maps. </b> SOFSEM '98.
+<br> 
+<tt>[<a href="PAPERS/weak_bis.ps.gz" > gzipped postscript </a>]</tt>
+<a href="http://www.springer.de/comp/lncs/index.html"> @Springer-Verlag </a>
+<p/>
+
+<li> Lasota, S.
+<b> Partial-Congruence Factorization of Bisimilarity Induced by Open Maps. </b> ICALP'98.
+<br> 
+<tt>[<a href="PAPERS/beh_bis_full.ps.gz" > gzipped postscript of the full version </a>]</tt>
+<a href="http://www.springer.de/comp/lncs/index.html"> @Springer-Verlag </a>
+<p/>
+
+<li> Lasota, S.
+<b> Open Maps as a Bridge between Algebraic Observational Equivalence and Bisimilarity. </b> WADT'97, 1998.
+<br>
+<tt>[<a href="PAPERS/obs_bis_full.ps.gz" > gzipped postscript of the full version </a>]</tt>
+<a href="http://www.springer.de/comp/lncs/index.html"> @Springer-Verlag </a>
+<p/>
+
+<li> Gambin, A., Lasota, S.
+<b> On the Semantics of Multistage Interconnnection Networks. </b> SOFSEM'96.
+<br> 
+<tt>[<a href="PAPERS/min.ps.gz" > gzipped postscript </a>]</tt>
+<tt>[<a href="PAPERS/min_full.ps.gz" > gzipped postscript of the full version </a>]</tt>
+<a href="http://www.springer.de/comp/lncs/index.html"> @Springer-Verlag </a>
+            </ul>
+
+
+
+
+
+            <a name="reports" id="reports"></a>
+            <a href="#" class="button button-small">To the top</a>
+            </p> </p> </br>
+
+            <div class="title">
+                <h2>Technical reports</h2>
+
+            <ul class="default">
+
+
+<li> L. Clemente, W. Czerwiński, S. Lasota, C. Paperman,
+<b>Regular Separability of Parikh Automata.</b>
+<br/>
+Research Report <a href="https://arxiv.org/abs/1612.06233">arXiv:1612.06233</a>, 2016.
+<p/>
+
+
+<li> L. Clemente, W. Czerwiński, S. Lasota, C. Paperman,
+<b>Separability of Reachability Sets of Vector Addition Systems.</b>
+<br/>
+Research Report <a href="http://arxiv.org/abs/1609.00214">arXiv:1609.00214</a>, 2016.
+<p/>
+
+
+
+<li> P. Hofman, S. Lasota, R. Lazić, J. Leroux, S. Schmitz, P. Totzke,
+<b>Coverability Trees for Petri Nets with Unordered Data.</b>
+<br/>
+HAL report <a href="https://hal.inria.fr/hal-01252674">hal-01252674</a>, 2016.
+<p/>
+
+<li> P. Hofman, S. Lasota, R. Mayr, P. Totzke,
+<b>Simulation Problems Over One-Counter Nets.</b>
+<br/>
+Research Report <a href="http://arxiv.org/abs/1602.00476">arXiv:1602.00476</a>, 2016.
+<p/>
+
+<li> L. Clemente, S.Lasota,
+<b> Reachability analysis of first-order definable pushdown systems.</b>
+<br/>
+Research Report <a href="http://arxiv.org/abs/1504.02651">arXiv:1504.02651</a>, 2015.
+<p/>
+
+<li> L. Clemente, S.Lasota,
+<b> Timed pushdown automata revisited.</b>
+<br/>
+Research Report <a href="http://arxiv.org/abs/1503.02422">arXiv:1503.02422</a>, 2015.
+<p/>
+
+<li> S. Lasota,
+<b> Equivariant algorithms for constraint satisfaction problems over coset templates.</b> <!-- Bounded width = strict width 2, for coset templates. -->
+<br/>
+Research Report <a href="http://arxiv.org/abs/1412.4020">arXiv:1412.4020</a>, 2014.
+<p/>
+
+<li> M. Bojańczyk, S. Lasota,
+<b>  Minimization of semilinear automata. </b>
+<br/>
+Research Report <a href="http://arxiv.org/abs/1210.4980v1">arXiv:1210.4980</a>, 2012.
+<p/>
+
+<li>
+S. Lasota, M. Poturalski, 
+<b> Undecidability of performance equivalence of Petri nets. </b>
+<br/>
+Research Report <a href="http://arxiv.org/abs/0910.5819">arXiv:0910.5819</a>, 2009.
+<br/>
+<tt>[<a href="PAPERS/pnpe.pdf" > PDF </a>]</tt>
+<p/>
+
+
+<li> S. Lasota, D. Nowak, and Y. Zhang. 
+<b> On completeness of logical relations for monadic types. </b>
+<br/>
+Research Report <a href="http://arxiv.org/abs/cs.LO/0612106v1">arXiv:cs/0612106</a>, 2006.
+<p/>
+
+
+<li> Froeschle, S., Lasota, S.
+<b>
+Decomposition and Complexity of Hereditary History Preserving Bisimulation on BPP.
+</b> The full version.</em>
+<br>
+Technical Report 280, Institute of Informatics, Warsaw University, 2005.
+<br>
+<tt>[<a href="http://www.mimuw.edu.pl/english/research/reports/iinf/papers/280/tr-iinf-280.ps" > postscript </a>]</tt>
+<p/>
+
+<li> Jean Goubault-Larrecq, S. Lasota, David Nowak
+<b>Logical Relations for Monadic Types.</b> The full version</em>.
+<br>
+Research Report LSV-04-13, Lab. Specification and Verification, ENS Cachan, France, June 2004.
+<br> 
+<tt>[<a href="http://www.lsv.ens-cachan.fr/Publis/RAPPORTS_LSV/PS/rr-lsv-2004-13.rr.ps"> postscript </a>]</tt>
+<p/>
+
+<li> Jean Goubault-Larrecq, S. Lasota, David Nowak, Yu Zhang
+<b>Complete lax logical relations for cryptographic lambda-calculi</b>.
+<br>
+Research Report LSV-04-4, Lab. Specification and Verification, ENS Cachan, France, February 2004.
+<br> 
+<tt>[<a href="http://www.lsv.ens-cachan.fr/Publis/RAPPORTS_LSV/rr-lsv-2004-4.rr.ps" > postscript </a>]</tt>
+<p/>
+
+<li> S. Lasota.
+<b> A polynomial-time algorithm for deciding true concurrency equivalences of Basic Parallel Processes. </b>
+<br>
+  Research Report LSV-02-13, Lab. Specification and Verification, ENS Cachan,
+    France, September 2002.
+<br> 
+<tt>[<a href="PAPERS/mfcs03_full.ps.gz" > gzipped postscript </a>]</tt>
+<p/>
+
+<li> Koronacki, J., Lasota, S., Niemiro, W.
+<b> Position Emission Tomography by Markov Chain Monte Carlo with Auxiliary Variables: A Basic Algorithm. </b>
+<br>
+  Technical Report 884 IPI PAN, 1999.
+<p/>
+
+<li>
+Dietzfelbinger, M., Gambin, A., Lasota, S.
+<b> On Different Models for Packet Flow in Multistage Interconnection Networks. </b> 
+<br> 
+Technical report 97-11(248), Institute of Informatics, Warsaw University, 1997.
+<br> 
+<tt>[<a href="PAPERS/min_full.ps.gz" > gzipped postscript </a>]</tt>
+<p/>
+
+<li> 
+Lasota, S.
+<b> Open Maps as a Bridge between Algebraic Observational Equivalence and 
+Bisimilarity. </b>   
+<em> The full version. </em> 
+<br>
+Technical report 97-12(249), Institute of Informatics, 
+Warsaw University, 1997.
+<br> 
+<tt>[<a href="PAPERS/obs_bis_full.ps.gz" > gzipped postscript </a>]</tt>
+</ul>
+            </ul>
+            
+            <!--a href="#" class="button button-small">To the top</a-->
+            </div>            
+        </div>
+    </div>
+</div>
+<div id="copyright" class="container">
+    <p>Copyright (c) 2014 SL. All rights reserved. | Design by <a href="http://www.freecsstemplates.org/" rel="nofollow">FreeCSSTemplates.org</a>.</p>
+</div>
+</body>
+</html>

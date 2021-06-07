@@ -1,0 +1,284 @@
+<html><head>
+<link href="main.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div class="section">
+<div style="float:left; clear:left">
+<img src="stanford_seal.gif" width="90"/>
+</div>
+<div style="margin-left: 30; margin-top: 20">
+<div class="top assignmentTitle">
+      CS229T/STATS231: Statistical Learning Theory
+    </div>
+<div class="top nav">
+    Stanford / Autumn 2018-2019
+    </div>
+</div>
+</div>
+<br/>
+<div class="section">
+<a name="announcements"><span class="header">Announcements</span></a>
+<div class="section">
+<ul>
+<!--      
+    <li>3/2: <a href=restricted/exam2016-solution.pdf>exam2016-solutions</a> have been posted!
+    <li>2/24: <a href=hw3.pdf>Homework 3</a> is out! It's due on Wednesday, 3/3.
+    <li>2/21: <a href=restricted/hw2-solution.pdf>Homework 2 Solutions</a> have been posted!
+    <li>2/17: <a href=restricted/exam2013-solution.pdf>exam2013-solution</a>,  <a href=restricted/exam2014-solution.pdf>exam2014-solution</a>, <a href=restricted/exam2015-solution.pdf>exam2015-solution</a> have been posted!
+    
+    <li>2/1: <a href=https://docs.google.com/forms/d/1FucuuS-5gPZbcmF5XjUOR405HcBjjMOBrGfr4oApLXU/viewform?usp=send_form>Mid-quarter course survey</a> posted. Please spend a few minutes to fill out this anonymous survey - we'll look through all of your feedback. Thanks!
+    <li>2/1: <a href=hw2.pdf>Homework 2</a> is out! It's due on Wednesday, 2/10.
+    <li>1/26: <a href=restricted/hw1-solution.pdf>Homework 1 Solutions</a> have been posted!
+    <li>1/10: <a href=hw1.pdf>Homework 1</a> is out! It's due on Wednesday, 1/20.
+    -->
+<li>12/08: <a href="restricted/hw3-solution.pdf">Homework 3 Solutions</a> have been posted!
+    </li><li>11/26: <a href="restricted/exam2018-solution.pdf">exam2018-solutions</a> have been posted!
+    </li><li>11/08: <a href="restricted/hw2-solutions.pdf">Homework 2 Solutions</a> have been posted!
+    </li><li>11/02: <a href="hw3.pdf">Homework 3</a> is out! It's due on Wednesday, 11/28, 11pm.
+    </li><li>11/01: <a href="exam2013-solution.pdf">exam2013-solution</a>,
+    <a href="exam2014-solution.pdf">exam2014-solution</a>, <a href="exam2015-solution.pdf">exam2015-solution</a>, <a href="exam2016-solution.pdf">exam2016-solution</a> have been posted!
+    </li><li>10/17: <a href="restricted/hw1-solutions.pdf">Homework 1 Solutions</a> have been posted!
+    </li><li>10/14: <a href="hw2.pdf">Homework 2</a> is out! It's due on Thursday, 11/1, 11pm.
+    </li><li>10/08: <a href="restricted/hw0-solutions.pdf">Homework 0 Solutions</a> have been posted!
+    </li><li>10/02: <a href="hw1.pdf">Homework 1</a> is out! It's due on Wednesday, 10/10, 11pm.
+    </li><li>9/29: <a href="sections/complementary1.pdf"> some backgrounds</a> on linear algebra, optimization, and probability. Note: all the mathematical statements in the document can be cited in the homework solutions without proofs. 
+    </li><li>9/22: <a href="hw0.pdf">Homework 0</a> is out! It's due on Wednesday, 10/03, 11pm. 
+    </li><li>9/8: Welcome to CS229T/STATS231! Previous years' home pages are <a href="2017">here</a> and <a href="2016">here</a> for reference. (Currently this page is still under construction.)
+  </li></ul>
+</div>
+</div>
+<!-------------------------------->
+<div class="section">
+<span class="header">Administrative information</span>
+<div class="section"><b>Time/location:</b>
+<ul>
+<li>Lectures: Mon/Wed 3-4:20pm in <a href="https://campus-map.stanford.edu/?srch=260-113">Pigott Hall 113</a> </li>
+<!--<li>Sections: Fri 1:30-2:30pm in 200-030 </li>-->
+</ul>
+</div>
+<div class="section"><b>Instructor:</b> <a href="http://ai.stanford.edu/~tengyuma/" target="_blank">Tengyu Ma</a> </div>
+<!--(office hours: Tue 4-5pm, Thu 11am-12pm in Gates 250)-->
+<div class="section"><b>Course assistants:</b>
+<ul>
+<li>Yu Bai (head CA)
+      </li><li>Tum Chaturapruek
+      </li><li>Jim Zhiyuan Li
+      </li><li>Luigi Nardi
+      </li><li>Colin Wei
+      <!--
+      <li>Osbert Bastani (office hours: Tue 10am-12pm, Thu 10am-12pm in Gates 438)</li>
+      <li>Peng Xu (office hours: Mon 10am-12pm, Wed 10am-12pm in Huang Basement)</li>-->
+</li></ul>
+    Office hours: see <a href="https://calendar.google.com/calendar/embed?src=e1aocbh82j7657ttfqgonsmkqk%40group.calendar.google.com&amp;ctz=America%2FLos_Angeles">Google Calendar</a>
+</div>
+<div class="section"><b>Contact:</b>
+
+    Please use <a href="https://www.piazza.com/stanford/Fall2018/cs229t">Piazza</a>  for questions and discussions.
+  </div>
+</div>
+<!-------------------------------->
+<div class="section">
+<span class="header">Course content</span>
+<div class="section"><b>Description:</b>
+    When do machine learning algorithms work and why? How do we formalize what it means for an algorithm to learn from data? How do we use mathematical thinking to design better machine learning methods?
+    This course focuses on developing a theoretical
+    understanding of the statistical properties of learning algorithms.
+  </div>
+<div class="section"><b>Topics</b>:
+    <ul>
+<!--<li>Asymptotics: delta method, maximum entropy duality, method of moments for mixture models-->
+<li>Uniform convergence (VC dimension, Rademacher complexity, etc)
+      </li><li>Implicit/algorithmic regularization, generalization theory for neural networks
+      </li><li>Kernel methods
+      </li><li>Online learning and bandits problems
+      </li><li>Unsupervised learning: exponential family, method of moments, statistical theory of GANs
+    </li></ul>
+</div>
+<div class="section"><b>Prerequisites:</b>
+<ul>
+<li>A solid background in
+        linear algebra,
+        real analysis,
+        probability theory,
+        and <b> general ability to do mathematical proofs</b>
+</li><li>Machine learning (CS229) or statistics (STATS315A)
+      </li><li>Convex optimization (EE364A) is recommended
+    </li></ul>
+</div>
+</div>
+<!-------------------------------->
+<div class="section">
+<span class="header">Grading</span>
+<div class="section"><b>Coursework</b>:
+    <ul>
+<li><b>Homeworks (40%)</b>: there will be three homeworks (plus a warmup which does not count towards your grade), 
+      centered around proving properties of statistical procedures.
+      Each homework must be submitted through <a href="http://gradescope.com/" target="_blank">Gradescope</a>. Sign up for the course using entry code <b>M4V34N</b>. 
+      You are encouraged to use LaTeX to writeup your homeworks
+      (here's a <a href="homework.tex">template</a>), but this is not a requirement. You will receive
+      <b>one (1) bonus point</b> for submitting a typed written assignment (e.g. LaTeX, Microsoft Word).
+      We will accept scanned handwritten assignments but they will not receive the bonus point.
+      </li>
+<li><b>Exam (25%)</b>: open-book, open-notes.
+      Problems will be like the homeworks, but simpler.
+      You can use laptops as long as you turn off the wireless.
+      <b>Date: Wed Nov 14, 6-10 PM, Bishop Auditorium, Lathrop296</b>
+</li>
+<li><b>Paper review (30%)</b>:
+      you will write a 2-4 page review of papers.  The goal is to learn to
+      read technically demanding papers critically, and hopefully in the process, generate
+      novel research ideas.  Your review should not only summarize the main result of the paper,
+      but critique it, instantiate it on examples, discuss its overall significance,
+      and suggest possible future directions.
+      See this <a href="https://docs.google.com/document/d/1BLpXqT8CkKx53HHIT_Dd8xHznp8Lenkw1bCzCme606g/edit?usp=sharing">Google doc</a>
+      for detailed guidelines and a list of papers. The paper reviews can be done in pairs. Paper reviews that are done in pairs will be evaluated with a slightly higher bar, and they ideally should contain reviews for two closely-related papers and are allowed two additional pages.
+      Appendix or references beyond the page limit are allowed, but you will not be graded based on them. 
+      <br/>
+        Instead of doing the paper review, with approval from the course
+      staff on the project topic, you can do a final project. Please come to the Tengyu Ma or Yu Bai's office hours to request the approval by briefly describing the project plan. We don't encourage you to do the project unless you own research area is closely related to machine learning theory.   The project can be done in pairs. The page limit for project report is 8 pages, not including reference or appendix.   
+      <br/>
+        The review and the project should be submitted electronically by <b>11pm</b>.
+      </li>
+<li><b>Scribe notes (5%)</b>:
+      Because there is no textbook or set of readings that perfectly fits this course, you will be asked to scribe a note for a lecture in LaTeX.  The course staff will select one note for each lecture and share it with other students. <b>1% bonus credit</b> will be given if your note is selected for posting. See this <a href="https://docs.google.com/document/d/1okKKvz81CH0OrbRGcmSBODKscytVPjWLcN-muT9fw8A/edit?usp=sharing"> Google doc</a> for the detailed guidelines. The scribe notes are due 2 days after the lecture (11pm Wed for Mon lecture, and Fri 11pm for Wed lecture). Please sign up <a href="https://docs.google.com/spreadsheets/d/1DqPabkqip7PpzlQ-jdEAY_CU9UBXhEvsbxgmvUfQnIY/edit?usp=sharing" target="_blank"> here </a>before <b> Sept 29th </b> and plan the time ahead. Extra credits will be given to the notes that are selected for posting. 
+      The scribe notes can be done in pairs.
+      </li>
+</ul>
+<!--
+    
+    To submit electronically, open up a terminal,
+      (i) copy your submission file(s) (e.g., <code>hw0.pdf</code>)
+      to <code>cardinal.stanford.edu</code>:
+      <pre>
+        scp &lt;your submission file(s)&gt; &lt;your SUNetID&gt;@cardinal.stanford.edu:
+      </pre>
+      and (ii) run the submit script:
+      <pre>
+      ssh &lt;your SUNetID&gt;cardinal.stanford.edu python /afs/ir/class/cs229t/WWW/submit.py &lt;hw0|hw1|hw2|hw3|pr|project&gt; .
+      </pre>
+      You can submit at most 10 times; each submission will just replace the previous one.
+    
+    -->
+</div>
+<div class="section"><b>Late policy:</b> Two total late days are accepted for homeworks, paper review, or projects, but not scribe notes. Late work done in pairs with x late days will require x late days from each of the contributors. Under extentuating circumstances, you may request an extension by contacting the course staff.
+  </div>
+<div class="section"><b>Collaboration policy:</b> we encourage you to form study groups and
+  discuss homeworks.  However, you must write up all homeworks from scratch independently without referring to any notes from the joint session.
+  Please follow the <a href="https://communitystandards.stanford.edu/student-conduct-process/honor-code-and-fundamental-standard">honor code</a>.
+  </div>
+</div>
+<div class="section">
+<a name="references"><span class="header">Texts and References</span> </a>
+<p>There is no required text for the course. A number of useful references:</p>
+<div class="section">
+<ul>
+<li><p><a href="notes.pdf">Percy Liang's course notes from previous
+    offerings of this course</a></p>
+</li>
+<li><p><a href="http://www.stat.berkeley.edu/~bartlett/courses/2014Spring-cs281bstat241b/">Peter Bartlett's statistical learning theory course</a></p>
+</li>
+<li><p><a href="http://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf">Boyd and
+    Vandenberghe's Convex Optimization</a></p>
+</li>
+<li><p><a href="http://stat.wharton.upenn.edu/~skakade/courses/stat928/">Sham Kakade's
+    statistical learning theory course</a></p>
+</li>
+<li><p><a href="https://people.eecs.berkeley.edu/~wainwrig/stat241b/">Martin Wainwright's
+    statistical learning theory course</a></p>
+</li></ul></div>
+</div>
+<!-------------------------------->
+<div class="section">
+<a name="schedule"><span class="header">Schedule</span> (subject to change)</a>
+<div class="section">
+<span></span> <b>Week 1</b> <ul>
+<li>Mon 09/24: Lecture 1: overview, formulation of prediction
+    problems, error decomposition [<a href="scribe_notes/09_24_final.pdf">Scribe notes</a>]
+    </li><li>Wed 09/26: Lecture 2: asymptotics of maximum likelihood estimators (MLE) [<a href="scribe_notes/09_26_final.pdf">Scribe notes</a>]
+    
+    </li></ul> <b>Week 2</b> <ul>
+<li>Mon 10/01: Lecture 3: uniform convergence overview, finite
+    hypothesis class [<a href="scribe_notes/10_01_final.pdf">Scribe notes</a>]
+    </li><li>Mon 10/01: Homework 1  <span class="out">out</span>
+</li><li>Wed 10/03: Lecture 4: naive epsilon-cover argument, concentration inequalities
+      [<a href="scribe_notes/10_03_final.pdf">Scribe notes</a>]
+      [<a href="https://www.stat.berkeley.edu/~mjwain/stat210b/Chap2_TailBounds_Jan22_2015.pdf" target="_blank">Advanced Reading</a>]
+    </li><li>Wed 10/03: Homework 0 (warmup) <span class="due">due</span>
+</li></ul> <b>Week 3</b> <ul>
+<li>Mon 10/08: Lecture 5: Sub-Gaussian random variables, Rademacher complexity
+      [<a href="scribe_notes/10_08_final.pdf">Scribe notes</a>]
+    </li><li>Wed 10/10: Lecture 6: Rademacher complexity, margin theory
+      [<a href="scribe_notes/10_10_final.pdf">Scribe notes</a>]
+    </li><li>Wed 10/10: Homework 1 <span class="due">due</span>
+</li><li>Thu 10/11: Homework 2 <span class="out">out</span>
+</li></ul> <b>Week 4</b> <ul>
+<li>Mon 10/15: Lecture 7: Rademacher complexity, neural networks
+      [<a href="scribe_notes/10_15_final.pdf">Scribe notes</a>]
+    </li><li>Wed 10/17: Lecture 8: Margin-based generalization error of
+    two-layer neural networks
+      [<a href="scribe_notes/10_17_final.pdf">Scribe notes</a>]
+
+    </li></ul> <b>Week 5</b> <ul>
+<li>Mon 10/22: Lecture 9: VC dimension, covering techniques
+      [<a href="scribe_notes/10_22_final.pdf">Scribe notes</a>]
+    </li><li>Wed 10/24: Lecture 10: Covering techniques, overview of GANs  
+      [Please refer to <a href="notes.pdf">Percy's notes</a>
+       (page 88-95) for the covering part and Lecture 11 for the
+      overview of GANs]
+
+    </li></ul> <b>Week 6</b> <ul>
+<li>Mon 10/29: Lecture 11: Total variation distance, Wasserstein distance, Wasserstein GANs
+      [<a href="scribe_notes/10_29_final.pdf">Scribe notes</a>]
+    </li><li>Wed 10/31: Lecture 12: Generalization and approximation in
+    Wassersetin GANs
+      [<a href="scribe_notes/10_31_final.pdf">Scribe notes</a>]
+ 	    </li><li>Thu 11/01: Homework 2 (uniform convergence) <span class="due">due</span>
+</li><li>Thu 11/01: Homework 3  <span class="out">out</span>
+</li></ul> <b>Week 7</b> <ul>
+<li>Mon 11/05: Lecture 13: Restricted Approximability, overview of
+      online learning
+      [<a href="scribe_notes/11_05_final.pdf">Scribe notes</a>]
+    </li><li>Wed 11/07: Lecture 14: Online learning, online convex optimization, Follow the Leader (FTL) algorithm
+      [<a href="scribe_notes/11_07_final.pdf">Scribe notes</a>]
+      [<a href="http://www-bcf.usc.edu/~haipengl/courses/CSCI699/lecture1.pdf">Additional Reading</a> (Notes by Haipeng Luo)]
+
+    </li></ul> <b>Week 8</b> <ul>
+<li>Mon 11/12: Lecture 15: Follow the Regularized Leader (FTRL) algorithm
+      [<a href="scribe_notes/11_12_final.pdf">Scribe notes</a>]
+    </li><li>Wed 11/14: Lecture 16: FTRL in concrete problems: online regression &amp; expert problem, convex to linear reduction
+      [<a href="scribe_notes/11_14_final.pdf">Scribe notes</a>]
+    </li><li>Wed 11/14: <span class="due">Exam</span> (6-10pm, classroom: Bishop Auditorium, Lathrop296)
+
+    </li></ul> <b>Week 9</b> <ul>
+<li>Mon 11/26: Lecture 17: Multi-armed bandit problem, general OCO with partial observation
+      [<a href="scribe_notes/11_26_final.pdf">Scribe notes</a>]
+    </li><li>Wed 11/28: Lecture 18: Multi-armed bandit problem in the
+      stochastic setting
+      [<a href="scribe_notes/11_28_final.pdf">Scribe notes</a>]
+    </li><li>Wed 11/28: Homework 3 <span class="due">due</span>
+</li></ul> <b>Week 10</b> <ul>
+<li>Mon 12/03: Lecture 19: Regret bound for UCB, Bayesian setup,
+      Thompson sampling
+      [<a href="scribe_notes/12_03_final.pdf">Scribe notes</a>]
+    </li><li>Wed 12/05: Lecture 20: Information theory, regret bound for
+      Thompson Sampling
+      [<a href="scribe_notes/12_05_final.pdf">Scribe notes</a>]
+    </li><li>Fri 12/07: Paper review <span class="due">due</span>
+</li><li>Fri 12/07: Final project <span class="due">due</span> (if you didn't do the paper review)
+  </li></ul>
+</div>
+</div>
+<hr/>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37374035-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</body>
+</html>

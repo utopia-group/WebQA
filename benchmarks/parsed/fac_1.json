@@ -1,0 +1,863 @@
+{
+    "id": 0,
+    "content": "Satish Narayanasamy",
+    "children": [
+        {
+            "id": 1,
+            "content": "",
+            "isList": true,
+            "key": 1,
+            "children": [
+                {
+                    "id": 2,
+                    "content": "Satish Narayanasamy",
+                    "key": 1,
+                    "children": [
+                        {
+                            "id": 3,
+                            "content": "Contact",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "content": "CV",
+                    "key": 2
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "content": "I am an Associate Professor in the EECS department at the University of Michigan .",
+            "key": 2
+        },
+        {
+            "id": 6,
+            "content": "For prospective students:",
+            "key": 3,
+            "children": [
+                {
+                    "id": 7,
+                    "content": "If you are interested in my research, please send me an email with your CV.",
+                    "key": 1
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "content": "Teaching",
+            "isList": true,
+            "key": 4,
+            "children": [
+                {
+                    "id": 9,
+                    "content": "EECS 570 - Parallel Computer Architecture (Fall 2009, Winter 2014)",
+                    "key": 1
+                },
+                {
+                    "id": 10,
+                    "content": "EECS 370 - Introduction to Computer Organization (Winter 2008, Fall 2011, Fall 2012, Fall 2013, Winter 2015, Fall 2016)",
+                    "key": 2
+                },
+                {
+                    "id": 11,
+                    "content": "EECS 598 - Ubiquitous Parallelism (Fall 2010, Winter 2012)",
+                    "key": 3
+                },
+                {
+                    "id": 12,
+                    "content": "EECS 483- Compiler Construction (Winter 2013, Winter 2011, Winter 2010, Winter 2009)",
+                    "key": 4
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "content": "Software and Downloads",
+            "isList": true,
+            "key": 5,
+            "children": [
+                {
+                    "id": 14,
+                    "content": "Maple tool for testing concurrent programs. For details refer to our OOPSLA 2012 paper. The release also includes concurrency API for Intel's Pin dynamic instrumentation tool, a Pin based implementation of CHESS, and a happens-before data-race detector.",
+                    "key": 1
+                },
+                {
+                    "id": 15,
+                    "content": "A collection of concurrency bugs that we used in OOPSLA 2012 paper.",
+                    "key": 2
+                },
+                {
+                    "id": 16,
+                    "content": "Click here to download SC-preserving version of the LLVM compiler. For details refer to our PLDI 2011 paper.",
+                    "key": 3
+                },
+                {
+                    "id": 17,
+                    "content": "PinSEL -- a record-and-replay tool. It implements the BugNet checkpointing/logging scheme using the Pin dynamic instrumentation framework. PinSEL can record and replay any multi-threaded program across different system environments. Currently, it is used as a front-end for application level architectural simulators to avoid emulating the system effects. For more details refer to our SIGMETRICS 2006 paper.",
+                    "key": 4
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "content": "Research",
+            "key": 6,
+            "children": [
+                {
+                    "id": 19,
+                    "content": "Interests :",
+                    "key": 1,
+                    "children": [
+                        {
+                            "id": 20,
+                            "content": "I work at the intersection of computer architecture, software systems and program analysis. My current interests include customized computing solutions for genomics, concurrency, security, machine learning assisted program analysis, and tools for teaching at scale.",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 21,
+                    "content": "Full publication list",
+                    "key": 2
+                },
+                {
+                    "id": 22,
+                    "content": "Selected Publications :",
+                    "isList": true,
+                    "key": 3,
+                    "children": [
+                        {
+                            "id": 23,
+                            "content": "GenAx: A Genome Sequencing Accelerator,[ISCA 2018]",
+                            "isList": true,
+                            "key": 1
+                        },
+                        {
+                            "id": 24,
+                            "content": "Persistency for Synchronization-Free Regions,[PLDI 2018]",
+                            "isList": true,
+                            "key": 2
+                        },
+                        {
+                            "id": 25,
+                            "content": "Optimistic Hybrid Analysis,[ASPLOS 2018]",
+                            "isList": true,
+                            "key": 3
+                        },
+                        {
+                            "id": 26,
+                            "content": "InvisiMem: Smart Memory Defenses for Memory Bus Side Channel,[ISCA 2017]",
+                            "isList": true,
+                            "key": 4
+                        },
+                        {
+                            "id": 27,
+                            "content": "Language-Level Persistency,[ISCA 2017]",
+                            "isList": true,
+                            "key": 5
+                        },
+                        {
+                            "id": 28,
+                            "content": "AsyncClock: Scalable Inference of Asynchronous Event Causality,[ASPLOS 2017]",
+                            "isList": true,
+                            "key": 6
+                        },
+                        {
+                            "id": 29,
+                            "content": "Compute Caches,[HPCA 2017]",
+                            "isList": true,
+                            "key": 7
+                        },
+                        {
+                            "id": 30,
+                            "content": "SC for GPUs,[MICRO 2015]",
+                            "isList": true,
+                            "key": 8
+                        },
+                        {
+                            "id": 31,
+                            "content": "The Silently Shifting Semicolon,[SNAPL 2015]",
+                            "isList": true,
+                            "key": 9
+                        },
+                        {
+                            "id": 32,
+                          "content": "Accelerating Asynchronous Programs,[ISCA 2015]",
+                          "isList": true,
+                          "key": 10
+                        },
+                      {
+                        "id": 33,
+                        "content": "Using Web Corpus for Program Analysis,[OOPSLA 2014]",
+                        "isList": true,
+                        "key": 11
+                      },
+                      {
+                        "id": 34,
+                        "content": "Race Detection for Event-Driven Mobile Systems,[PLDI 2014]",
+                        "isList": true,
+                        "key": 12
+                      },
+                      {
+                        "id": 35,
+                        "content": "Catnap: Energy Proportional Multiple Network-on-Chip,[ISCA 2013]",
+                        "key": 13
+                      },
+                      {
+                        "id": 36,
+                        "content": "Parallelizing Data Race Detection,[ASPLOS 2013]",
+                        "isList": true,
+                        "key": 14
+                      },
+                      {
+                        "id": 37,
+                        "content": ",",
+                        "isList": true,
+                        "key": 15
+                      },
+                      {
+                        "id": 38,
+                        "content": "Maple: A Coverage-Driven Testing Tool for Multithreaded Programs,[OOPSLA 2012]",
+                        "key": 16
+                      },
+                      {
+                        "id": 39,
+                        "content": "End-to-end Sequential Consistency,[ISCA 2012, IEEE Top Picks Award]",
+                        "isList": true,
+                        "key": 17
+                      },
+                      {
+                        "id": 40,
+                        "content": "Chimera: Hybrid Program Analysis for Determinism,[PLDI 2012]",
+                        "key": 18
+                      },
+                      {
+                        "id": 41,
+                        "content": ",",
+                        "isList": true,
+                        "key": 19
+                      },
+                      {
+                        "id": 42,
+                        "content": "Surviving and detecting data races using complementary schedules,[SOSP 2011]",
+                        "isList": true,
+                        "key": 20
+                      },
+                      {
+                        "id": 43,
+                        "content": "A Case for SC-Preserving Compiler,[PLDI 2011]",
+                        "isList": true,
+                        "key": 21
+                      },
+                      {
+                        "id": 44,
+                        "content": "Efficient Processor Support for a Memory Model with Exceptions,[ASPLOS 2011]",
+                        "isList": true,
+                        "key": 22
+                      },
+                      {
+                        "id": 45,
+                        "content": "DoublePlay: Parallelizing Sequential Logging and Replay,[ASPLOS 2011, Best Paper Award]",
+                        "isList": true,
+                        "key": 23
+                      },
+                      {
+                        "id": 46,
+                        "content": "Offline Symbolic Analysis to Infer Total Store Order,[HPCA 2011]",
+                        "isList": true,
+                        "key": 24
+                      },
+                      {
+                        "id": 47,
+                        "content": "MLP-aware Heterogeneous Main Memory,[DATE 2011, Best Paper Candidate]",
+                        "isList": true,
+                        "key": 25
+                      },
+                      {
+                        "id": 48,
+                        "content": ",",
+                        "isList": true,
+                        "key": 26
+                      },
+                      {
+                        "id": 49,
+                        "content": "Tolerating Concurrency Bugs Using Transactions as Lifeguards,[MICRO 2010]",
+                        "isList": true,
+                        "key": 27
+                      },
+                      {
+                        "id": 50,
+                        "content": "DRFx: A Simple and Efficient Memory Model for Concurrent Languages,[PLDI 2010]",
+                        "isList": true,
+                        "key": 28
+                      },
+                      {
+                        "id": 51,
+                        "content": "Efficient Online Multi-Processor Replay on Commodity System,[ASPLOS 2010]",
+                        "isList": true,
+                        "key": 29
+                      },
+                      {
+                        "id": 52,
+                        "content": "Offline Symbolic Analysis for Multi-Processor Replay.,[MICRO 2009]",
+                        "isList": true,
+                        "key": 30
+                      },
+                      {
+                        "id": 53,
+                        "content": "Interleaving Constrained Shared-Memory Multi-Processor.,[ISCA 2009]",
+                        "isList": true,
+                        "key": 31
+                      },
+                      {
+                        "id": 54,
+                        "content": "Effective Sampling for Lightweight Data Race Detection.,[PLDI 2009]",
+                        "isList": true,
+                        "key": 32
+                      },
+                      {
+                        "id": 55,
+                        "content": ",",
+                        "isList": true,
+                        "key": 33
+                      },
+                      {
+                        "id": 56,
+                        "content": "Benign Race Classification,[PLDI 2007]",
+                        "isList": true,
+                        "key": 34
+                      },
+                      {
+                        "id": 57,
+                        "content": "Strata for recording shared memory dependencies.,[ASPLOS 2006]",
+                        "isList": true,
+                        "key": 35
+                      },
+                      {
+                        "id": 58,
+                        "content": "Shadow Pages for TM Version Management ,[ASPLOS 2006]",
+                        "isList": true,
+                        "key": 36
+                      },
+                      {
+                        "id": 59,
+                        "content": "PinSEL - a tool for architectural simulation based on BugNet.,[SIGMETRICS 2006]",
+                        "isList": true,
+                        "key": 37
+                      },
+                      {
+                        "id": 60,
+                        "content": "BugNet - a low cost system-independent program execution recorder.,[ISCA 2005, IEEE Micro Top Picks Award]",
+                        "isList": true,
+                        "key": 38
+                      },
+                      {
+                        "id": 61,
+                        "content": "Patching processor design errors,[ICCD 2006, IEEE Micro Top Picks Award]",
+                        "isList": true,
+                        "key": 39
+                      },
+                      {
+                        "id": 62,
+                        "content": ",",
+                        "isList": true,
+                        "key": 40
+                      },
+                      {
+                        "id": 63,
+                        "content": ",",
+                        "isList": true,
+                        "key": 41
+                      }
+                    ]
+                }
+            ]
+        },
+      {
+        "id": 64,
+        "content": "Graduate Students and Their Projects",
+        "isList": true,
+        "key": 7,
+        "children": [
+          {
+            "id": 65,
+            "content": "Shaizeen Aga,Secure Cloud. Efficient and Programmable Data Parallel Systems.,",
+            "isList": true,
+            "key": 1
+          },
+          {
+            "id": 66,
+            "content": "Subarno Banerjee,Optimistic Hybrid Program Analysis for Information Flow.,",
+            "isList": true,
+            "key": 2
+          },
+          {
+            "id": 67,
+            "content": "Gaurav Chadha,Accelerators for Event-Driven Web Applications.,Graduated. Oracle Labs.",
+            "isList": true,
+            "key": 3
+          },
+          {
+            "id": 68,
+            "content": "Hossein Golestani,Performance models for interactive applications.,",
+            "isList": true,
+            "key": 4
+          },
+          {
+            "id": 69,
+            "content": "Chun-Hung Hsiao,BigCode. Tools for Event-Driven Mobile Systems,Graduated. Mesosphere start-up.",
+            "isList": true,
+            "key": 5
+          },
+          {
+            "id": 70,
+            "content": "Dongyoon Lee,Multiprocessor Replay,Graduated. Virginia Tech. ProQuest Dissertation Award.",
+            "isList": true,
+            "key": 6
+          },
+          {
+            "id": 71,
+            "content": "Abhayendra Singh,Memory Consistency Models for Concurrent Languages,Graduated. Google.",
+            "isList": true,
+            "key": 7
+          },
+          {
+            "id": 72,
+            "content": "Hanyun Tao,Architectures for interactive applications.,",
+            "isList": true,
+            "key": 8
+          },
+          {
+            "id": 73,
+            "content": "Jie Yu,Testing and Tolerating Concurrency Bugs,Graduated. Twitter.",
+            "isList": true,
+            "key": 9
+          },
+          {
+            "id": 74,
+            "content": ",,",
+            "isList": true,
+            "key": 10
+          }
+        ]
+      },
+      {
+        "id": 75,
+        "content": "Service",
+        "key": 8,
+        "children": [
+          {
+            "id": 76,
+            "content": "",
+            "isList": true,
+            "key": 1,
+            "children": [
+              {
+                "id": 77,
+                "content": "Program Chair:",
+                "key": 1,
+                "children": [
+                  {
+                    "id": 78,
+                    "content": "WODA 2013",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 79,
+                "content": "Program Committee:",
+                "key": 2,
+                "children": [
+                  {
+                    "id": 80,
+                    "content": "HPCA 2015, PLDI 2015 (ERC), ASPLOS 2014, OSDI 2014 (ERC), IEEE Top Picks 2014, MICRO 2013, PLDI 2013, ISCA 2012, HPCA 2012, 2013 and 2014, CGO 2010, 2013 & 2014, PACT 2011 & 2012, PLDI 2012 ERC, ASPLOS 2011 & 2013 ERC, MICRO 2012 ERC, HiPEAC 2012 & 13, ISPASS 2011, ICCD 2009, 2010, 2011 & 2012, WoDET 2013, MSPC 2011 & 2012, NPC 2011, VLSI 2010 & 2011, CACS 2010, CATARS 2009",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 81,
+                "content": "Publications Chair:",
+                "key": 3,
+                "children": [
+                  {
+                    "id": 82,
+                    "content": "PPoPP 2010",
+                    "key": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 83,
+            "content": "nsatish@umich.edu",
+            "key": 2
+          },
+          {
+            "id": 84,
+            "content": "Satish Narayanasamy's Publications",
+            "key": 3
+          }
+        ]
+      },
+      {
+        "id": 85,
+        "content": "Conferences and Journals",
+        "isList": true,
+        "key": 9,
+        "children": [
+          {
+            "id": 86,
+            "content": "ISCA 2017. InvisiMem: Smart Memory Defenses for Memory Bus Side Channel       Shaizeen Aga and Satish Narayanasamy       International Symposium on Computer Architecture (ISCA). June 2017.",
+            "key": 1
+          },
+          {
+            "id": 87,
+            "content": "ISCA 2017. Language-Level Persistency       Aasheesh Kolli, Vaibhav Gogte, Ali Saidi, Stephan Diestelhorst, Peter M. Chen, Satish Narayanasamy, and Thomas F. Wenisch       International Symposium on Computer Architecture (ISCA). June 2017.",
+            "key": 2
+          },
+          {
+            "id": 88,
+            "content": "ASPLOS 2017. AsyncClock: Scalable Inference of Asynchronous Event Causality       Chun-Hung Hsiao, Satish Narayanasamy, Essam Khan, Cristiano Pereira, and Gilles Pokam       International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS). April 2017.",
+            "key": 3
+          },
+          {
+            "id": 89,
+            "content": "HPCA 2017. Compute Caches       Shaizeen Aga, Supreet Jeloka, Arun Subramaniyan, Satish Narayanasamy, David Blaauw, and Reetuparna Das       IEEE Symposium on High Performance Computer Architecture (HPCA). February 2017.",
+            "key": 4
+          },
+          {
+            "id": 90,
+            "content": "SC 2015. CilkSpec: optimistic concurrency for Cilk       Shaizeen Aga, Sriram Krishnamoorthy, and Satish Narayanasamy       Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis (SC). November 2015.",
+            "key": 5
+          },
+          {
+            "id": 91,
+            "content": "ISCA 2015. Efficiently enforcing strong memory ordering in GPUs       Abhayendra Singh, Shaizeen Aga, and Satish Narayanasamy       International Conference on Microarchitecture (MICRO). December 2015.",
+            "key": 6
+          },
+          {
+            "id": 92,
+            "content": "SNAPL 2015. The Silently Shifting Semicolon       Daniel Marino, Todd Millstein, Madanlal Musuvathi, Satish Narayanasamy, Abhayendra Singh       Inaugural Summit on Advances in Programming Languages (SNAPL). May 2015.",
+            "key": 7
+          },
+          {
+            "id": 93,
+            "content": "ICS 2015. zFence: Data-less Coherence for Efficient Fences       Shaizeen Aga, Abhayendra Singh, Satish Narayanasamy       International Conference on Supercomputing (ICS). June 2015.",
+            "key": 8
+          },
+          {
+            "id": 94,
+            "content": "OOPSLA 2014. Using Web Corpus Statistics for Program Analysis       Chun-Hung Hsiao, Michael Cafarella, Satish Narayanasamy       ACM SIGPLAN Conference on Object-Oriented Programming, Systems, Languages and Applications (OOSPLA), October 2014.",
+            "key": 9
+          },
+          {
+            "id": 95,
+            "content": "PLDI 2014. Race Detection for Event-Driven Mobile Systems       Chun-Hung Hsiao, Jie Yu, Satish Narayanasamy, Ziyun Kong, Cristiano L. Pereira, Gilles A. Pokam, Peter M. Chen, Jason Flinn       International Conference on Programming Language Design and Implementation (PLDI), June 2014.",
+            "key": 10
+          },
+          {
+            "id": 96,
+            "content": "PACT 2014. EFetch: Optimizing Instruction Fetch for Event-Driven Web Applications       Gaurav Chadha, Scott Mahlke, Satish Narayanasamy       International Conference on Parallel Architectures and Compilation Techniques (PACT), August 2014.",
+            "key": 11
+          },
+          {
+            "id": 97,
+            "content": "ICPP 2014. Reducing MapReduce Abstraction Costs for Text-Centric Applications       Chun-Hung Hsiao, Michael Cafarella, Satish Narayanasamy       International Conference on Parallel Processing (ICPP). 2014.",
+            "key": 12
+          },
+          {
+            "id": 98,
+            "content": "IEEE MICRO Top Picks. A Safety-First Approach to Memory Models       Abhayendra Singh, Satish Narayanasamy, Dan Marino, Todd Millstein, and Madan Musuvathi       IEEE Micro Special Issue: Top Picks from Computer Architecture Conferences. 2013.",
+            "key": 13
+          },
+          {
+            "id": 99,
+            "content": "ISCA 2013. Catnap:. Energy Proportional Multiple Network-on-Chip       Reetuparna Das, Satish Narayanasamy, Sudhir Satapathy, and Ron Dreslinski       International Symposium on Computer Architecture (ISCA). June 2013.",
+            "key": 14
+          },
+          {
+            "id": 100,
+            "content": "ASPLOS 2013. Parallelizing Data Race Detection       Benjamin Wester, David Devecsery, Peter M. Chen, Jason Flinn, and Satish Narayanasamy       International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS), March 2013",
+            "key": 15
+          },
+          {
+            "id": 101,
+            "content": "OOPSLA 2012. Maple:. A Coverage-Driven Testing Tool for Multithreaded Programs.       Jie Yu, Satish Narayanasamy, Cristiano Pereira, and Gilles Pokam       27th ACM SIGPLAN Conference on Object-Oriented Programming, Systems, Languages and Applications (OOSPLA), October 2012.",
+            "key": 16
+          },
+          {
+            "id": 102,
+            "content": "CASES 2012. When Less Is MOre (LIMO): Controlled Parallelism for Improved Energy Efficiency       Gaurav Chadha, Scott Mahlke, and Satish Narayanasamy       Proceedings of International Conference on Compilers Architecture and Synthesis for Embedded Systems (CASES). October 2012.",
+            "key": 17
+          },
+          {
+            "id": 103,
+            "content": "ISCA 2012. End-to-end Sequential Consistency       Abhayendra Singh, Satish Narayanasamy, Dan Marino, Todd Millstein, and Madan Musuvathi       International Symposium on Computer Architecture (ISCA). June 2012.       IEEE MICRO Top Picks award.",
+            "key": 18
+          },
+          {
+            "id": 104,
+            "content": "PLDI 2012. Chimera:. Hybrid Program Analysis for Determinism       Dongyoon Lee, Peter M. Chen, Jason Flinn, and Satish Narayanasamy.       International Conference on Programming Language Design and Implementation (PLDI). June 2012.",
+            "key": 19
+          },
+          {
+            "id": 105,
+            "content": "SOSP 2011. Detecting and surviving data races using complementary schedules       Kaushik Veeraraghavan, Peter M. Chen, Jason Flinn, and Satish Narayanasamy.       23rd ACM Symposium on Operating Systems Principles (SOSP 2011). October 2011.",
+            "key": 20
+          },
+          {
+            "id": 106,
+            "content": "PLDI 2011. A Case for SC-Preserving Compiler       Dan Marino, Abhayendra Singh, Todd Millstein, Madan Musuvathi and Satish Narayanasamy.       International Conference on Programming Language Design and Implementation (PLDI). June 2011.",
+            "key": 21
+          },
+          {
+            "id": 107,
+            "content": "ASPLOS 2011. DoublePlay: Parallelizing sequential logging and replay       Kaushik Veeraraghavan, Dongyoon Lee, Benjamin Wester, Peter M. Chen, Jason Flinn, and Satish Narayanasamy       International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS), March 2011.       Best Paper Award",
+            "key": 22
+          },
+          {
+            "id": 108,
+            "content": "ASPLOS 2011. Efficient Processor Support for a Memory Model with Exceptions       Abhayendra Singh, Dan Marino, Satish Narayanasamy, Todd Millstein, and Madan Musuvathi       International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS), March 2011",
+            "key": 23
+          },
+          {
+            "id": 109,
+            "content": "DATE 2011. MLP-aware Heterogeneous Main Memory       Sujay Phadke and Satish Narayanasamy       Design, Automation & Test in Europe (DATE), March 2011.       Best Paper Candidate",
+            "key": 24
+          },
+          {
+            "id": 110,
+            "content": "HPCA 2011. Symbolic Analysis for Replaying under Total Store Order       Dongyoon Lee, Mahmoud Said, Satish Narayanasamy, and Zijiang (James) Yang       International Symposium on High Performance Computer Architecture (HPCA), Feb 2011",
+            "key": 25
+          },
+          {
+            "id": 111,
+            "content": "MICRO 2010. Tolerating Concurrency Bugs Using Transactions as Lifeguards       Jie Yu and Satish Narayanasamy       International Symposium on Microarchitecture (MICRO). December 2010.",
+            "key": 26
+          },
+          {
+            "id": 112,
+            "content": "OSDI 2010 (Research Vision). \"Epoch parallelism: one execution is not enough\"       Jessica Ouyang, Kaushik Veeraraghavan, Dongyoon Lee, Peter M. Chen, Jason Flinn and Satish Narayanasamy       Symposium on Operating Systems Design and Implementation (OSDI) -- Research Vision Session, October 2010.",
+            "key": 27
+          },
+          {
+            "id": 113,
+            "content": "PLDI 2010. DRFx: A Simple and Efficient Memory Model for Concurrent Programming Languages       Dan Marino, Abhayendra Singh, Todd Millstein, Madan Musuvathi and Satish Narayanasamy.       International Conference on Programming Language Design and Implementation (PLDI). June 2010.",
+            "key": 28
+          },
+          {
+            "id": 114,
+            "content": "Failure is not an Option: Popular Parallel Programming       Josep Torrellas, Mark Oskin, et al.       Report from Computing Community Consortium (CCC) Workshop on Advancing Computer Architecture Research (ACAR-1), released October 2010.",
+            "key": 29
+          },
+          {
+            "id": 115,
+            "content": "ASPLOS 2010. Respec: Efficient Online Multiprocessor Replay via Speculation and External Determinism       Dongyoon Lee, Benjamin Wester, Kaushik Veeraraghavan, Satish Narayanasamy, Peter M. Chen and Jason Flinn       International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS), March 2010.",
+            "key": 30
+          },
+          {
+            "id": 116,
+            "content": "MICRO 2009. Offline Symbolic Analysis for Multi-Processor Execution Replay       Dongyoon Lee, Mahmoud Said, Satish Narayanasamy, Zijiang (James) Yang and Cristiano Pereira       International Symposium on Microarchitecture (MICRO). Dec 2009.",
+            "key": 31
+          },
+          {
+            "id": 117,
+            "content": "ISCA 2009. A Case for an Interleaving Constrained Shared-Memory Multi-Processor.       Jie Yu and Satish Narayanasamy.       International Symposium on Computer Architecture (ISCA). June 2009.",
+            "key": 32
+          },
+          {
+            "id": 118,
+            "content": "PLDI 2009. Effective Sampling for Lightweight Data Race Detection.       Dan Marino, Madan Musuvathi and Satish Narayanasamy.       International Conference on Programming Language Design and Implementation (PLDI). June 2009.",
+            "key": 33
+          },
+          {
+            "id": 119,
+            "content": "PLDI 2007. Automatically Classifying Benign and Harmful Data Races Using Replay Analysis.       Satish Narayanasamy, Zhenghao Wang, Jordan Tigani, Andrew Edwards and Brad Calder.       International Conference on Programming Language Design and Implementation (PLDI). June 2007.",
+            "key": 34
+          },
+          {
+            "id": 120,
+            "content": "DATE 2007. Transient Fault Prediction Based on Anomalies in Speculative Execution.Satish Narayanasamy, Ayse Coskun and Brad Calder       Design, Automation, and Test in Europe, April 2007. (pdf)",
+            "key": 35
+          },
+          {
+            "id": 121,
+            "content": "HiPEAC 2007. Bounds Checking with Taint-Based Analysis . Weihaw Chuang, Satish Narayanasamy, Brad Calder and Ranjit Jhala       International Conference on High Performance Embedded Architectures & Compilers, Jan 2007. (pdf)",
+            "key": 36
+          },
+          {
+            "id": 122,
+            "content": "",
+            "key": 37,
+            "children": [
+              {
+                "id": 123,
+                "content": "JILP",
+                "isList": true,
+                "key": 1
+              },
+              {
+                "id": 124,
+                "content": "Accelerating Meta Data Checks for Software Correctness and Security.       Weihaw Chuang, Satish Narayanasamy and Brad Calder       Journal of Instruction-Level Parallelism 9 (2007) 1-26",
+                "key": 2
+              }
+            ]
+          },
+          {
+            "id": 125,
+            "content": "",
+            "key": 38,
+            "children": [
+              {
+                "id": 126,
+                "content": "IEEE Micro   Top Picks",
+                "isList": true,
+                "key": 1
+              },
+              {
+                "id": 127,
+                "content": "Patching Processor Design Errors.       Smruthi Sarangi, Satish Narayanasamy, Bruce Carneal, Abhishek Tiwari, Brad Calder and Josep Torrellas.       IEEE Micro Special Issue: Top Picks from Computer Architecture Conferences, Jan-Feb, 2007",
+                "key": 2
+              }
+            ]
+          },
+          {
+            "id": 128,
+            "content": "ICCD 2006. Patching Processor Design Errors .       Satish Narayanasamy, Bruce Carneal and Brad Calder       IEEE International Conference on Computer Design , Oct 2006. (pdf)       IEEE Top Picks Award.",
+            "key": 39
+          },
+          {
+            "id": 129,
+            "content": "SoMET 2006. Software Profiling for Deterministic Replay Debugging of User Code .       Satish Narayanasamy, Cristiano Pereira and Brad Calder       5th International Conference on Software Methodologies, Tools and Techniques. Oct 2006. (pdf)",
+            "key": 40
+          },
+          {
+            "id": 130,
+            "content": "ASPLOS 2006. Recording Shared Memory Dependencies Using Strata .       Satish Narayanasamy, Cristiano Pereira and Brad Calder       12th International Conference on Architectural Support for Programming Languages and Operating Systems, Oct 2006. (pdf)",
+            "key": 41
+          },
+          {
+            "id": 131,
+            "content": "ASPLOS 2006. Unbounded Page-Based Transactional Memory.       Weihaw Chuang, Satish Narayanasamy, Ganesh Venkatesh, Jack Sampson, Michael Van Biesbrouck, Gilles Pokam, Osvaldo Colavin and Brad Calder       12th International Conference on Architectural Support for Programming Languages and Operating Systems, Oct 2006. (pdf)",
+            "key": 42
+          },
+          {
+            "id": 132,
+            "content": "SIGMETRICS 2006. Automatic Logging of Operating System Effects to Guide Application-Level Architecture Simulation.       Satish Narayanasamy, Cristiano Pereira, Harish Patil, Robert Cohn and Brad Calder       International Conference on Measurements and Modeling of Computer Systems, SIGMETRICS, June 2006. (pdf)",
+            "key": 43
+          },
+          {
+            "id": 133,
+            "content": "",
+            "key": 44,
+            "children": [
+              {
+                "id": 134,
+                "content": "IEEE Micro   Top Picks",
+                "isList": true,
+                "key": 1
+              },
+              {
+                "id": 135,
+                "content": "BugNet: Recording Application Level Execution for Deterministic Replay Debugging.       Satish Narayanasamy, Gilles Pokam, Brad Calder.       IEEE Micro Special Issue: Top Picks from Computer Architecture Conferences, Jan-Feb, 2006",
+                "key": 2
+              }
+            ]
+          },
+          {
+            "id": 136,
+            "content": "ISCA 2005. BugNet: Continuously Recording Program Execution for Deterministic Replay Debugging.       Satish Narayanasamy, Gilles Pokam, Brad Calder.       32nd International Symposium on Computer Architecture. June 2005. ( pdf ) (Talk)       IEEE Top Picks Award.",
+            "key": 45
+          },
+          {
+            "id": 137,
+            "content": "IPDPS 2005. A Dependency Chain Clustered Microarchitecture.       Satish Narayanasamy, Hong Wang, Perry Wang, John Shen, Brad Calder.       19th IEEE International Parallel & Distributed Processing Symposium. Apr 2005. ( pdf ) (Talk)",
+            "key": 46
+          },
+          {
+            "id": 138,
+            "content": "HPCA 2004. Creating Converged Trace Schedules Using String Matching.       Satish Narayanasamy, Yuanfang Hu, Suleyman Sair, Brad Calder.       10th International Symposium on High Performance Computer Architecture. Feb 2004. ( pdf ) (Talk)",
+            "key": 47
+          },
+          {
+            "id": 139,
+            "content": "HPCA 2003. Catching Accurate Profiles in Hardware.       Satish Narayanasamy, Timothy Sherwood, Suleyman Sair, Brad Calder, George Varghese.       9th International Symposium on High Performance Computer Architecture. Feb 2003. ( pdf ) (Talk)",
+            "key": 48
+          }
+        ]
+      },
+      {
+        "id": 140,
+        "content": "Others",
+        "isList": true,
+        "key": 10,
+        "children": [
+          {
+            "id": 141,
+            "content": "",
+            "key": 1,
+            "children": [
+              {
+                "id": 142,
+                "content": "Patent",
+                "isList": true,
+                "key": 1,
+                "children": [
+                  {
+                    "id": 143,
+                    "content": "System, Method and Apparatus for Dependency Chain Processing.       Satish Narayanasamy et al.       US Patent 20060070047.Published: March 30, 2006.",
+                    "key": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 144,
+            "content": "",
+            "key": 2,
+            "children": [
+              {
+                "id": 145,
+                "content": "HiPC 2000",
+                "isList": true,
+                "key": 1,
+                "children": [
+                  {
+                    "id": 146,
+                    "content": "The Gestalt Decentralised Machine - the Model and its Evaluation.       Manikanan Narayanan, Ram Rangan, Satish Narayanasamy and Ranjani Parthasarathi.       7th International Conference on High Performance Computing (poster). Dec 2000.",
+                    "key": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 147,
+            "content": "",
+            "isList": true,
+            "key": 3,
+            "children": [
+              {
+                "id": 148,
+                "content": "Bachelor's   Thesis",
+                "key": 1,
+                "children": [
+                  {
+                    "id": 149,
+                    "content": "Decentralized computing.   Manikandan Narayanan, Ram Rangan, Satish Narayanasamy.   Thesis Report, March 2001 , College of Engineering, Anna University.",
+                    "key": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+        }
+    ]
+}

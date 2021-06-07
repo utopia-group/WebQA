@@ -1,0 +1,1018 @@
+{
+    "id": 0,
+    "content": "Percy Liang",
+    "children": [
+        {
+            "id": 1,
+            "content": "",
+            "isList": true,
+            "key": 1,
+            "children": [
+                {
+                    "id": 2,
+                    "content": "Percy Liang",
+                    "key": 1
+                },
+                {
+                    "id": 3,
+                    "content": "Associate Professor of Computer Science and Statistics (courtesy)   Artificial Intelligence Lab   Natural Language Processing Group   Statistical Machine Learning Group",
+                    "key": 2
+                },
+                {
+                    "id": 4,
+                    "content": "Gates 250 / pliang@cs.stanford.edu",
+                    "key": 3
+                },
+                {
+                    "id": 5,
+                    "content": "[Publications] [CodaLab] [sfig]",
+                    "key": 4
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "content": "Research",
+            "key": 2,
+            "children": [
+                {
+                    "id": 7,
+                    "content": "My goal is to develop trustworthy systems that can communicate effectively with people and improve over time through interaction. I broadly identify with the machine learning (ICML, NeurIPS) and natural language processing (ACL, NAACL, EMNLP) communities.",
+                    "key": 1
+                },
+                {
+                    "id": 8,
+                    "content": "Computers can do a lot, but tapping into their full power requires the rather non-trivial ability to program. I'm interested in building systems that learn to translate natural language descriptions (e.g., in English or Chinese) into programs (e.g., in Python or C++). Such systems would unlock the full power of computing to a much wider audience. A while back, I wrote a friendly introduction to natural language interfaces (XRDS magazine 2014) and a slightly more technical survey article on executable semantic parsing (CACM 2016). One idea we've explored is to \"naturalize\" a programming language gradually into a natural language (ACL 2017). One can also use natural language to describe classifiers directly rather than requiring labeled data (ACL 2018). The tension between the fuzziness of machine learning and the crispness of logic also fascinates me. On this note, we showed that neural networks can solve SAT problems with surprising accuracy despite not being told explicitly what a SAT problem is (ICLR 2019).",
+                    "key": 2
+                },
+                {
+                    "id": 9,
+                    "content": "Despite the successes of machine learning, otherwise high-performing models are still difficult to debug and fail catastrophically in the presence of changing data distributions and adversaries. For example, on the SQuAD reading comprehension dataset we created (EMNLP 2016), we showed that state-of-the-art systems, despite reaching human-level benchmark performance, are easily fooled by distracting sentences in a way that no human would be (EMNLP 2017). Given society's increasing reliance on machine learning, it is critical to build tools to make machine learning more reliable in the wild. We've worked on using influence functions to understand black-box models (ICML 2017), semidefinite programming to provide certificates a neural network is safe from a class of adversaries (NeurIPS 2018), and distributionally robust optimization to ensure the fairness of machine learning models over time (ICML 2018).",
+                    "key": 3
+                },
+                {
+                    "id": 10,
+                    "content": "Finally, I am a strong proponent of efficient and reproducible research. We have been developing CodaLab Worksheets , a platform that allows researchers to run and manage their experiments by maintaining the full provenance of an experiment from raw data to final results. Most of our recent papers have been published on CodaLab as executable papers. We are actively looking for contributors, so please contact me if you're interested!",
+                    "key": 4
+                },
+                {
+                    "id": 11,
+                    "content": "Here is some code for older projects.",
+                    "key": 5
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "content": "Current PhD students and post-docs",
+            "isList": true,
+            "key": 3,
+            "children": [
+                {
+                    "id": 13,
+                    "content": "Robin Jia",
+                    "key": 1
+                },
+                {
+                    "id": 14,
+                    "content": "Stephen Mussmann",
+                    "key": 2
+                },
+                {
+                    "id": 15,
+                    "content": "Pranav Rajpurkar (co-advised with Andrew Ng)",
+                    "key": 3
+                },
+                {
+                    "id": 16,
+                    "content": "Fereshte Khani",
+                    "key": 4
+                },
+                {
+                    "id": 17,
+                    "content": "Pang Wei Koh",
+                    "key": 5
+                },
+                {
+                    "id": 18,
+                    "content": "Aditi Raghunathan",
+                    "key": 6
+                },
+                {
+                    "id": 19,
+                    "content": "Mina Lee",
+                    "key": 7
+                },
+                {
+                    "id": 20,
+                    "content": "John Hewitt (co-advised with Chris Manning)",
+                    "key": 8
+                },
+                {
+                    "id": 21,
+                    "content": "Ananya Kumar (co-advised with Tengyu Ma)",
+                    "key": 9
+                },
+                {
+                    "id": 22,
+                    "content": "Shiori Sagawa",
+                    "key": 10
+                },
+                {
+                    "id": 23,
+                    "content": "Michael Xie (co-advised with Tengyu Ma)",
+                    "key": 11
+                },
+                {
+                    "id": 24,
+                    "content": "Chris Donahue (post-doc)",
+                    "key": 12
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "content": "Alumni",
+            "isList": true,
+            "key": 4,
+            "children": [
+                {
+                    "id": 26,
+                    "content": "Jonathan Berant (post-doc 2015, co-advised with Chris Manning, now senior lecturer at Tel-Aviv University)",
+                    "key": 1
+                },
+                {
+                    "id": 27,
+                    "content": "Roy Frostig (PhD 2016, now research scientist at Google)",
+                    "key": 2
+                },
+                {
+                    "id": 28,
+                    "content": "Sida Wang (PhD 2017, co-advised with Chris Manning, now research scientist at Facebook AI Research)",
+                    "key": 3
+                },
+                {
+                    "id": 29,
+                    "content": "Yuchen Zhang (post-doc 2018, co-advised with Moses Charikar, now research scientist at Microsoft Semantic Machines)",
+                    "key": 4
+                },
+                {
+                    "id": 30,
+                    "content": "He He (post-doc 2018, now assistant professor at New York University)",
+                    "key": 5
+                },
+                {
+                    "id": 31,
+                    "content": "Arun Chaganty (PhD 2018, now AI lead of Conversations team at Square)",
+                    "key": 6
+                },
+                {
+                    "id": 32,
+                    "content": "Kelvin Guu (PhD 2018, now research scientist at Google)",
+                    "key": 7
+                },
+                {
+                    "id": 33,
+                    "content": "Jacob Steinhardt (PhD 2018, now assistant professor at University of California Berkeley)",
+                    "key": 8
+                },
+                {
+                    "id": 34,
+                    "content": "Tatsunori Hashimoto (post-doc 2019, co-advised with John Duchi, now research scientist at Microsoft Semantic Machines, will be assistant professor at Stanford University)",
+                    "key": 9
+                },
+                {
+                    "id": 35,
+                    "content": "Panupong (Ice) Pasupat (PhD 2019, now research scientist at Google)",
+                    "key": 10
+                },
+                {
+                    "id": 36,
+                    "content": "Daniel Selsam (PhD 2019, co-advised with David Dill, now research scientist at Microsoft)",
+                    "key": 11
+                },
+                {
+                    "id": 37,
+                    "content": "Fanny Yang (post-doc 2019, co-advised with John Duchi, now assistant professor at ETH Zurich)",
+                    "key": 12
+                }
+            ]
+        },
+        {
+            "id": 38,
+            "content": "Teaching",
+            "isList": true,
+            "key": 5,
+            "children": [
+                {
+                    "id": 39,
+                    "content": "Autumn 2012-13, 2013-14, 2014-15, 2015-16, 2016-17, 2017-18, 2018-19: Artificial Intelligence (CS221)",
+                    "key": 1
+                },
+                {
+                    "id": 40,
+                    "content": "Winter 2012-13, 2013-14, 2014-15: 2015-16: Statistical Learning Theory (CS229T/STATS231) [lecture notes]",
+                    "key": 2
+                }
+            ]
+        },
+        {
+            "id": 41,
+            "content": "Education/Experience",
+            "isList": true,
+            "key": 6,
+            "children": [
+                {
+                    "id": 42,
+                    "content": "2012: post-doc at Google",
+                    "key": 1
+                },
+                {
+                    "id": 43,
+                    "content": "2011: PhD from Berkeley (advisors: Michael Jordan and Dan Klein)",
+                    "key": 2
+                },
+                {
+                    "id": 44,
+                    "content": "2005: MEng from MIT (advisor: Michael Collins)",
+                    "key": 3
+                },
+                {
+                    "id": 45,
+                    "content": "2004: B.S. from MIT",
+                    "key": 4
+                }
+            ]
+        },
+        {
+            "id": 46,
+            "content": "Honors",
+            "isList": true,
+            "key": 7,
+            "children": [
+                {
+                    "id": 47,
+                    "content": "Presidential Early Career Award for Scientists and Engineers (2019)",
+                    "key": 1
+                },
+                {
+                    "id": 48,
+                    "content": "IJCAI Computers and Thought Award (2016)",
+                    "key": 2
+                },
+                {
+                    "id": 49,
+                    "content": "NSF CAREER Award (2016)",
+                    "key": 3
+                },
+                {
+                    "id": 50,
+                    "content": "Sloan Research Fellowship (2015)",
+                    "key": 4
+                },
+                {
+                    "id": 51,
+                    "content": "Microsoft Research Faculty Fellowship (2014)",
+                    "key": 5
+                },
+                {
+                    "id": 52,
+                    "content": "Graduate fellowships:",
+                    "key": 6,
+                    "children": [
+                        {
+                            "id": 53,
+                            "content": "NSF, NDSEG, GAANN, Siebel Scholar",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 54,
+                    "content": "Programming contests:",
+                    "key": 7,
+                    "children": [
+                        {
+                            "id": 55,
+                            "content": "2nd place at 2002 ACM ICPC World Finals, silver medalist at IOI 2000",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 56,
+                    "content": "Music competitions (piano):",
+                    "key": 8,
+                    "children": [
+                        {
+                            "id": 57,
+                            "content": "Winner of KDFC Classical Star Search (2008, over-21 division), MIT Concerto Competition (2004), Phoenix Young Musicians Competition (2000)",
+                            "key": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+          "id": 58,
+          "content": "Publications",
+          "isList": true,
+          "key": 8,
+          "children": [
+            {
+              "id": 59,
+              "content": "Understanding and mitigating the tradeoff between robustness and accuracy. Aditi Raghunathan , Sang Michael Xie , Fanny Yang , John C. Duchi , Percy Liang . arXiv preprint arXiv:2002.10716, 2020. [bib] [paper]",
+              "key": 1
+            },
+            {
+              "id": 60,
+              "content": "Understanding self-training for gradual domain adaptation. Ananya Kumar , Tengyu Ma , Percy Liang . arXiv preprint arXiv:2002.11361, 2020. [bib] [paper]",
+              "key": 2
+            },
+            {
+              "id": 61,
+              "content": "Distributionally robust neural networks for group shifts: on the importance of regularization for worst-case generalization. Shiori Sagawa , Pang Wei Koh , Tatsunori B. Hashimoto , Percy Liang . International Conference on Learning Representations (ICLR), 2020. [bib] [paper]",
+              "key": 3
+            },
+            {
+              "id": 62,
+              "content": "Strategies for pre-training graph neural networks. Weihua Hu , Bowen Liu , Joseph Gomes , Marinka Zitnik , Percy Liang , Vijay Pande , Jure Leskovec . International Conference on Learning Representations (ICLR), 2020. [bib] [paper]",
+              "key": 4
+            },
+            {
+              "id": 63,
+              "content": "Selection via proxy: efficient data selection for deep learning. Cody Coleman , Christopher Yeh , Stephen Mussmann , Baharan Mirzasoleiman , Peter Bailis , Percy Liang , Jure Leskovec , Matei Zaharia . International Conference on Learning Representations (ICLR), 2020. [bib] [paper]",
+              "key": 5
+            },
+            {
+              "id": 64,
+              "content": "A tight analysis of greedy yields subexponential time approximation for uniform decision tree. Ray Li , Percy Liang , Stephen Mussmann . Symposium on Discrete Algorithms (SODA), 2020. [bib] [paper]",
+              "key": 6
+            },
+            {
+              "id": 65,
+              "content": "Noise induces loss discrepancy across groups for linear regression. Fereshte Khani , Percy Liang . arXiv preprint arXiv:1911.09876, 2019. [bib] [paper]",
+              "key": 7
+            },
+            {
+              "id": 66,
+              "content": "Shaping visual representations with language for few-shot classification. Jesse Mu , Percy Liang , Noah Goodman . arXiv preprint arXiv:1911.02683, 2019. [bib] [paper]",
+              "key": 8
+            },
+            {
+              "id": 67,
+              "content": "Certified robustness to adversarial word substitutions. Robin Jia , Aditi Raghunathan , Kerem Göksel , Percy Liang . Empirical Methods in Natural Language Processing (EMNLP), 2019. [bib] [paper] [CodaLab]",
+              "key": 9
+            },
+            {
+              "id": 68,
+              "content": "Distributionally robust language modeling. Yonatan Oren , Shiori Sagawa , Tatsunori Hashimoto , Percy Liang . Empirical Methods in Natural Language Processing (EMNLP), 2019. [bib] [paper] [CodaLab]",
+              "key": 10
+            },
+            {
+              "id": 69,
+              "content": "Designing and interpreting probes with control tasks. John Hewitt , Percy Liang . Empirical Methods in Natural Language Processing (EMNLP), 2019. Best paper runner up. [bib] [paper] [CodaLab]",
+              "key": 11
+            },
+            {
+              "id": 70,
+              "content": "SPoC: search-based pseudocode to code. Sumith Kulal , Panupong Pasupat , Kartik Chandra , Mina Lee , Oded Padon , Alex Aiken , Percy Liang . Advances in Neural Information Processing Systems (NeurIPS), 2019. [bib] [paper] [CodaLab]",
+              "key": 12
+            },
+            {
+              "id": 71,
+              "content": "Unlabeled data improves adversarial robustness. Yair Carmon , Aditi Raghunathan , Ludwig Schmidt , Percy Liang , John C. Duchi . Advances in Neural Information Processing Systems (NeurIPS), 2019. [bib] [paper] [CodaLab]",
+              "key": 13
+            },
+            {
+              "id": 72,
+              "content": "Verified uncertainty calibration. Ananya Kumar , Percy Liang , Tengyu Ma . Advances in Neural Information Processing Systems (NeurIPS), 2019. [bib] [paper] [CodaLab]",
+              "key": 14
+            },
+            {
+              "id": 73,
+              "content": "On the accuracy of influence functions for measuring group effects. Pang Wei Koh , Kai-Siang Ang , Hubert H. K. Teo , Percy Liang . Advances in Neural Information Processing Systems (NeurIPS), 2019. [bib] [paper] [CodaLab]",
+              "key": 15
+            },
+            {
+              "id": 74,
+              "content": "Learning autocomplete systems as a communication game. Mina Lee , Tatsunori Hashimoto , Percy Liang . Emergent Communication Workshop at Neural Information Processing Systems (NeurIPS), 2019. [bib] [paper]",
+              "key": 16
+            },
+            {
+              "id": 75,
+              "content": "Adversarial training can hurt generalization. Aditi Raghunathan , Sang Michael Xie , Fanny Yang , John C. Duchi , Percy Liang . arXiv preprint arXiv:1906.06032, 2019. [bib] [paper]",
+              "key": 17
+            },
+            {
+              "id": 76,
+              "content": "Maximum weighted loss discrepancy. Fereshte Khani , Aditi Raghunathan , Percy Liang . arXiv preprint arXiv:1906.03518, 2019. [bib] [paper] [CodaLab]",
+              "key": 18
+            },
+            {
+              "id": 77,
+              "content": "Ambitious data science can be painless. Hatef Monajemi , Riccardo Murri , Eric Jonas , Percy Liang , Victoria Stodden , David L. Donoho . Harvard Data Science Review, 2019. [bib] [paper]",
+              "key": 19
+            },
+            {
+              "id": 78,
+              "content": "Unifying human and statistical evaluation for natural language generation. Tatsu Hashimoto , Hugh Zhang , Percy Liang . North American Association for Computational Linguistics (NAACL), 2019. [bib] [paper] [CodaLab]",
+              "key": 20
+            },
+            {
+              "id": 79,
+              "content": "Pun generation with surprise. Nanyun Peng , He He , Percy Liang . North American Association for Computational Linguistics (NAACL), 2019. [bib] [paper] [CodaLab]",
+              "key": 21
+            },
+            {
+              "id": 80,
+              "content": "Stronger data poisoning attacks break data sanitization defenses. Pang Wei Koh , Jacob Steinhardt , Percy Liang . arXiv preprint arXiv:1811.00741, 2019. [bib] [paper]",
+              "key": 22
+            },
+            {
+              "id": 81,
+              "content": "Learning a SAT solver from single-bit supervision. Daniel Selsam , Matthew Lamm , Benedikt Bünz , Percy Liang , Leonardo de Moura , David L. Dill . International Conference on Learning Representations (ICLR), 2019. [bib] [paper]",
+              "key": 23
+            },
+            {
+              "id": 82,
+              "content": "Defending against whitebox adversarial attacks via randomized discretization. Yuchen Zhang , Percy Liang . Artificial Intelligence and Statistics (AISTATS), 2019. [bib] [paper] [CodaLab]",
+              "key": 24
+            },
+            {
+              "id": 83,
+              "content": "Inferring multidimensional rates of aging from cross-sectional data. Emma Pierson , Pang Wei Koh , Tatsunori Hashimoto , Daphne Koller , Jure Leskovec , Nick Eriksson , Percy Liang . Artificial Intelligence and Statistics (AISTATS), 2019. [bib] [paper]",
+              "key": 25
+            },
+            {
+              "id": 84,
+              "content": "FrAngel: component-based synthesis with control structures. Kensen Shi , Jacob Steinhardt , Percy Liang . Principles of Programming Languages (POPL), 2019. [bib] [paper] [CodaLab]",
+              "key": 26
+            },
+            {
+              "id": 85,
+              "content": "Semidefinite relaxations for certifying robustness to adversarial examples. Aditi Raghunathan , Jacob Steinhardt , Percy Liang . Advances in Neural Information Processing Systems (NeurIPS), 2018. [bib] [paper]",
+              "key": 27
+            },
+            {
+              "id": 86,
+              "content": "Uncertainty sampling is preconditioned stochastic gradient descent on zero-one loss. Stephen Mussmann , Percy Liang . Advances in Neural Information Processing Systems (NeurIPS), 2018. [bib] [paper] [CodaLab]",
+              "key": 28
+            },
+            {
+              "id": 87,
+              "content": "A retrieve-and-edit framework for predicting structured outputs. Tatsunori Hashimoto , Kelvin Guu , Yonatan Oren , Percy Liang . Advances in Neural Information Processing Systems (NeurIPS), 2018. [bib] [paper] [CodaLab]",
+              "key": 29
+            },
+            {
+              "id": 88,
+              "content": "QuAC: question answering in context. Eunsol Choi , He He , Mohit Iyyer , Mark Yatskar , Wen-tau Yih , Yejin Choi , Percy Liang , Luke Zettlemoyer . Empirical Methods in Natural Language Processing (EMNLP), 2018. [bib] [paper]",
+              "key": 30
+            },
+            {
+              "id": 89,
+              "content": "Decoupling strategy and generation in negotiation dialogues. He He , Derek Chen , Anusha Balakrishnan , Percy Liang . Empirical Methods in Natural Language Processing (EMNLP), 2018. [bib] [paper] [CodaLab]",
+              "key": 31
+            },
+            {
+              "id": 90,
+              "content": "Mapping natural language commands to web elements. Panupong Pasupat , Tian-Shun Jiang , Evan Liu , Kelvin Guu , Percy Liang . Empirical Methods in Natural Language Processing (EMNLP), 2018. Short paper. [bib] [paper] [CodaLab]",
+              "key": 32
+            },
+            {
+              "id": 91,
+              "content": "Textual analogy parsing: what's shared and what's compared among analogous facts. Matthew Lamm , Arun Chaganty , Christopher D. Manning , Dan Jurafsky , Percy Liang . Empirical Methods in Natural Language Processing (EMNLP), 2018. [bib] [paper]",
+              "key": 33
+            },
+            {
+              "id": 92,
+              "content": "On the relationship between data efficiency and error in active learning. Stephen Mussmann , Percy Liang . International Conference on Machine Learning (ICML), 2018. [bib] [paper] [CodaLab]",
+              "key": 34
+            },
+            {
+              "id": 93,
+              "content": "Fairness without demographics in repeated loss minimization. Tatsunori B. Hashimoto , Megha Srivastava , Hongseok Namkoong , Percy Liang . International Conference on Machine Learning (ICML), 2018. Best paper runner up. [bib] [paper] [CodaLab]",
+              "key": 35
+            },
+            {
+              "id": 94,
+              "content": "Training classifiers with natural language explanations. Braden Hancock , Paroma Varma , Stephanie Wang , Martin Bringmann , Percy Liang , Christopher Ré . Association for Computational Linguistics (ACL), 2018. [bib] [paper] [CodaLab]",
+              "key": 36
+            },
+            {
+              "id": 95,
+              "content": "The price of debiasing automatic metrics in natural language evaluation. Arun Chaganty , Stephen Mussmann , Percy Liang . Association for Computational Linguistics (ACL), 2018. [bib] [paper] [CodaLab]",
+              "key": 37
+            },
+            {
+              "id": 96,
+              "content": "Know what you don't know: unanswerable questions for SQuAD. Pranav Rajpurkar , Robin Jia , Percy Liang . Association for Computational Linguistics (ACL), 2018. Best short paper award. [bib] [paper] [CodaLab]",
+              "key": 38
+            },
+            {
+              "id": 97,
+              "content": "Generalized binary search for split-neighborly problems. Stephen Mussmann , Percy Liang . Artificial Intelligence and Statistics (AISTATS), 2018. [bib] [paper]",
+              "key": 39
+            },
+            {
+              "id": 98,
+              "content": "Planning, inference and pragmatics in sequential language games. Fereshte Khani , Noah D. Goodman , Percy Liang . Transactions of the Association for Computational Linguistics (TACL), 2018. [bib] [paper] [CodaLab]",
+              "key": 40
+            },
+            {
+              "id": 99,
+              "content": "Generating sentences by editing prototypes. Kelvin Guu , Tatsunori B. Hashimoto , Yonatan Oren , Percy Liang . Transactions of the Association for Computational Linguistics (TACL), 2018. [bib] [paper] [CodaLab]",
+              "key": 41
+            },
+            {
+              "id": 100,
+              "content": "Delete, retrieve, generate: a simple approach to sentiment and style transfer. Juncen Li , Robin Jia , He He , Percy Liang . North American Association for Computational Linguistics (NAACL), 2018. [bib] [paper] [CodaLab]",
+              "key": 42
+            },
+            {
+              "id": 101,
+              "content": "Reinforcement learning on web interfaces using workflow-guided exploration. Evan Zheran Liu , Kelvin Guu , Panupong Pasupat , Tianlin Shi , Percy Liang . International Conference on Learning Representations (ICLR), 2018. [bib] [paper]",
+              "key": 43
+            },
+            {
+              "id": 102,
+              "content": "Certified defenses against adversarial examples. Aditi Raghunathan , Jacob Steinhardt , Percy Liang . International Conference on Learning Representations (ICLR), 2018. [bib] [paper] [CodaLab]",
+              "key": 44
+            },
+            {
+              "id": 103,
+              "content": "Active learning of points-to specifications. Osbert Bastani , Rahul Sharma , Alex Aiken , Percy Liang . Programming Language Design and Implementation (PLDI), 2018. [bib] [paper]",
+              "key": 45
+            },
+            {
+              "id": 104,
+              "content": "Prediction with a short memory. Vatsal Sharan , Sham Kakade , Percy Liang , Gregory Valiant . Symposium on Theory of Computing (STOC), 2018. [bib] [paper]",
+              "key": 46
+            },
+            {
+              "id": 105,
+              "content": "Transforming question answering datasets into natural language inference datasets. Dorottya Demszky , Kelvin Guu , Percy Liang . arXiv preprint arXiv:1809.02922.pdf, 2018. [bib] [paper]",
+              "key": 47
+            },
+            {
+              "id": 106,
+              "content": "Certified defenses for data poisoning attacks. Jacob Steinhardt , Pang Wei Koh , Percy Liang . Advances in Neural Information Processing Systems (NeurIPS), 2017. [bib] [paper] [CodaLab]",
+              "key": 48
+            },
+            {
+              "id": 107,
+              "content": "Unsupervised transformation learning via convex relaxations. Tatsunori B. Hashimoto , John Duchi , Percy Liang . Advances in Neural Information Processing Systems (NeurIPS), 2017. [bib] [paper] [CodaLab]",
+              "key": 49
+            },
+            {
+              "id": 108,
+              "content": "Learning overcomplete HMMs. Vatsal Sharan , Sham Kakade , Percy Liang , Gregory Valiant . Advances in Neural Information Processing Systems (NeurIPS), 2017. [bib] [paper]",
+              "key": 50
+            },
+            {
+              "id": 109,
+              "content": "Adversarial examples for evaluating reading comprehension systems. Robin Jia , Percy Liang . Empirical Methods in Natural Language Processing (EMNLP), 2017. Outstanding paper award. [bib] [paper] [CodaLab]",
+              "key": 51
+            },
+            {
+              "id": 110,
+              "content": "Macro grammars and holistic triggering for efficient semantic parsing. Yuchen Zhang , Panupong Pasupat , Percy Liang . Empirical Methods in Natural Language Processing (EMNLP), 2017. [bib] [paper] [CodaLab]",
+              "key": 52
+            },
+            {
+              "id": 111,
+              "content": "Importance sampling for unbiased on-demand evaluation of knowledge base population. Arun Chaganty , Ashwin Paranjape , Percy Liang , Chris Manning . Empirical Methods in Natural Language Processing (EMNLP), 2017. [bib] [paper]",
+              "key": 53
+            },
+            {
+              "id": 112,
+              "content": "Understanding black-box predictions via influence functions. Pang Wei Koh , Percy Liang . International Conference on Machine Learning (ICML), 2017. Best paper award. [bib] [paper] [CodaLab]",
+              "key": 54
+            },
+            {
+              "id": 113,
+              "content": "Convexified convolutional neural networks. Yuchen Zhang , Percy Liang , Martin J. Wainwright . International Conference on Machine Learning (ICML), 2017. [bib] [paper]",
+              "key": 55
+            },
+            {
+              "id": 114,
+              "content": "Developing bug-free machine learning systems with formal mathematics. Daniel Selsam , Percy Liang , David Dill . International Conference on Machine Learning (ICML), 2017. [bib] [paper] [code]",
+              "key": 56
+            },
+            {
+              "id": 115,
+              "content": "World of bits: an open-domain platform for web-based agents. Tianlin Shi , Andrej Karpathy , Linxi Fan , Jonathan Hernandez , Percy Liang . International Conference on Machine Learning (ICML), 2017. [bib] [paper]",
+              "key": 57
+            },
+            {
+              "id": 116,
+              "content": "A hitting time analysis of stochastic gradient Langevin dynamics. Yuchen Zhang , Percy Liang , Moses Charikar . Conference on Learning Theory (COLT), 2017. Best paper award. [bib] [paper]",
+              "key": 58
+            },
+            {
+              "id": 117,
+              "content": "Synthesizing program input grammars. Osbert Bastani , Rahul Sharma , Alex Aiken , Percy Liang . Programming Language Design and Implementation (PLDI), 2017. [bib] [paper]",
+              "key": 59
+            },
+            {
+              "id": 118,
+              "content": "Naturalizing a programming language via interactive learning. Sida I. Wang , Sam Ginn , Percy Liang , Christopher D. Manning . Association for Computational Linguistics (ACL), 2017. [bib] [paper] [project] [CodaLab]",
+              "key": 60
+            },
+            {
+              "id": 119,
+              "content": "Learning symmetric collaborative dialogue agents with dynamic knowledge graph embeddings. He He , Anusha Balakrishnan , Mihail Eric , Percy Liang . Association for Computational Linguistics (ACL), 2017. [bib] [paper] [CodaLab]",
+              "key": 61
+            },
+            {
+              "id": 120,
+              "content": "From language to programs: bridging reinforcement learning and maximum marginal likelihood. Kelvin Guu , Panupong Pasupat , Evan Zheran Liu , Percy Liang . Association for Computational Linguistics (ACL), 2017. [bib] [paper] [CodaLab]",
+              "key": 62
+            },
+            {
+              "id": 121,
+              "content": "Unsupervised risk estimation using only conditional independence structure. Jacob Steinhardt , Percy Liang . Advances in Neural Information Processing Systems (NeurIPS), 2016. [bib] [paper]",
+              "key": 63
+            },
+            {
+              "id": 122,
+              "content": "SQuAD: 100,000+ questions for machine comprehension of text. Pranav Rajpurkar , Jian Zhang , Konstantin Lopyrev , Percy Liang . Empirical Methods in Natural Language Processing (EMNLP), 2016. Best resource paper award. [bib] [paper] [CodaLab]",
+              "key": 64
+            },
+            {
+              "id": 123,
+              "content": "Learning language games through interaction. Sida I. Wang , Percy Liang , Chris Manning . Association for Computational Linguistics (ACL), 2016. Outstanding paper award. [bib] [paper] [CodaLab]",
+              "key": 65
+            },
+            {
+              "id": 124,
+              "content": "Data recombination for neural semantic parsing. Robin Jia , Percy Liang . Association for Computational Linguistics (ACL), 2016. [bib] [paper] [CodaLab]",
+              "key": 66
+            },
+            {
+              "id": 125,
+              "content": "Simpler context-dependent logical forms via model projections. Reginald Long , Panupong Pasupat , Percy Liang . Association for Computational Linguistics (ACL), 2016. [bib] [paper] [CodaLab]",
+              "key": 67
+            },
+            {
+              "id": 126,
+              "content": "Inferring logical forms from denotations. Panupong Pasupat , Percy Liang . Association for Computational Linguistics (ACL), 2016. [bib] [paper] [CodaLab]",
+              "key": 68
+            },
+            {
+              "id": 127,
+              "content": "Unanimous prediction for 100% precision with application to learning semantic mappings. Fereshte Khani , Martin Rinard , Percy Liang . Association for Computational Linguistics (ACL), 2016. [bib] [paper] [CodaLab]",
+              "key": 69
+            },
+            {
+              "id": 128,
+              "content": "How much is 131 million dollars? Putting numbers in perspective with compositional descriptions. Arun Tejasvi Chaganty , Percy Liang . Association for Computational Linguistics (ACL), 2016. [bib] [paper] [CodaLab]",
+              "key": 70
+            },
+            {
+              "id": 129,
+              "content": "Estimation from indirect supervision with linear moments. Aditi Raghunathan , Roy Frostig , John Duchi , Percy Liang . International Conference on Machine Learning (ICML), 2016. [bib] [paper] [CodaLab]",
+              "key": 71
+            },
+            {
+              "id": 130,
+              "content": "Data augmentation via Lévy processes. Stefan Wager , Will Fithian , Percy Liang . Perturbations, Optimization and Statistics, 2016. [bib] [paper] [code]",
+              "key": 72
+            },
+            {
+              "id": 131,
+              "content": "Learning executable semantic parsers for natural language understanding. Percy Liang . Communications of the ACM, 2016. [bib] [paper]",
+              "key": 73
+            },
+            {
+              "id": 132,
+              "content": "Building a semantic parser overnight. Yushi Wang , Jonathan Berant , Percy Liang . Association for Computational Linguistics (ACL), 2015. [bib] [paper] [project] [CodaLab]",
+              "key": 74
+            },
+            {
+              "id": 133,
+              "content": "Imitation learning of agenda-based semantic parsers. Jonathan Berant , Percy Liang . Transactions of the Association for Computational Linguistics (TACL), 2015. [bib] [paper] [project] [CodaLab]",
+              "key": 75
+            },
+            {
+              "id": 134,
+              "content": "Learning with relaxed supervision. Jacob Steinhardt , Percy Liang . Advances in Neural Information Processing Systems (NeurIPS), 2015. [bib] [paper] [CodaLab]",
+              "key": 76
+            },
+            {
+              "id": 135,
+              "content": "Estimating mixture models via mixture of polynomials. Sida I. Wang , Arun Chaganty , Percy Liang . Advances in Neural Information Processing Systems (NeurIPS), 2015. [bib] [paper] [CodaLab]",
+              "key": 77
+            },
+            {
+              "id": 136,
+              "content": "On-the-Job learning with Bayesian decision theory. Keenon Werling , Arun Chaganty , Percy Liang , Chris Manning . Advances in Neural Information Processing Systems (NeurIPS), 2015. [bib] [paper] [CodaLab]",
+              "key": 78
+            },
+            {
+              "id": 137,
+              "content": "Calibrated structured prediction. Volodymyr Kuleshov , Percy Liang . Advances in Neural Information Processing Systems (NeurIPS), 2015. [bib] [paper] [CodaLab]",
+              "key": 79
+            },
+            {
+              "id": 138,
+              "content": "Traversing knowledge graphs in vector space. Kelvin Guu , John Miller , Percy Liang . Empirical Methods in Natural Language Processing (EMNLP), 2015. Best paper honorable mention. [bib] [paper] [CodaLab]",
+              "key": 80
+            },
+            {
+              "id": 139,
+              "content": "Compositional semantic parsing on semi-structured tables. Panupong Pasupat , Percy Liang . Association for Computational Linguistics (ACL), 2015. [bib] [paper] [CodaLab]",
+              "key": 81
+            },
+            {
+              "id": 140,
+              "content": "Environment-Driven lexicon induction for high-level instructions. Dipendra K. Misra , Kejia Tao , Percy Liang , Ashutosh Saxena . Association for Computational Linguistics (ACL), 2015. [bib] [paper] [CodaLab]",
+              "key": 82
+            },
+            {
+              "id": 141,
+              "content": "Reified context models. Jacob Steinhardt , Percy Liang . International Conference on Machine Learning (ICML), 2015. [bib] [paper] [CodaLab]",
+              "key": 83
+            },
+            {
+              "id": 142,
+              "content": "Learning fast-mixing models for structured prediction. Jacob Steinhardt , Percy Liang . International Conference on Machine Learning (ICML), 2015. [bib] [paper] [CodaLab]",
+              "key": 84
+            },
+            {
+              "id": 143,
+              "content": "Learning where to sample in structured prediction. Tianlin Shi , Jacob Steinhardt , Percy Liang . Artificial Intelligence and Statistics (AISTATS), 2015. [bib] [paper] [CodaLab]",
+              "key": 85
+            },
+            {
+              "id": 144,
+              "content": "Tensor factorization via matrix factorization. Volodymyr Kuleshov , Arun Chaganty , Percy Liang . Artificial Intelligence and Statistics (AISTATS), 2015. [bib] [paper] [CodaLab]",
+              "key": 86
+            },
+            {
+              "id": 145,
+              "content": "Bringing machine learning and compositional semantics together. Percy Liang , Christopher Potts . Annual Reviews of Linguistics, 2015. [bib] [paper]",
+              "key": 87
+            },
+            {
+              "id": 146,
+              "content": "The statistics of streaming sparse regression. Jacob Steinhardt , Stefan Wager , Percy Liang . arXiv preprint arXiv:1412.4182, 2014. [bib] [paper]",
+              "key": 88
+            },
+            {
+              "id": 147,
+              "content": "Linking people with \"their\" names using coreference resolution. Vignesh Ramanathan , Armand Joulin , Percy Liang , Li Fei-Fei . European Conference on Computer Vision (ECCV), 2014. [bib] [paper] [supplemental material]",
+              "key": 89
+            },
+            {
+              "id": 148,
+              "content": "Talking to computers in natural language. Percy Liang . XRDS: Crossroads, The ACM Magazine for Students, 2014. [bib] [paper]",
+              "key": 90
+            },
+            {
+              "id": 149,
+              "content": "Semantic parsing via paraphrasing. Jonathan Berant , Percy Liang . Association for Computational Linguistics (ACL), 2014. Best long paper honorable mention. [bib] [paper] [project]",
+              "key": 91
+            },
+            {
+              "id": 150,
+              "content": "Zero-shot entity extraction from web pages. Panupong Pasupat , Percy Liang . Association for Computational Linguistics (ACL), 2014. [bib] [paper] [slides] [project]",
+              "key": 92
+            },
+            {
+              "id": 151,
+              "content": "Estimating latent-variable graphical models using moments and likelihoods. Arun Chaganty , Percy Liang . International Conference on Machine Learning (ICML), 2014. [bib] [paper] [slides]",
+              "key": 93
+            },
+            {
+              "id": 152,
+              "content": "Adaptivity and optimism: an improved exponentiated gradient algorithm. Jacob Steinhardt , Percy Liang . International Conference on Machine Learning (ICML), 2014. [bib] [paper]",
+              "key": 94
+            },
+            {
+              "id": 153,
+              "content": "Filtering with abstract particles. Jacob Steinhardt , Percy Liang . International Conference on Machine Learning (ICML), 2014. [bib] [paper] [supplemental material]",
+              "key": 95
+            },
+            {
+              "id": 154,
+              "content": "Altitude training: strong bounds for single-layer dropout. Stefan Wager , Will Fithian , Sida I. Wang , Percy Liang . Advances in Neural Information Processing Systems (NeurIPS), 2014. [bib] [paper]",
+              "key": 96
+            },
+            {
+              "id": 155,
+              "content": "Simple MAP inference via low-rank relaxations. Roy Frostig , Sida I. Wang , Percy Liang , Chris Manning . Advances in Neural Information Processing Systems (NeurIPS), 2014. [bib] [paper] [CodaLab]",
+              "key": 97
+            },
+            {
+              "id": 156,
+              "content": "Relaxations for inference in restricted Boltzmann machines. Sida I. Wang , Roy Frostig , Percy Liang , Chris Manning . International Conference on Learning Representations Workshop (ICLR), 2014. [bib] [paper]",
+              "key": 98
+            },
+            {
+              "id": 157,
+              "content": "Lambda dependency-based compositional semantics. Percy Liang . arXiv preprint arXiv:1309.4408, 2013. [bib] [paper]",
+              "key": 99
+            },
+            {
+              "id": 158,
+              "content": "Semantic parsing on Freebase from question-answer pairs. Jonathan Berant , Andrew Chou , Roy Frostig , Percy Liang . Empirical Methods in Natural Language Processing (EMNLP), 2013. [bib] [paper] [supplemental material] [slides] [project]",
+              "key": 100
+            },
+            {
+              "id": 159,
+              "content": "Feature noising for log-linear structured prediction. Sida I. Wang , Mengqiu Wang , Stefan Wager , Percy Liang , Chris Manning . Empirical Methods in Natural Language Processing (EMNLP), 2013. [bib] [paper]",
+              "key": 101
+            },
+            {
+              "id": 160,
+              "content": "Dropout training as adaptive regularization. Stefan Wager , Sida I. Wang , Percy Liang . Advances in Neural Information Processing Systems (NeurIPS), 2013. [bib] [paper] [poster]",
+              "key": 102
+            },
+            {
+              "id": 161,
+              "content": "Spectral experts for estimating mixtures of linear regressions. Arun Chaganty , Percy Liang . International Conference on Machine Learning (ICML), 2013. [bib] [paper]",
+              "key": 103
+            },
+            {
+              "id": 162,
+              "content": "Video event understanding using natural language descriptions. Vignesh Ramanathan , Percy Liang , Li Fei-Fei . International Conference on Computer Vision (ICCV), 2013. [bib] [paper]",
+              "key": 104
+            },
+            {
+              "id": 163,
+              "content": "A data driven approach for algebraic loop invariants. Rahul Sharma , Saurabh Gupta , Bharath Hariharan , Alex Aiken , Percy Liang , Aditya V. Nori . European Symposium on Programming (ESOP), 2013. [bib] [paper]",
+              "key": 105
+            },
+            {
+              "id": 164,
+              "content": "Identifiability and unmixing of latent parse trees. Daniel Hsu , Sham M. Kakade , Percy Liang . Advances in Neural Information Processing Systems (NeurIPS), 2012. [abstract] [bib] [paper] [techreport] [poster]",
+              "isList": true,
+              "key": 106
+            },
+            {
+              "id": 165,
+              "content": "Learning dependency-based compositional semantics. Percy Liang , Michael I. Jordan , Dan Klein . Association for Computational Linguistics (ACL), 2011. [abstract] [brief] [bib] [paper] [thesis] [journal] [slides] [code]",
+              "key": 107
+            },
+            {
+              "id": 166,
+              "content": "Scaling up abstraction refinement via pruning. Percy Liang , Mayur Naik . Programming Language Design and Implementation (PLDI), 2011. [abstract] [brief] [bib] [paper] [slides]",
+              "key": 108
+            },
+            {
+              "id": 167,
+              "content": "Learning minimal abstractions. Percy Liang , Omer Tripp , Mayur Naik . Principles of Programming Languages (POPL), 2011. [abstract] [brief] [bib] [paper] [slides]",
+              "key": 109
+            },
+            {
+              "id": 168,
+              "content": "A game-theoretic approach to generating spatial descriptions. Dave Golland , Percy Liang , Dan Klein . Empirical Methods in Natural Language Processing (EMNLP), 2010. [bib] [paper] [slides]",
+              "key": 110
+            },
+            {
+              "id": 169,
+              "content": "A simple domain-independent probabilistic approach to generation. Gabor Angeli , Percy Liang , Dan Klein . Empirical Methods in Natural Language Processing (EMNLP), 2010. [abstract] [brief] [bib] [paper] [slides]",
+              "key": 111
+            },
+            {
+              "id": 170,
+              "content": "A dynamic evaluation of static heap abstractions. Percy Liang , Omer Tripp , Mayur Naik , Mooly Sagiv . Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA), 2010. [abstract] [brief] [bib] [paper] [slides]",
+              "key": 112
+            },
+            {
+              "id": 171,
+              "content": "Learning programs: a hierarchical Bayesian approach. Percy Liang , Michael I. Jordan , Dan Klein . International Conference on Machine Learning (ICML), 2010. [abstract] [brief] [bib] [paper] [slides] [code]",
+              "key": 113
+            },
+            {
+              "id": 172,
+              "content": "On the interaction between norm and dimensionality: multiple regimes in learning. Percy Liang , Nati Srebro . International Conference on Machine Learning (ICML), 2010. [abstract] [brief] [bib] [paper] [slides]",
+              "key": 114
+            },
+            {
+              "id": 173,
+              "content": "Type-Based MCMC. Percy Liang , Michael I. Jordan , Dan Klein . North American Association for Computational Linguistics (NAACL), 2010. [abstract] [brief] [bib] [paper] [slides] [code]",
+              "key": 115
+            },
+            {
+              "id": 174,
+              "content": "Asymptotically optimal regularization in smooth parametric models. Percy Liang , Francis Bach , Guillaume Bouchard , Michael I. Jordan . Advances in Neural Information Processing Systems (NeurIPS), 2009. [abstract] [brief] [bib] [paper] [techreport] [poster]",
+              "key": 116
+            },
+            {
+              "id": 175,
+              "content": "Probabilistic grammars and hierarchical Dirichlet processes. Percy Liang , Michael I. Jordan , Dan Klein . The Oxford Handbook of Applied Bayesian Analysis, 2009. [abstract] [brief] [bib] [paper]",
+              "key": 117
+            },
+            {
+              "id": 176,
+              "content": "Learning semantic correspondences with less supervision. Percy Liang , Michael I. Jordan , Dan Klein . Association for Computational Linguistics and International Joint Conference on Natural Language Processing (ACL-IJCNLP), 2009. [abstract] [brief] [bib] [paper] [slides] [code] [data]",
+              "key": 118
+            },
+            {
+              "id": 177,
+              "content": "Learning from measurements in exponential families. Percy Liang , Michael I. Jordan , Dan Klein . International Conference on Machine Learning (ICML), 2009. [abstract] [brief] [bib] [paper] [slides]",
+              "key": 119
+            },
+            {
+              "id": 178,
+              "content": "Online EM for unsupervised models. Percy Liang , Dan Klein . North American Association for Computational Linguistics (NAACL), 2009. [abstract] [brief] [bib] [paper] [slides] [code]",
+              "key": 120
+            },
+            {
+              "id": 179,
+              "content": "An asymptotic analysis of generative, discriminative, and pseudolikelihood estimators. Percy Liang , Michael I. Jordan . International Conference on Machine Learning (ICML), 2008. Best student paper award. [abstract] [brief] [bib] [paper] [slides]",
+              "key": 121
+            },
+            {
+              "id": 180,
+              "content": "Structure compilation: trading structure for features. Percy Liang , Hal Daume , Dan Klein . International Conference on Machine Learning (ICML), 2008. [abstract] [brief] [bib] [paper] [slides]",
+              "key": 122
+            },
+            {
+              "id": 181,
+              "content": "Analyzing the errors of unsupervised learning. Percy Liang , Dan Klein . Human Language Technology and Association for Computational Linguistics (HLT/ACL), 2008. [abstract] [brief] [bib] [paper] [slides]",
+              "key": 123
+            },
+            {
+              "id": 182,
+              "content": "Learning bilingual lexicons from monolingual corpora. Aria Haghighi , Percy Liang , Taylor Berg-Kirkpatrick , Dan Klein . Human Language Technology and Association for Computational Linguistics (HLT/ACL), 2008. [abstract] [brief] [bib] [paper] [code]",
+              "key": 124
+            },
+            {
+              "id": 183,
+              "content": "Agreement-Based learning. Percy Liang , Dan Klein , Michael I. Jordan . Advances in Neural Information Processing Systems (NeurIPS), 2008. [abstract] [brief] [bib] [paper] [poster]",
+              "key": 125
+            },
+            {
+              "id": 184,
+              "content": "A probabilistic approach to language change. Alexandre Bouchard-Côté , Percy Liang , Tom Griffiths , Dan Klein . Advances in Neural Information Processing Systems (NeurIPS), 2008. [abstract] [brief] [bib] [paper] [poster]",
+              "key": 126
+            },
+            {
+              "id": 185,
+              "content": "Structured Bayesian nonparametric models with variational inference (tutorial). Percy Liang , Dan Klein . Association for Computational Linguistics (ACL), 2007. [bib] [paper] [slides]",
+              "key": 127
+            },
+            {
+              "id": 186,
+              "content": "A permutation-augmented sampler for Dirichlet process mixture models. Percy Liang , Michael I. Jordan , Ben Taskar . International Conference on Machine Learning (ICML), 2007. [abstract] [brief] [bib] [paper] [slides]",
+              "key": 128
+            },
+            {
+              "id": 187,
+              "content": "The infinite PCFG using hierarchical Dirichlet processes. Percy Liang , Slav Petrov , Michael I. Jordan , Dan Klein . Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP/CoNLL), 2007. [abstract] [brief] [bib] [paper] [slides]",
+              "key": 129
+            },
+            {
+              "id": 188,
+              "content": "A probabilistic approach to diachronic phonology. Alexandre Bouchard-Côté , Percy Liang , Tom Griffiths , Dan Klein . Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP/CoNLL), 2007. [abstract] [brief] [bib] [paper]",
+              "key": 130
+            },
+            {
+              "id": 189,
+              "content": "An end-to-end discriminative approach to machine translation. Percy Liang , Alexandre Bouchard-Côté , Dan Klein , Ben Taskar . International Conference on Computational Linguistics and Association for Computational Linguistics (COLING/ACL), 2006. [abstract] [brief] [bib] [paper] [slides]",
+              "key": 131
+            },
+            {
+              "id": 190,
+              "content": "Alignment by agreement. Percy Liang , Ben Taskar , Dan Klein . North American Association for Computational Linguistics (NAACL), 2006. [abstract] [brief] [bib] [paper] [slides] [code]",
+              "key": 132
+            },
+            {
+              "id": 191,
+              "content": "Semi-Supervised learning for natural language. Percy Liang . Massachusetts Institute of Technology, 2005. [brief] [bib] [paper] [errata]",
+              "key": 133
+            },
+            {
+              "id": 192,
+              "content": "A data structure for maintaining acyclicity in hypergraphs. Percy Liang , Nathan Srebro . Massachusetts Institute of Technology Technical Report, 2005. [brief] [bib] [paper] [code]",
+              "key": 134
+            },
+            {
+              "id": 193,
+              "content": "Linear programming in bounded tree-width Markov networks. Percy Liang , Nathan Srebro . Mathematical Programing for Data Mining and Machine Learning Workshop at McMaster University, 2005. [bib] [slides] [code]",
+              "key": 135
+            },
+            {
+              "id": 194,
+              "content": "Efficient geometric algorithms for parsing in two dimensions. Percy Liang , Mukund Narasimhan , Michael Shilman , Paul Viola . International Conference on Document Analysis and Recognition (ICDAR), 2005. [brief] [bib] [paper]",
+              "key": 136
+            },
+            {
+              "id": 195,
+              "content": "Methods and experiments with bounded tree-width Markov networks. Percy Liang , Nathan Srebro . Massachusetts Institute of Technology Technical Report, 2004. [brief] [bib] [paper] [code]",
+              "isList": true,
+              "key": 137
+            },
+            {
+              "id": 196,
+              "content": "How much of a hypertree can be captured by windmills? Percy Liang , Nathan Srebro . Massachusetts Institute of Technology Technical Report, 2003. [brief] [bib] [paper] [code]",
+              "isList": true,
+              "key": 138
+            }
+          ]
+        }
+    ]
+}

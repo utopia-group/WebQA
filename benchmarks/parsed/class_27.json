@@ -1,0 +1,1286 @@
+{
+    "id": 0,
+    "content": "CMSC 631, Spring 2013",
+    "children": [
+        {
+          "id": 1,
+          "content": "Location",
+          "isList": true,
+          "key": 1,
+          "children": [
+            {
+              "id": 2,
+              "content": "",
+              "isList": true,
+              "key": 1,
+              "children": [
+                {
+                  "id": 3,
+                  "content": "Home",
+                  "key": 1
+                },
+                {
+                  "id": 4,
+                  "content": "Piazza (discussion forum)",
+                  "key": 2
+                },
+                {
+                  "id": 5,
+                  "content": "Syllabus",
+                  "key": 3
+                },
+                {
+                  "id": 6,
+                  "content": "Schedule and Materials",
+                  "key": 4
+                },
+                {
+                            "id": 7,
+                            "content": "Projects",
+                            "key": 5
+                        },
+                        {
+                            "id": 8,
+                            "content": "Resources",
+                            "key": 6
+                        },
+                        {
+                            "id": 9,
+                            "content": "Grades",
+                            "key": 7
+                        },
+                        {
+                            "id": 10,
+                            "content": "Submit server",
+                            "key": 8
+                        }
+                    ]
+                },
+                {
+                    "id": 11,
+                    "content": "",
+                    "key": 2,
+                    "children": [
+                        {
+                            "id": 12,
+                            "content": "CMSC 631, Spring 2013",
+                            "key": 1,
+                            "children": [
+                                {
+                                    "id": 13,
+                                    "content": "Program Analysis and Understanding",
+                                    "key": 1,
+                                    "children": [
+                                      {
+                                        "id": 14,
+                                        "content": "Announcements:",
+                                        "key": 1,
+                                        "children": [
+                                          {
+                                            "id": 15,
+                                            "content": "All announcements will be posted exclusively on Piazza.",
+                                            "key": 1
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": 16,
+                                        "content": "",
+                                        "isList": true,
+                                        "key": 2,
+                                        "children": [
+                                          {
+                                            "id": 17,
+                                            "content": "CSI 1121, Monday Wednesday 3:30 - 4:45pm",
+                                            "isList": true,
+                                            "key": 1
+                                          },
+                                          {
+                                            "id": 18,
+                                            "content": "Instructors",
+                                            "isList": true,
+                                            "key": 2,
+                                            "children": [
+                                              {
+                                                "id": 19,
+                                                "content": "Mike Hicks   AVW 4131   Hours: M/W/Th 10-11",
+                                                "key": 1
+                                              },
+                                              {
+                                                "id": 20,
+                                                "content": "Jeff Foster   AVW 3423   Hours: M 11-12, Tu 11-11:45",
+                                                "key": 2
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "id": 21,
+                                            "content": "",
+                                            "isList": true,
+                                            "key": 3,
+                                            "children": [
+                                              {
+                                                "id": 22,
+                                                "content": "Matthew Hammer   AVW 4161   Hours: M/W 5-6",
+                                                "key": 1
+                                              },
+                                              {
+                                                "id": 23,
+                                                "content": "Stevie Strickland   AVW 4161   Hours: Tu/W 2-3",
+                                                "key": 2
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "id": 24,
+                                            "content": "Additional office hours available by appointment.",
+                                            "isList": true,
+                                            "key": 4
+                                          },
+                                          {
+                                            "id": 25,
+                                            "content": "TA",
+                                            "key": 5,
+                                            "children": [
+                                              {
+                                                "id": 26,
+                                                "content": "Peter Mardziel   Location: AVW 1112 (TA Room)   Hours: Th 1-2, F 2-3",
+                                                "isList": true,
+                                                "key": 1
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "id": 27,
+                                            "content": "Textbook",
+                                            "key": 6,
+                                            "children": [
+                                              {
+                                                "id": 28,
+                                                "content": "None (but see recommendations)",
+                                                "isList": true,
+                                                "key": 1
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                }
+                            ]
+                        },
+                      {
+                        "id": 29,
+                        "content": "Description",
+                        "key": 2,
+                        "children": [
+                          {
+                            "id": 30,
+                            "content": "This core course is about techniques for analyzing and understanding software artifacts. Ultimately, the goal of this area of study is to improve the quality of software. We will cover three related areas of programming languages research:",
+                            "key": 1
+                          },
+                          {
+                            "id": 31,
+                            "content": "",
+                            "isList": true,
+                            "key": 2,
+                            "children": [
+                              {
+                                "id": 32,
+                                "content": "Static analysis, the name for any automatic technique for reasoning about program source code. We will study data flow analysis, symbolic execution, and type systems in depth, with more cursory coverage of other analysis techniques. Related techniques are covered in CMSC 630.",
+                                "key": 1
+                              },
+                              {
+                                "id": 33,
+                                "content": "Formal systems for describing languages and programs, including lambda calculus and axiomatic, denotational, and operational semantics. We will use the Coq proof assistant to help mechanize our formalizations and check proofs of properties about these systems.",
+                                "key": 2
+                              },
+                              {
+                                "id": 34,
+                                "content": "Programming language features and how they affect software, including imperative, functional, and object-oriented programming.",
+                                "key": 3
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                }
+          ]
+        },
+      {
+        "id": 35,
+        "content": "Valid HTML 4.01!",
+        "key": 2
+      },
+      {
+        "id": 36,
+        "content": "Web Accessibility",
+        "key": 3
+      },
+      {
+        "id": 37,
+        "content": "",
+        "isList": true,
+        "key": 4,
+        "children": [
+          {
+            "id": 38,
+            "content": "",
+            "isList": true,
+            "key": 1,
+            "children": [
+              {
+                "id": 39,
+                "content": "Home",
+                "key": 1
+              },
+              {
+                "id": 40,
+                "content": "Piazza (discussion forum)",
+                "key": 2
+              },
+              {
+                "id": 41,
+                "content": "Syllabus",
+                "key": 3
+              },
+              {
+                "id": 42,
+                "content": "Schedule and Materials",
+                "key": 4
+              },
+              {
+                "id": 43,
+                "content": "Projects",
+                "key": 5
+              },
+              {
+                "id": 44,
+                "content": "Resources",
+                "key": 6
+              },
+              {
+                "id": 45,
+                "content": "Grades",
+                "key": 7
+              },
+              {
+                "id": 46,
+                "content": "Submit server",
+                "key": 8
+              }
+            ]
+          },
+          {
+            "id": 47,
+            "content": "",
+            "key": 2,
+            "children": [
+              {
+                "id": 48,
+                "content": "CMSC 631, Spring 2013",
+                "key": 1,
+                "children": [
+                  {
+                    "id": 49,
+                    "content": "Program Analysis and Understanding",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 50,
+                "content": "Syllabus",
+                "key": 2,
+                "children": [
+                  {
+                    "id": 51,
+                    "content": "Subject to change, especially until the start of the semester. Last modified on January 22, 2013.",
+                    "key": 1
+                  },
+                  {
+                    "id": 52,
+                    "content": "Grading and Expectations",
+                    "key": 2,
+                    "children": [
+                      {
+                        "id": 53,
+                        "content": "The final course grade will be made up of the following components:",
+                        "key": 1
+                      },
+                      {
+                        "id": 54,
+                        "content": "",
+                        "isList": true,
+                        "key": 2,
+                        "children": [
+                          {
+                            "id": 55,
+                            "content": "Homework and Programming Assignments (45%) During the semester, there will be several short written homework assignments; a few programming assignments; and assignments using the Coq proof assistant.",
+                            "key": 1
+                          },
+                          {
+                            "id": 56,
+                            "content": "Project (25%) You will be expected to complete a substantial research project during the semester. Projects may be completed individually or in pairs. For more details, see the projects page.",
+                            "key": 2
+                          },
+                          {
+                            "id": 57,
+                            "content": "Participation and Presentation (5%) You will present your project to the class, and if there is time, we will include student presentations of existing papers (probably on static analysis tools). The criteria for grading presentations are given below. You will also be graded on contributions to class discussion.",
+                            "key": 3
+                          },
+                          {
+                            "id": 58,
+                            "content": "Final Exam (25%) This course will include a final exam, which will cover material from the homeworks, programming assginments, and other lecture material.",
+                            "key": 4
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": 59,
+                    "content": "Late Policy",
+                    "key": 3,
+                    "children": [
+                      {
+                        "id": 60,
+                        "content": "Written assignments are due at the beginning of class on the due date. Programming assignments (or assignments developed in Coq) are due at midnight on the due date. Neither written nor programming assignments may be turned in late. If you cannot make a due date because of extenuating circumstances, or because it conflicts with a religious holiday, please inform the instructor as soon as possible.",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 61,
+                    "content": "Presentations",
+                    "key": 4,
+                    "children": [
+                      {
+                        "id": 62,
+                        "content": "Student presentations will be judged based on the following criteria:",
+                        "key": 1
+                      },
+                      {
+                        "id": 63,
+                        "content": "",
+                        "isList": true,
+                        "key": 2,
+                        "children": [
+                          {
+                            "id": 64,
+                            "content": "Understanding :",
+                            "key": 1,
+                            "children": [
+                              {
+                                "id": 65,
+                                "content": "does the presenter understand the problem in a larger context, and place the solution within it?",
+                                "key": 1
+                              }
+                            ]
+                          },
+                          {
+                            "id": 66,
+                            "content": "Background/perspective : does the presenter understand the relevant related work?",
+                            "key": 2
+                          },
+                          {
+                            "id": 67,
+                            "content": "Clarity :",
+                            "key": 3,
+                            "children": [
+                              {
+                                "id": 68,
+                                "content": "can the audience understand the presentation? is the \"big picture\" clear? are there useful examples?",
+                                "key": 1
+                              }
+                            ]
+                          },
+                          {
+                            "id": 69,
+                            "content": "Materials :",
+                            "key": 4,
+                            "children": [
+                              {
+                                "id": 70,
+                                "content": "do the slides or use of blackboard illustrate and support the talk? are there diagrams to help convey the technicalities? (when your talk gets into deep territory, a diagram is worth 10K words)",
+                                "key": 1
+                              }
+                            ]
+                          },
+                          {
+                            "id": 71,
+                            "content": "Delivery :",
+                            "key": 5,
+                            "children": [
+                              {
+                                "id": 72,
+                                "content": "has the the presenter practiced?",
+                                "key": 1
+                              }
+                            ]
+                          },
+                          {
+                            "id": 73,
+                            "content": "Answering questions :",
+                            "key": 6,
+                            "children": [
+                              {
+                                "id": 74,
+                                "content": "can the presenter handle questions from the audience?",
+                                "key": 1
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": 75,
+                    "content": "Excused Absences",
+                    "key": 5,
+                    "children": [
+                      {
+                        "id": 76,
+                        "content": "Any student who needs to be excused for an absence from a single lecture, recitation, or lab due to illness shall:",
+                        "key": 1
+                      },
+                      {
+                        "id": 77,
+                        "content": "",
+                        "isList": true,
+                        "key": 2,
+                        "children": [
+                          {
+                            "id": 78,
+                            "content": "Make a reasonable attempt to inform the instructor of his/her illness prior to the class.",
+                            "key": 1
+                          },
+                          {
+                            "id": 79,
+                            "content": "Upon returning to the class, present their instructor with a self-signed note attesting to the date of their illness. Each note must contain an acknowledgment by the student that the information provided is true and correct. Providing false information to University officials is prohibited under Part 9(h) of the Code of Student Conduct (V-1.00(B) University of Maryland Code of Student Conduct) and may result in disciplinary action.",
+                            "key": 2
+                          }
+                        ]
+                      },
+                      {
+                        "id": 80,
+                        "content": "Missing an exam for reasons such as illness, religious observance, participation in required university activities, or family or personal emergency (such as a serious automobile accident or close relative's funeral) will be excused so long as the absence is requested in writing and the student includes documentation that shows the absence qualifies as excused; a self-signed note is not sufficient as exams are Major Scheduled Grading Events.",
+                        "key": 3
+                      },
+                      {
+                        "id": 81,
+                        "content": "For medical absences, you must furnish documentation from the health care professional who treated you. This documentation must verify dates of treatment and indicate the timeframe that the student was unable to meet academic responsibilities. In addition, it must contain the name and phone number of the medical service provider to be used if verification is needed. No diagnostic information will ever be requested. Note that simply being seen by a health care professional does not constitute an excused absence; it must be clear that you were unable to perform your academic duties.",
+                        "key": 4
+                      },
+                      {
+                        "id": 82,
+                        "content": "It is the University's policy to provide accommodations for students with religious observances conflicting with exams, but it is the your responsibility to inform the instructor in advance of intended religious observances. If you have a conflict with one of the planned exams, you must inform us prior to the end of the first two weeks of the class.",
+                        "key": 5
+                      },
+                      {
+                        "id": 83,
+                        "content": "For missed exams due to excused absences, the instructor will arrange a makeup exam. If you might miss an exam for any other reason other than those above, you must contact the instructor in advance to discuss the circumstances. We are not obligated to offer a substitute assignment or to provide a makeup exam unless the failure to perform was due to an excused absence.",
+                        "key": 6
+                      },
+                      {
+                        "id": 84,
+                        "content": "The policies for excused absences do not apply to project assignments. Projects will be assigned with sufficient time to be completed by students who have a reasonable understanding of the necessary material and begin promptly. In cases of extremely serious documented illness of lengthy duration or other protracted, severe emergency situations, the instructor may consider extensions on project assignments, depending upon the specific circumstances.",
+                        "key": 7
+                      },
+                      {
+                        "id": 85,
+                        "content": "Besides the policies in this syllabus, the University's policies apply during the semester. Various policies that may be relevant appear in the Graduate Catalog.",
+                        "key": 8
+                      },
+                      {
+                        "id": 86,
+                        "content": "If you experience difficulty during the semester keeping up with the academic demands of your courses, you may consider contacting the Learning Assistance Service in 2202 Shoemaker Building at (301) 314-7693. Their educational counselors can help with time management issues, reading, note-taking, and exam preparation skills.",
+                        "key": 9
+                      }
+                    ]
+                  },
+                  {
+                    "id": 87,
+                    "content": "Students with Disabilities",
+                    "key": 6,
+                    "children": [
+                      {
+                        "id": 88,
+                        "content": "Students with disabilities who have been certified by Disability Support Services as needing any type of special accommodations should see the instructor as soon as possible during the schedule adjustment period (the first two weeks of class). Please provide DSS's letter of accommodation to the instructor at that time.",
+                        "key": 1
+                      },
+                      {
+                        "id": 89,
+                        "content": "All arrangements for exam accommodations as a result of disability must be made and arranged with the instructor at least three business days prior to the exam date; later requests (including retroactive ones) will be refused.",
+                        "key": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": 90,
+                    "content": "Academic Integrity",
+                    "key": 7,
+                    "children": [
+                      {
+                        "id": 91,
+                        "content": "The Campus Senate has adopted a policy asking students to include the following statement on each examination or assignment in every course: \"I pledge on my honor that I have not given or received any unauthorized assistance on this examination (or assignment).\" Consequently, you will be requested to include this pledge on each exam and project. Please also carefully read the Office of Information Technology's policy regarding acceptable use of computer accounts.",
+                        "key": 1
+                      },
+                      {
+                        "id": 92,
+                        "content": "Programming projects are to be written individually , therefore cooperation or use of unauthorized materials on projects is a violation of the University's Code of Academic Integrity. Any evidence of this, or of unacceptable use of computer accounts, use of unauthorized materials or cooperation on exams or quizzes, or other possible violations of the Honor Code, will be submitted to the Student Honor Council, which could result in an XF for the course, suspension, or expulsion.",
+                        "key": 2
+                      },
+                      {
+                        "id": 93,
+                        "content": "",
+                        "isList": true,
+                        "key": 3,
+                        "children": [
+                          {
+                            "id": 94,
+                            "content": "For learning the course concepts (including the programming languages), students are welcome to study together or to receive help from anyone else. You may discuss with others the project requirements, the features of the programming languages used, what was discussed in class and in the class web forum, and general syntax errors. Examples of questions that would be allowed are \"Does a Java class definition end in a semicolon?\" or \"What does a 'class not found' error indicate?\", because they convey no information about the contents of a project.",
+                            "key": 1
+                          },
+                          {
+                            "id": 95,
+                            "content": "When it comes to actually writing a project assignment, other than help from the instructional staff a project must solely and entirely be your own work. Working with another student or individual, or using anyone else's work in any way except as noted in this paragraph, is a violation of the code of academic integrity and will be reported to the Honor Council. You may not discuss design of any part of a project with anyone except the instructor or teaching assistants. Examples of questions you may not ask others might be \"How did you implement this part of the project?\" or \"Please look at my code and help me find my stupid syntax error!\". You may not use any disallowed source of information in creating either their project design or code. When writing projects you are free to use ideas or short fragments of code from published textbooks or publicly available information, but the specific source must be cited in a comment in the relevant section of the program.",
+                            "key": 2
+                          }
+                        ]
+                      },
+                      {
+                        "id": 96,
+                        "content": "Violations of the Code of Academic Integrity may include, but are not limited to:",
+                        "key": 4
+                      },
+                      {
+                        "id": 97,
+                        "content": "",
+                        "isList": true,
+                        "key": 5,
+                        "children": [
+                          {
+                            "id": 98,
+                            "content": "Failing to do all or any of the work on a project by yourself, other than assistance from the instructional staff.",
+                            "key": 1
+                          },
+                          {
+                            "id": 99,
+                            "content": "Using any ideas or any part of another person's project, or copying any other individual's work in any way.",
+                            "key": 2
+                          },
+                          {
+                            "id": 100,
+                            "content": "Giving any parts or ideas from your project, including test data, to another student.",
+                            "key": 3
+                          },
+                          {
+                            "id": 101,
+                            "content": "Allowing any other students access to your program on any computer system.",
+                            "key": 4
+                          },
+                          {
+                            "id": 102,
+                            "content": "Transferring any part of a project to or from another student or individual by any means, electronic or otherwise.",
+                            "key": 5
+                          }
+                        ]
+                      },
+                      {
+                        "id": 103,
+                        "content": "If you have any question about a particular situation or source then consult with the instructors in advance. Should you have difficulty with a programming assignment you should see the instructional staff in office hours , and not solicit help from anyone else in violation of these rules.",
+                        "key": 6
+                      },
+                      {
+                        "id": 104,
+                        "content": "It is the responsibility, under the honor policy, of anyone who suspects an incident of academic dishonesty has occurred to report it to their instructor, or directly to the Honor Council.",
+                        "key": 7
+                      },
+                      {
+                        "id": 105,
+                        "content": "Every semester the department has discovered a number of students attempting to cheat on project assignments, in violation of academic integrity requirements. Students' academic careers have been significantly affected by a decision to cheat. Think about whether you want to join them before contemplating cheating, or before helping a friend to cheat.",
+                        "key": 8
+                      },
+                      {
+                        "id": 106,
+                        "content": "You are welcome and encouraged to study and compare or discuss their implementations of the programming projects with any others after they are graded, provided that all of the students in question have received nonzero scores for that project assignment, and if that project will not be extended upon in a later project assignment.",
+                        "key": 9
+                      }
+                    ]
+                  },
+                  {
+                    "id": 107,
+                    "content": "Course Evaluations",
+                    "key": 8,
+                    "children": [
+                      {
+                        "id": 108,
+                        "content": "Your participation in the evaluation of courses through CourseEvalUM is a responsibility you hold as a student member of our academic community. Your feedback is confidential and important to the improvement of teaching and learning at the University as well as to the tenure and promotion process. CourseEvalUM will be open for you to complete your evaluations for Spring semester courses between Tuesday, April 23 and Friday, May 10. Please go directly to the website (www.courseevalum.umd.edu) to complete your evaluations starting April 23. By completing all of your evaluations each semester, you will have the privilege of accessing online, at Testudo, the evaluation reports for the thousands of courses for which 70% or more students submitted their evaluations.",
+                        "key": 1
+                      },
+                      {
+                        "id": 109,
+                        "content": "If you are a teaching assistant, be sure to encourage your students to complete course evaluations at the same time you are completing your own.",
+                        "key": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": 110,
+                    "content": "Right to Change Information",
+                    "key": 9,
+                    "children": [
+                      {
+                        "id": 111,
+                        "content": "Although every effort has been made to be complete and accurate, unforeseen circumstances arising during the semester could require the adjustment of any material given here. Consequently, given due notice to students, the instructors reserve the right to change any",
+                        "key": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 112,
+        "content": "Valid HTML 4.01!",
+        "key": 5
+      },
+      {
+        "id": 113,
+        "content": "Web Accessibility",
+        "key": 6
+      },
+      {
+        "id": 114,
+        "content": "",
+        "isList": true,
+        "key": 7,
+        "children": [
+          {
+            "id": 115,
+            "content": "",
+            "isList": true,
+            "key": 1,
+            "children": [
+              {
+                "id": 116,
+                "content": "Home",
+                "key": 1
+              },
+              {
+                "id": 117,
+                "content": "Piazza (discussion forum)",
+                "key": 2
+              },
+              {
+                "id": 118,
+                "content": "Syllabus",
+                "key": 3
+              },
+              {
+                "id": 119,
+                "content": "Schedule and Materials",
+                "key": 4
+              },
+              {
+                "id": 120,
+                "content": "Projects",
+                "key": 5
+              },
+              {
+                "id": 121,
+                "content": "Resources",
+                "key": 6
+              },
+              {
+                "id": 122,
+                "content": "Grades",
+                "key": 7
+              },
+              {
+                "id": 123,
+                "content": "Submit server",
+                "key": 8
+              }
+            ]
+          },
+          {
+            "id": 124,
+            "content": "",
+            "key": 2,
+            "children": [
+              {
+                "id": 125,
+                "content": "CMSC 631, Spring 2013",
+                "key": 1,
+                "children": [
+                  {
+                    "id": 126,
+                    "content": "Program Analysis and Understanding",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 127,
+                "content": "Lecture Material and Assignments",
+                "key": 2,
+                "children": [
+                  {
+                    "id": 128,
+                    "content": "Lecture Material",
+                    "isList": true,
+                    "key": 1,
+                    "children": [
+                      {
+                        "id": 129,
+                        "content": "Lecture 1 - Introduction (slides)",
+                        "key": 1
+                      },
+                      {
+                        "id": 130,
+                        "content": "Lectures 2,3 - OCaml (slides)",
+                        "key": 2
+                      },
+                      {
+                        "id": 131,
+                        "content": "",
+                        "key": 3,
+                        "children": [
+                          {
+                            "id": 132,
+                            "content": "Lecture 4 - Symbolic execution (slides, interpreter code)",
+                            "key": 1
+                          },
+                          {
+                            "id": 133,
+                            "content": "",
+                            "isList": true,
+                            "key": 2,
+                            "children": [
+                              {
+                                "id": 134,
+                                "content": "(Optional) EXE:",
+                                "key": 1,
+                                "children": [
+                                  {
+                                    "id": 135,
+                                    "content": "Automatically Generating Inputs of Death",
+                                    "key": 1
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 136,
+                                "content": "For reference, see lectures 3 and 6 of this tutorial by Patrice Godefroid",
+                                "key": 2
+                              },
+                              {
+                                "id": 137,
+                                "content": "(Optional) Directed Symbolic Execution",
+                                "key": 3
+                              },
+                              {
+                                "id": 138,
+                                "content": "(Optional) DART:",
+                                "key": 4,
+                                "children": [
+                                  {
+                                    "id": 139,
+                                    "content": "Directed Automated Random Testing",
+                                    "key": 1
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 140,
+                                "content": "(Optional)Mixing Type Checking and Symbolic Execution",
+                                "key": 5
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": 141,
+                        "content": "",
+                        "key": 4,
+                        "children": [
+                          {
+                            "id": 142,
+                            "content": "Lectures 5,6 - Data flow analysis (slides)",
+                            "key": 1
+                          },
+                          {
+                            "id": 143,
+                            "content": "(Optional) Efficiently Computing Static Single Assignment Form and the Control Dependence Graph",
+                            "isList": true,
+                            "key": 2
+                          }
+                        ]
+                      },
+                      {
+                        "id": 144,
+                        "content": "Lecture 7 - Operational semantics (slides updated 2/18/13)",
+                        "key": 5
+                      },
+                      {
+                        "id": 145,
+                        "content": "",
+                        "key": 6,
+                        "children": [
+                          {
+                            "id": 146,
+                            "content": "Lecture 8,9 - Abstract Interpretation (slides updated 220, 8:15pm)",
+                            "key": 1
+                          },
+                          {
+                            "id": 147,
+                            "content": "",
+                            "isList": true,
+                            "key": 2,
+                            "children": [
+                              {
+                                "id": 148,
+                                "content": "(Optional) Abstract interpretation tutorial (sections 1 and 2 recommended)",
+                                "key": 1
+                              },
+                              {
+                                "id": 149,
+                                "content": "Example code for signs domain and IMP language: absinterp.tgz",
+                                "key": 2
+                              },
+                              {
+                                "id": 150,
+                                "content": "(Optional) Introductory slides by Patrick Cousot",
+                                "key": 3
+                              },
+                              {
+                                "id": 151,
+                                "content": "(Optional) Systematic Design of Program Analysis Frameworks, Cousot and Cousot",
+                                "key": 4
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": 152,
+                        "content": "Lecture 10 - Probabilistic Computation",
+                        "key": 7
+                      },
+                      {
+                        "id": 153,
+                        "content": "Some examples, concrete operational semantics (slides)",
+                        "key": 8
+                      },
+                      {
+                        "id": 154,
+                        "content": "Probabilistic abstract interpretation applied to knowledge-based security policies (slides, paper)",
+                        "key": 9
+                      },
+                      {
+                        "id": 155,
+                        "content": "Lecture 11 - Synthesis (slides)",
+                        "key": 10
+                      },
+                      {
+                        "id": 156,
+                        "content": "Lecture 12 - Lambda Calculus (slides)",
+                        "key": 11
+                      },
+                      {
+                        "id": 157,
+                        "content": "Lecture 13,14,15 - Types and Proofs (slides, sample typechecker, proof of STLC soundness)",
+                        "key": 12
+                      },
+                      {
+                        "id": 158,
+                        "content": "Lecture 16 - Dynamic Typing, Contracts, and Gradual Typing (slides)",
+                        "key": 13
+                      },
+                      {
+                        "id": 159,
+                        "content": "Lecture 16 - Dependent Types (notes)",
+                        "key": 14
+                      },
+                      {
+                        "id": 160,
+                        "content": "",
+                        "key": 15,
+                        "children": [
+                          {
+                            "id": 161,
+                            "content": "Lecture 17,18 - Coq",
+                            "key": 1
+                          },
+                          {
+                            "id": 162,
+                            "content": "",
+                            "isList": true,
+                            "key": 2,
+                            "children": [
+                              {
+                                "id": 163,
+                                "content": "See the resources page for links to the Coq distribution, and Proof General",
+                                "key": 1
+                              },
+                              {
+                                "id": 164,
+                                "content": "Course material for Coq:",
+                                "key": 2,
+                                "children": [
+                                  {
+                                    "id": 165,
+                                    "content": "from Software Foundations",
+                                    "key": 1
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 166,
+                                "content": "Coq lecture 1/2: Basics",
+                                "key": 3
+                              },
+                              {
+                                "id": 167,
+                                "content": "Coq lecture 2/2: Lists, Poly, Gen, Prop and Logic.",
+                                "key": 4
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": 168,
+                        "content": "Lecture 19 - Axiomatic semantics (slides)",
+                        "key": 16
+                      },
+                      {
+                        "id": 169,
+                        "content": "Lecture 20 - Hoare Logic in Coq (Imp and Hoare)",
+                        "key": 17
+                      },
+                      {
+                        "id": 170,
+                        "content": "",
+                        "key": 18,
+                        "children": [
+                          {
+                            "id": 171,
+                            "content": "Lecture 21 - Language-Based Security",
+                            "key": 1
+                          },
+                          {
+                            "id": 172,
+                            "content": "",
+                            "isList": true,
+                            "key": 2,
+                            "children": [
+                              {
+                                "id": 173,
+                                "content": "Introduction and Secure Information Flow",
+                                "key": 1
+                              },
+                              {
+                                "id": 174,
+                                "content": "(Optional) Language-based information flow security",
+                                "key": 2
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": 175,
+                        "content": "",
+                        "key": 19,
+                        "children": [
+                          {
+                            "id": 176,
+                            "content": "Lecture 22 - Type qualifiers (as applied to security)",
+                            "key": 1
+                          },
+                          {
+                            "id": 177,
+                            "content": "",
+                            "isList": true,
+                            "key": 2,
+                            "children": [
+                              {
+                                "id": 178,
+                                "content": "TOPLAS paper on general technique",
+                                "key": 1
+                              },
+                              {
+                                "id": 179,
+                                "content": "USENIX Security paper on application to format strings",
+                                "key": 2
+                              },
+                              {
+                                "id": 180,
+                                "content": "PLAS paper on application to entire Debian distribution",
+                                "key": 3
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": 181,
+                        "content": "Lecture 23 - Incremental computation",
+                        "key": 20
+                      },
+                      {
+                        "id": 182,
+                        "content": "Lecture 24 - Scriptable debugging (guest lecture from Khoo Yit Phang)",
+                        "key": 21
+                      },
+                      {
+                        "id": 183,
+                        "content": "",
+                        "key": 22,
+                        "children": [
+                          {
+                            "id": 184,
+                            "content": "Project presentations",
+                            "key": 1
+                          },
+                          {
+                            "id": 185,
+                            "content": "How to write a research paper and How to give a research talk",
+                            "isList": true,
+                            "key": 2
+                          }
+                        ]
+                      },
+                      {
+                        "id": 186,
+                        "content": "May 1:",
+                        "isList": true,
+                        "key": 23,
+                        "children": [
+                          {
+                            "id": 187,
+                            "content": "Travis Brown, Fay and Effects: Safer JavaScript FFI.",
+                            "key": 1
+                          },
+                          {
+                            "id": 188,
+                            "content": "Chris Imbriano and Chang Liu, Coq Formalization of Memory Trace Oblivious Execution.",
+                            "key": 2
+                          },
+                          {
+                            "id": 189,
+                            "content": "Moshe Katz, Specification-Driven Implementation of Dynamically-Reconfigurable Distributed Applications.",
+                            "key": 3
+                          },
+                          {
+                            "id": 190,
+                            "content": "Alex Malozemoff, Automatically Verifying and Synthesizing Cryptographic Modes of Operation.",
+                            "key": 4
+                          },
+                          {
+                            "id": 191,
+                            "content": "Nate Parsons, Type Inference for M3PC, a Language for Mixed Mode Multiparty Computation.",
+                            "key": 5
+                          },
+                          {
+                            "id": 192,
+                            "content": "Darren Smith, Compact Code Encodings.",
+                            "key": 6
+                          }
+                        ]
+                      },
+                      {
+                        "id": 193,
+                        "content": "May 6:",
+                        "isList": true,
+                        "key": 24,
+                        "children": [
+                          {
+                            "id": 194,
+                            "content": "William Armstrong, A Comparison of Automated Static Analysis Tools for use in Bug-detection on Stand-Alone Java Applications.",
+                            "key": 1
+                          },
+                          {
+                            "id": 195,
+                            "content": "Cody Buntain, Automated Software Diversification via Synthesis-Based Metamorphism.",
+                            "key": 2
+                          },
+                          {
+                            "id": 196,
+                            "content": "Yehuda Katz, Identifying and Analyzing Program Runtime Configuration.",
+                            "key": 3
+                          },
+                          {
+                            "id": 197,
+                            "content": "Youndo Lee, A Survey on Static Analysis of SQL Queries.",
+                            "key": 4
+                          },
+                          {
+                            "id": 198,
+                            "content": "Max Potasznik, Programming Languages in Software Defined Networks.",
+                            "key": 5
+                          },
+                          {
+                            "id": 199,
+                            "content": "Anilesh Shrivastava, A Look at an Implementation of Probabilistic Abstract interpretation.",
+                            "key": 6
+                          }
+                        ]
+                      },
+                      {
+                        "id": 200,
+                        "content": "",
+                        "key": 25,
+                        "children": [
+                          {
+                            "id": 201,
+                            "content": "May 8",
+                            "key": 1
+                          },
+                          {
+                            "id": 202,
+                            "content": "",
+                            "isList": true,
+                            "key": 2,
+                            "children": [
+                              {
+                                "id": 203,
+                                "content": "Kerry Cheng and Rob Argue, Probabilistic Computation: Abstract Interpretation and Machine Learning.",
+                                "key": 1
+                              },
+                              {
+                                "id": 204,
+                                "content": "Wenshuai Hou, A Survey on MapReduce and Its Variations.",
+                                "key": 2
+                              },
+                              {
+                                "id": 205,
+                                "content": "Beth McNany and David Wasser, Symbolic Execution in Ruby.",
+                                "key": 3
+                              },
+                              {
+                                "id": 206,
+                                "content": "Nuttiiya Seekhao and Hui Zhang, Synthesizing Distributed Memory Parallel Programs.",
+                                "key": 4
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": 207,
+                    "content": "Homework",
+                    "key": 2,
+                    "children": [
+                      {
+                        "id": 208,
+                        "content": "",
+                        "isList": true,
+                        "key": 1,
+                        "children": [
+                          {
+                            "id": 209,
+                            "content": "Homework 1",
+                            "key": 1
+                          },
+                          {
+                            "id": 210,
+                            "content": "- Dataflow analysis",
+                            "key": 2
+                          },
+                          {
+                            "id": 211,
+                            "content": "Homework 2",
+                            "key": 3
+                          },
+                          {
+                            "id": 212,
+                            "content": "- Operational semantics and abstract interpretation",
+                            "key": 4
+                          },
+                          {
+                            "id": 213,
+                            "content": "Homework 3",
+                            "key": 5
+                          },
+                          {
+                            "id": 214,
+                            "content": "- Type systems",
+                            "key": 6
+                          },
+                          {
+                            "id": 215,
+                            "content": "Homework 4",
+                            "key": 7
+                          },
+                          {
+                            "id": 216,
+                            "content": "- Formal reasoning in Coq (requires",
+                            "key": 8
+                          }
+                        ]
+                      },
+                      {
+                        "id": 217,
+                        "content": "Sflib.v)",
+                        "key": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": 218,
+                    "content": "Projects",
+                    "isList": true,
+                    "key": 3,
+                    "children": [
+                      {
+                        "id": 219,
+                        "content": "Programming project 1",
+                        "key": 1
+                      },
+                      {
+                        "id": 220,
+                        "content": "- Ocaml programming",
+                        "key": 2
+                      },
+                      {
+                        "id": 221,
+                        "content": "Programming project 2",
+                        "key": 3
+                      },
+                      {
+                        "id": 222,
+                        "content": "- Symbolic execution",
+                        "key": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 223,
+        "content": "Valid HTML 4.01!",
+        "key": 8
+      },
+      {
+        "id": 224,
+        "content": "Web Accessibility",
+        "key": 9
+      }
+    ]
+}

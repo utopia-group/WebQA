@@ -1,0 +1,1403 @@
+{
+    "id": 0,
+    "content": "Madhusudan's homepage",
+    "children": [
+        {
+            "id": 1,
+            "content": "Madhusudan Parthasarathy",
+            "key": 1,
+            "children": [
+                {
+                    "id": 2,
+                    "content": "Research Interests",
+                    "key": 1,
+                    "children": [
+                        {
+                            "id": 3,
+                            "content": "Software verification; Security; Program Synthesis and Machine Learning; Logic and automata theory;",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "content": "Outreach Interests",
+                    "key": 2,
+                    "children": [
+                        {
+                            "id": 5,
+                            "content": "Massively Empowered Classrooms (MEC), a hybrid MOOC model for Indian undergraduate education, in collaboration with Microsoft Research, India.",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "content": "Current research projects and philosophy",
+                    "key": 3,
+                    "children": [
+                        {
+                            "id": 7,
+                            "content": "My general research philosophy is to turn the theory lens (mainly logic and algorithms) towards practical computing domains. I shy away, for the most part, from working on problems purely motivated by theoretical concerns as well as those entirely based on heuristics to solve practical problems.",
+                            "key": 1
+                        },
+                        {
+                            "id": 8,
+                            "content": "My current research interests are primarily in automating software verification , building correct-by-design secure distributed systems , and exploring synergies between machine learning and program synthesis for building intelligent systems.",
+                            "key": 2
+                        },
+                        {
+                            "id": 9,
+                            "content": "Automating software verification:",
+                            "key": 3,
+                            "children": [
+                                {
+                                    "id": 10,
+                                    "content": "Proving a program safe using logical techniques is composed of two phases: finding possible inductive invariants and formally establishing that they are inductive invariants that prove safety.",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 11,
+                            "content": "",
+                            "isList": true,
+                            "key": 4,
+                            "children": [
+                                {
+                                    "id": 12,
+                                    "content": "For the latter problem, the main approach that I currently believe in for automation is the framework of natural proofs that we have been working on for the last 10 years. In particular, though I believe decidable logics are useful for this problem, I do not believe they will solely be powerful enough for addressing the needs of program verification, due to their inherent inexpressivity. Natural proofs aim for sound and oftentimes complete (though not decidable) approaches for this problem.",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 13,
+                                    "content": "As for the former problem for finding invariants, I believe that a combination of several techniques that are proposed in recent literature (including interpolation and IC3) are called for. The primary techniques techniques I work on have been those based on learning and (more recently) finding uninterpreted invariants .",
+                                    "key": 2
+                                }
+                            ]
+                        },
+                        {
+                            "id": 14,
+                            "content": "Building verified systems:",
+                            "key": 5,
+                            "children": [
+                                {
+                                    "id": 15,
+                                    "content": "My view on building verified systems is that they should be built correct by construction (as opposed to verifying existing systems), by proving more abstract systems correct and then refining them to concrete performant code. The proofs of abstract systems against complex specifications would invariably require considerable human input and intuition, while automation can help in refining abstract systems to performant code.",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 16,
+                            "content": "Machine Learning and Program Synthesis: One of my latest interests is in building synergies of program synthesis and machine learning --- I believe practical pattern-matching inductive techniques (like neural nets) can be combined with symbolic search (like synthesizing logical formulas and programs) to build more intelligent systems.",
+                            "key": 6
+                        }
+                    ]
+                },
+                {
+                    "id": 17,
+                    "content": "Note to prospective students",
+                    "key": 4,
+                    "children": [
+                        {
+                            "id": 18,
+                            "content": "I am actively looking for PhD students in the following areas. If you are interested, please apply for the PhD program and write to me personally.",
+                            "key": 1
+                        },
+                        {
+                            "id": 19,
+                            "content": "",
+                            "isList": true,
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 20,
+                                    "content": "Machine learning and program synthesis; learning logics. Exploring new techniques that go beyond neural nets by using symbolic search, abstraction, and reasoning.",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 21,
+                                    "content": "Building verified software using almost-automated verification, especially distributed systems that involve crptography, like blockchains, bitcoin, and smart contracts.",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 22,
+                                    "content": "Logics and reasoning for program verification: especially logics involving expressive specifications for programs manipulating quantified specifications and datastructures. See papers on natural proofs in POPL 2012, PLDI 2013, PLDI 2014, and POPL 2018, and the Dryad and VCDryad) pages.",
+                                    "key": 3
+                                },
+                                {
+                                    "id": 23,
+                                    "content": "Invariant synthesis and mining specifications from code using machine learning, online learning, and learning logical formulas. See papers in CAV14, POPL16, TACAS16, TOCL18, TACAS18, OOPSLA18.",
+                                    "key": 4
+                                },
+                                {
+                                    "id": 24,
+                                    "content": "Exploring the world of uninterpreted programs--- we have discovered a new technique for verifying uninterpreted programs using complete/decidable techniques for generating inductive invariants. This opens up a wide avenue for future work--- tracttable verification, invariant synthesis, synergy with natural proofs, and program synthesis.",
+                                    "key": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 25,
+                    "content": "Earlier research Projects",
+                    "key": 5,
+                    "children": [
+                        {
+                            "id": 26,
+                            "content": "",
+                            "isList": true,
+                            "key": 1,
+                            "children": [
+                                {
+                                    "id": 27,
+                                    "content": "Decidable logics for reasoning with heaps/dynamic data structures (Strand)",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 28,
+                                    "content": "Security of web browser extensions (VEX)",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 29,
+                                    "content": "Testing concurrent programs (Penelope)",
+                                    "key": 3
+                                },
+                                {
+                                    "id": 30,
+                                    "content": "Security of access control (VAC)",
+                                    "key": 4
+                                },
+                                {
+                                    "id": 31,
+                                    "content": "Annotation and proof mechanisms for safe concurrency (Accord)",
+                                    "key": 5
+                                },
+                                {
+                                    "id": 32,
+                                    "content": "Model-checking abstractions of programs (Getafix)",
+                                    "key": 6
+                                },
+                                {
+                                    "id": 33,
+                                    "content": "",
+                                    "key": 7,
+                                    "children": [
+                                        {
+                                            "id": 34,
+                                            "content": "Decidable automata models (See page on visibly pushdown automata)",
+                                            "key": 1
+                                        },
+                                        {
+                                            "id": 35,
+                                            "content": "Software/tools:",
+                                            "isList": true,
+                                            "key": 2,
+                                            "children": [
+                                                {
+                                                    "id": 36,
+                                                    "content": "VCDryad - An extension of VCC that provides sound but incomplete automatic mechanisms against Dryad specifications, a dialect of separation logic.",
+                                                    "key": 1
+                                                },
+                                                {
+                                                    "id": 37,
+                                                    "content": "Dryad - Sound but incomplete mechanism for proving heap-based programs correct",
+                                                    "key": 2
+                                                },
+                                                {
+                                                    "id": 38,
+                                                    "content": "CAV 2013 tool - for learning universally quantified invariants on linear data-structures using quantified data automata",
+                                                    "key": 3
+                                                },
+                                                {
+                                                    "id": 39,
+                                                    "content": "Strand - Decidable logics/SMT solver for reasoning with heaps",
+                                                    "key": 4
+                                                },
+                                                {
+                                                    "id": 40,
+                                                    "content": "Getafix - A boolean model-checker for concurrent and recursive programs",
+                                                    "key": 5
+                                                },
+                                                {
+                                                    "id": 41,
+                                                    "content": "VEX - Static analysis of web-browser extensions for security vulnerabilities",
+                                                    "key": 6
+                                                },
+                                                {
+                                                    "id": 42,
+                                                    "content": "Penelope - A testing tool for concurrent programs",
+                                                    "key": 7
+                                                },
+                                                {
+                                                    "id": 43,
+                                                    "content": "VAC - Verifier of Access Control",
+                                                    "key": 8
+                                                },
+                                                {
+                                                    "id": 44,
+                                                    "content": "JIST - Java Interface Synthesis Tool",
+                                                    "key": 9
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 45,
+                                            "content": "Students and Post-doctoral researchers:",
+                                            "key": 3,
+                                            "children": [
+                                                {
+                                                    "id": 46,
+                                                    "content": "Students currently advised:",
+                                                    "isList": true,
+                                                    "key": 1,
+                                                    "children": [
+                                                        {
+                                                            "id": 47,
+                                                            "content": "Angello Astorga (mining program specifications), jointly advised with Tao Xie",
+                                                            "key": 1
+                                                        },
+                                                        {
+                                                            "id": 48,
+                                                            "content": "Adithya Murali (combining machine learning and program synthesis; learnin logics)",
+                                                            "key": 2
+                                                        },
+                                                        {
+                                                            "id": 49,
+                                                            "content": "Shambwaditya Saha (synthesis, learning, mining specifications)",
+                                                            "key": 3
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": 50,
+                                                    "content": "Formerly advised:",
+                                                    "isList": true,
+                                                    "key": 2,
+                                                    "children": [
+                                                        {
+                                                            "id": 51,
+                                                            "content": "Students:",
+                                                            "isList": true,
+                                                            "key": 1,
+                                                            "children": [
+                                                                {
+                                                                    "id": 52,
+                                                                    "content": "Pranav Garg (deductive verification; compositional verification)",
+                                                                    "key": 1
+                                                                },
+                                                                {
+                                                                    "id": 53,
+                                                                    "content": "Edgar Pek (static analysis; points-to analysis)",
+                                                                    "key": 2
+                                                                },
+                                                                {
+                                                                    "id": 54,
+                                                                    "content": "Francesco Sorrentino (testing concurrent programs)",
+                                                                    "key": 3
+                                                                },
+                                                                {
+                                                                    "id": 55,
+                                                                    "content": "Xiaokang Qiu   Thesis: Automatic Techniques for Proving Correctness of Heap-Manipulating Programs   Now postdoc at MIT/UMD.",
+                                                                    "key": 4
+                                                                },
+                                                                {
+                                                                    "id": 56,
+                                                                    "content": "Sruthi Bandhakavi; security of web extensions -- now at Google",
+                                                                    "key": 5
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": 57,
+                                                            "content": "",
+                                                            "key": 2,
+                                                            "children": [
+                                                                {
+                                                                    "id": 58,
+                                                                    "content": "Postdocs:",
+                                                                    "isList": true,
+                                                                    "key": 1,
+                                                                    "children": [
+                                                                        {
+                                                                            "id": 59,
+                                                                            "content": "Gennaro Parlato -- now faculty at University of Southampton",
+                                                                            "key": 1
+                                                                        },
+                                                                        {
+                                                                            "id": 60,
+                                                                            "content": "Karl Palmskog-- now a postdoc at UT Austin.",
+                                                                            "key": 2
+                                                                        },
+                                                                        {
+                                                                            "id": 61,
+                                                                            "content": "Daniel Neider (automated deductiver verification, synthesis, learning, invariant synthesis)   Post-doctoral researcher in the ExCAPE project, jointly at Illinois and UCLA. -- now at Max Planck Institute",
+                                                                            "key": 3
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "id": 62,
+                                                                    "content": "Courses:",
+                                                                    "key": 2,
+                                                                    "children": [
+                                                                        {
+                                                                            "id": 63,
+                                                                            "content": "Note to graduate students:",
+                                                                            "key": 1,
+                                                                            "children": [
+                                                                                {
+                                                                                    "id": 64,
+                                                                                    "content": "If you are interested in mainstream software verification, I suggest that you take the course CS477 (Formal Methods in Software Development) followed by my course CS598MP (offered only once in a while) on Software Verification. The CS598MP course is more advanced, and CS477 will be a pre-requisite for it in the future. I also strongly encourage you to take the CS498 course on \"Logic in Computer Science\" (aka Logical Systems) offered by me or Prof. Viswanathan before you take CS58MP:Software Verification.",
+                                                                                    "key": 1
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": 65,
+                                                                            "content": "",
+                                                                            "isList": true,
+                                                                            "key": 2,
+                                                                            "children": [
+                                                                                {
+                                                                                    "id": 66,
+                                                                                    "content": "Spring 2014: CS498: Logic in Computer Science",
+                                                                                    "key": 1
+                                                                                },
+                                                                                {
+                                                                                    "id": 67,
+                                                                                    "content": "Fall 2013: CS173: Discrete Structures",
+                                                                                    "key": 2
+                                                                                },
+                                                                                {
+                                                                                    "id": 68,
+                                                                                    "content": "Fall 2011: CS373: Intro to Theory of Computation",
+                                                                                    "key": 3
+                                                                                },
+                                                                                {
+                                                                                    "id": 69,
+                                                                                    "content": "Spring 2011: CS477: Formal Methods in Software Development",
+                                                                                    "key": 4
+                                                                                },
+                                                                                {
+                                                                                    "id": 70,
+                                                                                    "content": "Earlier courses",
+                                                                                    "key": 5
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": 71,
+                                                                            "content": "Also check out the following:",
+                                                                            "key": 3
+                                                                        },
+                                                                        {
+                                                                            "id": 72,
+                                                                            "content": "",
+                                                                            "isList": true,
+                                                                            "key": 4,
+                                                                            "children": [
+                                                                                {
+                                                                                    "id": 73,
+                                                                                    "content": "Formal Methods Seminar at Illinois",
+                                                                                    "key": 1
+                                                                                },
+                                                                                {
+                                                                                    "id": 74,
+                                                                                    "content": "The new Formal Methods Reading List",
+                                                                                    "key": 2
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "id": 75,
+                                                                    "content": "Service",
+                                                                    "key": 3,
+                                                                    "children": [
+                                                                        {
+                                                                            "id": 76,
+                                                                            "content": "",
+                                                                            "isList": true,
+                                                                            "key": 1,
+                                                                            "children": [
+                                                                                {
+                                                                                    "id": 77,
+                                                                                    "content": "PC Member:",
+                                                                                    "key": 1,
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "id": 78,
+                                                                                            "content": "POPL 2019",
+                                                                                            "key": 1
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "id": 79,
+                                                                                    "content": "PC Member:",
+                                                                                    "key": 2,
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "id": 80,
+                                                                                            "content": "CONCUR 2018",
+                                                                                            "key": 1
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "id": 81,
+                                                                                    "content": "PC Member:",
+                                                                                    "key": 3,
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "id": 82,
+                                                                                            "content": "Workshop on Automated Deduction for Separation Logics (ADSL), affiliated with LICS and FLOC, 2018.",
+                                                                                            "key": 1
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "id": 83,
+                                                                                    "content": "PC Member:",
+                                                                                    "key": 4,
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "id": 84,
+                                                                                            "content": "TACAS 2017",
+                                                                                            "key": 1
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "id": 85,
+                                                                                    "content": "PC Member:",
+                                                                                    "key": 5,
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "id": 86,
+                                                                                            "content": "Highlights of Logic, Automata, and Games, 2017.",
+                                                                                            "key": 1
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "id": 87,
+                                                                                    "content": "PC Member:",
+                                                                                    "key": 6,
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "id": 88,
+                                                                                            "content": "International Conference on Runtime Verification (RV 2017).",
+                                                                                            "key": 1
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "id": 89,
+                                                                                    "content": "Tutorial on Machine-learning based methods for synthesizing invariants. , at Computer Aided Verification (CAV), San Fransisco, USA, 2015.",
+                                                                                    "key": 7
+                                                                                },
+                                                                                {
+                                                                                    "id": 90,
+                                                                                    "content": "PC Member:",
+                                                                                    "key": 8,
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "id": 91,
+                                                                                            "content": "ICALP 2016: Int'l Colloq. on Automata Languages and Programming, Rome, Italy.",
+                                                                                            "key": 1
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "id": 92,
+                                                                                    "content": "External Review Committee:",
+                                                                                    "key": 9,
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "id": 93,
+                                                                                            "content": "CAV 2016: Computer Aided Verification, Toronto, Canada.",
+                                                                                            "key": 1
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "id": 94,
+                                                                                    "content": "Co-chair/Organizer: SYNT 2015: 4th Workshop on Synthesis (associated CAV), San Francisco, USA.",
+                                                                                    "key": 10
+                                                                                },
+                                                                                {
+                                                                                    "id": 95,
+                                                                                    "content": "PC Member:",
+                                                                                    "key": 11,
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "id": 96,
+                                                                                            "content": "Trustworthy Global Computing (TGC), 2015, Madrid, Spain.",
+                                                                                            "key": 1
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "id": 97,
+                                                                                    "content": "ERC Member:",
+                                                                                    "key": 12,
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "id": 98,
+                                                                                            "content": "PLDI 2015, Portland, Oregon, USA.",
+                                                                                            "key": 1
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "id": 99,
+                                                                                    "content": "PC Member:",
+                                                                                    "key": 13,
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "id": 100,
+                                                                                            "content": "ACM/IEEE International Conference on Model Driven Engineering Languages and Systems, 2014, Madrid, Spain.",
+                                                                                            "key": 1
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "id": 101,
+                                                                                    "content": "PC Member:",
+                                                                                    "key": 14,
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "id": 102,
+                                                                                            "content": "POPL 2015, Mumbai, India.",
+                                                                                            "key": 1
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "id": 103,
+                                                                                    "content": "PC Member:",
+                                                                                    "key": 15,
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "id": 104,
+                                                                                            "content": "PLDI 2014, Edinburgh, Scotland.",
+                                                                                            "key": 1
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "id": 105,
+                                                                                    "content": "PC Member:",
+                                                                                    "key": 16,
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "id": 106,
+                                                                                            "content": "CONCUR 2014, Rome, Italy",
+                                                                                            "key": 1
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "id": 107,
+                                                                                    "content": "PC Member:",
+                                                                                    "key": 17,
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "id": 108,
+                                                                                            "content": "SAS 2014, Munich, Germany",
+                                                                                            "key": 1
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": 109,
+                                                                            "content": "Earlier",
+                                                                            "key": 2,
+                                                                            "children": [
+                                                                                {
+                                                                                    "id": 110,
+                                                                                    "content": "",
+                                                                                    "isList": true,
+                                                                                    "key": 1,
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "id": 111,
+                                                                                            "content": "2013: PC Member: MFCS, 2013, CAV 2013, Highlights of Logic, Automata, Games",
+                                                                                            "key": 1
+                                                                                        },
+                                                                                        {
+                                                                                            "id": 112,
+                                                                                            "content": "2012: PC Chair: CAV 2012; PC Member: LPAR-18, POPL 2012.",
+                                                                                            "key": 2
+                                                                                        },
+                                                                                        {
+                                                                                            "id": 113,
+                                                                                            "content": "2011: PC Member: CAV 2011, ATVA 2011, FSTTCS 2011.",
+                                                                                            "key": 3
+                                                                                        },
+                                                                                        {
+                                                                                            "id": 114,
+                                                                                            "content": "2010: PC Member: FSTTCS 2010, ATVA 2010, STACS 2010,",
+                                                                                            "key": 4
+                                                                                        },
+                                                                                        {
+                                                                                            "id": 115,
+                                                                                            "content": "2009: PC member: CAV 2009, LICS 2009, TIME 2009; Ext Rev Committee: PLDI 2009",
+                                                                                            "key": 5
+                                                                                        },
+                                                                                        {
+                                                                                            "id": 116,
+                                                                                            "content": "2008: PC Member: APLAS 2008, CONCUR 2008.",
+                                                                                            "key": 6
+                                                                                        },
+                                                                                        {
+                                                                                            "id": 117,
+                                                                                            "content": "2007 PC Chair: INFINITY 2007 (with CONCUR); PC Member: ICALP 2007",
+                                                                                            "key": 7
+                                                                                        },
+                                                                                        {
+                                                                                            "id": 118,
+                                                                                            "content": "2006 PC member: ACM SAC.",
+                                                                                            "key": 8
+                                                                                        },
+                                                                                        {
+                                                                                            "id": 119,
+                                                                                            "content": "2005 PC member: FSTTCS 2005, CAV 2005. GDV 2005 (with CAV 2005).",
+                                                                                            "key": 9
+                                                                                        },
+                                                                                        {
+                                                                                            "id": 120,
+                                                                                            "content": "2004 PC member: FORMATS and FTRTFT, 2004",
+                                                                                            "key": 10
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "id": 121,
+                                                                                    "content": "Other Activities:",
+                                                                                    "key": 2,
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "id": 122,
+                                                                                            "content": "Organized events, invited talks, etc.",
+                                                                                            "key": 1
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 123,
+                            "content": "Professor   Computer Science   University of Illinois at   Urbana-Champaign",
+                            "key": 2
+                        },
+                        {
+                            "id": 124,
+                            "content": "Erdos number = 3   Assistant: Samantha Smith",
+                            "key": 3
+                        },
+                        {
+                            "id": 125,
+                            "content": "",
+                            "isList": true,
+                            "key": 4,
+                            "children": [
+                                {
+                                    "id": 126,
+                                    "content": "Home",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 127,
+                                    "content": "Research",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 128,
+                                    "content": "Publications",
+                                    "key": 3
+                                },
+                                {
+                                    "id": 129,
+                                    "content": "DBLP",
+                                    "key": 4
+                                },
+                                {
+                                    "id": 130,
+                                    "content": "G Scholar",
+                                    "key": 5
+                                },
+                                {
+                                    "id": 131,
+                                    "content": "Sem Scholar",
+                                    "key": 6
+                                },
+                                {
+                                    "id": 132,
+                                    "content": "Curriculum vitae",
+                                    "key": 7
+                                },
+                                {
+                                    "id": 133,
+                                    "content": "My coauthors",
+                                    "key": 8
+                                },
+                                {
+                                    "id": 134,
+                                    "content": "Co-ordinates",
+                                    "key": 9
+                                }
+                            ]
+                        },
+                        {
+                            "id": 135,
+                            "content": "BBB",
+                            "key": 5
+                        },
+                        {
+                            "id": 136,
+                            "content": "Madhusudan's page",
+                            "key": 6
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 137,
+            "content": "Madhusudan Parthasarathy",
+            "key": 2,
+            "children": [
+                {
+                    "id": 138,
+                    "content": "Publications:",
+                    "isList": true,
+                    "key": 1,
+                    "children": [
+                        {
+                          "id": 139,
+                          "content": "Under submission",
+                          "isList": true,
+                          "key": 1,
+                          "children": [
+                            {
+                              "id": 140,
+                              "content": "Delta Logics: Logics for Change Adithya Murali, P. Madhusudan",
+                              "key": 1
+                            },
+                            {
+                              "id": 141,
+                              "content": "Augmenting Neural Nets with Symbolic Synthesis: Applications to Few-Shot Learning Adithya Murali and P. Madhusudan",
+                              "key": 2
+                            },
+                            {
+                              "id": 142,
+                              "content": "Decidable Synthesis of Programs with Uninterpreted Functions Paul Krogmeier, Umang Mathur, Adithya Murali, P. Madhusudan, Mahesh Viswanathan",
+                              "key": 3
+                            }
+                          ]
+                        },
+                      {
+                        "id": 143,
+                        "content": "A First Order Logic with Frames Christof Loding, P. Madhusudan, Adithya Murali, Lucas Pena To appear in ESOP 2020.",
+                        "key": 2
+                      },
+                      {
+                        "id": 144,
+                        "content": "What's Decidable About Program Verification Modulo Axioms? Umang Mathur, P. Madhusudan, Mahesh Viswanathan To appear in TACAS 2020.",
+                        "key": 3
+                      },
+                      {
+                        "id": 145,
+                        "content": "Deciding Memory Safety for Single-Pass Heap-Manipulating Programs Umang Mathur, Adithya Murali, Paul Krogmeier, P. Madhusudan, Mahesh Viswanathan Proceedings of Principles of Programming Languages (POPL), 2020.",
+                        "key": 4
+                      },
+                      {
+                        "id": 146,
+                        "content": "Reachability in Concurrent Uninterpreted Programs Salvatore La Torre, P. Madhusudan 39th Int'l Conference on Foundations of Software Technology and Theoretical Computer Science (FSTTCS 2019).",
+                        "key": 5
+                      },
+                      {
+                        "id": 147,
+                        "content": "Kaizen: Building a Verified and Performant Blockchain System, Faria Kalim, Karl Palmskog, Jayasi Mehar, Adithya Murali, Indranil Gupta, P. Madhusudan. Proc. Formal Methods in Computer-Aided Design (FMCAD), 2019.",
+                        "key": 6
+                      },
+                      {
+                        "id": 148,
+                        "content": "Sorcar: Property-Driven Algorithms for Learning Conjunctive Invariants Daniel Neider, Shambwaditya Saha, Pranav Garg, and P. Madhusudan Proc. of 26th Static Analysis Symposium (SAS), 2019.",
+                        "key": 7
+                      },
+                      {
+                        "id": 149,
+                        "content": "Learning Stateful Preconditions Modulo a Test Generator Angello Astorga, P. Madhusudan, Shambwaditya Saha, Shiyu Wang, Tao Xie Proc. of Programming Languages Design and Implementation (PLDI), 2019.",
+                        "key": 8
+                      },
+                      {
+                        "id": 150,
+                        "content": "Decidable Verification of Uninterpreted Programs Umang Mathur, P. Madhusudan, Mahesh Viswanathan Proceedings of Principles of Programming Languages (POPL), 2019.   Published in Proc. ACM Program. Lang., Vol. 3, POPL, Article 46, January 2019.   Talk at POPL by Umang Mathur",
+                        "key": 9
+                      },
+                      {
+                        "id": 151,
+                        "content": "Horn-ICE Learning for Synthesizing Invariants and Contracts D. D'Souza, P. Ezudheen, P. Garg, P. Madhusudan and D. Neider Conference on Object-Oriented Programming Systems, Languages, and Applications, OOPSLA 2018.",
+                        "key": 10
+                      },
+                      {
+                        "id": 152,
+                        "content": "Lagrange's theorem for binary squares, P. Madhusudan, Dirk Nowotka, Aayush Rajasekaran, and Jeffrey Shallit, 43rd International Symposium on Mathematical Foundations of Computer Science (MFCS 2018), Best paper award",
+                        "key": 11
+                      },
+                      {
+                        "id": 153,
+                        "content": "A Decidable Fragment of Second Order Logic With Applications to Synthesis P. Madhusudan, Umang Mathur, Shambwaditya Saha, Mahesh Viswanathan 7th EACSL Annual Conference on Computer Science Logic, CSL 2018.",
+                        "key": 12
+                      },
+                      {
+                        "id": 154,
+                        "content": "Invariant Synthesis for Incomplete Verification Engines Daniel Neider, Pranav Garg, P. Madhusudan, Shambwaditya Saha, Daejun Park. International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS), 2018.",
+                        "key": 13
+                      },
+                      {
+                        "id": 155,
+                        "content": "Foundations for Natural Proofs and Quantifier Elimination Christof Loding, P. Madhusudan, Lucas Pena. 45th ACM SIGPLAN Symp. on Principles of Programming Languages (POPL 2018) 2018.",
+                        "key": 14
+                      },
+                      {
+                        "id": 156,
+                        "content": "Efficient Incrementalized Runtime Checking of Linear Measures on Lists Alex Gyori, Pranav Garg, Edgar Pek, P. Madhusudan 10th IEEE International Conference on Software Testing, Verification and Validation (ICST 2017).",
+                        "key": 15
+                      },
+                      {
+                        "id": 157,
+                        "content": "Compositional Synthesis of Piece-Wise Functions by Learning Classifiers P. Madhusudan, Daniel Neider, Shambwaditya Saha Accepted to appear in ACM Transactions on Computational Logic",
+                        "key": 16
+                      },
+                      {
+                        "id": 158,
+                        "content": "Abstract Learning Frameworks for Synthesis Christof Loding, P. Madhusudan, Daniel Neider. 22nd Int'l Conf. on Tools and Algorithms for the Construction and Analysis of Systems (TACAS), 2016, ETAPS 2016, Eindhoven, The Netherlands.",
+                        "key": 17
+                      },
+                      {
+                        "id": 159,
+                        "content": "Synthesizing Piece-wise Functions by Learning Classifiers P. Madhusudan, Daniel Neider, Shambwaditya Saha 22nd Int'l Conf. on Tools and Algorithms for the Construction and Analysis of Systems (TACAS), 2016, ETAPS 2016, Eindhoven, The Netherlands.",
+                        "key": 18
+                      },
+                      {
+                        "id": 160,
+                        "content": "",
+                        "key": 19,
+                        "children": [
+                          {
+                            "id": 161,
+                            "content": "Learning Invariants using Decision Trees and Implication Counterexamples Pranav Garg, Daniel Neider, P. Madhusudan, and Dan Roth",
+                            "key": 1
+                          },
+                          {
+                            "id": 162,
+                            "content": "Annual Symposium on Principles of Programming Languages (POPL), St. Petersburg, Florida, USA, 2016.",
+                            "key": 2
+                          }
+                        ]
+                      },
+                      {
+                        "id": 163,
+                        "content": "Quantified Data Automata for Linear Data Structures. A Register Automaton Model with Applications to Learning Invariants of Programs Manipulating Arrays and Lists Formal Methods in System Design (FMSD) 47(1) 2015. Invited article as a special issue for the Computer Aided Verification conference. Pranav Garg, Christof Loding, P. Madhusudan and Daniel Neider",
+                        "key": 20
+                      },
+                      {
+                        "id": 164,
+                        "content": "Alchemist: Learning Guarded Affine Functions Shambwaditya Saha, Pranav Garg, and P. Madhusudan 27th Int'l Conf. on Computer Aided Verification, 2015, San Fransisco, USA (CAV 2015)",
+                        "key": 21
+                      },
+                      {
+                        "id": 165,
+                        "content": "NETGEN: Synthesizing Data-plane configurations for Network Policies Shambwaditya Saha, M. Prabhu, P. Madhusudan 1st ACM SIGCOMM Symp. on Software Defined Networking Research (SOSR 2015), Santa Clara, USA. Paper (PDF)",
+                        "key": 22
+                      },
+                      {
+                        "id": 166,
+                        "content": "Natural Proofs for Asynchronous Programs using Almost-Synchronous Reductions Ankush Desai, Pranav Garg, P. Madhusudan ACM SIGPLAN Int'l Conf. on Object Oriented Prog. Sys. Languages & Applications (OOPSLA 2014), part of SPLASH 2014, USA.   Paper PDF",
+                        "key": 23
+                      },
+                      {
+                        "id": 167,
+                        "content": "ICE: A Robust Learning Framework for Synthesizing Invariants Pranav Garg, Christof Loeding, P. Madhusudan, and Daniel Neider 26th Int'l Conf. on Computer Aided Verification, 2014, Vienna, Austria (CAV 2014)   Paper PDF",
+                        "key": 24
+                      },
+                      {
+                        "id": 168,
+                        "content": "VAC - Verifier of Administrative Role-based Access Control Policies Anna Lisa Ferrara, P. Madhusudan, Truc L. Nguyen and Gennaro Parlato. 26th Int'l Conf. on Computer Aided Verification, 2014, Vienna, Austria (CAV 2014)   Paper PDF",
+                        "key": 25
+                      },
+                      {
+                        "id": 169,
+                        "content": "Natural Proofs for Data Structure Manipulation in C using Separation Logic Edgar Pek, Xiaokang Qiu, P. Madhusudan 35th ACM SIGPLAN Programming Language Design and Implementation (PLDI 2014)   Paper PDF",
+                        "key": 26
+                      },
+                      {
+                        "id": 170,
+                        "content": "Online Learning versus Blended Learning: An Exploratory Study Cross, Ashok, Bala, Cutrell, Datha, Kumar, Kumar, Madhusudan, Prakash, Rajamani, Sangameswaran, Sharma, Thies. Work in Progress paper, First ACM Conference on Learning at Scale   Paper PDF",
+                        "key": 27
+                      },
+                      {
+                        "id": 171,
+                        "content": "Quantified Data Automata on Skinny Trees: an Abstract Domain for Lists Pranav Garg, P. Madhusudan, and Gennaro Parlato 20th Static Analysis Symposium (SAS), 2013.   Paper PDF",
+                        "key": 28
+                      },
+                      {
+                        "id": 172,
+                        "content": "Learning Universally Quantified Invariants of Linear Data Structures Pranav Garg, Christof Loeding, P. Madhusudan, and Daniel Neider 25th Int'l Conf. on Computer Aided Verification (CAV), 2013.   Paper PDF",
+                        "key": 29
+                      },
+                      {
+                        "id": 173,
+                        "content": "Natural Proofs for Structure, Data, and Separation Xiaokang Qiu, Pranav Garg, and Andrei Stefanescu, P. Madhusudan ACM SIGPLAN Conf. on Programming Language Design and Implementation (PLDI), 2013. Paper PDF and Supplementary material",
+                        "key": 30
+                      },
+                      {
+                        "id": 174,
+                        "content": "Verifying Security Invariants in ExpressOS Haohui Mai, Edgar Pek, Hui Xue, Samuel T. King, and P. Madhusudan 18th Int'l Conf. on Architectural Support for Prog. Lang. and Operating Sys. (ASPLOS), 2013 PDF",
+                        "key": 31
+                      },
+                      {
+                        "id": 175,
+                        "content": "Policy Analysis for Self-administrated role-based access control Anna Lisa Ferrara, P. Madhusudan, and Gennaro Parlato 19th Int'l Conf. on Tools and Algorithms for the Construction and Analysis of Systems (TACAS), 2013 PDF",
+                        "key": 32
+                      },
+                      {
+                        "id": 176,
+                        "content": "Predicting Null-Pointer Dereferences in Concurrent Programs with Azadeh Farzan , Niloofar Razavi, and Francesco Sorrentino 20th ACM SIGSOFT Int'l Symp on Foundations of Software Engineering (FSE), 2012. PDF",
+                        "key": 33
+                      },
+                      {
+                        "id": 177,
+                        "content": "Security Analysis of Role-based Access Control through Program Verification with Gennaro Parlato and Anna Lisa Ferrara 25th IEEE Computer Security Foundations Symposium (CSF). Harvard University, Cambridge MA, USA, 2012. PDF See the associated VAC Tool page.",
+                        "key": 34
+                      },
+                      {
+                        "id": 178,
+                        "content": "Analyzing Temporal Role Based Access Control Models with Emre Uzun, Vijay Atluri, Shamik Sural, Jaideep Vaidya, Gennaro Parlato, and Anna Lisa Ferrara 17th ACM Symposium on Access Control Models and Technologies (SACMAT) Newark, USA, 2012.",
+                        "key": 35
+                      },
+                      {
+                        "id": 179,
+                        "content": "Reachability under Contextual Locking with Mahesh Viswanathan and Rohit Chadha Tools and Algorithms for the Construction and Analysis of Systems (TACAS), 2012, Tallinn, Estonia. PDF",
+                        "key": 36
+                      },
+                      {
+                        "id": 180,
+                        "content": "Recursive Proofs for Inductive Tree Data-structures with Xiaokang Qiu and Andrei Stefanescu Principles of Programming Languages (POPL), 2012, Philadelphia. PDF",
+                        "key": 37
+                      },
+                      {
+                        "id": 181,
+                        "content": "Vetting browser extensions for security vulnerabilities with VEX with Sruthi Bandhakavi, Nandit Tiku, Wyatt Pittman, Sam King, and Marianne Winslett Research Highlights Communications of the ACM (CACM), Vol. 54, Issue 9, September 2011.",
+                        "key": 38
+                      },
+                      {
+                        "id": 182,
+                        "content": "Synthesizing Reactive Programs 20th Conference on Computer Science Logic (CSL), Bergen, Norway, 2011. PDF",
+                        "key": 39
+                      },
+                      {
+                        "id": 183,
+                        "content": "Efficient algorithms for deciding properties of heaps using STRAND with Xiaokang Qiu Static Analysis Symposium (SAS) 2011, Venice, Italy. PDF",
+                        "key": 40
+                      },
+                      {
+                        "id": 184,
+                        "content": "Compositionality entails Sequentializability with Pranav Garg Int'l Conf on Tools and Algorithms for the Construction and Analysis of Systems (TACAS), 2011. PDF",
+                        "key": 41
+                      },
+                      {
+                        "id": 185,
+                        "content": "Thread Contracts for Safe Parallelism with Rajesh Karmani and Brandon Moore 16th ACM SIGPLAN Annual Symp. on Principles and Practice of Parallel Programming (PPoPP 2011). PDF",
+                        "key": 42
+                      },
+                      {
+                        "id": 186,
+                        "content": "Decidable Logics Combining Heap Structures and Data with Gennaro Parlato and Xiaokang Qiu ACM SIGACT-SIGPLAN Symp. on Principles of Programming Languages (POPL), 2011 PDF",
+                        "key": 43
+                      },
+                      {
+                        "id": 187,
+                        "content": "The Tree Width of Auxiliary Storage with Gennaro Parlato ACM SIGACT-SIGPLAN Symp. on Principles of Programming Languages (POPL), 2011 PDF See also Technical Report. that has more proofs.",
+                        "key": 44
+                      },
+                      {
+                        "id": 188,
+                        "content": "PENELOPE: Weaving Threads to Expose Atomicity Violations with Azadeh Farzan and Francesco Sorrentino ACM SIGSOFT Int'l Symp. on the Foundations of Software Engineering (FSE), Santa Fe, New Mexico, USA, November 2010. PDF",
+                        "key": 45
+                      },
+                      {
+                        "id": 189,
+                        "content": "VEX: Vetting Browser Extensions For Security Vulnerabilities with Sruthi Bandhakavi, Sam King, and Marianne Winslett Proc. of USENIX Security Symposium. Washington D.C, USA, August 2010. *** Best paper award *** See the VEX Website for details on the tool. PDF",
+                        "key": 46
+                      },
+                      {
+                        "id": 190,
+                        "content": "Model-checking Parameterized Concurrent Programs using Linear Interfaces with Salvatore La Torre and Gennaro Parlato To appear in 22nd Int'l Conf. on Computer Aided Verification (CAV), 2010, Edinburgh, UK. PDF",
+                        "key": 47
+                      },
+                      {
+                        "id": 191,
+                        "content": "The language theory of bounded context-switching with Salvatore La Torre and Gennaro Parlato 9th Latin American Theoretical Informatics Symposium (LATIN), Oaxaca, Mexico, 2010. PDF.",
+                        "key": 48
+                      },
+                      {
+                        "id": 192,
+                        "content": "Query automata for nested words with Mahesh Viswanathan 34th International Symposium on Mathematical Foundations of Computer Science (MFCS), High Tatras, Slovakia, 2009. PDF.",
+                        "key": 49
+                      },
+                      {
+                        "id": 193,
+                        "content": "Meta-analysis for Atomicity Violations under Nested Locking with Azadeh Farzan and Francesco Sorrentino Computer Aided Verification (CAV), Grenoble, France, 2009. PDF.",
+                        "key": 50
+                      },
+                      {
+                        "id": 194,
+                        "content": "Reducing Context-bounded Concurrent Reachability to Sequential Reachability with Salvatore La Torre and Gennaro Parlato Computer Aided Verification (CAV), Grenoble, France, 2009. PDF.",
+                        "key": 51
+                      },
+                      {
+                        "id": 195,
+                        "content": "Analyzing Recursive Programs using a Fixed-point Calculus with Salvatore La Torre and Gennaro Parlato ACM SIGPLAN Conf. on Programming Language Design and Implementation (PLDI) Dublin, Ireland, 2009. PDF. See also the Getafix page for the tool and experiments",
+                        "key": 52
+                      },
+                      {
+                        "id": 196,
+                        "content": "The Complexity of Predicting Atomicity Violations with Azadeh Farzan Int'l Conf. on Tools and Algorithms for the Construction & Analysis of Systems (TACAS) York, UK, 2009. PDF. Slides: Powerpoint, PDF",
+                        "key": 53
+                      },
+                      {
+                        "id": 197,
+                        "content": "Adding nesting structure to words. with R. Alur Journal of the ACM (JACM), Vol. 56(3), pages 1-43, ACM, 2009. PDF.",
+                        "key": 54
+                      },
+                      {
+                        "id": 198,
+                        "content": "CANDID: Dynamic Candidate Evaluations for Automatic Prevention of SQL Injection Attacks with Prithvi Bisht and V.N. Venkatakrishnan. ACM Transactions on Information and System Security (TISSEC), 2009. PDF.",
+                        "key": 55
+                      },
+                      {
+                        "id": 199,
+                        "content": "Parallel Computing at Illinois: The UPCRC Agenda with S. Adve, V. Adve, G. Agha, M.I. Frank, M.J. Garzaran, J.H.Hart, W.W. Hwu, R.E. Johnson, L.V. Kale, R. Kumar, D. Marinov, K. Nahrstedt, D. Padua, S. Patel, G. Rosu, D. Roth, M.Snir, J. Torrellas, C. Zilles Whitepaper PDF.",
+                        "key": 56
+                      },
+                      {
+                        "id": 200,
+                        "content": "A Formal Framework for Reflective Database Access Control Policies with Lars Olson and Carl Gunter. 15th ACM Conference on Computer and Communications Security (CCS) Alexandria, USA, 2008. PDF.",
+                        "key": 57
+                      },
+                      {
+                        "id": 201,
+                        "content": "An Infinite Automaton Characterization of Double Exponential Time with Gennaro Parlato and Salvatore La Torre. 17th EACSL Annual Conference on Computer Science Logic Bertinoro, Italy, 2008. Conference version, More complete version with an appendix",
+                        "key": 58
+                      },
+                      {
+                        "id": 202,
+                        "content": "Monitoring Atomicity in Concurrent Programs with Azadeh Farzan Computer Aided Verification (CAV), Princeton, USA, 2008. PDF.",
+                        "key": 59
+                      },
+                      {
+                        "id": 203,
+                        "content": "Context-Bounded Analysis of Concurrent Queue Systems with Gennaro Parlato and Salvatore La Torre. Tools and Algorithms for the Construction and Analysis of Systems (TACAS), Budapest, Hungary, 2008. PDF.",
+                        "key": 60
+                      },
+                      {
+                        "id": 204,
+                        "content": "CANDID: Preventing SQL Injection Attacks using Dynamic Candidate Evaluations with Sruthi Bandhakavi, Prithvi Bisht and V.N. Venkatakrishnan. 14th ACM Conference on Computer and Communications Security (CCS) Alexandria, USA, 2007. PDF.",
+                        "key": 61
+                      },
+                      {
+                        "id": 205,
+                        "content": "A Robust Class of Context-Sensitive Languages with Gennaro Parlato and Salvatore La Torre. 22nd IEEE Symp. on Logic in Computer Science (LICS) Wroclaw, Poland, 2007. PDF.",
+                        "key": 62
+                      },
+                      {
+                        "id": 206,
+                        "content": "Visibly Pushdown Automata for Streaming XML with Viraj Kumar and Mahesh Viswanathan. Int'l World Wide Web Conference (WWW) Alberta, Canada, 2007. PDF.",
+                        "key": 63
+                      },
+                      {
+                        "id": 207,
+                        "content": "Causal Dataflow Analysis for Concurrent Programs with Azadeh Farzan. Tools and Algorithms for the Construction and Analysis of Systems (TACAS), Braga, Portugal, 2007. PDF.",
+                        "key": 64
+                      },
+                      {
+                        "id": 208,
+                        "content": "Minimization, Learning, and Conformance Testing of Boolean Programs with Viraj Kumar and Mahesh Viswanathan. Int'l Conf on Concurrency Theory (CONCUR), Bonn, Germany, 2006. PDF.",
+                        "key": 65
+                      },
+                      {
+                        "id": 209,
+                        "content": "Causal Atomicity with Azadeh Farzan. Computer Aided Verification (CAV), Seattle, USA, 2006. PDF.",
+                        "key": 66
+                      },
+                      {
+                        "id": 210,
+                        "content": "Languages of nested trees with Rajeev Alur and Swarat Chaudhuri. Computer Aided Verification (CAV), Seattle, USA, 2006. PDF.",
+                        "key": 67
+                      },
+                      {
+                        "id": 211,
+                        "content": "Adding Nesting Structure to Words with Rajeev Alur. Developments in Language Theory (DLT), Santa Barbara, USA, 2006. PDF.",
+                        "key": 68
+                      },
+                      {
+                        "id": 212,
+                        "content": "Modular Strategies for Recursive Game Graphs with Rajeev Alur and Salvatore La Torre. Theoretical Computer Science, Special Issue for TACAS 2003 Volume 354, Issue 2, 28 March 2006, Pages 230-249. PDF; Link to journal article",
+                        "key": 69
+                      },
+                      {
+                        "id": 213,
+                        "content": "A Fixpoint Calculus for Local and Global Program Flows with Rajeev Alur and Swarat Chaudhuri. Principles of Programming Languages (POPL), Charleston, USA, 2006. Postscript, PDF.",
+                        "key": 70
+                      },
+                      {
+                        "id": 214,
+                        "content": "The MSO Theory of Connectedly Communicating Processes with Yang Shaofa and P.S. Thiagarajan. Foundations of Software Technology and Theoretical Computer Science (FSTTCS), 2005 Postscript, PDF.",
+                        "key": 71
+                      },
+                      {
+                        "id": 215,
+                        "content": "Congruences for visibly pushdown languages with Rajeev Alur, Viraj Kumar and Mahesh Viswanathan. Int'l Coll. on Automata, Lang. and Prog. (ICALP), Lisboa, Portugal, 2005. Postscript, PDF.",
+                        "key": 72
+                      },
+                      {
+                        "id": 216,
+                        "content": "Symbolic Compositional Verification by Learning Assumptions with Rajeev Alur and Wonhong Nam. Computer Aided Verification (CAV), Edinburgh, UK, 2005. Postscript, PDF.",
+                        "key": 73
+                      },
+                      {
+                        "id": 217,
+                        "content": "Symbolic Computational Techniques for Solving Games with Rajeev Alur and Wonhong Nam. Journal version of BMC 2003 paper, International Journal on Software Tools for Technology Transfer (STTT) February, 2005, © Springer-Verlag Postscript of prelim version, Paper on Springer's site",
+                        "key": 74
+                      },
+                      {
+                        "id": 218,
+                        "content": "On-the-fly reachability and cycle detection for recursive state machines   with Rajeev Alur, Swarat Chaudhuri, and Kousha Etessami. TACAS 2005, April 4-8, Edinburgh, UK. Postscript",
+                        "key": 75
+                      },
+                      {
+                        "id": 219,
+                        "content": "Perturbed timed automata   with Rajeev Alur and Salvatore La Torre. Hybrid Systems: Computation and Control (HSCC), Zurich, Switzerland, 2005. Postscript, PDF",
+                        "key": 76
+                      },
+                      {
+                        "id": 220,
+                        "content": "Synthesis of Interface Specifications for Java Classes   (Version 2, July 2004: See the JIST page) with Rajeev Alur, Pavol Cerny and Wonhong Nam. 32nd ACM SIGPLAN-SIGACT Symp. on Principles of Prog. Languages,   POPL 2005, Long Beach, California, USA, Jan 2005. Postscript, PDF",
+                        "key": 77
+                      },
+                      {
+                        "id": 221,
+                        "content": "Visibly pushdown games with Christof Loeding and Olivier Serre. Foundations of Software Tech. and Theoretical Comp. Sc. (FSTTCS), Chennai, India, 2004. Postscript",
+                        "key": 78
+                      },
+                      {
+                        "id": 222,
+                        "content": "Decision problems for timed automata: A Survey with Rajeev Alur 4th Int'l School Formal Methods for the design of   computer, communication and software systems: Real Time (SFM-04:RT), Bertinoro, Italy, 2004. LNCS © Springer-Verlag Postscript",
+                        "key": 79
+                      },
+                      {
+                        "id": 223,
+                        "content": "Optimal Reachability for Weighted Timed Games with Rajeev Alur and Mikhail Bernadsky. ICALP, 31st Int'l Colloquium on Automata, Languages and Programming, Turku, Finland, 2004. LNCS © Springer-Verlag Abstract, PDF",
+                        "key": 80
+                      },
+                      {
+                        "id": 224,
+                        "content": "Visibly pushdown languages with Rajeev Alur. STOC, Symp. on Theory of Computing, Chicago, USA, 2004. Abstract, PDF",
+                        "key": 81
+                      },
+                      {
+                        "id": 225,
+                        "content": "A Temporal Logic for Nested Calls and Returns with Rajeev Alur and K. Etessami. TACAS, Barcelona, Spain, 2004. LNCS © Springer-Verlag Abstract, Postscript",
+                        "key": 82
+                      },
+                      {
+                        "id": 226,
+                        "content": "Playing Games with Boxes and Diamonds with Rajeev Alur and Salvatore La Torre. CONCUR, Marseilles, France, 2003, LNCS © Springer-Verlag Abstract, Postscript",
+                        "key": 83
+                      },
+                      {
+                        "id": 227,
+                        "content": "Symbolic Computational Techniques for Solving Games with Rajeev Alur and Wonhong Nam. Bounded Model Checking Workshop, Boulder, Colorado, USA, 2003, Electronic Notes in Theoretical Computer Science, Vol 89, Issue 4. Abstract, Postscript, PDF",
+                        "key": 84
+                      },
+                      {
+                        "id": 228,
+                        "content": "Modular Strategies for Infinite Games on Recursive Graphs with Rajeev Alur and Salvatore La Torre. CAV, Boulder, Colorado, USA, 2003, LNCS © Springer-Verlag Abstract, Postscript",
+                        "key": 85
+                      },
+                      {
+                        "id": 229,
+                        "content": "Timed Control with Partial Observability with Deepak D'Souza, Patricia Bouyer and Antoine Petit. CAV, Boulder, Colorado, USA, 2003, LNCS © Springer-Verlag Abstract, Postscript",
+                        "key": 86
+                      },
+                      {
+                        "id": 230,
+                        "content": "Model-checking Trace Event Structures LICS, Ottawa, Canada, 2003, © IEEE Abstract, Postscript",
+                        "key": 87
+                      },
+                      {
+                        "id": 231,
+                        "content": "Modular Strategies for Recursive Game Graphs with Rajeev Alur and Salvatore La Torre. 9th TACAS, Warsaw, Poland, 2003, LNCS © Springer-Verlag Abstract, Postscript",
+                        "key": 88
+                      },
+                      {
+                        "id": 232,
+                        "content": "Dynamic Message Sequence Charts with Martin Leucker and Supratik Mukhopadhyay. 22nd FSTTCS, Kanpur, India, 2002, LNCS © Springer-Verlag Abstract, Postscript",
+                        "key": 89
+                      },
+                      {
+                        "id": 233,
+                        "content": "A Decidable Class of Asynchronous Distributed Controllers with P.S. Thiagarajan. CONCUR, Brno, Czech Republic, 2002, LNCS 2421 © Springer-Verlag Abstract, Postscript",
+                        "key": 90
+                      },
+                      {
+                        "id": 234,
+                        "content": "Timed Control Synthesis for External Specifications with Deepak D'Souza, CMI. STACS, Antibes - Juan les Pins, France, 2002, LNCS 2285 © Springer-Verlag Abstract, Postscript",
+                        "key": 91
+                      },
+                      {
+                        "id": 235,
+                        "content": "Branching-time controllers for discrete event systems with P.S. Thiagarajan, CMI. CONCUR 1998 Special Issue, Theoretical Computer Science, 274 1-2 (2002) © Elsevier Sceince Abstract, Postscript, PDF (actual journal version)",
+                        "key": 92
+                      },
+                      {
+                        "id": 236,
+                        "content": "Control and Synthesis of Open Reactive Systems PhD thesis, November 2001 Abstract, Postscript",
+                        "key": 93
+                      },
+                      {
+                        "id": 237,
+                        "content": "Beyond Message Sequence Graphs with B. Meenakshi. 21st FSTTCS, Bangalore, India, 2001, LNCS 2245 © Springer-Verlag Abstract, Postscript",
+                        "key": 94
+                      },
+                      {
+                        "id": 238,
+                        "content": "Reasoning about Sequential and Branching Behaviours of Message Sequence Graphs 28th ICALP, Crete, Greece, 2001, LNCS 2076 © Springer-Verlag Abstract, Postscript",
+                        "key": 95
+                      },
+                      {
+                        "id": 239,
+                        "content": "Distributed Controller Synthesis for Local Specifications with P.S. Thiagarajan. 28th ICALP, Crete, Greece, 2001, LNCS 2076 © Springer-Verlag Abstract, Postscript",
+                        "key": 96
+                      },
+                      {
+                        "id": 240,
+                        "content": "Before 2000",
+                        "isList": true,
+                        "key": 97,
+                        "children": [
+                          {
+                            "id": 241,
+                            "content": "",
+                            "isList": true,
+                            "key": 1,
+                            "children": [
+                              {
+                                "id": 242,
+                                "content": "Open systems in reactive environments: Control and Synthesis with Orna Kupferman, P.S. Thiagarajan, Moshe Vardi. 11th CONCUR, Penn. State Univ., USA, 2000, LNCS 1877 © Springer-Verlag Abstract, Postscript",
+                                "key": 1
+                              },
+                              {
+                                "id": 243,
+                                "content": "Controllers for discrete event systems via morphisms with P.S. Thiagarajan, CMI. 9th CONCUR, Nice, France, 1998, LNCS 1466 © Springer-Verlag Abstract, Postscript",
+                                "key": 2
+                              },
+                              {
+                                "id": 244,
+                                "content": "On-the-fly verification of Product-LTL with Deepak D'Souza, CMI. National Seminar on Theoretical Computer Science, Madras, June 1997. Abstract, Postscript",
+                                "key": 3
+                              },
+                              {
+                                "id": 245,
+                                "content": "An on-the-fly algorithm for linear-time temporal logic M.Sc. thesis, 1994 Abstract, Postscript",
+                                "key": 4
+                              }
+                            ]
+                          },
+                          {
+                            "id": 246,
+                            "content": "Professor   Computer Science   University of Illinois at   Urbana-Champaign",
+                            "key": 2
+                          },
+                          {
+                            "id": 247,
+                            "content": "Erdos number = 3   Assistant: Samantha Smith",
+                            "key": 3
+                          },
+                          {
+                            "id": 248,
+                            "content": "Home",
+                            "key": 4
+                          },
+                          {
+                            "id": 249,
+                            "content": "Research",
+                            "key": 5
+                          },
+                          {
+                            "id": 250,
+                            "content": "Publications",
+                            "key": 6
+                          },
+                          {
+                            "id": 251,
+                            "content": "DBLP",
+                            "key": 7
+                          },
+                          {
+                            "id": 252,
+                            "content": "G Scholar",
+                            "key": 8
+                          },
+                          {
+                            "id": 253,
+                            "content": "Sem Scholar",
+                            "key": 9
+                          },
+                          {
+                            "id": 254,
+                            "content": "Curriculum vitae",
+                            "key": 10
+                          },
+                          {
+                            "id": 255,
+                            "content": "My coauthors",
+                            "key": 11
+                          },
+                          {
+                            "id": 256,
+                            "content": "Co-ordinates",
+                            "key": 12
+                          }
+                        ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

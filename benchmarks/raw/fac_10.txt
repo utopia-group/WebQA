@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Basic Page Needs
+  ââââââââââââââââââââââââââââââââââââââââââââââââââ -->
+<meta charset="utf-8"/>
+<title>Eva Darulova</title>
+<!-- Mobile Specific Metas
+  ââââââââââââââââââââââââââââââââââââââââââââââââââ -->
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<!-- FONT
+  ââââââââââââââââââââââââââââââââââââââââââââââââââ -->
+<!-- CSS
+  ââââââââââââââââââââââââââââââââââââââââââââââââââ -->
+<link href="css/normalize.css" rel="stylesheet"/>
+<link href="css/skeleton.css" rel="stylesheet"/>
+<link href="css/evas_style.css" rel="stylesheet"/>
+<!-- Favicon
+  ââââââââââââââââââââââââââââââââââââââââââââââââââ -->
+<link href="https://www.mpi-sws.org/wp-content/themes/mpi-sws/assets/images/favicon/favicon-32x32.png?ver=1.5.0" rel="icon" type="image/png"/>
+</head>
+<body>
+<header class="container">
+<div class="row">
+<div class="four columns">
+<figure class="foto">
+<img alt="Eva's portrait" src="images/Eva-Darulova.jpg" width="80%"/>
+<figcaption>(hair color subject to change) </figcaption>
+</figure>
+</div>
+<div class="eight columns">
+<div class="info">
+<h1> Eva Darulova </h1>
+<p class="center">
+          Max Planck Institute for Software Systems (MPI-SWS) <br/>
+          Paul-Ehrlich-Strasse, Building G 26 <br/>
+          room 417, Kaiserslautern<br/>
+          eva at mpi - sws dot org <br/>
+          +49 681 9303-8101
+        </p>
+</div>
+</div>
+</div>
+</header>
+<section class="container bio">
+<p>I am a tenure-track faculty at <a href="http://www.mpi-sws.org">MPI-SWS</a>. Before that, I did my PhD
+    with Viktor Kuncak at <a href="http://www.epfl.ch">EPFL</a>.
+    I am generally interested in programming languages, software verification and approximate computing.
+    Currently, my focus lies on applications in numerical, embedded or cyber-physical domains.
+    </p>
+<!--p>
+      Here is more info about <a href="docs/cv_darulova.pdf">me</a> and <a href="docs/research_stmt.pdf">my past and planned research</a>.
+    </p-->
+</section>
+<section class="student-ad container">
+    Internship and MSc projects: in case you are interested
+    drop me an email with a brief statement of interest and your CV.
+  </section>
+<section class="container">
+<h2> Projects </h2>
+<ul>
+<li><a href="https://gitlab.mpi-sws.org/AVA/icing" target="_blank">
+        Icing - a nondeterministic floating-point source semantics
+       </a></li>
+<li><a href="https://flipper.mpi-sws.org" target="_blank">
+        Flipper - a natural language robot interface
+       </a></li>
+<li><a href="https://gitlab.mpi-sws.org/AVA/FloVer" target="_blank">
+        FloVer - a certificate checker for roundoff error bounds
+       </a></li>
+<li><a href="https://github.com/malyzajko/daisy" target="_blank">
+        Daisy - a framework for accuracy analysis and synthesis of numerical programs
+       </a></li>
+<li><a href="https://github.com/malyzajko/rosa" target="_blank">
+        Rosa - the real compiler
+       </a></li>
+</ul>
+</section>
+<section class="container">
+<h2> PhD Students </h2>
+<ul>
+<li><a href="https://people.mpi-sws.org/~hbecker/">Heiko Becker</a></li>
+<li><a href="https://people.mpi-sws.org/~dlohar/">Debasmita Lohar</a></li>
+<li><a href="https://people.mpi-sws.org/~rosaabbasi/">Rosa Abbasi</a></li>
+<!--li>Anastasiia Izycheva</li-->
+</ul>
+</section>
+<section class="container">
+<h2> Postdocs </h2>
+<ul>
+<li>Clothilde Jeangoudoux</li>
+</ul>
+</section>
+<section class="container">
+<h2> Teaching </h2>
+<ul>
+<li><!--a href="courses/programAnalysis19/index.html"-->
+        Program Analysis (Winter 19/20)
+       </li>
+<li><a href="courses/programAnalysis19/index.html">
+        Advanced Program Analysis (blockseminar march 19)
+       </a></li>
+<li><!--a href="https://moodle.mpi-sws.org/"-->
+        Program Analysis (Winter 18/19)
+       </li>
+<li><a href="courses/synthesisSS18/index.html">
+        Program Synthesis (Summer 2018)
+       </a></li>
+<li>Static Program Analysis (Summer 2017)</li>
+<li><a href="courses/approxCompSS16/index.html">
+        Approximate Computing: Promise or Hype? (Summer 2016)
+       </a></li>
+</ul>
+</section>
+<section class="container">
+<h2> Service </h2>
+<ul>
+<li>current: CAV 2020 (PC), PLDI 2020 (ERC)</li>
+<li>recent: ECOOP 2019 (PC), CAV 2019 (PC), OOPSLA 2019 (ERC), WAX 2019 (PC), FHPNC 2019 (PC), PLDI 2018 (PC, SRC), CAV 2018 (AEC), iFM (PC), CGO 2018 (PC)</li>
+<!--PLDI 2018 (PC, SRC), CAV 2018 (AEC), iFM (PC), CGO 2018 (PC), CAV 2017 workshop chair, Onward! 2017 (PC), NSV 2017 (PC), WAX 2017, PLDI 2017 (ERC), PLMW@POPL 2017 co-organiser, CCâ17 (PC), PLDIâ16 (ERC), Scalaâ16 (PC), VMCAIâ16 (PC)</li-->
+</ul>
+</section>
+<section class="container">
+<h2> Publications </h2>
+<ul>
+<li>
+<a class="pubname" href="https://people.mpi-sws.org/%7Eeva/papers/iFM2019.pdf">
+        Sound Probabilistic Numerical Error Analysis</a>,
+        <span class="authorname">D. Lohar, M. Prokop, E. Darulova.</span>
+<span class="confname">iFM 2019</span><br/>
+</li>
+<li>
+<a class="pubname" href="https://people.mpi-sws.org/%7Eeva/papers/emsoft2019.pdf">
+        Memory-Efficient Mixed-Precision Implementations for Robust Explicit Model Predictive Control</a>,
+        <span class="authorname">M. Salamati, R. Salvia, E. Darulova, S. Soudjani and R. Majumdar.</span>
+<span class="confname">EMSOFT 2019</span><br/>
+</li>
+<li>
+<a class="pubname" href="https://people.mpi-sws.org/%7Eeva/papers/atva2019.pdf">
+        Synthesizing Efficient Low-Precision Kernels</a>,
+        <span class="authorname">A. Izycheva, E. Darulova, H. Seidl.</span>
+<span class="confname">ATVA 2019</span><br/>
+</li>
+<li>
+<a class="pubname" href="https://people.mpi-sws.org/%7Eeva/papers/fm2019.pdf">
+        Formally Verified Roundoff Errors using SMT-based Certificates and Subdivisions</a>,
+        <span class="authorname">H. Becker, J. Bard, E. Darulova.</span>
+<span class="confname">FM 2019</span><br/>
+</li>
+<li>
+<a class="pubname" href="https://people.mpi-sws.org/%7Eeva/papers/cav2019a.pdf">
+        Icing: Supporting Fast-math Style Optimizations in a Verified Compiler</a>,
+        <span class="authorname">H. Becker, E. Darulova, M. O. Myreen, Z. Tatlock.</span>
+<span class="confname">CAV 2019</span><br/>
+</li>
+<li>
+<a class="pubname" href="https://people.mpi-sws.org/%7Eeva/papers/cav2019b.pdf">
+        Sound Approximation of Programs with Elementary Functions</a>,
+        <span class="authorname">E. Darulova, A. Lozanova.</span>
+<span class="confname">CAV 2019</span><br/>
+</li>
+<li>
+<a class="pubname" href="https://arxiv.org/abs/1803.02238">Precise but Natural Specification for Robot Tasks</a>
+<span class="authorname">B. Boldt, I. Gavran, E. Darulova, R. Majumdar.</span>
+<span class="confname">CoRR abs/1803.02238</span><br/>
+</li>
+<li>
+<a class="pubname" href="https://people.mpi-sws.org/%7Eeva/papers/fmcad2018.pdf">A Verified Certificate Checker for Finite-Precision Error Bounds in Coq and HOL4</a>
+<span class="authorname">H. Becker, N. Zyuzin, R. Monat, E. Darulova, M. O. Myreen and A. Fox.</span>
+<span class="confname">FMCAD 2018</span><br/>
+</li>
+<li>
+<a class="pubname" href="https://people.mpi-sws.org/%7Eeva/papers/emsoft2018.pdf">Discrete Choice in the Presence of Numerical Uncertainties</a>
+<span class="authorname">D. Lohar, E. Darulova, S. Putot, E. Goubault.</span>
+<span class="confname">EMSOFT 2018</span><br/>
+</li>
+<li>
+<a class="pubname" href="https://people.mpi-sws.org/%7Eeva/papers/fm2018.pdf">Combining Tools for Optimization and Analysis of Floating-Point Computations</a>
+<span class="authorname">H. Becker, P. Panchekha, E. Darulova, and Z. Tatlock.</span>
+<span class="confname">FM 2018</span><br/>
+</li>
+<li>
+<a class="pubname" href="https://people.mpi-sws.org/%7Eeva/papers/tacas18_daisy_toolpaper.pdf">Daisy - Framework for Analysis and Optimization of Numerical Programs (Tool Paper)</a>
+<span class="authorname">E. Darulova, A Izycheva, F. Nasir, F. Ritter, H. Becker, and R. Bastian.</span>
+<span class="confname">TACAS 2018</span><br/>
+</li>
+<li>
+<a class="pubname" href="https://people.mpi-sws.org/%7Eeva/papers/iccps2018.pdf">Sound Mixed-Precision Optimization with Rewriting</a>
+<span class="authorname">E. Darulova, E. Horn, S. Sharma.</span>
+<span class="confname">ICCPS 2018</span><br/>
+</li>
+<li>
+<a class="pubname" href="https://arxiv.org/abs/1707.02121">On Sound Relative Error Bounds for Floating-Point Arithmetic</a>
+<span class="authorname">A. Izycheva, E. Darulova.</span>
+<span class="confname">FMCAD 2017</span><br/>
+</li>
+<li>
+<span class="acmdlitem" id="item3014426"><img alt="ACM DL Author-ize service" border="0" height="25" src="http://dl.acm.org/images/oa.gif" style="vertical-align:middle" width="25"/><a href="https://dl.acm.org/authorize?N30261" title="Towards a Compiler for Reals">Towards a Compiler for Reals</a>
+        E. Darulova, V. Kuncak, ACM Transactions on Programming Languages and Systems (TOPLAS),Â 2017</span>
+</li>
+<li>
+<a class="pubname" href="papers/thesis.pdf">Programming with Numerical Uncertainties</a>
+<span class="authorname">Eva Darulova,</span>
+<span class="confname">EPFL PhD thesis 2014</span><br/>
+</li>
+<li><a class="pubname" href="papers/popl2014.pdf">Sound Compilation of Reals</a>.
+          <span class="authorname">E. Darulova, V. Kuncak,</span>
+<span class="confname">POPL 2014</span>
+</li>
+<li> <span class="pubname">Programming Language and Compiler Support for Uncertainties</span>
+<span class="authorname">E. Darulova, V. Kuncak,</span>
+<span class="confname">First SIGPLAN Workshop on Probabilistic and Approximate Computing (APPROX 2014).
+          Co-located with PLDI 2014 in Edinburgh, Scotland.  Invited Position Paper</span>
+</li>
+<li><a class="pubname" href="papers/emsoft2013.pdf">Synthesis of Fixed-Point Programs</a>
+<span class="authorname">E. Darulova, V. Kuncak, I. Saha, R. Majumdar</span>,
+          <span class="confname">EMSOFT 2013</span>
+</li>
+<li><a class="pubname" href="papers/rv2012.pdf">Certifying Solutions for Numerical Constraints</a>
+<span class="authorname">E. Darulova, V. Kuncak,</span>
+<span class="confname">RV 2012</span>
+</li>
+<li><a class="pubname" href="papers/oopsla2011.pdf">Trustworthy Numerical Computation in Scala</a>
+<span class="authorname">E. Darulova, V. Kuncak,</span>
+<span class="confname">OOPSLA 2011</span>
+</li>
+</ul>
+<!--h2> Technical Reports </h2>
+    <ul class="nobullets">
+      <li><a href="papers/rosa-techreport.pdf" class="pubname">Towards a Compiler for Reals</a>
+          <span class="authorname">Eva Darulova, Viktor Kuncak,</span>
+          <span class="confname">2016</span>
+          <span class="confname">EPFL TR 200132, 2014</span><br>
+      </li>
+    </ul-->
+<!--h2>Students </h2>
+      <h3> PhD </h3-->
+</section>
+<section class="container">
+<h2> Alumni </h2>
+<ul>
+<li>Nikita Zyuzin (MSc 2019)</li>
+<li>Youcef Merah (MSc 2018)</li>
+<li>Safya Alzayat (BSc 2018)</li>
+<li>Anastasiia Izycheva (MSc 2017)</li>
+</ul>
+</section>
+<!--section class="container">
+    <h2> Code </h2>
+    <ul class="nobullets">
+      <li>
+        <a href="https://github.com/malyzajko" class="pubname">... is mostly on Github</a>
+      </li>
+    </ul>
+  </section-->
+<section class="container">
+<h2> Snail Mail </h2>
+<p>
+      MPI-SWS <br/>
+      Paul-Ehrlich-Strasse, G 26 <br/>
+      D-67663 Kaiserslautern <br/>
+      Germany <br/>
+</p>
+</section>
+<section class="container imprint">
+<a href="https://imprint.mpi-klsb.mpg.de/sws/eva_personal">Imprint</a>
+<a href="https://data-protection.mpi-klsb.mpg.de/sws/eva_personal">Data Protection</a>
+</section>
+</body>
+</html>

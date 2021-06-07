@@ -1,0 +1,1891 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+<!-- Bootstrap CSS -->
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet"/>
+<link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" rel="stylesheet"/>
+<link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
+<title>
+			Home | 13th ACM International WSDM Conference
+		</title>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-75161696-36"></script>
+<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-75161696-36');
+		</script>
+</head>
+<body>
+<div class="top">
+<div class="box"></div>
+</div>
+<!--navigation-->
+<div class="nav">
+<div class="container">
+<div class="row">
+<div class="col">
+<nav class="navbar navbar-expand-lg">
+<button aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNavDropdown" data-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNavDropdown">
+<ul class="navbar-nav">
+<li class="nav-item active">
+<a class="nav-link" href="index.php"><i class="fa fa-home"></i></a>
+</li>
+<li class="nav-item dropdown">
+<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">Calls</a>
+<div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+<a class="dropdown-item" href="call-for-papers.php">Call for Papers</a>
+<a class="dropdown-item" href="call-for-demonstrations.php">Call for Demonstrations</a>
+<a class="dropdown-item" href="call-for-workshop-proposals.php">Call for Workshop Proposals</a>
+<a class="dropdown-item" href="call-for-tutorials.php">Call for Tutorials</a>
+<a class="dropdown-item" href="call-for-doctoral-consortium.php">Call for Doctoral Consortium</a>
+<a class="dropdown-item" href="call-for-industry-day-speaker-call.php">Call for Industry Day Speaker</a>
+<a class="dropdown-item" href="call-for-healthcare-day.php">Call for Healthcare Day</a>
+<!--a class="dropdown-item" href="#">Call for Sponsorship</a>
+											<a class="dropdown-item" href="#">Call for Participants: WSDM Cup</a-->
+</div>
+</li>
+<li class="nav-item dropdown">
+<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">Program</a>
+<div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+<a class="dropdown-item" href="program-overview.php">Program Overview</a>
+<a class="dropdown-item" href="speakers.php">Speakers</a>
+<a class="dropdown-item" href="accepted-papers.php">Accepted Papers</a>
+<!--<a class="dropdown-item" href="speakers.php">Speakers</a> -->
+<a class="dropdown-item" href="accepted-demos.php">Accepted Demos</a>
+<!--<a class="dropdown-item" href="http://people.eng.unimelb.edu.au/ammoffat/wsdm19-research-papers.html">Research Paper Schedule</a>-->
+<a class="dropdown-item" href="workshops.php">WSDM Workshops</a>
+<a class="dropdown-item" href="wsdm-cup-2020.php">WSDM Cup 2020</a>
+<a class="dropdown-item" href="doctoral-consortium-schedule.php">Doctoral Consortium</a>
+<a class="dropdown-item" href="tutorials.php">Tutorials</a>
+<a class="dropdown-item" href="call-for-industry-day-speakers.php">Industry Day Schedule</a>
+<a class="dropdown-item" href="healthcare-day-schedule.php">Healthcare Day Schedule</a>
+<!--a class="dropdown-item" href="#">WSDM Cup 2018</a>
+											<a class="dropdown-item" href="#">Proceedings</a>-->
+</div>
+</li>
+<li class="nav-item dropdown">
+<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">Attending</a>
+<div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+<a class="dropdown-item" href="registration.php">Registration</a>
+<a class="dropdown-item" href="accommodation.php">Accommodation</a>
+<a class="dropdown-item" href="travel-grants.php">Travel Grants</a>
+<a class="dropdown-item" href="acm-proceedings.php">ACM Proceedings</a>
+<a class="dropdown-item" href="visa-information.php">Visa information</a>
+</div>
+</li>
+<li class="nav-item dropdown">
+<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">Organizers</a>
+<div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+<a class="dropdown-item" href="organizing-committee.php">Organizing Committee</a>
+<a class="dropdown-item" href="senior-program-committee.php">Senior Program Committee</a>
+<a class="dropdown-item" href="program-committee.php">Program Committee</a>
+<!--<a class="dropdown-item" href="program-committee-demos.php">Program Committee (Demos)</a>-->
+<!--a class="dropdown-item" href="#">Best Paper Award Committee</a>
+											<a class="dropdown-item" href="steering-committee.php">Steering Committee</a-->
+</div>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="sponsorship.php">Sponsors</a>
+</li>
+<!--<li class="nav-item dropdown ">
+										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Info</a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+											<a class="dropdown-item" href="destination.php">Destination</a>
+											<a class="dropdown-item" href="general-information.php">General Information</a>
+											<a class="dropdown-item" href="houston.php">Houston</a>
+											<a class="dropdown-item" href="venue.php">Venue</a>
+										</div>
+									</li>-->
+<li class="nav-item">
+<a class="nav-link" href="venue.php">Venue</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="contact-us.php">Contact Us</a>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+</div>
+</div>
+</div>
+<div class="header">
+<div class="container">
+<div class="row align-items-center pt-4 pb-4">
+<div class="col-md text-center"><img class="img-fluid" src="img/logo_2020.png"/></div>
+</div>
+</div>
+</div>
+<!-- 		<div class="cards" style="background: none;">
+		<div class="container">
+			<div class="row pt-2"> -->
+<!-- <a href="http://www.wsdm-conference.org" target="_blank" class="col-md-12 mx-auto d-block pb-4">
+					<div class="card">
+						<div class="card-body">
+							
+							<h3 class="card-title text-center">WSDM 2019 is now completed, thank you for your interest. </h3>
+							<p class="card-text text-center">Initial planning has commenced for WSDM 2020 in Houston, Texas; please visit their upcoming webpage via the main WSDM page at <em>www.wsdm-conference.org</em> </p>
+						</div>
+					</div>
+				</a>
+
+				<a href="https://www.youtube.com/playlist?list=PLn0nrSd4xjjaQQvmtd3zCca0u625MgEg0" target="_blank" class="col-md-12 mx-auto d-block pb-4">
+					<div class="card">
+						<div class="card-body">
+							<h3 class="card-title text-center">Recordings of the Industry Day talks are now available on the ACM YouTube channel</h3>
+						</div>
+					</div>
+				</a> -->
+<!-- <a href="wsdm20-outstanding.html" target="_blank"  class="col-md-12 mx-auto d-block pb-4">
+					<div class="card">
+						<div class="card-body"> -->
+<!-- <h3 class="card-title text-center">WSDM 2019 Best Paper Award Recipient:</h3>
+							<p class="card-text text-center">"Slice: Scalable Linear Extreme Classifiers trained on 100 Million Labels for Related Searches", by Himanshu Jain,
+                Venkatesh Balasubramanian, Bhanu Teja Chunduri, and Manik Varma.</p>
+				
+							<h3 class="card-title text-center">WSDM 2019 Test of Time Award Recipient:</h3>
+							<p class="card-text text-center">"Opinion Spam and Analysis", Nitin Jindal and Bing Liu, WSDM 2008.</p>
+							
+							<h3 class="card-title text-center">Best Industry Day Presentation:</h3>
+							<p class="card-text text-center">"Reinforcement Learning for Recommender Systems: A Case Study on Youtube," by Minmin Chen.</p> -->
+<!-- <h3 class="card-title text-center">Outstanding SPC and PC Members:</h3>
+							<p class="card-text text-center">A list of referees recognized for their significant contributions is available at <em>wsdm20-outstanding.html</em></p> -->
+<!-- 						</div>
+					</div>
+				</a> -->
+<!-- <a href="https://photos.app.goo.gl/HA83CfsFLCQz1CCn9" target="_blank"  class="col-md-12 mx-auto d-block pb-4">
+					<div class="card">
+						<div class="card-body">
+							<h3 class="card-title text-center">A WSDM 2019 photo album is available at <em>https://photos.app.goo.gl/HA83CfsFLCQz1CCn9</em> </h3>
+						</div>
+					</div>
+				</a> -->
+<!-- <a href="acm-proceedings.php" class="col-md-12 mx-auto d-block pb-4">
+					<div class="card">
+						<div class="card-body">
+							<h3 class="card-title text-center">Links to Published Papers in ACM Digital Library</h3>
+						</div>
+					</div>
+				</a> -->
+<!-- <a href="venue.php" class="col-md-12 mx-auto d-block pb-4">
+					<div class="card">
+						<div class="card-body">
+							<h3 class="card-title text-center">All WSDM activities will take place at the <br>Melbourne Convention and Exhibition Centre</h3>
+						</div>
+					</div>
+				</a>
+
+
+				<a href="call-for-industry-day-speakers.php" class="col-md-4 pb-4">
+					<div class="card">
+						<div class="card-body">
+							<h3 class="card-title">Call for Industry Day Speakers</h3>
+							<p class="card-text">We invite submissions for industry talk proposals. <em>View more information</em>.</p>
+						</div>
+					</div>
+				</a>
+
+			<a href="travel-grants.php" class="col-md-4 pb-4">
+					<div class="card">
+						<div class="card-body">
+							<h3 class="card-title">Student Travel Grants</h3>
+							<p class="card-text">The SIGIR Student Travel Grant Program provides funding for students who are members of ACM SIGIR. <em>View more information</em>.</p>
+						</div>
+					</div>
+			  </a> -->
+<!-- </div>
+		</div>
+	</div>   -->
+<div class="content">
+<div class="container">
+<!--<div class="row">
+		<div class="col-md-12">
+		<a href="registration.php"><button type="button" class="btn btn-primary btn-lg btn-block mb-1 p-3">Registration now open</button></a>
+		</div>
+
+		</div>-->
+<div class="row pt-4">
+<div class="col-md pb-4">
+<div class="carousel slide mb-4" data-ride="carousel" id="carouselExampleControls">
+<div class="carousel-inner">
+<!--     <div class="carousel-item active">
+      <img class="d-block w-100" src="img/slider/whether.jpg">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/slider/transport.jpg">
+    </div>
+	<div class="carousel-item">
+      <img class="d-block w-100" src="img/slider/food.png">
+	</div>
+	<div class="carousel-item">
+		<img class="d-block w-100" src="img/slider/sports.jpg">
+	  </div>
+	<div class="carousel-item">
+      <img class="d-block w-100" src="img/slider/tour.jpg">
+    </div>
+	<div class="carousel-item">
+      <img class="d-block w-100" src="img/slider/visit.jpg">
+    </div> -->
+<div class="carousel-item active">
+<img class="d-block w-100" src="img/slider/Bin_Yu.png"/>
+</div>
+<div class="carousel-item">
+<img class="d-block w-100" src="img/slider/Kristen_Grauman.png"/>
+</div>
+<div class="carousel-item">
+<img class="d-block w-100" src="img/slider/Ed_Chi.png"/>
+</div>
+<!-- <div class="carousel-item">
+		<img class="d-block w-100" src="img/slider/Zhihua_Zhou.png">
+	</div> -->
+</div>
+<a class="carousel-control-prev" data-slide="prev" href="#carouselExampleControls" role="button">
+<span aria-hidden="true" class="carousel-control-prev-icon"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" data-slide="next" href="#carouselExampleControls" role="button">
+<span aria-hidden="true" class="carousel-control-next-icon"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+<p><strong style="font: bold 1.2em/1.5 'Roboto', sans-serif;">WSDM (pronounced "wisdom") is one of the premier conferences on web-inspired research involving search and data mining. The 13th ACM International WSDM Conference will take place in Houston, Texas from February 3-7, 2020.</strong></p>
+<p>WSDM is a highly selective conference that includes invited talks, as well as refereed full papers. WSDM publishes original, high-quality papers related to search and data mining on the Web and the Social Web, with an emphasis on practical yet principled novel models of search and data mining, algorithm design and analysis, economic implications, and in-depth experimental analysis of accuracy and performance.</p>
+</div>
+<div class="col-md">
+<div class="col-12 pb-3">
+<h2>Venue</h2>
+<a href="http://www.wsdm-conference.org/2020/venue.php" target="_blank"><p class="mt-2"><b>Hyatt Regency Houston/Galleria</b><br/>
+              2626 Sage Road, Houston, Texas, United States, 77056</p></a>
+</div>
+<div class="col-12 pb-3">
+<h2>Schedule</h2>
+<div class="row">
+<div class="col-md">
+<ul class="list-group list-group-flush dates">
+<li class="list-group-item">
+<strong>3 February (Monday), 2020</strong>
+									Tutorials, Industry Day, and Healthcare Day (jointly held with HSDM Workshop) <br/>
+<!-- Commences: 9:00am -->
+</li>
+<li class="list-group-item">
+<strong>4 February (Tuesday) ~ 6 February (Thursday), 2020</strong>
+									Main Conference <br/>
+<!-- Commences: 8:45am -->
+</li>
+<li class="list-group-item">
+<strong>7 February (Friday), 2020</strong>
+									Workshops, Doctoral Consortium, and WSDM Cup <br/>
+<!-- Commences: 8:45am -->
+</li>
+</ul>
+<p class="mt-2"><b>Please arrive and complete your registration prior to these times.</b></p>
+</div>
+</div>
+</div>
+<!--Dates-->
+</div>
+</div>
+<div class="cards" style="background: none;">
+<div class="container">
+<div class="row pt-2">
+<!-- <a href="http://www.wsdm-conference.org" target="_blank" class="col-md-12 mx-auto d-block pb-4">
+					<div class="card">
+						<div class="card-body">
+							
+							<h3 class="card-title text-center">WSDM 2019 is now completed, thank you for your interest. </h3>
+							<p class="card-text text-center">Initial planning has commenced for WSDM 2020 in Houston, Texas; please visit their upcoming webpage via the main WSDM page at <em>www.wsdm-conference.org</em> </p>
+						</div>
+					</div>
+				</a>
+
+				<a href="https://www.youtube.com/playlist?list=PLn0nrSd4xjjaQQvmtd3zCca0u625MgEg0" target="_blank" class="col-md-12 mx-auto d-block pb-4">
+					<div class="card">
+						<div class="card-body">
+							<h3 class="card-title text-center">Recordings of the Industry Day talks are now available on the ACM YouTube channel</h3>
+						</div>
+					</div>
+				</a> -->
+<a class="col-md-12 mx-auto d-block pb-4" href="wsdm20-outstanding.html" target="_blank">
+<div class="card">
+<div class="card-body">
+<!-- <h3 class="card-title text-center">WSDM 2020 Best Paper Award Recipient:</h3>
+							<p class="card-text text-center">"The Power of Pivoting for Exact Clique Counting", by Shweta Jain and C. Seshadhri.</p>
+				
+							<h3 class="card-title text-center">WSDM 2020 Test of Time Award Recipient:</h3>
+							<p class="card-text text-center">"TwitterRank: Finding Topic-sensitive Influential Twitterers", Jianshu Weng, Ee-Peng Lim, Jing Jiang, and Qi He, WSDM 2010.</p>
+							 -->
+<!-- <h3 class="card-title text-center">Best Industry Day Presentation:</h3>
+							<p class="card-text text-center">"Reinforcement Learning for Recommender Systems: A Case Study on Youtube," by Minmin Chen.</p> -->
+<h3 class="card-title text-center">Outstanding SPC and PC Members:</h3>
+<p class="card-text text-center">A list of referees recognized for their significant contributions is available at <em>wsdm20-outstanding.html</em></p>
+</div>
+</div>
+</a>
+<a class="col-md-12 mx-auto d-block pb-4" href="">
+<div class="card">
+<div class="card-body">
+<h3 class="card-title text-center">WSDM 2020 Best Paper Award Recipient:</h3>
+<p class="card-text text-center">"The Power of Pivoting for Exact Clique Counting", by Shweta Jain and C. Seshadhri.</p>
+<h3 class="card-title text-center">WSDM 2020 Best Paper Award Runner-Up:</h3>
+<p class="card-text text-center">"HyperML: A Boosting Metric Learning Approach in Hyperbolic Space for Recommender Systems", by Lucas Vinh Tran, Yi Tay, Shuai Zhang, Gao Cong, and Xiaoli Li.</p>
+<h3 class="card-title text-center">WSDM 2020 Test of Time Award Recipient:</h3>
+<p class="card-text text-center">"TwitterRank: Finding Topic-sensitive Influential Twitterers", Jianshu Weng, Ee-Peng Lim, Jing Jiang, and Qi He, WSDM 2010.</p>
+<h3 class="card-title text-center">WSDM 2020 Honorable Mention (Test of
+Time Award):</h3>
+<p class="card-text text-center">"An Experimental Comparison of Click Position-Bias Models", Nick Craswell, Onno Zoeter, Michael Taylor, and Bill Ramsey, WSDM 2008.</p>
+<h3 class="card-title text-center">WSDM 2020 Honorable Mention (Test of
+Time Award):</h3>
+<p class="card-text text-center">"A Holistic Lexicon-Based Approach to Opinion Mining", Xiaowen Ding, Bing Liu, and Philip S. Yu, WSDM 2008.</p>
+</div>
+</div>
+</a>
+<!-- <a href="https://photos.app.goo.gl/HA83CfsFLCQz1CCn9" target="_blank"  class="col-md-12 mx-auto d-block pb-4">
+					<div class="card">
+						<div class="card-body">
+							<h3 class="card-title text-center">A WSDM 2019 photo album is available at <em>https://photos.app.goo.gl/HA83CfsFLCQz1CCn9</em> </h3>
+						</div>
+					</div>
+				</a> -->
+<a class="col-md-12 mx-auto d-block pb-4" href="acm-proceedings.php">
+<div class="card">
+<div class="card-body">
+<h3 class="card-title text-center">Links to Published Papers in ACM Digital Library</h3>
+</div>
+</div>
+</a>
+<!-- <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSm1mPP5JS43CEofWQ5_Wfiuc_y6E1ZA517p0klx6tiCXiHhej5tUv1cJPRtBgY0XcEF8DaOfEGlfSD/pubhtml" class="col-md-12 mx-auto d-block pb-4"> -->
+<a class="col-md-12 mx-auto d-block pb-4" href="nearby.html">
+<div class="card">
+<div class="card-body">
+<h3 class="card-title text-center">Eat, Shop, and Fun Nearby</h3>
+</div>
+</div>
+</a>
+<!-- <a href="venue.php" class="col-md-12 mx-auto d-block pb-4">
+					<div class="card">
+						<div class="card-body">
+							<h3 class="card-title text-center">All WSDM activities will take place at the <br>Melbourne Convention and Exhibition Centre</h3>
+						</div>
+					</div>
+				</a>
+
+
+				<a href="call-for-industry-day-speakers.php" class="col-md-4 pb-4">
+					<div class="card">
+						<div class="card-body">
+							<h3 class="card-title">Call for Industry Day Speakers</h3>
+							<p class="card-text">We invite submissions for industry talk proposals. <em>View more information</em>.</p>
+						</div>
+					</div>
+				</a>
+
+			<a href="travel-grants.php" class="col-md-4 pb-4">
+					<div class="card">
+						<div class="card-body">
+							<h3 class="card-title">Student Travel Grants</h3>
+							<p class="card-text">The SIGIR Student Travel Grant Program provides funding for students who are members of ACM SIGIR. <em>View more information</em>.</p>
+						</div>
+					</div>
+			  </a> -->
+</div>
+</div>
+</div>
+<!--		  Sponsors-->
+<div class="row">
+<div class="col mt-3">
+<h2>Thank you to our Supporters</h2>
+<h3>Platinum Supporter</h3>
+<div class="row d-flex align-items-center mb-5 mt-3">
+<div class="col-md-3 p-4"><a href="https://www.apple.com/jobs/us/teams/machine-learning-and-ai.html" target="_blank"><img alt="Apple" class="img-fluid" src="img/sponsor_logo/apple.png" width="100"/></a></div>
+</div>
+<h3>Gold Supporters</h3>
+<div class="row d-flex align-items-center mb-5 mt-3">
+<div class="col-md-4 p-4"><a href="https://www.google.com" target="_blank"><img alt="Google" class="img-fluid" src="img/sponsor_logo/google.png" width="150"/></a></div>
+<div class="col-md-4 p-4"><a href="http://bytedance.com/" target="_blank"><img alt="ByteDance" class="img-fluid" src="img/sponsor_logo/byteDance.png" width="200"/></a></div>
+<div class="col-md-4 p-4"><a href="https://www.aboutamazon.com/research" target="_blank"><img alt="Amazon" class="img-fluid" src="img/sponsor_logo/amazon.png" width="180"/></a></div>
+<div class="col-md-4 p-4"><a href="https://www.homedepot.com" target="_blank"><img alt="Homedepot" class="img-fluid" src="img/sponsor_logo/homedepot.jpg" width="100"/></a></div>
+</div>
+<h3>Silver Supporters</h3>
+<div class="row d-flex align-items-center mb-5 mt-3">
+<div class="col-md-4 p-4"><a href="https://www.microsoft.com/en-us/" target="_blank"><img alt="Microsoft" class="img-fluid" src="img/sponsor_logo/microsoft.png" width="190"/></a></div>
+<div class="col-md-4 p-4"><a href="https://www.snapchat.com/" target="_blank"><img alt="SnapChat" class="img-fluid" src="img/sponsor_logo/snap_chat.jpg" width="110"/></a></div>
+<div class="col-md-4 p-4"><a href="http://www.sichuanair.com" target="_blank"><img alt="SichuanAirlines" class="img-fluid" src="img/sponsor_logo/SichuanAirlines.png" width="200"/></a></div>
+<div class="col-md-4 p-4"><a href="http://aij.ijcai.org/" target="_blank"><img alt="AIJournal" class="img-fluid" src="img/sponsor_logo/AI_Journal.jpg" width="140"/></a></div>
+<div class="col-md-4 p-4"><a href="https://www.baidu.com/" target="_blank"><img alt="Baidu" class="img-fluid" src="img/sponsor_logo/baidu.jpg" width="180"/></a></div>
+<div class="col-md-4 p-4"><a href="https://www.aidatainnovations.com/" target="_blank"><img alt="AIDataInnovations" class="img-fluid" src="img/sponsor_logo/AI_Data_Innovations.jpg" width="220"/></a></div>
+</div>
+<h3>WSDM Cup Sponsors</h3>
+<div class="row d-flex align-items-center mb-5 mt-3">
+<div class="col-md-4 p-4"><a href="https://www.microsoft.com/en-us/" target="_blank"><img alt="Microsoft" class="img-fluid" src="img/sponsor_logo/microsoft.png" width="190"/></a></div>
+<div class="col-md-4 p-4"><a href="http://www.sichuanair.com" target="_blank"><img alt="SichuanAirlines" class="img-fluid" src="img/sponsor_logo/SichuanAirlines.png" width="200"/></a></div>
+<div class="col-md-4 p-4"><a href="http://www.4paradigm.com/" target="_blank"><img alt="4paradigm" class="img-fluid" src="img/sponsor_logo/4paradigm.jpg" width="180"/></a></div>
+<div class="col-md-4 p-4"><a href=" https://www.aminer.cn/" target="_blank"><img alt="aminer" class="img-fluid" src="img/sponsor_logo/aminer_logo.png" width="180"/></a></div>
+</div>
+<h3>Publisher Supporter</h3>
+<div class="row d-flex align-items-center mb-5 mt-3">
+<div class="col-md-4 p-4"><a href="https://www.cambridge.org/" target="_blank"><img alt="CambridgePress" class="img-fluid" src="img/sponsor_logo/cambridge_press.jpg" width="210"/></a></div>
+</div>
+<h3>Sponsors</h3>
+<div class="row d-flex align-items-center mb-5 mt-3">
+<div class="col-md-4 p-4"><a href="https://www.acm.org/" target="_blank"><img alt="ACM" class="img-fluid" src="img/sponsor_logo/acm.gif" width="300"/></a></div>
+<div class="col-md-4 p-4"><a href="https://www.kdd.org/" target="_blank"><img alt="SIGKDD" class="img-fluid" src="img/sponsor_logo/kdd.gif" width="150"/></a></div>
+<div class="col-md-4 p-4"><a href="https://sigir.org/" target="_blank"><img alt="SIGIR" class="img-fluid" src="img/sponsor_logo/sigir.gif" width="150"/></a></div>
+<div class="col-md-4 p-4"><a href="https://www.sigweb.org/" target="_blank"><img alt="SIGWEB" class="img-fluid" src="img/sponsor_logo/sigweb.gif" width="180"/></a></div>
+<div class="col-md-4 p-4"><a href="https://sigmod.org/" target="_blank"><img alt="SIGMOD" class="img-fluid" src="img/sponsor_logo/acm-sigmod.gif" width="180"/></a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--div class="cards">
+		<div class="container">
+		<div class="row pb-4">
+		<div class="col-md-12">
+		<h2>Sponsors</h2>
+			<div class="row">
+			<div class="col-3 p-4"><img src="http://via.placeholder.com/200x100"></div>
+			</div>
+		</div>
+		</div>
+	</div>
+	</div-->
+<div class="footer">
+<div class="container">
+<div class="row pt-4">
+<div class="col-md-4 pb-4">
+<div class="social">
+<!-- <a href="https://twitter.com/wsdmsocial" target="_blank"><i class="fab fa-twitter"></i>Follow us</a> -->
+<!-- <a href="https://www.facebook.com/wsdmsocial" target="_blank"><i class="fab fa-facebook-f"></i>Like us</a> -->
+</div>
+</div>
+<div class="col-md-8 pb-4 text-md-right">
+<!-- For all enquiries, please contact the <a href="contact-us.php"><strong>WSDM 2020 Conference General Chairs</strong></a>. -->
+</div>
+</div>
+</div>
+</div>
+<div class="top">
+<div class="box"></div>
+</div>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<div>
+<div class="top">
+<div class="box"></div>
+</div>
+<!--navigation-->
+<div class="nav">
+<div class="container">
+<div class="row">
+<div class="col">
+
+</div>
+</div>
+</div>
+</div>
+<div class="header">
+<div class="container">
+<div class="row align-items-center pt-4 pb-4">
+<div class="col-md text-center"><img class="img-fluid" src="img/logo_2020.png"/></div>
+</div>
+</div>
+</div>
+<div class="">
+<div class="container">
+<div class="row">
+<div class="col title">
+<h1>
+						Call for Papers					</h1>
+</div>
+</div>
+</div>
+</div>
+<div class="content">
+<div class="container">
+<div class="row pt-4">
+<div class="col-md pb-4">
+<!--page content-->
+<a href="https://easychair.org/conferences/?conf=wsdm2020" target="_blank"><button class="btn btn-primary btn-lg btn-block p-4 mb-3" style="font-size: 2em;" type="button">Submit your paper</button></a>
+<div class="alert alert-primary p-4 mb-4" role="alert"><strong>Final submissions due:</strong> August 16, 2019</div>
+<!-- <table width="100%" border="0" cellspacing="0" cellpadding="0" class="datestable mt-4 mb-4">
+  <tbody>
+      <tr class="datetitle">
+      <td colspan="2"><h3>Important Dates</h3></td>
+    </tr>
+    <tr>
+      <td><strong>Abstract submission deadline</strong></td>
+      <td>August 12, 2019</td>
+    </tr>
+    <tr>
+      <td><strong>Final paper submissions</strong></td>
+      <td>August 16, 2019</td>
+	</tr>
+  </tbody>
+</table> -->
+<p>WSDM (pronounced "wisdom") is one of the premier conferences on web-inspired research involving search and data mining. The 13th ACM International WSDM Conference will take place in Houston, Texas from February 3-7, 2020. </p>
+<p>WSDM is a highly selective conference that includes invited talks, as well as refereed full papers. WSDM publishes original, high-quality papers related to search and data mining on the Web and the Social Web, with an emphasis on practical yet principled novel models of search and data mining, algorithm design and analysis, economic implications, and in-depth experimental analysis of accuracy and performance. </p>
+<p>Original papers emphasizing novel algorithmic approaches are particularly encouraged. Application-oriented papers that make innovative technical contributions to research are welcome. Visionary papers on new and emerging topics are also welcome. </p>
+<h2>List of Topics</h2>
+<p>Topics covered include but are not limited to:</p>
+<div class="row">
+<div class="col-md-6">
+<ul class="list">
+<li>Web Search</li>
+<li>Adversarial search </li>
+<li>Algorithms and systems for Web-scale search </li>
+<li>Audio and touch interfaces to search </li>
+<li>Distributed search, metasearch, peer-to-peer search </li>
+<li>Indexing web content  </li>
+<li>Local and mobile search </li>
+<li>Multimedia Web search </li>
+<li>Query analysis and query processing </li>
+<li>Search benchmarking and evaluation </li>
+<li>Search user behavior and log analysis </li>
+<li>Search user interfaces and interaction </li>
+<li>Searching social and real-time content </li>
+<li>Semantic search, faceted search, and knowledge graphs </li>
+<li>Sponsored search </li>
+<li>Task-driven search </li>
+<li>Vertical portals and search </li>
+<li>Voice search, conversational search, and dialog in search </li>
+<li>Web crawling </li>
+<li>Zero-query and implicit search </li>
+<li>Web Mining </li>
+<li>Algorithms and systems for Web-scale mining </li>
+<li>Clustering, classification, and summarization of Web data </li>
+<li>Data, entity, event, and relationship extraction </li>
+<li>Data extraction, integration and cleaning </li>
+<li>Discovery-driven Web and social network mining </li>
+<li>Geo and location data analysis </li>
+<li>Knowledge acquisition and automatic construction of knowledge bases </li>
+<li>Large-scale graph analysis </li>
+<li>Modeling trustworthiness and reliability of online information </li>
+</ul>
+</div>
+<div class="col-md-6">
+<ul class="list">
+<li>Multimodal data mining </li>
+<li>NLP for Web mining </li>
+<li>Online and streaming algorithms for Web data </li>
+<li>Opinion mining and sentiment analysis </li>
+<li>Web traffic and log analysis </li>
+<li>Web measurements, web evolution and web models </li>
+<li>Web recommender systems and algorithms </li>
+<li>Mobile Mining </li>
+<li>Neural architectures for Web search and mining </li>
+<li>Web search and data mining under privacy constraints </li>
+<li>Social Search, Mining and Other Applications </li>
+<li>Personal assistants, dialogue models, and conversational interaction </li>
+<li>Collaborative search and question answering </li>
+<li>Social network dynamics </li>
+<li>Human computation and crowdsourcing </li>
+<li>Influence and viral marketing in social networks </li>
+<li>Instant messaging and social networks </li>
+<li>Link prediction and community detection </li>
+<li>Location-based social networks </li>
+<li>Searching and mining crowd-generated data and collaboratively generated content </li>
+<li>Sampling, experiments, and evaluation in social networks </li>
+<li>Social media analysis: blogs and friendship networks </li>
+<li>Social network analysis, theories, models and applications </li>
+<li>Social reputation, influence, and trust </li>
+<li>Social tagging  </li>
+<li>User activity modeling and exploitation </li>
+<li>Interpretable models of individual and social behavior </li>
+</ul>
+</div>
+</div>
+<p>Authors are explicitly discouraged from submitting papers that do not clearly present their contribution with respect to previous works, that contain only incremental results, and that do not provide significant advances over existing approaches. </p>
+<h2>Submission Guidelines</h2>
+<h3>Originality of Submissions</h3>
+<p>Submissions must represent new and original work. Concurrent submissions are not allowed. Papers that have been published in or accepted to any peer-reviewed journal or conference/workshop with published proceedings, or that are currently under review, or that will be submitted to other meetings or publications while under review may not be submitted to WSDM 2020. However, submissions that are available online and/or have been previously presented orally or as posters in venues with no formal proceedings, are allowed. Note that if available online (e.g., via arXiv) and not anonymous, their titles and abstract must be sufficiently different from the WSDM submission in order to limit the risk that a direct search breaks the double blind reviewing procedure. Additionally, the ACM has a <a href="http://www.acm.org/publications/policies/plagiarism_policy">strict policy against plagiarism and self-plagiarism</a>. All prior work must be appropriately cited. </p>
+<h3>Submissions</h3>
+<p>Papers must be submitted in PDF according to the new ACM format published in <a href="http://www.acm.org/publications/proceedings-template">ACM guidelines</a>, selecting the generic "sigconf" sample. Submissions should not exceed eight pages including any diagrams or appendices, plus up to one additional page of references. The PDF files must have all non-standard fonts embedded. Submissions must be self-contained and in English. After uploading your submission, please verify the copy stored on the easychair site. Submissions that do not follow these guidelines, or do not view or print properly, may be rejected without review.  </p>
+<p>PDF files submitted to WSDM 2020 must be prepared as double-blind: the submitted document should not include author information and should not include citations or discussion of related work that would make the authorship apparent. Note however, that it is acceptable to explicitly refer in the paper to the companies or organizations that provided datasets, hosted experiments or deployed solutions. In other words, instead of stating for instance that an experiment “was conducted on the logs of a major search engine”, the authors should refer to the search engine by name. The reviewers will be informed that it does not necessarily imply that the authors are currently affiliated with the mentioned organization. To support identification of reviewers with conflicts of interest, the full author list must be specified at submission time. Only in exceptional cases will the PC Chairs grant permission for modifications to be made to the author list of a paper once it has been submitted and accepted.  </p>
+<h3>Review Process</h3>
+<p>Each paper will be reviewed by at least three PC members and a senior PC member. The acceptance decisions will take into account paper novelty, technical depth, elegance, practical or theoretic impact, and presentation. WSDM 2020 will use a combination of single-blind reviewing and double-blind reviewing. The papers will be double-blind to regular PC members, but the metadata (including authorship) of the papers will be available to SPC to check for undisclosed conflicts of interest and to help assure the integrity of the review process. Please contact the PC chairs at the address below for any questions on the submission or review process.</p>
+<h3>Reproducibility</h3>
+<p>The algorithms, resources and methods used within a paper should be described as completely as possible. Authors may reference supplementary material, including detailed descriptions, test datasets or code. However, this information is not part of the submission proper, and will be read only at the discretion of the reviewers. Wherever appropriate, the authors are encouraged to use publicly available test collections and state-of-the-art baselines. Please consider sharing your intermediate/final experimental results and code with the research community. </p>
+<h3>Publication and Presentation</h3>
+<p>All accepted papers will be published in the ACM Digital Library. For every paper there must be a registered author to present it in person at WSDM 2020. At the conference, all the papers will be allocated a slot at the interactive poster session to encourage discussion. Additionally, selected papers will be presented during the plenary oral sessions as either long or short talks. Other presentation opportunities may also be provided upon acceptance, e.g. a brief video presentation. </p>
+<p>Authors should note that the official publication date is the date the proceedings are made available in the ACM Digital Library. This date may be up to two weeks prior to the first day of the conference. The official publication date affects the deadline for any patent filings related to published work. </p>
+<h2>Conflict of Interest (COI) Policy</h2>
+<p>All authors must declare conflicts of interest.</p>
+<h3>What Consitutes a Conflict of Interest (COI)</h3>
+<p>You must declare a reviewer/author as a conflict of interest when the following associations exist:  </p>
+<ul class="list">
+<li>employment at the same institution or company, regardless of geography/location </li>
+<li>candidate for employment at the same institution or company </li>
+<li>received an honorarium, stipend, or grant from the institution or company within the last 12 months (except where of a modest nature, such as reimbursement of seminar expenses, honorarium for examination of a thesis, and so on). </li>
+<li>employment at the same institution or company in the last 12 months </li>
+<li>co-author on book or paper in the last 24 months </li>
+<li>co-principal investigator on a funded grant or research proposal in the last 24 months </li>
+<li>actively working on any project together </li>
+<li>family relationship </li>
+<li>close personal relationship </li>
+<li>graduate advisee/advisor relationship, regardless of time elapsed since graduation </li>
+<li>deep personal animosity </li>
+</ul>
+<p>In general, we expect authors, PC, the organizing committee, and other volunteers to adhere to <a href="https://www.acm.org/special-interest-groups/volunteer-resources/acm-conflict-of-interest-policy">ACM’s Conflict of Interest Policy</a> as well as the <a href="https://www.acm.org/about-acm/acm-code-of-ethics-and-professional-conduct">ACM’s Code of Ethics and Professional Conduct</a>. </p>
+<h3>Violations of Originality, Dual Submission or Conflicts of Interest</h3>
+<p>Papers that are submitted which do not meet the length, formatting or originality requirements or are dually submitted to two venues (including papers with significant overlap) are subject to desk rejection without review. At the discretion of the PC Chairs and Steering Committee, egregious violations (including plagiarism) may lead to additional penalties such as a temporary or permanent ban from the venue and sponsoring SIGs venues. Likewise, failure of an author to disclose all COIs or of a referee providing a review on a paper for which they have an undisclosed COI, may lead to similar penalties. You are encouraged to contact the PC Chairs if you have questions as to the originality conditions, dual submission, or conflicts of interest policy. </p>
+<table border="0" cellpadding="0" cellspacing="0" class="datestable mt-4 mb-4" width="100%">
+<tbody>
+<tr class="datetitle">
+<td colspan="2"><h3>Important Dates</h3></td>
+</tr>
+<tr>
+<td><strong>Paper Abstracts Due</strong></td>
+<td>August 12, 2019</td>
+</tr>
+<tr>
+<td><strong>Papers Due</strong></td>
+<td>August 16, 2019</td>
+</tr>
+<tr>
+<td><strong>Paper Notifications</strong></td>
+<td>October 12, 2019</td>
+</tr>
+<tr>
+<td><strong>Conference Dates</strong></td>
+<td>February 3-7, 2020</td>
+</tr>
+</tbody>
+</table>
+<p>All deadlines are 11:59pm, anywhere in the world (Alofi time). </p>
+<!-- <h2>Contact</h2> -->
+<!-- <p>All questions about submissions should be emailed to <a href="mailto:wsdm2020@easychair.org">wsdm2020@easychair.org</a>. </p> -->
+<h3>Program Committee Co-chairs of WSDM 2020</h3>
+<div class="row committee">
+<a class="col-md-6 d-flex align-items-center" data-toggle="modal">
+<div><img src="img/committee/mounia-scaled.jpg"/></div>
+<div><strong>Mounia Lalmas</strong>Spotify</div>
+</a>
+<a class="col-md-6 d-flex align-items-center" data-toggle="modal">
+<div><img src="img/committee/weiwang-scaled.png"/></div>
+<div><strong>Wei Wang</strong>University of California, Los Angeles</div>
+</a>
+</div>
+<p>Questions about the program commottee should be directed to the PC chairs: <a href="mailto:wsdm-2020-pc-chairs@googlegroups.com">wsdm-2020-pc-chairs@googlegroups.com</a>.</p>
+<h3>General Chairs of WSDM 2020</h3>
+<div class="row committee">
+<a class="col-md-6 d-flex align-items-center" data-toggle="modal">
+<div><img src="img/committee/james-scaled.jpg"/></div>
+<div><strong>James Caverlee</strong>Texas A&amp;M University</div>
+</a>
+<a class="col-md-6 d-flex align-items-center" data-toggle="modal">
+<div><img src="img/committee/hu-scaled.jpg"/></div>
+<div><strong>Xia (Ben) Hu</strong>Texas A&amp;M University</div>
+</a>
+</div>
+<p>General questions about the conference should be directed to the general chairs: <a href="mailto:wsdm-2020-general-chairs@googlegroups.com">wsdm-2020-general-chairs@googlegroups.com</a>.</p>
+<div class="alert alert-secondary mt-4 mb-0" role="alert">
+<h3>Guidelines</h3>
+<div class="row">
+<div class="col-md-6 mb-2">
+<a href="http://www.acm.org/publications/policies/plagiarism_policy" target="_blank">Strict policy against plagiarism and self-plagiarism</a></div>
+<div class="col-md-6 mb-2">
+<a href="http://www.acm.org/publications/proceedings-template" target="_blank">ACM guidelines</a>
+</div>
+<div class="col-md-6 mb-2">
+<a href="https://www.acm.org/special-interest-groups/volunteer-resources/acm-conflict-of-interest-policy" target="_blank">ACM's Conflict of Interest Policy</a>
+</div>
+<div class="col-md-6 mb-2">
+<a href="https://www.acm.org/about-acm/acm-code-of-ethics-and-professional-conduct" target="_blank">ACM's Code of Ethics and Professional Conduct</a>
+</div>
+</div>
+</div>
+<!--end page content-->
+</div>
+<div class="col-md-3 pb-4">
+<!--<a href="registration.php" ><button type="button" class="btn btn-primary btn-lg btn-block mb-3 p-3 pt-4 pb-4">Registration</button></a>-->
+<!-- <ul class="list-group list-group-flush dates"> -->
+<!-- <li class="list-group-item border-0 datetitle"> -->
+<!-- <h3>Start Times</h3> -->
+<!-- </li> -->
+<!-- <li class="list-group-item"> -->
+<!-- <strong>3 February (Monday), 2020</strong> -->
+<!--Tutorials and Industry Day <br>
+							Commences: 9:00am-->
+<!-- </li> -->
+<!--<li class="list-group-item">
+							<strong>Tuesday 12 February</strong>
+							Welcome to Country Ceremony <br>
+							Commences: 8:45am
+						</li>-->
+<!-- <p class="mt-2"><strong>Please arrive and complete your registration prior to these times.</strong></p> -->
+<!--						<li class="list-group-item">
+							<strong>Workshop proposal due</strong>
+							16 August 2018
+						</li>
+						<li class="list-group-item">
+							<strong>Paper abstracts due</strong>
+							8 August, 2018
+						</li>
+						<li class="list-group-item">
+							<strong>Final paper submission</strong>
+							15 August 2018
+						</li>
+						<li class="list-group-item">
+							<strong>Workshop Proposal notifications</strong>
+							5 September 2018
+						</li>
+						<li class="list-group-item">
+							<strong>Demonstration submission due</strong>
+							4 September 2018
+						</li>
+						<li class="list-group-item">
+							<strong>Tutorial Submission Due</strong>
+							17 September 2018
+						</li>
+						<li class="list-group-item">
+							<strong>Doctoral Consortium submissions due</strong>
+							16 October 2018
+						</li>
+						<li class="list-group-item">
+							<strong>Tutorial Acceptance Notifications</strong>
+							15 October  2018
+						</li>
+						<li class="list-group-item">
+							<strong>Paper Notifications</strong>
+							24 October 2018
+						</li>
+						<li class="list-group-item">
+							<strong>Demonstrations notification</strong>
+							24 October 2018
+						</li>
+						<li class="list-group-item">
+							<strong>Industry Day Submissions Due</strong>
+							26 October 2018
+						</li>
+						<li class="list-group-item">
+							<strong>Doctoral Consortium Notification</strong>
+							7 November 2018
+						</li>
+						<li class="list-group-item">
+							<strong>Industry Day Notifications</strong>
+							9 November 2018
+						</li>
+-->
+<!-- </ul> -->
+</div>
+</div>
+</div>
+</div>
+<!--<div class="cards">
+		<div class="container">
+			<div class="row pt-3">
+			
+								<a href="http://www.wsdm-conference.org" target="_blank" class="col-md-12 mx-auto d-block pb-4">
+					<div class="card">
+						<div class="card-body">
+							
+							<h3 class="card-title text-center">WSDM 2019 is now completed, thank you for your interest. </h3>
+							<p class="card-text text-center">Initial planning has commenced for WSDM 2020 in Houston, Texas; please visit their upcoming webpage via the main WSDM page at <em>www.wsdm-conference.org</em> </p>
+						</div>
+					</div>
+				</a>
+
+				<a href="https://www.youtube.com/playlist?list=PLn0nrSd4xjjaQQvmtd3zCca0u625MgEg0" target="_blank" class="col-md-12 mx-auto d-block pb-4">
+					<div class="card">
+						<div class="card-body">
+							<h3 class="card-title text-center">Recordings of the Industry Day talks are now available on the ACM YouTube channel</h3>
+						</div>
+					</div>
+				</a>
+
+
+				<a href="https://people.eng.unimelb.edu.au/ammoffat/wsdm19-outstanding.html" target="_blank"  class="col-md-12 mx-auto d-block pb-4">
+					<div class="card">
+						<div class="card-body">
+							<h3 class="card-title text-center">WSDM 2019 Best Paper Award Recipient:</h3>
+							<p class="card-text text-center">"Slice: Scalable Linear Extreme Classifiers trained on 100 Million Labels for Related Searches", by Himanshu Jain,
+                Venkatesh Balasubramanian, Bhanu Teja Chunduri, and Manik Varma.</p>
+				
+							<h3 class="card-title text-center">WSDM 2019 Test of Time Award Recipient:</h3>
+							<p class="card-text text-center">"Opinion Spam and Analysis", Nitin Jindal and Bing Liu, WSDM 2008.</p>
+							
+							<h3 class="card-title text-center">Best Industry Day Presentation:</h3>
+							<p class="card-text text-center">"Reinforcement Learning for Recommender Systems: A Case Study on Youtube," by Minmin Chen.</p>
+							
+							<h3 class="card-title text-center">Outstanding SPC and PC Members:</h3>
+							<p class="card-text text-center">A list of referees recognized for their significant contributions is available at <em>https://people.eng.unimelb.edu.au/ammoffat/wsdm19-outstanding.html</em></p>
+
+
+				
+				
+				
+				
+						</div>
+					</div>
+				</a>
+
+				<a href="https://photos.app.goo.gl/HA83CfsFLCQz1CCn9" target="_blank"  class="col-md-12 mx-auto d-block pb-4">
+					<div class="card">
+						<div class="card-body">
+							<h3 class="card-title text-center">A WSDM 2019 photo album is available at <em>https://photos.app.goo.gl/HA83CfsFLCQz1CCn9</em> </h3>
+						</div>
+					</div>
+				</a>
+
+				<a href="acm-proceedings.php" class="col-md-12 mx-auto d-block pb-4">
+					<div class="card">
+						<div class="card-body">
+							<h3 class="card-title text-center">Links to Published Papers in ACM Digital Library</h3>
+						</div>
+					</div>
+				</a>
+				
+				<a href="venue.php" class="col-md-12 mx-auto d-block pb-4">
+					<div class="card">
+						<div class="card-body">
+							<h3 class="card-title text-center">All WSDM activities will take place at the <br>Melbourne Convention and Exhibition Centre</h3>
+						</div>
+					</div>
+				</a>
+
+
+				<a href="call-for-industry-day-speakers.php" class="col-md-4 pb-4">
+					<div class="card">
+						<div class="card-body">
+							<h3 class="card-title">Call for Industry Day Speakers</h3>
+							<p class="card-text">We invite submissions for industry talk proposals. <em>View more information</em>.</p>
+						</div>
+					</div>
+				</a>
+
+			<a href="travel-grants.php" class="col-md-4 pb-4">
+					<div class="card">
+						<div class="card-body">
+							<h3 class="card-title">Student Travel Grants</h3>
+							<p class="card-text">The SIGIR Student Travel Grant Program provides funding for students who are members of ACM SIGIR. <em>View more information</em>.</p>
+						</div>
+					</div>
+			  </a>
+			  
+			</div>
+		</div>
+	</div>-->
+<div class="footer">
+<div class="container">
+<div class="row pt-4">
+<div class="col-md-4 pb-4">
+<div class="social">
+<!-- <a href="https://twitter.com/wsdmsocial" target="_blank"><i class="fab fa-twitter"></i>Follow us</a> -->
+<!-- <a href="https://www.facebook.com/wsdmsocial" target="_blank"><i class="fab fa-facebook-f"></i>Like us</a> -->
+</div>
+</div>
+<div class="col-md-8 pb-4 text-md-right">
+<!-- For all enquiries, please contact the <a href="contact-us.php"><strong>WSDM 2020 Conference Secretariat</strong></a>. -->
+</div>
+</div>
+</div>
+</div>
+<div class="top">
+<div class="box"></div>
+</div>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+
+
+</div><div>
+<div class="top">
+<div class="box"></div>
+</div>
+<!--navigation-->
+<div class="nav">
+<div class="container">
+<div class="row">
+<div class="col">
+
+</div>
+</div>
+</div>
+</div>
+<div class="header">
+<div class="container">
+<div class="row align-items-center pt-4 pb-4">
+<div class="col-md text-center"><img class="img-fluid" src="img/logo_2020.png"/></div>
+</div>
+</div>
+</div>
+<div class="">
+<div class="container">
+<div class="row">
+<div class="col title">
+<h1>
+						Program Committee					</h1>
+</div>
+</div>
+</div>
+</div>
+<div class="content">
+<div class="container">
+<div class="row pt-4">
+<div class="col-md pb-4">
+<!--page content-->
+<!-- <div class="row committee-list"><div class="col-md-4 pb-5"><strong>Information coming soon!</strong> -->
+<!--page content-->
+<div class="row committee-list">
+<div class="col-md-4 pb-5"><strong>Andres Abeliuk</strong> University of Southern California, United States</div>
+<div class="col-md-4 pb-5"><strong>Nitin Agarwal</strong> University of Arkansas at Little Rock, United States</div>
+<div class="col-md-4 pb-5"><strong>Wei Ai</strong> University of Michigan, United States</div>
+<div class="col-md-4 pb-5"><strong>Omar Alonso</strong> Microsoft, United States</div>
+<div class="col-md-4 pb-5"><strong>Ismail Sengor Altingovde</strong> Middle East Technical University, Turkey</div>
+<div class="col-md-4 pb-5"><strong>Azin Ashkan</strong> Google, United States</div>
+<div class="col-md-4 pb-5"><strong>Luca Becchetti</strong> Sapienza University of Rome, Italy</div>
+<div class="col-md-4 pb-5"><strong>Srikanta Bedathur</strong> IIT Delhi, India</div>
+<div class="col-md-4 pb-5"><strong>Austin Benson</strong> Cornell University, United States</div>
+<div class="col-md-4 pb-5"><strong>Alex Beutel</strong> Google, United States</div>
+<div class="col-md-4 pb-5"><strong>Jiang Bian</strong> Microsoft, China</div>
+<div class="col-md-4 pb-5"><strong>Yuchen Bian</strong> The Pennsylvania State University, United States</div>
+<div class="col-md-4 pb-5"><strong>Petko Bogdanov</strong> University at Albany-SUNY, United States</div>
+<div class="col-md-4 pb-5"><strong>Ludovico Boratto</strong> Eurecat, Spain</div>
+<div class="col-md-4 pb-5"><strong>Ilaria Bordino</strong> UniCredit R&amp;D, Italy</div>
+<div class="col-md-4 pb-5"><strong>Sebastian Bruch</strong> Google, United States</div>
+<div class="col-md-4 pb-5"><strong>Cody Buntain</strong> University of Maryland, United States</div>
+<div class="col-md-4 pb-5"><strong>Fei Cai</strong> National University of Defense Technology, China</div>
+<div class="col-md-4 pb-5"><strong>Fabio Casati</strong> Servicenow, United States</div>
+<div class="col-md-4 pb-5"><strong>Pablo Castells</strong> Universidad Autónoma de Madrid, Spain</div>
+<div class="col-md-4 pb-5"><strong>Praveen Chandar</strong> Spotify Research, United States</div>
+<div class="col-md-4 pb-5"><strong>Tanmoy Chakraborty</strong> IIIT-Delhi, India</div>
+<div class="col-md-4 pb-5"><strong>Kevin Chang</strong> University of Illinois at Urbana-Champaign, United States</div>
+<div class="col-md-4 pb-5"><strong>Ching-Wei Chen</strong> Spotify, United States</div>
+<div class="col-md-4 pb-5"><strong>Huiyuan Chen</strong> Case Western Reserve University, United States</div>
+<div class="col-md-4 pb-5"><strong>Muhao Chen</strong> University of Pennsylvania, United States</div>
+<div class="col-md-4 pb-5"><strong>Ting Chen</strong> University of California, Los Angeles, United States</div>
+<div class="col-md-4 pb-5"><strong>Yuncong Chen</strong> NEC Labs America, United States</div>
+<div class="col-md-4 pb-5"><strong>Konstantina Christakopoulou</strong> University of Minnesota, United States</div>
+<div class="col-md-4 pb-5"><strong>Lingyang Chu</strong> Simon Fraser University, Canada</div>
+<div class="col-md-4 pb-5"><strong>Freddy Chua</strong> EY, United States</div>
+<div class="col-md-4 pb-5"><strong>Michael Cole</strong> LexisNexis, United States</div>
+<div class="col-md-4 pb-5"><strong>Peng Cui</strong> Tsinghua University, China</div>
+<div class="col-md-4 pb-5"><strong>Elizabeth M. Daly</strong> IBM, Ireland</div>
+<div class="col-md-4 pb-5"><strong>Ovidiu Dan</strong> Lehigh University, United States</div>
+<div class="col-md-4 pb-5"><strong>Ariyam Das</strong> University of California, Los Angeles, United States</div>
+<div class="col-md-4 pb-5"><strong>Gianmarco De Francisci Morales</strong> ISI Foundation, Italy</div>
+<div class="col-md-4 pb-5"><strong>Edleno Silva De Moura</strong> Universidade Federal do Amazonas, Brazil</div>
+<div class="col-md-4 pb-5"><strong>Harm Delva</strong> University of Ghent, Belgium</div>
+<div class="col-md-4 pb-5"><strong>Hongbo Deng</strong> Google, United States</div>
+<div class="col-md-4 pb-5"><strong>Stefan Dietze</strong> GESIS - Leibniz Institute for the Social Sciences, Germany</div>
+<div class="col-md-4 pb-5"><strong>Konstantinos Dimopoulos</strong> New York University, Amazon, United States</div>
+<div class="col-md-4 pb-5"><strong>Yuxiao Dong</strong> Microsoft, United States</div>
+<div class="col-md-4 pb-5"><strong>Zhicheng Dou</strong> Renmin University of China, China</div>
+<div class="col-md-4 pb-5"><strong>Benoit Dumoulin</strong> Facebook, United States</div>
+<div class="col-md-4 pb-5"><strong>Carsten Eickhoff</strong> Brown University, United States</div>
+<div class="col-md-4 pb-5"><strong>Alessandro Epasto</strong> Google, United States</div>
+<div class="col-md-4 pb-5"><strong>Alexander Felfernig</strong> Graz University of Technology, Austria</div>
+<div class="col-md-4 pb-5"><strong>Adam Fourney</strong> Microsoft, United States</div>
+<div class="col-md-4 pb-5"><strong>Paul Suganthan G C</strong> Google, United States</div>
+<div class="col-md-4 pb-5"><strong>Hancheng Ge</strong> Amazon.com Inc., United States</div>
+<div class="col-md-4 pb-5"><strong>Priya Govindan</strong> Walmart Labs, United States</div>
+<div class="col-md-4 pb-5"><strong>Quanquan Gu</strong> University of California, Los Angeles, United States</div>
+<div class="col-md-4 pb-5"><strong>Yupeng Gu</strong> Pinterest, United States</div>
+<div class="col-md-4 pb-5"><strong>Huan Gui</strong> Facebook, United States</div>
+<div class="col-md-4 pb-5"><strong>Francesco Gullo</strong> UniCredit, Italy</div>
+<div class="col-md-4 pb-5"><strong>Jiafeng Guo</strong> Institute of Computing Technology, China</div>
+<div class="col-md-4 pb-5"><strong>Zhishan Guo</strong> University of Central Florida, United States</div>
+<div class="col-md-4 pb-5"><strong>Maxim Gurevich</strong> Uber, United States</div>
+<div class="col-md-4 pb-5"><strong>Hamed Haddadi</strong> Imperial College London, United Kingdom</div>
+<div class="col-md-4 pb-5"><strong>Shuchu Han</strong> NEC Laboratories America, United States</div>
+<div class="col-md-4 pb-5"><strong>Shuguang Han</strong> Google, United States</div>
+<div class="col-md-4 pb-5"><strong>Mengyue Hang</strong> Purdue University, United States</div>
+<div class="col-md-4 pb-5"><strong>Ahmed Hassan Awadallah</strong> Microsoft, United States</div>
+<div class="col-md-4 pb-5"><strong>Ben He</strong> University of Chinese Academy of Sciences, China</div>
+<div class="col-md-4 pb-5"><strong>Jingrui He</strong> University of Illinois at Urbana-Champaign, United States</div>
+<div class="col-md-4 pb-5"><strong>Xiangnan He</strong> University of Science and Technology of China, China</div>
+<div class="col-md-4 pb-5"><strong>Cho-Jui Hsieh</strong> University of California, Los Angeles, United States</div>
+<div class="col-md-4 pb-5"><strong>Xinran He</strong> Snap Inc., United States</div>
+<div class="col-md-4 pb-5"><strong>Hsun-Ping Hsieh</strong> National Cheng Kung University, Taiwan</div>
+<div class="col-md-4 pb-5"><strong>Yifan Hu</strong> Yahoo!, United States</div>
+<div class="col-md-4 pb-5"><strong>Chao Huang</strong> University of Notre Dame, United States</div>
+<div class="col-md-4 pb-5"><strong>Xuanjing Huang</strong> Fudan University, China</div>
+<div class="col-md-4 pb-5"><strong>Sagar Jain</strong> Google, United States</div>
+<div class="col-md-4 pb-5"><strong>Adam Jatowt</strong> Kyoto University, Japan</div>
+<div class="col-md-4 pb-5"><strong>Jiepu Jiang</strong> Virginia Tech, United States</div>
+<div class="col-md-4 pb-5"><strong>Meng Jiang</strong> University of Notre Dame, United States</div>
+<div class="col-md-4 pb-5"><strong>Gareth Jones</strong> Dublin City University, Ireland</div>
+<div class="col-md-4 pb-5"><strong>Andreas Kaltenbrunner</strong> NTENT, Spain</div>
+<div class="col-md-4 pb-5"><strong>Evangelos Kanoulas</strong> University of Amsterdam, Netherlands</div>
+<div class="col-md-4 pb-5"><strong>Maryam Karimzadehgan</strong> Google, United States</div>
+<div class="col-md-4 pb-5"><strong>Shubhra Kanti Karmaker</strong> Massachusetts Institute of Technology, United States</div>
+<div class="col-md-4 pb-5"><strong>Makoto P. Kato</strong> University of Tsukuba, Japan</div>
+<div class="col-md-4 pb-5"><strong>Myunghwan Kim</strong> LinkedIn Corporation, United States</div>
+<div class="col-md-4 pb-5"><strong>Yubin Kim</strong> UPMC Enterprises, United States</div>
+<div class="col-md-4 pb-5"><strong>Deguang Kong</strong> Yahoo Research, United States</div>
+<div class="col-md-4 pb-5"><strong>Udo Kruschwitz</strong> University of Regensburg, Germany</div>
+<div class="col-md-4 pb-5"><strong>Branislav Kveton</strong> Google, United States</div>
+<div class="col-md-4 pb-5"><strong>Arnd Christian König</strong> Microsoft, United States</div>
+<div class="col-md-4 pb-5"><strong>Wai Lam</strong> The Chinese University of Hong Kong, China</div>
+<div class="col-md-4 pb-5"><strong>Cheng Li</strong> Google, United States</div>
+<div class="col-md-4 pb-5"><strong>Cheng-Te Li</strong> National Cheng Kung University, Taiwan</div>
+<div class="col-md-4 pb-5"><strong>Chenliang Li</strong> Wuhan University, China</div>
+<div class="col-md-4 pb-5"><strong>Guoliang Li</strong> Tsinghua University, China</div>
+<div class="col-md-4 pb-5"><strong>Jundong Li</strong> University of Virginia, United States</div>
+<div class="col-md-4 pb-5"><strong>Liangda Li</strong> SJTU, United States</div>
+<div class="col-md-4 pb-5"><strong>Shuai Li</strong> University of Cambridge, United Kingdom</div>
+<div class="col-md-4 pb-5"><strong>Zeyu Li</strong> University of California, Los Angeles, United States</div>
+<div class="col-md-4 pb-5"><strong>Shangsong Liang</strong> Sun Yat-sen University, China</div>
+<div class="col-md-4 pb-5"><strong>Alexander Libov</strong> Amazon, Israel</div>
+<div class="col-md-4 pb-5"><strong>Lin Liu</strong> University of South Australia, Australia</div>
+<div class="col-md-4 pb-5"><strong>Yanchi Liu</strong> Rutgers University, United States</div>
+<div class="col-md-4 pb-5"><strong>Yiqun Liu</strong> Tsinghua University, China</div>
+<div class="col-md-4 pb-5"><strong>Xiaolu Lu</strong> Microsoft, Australia</div>
+<div class="col-md-4 pb-5"><strong>Mohammad Mahdian</strong> Google, United States</div>
+<div class="col-md-4 pb-5"><strong>Jiaxin Mao</strong> Tsinghua University, China</div>
+<div class="col-md-4 pb-5"><strong>Lucas Maystre</strong> Spotify, Switzerland</div>
+<div class="col-md-4 pb-5"><strong>Rishabh Mehrotra</strong> Spotify Research, United Kingdom</div>
+<div class="col-md-4 pb-5"><strong>Sameep Mehta</strong> IBM, India</div>
+<div class="col-md-4 pb-5"><strong>Wagner Meira</strong> Universidade Federal de Minas Gerais, Brazil</div>
+<div class="col-md-4 pb-5"><strong>Ida Mele</strong> ISTI-CNR, Italy</div>
+<div class="col-md-4 pb-5"><strong>Pauli Miettinen</strong> UEF, Finland</div>
+<div class="col-md-4 pb-5"><strong>Bhaskar Mitra</strong> Microsoft, United Kingdom</div>
+<div class="col-md-4 pb-5"><strong>Fred Morstatter</strong> University of Southern California, United States</div>
+<div class="col-md-4 pb-5"><strong>Yashar Moshfeghi</strong> University of Strathclyde, United Kingdom</div>
+<div class="col-md-4 pb-5"><strong>Abdullah Mueen</strong> University of New Mexico, United States</div>
+<div class="col-md-4 pb-5"><strong>Franco Maria Nardini</strong> ISTI-CNR, Italy</div>
+<div class="col-md-4 pb-5"><strong>Zahra Nazari</strong> Spotify, United States</div>
+<div class="col-md-4 pb-5"><strong>Jingchao Ni</strong> NEC Laboratories America, United States</div>
+<div class="col-md-4 pb-5"><strong>Jian-Yun Nie</strong> University of Montreal, Canada</div>
+<div class="col-md-4 pb-5"><strong>Liqiang Nie</strong> Shandong University, China</div>
+<div class="col-md-4 pb-5"><strong>Zhi Nie</strong> Samsung Electronics, United States</div>
+<div class="col-md-4 pb-5"><strong>Neil O'Hare</strong> Yahoo Research, United States</div>
+<div class="col-md-4 pb-5"><strong>Evangelos Papalexakis</strong> University of California Riverside, United States</div>
+<div class="col-md-4 pb-5"><strong>Aasish Pappu</strong> Indian Institute of Information Technology, Allahabad, India</div>
+<div class="col-md-4 pb-5"><strong>Rama Pasumarthi</strong> Google, United States</div>
+<div class="col-md-4 pb-5"><strong>Konstantinos Pelechrinis</strong> University of Pittsburgh, United States</div>
+<div class="col-md-4 pb-5"><strong>Raffaele Perego</strong> ISTI-CNR, Italy</div>
+<div class="col-md-4 pb-5"><strong>Reihaneh Rabbany</strong> Carnegie Mellon University, United States</div>
+<div class="col-md-4 pb-5"><strong>Vladan Radosavljevic</strong> Spotify, United States</div>
+<div class="col-md-4 pb-5"><strong>Fiana Raiber</strong> Yahoo Research, Israel</div>
+<div class="col-md-4 pb-5"><strong>Karthik Raman</strong> Google, United States</div>
+<div class="col-md-4 pb-5"><strong>Jinfeng Rao</strong> University of Maryland, United States</div>
+<div class="col-md-4 pb-5"><strong>Ariel Raviv</strong> Yahoo Research, Israel</div>
+<div class="col-md-4 pb-5"><strong>Simon Razniewski</strong> Max Planck Institute for Informatics, Germany</div>
+<div class="col-md-4 pb-5"><strong>Chandan K. Reddy</strong> Virginia Tech, United States</div>
+<div class="col-md-4 pb-5"><strong>Sravana Reddy</strong> Spotify, United States</div>
+<div class="col-md-4 pb-5"><strong>Pengjie Ren</strong> University of Amsterdam, Netherlands</div>
+<div class="col-md-4 pb-5"><strong>Zhaochun Ren</strong> JD.com, China</div>
+<div class="col-md-4 pb-5"><strong>Matteo Riondato</strong> Amherst College, United States</div>
+<div class="col-md-4 pb-5"><strong>Haggai Roitman</strong> IBM Research Haifa, Israel</div>
+<div class="col-md-4 pb-5"><strong>Daniel Romero</strong> University of Michigan, United States</div>
+<div class="col-md-4 pb-5"><strong>Alan Said</strong> University of Gothenburg, Sweden</div>
+<div class="col-md-4 pb-5"><strong>Rodrygo Santos</strong> Universidade Federal de Minas Gerais, Brazil</div>
+<div class="col-md-4 pb-5"><strong>Parang Saraf</strong> Virginia Tech, United States</div>
+<div class="col-md-4 pb-5"><strong>Neil Shah</strong> Snap Research, United States</div>
+<div class="col-md-4 pb-5"><strong>Aneesh Sharma</strong> Google, United States</div>
+<div class="col-md-4 pb-5"><strong>Huawei Shen</strong> Chinese Academy of Sciences, China</div>
+<div class="col-md-4 pb-5"><strong>Yu Shi</strong> University of Illinois at Urbana-Champaign, United States</div>
+<div class="col-md-4 pb-5"><strong>Moumita Sinha</strong> Adobe, United States</div>
+<div class="col-md-4 pb-5"><strong>Dongjing Song</strong> NEC Labs America, United States</div>
+<div class="col-md-4 pb-5"><strong>Ruihua Song</strong> Microsoft, China</div>
+<div class="col-md-4 pb-5"><strong>Yang Song</strong> Google, United States</div>
+<div class="col-md-4 pb-5"><strong>Mauro Sozio</strong> Télécom ParisTech, France</div>
+<div class="col-md-4 pb-5"><strong>Harald Steck</strong> Netflix, United States</div>
+<div class="col-md-4 pb-5"><strong>Aixin Sun</strong> Nanyang Technological University, Singapore</div>
+<div class="col-md-4 pb-5"><strong>Neel Sundaresan</strong>eBay, United States</div>
+<div class="col-md-4 pb-5"><strong>Rohail Syed</strong> University of Michigan, United States</div>
+<div class="col-md-4 pb-5"><strong>S.M.M. Tahaghoghi</strong> Microsoft, United States</div>
+<div class="col-md-4 pb-5"><strong>Jian Tang</strong> HEC Montreal &amp; MILA, Canada</div>
+<div class="col-md-4 pb-5"><strong>Yi Tay</strong> Nanyang Technological University, Singapore</div>
+<div class="col-md-4 pb-5"><strong>Gabriele Tolomei</strong> Sapienza University of Rome, Italy</div>
+<div class="col-md-4 pb-5"><strong>Federico Tomasi</strong> Spotify Research, United Kingdom</div>
+<div class="col-md-4 pb-5"><strong>Nicola Tonellotto</strong> ISTI-CNR, Italy</div>
+<div class="col-md-4 pb-5"><strong>Hanghang Tong</strong> University of Illinois at Urbana-Champaign, United States</div>
+<div class="col-md-4 pb-5"><strong>Manos Tsagkias</strong>904Labs, Netherlands</div>
+<div class="col-md-4 pb-5"><strong>Johan Ugander</strong> Stanford University, United States</div>
+<div class="col-md-4 pb-5"><strong>Gilles Vandewiele</strong> Universiteit Gent-imec, Belgium</div>
+<div class="col-md-4 pb-5"><strong>Onur Varol</strong> Northeastern University, United States</div>
+<div class="col-md-4 pb-5"><strong>Sergei Vassilvitskii</strong> Google, United States</div>
+<div class="col-md-4 pb-5"><strong>Suzan Verberne</strong> LIACS, Leiden University, Netherlands</div>
+<div class="col-md-4 pb-5"><strong>Vishwa Vinay</strong> Adobe Research Bangalore, India</div>
+<div class="col-md-4 pb-5"><strong>Huaiyu Wan</strong> Beijing Jiaotong University, China</div>
+<div class="col-md-4 pb-5"><strong>Jianguo Wang</strong> Amazon, United States</div>
+<div class="col-md-4 pb-5"><strong>Jianyong Wang</strong> Tsinghua University, China</div>
+<div class="col-md-4 pb-5"><strong>Shuaiqiang Wang</strong> JD.COM, China</div>
+<div class="col-md-4 pb-5"><strong>Xuanhui Wang</strong> Google, United States</div>
+<div class="col-md-4 pb-5"><strong>Yue Wang</strong> University of Michigan, United States</div>
+<div class="col-md-4 pb-5"><strong>Ziqi Wang</strong> Facebook, United Kingdom</div>
+<div class="col-md-4 pb-5"><strong>Tim Weninger</strong> University of Notre Dame, United States</div>
+<div class="col-md-4 pb-5"><strong>Fangzhao Wu</strong> Microsoft, China</div>
+<div class="col-md-4 pb-5"><strong>Liang Wu</strong> Airbnb, United States</div>
+<div class="col-md-4 pb-5"><strong>Lingfei Wu</strong> IBM Research AI, United States</div>
+<div class="col-md-4 pb-5"><strong>Wei Wu</strong> Microsoft, China</div>
+<div class="col-md-4 pb-5"><strong>Chenyan Xiong</strong> Carnegie Mellon University; Microsoft, United States</div>
+<div class="col-md-4 pb-5"><strong>Haoyi Xiong</strong> Missouri University of Science and Technology, United States</div>
+<div class="col-md-4 pb-5"><strong>Jian Xu</strong> Alibaba Group, United States</div>
+<div class="col-md-4 pb-5"><strong>Jun Xu</strong> Renming University of China, China</div>
+<div class="col-md-4 pb-5"><strong>Tao Yang</strong> University of California at Santa Barbara, United States</div>
+<div class="col-md-4 pb-5"><strong>Yang Yang</strong> Zhejiang University, China</div>
+<div class="col-md-4 pb-5"><strong>Zhijun Yin</strong> Facebook, United States</div>
+<div class="col-md-4 pb-5"><strong>Elad Yom-Tov</strong> Microsoft, Israel</div>
+<div class="col-md-4 pb-5"><strong>Guoxian Yu</strong> Southwest University, China</div>
+<div class="col-md-4 pb-5"><strong>Jeffrey Xu Yu</strong> The Chinese University of Hong Kong, China</div>
+<div class="col-md-4 pb-5"><strong>Wenchao Yu</strong> University of California, Los Angeles, United States</div>
+<div class="col-md-4 pb-5"><strong>Muhammad Bilal Zafar</strong> Bosch Center for Artificial Intelligence, Germany</div>
+<div class="col-md-4 pb-5"><strong>Reza Zafarani</strong> Syracuse University, United States</div>
+<div class="col-md-4 pb-5"><strong>Hamed Zamani</strong> University of Massachusetts Amherst, United States</div>
+<div class="col-md-4 pb-5"><strong>Kai Zhan</strong> Temple University, United States</div>
+<div class="col-md-4 pb-5"><strong>Liang Zhang</strong> LinkedIn, United States</div>
+<div class="col-md-4 pb-5"><strong>Qi Zhang</strong> Fudan University, China</div>
+<div class="col-md-4 pb-5"><strong>Wei Zhang</strong> East China Normal University, China</div>
+<div class="col-md-4 pb-5"><strong>Weinan Zhang</strong> Shanghai Jiao Tong University, China</div>
+<div class="col-md-4 pb-5"><strong>Xuchao Zhang</strong> Virginia Tech, United States</div>
+<div class="col-md-4 pb-5"><strong>Qian Zhao</strong> Bloomberg L.P., United States</div>
+<div class="col-md-4 pb-5"><strong>Zhe Zhao</strong> Google, United States</div>
+<div class="col-md-4 pb-5"><strong>Cheng Zheng</strong> University of California, Los Angeles, United States</div>
+<div class="col-md-4 pb-5"><strong>Dawei Zhou</strong> University of Illinois at Urbana-Champaign, United States</div>
+<div class="col-md-4 pb-5"><strong>Ke Zhou</strong> University of Nottingham, United Kingdom</div>
+<div class="col-md-4 pb-5"><strong>Imed Zitouni</strong> Microsoft, United States</div>
+<!-- <div class="col-md-4 pb-5"><strong>Carlos Castillo</strong> Universitat Pompeu Fabra, Spain</div>
+   <div class="col-md-4 pb-5"><strong>Michele Catasta</strong> Stanford University, United States</div>
+   <div class="col-md-4 pb-5"><strong>Sanjay Chawla</strong> Qatar Computing Research Institute, HBKU, Qatar</div>
+   <div class="col-md-4 pb-5"><strong>Freddy Chua</strong> Singtel, United States</div>
+   <div class="col-md-4 pb-5"><strong>Ovidiu Dan</strong> Lehigh University, United States</div>
+   <div class="col-md-4 pb-5"><strong>Anirban Dasgupta</strong> IIT Gandhinagar, India</div>
+   <div class="col-md-4 pb-5"><strong>Gianmarco De Francisci Morales</strong> ISI Foundation, Italy</div>
+   <div class="col-md-4 pb-5"><strong>Nemanja Djuric</strong> Uber ATG, United States</div>
+   <div class="col-md-4 pb-5"><strong>Nan Du</strong> Google, United States</div>
+   <div class="col-md-4 pb-5"><strong>Benoit Dumoulin</strong> Facebook, United States</div>
+   <div class="col-md-4 pb-5"><strong>Yi Fang</strong> Santa Clara University, United States</div>
+   <div class="col-md-4 pb-5"><strong>Alexander Felfernig</strong> Graz University of Technology, Austria</div>
+   <div class="col-md-4 pb-5"><strong>John Foley</strong> Smith College, United States</div>
+   <div class="col-md-4 pb-5"><strong>Jing Gao</strong> University at Buffalo, United States</div>
+   <div class="col-md-4 pb-5"><strong>Mihajlo Grbovic</strong> Airbnb, United States</div>
+   <div class="col-md-4 pb-5"><strong>Nir Grinberg</strong> Northeastern and Harvard University, United States</div>
+   <div class="col-md-4 pb-5"><strong>Jiafeng Guo</strong> Institute of Computing Technology, China</div>
+   <div class="col-md-4 pb-5"><strong>Ido Guy</strong>eBay Research, Israel</div>
+   <div class="col-md-4 pb-5"><strong>William Hamilton</strong> Stanford University, United States</div>
+   <div class="col-md-4 pb-5"><strong>Claudia Hauff</strong> Delft University of Technology, Netherlands</div>
+   <div class="col-md-4 pb-5"><strong>Ruining He</strong> Pinterest Inc., United States</div>
+   <div class="col-md-4 pb-5"><strong>Liangjie Hong</strong> Etsy Inc., United States</div>
+   <div class="col-md-4 pb-5"><strong>Xia Ben Hu</strong> Texas A&M University, United States</div>
+   <div class="col-md-4 pb-5"><strong>Yifan Hu</strong> Yahoo!, United States</div>
+   <div class="col-md-4 pb-5"><strong>Amir Ingber</strong> Amazon Research, Israel</div>
+   <div class="col-md-4 pb-5"><strong>Jiepu Jiang</strong> College of Information and Computer Sciences, University of Massachusetts Amherst, United States</div>
+   <div class="col-md-4 pb-5"><strong>Xin Jiang</strong> Huawei Noah's Ark Lab, Hong Kong</div>
+   <div class="col-md-4 pb-5"><strong>U Kang</strong> Seoul National University, South Korea</div>
+   <div class="col-md-4 pb-5"><strong>Santu Karmaker</strong> University of Illinois at Urbana-Champaign, United States</div>
+   <div class="col-md-4 pb-5"><strong>Julia Kiseleva</strong> Microsoft AI, United States</div>
+   <div class="col-md-4 pb-5"><strong>Danai Koutra</strong> University of Michigan, United States</div>
+   <div class="col-md-4 pb-5"><strong>Zornitsa Kozareva</strong> Google, United States</div>
+   <div class="col-md-4 pb-5"><strong>Srijan Kumar</strong> Stanford University, United States</div>
+   <div class="col-md-4 pb-5"><strong>Hima Lakkaraju</strong> Stanford University, United States</div>
+   <div class="col-md-4 pb-5"><strong>Yanen Li</strong> University of Illinois at Urbana-Champaign, United States</div>
+   <div class="col-md-4 pb-5"><strong>Jonathan Litz</strong> Microsoft, United States</div>
+   <div class="col-md-4 pb-5"><strong>Wei Lu</strong> LinkedIn Corporation, United States</div>
+   <div class="col-md-4 pb-5"><strong>Hao Ma</strong> Microsoft, United States</div>
+   <div class="col-md-4 pb-5"><strong>Julian Mcauley</strong> University of California San Diego, United States</div>
+   <div class="col-md-4 pb-5"><strong>Sameep Mehta</strong> IBM, India Research Lab, India</div>
+   <div class="col-md-4 pb-5"><strong>Edgar Meij</strong> Bloomberg L.P., United Kingdom</div>
+   <div class="col-md-4 pb-5"><strong>Wagner Meira Jr.</strong> Universidade Federal de Minas Gerais, Brazil</div>
+   <div class="col-md-4 pb-5"><strong>Yelena Mejova</strong> Qatar Computing Research Institute, Qatar</div>
+   <div class="col-md-4 pb-5"><strong>Massimo Melucci</strong> University of Padova, Italy</div>
+   <div class="col-md-4 pb-5"><strong>Pauli Miettinen</strong> Max Planck Institute for Informatics, Germany</div>
+   <div class="col-md-4 pb-5"><strong>Marie-Francine Moens</strong> Katholieke Universiteit Leuven, Belgium</div>
+   <div class="col-md-4 pb-5"><strong>Elnaz Nouri</strong> Microsoft, United States</div>
+   <div class="col-md-4 pb-5"><strong>Neil O'Hare</strong> Yahoo!, United States</div>
+   <div class="col-md-4 pb-5"><strong>Evangelos Papalexakis</strong> University of California Riverside, United States</div>
+   <div class="col-md-4 pb-5"><strong>Srinivasan Parthasarathy</strong>ohio state university, United States</div>
+   <div class="col-md-4 pb-5"><strong>Xiang Ren</strong>, </div>
+   <div class="col-md-4 pb-5"><strong>Matteo Riondato</strong> Two Sigma Investments, LP, United States</div>
+   <div class="col-md-4 pb-5"><strong>Daniel Romero</strong> University of Michigan, United States</div>
+   <div class="col-md-4 pb-5"><strong>Derek Ruths</strong> McGill University, Canada</div>
+   <div class="col-md-4 pb-5"><strong>Denis Savenkov</strong> Facebook, United States</div>
+   <div class="col-md-4 pb-5"><strong>Rossano Schifanella</strong> University of Turin, Italy</div>
+   <div class="col-md-4 pb-5"><strong>Tobias Schnabel</strong> Cornell University, United States</div>
+   <div class="col-md-4 pb-5"><strong>Robert Sim</strong> Microsoft, United States</div>
+   <div class="col-md-4 pb-5"><strong>Mauro Sozio</strong> Télécom ParisTech, France</div>
+   <div class="col-md-4 pb-5"><strong>Stergios Stergiou</strong> Google, United States</div>
+   <div class="col-md-4 pb-5"><strong>Torsten Suel</strong> New York University, United States</div>
+   <div class="col-md-4 pb-5"><strong>Paul Suganthan</strong> Google, United States</div>
+   <div class="col-md-4 pb-5"><strong>Yizhou Sun</strong> University of California, Los Angeles, United States</div>
+   <div class="col-md-4 pb-5"><strong>Adith Swaminathan</strong> Microsoft, United States</div>
+   <div class="col-md-4 pb-5"><strong>Johan Ugander</strong> Stanford University, United States</div>
+   <div class="col-md-4 pb-5"><strong>Antti Ukkonen</strong> University of Helsinki, Finland</div>
+   <div class="col-md-4 pb-5"><strong>Isabel Valera</strong> MPI for Intelligent Systems, Germany</div>
+   <div class="col-md-4 pb-5"><strong>Chi Wang</strong> Microsoft, United States</div>
+   <div class="col-md-4 pb-5"><strong>Quan Wang</strong> Institute of Information Engineering, Chinese Academy of Sciences, China</div>
+   <div class="col-md-4 pb-5"><strong>Yu Wang</strong> Otto Radio, Inc., United States</div>
+   <div class="col-md-4 pb-5"><strong>Robert West</strong> Ecole Polytechnique Fédérale de Lausanne, Switzerland</div>
+   <div class="col-md-4 pb-5"><strong>Lingfei Wu</strong> IBM Research AI, United States</div>
+   <div class="col-md-4 pb-5"><strong>Xiaoran Yan</strong> Indiana U, United States</div>
+   <div class="col-md-4 pb-5"><strong>Peilin Yang</strong> Twitter Inc., United States</div>
+   <div class="col-md-4 pb-5"><strong>Mi-Yen Yeh</strong> Institute of Information Science, Academia Sinica, Taiwan</div>
+   <div class="col-md-4 pb-5"><strong>Elad Yom-Tov</strong> Microsoft, Israel</div>
+   <div class="col-md-4 pb-5"><strong>Jeffrey Xu Yu</strong> The Chinese University of Hong Kong, China</div>
+   <div class="col-md-4 pb-5"><strong>Aston Zhang</strong> Amazon AI, United States</div>
+   <div class="col-md-4 pb-5"><strong>Xiang Zhang</strong> The Pennsylvania State University, United States</div>
+   <div class="col-md-4 pb-5"><strong>Yizhe Zhang</strong> Microsoft, United States</div> -->
+</div>
+<!--end page content-->
+</div>
+<div class="col-md-3 pb-4">
+<!--<a href="registration.php" ><button type="button" class="btn btn-primary btn-lg btn-block mb-3 p-3 pt-4 pb-4">Registration</button></a>-->
+<!--
+
+<ul class="list-group list-group-flush dates">
+						<li class="list-group-item border-0 datetitle">
+                            <h3>Start Times</h3>
+                        </li>
+
+						<li class="list-group-item">
+							<strong>Monday 11 February</strong>
+							Tutorials and Industry Day <br>
+							Commences: 9:00am
+						</li>
+
+						<li class="list-group-item">
+							<strong>Tuesday 12 February</strong>
+							Welcome to Country Ceremony <br>
+							Commences: 8:45am
+						</li>
+
+						<p class="mt-2"><strong>Please arrive and complete your registration prior to these times.</strong></p>
+
+						<li class="list-group-item">
+							<strong>Workshop proposal due</strong>
+							16 August 2018
+						</li>
+						<li class="list-group-item">
+							<strong>Paper abstracts due</strong>
+							8 August, 2018
+						</li>
+						<li class="list-group-item">
+							<strong>Final paper submission</strong>
+							15 August 2018
+						</li>
+						<li class="list-group-item">
+							<strong>Workshop Proposal notifications</strong>
+							5 September 2018
+						</li>
+						<li class="list-group-item">
+							<strong>Demonstration submission due</strong>
+							4 September 2018
+						</li>
+						<li class="list-group-item">
+							<strong>Tutorial Submission Due</strong>
+							17 September 2018
+						</li>
+						<li class="list-group-item">
+							<strong>Doctoral Consortium submissions due</strong>
+							16 October 2018
+						</li>
+						<li class="list-group-item">
+							<strong>Tutorial Acceptance Notifications</strong>
+							15 October  2018
+						</li>
+						<li class="list-group-item">
+							<strong>Paper Notifications</strong>
+							24 October 2018
+						</li>
+						<li class="list-group-item">
+							<strong>Demonstrations notification</strong>
+							24 October 2018
+						</li>
+						<li class="list-group-item">
+							<strong>Industry Day Submissions Due</strong>
+							26 October 2018
+						</li>
+						<li class="list-group-item">
+							<strong>Doctoral Consortium Notification</strong>
+							7 November 2018
+						</li>
+						<li class="list-group-item">
+							<strong>Industry Day Notifications</strong>
+							9 November 2018
+						</li>
+-->
+</div>
+</div>
+</div>
+</div>
+<!--
+	<div class="cards">
+		<div class="container">
+			<div class="row pt-3">
+			
+								<a href="http://www.wsdm-conference.org" target="_blank" class="col-md-12 mx-auto d-block pb-4">
+					<div class="card">
+						<div class="card-body">
+							
+							<h3 class="card-title text-center">WSDM 2019 is now completed, thank you for your interest. </h3>
+							<p class="card-text text-center">Initial planning has commenced for WSDM 2020 in Houston, Texas; please visit their upcoming webpage via the main WSDM page at <em>www.wsdm-conference.org</em> </p>
+						</div>
+					</div>
+				</a>
+
+				<a href="https://www.youtube.com/playlist?list=PLn0nrSd4xjjaQQvmtd3zCca0u625MgEg0" target="_blank" class="col-md-12 mx-auto d-block pb-4">
+					<div class="card">
+						<div class="card-body">
+							<h3 class="card-title text-center">Recordings of the Industry Day talks are now available on the ACM YouTube channel</h3>
+						</div>
+					</div>
+				</a>
+
+
+				<a href="https://people.eng.unimelb.edu.au/ammoffat/wsdm19-outstanding.html" target="_blank"  class="col-md-12 mx-auto d-block pb-4">
+					<div class="card">
+						<div class="card-body">
+							<h3 class="card-title text-center">WSDM 2019 Best Paper Award Recipient:</h3>
+							<p class="card-text text-center">"Slice: Scalable Linear Extreme Classifiers trained on 100 Million Labels for Related Searches", by Himanshu Jain,
+                Venkatesh Balasubramanian, Bhanu Teja Chunduri, and Manik Varma.</p>
+				
+							<h3 class="card-title text-center">WSDM 2019 Test of Time Award Recipient:</h3>
+							<p class="card-text text-center">"Opinion Spam and Analysis", Nitin Jindal and Bing Liu, WSDM 2008.</p>
+							
+							<h3 class="card-title text-center">Best Industry Day Presentation:</h3>
+							<p class="card-text text-center">"Reinforcement Learning for Recommender Systems: A Case Study on Youtube," by Minmin Chen.</p>
+							
+							<h3 class="card-title text-center">Outstanding SPC and PC Members:</h3>
+							<p class="card-text text-center">A list of referees recognized for their significant contributions is available at <em>https://people.eng.unimelb.edu.au/ammoffat/wsdm19-outstanding.html</em></p>
+
+
+				
+				
+				
+				
+						</div>
+					</div>
+				</a>
+
+				<a href="https://photos.app.goo.gl/HA83CfsFLCQz1CCn9" target="_blank"  class="col-md-12 mx-auto d-block pb-4">
+					<div class="card">
+						<div class="card-body">
+							<h3 class="card-title text-center">A WSDM 2019 photo album is available at <em>https://photos.app.goo.gl/HA83CfsFLCQz1CCn9</em> </h3>
+						</div>
+					</div>
+				</a>
+
+				<a href="acm-proceedings.php" class="col-md-12 mx-auto d-block pb-4">
+					<div class="card">
+						<div class="card-body">
+							<h3 class="card-title text-center">Links to Published Papers in ACM Digital Library</h3>
+						</div>
+					</div>
+				</a>
+				
+				<a href="venue.php" class="col-md-12 mx-auto d-block pb-4">
+					<div class="card">
+						<div class="card-body">
+							<h3 class="card-title text-center">All WSDM activities will take place at the <br>Melbourne Convention and Exhibition Centre</h3>
+						</div>
+					</div>
+				</a>
+
+
+				<a href="call-for-industry-day-speakers.php" class="col-md-4 pb-4">
+					<div class="card">
+						<div class="card-body">
+							<h3 class="card-title">Call for Industry Day Speakers</h3>
+							<p class="card-text">We invite submissions for industry talk proposals. <em>View more information</em>.</p>
+						</div>
+					</div>
+				</a>
+
+			<a href="travel-grants.php" class="col-md-4 pb-4">
+					<div class="card">
+						<div class="card-body">
+							<h3 class="card-title">Student Travel Grants</h3>
+							<p class="card-text">The SIGIR Student Travel Grant Program provides funding for students who are members of ACM SIGIR. <em>View more information</em>.</p>
+						</div>
+					</div>
+			  </a> -->
+<div class="footer">
+<div class="container">
+<div class="row pt-4">
+<div class="col-md-4 pb-4">
+<div class="social">
+<!-- <a href="https://twitter.com/wsdmsocial" target="_blank"><i class="fab fa-twitter"></i>Follow us</a> -->
+<!-- <a href="https://www.facebook.com/wsdmsocial" target="_blank"><i class="fab fa-facebook-f"></i>Like us</a> -->
+</div>
+</div>
+    <div class="col-md-8 pb-4 text-md-right">
+        <!-- For all enquiries, please contact the <a href="contact-us.php"><strong>WSDM 2020 Conference Secretariat</strong></a>. -->
+    </div>
+</div>
+</div>
+</div>
+    <div class="top">
+        <div class="box"></div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+
+</div>
+<div>
+    <div class="top">
+        <div class="box"></div>
+    </div>
+    <!--navigation-->
+    <div class="nav">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="container">
+            <div class="row align-items-center pt-4 pb-4">
+                <div class="col-md text-center"><img class="img-fluid" src="img/logo_2020.png"/></div>
+            </div>
+        </div>
+    </div>
+    <!-- 		<div class="cards" style="background: none;">
+            <div class="container">
+                <div class="row pt-2"> -->
+    <!-- <a href="http://www.wsdm-conference.org" target="_blank" class="col-md-12 mx-auto d-block pb-4">
+                        <div class="card">
+                            <div class="card-body">
+
+                                <h3 class="card-title text-center">WSDM 2019 is now completed, thank you for your interest. </h3>
+                                <p class="card-text text-center">Initial planning has commenced for WSDM 2020 in Houston, Texas; please visit their upcoming webpage via the main WSDM page at <em>www.wsdm-conference.org</em> </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://www.youtube.com/playlist?list=PLn0nrSd4xjjaQQvmtd3zCca0u625MgEg0" target="_blank" class="col-md-12 mx-auto d-block pb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title text-center">Recordings of the Industry Day talks are now available on the ACM YouTube channel</h3>
+                            </div>
+                        </div>
+                    </a> -->
+    <!-- <a href="wsdm20-outstanding.html" target="_blank"  class="col-md-12 mx-auto d-block pb-4">
+                        <div class="card">
+                            <div class="card-body"> -->
+    <!-- <h3 class="card-title text-center">WSDM 2019 Best Paper Award Recipient:</h3>
+                                <p class="card-text text-center">"Slice: Scalable Linear Extreme Classifiers trained on 100 Million Labels for Related Searches", by Himanshu Jain,
+                    Venkatesh Balasubramanian, Bhanu Teja Chunduri, and Manik Varma.</p>
+
+                                <h3 class="card-title text-center">WSDM 2019 Test of Time Award Recipient:</h3>
+                                <p class="card-text text-center">"Opinion Spam and Analysis", Nitin Jindal and Bing Liu, WSDM 2008.</p>
+
+                                <h3 class="card-title text-center">Best Industry Day Presentation:</h3>
+                                <p class="card-text text-center">"Reinforcement Learning for Recommender Systems: A Case Study on Youtube," by Minmin Chen.</p> -->
+    <!-- <h3 class="card-title text-center">Outstanding SPC and PC Members:</h3>
+                                <p class="card-text text-center">A list of referees recognized for their significant contributions is available at <em>wsdm20-outstanding.html</em></p> -->
+    <!-- 						</div>
+                        </div>
+                    </a> -->
+    <!-- <a href="https://photos.app.goo.gl/HA83CfsFLCQz1CCn9" target="_blank"  class="col-md-12 mx-auto d-block pb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title text-center">A WSDM 2019 photo album is available at <em>https://photos.app.goo.gl/HA83CfsFLCQz1CCn9</em> </h3>
+                            </div>
+                        </div>
+                    </a> -->
+    <!-- <a href="acm-proceedings.php" class="col-md-12 mx-auto d-block pb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title text-center">Links to Published Papers in ACM Digital Library</h3>
+                            </div>
+                        </div>
+                    </a> -->
+    <!-- <a href="venue.php" class="col-md-12 mx-auto d-block pb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title text-center">All WSDM activities will take place at the <br>Melbourne Convention and Exhibition Centre</h3>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    <a href="call-for-industry-day-speakers.php" class="col-md-4 pb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title">Call for Industry Day Speakers</h3>
+                                <p class="card-text">We invite submissions for industry talk proposals. <em>View more information</em>.</p>
+                            </div>
+                        </div>
+                    </a>
+
+                <a href="travel-grants.php" class="col-md-4 pb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title">Student Travel Grants</h3>
+                                <p class="card-text">The SIGIR Student Travel Grant Program provides funding for students who are members of ACM SIGIR. <em>View more information</em>.</p>
+                            </div>
+                        </div>
+                  </a> -->
+    <!-- </div>
+            </div>
+        </div>   -->
+    <div class="content">
+        <div class="container">
+            <!--<div class="row">
+                    <div class="col-md-12">
+                    <a href="registration.php"><button type="button" class="btn btn-primary btn-lg btn-block mb-1 p-3">Registration now open</button></a>
+                    </div>
+
+                    </div>-->
+            <div class="row pt-4">
+                <div class="col-md pb-4">
+                    <div class="carousel slide mb-4" data-ride="carousel" id="carouselExampleControls">
+                        <div class="carousel-inner">
+                            <!--     <div class="carousel-item active">
+                                  <img class="d-block w-100" src="img/slider/whether.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                  <img class="d-block w-100" src="img/slider/transport.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                  <img class="d-block w-100" src="img/slider/food.png">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="img/slider/sports.jpg">
+                                  </div>
+                                <div class="carousel-item">
+                                  <img class="d-block w-100" src="img/slider/tour.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                  <img class="d-block w-100" src="img/slider/visit.jpg">
+                                </div> -->
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="img/slider/Bin_Yu.png"/>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/slider/Kristen_Grauman.png"/>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/slider/Ed_Chi.png"/>
+                            </div>
+                            <!-- <div class="carousel-item">
+                                    <img class="d-block w-100" src="img/slider/Zhihua_Zhou.png">
+                                </div> -->
+                        </div>
+                        <a class="carousel-control-prev" data-slide="prev" href="#carouselExampleControls"
+                           role="button">
+                            <span aria-hidden="true" class="carousel-control-prev-icon"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" data-slide="next" href="#carouselExampleControls"
+                           role="button">
+                            <span aria-hidden="true" class="carousel-control-next-icon"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <p><strong style="font: bold 1.2em/1.5 'Roboto', sans-serif;">WSDM (pronounced "wisdom") is one of
+                        the premier conferences on web-inspired research involving search and data mining. The 13th ACM
+                        International WSDM Conference will take place in Houston, Texas from February 3-7,
+                        2020.</strong></p>
+                    <p>WSDM is a highly selective conference that includes invited talks, as well as refereed full
+                        papers. WSDM publishes original, high-quality papers related to search and data mining on the
+                        Web and the Social Web, with an emphasis on practical yet principled novel models of search and
+                        data mining, algorithm design and analysis, economic implications, and in-depth experimental
+                        analysis of accuracy and performance.</p>
+                </div>
+                <div class="col-md">
+                    <div class="col-12 pb-3">
+                        <h2>Venue</h2>
+                        <a href="http://www.wsdm-conference.org/2020/venue.php" target="_blank"><p class="mt-2"><b>Hyatt
+                            Regency Houston/Galleria</b><br/>
+                            2626 Sage Road, Houston, Texas, United States, 77056</p></a>
+                    </div>
+                    <div class="col-12 pb-3">
+                        <h2>Schedule</h2>
+                        <div class="row">
+                            <div class="col-md">
+                                <ul class="list-group list-group-flush dates">
+                                    <li class="list-group-item">
+                                        <strong>3 February (Monday), 2020</strong>
+                                        Tutorials, Industry Day, and Healthcare Day (jointly held with HSDM Workshop)
+                                        <br/>
+                                        <!-- Commences: 9:00am -->
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>4 February (Tuesday) ~ 6 February (Thursday), 2020</strong>
+                                        Main Conference <br/>
+                                        <!-- Commences: 8:45am -->
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>7 February (Friday), 2020</strong>
+                                        Workshops, Doctoral Consortium, and WSDM Cup <br/>
+                                        <!-- Commences: 8:45am -->
+                                    </li>
+                                </ul>
+                                <p class="mt-2"><b>Please arrive and complete your registration prior to these
+                                    times.</b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Dates-->
+                </div>
+            </div>
+            <div class="cards" style="background: none;">
+                <div class="container">
+                    <div class="row pt-2">
+                        <!-- <a href="http://www.wsdm-conference.org" target="_blank" class="col-md-12 mx-auto d-block pb-4">
+                                            <div class="card">
+                                                <div class="card-body">
+
+                                                    <h3 class="card-title text-center">WSDM 2019 is now completed, thank you for your interest. </h3>
+                                                    <p class="card-text text-center">Initial planning has commenced for WSDM 2020 in Houston, Texas; please visit their upcoming webpage via the main WSDM page at <em>www.wsdm-conference.org</em> </p>
+                                                </div>
+                                            </div>
+                                        </a>
+
+                                        <a href="https://www.youtube.com/playlist?list=PLn0nrSd4xjjaQQvmtd3zCca0u625MgEg0" target="_blank" class="col-md-12 mx-auto d-block pb-4">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h3 class="card-title text-center">Recordings of the Industry Day talks are now available on the ACM YouTube channel</h3>
+                                                </div>
+                                            </div>
+                                        </a> -->
+                        <a class="col-md-12 mx-auto d-block pb-4" href="wsdm20-outstanding.html" target="_blank">
+                            <div class="card">
+                                <div class="card-body">
+                                    <!-- <h3 class="card-title text-center">WSDM 2020 Best Paper Award Recipient:</h3>
+                                                                <p class="card-text text-center">"The Power of Pivoting for Exact Clique Counting", by Shweta Jain and C. Seshadhri.</p>
+
+                                                                <h3 class="card-title text-center">WSDM 2020 Test of Time Award Recipient:</h3>
+                                                                <p class="card-text text-center">"TwitterRank: Finding Topic-sensitive Influential Twitterers", Jianshu Weng, Ee-Peng Lim, Jing Jiang, and Qi He, WSDM 2010.</p>
+                                                                 -->
+                                    <!-- <h3 class="card-title text-center">Best Industry Day Presentation:</h3>
+                                                                <p class="card-text text-center">"Reinforcement Learning for Recommender Systems: A Case Study on Youtube," by Minmin Chen.</p> -->
+                                    <h3 class="card-title text-center">Outstanding SPC and PC Members:</h3>
+                                    <p class="card-text text-center">A list of referees recognized for their significant
+                                        contributions is available at <em>wsdm20-outstanding.html</em></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="col-md-12 mx-auto d-block pb-4" href="">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h3 class="card-title text-center">WSDM 2020 Best Paper Award Recipient:</h3>
+                                    <p class="card-text text-center">"The Power of Pivoting for Exact Clique Counting",
+                                        by Shweta Jain and C. Seshadhri.</p>
+                                    <h3 class="card-title text-center">WSDM 2020 Best Paper Award Runner-Up:</h3>
+                                    <p class="card-text text-center">"HyperML: A Boosting Metric Learning Approach in
+                                        Hyperbolic Space for Recommender Systems", by Lucas Vinh Tran, Yi Tay, Shuai
+                                        Zhang, Gao Cong, and Xiaoli Li.</p>
+                                    <h3 class="card-title text-center">WSDM 2020 Test of Time Award Recipient:</h3>
+                                    <p class="card-text text-center">"TwitterRank: Finding Topic-sensitive Influential
+                                        Twitterers", Jianshu Weng, Ee-Peng Lim, Jing Jiang, and Qi He, WSDM 2010.</p>
+                                    <h3 class="card-title text-center">WSDM 2020 Honorable Mention (Test of
+                                        Time Award):</h3>
+                                    <p class="card-text text-center">"An Experimental Comparison of Click Position-Bias
+                                        Models", Nick Craswell, Onno Zoeter, Michael Taylor, and Bill Ramsey, WSDM
+                                        2008.</p>
+                                    <h3 class="card-title text-center">WSDM 2020 Honorable Mention (Test of
+                                        Time Award):</h3>
+                                    <p class="card-text text-center">"A Holistic Lexicon-Based Approach to Opinion
+                                        Mining", Xiaowen Ding, Bing Liu, and Philip S. Yu, WSDM 2008.</p>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- <a href="https://photos.app.goo.gl/HA83CfsFLCQz1CCn9" target="_blank"  class="col-md-12 mx-auto d-block pb-4">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h3 class="card-title text-center">A WSDM 2019 photo album is available at <em>https://photos.app.goo.gl/HA83CfsFLCQz1CCn9</em> </h3>
+                                                </div>
+                                            </div>
+                                        </a> -->
+                        <a class="col-md-12 mx-auto d-block pb-4" href="acm-proceedings.php">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h3 class="card-title text-center">Links to Published Papers in ACM Digital
+                                        Library</h3>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSm1mPP5JS43CEofWQ5_Wfiuc_y6E1ZA517p0klx6tiCXiHhej5tUv1cJPRtBgY0XcEF8DaOfEGlfSD/pubhtml" class="col-md-12 mx-auto d-block pb-4"> -->
+                        <a class="col-md-12 mx-auto d-block pb-4" href="nearby.html">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h3 class="card-title text-center">Eat, Shop, and Fun Nearby</h3>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- <a href="venue.php" class="col-md-12 mx-auto d-block pb-4">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h3 class="card-title text-center">All WSDM activities will take place at the <br>Melbourne Convention and Exhibition Centre</h3>
+                                                </div>
+                                            </div>
+                                        </a>
+
+
+                                        <a href="call-for-industry-day-speakers.php" class="col-md-4 pb-4">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h3 class="card-title">Call for Industry Day Speakers</h3>
+                                                    <p class="card-text">We invite submissions for industry talk proposals. <em>View more information</em>.</p>
+                                                </div>
+                                            </div>
+                                        </a>
+
+                                    <a href="travel-grants.php" class="col-md-4 pb-4">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h3 class="card-title">Student Travel Grants</h3>
+                                                    <p class="card-text">The SIGIR Student Travel Grant Program provides funding for students who are members of ACM SIGIR. <em>View more information</em>.</p>
+                                                </div>
+                                            </div>
+                                      </a> -->
+                    </div>
+                </div>
+            </div>
+            <!--		  Sponsors-->
+            <div class="row">
+                <div class="col mt-3">
+                    <h2>Thank you to our Supporters</h2>
+                    <h3>Platinum Supporter</h3>
+                    <div class="row d-flex align-items-center mb-5 mt-3">
+                        <div class="col-md-3 p-4"><a
+                                href="https://www.apple.com/jobs/us/teams/machine-learning-and-ai.html" target="_blank"><img
+                                alt="Apple" class="img-fluid" src="img/sponsor_logo/apple.png" width="100"/></a></div>
+                    </div>
+                    <h3>Gold Supporters</h3>
+                    <div class="row d-flex align-items-center mb-5 mt-3">
+                        <div class="col-md-4 p-4"><a href="https://www.google.com" target="_blank"><img alt="Google"
+                                                                                                        class="img-fluid"
+                                                                                                        src="img/sponsor_logo/google.png"
+                                                                                                        width="150"/></a>
+                        </div>
+                        <div class="col-md-4 p-4"><a href="http://bytedance.com/" target="_blank"><img alt="ByteDance"
+                                                                                                       class="img-fluid"
+                                                                                                       src="img/sponsor_logo/byteDance.png"
+                                                                                                       width="200"/></a>
+                        </div>
+                        <div class="col-md-4 p-4"><a href="https://www.aboutamazon.com/research" target="_blank"><img
+                                alt="Amazon" class="img-fluid" src="img/sponsor_logo/amazon.png" width="180"/></a></div>
+                        <div class="col-md-4 p-4"><a href="https://www.homedepot.com" target="_blank"><img
+                                alt="Homedepot" class="img-fluid" src="img/sponsor_logo/homedepot.jpg" width="100"/></a>
+                        </div>
+                    </div>
+                    <h3>Silver Supporters</h3>
+                    <div class="row d-flex align-items-center mb-5 mt-3">
+                        <div class="col-md-4 p-4"><a href="https://www.microsoft.com/en-us/" target="_blank"><img
+                                alt="Microsoft" class="img-fluid" src="img/sponsor_logo/microsoft.png" width="190"/></a>
+                        </div>
+                        <div class="col-md-4 p-4"><a href="https://www.snapchat.com/" target="_blank"><img
+                                alt="SnapChat" class="img-fluid" src="img/sponsor_logo/snap_chat.jpg" width="110"/></a>
+                        </div>
+                        <div class="col-md-4 p-4"><a href="http://www.sichuanair.com" target="_blank"><img
+                                alt="SichuanAirlines" class="img-fluid" src="img/sponsor_logo/SichuanAirlines.png"
+                                width="200"/></a></div>
+                        <div class="col-md-4 p-4"><a href="http://aij.ijcai.org/" target="_blank"><img alt="AIJournal"
+                                                                                                       class="img-fluid"
+                                                                                                       src="img/sponsor_logo/AI_Journal.jpg"
+                                                                                                       width="140"/></a>
+                        </div>
+                        <div class="col-md-4 p-4"><a href="https://www.baidu.com/" target="_blank"><img alt="Baidu"
+                                                                                                        class="img-fluid"
+                                                                                                        src="img/sponsor_logo/baidu.jpg"
+                                                                                                        width="180"/></a>
+                        </div>
+                        <div class="col-md-4 p-4"><a href="https://www.aidatainnovations.com/" target="_blank"><img
+                                alt="AIDataInnovations" class="img-fluid" src="img/sponsor_logo/AI_Data_Innovations.jpg"
+                                width="220"/></a></div>
+                    </div>
+                    <h3>WSDM Cup Sponsors</h3>
+                    <div class="row d-flex align-items-center mb-5 mt-3">
+                        <div class="col-md-4 p-4"><a href="https://www.microsoft.com/en-us/" target="_blank"><img
+                                alt="Microsoft" class="img-fluid" src="img/sponsor_logo/microsoft.png" width="190"/></a>
+                        </div>
+                        <div class="col-md-4 p-4"><a href="http://www.sichuanair.com" target="_blank"><img
+                                alt="SichuanAirlines" class="img-fluid" src="img/sponsor_logo/SichuanAirlines.png"
+                                width="200"/></a></div>
+                        <div class="col-md-4 p-4"><a href="http://www.4paradigm.com/" target="_blank"><img
+                                alt="4paradigm" class="img-fluid" src="img/sponsor_logo/4paradigm.jpg" width="180"/></a>
+                        </div>
+                        <div class="col-md-4 p-4"><a href=" https://www.aminer.cn/" target="_blank"><img alt="aminer"
+                                                                                                         class="img-fluid"
+                                                                                                         src="img/sponsor_logo/aminer_logo.png"
+                                                                                                         width="180"/></a>
+                        </div>
+                    </div>
+                    <h3>Publisher Supporter</h3>
+                    <div class="row d-flex align-items-center mb-5 mt-3">
+                        <div class="col-md-4 p-4"><a href="https://www.cambridge.org/" target="_blank"><img
+                                alt="CambridgePress" class="img-fluid" src="img/sponsor_logo/cambridge_press.jpg"
+                                width="210"/></a></div>
+                    </div>
+                    <h3>Sponsors</h3>
+                    <div class="row d-flex align-items-center mb-5 mt-3">
+                        <div class="col-md-4 p-4"><a href="https://www.acm.org/" target="_blank"><img alt="ACM"
+                                                                                                      class="img-fluid"
+                                                                                                      src="img/sponsor_logo/acm.gif"
+                                                                                                      width="300"/></a>
+                        </div>
+                        <div class="col-md-4 p-4"><a href="https://www.kdd.org/" target="_blank"><img alt="SIGKDD"
+                                                                                                      class="img-fluid"
+                                                                                                      src="img/sponsor_logo/kdd.gif"
+                                                                                                      width="150"/></a>
+                        </div>
+                        <div class="col-md-4 p-4"><a href="https://sigir.org/" target="_blank"><img alt="SIGIR"
+                                                                                                    class="img-fluid"
+                                                                                                    src="img/sponsor_logo/sigir.gif"
+                                                                                                    width="150"/></a>
+                        </div>
+                        <div class="col-md-4 p-4"><a href="https://www.sigweb.org/" target="_blank"><img alt="SIGWEB"
+                                                                                                         class="img-fluid"
+                                                                                                         src="img/sponsor_logo/sigweb.gif"
+                                                                                                         width="180"/></a>
+                        </div>
+                        <div class="col-md-4 p-4"><a href="https://sigmod.org/" target="_blank"><img alt="SIGMOD"
+                                                                                                     class="img-fluid"
+                                                                                                     src="img/sponsor_logo/acm-sigmod.gif"
+                                                                                                     width="180"/></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--div class="cards">
+            <div class="container">
+            <div class="row pb-4">
+            <div class="col-md-12">
+            <h2>Sponsors</h2>
+                <div class="row">
+                <div class="col-3 p-4"><img src="http://via.placeholder.com/200x100"></div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div-->
+    <div class="footer">
+        <div class="container">
+            <div class="row pt-4">
+                <div class="col-md-4 pb-4">
+                    <div class="social">
+                        <!-- <a href="https://twitter.com/wsdmsocial" target="_blank"><i class="fab fa-twitter"></i>Follow us</a> -->
+                        <!-- <a href="https://www.facebook.com/wsdmsocial" target="_blank"><i class="fab fa-facebook-f"></i>Like us</a> -->
+                    </div>
+                </div>
+                <div class="col-md-8 pb-4 text-md-right">
+                    <!-- For all enquiries, please contact the <a href="contact-us.php"><strong>WSDM 2020 Conference General Chairs</strong></a>. -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="top">
+        <div class="box"></div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+
+</div>
+</body>
+</html>

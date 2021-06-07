@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
+<title>Bruce W. Porter - Computer Science Department University of Texas at Austin</title>
+<meta content="Bruce Porter University of Texas at Austin Department of Computer Science Professor." name="description"/>
+<meta content="Bruce Porter,Computer Science,The University of Texas at Austin" name="keywords"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="/users/porter/porter_site/css/styles.css" rel="stylesheet"/>
+</head>
+<body>
+<!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. 
+			Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+<!-- top bar -->
+<div id="top-bar">
+<div class="container">
+<div class="row">
+<div class="col-md-6"></div>
+<div class="col-md-6 text-right"><a href="https://cs.utexas.edu">UTCS Home</a></div>
+</div>
+</div>
+</div>
+<!-- header -->
+<header id="header">
+<div class="container">
+<div class="row">
+<div class="col-md-7">
+<img alt="Bruce W. Porter" class="img-thumbnail float-left w-25 mr-3" src="/users/porter/porter_site/images/porter-hr2.jpg"/>
+<h2 class="display-4">Bruce W. Porter</h2>
+<p class="lead">
+<!--
+								Professor &amp; Associate Chair for Academics <br>
+                                                                -->
+								Professor <br/>
+<a href="http://www.cs.utexas.edu">Department of Computer Science</a> <br/>
+<a href="http://www.utexas.edu">University of Texas at Austin</a>
+</p>
+</div>
+<div class="col-md-5">
+<!--
+							<nav>
+								<ul class="nav justify-content-end">
+										<li class="nav-item"><a href="/users/porter/porter_site/teaching.php" class="nav-link">Teaching</a></li>
+										<li class="nav-item "><a href="/users/porter/porter_site/research.php" class="nav-link">Research</a></li>
+										<li class="nav-item"><a href="/users/porter/porter_site/index.php" class="nav-link">Home</a></li>
+								</ul>
+							</nav>
+                                                      -->
+</div>
+</div>
+</div>
+</header>
+<main id="body">
+<div class="container">
+<center><br/>
+<h1>CS378: Practical Applications of Natural Language Processing</h1>
+<h3>Syllabus for Spring 2019</h3>
+</center>
+<br/><br/>
+<h3>Course Description</h3>
+<p>
+					Automatically extracting information from natural-language text is one
+					of the great scientific challenges in AI, and it also offers
+					significant practical and commercial benefits. This class will explore
+					the state of the art in applications of Natural Language Processing (NLP)
+					through a series of increasingly ambitious projects. Each project is inspired
+					by real use cases, sometimes with datasets provided by local
+					companies. For each project, we will read research publications and
+					investigate algorithms and tools that might apply. 
+                                    </p>
+<h3>Teaching Staff</h3>
+<p>
+                                    Professor: Bruce Porter, <a href="mailto:porter@cs.utexas.edu">porter@cs.utexas.edu</a>, GDC 3.704, (512)471-9565
+                                    <br/>Teaching Assistants: 
+                                    </p><ul>
+<li>Ashvin Govil, <a href="mailto:ashvin@cs.utexas.edu">ashvin@cs.utexas.edu</a>
+</li><li>Marc Matvienko, <a href="mailto:m.matvienko@utexas.edu">m.matvienko@utexas.edu</a>
+</li></ul>
+<h3>Office Hours</h3>
+<p>
+</p><table style="width:95%">
+<tr>
+<td>Bruce Porter</td>
+<td>Tuesday 10:00-11:00</td>
+<td>GDC 3.704</td>
+</tr>
+<tr>
+<td>Ashvin Govil</td>
+<td>Thursday, 3:30-4:30</td>
+<td>GDC 1.302</td>
+</tr>
+<tr>
+<td>Marc Matvienko</td>
+<td>Monday, 11:00-12:30</td>
+<td>GDC 1.302</td>
+</tr>
+</table>
+<br/>
+				    Other times by appointment.
+                                    			
+
+				<h3>Textbooks and Supplies</h3>
+<p>
+                                    Research papers and documentation for various NLP tools will be 
+                                    distributed throughout the semester. We will extensively use the following three tools, so you might consider
+				    investing in reference materials:
+                                    </p><ul>
+<li>Apache <a href="http://lucene.apache.org/solr/">SOLR</a>
+</li><li>Stanford <a href="https://stanfordnlp.github.io/CoreNLP/">CoreNLP</a>
+</li><li><a href="https://spacy.io">spaCy</a>
+</li></ul>
+                                    In particular, the first project will use Solr extensively, and that system might play a role in later projects, too.
+				    Therefore, we recommend that you, or your group, invest in a reference book, such as "Solr In Action" by Grainger and Potter. 
+				    
+
+                                <h3>Pre-Requisites</h3>
+<p>
+				    Students are expected to have strong programming skills, especially in Python,
+				    and to be proficient in using libraries, APIs, and development platforms like GitHub.
+                                    Also, students are expected to have strong "team skills" to work in groups of about four.
+				    Prior experience with AI, Machine Learning and NLP is valuable, but not required.
+                                    </p>
+<h3>Structure of the Class</h3>
+<p>
+				    The class will mirror an <i>advanced development group</i> in a forward-looking company that is trying to
+				    extract actionable information from the increasing deluge of unstructured information that is critical to
+				    its clients' operations. You will work with a team of about three others to quickly learn NLP concepts and
+				    technologies, while building first-generation systems to meet the needs of clients who are paying the bills.
+                                    </p><p>
+				    Teams will be formed in a way that resembles the process used in companies. The process will ensure
+				    that every team includes the diverse skills required for the projects, while leaving some room for
+				    students to select teammates. Everyone is expected to contribute significantly to their team,
+				    and there will be a process for you to anonymously grade the contributions of your colleagues.
+				    </p><p>
+				    An advanced-development team is continually learning. Everyone reads papers, experiments with
+				    new things, and reports their discoveries to the group. So, that's one of the class requirements.
+				    Everyone is required to give at least one 15-20 minute presentation sometime during the semester.
+				    Respect your colleagues by delivering an informative, interesting and coherent presentation that
+				    invites discussion. 
+
+
+				</p><h3>Projects</h3>
+<p>
+				    This will be a <i>learning by doing</i> class. As we go, we'll read and discuss research papers to help with
+				    the project at hand. Students will be expected to explore related work and to openly share their discoveries,
+				    insights and challenges with the class. The projects might change during the semester, but here is the
+				    current sequence:
+                                    </p><ol>
+<li><i>Information Retrieval.</i> Google owns Internet-scale, "open domain"
+				      search. But, there are many opportunities to build
+				      information-retrieval systems that perform better than Google for
+				      searching a corpus of documents in a narrow domain, such as aircraft
+				      maintenance or pediatric oncology. The project will use SOLR to ingest
+				      and index documents, producing a simple IR system. We will attempt to
+				      improve the system with NLP techniques, such as stemming and
+				      lemmatizing, to improve the match between query terms and passages in
+				      the corpus. The project will use word vectors to represent semantics,
+				      so that the system is not limited to literal matches. We will assess
+				      the effectiveness of these attempts to improve the simple system.
+				      
+				      </li><li><i>Named Entity Recognition and Parsing.</i> While the first project
+				      focused on word-level constructs, this project aims to extract larger
+				      structures from text. Named entities are words or phrases that refer, for example,
+				      to a person, place, organization. The project will use parsers, such as
+				      SpaCy, CoreNLP and possibly <a href="https://nlp.stanford.edu/software/openie.html">OpenIE</a>,
+				      to extract relationships among the named entities to populate a structured database with useful information. 
+
+				      </li><li><i>Question Answering.</i> Building on the lessons and results from the first two
+				      projects, this one aims to create a system capable of answering a
+				      question, expressed in English (not just keywords), by retrieving an appropriate - and
+				      succinct - passage of text. The project will use techniques deployed in
+				      IBM's Watson system to determine the Lexical Answer Type of candidate
+				      answers, and to retrieve and rank candidates from the database
+				      of named entities. 
+
+				      </li><li><i>Extracting larger units of knowledge.</i> Each team of students will
+				      design a project to study an NLP problem that requires new research on an
+				      extraction task that is beyond the current state-of-the-art. Examples include: 
+				        <ul>
+<li>extracting rules from written descriptions of tax codes.  The Ernst &amp;
+					  Young Tax Guide summarizes each nation's tax code. Much of this text
+					  describes events that trigger taxation. The challenge is
+					  to extract <i>if-then</i> rules, ideally in a representational form that can
+					  be interpreted by machine, to infer, for example, a client's tax
+					  liabilities.  
+					  </li><li>extracting process models from textbook descriptions.
+					  Science texts are rich with paragraph-length
+					  descriptions of processes, such as the <i>water cycle</i>
+					  or <i>RNA Transcription</i>.  Process descriptions typically include
+					  multiple steps which are inter-related with temporal, spatial and causal relations.
+					  The challenge is extracting these rich models,
+					  ideally in a representational form that can be simulated by machine, to
+					  infer, for example, the consequences of varying the inputs to the
+					  process.
+					</li></ul>
+</li></ol>
+<h3>Grading</h3>
+<p>
+                                    The final course grade will be determined by these factors:
+				    </p><ul>
+<li> Grades on each of 4 team projects (15% per project, 60% in total)
+				       </li><li> Your teammates' assessment of your contributions to each of the 4 projects
+				            (5% per project, 20% in total)
+				       </li><li> Your class presentation (10%)
+				       </li><li> Class attendance and participation (10%). Attendance is required, although up to 3
+				            absences will be excused
+                                    </li></ul>
+<h3>Plans May Change</h3>
+				    This syllabus lays out my best plan for making the class rewarding, challenging and doable.
+				    But, this class has not been taught previously and I am new to the topic, so I might need to
+				    adjust the plan during the semester. 
+
+			</div>
+</main>
+<!-- footer -->
+<footer id="footer">
+<div class="container">
+<div class="utcs-logo">
+<a href="https://cs.utexas.edu"><img src="/users/porter/porter_site/images/cslogo.svg"/></a>
+</div>
+</div>
+</footer>
+</body>
+</html>

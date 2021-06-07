@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en-US"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="http://gmpg.org/xfn/11" rel="profile"/>
+<link href="https://www.hpca-conf.org/2020/xmlrpc.php" rel="pingback"/>
+<title>HPCA 2020 – The 26th IEEE International Symposium on High-Performance Computer Architecture (Feb. 22-26, 2020)</title>
+<style type="text/css">
+</style>
+<link href="//fonts.googleapis.com" rel="dns-prefetch"/>
+<link href="//s.w.org" rel="dns-prefetch"/>
+<link href="https://www.hpca-conf.org/2020/feed/" rel="alternate" title="HPCA 2020 » Feed" type="application/rss+xml"/>
+<link href="https://www.hpca-conf.org/2020/comments/feed/" rel="alternate" title="HPCA 2020 » Comments Feed" type="application/rss+xml"/>
+<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.hpca-conf.org\/2020\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.5"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link href="https://www.hpca-conf.org/2020/wp-includes/css/dist/block-library/style.min.css?ver=5.2.5" id="wp-block-library-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://www.hpca-conf.org/2020/wp-includes/css/dist/block-library/theme.min.css?ver=5.2.5" id="wp-block-library-theme-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://www.hpca-conf.org/2020/wp-content/plugins/feed-them-social/feeds/css/styles.css?ver=2.7.3.1" id="fts-feeds-css" media="" rel="stylesheet" type="text/css"/>
+<link href="https://www.hpca-conf.org/2020/wp-content/themes/education-hub/third-party/font-awesome/css/font-awesome.min.css?ver=4.7.0" id="fontawesome-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="//fonts.googleapis.com/css?family=Open+Sans%3A600%2C400%2C400italic%2C300%2C100%2C700%7CMerriweather+Sans%3A400%2C700&amp;ver=5.2.5" id="education-hub-google-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://www.hpca-conf.org/2020/wp-content/themes/education-hub/style.css?ver=1.9.8" id="education-hub-style-css" media="all" rel="stylesheet" type="text/css"/>
+<script type="text/javascript">(function(a,d){if(a._nsl===d){a._nsl=[];var c=function(){if(a.jQuery===d)setTimeout(c,33);else{for(var b=0;b<a._nsl.length;b++)a._nsl[b].call(a,a.jQuery);a._nsl={push:function(b){b.call(a,a.jQuery)}}}};c()}})(window);</script><script src="https://www.hpca-conf.org/2020/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp" type="text/javascript"></script>
+<script src="https://www.hpca-conf.org/2020/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1" type="text/javascript"></script>
+<script src="https://www.hpca-conf.org/2020/wp-content/plugins/feed-them-social/feeds/js/powered-by.js?ver=2.7.3.1" type="text/javascript"></script>
+<script src="https://www.hpca-conf.org/2020/wp-content/plugins/feed-them-social/feeds/js/fts-global.js?ver=2.7.3.1" type="text/javascript"></script>
+<link href="https://www.hpca-conf.org/2020/wp-json/" rel="https://api.w.org/"/>
+<link href="https://www.hpca-conf.org/2020/xmlrpc.php?rsd" rel="EditURI" title="RSD" type="application/rsd+xml"/>
+<link href="https://www.hpca-conf.org/2020/wp-includes/wlwmanifest.xml" rel="wlwmanifest" type="application/wlwmanifest+xml"/>
+<meta content="WordPress 5.2.5" name="generator"/>
+<link href="https://www.hpca-conf.org/2020/" rel="canonical"/>
+<link href="https://www.hpca-conf.org/2020/" rel="shortlink"/>
+<link href="https://www.hpca-conf.org/2020/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.hpca-conf.org%2F2020%2F" rel="alternate" type="application/json+oembed"/>
+<link href="https://www.hpca-conf.org/2020/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.hpca-conf.org%2F2020%2F&amp;format=xml" rel="alternate" type="text/xml+oembed"/>
+<style id="custom-background-css" type="text/css">
+body.custom-background { background-color: #ffffff; }
+</style>
+<style id="wp-custom-css" type="text/css">
+			.site-info { display: none; }		</style>
+</head>
+<body class="home page-template-default page page-id-387 custom-background wp-embed-responsive site-layout-fluid global-layout-right-sidebar">
+<div class="container hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+<div id="tophead">
+<div class="container">
+<div id="quick-contact">
+</div>
+<div class="quick-links">
+<a class="links-btn" href="#">Quick Links</a>
+<ul class="menu" id="menu-quick-links"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-506" id="menu-item-506"><a href="https://www.hpca-conf.org/2020/calls/">Call for Papers</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-507" id="menu-item-507"><a href="https://www.hpca-conf.org/2020/industry-track-cfp-2/">Industry Track CFP</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-552" id="menu-item-552"><a href="https://www.hpca-conf.org/2020/committees/">Organizing Committee</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-551" id="menu-item-551"><a href="https://www.hpca-conf.org/2020/program-committee/">Program Committee</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-550" id="menu-item-550"><a href="https://www.hpca-conf.org/2020/external-review-committee/">External Review Committee</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-549" id="menu-item-549"><a href="https://www.hpca-conf.org/2020/industry-session-committee/">Industry Session Committee</a></li>
+</ul> </div>
+<div class="header-social-wrapper">
+<div class="widget education_hub_widget_social"><ul class="menu" id="menu-social-links-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24" id="menu-item-24"><a href="https://www.facebook.com/HpcaArchConf"><span class="screen-reader-text">Facebook</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25" id="menu-item-25"><a href="https://twitter.com/HpcaArchConf"><span class="screen-reader-text">Twitter</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26" id="menu-item-26"><a href="https://www.instagram.com/hpcaarchconf/"><span class="screen-reader-text">Instagram</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27" id="menu-item-27"><a href="mailto:hpca2020pc@gmail.com"><span class="screen-reader-text">Email</span></a></li>
+</ul></div> </div><!-- .header-social-wrapper -->
+</div> <!-- .container -->
+</div><!--  #tophead -->
+<header class="site-header" id="masthead" role="banner"><div class="container"> <div class="site-branding">
+<div id="site-identity">
+<p class="site-title"><a href="https://www.hpca-conf.org/2020/" rel="home">HPCA 2020</a></p>
+<p class="site-description">The 26th IEEE International Symposium on High-Performance Computer Architecture (Feb. 22-26, 2020)</p>
+</div><!-- #site-identity -->
+</div><!-- .site-branding -->
+<div class="search-section">
+<form action="https://www.hpca-conf.org/2020/" class="search-form" method="get" role="search">
+<label>
+<span class="screen-reader-text">Search for:</span>
+<input class="search-field" name="s" placeholder="Search..." title="Search for:" type="search" value=""/>
+</label>
+<input class="search-submit" type="submit" value="Search"/>
+</form> </div>
+</div><!-- .container --></header><!-- #masthead --> <div class="clear-fix" id="main-nav">
+<div class="container">
+<nav class="main-navigation" id="site-navigation" role="navigation">
+<button aria-controls="primary-menu" aria-expanded="false" class="menu-toggle"><i class="fa fa-bars"></i>
+			Menu</button>
+<div class="wrap-menu-content">
+<div class="menu-top-menu-container"><ul class="menu" id="primary-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-19" id="menu-item-19"><a aria-current="page" href="https://www.hpca-conf.org/2020/">Home</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-756" id="menu-item-756"><a>Programs</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-757" id="menu-item-757"><a href="https://www.hpca-conf.org/2020/main-program/">Main Program</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-758" id="menu-item-758"><a href="https://www.hpca-conf.org/2020/workshop-and-tutorial/">Workshop and Tutorial</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-673" id="menu-item-673"><a>Attending</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-679" id="menu-item-679"><a href="https://www.hpca-conf.org/2020/registration/">Registration</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-678" id="menu-item-678"><a href="https://www.hpca-conf.org/2020/venue-hotel/">Venue &amp; Hotel</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-689" id="menu-item-689"><a href="https://www.hpca-conf.org/2020/visa-information/">Visa Information</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-688" id="menu-item-688"><a href="https://www.hpca-conf.org/2020/student-travel-grant/">Student Travel Grant</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-687" id="menu-item-687"><a href="https://www.hpca-conf.org/2020/excursion-and-banquet/">Excursion and Banquet</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-468" id="menu-item-468"><a>Call for Contributions</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-402" id="menu-item-402"><a href="https://www.hpca-conf.org/2020/calls/">Call for Papers</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-489" id="menu-item-489"><a href="https://www.hpca-conf.org/2020/industry-track-cfp-2/">Industry Track CFP</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-650" id="menu-item-650"><a href="https://www.hpca-conf.org/2020/call-for-workshop-and-tutorial-proposals/">Call for Workshop and Tutorial Proposals</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-535" id="menu-item-535"><a>Committees</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-476" id="menu-item-476"><a href="https://www.hpca-conf.org/2020/committees/">Organizing Committee</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-537" id="menu-item-537"><a href="https://www.hpca-conf.org/2020/program-committee/">Program Committee</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-536" id="menu-item-536"><a href="https://www.hpca-conf.org/2020/external-review-committee/">External Review Committee</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-543" id="menu-item-543"><a href="https://www.hpca-conf.org/2020/industry-session-committee/">Industry Session Committee</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-592" id="menu-item-592"><a>Author Information</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-595" id="menu-item-595"><a href="https://www.hpca-conf.org/2020/hpca-2020-guidelines-for-submissions/">Guidelines for Submissions</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-740" id="menu-item-740"><a href="https://www.hpca-conf.org/2020/camera-ready-submission-guidelines/">Camera Ready Submission Guidelines</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-877" id="menu-item-877"><a href="https://www.hpca-conf.org/2020/code-of-conduct/">Code of Conduct</a></li>
+</ul></div> </div><!-- .menu-content -->
+</nav><!-- #site-navigation -->
+</div> <!-- .container -->
+</div> <!-- #main-nav -->
+<div class="site-content" id="content"><div class="container"><div class="inner-wrapper">
+<div class="content-area" id="primary">
+<main class="site-main" id="main" role="main">
+<article class="post-387 page type-page status-publish hentry" id="post-387">
+<header class="entry-header">
+</header><!-- .entry-header -->
+<div class="entry-content">
+<div class="alignnormal"><div class="ml-slider-3-14-0 metaslider metaslider-flex metaslider-367 ml-slider" id="metaslider-id-367" style="max-width: 700px;">
+<div id="metaslider_container_367">
+<div class="flexslider" id="metaslider_367">
+<ul class="slides">
+<li class="slide-374 ms-image" style="display: block; width: 100%;"><img alt="" class="slider-367 slide-374" height="300" src="https://www.hpca-conf.org/2020/wp-content/uploads/2019/05/0-Header2-San-Diego-Top-1230x400-1-700x300.jpg" title="0-Header2-San-Diego-Top-1230x400-1" width="700"/></li>
+<li class="slide-375 ms-image" style="display: none; width: 100%;"><img alt="" class="slider-367 slide-375" height="300" src="https://www.hpca-conf.org/2020/wp-content/uploads/2019/05/50th_sign-e1402086647738-1-700x300.jpg" title="50th_sign-e1402086647738-1" width="700"/></li>
+<li class="slide-376 ms-image" style="display: none; width: 100%;"><img alt="" class="slider-367 slide-376" height="300" src="https://www.hpca-conf.org/2020/wp-content/uploads/2019/05/sunset-cliffs-peter-tellone-1-1-700x300.jpg" title="sunset-cliffs-peter-tellone-1-1" width="700"/></li>
+</ul>
+</div>
+</div>
+</div></div>
+<p>The 26th International Symposium on High-Performance Computer Architecture provides a high-quality forum for scientists and engineers to present their latest research findings in this rapidly-changing field. </p>
+<p><strong>HPCA-26 will be held at San Diego, CA on February 22-26, 2020.</strong></p>
+<hr class="wp-block-separator is-style-wide"/>
+<font color="red"><b>Congratulations to the following paper awards!</b></font><br/><br/>
+<b>Best Paper Award:</b>
+<ul>
+<li><u>SIGMA: A Sparse and Irregular GEMM Accelerator with Flexible Interconnects for DNN Training</u><br/></li>
+<i>Eric Qin, Ananda Samajdar, Hyoukjun Kwon, and Vineet Nadella (Georgia Institute of Technology); Sudarshan Srinivasan, Dipankar Das, and Bharat Kaul (Intel); Tushar Krishna (Georgia Institute of Technology)</i>
+</ul>
+<b>Best Paper Runner-Up Award:</b>
+<ul>
+<li><u>A Deep Reinforcement Learning Framework for Architectural Exploration: A Routerless NoC Case Study</u><br/></li>
+<i>Ting-Ru Lin (University of Southern California); Drew Penney (Oregon State University); Massoud Pedram (University of Southern California); Lizhong Chen (Oregon State University)</i>
+</ul>
+<hr class="wp-block-separator is-style-wide"/>
+<a class="twitter-timeline" data-height="500" data-width="400" href="https://twitter.com/HpcaArchConf?ref_src=twsrc%5Etfw">Tweets by HpcaArchConf</a> <script async="" charset="utf-8" src="https://platform.twitter.com/widgets.js"></script>
+</div><!-- .entry-content -->
+<footer class="entry-footer">
+</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+</main><!-- #main -->
+</div><!-- #primary -->
+<div class="widget-area" id="sidebar-primary" role="complementary">
+<aside class="widget widget_pages" id="pages-2"><h2 class="widget-title">Pages</h2> <ul>
+<li class="page_item page-item-902"><a href="https://www.hpca-conf.org/2020/exploring-shared-memory-multi-gpu-computing/">Exploring Shared-Memory Multi-GPU Computing</a></li>
+<li class="page_item page-item-754"><a href="https://www.hpca-conf.org/2020/main-program/">Main Program</a></li>
+<li class="page_item page-item-896"><a href="https://www.hpca-conf.org/2020/ml-computation-a-reality-check-and-the-road-ahead/">ML Computation: a Reality Check and the Road Ahead</a></li>
+<li class="page_item page-item-900"><a href="https://www.hpca-conf.org/2020/persistent-memory-and-the-path-to-being-comfortably-numb/">Persistent Memory and the Path to Being Comfortably NUMB</a></li>
+<li class="page_item page-item-751"><a href="https://www.hpca-conf.org/2020/workshop-and-tutorial/">Workshop and Tutorial</a></li>
+<li class="page_item page-item-674"><a href="https://www.hpca-conf.org/2020/registration/">Registration</a></li>
+<li class="page_item page-item-676"><a href="https://www.hpca-conf.org/2020/venue-hotel/">Venue &amp; Hotel</a></li>
+<li class="page_item page-item-680"><a href="https://www.hpca-conf.org/2020/visa-information/">Visa Information</a></li>
+<li class="page_item page-item-683"><a href="https://www.hpca-conf.org/2020/student-travel-grant/">Student Travel Grant</a></li>
+<li class="page_item page-item-685"><a href="https://www.hpca-conf.org/2020/excursion-and-banquet/">Excursion and Banquet</a></li>
+</ul>
+</aside><aside class="widget_text widget widget_custom_html" id="custom_html-3"><h2 class="widget-title">Supporters</h2><div class="textwidget custom-html-widget"><table class="table table-hover">
+<tr class="clickable-row new-window" href="" title="NSF">
+<td><span class="supporter-logo"><img class="outputimage" src="https://www.hpca-conf.org/2020/wp-content/uploads/2020/02/national-science-foundation-nsf-logo-vector.png"/></span></td>
+<td>Student Travel Grant Sponsor</td>
+</tr>
+<tr class="clickable-row new-window" href="https://www.bitmain.com/" title="Bitmain">
+<td><span class="supporter-logo"><img alt="Bitmain" class="outputimage" src="https://www.hpca-conf.org/2020/wp-content/uploads/2019/12/bitmain-logo.png"/></span></td>
+<td>Silver</td>
+</tr>
+<tr class="clickable-row new-window" href="https://www.futurewei.com/" title="Futurewei">
+<td><span class="supporter-logo"><img class="outputimage" src="https://www.hpca-conf.org/2020/wp-content/uploads/2020/02/-2020-02-24-오후-5.42.56-e1582533995570.png"/></span></td>
+<td>Silver</td>
+</tr>
+<tr class="clickable-row new-window" href="https://www.amd.com/" title="AMD">
+<td><span class="supporter-logo"><img alt="AMD" class="outputimage" src="https://www.hpca-conf.org/2020/wp-content/uploads/2020/02/53863A_AMD_E_Blk_RGB-1.jpg"/></span></td>
+<td>Bronze</td>
+</tr>
+<tr class="clickable-row new-window" href="https://www.arm.com/" title="ARM">
+<td><span class="supporter-logo"><img alt="ARM" class="outputimage" src="https://www.hpca-conf.org/2020/wp-content/uploads/2019/12/arm-logo.jpg"/></span></td>
+<td>Bronze</td>
+</tr>
+<tr class="clickable-row new-window" href="https://www.facebook.com/" title="Facebook">
+<td><span class="supporter-logo"><img alt="Facebook" class="outputimage" src="https://www.hpca-conf.org/2020/wp-content/uploads/2019/12/facebook-logo-1.jpg"/></span></td>
+<td>Bronze</td>
+</tr>
+<tr class="clickable-row new-window" href="https://www.ibm.com/" title="IBM">
+<td><span class="supporter-logo"><img alt="IBM" class="outputimage" src="https://www.hpca-conf.org/2020/wp-content/uploads/2019/12/ibm-logo-2.jpg"/></span></td>
+<td>Bronze</td>
+</tr>
+<tr class="clickable-row new-window" href="https://www.intel.com/" title="Intel">
+<td><span class="supporter-logo"><img alt="Intel" class="outputimage" src="https://www.hpca-conf.org/2020/wp-content/uploads/2019/12/intel-logo-2.jpg"/></span></td>
+<td>Bronze</td>
+</tr>
+</table></div></aside> </div><!-- #sidebar-primary -->
+</div><!-- .inner-wrapper --></div><!-- .container --></div><!-- #content -->
+<footer class="site-footer" id="colophon" role="contentinfo"><div class="container">
+<div class="menu-social-links-menu-container" id="footer-navigation"><ul class="menu" id="menu-social-links-menu-1"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24"><a href="https://www.facebook.com/HpcaArchConf">Facebook</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25"><a href="https://twitter.com/HpcaArchConf">Twitter</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26"><a href="https://www.instagram.com/hpcaarchconf/">Instagram</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27"><a href="mailto:hpca2020pc@gmail.com">Email</a></li>
+</ul></div> <div class="copyright">
+	        Copyright. All rights reserved.	      </div><!-- .copyright -->
+<div class="site-info">
+<a href="https://wordpress.org/">Proudly powered by WordPress</a>
+<span class="sep"> | </span>
+			Education Hub by <a href="https://wenthemes.com/" rel="designer" target="_blank">WEN Themes</a> </div><!-- .site-info -->
+</div><!-- .container --></footer><!-- #colophon -->
+</div><!-- #page --><a class="scrollup" href="#page" id="btn-scrollup"><i class="fa fa-chevron-up"></i></a>
+<link href="https://www.hpca-conf.org/2020/wp-content/plugins/ml-slider/assets/sliders/flexslider/flexslider.css?ver=3.14.0" id="metaslider-flex-slider-css" media="all" property="stylesheet" rel="stylesheet" type="text/css"/>
+<link href="https://www.hpca-conf.org/2020/wp-content/plugins/ml-slider/assets/metaslider/public.css?ver=3.14.0" id="metaslider-public-css" media="all" property="stylesheet" rel="stylesheet" type="text/css"/>
+<script src="https://www.hpca-conf.org/2020/wp-content/themes/education-hub/js/skip-link-focus-fix.min.js?ver=20130115" type="text/javascript"></script>
+<script src="https://www.hpca-conf.org/2020/wp-content/themes/education-hub/third-party/cycle2/js/jquery.cycle2.min.js?ver=2.1.6" type="text/javascript"></script>
+<script src="https://www.hpca-conf.org/2020/wp-content/themes/education-hub/js/custom.min.js?ver=1.0" type="text/javascript"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var EducationHubScreenReaderText = {"expand":"<span class=\"screen-reader-text\">expand child menu<\/span>","collapse":"<span class=\"screen-reader-text\">collapse child menu<\/span>"};
+/* ]]> */
+</script>
+<script src="https://www.hpca-conf.org/2020/wp-content/themes/education-hub/js/navigation.min.js?ver=20120206" type="text/javascript"></script>
+<script src="https://www.hpca-conf.org/2020/wp-includes/js/wp-embed.min.js?ver=5.2.5" type="text/javascript"></script>
+<script src="https://www.hpca-conf.org/2020/wp-content/plugins/ml-slider/assets/sliders/flexslider/jquery.flexslider.min.js?ver=3.14.0" type="text/javascript"></script>
+<script type="text/javascript">
+var metaslider_367 = function($) {
+            $('#metaslider_367').flexslider({ 
+                slideshowSpeed:3000,
+                animation:"fade",
+                controlNav:true,
+                directionNav:true,
+                pauseOnHover:true,
+                direction:"horizontal",
+                reverse:false,
+                animationSpeed:600,
+                prevText:"Previous",
+                nextText:"Next",
+                fadeFirstSlide:false,
+                slideshow:true
+            });
+            $(document).trigger('metaslider/initialized', '#metaslider_367');
+        };
+        var timer_metaslider_367 = function() {
+            var slider = !window.jQuery ? window.setTimeout(timer_metaslider_367, 100) : !jQuery.isReady ? window.setTimeout(timer_metaslider_367, 1) : metaslider_367(window.jQuery);
+        };
+        timer_metaslider_367();
+</script>
+<div class="page-template-default page page-id-47 custom-background wp-embed-responsive site-layout-fluid global-layout-right-sidebar">
+<div class="container hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+<div id="tophead">
+<div class="container">
+<div id="quick-contact">
+</div>
+<div class="quick-links">
+<a class="links-btn" href="#">Quick Links</a>
+<ul class="menu" id="menu-quick-links"><li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-47 current_page_item menu-item-506" id="menu-item-506"><a aria-current="page" href="https://www.hpca-conf.org/2020/calls/">Call for Papers</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-507" id="menu-item-507"><a href="https://www.hpca-conf.org/2020/industry-track-cfp-2/">Industry Track CFP</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-552" id="menu-item-552"><a href="https://www.hpca-conf.org/2020/committees/">Organizing Committee</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-551" id="menu-item-551"><a href="https://www.hpca-conf.org/2020/program-committee/">Program Committee</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-550" id="menu-item-550"><a href="https://www.hpca-conf.org/2020/external-review-committee/">External Review Committee</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-549" id="menu-item-549"><a href="https://www.hpca-conf.org/2020/industry-session-committee/">Industry Session Committee</a></li>
+</ul> </div>
+<div class="header-social-wrapper">
+<div class="widget education_hub_widget_social"><ul class="menu" id="menu-social-links-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24" id="menu-item-24"><a href="https://www.facebook.com/HpcaArchConf"><span class="screen-reader-text">Facebook</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25" id="menu-item-25"><a href="https://twitter.com/HpcaArchConf"><span class="screen-reader-text">Twitter</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26" id="menu-item-26"><a href="https://www.instagram.com/hpcaarchconf/"><span class="screen-reader-text">Instagram</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27" id="menu-item-27"><a href="mailto:hpca2020pc@gmail.com"><span class="screen-reader-text">Email</span></a></li>
+</ul></div> </div><!-- .header-social-wrapper -->
+</div> <!-- .container -->
+</div><!--  #tophead -->
+<header class="site-header" id="masthead" role="banner"><div class="container"> <div class="site-branding">
+<div id="site-identity">
+<p class="site-title"><a href="https://www.hpca-conf.org/2020/" rel="home">HPCA 2020</a></p>
+<p class="site-description">The 26th IEEE International Symposium on High-Performance Computer Architecture (Feb. 22-26, 2020)</p>
+</div><!-- #site-identity -->
+</div><!-- .site-branding -->
+<div class="search-section">
+<form action="https://www.hpca-conf.org/2020/" class="search-form" method="get" role="search">
+<label>
+<span class="screen-reader-text">Search for:</span>
+<input class="search-field" name="s" placeholder="Search..." title="Search for:" type="search" value=""/>
+</label>
+<input class="search-submit" type="submit" value="Search"/>
+</form> </div>
+</div><!-- .container --></header><!-- #masthead --> <div class="clear-fix" id="main-nav">
+<div class="container">
+<!-- #site-navigation -->
+</div> <!-- .container -->
+</div> <!-- #main-nav -->
+<div class="site-content" id="content"><div class="container"><div class="inner-wrapper">
+<div class="content-area" id="primary">
+<main class="site-main" id="main" role="main">
+<article class="post-47 page type-page status-publish hentry" id="post-47">
+<header class="entry-header">
+<h1 class="entry-title">Call for Papers</h1> </header><!-- .entry-header -->
+<div class="entry-content">
+<p>The IEEE International Symposium on High-Performance Computer Architecture provides a high-quality forum for scientists and engineers to present their latest research findings in this rapidly-changing field. Authors are invited to submit papers on all aspects of high-performance computer architecture.</p>
+<p>Authors should submit an abstract by July 30, 2019 5:00pm Anywhere on Earth (AOE). They should submit the full version of the paper by August 6, 2019, 5:00pm AOE. No extensions will be granted. The full version should be a PDF file following the submission guidelines that will be made available at the submission website. Papers should be submitted for double-blind review. New-idea papers as well as papers that significantly advance established areas are strongly encouraged. Submission questions should be directed to Yan Solihin &lt;hpca2020pc@gmail.com&gt;. HPCA-26 will also host an Industrial Paper Session presenting novel insights from industry. See the HPCA 2020 website: TBD for additional information about HPCA 2020 and submission details.</p>
+<p><a href="https://www.hpca-conf.org/2020/wp-content/uploads/2019/09/hpca20-cfp-v5.pdf">PDF Version</a></p>
+<p>Topics of interest include, but are not limited to:</p>
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li>Accelerators</li>
+<li>Architecture applications of Machine Learning</li>
+<li>Caches</li>
+<li>Cloud, datacenter, cluster/distributed systems</li>
+<li>Embedded, IoT</li>
+<li>Emerging technologies</li>
+<li>FPGAs and Reconfigurable</li>
+<li>GPUs</li>
+<li>Hardware/software interactions/interface</li>
+<li>ILP techniques (speculation, prediction, prefetching, etc.)</li>
+<li>IO, storage</li>
+<li>Memory – high level (VM/TLB, persistency, etc.)</li>
+<li>Memory – low level (devices, organization, etc.)</li>
+<li>Networking, interconnects</li>
+<li>Parallel/multi-core architectures</li>
+<li>Performance characterization/modeling</li>
+<li>Power efficiency and management</li>
+<li>Quantum architectures</li>
+<li>Reliability and fault tolerance</li>
+<li>Security</li>
+</ul>
+</li>
+</ul>
+<p><strong>*** IMPORTANT DATES ***</strong></p>
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li><span style="color: #800000;">Abstract submission : July 30, 2019</span></li>
+<li><span style="color: #800000;">Full paper submission : August 6, 2019</span></li>
+<li><span style="color: #800000;">Rebuttal/revision : <del>October 1-9, 2019 </del>October 17-20, 2019</span></li>
+<li><span style="color: #800000;">Notification: November 6, 2019</span></li>
+<li><span style="color: #800000;">Conference: Feb 22-26, 2020</span></li>
+</ul>
+</li>
+</ul>
+<p><strong>ORGANIZERS</strong></p>
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li>Program Chair: Prof. Yan Solihin (Univ. of Central Florida)</li>
+<li>General Chairs: Prof. Dean Tullsen (UCSD) and Prof. Hadi Esmaeilzadeh (UCSD)</li>
+<li>Web Chair: Prof. Jongse Park (KAIST)</li>
+<li>Industry Session Chair: Dr. Alaa Alameldeen</li>
+</ul>
+</li>
+</ul>
+<p></p>
+</div><!-- .entry-content -->
+<footer class="entry-footer">
+</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+</main><!-- #main -->
+</div><!-- #primary -->
+<div class="widget-area" id="sidebar-primary" role="complementary">
+<aside class="widget widget_pages" id="pages-2"><h2 class="widget-title">Pages</h2> <ul>
+<li class="page_item page-item-902"><a href="https://www.hpca-conf.org/2020/exploring-shared-memory-multi-gpu-computing/">Exploring Shared-Memory Multi-GPU Computing</a></li>
+<li class="page_item page-item-754"><a href="https://www.hpca-conf.org/2020/main-program/">Main Program</a></li>
+<li class="page_item page-item-896"><a href="https://www.hpca-conf.org/2020/ml-computation-a-reality-check-and-the-road-ahead/">ML Computation: a Reality Check and the Road Ahead</a></li>
+<li class="page_item page-item-900"><a href="https://www.hpca-conf.org/2020/persistent-memory-and-the-path-to-being-comfortably-numb/">Persistent Memory and the Path to Being Comfortably NUMB</a></li>
+<li class="page_item page-item-751"><a href="https://www.hpca-conf.org/2020/workshop-and-tutorial/">Workshop and Tutorial</a></li>
+<li class="page_item page-item-674"><a href="https://www.hpca-conf.org/2020/registration/">Registration</a></li>
+<li class="page_item page-item-676"><a href="https://www.hpca-conf.org/2020/venue-hotel/">Venue &amp; Hotel</a></li>
+<li class="page_item page-item-680"><a href="https://www.hpca-conf.org/2020/visa-information/">Visa Information</a></li>
+<li class="page_item page-item-683"><a href="https://www.hpca-conf.org/2020/student-travel-grant/">Student Travel Grant</a></li>
+<li class="page_item page-item-685"><a href="https://www.hpca-conf.org/2020/excursion-and-banquet/">Excursion and Banquet</a></li>
+</ul>
+</aside><aside class="widget_text widget widget_custom_html" id="custom_html-3"><h2 class="widget-title">Supporters</h2><div class="textwidget custom-html-widget"><table class="table table-hover">
+<tr class="clickable-row new-window" href="" title="NSF">
+<td><span class="supporter-logo"><img class="outputimage" src="https://www.hpca-conf.org/2020/wp-content/uploads/2020/02/national-science-foundation-nsf-logo-vector.png"/></span></td>
+<td>Student Travel Grant Sponsor</td>
+</tr>
+<tr class="clickable-row new-window" href="https://www.bitmain.com/" title="Bitmain">
+<td><span class="supporter-logo"><img alt="Bitmain" class="outputimage" src="https://www.hpca-conf.org/2020/wp-content/uploads/2019/12/bitmain-logo.png"/></span></td>
+<td>Silver</td>
+</tr>
+<tr class="clickable-row new-window" href="https://www.futurewei.com/" title="Futurewei">
+<td><span class="supporter-logo"><img class="outputimage" src="https://www.hpca-conf.org/2020/wp-content/uploads/2020/02/-2020-02-24-오후-5.42.56-e1582533995570.png"/></span></td>
+<td>Silver</td>
+</tr>
+<tr class="clickable-row new-window" href="https://www.amd.com/" title="AMD">
+<td><span class="supporter-logo"><img alt="AMD" class="outputimage" src="https://www.hpca-conf.org/2020/wp-content/uploads/2020/02/53863A_AMD_E_Blk_RGB-1.jpg"/></span></td>
+<td>Bronze</td>
+</tr>
+<tr class="clickable-row new-window" href="https://www.arm.com/" title="ARM">
+<td><span class="supporter-logo"><img alt="ARM" class="outputimage" src="https://www.hpca-conf.org/2020/wp-content/uploads/2019/12/arm-logo.jpg"/></span></td>
+<td>Bronze</td>
+</tr>
+<tr class="clickable-row new-window" href="https://www.facebook.com/" title="Facebook">
+<td><span class="supporter-logo"><img alt="Facebook" class="outputimage" src="https://www.hpca-conf.org/2020/wp-content/uploads/2019/12/facebook-logo-1.jpg"/></span></td>
+<td>Bronze</td>
+</tr>
+<tr class="clickable-row new-window" href="https://www.ibm.com/" title="IBM">
+<td><span class="supporter-logo"><img alt="IBM" class="outputimage" src="https://www.hpca-conf.org/2020/wp-content/uploads/2019/12/ibm-logo-2.jpg"/></span></td>
+<td>Bronze</td>
+</tr>
+<tr class="clickable-row new-window" href="https://www.intel.com/" title="Intel">
+<td><span class="supporter-logo"><img alt="Intel" class="outputimage" src="https://www.hpca-conf.org/2020/wp-content/uploads/2019/12/intel-logo-2.jpg"/></span></td>
+<td>Bronze</td>
+</tr>
+</table></div></aside> </div><!-- #sidebar-primary -->
+</div><!-- .inner-wrapper --></div><!-- .container --></div><!-- #content -->
+<footer class="site-footer" id="colophon" role="contentinfo"><div class="container">
+<div class="menu-social-links-menu-container" id="footer-navigation"><ul class="menu" id="menu-social-links-menu-1"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24"><a href="https://www.facebook.com/HpcaArchConf">Facebook</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25"><a href="https://twitter.com/HpcaArchConf">Twitter</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26"><a href="https://www.instagram.com/hpcaarchconf/">Instagram</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27"><a href="mailto:hpca2020pc@gmail.com">Email</a></li>
+</ul></div> <div class="copyright">
+	        Copyright. All rights reserved.	      </div><!-- .copyright -->
+<div class="site-info">
+<a href="https://wordpress.org/">Proudly powered by WordPress</a>
+<span class="sep"> | </span>
+			Education Hub by <a href="https://wenthemes.com/" rel="designer" target="_blank">WEN Themes</a> </div><!-- .site-info -->
+</div><!-- .container --></footer><!-- #colophon -->
+</div><!-- #page --><a class="scrollup" href="#page" id="btn-scrollup"><i class="fa fa-chevron-up"></i></a>
+
+
+
+
+
+
+</div><div class="page-template-default page page-id-520 custom-background wp-embed-responsive site-layout-fluid global-layout-right-sidebar">
+<div class="container hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+<div id="tophead">
+<div class="container">
+<div id="quick-contact">
+</div>
+<div class="quick-links">
+<a class="links-btn" href="#">Quick Links</a>
+<ul class="menu" id="menu-quick-links"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-506" id="menu-item-506"><a href="https://www.hpca-conf.org/2020/calls/">Call for Papers</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-507" id="menu-item-507"><a href="https://www.hpca-conf.org/2020/industry-track-cfp-2/">Industry Track CFP</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-552" id="menu-item-552"><a href="https://www.hpca-conf.org/2020/committees/">Organizing Committee</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-520 current_page_item menu-item-551" id="menu-item-551"><a aria-current="page" href="https://www.hpca-conf.org/2020/program-committee/">Program Committee</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-550" id="menu-item-550"><a href="https://www.hpca-conf.org/2020/external-review-committee/">External Review Committee</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-549" id="menu-item-549"><a href="https://www.hpca-conf.org/2020/industry-session-committee/">Industry Session Committee</a></li>
+</ul> </div>
+<div class="header-social-wrapper">
+<div class="widget education_hub_widget_social"><ul class="menu" id="menu-social-links-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24" id="menu-item-24"><a href="https://www.facebook.com/HpcaArchConf"><span class="screen-reader-text">Facebook</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25" id="menu-item-25"><a href="https://twitter.com/HpcaArchConf"><span class="screen-reader-text">Twitter</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26" id="menu-item-26"><a href="https://www.instagram.com/hpcaarchconf/"><span class="screen-reader-text">Instagram</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27" id="menu-item-27"><a href="mailto:hpca2020pc@gmail.com"><span class="screen-reader-text">Email</span></a></li>
+</ul></div> </div><!-- .header-social-wrapper -->
+</div> <!-- .container -->
+</div><!--  #tophead -->
+<header class="site-header" id="masthead" role="banner"><div class="container"> <div class="site-branding">
+<div id="site-identity">
+<p class="site-title"><a href="https://www.hpca-conf.org/2020/" rel="home">HPCA 2020</a></p>
+<p class="site-description">The 26th IEEE International Symposium on High-Performance Computer Architecture (Feb. 22-26, 2020)</p>
+</div><!-- #site-identity -->
+</div><!-- .site-branding -->
+<div class="search-section">
+<form action="https://www.hpca-conf.org/2020/" class="search-form" method="get" role="search">
+<label>
+<span class="screen-reader-text">Search for:</span>
+<input class="search-field" name="s" placeholder="Search..." title="Search for:" type="search" value=""/>
+</label>
+<input class="search-submit" type="submit" value="Search"/>
+</form> </div>
+</div><!-- .container --></header><!-- #masthead --> <div class="clear-fix" id="main-nav">
+<div class="container">
+<!-- #site-navigation -->
+</div> <!-- .container -->
+</div> <!-- #main-nav -->
+<div class="site-content" id="content"><div class="container"><div class="inner-wrapper">
+<div class="content-area" id="primary">
+<main class="site-main" id="main" role="main">
+<article class="post-520 page type-page status-publish hentry" id="post-520">
+<header class="entry-header">
+</header><!-- .entry-header -->
+<h1 class="entry-title">Program Committee</h1>
+<div class="entry-content">
+<table width="362">
+<tbody>
+<tr>
+<td width="300">Michel Kinsy</td>
+<td width="387">Boston University
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Amro Awad</td>
+<td width="387">University of Central Florida
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Seunghee Shin</td>
+<td width="387">Binghamton University
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Lide Duan</td>
+<td width="387">Alibaba
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Xu Liu</td>
+<td width="387">Williams &amp; Mary
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Hung-Wei Tseng</td>
+<td width="387">University of California, Riverside
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Jun Yang</td>
+<td width="387">University of Pittsburgh
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Guru Venkataramani</td>
+<td width="387">George Washington University
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Omer Khan</td>
+<td width="387">University of Connecticut 
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Lu Peng</td>
+<td width="387">Louisiana State University
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Jishen Zhao</td>
+<td width="387">University of California, San Diego
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Lin Zhong</td>
+<td width="387">Rice University
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Felix Lin</td>
+<td width="387">Purdue University
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Lizy John</td>
+<td width="387">University of Texas, Austin
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Ulya Karpuzcu</td>
+<td width="387">University of Minnesota
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Antonia Zhai</td>
+<td width="387">University of Minnesota
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Antonio Gonzalez</td>
+<td width="387">Universitat Politècnica de Catalunya
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Per Stenstrom</td>
+<td width="387">Chalmers University of Technology
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Aasheesh Kolli</td>
+<td width="387">Penn State University
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Chita Das</td>
+<td width="387">Penn State University
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Pedro Trancoso</td>
+<td width="387">Chalmers University of Technology
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Hong Wang</td>
+<td width="387">Intel
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Keiji Kimura</td>
+<td width="387">Waseda University
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Koji Inoue</td>
+<td width="387">Kyushu University
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Xiaochen Guo</td>
+<td width="387">Lehigh University
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Alaa Alameldeen</td>
+<td width="387">Intel
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Ahmed Louri</td>
+<td width="387">George Washington University
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">William Wang</td>
+<td width="387">ARM
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Newsha Ardalani</td>
+<td width="387">Baidu
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Tosiron Adegbija</td>
+<td width="387">University of Arizona
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Daniel Jimenez</td>
+<td width="387">Texas A&amp;M University 
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Tam Chantem</td>
+<td width="387">Virginia Tech
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Wendy Elsasser</td>
+<td width="387">ARM
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Julio Sahuquillo</td>
+<td width="387">Universitat Politecnica de Valencia
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Eric (Yun) Liang</td>
+<td width="387">Peking University
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Radu Teodorescu</td>
+<td width="387">Ohio State University
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Paul Gratz</td>
+<td width="387">Texas A&amp;M University 
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Jian Huang</td>
+<td width="387">University of Illinois, Urbana-Champaign
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Nael Abu-Ghazaleh</td>
+<td width="387">University of California, Riverside
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Peter Varman</td>
+<td width="387">Rice University
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Huiyang Zhou</td>
+<td width="387">North Carolina State University
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Ashish Venkat</td>
+<td width="387">University of Virginia
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Abdullah Muzahid</td>
+<td width="387">Texas A&amp;M University 
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Gautham Chinya</td>
+<td width="387">Intel
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Devesh Tiwari</td>
+<td width="387">Northeastern University
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Adwait Jog</td>
+<td width="387">College of William &amp; Mary
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Jing Li</td>
+<td width="387">University of Wisconsin
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Russ Joseph</td>
+<td width="387">Northwestern University
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Karu Sankaralingam</td>
+<td width="387">University of Wisconsin
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Chia-Lin Yang</td>
+<td width="387">National Taiwan University</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Lizhong Chen</td>
+<td width="387">Oregon State University</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Arthur Perais</td>
+<td width="387">Microsoft
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Fan Yao</td>
+<td width="387">University of Central Florida
+</td>
+</tr><tr>
+</tr><tr>
+<td width="300">Lei Liu</td>
+<td width="387">Chinese Academy of Sciences
+</td>
+</tr><tr>
+</tr></tbody>
+</table>
+</div><!-- .entry-content -->
+<footer class="entry-footer">
+</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+</main><!-- #main -->
+</div><!-- #primary -->
+<div class="widget-area" id="sidebar-primary" role="complementary">
+<aside class="widget widget_pages" id="pages-2"><h2 class="widget-title">Pages</h2> <ul>
+<li class="page_item page-item-902"><a href="https://www.hpca-conf.org/2020/exploring-shared-memory-multi-gpu-computing/">Exploring Shared-Memory Multi-GPU Computing</a></li>
+<li class="page_item page-item-754"><a href="https://www.hpca-conf.org/2020/main-program/">Main Program</a></li>
+<li class="page_item page-item-896"><a href="https://www.hpca-conf.org/2020/ml-computation-a-reality-check-and-the-road-ahead/">ML Computation: a Reality Check and the Road Ahead</a></li>
+<li class="page_item page-item-900"><a href="https://www.hpca-conf.org/2020/persistent-memory-and-the-path-to-being-comfortably-numb/">Persistent Memory and the Path to Being Comfortably NUMB</a></li>
+<li class="page_item page-item-751"><a href="https://www.hpca-conf.org/2020/workshop-and-tutorial/">Workshop and Tutorial</a></li>
+<li class="page_item page-item-674"><a href="https://www.hpca-conf.org/2020/registration/">Registration</a></li>
+<li class="page_item page-item-676"><a href="https://www.hpca-conf.org/2020/venue-hotel/">Venue &amp; Hotel</a></li>
+<li class="page_item page-item-680"><a href="https://www.hpca-conf.org/2020/visa-information/">Visa Information</a></li>
+<li class="page_item page-item-683"><a href="https://www.hpca-conf.org/2020/student-travel-grant/">Student Travel Grant</a></li>
+<li class="page_item page-item-685"><a href="https://www.hpca-conf.org/2020/excursion-and-banquet/">Excursion and Banquet</a></li>
+</ul>
+</aside><aside class="widget_text widget widget_custom_html" id="custom_html-3"><h2 class="widget-title">Supporters</h2><div class="textwidget custom-html-widget"><table class="table table-hover">
+<tr class="clickable-row new-window" href="" title="NSF">
+<td><span class="supporter-logo"><img class="outputimage" src="https://www.hpca-conf.org/2020/wp-content/uploads/2020/02/national-science-foundation-nsf-logo-vector.png"/></span></td>
+<td>Student Travel Grant Sponsor</td>
+</tr>
+<tr class="clickable-row new-window" href="https://www.bitmain.com/" title="Bitmain">
+<td><span class="supporter-logo"><img alt="Bitmain" class="outputimage" src="https://www.hpca-conf.org/2020/wp-content/uploads/2019/12/bitmain-logo.png"/></span></td>
+<td>Silver</td>
+</tr>
+<tr class="clickable-row new-window" href="https://www.futurewei.com/" title="Futurewei">
+<td><span class="supporter-logo"><img class="outputimage" src="https://www.hpca-conf.org/2020/wp-content/uploads/2020/02/-2020-02-24-오후-5.42.56-e1582533995570.png"/></span></td>
+<td>Silver</td>
+</tr>
+<tr class="clickable-row new-window" href="https://www.amd.com/" title="AMD">
+<td><span class="supporter-logo"><img alt="AMD" class="outputimage" src="https://www.hpca-conf.org/2020/wp-content/uploads/2020/02/53863A_AMD_E_Blk_RGB-1.jpg"/></span></td>
+<td>Bronze</td>
+</tr>
+<tr class="clickable-row new-window" href="https://www.arm.com/" title="ARM">
+<td><span class="supporter-logo"><img alt="ARM" class="outputimage" src="https://www.hpca-conf.org/2020/wp-content/uploads/2019/12/arm-logo.jpg"/></span></td>
+<td>Bronze</td>
+</tr>
+<tr class="clickable-row new-window" href="https://www.facebook.com/" title="Facebook">
+<td><span class="supporter-logo"><img alt="Facebook" class="outputimage" src="https://www.hpca-conf.org/2020/wp-content/uploads/2019/12/facebook-logo-1.jpg"/></span></td>
+<td>Bronze</td>
+</tr>
+<tr class="clickable-row new-window" href="https://www.ibm.com/" title="IBM">
+<td><span class="supporter-logo"><img alt="IBM" class="outputimage" src="https://www.hpca-conf.org/2020/wp-content/uploads/2019/12/ibm-logo-2.jpg"/></span></td>
+<td>Bronze</td>
+</tr>
+<tr class="clickable-row new-window" href="https://www.intel.com/" title="Intel">
+<td><span class="supporter-logo"><img alt="Intel" class="outputimage" src="https://www.hpca-conf.org/2020/wp-content/uploads/2019/12/intel-logo-2.jpg"/></span></td>
+<td>Bronze</td>
+</tr>
+</table></div></aside> </div><!-- #sidebar-primary -->
+</div><!-- .inner-wrapper --></div><!-- .container --></div><!-- #content -->
+<footer class="site-footer" id="colophon" role="contentinfo"><div class="container">
+<div class="menu-social-links-menu-container" id="footer-navigation"><ul class="menu" id="menu-social-links-menu-1"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24"><a href="https://www.facebook.com/HpcaArchConf">Facebook</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25"><a href="https://twitter.com/HpcaArchConf">Twitter</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26"><a href="https://www.instagram.com/hpcaarchconf/">Instagram</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27"><a href="mailto:hpca2020pc@gmail.com">Email</a></li>
+</ul></div> <div class="copyright">
+	        Copyright. All rights reserved.	      </div><!-- .copyright -->
+<div class="site-info">
+<a href="https://wordpress.org/">Proudly powered by WordPress</a>
+<span class="sep"> | </span>
+			Education Hub by <a href="https://wenthemes.com/" rel="designer" target="_blank">WEN Themes</a> </div><!-- .site-info -->
+</div><!-- .container --></footer><!-- #colophon -->
+</div><!-- #page --><a class="scrollup" href="#page" id="btn-scrollup"><i class="fa fa-chevron-up"></i></a>
+
+
+
+
+
+
+</div></body>
+</html>

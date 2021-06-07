@@ -1,0 +1,1164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-gb" xml:lang="en-gb" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<base href="https://etaps.org/2020/tacas"/>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<meta content="FOSSACS, ETAPS 2010, ETAPS 2009, ETAPS 2008, ETAPS 2007, ETAPS 2006,ETAPS 2005, ETAPS 2004, ETAPS 2003, ETAPS 2002, ETAPS 2001, ETAPS 2000, ETAPS 1999, ETAPS 1998, Proceedings, ETAPS 2011" name="keywords"/>
+<meta content="EasyConferences (Petros and Kyriakos)" name="author"/>
+<meta content="European Joint Conferences on Theory and Practice of Software, ETAPS Central Web Site" name="description"/>
+<meta content="Joomla! - Open Source Content Management" name="generator"/>
+<title>TACAS</title>
+<link href="/templates/rt_crystalline/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
+<link href="/libraries/gantry/css/grid-12.css" rel="stylesheet" type="text/css"/>
+<link href="/libraries/gantry/css/gantry.css" rel="stylesheet" type="text/css"/>
+<link href="/libraries/gantry/css/joomla.css" rel="stylesheet" type="text/css"/>
+<link href="/templates/rt_crystalline/css/joomla.css" rel="stylesheet" type="text/css"/>
+<link href="/templates/rt_crystalline/css-compiled/master.css" rel="stylesheet" type="text/css"/>
+<link href="/templates/rt_crystalline/css/overlay.css" rel="stylesheet" type="text/css"/>
+<link href="/templates/rt_crystalline/css/demo-styles.css" rel="stylesheet" type="text/css"/>
+<link href="/templates/rt_crystalline/css/template.css" rel="stylesheet" type="text/css"/>
+<link href="/templates/rt_crystalline/css/style.css" rel="stylesheet" type="text/css"/>
+<link href="/templates/rt_crystalline/css/typography.css" rel="stylesheet" type="text/css"/>
+<link href="/templates/rt_crystalline/css/fusionmenu.css" rel="stylesheet" type="text/css"/>
+<style type="text/css">
+#rt-main-surround, #rt-variation .bg3 .module-content, #rt-variation .title3 .module-title {background:#ffffff;}
+#rt-variation .bg3, #rt-variation .bg3 .title, #rt-variation .title3 .title, #rt-variation .bg3 ul.menu li > a:hover, #rt-variation .bg3 ul.menu li.active > a {color:#474747;}
+#rt-variation .bg3 a, #rt-variation .bg3 .title span, #rt-variation .bg3 .button, #rt-variation .title3 .title span {color:#2c68a3;}
+#rt-main-header, .menutop ul, .menutop .drop-top, #rt-variation .bg1 .module-content, #rt-variation .title1 .module-title {background:#2c68a3;}
+#rt-main-header, #rt-main-header .title, #rt-header, #rt-main-header .menutop li > .item, .menutop ul li .item, #rt-variation .bg1, #rt-variation .bg1 .title, #rt-variation .title1 .title, #rt-variation .bg1 ul.menu li > a:hover, #rt-variation .bg1 ul.menu li.active > a, #rt-navigation li.root .item {color:#dedede;}
+#rt-main-header a, #rt-main-header .title span, #rt-variation .bg1 a, #rt-variation .bg1 .title span, #rt-variation .bg1 .button, #rt-variation .title1 .title span {color:#cce6ff;}
+#rt-feature, #rt-utility, #roksearch_results, #roksearch_results .rokajaxsearch-overlay, #rt-variation .bg2 .module-content, #rt-variation .title2 .module-title {background:#e4e8ed;}
+#rt-feature, #rt-feature .title, #rt-utility, #rt-utility .title, #roksearch_results, #roksearch_results span, #rt-variation .bg2, #rt-variation .bg2 .title, #rt-variation .title2 .title, #rt-variation .bg2 ul.menu li > a:hover, #rt-variation .bg2 ul.menu li.active > a {color:#474747;}
+#rt-feature a, #rt-utility a, #rt-feature .title span, #rt-utility .title span, #roksearch_results a, #roksearch_results h3, #rt-variation .bg2 a, #rt-variation .bg2 .title span, #rt-variation .bg2 .button, #rt-variation .title2 .title span {color:#2c68a3;}
+#rt-mainbody-bg, #rt-variation .bg4 .module-content, #rt-variation .title4 .module-title {background:#ffffff;}
+#rt-mainbody-bg, #rt-mainbody-bg .title, #rt-mainbody-bg .rt-article-title, #rt-mainbody-bg ul.menu li > a:hover, #rt-mainbody-bg ul.menu li.active > a, #rt-variation .bg4, #rt-variation .bg4 .title, #rt-variation .title4 .title, #rt-variation .bg4 ul.menu li > a:hover, #rt-variation .bg4 ul.menu li.active > a {color:#474747;}
+#rt-mainbody-bg a, #rt-mainbody-bg .title span, #rt-mainbody-bg .rt-article-title span, #rt-variation .bg4 a, #rt-variation .bg4 .title span, #rt-variation .bg4 .button, #rt-variation .title4 .title span {color:#2c68a3;}
+#rt-bottom, #rt-main-footer, #rt-variation .bg5 .module-content, #rt-variation .title5 .module-title {background:#e0e0e0;}
+#rt-bottom, #rt-bottom .title, #rt-footer, #rt-footer .title, #rt-copyright, #rt-copyright .title, #rt-debug, #rt-debug .title, #rt-variation .bg5, #rt-variation .bg5 .title, #rt-variation .title5 .title, #rt-variation .bg5 ul.menu li > a:hover, #rt-variation .bg5 ul.menu li.active > a {color:#474747;}
+#rt-bottom a, #rt-bottom .title span, #rt-footer a, #rt-footer .title span, #rt-copyright a, #rt-copyright .title span, #rt-debug a, #rt-debug .title span, #rt-variation .bg5 a, #rt-variation .bg5 .title span, #rt-variation .bg5 .button, #rt-variation .title5 .title span {color:#2c68a3;}
+
+	</style>
+<script class="joomla-script-options new" type="application/json">{"csrf.token":"dcfbda1be0321b79221e63a0369fa60e","system.paths":{"root":"","base":""}}</script>
+<script src="/media/system/js/mootools-core.js?3bf0a1b7e4070690532ffb96536b14f5" type="text/javascript"></script>
+<script src="/media/system/js/core.js?3bf0a1b7e4070690532ffb96536b14f5" type="text/javascript"></script>
+<script src="/media/system/js/mootools-more.js?3bf0a1b7e4070690532ffb96536b14f5" type="text/javascript"></script>
+<script src="/libraries/gantry/js/gantry-totop.js" type="text/javascript"></script>
+<script src="/libraries/gantry/js/gantry-inputs.js" type="text/javascript"></script>
+<script src="/libraries/gantry/js/browser-engines.js" type="text/javascript"></script>
+<script src="/modules/mod_roknavmenu/themes/fusion/js/fusion.js" type="text/javascript"></script>
+<script type="text/javascript">
+InputsExclusion.push('.content_vote','#rt-popup','#rt-popuplogin')
+            window.addEvent('domready', function() {
+                new Fusion('ul.menutop', {
+                    pill: 1,
+                    effect: 'slide and fade',
+                    opacity:  1,
+                    hideDelay:  500,
+                    centered:  0,
+                    tweakInitial: {'x': 0, 'y': 0},
+                    tweakSubsequent: {'x':  0, 'y':  0},
+                    menuFx: {duration:  200, transition: Fx.Transitions.Sine.easeOut},
+                    pillFx: {duration:  250, transition: Fx.Transitions.Sine.easeOut}
+                });
+            });
+            
+	</script>
+</head>
+<body class="font-family-helvetica font-size-is-default menu-type-fusionmenu menu-fusionmenu-position-navigation col12" id="rt-variation">
+<div id="rt-drawer">
+<div class="rt-container">
+<div class="clear"></div>
+</div>
+</div>
+<div class="header-shadows-light" id="rt-main-header"><div class="header-overlay-none" id="rt-header-overlay"><div id="rt-main-header2"><div class="header-graphic-header-6" id="rt-header-graphic">
+<div id="rt-top">
+<div class="rt-container">
+<div class="rt-grid-12 rt-alpha rt-omega">
+<div class="date-block">
+<span class="date">Tuesday, April 14, 2020</span>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+<div id="rt-header">
+<div class="rt-container">
+<div class="shadow-left"><div class="shadow-right"><div class="shadow-bottom">
+<div class="rt-grid-12 rt-alpha rt-omega">
+<div class="rt-block">
+<a href="/" id="rt-logo"></a>
+</div>
+</div>
+<div class="clear"></div>
+</div></div></div>
+</div>
+</div>
+<div id="rt-navigation"><div id="rt-navigation2"><div id="rt-navigation3">
+<div class="rt-container">
+<div class="shadow-left"><div class="shadow-right">
+<ul class="header-shadows-light menutop level1">
+<li class="item2 parent root">
+<span class="daddy item bullet nolink">
+<span>
+                                            About ETAPS                                        </span>
+</span>
+<div class="fusion-submenu-wrapper level2">
+<div class="drop-top"></div>
+<ul class="level2">
+<li class="item184">
+<a class="orphan item bullet" href="/about/conferences">
+<span>
+                                        Conferences                                        </span>
+</a>
+</li>
+<li class="item40">
+<a class="orphan item bullet" href="/about/proceedings">
+<span>
+                                        Proceedings                                        </span>
+</a>
+</li>
+<li class="item533">
+<a class="orphan item bullet" href="/about/doctoral-dissertation-award">
+<span>
+                                        Doctoral dissertation award                                        </span>
+</a>
+</li>
+<li class="item366 parent">
+<a class="daddy item bullet" href="/about/test-of-time-award">
+<span>
+                                        Test of Time Award                                        </span>
+</a>
+<div class="fusion-submenu-wrapper level3">
+<div class="drop-top"></div>
+<ul class="level3">
+<li class="item531">
+<a class="orphan item bullet" href="/about/test-of-time-award/test-of-time-award-2020">
+<span>
+                                        2020                                        </span>
+</a>
+</li>
+<li class="item496">
+<a class="orphan item bullet" href="/about/test-of-time-award/test-of-time-award-2019">
+<span>
+                                        2019                                        </span>
+</a>
+</li>
+<li class="item472">
+<a class="orphan item bullet" href="/about/test-of-time-award/test-of-time-award-2018">
+<span>
+                                        2018                                        </span>
+</a>
+</li>
+<li class="item473">
+<a class="orphan item bullet" href="/about/test-of-time-award/test-of-time-award-2017">
+<span>
+                                        2017                                        </span>
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="item365 parent">
+<a class="daddy item bullet" href="/about/fopps-schools">
+<span>
+                                        FoPSS Schools                                        </span>
+</a>
+<div class="fusion-submenu-wrapper level3">
+<div class="drop-top"></div>
+<ul class="level3">
+<li class="item523">
+<a class="orphan item bullet" href="https://www.mimuw.edu.pl/~fopss19/">
+<span>
+                                        2019                                        </span>
+</a>
+</li>
+<li class="item441">
+<a class="orphan item bullet" href="http://fopss18.mimuw.edu.pl/">
+<span>
+                                        2018                                        </span>
+</a>
+</li>
+<li class="item440">
+<a class="orphan item bullet" href="http://probprogschool2017.di.uminho.pt/">
+<span>
+                                        2017                                        </span>
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="item46">
+<a class="orphan item bullet" href="/about/steering-committee">
+<span>
+                                        Steering Committee                                        </span>
+</a>
+</li>
+<li class="item299">
+<a class="orphan item bullet" href="http://etaps.community">
+<span>
+                                        Association                                        </span>
+</a>
+</li>
+<li class="item313">
+<a class="orphan item bullet" href="/about/anti-harassment-policy">
+<span>
+                                        Anti-Harassment Policy                                        </span>
+</a>
+</li>
+<li class="item48">
+<a class="orphan item bullet" href="/about/contactus">
+<span>
+                                        Contact                                        </span>
+</a>
+</li>
+<li class="item59">
+<a class="orphan item bullet" href="http://www.rwth-aachen.de/go/id/lwb">
+<span>
+                                        Disclaimer                                        </span>
+</a>
+</li>
+<li class="item168">
+<a class="orphan item bullet" href="/internal-sc-hidden">
+<span>
+                                        Internal                                        </span>
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="item3 parent root">
+<a class="daddy item bullet" href="/past-editions">
+<span>
+                                        Past Editions                                        </span>
+</a>
+<div class="fusion-submenu-wrapper level2">
+<div class="drop-top"></div>
+<ul class="level2">
+<li class="item444">
+<a class="orphan item bullet" href="/2019">
+<span>
+                                        ETAPS 2019                                        </span>
+</a>
+</li>
+<li class="item323">
+<a class="orphan item bullet" href="/2018">
+<span>
+                                        ETAPS 2018                                        </span>
+</a>
+</li>
+<li class="item301">
+<a class="orphan item bullet" href="/2017">
+<span>
+                                        ETAPS 2017                                        </span>
+</a>
+</li>
+<li class="item260">
+<a class="orphan item bullet" href="/2016">
+<span>
+                                        ETAPS 2016                                        </span>
+</a>
+</li>
+<li class="item175">
+<a class="orphan item bullet" href="/2015">
+<span>
+                                        ETAPS 2015                                        </span>
+</a>
+</li>
+<li class="item126">
+<a class="orphan item bullet" href="/2014">
+<span>
+                                        ETAPS 2014                                        </span>
+</a>
+</li>
+<li class="item131">
+<a class="orphan item bullet" href="/2013">
+<span>
+                                        ETAPS 2013                                        </span>
+</a>
+</li>
+<li class="item57">
+<a class="orphan item bullet" href="/2012">
+<span>
+                                        ETAPS 2012                                        </span>
+</a>
+</li>
+<li class="item73">
+<a class="orphan item bullet" href="/2011">
+<span>
+                                        ETAPS 2011                                        </span>
+</a>
+</li>
+<li class="item27">
+<a class="orphan item bullet" href="http://www.etaps.org/2010">
+<span>
+                                        ETAPS 2010                                        </span>
+</a>
+</li>
+<li class="item28">
+<a class="orphan item bullet" href="http://www.etaps.org/2009">
+<span>
+                                        ETAPS 2009                                        </span>
+</a>
+</li>
+<li class="item29">
+<a class="orphan item bullet" href="http://www.etaps.org/2008">
+<span>
+                                        ETAPS 2008                                        </span>
+</a>
+</li>
+<li class="item30">
+<a class="orphan item bullet" href="http://www.etaps.org/2007">
+<span>
+                                        ETAPS 2007                                        </span>
+</a>
+</li>
+<li class="item31">
+<a class="orphan item bullet" href="http://www.etaps.org/2006">
+<span>
+                                        ETAPS 2006                                        </span>
+</a>
+</li>
+<li class="item32">
+<a class="orphan item bullet" href="http://www.etaps.org/2005">
+<span>
+                                        ETAPS 2005                                        </span>
+</a>
+</li>
+<li class="item33">
+<a class="orphan item bullet" href="http://www.etaps.org/2004">
+<span>
+                                        ETAPS 2004                                        </span>
+</a>
+</li>
+<li class="item34">
+<a class="orphan item bullet" href="http://www.etaps.org/2003">
+<span>
+                                        ETAPS 2003                                        </span>
+</a>
+</li>
+<li class="item35">
+<a class="orphan item bullet" href="http://www.etaps.org/2002">
+<span>
+                                        ETAPS 2002                                        </span>
+</a>
+</li>
+<li class="item36">
+<a class="orphan item bullet" href="http://www.etaps.org/2001">
+<span>
+                                        ETAPS 2001                                        </span>
+</a>
+</li>
+<li class="item37">
+<a class="orphan item bullet" href="http://www.etaps.org/2000">
+<span>
+                                        ETAPS 2000                                        </span>
+</a>
+</li>
+<li class="item38">
+<a class="orphan item bullet" href="http://www.etaps.org/1999">
+<span>
+                                        ETAPS 1999                                        </span>
+</a>
+</li>
+<li class="item39">
+<a class="orphan item bullet" href="http://www.etaps.org/1998">
+<span>
+                                        ETAPS 1998                                        </span>
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="item4 parent root">
+<a class="daddy item bullet" href="/upcoming-editions">
+<span>
+                                        Upcoming Editions                                        </span>
+</a>
+<div class="fusion-submenu-wrapper level2">
+<div class="drop-top"></div>
+<ul class="level2">
+<li class="item519">
+<a class="orphan item bullet" href="/">
+<span>
+                                        ETAPS 2020                                        </span>
+</a>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+<div class="clear"></div>
+</div></div>
+</div>
+</div></div></div>
+<div id="rt-showcase"><div id="rt-showcase2">
+<div class="rt-container">
+<div class="shadow-left"><div class="shadow-right"><div class="shadow-bl"><div class="shadow-br">
+<div class="rt-grid-12 rt-alpha rt-omega">
+<div class="rt-block">
+<div class="custom">
+<p style="text-align: right;"><span style="font-family: helvetica; font-size: 18pt;">ETAPS 2020: 25-30 April 2020, Dublin, Ireland<br/></span></p></div>
+</div>
+</div>
+<div class="clear"></div>
+</div></div></div></div>
+</div>
+</div></div>
+</div></div></div></div>
+<div id="rt-main-surround"><div class="main-overlay-none" id="rt-main-overlay"><div class="main-shadows-light" id="rt-main-surround2">
+<div class="rt-container">
+<div class="shadow-left"><div class="shadow-right">
+<div class="body-shadows-light" id="rt-mainbody-bg"><div class="body-overlay-none" id="rt-body-overlay">
+<div id="rt-mainbody-shadow">
+<div id="body-inner-l"><div id="body-inner-r">
+<div class="mb9-sa3" id="rt-main">
+<div class="rt-main-inner">
+<div class="rt-grid-9">
+<div class="rt-block">
+<div id="rt-mainbody">
+<div class="rt-joomla component-content">
+<article class="item-page">
+<div class="rt-article-bg">
+<div class="module-content">
+<div class="module-tm"><div class="module-tl"><div class="module-tr"></div></div></div>
+<div class="module-l"><div class="module-r">
+<div class="rt-headline"><div class="module-title"><div class="module-title2">
+<h1 class="title">
+													TACAS 2020											</h1>
+</div></div></div>
+<div class="clear"></div>
+<div class="module-inner"><div class="module-inner2">
+<div class="page" title="Page 16">
+<div class="section">
+<div class="layoutArea">
+<div class="column">
+<h2 style="color: #000000;">26th International Conference on Tools and Algorithms for the Construction and Analysis of Systems</h2>
+<hr/>
+<div class="page" title="Page 16">
+<div class="section">
+<div class="layoutArea">
+<div class="column">
+<p style="text-align: justify;"><span style="font-size: 12pt;"><strong><span style="color: #339966;"><a href="/user-profile/archive/33-uncategorised/412-tacas-2020-accepted-papers" style="color: #339966;">Accepted papers</a></span></strong></span></p>
+<hr/>
+<p style="text-align: justify;">TACAS is a forum for researchers, developers and users interested in rigorously based tools and algorithms for the construction and analysis of systems. The conference aims to bridge the gaps between different communities with this common interest and to support them in their quest to improve the utility, reliability, flexibility and efficiency of tools and algorithms for building systems.</p>
+<p style="text-align: justify;">Theoretical papers with clear relevance for tool construction and analysis as well as tool descriptions and case studies with a conceptual message are all encouraged. The topics covered by the conference include, but are not limited to:</p>
+<ul>
+<li>specification and verification techniques;</li>
+<li>software and hardware verification;</li>
+<li>analytical techniques for real-time, hybrid, or stochastic systems;</li>
+<li>analytical techniques for safety, security, or dependability;</li>
+<li>SAT and SMT solving;</li>
+<li>theorem proving;</li>
+<li>model checking;</li>
+<li>static and dynamic program analysis;</li>
+<li>testing;</li>
+<li>abstraction techniques for modeling and verification;</li>
+<li>compositional and refinement-based methodologies;</li>
+<li>system construction and transformation techniques;</li>
+<li>machine-learning techniques for synthesis and verification;</li>
+<li>tool environments and tool architectures;</li>
+<li>applications and case studies.</li>
+</ul>
+<div class="page" title="Page 16">
+<div class="section">
+<div class="layoutArea">
+<div class="column">
+<div class="page" title="Page 9">
+<div class="section">
+<div class="layoutArea">
+<div class="column">
+<h3>Paper submission</h3>
+<p>See the <a href="/2020/call-for-papers">ETAPS 2020 joint call for papers</a>. Submit your paper via the <a href="https://easychair.org/conferences/?conf=tacas2020">TACAS 2020 author interface of EasyChair</a>.</p>
+<p>The review process of TACAS 2020 is <strong>single-blind,</strong> <strong>with a rebuttal phase for selected papers.</strong></p>
+<p><strong>Limit of 3 submissions: </strong>Each individual author is limited to a maximum of three TACAS submissions as an author or co-author. Authors of co-authored submissions are jointly responsible for respecting this policy. In case of violations, all submissions of this (co-)author will be desk-rejected.</p>
+<h3>Paper categories</h3>
+<p>TACAS accepts four types of submissions: research papers, case-study papers, regular tool papers, and tool demonstration papers.</p>
+<p><strong>Research papers</strong> clearly identify and justify a principled advance to the theoretical foundations for the construction and analysis of systems. Where applicable, they are supported by experimental validation.</p>
+<p><strong>Case study papers</strong> report on case studies, preferably in a real-world setting. They should provide information about the following aspects: the system being studied and the reasons why it is of interest, the goals of the study, the challenges the system poses to automated analysis/testing/synthesis, research methodologies and approaches used, the degree to which the goals were met, and how the results can be generalized to other problems and domains.</p>
+<p><strong>Regular tool papers</strong> present a new tool, a new tool component, or novel extensions to an existing tool, and are subject to an <strong><em>artifact submission</em></strong> requirement (see below). They should provide a short description of the theoretical foundations with relevant citations, and emphasize the design and implementation concerns, including software architecture and core data structures. A regular tool paper should give a clear account of the tool’s functionality, discuss the tool’s practical capabilities with reference to the type and size of problems it can handle, describe experience with realistic case studies, and where applicable, provide a rigorous experimental evaluation. Papers that present extensions to existing tools should clearly focus on the improvements or extensions with respect to previously published versions of the tool, preferably substantiated by data on enhancements in terms of resources and capabilities.</p>
+<p><strong>Tool demonstration papers</strong> focus on the usage aspects of tools and are also subject to the <strong><em>artifact submission</em></strong> requirement. Theoretical foundations and experimental evaluation are not required, however, a motivation as to why the tool is interesting and significant should be provided. Further, the paper should describe aspects such as, for example, the assumptions about application domain and/or extent of potential generality, demonstrate the tool workflow(s), explain integration and/or human interaction, evaluate the overall role and the impact to the development process.</p>
+<p>The length of <em class="" style="box-sizing: border-box;">research</em>, <em class="" style="box-sizing: border-box;">case study</em>, and <em class="" style="box-sizing: border-box;">regular tool papers</em> is limited to <strong>16 pp</strong> llncs.cls (<strong>excluding the blibliography</strong><em class="" style="box-sizing: border-box;">)</em>. The length of <em class="" style="box-sizing: border-box;">tool demonstration papers</em> is limited to <strong>6 pp</strong> llncs.cls (<strong>excluding the bibliography</strong><em class="" style="box-sizing: border-box;">)</em>.</p>
+<p>Appendices going beyond the above page limits are <strong><em>not allowed</em></strong>! Additional (unlimited) appendices can be made available separately or as part of an extended version of the paper made available via arXiv, Zenodo, or a similar service, and cited in the paper. The reviewers are, however, not obliged to read such appendices.</p>
+<h3><strong>Paper evaluation</strong></h3>
+<p>All papers will be evaluated by the program committee (PC), coordinated by the PC chairs, aided by the case study chair for case study papers, and by the tools chair for regular tool papers and tool demonstration papers. All papers will be judged on novelty, significance, correctness, and clarity.</p>
+<p>Reproducibility of results is of the utmost importance for the TACAS community. Therefore, we encourage all authors to include support for replicating the results of their papers. For theorems, this would mean providing proofs; for algorithms, this would mean including evidence of correctness and acceptable performance, either by a theoretical analysis or by experimentation; and for experiments, one should provide access to the artifacts used to generate the experimental data. Material that does not fit into the paper may be provided on a supplementary web site, with access appropriately enabled and license rights made clear. For example, the supplemental material for reviewing case-study papers and papers with experimental results could be classified as reviewer-confidential if necessary (e.g., if proprietary data are investigated or software is not open source). In general, TACAS encourages all authors to archive additional material and make it citable via DOI (e.g., via Zenodo or Figshare).</p>
+<h3>Artifact submission and evaluation</h3>
+<p><strong>R</strong><strong>egular tool papers and tool demonstration papers</strong> <strong>must be accompanied</strong> by <strong>an artifact</strong>, <strong>submitted together with the paper</strong>.</p>
+<p>Exceptions to the compulsory artifact submission rule may be granted by the PC chairs, but only in cases when the tool cannot in any reasonable way be run by the AEC. In such cases, the authors should contact the PC chairs as soon as possible (at least 7 days prior to abstract submission), ask for an exception, and explain why it is needed. An example of a case where an exception can be negotiated is a tool that must be run in some very special environment, e.g., on special hardware that cannot be virtualised in any way. Note that license problems are generally not an acceptable grounds for an exception. When an exception is granted, the authors should instead submit a detailed video showing their tool in action.</p>
+<p>The artifact will be evaluated by the artifact evaluation committee (AEC) independently of the paper according to the following criteria:</p>
+<ul>
+<li>consistency with and replicability of results in the paper,</li>
+<li>completeness,</li>
+<li>documentation, and</li>
+<li>ease of use.</li>
+</ul>
+<p>The results of the artifact evaluation will be taken into account during discussion of the paper submission.</p>
+<p>For <strong>research papers and case study papers</strong>, it is <strong>optional</strong> to submit an artifact together with the paper. If an artifact is provided at this stage, then it will be reviewed immediately by the AEC and the results of the evaluation can be taken into consideration during the paper reviewing and rebuttal phase. Alternatively, authors of accepted papers may submit an artifact after notification.</p>
+<p>Detailed guidelines for preparation of artifacts and submission can be found <a href="https://tacas.info/artifacts-20.php">here</a>.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<h3>Posters and tool demonstrations</h3>
+<p>Subject to available space, authors of all accepted papers will be given an option to present their results in the form of a <em>poster</em> in addition to the talk. Moreover, again subject to available space, authors of regular tool papers and tool demonstration papers will be given an option to <em>demonstrate</em> their tool to conference participants in addition to giving their talk / presenting their poster. More information about the posters and demonstrations will be posted to the concerned authors in due time.</p>
+<h3>Competition on software verification</h3>
+<p><span style="font-weight: 400;">TACAS 2020 hosts the<a href="https://sv-comp.sosy-lab.org/2020/"> 9th Competition on Software Verification</a> with the goal to evaluate technology transfer and compare state-of-the-art software verifiers with respect to effectiveness and efficiency. <br/></span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<h3 class="column">Program chairs</h3>
+</div>
+</div>
+</div>
+<p><a href="http://fmv.jku.at/biere/">Armin Biere</a> (Johannes-Kepler-Universität Linz, Austria)<br/><a href="http://www.cs.bham.ac.uk/~parkerdx/">David Parker </a>(University of Birmingham, United Kingdom)</p>
+<h3>Case study chair</h3>
+<p><a href="https://www.cs.cmu.edu/~mheule/">Marijn Heule</a> (Carnegie Mellon University, USA)</p>
+<h3 class="column">Tools chair</h3>
+<p><a href="http://www.falkhowar.de/">Falk Howar</a> (Technische Universität Dortmund, Germany)</p>
+<h3>Competition chair</h3>
+<p><a href="https://www.sosy-lab.org/people/beyer/">Dirk Beyer</a> (Ludwig-Maximilians-Universität München, Germany)</p>
+<h3>Program committee</h3>
+<p><a href="https://wwwtcs.inf.tu-dresden.de/~baier/">Christel Baier</a> (Technische Universität Dresden, Germany)<br/><a href="http://www.eziobartocci.com/">Ezio Bartocci</a> (Technische Universität Wien, Austria)<br/><a href="https://www.sosy-lab.org/people/beyer/">Dirk Beyer</a> (Ludwig-Maximilians-Universität München, Germany)<br/><a href="https://research.vu.nl/en/persons/jasmin-christian-blanchette">Jasmin Blanchette</a> (Vrije Universiteit Amsterdam, The Netherlands)<br/><a href="https://www.iaik.tugraz.at/content/about_iaik/people/bloem_roderick/">Roderick Bloem</a> (Technische Universität Graz, Austria)</p>
+<p><a href="https://nms.kcl.ac.uk/hana.chockler/">Hana Chockler</a> (Kings College London, United Kingdom)<br/><a href="https://es-static.fbk.eu/people/cimatti/">Alessandro Cimatti</a> (FBK-IRST, Italy)<br/><a href="https://www.cs.umd.edu/~rance/">Rance Cleaveland</a> (University of Maryland, USA)<br/><a href="https://uol.de/hs/mitarbeiterinnen-und-mitarbeiter/prof-dr-martin-fraenzle/">Martin Fränzle</a> (Carl von Ossietzky Universität Oldenburg)<br/><a href="https://sites.google.com/site/frehseg/">Goran Frehse</a> (ENSTA ParisTech, France)</p>
+<p><a href="http://www.cs.technion.ac.il/users/orna/">Orna Grumberg</a> (Technion, Israel)<br/><a href="https://depend.cs.uni-saarland.de/~hermanns/">Holger Hermanns</a> (Universität des Saarlandes, Germany)<br/><a href="https://benjaminkiesl.github.io/">Benjamin Kiesl</a> (Helmholtz Center for Information Security, Germany)<br/><a href="http://www.cse.chalmers.se/~laurako/">Laura Kovács</a> (Technische Universität Wien, Austria)<br/><a href="https://www7.in.tum.de/~kretinsk/">Jan Kretińsky</a> (Technische Universität München, Germany)</p>
+<p><a href="http://people.cs.aau.dk/~kgl/">Kim G. Larsen</a> (Aalborg University, Denmark)<br/><a href="http://sites.bu.edu/depend/people/wenchao-li/">Wenchao Li</a> (Boston University, USA)<br/><a href="https://www.microsoft.com/en-us/research/people/kenmcmil/">Kenneth McMillan</a> (Microsoft Research, USA)<br/><a href="https://cs.stanford.edu/~niemetz/">Aina Niemetz</a> (Stanford University, USA)<br/><a href="http://www.dcs.gla.ac.uk/~gethin/">Gethin Norman</a> (University of Glasgow, United Kingdom)</p>
+<p><a href="https://ti.arc.nasa.gov/profile/pcorina/">Corina Pasareanu</a> (Carnegie Mellon University and NASA Ames Res. Center, USA)<br/><a href="https://www.cs.le.ac.uk/people/npiterman/">Nir Piterman</a> (University of Leicester, United Kingdom)<br/><a href="https://www.aere.iastate.edu/kyrozier/">Kristin Y. Rozier</a> (Iowa State University, USA)<br/><a href="http://www.philipp.ruemmer.org/">Philpp Rümmer</a> (Uppsala University, Sweden)<br/><a href="https://www.inf.usi.ch/faculty/sharygina/">Natasha Sharygina</a> (Università della Svizzera italiana, Switzerland)</p>
+<p><a href="http://ls5-www.cs.tu-dortmund.de/cms/de/mitarbeiter/prof/Bernhard_Steffen.html">Bernhard Steffen</a> (Technische Universität Dortmund, Germany)<br/><a href="https://www.fi.muni.cz/~xstrejc/">Jan Strejček</a> (Masaryk University, Czech Republic)<br/><a href="http://www.tautschnig.net/">Michael Tautschnig</a> (Queen Mary, University of London, and Amazon Web Services, United Kingdom)<br/><a href="https://www.cs.au.dk/~jaco/">Jaco van de Pol</a> (Aarhus University, Denmark)<br/><a href="http://www.tvandijk.nl/">Tom van Dijk</a> (Universiteit Twente, The Netherlands)</p>
+<p><a href="https://www.microsoft.com/en-us/research/people/cWinter/">Christoph Wintersteiger</a> (Microsoft Research, United Kingdom)</p>
+<h3>Artifact evaluation chairs</h3>
+<p><a href="http://arnd.hartmanns.name/">Arnd Hartmanns</a> (Universiteit Twente, The Netherlands)<br/><a href="http://fmv.jku.at/seidl/">Martina Seidl</a> (Johannes-Kepler-Universität Linz, Austria)</p>
+<h3>Artifact evaluation committee</h3>
+<p><a href="https://www7.in.tum.de/~ashok/">Pranav Ashok </a>(Technische Universität München, Germany)<br/> <a href="https://www.it.uu.se/katalog/petba168">Peter Backeman</a> (Uppsala University, Sweden)<br/> <a href="https://ismailbennani.me/">Ismail Lahkim Bennani</a> (Inria, France)<br/> <a href="https://people.utwente.nl/c.e.budde">Carlos E. Budde</a> (Universiteit Twente, The Netherlands)<br/> <a href="https://www.sosy-lab.org/people/friedberger/">Karlheinz Friedberger</a> (LMU München, Germany)</p>
+<p><a href="https://www.uni-muenster.de/Informatik.AGRemke/personen/jannikhuels/index.html">Jannik Hüls </a>(Westfälische Wilhelms-Universität Münster, Germany)<br/> <a href="https://profiles.stanford.edu/ahmed-irfan">Ahmed Irfan</a> (Stanford University, USA)<br/> <a href="https://www.muni.cz/en/people/359542-martin-jonas">Martin Jonas</a> (Masaryk University, Czech Republic)<br/> <a href="https://www.gla.ac.uk/schools/computing/researchstudents/williamkavanagh/">William Kavanagh</a>(University of Glasgow, UK)<br/> <a href="https://www.linkedin.com/in/bcskempa/">Brian Kempa</a> (Iowa State University, USA)</p>
+<p><a href="https://depend.cs.uni-saarland.de/~klauck/">Michaela Klauck</a> (Universität des Saarlandes, Germany)<br/> <a href="https://wwwtcs.inf.tu-dresden.de/~klueppel/">Sascha Klüppelholz </a>(Technische Universität Dresden, Germany)<br/> <a href="http://www.iaik.tugraz.at/person/bettina-koenighofer/">Bettina Könighofer </a>(Technische Universität Graz, Austria)<br/> <a href="https://wwwhome.ewi.utwente.nl/~lathouwerssam/">Sophie Lathouwers</a> (Universiteit Twente, The Netherlands)<br/> <a href="http://www.florianlonsing.com/">Florian Lonsing</a> (Stanford University, USA)</p>
+<p><a href="https://www.muni.cz/en/people/396325-juraj-major">Juraj Major</a> (Masaryk University, Czech Republic)<br/> <a href="https://www7.in.tum.de/~meggendo/">Tobias Meggendorfer</a> (Technische Universität München, Germany)<br/> <a href="https://hu.linkedin.com/in/molnarv">Vince Molnar</a> (Budapest University of Technology and Economics, Hungary)<br/> <a href="http://www.cs.tu-dortmund.de/nps/en/Home/Personen/M/Murtovi__Alnis.html">Alnis Murtovi</a> (Technische Universität Dortmund, Germany)<br/> <a href="https://www.cs.bham.ac.uk/~novakovc/">Chris Novakovic</a> (University of Birmingham, UK)</p>
+<p><a href="https://nicolapaoletti.com/">Nicola Paoletti</a> (Royal Holloway University of London, UK)<br/> <a href="https://moves.rwth-aachen.de/people/quatmann/">Tim Quatmann</a> (RWTH Aachen University, Germany)<br/> <a href="https://www.react.uni-saarland.de/people/tentrup.html">Leander Tentrup</a> (Universität Saarlandes, Germany)<br/><a href="https://people.utwente.nl/f.i.vanderberg">Freark van der Berg</a> (Universiteit Twente, The Netherlands)<br/> <a href="https://mjvc.me/">Marcell Vazquez-Chanlatte</a> (University of California at Berkeley, USA)</p>
+<p><a href="https://moves.rwth-aachen.de/people/volk/">Matthias Volk</a> (RWTH Aachen University, Germany)<br/> <a href="https://research.vu.nl/en/persons/petar-vukmirovic">Petar Vukmirovic </a>(Vrije Universiteit Amsterdam, The Netherlands)<br/> <a href="https://www7.in.tum.de/~weininge/">Maximilian Weininger</a> (Technische Universität München, Germany)</p>
+<h3>Steering committee chair</h3>
+<p><a href="http://ls5-www.cs.tu-dortmund.de/cms/de/mitarbeiter/prof/Bernhard_Steffen.html">Bernhard Steffen</a> (Technische Universität Dortmund, Germany)</p>
+<h3>Steering committee</h3>
+<p><a href="https://www.sosy-lab.org/people/beyer/">Dirk Beyer</a> (Ludwig-Maximilians-Universität München, Germany)<br/><a href="https://www.cs.umd.edu/~rance/">Rance Cleaveland</a> (University of Maryland, USA)<br/><a href="https://depend.cs.uni-saarland.de/~hermanns/">Holger Hermanns</a> (Universität des Saarlandes, Germany)<br/><a href="http://people.cs.aau.dk/~kgl/">Kim G. Larsen</a> (Aalborg University, Denmark)</p>
+</div></div>
+</div></div>
+<div class="module-bm"><div class="module-bl"><div class="module-br"></div></div></div>
+</div>
+</div>
+</article>
+</div>
+</div>
+</div>
+</div>
+<div class="rt-grid-3">
+<div id="rt-sidebar-a">
+<div class="rt-block">
+<div class="module-content">
+<div class="module-tm"><div class="module-tl"><div class="module-tr"></div></div></div>
+<div class="module-l"><div class="module-r">
+<div class="module-inner">
+<div class="module-inner3">
+<ul class="menu">
+<li class="item-514 active deeper parent"><a href="/"><span>ETAPS 2020</span></a><ul class="nav-child unstyled small"><li class="item-535"><a href="/2020/doctoral-dissertation-award"><span>Doctoral dissertation award</span></a></li><li class="item-530"><a href="/2020/test-of-time-award"><span>Test of Time Award</span></a></li><li class="item-536"><a href="/2020/scholarship-for-student-volunteers"><span>Scholarship for student volunteers</span></a></li><li class="item-529"><a href="/2020/registration"><span>Registration</span></a></li><li class="item-532"><a href="/2020/accommodation"><span>Accommodation</span></a></li><li class="item-528"><a href="/2020/venue"><span>Venue</span></a></li><li class="item-521"><a href="/2020/invited-talks-tutorials"><span>Invited Talks and Tutorials</span></a></li><li class="item-526"><a href="/2020/call-for-papers"><span>Call for Papers</span></a></li><li class="item-515"><a href="/2020/esop"><span>ESOP</span></a></li><li class="item-516"><a href="/2020/fase"><span>FASE</span></a></li><li class="item-517"><a href="/2020/fossacs"><span>FoSSaCS</span></a></li><li class="item-518 current active"><a href="/2020/tacas"><span>TACAS</span></a></li><li class="item-527"><a href="/2020/workshops"><span>Workshops</span></a></li><li class="item-522"><a href="/2020/call-for-workshops"><span>Call for Workshops</span></a></li><li class="item-520"><a href="/2020/organizers"><span>Organizers</span></a></li></ul></li></ul>
+</div>
+</div>
+</div></div>
+<div class="module-bm"><div class="module-bl"><div class="module-br"></div></div></div>
+</div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+</div></div>
+</div>
+</div></div>
+</div></div>
+</div>
+</div></div></div>
+<div class="bottom-shadows-dark" id="rt-bottom"><div class="bottom-overlay-none" id="rt-bottom-overlay"><div id="rt-bottom2">
+<div class="rt-container">
+<div class="shadow-left"><div class="shadow-right">
+<div class="rt-grid-4 rt-alpha">
+<div class="rt-block">
+<div class="module-content">
+<div class="module-tm"><div class="module-tl"><div class="module-tr"></div></div></div>
+<div class="module-l"><div class="module-r">
+<div class="module-title"><div class="module-title2"><h2 class="title">Who's online</h2></div></div>
+<div class="module-inner">
+<div class="module-inner2">
+<p>We have 113 guests and no members online</p>
+</div>
+</div>
+</div></div>
+<div class="module-bm"><div class="module-bl"><div class="module-br"></div></div></div>
+</div>
+</div>
+</div>
+<div class="rt-grid-4">
+<div class="rt-block">
+<div class="module-content">
+<div class="module-tm"><div class="module-tl"><div class="module-tr"></div></div></div>
+<div class="module-l"><div class="module-r">
+<div class="module-title"><div class="module-title2"><h2 class="title">Most read</h2></div></div>
+<div class="module-inner">
+<div class="module-inner2">
+<ul class="mostread">
+<li class="mostread">
+<a class="mostread" href="/2018">ETAPS 2018</a>
+</li>
+<li class="mostread">
+<a class="mostread" href="/2017">ETAPS 2017</a>
+</li>
+<li class="mostread">
+<a class="mostread" href="/2013">ETAPS 2013</a>
+</li>
+</ul> </div>
+</div>
+</div></div>
+<div class="module-bm"><div class="module-bl"><div class="module-br"></div></div></div>
+</div>
+</div>
+</div>
+<div class="rt-grid-4 rt-omega">
+<div class="rt-block">
+<div class="module-content">
+<div class="module-tm"><div class="module-tl"><div class="module-tr"></div></div></div>
+<div class="module-l"><div class="module-r">
+<div class="module-title"><div class="module-title2"><h2 class="title">Site Hosted by</h2></div></div>
+<div class="module-inner">
+<div class="module-inner2">
+<div class="custom">
+<p><a href="http://www.rwth-aachen.de/go/id/bdz/"><img src="/images/stories/rwt2.png"/></a></p></div>
+</div>
+</div>
+</div></div>
+<div class="module-bm"><div class="module-bl"><div class="module-br"></div></div></div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+</div></div>
+</div>
+</div></div></div>
+<div class="bottom-shadows-dark" id="rt-main-footer"><div class="bottom-overlay-none" id="rt-footer-overlay"><div id="rt-main-footer2">
+<div id="rt-footer"><div id="rt-footer2">
+<div class="rt-container">
+<div class="rt-grid-12 rt-alpha rt-omega">
+<a href="#" id="gantry-totop"><span>Scroll To Top</span></a>
+</div>
+<div class="clear"></div>
+</div>
+</div></div>
+</div></div></div>
+<div class="font-family-helvetica font-size-is-default menu-type-fusionmenu menu-fusionmenu-position-navigation col12" id="rt-variation">
+<div id="rt-drawer">
+<div class="rt-container">
+<div class="clear"></div>
+</div>
+</div>
+<div class="header-shadows-light" id="rt-main-header"><div class="header-overlay-none" id="rt-header-overlay"><div id="rt-main-header2"><div class="header-graphic-header-6" id="rt-header-graphic">
+<div id="rt-top">
+<div class="rt-container">
+<div class="rt-grid-12 rt-alpha rt-omega">
+<div class="date-block">
+<span class="date">Tuesday, April 14, 2020</span>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+<div id="rt-header">
+<div class="rt-container">
+<div class="shadow-left"><div class="shadow-right"><div class="shadow-bottom">
+<div class="rt-grid-12 rt-alpha rt-omega">
+<div class="rt-block">
+<a href="/" id="rt-logo"></a>
+</div>
+</div>
+<div class="clear"></div>
+</div></div></div>
+</div>
+</div>
+<div id="rt-navigation"><div id="rt-navigation2"><div id="rt-navigation3">
+<div class="rt-container">
+<div class="shadow-left"><div class="shadow-right">
+<ul class="header-shadows-light menutop level1">
+<li class="item2 parent root">
+<span class="daddy item bullet nolink">
+<span>
+                                            About ETAPS                                        </span>
+</span>
+<div class="fusion-submenu-wrapper level2">
+<div class="drop-top"></div>
+<ul class="level2">
+<li class="item184">
+<a class="orphan item bullet" href="/about/conferences">
+<span>
+                                        Conferences                                        </span>
+</a>
+</li>
+<li class="item40">
+<a class="orphan item bullet" href="/about/proceedings">
+<span>
+                                        Proceedings                                        </span>
+</a>
+</li>
+<li class="item533">
+<a class="orphan item bullet" href="/about/doctoral-dissertation-award">
+<span>
+                                        Doctoral dissertation award                                        </span>
+</a>
+</li>
+<li class="item366 parent">
+<a class="daddy item bullet" href="/about/test-of-time-award">
+<span>
+                                        Test of Time Award                                        </span>
+</a>
+<div class="fusion-submenu-wrapper level3">
+<div class="drop-top"></div>
+<ul class="level3">
+<li class="item531">
+<a class="orphan item bullet" href="/about/test-of-time-award/test-of-time-award-2020">
+<span>
+                                        2020                                        </span>
+</a>
+</li>
+<li class="item496">
+<a class="orphan item bullet" href="/about/test-of-time-award/test-of-time-award-2019">
+<span>
+                                        2019                                        </span>
+</a>
+</li>
+<li class="item472">
+<a class="orphan item bullet" href="/about/test-of-time-award/test-of-time-award-2018">
+<span>
+                                        2018                                        </span>
+</a>
+</li>
+<li class="item473">
+<a class="orphan item bullet" href="/about/test-of-time-award/test-of-time-award-2017">
+<span>
+                                        2017                                        </span>
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="item365 parent">
+<a class="daddy item bullet" href="/about/fopps-schools">
+<span>
+                                        FoPSS Schools                                        </span>
+</a>
+<div class="fusion-submenu-wrapper level3">
+<div class="drop-top"></div>
+<ul class="level3">
+<li class="item523">
+<a class="orphan item bullet" href="https://www.mimuw.edu.pl/~fopss19/">
+<span>
+                                        2019                                        </span>
+</a>
+</li>
+<li class="item441">
+<a class="orphan item bullet" href="http://fopss18.mimuw.edu.pl/">
+<span>
+                                        2018                                        </span>
+</a>
+</li>
+<li class="item440">
+<a class="orphan item bullet" href="http://probprogschool2017.di.uminho.pt/">
+<span>
+                                        2017                                        </span>
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="item46">
+<a class="orphan item bullet" href="/about/steering-committee">
+<span>
+                                        Steering Committee                                        </span>
+</a>
+</li>
+<li class="item299">
+<a class="orphan item bullet" href="http://etaps.community">
+<span>
+                                        Association                                        </span>
+</a>
+</li>
+<li class="item313">
+<a class="orphan item bullet" href="/about/anti-harassment-policy">
+<span>
+                                        Anti-Harassment Policy                                        </span>
+</a>
+</li>
+<li class="item48">
+<a class="orphan item bullet" href="/about/contactus">
+<span>
+                                        Contact                                        </span>
+</a>
+</li>
+<li class="item59">
+<a class="orphan item bullet" href="http://www.rwth-aachen.de/go/id/lwb">
+<span>
+                                        Disclaimer                                        </span>
+</a>
+</li>
+<li class="item168">
+<a class="orphan item bullet" href="/internal-sc-hidden">
+<span>
+                                        Internal                                        </span>
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="item3 parent root">
+<a class="daddy item bullet" href="/past-editions">
+<span>
+                                        Past Editions                                        </span>
+</a>
+<div class="fusion-submenu-wrapper level2">
+<div class="drop-top"></div>
+<ul class="level2">
+<li class="item444">
+<a class="orphan item bullet" href="/2019">
+<span>
+                                        ETAPS 2019                                        </span>
+</a>
+</li>
+<li class="item323">
+<a class="orphan item bullet" href="/2018">
+<span>
+                                        ETAPS 2018                                        </span>
+</a>
+</li>
+<li class="item301">
+<a class="orphan item bullet" href="/2017">
+<span>
+                                        ETAPS 2017                                        </span>
+</a>
+</li>
+<li class="item260">
+<a class="orphan item bullet" href="/2016">
+<span>
+                                        ETAPS 2016                                        </span>
+</a>
+</li>
+<li class="item175">
+<a class="orphan item bullet" href="/2015">
+<span>
+                                        ETAPS 2015                                        </span>
+</a>
+</li>
+<li class="item126">
+<a class="orphan item bullet" href="/2014">
+<span>
+                                        ETAPS 2014                                        </span>
+</a>
+</li>
+<li class="item131">
+<a class="orphan item bullet" href="/2013">
+<span>
+                                        ETAPS 2013                                        </span>
+</a>
+</li>
+<li class="item57">
+<a class="orphan item bullet" href="/2012">
+<span>
+                                        ETAPS 2012                                        </span>
+</a>
+</li>
+<li class="item73">
+<a class="orphan item bullet" href="/2011">
+<span>
+                                        ETAPS 2011                                        </span>
+</a>
+</li>
+<li class="item27">
+<a class="orphan item bullet" href="http://www.etaps.org/2010">
+<span>
+                                        ETAPS 2010                                        </span>
+</a>
+</li>
+<li class="item28">
+<a class="orphan item bullet" href="http://www.etaps.org/2009">
+<span>
+                                        ETAPS 2009                                        </span>
+</a>
+</li>
+<li class="item29">
+<a class="orphan item bullet" href="http://www.etaps.org/2008">
+<span>
+                                        ETAPS 2008                                        </span>
+</a>
+</li>
+<li class="item30">
+<a class="orphan item bullet" href="http://www.etaps.org/2007">
+<span>
+                                        ETAPS 2007                                        </span>
+</a>
+</li>
+<li class="item31">
+<a class="orphan item bullet" href="http://www.etaps.org/2006">
+<span>
+                                        ETAPS 2006                                        </span>
+</a>
+</li>
+<li class="item32">
+<a class="orphan item bullet" href="http://www.etaps.org/2005">
+<span>
+                                        ETAPS 2005                                        </span>
+</a>
+</li>
+<li class="item33">
+<a class="orphan item bullet" href="http://www.etaps.org/2004">
+<span>
+                                        ETAPS 2004                                        </span>
+</a>
+</li>
+<li class="item34">
+<a class="orphan item bullet" href="http://www.etaps.org/2003">
+<span>
+                                        ETAPS 2003                                        </span>
+</a>
+</li>
+<li class="item35">
+<a class="orphan item bullet" href="http://www.etaps.org/2002">
+<span>
+                                        ETAPS 2002                                        </span>
+</a>
+</li>
+<li class="item36">
+<a class="orphan item bullet" href="http://www.etaps.org/2001">
+<span>
+                                        ETAPS 2001                                        </span>
+</a>
+</li>
+<li class="item37">
+<a class="orphan item bullet" href="http://www.etaps.org/2000">
+<span>
+                                        ETAPS 2000                                        </span>
+</a>
+</li>
+<li class="item38">
+<a class="orphan item bullet" href="http://www.etaps.org/1999">
+<span>
+                                        ETAPS 1999                                        </span>
+</a>
+</li>
+<li class="item39">
+<a class="orphan item bullet" href="http://www.etaps.org/1998">
+<span>
+                                        ETAPS 1998                                        </span>
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="item4 parent root">
+<a class="daddy item bullet" href="/upcoming-editions">
+<span>
+                                        Upcoming Editions                                        </span>
+</a>
+<div class="fusion-submenu-wrapper level2">
+<div class="drop-top"></div>
+<ul class="level2">
+<li class="item519">
+<a class="orphan item bullet" href="/">
+<span>
+                                        ETAPS 2020                                        </span>
+</a>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+<div class="clear"></div>
+</div></div>
+</div>
+</div></div></div>
+<div id="rt-showcase"><div id="rt-showcase2">
+<div class="rt-container">
+<div class="shadow-left"><div class="shadow-right"><div class="shadow-bl"><div class="shadow-br">
+<div class="rt-grid-12 rt-alpha rt-omega">
+<div class="rt-block">
+<div class="custom">
+<p style="text-align: right;"><span style="font-family: helvetica; font-size: 18pt;">ETAPS 2020: 25-30 April 2020, Dublin, Ireland<br/></span></p></div>
+</div>
+</div>
+<div class="clear"></div>
+</div></div></div></div>
+</div>
+</div></div>
+</div></div></div></div>
+<div id="rt-main-surround"><div class="main-overlay-none" id="rt-main-overlay"><div class="main-shadows-light" id="rt-main-surround2">
+<div class="rt-container">
+<div class="shadow-left"><div class="shadow-right">
+<div class="body-shadows-light" id="rt-mainbody-bg"><div class="body-overlay-none" id="rt-body-overlay">
+<div id="rt-mainbody-shadow">
+<div id="body-inner-l"><div id="body-inner-r">
+<div class="mb9-sa3" id="rt-main">
+<div class="rt-main-inner">
+<div class="rt-grid-9">
+<div class="rt-block">
+<div id="rt-mainbody">
+<div class="rt-joomla component-content">
+<article class="item-page">
+<div class="rt-article-bg">
+<div class="module-content">
+<div class="module-tm"><div class="module-tl"><div class="module-tr"></div></div></div>
+<div class="module-l"><div class="module-r">
+<div class="rt-headline"><div class="module-title"><div class="module-title2">
+<h1 class="title">
+													ETAPS 2020 Joint Call for Papers											</h1>
+</div></div></div>
+<div class="clear"></div>
+<div class="module-inner"><div class="module-inner2">
+<h3>Important dates</h3>
+<ul>
+<li>(No abstract submission deadline)</li>
+<li>Paper submission deadline: <strong><a href="http://www.timeanddate.com/worldclock/fixedtime.html?msg=ETAPS+2020+paper+submission+closes&amp;iso=20191024T2359&amp;p1=3400">24 October 2019 23:59 AoE (=GMT-12)</a></strong></li>
+<li>Rebuttal (ESOP, FoSSaCS and, partially, TACAS)<strong>: <a href="http://www.timeanddate.com/worldclock/fixedtime.html?msg=ETAPS+2020+rebuttal+opens&amp;iso=20191209T0001&amp;p1=3400">9 December 00:01 AoE</a> - <a href="http://www.timeanddate.com/worldclock/fixedtime.html?msg=ETAPS+2020+rebuttal+closes&amp;iso=20191210T2359&amp;p1=3400">10 December  23:59 AoE</a><br/></strong></li>
+<li>Author notification: <strong>23 December 2019</strong></li>
+<li>Camera-ready versions:  <strong>22 February 2020</strong></li>
+</ul>
+<h3 style="visibility: visible;">Submission instructions</h3>
+<p>The four conferences of ETAPS 2020 solicit contributions of the following types. All <strong>page limits</strong> are given <strong>excluding bibliography</strong>. </p>
+<ul>
+<li>ESOP: regular research papers of max 25 pp</li>
+<li>FASE: regular research papers and empirical evaluation papers of max 18 pp, tool demonstration papers of max 6 pp + mandatory appendix of max 6 pp</li>
+<li>FoSSaCS: regular research papers of max 18 pp</li>
+<li>TACAS: regular research papers, case study papers and regular tool papers of max 16 pp, tool demonstration papers of max 6 pp</li>
+</ul>
+<p>For definitions of the different paper types and specific instructions, where they are present, see the webpages of the individual conferences.</p>
+<p><em>The rationale for exempting the bibliography from the page limit  is to remove the possibility to win space for the body of paper by cutting the bibliography, a practice that has a negative effect on our competitiveness as a community.</em></p>
+<p>All accepted papers will appear in the proceedings and have presentations during the conference. A condition of submission is that, if the submission is accepted, one of the authors attends the conference to give the presentation.</p>
+<p>Submitted papers must be in English presenting original research. They must be unpublished and not submitted for publication elsewhere. In particular, simultaneous submission of the same contribution to multiple ETAPS conferences is forbidden.</p>
+<p>Submissions must follow the <a href="http://www.Springer.de/comp/lncs/authors.html">formatting guidelines</a> of Springer's <em>Lecture Notes in Computer Science</em> and be submitted electronically in pdf through the Easychair author interface of the respective conference. Submissions not adhering to the specified format and length may be rejected immediately.</p>
+<p>FASE will use <strong>double-blind reviewing. </strong>Authors are asked to omit their names and institutions; refer to prior work in the third person, just as prior work by others; not to include acknowledgements that might identify them.</p>
+<p>Regular tool paper and tool demonstration paper submissions to TACAS must be accompanied by an <strong>artifact</strong>. The artifact will be<strong> evaluated</strong> and the outcome will be taken into account in the acceptance decision of the paper. For research paper and case study paper submissions, concurrent submission of an artifact is optional; if an artifact is submitted at this stage, it will be handled like described in the previous sentence. Alternatively, authors of accepted papers of these categories may submit an artifact after notification.</p>
+<p>ESOP and FoSSaCS will use an <strong>author rebuttal phase</strong>. TACAS will use rebuttal for selected submissions.</p>
+<h3>Publication</h3>
+<p>The proceedings will be published in the <em><a href="http://www.Springer.com/computer/lncs?SGWID=0-164-6-737109-0">Advanced Research in Computing and Software Science (ARCoSS)</a></em> subline of <a href="http://www.Springer.com/">Springer</a>'s <em><a href="http://www.Springer.com/comp/lncs">Lecture Notes in Computer Science (LNCS)</a></em> series. Similarly to ETAPS 2018 and 2019, the proceedings of ETAPS 2020 will appear in <strong>gold open access</strong>, meaning that the <strong>published versions</strong> of all papers will be <strong>available for everyone</strong> to download from the publisher's website <strong>freely, from the date of online publication, perpetually</strong>. The <strong>copyright</strong> of the papers<strong> will remain with the authors</strong>.</p>
+<p><em>The publisher's charges for gold open access will be paid by the conference (funded with the participation fees of all participants). There will be no added cost for authors specifically. </em></p>
+<p> </p>
+</div></div>
+</div></div>
+<div class="module-bm"><div class="module-bl"><div class="module-br"></div></div></div>
+</div>
+</div>
+</article>
+</div>
+</div>
+</div>
+</div>
+<div class="rt-grid-3">
+<div id="rt-sidebar-a">
+<div class="rt-block">
+<div class="module-content">
+<div class="module-tm"><div class="module-tl"><div class="module-tr"></div></div></div>
+<div class="module-l"><div class="module-r">
+<div class="module-inner">
+<div class="module-inner3">
+<ul class="menu">
+<li class="item-514 active deeper parent"><a href="/"><span>ETAPS 2020</span></a><ul class="nav-child unstyled small"><li class="item-535"><a href="/2020/doctoral-dissertation-award"><span>Doctoral dissertation award</span></a></li><li class="item-530"><a href="/2020/test-of-time-award"><span>Test of Time Award</span></a></li><li class="item-536"><a href="/2020/scholarship-for-student-volunteers"><span>Scholarship for student volunteers</span></a></li><li class="item-529"><a href="/2020/registration"><span>Registration</span></a></li><li class="item-532"><a href="/2020/accommodation"><span>Accommodation</span></a></li><li class="item-528"><a href="/2020/venue"><span>Venue</span></a></li><li class="item-521"><a href="/2020/invited-talks-tutorials"><span>Invited Talks and Tutorials</span></a></li><li class="item-526 current active"><a href="/2020/call-for-papers"><span>Call for Papers</span></a></li><li class="item-515"><a href="/2020/esop"><span>ESOP</span></a></li><li class="item-516"><a href="/2020/fase"><span>FASE</span></a></li><li class="item-517"><a href="/2020/fossacs"><span>FoSSaCS</span></a></li><li class="item-518"><a href="/2020/tacas"><span>TACAS</span></a></li><li class="item-527"><a href="/2020/workshops"><span>Workshops</span></a></li><li class="item-522"><a href="/2020/call-for-workshops"><span>Call for Workshops</span></a></li><li class="item-520"><a href="/2020/organizers"><span>Organizers</span></a></li></ul></li></ul>
+</div>
+</div>
+</div></div>
+<div class="module-bm"><div class="module-bl"><div class="module-br"></div></div></div>
+</div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+</div></div>
+</div>
+</div></div>
+</div></div>
+</div>
+</div></div></div>
+<div class="bottom-shadows-dark" id="rt-bottom"><div class="bottom-overlay-none" id="rt-bottom-overlay"><div id="rt-bottom2">
+<div class="rt-container">
+<div class="shadow-left"><div class="shadow-right">
+<div class="rt-grid-4 rt-alpha">
+<div class="rt-block">
+<div class="module-content">
+<div class="module-tm"><div class="module-tl"><div class="module-tr"></div></div></div>
+<div class="module-l"><div class="module-r">
+<div class="module-title"><div class="module-title2"><h2 class="title">Who's online</h2></div></div>
+<div class="module-inner">
+<div class="module-inner2">
+<p>We have 114 guests and no members online</p>
+</div>
+</div>
+</div></div>
+<div class="module-bm"><div class="module-bl"><div class="module-br"></div></div></div>
+</div>
+</div>
+</div>
+<div class="rt-grid-4">
+<div class="rt-block">
+<div class="module-content">
+<div class="module-tm"><div class="module-tl"><div class="module-tr"></div></div></div>
+<div class="module-l"><div class="module-r">
+<div class="module-title"><div class="module-title2"><h2 class="title">Most read</h2></div></div>
+<div class="module-inner">
+<div class="module-inner2">
+<ul class="mostread">
+<li class="mostread">
+<a class="mostread" href="/2018">ETAPS 2018</a>
+</li>
+<li class="mostread">
+<a class="mostread" href="/2017">ETAPS 2017</a>
+</li>
+<li class="mostread">
+<a class="mostread" href="/2013">ETAPS 2013</a>
+</li>
+</ul> </div>
+</div>
+</div></div>
+<div class="module-bm"><div class="module-bl"><div class="module-br"></div></div></div>
+</div>
+</div>
+</div>
+<div class="rt-grid-4 rt-omega">
+<div class="rt-block">
+<div class="module-content">
+<div class="module-tm"><div class="module-tl"><div class="module-tr"></div></div></div>
+<div class="module-l"><div class="module-r">
+<div class="module-title"><div class="module-title2"><h2 class="title">Site Hosted by</h2></div></div>
+<div class="module-inner">
+<div class="module-inner2">
+<div class="custom">
+<p><a href="http://www.rwth-aachen.de/go/id/bdz/"><img src="/images/stories/rwt2.png"/></a></p></div>
+</div>
+</div>
+</div></div>
+<div class="module-bm"><div class="module-bl"><div class="module-br"></div></div></div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+</div></div>
+</div>
+</div></div></div>
+<div class="bottom-shadows-dark" id="rt-main-footer"><div class="bottom-overlay-none" id="rt-footer-overlay"><div id="rt-main-footer2">
+<div id="rt-footer"><div id="rt-footer2">
+<div class="rt-container">
+<div class="rt-grid-12 rt-alpha rt-omega">
+<a href="#" id="gantry-totop"><span>Scroll To Top</span></a>
+</div>
+<div class="clear"></div>
+</div>
+</div></div>
+</div></div></div>
+</div></body>
+</html>

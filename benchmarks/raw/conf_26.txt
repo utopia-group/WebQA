@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]--><!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]--><!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]--><!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>FOCS 2019 -  Call For Papers</title>
+<meta content="" name="author"/>
+<meta content="Foundations Of Computer Science " name="description"/>
+<meta content="focs2018, focs18" name="keywords"/>
+<link href="http://focs2019.cs.jhu.edu/cfp/" rel="canonical"/>
+<link href="//fonts.googleapis.com/css?family=Open+Sans:600,800" rel="stylesheet" type="text/css"/>
+<link href="http://focs2019.cs.jhu.edu/assets/favicon.png" rel="shortcut icon"/>
+<link href="http://focs2019.cs.jhu.edu/atom.xml" rel="alternate" title="" type="application/atom+xml"/>
+<link href="http://focs2019.cs.jhu.edu/assets/css/all.css" rel="stylesheet"/>
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" integrity="sha256-k2/8zcNbxVIh5mnQ52A0r3a6jAgMGxFJFE2707UxGCk= sha512-ZV9KawG2Legkwp3nAlxLIVFudTauWuBpC10uEafMHYL0Sarrz5A7G79kXh5+5+woxQ5HM559XX2UZjMJ36Wplg==" rel="stylesheet"/>
+<script src="https://s3-us-west-2.amazonaws.com/ieeeshutpages/gdpr/settings.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" rel="stylesheet" type="text/css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+ window.cookieconsent.initialise(json)
+});
+</script>
+</head>
+<body>
+<div class="container">
+<div background-color="#009966" class="sixteen columns header">
+<div class="makala">
+<div class="malaka left-col">
+<h1><a href="http://focs2019.cs.jhu.edu"><img border="0" height="120" src="http://focs2019.cs.jhu.edu/assets/focs2018.gif" width="120"/></a></h1> </div>
+<div class="malaka center-col">
+<font color="#ffffff" face="Arial, Helvetica, sans-serif" size="+2"><b>FOCS 2019 </b><br/></font>
+<font color="#ffffff" face="Arial, Helvetica, sans-serif" size="4"><b>60th Annual IEEE Symposium on <br/>Foundations of Computer Science</b></font>
+<font color="#ffffff" face="Arial, Helvetica, sans-serif" size="+3"><font size="4"><b><br/>November 9-12, 2019,  Baltimore, Maryland </b></font></font></div>
+<div class="malaka right-col">
+<!-- <img src="http://focs2019.cs.jhu.edu/assets/ieee_upper.gif" width="120" height="120"> -->
+</div>
+</div>
+</div>
+<div class="four columns sidebar">
+<ul class="nav-menu" id="menu-navigation">
+
+Main
+<div>
+<table class="tg">
+<ul>
+<li class="tg-yw4l"><a href="http://focs2019.cs.jhu.edu/">Home</a></li>
+<li class="tg-yw4l"><a href="http://focs2019.cs.jhu.edu/program/program.html" target="_blank">Program</a></li>
+<li class="tg-yw4l"><a href="https://conferences.computer.org/focs/2019/#!/toc/0" target="_blank">Proceedings</a></li>
+<li class="tg-yw4l"><a href="http://bit.ly/FOCS19Videos">Videos</a>
+</li><li class="tg-yw4l"><a href="http://focs2019.cs.jhu.edu/accepted/">Accepted Papers</a></li>
+<li class="tg-yw4l"><a href="http://focs2019.cs.jhu.edu/registration/">Registration</a></li>
+<!--<li class="tg-yw4l"><a href="http://hjemmesider.diku.dk/~mthorup/FOCS18/FOCS2018-Program.htm" target="_blank">Program</a> <font size="2" color="red">Final program</font></li>  -->
+<!-- <font size="2" color="red">Final program</font></li> -->
+<li class="tg-yw4l"><a href="http://focs2019.cs.jhu.edu/awards/">Award Winners</a></li>
+<li class="tg-yw4l"><a href="http://ieee-focs.org/">FOCS archive</a></li>
+</ul>
+</table>
+</div>
+
+Special Events
+<div>
+<table class="tg">
+<ul>
+<li class="tg-yw4l"><a href="http://focs2019.cs.jhu.edu/workshops/">Workshops and Tutorials</a></li>
+<li class="tg-yw4l"><a href="https://sites.google.com/view/focs2019tributetoshafigoldwass/home">ShafiFest</a></li>
+<li class="tg-yw4l"><a href="http://focs2019.cs.jhu.edu/celebration/">60th FOCS Celebration</a></li>
+</ul>
+</table>
+</div>
+
+Travel &amp; Local Information
+<div>
+<table class="tg">
+<ul>
+<li class="tg-yw4l"><a href="http://focs2019.cs.jhu.edu/hotel/">Hotel and Venue</a></li>
+<li class="tg-yw4l"><a href="http://focs2019.cs.jhu.edu/transportation/">Transportation</a></li>
+<li class="tg-yw4l"><a href="http://focs2019.cs.jhu.edu/local_information/">Local Information</a></li>
+<!-- <li class="tg-yw4l"><a href="http://focs2019.cs.jhu.edu/restaurants/">Restaurants</a></li> -->
+<!-- <li class="tg-yw4l"><a href="http://focs2019.cs.jhu.edu/beforeafter/">Before and After</a> </li> -->
+<!-- <li class="tg-yw4l"><a href="http://focs2019.cs.jhu.edu/travelsupport/">Travel Support</a> </li> -->
+</ul>
+</table>
+</div>
+
+Calls
+<div>
+<table class="tg">
+<ul>
+<li class="tg-yw4l"><a href="http://focs2019.cs.jhu.edu/travel_grants/">Travel Awards</a></li>
+<li class="tg-yw4l"><a href="http://focs2019.cs.jhu.edu/cfp/">Call For Papers</a></li>
+<li class="tg-yw4l"><a href="http://focs2019.cs.jhu.edu/call_for_workshops/">Call for Workshops</a></li>
+<li class="tg-yw4l"><a href="http://focs2019.cs.jhu.edu/posters/">Call for Job Market Posters</a></li>
+<li class="tg-yw4l"><a href="http://focs2019.cs.jhu.edu/tota/">Test of Time Award</a></li>
+</ul>
+</table>
+</div>
+
+Inclusion and Conduct
+<div>
+<table class="tg">
+<ul>
+<li class="tg-yw4l"><a href="http://focs2019.cs.jhu.edu/coc/"> FOCS Code of Conduct</a></li>
+<li class="tg-yw4l"><a href="http://focs2019.cs.jhu.edu/ieee_statements">IEEE Inclusion and Conduct Statements</a></li>
+</ul>
+</table>
+</div>
+</ul></div>
+<div class="eleven columns content">
+<nav class="main-navigation" id="site-navigation" role="navigation">
+<h3 class="menu-toggle">Menu</h3>
+<div class="menu-navigation-container"><ul class="nav-menu" id="menu-navigation">
+
+Main
+<div>
+<table class="tg">
+<ul>
+<li class="tg-yw4l"><a href="http://focs2019.cs.jhu.edu/">Home</a></li>
+<li class="tg-yw4l"><a href="http://focs2019.cs.jhu.edu/program/program.html" target="_blank">Program</a></li>
+<li class="tg-yw4l"><a href="https://conferences.computer.org/focs/2019/#!/toc/0" target="_blank">Proceedings</a></li>
+<li class="tg-yw4l"><a href="http://bit.ly/FOCS19Videos">Videos</a>
+</li><li class="tg-yw4l"><a href="http://focs2019.cs.jhu.edu/accepted/">Accepted Papers</a></li>
+<li class="tg-yw4l"><a href="http://focs2019.cs.jhu.edu/registration/">Registration</a></li>
+<!--<li class="tg-yw4l"><a href="http://hjemmesider.diku.dk/~mthorup/FOCS18/FOCS2018-Program.htm" target="_blank">Program</a> <font size="2" color="red">Final program</font></li>  -->
+<!-- <font size="2" color="red">Final program</font></li> -->
+<li class="tg-yw4l"><a href="http://focs2019.cs.jhu.edu/awards/">Award Winners</a></li>
+<li class="tg-yw4l"><a href="http://ieee-focs.org/">FOCS archive</a></li>
+</ul>
+</table>
+</div>
+
+Special Events
+<div>
+<table class="tg">
+<ul>
+<li class="tg-yw4l"><a href="http://focs2019.cs.jhu.edu/workshops/">Workshops and Tutorials</a></li>
+<li class="tg-yw4l"><a href="https://sites.google.com/view/focs2019tributetoshafigoldwass/home">ShafiFest</a></li>
+<li class="tg-yw4l"><a href="http://focs2019.cs.jhu.edu/celebration/">60th FOCS Celebration</a></li>
+</ul>
+</table>
+</div>
+
+Travel &amp; Local Information
+<div>
+<table class="tg">
+<ul>
+<li class="tg-yw4l"><a href="http://focs2019.cs.jhu.edu/hotel/">Hotel and Venue</a></li>
+<li class="tg-yw4l"><a href="http://focs2019.cs.jhu.edu/transportation/">Transportation</a></li>
+<li class="tg-yw4l"><a href="http://focs2019.cs.jhu.edu/local_information/">Local Information</a></li>
+<!-- <li class="tg-yw4l"><a href="http://focs2019.cs.jhu.edu/restaurants/">Restaurants</a></li> -->
+<!-- <li class="tg-yw4l"><a href="http://focs2019.cs.jhu.edu/beforeafter/">Before and After</a> </li> -->
+<!-- <li class="tg-yw4l"><a href="http://focs2019.cs.jhu.edu/travelsupport/">Travel Support</a> </li> -->
+</ul>
+</table>
+</div>
+
+Calls
+<div>
+<table class="tg">
+<ul>
+<li class="tg-yw4l"><a href="http://focs2019.cs.jhu.edu/travel_grants/">Travel Awards</a></li>
+<li class="tg-yw4l"><a href="http://focs2019.cs.jhu.edu/cfp/">Call For Papers</a></li>
+<li class="tg-yw4l"><a href="http://focs2019.cs.jhu.edu/call_for_workshops/">Call for Workshops</a></li>
+<li class="tg-yw4l"><a href="http://focs2019.cs.jhu.edu/posters/">Call for Job Market Posters</a></li>
+<li class="tg-yw4l"><a href="http://focs2019.cs.jhu.edu/tota/">Test of Time Award</a></li>
+</ul>
+</table>
+</div>
+
+Inclusion and Conduct
+<div>
+<table class="tg">
+<ul>
+<li class="tg-yw4l"><a href="http://focs2019.cs.jhu.edu/coc/"> FOCS Code of Conduct</a></li>
+<li class="tg-yw4l"><a href="http://focs2019.cs.jhu.edu/ieee_statements">IEEE Inclusion and Conduct Statements</a></li>
+</ul>
+</table>
+</div>
+</ul></div>
+</nav>
+<article class="post">
+<header class="post-header">
+<h1 class="post-title">Call For Papers</h1>
+</header>
+<div class="post-content">
+<p>The 60th Annual Symposium on Foundations of Computer Science (FOCS 2019), sponsored by the IEEE Computer Society Technical Committee on Mathematical Foundations of Computing, will be held in Baltimore, Maryland, on November 9-12 (Saturday through Tuesday).</p>
+<p>The conference seeks papers presenting new and original research on the theory of computation. Typical but not exclusive topics of interest include: algorithms and data structures, computational complexity, cryptography, computational learning theory, economics and computation, parallel and distributed algorithms, quantum computing, computational geometry, computational applications of logic, algorithmic graph theory and combinatorics, optimization, randomness in computing, approximation algorithms, algorithmic coding theory, algebraic computation, and theoretical aspects of areas such as networks, privacy, information retrieval, computational biology, and databases. We encourage papers that broaden the reach of the theory of computing, or raise important problems that can benefit from theoretical investigation and analysis.</p>
+<h3 id="important-dates">Important Dates:</h3>
+<ul>
+<li>Submission deadline: 3:00pm PDT, April 5, 2019.</li>
+<li>Notification: by July 1, 2019.</li>
+<li>Final version of accepted papers due: mid-August, 2019.</li>
+</ul>
+<h3 id="submission-format">Submission format:</h3>
+<p>Submissions should start with a title page consisting of the title of the paper; each author’s name, affiliation, and email address; and an abstract of 1-2 paragraphs summarizing the paper’s contributions.</p>
+<p>There is no page limit and the authors are encouraged to use a “full version” of their paper as the submission. The submission must contain within its first ten pages (after the title page) a clear presentation of the merits of the paper, including discussion of its importance, prior work, and an outline (similar to a brief oral presentation) of key technical ideas and methods used to achieve the main claims. This part of the submission should be addressed to a broad spectrum of theoretical computer scientists, not solely to experts in the subarea.</p>
+<p>The submission should include proofs of all central claims. Although there is no bound on the length of a submission, material other than the title page, references, and the first ten pages will be read at the committee’s discretion. Authors are encouraged to put the references at the very end of the submission.</p>
+<p>The submission should be typeset using 11-point or larger fonts, in a single-column, single-space (between lines) format with ample spacing throughout and 1-inch margins all around. Submissions deviating significantly from these guidelines risk rejection without consideration of their merits.</p>
+<p>All submissions will be treated as confidential, and will only be disclosed to the committee and their chosen sub-referees. In addition, the program committee may consult with journal editors and program chairs of other conferences about controversial issues such as parallel submissions.</p>
+<h3 id="submission-instructions">Submission instructions:</h3>
+<p>Authors are required to submit their papers electronically, in PDF (without security restrictions on copying or printing). Submissions will be judged solely on the basis of the paper submitted by the deadline; post-deadline revisions will not be allowed.</p>
+<p>When you register your submission, you will, among other things, have to register an abstract in plain text. This abstract plays a prominent role in the evaluation process, e.g., it is displayed when the paper is discussed. It is therefore advised that you make sure that the plain text abstract reads well.</p>
+<p>We will be implementing a new conflict of interest policy. For details, click on the submission server link, once it’s operational.</p>
+<p><a href="https://focs19.cs.utexas.edu/">Submit
+your paper at the FOCS 2019 Submission Server here</a>.</p>
+<h3 id="online-posting">Online posting:</h3>
+<p>Authors are encouraged to post full versions of their submissions in a
+freely accessible online repository such as the <a href="http://arxiv.org/">arxiv</a>, the <a href="http://www.eccc.uni-trier.de/">ECCC</a>, or the <a href="http://eprint.iacr.org/">Cryptology ePrint archive</a>.
+(Papers that are not written well enough
+for public dissemination are probably also not ready for submission to
+FOCS.) We expect that authors of accepted papers will make full
+versions of their papers, with proofs, available before the conference
+begins. (This should be done in a manner consistent with the IEEE
+Copyright Policy.)</p>
+<h3 id="prior-and-simultaneous-submission">Prior and simultaneous submission:</h3>
+<!--
+The conference will follow
+SIGACT's policy on prior publication and simultaneous submissions.
+-->
+<p>Work that has been previously published in another conference
+proceedings or journal, or which has a chance of being published
+before the end of the conference, will not be considered for
+acceptance at FOCS 2019.  Simultaneous submission of the same (or
+essentially the same) extended abstract to FOCS 2019 and to another conference
+with published proceedings is not allowed.
+The only exceptions to this policy are prior or simultaneous publications appearing in the journals Science and Nature.
+<em>If there are other submissions/publications with substantial overlap, then this should be disclosed on the title page.</em></p>
+<h3 id="awards">Awards:</h3>
+<p>The Machtey award will be given to the best paper or papers written
+solely by one or more students. An abstract is eligible if all authors
+are full-time students at the time of submission. Eligibility should be
+indicated at the time of submission. All submissions are eligible for
+the Best Paper award. The committee may decide to split the awards
+between multiple papers, or may decline to make an award.</p>
+<h3 id="presentation-of-accepted-papers">Presentation of Accepted Papers:</h3>
+<p>One author of each accepted paper will be expected to present the work
+at the conference.</p>
+<h3 id="program-committee">Program Committee:</h3>
+<center>
+<table>
+<tbody>
+<tr>
+<td align="left" width="200">Zeyuan Allen-Zhu</td>
+<td align="left">Microsoft Research AI</td>
+</tr>
+<tr>
+<td align="left" width="200">Andris Ambainis</td>
+<td align="left">University of Latvia</td>
+</tr>
+<tr>
+<td align="left" width="200">Alexandr Andoni</td>
+<td align="left">Columbia University</td>
+</tr>
+<tr>
+<td align="left" width="200">Adam Bouland</td>
+<td align="left">University of California, Berkeley</td>
+</tr>
+<tr>
+<td align="left" width="200">Karl Bringmann</td>
+<td align="left">Max Planck Institute for Informatics</td>
+</tr>
+<tr>
+<td align="left" width="200">Siu On Chan</td>
+<td align="left">Chinese University of Hong Kong</td>
+</tr>
+<tr>
+<td align="left" width="200">Shuchi Chawla</td>
+<td align="left">University of Wisconsin, Madison</td>
+</tr>
+<tr>
+<td align="left" width="200">Michael Elkin</td>
+<td align="left">Ben-Gurion University of the Negev</td>
+</tr>
+<tr>
+<td align="left" width="200">Alina Ene</td>
+<td align="left">Boston University</td>
+</tr>
+<tr>
+<td align="left" width="200">Yuval Filmus</td>
+<td align="left">Technion - Israel Institute of Technology</td>
+</tr>
+<tr>
+<td align="left" width="200">Fabrizio Grandoni</td>
+<td align="left">IDSIA, University of Lugano</td>
+</tr>
+<tr>
+<td align="left" width="200">Anupam Gupta</td>
+<td align="left">Carnegie Mellon University</td>
+</tr>
+<tr>
+<td align="left" width="200">Venkatesan Guruswami</td>
+<td align="left">Carnegie Mellon University</td>
+</tr>
+<tr>
+<td align="left" width="200">Daniel Kane</td>
+<td align="left">University of California, San Diego</td>
+</tr>
+<tr>
+<td align="left" width="200">Adam Klivans</td>
+<td align="left">University of Texas at Austin</td>
+</tr>
+<tr>
+<td align="left" width="200">Huijia (Rachel) Lin</td>
+<td align="left">University of Washington</td>
+</tr>
+<tr>
+<td align="left" width="200">Shachar Lovett</td>
+<td align="left">University of California, San Diego</td>
+</tr>
+<tr>
+<td align="left" width="200">Aleksandar Nikolov</td>
+<td align="left">University of Toronto</td>
+</tr>
+<tr>
+<td align="left" width="200">Rotem Oshman</td>
+<td align="left">Tel Aviv University</td>
+</tr>
+<tr>
+<td align="left" width="200">Shayan Oveis Gharan</td>
+<td align="left">University of Washington</td>
+</tr>
+<tr>
+<td align="left" width="200">Debmalya Panigrahi</td>
+<td align="left">Duke University</td>
+</tr>
+<tr>
+<td align="left" width="200">Richard Peng</td>
+<td align="left">Georgia Tech &amp; Microsoft Research</td>
+</tr>
+<tr>
+<td align="left" width="200">Nitin Saxena</td>
+<td align="left">Indian Institute of Technology, Kanpur</td>
+</tr>
+<tr>
+<td align="left" width="200">Tselil Schramm</td>
+<td align="left">Harvard University and MIT</td>
+</tr>
+<tr>
+<td align="left" width="200">Daniel Stefankovic</td>
+<td align="left">University of Rochester</td>
+</tr>
+<tr>
+<td align="left" width="200">Avishay Tal</td>
+<td align="left">Stanford University</td>
+</tr>
+<tr>
+<td align="left" width="200">Santosh Vempala</td>
+<td align="left">Georgia Institute of Technology</td>
+</tr>
+<tr>
+<td align="left" width="200">Daniel Wichs</td>
+<td align="left">Northeastern University</td>
+</tr>
+<tr>
+<td align="left" width="200">Huacheng Yu</td>
+<td align="left">Harvard University</td>
+</tr>
+<tr>
+<td align="left" width="200">David Zuckerman (chair)</td>
+<td align="left">University of Texas at Austin</td>
+</tr>
+</tbody>
+</table>
+</center>
+<h3 id="contact-information">Contact Information:</h3>
+<p>General Chair: Yuval Rabani, The Hebrew University of Jerusalem, <a href="mailto:yrabani@cs.huji.ac.il" rel="nofollow">yrabani@cs.huji.ac.il</a></p>
+<p>Program Committee Chair: <a href="http://www.cs.utexas.edu/~diz">David Zuckerman</a>, University of Texas at Austin, <a href="mailto:focs19chair@gmail.com" rel="nofollow">focs19chair@gmail.com</a></p>
+<p>Local Arrangements Chair: <a href="http://www.cs.jhu.edu/~mdinitz/">Michael Dinitz</a>, Johns Hopkins University, <a href="mailto:mdinitz@cs.jhu.edu" rel="nofollow">mdinitz@cs.jhu.edu</a></p>
+<p>ToC Advocates (for harassment issues): Sandy Irani, UC Irvine, <a href="irani@ics.uci.edu" rel="nofollow">irani@ics.uci.edu</a>, and Martin Farach-Colton, Rutgers University, <a href="martin@farach-colton.com" rel="nofollow">martin@farach-colton.com</a></p>
+</div>
+</article>
+<div class="footer">
+<div class="disclaimer">
+<a href="http://ieee-focs.org/" rel="nofollow">FOCS archive</a>
+	| <a href="http://www.computer.org/" rel="nofollow">IEEE CS</a>
+	   | <a href="https://tc.computer.org/tcmf/" rel="nofollow">TCMF</a>
+			| <a href="http://www.acm.org/" rel="nofollow">ACM</a>
+					| <a href="http://sigact.acm.org/" rel="nofollow">SIGACT</a>
+						| <a href="https://www.ieee.org/security-privacy.html">IEEE Privacy Policy </a>
+   | Built with <a href="http://jekyllrb.com/">Jekyll</a>
+</div>
+</div>
+</div>
+</div>
+<script src="http://focs2019.cs.jhu.edu/assets/js/navigation.js" type="text/javascript">
+</script>
+</body>
+</html>

@@ -1,0 +1,684 @@
+{
+    "id": 0,
+    "content": "CS221: Artificial Intelligence: Principles and Techniques",
+    "children": [
+        {
+            "id": 1,
+            "content": "CS221: Artificial Intelligence: Principles and Techniques",
+            "key": 1
+        },
+        {
+            "id": 2,
+            "content": "Logistics",
+            "key": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "content": "Time/location:",
+                    "key": 1
+                },
+                {
+                    "id": 4,
+                    "content": "",
+                    "isList": true,
+                    "key": 2,
+                    "children": [
+                        {
+                          "id": 5,
+                          "content": "Lectures:",
+                          "key": 1,
+                          "children": [
+                            {
+                              "id": 6,
+                              "content": "Monday Wednesday 1:30 - 2:50pm in NVIDIA auditorium (watch online)",
+                              "key": 1
+                            }
+                          ]
+                        },
+                      {
+                        "id": 7,
+                        "content": "Sections:",
+                        "key": 2,
+                        "children": [
+                          {
+                            "id": 8,
+                            "content": "Thurs 3:30 - 4:20pm in Skilling auditorium",
+                            "key": 1
+                          }
+                        ]
+                      },
+                      {
+                        "id": 9,
+                        "content": "Office hours:",
+                        "key": 3,
+                        "children": [
+                          {
+                            "id": 10,
+                            "content": "CA office hours are in the Huang basement; see calendar for times; see [Office Hour Logistics] for logistics.",
+                            "key": 1
+                          }
+                        ]
+                      }
+                    ]
+                },
+              {
+                "id": 11,
+                "content": "Communication:",
+                "key": 3,
+                "children": [
+                  {
+                    "id": 12,
+                    "content": "We will use Piazza for all communications: announcements and questions related to lectures, assignments, and projects. NOTE: If you enrolled in this class on Axess, you should be added to the Piazza group automatically, within a few hours. You can also register independently; there is no access code required to join the group. SCPD students, please email scpd-gradstudents@stanford.edu or call 650-204-3984 if you need assistance.",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 13,
+                "content": "Gradescope : You will submit all assignments and project milestones on Gradescope, where you will also find your grades.",
+                "key": 4
+              },
+              {
+                "id": 14,
+                "content": "Instructors:",
+                "key": 5,
+                "children": [
+                  {
+                    "id": 15,
+                    "content": "Percy Liang",
+                    "key": 1
+                  },
+                  {
+                    "id": 16,
+                    "content": "Dorsa Sadigh",
+                    "key": 2
+                  }
+                ]
+              },
+              {
+                "id": 17,
+                "content": "Course assistants:",
+                "isList": true,
+                "key": 6,
+                "children": [
+                  {
+                    "id": 18,
+                    "content": "Reid Pryzant (Head CA)",
+                    "isList": true,
+                    "key": 1
+                  },
+                  {
+                    "id": 19,
+                    "content": "Susanna Maria Baby",
+                    "isList": true,
+                    "key": 2
+                  },
+                  {
+                    "id": 20,
+                    "content": "Di Bai",
+                    "isList": true,
+                    "key": 3
+                  },
+                  {
+                    "id": 21,
+                    "content": "Zach Barnes",
+                    "isList": true,
+                    "key": 4
+                  },
+                  {
+                    "id": 22,
+                    "content": "Hancheng Cao",
+                    "isList": true,
+                    "key": 5
+                  },
+                  {
+                    "id": 23,
+                    "content": "Horace Chu",
+                    "isList": true,
+                    "key": 6
+                  },
+                  {
+                    "id": 24,
+                    "content": "Will Deaderick",
+                    "isList": true,
+                    "key": 7
+                  },
+                  {
+                    "id": 25,
+                    "content": "Haoshen Hong",
+                    "isList": true,
+                    "key": 8
+                  },
+                  {
+                    "id": 26,
+                    "content": "Cindy Jiang",
+                    "isList": true,
+                    "key": 9
+                  },
+                  {
+                    "id": 27,
+                    "content": "Chuma Kabaghe",
+                    "isList": true,
+                    "key": 10
+                  },
+                  {
+                    "id": 28,
+                    "content": "Dhruv Kedia",
+                    "isList": true,
+                    "key": 11
+                  },
+                  {
+                    "id": 29,
+                    "content": "Jon Kotker",
+                    "isList": true,
+                    "key": 12
+                  },
+                  {
+                    "id": 30,
+                    "content": "Richard Diehl Martinez",
+                    "isList": true,
+                    "key": 13
+                  },
+                  {
+                    "id": 31,
+                    "content": "Marcus Pålsson",
+                    "isList": true,
+                    "key": 14
+                  },
+                  {
+                    "id": 32,
+                    "content": "Chuanbo Pan",
+                    "isList": true,
+                    "key": 15
+                  },
+                  {
+                    "id": 33,
+                    "content": "Jerry Qu",
+                    "isList": true,
+                    "key": 16
+                  },
+                  {
+                    "id": 34,
+                    "content": "Andrew Tan",
+                    "isList": true,
+                    "key": 17
+                  },
+                  {
+                    "id": 35,
+                    "content": "Sharman Tan",
+                    "isList": true,
+                    "key": 18
+                  },
+                  {
+                    "id": 36,
+                    "content": "Christopher Waites",
+                    "isList": true,
+                    "key": 19
+                  }
+                ]
+              }
+            ]
+        },
+      {
+        "id": 37,
+        "content": "Content",
+        "key": 3,
+        "children": [
+          {
+            "id": 38,
+            "content": "What is this course about? What do web search, speech recognition, face recognition, machine translation, autonomous driving, and automatic scheduling have in common? These are all complex real-world problems, and the goal of artificial intelligence (AI) is to tackle these with rigorous mathematical tools. In this course, you will learn the foundational principles that drive these applications and practice implementing some of these systems. Specific topics include machine learning, search, game playing, Markov decision processes, constraint satisfaction, graphical models, and logic. The main goal of the course is to equip you with the tools to tackle new AI problems you might encounter in life.",
+            "key": 1
+          },
+          {
+            "id": 39,
+            "content": "Prerequisites: This course is fast-paced and covers a lot of ground, so it is important that you have a solid foundation on both the theoretical and empirical fronts. You should have taken the following classes (or their equivalents):",
+            "key": 2
+          },
+          {
+            "id": 40,
+            "content": "",
+            "isList": true,
+            "key": 3,
+            "children": [
+              {
+                "id": 41,
+                "content": "Programming (CS 106A, CS 106B, CS 107)",
+                "key": 1
+              },
+              {
+                "id": 42,
+                "content": "Discrete math (CS 103)",
+                "key": 2
+              },
+              {
+                "id": 43,
+                "content": "Probability (CS 109)",
+                            "key": 3
+                        }
+                    ]
+                },
+                {
+                    "id": 44,
+                    "content": "Reading: There is no required textbook for this class, and you should be able to learn everything from the lecture notes and homeworks. However, if you would like to pursue more advanced topics or get another perspective on the same material, here are some books:",
+                    "key": 4
+                },
+                {
+                    "id": 45,
+                    "content": "",
+                    "isList": true,
+                    "key": 5,
+                    "children": [
+                        {
+                            "id": 46,
+                            "content": "Russell and Norvig. Artificial Intelligence: A Modern Approach. A comprehensive reference for all the AI topics that we will cover.",
+                            "key": 1
+                        },
+                        {
+                            "id": 47,
+                            "content": "Koller and Friedman. Probabilistic Graphical Models. Covers factor graphs and Bayesian networks (this is the textbook for CS228).",
+                            "key": 2
+                        },
+                        {
+                            "id": 48,
+                            "content": "Sutton and Barto. Reinforcement Learning: An Introduction. Covers Markov decision processes and reinforcement learning. Available free online.",
+                            "key": 3
+                        },
+                        {
+                            "id": 49,
+                          "content": "Hastie, Tibshirani, and Friedman. The elements of statistical learning. Covers machine learning. Available free online.",
+                          "key": 4
+                        },
+                      {
+                        "id": 50,
+                        "content": "Tsang. Foundations of constraint satisfaction. Covers constraint satisfaction problems. Available free online.",
+                        "key": 5
+                      }
+                    ]
+                },
+          {
+            "id": 51,
+            "content": "Bear in mind that some of these books can be quite dense and use different notation terminology, so it might take some effort to connect up with the material from class.",
+            "key": 6
+          },
+          {
+            "id": 52,
+            "content": "Video Access Disclaimer:",
+            "key": 7,
+            "children": [
+              {
+                "id": 53,
+                "content": "Video cameras located in the back of the room will capture the instructor presentations in this course. For your convenience, you can access these recordings by logging into the course Canvas site. These recordings might be reused in other Stanford courses, viewed by other Stanford students, faculty, or staff, or used for other education and research purposes. Note that while the cameras are positioned with the intention of recording only the instructor, occasionally a part of your image or voice might be incidentally captured. If you have questions, please contact a member of the teaching team.",
+                "key": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 54,
+        "content": "Office Hour Logistics",
+        "key": 4,
+        "children": [
+          {
+            "id": 55,
+            "content": "CA office hours are either in the Huang basement or online. See the calendar for the schedule. Stanford students have in-person office hours. SCPD students have online office hours.",
+            "key": 1
+          },
+          {
+            "id": 56,
+            "content": "",
+            "isList": true,
+            "key": 2,
+            "children": [
+              {
+                "id": 57,
+                "content": "For in-person office hours, there will be a queue on the whiteboard where you can write your name down.",
+                "key": 1
+              },
+              {
+                "id": 58,
+                "content": "For SCPD online office hours, you will need to register an account on QueueStatus. When you wish to join the queue, click \"Sign Up\" at the CS 221 queue. Be sure to enter your email when you \"Sign Up\"; this is a way for the CA to contact you. For online office hours, you will need to install Zoom to video call with the CA. See instructions below.",
+                "key": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 59,
+        "content": "Installing Zoom",
+        "isList": true,
+        "key": 5,
+        "children": [
+          {
+            "id": 60,
+            "content": "Linux :",
+            "isList": true,
+            "key": 1,
+            "children": [
+              {
+                "id": 61,
+                "content": "Go to downloads and download appropriate Linux package from 'Zoom Client for Linux'.",
+                "key": 1
+              },
+              {
+                "id": 62,
+                "content": "Open package (e.g. with 'Ubuntu Software Center' or other appropriate application) and install.",
+                "key": 2
+              }
+            ]
+          },
+          {
+            "id": 63,
+            "content": "Windows :",
+            "isList": true,
+            "key": 2,
+            "children": [
+              {
+                "id": 64,
+                "content": "Go to Stanford Zoom and click 'Launch Zoom'.",
+                "key": 1
+              },
+              {
+                "id": 65,
+                "content": "Click 'host meeting'; nothing will launch but there will a link to 'download & run Zoom'.",
+                "key": 2
+              },
+              {
+                "id": 66,
+                "content": "Click on 'download & run Zoom' to download 'Zoom_launcher.exe'.",
+                "key": 3
+              },
+              {
+                "id": 67,
+                "content": "Run 'Zoom_launcher.exe' to install.",
+                "key": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 68,
+        "content": "Coursework",
+        "key": 6
+      },
+      {
+        "id": 69,
+        "content": "Grading",
+        "isList": true,
+        "key": 7,
+        "children": [
+          {
+            "id": 70,
+            "content": "Homeworks (60%): There will be weekly homeworks with both written and programming parts. Each homework is centered around an application and will also deepen your understanding of the theoretical concepts. Some homeworks will have a competition component; winners will receive extra credit. Here are all the homework deadlines:",
+            "key": 1
+          },
+          {
+            "id": 71,
+            "content": "",
+            "key": 2,
+            "children": [
+              {
+                "id": 72,
+                "content": "Exam (20%): The exam is a three - hour written exam that will test your knowledge and problem - solving skills on all preceding lectures and homeworks. You cannot use any external aids except one double - sided page of notes. If you have a major conflict (e.g., an academic conference), submit a request to take it at another (earlier) time. Your request must be submitted by Thurs Oct 31 . Date: Tuesday, November 19, 6:15 - 9:15PM (PST) Location: last name A - K : Hewlett 200, L - S : Cubberley Aud, T - Z : 420 - 040",
+                "key": 1
+              },
+              {
+                "id": 73,
+                "content": "",
+                "isList": true,
+                "key": 2,
+                "children": [
+                  {
+                    "id": 74,
+                    "content": "2019 exam [solutions]",
+                    "key": 1
+                  },
+                  {
+                    "id": 75,
+                    "content": "2018 exam [solutions]",
+                    "key": 2
+                  },
+                  {
+                    "id": 76,
+                    "content": "2017 exam [solutions]",
+                    "key": 3
+                  },
+                  {
+                    "id": 77,
+                    "content": "2016 exam [solutions]",
+                    "key": 4
+                  },
+                  {
+                    "id": 78,
+                    "content": "2015 exam [solutions]",
+                    "key": 5
+                  },
+                  {
+                    "id": 79,
+                    "content": "2014 exam [solutions]",
+                    "key": 6
+                  },
+                  {
+                    "id": 80,
+                    "content": "2013 exam [solutions]",
+                    "key": 7
+                  }
+                ]
+              },
+              {
+                "id": 81,
+                "content": "For SCPD students, your exams will be distributed through the SCPD office once you have set up an exam monitor.",
+                "key": 3
+              }
+            ]
+          },
+          {
+            "id": 82,
+            "content": "",
+            "key": 3,
+            "children": [
+              {
+                "id": 83,
+                "content": "Project (20%): The final project provides an opportunity for you to use the tools from class to build something interesting of your choice. Projects should be done in groups of up to three. The project will be something that you work on throughout the course and we have set up some milestones to help you along the way:",
+                "key": 1
+              },
+              {
+                "id": 84,
+                "content": "See the project page for more details.",
+                "key": 2
+              },
+              {
+                "id": 85,
+                "content": "Regardless of the group size, all groups must submit the same basic amount of work as detailed in each milestone. Of course, the experiments may not always be successful, so we will cut the smaller groups more slack, while larger groups are expected to be more thorough in their experiments.",
+                "key": 3
+              },
+              {
+                "id": 86,
+                "content": "For inspiration, we have made some previous CS221 projects available for viewing.",
+                "key": 4
+              }
+            ]
+          },
+          {
+            "id": 87,
+            "content": "Piazza :",
+            "key": 4,
+            "children": [
+              {
+                "id": 88,
+                "content": "You will be awarded with up to 2% extra credit if you answer other students' questions in a substantial and helpful way.",
+                "key": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 89,
+        "content": "Assignments",
+        "key": 8,
+        "children": [
+          {
+            "id": 90,
+            "content": "Written assignments:",
+            "key": 1,
+            "children": [
+              {
+                "id": 91,
+                "content": "Homeworks should be written up clearly and succinctly; you may lose points if your answers are unclear or unnecessarily complicated. Here is an example of what we are looking for. You are encouraged to use LaTeX to writeup your homeworks (here's a template), but this is not a requirement. You will receive one (1) bonus point for submitting a typed written assignment (e.g. LaTeX, Microsoft Word). We will accept scanned handwritten assignments but they will not receive the bonus point.",
+                "key": 1
+              }
+            ]
+          },
+          {
+            "id": 92,
+            "content": "Programming assignments:",
+            "key": 2,
+            "children": [
+              {
+                "id": 93,
+                "content": "The grader runs on Python 3, which is not guaranteed to work with older versions (Python 2.7). Please use Python 3 to develop your code.",
+                "key": 1
+              }
+            ]
+          },
+          {
+            "id": 94,
+            "content": "The programming assignments are designed to be run in GNU/Linux environments. Most or all of the grading code may incidentally work on other systems such as MacOS or Windows, and students may optionally choose to do most of their development in one of these alternative environments. However, no technical support will be provided for issues that only arise on an alternative environment. Moreover, no matter what environment is used during development, students must confirm that their code (specifically, the student's `submission.py`) runs on Gradescope,.",
+            "key": 3
+          },
+          {
+            "id": 95,
+            "content": "The submitted code will not be graded if it has one of the following issues:",
+            "key": 4
+          },
+          {
+            "id": 96,
+            "content": "",
+            "isList": true,
+            "key": 5,
+            "children": [
+              {
+                "id": 97,
+                "content": "The original `grader.py` script (operating on the submitted `submission.py`) may not exit normally if you use calls such as `quit()`, `exit()`, `sys.exit()`, and `os.exit()`. Also note that Python packages outside the standard library are not guaranteed to work. This includes packages like numpy, scikit-learn, and pandas.",
+                "key": 1
+              },
+              {
+                "id": 98,
+                "content": "The code reads external resources other than the files given in the assignment.",
+                "key": 2
+              },
+              {
+                "id": 99,
+                "content": "The code is malicious. This is considered a violation of the honor code. The score of the assignment will be zero (0) and the incident will be reported to the Office of Judicial Affairs.",
+                "key": 3
+              }
+            ]
+          },
+          {
+            "id": 100,
+            "content": "Collaboration policy and honor code: You are free to form study groups and discuss homeworks and projects. However, you must write up homeworks and code from scratch independently, and you must acknowledge in your submission all the students you discussed with. The following are considered to be honor code violations:",
+            "key": 6
+          },
+          {
+            "id": 101,
+            "content": "",
+            "isList": true,
+            "key": 7,
+            "children": [
+              {
+                "id": 102,
+                "content": "Looking at the writeup or code of another student.",
+                "key": 1
+              },
+              {
+                "id": 103,
+                "content": "Showing your writeup or code to another student.",
+                "key": 2
+              },
+              {
+                "id": 104,
+                "content": "Discussing homework problems in such detail that your solution (writeup or code) is almost identical to another student's answer.",
+                "key": 3
+              },
+              {
+                "id": 105,
+                "content": "Uploading your writeup or code to a public repository (e.g. github, bitbucket, pastebin) so that it can be accessed by other students.",
+                "key": 4
+              },
+              {
+                "id": 106,
+                "content": "Looking at solutions from previous years' homeworks - either official or written up by another student.",
+                "key": 5
+              }
+            ]
+          },
+          {
+            "id": 107,
+            "content": "When debugging code together, you are only allowed to look at the input-output behavior of each other's programs (so you should write good test cases!). It is important to remember that even if you didn't copy but just gave another student your solution, you are still violating the honor code, so please be careful. We periodically run similarity-detection software over all submitted student programs, including programs from past quarters and any solutions found online on public websites. Anyone violating the honor code will be referred to the Office of Judicial Affairs. If you feel like you made a mistake (it can happen, especially under time pressure!), please reach out to the instructor or the head CA; the consequences will be much less severe than if we approach you.",
+            "key": 8
+          }
+        ]
+      },
+      {
+        "id": 108,
+        "content": "Submission",
+        "key": 9,
+        "children": [
+          {
+            "id": 109,
+            "content": "Electronic Submission:",
+            "key": 1,
+            "children": [
+              {
+                "id": 110,
+                "content": "All assignments are due at 11pm (23:00, not 23:59) Pacific time on the due date. Assignments are submitted through Gradescope. Do not submit your assignment via email. If anything goes wrong, please ask a question on Piazza or contact a course assistant. If you need to sign up for a Gradescope account, please use your @stanford.edu email address. You can submit as many times as you'd like until the deadline: we will only grade the last submission. Submit early to make sure your submission runs properly on the Gradescope servers. Gradescope will run `grader.py` on the programming questions and give you feedback on non-hidden test cases. You are responsible for checking that your program runs properly on these cases. You will not get credit otherwise. If anything goes wrong, please ask a question on Piazza or contact a course assistant. Do not email us your submission. Partial work is better than not submitting any work.",
+                "key": 1
+              }
+            ]
+          },
+          {
+            "id": 111,
+            "content": "For assignments with a programming component, we will automatically sanity check your code in some basic test cases, but we will grade your code on additional test cases. Important : just because you pass the basic test cases, you are by no means guaranteed to get full credit on the other, hidden test cases, so you should test the program more thoroughly yourself!",
+            "key": 2
+          },
+          {
+            "id": 112,
+            "content": "Unless the assignment instructs otherwise, all of your code modifications should be in `submission.py` and all of your written answers in `<assignment ID>.pdf`. Upload the former to Gradescope under the \"Programming\" section, and the latter under the \"Written\" section. For the project milestones, make sure the all members of your group submits. The submission should include a `group.txt` file which should contain the SUNetIDs of the entire group, one per line.",
+            "key": 3
+          },
+          {
+            "id": 113,
+            "content": "Late days:",
+            "key": 4,
+            "children": [
+              {
+                "id": 114,
+                "content": "An assignment is $\\lceil d \\rceil$ days late if it is turned in $d$ days past the due date (note that this means if you are $1$ second late, $d = 1$ and it is 1 day late). You have seven (7) late days in total that can be distributed among the assignments (except for p-poster, p-peer, and p-final) without penalty. After that, the maximum possible grade is decreased by 25% each day (so the best you can do with $d = 1$ is 75%). As an example, if you are out of late days and submit one day late, a 90 will be capped at a 75, but a 72 will not be changed. Note that we will only allow a max of $d = 2$ late days per assignment, though, so if $d > 2$ then we will not accept your submission. Gradescope is set up to accept written and programming submissions separately. Late days are calculated per-assignment, with the number of late days used depending on the later submission. So, if the programming part is $1$ day late and the written part is $2$ days late, then that will count as using $2$ late days.",
+                "key": 1
+              }
+            ]
+          },
+          {
+            "id": 115,
+            "content": "Regrades :",
+            "key": 5,
+            "children": [
+              {
+                "id": 116,
+                "content": "If you believe that the course staff made an objective error in grading, then you may submit a regrade request for the written part of your assignment. Remember that even if the grading seems harsh to you, the same rubric was used for everyone for fairness, so this is not sufficient justification for a regrade. It is also helpful to cross - check your answer against the released solutions. If you still choose to submit a regrade request, click the corresponding question on Gradescope, then click the \"Request Regrade\" button at the bottom. Any requests submitted over email or in person will be ignored. Regrade requests for a particular assignment are due by Sunday 11:59pm, one week after the grades are returned. Note that we may regrade your entire submission, so that depending on your submission you may actually lose more points than you gain.",
+                "key": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 117,
+        "content": "Schedule",
+        "key": 10
+      }
+    ]
+}

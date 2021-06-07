@@ -1,0 +1,399 @@
+<html><head><link href="style.css" rel="stylesheet" type="text/css"/>
+<title>Todd Millstein</title>
+<!-- <BODY TEXT="#000000" BGCOLOR="#ffffff"> -->
+<!-- <h2><img src="./mugshot.gif"></h2> -->
+</head><body><table>
+<tr>
+<td> <img src="./photo.jpg"/>
+</td><td></td><td></td><td>
+</td><td>
+<h3>Todd Millstein</h3>
+<b>Professor
+Vice Chair for Graduate Studies</b><br/><br/>
+<a href="http://www.cs.ucla.edu">UCLA Computer Science Department</a><br/>
+476 Engineering VI<br/>
+Los Angeles, CA  90095-1596<br/>
+todd [at] cs.ucla.edu<br/>
+(310) 825-5942<br/>
+<!-- <br>Spring 2018 Office Hour: 4-5pm Mondays and by appointment -->
+</td></tr><tr>
+</tr></table>
+<center>
+[ <a href="#projects">projects</a>
+| 
+<!-- <a href="#news">news</a> -->
+<!-- <a href="research/millsteinCV.pdf">CV</a> -->
+<a href="#pubs">publications</a>
+| <a href="#students">students</a>
+<!-- | <a href="#software">software</a> -->
+| <a href="#courses">courses</a>
+<!-- | <a href="#activities">professional activities</a> -->
+| <a href="#bio">bio</a>
+]
+</center>
+<hr/>
+<h3><a name="projects">Current Research Projects</a></h3>
+<i>Verified Software</i>
+<div style="padding-left:25px;padding-right:20%;">
+Despite lots of testing, bugs are rampant in
+modern software systems.  How do we make it cost-effective
+to <i>verify</i> critical correctness properties of programs?  This
+question motivates a lot of my research; current directions
+include <a href="http://web.cs.ucla.edu/~todd/research/pldi16.pdf">automatic
+    inference of program properties</a>
+and <a href="http://web.cs.ucla.edu/~todd/research/icml18.pdf">abstractions
+    for reasoning about probabilistic programs</a>.</div><br/>
+<i>Simple and Efficient Concurrency</i>
+<div style="padding-left:25px;padding-right:20%;">
+Mainstream programming languages like C++ and Java provide an
+incredibly complex and error-prone semantics for threads in the name
+of efficiency.  Can we instead provide the simple interleaving
+semantics of threads (known formally as <i>sequential consistency</i>)
+at a reasonable cost?  <a href="http://www.cs.ucla.edu/~todd/research/snapl15.pdf">Start here</a> for
+the high-level problem and motivation.  In recent work we built a <a href="http://web.cs.ucla.edu/~todd/research/pldi19.pdf">sequentially
+consistent Java virtual machine</a> and measured its performance.</div><br/>
+<i>Network Programming and Verification</i>
+<div style="padding-left:25px;padding-right:20%;">
+Computer networks have become critical infrastructure for all Internet-based services, and as a result the requirements on and complexity of networks have rapidly increased.  Can programming languages technology help to manage this complexity?  We are working on both <a href="http://www.cs.ucla.edu/~todd/research/nsdi15_batfish.pdf">verification</a> of existing networks and <a href="http://www.cs.ucla.edu/~todd/research/sigcomm16.pdf">new languages</a> to design networks that are correct by construction.
+</div><br/>
+<h3><a name="pubs">Recent Publications</a></h3>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=nsdi20">Finding Network Misconfigurations by Automatic Template Inference</a>  (NSDI 2020)<br/>
+       Siva Kesava Reddy Kakarla, Alan Tang, Ryan Beckett, Karthick Jayaraman, Todd Millstein, Yuval Tamir, George Varghese<p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=uai19">Generating and Sampling Orbits for Lifted Probabilistic Inference</a>  (UAI 2019, <b>Oral Presentation</b>)<br/>
+       Steven Holtzen, Todd Millstein, Guy Van den Broeck</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=cav19">Overfitting in Synthesis: Theory and Practice</a>  (CAV 2019)<br/>
+       Saswat Padhi, Todd Millstein, Aditya Nori, Rahul Sharma</p><p>
+<a href="research/pubs.php">more publications...</a>
+<br/><br/>
+</p><h3><a name="students"> PhD Students
+<br/>
+</a></h3>
+<a href="http://web.cs.ucla.edu/~sholtzen">Steven Holtzen</a>
+(co-advised with <a href="http://web.cs.ucla.edu/~guyvdb">Guy Van den
+  Broeck</a>)
+<a href="http://web.cs.ucla.edu/~sivakesava">Siva Kesava Reddy Kakarla</a> (co-advised
+with <a href="http://web.cs.ucla.edu/~varghese">George Varghese</a>)
+<a href="http://web.cs.ucla.edu/~lunliu93">Lun Liu</a>
+<a href="http://www.cs.ucla.edu/~padhi">Saswat Padhi</a>
+<a href="https://www.aishwarya.dev">Aishwarya Sivaraman</a><br/>
+Alan Tang (co-advised
+with <a href="http://web.cs.ucla.edu/~varghese">George Varghese</a>)
+<br/><a href="alumni.html"><b>Graduated Students</b></a>
+<br/><br/>
+<h3><a name="courses">Courses</a></h3>
+
+I regularly teach these courses:
+
+<p>CS30: Principles and Practices of Computing
+<br/>an introduction to computing for computer-science majors with no prior
+programming experience
+
+</p><p>CS131: Programming Languages
+<br/>an upper-division undergraduate course on
+programming language concepts and the
+relationships among different programming paradigms
+
+<!-- <p><a href="http://www.cs.ucla.edu/~palsberg/course/cs132/project.html">CS132</a>: Compiler Construction -->
+<!-- <br>&nbsp;&nbsp; an upper-division undergraduate course in which students -->
+<!-- build a compiler from a subset of Java to MIPS assembly<br> -->
+<!-- <p>CS137A/237A: Prototyping Programming Languages (with Alex Warth and
+  Alan Kay)
+<br>an elective on approaches to implementing languages
+and language extensions in lightweight ways
+
+<p>CS137B/237B: Programming Language Design Laboratory (with Alex
+  Warth and Alan Kay)
+<br>an elective where students design, implement, and
+evaluate their own languages and language extensions -->
+</p><p>CS231:
+Types and Programming Languages
+<br/>an introductory graduate course on 
+programming language theory and static type systems
+
+</p><p>CS239: Current Topics in Programming Languages and Systems
+<br/>a graduate research seminar with varying topics
+<br/> <br/>
+<!-- <h3><a name="activities">Upcoming Professional Activities</h3> -->
+<!-- <p> -->
+<!-- <\!-- Program Committee Member: <br> -\-> -->
+<!-- <\!-- <a href="http://pag.csail.mit.edu/paste2005/">PASTE 2005</a>, ACM Workshop on -\-> -->
+<!-- <\!-- Program Analysis for Software Tools and Engineering. -\-> -->
+<!-- <\!-- <br> -\-> -->
+<!-- <\!-- <a href="http://aosd.net/2006/index.php">AOSD 2006</a>, -\-> -->
+<!-- <\!-- Aspect-Oriented Software Development Conference. -\-> -->
+<!-- <\!-- <br> -\-> -->
+<!-- <\!-- <a -\-> -->
+<!-- <\!-- href="http://www.cs.iastate.edu/~leavens/FOAL/index-2006.shtml">FOAL -\-> -->
+<!-- <\!-- 2006</a>, -\-> -->
+<!-- <\!-- Foundations of Aspect-Oriented Languages Workshop. -\-> -->
+<!-- <\!-- <br> -\-> -->
+<!-- <\!-- <a href="http://research.microsoft.com/conferences/pldi06/">PLDI 2006</a>, -\-> -->
+<!-- <\!-- ACM Conference on Programming Language Design and Implementation. -\-> -->
+<!-- <\!-- <br> -\-> -->
+<!-- <\!-- <a href="http://www.oopsla.org/2006">OOPSLA 2006</a>, -\-> -->
+<!-- <\!-- ACM SIGPLAN International Conference on Object-Oriented Programming -\-> -->
+<!-- <\!-- Systems, Languages and Applications. -\-> -->
+<!-- <\!-- <br> -\-> -->
+<!-- <\!-- <a href="http://foolwood07.cs.uchicago.edu">FOOL/WOOD 2007</a>, -\-> -->
+<!-- <\!--  2007 International Workshop on -\-> -->
+<!-- <\!-- Foundations and Developments of Object-Oriented Languages.<br> -\-> -->
+<!-- <\!-- <a -\-> -->
+<!-- <\!-- href="http://www.cs.iastate.edu/~leavens/FOAL/index-2007.shtml">FOAL -\-> -->
+<!-- <\!-- 2007</a>, Foundations of Aspect-Oriented Languages Workshop.</br> -\-> -->
+<!-- <\!-- <a href="http://cc2007.cs.brown.edu">CC 2007</a>, -\-> -->
+<!-- <\!-- 16th International Conference on Compiler Construction. -\-> -->
+<!-- <\!-- <br> -\-> -->
+<!-- <\!-- <a href="http://ties.ucsd.edu/PLDI/poster_session.shtml">PLDI 2007 Student Research Competition</a> -\-> -->
+<!-- <\!-- <br> -\-> -->
+<!-- <\!-- <a href="http://icfp07.eecs.harvard.edu">ICFP 2007</a>, -\-> -->
+<!-- <\!-- ACM SIGPLAN International Conference on Functional Programming.<br> -\-> -->
+<!-- <\!-- <a -\-> -->
+<!-- <\!-- href="http://www.oopsla.org/oopsla2007/index.php?page=subs/doctoralsymposium/">OOPSLA 2007 Doctoral Symposium</a><br> -\-> -->
+<!-- <\!-- PC Member, <a href="http://aosd.net/2008">AOSD 2008</a>, -\-> -->
+<!-- <\!-- International Conference on Aspect-Oriented Software Development.<br> -\-> -->
+<!-- <\!-- Chair, PLDI 2008 <a -\-> -->
+<!-- <\!-- href="http://www.cs.ucla.edu/~todd/pldi08/PLDI08-SRC.html">Student -\-> -->
+<!-- <\!-- Research Competition</a><br> -\-> -->
+<!-- <\!-- PC Member, <a href="http://2008.ecoop.org">ECOOP 2008</a>, -\-> -->
+<!-- <\!-- European Conference on Object-Oriented Programming<br> -\-> -->
+<!-- <\!-- Panelist, ECOOP 2008 <a -\-> -->
+<!-- <\!-- href="http://2008.ecoop.org/doctoral.html">Doctoral Symposium</a><br> -\-> -->
+<!-- <\!-- Chair, OOPSLA 2008 <a href="http://www.oopsla.org/oopsla2008/cfp_doctoralsymposium.html">Doctoral Symposium</a> -\-> -->
+<!-- <\!-- <br> -\-> -->
+<!-- <\!-- Co-PC Chair, <a href="http://sneezy.cs.nott.ac.uk/darcs/plpv09">PLPV -\-> -->
+<!-- <\!-- 2009</a>, Workshop on Programming Languages Meet Program -\-> -->
+<!-- <\!-- Verification<br> -\-> -->
+<!-- <\!-- PC Member, <a href="http://www.oopsla.org">OOPSLA 2009</a><br> -\-> -->
+<!-- <\!-- PC Member, <a -\-> -->
+<!-- <\!-- href="http://software.imdea.org/events/plas2010/index.html">PLAS -\-> -->
+<!-- <\!-- 2010</a> -\-> -->
+<!-- <\!-- Program Committee Member, <a href="http://2011.ecoop.org">ECOOP 2011</a><br> -\-> -->
+<!-- <\!-- External Review Committee Member, <a href="http://splashcon.org/2011/cfp/100">OOPSLA 2011</a><br> -\-> -->
+<!-- <\!-- Program Committee Member, <a -\-> -->
+<!-- <\!-- href="http://www.cse.psu.edu/popl/12">POPL 2012</a><br> -\-> -->
+<!-- <\!-- Program Committee Member, <a href="http://pldi12.cs.purdue.edu">PLDI 2012</a><br> -\-> -->
+<!-- <\!-- Program Committee Member, <a -\-> -->
+<!-- <\!-- href="http://www.dynamic-languages-symposium.org/dls-12">DLS -\-> -->
+<!-- <\!-- 2012</a><br> -\-> -->
+<!-- <\!-- External Review Committee Member, <a -\-> -->
+<!-- <\!-- href="http://popl.mpi-sws.org/2013">POPL 2013</a><br> -\-> -->
+<!-- <\!-- External Review Committee -\-> -->
+<!-- <\!-- Member, <a href="http://pldi2013.ucombinator.org">PLDI 2013</a><br> -\-> -->
+<!-- <\!-- Program Committee Member, <a href="http://splashcon.org/2013">OOPSLA -\-> -->
+<!-- <\!--   2013</a><br> -\-> -->
+<!-- <\!-- External Review -\-> -->
+<!-- <\!-- Committee, <a href="https://www.cs.utah.edu/asplos14">ASPLOS 2014</a><br> -\-> -->
+<!-- <\!-- Program Committee Member, -\-> -->
+<!-- <\!-- <a href="http://flint.cs.yale.edu/esop2014">ESOP 2014</a><br> -\-> -->
+<!-- <\!-- Program Committee Member, <a href="http://2014.icse-conferences.org">ICSE 2014</a><br> -\-> -->
+<!-- <\!-- Program Chair, <a href="http://splashcon.org/2014">OOPSLA -\-> -->
+<!-- <\!--   2014</a><br> -\-> -->
+<!-- <\!-- Program Committee Member, <a href="http://2015.ecoop.org">ECOOP 2015</a><br> -\-> -->
+<!-- <\!-- Program Committee Member, <a href="http://2015.splashcon.org">OOPSLA 2015</a><br> -\-> -->
+<!-- Program Committee Member, <a href="http://conf.researchr.org/home/pldi-2016">PLDI 2016</a><br> -->
+<!-- External Program Committee
+Member, <a href="http://conf.researchr.org/home/pldi-2017">PLDI
+  2017</a><br> -->
+<!-- Program
+Chair, <a href="http://conf.researchr.org/home/ecoop-2018">ECOOP
+  2018</a><br> -->
+<!-- Program Committee Member, <a href="https://2018.splashcon.org">OOPSLA 2018</a><br>
+<br> -->
+</p><h3><a name="bio">Brief Biography</a></h3>
+
+I joined the UCLA faculty in November 2003.
+I am also a co-founder and Chief Scientist
+of <a href="https://www.intentionet.com">Intentionet</a>.
+I have been an Academic Visitor at Oxford (2010-11), a Visiting
+Researcher at Microsoft Research (2012), and a Visiting
+Fellow at Princeton (2018-19).
+I received my PhD from the <a href="http://www.washington.edu/">University of Washington</a>
+Department of <a href="http://www.cs.washington.edu">Computer
+Science</a>, where  I was a member of the Cecil
+group led by <a href="https://research.google.com/pubs/author4707.html">Craig
+Chambers</a>.
+Before that, I was an undergraduate at <a href="http://www.brown.edu">Brown University</a>, where I was advised
+by <a href="http://www.cs.brown.edu/~pck">Paris Kanellakis</a> and
+<a href="http://pwp.gatech.edu/pascal-van-hentenryck/">Pascal Van Hentenryck</a>.  I
+grew up in suburban Maryland, outside of Washington D.C.<br/><br/>
+
+I received an NSF CAREER award in 2006, an IBM Faculty Award in 2008, the
+<a href="http://www.sigplan.org/Awards/PLDI">Most Influential PLDI
+  Paper Award</a> in 2011, an IEEE Micro Top Picks selection in 2012,
+the Northrop
+    Grumman Excellence in Teaching Award from UCLA Engineering in
+  2016, 
+a <a href="https://www.microsoft.com/en-us/research/academic-program/outstanding-collaborator-award">Microsoft
+    Research Outstanding Collaborator Award</a> in 2016, and
+  an <a href="http://okawa-foundation.or.jp/en/index.html">Okawa
+  Foundation</a> Research Grant in 2016.
+<br/><br/>
+<div bgcolor="#ffffff" text="#000000">
+<h2>Publications</h2>
+<small>Any opinions, findings, and conclusions or recommendations expressed
+in this material are those of the author(s) and do not necessarily
+reflect the views of the National Science Foundation or the Defense
+Advanced Research Projects Agency.</small>
+<blockquote>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=nsdi20">Finding Network Misconfigurations by Automatic Template Inference</a>  (NSDI 2020)<br/>
+       Siva Kesava Reddy Kakarla, Alan Tang, Ryan Beckett, Karthick Jayaraman, Todd Millstein, Yuval Tamir, George Varghese<p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=uai19">Generating and Sampling Orbits for Lifted Probabilistic Inference</a>  (UAI 2019, <b>Oral Presentation</b>)<br/>
+       Steven Holtzen, Todd Millstein, Guy Van den Broeck</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=cav19">Overfitting in Synthesis: Theory and Practice</a>  (CAV 2019)<br/>
+       Saswat Padhi, Todd Millstein, Aditya Nori, Rahul Sharma</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=pldi19">Accelerating Sequential Consistency for Java with Speculative Compilation</a>  (PLDI 2019)<br/>
+       Lun Liu, Todd Millstein, Madanlal Musuvathi</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=oopsla18">FlashProfile: A Framework for Synthesizing Data Profiles</a>  (OOPSLA 2018)<br/>
+       Saswat Padhi, Prateek Jain, Daniel Perelman, Oleksandr Polozov, Sumit Gulwani, Todd Millstein</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=vldbj18">Adding data provenance support to Apache Spark</a>  (VLDB Journal, <b>Special issue on best papers of VLDB 2016</b>)<br/>
+       Matteo Interlandi, Ari Ekmekji, Kshitij Shah, Muhammad Ali Gulzar, Sai Deep Tetali, Miryung Kim, Todd Millstein, Tyson Condie</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=icml18">Sound Abstraction and Decomposition of Probabilistic Programs</a>  (ICML 2018)<br/>
+       Steven Holtzen, Guy Van den Broeck, Todd Millstein</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=oopsla17">A Volatile-by-Default JVM for Server Applications</a>  (OOPSLA 2017)<br/>
+       Lun Liu, Todd Millstein, Madanlal Musuvathi</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=uai17">Probabilistic Program Abstractions</a>  (UAI 2017)<br/>
+       Steven Holtzen, Todd Millstein, Guy Van den Broeck</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=pldi17">Network Configuration Synthesis with Abstract Topologies</a>  (PLDI 2017)<br/>
+       Ryan Beckett, Ratul Mahajan, Todd Millstein, Jitendra Padhye, David Walker</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=osdi16">Efficient Network Reachability Analysis Using a Succinct Control Plane Representation</a>  (OSDI 2016)<br/>
+       Seyed K. Fayaz, Tushar Sharma, Ari Fogel, Ratul Mahajan, Todd Millstein, Vyas Sekar, George Varghese</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=socc16">Optimizing Interactive Development of Data-Intensive Applications</a>  (SOCC 2016)<br/>
+       Matteo Interlandi, Sai Deep Tetali, Muhammad Ali Gulzar, Joseph Noor, Tyson Condie, Miryung Kim, Todd Millstein</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=toplas16">DRFx: An Understandable, High Performance, and Flexible Memory Model for Concurrent Languages</a>  (TOPLAS)<br/>
+       Daniel Marino, Abhayendra Singh, Todd Millstein, Madanlal Musuvathi, Satish Narayanasamy</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=sigcomm16">Don't Mind the Gap: Bridging Network-wide Objectives and Device-level Configurations</a>  (SIGCOMM 2016, <b>Best Paper Award</b>)<br/>
+       Ryan Beckett, Ratul Mahajan, Todd Millstein, Jitendra Padhye, David Walker</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=cacm16">Technical Perspective: Toward Reliable Programming for Unreliable Hardware</a>  (CACM)<br/>
+       Todd Millstein</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=hotcloud16">Interactive Debugging for Big Data Analytics</a>  (HotCloud 2016)<br/>
+       Muhammad Ali Gulzar, Xueyuan Han, Matteo Interlandi, Shaghayegh Mardani, Sai Deep Tetali, Tyson Condie, Todd Millstein, Miryung Kim</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=pldi16">Data-Driven Precondition Inference with Learned Features</a>  (PLDI 2016, <b>Winner of the Invariant Synthesis track in both the <a href="http://sygus.seas.upenn.edu/SyGuS-COMP2017.html">2017</a>
+    and <a href="http://sygus.seas.upenn.edu/SyGuS-COMP2018.html">2018</a> Syntax Guided Synthesis Competition</b>)<br/>
+       Saswat Padhi, Rahul Sharma, Todd Millstein</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=icse16">BigDebug: Debugging Primitives for Interactive Big Data Processing in Spark</a>  (ICSE 2016)<br/>
+       Muhammad Ali Gulzar, Matteo Interlandi, Seunghyun Yoo, Sai Deep Tetali, Tyson Condie, Todd Millstein, Miryung Kim</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=vldb16">Titian: Data Provenance Support in Spark</a>  (PVLDB, <b>Selected for The VLDB Journal's special issue on best
+      papers of VLDB 2016</b>)<br/>
+       Matteo Interlandi, Kshitij Shah, Sai Deep Tetali, Muhammad Ali Gulzar, Seunghyun Yoo, Miryung Kim, Todd Millstein, Tyson Condie</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=oopsla15">Checks and Balances: Constraint Solving without Surprises in Object-Constraint Programming Languages</a>  (OOPSLA 2015)<br/>
+       Tim Felgentreff, Todd Millstein, Alan Borning, Robert Hirschfeld</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=snapl15">The Silently Shifting Semicolon</a>  (SNAPL 2015)<br/>
+       Daniel Marino, Todd Millstein, Madanlal Musuvathi, Satish Narayanasamy, Abhayendra Singh</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=nsdi15_batfish">A General Approach to Network Configuration Analysis</a>  (NSDI 2015)<br/>
+       Ari Fogel, Stanley Fung, Luis Pedrosa, Meg Walraed-Sullivan, Ramesh Govindan, Ratul Mahajan, Todd Millstein</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=nsdi15_pic">Analyzing Protocol Implementations for Interoperability</a>  (NSDI 2015)<br/>
+       Luis Pedrosa, Ari Fogel, Nupur Kothari, Ramesh Govindan, Ratul Mahajan, Todd Millstein</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=onward14">Call by Meaning</a>  (Onward! 2014)<br/>
+       Hesam Samimi, Chris Deaton, Yoshiki Ohshima, Alessandro Warth, Todd Millstein</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=cav14">Automatic Atomicity Verification for Clients of Concurrent Data Structures</a>  (CAV 2014)<br/>
+       Mohsen Lesani, Todd Millstein, Jens Palsberg</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=oopsla13">MrCrypt: Static Analysis for Secure Cloud Computations</a>  (OOPSLA 2013)<br/>
+       Sai Deep Tetali, Mohsen Lesani, Rupak Majumdar, Todd Millstein</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=issta13">Declarative Mocking</a>  (ISSTA 2013)<br/>
+       Hesam Samimi, Rebecca Hicks, Ari Fogel, Todd Millstein</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=micro13">A Safety-First Approach to Memory Models</a>  (IEEE Micro)<br/>
+       Abhayendra Singh, Satish Narayanasamy, Daniel Marino, Todd Millstein, Madanlal Musuvathi</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=icse13">RERAN: Timing- and Touch-Sensitive Record and Replay for Android</a>  (ICSE 2013)<br/>
+       Lorenzo Gomez, Iulian Neamtiu, Tanzirul Azim, Todd Millstein</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=spsm12">Dr. Android and Mr. Hide: Fine-grained Permissions in Android Applications</a>  (SPSM 2012)<br/>
+       Jinseong Jeon, Kristopher K. Micinski, Jeffrey A. Vaughan, Ari Fogel, Nikhilesh Reddy, Jeffrey S. Foster, Todd Millstein</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=csf12">Secure Information Flow for Concurrent Programs under Total Store Order</a>  (CSF 2012)<br/>
+       Jeffrey A. Vaughan, Todd Millstein</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=isca12">End-to-End Sequential Consistency</a>  (ISCA 2012, <b>IEEE Micro Top Pick</b>)<br/>
+       Abhayendra Singh, Satish Narayanasamy, Daniel Marino, Todd Millstein, Madanlal Musuvathi</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=icse12">Automated Repair of HTML Generation Errors in PHP Applications Using String Constraint Solving</a>  (ICSE 2012)<br/>
+       Hesam Samimi, Max Schäfer, Shay Artzi, Todd Millstein, Frank Tip, Laurie Hendren</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=oopsla11">Tool-supported Refactoring for JavaScript</a>  (OOPSLA 2011)<br/>
+       Asger Felthaus, Todd Millstein, Anders Møller, Max Schäfer, Frank Tip</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=sigcomm11">Finding Protocol Manipulation Attacks</a>  (SIGCOMM 2011)<br/>
+       Nupur Kothari, Ratul Mahajan, Todd Millstein, Ramesh Govindan, Madanlal Musuvathi</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=pldi11">A Case for an SC-Preserving Compiler</a>  (PLDI 2011)<br/>
+       Daniel Marino, Abhayendra Singh, Todd Millstein, Madanlal Musuvathi, Satish Narayanasamy</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=asplos11">Efficient Processor Support for DRFx, a Memory Model with Exceptions</a>  (ASPLOS 2011)<br/>
+       Abhayendra Singh, Daniel Marino, Satish Narayanasamy, Todd Millstein, Madanlal Musuvathi</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=ecoop10">Falling Back on Executable Specifications</a>  (ECOOP 2010)<br/>
+       Hesam Samimi, Ei Darli Aung, Todd Millstein</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=pldi10">DRFx: A Simple and Efficient Memory Model for Concurrent Programming Languages</a>  (PLDI 2010)<br/>
+       Daniel Marino, Abhayendra Singh, Todd Millstein, Madanlal Musuvathi, Satish Narayanasamy</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=toplas10">JavaCOP: Declarative Pluggable Types for Java</a>  (TOPLAS)<br/>
+       Shane Markstrum, Daniel Marino, Matthew Esquivel, Todd Millstein, Chris Andreae, James Noble</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=ecoop09">Fine-Grained Access Control with Object-Sensitive Roles</a>  (ECOOP 2009)<br/>
+       Jeffrey Fischer, Daniel Marino, Rupak Majumdar, Todd Millstein</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=toplas09">Expressive and Modular Predicate Dispatch for Java</a>  (TOPLAS)<br/>
+       Todd Millstein, Christopher Frost, Jason Ryder, Alessandro Warth</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=tldi09">A Generic Type-and-Effect System</a>  (TLDI 2009)<br/>
+       Daniel Marino, Todd Millstein</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=hotnets08">Can You Fool Me? Towards Automatically Checking Protocol Gullibility</a>  (HotNets 2008)<br/>
+       Milan Stanojevic, Ratul Mahajan, Todd Millstein, Madanlal Musuvathi</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=ecoop08">An Extensible State Machine Pattern for Interactive Applications</a>  (ECOOP 2008)<br/>
+       Brian Chin, Todd Millstein</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=ipsn08">Deriving State Machines from TinyOS Programs using Symbolic Execution</a>  (IPSN 2008, <b>Best Paper Award</b>)<br/>
+       Nupur Kothari, Todd Millstein, Ramesh Govindan</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=pepm08">Packrat Parsers Can Support Left Recursion</a>  (PEPM 2008)<br/>
+       Alessandro Warth, James R. Douglass, Todd Millstein</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=pldi07">Reliable and Efficient Programming Abstractions for Wireless Sensor Networks</a>  (PLDI 2007)<br/>
+       Nupur Kothari, Ramakrishna Gummadi, Todd Millstein, Ramesh Govindan</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=paste07">Enforcing and Validating User-Defined Programming Disciplines</a>  (PASTE 2007)<br/>
+       Brian Chin, Daniel Marino, Shane Markstrum, Todd Millstein</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=aosd07">Declarative Failure Recovery for Sensor Networks</a>  (AOSD 2007)<br/>
+       Ramakrishna Gummadi, Nupur Kothari, Todd Millstein, Ramesh Govindan</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=pepm07">Tasks: Language Support for Event-driven Programming</a>  (PEPM 2007)<br/>
+       Jeffrey Fischer, Rupak Majumdar, Todd Millstein</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=oopsla06a">Statically Scoped Object Adaptation with Expanders</a>  (OOPSLA 2006)<br/>
+       Alessandro Warth, Milan Stanojevic, Todd Millstein</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=oopsla06b">A Framework for Implementing Pluggable Type Systems</a>  (OOPSLA 2006)<br/>
+       Chris Andreae, James Noble, Shane Markstrum, Todd Millstein</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=wmm06">Mechanized Metatheory for User-Defined Type Extensions</a>  (WMM 2006)<br/>
+       Daniel Marino, Brian Chin, Todd Millstein, Gang Tan, Robert Simmons, David Walker</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=ecoop06">Responders: Language Support for Interactive Applications</a>  (ECOOP 2006)<br/>
+       Brian Chin, Todd Millstein</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=toplas06">MultiJava: Design Rationale, Compiler Implementation, and Applications</a>  (TOPLAS)<br/>
+       Curtis Clifton, Todd Millstein, Gary Leavens, Craig Chambers</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=esop06">Inference of User-Defined Type Qualifiers and Qualifier Rules</a>  (ESOP 2006)<br/>
+       Brian Chin, Shane Markstrum, Todd Millstein, Jens Palsberg</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=foolwood06">Modularly Typesafe Interface Dispatch in JPred</a>  (FOOL/WOOD 2006)<br/>
+       Christopher Frost, Todd Millstein</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=pldi05">Semantic Type Qualifiers</a>  (PLDI 2005)<br/>
+       Brian Chin, Shane Markstrum, Todd Millstein</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=entcs05">Cobalt: A Language for Writing Provably-Sound Compiler Optimizations</a>  (ENTCS)<br/>
+       Sorin Lerner, Todd Millstein, Craig Chambers</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=toplas05">Polymorphic Predicate Abstraction</a>  (TOPLAS)<br/>
+       Thomas Ball, Todd Millstein, Sriram Rajamani</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=scp05">Generating Error Traces from Verification-Condition Counterexamples</a>  (SCP)<br/>
+       Rustan Leino, Todd Millstein, James Saxe</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=popl05">Automated Soundness Proofs for Dataflow Analyses and Transformations via Local Rules</a>  (POPL 2005)<br/>
+       Sorin Lerner, Todd Millstein, Erika Rice, Craig Chambers</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=iandc04">Bounded Similarity Querying for Time-Series Data</a>  (I&amp;C)<br/>
+       Dina Goldin, Todd Millstein, Ayferi Kutlu</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=oopsla04">Practical Predicate Dispatch</a>  (OOPSLA 2004)<br/>
+       Todd Millstein</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=toplas04">Modular Typechecking for Hierarchically Extensible Datatypes and Functions</a>  (TOPLAS)<br/>
+       Todd Millstein, Colin Bleckner, Craig Chambers</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=dissertation">Reconciling Software Extensibility with Modular Program Reasoning</a>  (PhD Dissertation)<br/>
+       Todd Millstein</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=oopsla03">Relaxed MultiJava: Balancing Extensibility and Modular Typechecking</a>  (OOPSLA 2003)<br/>
+       Todd Millstein, Mark Reay, Craig Chambers</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=pldi03">Automatically Proving the Correctness of Compiler Optimizations</a>  (PLDI 2003, <b>Best Paper Award</b>)<br/>
+       Sorin Lerner, Todd Millstein, Craig Chambers</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=jcss">Query Containment for Data Integration Systems</a>  (JCSS)<br/>
+       Todd Millstein, Alon Halevy, Marc Friedman</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=icfp02">Modular Typechecking for Hierarchically Extensible Datatypes and Functions</a>  (ICFP 2002)<br/>
+       Todd Millstein, Colin Bleckner, Craig Chambers</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=iandc">Modular Statically Typed Multimethods</a>  (I&amp;C)<br/>
+       Todd Millstein, Craig Chambers</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=pldi01">Automatic Predicate Abstraction of C Programs</a>  (PLDI 2001, <b><a href="http://www.sigplan.org/Awards/Conferences/PLDI/2011">2011 Most Influential PLDI Paper Award</a></b>)<br/>
+       Thomas Ball, Rupak Majumdar, Todd Millstein, Sriram Rajamani</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=oopsla00">MultiJava: Modular Open Classes and Symmetric Multiple Dispatch for Java</a>  (OOPSLA 2000)<br/>
+       Curtis Clifton, Gary Leavens, Craig Chambers, Todd Millstein</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=pods00">Query Containment for Data Integration Systems</a>  (PODS 2000)<br/>
+       Todd Millstein, Alon Halevy, Marc Friedman</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=aaai99-revised">Navigational Plans for Data Integration</a>  (AAAI 1999)<br/>
+       Marc Friedman, Alon Halevy, Todd Millstein</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=ecoop99">Modular Statically Typed Multimethods</a>  (ECOOP 1999)<br/>
+       Todd Millstein, Craig Chambers</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=oopsla98">Multiple Dispatch as Dispatch on Tuples</a>  (OOPSLA 1998)<br/>
+       Gary Leavens, Todd Millstein</p><p>
+<a href="http://www.cs.ucla.edu/~todd/research/pub.php?id=ijcai97">Automatic SAT-Compilation of Planning Problems</a>  (IJCAI 1997)<br/>
+       Michael Ernst, Todd Millstein, Daniel Weld</p><p>
+</p></blockquote>
+</div></body></html>

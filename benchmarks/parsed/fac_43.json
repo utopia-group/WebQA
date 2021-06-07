@@ -1,0 +1,726 @@
+{
+    "id": 0,
+    "content": "Toby Murray",
+    "children": [
+        {
+            "id": 1,
+            "content": "",
+            "isList": true,
+            "key": 1,
+            "children": [
+                {
+                    "id": 2,
+                    "content": "Toby Murray",
+                    "isList": true,
+                    "key": 1,
+                    "children": [
+                        {
+                            "id": 3,
+                            "content": "Senior Lecturer (roughly US Associate Professor)",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "content": ",Coordinator for Master of IT Cyber Security",
+                    "isList": true,
+                    "key": 2
+                },
+                {
+                    "id": 5,
+                    "content": "toby.murray@unimelb.edu.au,Research Integrity Advisor",
+                    "isList": true,
+                    "key": 3
+                },
+                {
+                    "id": 6,
+                    "content": "Office 8.17, Doug McDonell Building,",
+                    "isList": true,
+                    "key": 4
+                },
+                {
+                    "id": 7,
+                    "content": ",School of Computing and Information Systems,",
+                    "isList": true,
+                    "key": 5
+                },
+                {
+                    "id": 8,
+                    "content": "Twitter:",
+                    "key": 6,
+                    "children": [
+                        {
+                            "id": 9,
+                            "content": "@tobycmurray,University of Melbourne",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "content": "My Data61 page,",
+                    "isList": true,
+                    "key": 7
+                },
+                {
+                    "id": 11,
+                    "content": ",Senior Researcher,",
+                    "isList": true,
+                    "key": 8
+                },
+                {
+                    "id": 12,
+                    "content": "My Blog ,Trustworthy Systems Group, Data61",
+                    "isList": true,
+                    "key": 9
+                },
+                {
+                    "id": 13,
+                    "content": "",
+                    "isList": true,
+                    "key": 10,
+                    "children": [
+                        {
+                            "id": 14,
+                            "content": "News",
+                            "key": 1
+                        },
+                        {
+                            "id": 15,
+                            "content": "About Me",
+                            "key": 2
+                        },
+                        {
+                            "id": 16,
+                            "content": "Research & Collaborations",
+                            "key": 3
+                        },
+                        {
+                            "id": 17,
+                            "content": "Working with Me",
+                            "key": 4
+                        },
+                        {
+                            "id": 18,
+                            "content": "Publications",
+                            "key": 5
+                        },
+                        {
+                            "id": 19,
+                            "content": "Teaching",
+                            "key": 6
+                        },
+                        {
+                            "id": 20,
+                            "content": "Students",
+                            "key": 7
+                        },
+                        {
+                            "id": 21,
+                            "content": "Service",
+                            "key": 8
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "content": "News",
+            "key": 2,
+            "children": [
+                {
+                    "id": 23,
+                    "content": "(archive)",
+                    "key": 1
+                },
+                {
+                    "id": 24,
+                    "content": "Last Updated:",
+                    "key": 2,
+                    "children": [
+                        {
+                            "id": 25,
+                            "content": "March 2020",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 26,
+                    "content": "Welcome Mukesh Tiwari",
+                    "key": 3,
+                    "children": [
+                        {
+                            "id": 27,
+                            "content": "I'm very pleased to announce that Mukesh Tiwari has joined us as a postdoc, to continue our work on Security Concurrent Separation Logic (SecCSL), for formally reasoning about information flow for concurrent programs. Mukesh joins us after a PhD at ANU, where he researched how to apply formal methods to make electronic voting more secure.",
+                            "isList": true,
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 28,
+                    "content": "I'm Hiring: 2-year postdoc position on verified timing-channel security for seL4",
+                    "key": 4,
+                    "children": [
+                        {
+                            "id": 29,
+                            "content": "Timing channels plague modern systems, undermining their security. Yet no operating system provides provable protection against them. We believe that seL4 can be the first kernel to meet this challenge, building on its world-first proof of confidentiality enforcement and its unique mechanisms for implementing time protection.",
+                            "key": 1
+                        },
+                        {
+                            "id": 30,
+                            "content": "I'm seeking a postdoc researcher to work with me, Gerwin Klein, Gernot Heiser, and the seL4 team, to make this vision a reality. Further details about the project and the approach we are taking can be found in our position paper, which appeared at HotOS 2019.",
+                            "key": 2
+                        },
+                        {
+                            "id": 31,
+                            "content": "To apply, or fore more information, visit: http://jobs.unimelb.edu.au/caw/en/job/900474/research-fellow-in-verified-operating-system-security. Applications close: February 25, 09:00am Australian Eastern Daylight Time (GMT +11) .",
+                            "key": 3
+                        }
+                    ]
+                },
+                {
+                    "id": 32,
+                    "content": "COVERN Compiler and ITP 2019 Paper",
+                    "key": 5,
+                    "children": [
+                        {
+                            "id": 33,
+                            "content": "Congratulations to my outstanding PhD student Rob Sison who just presented his first first-author paper at the International Conference on Interactive Theorem Proving (ITP) 2019. The paper presents the verification of the COVERN Compiler, a proof of concept compiler from a simple While language to a simple RISC assembly language that, unlike every other compiler on earth, supports compilation of shared-memory concurrent programs while provably preserving information flow security. The compiler artifact is freely available and its verification rests on a new technique for decomposing proofs of concurrent value-dependent noninterference into a set of simpler proof obligations (see the paper for further details).",
+                            "key": 1
+                        },
+                        {
+                            "id": 34,
+                            "content": "This work is part of the COVERN project, which is investigating methods for proving that concurrent programs do not leak sensitive information.",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 35,
+                    "content": "SecC Initial Release",
+                    "key": 6,
+                    "children": [
+                        {
+                            "id": 36,
+                            "content": "Gidon Ernst and I are thrilled to announce the initial release of the SecC automatic program verifier. SecC is the first program verifier to support automatically proving expressive information flow security for concurrent programs. SecC supports a (growing) subset of the C programming language. Its code is open source and we are using it as the foundation for a number of ongoing research activities.",
+                            "key": 1
+                        },
+                        {
+                            "id": 37,
+                            "content": "SecC is powered by a new program logic for concurrent information flow security: security concurrent separation logic. Check out our CAV 2019 paper for the technical details.",
+                            "key": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 38,
+            "content": "About Me",
+            "key": 3,
+            "children": [
+                {
+                    "id": 39,
+                    "content": "I am a Senior Lecturer in the School of Computing and Information Systems of the University of Melbourne. Prior to joining Melbourne in May 2016, I was employed in the Software Systems Research Group of NICTA (now Data61), and was a Conjoint Senior Lecturer in the school of Computer Science and Engineering of UNSW. I joined NICTA and UNSW in 2010 from Oxford, where I completed a D.Phil. (PhD) in Computer Science, awarded in 2011. Before moving to Oxford, I worked for the Defence Science and Technology Organisation after my undergraduate study at the University of Adelaide.",
+                    "key": 1
+                },
+                {
+                    "id": 40,
+                    "content": "I live in Melbourne with my wife and two children, enjoy (and sometimes write and record) alternative music, and spend too much time on Twitter engaging a hot-cold obsession with Australian politics, security and privacy. I love great ales, informed by my days in Oxford, and rich reds, like any Adelaide native.",
+                    "key": 2
+                }
+            ]
+        },
+        {
+            "id": 41,
+            "content": "Research and Collaborations",
+            "key": 4,
+            "children": [
+                {
+                    "id": 42,
+                    "content": "Note:",
+                    "key": 1,
+                    "children": [
+                        {
+                            "id": 43,
+                            "content": "the following is a historical snapshot of my research. See the News Archive page for a more up-to-date picture.",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 44,
+                    "content": "My research is focused on the problem of how to build highly secure computing systems cost-effectively. As part of this, I lead Data61's work on proving computer software and systems secure, and am leading or otherwise involved in a number of projects as part of Data61's Trustworthy Systems activity, as detailed on my Data61 page. Below are listed my current active areas of research and collaboration. My interest in security, and belief about the best ways to build secure systems more effectively, is very broad. Thus I tend to collaborate across various disciplines including Software Engineering, Systems, Hardware Security, Formal Methods, Programming Languages and Human Factors.",
+                    "key": 2
+                },
+                {
+                    "id": 45,
+                    "content": "Information Flow One of the biggest challenges faced in security today is how to ensure that computer systems can keep their secrets from well-motivated adversaries — just think of how many news stories you've read about personal information having been stolen and publicised by attackers. For this reason, a large part of my research has investigated how to guarantee the absence of unwanted information leaks in computer software and systems. I led the team that completed the world's first proof [IEEE Symposium on Security and Privacy (\"Oakland\" S&P) 2013 ] of information flow security for a general-purpose operating system kernel, seL4, which you can read more about on the Information Flow project page. This proof, along with subsequent work, guarantees that seL4 will prevent all unwanted information leaks up to timing channels, i.e. that it is free of unwanted storage channels.",
+                    "key": 3
+                },
+                {
+                    "id": 46,
+                    "content": "My current work in this space aims to understand how to verify information flow security for concurrent programs (like those that run on top of seL4), and how to compile such programs while making sure they still preserve their security guarantees. This work is being carried out under the banner of the open-source COVERN project [IEEE European Symposium on Security and Privacy (EuroS&P) 2018 ], which builds on our earlier work for exploring these questions [IEEE Computer Security Foundations Symposium (CSF) 2016 ].",
+                    "key": 4
+                },
+                {
+                    "id": 47,
+                    "content": "Alongisde this work, I've also been exploring how to build program logics for proving information flow security of low-level C code. A recent short paper [Workshop on Programming Languages and Analysis for Security (PLAS) 2017 ] describes the main ideas, developed in collaboration with Samuel Gruetter (MIT).",
+                    "key": 5
+                },
+                {
+                    "id": 48,
+                    "content": "Timing Channels Timing channels leak information (whether intentionally or not) to an adversary who can observe differences in the relative timing of different events. Unlike for storage channels, we are not yet able to prove the absence of timing channels in systems, largely because many timing channels exploit the timing properties of hardware microarchitectural features, like caches, which are not even documented, so are very difficult to reason about formally. For this reason, these channels must be dealt with empirically. I have been involved in NICTA's Timing and Side Channels activity, where we pioneered new techniques for empirically measuring the effectiveness of various timing channel mitigation techniques for seL4 [ACM Conference on Computer and Communications Security (CCS) 2014 ].",
+                    "key": 6
+                },
+                {
+                    "id": 49,
+                    "content": "Cost-Effective Verified Systems via Verifying DSLs While security proofs, like those for seL4 that I have led, can give extremely high levels of assurance for security-critical systems, they remain relatively expensive to perform. Much of my recent research has therefore focused on how to reduce the cost of verifying properties of systems software. One technique I have explored, in collaboration with Programming Languages researchers from UNSW (notably Gabi Keller) via NICTA's Cogent project, has been to write verified systems software in a Domain Specific Language (DSL). Cogent [International Conference on Functional Programming (ICFP) 2016 ] is a programming language that is carefully designed to enable systems written in it to be cheaply proved correct. It is coupled with a verifying compiler [International Conference on Interactive Theorem Proving (ITP) 2016 ] that automatically proves that the compiled code implements the Cogent source semantics. In conjunction with my PhD students Sidney Amani and Liam O'Connor (co-supervised with Gabi Keller), my undergraduate thesis student Japheth Lim, and the rest of the Cogent team, we have used this technique to build and (partially) formally verify correct Linux file systems far more cheaply than e.g. the verification for the seL4 kernel [International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2016 ].",
+                    "key": 7
+                },
+                {
+                    "id": 50,
+                    "content": "Proof Cost Estimation The effort required to verify software as being secure is an obvious barrier to its wide adoption. But just as important is the inability of software engineering managers to be able to predict the costs (and associated benefits) of proving their software correct. Another of my recent research activities has been to investigate this question in the context of NICTA's Proof, Measurement and Estimation (PME) project. As part of this work, my PhD student Daniel Matichuk and I, in collaboration with Empirical Software Engineering researchers and NICTA'sPME team, explored the relationship between the size of a statement to be proved about a piece of software, and the amount of effort required to prove the statement (using as a proxy the number of lines required to write the proof, which we had already established [ACM/IEEE Symposium on Empirical Software Engineering and Measurement (ESEM) 2014 ] is strongly linearly related). To do so, we crunched historical data about the various seL4 proofs as well as some other large, publicly available software proofs. We established empirically for the first time [International Conference on Software Engineering (ICSE) 2015 ] that a consistent relationship exists here and that it is in fact quadratic. This work is the first step towards building a predictive model for estimating the level of effort required to verify a piece of software.",
+                    "key": 8
+                },
+                {
+                    "id": 51,
+                    "content": "Proof Automation Besides writing verified software in custom DSLs leveraging verifying compilation to dramatically ease the cost of formally verifying secure systems, another more direct approach I have investigated with my PhD student Daniel Matichuk has been to develop languages in which custom, automatic proof tactics can be written for the Isabelle proof assistant. Daniel designed and developed Eisbach [International Conference on Interactive Theorem Proving (ITP) 2014 , Journal of Automated Reasoning (to appear)] the first such language that integrates with Isabelle's high-level notation for writing (structured) proofs, and so requires no knowledge of Isabelle's internals, making it usable by relative novices.",
+                    "key": 9
+                },
+                {
+                    "id": 52,
+                    "content": "Highly-Secure and Usable, Verified Cross Domain Systems All of the above research is aimed towards being able to build extremely secure systems — and to demonstrate via rigorous evidence that they are indeed so — at reasonable cost. I am currently leading, alongside Kevin Elphinstone, a collaboration with the Defence Science and Technology Group (DST Group), in which we are building and formally verifying as secure a clever Cross-Domain device called the Cross Domain Desktop Compositor (CDDC) [Annual Computer Security Applications Conference (ACSAC) 2016 ]. The CDDC allows users to interact with both highly-classified and lower-classification networks from a single display (monitor), keyboard and mouse. Its design makes it far more secure than existing solutions while also offering much greater usability, showing that with clever design usability and security need not be in conflict. We are currently working on building and verifying an seL4-based implementation of the device, leveraging our current work on verified information flow security.",
+                    "key": 10
+                },
+                {
+                    "id": 53,
+                    "content": "Usable Security As part of my work on building and verifying cross domain systems, I am also investigating how issues of usability and security, including human cognition and perception, interact with the process of formally proving a system secure. This work is still in its very early stages [Australian Computer Human Interaction Conference (OzCHI) 2018 ], and there remains much more to be done.",
+                    "key": 11
+                },
+                {
+                    "id": 54,
+                    "content": "Reasoning about Capability-Based Software Continuing the work I began during my D.Phil. (PhD), where I investigated [thesis ] techniques to formally reason about the security of capability-based security-enforcing software abstractions, I am currently collaborating with researchers from Imperial College London, Victoria University Wellington and Google on techniques for formally reasoning about risk and trust (including the absence of such) for capability-based software.",
+                    "key": 12
+                }
+            ]
+        },
+        {
+            "id": 55,
+            "content": "Working with Me",
+            "key": 5,
+            "children": [
+                {
+                    "id": 56,
+                    "content": "I'm always looking for motivated students to work with. Check out my page for prospective research students.",
+                    "key": 1
+                }
+            ]
+        },
+        {
+            "id": 57,
+            "content": "Publications",
+            "key": 6,
+            "children": [
+                {
+                    "id": 58,
+                    "content": "Google Scholar has a fairly complete list of my publications. You can also try my entry on DBLP, which may not be quite so complete.",
+                    "key": 1
+                }
+            ]
+        },
+        {
+            "id": 59,
+            "content": "Teaching",
+            "key": 7,
+            "children": [
+                {
+                    "id": 60,
+                    "content": "In 2020, I am teaching:",
+                    "key": 1
+                },
+                {
+                    "id": 61,
+                    "content": "",
+                    "isList": true,
+                    "key": 2,
+                    "children": [
+                        {
+                            "id": 62,
+                            "content": "SWEN90010 - High Integrity Systems Engineering (Semester 1)",
+                            "key": 1
+                        },
+                        {
+                            "id": 63,
+                            "content": "SWEN90006 - Software Security & Testing (Semester 2)",
+                            "key": 2
+                        },
+                        {
+                            "id": 64,
+                            "content": "COMP90038 - Algorithms and Complexity (Semester 2)",
+                            "key": 3
+                        }
+                    ]
+                },
+                {
+                    "id": 65,
+                    "content": "At UNSW, I taught:",
+                    "key": 3,
+                    "children": [
+                        {
+                            "id": 66,
+                            "content": "",
+                            "isList": true,
+                            "key": 1,
+                            "children": [
+                                {
+                                    "id": 67,
+                                    "content": "COMP4161 - Advanced Topics in Software Verification (2010, 2011, 2012, 2013, 2014 as Lecturer in Charge, 2015)",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 68,
+                                    "content": "COMP9241 - Advanced Operating Systems (Guest lecturer in Operating Systems Security, 2011, 2012, 2013, 2014, 2015)",
+                                    "key": 2
+                                }
+                            ]
+                        },
+                        {
+                            "id": 69,
+                            "content": "I have also taught half-day courses to industry on topics including:",
+                            "key": 2
+                        },
+                        {
+                            "id": 70,
+                            "content": "",
+                            "isList": true,
+                            "key": 3,
+                            "children": [
+                                {
+                                    "id": 71,
+                                    "content": "Separation Logic",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 72,
+                                    "content": "Software Model Checking for C code using CBMC",
+                                    "key": 2
+                                }
+                            ]
+                        },
+                        {
+                            "id": 73,
+                            "content": "If your company develops software and would like to know how you can more easily detect and remove bugs during development, and would like to know more, please get in touch.",
+                            "key": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 74,
+            "content": "Students",
+            "key": 8,
+            "children": [
+                {
+                    "id": 75,
+                    "content": "Current PhD students:",
+                    "isList": true,
+                    "key": 1,
+                    "children": [
+                        {
+                            "id": 76,
+                            "content": "Hoang Nguyen, University of Melbourne",
+                            "key": 1
+                        },
+                        {
+                            "id": 77,
+                            "content": "NGUYEN Duc Than, University of Melbourne",
+                            "key": 2
+                        },
+                        {
+                            "id": 78,
+                            "content": "Dongge Liu, University of Melbourne",
+                            "key": 3
+                        },
+                        {
+                            "id": 79,
+                            "content": "Renlord Yang, University of Melbourne",
+                            "key": 4
+                        },
+                        {
+                            "id": 80,
+                            "content": "Robert Sison, UNSW",
+                            "key": 5
+                        }
+                    ]
+                },
+                {
+                    "id": 81,
+                    "content": "Previous research students:",
+                    "isList": true,
+                    "key": 2,
+                    "children": [
+                        {
+                            "id": 82,
+                            "content": "Daniel Matichuk, UNSW (PhD thesis: Automation for Proof Engineering: Machine-Checked Proofs At Scale ; co-supervised with Gerwin Klein)",
+                            "key": 1
+                        },
+                        {
+                            "id": 83,
+                            "content": "David (Knobby) Clarke, University of Melbourne (PhD thesis: Analyses of Java Programs over Weak Memory; co-supervised with Tim Miller and Antonette Mendoza)",
+                            "key": 2
+                        },
+                        {
+                            "id": 84,
+                            "content": "Yude Lin, University of Melbourne (PhD thesis: Symbolic Execution with Over-Approximation; co-supervised with Tim Miller and Harald Sondergaard)",
+                            "key": 3
+                        },
+                        {
+                            "id": 85,
+                            "content": "Sidney Amani, UNSW (PhD thesis: A Methodology for Trustworthy File Systems )",
+                            "key": 4
+                        },
+                        {
+                            "id": 86,
+                            "content": "Japheth Lim, UNSW (Honours thesis: Automatically Proving the Correctness of C Code Generation)",
+                            "key": 5
+                        },
+                        {
+                            "id": 87,
+                            "content": "Sudeep Kanav (Masters student from TU Munich, thesis:",
+                            "key": 6,
+                            "children": [
+                                {
+                                    "id": 88,
+                                    "content": "Compiler Verification for a Data Format DSL)",
+                                    "key": 1
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 89,
+            "content": "Service",
+            "key": 9,
+            "children": [
+                {
+                    "id": 90,
+                    "content": "I am the coordinator for the Master of IT Cyber Security degree specialisation and am a Research Integrity Advisor.",
+                    "key": 1
+                },
+                {
+                    "id": 91,
+                    "content": "I serve, and have served, on a range of Program Committees, listed below. I am a member of IFIP WG 1.7 on Theoretical Foundations of Security Analysis and Design.",
+                    "key": 2
+                },
+                {
+                    "id": 92,
+                    "content": "Steering Committees",
+                    "key": 3,
+                    "children": [
+                        {
+                            "id": 93,
+                            "content": "ACM Workshop on Programming Languages and Analysis for Security (PLAS)",
+                            "isList": true,
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 94,
+                    "content": "Edited Books",
+                    "isList": true,
+                    "key": 4,
+                    "children": [
+                        {
+                            "id": 95,
+                            "content": "Journal of Computer Security, Special Issue on Verified Information Flow Security - Volume 25, Issue 4-5, 2017",
+                            "key": 1
+                        },
+                        {
+                            "id": 96,
+                            "content": "Proceedings of the 2016 ACM Workshop on Programming Languages and Analysis for Security (PLAS)",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 97,
+                    "content": "Program Committees",
+                    "isList": true,
+                    "key": 5,
+                    "children": [
+                        {
+                            "id": 98,
+                            "content": "CSF 2021",
+                            "key": 1
+                        },
+                        {
+                            "id": 99,
+                            "content": "SecDev 2020",
+                            "key": 2
+                        },
+                        {
+                            "id": 100,
+                            "content": "PLDI 2020 (ERC)",
+                            "key": 3
+                        },
+                        {
+                            "id": 101,
+                            "content": "CSF 2020",
+                            "key": 4
+                        },
+                        {
+                            "id": 102,
+                            "content": "POST 2020",
+                            "key": 5
+                        },
+                        {
+                            "id": 103,
+                            "content": "ESOP 2020",
+                            "key": 6
+                        },
+                        {
+                            "id": 104,
+                            "content": "ICISS 2020",
+                            "key": 7
+                        },
+                        {
+                            "id": 105,
+                            "content": "FTfJP 2019 (Co-Chair)",
+                            "key": 8
+                        },
+                        {
+                            "id": 106,
+                            "content": "SecDev 2019",
+                            "key": 9
+                        },
+                        {
+                            "id": 107,
+                            "content": "ENTROPY 2019",
+                            "key": 10
+                        },
+                        {
+                            "id": 108,
+                            "content": "FCT 2019",
+                            "key": 11
+                        },
+                        {
+                            "id": 109,
+                            "content": "CPP 2019",
+                            "key": 12
+                        },
+                        {
+                            "id": 110,
+                            "content": "ICFEM 2018 Doctoral Symposium",
+                            "key": 13
+                        },
+                        {
+                            "id": 111,
+                            "content": "OCAP 2018",
+                            "key": 14
+                        },
+                        {
+                            "id": 112,
+                            "content": "IEEE SecDev 2018",
+                            "key": 15
+                        },
+                        {
+                            "id": 113,
+                            "content": "iFM 2018",
+                            "key": 16
+                        },
+                        {
+                            "id": 114,
+                            "content": "IEEE SecDev 2017",
+                            "key": 17
+                        },
+                        {
+                            "id": 115,
+                            "content": "OCAP 2017",
+                            "key": 18
+                        },
+                        {
+                            "id": 116,
+                            "content": "CSF 2017",
+                            "key": 19
+                        },
+                        {
+                            "id": 117,
+                            "content": "FCS 2017",
+                            "key": 20
+                        },
+                        {
+                            "id": 118,
+                            "content": "TMPA 2017",
+                            "key": 21
+                        },
+                        {
+                            "id": 119,
+                            "content": "EuroS&P 2017",
+                            "key": 22
+                        },
+                        {
+                            "id": 120,
+                            "content": "CRTS 2016",
+                            "key": 23
+                        },
+                        {
+                            "id": 121,
+                            "content": "PLAS 2016 (Co-Chair)",
+                            "key": 24
+                        },
+                        {
+                            "id": 122,
+                            "content": "CRTS 2015",
+                            "key": 25
+                        },
+                        {
+                            "id": 123,
+                            "content": "SSV 2015 (Co-Chair)",
+                            "key": 26
+                        },
+                        {
+                            "id": 124,
+                            "content": "PLAS 2015",
+                            "key": 27
+                        },
+                        {
+                            "id": 125,
+                            "content": "POPL 2015 (External Review Committee)",
+                            "key": 28
+                        },
+                        {
+                            "id": 126,
+                            "content": "SSV 2014",
+                            "key": 29
+                        },
+                        {
+                            "id": 127,
+                            "content": "CPP 2013",
+                            "key": 30
+                        },
+                        {
+                            "id": 128,
+                            "content": "SSV 2012",
+                            "key": 31
+                        },
+                        {
+                            "id": 129,
+                            "content": "DCDP 2010",
+                            "key": 32
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

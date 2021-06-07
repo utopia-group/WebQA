@@ -1,0 +1,322 @@
+{
+    "id": 0,
+    "content": "Eva Darulova",
+    "children": [
+        {
+            "id": 1,
+            "content": "I am a tenure-track faculty at MPI-SWS. Before that, I did my PhD with Viktor Kuncak at EPFL. I am generally interested in programming languages, software verification and approximate computing. Currently, my focus lies on applications in numerical, embedded or cyber-physical domains.",
+            "key": 1
+        },
+        {
+            "id": 2,
+            "content": "Internship and MSc projects:",
+            "key": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "content": "in case you are interested drop me an email with a brief statement of interest and your CV.",
+                    "key": 1
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "content": "Projects",
+            "isList": true,
+            "key": 3,
+            "children": [
+                {
+                    "id": 5,
+                    "content": "Icing - a nondeterministic floating-point source semantics",
+                    "key": 1
+                },
+                {
+                    "id": 6,
+                    "content": "Flipper - a natural language robot interface",
+                    "key": 2
+                },
+                {
+                    "id": 7,
+                    "content": "FloVer - a certificate checker for roundoff error bounds",
+                    "key": 3
+                },
+                {
+                    "id": 8,
+                    "content": "Daisy - a framework for accuracy analysis and synthesis of numerical programs",
+                    "key": 4
+                },
+                {
+                    "id": 9,
+                    "content": "Rosa - the real compiler",
+                    "key": 5
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "content": "PhD Students",
+            "isList": true,
+            "key": 4,
+            "children": [
+                {
+                    "id": 11,
+                    "content": "Heiko Becker",
+                    "key": 1
+                },
+                {
+                    "id": 12,
+                    "content": "Debasmita Lohar",
+                    "key": 2
+                },
+                {
+                    "id": 13,
+                    "content": "Rosa Abbasi",
+                    "key": 3
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "content": "Postdocs",
+            "key": 5,
+            "children": [
+                {
+                    "id": 15,
+                    "content": "Clothilde Jeangoudoux",
+                    "isList": true,
+                    "key": 1
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "content": "Teaching",
+            "isList": true,
+            "key": 6,
+            "children": [
+                {
+                    "id": 17,
+                    "content": "Program Analysis (Winter 19/20)",
+                    "key": 1
+                },
+                {
+                    "id": 18,
+                    "content": "Advanced Program Analysis (blockseminar march 19)",
+                    "key": 2
+                },
+                {
+                    "id": 19,
+                    "content": "Program Analysis (Winter 18/19)",
+                    "key": 3
+                },
+                {
+                    "id": 20,
+                    "content": "Program Synthesis (Summer 2018)",
+                    "key": 4
+                },
+                {
+                    "id": 21,
+                    "content": "Static Program Analysis (Summer 2017)",
+                    "key": 5
+                },
+                {
+                    "id": 22,
+                    "content": "Approximate Computing:",
+                    "key": 6,
+                    "children": [
+                        {
+                            "id": 23,
+                            "content": "Promise or Hype? (Summer 2016)",
+                            "key": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "content": "Service",
+            "isList": true,
+            "key": 7,
+            "children": [
+                {
+                    "id": 25,
+                    "content": "current:",
+                    "key": 1,
+                    "children": [
+                        {
+                            "id": 26,
+                            "content": "CAV 2020 (PC), PLDI 2020 (ERC)",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 27,
+                    "content": "recent:",
+                    "key": 2,
+                    "children": [
+                        {
+                            "id": 28,
+                            "content": "ECOOP 2019 (PC), CAV 2019 (PC), OOPSLA 2019 (ERC), WAX 2019 (PC), FHPNC 2019 (PC), PLDI 2018 (PC, SRC), CAV 2018 (AEC), iFM (PC), CGO 2018 (PC)",
+                            "key": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 29,
+            "content": "Publications",
+            "isList": true,
+            "key": 8,
+            "children": [
+              {
+                "id": 30,
+                "content": "Sound Probabilistic Numerical Error Analysis, D. Lohar, M. Prokop, E. Darulova. iFM 2019",
+                "key": 1
+              },
+              {
+                "id": 31,
+                "content": "Memory-Efficient Mixed-Precision Implementations for Robust Explicit Model Predictive Control, M. Salamati, R. Salvia, E. Darulova, S. Soudjani and R. Majumdar. EMSOFT 2019",
+                "key": 2
+              },
+              {
+                "id": 32,
+                "content": "Synthesizing Efficient Low-Precision Kernels, A. Izycheva, E. Darulova, H. Seidl. ATVA 2019",
+                "key": 3
+              },
+              {
+                "id": 33,
+                "content": "Formally Verified Roundoff Errors using SMT-based Certificates and Subdivisions, H. Becker, J. Bard, E. Darulova. FM 2019",
+                "key": 4
+              },
+              {
+                "id": 34,
+                "content": "Icing: Supporting Fast-math Style Optimizations in a Verified Compiler, H. Becker, E. Darulova, M. O. Myreen, Z. Tatlock. CAV 2019",
+                "key": 5
+              },
+              {
+                "id": 35,
+                "content": "Sound Approximation of Programs with Elementary Functions, E. Darulova, A. Lozanova. CAV 2019",
+                "key": 6
+              },
+              {
+                "id": 36,
+                "content": "Precise but Natural Specification for Robot Tasks B. Boldt, I. Gavran, E. Darulova, R. Majumdar. CoRR abs/1803.02238",
+                "key": 7
+              },
+              {
+                "id": 37,
+                "content": "A Verified Certificate Checker for Finite-Precision Error Bounds in Coq and HOL4 H. Becker, N. Zyuzin, R. Monat, E. Darulova, M. O. Myreen and A. Fox. FMCAD 2018",
+                "key": 8
+              },
+              {
+                "id": 38,
+                "content": "Discrete Choice in the Presence of Numerical Uncertainties D. Lohar, E. Darulova, S. Putot, E. Goubault. EMSOFT 2018",
+                "key": 9
+              },
+              {
+                "id": 39,
+                "content": "Combining Tools for Optimization and Analysis of Floating-Point Computations H. Becker, P. Panchekha, E. Darulova, and Z. Tatlock. FM 2018",
+                "key": 10
+              },
+              {
+                "id": 40,
+                "content": "Daisy - Framework for Analysis and Optimization of Numerical Programs (Tool Paper) E. Darulova, A Izycheva, F. Nasir, F. Ritter, H. Becker, and R. Bastian. TACAS 2018",
+                "key": 11
+              },
+              {
+                "id": 41,
+                "content": "Sound Mixed-Precision Optimization with Rewriting E. Darulova, E. Horn, S. Sharma. ICCPS 2018",
+                "key": 12
+              },
+              {
+                "id": 42,
+                "content": "On Sound Relative Error Bounds for Floating-Point Arithmetic A. Izycheva, E. Darulova. FMCAD 2017",
+                "key": 13
+              },
+              {
+                "id": 43,
+                "content": "Towards a Compiler for Reals E. Darulova, V. Kuncak, ACM Transactions on Programming Languages and Systems (TOPLAS),Â 2017",
+                "key": 14
+              },
+              {
+                "id": 44,
+                "content": "Programming with Numerical Uncertainties Eva Darulova, EPFL PhD thesis 2014",
+                "key": 15
+              },
+              {
+                "id": 45,
+                "content": "Sound Compilation of Reals. E. Darulova, V. Kuncak, POPL 2014",
+                "key": 16
+              },
+              {
+                "id": 46,
+                "content": "Programming Language and Compiler Support for Uncertainties E. Darulova, V. Kuncak, First SIGPLAN Workshop on Probabilistic and Approximate Computing (APPROX 2014). Co-located with PLDI 2014 in Edinburgh, Scotland. Invited Position Paper",
+                "key": 17
+              },
+              {
+                "id": 47,
+                "content": "Synthesis of Fixed-Point Programs E. Darulova, V. Kuncak, I. Saha, R. Majumdar , EMSOFT 2013",
+                "key": 18
+              },
+              {
+                "id": 48,
+                "content": "Certifying Solutions for Numerical Constraints E. Darulova, V. Kuncak, RV 2012",
+                "key": 19
+              },
+              {
+                "id": 49,
+                "content": "Trustworthy Numerical Computation in Scala E. Darulova, V. Kuncak, OOPSLA 2011",
+                "key": 20
+              }
+            ]
+        },
+      {
+        "id": 50,
+        "content": "Alumni",
+        "isList": true,
+        "key": 9,
+        "children": [
+          {
+            "id": 51,
+            "content": "Nikita Zyuzin (MSc 2019)",
+            "key": 1
+          },
+          {
+            "id": 52,
+            "content": "Youcef Merah (MSc 2018)",
+            "key": 2
+          },
+          {
+            "id": 53,
+            "content": "Safya Alzayat (BSc 2018)",
+            "key": 3
+          },
+          {
+            "id": 54,
+            "content": "Anastasiia Izycheva (MSc 2017)",
+            "key": 4
+          }
+        ]
+      },
+      {
+        "id": 55,
+        "content": "Snail Mail",
+        "key": 10,
+        "children": [
+          {
+            "id": 56,
+            "content": "MPI-SWS   Paul-Ehrlich-Strasse, G 26   D-67663 Kaiserslautern   Germany",
+            "key": 1
+          },
+          {
+            "id": 57,
+            "content": "Imprint Data Protection",
+            "key": 2
+          }
+        ]
+      }
+    ]
+}

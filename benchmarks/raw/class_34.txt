@@ -1,0 +1,280 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<title>COS 320: Compiling Techniques</title>
+<link href="http://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet" type="text/css"/>
+<link href="http://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet" type="text/css"/>
+<link href="http://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css"/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<center><span style="font-size:40px; font-weight:bold; color:#2980B9; font-family: 'Oswald'; align: center">COS 320: Compiling Techniques, Spring 2019</span></center>
+<h1>Course information</h1>
+<b>Semester:</b> Spring 2019<br/>
+<b>Lectures:</b> Tuesday &amp; Thursday 1:30 - 2:50pm<br/>
+<b>Location:</b> Friend Center 008<br/>
+<b>Instructor:</b> <a href="http://www.cs.princeton.edu/~zkincaid/">Zak Kincaid</a>, <a href="mailto:zkincaid@cs.princeton.edu">zkincaid@cs.princeton.edu</a>.<br/>
+<b>Teaching assistants:</b> <a href="mailto:chiragb@cs.princeton.edu">Chirag Bharadwaj</a> and <a href="mailto:qinshiw@cs.princeton.edu">Qinshi Wang</a><br/>
+<b>Undergraduate graders:</b> Benjamin Huang<br/>
+<b>Office hours:</b>
+<ul>
+<li>Mon 3-4pm Friend 010 (Qinshi)</li>
+<li>Tue 4-6pm Friend 010 (Chirag)</li>
+<li>Wed 3-5pm CS 219 (Zak) <b>4-5:30 on 3/27</b></li>
+<li>Thu 3-4pm Friend 010 (Qinshi)</li>
+</ul>
+<b>Links:</b> <a href="https://piazza.com/princeton/Spring2019/cos320/home">Piazza</a>, <a href="https://v1.realworldocaml.org/v1/en/html/index.html">Real world OCaml</a>, <a href="http://caml.inria.fr/pub/docs/manual-ocaml/index.html">OCaml manual</a>, <a href="http://caml.inria.fr/pub/docs/manual-ocaml/libref/index.html">OCaml standard library</a>, <a href="https://www.cs.princeton.edu/courses/archive/Fall18/cos326/style.php">OCaml style guide</a>.
+
+   
+   <h1>Description</h1>
+
+   Understand the design and construction of compilers. Concepts
+   include syntax analysis, semantics, code generation, optimization
+   and run-time systems. Translation of imperative languages (such as
+   C), functional languages (such as ML), and object-oriented
+   languages (such as Java) will be studied. Students will implement a
+   complete compiler for a small language.<br/><br/>
+
+   Many of the course materials and assignments have been adapted from
+   <a href="http://www.cis.upenn.edu/~stevez/">Steve Zdancewic</a>'s 
+   <a href="https://www.seas.upenn.edu/~cis341/current/">CIS 341</a>
+   at U Penn.
+
+   <h1>Schedule</h1>
+   This is a tentative schedule that may be changed during the course.<br/><br/>
+<table class="alt-color">
+<colgroup>
+<col span="1" style="padding: 10px 5px;"/>
+<col span="1" style="padding: 10px 5px;"/>
+<col span="1" style="padding: 10px 5px;"/>
+</colgroup>
+<tr style="font-weight:bold">
+<td>Date</td>
+<td>Topics</td>
+<td>Readings</td>
+</tr>
+<tr>
+<td>Feb 5</td>
+<td><a href="lectures/lecture1.pdf">Introduction</a></td>
+<td>Appel 1</td>
+</tr>
+<tr>
+<td>Feb 7</td>
+<td><a href="lectures/lecture2.pdf">OCaml</a></td>
+<td>RWO 1-9</td>
+</tr>
+<tr>
+<td>Feb 12</td>
+<td><a href="lectures/lecture3.pdf">X86lite</a></td>
+<td>Appel 6</td>
+</tr>
+<tr>
+<td>Feb 14</td>
+<td><a href="lectures/lecture4.pdf">Intermediate representations I</a> (<a href="lectures/lecture4.tar.gz">example code</a>)</td>
+<td></td>
+</tr>
+<tr>
+<td>Feb 19</td>
+<td><a href="lectures/lecture5.pdf">Intermediate representations II</a> (<a href="lectures/lecture5.tgz">example code</a>)</td>
+<td>Appel 8</td>
+</tr>
+<tr>
+<td>Feb 21</td>
+<td><a href="lectures/lecture6.pdf">LLVM I</a> (<a href="hw/llvmlite.shtml">LLVMlite spec</a>)</td>
+<td></td>
+</tr>
+<tr>
+<td>Feb 26</td>
+<td><a href="lectures/lecture7.pdf">LLVM II</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Feb 28</td>
+<td><a href="lectures/lecture8.pdf">Lexing</a> (<a href="lectures/lecture8.tar.gz">example code</a>)</td>
+<td>Appel 2</td>
+</tr>
+<tr>
+<td>Mar 5</td>
+<td><a href="lectures/lecture9.pdf">Parsing I</a> (<a href="lectures/lecture9.tar.gz">example code</a>)</td>
+<td>Appel 3</td>
+</tr>
+<tr>
+<td>Mar 7</td>
+<td><a href="lectures/lecture10.pdf">Parsing II</a> (<a href="lectures/lecture10.tar.gz">example code</a>)</td>
+<td></td>
+</tr>
+<tr>
+<td>Mar 12</td>
+<td><a href="lectures/lecture11.pdf">Parsing III</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Mar 14</td>
+<td><span class="alert">Midterm</span></td>
+<td></td>
+</tr>
+<tr>
+<td>Mar 19,21</td>
+<td><span class="alert">Spring break</span></td>
+<td></td>
+</tr>
+<tr>
+<td>Mar 26</td>
+<td><a href="lectures/lecture12.pdf">Types I</a> (<a href="lectures/lecture12.tar.gz">example code</a>)</td>
+<td></td>
+</tr>
+<tr>
+<td>Mar 28</td>
+<td><a href="lectures/lecture13.pdf">Types II</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Apr 2</td>
+<td><a href="lectures/lecture14.pdf">Types III</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Apr 4</td>
+<td><a href="lectures/lecture15.pdf">Data Flow Analysis &amp; Optimization I</a></td>
+<td>Appel 17</td>
+</tr>
+<tr>
+<td>Apr 9</td>
+<td><span class="alert">Cancelled</span></td>
+<td></td>
+</tr>
+<tr>
+<td>Apr 11</td>
+<td><a href="lectures/lecture16.pdf">Data Flow Analysis &amp; Optimization II</a><a></a></td>
+<td></td>
+</tr>
+<tr>
+<td>Apr 16</td>
+<td><a href="lectures/lecture17.pdf">Data Flow Analysis &amp; Optimization III</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Apr 18</td>
+<td><a href="lectures/lecture18.pdf">Register Allocation</a></td>
+<td>Appel 10</td>
+</tr>
+<tr>
+<td>Apr 23</td>
+<td><a href="lectures/lecture19.pdf">Control flow</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Apr 25</td>
+<td><a href="lectures/lecture20.pdf">Loop Optimizations</a></td>
+<td>Appel 18</td>
+</tr>
+<tr>
+<td>Apr 30</td>
+<td><a href="lectures/lecture21.pdf">High-level languages</a></td>
+<td>Appel 13,14,15</td>
+</tr>
+<tr>
+<td>May 2</td>
+<td><a href="lectures/lecture22.pdf">Wrap-up</a></td>
+<td></td>
+</tr>
+</table>
+<h1>Assignments</h1>
+
+   To complete the assignments you will need an installation of OCaml
+   and LLVM.  The easiest way to get started is to use
+   the <a href="https://www.cs.princeton.edu/courses/archive/spr19/cos320/COS320.ova">COS
+   320 virtual machine</a> (SHA-256:
+   e92d7c2fd25a241bf8b43662e71b689a4841f44dee88a37b5cb30e7bb871f024).
+   You will need to
+   install <a href="https://www.virtualbox.org/wiki/Downloads">VirtualBox</a>
+   to run the VM.  The username and password for the machine is
+   cos320.<br/>
+
+   If you would like to set up an OCaml dev environment on your own
+   machine, instructions from COS 326 are
+   available <a href="https://www.cs.princeton.edu/courses/archive/Fall18/cos326/resources.php">here</a>.
+   
+   <ul>
+<li><a href="hw/hw01.zip">Assignment 1</a>, due Feb 19.  Submit on <a href="https://tigerfile.cs.princeton.edu/COS320_S2019/HW_1">TigerFile</a>.</li>
+<li><a href="hw/hw2.shtml">Assignment 2</a>, released Feb 19, due Mar 5.</li>
+<li><a href="hw/hw3.shtml">Assignment 3</a>, released Mar 5, due Mar 28.</li>
+<li><a href="hw/hw4.shtml">Assignment 4</a>, released Mar 26, due Apr 15.</li>
+<li><a href="hw/hw5.shtml">Assignment 5</a>, released Apr 11, due Apr 30.</li>
+<li><a href="hw/hw6.shtml">Assignment 6</a>, released Apr 30, due May 14.</li>
+</ul>
+<h1>Grading policies</h1>
+
+   There will be six assignments during the semester.  The first
+   assignment will be an introduction to (or refresher for) the OCaml
+   language, which must be completed individually.  For the remaining
+   five assignments, you are encouraged to work in pairs. <b>Projects
+   that do not compile will receive no credit</b>.<br/><br/>
+
+
+   Your final grade will be weighted as follows:
+   <table class="alt-color" style="width: 20%">
+<colgroup>
+<col span="1" style="width: 70%;"/>
+<col span="1" style="width: 30%;"/>
+</colgroup>
+<tr>
+<td><b>Component</b></td>
+<td><b>Weight</b></td>
+</tr>
+<tr>
+<td>Homework</td>
+<td>60%</td>
+</tr>
+<tr>
+<td>Midterm Exam</td>
+<td>20%</td>
+</tr>
+<tr>
+<td>Final Exam</td>
+<td>20%</td>
+</tr>
+</table>
+<h2>Late policy</h2>
+<ul>
+<li>
+       Late assignments will be penalized 1% per hour past the
+       deadline.
+     </li>
+<li>
+       You have five "late passes", which allow you to submit an
+       assignment up to 24 hours late without penalty.  You may use up
+       to three late passes on a single assignment.  You do not need
+       to inform anyone about your intention to use a late pass --
+       your late penalties will be tabulated a the end of the semester
+       to maximize your final grade.
+     </li>
+<li>
+       No additional lateness penalties will be waived without the
+       recommendation of a Dean or a letter from McCosh Health Center.
+       In this case, write
+       to <a href="mailto:zkincaid@cs.princeton.edu">me</a>.
+     </li>
+</ul>
+<h2>Conduct</h2>
+<ul>
+<li>
+       For homework and assignments, discussions with others are
+       permitted, where the goal is to aid your understanding. However,
+       the submitted work/code should be entirely your own (and your
+       partner, should you work in a pair).
+     </li>
+<li>
+<b>Do not copy another person's program, or get solutions from resources outside the course.</b>
+</li>
+<li>
+       If you have any questions or concerns, please discuss these
+       policies with the instructors.
+     </li>
+<li>
+       Conduct during exams is covered by the University Honor Code.
+     </li>
+</ul>
+</body>
+</html>

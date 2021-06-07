@@ -1,0 +1,452 @@
+{
+    "id": 0,
+    "content": "Ori Lahav - אורי להב",
+    "children": [
+        {
+            "id": 1,
+            "content": "Ori Lahav / אורי להב",
+            "key": 1,
+            "children": [
+                {
+                    "id": 2,
+                    "content": "I am a faculty member in the School of Computer Science at Tel Aviv University. I did my PhD at Tel Aviv University under the supervision of Arnon Avron. In 2014, I was a postdoctoral researcher at Tel Aviv University hosted by Mooly Sagiv. After that, until September 2017, I was a postdoctoral researcher at MPI-SWS in Germany hosted by Viktor Vafeiadis and Derek Dreyer.",
+                    "key": 1
+                },
+                {
+                    "id": 3,
+                    "content": "My main areas of research are programming languages and verification, with a focus on concurrency and relaxed memory models. I am also interested in proof-theory and semantics of (non-classical) logics and automated reasoning.",
+                    "key": 2
+                },
+                {
+                    "id": 4,
+                    "content": "I am looking for highly motivated students (PhD and MSc) and postdocs interested in programming languages theory, concurrency, logics for proving correctness of programs and other formal methods. If interested, please send me an email!",
+                    "key": 3
+                },
+                {
+                    "id": 5,
+                    "content": "Contact Info",
+                    "key": 4,
+                    "children": [
+                        {
+                            "id": 6,
+                            "content": "Email:",
+                            "key": 1,
+                            "children": [
+                                {
+                                    "id": 7,
+                                    "content": "@tau.ac.il   Skype: .   Office: 234 Check Point Building   Tel: +972 3 640 6422   Address: School of Computer Science, Tel Aviv University, Tel Aviv, 69978 Israel",
+                                    "key": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "content": "Teaching",
+                    "key": 5,
+                    "children": [
+                        {
+                            "id": 9,
+                            "content": "Programming Language Foundations [Spring 2020]   Software Foundations in Coq [Spring 2019]   Concurrency Theory (undergraduate seminar) [Spring 2019] [Spring 2020]   Discrete Mathematics [Fall 2018]   Weakly Consistent Concurrency (graduate seminar) [Spring 2018]   Advanced Seminar in Programming Languages (yearly research seminar) [website]",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "content": "Publications [dblp] [google scholar]",
+                    "key": 6,
+                    "children": [
+                        {
+                            "id": 11,
+                            "content": "The [pdf] links include pre-copy-editing self-produced PDFs.",
+                            "key": 1
+                        },
+                        {
+                            "id": 12,
+                            "content": "Conference Papers (and PACMPL papers)",
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 13,
+                                    "content": "Decidable Verification under a Causally Consistent Shared Memory   Ori Lahav, Udi Boker   PLDI 2020 [pdf] [full] [acm] [Coq]",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 14,
+                                    "content": "Promising 2.0: Global Optimizations in Relaxed Memory Concurrency.   Sung-Hwan Lee, Minki Cho, Anton Podkopaev, Soham Chakraborty, Chung-Kil Hur, Ori Lahav, Viktor Vafeiadis   PLDI 2020 [pdf] [full] [acm] [Coq PS2] [Coq PS2toIMM] [project page]",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 15,
+                                    "content": "Robustness against Release/Acquire Semantics   Ori Lahav, Roy Margalit   PLDI 2019 [pdf] [full] [acm] [tool]",
+                                    "key": 3
+                                },
+                                {
+                                    "id": 16,
+                                    "content": "On the Semantics of Snapshot Isolation   Azalea Raad, Ori Lahav, Viktor Vafeiadis   VMCAI 2019 [pdf] [full] [Springer] [arxiv] [project page]",
+                                    "key": 4
+                                },
+                                {
+                                    "id": 17,
+                                    "content": "Bridging the Gap Between Programming Languages and Hardware Weak Memory Models   Anton Podkopaev, Ori Lahav, Viktor Vafeiadis   POPL 2019 [pdf] [full] [acm] [project page]",
+                                    "key": 5
+                                },
+                                {
+                                    "id": 18,
+                                    "content": "On Library Correctness under Weak Memory Consistency   Azalea Raad, Marko Doko, Lovro Rožić, Ori Lahav, Viktor Vafeiadis   POPL 2019 [pdf] [technical appendix] [acm] [project page]",
+                                    "key": 6
+                                },
+                                {
+                                    "id": 19,
+                                    "content": "A Simple Cut-Free System for a Paraconsistent Logic Equivalent to S5   Arnon Avron, Ori Lahav   AiML 2018 [pdf] [aiml]",
+                                    "key": 7
+                                },
+                                {
+                                    "id": 20,
+                                    "content": "On Parallel Snapshot Isolation and Release/Acquire Consistency   Azalea Raad, Ori Lahav, Viktor Vafeiadis   ESOP 2018 [pdf] [technical appendix] [Springer] [project page]",
+                                    "key": 8
+                                },
+                                {
+                                    "id": 21,
+                                    "content": "A Separation Logic for a Promising Semantics   Kasper Svendsen, Jean Pichon-Pharabod, Marko Doko, Ori Lahav, Viktor Vafeiadis   ESOP 2018 [pdf] [technical appendix] [Springer]",
+                                    "key": 9
+                                },
+                                {
+                                    "id": 22,
+                                    "content": "Effective Stateless Model Checking for C/C++ Concurrency   Michalis Kokologiannakis, Ori Lahav, Konstantinos Sagonas, Viktor Vafeiadis   POPL 2018 [pdf] [full] [acm] [project page]",
+                                    "key": 10
+                                },
+                                {
+                                    "id": 23,
+                                    "content": "Cut-Admissibility as a Corollary of the Subformula Property   Ori Lahav, Yoni Zohar   Best Paper Award   TABLEAUX 2017 [pdf] [Springer]",
+                                    "key": 11
+                                },
+                                {
+                                    "id": 24,
+                                    "content": "Promising Compilation to ARMv8 POP   Anton Podkopaev, Ori Lahav, Viktor Vafeiadis   ECOOP 2017 [pdf] [full] [LIPIcs]",
+                                    "key": 12
+                                },
+                                {
+                                    "id": 25,
+                                    "content": "Strong Logic for Weak Memory: Reasoning About Release-Acquire Consistency in Iris   Jan-Oliver Kaiser, Hoang-Hai Dang, Derek Dreyer, Ori Lahav, Viktor Vafeiadis   Best Paper Award   ECOOP 2017 [pdf] [full] [LIPIcs] [project page]",
+                                    "key": 13
+                                },
+                                {
+                                    "id": 26,
+                                    "content": "Repairing Sequential Consistency in C/C++11   Ori Lahav, Viktor Vafeiadis, Jeehoon Kang, Chung-Kil Hur, Derek Dreyer   Distinguished Paper Award   PLDI 2017 [pdf] [full] [slides] [acm] [project page]",
+                                    "key": 14
+                                },
+                                {
+                                    "id": 27,
+                                    "content": "Verifying Reachability in Networks with Mutable Datapaths   Aurojit Panda, Ori Lahav, Katerina J. Argyraki, Mooly Sagiv, Scott Shenker   NSDI 2017 [pdf] [usenix]",
+                                    "key": 15
+                                },
+                                {
+                                    "id": 28,
+                                    "content": "A Promising Semantics for Relaxed-Memory Concurrency   Jeehoon Kang, Chung-Kil Hur, Ori Lahav, Viktor Vafeiadis, Derek Dreyer   POPL 2017 [pdf] [full] [slides, kent concurrency workshop] [acm] [project page]",
+                                    "key": 16
+                                },
+                                {
+                                    "id": 29,
+                                    "content": "Explaining Relaxed Memory Models with Program Transformations   Ori Lahav, Viktor Vafeiadis   FM 2016 [pdf] [slides] [Springer] [project page]",
+                                    "key": 17
+                                },
+                                {
+                                    "id": 30,
+                                    "content": "It ain't necessarily so: Basic Sequent Systems for Negative Modalities   Ori Lahav, João Marcos, Yoni Zohar   AiML 2016 [pdf] [aiml]",
+                                    "key": 18
+                                },
+                                {
+                                    "id": 31,
+                                    "content": "Taming Release-Acquire Consistency   Ori Lahav, Nick Giannarakis, Viktor Vafeiadis   POPL 2016 [pdf] [full] [slides] [poster] [acm] [project page]",
+                                    "key": 19
+                                },
+                                {
+                                    "id": 32,
+                                    "content": "Owicki-Gries Reasoning for Weak Memory Models   Ori Lahav, Viktor Vafeiadis   ICALP 2015 (track B) [pdf] [full] [slides] [slides, israeli verification day 2014] [Springer] [project page]",
+                                    "key": 20
+                                },
+                                {
+                                    "id": 33,
+                                    "content": "Decentralizing SDN Policies   Oded Padon, Neil Immerman, Aleksandr Karbyshev, Ori Lahav, Mooly Sagiv, Sharon Shoham   POPL 2015 [pdf] [acm]",
+                                    "key": 21
+                                },
+                                {
+                                    "id": 34,
+                                    "content": "Primal Infon Logic with Conjunctions as Sets   Carlos Cotrini, Yuri Gurevich, Ori Lahav, Artem Melentyev   TCS 2014 [pdf] [slides] [Springer]",
+                                    "key": 22
+                                },
+                                {
+                                    "id": 35,
+                                    "content": "On the Construction of Analytic Sequent Calculi for Sub-classical Logics   Ori Lahav, Yoni Zohar   WoLLIC 2014 [pdf] [slides] [Springer]",
+                                    "key": 23
+                                },
+                                {
+                                    "id": 36,
+                                    "content": "SAT-based Decision Procedure for Analytic Pure Sequent Calculi   Ori Lahav, Yoni Zohar   IJCAR 2014 [pdf] [online tool] [slides] [Springer]",
+                                    "key": 24
+                                },
+                                {
+                                    "id": 37,
+                                    "content": "Modular Reasoning about Heap Paths via Effectively Propositional Formulas   Shachar Itzhaky, Anindya Banerjee, Neil Immerman, Ori Lahav, Aleksandar Nanevski, Mooly Sagiv   POPL 2014 [pdf] [acm]",
+                                    "key": 25
+                                },
+                                {
+                                    "id": 38,
+                                    "content": "Instantiations, Zippers and EPR Interpolation   Nikolaj Bjorner, Arie Gurfinkel, Konstantin Korovin, Ori Lahav   LPAR 2013 (short paper) [pdf] [easychair]",
+                                    "key": 26
+                                },
+                                {
+                                    "id": 39,
+                                    "content": "From Frame Properties to Hypersequent Rules in Modal Logics   Ori Lahav   Kleene Award for Best Student Paper   LICS 2013 [pdf] [slides] [acm]",
+                                    "key": 27
+                                },
+                                {
+                                    "id": 40,
+                                    "content": "Automated Support for the Investigation of Paraconsistent and Other Logics   Agata Ciabattoni, Ori Lahav, Lara Spendier, Anna Zamansky   LFCS 2013 [pdf] [online tool] [slides] [Springer]",
+                                    "key": 28
+                                },
+                                {
+                                    "id": 41,
+                                    "content": "Non-deterministic Matrices for Semi-canonical Deduction Systems   Ori Lahav   ISMVL 2012 [pdf] [slides] [ieee]",
+                                    "key": 29
+                                },
+                                {
+                                    "id": 42,
+                                    "content": "Effective Finite-valued Semantics for Labelled Calculi   Matthias Baaz, Ori Lahav, Anna Zamansky   IJCAR 2012 [pdf] [slides] [Springer]",
+                                    "key": 30
+                                },
+                                {
+                                    "id": 43,
+                                    "content": "Basic Constructive Connectives, Determinism and Matrix-based Semantics   Agata Ciabattoni, Ori Lahav, Anna Zamansky   TABLEAUX 2011 [pdf] [slides] [Springer]",
+                                    "key": 31
+                                },
+                                {
+                                    "id": 44,
+                                    "content": "Kripke Semantics for Basic Sequent Systems   Arnon Avron, Ori Lahav   TABLEAUX 2011 [pdf] [slides] [Springer]",
+                                    "key": 32
+                                },
+                                {
+                                    "id": 45,
+                                    "content": "Non-deterministic Connectives in Propositional Gödel Logic   Ori Lahav, Arnon Avron   EUSFLAT 2011 [pdf] [slides] [atlantic press]",
+                                    "key": 33
+                                },
+                                {
+                                    "id": 46,
+                                    "content": "A Multiple-Conclusion Calculus for First-Order Gödel Logic   Arnon Avron, Ori Lahav   CSR 2011 [pdf] [slides] [Springer]",
+                                    "key": 34
+                                },
+                                {
+                                    "id": 47,
+                                    "content": "Canonical Constructive Systems   Arnon Avron, Ori Lahav   TABLEAUX 2009 [pdf] [Springer]",
+                                    "key": 35
+                                },
+                                {
+                                    "id": 48,
+                                    "content": "Journal Papers",
+                                    "key": 36,
+                                    "children": [
+                                        {
+                                            "id": 49,
+                                            "content": "Verification Under Causally Consistent Shared Memory   Ori Lahav   ACM SIGLOG News verification column April 2019 (invited) [pdf] [siglog] [acm]",
+                                            "key": 1
+                                        },
+                                        {
+                                            "id": 50,
+                                            "content": "Pure Sequent Calculi:",
+                                            "key": 2,
+                                            "children": [
+                                                {
+                                                    "id": 51,
+                                                    "content": "Analyticity and Decision Procedure   Ori Lahav, Yoni Zohar   ACM Transactions on Computational Logic 2019 [pdf] [acm]",
+                                                    "key": 1
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 52,
+                                            "content": "From the Subformula Property to Cut-Admissibility in Propositional Sequent Calculi   Ori Lahav, Yoni Zohar   Journal of Logic and Computation 2018 [pdf] [oxford journals]",
+                                            "key": 3
+                                        },
+                                        {
+                                            "id": 53,
+                                            "content": "Sequent Systems for Negative Modalities   Ori Lahav, João Marcos, Yoni Zohar   Special Issue on \"Generalizations of Truth-Functionality and Compositional Meaning in Logic\"   Logica Universalis 2017 [pdf] [Springer]",
+                                            "key": 4
+                                        },
+                                        {
+                                            "id": 54,
+                                            "content": "Semantic Investigation of Canonical Gödel Hypersequent Systems   Ori Lahav   Special Issue on \"Logic: Between Semantics and Proof Theory—in Honour of Arnon Avron\"   Journal of Logic and Computation 2016 [pdf] [oxford journals]",
+                                            "key": 5
+                                        },
+                                        {
+                                            "id": 55,
+                                            "content": "A Cut-Free Calculus for Second-Order Gödel Logic   Ori Lahav, Arnon Avron   Fuzzy Sets and Systems 2015 [pdf] [sciencedirect]",
+                                            "key": 6
+                                        },
+                                        {
+                                            "id": 56,
+                                            "content": "Taming Paraconsistent (and Other) Logics: An Algorithmic Approach   Agata Ciabattoni, Ori Lahav, Lara Spendier, Anna Zamansky   ACM Transactions on Computational Logic 2015 [pdf] [online tool] [acm]",
+                                            "key": 7
+                                        },
+                                        {
+                                            "id": 57,
+                                            "content": "Finite-valued Semantics for Canonical Labelled Calculi   Matthias Baaz, Ori Lahav, Anna Zamansky   Journal of Automated Reasoning 2013 [pdf] [Springer]",
+                                            "key": 8
+                                        },
+                                        {
+                                            "id": 58,
+                                            "content": "A Unified Semantic Framework for Fully-structural Propositional Sequent Systems   Ori Lahav, Arnon Avron   ACM Transactions on Computational Logic 2013 [pdf] [acm]",
+                                            "key": 9
+                                        },
+                                        {
+                                            "id": 59,
+                                            "content": "A Semantic Proof of Strong Cut-admissibility for First-Order Gödel Logic   Ori Lahav, Arnon Avron   Journal of Logic and Computation 2013 [pdf] [oxford journals]",
+                                            "key": 10
+                                        },
+                                        {
+                                            "id": 60,
+                                            "content": "Studying Sequent Systems via Non-deterministic Multiple-Valued Matrices   Ori Lahav   Journal of Multiple-Valued Logic and Soft Computing 2013 [pdf] [old city publishing]",
+                                            "key": 11
+                                        },
+                                        {
+                                            "id": 61,
+                                            "content": "On Constructive Connectives and Systems   Arnon Avron, Ori Lahav   Logical Methods in Computer Science 2010 [pdf] [lmcs]",
+                                            "key": 12
+                                        },
+                                        {
+                                            "id": 62,
+                                            "content": "Strict Canonical Constructive Systems   Arnon Avron, Ori Lahav   Fields of Logic and Computation, Essays Dedicated to Yuri Gurevich on the Occasion of His 70th Birthday 2010 [pdf] [Springer]",
+                                            "key": 13
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 63,
+                            "content": "Abstract Presentations in International Conferences and Workshops",
+                            "key": 3,
+                            "children": [
+                                {
+                                    "id": 64,
+                                    "content": "Extensions of Analytic Pure Sequent Calculi with Modal Operators   Yoni Zohar, Ori Lahav   Compositional Meaning in Logic, GeTFun 4.0, affiliated with IJCAR 2016 [pdf]",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 65,
+                                    "content": "A Cut-Free Calculus for Second-Order Gödel Logic   Ori Lahav, Arnon Avron   Forth Conference of the Working Group on Mathematical Fuzzy Logic, LATD 2014 [pdf] [slides]",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 66,
+                                    "content": "On the Construction of Analytic Sequent Calculi for Sub-classical Logics   Ori Lahav, Yoni Zohar   Third International Workshop on \"Gentzen Systems and Beyond\", GSB 2014, affiliated with CSL-LICS 2014 [pdf] [slides]",
+                                    "key": 3
+                                },
+                                {
+                                    "id": 67,
+                                    "content": "Semantic Investigation of Basic Sequent Systems   Ori Lahav   Workshop on Abstract Proof Theory, Unilog 2013 [pdf] [slides]",
+                                    "key": 4
+                                },
+                                {
+                                    "id": 68,
+                                    "content": "Finite-valued Semantics for Canonical Labelled Calculi   Ori Lahav, Anna Zamansky   Compositional Meaning in Logic, GeTFun 1.0, Unilog 2013 [pdf] [slides]",
+                                    "key": 5
+                                },
+                                {
+                                    "id": 69,
+                                    "content": "Kripke-Style Semantics for Normal Systems   Arnon Avron, Ori Lahav   Second Conference of the Working Group on Mathematical Fuzzy Logic, LATD 2010 [pdf] [slides]",
+                                    "key": 6
+                                }
+                            ]
+                        },
+                        {
+                            "id": 70,
+                            "content": "Theses",
+                            "key": 4,
+                            "children": [
+                                {
+                                    "id": 71,
+                                    "content": "Semantic Investigation of Proof Systems for Non-classical Logics   Tel Aviv University, 2013 [PhD thesis] [slides] [summary]",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 72,
+                                    "content": "Canonical Constructive Systems   Tel Aviv University, 2009 [M.Sc thesis] [slides]",
+                                    "key": 2
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 73,
+                    "content": "More Talks and Tutorials",
+                    "key": 7,
+                    "children": [
+                        {
+                            "id": 74,
+                            "content": "Weak Memory Concurrency in C/C++11   jug.ru: Hydra-Distributed Computing Conference, St. Petresburg, July 2019 [website] [slides]",
+                            "key": 1
+                        },
+                        {
+                            "id": 75,
+                            "content": "Weak Memory Concurrency in C/C++11   Haifa::C++ Meetup, November 2017 [website] [slides]",
+                            "key": 2
+                        },
+                        {
+                            "id": 76,
+                            "content": "Summer School on Weak Memory Consistency   JetBrains Research, St. Petresburg, August 2017 [website] [material]",
+                            "key": 3
+                        },
+                        {
+                            "id": 77,
+                            "content": "SAT-Based Decision Procedure for Analytic Sequent Calculi   Microsoft Research, Redmond, October 2013 [slides]",
+                            "key": 4
+                        },
+                        {
+                            "id": 78,
+                            "content": "Semantic Investigation of Canonical Gödel Hypersequent Systems   Logic: Between Semantics and Proof Theory   A Workshop in Honor of Prof. Arnon Avron's 60th Birthday, Tel-Aviv, November 2012 [slides]",
+                            "key": 5
+                        },
+                        {
+                            "id": 79,
+                            "content": "Studying Sequent Systems via Non-deterministic Many-Valued Matrices   Eighth International Tbilisi Summer School in Logic and Language, Tbilisi, September 2012 [slides]",
+                            "key": 6
+                        },
+                        {
+                            "id": 80,
+                            "content": "(Non-deterministic) Semantics as a Tool for Analyzing Proof Systems   Researcher's Seminar of the Theory and Logic Group, Vienna University of Technology, April 2012 [slides]",
+                            "key": 7
+                        }
+                    ]
+                },
+                {
+                    "id": 81,
+                    "content": "Events",
+                    "key": 8,
+                    "children": [
+                        {
+                            "id": 82,
+                            "content": "ISRALOG17: Research Workshop of the Israel Science Foundation   15-17 October 2017, Haifa",
+                            "key": 1
+                        },
+                        {
+                            "id": 83,
+                            "content": "Logic:",
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 84,
+                                    "content": "Between Semantics and Proof Theory   A Workshop in Honor of Prof. Arnon Avron's 60th Birthday   1-2 November 2012, Tel-Aviv",
+                                    "key": 1
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,545 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link href="grossmanHomepage.css" rel="stylesheet" title="styles" type="text/css"/>
+<script src="grossmanHomepage.js" type="text/javascript"></script>
+<script type="text/javascript">
+window.onload = function () {
+    installNavigation();
+    updateSection(window.location.hash);
+}
+window.onhashchange = function () {
+    updateSection(window.location.hash);
+}
+</script>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<title>UW CSE373, Fall 2013</title>
+</head>
+<body>
+<h1>CSE373: Data Structures and Algorithms, Fall 2013</h1>
+<div id="navbar">
+<!-- a ul is filled in here onload by Javascript with one "button" li for each section that follows plus an "all" -->
+</div>
+<div class="section" id="courseinfo">
+<span class="navtitle">Course Info</span>
+<h2>Course Information and Policies</h2>
+<ul class="liney">
+<li><a href="collaboration_cheating.html">Policies on Collaboration and Academic Integrity</a></li>
+<li><a href="grading.html">Policies on Grading</a></li>
+<li><a href="programming_guidelines.html">Programming Guidelines</a></li>
+<li><a href="homework_guidelines.html">Written-Homework Guidelines</a></li>
+<li><a href="first_day_handout.pdf">First-Day Handout</a></li>
+<li> </li>
+<li><a href="https://catalyst.uw.edu/gradebook/djg7/79914">Gradebook</a></li>
+</ul>
+<p>
+Lecture: Monday, Wednesday, Friday 2:30-3:20 EEB 105
+</p>
+<p>
+Optional TA-led meetings: Tuesdays 3:30-4:30 EEB 037 and Thursdays 4:30-5:30 EEB 037<br/>
+<i>Optional TA-led meetings will be held most but not all weeks and will be announced in advance</i>
+</p>
+<p>Office Hours:<br/>
+    Dan Grossman, Allen Center 574, Tuesdays 9-10AM + by appointment + try stopping by<br/><br/>
+    Sam Wilson, Allen Center 220, Mondays 11:30AM-12:30PM <br/>
+    Nicholas Shahan, Allen Center 021 (basement), Tuesdays 1:30-2:30PM<br/>
+    Sam Wilson, Allen Center 220, Wednesdays 11:30AM-12:30PM<br/>
+    Conrad Nied, Allen Center 220, Thursdays 9:30-10:30AM<br/>
+    Jasmine Singh, Allen Center 220, Thursdays 2:30-3:30PM<br/>
+    Conrad Nied, Allen Center 218, Fridays 10:30-11:30AM<br/>
+    Luyi Lu, Allen Center 218, Fridays 1:30-2:30PM<br/>
+</p>
+</div>
+<div class="section" id="contactinfo">
+<span class="navtitle">Contact Info</span>
+<h2>Contact Information</h2>
+<p>
+<a href="courseEmail.html">Course Email List</a> (mandatory): You should
+receive email sent to the course mailing list regularly, roughly at
+least once a day.  Any important announcements will be sent to this
+list.
+</p>
+<p class="small">Email sent to cse373-staff@<b>cs</b>.washington.edu
+  (<b>not</b> @u...) will reach the instructor and all the TAs.  For
+  questions multiple staff members can answer, please use
+  this email so that you get a quicker reply and the whole staff is
+  aware of points of confusion.
+</p>
+<p>Course staff:<br/>
+    All staff: cse373-staff@<b>cs</b>.washington.edu
+  (<b>not</b> @u...) <br/>
+    Instructor: Dan Grossman, djg@<b>cs</b>.washington.edu, <b>not</b> @u...<br/>
+    TA: Luyi Lu, luluyi@<b>cs</b>.washington.edu, <b>not</b> @u...<br/>
+    TA: Conrad Nied, anied@<b>cs</b>.washington.edu, <b>not</b> @u...<br/>
+    TA: Nicholas Shahan, nshahan@<b>cs</b>.washington.edu, <b>not</b> @u...<br/>
+    TA: Jasmine Singh, jsingh4@<b>cs</b>.washington.edu, <b>not</b> @u...<br/>
+    TA: Sam Wilson, samw11@<b>cs</b>.washington.edu, <b>not</b> @u...<br/>
+</p>
+<p>
+<a href="https://catalyst.uw.edu/gopost/board/djg7/34450/">Course Discussion Board</a> (optional but encouraged)
+</p>
+<p><a href="https://catalyst.uw.edu/umail/form/djg7/4275">Anonymous Feedback</a> (goes only to the instructor)</p>
+</div>
+<div class="section" id="lectures">
+<span class="navtitle">Lectures</span>
+<h2>Lecture Materials</h2>
+<p class="small">Material in the future naturally subject to change in terms of coverage or schedule</p>
+<ol class="liney">
+<li> 1. Sep 25: Course Introduction; ADTs; Stacks and Queues
+<span class="small">
+  <a href="lecture1.pptx">pptx</a>
+  <a href="lecture1.pdf">pdf1up</a>
+  <a href="lecture1_6up.pdf">pdf6up</a>
+</span>
+</li>
+<li> 2. Sep 27: Math Review; Algorithm Analysis
+<span class="small">
+  <a href="lecture2.pptx">pptx</a>
+  <a href="lecture2.pdf">pdf1up</a>
+  <a href="lecture2_6up.pdf">pdf6up</a>
+  <a href="lecture2.xlsx">xlsx</a>
+</span>
+</li>
+<li> 3. Sep 30-Oct 2: Asymptotic Analysis
+<span class="small">
+  <a href="lecture3.pptx">pptx</a>
+  <a href="lecture3.pdf">pdf1up</a>
+  <a href="lecture3_6up.pdf">pdf6up</a>
+  <a href="lecture3.xlsx">xlsx</a>
+</span>
+</li>
+<li> 4. Oct 4-7: Dictionaries; Binary Search Trees
+<span class="small">
+  <a href="lecture4.pptx">pptx</a>
+  <a href="lecture4.pdf">pdf1up</a>
+  <a href="lecture4_6up.pdf">pdf6up</a>
+</span>
+</li>
+<li> 5. Oct 9-11: AVL Trees
+<span class="small">
+  <a href="lecture5.pptx">pptx</a>
+  <a href="lecture5.pdf">pdf1up</a>
+  <a href="lecture5_6up.pdf">pdf6up</a>
+  <a href="lecture5.xlsx">xlsx</a>
+<br/><i>Optional slides not discussed in class for AVL deletion:</i>
+  <a href="lecture_avl_delete.pptx">pptx</a>
+  <a href="lecture_avl_delete.pdf">pdf1up</a>
+  <a href="lecture_avl_delete_6up.pdf">pdf6up</a>
+</span>
+</li>
+<li> 6. Oct 11-14: Priority Queues
+<span class="small">
+  <a href="lecture6.pptx">pptx</a>
+  <a href="lecture6.pdf">pdf1up</a>
+  <a href="lecture6_6up.pdf">pdf6up</a>
+</span>
+</li>
+<li> 7. Oct 14-16: More Binary Heaps
+<span class="small">
+  <a href="lecture7.pptx">pptx</a>
+  <a href="lecture7.pdf">pdf1up</a>
+  <a href="lecture7_6up.pdf">pdf6up</a>
+</span>
+</li>
+<li> X. Oct 18: Midterm 1 </li>
+<li> 8. Oct 16-21: Amortized Analysis
+<span class="small">
+  <a href="lecture8.pptx">pptx</a>
+  <a href="lecture8.pdf">pdf1up</a>
+  <a href="lecture8_6up.pdf">pdf6up</a>
+</span>
+</li>
+<li> 9. Oct 21-23: Disjoint Sets and Union-Find
+<span class="small">
+  <a href="lecture9.pptx">pptx</a>
+  <a href="lecture9.pdf">pdf1up</a>
+  <a href="lecture9_6up.pdf">pdf6up</a>
+</span>
+</li>
+<li> 10. Oct 23-25: Implementing Union-Find
+<span class="small">
+  <a href="lecture10.pptx">pptx</a>
+  <a href="lecture10.pdf">pdf1up</a>
+  <a href="lecture10_6up.pdf">pdf6up</a>
+</span>
+</li>
+<li> 11. Oct 25-28: Hash Tables
+<span class="small">
+  <a href="lecture11.pptx">pptx</a>
+  <a href="lecture11.pdf">pdf1up</a>
+  <a href="lecture11_6up.pdf">pdf6up</a>
+</span>
+</li>
+<li> 12. Oct 30: Hash Collisions
+<span class="small">
+  <a href="lecture12.pptx">pptx</a>
+  <a href="lecture12.pdf">pdf1up</a>
+  <a href="lecture12_6up.pdf">pdf6up</a>
+  <a href="lecture12.xlsx">xslx</a>
+  <a href="lecture12.txt">txt</a>
+</span>
+</li>
+<li> 13. Nov 1-4: Introduction to Graphs
+<span class="small">
+  <a href="lecture13.pptx">pptx</a>
+  <a href="lecture13.pdf">pdf1up</a>
+  <a href="lecture13_6up.pdf">pdf6up</a>
+</span>
+</li>
+<li> 14. Nov 6: Topological Sort and Graph Traversals
+<span class="small">
+  <a href="lecture14.pptx">pptx</a>
+  <a href="lecture14.pdf">pdf1up</a>
+  <a href="lecture14_6up.pdf">pdf6up</a>
+</span>
+</li>
+<li> 15. Nov 8: Shortest Paths
+<span class="small">
+  <a href="lecture15.pptx">pptx</a>
+  <a href="lecture15.pdf">pdf1up</a>
+  <a href="lecture15_6up.pdf">pdf6up</a>
+</span>
+</li>
+<li> 16. Nov 13: Software-Design Interlude -- Preserving Abstractions
+<span class="small">
+  <a href="lecture16.pptx">pptx</a>
+  <a href="lecture16.pdf">pdf1up</a>
+  <a href="lecture16_6up.pdf">pdf6up</a>
+</span>
+</li>
+<li> X. Nov 15: Midterm 2
+</li>
+<li> 17. Nov 18: Minimum Spanning Trees
+<span class="small">
+  <a href="lecture17.pptx">pptx</a>
+  <a href="lecture17.pdf">pdf1up</a>
+  <a href="lecture17_6up.pdf">pdf6up</a>
+</span>
+</li>
+<li> 18. Nov 20, 25: Comparison Sorting
+<span class="small">
+  <a href="lecture18.pptx">pptx</a>
+  <a href="lecture18.pdf">pdf1up</a>
+  <a href="lecture18_6up.pdf">pdf6up</a>
+</span>
+</li>
+<li> 19. Nov 22: Locality
+<span class="small">
+  <a href="cse373-13au-MemHierarchy-ink.pdf">pdf6up-with-ink-fromclass</a>
+</span>
+</li>
+<li> 20. Nov 27: Beyond Comparison Sorting
+<span class="small">
+  <a href="lecture20.pptx">pptx</a>
+  <a href="lecture20.pdf">pdf1up</a>
+  <a href="lecture20_6up.pdf">pdf6up</a>
+</span>
+</li>
+<li> 21. Dec 2, 4: Introduction to Multithreading and Fork-Join Parallelism
+<span class="small">
+  <a href="lecture21.pptx">pptx</a>
+  <a href="lecture21.pdf">pdf1up</a>
+  <a href="lecture21_6up.pdf">pdf6up</a>
+</span>
+</li>
+<li> 22. Dec 4, 6: Parallel Reductions, Maps, and Algorithm Analysis
+<span class="small">
+  <a href="lecture22.pptx">pptx</a>
+  <a href="lecture22.pdf">pdf1up</a>
+  <a href="lecture22_6up.pdf">pdf6up</a>
+</span>
+</li>
+<li> 23. Dec 6: Course Victory Lap
+<span class="small">
+  <a href="lecture23.pptx">pptx</a>
+  <a href="lecture23.pdf">pdf1up</a>
+  <a href="lecture23_6up.pdf">pdf6up</a>
+</span>
+</li>
+</ol>
+</div>
+<div class="section" id="tas">
+<span class="navtitle">TA Sessions</span>
+<h2>Materials from TA Sessions</h2>
+<p class="small">Optional sections that cover certain topics more in depth from the lectures and may or may not have postable items.</p>
+<ol class="liney">
+<li> 1. Oct 01: Eclipse, Java basics, and Sox
+<span class="small">
+  no pdf
+  <a href="section/JavaClassHierarchy.jpg">JavaClassHierarchy.jpg</a>
+</span>
+</li>
+<li> 2. Oct 03: Proof by Induction
+<span class="small">
+  no materials
+</span>
+</li>
+<li> 3. Oct 08 / 09: Asymptotic Analysis
+<span class="small">
+  <a href="section/CSE 373 Section 2013-10-08.pptx">pptx</a>
+  <a href="section/CSE 373 Section 2013-10-08.pdf">pdf</a>
+  <a href="section/IntSqrt.java">java</a>
+</span>
+</li>
+<li> 4. Oct 10: AVL Trees
+<span class="small">
+  no materials
+</span>
+</li>
+<li> 5. Oct 17: Midterm 1 Review
+<span class="small">
+  no materials
+</span>
+</li>
+<li> 6. Oct 24: Pair Programming
+<span class="small">
+  no materials
+</span>
+</li>
+<li> 7. Oct 31 / Nov 5: Union Find and Maze Builder
+<span class="small">
+  <a href="section/CSE 373 Section 2013-11-05.pptx">pptx</a>
+  <a href="section/CSE 373 Section 2013-11-05.pdf">pdf</a>
+</span>
+</li>
+<li> 8. Nov 12: Java Collections
+<span class="small">
+  <a href="section/CSE 373 Section 2013-11-12.pptx">pptx</a>
+  <a href="section/CSE 373 Section 2013-11-12.pdf">pdf</a>
+</span>
+</li>
+<li> 9. Nov 14: Midterm 2 Review
+<span class="small">
+  no materials
+</span>
+</li>
+<li> 10. Nov 19: Abstraction
+<span class="small">
+  code:
+  <a href="section/CSE 373 Section 2013-11-19.zip">zip</a>
+</span>
+</li>
+<li> 11. Nov 21: JUnit Tests
+<span class="small">
+  no materials
+</span>
+</li>
+<li> 12. Dec 09: Final Review
+<span class="small">
+  notes:
+  <a href="section/CSE 373 Section 2013-12-09.docx">docx</a>
+  <a href="section/CSE 373 Section 2013-12-09.pdf">pdf</a>
+</span>
+</li>
+</ol>
+</div>
+<div class="section" id="homeworks">
+<span class="navtitle">Homeworks</span>
+<h2>Homework Assignments</h2>
+<p><a href="https://catalyst.uw.edu/collectit/dropbox/djg7/28581">Electronic turn-in for programming assignments</a></p>
+<p><a href="https://catalyst.uw.edu/webq/survey/djg7/212913">Homework 0</a>: on-line survey worth 0 points, "due" Friday September 29</p>
+<ul class="liney">
+<li> <a href="homework1/">Homework 1</a> due 11PM, Friday October 4</li>
+<li> <a href="hw2.pdf">Homework 2</a> due in class at the beginning of
+class (2:30PM), Friday October 11</li>
+<li> <a href="homework3/">Homework 3</a> due 11PM, Friday October 25</li>
+<li> <a href="homework4/">Homework 4</a> due 11PM, Thursday November 7</li>
+<li> <a href="homework5/">Homework 5</a> due 11PM, Tuesday November 26</li>
+<li> <a href="homework6/">Homework 6</a> due 11PM, Friday December 6</li>
+</ul>
+</div>
+<div class="section" id="exams">
+<h2>Exams</h2>
+<p>Midterm 1: Friday October 18 
+  <a href="midterm1guide.html">information</a> 
+  <a href="midterm1Unsolved.pdf">unsolved</a>
+  <a href="midterm1Solved.pdf">solved</a>
+</p>
+<p>Midterm 2: Friday November 15 
+  <a href="midterm2guide.html">information</a>
+  <a href="midterm2Unsolved.pdf">unsolved</a>
+  <a href="midterm2Solved.pdf">solved</a>
+</p>
+<p>Final exam: <b>Tuesday</b> December 10, 2:30-4:20PM
+  <a href="finalguide.html">information</a>
+  <a href="finalUnsolved.pdf">unsolved</a>
+  <a href="finalSolved.pdf">solved</a>
+</p>
+</div>
+<div class="section" id="software">
+<span class="navtitle">Software/Books</span>
+<h2>Software and Textbook Information</h2>
+<p>The programming assignments will use Java.  We will use
+<b>Java 7</b>, the most recent version of the language.  So if
+installing Java on your own machine, you can get Java 7
+from <a href="http://jdk7.java.net/">http://jdk7.java.net/</a>.
+</p>
+<p>We strongly encourage using the <b>Eclipse IDE</b>, though
+we will not require this.  You can download Eclipse for your own machine from 
+<a href="http://eclipse.org/downloads">http://eclipse.org/downloads</a>;
+it is also installed on all the lab machines.  Some guidance on
+getting started with Eclipse is included in Homework 1.</p>
+<p>The textbook is 
+<i>Data Structures and Algorithm Analysis in Java, Mark Allen Weiss,
+3rd Edition, 2011</i>, ISBN: 0132576279. Errata
+is <a href="http://users.cis.fiu.edu/~weiss/dsaajava3/errata.html">here</a>.
+Code from the book
+is <a href="http://users.cis.fiu.edu/~weiss/dsaajava3/code/">here</a>.
+ We will also do our best to support the 2nd Edition, ISBN: 0321370139.  
+Errata for the 2nd edition
+is <a href="http://users.cis.fiu.edu/~weiss/dsaajava2/errata.html">here</a>.
+Code for the 2nd edition
+is <a href="http://www.cs.fiu.edu/~weiss/dsaajava2/code/">here</a>.
+The textbook is also available for 4 hour loan at
+the <a href="http://www.lib.washington.edu/about/hours/engineering.html">Engineering
+library</a>.
+The textbook often provides a second explanation for material covered in class.
+</p>
+<p>
+A Java reference is also strongly recommended.  While there are a variety of (more than) sufficient references, we recommend <i>Core Java(TM), Volume I--Fundamentals 9th Edition, Cay S. Horstmann and Gary Cornell, 2002</i>, ISBN: 0137081898.  
+</p>
+<p>
+For the material on parallelism in lectures 21 and 22 (and much more
+we did not have time for), see <a href="sophomoricParallelismAndConcurrency.pdf">these notes written by the instructor</a>.
+We covered the material in Sections 2.1-2.3, 3.1-3.3, 3.5 and 4.1-4.3
+(except the last two paragraphs of 4.1.3).  
+</p>
+<p>
+Here are some interesting, usful, and accessible articles related to
+the course material.  These are optional reading that you may find
+helpful and enriching.
+</p>
+<ul>
+<li><a href="http://cacm.acm.org/magazines/2010/4/81499-the-data-structure-canon/fulltext">The Data-Structure Canon</a>, George V. Neville-Neil
+</li>
+<li><a href="http://www.cs.duke.edu/~ola/bubble/bubble.pdf">Bubble Sort: An Archaeological Algorithmic Analysis</a>, Owen Astrachan
+</li>
+<li><a href="http://en.wikipedia.org/wiki/Comparison_sort">Wikipedia: Comparison Sort</a> (follow links to different sorting algorithms to see animations of the algorithms in action)
+</li>
+</ul>
+</div>
+<hr/>
+<p>
+Acknowledgments: Many of the materials posted here and used in the
+course have been shared and refined by many other instructors and TAs in previous offerings of
+CSE373, CSE332, and CSE326.  This version of the course was
+particularly based on previous offerings by Ruth Anderson.
+</p>
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3">
+<img alt="Valid CSS!" src="vcss.gif" style="border:0;width:88px;height:31px"/></a>
+<a href="http://validator.w3.org/check?uri=referer">
+<img alt="Valid XHTML 1.1" height="31" src="valid-xhtml11-blue.png" style="border:0;" width="88"/></a>
+</p>
+<div>
+<h1>Grading Policies, <a href="index.html">CSE373 Fall 2013</a></h1>
+<h2>Overall course grade</h2>
+<p>
+Your overall grade will be determined as follows (subject to change if necessary, but change is unlikely):
+</p>
+<ul>
+<li>Assignments (Written Exercises and Programming Projects): 50%</li>
+<li>Midterm Exam 1: 15%</li>
+<li>Midterm Exam 2: 15%</li>
+<li>Final Exam: 20%</li>
+</ul>
+<p>
+We will have approximately one assignment per week. If you find an
+error in our grading, please bring it to our attention within one week
+of that item being returned.
+</p>
+<h2>Late policy</h2>
+<p>
+<i>All</i> parts of an assignment must be received by the stated deadline in
+order for the assignment to be counted as on time. Each student in the
+class will be given a total of two "late days" (a late day is 24 hours
+of lateness). There are no partial days, so assignments are either on
+time, 1 day late or 2 days late. <b>Once a student has used all of
+his or her late days, each successive late day will result in a loss
+of 20% on the assignment.</b> Note: In the case of written assignments
+that are due at 2:30pm on Friday, you would need to create an
+electronic version and email it to us by 2:30pm on Saturday to be
+considered 1 day late. <b>You may not submit any portion of any
+assignment more than 3 days after its original due date.</b>
+</p>
+<p>
+Written assignments are due promptly at the beginning of lecture.
+If you cannot attend lecture, please arrange to turn in your homework
+earlier to the instructor or have a classmate turn it in for you at
+the beginning of lecture.
+</p>
+<p>
+Programming projects will be submitted electronically by the deadline
+announced for each assignment.
+</p>
+<p>
+Occasionally exceptional circumstances occur.  If you contact the
+instructor well in advance of the deadline, we may be able to show
+more flexibility in some cases.
+</p>
+<h2>Re-grade Policy</h2>
+<p>If you have a question about an assignment or exam that was returned
+to you, please do not hesitate to ask a TA or the instructor about it.
+Learning from our mistakes is often one of the most memorable ways of
+learning.
+</p>
+<p>
+If, after discussing your question with a TA or the instructor, you feel
+that your work was misunderstood or otherwise should be looked at
+again to see if an appropriate grade was given, please submit
+a written re-grade request as follows:
+</p>
+<ul class="spacey">
+<li> Along with the original version of the assignment you wish
+to have re-graded, include a written summary (which can
+be neatly handwritten) describing why the work should be looked at
+again. </li>
+<li> Submit it to the instructor or to a TA. </li>
+<li> Re-grade requests should be submitted within a week of when the
+assignment was returned. </li>
+</ul>
+<p>
+When a written assignment, programming project, or test is re-graded,
+the entire work will be re-graded. This means that while it is
+possible to gain points, it is also possible to lose points.
+</p>
+<h2>Grading guidelines for programming assignments</h2>
+<p>See also <a href="programming_guidelines.html">Programming Guidelines</a> for the course.</p>
+<p>For each project the, <i>approximate and subject-to-change</i> grade breakdown is:</p>
+<ul>
+<li>Program correctness, compilation: 40%</li>
+<li>Architecture/design, style, commenting, documentation: 30%</li>
+<li>Writeup/README: 30%</li>
+</ul>
+<p>
+The reason why "so few" points are allocated toward program correctness
+and error-free compilation is because students who have gotten past CSE143
+are accomplished enough to know how to get their code to compile and run against
+the general input (although testing "boundary conditions" is a skill that
+students should aim for).  Program correctness and error-free
+compilation is neither a fair nor discriminating measurement of project
+quality.
+</p>
+<p>The two biggest discriminating factors among CSE373 students are program
+design (such as style and architecture) and analysis (the README/writeup),
+which is why these factors are heavily weighted.  CSE373 is a
+course about data structures and the tradeoffs made during algorithm/data
+structure/abstraction design, so putting additional weight on program design, and
+questions about algorithm analysis and weighing tradeoffs, is more in keeping
+with the course goals.
+</p>
+<h2>Extra Credit</h2>
+<p>We will track any extra features you implement (the "Above
+and Beyond" parts). You will not see these affecting your grades for
+individual projects, but they will be accumulated over all projects
+and used to bump up borderline grades at the end of the quarter.
+</p>
+<hr/>
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3">
+<img alt="Valid CSS!" src="vcss.gif" style="border:0;width:88px;height:31px"/></a>
+<a href="http://validator.w3.org/check?uri=referer">
+<img alt="Valid XHTML 1.1" height="31" src="valid-xhtml11-blue.png" style="border:0;" width="88"/></a>
+</p>
+</div></body>
+</html>

@@ -1,0 +1,478 @@
+{
+    "id": 0,
+    "content": "COS 320: Compiling Techniques",
+    "children": [
+        {
+            "id": 1,
+            "content": "COS 320: Compiling Techniques, Spring 2019",
+            "key": 1
+        },
+        {
+            "id": 2,
+            "content": "Course information",
+            "key": 2,
+            "children": [
+                {
+                  "id": 3,
+                  "content": "Semester: Spring 2019   Lectures: Tuesday Thursday 1:30 - 2:50pm   Location: Friend Center 008   Instructor: Zak Kincaid, zkincaid@cs.princeton.edu.   Teaching assistants: Chirag Bharadwaj and Qinshi Wang   Undergraduate graders: Benjamin Huang   Office hours:",
+                  "key": 1
+                },
+                {
+                    "id": 4,
+                    "content": "",
+                    "isList": true,
+                    "key": 2,
+                    "children": [
+                      {
+                        "id": 5,
+                        "content": "Monday 3 - 4pm Friend 010 (Qinshi)",
+                        "key": 1
+                      },
+                      {
+                        "id": 6,
+                        "content": "Tuesday 4 - 6pm Friend 010 (Chirag)",
+                        "key": 2
+                      },
+                      {
+                        "id": 7,
+                        "content": "Wednesday 3 - 5pm CS 219 (Zak) 4 - 5:30 on 3/27",
+                        "key": 3
+                      },
+                      {
+                        "id": 8,
+                        "content": "Thursday 3 - 4pm Friend 010 (Qinshi)",
+                        "key": 4
+                      }
+                    ]
+                },
+              {
+                "id": 9,
+                "content": "Links:",
+                "key": 3,
+                "children": [
+                  {
+                    "id": 10,
+                    "content": "Piazza, Real world OCaml, OCaml manual, OCaml standard library, OCaml style guide.",
+                    "key": 1
+                  }
+                ]
+              }
+            ]
+        },
+        {
+            "id": 11,
+            "content": "Description",
+            "key": 3,
+            "children": [
+                {
+                    "id": 12,
+                    "content": "Understand the design and construction of compilers. Concepts include syntax analysis, semantics, code generation, optimization and run-time systems. Translation of imperative languages (such as C), functional languages (such as ML), and object-oriented languages (such as Java) will be studied. Students will implement a complete compiler for a small language.",
+                    "key": 1
+                },
+                {
+                    "id": 13,
+                    "content": "Many of the course materials and assignments have been adapted from Steve Zdancewic's CIS 341 at U Penn.",
+                    "key": 2
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "content": "Schedule",
+            "key": 4,
+            "children": [
+                {
+                    "id": 15,
+                    "content": "This is a tentative schedule that may be changed during the course.",
+                    "key": 1
+                },
+                {
+                    "id": 16,
+                    "content": "",
+                    "isList": true,
+                    "key": 2,
+                    "children": [
+                      {
+                        "id": 17,
+                        "content": "Date,Topics,Readings",
+                        "isList": true,
+                        "key": 1
+                      },
+                      {
+                        "id": 18,
+                        "content": "Feb 5,Introduction,Appel 1",
+                        "isList": true,
+                        "key": 2
+                      },
+                      {
+                        "id": 19,
+                        "content": "Feb 7,OCaml,RWO 1-9",
+                        "isList": true,
+                        "key": 3
+                      },
+                      {
+                        "id": 20,
+                        "content": "Feb 12,X86lite,Appel 6",
+                        "isList": true,
+                        "key": 4
+                      },
+                      {
+                        "id": 21,
+                        "content": "Feb 14,Intermediate representations I (example code)",
+                        "isList": true,
+                        "key": 5
+                      },
+                      {
+                        "id": 22,
+                        "content": "Feb 19,Intermediate representations II (example code),Appel 8",
+                        "isList": true,
+                        "key": 6
+                      },
+                      {
+                        "id": 23,
+                        "content": "Feb 21,LLVM I (LLVMlite spec)",
+                        "isList": true,
+                        "key": 7
+                      },
+                      {
+                        "id": 24,
+                        "content": "Feb 26,LLVM II",
+                        "isList": true,
+                        "key": 8
+                      },
+                      {
+                        "id": 25,
+                        "content": "Feb 28,Lexing (example code),Appel 2",
+                        "isList": true,
+                        "key": 9
+                      },
+                      {
+                        "id": 26,
+                        "content": "Mar 5,Parsing I (example code),Appel 3",
+                        "isList": true,
+                        "key": 10
+                      },
+                      {
+                        "id": 27,
+                        "content": "Mar 7,Parsing II (example code)",
+                        "isList": true,
+                        "key": 11
+                      },
+                      {
+                        "id": 28,
+                        "content": "Mar 12,Parsing III",
+                        "isList": true,
+                        "key": 12
+                      },
+                      {
+                        "id": 29,
+                        "content": "Mar 14,Midterm",
+                        "isList": true,
+                        "key": 13
+                      },
+                      {
+                        "id": 30,
+                        "content": "Mar 19,21,Spring break",
+                        "isList": true,
+                        "key": 14
+                      },
+                      {
+                        "id": 31,
+                        "content": "Mar 26,Types I (example code)",
+                        "isList": true,
+                        "key": 15
+                      },
+                      {
+                        "id": 32,
+                        "content": "Mar 28,Types II",
+                        "isList": true,
+                        "key": 16
+                      },
+                      {
+                        "id": 33,
+                        "content": "Apr 2,Types III",
+                        "isList": true,
+                        "key": 17
+                      },
+                      {
+                        "id": 34,
+                        "content": "Apr 4,Data Flow Analysis & Optimization I,Appel 17",
+                        "isList": true,
+                        "key": 18
+                      },
+                      {
+                        "id": 35,
+                        "content": "Apr 9,Cancelled",
+                        "isList": true,
+                        "key": 19
+                      },
+                      {
+                        "id": 36,
+                        "content": "Apr 11,Data Flow Analysis & Optimization II",
+                        "isList": true,
+                        "key": 20
+                      },
+                      {
+                        "id": 37,
+                        "content": "Apr 16,Data Flow Analysis & Optimization III",
+                        "isList": true,
+                        "key": 21
+                      },
+                      {
+                        "id": 38,
+                        "content": "Apr 18,Register Allocation,Appel 10",
+                        "isList": true,
+                        "key": 22
+                      },
+                      {
+                        "id": 39,
+                        "content": "Apr 23,Control flow",
+                        "isList": true,
+                        "key": 23
+                      },
+                      {
+                        "id": 40,
+                        "content": "Apr 25,Loop Optimizations,Appel 18",
+                        "isList": true,
+                        "key": 24
+                      },
+                      {
+                        "id": 41,
+                        "content": "Apr 30,High-level languages,Appel 13,14,15",
+                        "isList": true,
+                        "key": 25
+                      },
+                      {
+                        "id": 42,
+                        "content": "May 2,Wrap-up",
+                        "isList": true,
+                        "key": 26
+                      }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 43,
+            "content": "Assignments",
+            "key": 5,
+            "children": [
+                {
+                    "id": 44,
+                    "content": "To complete the assignments you will need an installation of OCaml and LLVM. The easiest way to get started is to use the COS 320 virtual machine (SHA-256: e92d7c2fd25a241bf8b43662e71b689a4841f44dee88a37b5cb30e7bb871f024). You will need to install VirtualBox to run the VM. The username and password for the machine is cos320.   If you would like to set up an OCaml dev environment on your own machine, instructions from COS 326 are available here.",
+                    "key": 1
+                },
+                {
+                    "id": 45,
+                    "content": "",
+                    "isList": true,
+                    "key": 2,
+                    "children": [
+                        {
+                            "id": 46,
+                            "content": "Assignment 1, due Feb 19. Submit on TigerFile.",
+                            "key": 1
+                        },
+                        {
+                            "id": 47,
+                            "content": "Assignment 2, released Feb 19, due Mar 5.",
+                            "key": 2
+                        },
+                        {
+                            "id": 48,
+                            "content": "Assignment 3, released Mar 5, due Mar 28.",
+                            "key": 3
+                        },
+                        {
+                            "id": 49,
+                            "content": "Assignment 4, released Mar 26, due Apr 15.",
+                            "key": 4
+                        },
+                        {
+                            "id": 50,
+                            "content": "Assignment 5, released Apr 11, due Apr 30.",
+                            "key": 5
+                        },
+                        {
+                            "id": 51,
+                            "content": "Assignment 6, released Apr 30, due May 14.",
+                            "key": 6
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 52,
+            "content": "Grading policies",
+            "key": 6,
+            "children": [
+              {
+                "id": 53,
+                "content": "There will be six assignments during the semester. The first assignment will be an introduction to (or refresher for) the OCaml language, which must be completed individually. For the remaining five assignments, you are encouraged to work in pairs. Projects that do not compile will receive no credit .",
+                "key": 1
+              },
+              {
+                "id": 54,
+                "content": "Your final grade will be weighted as follows:",
+                "key": 2
+              },
+              {
+                "id": 55,
+                "content": "",
+                "isList": true,
+                "key": 3,
+                "children": [
+                  {
+                    "id": 56,
+                    "content": "",
+                    "isList": true,
+                    "key": 1,
+                    "children": [
+                      {
+                        "id": 57,
+                        "content": "Component",
+                        "key": 1,
+                        "children": [
+                          {
+                            "id": 58,
+                            "content": "Homework",
+                            "key": 1
+                          }
+                        ]
+                      },
+                      {
+                        "id": 59,
+                        "content": "Weight",
+                        "key": 2,
+                        "children": [
+                          {
+                            "id": 60,
+                            "content": "60%",
+                            "key": 1
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": 61,
+                    "content": "",
+                    "isList": true,
+                    "key": 2,
+                    "children": [
+                      {
+                        "id": 62,
+                        "content": "Component",
+                        "key": 1,
+                        "children": [
+                          {
+                            "id": 63,
+                            "content": "Midterm Exam",
+                            "key": 1
+                          }
+                        ]
+                      },
+                      {
+                        "id": 64,
+                        "content": "Weight",
+                        "key": 2,
+                        "children": [
+                          {
+                            "id": 65,
+                            "content": "20%",
+                            "key": 1
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": 66,
+                    "content": "",
+                    "isList": true,
+                    "key": 3,
+                    "children": [
+                      {
+                        "id": 67,
+                        "content": "Component",
+                        "key": 1,
+                        "children": [
+                          {
+                            "id": 68,
+                            "content": "Final Exam",
+                            "key": 1
+                          }
+                        ]
+                      },
+                      {
+                        "id": 69,
+                        "content": "Weight",
+                        "key": 2,
+                        "children": [
+                          {
+                            "id": 70,
+                            "content": "20%",
+                            "key": 1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 71,
+                "content": "Late policy",
+                "isList": true,
+                "key": 4,
+                "children": [
+                  {
+                    "id": 72,
+                    "content": "Late assignments will be penalized 1% per hour past the deadline.",
+                    "key": 1
+                  },
+                  {
+                    "id": 73,
+                    "content": "You have five \"late passes\", which allow you to submit an assignment up to 24 hours late without penalty. You may use up to three late passes on a single assignment. You do not need to inform anyone about your intention to use a late pass -- your late penalties will be tabulated a the end of the semester to maximize your final grade.",
+                    "key": 2
+                  },
+                  {
+                    "id": 74,
+                    "content": "No additional lateness penalties will be waived without the recommendation of a Dean or a letter from McCosh Health Center. In this case, write to me.",
+                    "key": 3
+                  }
+                ]
+              },
+              {
+                "id": 75,
+                "content": "Conduct",
+                "isList": true,
+                "key": 5,
+                "children": [
+                  {
+                    "id": 76,
+                    "content": "For homework and assignments, discussions with others are permitted, where the goal is to aid your understanding. However, the submitted work/code should be entirely your own (and your partner, should you work in a pair).",
+                    "key": 1
+                  },
+                  {
+                    "id": 77,
+                    "content": "Do not copy another person's program, or get solutions from resources outside the course.",
+                    "key": 2
+                  },
+                  {
+                    "id": 78,
+                    "content": "If you have any questions or concerns, please discuss these policies with the instructors.",
+                    "key": 3
+                  },
+                  {
+                    "id": 79,
+                    "content": "Conduct during exams is covered by the University Honor Code.",
+                    "key": 4
+                  }
+                ]
+              }
+            ]
+        }
+    ]
+}

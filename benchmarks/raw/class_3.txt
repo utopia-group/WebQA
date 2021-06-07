@@ -1,0 +1,157 @@
+<html><head><title>CS 327E Elements of Databases</title>
+<style type="text/css">
+<!--
+body { margin-left: 5%; margin-right: 5% }
+.info { margin-left: 20px; }
+-->
+</style>
+</head><body><h2>Syllabus for CS 327E Elements of Databases - Spring 2020</h2>
+<p>
+<b><i>Class Times: </i></b>Mondays 6:00pm - 9:00pm<br/>
+<b><i>Class Location: </i></b>Zoom<br/>
+</p><p>
+<b><i>Instructor: </i></b><a href="http://www.cs.utexas.edu/~scohen/index.html"><font color="blue">Shirley Cohen</font></a><br/>
+<b><i>Email: </i></b>scohen at cs dot utexas dot edu<br/>
+<b><i>Office hours: </i></b>After class or by appointment on Zoom<br/>
+</p><p>
+<b><i>TA: </i></b>Ethan Houston<br/>
+<b><i>Email: </i></b>ethan dot houston at utexas dot edu<br/>
+<b><i>Office hours: </i></b>Wednesdays and Fridays 12:00pm - 1:00pm on Zoom<br/>
+</p><p>
+<b><i>TA: </i></b>Jiayi Zhou<br/>
+<b><i>Email: </i></b>judyzhou959 at utexas dot edu<br/>
+<b><i>Office hours: </i></b>Tuesdays 3:00pm - 4:00pm and Fridays 10:00am - 11:00am on Zoom<br/>
+</p><p>
+</p><p><b><i>Course Description</i></b>:<br/>
+This course is designed to give students a practical understanding of databases and data systems. The goal is to learn modern data management and data processing techniques through a mix of best practices, experimentation, and problem solving.<br/><br/>
+
+The content of the course is organized into three broad areas: 1) SQL with an emphasis on the standard features of the language; 2) data models from relational to nested; and 3) dataflow programming and workflow orchestration for processing data at-scale.<br/><br/>
+
+We will first construct a analytics database from single dataset of structured data. We will then expand the scope of the database with additional datasets from multiple sources. We will gradually enrich, cleanse, and transform the data to create a unified view of the data across multiple datasets. This work will be implemented on Google Cloud Platform using a variety of data science tools: Postgres, BigQuery, Apache Beam and Dataflow, Apache Airflow and Composer, Jupyter Notebooks, and Data Studio.<br/><br/>
+Below are some of the topics we will be covering during the term: <br/><br/>
+
+SQL:<br/>
+- select-from-where<br/>
+- order-bys<br/>
+- joins<br/>
+- inserts, updates, deletes<br/>
+- aggregates<br/>
+- group-bys<br/>
+- subqueries<br/>
+- functions<br/>
+<br/>
+
+Data Modeling:<br/>
+- referential integrity<br/>
+- normalization<br/>
+- hierarchies<br/>
+- repeated fields<br/>
+- views<br/>
+- partitioning<br/>
+<br/>
+Dataflow Programming:<br/>
+- ingestion<br/>
+- cleansing<br/>
+- transformation<br/>
+- data integration<br/>
+- workflow orchestration<br/>
+<br/>
+<b><i>Prerequisites:</i></b><br/>
+<p>
+The course assumes a programming background and in particular, a solid working knowledge of Python scripting. As such, the prerequisites for this course are CS 303E, CS 307 or the equivalent. Familiarity with SQL is also helpful, but not required.</p><br/><br/>
+<b><i>Textbooks:</i></b><br/>
+<p>There are two required texts for this course: </p><br/>
+- Wilfried Lemahieu et. al, <a href="http://www.pdbmbook.com/"><font color="brown">Principles of Database Management</font></a>, First Edition, 2018. Available as an <a href="https://www.amazon.com/gp/product/B07DXT1LGR?pf_rd_p=183f5289-9dc0-416f-942e-e8f213ef368b&amp;pf_rd_r=VGDXMBAP05AGCP7KM3E7"><font color="blue">ebook</font></a> from Amazon.<br/>
+- Clare Churcher, <a href="https://www.apress.com/us/book/9781484219546"><font color="lightblue">Beginning SQL Queries: From Notice to Professional</font></a>, Second Edition, 2016. Available as an <a href="http://ezproxy.lib.utexas.edu/login?url=http://link.Springer.com/10.1007/978-1-4842-1955-3"><font color="blue">ebook</font></a> from the UT Library.<br/>
+<br/>
+<b><i>Supplemental Readings:</i></b><br/>
+<p>
+The course requires consulting the product documentation on Postgres, BigQuery, Beam, Dataflow, Airflow, and Data Studio. The documentation is updated frequently and will be reviewed on a regular basis throughout the course.</p><br/>
+<br/>
+<b><i>Quizzes:</i></b><br/>
+<p>
+There will be weekly quizzes based on assigned readings. The quizzes are closed notes. They will have 5 multiple-choice questions and they will be taken at the start of class with your iClicker. iClickers are available as a web and mobile app. You must create an <a href="https://app.reef-education.com/#/account/create">iClicker Reef account</a> and register it with this course. You will not be able to take the quizzes with a physical iClicker remote starting after Spring Break.</p><br/><br/>
+<b><i>Project:</i></b><br/>
+<p>
+The most important component of this course is the term project. The project will be to construct a data warehouse that brings together previously siloed datasets with the goal of deriving some interesting insights from the combined data. It will tie together many of the concepts you will learn throughout this course, such as data modeling, transformations, visualization, and orchestration. It is an ambigious project that will take up the entire term. The project will be carried out in teams of two students. You will form groups at the start of the term and work with the same person on all the milestones. There are 12 milestones overall. More details on the miletones are provided in the Week-by-Week section below. </p><br/><br/>
+<b><i>Exam:</i></b><br/>
+<p>
+There is only one exam for this course which is the midterm. This exam is comprehensive and will cover all the material to-date, including SQL, data modeling, and dataflow programming. It is a closed-book exam and will be done entirely in class. Unfortunately, no make-up exam will be offered due to our limited resources.</p><br/><br/>
+<b><i>Participation:</i></b><br/>
+<p>
+This class will be taught using "active learning" techniques. My goal is to spend the majority of class time clarifying difficult concepts and actively working through problems rather than delivering a traditional lecture. You will need to bring a laptop to class and sit with your partner to able to work together on practice problems. Participation questions will be answered with your iClicker and they will be based on these exercises.</p>
+<br/><br/>
+<b><i>Absences</i></b><br/>
+<p>
+Excused absences may be given only for verifiable medical or family emergencies. Written documentation must be provided to qualify for an excused absence. The medical documentation must specifically state that you could not attend class due to your illness and must be signed by a physician. A job or intership interview or any other appointment does not constitute an excused absence. </p>
+<br/><br/>
+<b><i>Grading Rubric:</i></b><br/>
+<p>The basic grading rubric is comprised of the four components listed below:</p><br/>
+</p><ul>
+<li>Quizzes 15%
+</li><li>Project 50%
+</li><li>Exam 25%
+</li><li>Participation 10%
+</li></ul>
+Note: The final grade will use the plus/minus grading system.<br/><br/>
+<b><i>Late Submission Policy:</i></b><br/>
+<p>There is a <b>10% reduction</b> in the grade per day. This applies to all project submissions throughout the term. </p>
+<br/>
+<br/>
+<b><i>Tooling:</i></b><br/>
+- <a href="https://console.cloud.google.com"><font color="gray">Google Cloud Platform</font></a> for practice problems and project work.<br/>
+- <a href="https://github.com/cs327e-Spring2020/"><font color="gray">GitHub</font></a> for code repository, version control, and how-to guides.<br/>
+- <a href="https://www.lucidchart.com"><font color="gray">Lucidchart</font></a> for diagramming.<br/>
+- <a href="https://piazza.com/class/k5b7pjx87903xo"><font color="gray">Piazza</font></a> for asynchronous communication (announcements, questions, discussions).<br/>
+- <a href="https://utexas.instructure.com/courses/1275905"><font color="gray">Canvas</font></a> for grade reporting.<br/>
+- <a href="https://wikis.utexas.edu/display/LAITS/Install+and+Configure+Zoom"><font color="gray">Zoom</font></a> for online instruction.<br/>
+<br/>
+<b><i>Academic Integrity:</i></b><br/>
+This course will abide by UTCS' code of <a href="https://login.cs.utexas.edu/academics/conduct"><font color="blue">academic integrity</font></a>.
+
+<br/>
+<br/>
+<b><i>Students with Disabilities:</i></b><br/>
+Students with disabilities may request appropriate academic <a href="http://diversity.utexas.edu/disability/"><font color="blue">accommodations</font></a>.
+
+
+<br/>
+<br/>
+<b><i>Week-by-Week Schedule:</i></b><br/>
+Below is a week-by-week schedule that includes the important milestones and assigned readings: <br/>
+<ul>
+<li>01/27: Course Overview and Database Foundations. <i>Read before class</i>: <font color="brown">Chapter 1</font> from PDBM text. <a href="milestones/Milestone1.pdf">Milestone 1</a> <a href="slides/01-27-2020.pdf">Slides</a>. 
+
+    </li><li>02/03: Simple Queries. <i>Read before class</i>: <font color="brown">Chapter 2</font> from PDBM text and <font color="lightblue">Chapter 2</font> from SQL text. <a href="milestones/Milestone2.pdf">Milestone 2</a> <a href="slides/02-03-2020.pdf">Slides</a> <a href="notes/02-03-2020.pdf">Notes</a>.
+
+    </li><li>02/10: Joins. <i>Read before class</i>: <font color="lightblue">Chapters 3 and 5</font> from SQL text. <a href="milestones/Milestone3.pdf">Milestone 3</a> <a href="slides/02-10-2020.pdf">Slides</a> <a href="notes/02-10-2020.pdf">Notes</a>.
+
+    </li><li>02/17: Data Modeling. <i>Read before class</i>: <font color="brown">Chapter 3</font> up to section 3.4 from PDBM text and <font color="lightblue">Chapter 6</font> from SQL text. <a href="milestones/Milestone4.pdf">Milestone 4</a> <a href="slides/02-17-2020.pdf">Slides</a> <a href="notes/02-17-2020.pdf">Notes</a>.
+	
+</li><li>02/24: Data Transformations. <i>Watch before class</i>: <a href="https://www.youtube.com/watch?v=I1JUtoDHFcg"><font color="orange">Beam Overview</font></a>. <a href="milestones/Milestone5.pdf">Milestone 5</a> <a href="slides/02-24-2020.pdf">Slides</a> <a href="notes/02-24-2020.pdf">Notes</a>.
+
+	</li><li>03/02: Data Transformations. <i>Read before class</i>: <a href="https://beam.apache.org/documentation/programming-guide/"><font color="orange">Beam Programming Guide</font></a>, sections 1-5. <a href="milestones/Milestone6.pdf">Milestone 6</a> <a href="slides/03-02-2020.pdf">Slides</a> <a href="notes/03-02-2020.pdf">Notes</a>.
+	
+	</li><li>03/09: Groupings and Aggregations. <i>Read before class</i>: <font color="lightblue">Chapters 7 and 8</font> from SQL text. <a href="milestones/Milestone7.pdf">Milestone 7</a> <a href="slides/03-09-2020.pdf">Slides</a> <a href="notes/03-09-2020.pdf">Notes</a>. 
+
+	</li><li>03/16: <b>Spring Break</b>.  
+
+	</li><li>03/23: <b>Spring Break</b>.
+
+	</li><li>03/30: Subqueries. <i>Read before class</i>: <font color="lightblue">Chapter 4</font> from SQL text. <a href="milestones/Milestone8.pdf">Milestone 8</a> <a href="slides/03-30-2020.pdf">Slides</a> <a href="notes/03-30-2020.pdf">Notes</a>. 
+	
+	</li><li>04/06: <b>Midterm Exam</b>.
+	
+	</li><li>04/13: Data Integration. <i>Read before class</i>: <font color="brown">Chapter 17</font> from PDBM text. <a href="milestones/Milestone9.pdf">Milestone 9</a> <a href="slides/04-13-2020.pdf">Slides</a>. 
+		
+	</li><li>04/20: Data Integration. <i>Read before class</i>: <a href="https://cloud.google.com/blog/products/gcp/guide-to-common-cloud-dataflow-use-case-patterns-part-1"><font color="orange">Common Dataflow Patterns Part 1</font></a> and <a href="https://cloud.google.com/blog/products/gcp/guide-to-common-cloud-dataflow-use-case-patterns-part-2"><font color="orange">Part 2</font></a>. <b>Milestone 10</b>. 
+
+	</li><li>04/27: Workflow Orchestration. <i>Read before class</i>: <a href="https://airflow.apache.org/concepts.html"><font color="orange">Airflow Concepts</font></a> and <a href="https://airflow.apache.org/tutorial.html"><font color="orange">Airflow Tutorial</font></a>. <b>Milestone 11</b>.
+	
+	</li><li>05/04: Final Demos and Presentations. <b>Milestone 12</b>. 
+
+</li></ul>
+<b><i>Acknowledgments:</i></b><br/>
+This course is generously supported by Google by giving us access to their <a href="https://cloud.google.com"><font color="blue">Cloud Platform</font></a>.
+<p></p>
+</body></html>

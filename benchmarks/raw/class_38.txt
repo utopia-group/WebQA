@@ -1,0 +1,203 @@
+<html>
+<head>
+<title>CS240 Home Page</title>
+<link href="./underConst.css" rel="stylesheet" type="text/css"/>
+<style>
+<!--
+h1, h2, h3 { margin-top:0; margin-bottom:-10 }
+table.page   { align: center; width: 100%; border: no  }
+em { color: #990000}
+p.navigation { font-size: 70%; color: #006600 }
+p.sectionDesc { font-size: 90%; font-weight: bold; color: #000080 }
+.subtitle { font-size: 70%; font-weight: normal; color: #006600 }
+.headerBG { background-color: #cde7f0 }
+.standoutBG { background-color: #e0f8ec }
+.regBG { background-color: #ffffff }
+.bottomStyle { font-size: 70%; color: #FFFFFF}
+.reg { font-size: 90% }
+-->
+</style>
+</head>
+<body>
+<table cellpadding="8" cellspacing="0" class="page">
+<tr><td class="headerBG">
+<h1>CS 240: <i>Introduction to Discrete Mathematics</i><br/>
+<span class="subtitle">Lecs 1, 2, &amp; 3, Fall 2019</span></h1>
+<p class="navigation">
+<br/>  In this page:
+<a href="#Announcements">Announcements</a> |
+<a href="#Info">Overview</a> |
+<a href="#CourseGrading">Course Grading</a> |
+<a href="#Topics">Topics</a> |
+<a href="#GetStarted">Getting Started</a><br/>
+</p>
+</td></tr>
+<tr><td></td></tr> <!-- space between items -->
+<tr><td class="regBG">
+<h2>Lectures:</h2>
+<ul>
+<li><b>Lecture 1:</b> 105 Psychology, MWF: 9:55 am - 10:45 am</li>
+<li><b>Lecture 2:</b> 132 Noland, MWF: 1:20 pm - 2:10 pm</li>
+<li><b>Lecture 3:</b> 168 Nolan, MWF: 2:25 pm - 3:15 pm</li>
+</ul>
+<h2>Instructor:</h2>
+<ul>
+<li><b>Beck Hasti</b><br/>
+  5375 Computer Sciences, hasti (at) cs.wisc.edu<br/>
+<b>Office Hours:</b>
+<ul>
+<li>Monday 11 am - noon</li>
+<li>Tuesday 12:30 - 2:30 pm</li>
+<li>Wednesday 3:30 - 4:30 pm</li>
+<li><i>and by appointment</i></li>
+</ul>
+</li>
+</ul>
+<h2 id="TAs">TAs:</h2>
+<ul>
+<li>Hailey	Fields</li>
+<li>Jeffrey	Burge</li>
+<li>Jongho	Park</li>
+<li>Maulik	Shah</li>
+<li>Nils	Palumbo</li>
+<li>Prajna	Bhat</li>
+<li>Rojin	Rezvan</li>
+<li>Samuel	Jackson</li>
+<li>Vinay	Patil</li>
+<li>Wen	Xu</li>
+<li>Zachary	Susag</li>
+</ul>
+</td></tr>
+<tr><td></td></tr> <!-- space between items -->
+<tr><td class="standoutBG">
+<h2 id="Announcements">Announcements:</h2>
+<ul>
+<li><em>The CS 240 website is under construction for the Fall 2019 semester.</em></li>
+<li>Discussion sections will <em><b>not</b></em> meet on Thursday, September 5</li>
+<li><p>Course information (for all lectures) can be found on the <a href="./info/CS240_syllabus_f19.pdf">COMP SCI 240 Syllabus</a></p></li>
+<li>
+<p><strong>If you have a conflict with one or more of the exams or have exam accommodation requests</strong>, please fill out the 
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSdkImxhxgFOX03IChA820kNs2X0PqCD6toss5QxlwcdMp9zVA/viewform?usp=sf_link">CS 240 Alternate Exam Request Form</a> 
+(you will need to be logged in to your UW Google account which is associated with your wisc.edu email).</p>
+</li>
+<li>Contact Beck Hasti within the <strong>first three weeks</strong> of classes to set up a meeting if:
+<ul>
+<li>you participate in religious observances that may conflict with course requirements.</li>
+<li>you are requesting disability-related accommodations (additionally, make sure that you have used McBurney Connect to generate and send a Faculty Notification Letter to Beck Hasti).</li>
+</ul>
+</li>
+</ul>
+</td></tr>
+<tr><td></td></tr> <!-- space between items -->
+<tr><td class="regBG">
+<h2 id="Info">Course Description:</h2>
+<p>CS 240 gives an undergraduate-level introduction to discrete mathematics geared towards prospective Computer Science and Electrical and Computer Engineering majors. It covers fundamental concepts of mathematics (definitions, proofs, sets, functions, and relations) and focuses on the discrete structures that are ubiquitous in digital computing: integers, bits, strings, graphs, and trees. </p>
+<p>The goal of the course is two-fold:</p>
+<ul>
+<li>making you familiar with those structures and related notions that are relevant to computer science, and</li>
+<li>developing your skills to reason rigorously about those structures and notions, especially in an algorithmic context.</li>
+</ul>
+<p><b>Topics:</b>
+Basic concepts of mathematics (definitions, proofs, sets, functions, and relations) 
+with a focus on discrete structures: integers, bits, strings, trees, and graphs. 
+Propositional logic, Boolean algebra, and predicate logic. 
+Mathematical induction and recursion. 
+Invariants and algorithmic correctness. 
+Recursion, recurrences, and asymptotic growth analysis. 
+Fundamentals of counting.
+Regular expressions and finite automata.
+</p>
+<p><b>Prereqs:</b>
+One semester of calculus (Math 221). 
+It will be useful to have some prior programming experience.
+</p>
+<h2 id="CourseGrading">Course Grading:</h2>
+<p><b>Final letter grades are determined from your final cumulative score that is computed using the following breakdown:
+</b></p>
+<ul>
+<li><b>60% Exams :</b><br/>
+3 exams, 2 during the semester and one during the final 
+exam period each worth 20% of your final grade</li>
+<li><b>35% Assignments :</b><br/>
+350 points coming from written work, on-line quizzes, and zyBooks Challenge Activities divided into approximately 14 assignments (with the first worth 10 points and the rest between 20 and 30 points each)
+</li>
+<li><b>5% Participation :</b><br/> 
+zyBook Participation Activities, scheduled to be due prior to that material being covered in lecture</li>
+</ul>
+<p><b>Letter grades are assigned at the end of the semester</b>.
+The curve is determined after the final exam is completed. 
+The median student's course grade is anticipated to be a low B or high BC.</p>
+</td></tr>
+<tr><td></td></tr> <!-- space between items -->
+<tr><td class="regBG">
+<h2 id="Topics">Topics:</h2>
+<p>Below is a tentative schedule of the topics and order in which they will be covered. Course content comes from the lectures and discussion sections as well as  a zyBooks E-Text and a set of on-line readings (linked in the schedule below).</p>
+<p>Each topic roughly corresponds to one week.
+  See <a href="http://canvas.wisc.edu/">Canvas</a> for the most up-to-date schedule.
+</p>
+<ol>
+<li><a href="./readings/01_Introduction.pdf">Introduction</a></li>
+<li><a href="./readings/02_Propositions_Predicates.pdf">Propositions and Predicates</a></li>
+<li><a href="./readings/03_Sets.pdf">Sets</a></li>
+<li><a href="./readings/04_Proofs.pdf">Proofs</a></li>
+<li><a href="./readings/05_Induction.pdf">Induction</a></li>
+<li><a href="./readings/06_Invariants.pdf">Invariants</a></li>
+<li><a href="./readings/07_Program_Correctness.pdf">Program Correctness</a></li>
+<li><a href="./readings/08_Recursion.pdf">Recursion</a></li>
+<li><a href="./readings/09_Recurrences.pdf">Recurrences</a></li>
+<li><a href="./readings/10_Asymptotic_Analysis.pdf">Asymptotic Analysis</a></li>
+<li><a href="./readings/11_Relations_Functions.pdf">Relations and Functions</a></li>
+<li><a href="./readings/13_DFA.pdf">Finite State Automata and Regular Expressions</a></li>
+<li><a href="./readings/12_Graphs.pdf">Graphs and Trees</a></li>
+<li><a href="./readings/14_Counting.pdf">Counting</a></li>
+</ol>
+</td></tr>
+<tr><td></td></tr> <!-- space between items -->
+<tr><td class="regBG">
+<h2 id="GetStarted">Getting Started:</h2>
+<p>Checklist of things to do to get started with the course:</p>
+<ul>
+<li><p><b>Register for the course zyBook</b><br/>
+We will be using an electronic text provided through zyBooks.
+In addition to readings, it also provides interactive demonstrations and activities that 
+facilitate active learning. 
+Participation activities count towards the participation part of the course grade;
+challenge activities will be part of the homework assignments.
+</p>
+<ol>
+<li>Use your NetID based @wisc.edu email address to sign up for an account at 
+<a href="https://learn.zybooks.com">https://learn.zybooks.com</a></li>
+<li>Enter the zyBook code: WISCCOMPSCI240MATH240HastiFall2019</li>
+<li>Click Subscribe (cost is $58)</li>
+<li>If you've never used zyBooks before, complete the How to Use zyBooks</li>
+</ol>
+</li>
+<li><p><b>Activate your Piazza Account</b><br/>
+Piazza is a free online tool for asking and answering questions related to CS 240 material.</p>
+<ol>
+<li>Follow the <a href="https://piazza.com/wisc/Fall2019/compsci240">Piazza account activation link</a></li>
+<li>Click "Join Classes"</li>
+<li>Be careful to include your NetID based @wisc.edu email address when creating this account.</li>
+</ol>
+</li>
+<li><p><b>Check your schedule for exam conflicts</b><br/>The exams are:</p>
+<ul>
+<li>Exam 1 : Monday, October 14th, 7:15 pm to 9:15 pm</li>
+<li>Exam 2 : Monday, November 11th, 7:15 pm to 9:15 pm</li>
+<li>Exam 3 : Thursday, December 19th, 7:25 pm to 9:25 pm</li>
+</ul>
+<p>If you have a conflict, fill out the <a href="https://docs.google.com/forms/d/e/1FAIpQLSdkImxhxgFOX03IChA820kNs2X0PqCD6toss5QxlwcdMp9zVA/viewform?usp=sf_link">CS 240 Alternate Exam Request Form</a> (you will need to be logged in to your UW Google account which is associated with your wisc.edu email).</p>
+</li>
+<li>Read the <a href="./readings/01_Introduction.pdf">Introduction</a> 
+and start working on zyBook Chapter 1 (Getting started: some foundational material).
+</li>
+</ul>
+</td></tr>
+<tr><td></td></tr> <!-- space between items -->
+<tr>
+<td class="bottomStyle">
+Last Updated: 9/3/2019     ©2019 Beck Hasti </td>
+</tr>
+</table>
+</body>
+</html>

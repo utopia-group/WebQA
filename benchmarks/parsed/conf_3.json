@@ -1,0 +1,1024 @@
+{
+  "id": 0,
+  "content": "NSDI 2020 Call for Papers | USENIX",
+  "children": [
+    {
+      "id": 1,
+      "content": "NSDI 2020 Call for Papers",
+      "key": 1,
+      "children": [
+        {
+          "id": 2,
+          "content": "Sponsored by USENIX, the Advanced Computing Systems Association, in cooperation with ACM SIGCOMM and ACM SIGOPS.",
+          "key": 1
+        },
+        {
+          "id": 3,
+          "content": "The 17th USENIX Symposium on Networked Systems Design and Implementation (NSDI 2020) will be co-located with the 18th USENIX Conference on File and Storage Technologies (FAST 2020) and will take place February 25–27, 2020, at the Hyatt Regency Santa Clara in Santa Clara, CA, USA.",
+          "key": 2
+        },
+        {
+          "id": 4,
+          "content": "Important Dates",
+          "key": 3,
+          "children": [
+            {
+              "id": 5,
+              "content": "Spring deadline:",
+              "isList": true,
+              "key": 1,
+              "children": [
+                {
+                  "id": 6,
+                  "content": "Paper titles and abstracts due: Tuesday, March 12, 2019, 8:59pm US PDT",
+                  "key": 1
+                },
+                {
+                  "id": 7,
+                  "content": "Full paper submissions due:",
+                  "key": 2,
+                  "children": [
+                    {
+                      "id": 8,
+                      "content": "Tuesday, March 19, 2019, 8:59pm US PDT",
+                      "key": 1
+                    }
+                  ]
+                },
+                {
+                  "id": 9,
+                  "content": "Notification to authors:",
+                  "key": 3,
+                  "children": [
+                    {
+                      "id": 10,
+                      "content": "Friday, June 14, 2019",
+                      "key": 1
+                    }
+                  ]
+                },
+                {
+                  "id": 11,
+                  "content": "Final paper files due:",
+                  "key": 4,
+                  "children": [
+                    {
+                      "id": 12,
+                      "content": "Tuesday, August 27, 2019",
+                      "key": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 13,
+              "content": "Fall deadline:",
+              "key": 2,
+              "children": [
+                {
+                  "id": 14,
+                  "content": "",
+                  "isList": true,
+                  "key": 1,
+                  "children": [
+                    {
+                      "id": 15,
+                      "content": "Paper titles and abstracts due: Thursday, September 12, 2019, 8:59pm US PDT",
+                      "key": 1
+                    },
+                    {
+                      "id": 16,
+                      "content": "Full paper submissions due:",
+                      "key": 2,
+                      "children": [
+                        {
+                          "id": 17,
+                          "content": "Thursday, September 19, 2019, 8:59pm US PDT",
+                          "key": 1
+                        }
+                      ]
+                    },
+                    {
+                      "id": 18,
+                      "content": "Notification to authors:",
+                      "key": 3,
+                      "children": [
+                        {
+                          "id": 19,
+                          "content": "Friday, December 13, 2019",
+                          "key": 1
+                        }
+                      ]
+                    },
+                    {
+                      "id": 20,
+                      "content": "Final paper titles due:",
+                      "key": 4,
+                      "children": [
+                        {
+                          "id": 21,
+                          "content": "Friday, February 7, 2020",
+                          "key": 1
+                        }
+                      ]
+                    },
+                    {
+                      "id": 22,
+                      "content": "Final paper files due:",
+                      "key": 5,
+                      "children": [
+                        {
+                          "id": 23,
+                          "content": "Wednesday, February 12, 2020",
+                          "key": 1
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 24,
+                  "content": "Download Call for Papers PDF",
+                  "key": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "content": "Conference Organizers",
+          "key": 4,
+          "children": [
+            {
+              "id": 26,
+              "content": "Program Co-Chairs",
+              "key": 1,
+              "children": [
+                {
+                  "id": 27,
+                  "content": "Ranjita Bhagwan, Microsoft Research India",
+                  "key": 1
+                },
+                {
+                  "id": 28,
+                  "content": "George Porter, University of California, San Diego",
+                  "key": 2
+                }
+              ]
+            },
+            {
+              "id": 29,
+              "content": "Program Committee",
+              "key": 2,
+              "children": [
+                {
+                  "id": 30,
+                  "content": "Rachit Agarwal, Cornell University",
+                  "key": 1
+                },
+                {
+                  "id": 31,
+                  "content": "Aditya Akella, University of Wisconsin—Madison",
+                  "key": 2
+                },
+                {
+                  "id": 32,
+                  "content": "Mohammad Alizadeh, Massachusetts Institute of Technology",
+                  "key": 3
+                },
+                {
+                  "id": 33,
+                  "content": "Andrea Arpaci-Dusseau, University of Wisconsin—Madison",
+                  "key": 4
+                },
+                {
+                  "id": 34,
+                  "content": "Behnaz Arzani, Microsoft Research",
+                  "key": 5
+                },
+                {
+                  "id": 35,
+                  "content": "Hitesh Ballani, Microsoft Research",
+                  "key": 6
+                },
+                {
+                  "id": 36,
+                  "content": "Sujata Banerjee, VMware Research",
+                  "key": 7
+                },
+                {
+                  "id": 37,
+                  "content": "Ivan Beschastnikh, University of British Columbia",
+                  "key": 8
+                },
+                {
+                  "id": 38,
+                  "content": "Dinesh Bharadia, University of California, San Diego",
+                  "key": 9
+                },
+                {
+                  "id": 39,
+                  "content": "Fabian Bustamante, Northwestern University",
+                  "key": 10
+                },
+                {
+                  "id": 40,
+                  "content": "David Choffnes, Northeastern University",
+                  "key": 11
+                },
+                {
+                  "id": 41,
+                  "content": "Romit Roy Choudhury, University of Illinois at Urbana–Champaign",
+                  "key": 12
+                },
+                {
+                  "id": 42,
+                  "content": "Asaf Cidon, Columbia University",
+                  "key": 13
+                },
+                {
+                  "id": 43,
+                  "content": "Heming Cui, University of Hong Kong",
+                  "key": 14
+                },
+                {
+                  "id": 44,
+                  "content": "Nate Foster, Cornell University",
+                  "key": 15
+                },
+                {
+                  "id": 45,
+                  "content": "Manya Ghobadi, Massachusetts Institute of Technology",
+                  "key": 16
+                },
+                {
+                  "id": 46,
+                  "content": "Arpit Gupta, University of California, Santa Barbara",
+                  "key": 17
+                },
+                {
+                  "id": 47,
+                  "content": "Hamed Haddadi, Imperial College London",
+                  "key": 18
+                },
+                {
+                  "id": 48,
+                  "content": "Rebecca Isaacs, Twitter",
+                  "key": 19
+                },
+                {
+                  "id": 49,
+                  "content": "Kyle Jamieson, Princeton University",
+                  "key": 20
+                },
+                {
+                  "id": 50,
+                  "content": "Xin Jin, Johns Hopkins University",
+                  "key": 21
+                },
+                {
+                  "id": 51,
+                  "content": "Dina Katabi, Massachusetts Institute of Technology",
+                  "key": 22
+                },
+                {
+                  "id": 52,
+                  "content": "Charles Killian, Google",
+                  "key": 23
+                },
+                {
+                  "id": 53,
+                  "content": "Taesoo Kim, Georgia Institute of Technology",
+                  "key": 24
+                },
+                {
+                  "id": 54,
+                  "content": "Dejan Kostic, KTH Royal Institute of Technology",
+                  "key": 25
+                },
+                {
+                  "id": 55,
+                  "content": "Patrick P. C. Lee, The Chinese University of Hong Kong",
+                  "key": 26
+                },
+                {
+                  "id": 56,
+                  "content": "Andrew Moore, Cambridge University",
+                  "key": 27
+                },
+                {
+                  "id": 57,
+                  "content": "Ravi Netravali, University of California, Los Angeles",
+                  "key": 28
+                },
+                {
+                  "id": 58,
+                  "content": "Jitu Padhye, Microsoft Research",
+                  "key": 29
+                },
+                {
+                  "id": 59,
+                  "content": "Aurojit Panda, New York University",
+                  "key": 30
+                },
+                {
+                  "id": 60,
+                  "content": "KyoungSoo Park, Korea Advanced Institute of Science and Technology (KAIST)",
+                  "key": 31
+                },
+                {
+                  "id": 61,
+                  "content": "Bryan Parno, Carnegie Mellon University",
+                  "key": 32
+                },
+                {
+                  "id": 62,
+                  "content": "Simon Peter, The University of Texas at Austin",
+                  "key": 33
+                },
+                {
+                  "id": 63,
+                  "content": "Amar Phanishayee, Microsoft Research",
+                  "key": 34
+                },
+                {
+                  "id": 64,
+                  "content": "Ramachandran Ramjee, Microsoft Research",
+                  "key": 35
+                },
+                {
+                  "id": 65,
+                  "content": "Cole Schlesinger, Barefoot Networks",
+                  "key": 36
+                },
+                {
+                  "id": 66,
+                  "content": "Aaron Schulman, University of California, San Diego",
+                  "key": 37
+                },
+                {
+                  "id": 67,
+                  "content": "Vyas Sekar, Carnegie Mellon University",
+                  "key": 38
+                },
+                {
+                  "id": 68,
+                  "content": "Ankit Singla, ETH Zurich",
+                  "key": 39
+                },
+                {
+                  "id": 69,
+                  "content": "Anirudh Sivaraman, New York University",
+                  "key": 40
+                },
+                {
+                  "id": 70,
+                  "content": "Lalith Suresh, VMware Research",
+                  "key": 41
+                },
+                {
+                  "id": 71,
+                  "content": "Renata Teixeira, Inria",
+                  "key": 42
+                },
+                {
+                  "id": 72,
+                  "content": "Carmela Troncoso, École Polytechnique Fédérale de Lausanne (EPFL)",
+                  "key": 43
+                },
+                {
+                  "id": 73,
+                  "content": "Amin Vahdat, Google",
+                  "key": 44
+                },
+                {
+                  "id": 74,
+                  "content": "Laurent Vanbever, ETH Zurich",
+                  "key": 45
+                },
+                {
+                  "id": 75,
+                  "content": "Rashmi Vinayak, Carnegie Mellon University",
+                  "key": 46
+                },
+                {
+                  "id": 76,
+                  "content": "Mythili Vutukuru, Indian Institute of Technology Bombay",
+                  "key": 47
+                },
+                {
+                  "id": 77,
+                  "content": "Meg Walraed-Sullivan, Set Your Intention",
+                  "key": 48
+                },
+                {
+                  "id": 78,
+                  "content": "Hakim Weatherspoon, Cornell University",
+                  "key": 49
+                },
+                {
+                  "id": 79,
+                  "content": "Keith Winstein, Stanford University",
+                  "key": 50
+                },
+                {
+                  "id": 80,
+                  "content": "Ding Yuan, University of Toronto",
+                  "key": 51
+                },
+                {
+                  "id": 81,
+                  "content": "Eitan Zahavi, Mellanox Technologies",
+                  "key": 52
+                },
+                {
+                  "id": 82,
+                  "content": "Ellen Zegura, Georgia Institute of Technology",
+                  "key": 53
+                },
+                {
+                  "id": 83,
+                  "content": "Ben Zhao, University of Chicago",
+                  "key": 54
+                },
+                {
+                  "id": 84,
+                  "content": "Lin Zhong, Rice University",
+                  "key": 55
+                }
+              ]
+            },
+            {
+              "id": 85,
+              "content": "Poster Session Co-Chairs",
+              "key": 3,
+              "children": [
+                {
+                  "id": 86,
+                  "content": "Ivan Beschastnikh, University of British Columbia",
+                  "key": 1
+                },
+                {
+                  "id": 87,
+                  "content": "Ravi Netravali, University of California, Los Angeles",
+                  "key": 2
+                }
+              ]
+            },
+            {
+              "id": 88,
+              "content": "Test of Time Awards Committee",
+              "key": 4,
+              "children": [
+                {
+                  "id": 89,
+                  "content": "Aditya Akella, University of Wisconsin–Madison",
+                  "key": 1
+                },
+                {
+                  "id": 90,
+                  "content": "Katerina Argyraki, École Polytechnique Fédérale de Lausanne (EPFL)",
+                  "key": 2
+                },
+                {
+                  "id": 91,
+                  "content": "Sujata Banerjee, VMware Research",
+                  "key": 3
+                },
+                {
+                  "id": 92,
+                  "content": "Paul Barham, Google",
+                  "key": 4
+                },
+                {
+                  "id": 93,
+                  "content": "Miguel Castro, Microsoft Research",
+                  "key": 5
+                },
+                {
+                  "id": 94,
+                  "content": "Nick Feamster, University of Chicago",
+                  "key": 6
+                },
+                {
+                  "id": 95,
+                  "content": "Jon Howell, VMware Research",
+                  "key": 7
+                },
+                {
+                  "id": 96,
+                  "content": "Arvind Krishnamurthy, University of Washington",
+                  "key": 8
+                },
+                {
+                  "id": 97,
+                  "content": "Jay Lorch, Microsoft Research",
+                  "key": 9
+                },
+                {
+                  "id": 98,
+                  "content": "Jeff Mogul, Google",
+                  "key": 10
+                },
+                {
+                  "id": 99,
+                  "content": "Timothy Roscoe, ETH Zurich",
+                  "key": 11
+                },
+                {
+                  "id": 100,
+                  "content": "Srinivasan Seshan, Carnegie Mellon University",
+                  "key": 12
+                },
+                {
+                  "id": 101,
+                  "content": "Alex Snoeren, University of California, San Diego",
+                  "key": 13
+                },
+                {
+                  "id": 102,
+                  "content": "Minlan Yu, Harvard University",
+                  "key": 14
+                }
+              ]
+            },
+            {
+              "id": 103,
+              "content": "Steering Committee",
+              "key": 5,
+              "children": [
+                {
+                  "id": 104,
+                  "content": "Aditya Akella, University of Wisconsin–Madison",
+                  "key": 1
+                },
+                {
+                  "id": 105,
+                  "content": "Katerina Argyraki, École Polytechnique Fédérale de Lausanne (EPFL)",
+                  "key": 2
+                },
+                {
+                  "id": 106,
+                  "content": "Sujata Banerjee, VMware Research",
+                  "key": 3
+                },
+                {
+                  "id": 107,
+                  "content": "Paul Barham, Google",
+                  "key": 4
+                },
+                {
+                  "id": 108,
+                  "content": "Nick Feamster, University of Chicago",
+                  "key": 5
+                },
+                {
+                  "id": 109,
+                  "content": "Casey Henderson, USENIX Association",
+                  "key": 6
+                },
+                {
+                  "id": 110,
+                  "content": "Jon Howell, VMware Research",
+                  "key": 7
+                },
+                {
+                  "id": 111,
+                  "content": "Arvind Krishnamurthy, University of Washington",
+                  "key": 8
+                },
+                {
+                  "id": 112,
+                  "content": "Jay Lorch, Microsoft Research",
+                  "key": 9
+                },
+                {
+                  "id": 113,
+                  "content": "Jeff Mogul, Google",
+                  "key": 10
+                },
+                {
+                  "id": 114,
+                  "content": "Brian Noble, University of Michigan",
+                  "key": 11
+                },
+                {
+                  "id": 115,
+                  "content": "Timothy Roscoe, ETH Zurich",
+                  "key": 12
+                },
+                {
+                  "id": 116,
+                  "content": "Srinivasan Seshan, Carnegie Mellon University",
+                  "key": 13
+                },
+                {
+                  "id": 117,
+                  "content": "Minlan Yu, Harvard University",
+                  "key": 14
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 118,
+          "content": "Overview",
+          "key": 5,
+          "children": [
+            {
+              "id": 119,
+              "content": "NSDI focuses on the design principles, implementation, and practical evaluation of networked and distributed systems. Our goal is to bring together researchers from across the networking and systems community to foster a broad approach to addressing overlapping research challenges.",
+              "key": 1
+            },
+            {
+              "id": 120,
+              "content": "NSDI provides a high-quality, single-track forum for presenting results and discussing ideas that further the knowledge and understanding of the networked systems community as a whole, continue a significant research dialog, or push the architectural boundaries of network services.",
+              "key": 2
+            },
+            {
+              "id": 121,
+              "content": "Topics",
+              "key": 3,
+              "children": [
+                {
+                  "id": 122,
+                  "content": "We solicit papers describing original and previously unpublished research. Specific topics of interest include but are not limited to:",
+                  "key": 1
+                },
+                {
+                  "id": 123,
+                  "content": "",
+                  "isList": true,
+                  "key": 2,
+                  "children": [
+                    {
+                      "id": 124,
+                      "content": "Highly available and reliable networked systems",
+                      "key": 1
+                    },
+                    {
+                      "id": 125,
+                      "content": "Security and privacy of networked systems",
+                      "key": 2
+                    },
+                    {
+                      "id": 126,
+                      "content": "Distributed storage, caching, and query processing systems",
+                      "key": 3
+                    },
+                    {
+                      "id": 127,
+                      "content": "Energy-efficient computing in networked systems",
+                      "key": 4
+                    },
+                    {
+                      "id": 128,
+                      "content": "Cloud/multi-tenant systems",
+                      "key": 5
+                    },
+                    {
+                      "id": 129,
+                      "content": "Mobile and embedded/sensor applications and systems",
+                      "key": 6
+                    },
+                    {
+                      "id": 130,
+                      "content": "Wireless networked systems",
+                      "key": 7
+                    },
+                    {
+                      "id": 131,
+                      "content": "Network and workload measurement systems",
+                      "key": 8
+                    },
+                    {
+                      "id": 132,
+                      "content": "Self-organizing, autonomous, and federated networked systems",
+                      "key": 9
+                    },
+                    {
+                      "id": 133,
+                      "content": "Managing, debugging, and diagnosing problems in networked systems",
+                      "key": 10
+                    },
+                    {
+                      "id": 134,
+                      "content": "Virtualization and resource management for networked systems",
+                      "key": 11
+                    },
+                    {
+                      "id": 135,
+                      "content": "Systems aspects of networking hardware",
+                      "key": 12
+                    },
+                    {
+                      "id": 136,
+                      "content": "Experience with deployed networked systems",
+                      "key": 13
+                    },
+                    {
+                      "id": 137,
+                      "content": "Communication and computing over big data on networked systems",
+                      "key": 14
+                    },
+                    {
+                      "id": 138,
+                      "content": "Practical aspects of economics and verification applied to networked systems",
+                      "key": 15
+                    },
+                    {
+                      "id": 139,
+                      "content": "Any innovative solution for a significant problem involving networked systems",
+                      "key": 16
+                    }
+                  ]
+                },
+                {
+                  "id": 140,
+                  "content": "Like NSDI 2019, we are offering two submission deadlines, and we are providing the possibility of getting one-shot-revision decisions in lieu of rejection. To see a detailed explanation of the expected benefits from these changes, see Additional Information about Multiple Deadlines Process.",
+                  "key": 3
+                }
+              ]
+            },
+            {
+              "id": 141,
+              "content": "Two Deadlines",
+              "key": 4,
+              "children": [
+                {
+                  "id": 142,
+                  "content": "NSDI ’20 offers authors the choice of two submission deadlines. Any paper submitted to one of these deadlines and accepted during the subsequent reviewing period will be presented at the conference and will appear as part of the proceedings. In the meantime, authors are permitted to advertise their papers as accepted by NSDI, for example listing them on CVs.",
+                  "key": 1
+                },
+                {
+                  "id": 143,
+                  "content": "A paper submitted at the Spring deadline for NSDI 2020 and rejected may not be submitted again until the Spring deadline for NSDI 2021. A paper submitted at the Fall deadline for NSDI 2020 and rejected may not be submitted again until the Fall deadline for NSDI 2021.",
+                  "key": 2
+                }
+              ]
+            },
+            {
+              "id": 144,
+              "content": "One-Shot Revision",
+              "key": 5,
+              "children": [
+                {
+                  "id": 145,
+                  "content": "Each paper may be accepted, rejected, or given the option of one-shot revision. Such a revision decision includes a summary of the paper's merits and a list of necessary changes that are required for the paper to be accepted at NSDI. Authors may then submit a version of their work addressing those needs during the subsequent deadline. At that point, the paper will be reviewed to judge whether it addresses the requirements requested; this review will be conducted, to the extent possible, by the same reviewers as earlier. To enable this, PC members who give one-shot-revision decisions late in a year are obligated to participate as external reviewers in the following year to review those papers' resubmissions, which would be considered for the following year's conference. Papers revised and re-submitted following a one-shot-revision decision can only receive a decision of accept or reject, not revise; this is what makes revisions \"one-shot.\"",
+                  "key": 1
+                },
+                {
+                  "id": 146,
+                  "content": "The judgment about whether to accept a revised paper will be made as follows. Reviewers will primarily judge whether the authors have satisfied the requests accompanying the revision decision. They will also judge the resubmission on its independent merits, but should avoid rejecting it for non-fatal concerns that they could have raised during the first round of reviews. The reviewers should also ensure that the revised paper doesn't introduce new assertions without sufficient support. Unlike the shepherding process, the requested action points may include running additional experiments that obtain specific results, e.g., comparing performance against a certain alternative and beating it by at least 10%.",
+                  "key": 2
+                },
+                {
+                  "id": 147,
+                  "content": "During the revision period, the paper is still considered under review to NSDI and therefore cannot be submitted to other conferences unless the authors first withdraw it from consideration. To make this obligation clear, authors who receive a one-shot-revision notification must, within two weeks of the notification, explicitly send an email acknowledging their participation in the one-shot-revision process. That e-mail should indicate they understand that this means the USENIX Submission Policy precludes concurrent submission to other conferences.",
+                  "key": 3
+                },
+                {
+                  "id": 148,
+                  "content": "To make a one-shot-revision decision, reviewers must be comfortable accepting the paper if the authors make all the changes requested in it. Most notably, if a paper makes an insufficient contribution, or is incremental, then it should be rejected, not given a one-shot-revision decision. After all, the point of one-shot revision is not to produce highly-polished uninteresting papers, but rather to allow publication of exciting work that's unfortunately submitted in a form that's flawed in a way that can't be fixed with mere shepherding.",
+                  "key": 4
+                },
+                {
+                  "id": 149,
+                  "content": "Reviewers will also be instructed to not offer a one-shot-revision option if they can't determine that the paper is adequate modulo the proposed revisions. For instance, if the paper is written so sloppily that there may be a hidden deep flaw, then the paper should be rejected, not given a one-shot-revision request to fix the inadequate writing.",
+                  "key": 5
+                },
+                {
+                  "id": 150,
+                  "content": "Authors given a one-shot-revision decision will be sent, within a few days of the decision, detailed instructions about how to re-submit. These instructions will include the list of necessary changes that are required for the paper to be accepted. They will also explain how the authors should accompany their re-submission with auxiliary material to demonstrate how they've satisfied that list of changes. This auxiliary material will consist of (1) an additional version of the re-submission in which revision changes since the first submission are clearly marked, and (2) a separate textual explanation of the high-level differences between the two versions.",
+                  "key": 6
+                },
+                {
+                  "id": 151,
+                  "content": "If authors receive a one-shot-revision decision but don't want to submit a revised version, they may withdraw it. In this case, they may not submit the paper to NSDI again until 11 months after the deadline they originally it submitted to.",
+                  "key": 7
+                },
+                {
+                  "id": 152,
+                  "content": "If authors receive a one-shot-revision decision for a paper submitted to the Fall deadline of NSDI ‘20, this gives them the option to make the requested changes and re-submit it to the next NSDI deadline, which is the first deadline of NSDI 2021. If the paper is accepted then, it will appear at NSDI 2021, not NSDI 2020.",
+                  "key": 8
+                }
+              ]
+            },
+            {
+              "id": 153,
+              "content": "Operational Systems Track",
+              "key": 6,
+              "children": [
+                {
+                  "id": 154,
+                  "content": "In addition to papers that describe original research, NSDI 2020 also solicits papers that describe the design, implementation, analysis, and experience with large-scale, operational systems and networks. We encourage submission of papers that disprove or strengthen existing assumptions, deepen the understanding of existing problems, and validate known techniques at scales or environments in which they were never used or tested before. Such operational papers need not present new ideas or results to be accepted; indeed, new ideas or results will not influence whether the papers are accepted. Note that the rules regarding submission and anonymization are different for operational systems track papers. Since the evaluation of operational systems track papers requires understanding the real-world use of the system, papers in this track will be reviewed in a more limited double-blind process. Authors' names should be withheld, as usual. However, in contrast to other papers, authors need not anonymize the content of their submission in any other way—they may keep company names, links, real system names, etc. as appropriate for the paper. Please note that you cannot switch tracks for your paper after submission since the submission rules differ.",
+                  "key": 1
+                },
+                {
+                  "id": 155,
+                  "content": "Authors should indicate on the title page of the paper and in the submission form that they are submitting to this track.",
+                  "key": 2
+                },
+                {
+                  "id": 156,
+                  "content": "The final program will make no distinction between papers accepted from this track and papers accepted from the regular track.",
+                  "key": 3
+                }
+              ]
+            },
+            {
+              "id": 157,
+              "content": "What to Submit",
+              "key": 7,
+              "children": [
+                {
+                  "id": 158,
+                  "content": "NSDI 2020 is double-blind, meaning that authors should make a good faith effort to anonymize papers. Note that the operational track papers have different rules as described above. As an author, you should not identify yourself in the paper either explicitly or by implication (e.g., through the references or acknowledgments). However, only non-destructive anonymization is required. For example, system names may be left de-anonymized, if the system name is important for a reviewer to be able to evaluate the work. Please take the following steps when preparing your submission:",
+                  "key": 1
+                },
+                {
+                  "id": 159,
+                  "content": "",
+                  "isList": true,
+                  "key": 2,
+                  "children": [
+                    {
+                      "id": 160,
+                      "content": "Remove authors' names and affiliations from the title page.",
+                      "key": 1
+                    },
+                    {
+                      "id": 161,
+                      "content": "Remove acknowledgment of identifying names and funding sources.",
+                      "key": 2
+                    },
+                    {
+                      "id": 162,
+                      "content": "Do not provide links to your own online content. If this online content is critical to the content of your paper, please see the submission form, which allows for some forms of content upload, or contact the PC chairs.",
+                      "key": 3
+                    },
+                    {
+                      "id": 163,
+                      "content": "Use care in naming your files. Source file names, e.g., Joe.Smith.dvi, are often embedded in the final output as readily accessible comments.",
+                      "key": 4
+                    },
+                    {
+                      "id": 164,
+                      "content": "Use care in referring to related work, particularly your own. Do not omit references to provide anonymity, as this leaves the reviewer unable to grasp the context. Instead, a good solution is to reference your past work in the third person, just as you would any other piece of related work. If you cite anonymous work, you will need to enter the deanonymized reference(s) on the online submission form.",
+                      "key": 5
+                    },
+                    {
+                      "id": 165,
+                      "content": "If you need to reference another submission at NSDI 2020 on a related topic, reference it as follows: \"A related paper describes the design and implementation of our compiler [Anonymous 2020].\" with the corresponding citation: \"[Anonymous 2020] Under submission. Details omitted for double-blind reviewing.\"",
+                      "key": 6
+                    },
+                    {
+                      "id": 166,
+                      "content": "Work that extends an author's previous workshop paper is welcome, but the paper should (a) acknowledge their own previous workshop publications with an anonymous citation and (b) explain the differences between the NSDI submission and the prior workshop paper. The online submission form will also require authors to submit the deanonymized citation and a short explanation of the differences from the prior workshop paper.",
+                      "key": 7
+                    },
+                    {
+                      "id": 167,
+                      "content": "Blinding is not intended to be a great burden. If blinding your paper seems too burdensome, please contact the program co-chairs and discuss your specific situation.",
+                      "key": 8
+                    }
+                  ]
+                },
+                {
+                  "id": 168,
+                  "content": "Submissions—as well as final papers—must be no longer than 12 pages, including footnotes, figures, and tables. Submissions may include as many additional pages as needed for references and for supplementary material in appendices. The paper should stand alone without the supplementary material, but authors may use this space for content that may be of interest to some readers but is peripheral to the main technical contributions of the paper. Note that members of the program committee are free to not read this material when reviewing the paper.",
+                  "key": 3
+                },
+                {
+                  "id": 169,
+                  "content": "Submissions must be in two-column format, using 10-point type on 12-point (single-spaced) leading, in a text block 7\" wide x 9\" deep, with .33\" inter-column space , formatted for 8.5\" x 11\" paper.",
+                  "key": 4
+                },
+                {
+                  "id": 170,
+                  "content": "Papers not meeting these criteria will be rejected without review, and no deadline extensions will be granted for reformatting. Pages should be numbered, and figures and tables should be legible when printed without requiring magnification. Authors may use color in their figures, but the figures should be readable when printed in black and white. If you wish, you may use the template for LaTeX available on the conference paper templates page. All papers must be submitted via the submission form. Please do not email submissions.",
+                  "key": 5
+                },
+                {
+                  "id": 171,
+                  "content": "SUBMIT YOUR WORK",
+                  "key": 6
+                }
+              ]
+            },
+            {
+              "id": 172,
+              "content": "Policies",
+              "key": 8,
+              "children": [
+                {
+                  "id": 173,
+                  "content": "Simultaneous submission of the same work to multiple venues, submission of previously published work, or plagiarism constitutes dishonesty or fraud. USENIX, like other scientific and technical conferences and journals, prohibits these practices and may take action against authors who have committed them. See the USENIX Conference Submissions Policy for details.",
+                  "key": 1
+                },
+                {
+                  "id": 174,
+                  "content": "Previous publication at a workshop is acceptable as long as the NSDI submission includes substantial new material that has been developed since the publication of any earlier version. However, NSDI submissions cannot be concurrent with submission to a workshop venue. If the notification date for the workshop submission is after the submission date for NSDI (as is the case for ACM HotNets 2018), this would be considered a concurrent submission and would be rejected without review. Such concurrent submissions would have limited the possibility of substantially extending the prior work, which would violate the intent of policies allowing for extended submissions (as described in http://www.sigcomm.org/about/policies/frequently-asked-questions-faq/) See remarks above about how to cite and contrast with a workshop paper.",
+                  "key": 2
+                },
+                {
+                  "id": 175,
+                  "content": "Authors uncertain whether their submission meets USENIX's guidelines should contact the Program Co-Chairs, nsdi20chairs@usenix.org.",
+                  "key": 3
+                },
+                {
+                  "id": 176,
+                  "content": "Papers accompanied by nondisclosure agreement forms will not be considered. All submissions will be treated as confidential prior to publication on the USENIX NSDI 2020 website; rejected submissions will be permanently treated as confidential.",
+                  "key": 4
+                }
+              ]
+            },
+            {
+              "id": 177,
+              "content": "Ethical Considerations",
+              "key": 9,
+              "children": [
+                {
+                  "id": 178,
+                  "content": "Papers describing experiments with users or user data (e.g., network traffic, passwords, social network information), should follow the basic principles of ethical research, e.g., beneficence (maximizing the benefits to an individual or to society while minimizing harm to the individual), minimal risk (appropriateness of the risk versus benefit ratio), voluntary consent, respect for privacy, and limited deception. When appropriate, authors are encouraged to include a subsection describing these issues. Authors may want to consult the Menlo Report for further information on ethical principles, or the Allman/Paxson IMC 2007 paper for guidance on ethical data sharing.",
+                  "key": 1
+                },
+                {
+                  "id": 179,
+                  "content": "Authors must, as part of the submission process, attest that their work complies with all applicable ethical standards of their home institution(s), including, but not limited to privacy policies and policies on experiments involving humans. Note that submitting research for approval by one's institution's ethics review body is necessary, but not sufficient—in cases where the PC has concerns about the ethics of the work in a submission, the PC will have its own discussion of the ethics of that work. The PC's review process may examine the ethical soundness of the paper just as it examines the technical soundness.",
+                  "key": 2
+                }
+              ]
+            },
+            {
+              "id": 180,
+              "content": "Processes for Accepted Papers",
+              "key": 10,
+              "children": [
+                {
+                  "id": 181,
+                  "content": "If your paper is accepted and you need an invitation letter to apply for a visa to attend the conference, please contact conference@usenix.org as soon as possible. (Visa applications can take at least 30 working days to process.) Please identify yourself as a presenter and include your mailing address in your email.",
+                  "key": 1
+                },
+                {
+                  "id": 182,
+                  "content": "Accepted papers may be shepherded through an editorial review process by a member of the Program Committee. Based on initial feedback from the Program Committee, authors of shepherded papers will submit an editorial revision of their paper to their Program Committee shepherd. The shepherd will review the paper and give the author additional comments. All authors, shepherded or not, will upload their final file to the submissions system by the camera ready date for the conference Proceedings.",
+                  "key": 2
+                },
+                {
+                  "id": 183,
+                  "content": "By submitting a paper, you agree that at least one of the authors will attend the conference to present it. If the conference registration fee will pose a hardship for the presenter of the accepted paper, please contact conference@usenix.org.",
+                  "key": 3
+                },
+                {
+                  "id": 184,
+                  "content": "Paper publishing schedule:",
+                  "key": 4,
+                  "children": [
+                    {
+                      "id": 185,
+                      "content": "A list of papers accepted from the Spring submissions will be posted on the NSDI 2020 website in August. In December, when the full program is available, paper titles and abstracts will be posted for all accepted papers from both the Spring and Fall deadlines. At this time, the Spring final paper PDFs will also be posted, accessible only to registered attendees. In February, the full Proceedings as well as all of the final paper PDFs will be posted.",
+                      "key": 1
+                    },
+                    {
+                      "id": 186,
+                      "content": "All papers will be available online to registered attendees before the conference. If your accepted paper should not be published prior to the event, please notify production@usenix.org. The papers will be available online to everyone beginning on the first day of the conference.",
+                      "key": 2
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 187,
+              "content": "Best Paper Awards",
+              "key": 11,
+              "children": [
+                {
+                  "id": 188,
+                  "content": "Awards will be given for the best paper(s) at the conference.",
+                  "key": 1
+                }
+              ]
+            },
+            {
+              "id": 189,
+              "content": "Community Award",
+              "key": 12,
+              "children": [
+                {
+                  "id": 190,
+                  "content": "To encourage broader code and data sharing within the NSDI community, the conference will also present a \"Community Award\" for the best paper whose code and/or data set is made publicly available by the final papers deadline. Authors who would like their paper to be considered for this award will have the opportunity to tag their paper during the submission process.",
+                  "key": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

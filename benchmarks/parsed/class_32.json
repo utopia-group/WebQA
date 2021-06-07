@@ -1,0 +1,338 @@
+{
+    "id": 0,
+    "content": "MPCS 52030: Operating Systems",
+    "children": [
+        {
+            "id": 1,
+            "content": "",
+            "isList": true,
+            "key": 1,
+            "children": [
+                {
+                    "id": 2,
+                    "content": "",
+                    "isList": true,
+                    "key": 1,
+                    "children": [
+                        {
+                          "id": 3,
+                          "content": "MPCS 52030:",
+                          "key": 1,
+                          "children": [
+                            {
+                              "id": 4,
+                              "content": "Operating Systems",
+                              "key": 1
+                            }
+                          ]
+                        },
+                      {
+                        "id": 5,
+                        "content": "University of Chicago Computer Science Department Spring 2019",
+                        "key": 2
+                      }
+                    ]
+                },
+              {
+                "id": 6,
+                "content": "",
+                "key": 2,
+                "children": [
+                  {
+                    "id": 7,
+                    "content": "Basic Information       Announcement       Overview       Readings       Project       Quizzes       Exam       Grading       Mailing List       Schedule",
+                    "key": 1
+                  },
+                  {
+                    "id": 8,
+                    "content": "Basic Information",
+                    "key": 2,
+                    "children": [
+                      {
+                        "id": 9,
+                        "content": "When:",
+                        "key": 1,
+                        "children": [
+                          {
+                            "id": 10,
+                            "content": "5:30--8:30pm, Wed.",
+                            "key": 1
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": 11,
+                    "content": "Where:",
+                    "key": 3,
+                    "children": [
+                      {
+                        "id": 12,
+                        "content": "251 Ryerson",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 13,
+                    "content": "Instructor:",
+                    "key": 4,
+                    "children": [
+                      {
+                        "id": 14,
+                        "content": "Professor Shan Lu (shanlu@uc....); JCL-343.",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 15,
+                    "content": "TA:",
+                    "key": 5,
+                    "children": [
+                      {
+                        "id": 16,
+                        "content": "Yuxi Chen (chenyuxi@uc...) & Kelvin Ho (kelvinho@uc...); office hour: 6pm - 8pm, Tuesday/Friday @ JCL 354.",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 17,
+                    "content": "Announcement",
+                    "key": 6,
+                    "children": [
+                      {
+                        "id": 18,
+                        "content": "06/08 11:59pm: Project 3 Due!",
+                        "key": 1
+                      },
+                      {
+                        "id": 19,
+                        "content": "06/12, 3:00 -- 5:00pm: Final Exam @ JCL 390.",
+                        "key": 2
+                      },
+                      {
+                        "id": 20,
+                        "content": "Make-up lectures:",
+                        "key": 3,
+                        "children": [
+                          {
+                            "id": 21,
+                            "content": "May 15th lecture will be moved to May 8th 9am--12pm; May 29th lecture will be moved to May 24th 9am--12pm.",
+                            "key": 1
+                          }
+                        ]
+                      },
+                      {
+                        "id": 22,
+                        "content": "Stats, Notes, Useful Info.",
+                        "key": 4
+                      },
+                      {
+                        "id": 23,
+                        "content": "Stats:",
+                        "key": 5,
+                        "children": [
+                          {
+                            "id": 24,
+                            "content": ".        Useful debugging tools: GDB, Valgrind.",
+                            "key": 1
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": 25,
+                    "content": "Overview",
+                    "key": 7,
+                    "children": [
+                      {
+                        "id": 26,
+                        "content": "Welcome to MPCS Operating Systems! In this course, we will study a number of interesting topics including basic operating system structure, process scheduling and management, memory management, concurrency and synchronization, file systems and storage, virtual machines, etc.",
+                        "key": 1
+                      },
+                      {
+                        "id": 27,
+                        "content": "This course assumes familiarity with basic computer organization and data structures. You will need to program in C for course assignments.",
+                        "key": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": 28,
+                    "content": "Schedule",
+                    "key": 8,
+                    "children": [
+                      {
+                        "id": 29,
+                        "content": "This is a tentative schedule. The numbers refer to chapters in Arpaci-Dusseaus' OS textbook.",
+                        "key": 1
+                      },
+                      {
+                        "id": 30,
+                        "content": ",04/03,Intro [2, notes], Processes[4, 5], Scheduling [7],04/05,P1: a shell",
+                        "key": 2
+                      },
+                      {
+                        "id": 31,
+                        "content": ",04/10,Scheduling II [8, 9], Memory Management [13, 14, 15],,",
+                        "key": 3
+                      },
+                      {
+                        "id": 32,
+                        "content": ",04/17,Segmentation[16, 17], Paging [18],,",
+                        "key": 4
+                      },
+                      {
+                        "id": 33,
+                        "content": ",04/24,Paging [19, 20], Beyond Physical Memory [21, 22],04/26,P1 Due; P2: thread library",
+                        "key": 5
+                      },
+                      {
+                        "id": 34,
+                        "content": ",05/01,Threads [26, 27], Locks [28, 29],,",
+                        "key": 6
+                      },
+                      {
+                        "id": 35,
+                        "content": ",05/08,(@JCL298) CVs [30], Semaphores [31], Concurrency bugs [32],,",
+                        "key": 7
+                      },
+                      {
+                        "id": 36,
+                        "content": ",05/08,I/O [36], Disks [37], RAID [38],05/17,P2 Due; P3: a network file system",
+                        "key": 8
+                      },
+                      {
+                        "id": 37,
+                        "content": ",05/22,Files & File Systems [39, 40], FFS [41], Journaling [42], LFS [43],,",
+                        "key": 9
+                      },
+                      {
+                        "id": 38,
+                        "content": ",05/24,(@JCL 298) NFS[49], AFS[50], GFS[paper],,",
+                        "key": 10
+                      },
+                      {
+                        "id": 39,
+                        "content": "06/05 ,Virtual Machine [VM],06/08,P3 Due,",
+                        "key": 11
+                      }
+                    ]
+                  },
+                  {
+                    "id": 40,
+                    "content": "Materials",
+                    "key": 9,
+                    "children": [
+                      {
+                        "id": 41,
+                        "content": "We will use Prof. Arpaci-Dusseaus' Operating Systems: Three Easy Pieces.",
+                        "key": 1
+                      },
+                      {
+                        "id": 42,
+                        "content": "We recommend the following book for your reference if you are not familiar with C-programming:",
+                        "key": 2
+                      },
+                      {
+                        "id": 43,
+                        "content": "The C Programming Language (2nd edition) Kernighan and Ritchie.       ISBN-10: 0131103628       Prentice Hall",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 44,
+                    "content": "Projects",
+                    "key": 10,
+                    "children": [
+                      {
+                        "id": 45,
+                        "content": "In this course, you will be doing projects. Projects are worth 40% of your final grade.",
+                        "key": 1
+                      },
+                      {
+                        "id": 46,
+                        "content": "You can program on your own Linux machines or machines in CSIL labs.",
+                        "key": 2
+                      },
+                      {
+                        "id": 47,
+                        "content": "All the projects have to be finished in C not Java. Please start early. No late submission is allowed.",
+                        "key": 3
+                      },
+                      {
+                        "id": 48,
+                        "content": "It is ok to discuss the project in general terms, or help others debug their code. It is NOT OK to share your code directly with other people/groups.",
+                        "key": 4
+                      }
+                    ]
+                  },
+                  {
+                    "id": 49,
+                    "content": "Quizzes",
+                    "key": 11,
+                    "children": [
+                      {
+                        "id": 50,
+                        "content": "This course has no midterm exam. Instead, to help you learn the material incrementally, each week (starting from April 4th) there will be a quiz.",
+                        "key": 1
+                      },
+                      {
+                        "id": 51,
+                        "content": "Each quiz will take about 15--30 minutes in the middle of the lecture.        Each quiz will mainly cover the lecture in the earlier week, and occasionally also the passed projects.        Quizzes are closed-book and closed-note.        We will drop your lowest quiz grade from your average at the end.     .",
+                        "key": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": 52,
+                    "content": "Exam",
+                    "key": 12,
+                    "children": [
+                      {
+                        "id": 53,
+                        "content": "There will be one final exam at the end of the quarter.",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 54,
+                    "content": "Grading",
+                    "key": 13,
+                    "children": [
+                      {
+                        "id": 55,
+                        "content": "Projects            40%           Quizzes            30%           Final exam            30%",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 56,
+                    "content": "Mailing List",
+                    "key": 14,
+                    "children": [
+                      {
+                        "id": 57,
+                        "content": "Please post your questions on Piazza.",
+                        "key": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+        },
+      {
+        "id": 58,
+        "content": "Your browser does not support JavaScript!",
+        "key": 2
+      }
+    ]
+}

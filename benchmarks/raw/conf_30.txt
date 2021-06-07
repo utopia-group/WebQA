@@ -1,0 +1,990 @@
+<!DOCTYPE HTML>
+<!--
+	Twenty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+--><html>
+<head>
+<title>COLT 2020</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport"/>
+<link href="assets/css/main.css" rel="stylesheet"/>
+<noscript><link href="assets/css/noscript.css" rel="stylesheet"/></noscript>
+</head>
+<body class="index is-preload">
+<div id="page-wrapper">
+<!-- Header -->
+<header class="alt" id="header">
+<h1 id="logo"><a href="index.html">COLT <span>2020</span></a></h1>
+<nav id="nav">
+<ul>
+<li class="submenu">
+<a href="#">The conference</a>
+<ul>
+<li><a href="index.html#sec-important-dates">Important dates</a></li>
+<li><a href="index.html#sec-organization">Conference organization</a></li>
+<li><a href="pc.html">Program committee</a></li>
+<li><a href="keynotes.html">Keynote speakers</a></li>
+<!--
+                  <li><a href="schedule.html">Schedule</a></li>
+                  -->
+<li><a href="index.html#cta">Sponsors</a></li>
+</ul>
+</li>
+<li class="submenu">
+<a href="#">For authors</a>
+<ul>
+<li><a href="cfp.html">Call for papers</a></li>
+<li><a href="cfp.html#openproblems">Call for open problems</a></li>
+<li><a href="submission.html">Submission instructions</a></li>
+<li><a href="https://cmt3.research.microsoft.com/COLT2020/">Submission site</a></li>
+</ul>
+</li>
+<li class="submenu">
+<a href="#">For participants</a>
+<ul>
+<li><a href="codeofconduct.html">Code of conduct</a></li>
+<!--
+									<li><a href="registration.html">Registration</a></li>
+									<li><a href="venue.html">Venue information</a></li>
+                  -->
+</ul>
+</li>
+</ul></nav>
+</header>
+<!-- Banner -->
+<section id="banner">
+<!--
+						".inner" is set up as an inline-block so it automatically expands
+						in both directions to fit whatever's inside it. This means it won't
+						automatically wrap lines, so be sure to use line breaks where
+						appropriate (<br />).
+					-->
+<div class="inner">
+<header>
+<h2>COLT 2020</h2>
+</header>
+<p>
+<strong><strike>Graz University of Technology, Austria</strike></strong><br/>
+<strong>July 9–12, 2020</strong><br/><br/>
+<strong>Submission deadline</strong>: January 31, 2020<br/>
+<strong><a href="cfp.html">Call for papers</a></strong><br/>
+<strong>See below for COVID-19 update.</strong><br/>
+<!--
+              <strong><a href="submit.html">Submission site</a></strong><br />
+              -->
+</p>
+<!--
+						<footer>
+							<ul class="buttons stacked">
+								<li><a href="#main" class="button fit scrolly">Tell Me More</a></li>
+							</ul>
+						</footer>
+            -->
+</div>
+</section>
+<!-- Main -->
+<article id="main">
+<!-- Zero -->
+<section class="wrapper style4 container" id="sec-important-dates">
+<div class="row gtr-150">
+<div class="col-4 col-12-narrower">
+<!-- Sidebar -->
+<div class="sidebar">
+<section>
+<header>
+<h3>Important dates</h3>
+</header>
+<ul>
+<li><strong>Submission deadline</strong>:<br/>January 31, 4:00 PM PST</li>
+<!--
+                            <li><strong>Author feedback</strong>:<br />March 28&ndash;April 3</li>
+                          -->
+<li><strong>Author feedback</strong>:<br/>April 18–April 24</li>
+<li><strong>Author notification</strong>:<br/>May 25</li>
+<!--
+                          <li><strong>Registration deadline</strong>:<br />May 30</li>
+                          -->
+<li><strong>Conference</strong>:<br/>July 9–12</li>
+</ul>
+<!--
+												<footer>
+													<ul class="buttons">
+														<li><a href="#" class="button small">Learn More</a></li>
+													</ul>
+												</footer>
+                        -->
+</section>
+</div>
+</div>
+<div class="col-8 col-12-narrower imp-narrower">
+<!-- Content -->
+<div class="content">
+<section>
+<header>
+<h3>Thirty-third Annual Conference on Learning Theory</h3>
+</header>
+<!--
+                        <p>The 33rd Annual Conference on Learning Theory (COLT 2020) takes place in Graz, Austria from July 9&ndash;12. It is conveniently close in space and time to <a href="https://icml.cc/Conferences/2020">ICML 2020</a>, which takes place in Vienna immediately after COLT.</p>
+                        -->
+<p>The 33rd Annual Conference on Learning Theory (COLT 2020) takes place <strike>in Graz, Austria</strike> from July 9–12. It is conveniently close in <strike>space and</strike> time to <a href="https://icml.cc/Conferences/2020">ICML 2020</a><strike>, which takes place in Vienna immediately after COLT</strike>.</p>
+<p>The <a href="keynotes.html">keynote speakers for COLT 2020</a> are <a href="http://www.cs.columbia.edu/~blei/">David Blei</a> (Columbia University), <a href="https://salil.seas.harvard.edu/">Salil Vadhan</a> (Harvard University) and <a href="https://voices.uchicago.edu/willett/">Rebecca Willett</a> (University of Chicago).</p>
+<h4>COVID-19 Update</h4>
+<p>The COVID-19 situation has impacted all our lives in unprecedented ways. This includes all members of the COLT community: authors, reviewers, meta-reviewers, chairs, steering committee members and organizers, and everyone who planned to attend COLT. The situation has required us to update our plans for COLT 2020 in two important ways:
+                        </p><ol>
+<li>COLT 2020 will take place entirely virtually.</li>
+<li>The reviewing process is being slowed, and decision notifications will accordingly be delayed.</li>
+</ol>
+                        Neither of these decisions was easy, but it became clear that holding the conference virtually would be inevitable. Also, after discussions with the COLT steering committee, we believe a slower reviewing process is the best option to maintain a high quality conference.
+
+                        <p>Several details are still being worked out, and we will communicate these as decisions are made.</p>
+<!--
+												<a href="#" class="image featured"><img src="images/graz.jpg" alt="" /></a>
+                        -->
+</section>
+</div>
+</div>
+</div>
+</section>
+<!-- One -->
+<section class="wrapper style4 container" id="sec-organization">
+<!-- Content -->
+<div class="content">
+<section>
+<header>
+<h3>Conference organization</h3>
+</header>
+<div class="row">
+<div class="col-6 col-12-narrower">
+<section>
+<header>
+<h5>Program chairs</h5>
+</header>
+<ul>
+<li>Jacob Abernethy (Georgia Tech)</li>
+<li>Shivani Agarwal (University of Pennsylvania)</li>
+</ul>
+</section>
+</div>
+<div class="col-6 col-12-narrower">
+<section>
+<header>
+<h5>Local arrangements chairs</h5>
+</header>
+<ul>
+<li>Peter Auer (University of Leoben)</li>
+<li>Robert Legenstein (Graz University of Technology)</li>
+</ul>
+</section>
+</div>
+</div>
+<div class="row">
+<div class="col-6 col-12-narrower">
+<section>
+<header>
+<h5>Publications chair</h5>
+</header>
+<ul>
+<li>Suriya Gunasekar (Microsoft Research)</li>
+</ul>
+</section>
+</div>
+<div class="col-6 col-12-narrower">
+<section>
+<header>
+<h5>Open problems chair</h5>
+</header>
+<ul>
+<li>Vitaly Feldman (Apple AI Research)</li>
+</ul>
+</section>
+</div>
+</div>
+<div class="row">
+<div class="col-6 col-12-narrower">
+<section>
+<header>
+<h5>Sponsorships chairs</h5>
+</header>
+<ul>
+<li>Satyen Kale (Google Research)</li>
+<li>Varun Kanade (Oxford University)</li>
+</ul>
+</section>
+</div>
+<div class="col-6 col-12-narrower">
+<section>
+<header>
+<h5>WiML-T chair</h5>
+</header>
+<ul>
+<li>TBD</li>
+</ul>
+</section>
+</div>
+</div>
+<div class="row">
+<div class="col-6 col-12-narrower">
+<section>
+<header>
+<h5>Webmaster</h5>
+</header>
+<ul>
+<li>Daniel Hsu (Columbia University)</li>
+</ul>
+</section>
+</div>
+</div>
+</section>
+</div>
+</section>
+<!-- Two -->
+<!--
+						<section class="wrapper style1 container special" id="sec-menu">
+							<div class="row">
+								<div class="col-4 col-12-narrower">
+									<section>
+										<span class="icon solid featured fa-bullhorn"></span>
+										<header>
+                      <h3><a href="cfp.html">Call for papers</a></h3>
+										</header>
+									</section>
+								</div>
+								<div class="col-4 col-12-narrower">
+									<section>
+										<span class="icon solid featured fa-users"></span>
+										<header>
+                      <h3><a href="codeofconduct.html">Code of conduct</a></h3>
+										</header>
+									</section>
+								</div>
+								<div class="col-4 col-12-narrower">
+									<section>
+										<span class="icon solid featured fa-university"></span>
+										<header>
+                      <h3><a href="pc.html">Program committee</a></h3>
+										</header>
+									</section>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-4 col-12-narrower">
+									<section>
+										<span class="icon solid featured fa-list"></span>
+										<header>
+                      <h3><a href="registration.html">Registration</a></h3>
+										</header>
+									</section>
+								</div>
+								<div class="col-4 col-12-narrower">
+									<section>
+										<span class="icon solid featured fa-calendar-alt"></span>
+										<header>
+                      <h3><a href="schedule.html">Schedule</a></h3>
+										</header>
+									</section>
+								</div>
+								<div class="col-4 col-12-narrower">
+									<section>
+										<span class="icon solid featured fa-compass"></span>
+										<header>
+                      <h3><a href="venue.html">Venue information</a></h3>
+										</header>
+									</section>
+								</div>
+							</div>
+						</section>
+          -->
+<!-- CTA -->
+<section id="cta">
+<header>
+<h2>Sponsors</h2>
+<p>We are so grateful to our sponsors whose extraordinary generosity has been critical to the continued success of the conference, particularly by making it possible for students to attend and present their research. For information about sponsorship opportunities, please contact the sponsorship chairs at <a class="__cf_email__" data-cfemail="e390938c8d908c91908b8a9390a38f8682918d8a8d84978b868c919acd8c9184cd" href="/cdn-cgi/l/email-protection">[email protected]</a></p>
+<ul class="buttons">
+<li><a class="button primary" href="/cdn-cgi/l/email-protection#285b5847465b475a5b4041585b68444d495a4641464f5c404d475a5106475a4f175b5d4a424d4b5c1561465c4d5a4d5b5c4d4c0d1a1841460d1a185b5847465b475a41464f0d1a186b67647c0d1a181a181a18">Become a sponsor</a></li>
+</ul>
+</header>
+<!--
+					<div class="row">
+						<div class="col-6 col-12-narrower">
+							<section>
+								<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+								<header>
+									<h3></h3>
+								</header>
+							</section>
+						</div>
+						<div class="col-6 col-12-narrower">
+							<section>
+								<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+								<header>
+									<h3></h3>
+								</header>
+							</section>
+						</div>
+					</div>
+          -->
+</section>
+</article>
+<!-- Footer -->
+<footer id="footer">
+<!--
+					<ul class="icons">
+						<li><a href="#" class="icon brands circle fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands circle fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands circle fa-google-plus-g"><span class="label">Google+</span></a></li>
+						<li><a href="#" class="icon brands circle fa-github"><span class="label">Github</span></a></li>
+						<li><a href="#" class="icon brands circle fa-dribbble"><span class="label">Dribbble</span></a></li>
+					</ul>
+          -->
+<ul class="copyright">
+<li>© 2020 <a href="http://www.learningtheory.org/">Association for Computational Learning</a></li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li>Image credit: <a href="https://pxhere.com/en/photo/578344">berndthaller</a></li>
+</ul>
+</footer>
+</div>
+<!-- Scripts -->
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.dropotron.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+<div class="no-sidebar is-preload">
+<div id="page-wrapper">
+<!-- Header -->
+<header id="header">
+<h1 id="logo"><a href="index.html">COLT <span>2020</span></a></h1>
+
+</header>
+<!-- Main -->
+<article id="main">
+<header class="special container">
+<span class="icon solid fa-bullhorn"></span>
+<h2>Call for Papers</h2>
+</header>
+<!-- One -->
+<section class="wrapper style4 container">
+<!-- Content -->
+<div class="content">
+<section>
+<p>The 33rd Annual Conference on Learning Theory (COLT 2020) will take place in Graz, Austria during July 9-12, 2020. We invite submissions of papers addressing theoretical aspects of machine learning and related topics. We strongly support a broad definition of learning theory, including, but not limited to:</p>
+<ul>
+<li>Design and analysis of learning algorithms</li>
+<li>Statistical and computational complexity of learning</li>
+<li>Optimization methods for learning, and/or online and/or stochastic optimization</li>
+<li>Supervised learning</li>
+<li>Unsupervised and semi-supervised learning</li>
+<li>Active and interactive learning</li>
+<li>Reinforcement learning</li>
+<li>Online learning and decision-making</li>
+<li>Interactions of learning theory with other mathematical fields</li>
+<li>Theory of artificial neural networks, including (theory of) deep learning</li>
+<li>High-dimensional and non-parametric statistics</li>
+<li>Learning with algebraic or combinatorial structure</li>
+<li>Theoretical analysis of probabilistic graphical models</li>
+<li>Bayesian methods in learning</li>
+<li>Game theory and learning</li>
+<li>Learning with system constraints (e.g., privacy, fairness, memory, communication)</li>
+<li>Learning from complex data (e.g., networks, time series)</li>
+<li>Learning in other settings (e.g., computational social science, economics)</li>
+</ul>
+<p>Submissions by authors who are new to COLT are encouraged. While the primary focus of the conference is theoretical, authors may support their analysis by including relevant experimental results.</p>
+<p>All accepted papers will be presented at the conference as both oral talks and in a poster session. At least one author of each accepted paper should be present at the conference to present the work. Accepted papers will be published electronically in the Proceedings of Machine Learning Research (PMLR). Authors of accepted papers will have the option of opting out of the proceedings in favor of a 1-page extended abstract, which will point to an open access archival version of the full paper reviewed for COLT.</p>
+<h4>PAPER AWARDS</h4>
+<p>COLT will award both best paper and best student paper awards. To be eligible for the best student paper award, the primary contributor(s) must be full-time students at the time of submission. For eligible papers, authors must indicate at submission time if they wish their paper to be considered for a student paper award. The program committee may decline to make these awards, or may split them among several papers.</p>
+<h4>DUAL SUBMISSIONS POLICY</h4>
+<p><b>Conferences:</b> In general, submissions that are substantially similar to papers that have been previously published, accepted for publication, or submitted in parallel to other peer-reviewed conferences with proceedings may not be submitted to COLT. The only exception is for papers under submission to STOC 2020, as detailed below.</p>
+<p><b>Dual submission with STOC 2020:</b> The STOC 2020 notification date Falls 9 days after the COLT 2020 submission deadline. In coordination with the STOC 2020 program chair, we will allow submissions that are substantially similar to papers that have been submitted to STOC 2020, provided that the authors (1) declare such dual submissions through the submission server, and (2) immediately withdraw the COLT submission if the STOC submission is accepted.</p>
+<p><b>Journals:</b> As with conferences, in general, submissions that are substantially similar to papers that have been previously published, accepted for publication, or submitted in parallel to journals may not be submitted to COLT. The only exception is when the submission to COLT is a short version of a paper submitted to a journal, and not yet published. Authors must declare such dual submissions through the submission server.</p>
+<h4>SUBMISSION INSTRUCTIONS</h4>
+<p>See <a href="http://www.learningtheory.org/colt2020/submission.html">Submission Instructions</a> page.</p>
+<h4>REBUTTAL PHASE</h4>
+<p>As in previous years, there will be a rebuttal phase during the review process. Initial reviews will be sent to authors before final decisions have been made. Authors will have an opportunity to provide a short response to the initial reviews.</p>
+<h4>IMPORTANT DATES</h4>
+<p>(All dates are in 2020.)</p>
+<ul>
+<li>Paper submission deadline: January 31, 4:00 PM PST</li>
+<li>Author feedback: March 28 - April 3</li>
+<li>Author notification: May 1</li>
+<li>Conference: July 9-12 </li>
+</ul>
+</section>
+</div>
+</section>
+</article>
+<!-- Open Problems -->
+<article id="openproblems">
+<header class="special container">
+<span class="icon solid fa-bullhorn"></span>
+<h2>Call for Open Problems</h2>
+</header>
+<!-- One -->
+<section class="wrapper style4 container">
+<!-- Content -->
+<div class="content">
+<section>
+<p>The Conference on Learning Theory (COLT) 2020 will include a session devoted to the presentation of open problems. A description of these problems will also appear in the COLT proceedings. The deadline for submission is Friday April 24, end of day (PDT).</p>
+<p>The write-up of an open problem should include:
+</p><ul>
+<li>A clearly defined problem</li>
+<li>The motivation for studying the problem, with an argument why it is important and interesting</li>
+<li>The current state of this problem, including any known partial or conjectured solutions and relevant references.</li>
+</ul>
+<p>We encourage submissions of problems that have not been previously investigated theoretically, as long as there is a convincing reason to include the problem in the conference. For open problems that have already appeared in published work the submission should include enough new content to merit a separate publication. You should be able to clearly express the problem in a short presentation. A monetary reward, or non-monetary but fun prize, is a great way to stimulate interest in solving the open problem.</p>
+<p>If you would like to submit a problem, please email it to <a href="/cdn-cgi/l/email-protection#07716e73666b7e296263722c64686b733537353747606a666e6b2964686a">Vitaly Feldman</a> by April 24, 2020. Submissions should be at most 4 pages long and should be in the COLT 2020 JMLR format (found <a href="http://www.learningtheory.org/colt2020/COLT2020.zip">here</a>). Submissions are non-anonymous; that is, they should contain authors' names.</p>
+<p>
+Examples of open problems from past years:
+</p><ul>
+<li><a href="http://proceedings.mlr.press/v99/#open">2019</a></li>
+<li><a href="http://proceedings.mlr.press/v75/#Open%20Problems">2018</a></li>
+<li><a href="http://proceedings.mlr.press/v65/">2017</a></li>
+<li><a href="http://proceedings.mlr.press/v49/#open">2016</a></li>
+</ul>
+<p>Notification of acceptance or rejection will be sent out by Tuesday May 19, 2020.</p>
+<p>For questions please contact the COLT 2020 open problems chair, Vitaly Feldman at <a href="/cdn-cgi/l/email-protection#0b7d627f6a6772256e6f7e206864677f393b393b4b6c666a626725686466"><span class="__cf_email__" data-cfemail="4a3c233e2b2633642f2e3f612925263e787a787a0a2d272b232664292527">[email protected]</span></a>.</p>
+</section>
+</div>
+</section>
+</article>
+<!-- Footer -->
+<footer id="footer">
+<!--
+					<ul class="icons">
+						<li><a href="#" class="icon brands circle fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands circle fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands circle fa-google-plus-g"><span class="label">Google+</span></a></li>
+						<li><a href="#" class="icon brands circle fa-github"><span class="label">Github</span></a></li>
+						<li><a href="#" class="icon brands circle fa-dribbble"><span class="label">Dribbble</span></a></li>
+					</ul>
+          -->
+<ul class="copyright">
+<li>© 2020 <a href="http://www.learningtheory.org/">Association for Computational Learning</a></li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li>Image credit: <a href="https://pxhere.com/en/photo/578344">berndthaller</a></li>
+</ul>
+</footer>
+</div>
+<!-- Scripts -->
+
+
+
+
+
+
+
+
+
+</div><div class="no-sidebar is-preload">
+<div id="page-wrapper">
+<!-- Header -->
+<header id="header">
+<h1 id="logo"><a href="index.html">COLT <span>2020</span></a></h1>
+
+</header>
+<!-- Main -->
+<article id="main">
+<header class="special container">
+<span class="icon solid fa-university"></span>
+<h2>Program Committee</h2>
+</header>
+<!-- One -->
+<section class="wrapper style4 container">
+<!-- Content -->
+<div class="content">
+<section>
+<h3>Senior program committee</h3>
+<ul>
+<li>Aaditya Ramdas (CMU)</li>
+<li>Adam Tauman Kalai (Microsoft Research)</li>
+<li>Adam Klivans (University of Texas at Austin)</li>
+<li>Adam Smith (Boston University)</li>
+<li>Akshay Krishnamurthy (University of Massachusetts Amherst)</li>
+<li>Alan Malek (MIT)</li>
+<li>Alekh Agarwal (Microsoft)</li>
+<li>Alex Dimakis (UT Austin)</li>
+<li>Alex Slivkins (Microsoft Research)</li>
+<li>Alexander Rakhlin (MIT)</li>
+<li>Alina Beygelzimer (Yahoo)</li>
+<li>Ambuj Tewari (University of Michigan)</li>
+<li>Amin Karbasi (Yale)</li>
+<li>Amit Daniely (Hebrew University)</li>
+<li>Anand D. Sarwate (Rutgers University)</li>
+<li>Ananda Theertha Suresh (Google)</li>
+<li>Anindya De</li>
+<li>Ankur Moitra (MIT)</li>
+<li>Aravindan Vijayaraghavan (Northwestern University)</li>
+<li>Arnak Dalalyan (ENSAE ParisTech - Centre for Research in Economics and Statistic)</li>
+<li>Aryeh Kontorovich (Ben-Gurion University of the Negev)</li>
+<li>Ashok Cutkosky (Google Research)</li>
+<li>Chi Jin (UC Berkeley)</li>
+<li>Claudio Gentile (Google Research)</li>
+<li>Constantine Caramanis (University of Texas)</li>
+<li>Constantinos Daskalakis (MIT)</li>
+<li>Csaba Szepesvari (DeepMind/University of Alberta)</li>
+<li>Daniel Hsu (Columbia University)</li>
+<li>David Steurer</li>
+<li>Devavrat Shah (MIT)</li>
+<li>Dylan Foster (MIT)</li>
+<li>Eric Price (University of Texas at Austin)</li>
+<li>Gabor Lugosi (Universitat Pompeu Fabra)</li>
+<li>Gergely Neu (Universitat Pompeu Fabra)</li>
+<li>Gilles Blanchard (University of Potsdam)</li>
+<li>Guy Bresler (MIT)</li>
+<li>Haipeng Luo (USC)</li>
+<li>Hamed Hassani (University of Pennsylvania)</li>
+<li>Ilias Diakonikolas (USC)</li>
+<li>Jamie Morgenstern (Georgia Tech)</li>
+<li>Jayadev Acharya (Cornell University)</li>
+<li>Jeff Bilmes (UW)</li>
+<li>Kamalika Chaudhuri (UCSD)</li>
+<li>Karthik Sridharan (Cornell University)</li>
+<li>Kfir Levy</li>
+<li>Maxim Raginsky (University of Illinois)</li>
+<li>Mehryar Mohri (Google / Courant Institute of Mathematical Sciences, NYU)</li>
+<li>Nan Jiang (University of Illinois at Urbana-Champaign)</li>
+<li>Nathan Srebro (Toyota Technical Institute of Chicago)</li>
+<li>Navin Goyal (Microsoft Research India)</li>
+<li>Nicolo Cesa-Bianchi (University of Milan)</li>
+<li>Nika Haghtalab (Cornell University)</li>
+<li>Peter Bartlett (University of California, Berkeley)</li>
+<li>Peter Grunwald (Centrum voor Wiskunde en Informatica)</li>
+<li>Philip M. Long (Google)</li>
+<li>Philippe Rigollet (MIT)</li>
+<li>Pierre Gaillard</li>
+<li>Praneeth Netrapalli (Microsoft Research)</li>
+<li>Pranjal Awasthi (Rutgers University/Google)</li>
+<li>Prateek Jain (Microsoft Research)</li>
+<li>Quentin Berthet (Google Brain)</li>
+<li>Rachel Cummings (Georgia Tech)</li>
+<li>Rafael Frongillo (CU Boulder)</li>
+<li>Raghu Meka (UCLA)</li>
+<li>Robert Schapire (Microsoft)</li>
+<li>Roi Livni (Tel Aviv University)</li>
+<li>Ronen Eldan (Weizmann)</li>
+<li>Rong Ge (Duke University)</li>
+<li>Santosh Vempala (Georgia Tech)</li>
+<li>Satyen Kale (Google)</li>
+<li>Sebastien Bubeck (Microsoft Research)</li>
+<li>Sebastien Gerchinovitz (Universite Toulouse III - Paul Sabatier)</li>
+<li>Shai Ben-David (University of Waterloo)</li>
+<li>Shipra Agrawal (Columbia University)</li>
+<li>Sivan Sabato (Ben-Gurion University of the Negev)</li>
+<li>Suvrit Sra (Massachusetts Institute of Technology, USA)</li>
+<li>Tengyu Ma</li>
+<li>Tim van Erven (Leiden University)</li>
+<li>Tomer Koren (Google)</li>
+<li>Varun Kanade (University of Oxford)</li>
+<li>Vasilis Syrgkanis (Microsoft Research)</li>
+<li>Venkatesh Saligrama (Boston University)</li>
+<li>Vianney Perchet (ENS Paris-Saclay &amp; criteo AI Lab)</li>
+<li>Vitaly Feldman (Apple AI Research)</li>
+<li>Wojciech Kotlowski (Poznan University of Technology)</li>
+<li>Wouter M. Koolen (CWI Amsterdam)</li>
+<li>Yaron Singer (Harvard University)</li>
+<li>Yihong Wu (Yale University)</li>
+</ul>
+</section>
+</div>
+</section>
+</article>
+<!-- Footer -->
+<footer id="footer">
+<!--
+					<ul class="icons">
+						<li><a href="#" class="icon brands circle fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands circle fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands circle fa-google-plus-g"><span class="label">Google+</span></a></li>
+						<li><a href="#" class="icon brands circle fa-github"><span class="label">Github</span></a></li>
+						<li><a href="#" class="icon brands circle fa-dribbble"><span class="label">Dribbble</span></a></li>
+					</ul>
+          -->
+<ul class="copyright">
+<li>© 2020 <a href="http://www.learningtheory.org/">Association for Computational Learning</a></li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li>Image credit: <a href="https://pxhere.com/en/photo/578344">berndthaller</a></li>
+</ul>
+</footer>
+</div>
+<!-- Scripts -->
+
+
+
+
+
+
+
+
+
+</div><div class="index is-preload">
+<div id="page-wrapper">
+<!-- Header -->
+<header class="alt" id="header">
+<h1 id="logo"><a href="index.html">COLT <span>2020</span></a></h1>
+
+</header>
+<!-- Banner -->
+<section id="banner">
+<!--
+						".inner" is set up as an inline-block so it automatically expands
+						in both directions to fit whatever's inside it. This means it won't
+						automatically wrap lines, so be sure to use line breaks where
+						appropriate (<br />).
+					-->
+<div class="inner">
+<header>
+<h2>COLT 2020</h2>
+</header>
+<p>
+<strong><strike>Graz University of Technology, Austria</strike></strong><br/>
+<strong>July 9–12, 2020</strong><br/><br/>
+<strong>Submission deadline</strong>: January 31, 2020<br/>
+<strong><a href="cfp.html">Call for papers</a></strong><br/>
+<strong>See below for COVID-19 update.</strong><br/>
+<!--
+              <strong><a href="submit.html">Submission site</a></strong><br />
+              -->
+</p>
+<!--
+						<footer>
+							<ul class="buttons stacked">
+								<li><a href="#main" class="button fit scrolly">Tell Me More</a></li>
+							</ul>
+						</footer>
+            -->
+</div>
+</section>
+<!-- Main -->
+<article id="main">
+<!-- Zero -->
+<section class="wrapper style4 container" id="sec-important-dates">
+<div class="row gtr-150">
+<div class="col-4 col-12-narrower">
+<!-- Sidebar -->
+<div class="sidebar">
+<section>
+<header>
+<h3>Important dates</h3>
+</header>
+<ul>
+<li><strong>Submission deadline</strong>:<br/>January 31, 4:00 PM PST</li>
+<!--
+                            <li><strong>Author feedback</strong>:<br />March 28&ndash;April 3</li>
+                          -->
+<li><strong>Author feedback</strong>:<br/>April 18–April 24</li>
+<li><strong>Author notification</strong>:<br/>May 25</li>
+<!--
+                          <li><strong>Registration deadline</strong>:<br />May 30</li>
+                          -->
+<li><strong>Conference</strong>:<br/>July 9–12</li>
+</ul>
+<!--
+												<footer>
+													<ul class="buttons">
+														<li><a href="#" class="button small">Learn More</a></li>
+													</ul>
+												</footer>
+                        -->
+</section>
+</div>
+</div>
+<div class="col-8 col-12-narrower imp-narrower">
+<!-- Content -->
+<div class="content">
+<section>
+<header>
+<h3>Thirty-third Annual Conference on Learning Theory</h3>
+</header>
+<!--
+                        <p>The 33rd Annual Conference on Learning Theory (COLT 2020) takes place in Graz, Austria from July 9&ndash;12. It is conveniently close in space and time to <a href="https://icml.cc/Conferences/2020">ICML 2020</a>, which takes place in Vienna immediately after COLT.</p>
+                        -->
+<p>The 33rd Annual Conference on Learning Theory (COLT 2020) takes place <strike>in Graz, Austria</strike> from July 9–12. It is conveniently close in <strike>space and</strike> time to <a href="https://icml.cc/Conferences/2020">ICML 2020</a><strike>, which takes place in Vienna immediately after COLT</strike>.</p>
+<p>The <a href="keynotes.html">keynote speakers for COLT 2020</a> are <a href="http://www.cs.columbia.edu/~blei/">David Blei</a> (Columbia University), <a href="https://salil.seas.harvard.edu/">Salil Vadhan</a> (Harvard University) and <a href="https://voices.uchicago.edu/willett/">Rebecca Willett</a> (University of Chicago).</p>
+<h4>COVID-19 Update</h4>
+<p>The COVID-19 situation has impacted all our lives in unprecedented ways. This includes all members of the COLT community: authors, reviewers, meta-reviewers, chairs, steering committee members and organizers, and everyone who planned to attend COLT. The situation has required us to update our plans for COLT 2020 in two important ways:
+                        </p><ol>
+<li>COLT 2020 will take place entirely virtually.</li>
+<li>The reviewing process is being slowed, and decision notifications will accordingly be delayed.</li>
+</ol>
+                        Neither of these decisions was easy, but it became clear that holding the conference virtually would be inevitable. Also, after discussions with the COLT steering committee, we believe a slower reviewing process is the best option to maintain a high quality conference.
+
+                        <p>Several details are still being worked out, and we will communicate these as decisions are made.</p>
+<!--
+												<a href="#" class="image featured"><img src="images/graz.jpg" alt="" /></a>
+                        -->
+</section>
+</div>
+</div>
+</div>
+</section>
+<!-- One -->
+<section class="wrapper style4 container" id="sec-organization">
+<!-- Content -->
+<div class="content">
+<section>
+<header>
+<h3>Conference organization</h3>
+</header>
+<div class="row">
+<div class="col-6 col-12-narrower">
+<section>
+<header>
+<h5>Program chairs</h5>
+</header>
+<ul>
+<li>Jacob Abernethy (Georgia Tech)</li>
+<li>Shivani Agarwal (University of Pennsylvania)</li>
+</ul>
+</section>
+</div>
+<div class="col-6 col-12-narrower">
+<section>
+<header>
+<h5>Local arrangements chairs</h5>
+</header>
+<ul>
+<li>Peter Auer (University of Leoben)</li>
+<li>Robert Legenstein (Graz University of Technology)</li>
+</ul>
+</section>
+</div>
+</div>
+<div class="row">
+<div class="col-6 col-12-narrower">
+<section>
+<header>
+<h5>Publications chair</h5>
+</header>
+<ul>
+<li>Suriya Gunasekar (Microsoft Research)</li>
+</ul>
+</section>
+</div>
+<div class="col-6 col-12-narrower">
+<section>
+<header>
+<h5>Open problems chair</h5>
+</header>
+<ul>
+<li>Vitaly Feldman (Apple AI Research)</li>
+</ul>
+</section>
+</div>
+</div>
+<div class="row">
+<div class="col-6 col-12-narrower">
+<section>
+<header>
+<h5>Sponsorships chairs</h5>
+</header>
+<ul>
+<li>Satyen Kale (Google Research)</li>
+<li>Varun Kanade (Oxford University)</li>
+</ul>
+</section>
+</div>
+<div class="col-6 col-12-narrower">
+<section>
+<header>
+<h5>WiML-T chair</h5>
+</header>
+<ul>
+<li>TBD</li>
+</ul>
+</section>
+</div>
+</div>
+<div class="row">
+<div class="col-6 col-12-narrower">
+<section>
+<header>
+<h5>Webmaster</h5>
+</header>
+<ul>
+<li>Daniel Hsu (Columbia University)</li>
+</ul>
+</section>
+</div>
+</div>
+</section>
+</div>
+</section>
+<!-- Two -->
+<!--
+						<section class="wrapper style1 container special" id="sec-menu">
+							<div class="row">
+								<div class="col-4 col-12-narrower">
+									<section>
+										<span class="icon solid featured fa-bullhorn"></span>
+										<header>
+                      <h3><a href="cfp.html">Call for papers</a></h3>
+										</header>
+									</section>
+								</div>
+								<div class="col-4 col-12-narrower">
+									<section>
+										<span class="icon solid featured fa-users"></span>
+										<header>
+                      <h3><a href="codeofconduct.html">Code of conduct</a></h3>
+										</header>
+									</section>
+								</div>
+								<div class="col-4 col-12-narrower">
+									<section>
+										<span class="icon solid featured fa-university"></span>
+										<header>
+                      <h3><a href="pc.html">Program committee</a></h3>
+										</header>
+									</section>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-4 col-12-narrower">
+									<section>
+										<span class="icon solid featured fa-list"></span>
+										<header>
+                      <h3><a href="registration.html">Registration</a></h3>
+										</header>
+									</section>
+								</div>
+								<div class="col-4 col-12-narrower">
+									<section>
+										<span class="icon solid featured fa-calendar-alt"></span>
+										<header>
+                      <h3><a href="schedule.html">Schedule</a></h3>
+										</header>
+									</section>
+								</div>
+								<div class="col-4 col-12-narrower">
+									<section>
+										<span class="icon solid featured fa-compass"></span>
+										<header>
+                      <h3><a href="venue.html">Venue information</a></h3>
+										</header>
+									</section>
+								</div>
+							</div>
+						</section>
+          -->
+<!-- CTA -->
+<section id="cta">
+    <header>
+        <h2>Sponsors</h2>
+        <p>We are so grateful to our sponsors whose extraordinary generosity has been critical to the
+            continued success of the conference, particularly by making it possible for students to
+            attend and present their research. For information about sponsorship opportunities, please
+            contact the sponsorship chairs at <a class="__cf_email__"
+                                                 data-cfemail="7102011e1f021e030219180102311d1410031f181f160519141e03085f1e03165f"
+                                                 href="/cdn-cgi/l/email-protection">[email protected]</a>
+        </p>
+        <ul class="buttons">
+            <li>
+                <a class="button primary"
+                   href="/cdn-cgi/l/email-protection#c7b4b7a8a9b4a8b5b4afaeb7b487aba2a6b5a9aea9a0b3afa2a8b5bee9a8b5a0f8b4b2a5ada2a4b3fa8ea9b3a2b5a2b4b3a2a3e2f5f7aea9e2f5f7b4b7a8a9b4a8b5aea9a0e2f5f784888b93e2f5f7f5f7f5f7">Become
+                    a sponsor</a></li>
+        </ul>
+    </header>
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+            <section>
+                <a class="image featured" href="https://research.google/"><img alt="Google"
+                                                                               src="images/sponsor-google.png"/></a>
+                <header>
+                    <h3>Platinum sponsor: Google</h3>
+                </header>
+            </section>
+        </div>
+        <div class="col-3"></div>
+    </div>
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+            <section>
+                <a class="image featured" href="https://deepmind.com/"><img alt="DeepMind"
+                                                                            src="images/DeepMind_RGB_LockupLogo_HiRes_White.png"/></a>
+                <header>
+                    <h3>Platinum sponsor: DeepMind</h3>
+                </header>
+            </section>
+        </div>
+        <div class="col-3"></div>
+    </div>
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+            <section>
+                <a class="image featured" href="https://www.microsoft.com/en-us/research/"><img alt="Microsoft"
+                                                                                                src="images/sponsor-microsoft.png"/></a>
+                <header>
+                    <h3>Gold sponsor: Microsoft</h3>
+                </header>
+            </section>
+        </div>
+        <div class="col-3"></div>
+    </div>
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+            <section>
+                <a class="image featured" href="https://labs.oracle.com/"><img alt="Oracle"
+                                                                               src="images/sponsor-oracle.png"/></a>
+                <header>
+                    <h3>Gold sponsor: Oracle</h3>
+                </header>
+            </section>
+        </div>
+        <div class="col-3"></div>
+    </div>
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+            <section>
+                <a class="image featured" href="https://www.baidu.com/"><img alt="Baidu"
+                                                                             src="images/sponsor-baidu.png"/></a>
+                <header>
+                    <h3>Gold sponsor: Baidu</h3>
+                </header>
+            </section>
+        </div>
+        <div class="col-3"></div>
+    </div>
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+            <section>
+                <a class="image featured" href="https://www.twosigma.com/"><img alt="Two Sigma"
+                                                                                src="images/sponsor-twosigma.png"/></a>
+                <header>
+                    <h3>Silver sponsor: Two Sigma</h3>
+                </header>
+            </section>
+        </div>
+        <div class="col-3"></div>
+    </div>
+</section>
+</article>
+<!-- Footer -->
+<footer id="footer">
+<!--
+					<ul class="icons">
+						<li><a href="#" class="icon brands circle fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands circle fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands circle fa-google-plus-g"><span class="label">Google+</span></a></li>
+						<li><a href="#" class="icon brands circle fa-github"><span class="label">Github</span></a></li>
+						<li><a href="#" class="icon brands circle fa-dribbble"><span class="label">Dribbble</span></a></li>
+					</ul>
+          -->
+<ul class="copyright">
+<li>© 2020 <a href="http://www.learningtheory.org/">Association for Computational Learning</a></li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li>Image credit: <a href="https://pxhere.com/en/photo/578344">berndthaller</a></li>
+</ul>
+</footer>
+</div>
+<!-- Scripts -->
+
+
+
+
+
+
+
+
+</div></body>
+</html>

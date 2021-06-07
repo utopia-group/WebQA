@@ -1,0 +1,934 @@
+{
+    "id": 0,
+    "content": "TACAS",
+    "children": [
+        {
+            "id": 1,
+            "content": "",
+            "key": 1,
+            "children": [
+                {
+                    "id": 2,
+                    "content": "Tuesday, April 14, 2020",
+                    "key": 1
+                },
+                {
+                    "id": 3,
+                    "content": "ETAPS 2020: 25-30 April 2020, Dublin, Ireland",
+                    "key": 2
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "content": "TACAS 2020",
+            "key": 2
+        },
+        {
+            "id": 5,
+            "content": "26th International Conference on Tools and Algorithms for the Construction and Analysis of Systems",
+            "key": 3,
+            "children": [
+                {
+                    "id": 6,
+                    "content": "Accepted papers",
+                    "key": 1,
+                    "children": [
+                        {
+                            "id": 7,
+                            "content": "TACAS is a forum for researchers, developers and users interested in rigorously based tools and algorithms for the construction and analysis of systems. The conference aims to bridge the gaps between different communities with this common interest and to support them in their quest to improve the utility, reliability, flexibility and efficiency of tools and algorithms for building systems.",
+                            "key": 1
+                        },
+                        {
+                            "id": 8,
+                            "content": "Theoretical papers with clear relevance for tool construction and analysis as well as tool descriptions and case studies with a conceptual message are all encouraged. The topics covered by the conference include, but are not limited to:",
+                            "key": 2
+                        },
+                        {
+                            "id": 9,
+                            "content": "",
+                            "isList": true,
+                            "key": 3,
+                            "children": [
+                                {
+                                    "id": 10,
+                                    "content": "specification and verification techniques;",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 11,
+                                    "content": "software and hardware verification;",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 12,
+                                    "content": "analytical techniques for real-time, hybrid, or stochastic systems;",
+                                    "key": 3
+                                },
+                                {
+                                    "id": 13,
+                                    "content": "analytical techniques for safety, security, or dependability;",
+                                    "key": 4
+                                },
+                                {
+                                    "id": 14,
+                                    "content": "SAT and SMT solving;",
+                                    "key": 5
+                                },
+                                {
+                                    "id": 15,
+                                    "content": "theorem proving;",
+                                    "key": 6
+                                },
+                                {
+                                    "id": 16,
+                                    "content": "model checking;",
+                                    "key": 7
+                                },
+                                {
+                                    "id": 17,
+                                    "content": "static and dynamic program analysis;",
+                                    "key": 8
+                                },
+                                {
+                                    "id": 18,
+                                    "content": "testing;",
+                                    "key": 9
+                                },
+                                {
+                                    "id": 19,
+                                    "content": "abstraction techniques for modeling and verification;",
+                                    "key": 10
+                                },
+                                {
+                                    "id": 20,
+                                    "content": "compositional and refinement-based methodologies;",
+                                    "key": 11
+                                },
+                                {
+                                    "id": 21,
+                                    "content": "system construction and transformation techniques;",
+                                    "key": 12
+                                },
+                                {
+                                    "id": 22,
+                                    "content": "machine-learning techniques for synthesis and verification;",
+                                    "key": 13
+                                },
+                                {
+                                    "id": 23,
+                                    "content": "tool environments and tool architectures;",
+                                    "key": 14
+                                },
+                                {
+                                    "id": 24,
+                                    "content": "applications and case studies.",
+                                    "key": 15
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 25,
+                    "content": "Paper submission",
+                    "key": 2,
+                    "children": [
+                        {
+                            "id": 26,
+                            "content": "See the ETAPS 2020 joint call for papers. Submit your paper via the TACAS 2020 author interface of EasyChair.",
+                            "key": 1
+                        },
+                        {
+                            "id": 27,
+                            "content": "The review process of TACAS 2020 is single-blind, with a rebuttal phase for selected papers.",
+                            "key": 2
+                        },
+                        {
+                            "id": 28,
+                            "content": "Limit of 3 submissions:",
+                            "key": 3,
+                            "children": [
+                                {
+                                    "id": 29,
+                                    "content": "Each individual author is limited to a maximum of three TACAS submissions as an author or co-author. Authors of co-authored submissions are jointly responsible for respecting this policy. In case of violations, all submissions of this (co-)author will be desk-rejected.",
+                                    "key": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 30,
+                    "content": "Paper categories",
+                    "key": 3,
+                    "children": [
+                        {
+                            "id": 31,
+                            "content": "TACAS accepts four types of submissions: research papers, case-study papers, regular tool papers, and tool demonstration papers.",
+                            "key": 1
+                        },
+                        {
+                            "id": 32,
+                            "content": "Research papers clearly identify and justify a principled advance to the theoretical foundations for the construction and analysis of systems. Where applicable, they are supported by experimental validation.",
+                            "key": 2
+                        },
+                        {
+                            "id": 33,
+                            "content": "Case study papers report on case studies, preferably in a real-world setting. They should provide information about the following aspects: the system being studied and the reasons why it is of interest, the goals of the study, the challenges the system poses to automated analysis/testing/synthesis, research methodologies and approaches used, the degree to which the goals were met, and how the results can be generalized to other problems and domains.",
+                            "key": 3
+                        },
+                        {
+                            "id": 34,
+                            "content": "Regular tool papers present a new tool, a new tool component, or novel extensions to an existing tool, and are subject to an artifact submission requirement (see below). They should provide a short description of the theoretical foundations with relevant citations, and emphasize the design and implementation concerns, including software architecture and core data structures. A regular tool paper should give a clear account of the tool’s functionality, discuss the tool’s practical capabilities with reference to the type and size of problems it can handle, describe experience with realistic case studies, and where applicable, provide a rigorous experimental evaluation. Papers that present extensions to existing tools should clearly focus on the improvements or extensions with respect to previously published versions of the tool, preferably substantiated by data on enhancements in terms of resources and capabilities.",
+                            "key": 4
+                        },
+                        {
+                            "id": 35,
+                            "content": "Tool demonstration papers focus on the usage aspects of tools and are also subject to the artifact submission requirement. Theoretical foundations and experimental evaluation are not required, however, a motivation as to why the tool is interesting and significant should be provided. Further, the paper should describe aspects such as, for example, the assumptions about application domain and/or extent of potential generality, demonstrate the tool workflow(s), explain integration and/or human interaction, evaluate the overall role and the impact to the development process.",
+                            "key": 5
+                        },
+                        {
+                            "id": 36,
+                            "content": "The length of research , case study , and regular tool papers is limited to 16 pp llncs.cls ( excluding the blibliography ) . The length of tool demonstration papers is limited to 6 pp llncs.cls ( excluding the bibliography ) .",
+                            "key": 6
+                        },
+                        {
+                            "id": 37,
+                            "content": "Appendices going beyond the above page limits are not allowed ! Additional (unlimited) appendices can be made available separately or as part of an extended version of the paper made available via arXiv, Zenodo, or a similar service, and cited in the paper. The reviewers are, however, not obliged to read such appendices.",
+                            "key": 7
+                        }
+                    ]
+                },
+                {
+                    "id": 38,
+                    "content": "Paper evaluation",
+                    "key": 4,
+                    "children": [
+                        {
+                            "id": 39,
+                            "content": "All papers will be evaluated by the program committee (PC), coordinated by the PC chairs, aided by the case study chair for case study papers, and by the tools chair for regular tool papers and tool demonstration papers. All papers will be judged on novelty, significance, correctness, and clarity.",
+                            "key": 1
+                        },
+                        {
+                            "id": 40,
+                            "content": "Reproducibility of results is of the utmost importance for the TACAS community. Therefore, we encourage all authors to include support for replicating the results of their papers. For theorems, this would mean providing proofs; for algorithms, this would mean including evidence of correctness and acceptable performance, either by a theoretical analysis or by experimentation; and for experiments, one should provide access to the artifacts used to generate the experimental data. Material that does not fit into the paper may be provided on a supplementary web site, with access appropriately enabled and license rights made clear. For example, the supplemental material for reviewing case-study papers and papers with experimental results could be classified as reviewer-confidential if necessary (e.g., if proprietary data are investigated or software is not open source). In general, TACAS encourages all authors to archive additional material and make it citable via DOI (e.g., via Zenodo or Figshare).",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 41,
+                    "content": "Artifact submission and evaluation",
+                    "key": 5,
+                    "children": [
+                        {
+                            "id": 42,
+                            "content": "R egular tool papers and tool demonstration papers must be accompanied by an artifact , submitted together with the paper .",
+                            "key": 1
+                        },
+                        {
+                            "id": 43,
+                            "content": "Exceptions to the compulsory artifact submission rule may be granted by the PC chairs, but only in cases when the tool cannot in any reasonable way be run by the AEC. In such cases, the authors should contact the PC chairs as soon as possible (at least 7 days prior to abstract submission), ask for an exception, and explain why it is needed. An example of a case where an exception can be negotiated is a tool that must be run in some very special environment, e.g., on special hardware that cannot be virtualised in any way. Note that license problems are generally not an acceptable grounds for an exception. When an exception is granted, the authors should instead submit a detailed video showing their tool in action.",
+                            "key": 2
+                        },
+                        {
+                            "id": 44,
+                            "content": "The artifact will be evaluated by the artifact evaluation committee (AEC) independently of the paper according to the following criteria:",
+                            "key": 3
+                        },
+                        {
+                            "id": 45,
+                            "content": "",
+                            "isList": true,
+                            "key": 4,
+                            "children": [
+                                {
+                                    "id": 46,
+                                    "content": "consistency with and replicability of results in the paper,",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 47,
+                                    "content": "completeness,",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 48,
+                                    "content": "documentation, and",
+                                    "key": 3
+                                },
+                                {
+                                    "id": 49,
+                                    "content": "ease of use.",
+                                    "key": 4
+                                }
+                            ]
+                        },
+                        {
+                            "id": 50,
+                            "content": "The results of the artifact evaluation will be taken into account during discussion of the paper submission.",
+                            "key": 5
+                        },
+                        {
+                            "id": 51,
+                            "content": "For research papers and case study papers , it is optional to submit an artifact together with the paper. If an artifact is provided at this stage, then it will be reviewed immediately by the AEC and the results of the evaluation can be taken into consideration during the paper reviewing and rebuttal phase. Alternatively, authors of accepted papers may submit an artifact after notification.",
+                            "key": 6
+                        },
+                        {
+                            "id": 52,
+                            "content": "Detailed guidelines for preparation of artifacts and submission can be found here.",
+                            "key": 7
+                        }
+                    ]
+                },
+                {
+                    "id": 53,
+                    "content": "Posters and tool demonstrations",
+                    "key": 6,
+                    "children": [
+                        {
+                            "id": 54,
+                            "content": "Subject to available space, authors of all accepted papers will be given an option to present their results in the form of a poster in addition to the talk. Moreover, again subject to available space, authors of regular tool papers and tool demonstration papers will be given an option to demonstrate their tool to conference participants in addition to giving their talk / presenting their poster. More information about the posters and demonstrations will be posted to the concerned authors in due time.",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 55,
+                    "content": "Competition on software verification",
+                    "key": 7,
+                    "children": [
+                        {
+                            "id": 56,
+                            "content": "TACAS 2020 hosts the 9th Competition on Software Verification with the goal to evaluate technology transfer and compare state-of-the-art software verifiers with respect to effectiveness and efficiency.",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 57,
+                    "content": "Program chairs",
+                    "key": 8,
+                    "children": [
+                        {
+                            "id": 58,
+                            "content": "Armin Biere (Johannes-Kepler-Universität Linz, Austria)   David Parker (University of Birmingham, United Kingdom)",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 59,
+                    "content": "Case study chair",
+                    "key": 9,
+                    "children": [
+                        {
+                            "id": 60,
+                            "content": "Marijn Heule (Carnegie Mellon University, USA)",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 61,
+                    "content": "Tools chair",
+                    "key": 10,
+                    "children": [
+                        {
+                            "id": 62,
+                            "content": "Falk Howar (Technische Universität Dortmund, Germany)",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 63,
+                    "content": "Competition chair",
+                    "key": 11,
+                    "children": [
+                        {
+                            "id": 64,
+                            "content": "Dirk Beyer (Ludwig-Maximilians-Universität München, Germany)",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 65,
+                    "content": "Program committee",
+                    "key": 12,
+                    "children": [
+                        {
+                            "id": 66,
+                            "content": "Christel Baier (Technische Universität Dresden, Germany)   Ezio Bartocci (Technische Universität Wien, Austria)   Dirk Beyer (Ludwig-Maximilians-Universität München, Germany)   Jasmin Blanchette (Vrije Universiteit Amsterdam, The Netherlands)   Roderick Bloem (Technische Universität Graz, Austria)",
+                            "key": 1
+                        },
+                        {
+                            "id": 67,
+                            "content": "Hana Chockler (Kings College London, United Kingdom)   Alessandro Cimatti (FBK-IRST, Italy)   Rance Cleaveland (University of Maryland, USA)   Martin Fränzle (Carl von Ossietzky Universität Oldenburg)   Goran Frehse (ENSTA ParisTech, France)",
+                            "key": 2
+                        },
+                        {
+                            "id": 68,
+                            "content": "Orna Grumberg (Technion, Israel)   Holger Hermanns (Universität des Saarlandes, Germany)   Benjamin Kiesl (Helmholtz Center for Information Security, Germany)   Laura Kovács (Technische Universität Wien, Austria)   Jan Kretińsky (Technische Universität München, Germany)",
+                            "key": 3
+                        },
+                        {
+                            "id": 69,
+                            "content": "Kim G. Larsen (Aalborg University, Denmark)   Wenchao Li (Boston University, USA)   Kenneth McMillan (Microsoft Research, USA)   Aina Niemetz (Stanford University, USA)   Gethin Norman (University of Glasgow, United Kingdom)",
+                            "key": 4
+                        },
+                        {
+                            "id": 70,
+                            "content": "Corina Pasareanu (Carnegie Mellon University and NASA Ames Res. Center, USA)   Nir Piterman (University of Leicester, United Kingdom)   Kristin Y. Rozier (Iowa State University, USA)   Philpp Rümmer (Uppsala University, Sweden)   Natasha Sharygina (Università della Svizzera italiana, Switzerland)",
+                            "key": 5
+                        },
+                        {
+                            "id": 71,
+                            "content": "Bernhard Steffen (Technische Universität Dortmund, Germany)   Jan Strejček (Masaryk University, Czech Republic)   Michael Tautschnig (Queen Mary, University of London, and Amazon Web Services, United Kingdom)   Jaco van de Pol (Aarhus University, Denmark)   Tom van Dijk (Universiteit Twente, The Netherlands)",
+                            "key": 6
+                        },
+                        {
+                            "id": 72,
+                            "content": "Christoph Wintersteiger (Microsoft Research, United Kingdom)",
+                            "key": 7
+                        }
+                    ]
+                },
+                {
+                    "id": 73,
+                    "content": "Artifact evaluation chairs",
+                    "key": 13,
+                    "children": [
+                        {
+                            "id": 74,
+                            "content": "Arnd Hartmanns (Universiteit Twente, The Netherlands)   Martina Seidl (Johannes-Kepler-Universität Linz, Austria)",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 75,
+                    "content": "Artifact evaluation committee",
+                    "key": 14,
+                    "children": [
+                        {
+                            "id": 76,
+                            "content": "Pranav Ashok (Technische Universität München, Germany)   Peter Backeman (Uppsala University, Sweden)   Ismail Lahkim Bennani (Inria, France)   Carlos E. Budde (Universiteit Twente, The Netherlands)   Karlheinz Friedberger (LMU München, Germany)",
+                            "key": 1
+                        },
+                        {
+                            "id": 77,
+                            "content": "Jannik Hüls (Westfälische Wilhelms-Universität Münster, Germany)   Ahmed Irfan (Stanford University, USA)   Martin Jonas (Masaryk University, Czech Republic)   William Kavanagh(University of Glasgow, UK)   Brian Kempa (Iowa State University, USA)",
+                            "key": 2
+                        },
+                        {
+                            "id": 78,
+                            "content": "Michaela Klauck (Universität des Saarlandes, Germany)   Sascha Klüppelholz (Technische Universität Dresden, Germany)   Bettina Könighofer (Technische Universität Graz, Austria)   Sophie Lathouwers (Universiteit Twente, The Netherlands)   Florian Lonsing (Stanford University, USA)",
+                            "key": 3
+                        },
+                        {
+                            "id": 79,
+                            "content": "Juraj Major (Masaryk University, Czech Republic)   Tobias Meggendorfer (Technische Universität München, Germany)   Vince Molnar (Budapest University of Technology and Economics, Hungary)   Alnis Murtovi (Technische Universität Dortmund, Germany)   Chris Novakovic (University of Birmingham, UK)",
+                            "key": 4
+                        },
+                        {
+                            "id": 80,
+                            "content": "Nicola Paoletti (Royal Holloway University of London, UK)   Tim Quatmann (RWTH Aachen University, Germany)   Leander Tentrup (Universität Saarlandes, Germany)   Freark van der Berg (Universiteit Twente, The Netherlands)   Marcell Vazquez-Chanlatte (University of California at Berkeley, USA)",
+                            "key": 5
+                        },
+                        {
+                            "id": 81,
+                            "content": "Matthias Volk (RWTH Aachen University, Germany)   Petar Vukmirovic (Vrije Universiteit Amsterdam, The Netherlands)   Maximilian Weininger (Technische Universität München, Germany)",
+                            "key": 6
+                        }
+                    ]
+                },
+                {
+                    "id": 82,
+                    "content": "Steering committee chair",
+                    "key": 15,
+                    "children": [
+                        {
+                            "id": 83,
+                            "content": "Bernhard Steffen (Technische Universität Dortmund, Germany)",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 84,
+                    "content": "Steering committee",
+                    "key": 16,
+                    "children": [
+                        {
+                            "id": 85,
+                            "content": "Dirk Beyer (Ludwig-Maximilians-Universität München, Germany)   Rance Cleaveland (University of Maryland, USA)   Holger Hermanns (Universität des Saarlandes, Germany)   Kim G. Larsen (Aalborg University, Denmark)",
+                            "key": 1
+                        },
+                        {
+                            "id": 86,
+                            "content": "",
+                            "isList": true,
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 87,
+                                    "content": "ETAPS 2020",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 88,
+                                    "content": "",
+                                    "isList": true,
+                                    "key": 2,
+                                    "children": [
+                                        {
+                                            "id": 89,
+                                            "content": "Doctoral dissertation award",
+                                            "key": 1
+                                        },
+                                        {
+                                            "id": 90,
+                                            "content": "Test of Time Award",
+                                            "key": 2
+                                        },
+                                        {
+                                            "id": 91,
+                                            "content": "Scholarship for student volunteers",
+                                            "key": 3
+                                        },
+                                        {
+                                            "id": 92,
+                                            "content": "Registration",
+                                            "key": 4
+                                        },
+                                        {
+                                            "id": 93,
+                                            "content": "Accommodation",
+                                            "key": 5
+                                        },
+                                        {
+                                            "id": 94,
+                                            "content": "Venue",
+                                            "key": 6
+                                        },
+                                        {
+                                            "id": 95,
+                                            "content": "Invited Talks and Tutorials",
+                                            "key": 7
+                                        },
+                                        {
+                                            "id": 96,
+                                            "content": "Call for Papers",
+                                            "key": 8
+                                        },
+                                        {
+                                            "id": 97,
+                                            "content": "ESOP",
+                                            "key": 9
+                                        },
+                                        {
+                                            "id": 98,
+                                            "content": "FASE",
+                                            "key": 10
+                                        },
+                                        {
+                                            "id": 99,
+                                            "content": "FoSSaCS",
+                                            "key": 11
+                                        },
+                                        {
+                                            "id": 100,
+                                            "content": "TACAS",
+                                            "key": 12
+                                        },
+                                        {
+                                            "id": 101,
+                                            "content": "Workshops",
+                                            "key": 13
+                                        },
+                                        {
+                                            "id": 102,
+                                            "content": "Call for Workshops",
+                                            "key": 14
+                                        },
+                                        {
+                                            "id": 103,
+                                            "content": "Organizers",
+                                            "key": 15
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 104,
+                            "content": "Who's online",
+                            "key": 3,
+                            "children": [
+                                {
+                                    "id": 105,
+                                    "content": "We have 113 guests and no members online",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 106,
+                            "content": "Most read",
+                            "isList": true,
+                            "key": 4,
+                            "children": [
+                                {
+                                    "id": 107,
+                                    "content": "ETAPS 2018",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 108,
+                                    "content": "ETAPS 2017",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 109,
+                                    "content": "ETAPS 2013",
+                                    "key": 3
+                                }
+                            ]
+                        },
+                        {
+                            "id": 110,
+                            "content": "Site Hosted by",
+                            "key": 5,
+                            "children": [
+                                {
+                                    "id": 111,
+                                    "content": "Scroll To Top",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 112,
+                            "content": "",
+                            "key": 6,
+                            "children": [
+                                {
+                                    "id": 113,
+                                    "content": "Tuesday, April 14, 2020",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 114,
+                                    "content": "ETAPS 2020: 25-30 April 2020, Dublin, Ireland",
+                                    "key": 2
+                                }
+                            ]
+                        },
+                        {
+                            "id": 115,
+                            "content": "ETAPS 2020 Joint Call for Papers",
+                            "key": 7
+                        }
+                    ]
+                },
+                {
+                    "id": 116,
+                    "content": "Important dates",
+                    "isList": true,
+                    "key": 17,
+                    "children": [
+                        {
+                            "id": 117,
+                            "content": "(No abstract submission deadline)",
+                            "key": 1
+                        },
+                        {
+                            "id": 118,
+                            "content": "Paper submission deadline:",
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 119,
+                                    "content": "24 October 2019 23:59 AoE (=GMT-12)",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 120,
+                            "content": "Rebuttal (ESOP, FoSSaCS and, partially, TACAS): 9 December 00:01 AoE - 10 December 23:59 AoE",
+                            "key": 3
+                        },
+                        {
+                            "id": 121,
+                            "content": "Author notification:",
+                            "key": 4,
+                            "children": [
+                                {
+                                    "id": 122,
+                                    "content": "23 December 2019",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 123,
+                            "content": "Camera-ready versions:",
+                            "key": 5,
+                            "children": [
+                                {
+                                    "id": 124,
+                                    "content": "22 February 2020",
+                                    "key": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 125,
+                    "content": "Submission instructions",
+                    "key": 18,
+                    "children": [
+                        {
+                            "id": 126,
+                            "content": "The four conferences of ETAPS 2020 solicit contributions of the following types. All page limits are given excluding bibliography .",
+                            "key": 1
+                        },
+                        {
+                            "id": 127,
+                            "content": "",
+                            "isList": true,
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 128,
+                                    "content": "ESOP: regular research papers of max 25 pp",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 129,
+                                    "content": "FASE: regular research papers and empirical evaluation papers of max 18 pp, tool demonstration papers of max 6 pp + mandatory appendix of max 6 pp",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 130,
+                                    "content": "FoSSaCS: regular research papers of max 18 pp",
+                                    "key": 3
+                                },
+                                {
+                                    "id": 131,
+                                    "content": "TACAS: regular research papers, case study papers and regular tool papers of max 16 pp, tool demonstration papers of max 6 pp",
+                                    "key": 4
+                                }
+                            ]
+                        },
+                        {
+                            "id": 132,
+                            "content": "For definitions of the different paper types and specific instructions, where they are present, see the webpages of the individual conferences.",
+                            "key": 3
+                        },
+                        {
+                            "id": 133,
+                            "content": "The rationale for exempting the bibliography from the page limit is to remove the possibility to win space for the body of paper by cutting the bibliography, a practice that has a negative effect on our competitiveness as a community.",
+                            "key": 4
+                        },
+                        {
+                            "id": 134,
+                            "content": "All accepted papers will appear in the proceedings and have presentations during the conference. A condition of submission is that, if the submission is accepted, one of the authors attends the conference to give the presentation.",
+                            "key": 5
+                        },
+                        {
+                            "id": 135,
+                            "content": "Submitted papers must be in English presenting original research. They must be unpublished and not submitted for publication elsewhere. In particular, simultaneous submission of the same contribution to multiple ETAPS conferences is forbidden.",
+                            "key": 6
+                        },
+                        {
+                            "id": 136,
+                            "content": "Submissions must follow the formatting guidelines of Springer's Lecture Notes in Computer Science and be submitted electronically in pdf through the Easychair author interface of the respective conference. Submissions not adhering to the specified format and length may be rejected immediately.",
+                            "key": 7
+                        },
+                        {
+                            "id": 137,
+                            "content": "FASE will use double-blind reviewing. Authors are asked to omit their names and institutions; refer to prior work in the third person, just as prior work by others; not to include acknowledgements that might identify them.",
+                            "key": 8
+                        },
+                        {
+                            "id": 138,
+                            "content": "Regular tool paper and tool demonstration paper submissions to TACAS must be accompanied by an artifact . The artifact will be evaluated and the outcome will be taken into account in the acceptance decision of the paper. For research paper and case study paper submissions, concurrent submission of an artifact is optional; if an artifact is submitted at this stage, it will be handled like described in the previous sentence. Alternatively, authors of accepted papers of these categories may submit an artifact after notification.",
+                            "key": 9
+                        },
+                        {
+                            "id": 139,
+                            "content": "ESOP and FoSSaCS will use an author rebuttal phase . TACAS will use rebuttal for selected submissions.",
+                            "key": 10
+                        }
+                    ]
+                },
+                {
+                    "id": 140,
+                    "content": "Publication",
+                    "key": 19,
+                    "children": [
+                        {
+                            "id": 141,
+                            "content": "The proceedings will be published in the Advanced Research in Computing and Software Science (ARCoSS) subline of Springer's Lecture Notes in Computer Science (LNCS) series. Similarly to ETAPS 2018 and 2019, the proceedings of ETAPS 2020 will appear in gold open access , meaning that the published versions of all papers will be available for everyone to download from the publisher's website freely, from the date of online publication, perpetually . The copyright of the papers will remain with the authors .",
+                            "key": 1
+                        },
+                        {
+                            "id": 142,
+                            "content": "The publisher's charges for gold open access will be paid by the conference (funded with the participation fees of all participants). There will be no added cost for authors specifically.",
+                            "key": 2
+                        },
+                        {
+                            "id": 143,
+                            "content": "",
+                            "isList": true,
+                            "key": 3,
+                            "children": [
+                                {
+                                    "id": 144,
+                                    "content": "ETAPS 2020",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 145,
+                                    "content": "",
+                                    "isList": true,
+                                    "key": 2,
+                                    "children": [
+                                        {
+                                            "id": 146,
+                                            "content": "Doctoral dissertation award",
+                                            "key": 1
+                                        },
+                                        {
+                                            "id": 147,
+                                            "content": "Test of Time Award",
+                                            "key": 2
+                                        },
+                                        {
+                                            "id": 148,
+                                            "content": "Scholarship for student volunteers",
+                                            "key": 3
+                                        },
+                                        {
+                                            "id": 149,
+                                            "content": "Registration",
+                                            "key": 4
+                                        },
+                                        {
+                                            "id": 150,
+                                            "content": "Accommodation",
+                                            "key": 5
+                                        },
+                                        {
+                                            "id": 151,
+                                            "content": "Venue",
+                                            "key": 6
+                                        },
+                                        {
+                                            "id": 152,
+                                            "content": "Invited Talks and Tutorials",
+                                            "key": 7
+                                        },
+                                        {
+                                            "id": 153,
+                                            "content": "Call for Papers",
+                                            "key": 8
+                                        },
+                                        {
+                                            "id": 154,
+                                            "content": "ESOP",
+                                            "key": 9
+                                        },
+                                        {
+                                            "id": 155,
+                                            "content": "FASE",
+                                            "key": 10
+                                        },
+                                        {
+                                            "id": 156,
+                                            "content": "FoSSaCS",
+                                            "key": 11
+                                        },
+                                        {
+                                            "id": 157,
+                                            "content": "TACAS",
+                                            "key": 12
+                                        },
+                                        {
+                                            "id": 158,
+                                            "content": "Workshops",
+                                            "key": 13
+                                        },
+                                        {
+                                            "id": 159,
+                                            "content": "Call for Workshops",
+                                            "key": 14
+                                        },
+                                        {
+                                            "id": 160,
+                                            "content": "Organizers",
+                                            "key": 15
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 161,
+                            "content": "Who's online",
+                            "key": 4,
+                            "children": [
+                                {
+                                    "id": 162,
+                                    "content": "We have 114 guests and no members online",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 163,
+                            "content": "Most read",
+                            "isList": true,
+                            "key": 5,
+                            "children": [
+                                {
+                                    "id": 164,
+                                    "content": "ETAPS 2018",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 165,
+                                    "content": "ETAPS 2017",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 166,
+                                    "content": "ETAPS 2013",
+                                    "key": 3
+                                }
+                            ]
+                        },
+                        {
+                            "id": 167,
+                            "content": "Site Hosted by",
+                            "key": 6,
+                            "children": [
+                                {
+                                    "id": 168,
+                                    "content": "Scroll To Top",
+                                    "key": 1
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

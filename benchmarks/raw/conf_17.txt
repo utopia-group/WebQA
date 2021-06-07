@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>IEEE Symposium on Security and Privacy 2020</title>
+<meta content="text/html;charset=utf-8" http-equiv="Content-type"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<!-- icons -->
+<link href="images/favicon.png" rel="icon" type="image/png"/>
+<link href="images/favicon.png" rel="apple-touch-icon" type="image/png"/>
+<!-- bootstrap -->
+<script src="js/jquery-2.1.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<link href="css/bootstrap.min.css" rel="stylesheet"/>
+<link href="css/bootstrap-theme.min.css" rel="stylesheet"/>
+<!-- glyphs -->
+<link href="css/font-awesome.min.css" rel="stylesheet"/>
+<!-- fonts -->
+<link href="css/webfonts.css" rel="stylesheet" type="text/css"/>
+<!-- custom css -->
+<link href="css/main.css" rel="stylesheet" type="text/css"/>
+<!-- workaround for ie 7, 8 -->
+<script src="js/css3-mediaqueries.js" type="text/javascript"></script>
+<!--[if lt IE 9]>
+      <script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+    <![endif]-->
+<script>
+		function updateCfPDeadline() {
+			var d = new Date(),
+		    months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+			htmlel = document.getElementById("cfpRollingDeadline")
+			if(htmlel != null) {
+				if(d.getMonth() <= 12 && d.getFullYear()==2018) {
+					htmlel.innerHTML = 'Rolling (Next deadline: January 1, 2019)';					
+				} else {
+					htmlel.innerHTML = 'Rolling (Next deadline: ' + months[(d.getMonth() + 1) % 12]+' 1, 2019)';
+				}
+			}
+		}
+	</script>
+<!-- google analytics -->
+<script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-80995671-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+<script src="https://s3-us-west-2.amazonaws.com/ieeeshutpages/gdpr/settings.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" rel="stylesheet" type="text/css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+		window.addEventListener("load", function(){
+		 window.cookieconsent.initialise(json)
+		});
+	</script>
+</head>
+<body onload="updateCfPDeadline()">
+<!-- https://github.com/twbs/bootstrap/issues/10601 -->
+<div class="navbar navbar-inverse navbar-fixed-top" role="banner">
+<div class="container-fluid">
+<div class="navbar-header">
+<button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="#">S &amp; P</a>
+</div>
+<div class="collapse navbar-collapse" role="navigation">
+<ul class="nav navbar-nav">
+<li><a href="index.html"><i class="fa fa-home"></i>   Home</a></li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                Program <i class="fa fa-caret-down"></i>
+</a>
+<ul class="dropdown-menu">
+<li><a href="program-compact.html">Program (Compact)</a></li>
+<!-- <li><a href="program.html">Program</a></li>
+                <li><a href="program-papers.html">Accepted Papers</a></li>
+                <li><a href="program-posters.html">Posters</a></li>
+                <li><a href="program-shorttalks.html">Short Talks</a></li> -->
+</ul>
+</li>
+<li class="dropdown active">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                Call For...   <i class="fa fa-caret-down"></i>
+</a>
+<ul class="dropdown-menu">
+<li><a href="cfpapers.html">Papers</a></li>
+<li><a href="cfdonors.html">Donors</a></li>
+<li><a href="shadowpc.html">Shadow PCs</a></li>
+<li><a href="cfposters.html">Posters</a></li>
+<li><a href="cftalks.html">Short Talks</a></li>
+<li><a href="cfworkshops.html">Workshops</a></li>
+<!--                <li><a href="cfdonors.html">Donors</a></li>
+                <li><a href="studentpc.html">Student PC</a></li>
+-->
+</ul>
+</li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                Attend   <i class="fa fa-caret-down"></i>
+</a>
+<ul class="dropdown-menu">
+<!-- <li><a href="venue.html">Venue Info</a></li> -->
+<!-- <li><a href="https://na.eventscloud.com/ieeesp2020" target="_blank">Registration</a></li> -->
+<li><a href="travel_grants.html">Student Registration Grants</a></li>
+<li><a href="codeofconduct.html">Attendee Code of Conduct</a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                Workshops   <i class="fa fa-caret-down"></i>
+</a>
+<ul class="dropdown-menu">
+<li><a href="workshops.html">General Info</a></li>
+</ul>
+</li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<!-- comment press page
+            <li class="hidden-sm"><a href="press.html">Press</a></li>
+end press -->
+<li class="hidden-sm">
+<a href="https://twitter.com/ieeessp">
+<i class="fa fa-twitter hidden-xs"></i>
+<span class="visible-xs">Twitter</span>
+</a>
+</li>
+<li class="hidden-sm">
+<a href="https://www.facebook.com/ieeessp">
+<i class="fa fa-facebook hidden-xs"></i>
+<span class="visible-xs">Facebook</span>
+</a>
+</li>
+<li class="hidden-sm">
+<a href="http://www.linkedin.com/groups?gid=7403306">
+<i class="fa fa-linkedin hidden-xs"></i>
+<span class="visible-xs">LinkedIn</span>
+</a>
+</li>
+<li>
+<a href="contact.html">
+<i class="fa fa-envelope hidden-xs"></i>
+<span class="visible-xs">Contact</span>
+</a>
+</li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                About   <i class="fa fa-caret-down"></i>
+</a>
+<ul class="dropdown-menu">
+<li><a href="past.html">Past Conferences</a></li>
+<li><a href="organizers.html">Conference Organizers</a></li>
+<li><a href="https://www.ieee-security.org/index.html">Technical Committee</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="jumbotron">
+<div class="container">
+<p class="location">
+          
+              MAY 18-20, 2020 
+              <!-- AT THE
+              HYATT REGENCY,
+              SAN FRANCISCO, CA -->
+</p>
+<p class="title">
+          
+              41st IEEE Symposium on<br/>Security and Privacy
+          
+        </p>
+<p class="sponsors hidden-xs">
+          Sponsored by the <a class="jumbotron_link" href="http://ieee-security.org/">IEEE Computer Society Technical
+              Committee on Security and Privacy</a> in cooperation with the <a class="jumbotron_link" href="http://www.iacr.org">International Association for Cryptologic Research</a>
+</p>
+<!-- <p class="sponsors">
+          <a class="btn btn-default btn-lg" target="_blank" href="https://na.eventscloud.com/ieeesp2020">
+            <i class="fa fa-chevron-circle-right fa-lg"></i>&nbsp;&nbsp; Register
+          </a>
+        </p> -->
+</div>
+</div>
+<!--
+    <div class="notice">
+        <p>  Conference Paper Abstracts due Friday November 4! </p>
+        <p class="text"><em> Only papers with an abstract submitted by the
+            deadline will be reviewed.</em></p>
+    </div>
+    -->
+<div class="container">
+<h1>Call For Papers</h1>
+<hr/>
+<p><b>Please note that revisions for papers submitted to the 2019 Symposium need to be submitted to the <a href="https://oakland19.seclab.cs.ucsb.edu/">S&amp;P 2019 submission site</a>.</b></p>
+<hr/>
+<p>Since 1980 in Oakland, the IEEE Symposium on Security and Privacy has been the
+premier forum for computer security research, presenting the latest
+developments and bringing together researchers and practitioners. We solicit
+previously unpublished papers offering novel research contributions in any
+aspect of security or privacy. Papers may present advances in the theory,
+design, implementation, analysis, verification, or empirical evaluation and
+measurement of secure systems.</p>
+<p>Topics of interest include:</p>
+<ul>
+<li>Access control and authorization</li>
+<li>Anonymity</li>
+<li>Application security</li>
+<li>Attacks and defenses</li>
+<li>Authentication</li>
+<li>Blockchains and distributed ledger security</li>
+<li>Censorship resistance</li>
+<li>Cloud security</li>
+<li>Cyber physical systems security</li>
+<li>Distributed systems security</li>
+<li>Economics of security and privacy</li>
+<li>Embedded systems security</li>
+<li>Forensics</li>
+<li>Hardware security</li>
+<li>Intrusion detection and prevention</li>
+<li>Malware and unwanted software</li>
+<li>Mobile and Web security and privacy</li>
+<li>Language-based security</li>
+<li>Machine learning and AI security</li>
+<li>Network and systems security</li>
+<li>Privacy technologies and mechanisms</li>
+<li>Protocol security</li>
+<li>Secure information flow</li>
+<li>Security and privacy for the Internet of Things</li>
+<li>Security and privacy metrics</li>
+<li>Security and privacy policies</li>
+<li>Security architectures</li>
+<li>Usable security and privacy</li>
+<li>Trustworthy computing</li>
+<li>Web security</li>
+</ul>
+<p>This topic list is not meant to be exhaustive; S&amp;P is interested in all
+aspects of computer security and privacy. Papers without a clear application to
+security or privacy, however, will be considered out of scope and may be
+rejected without full review.</p>
+<h3>Systematization of Knowledge Papers</h3>
+<p>As in past years, we solicit systematization of knowledge (SoK) papers that
+evaluate, systematize, and contextualize existing knowledge, as such papers can
+provide a high value to our community. Suitable papers are those that provide
+an important new viewpoint on an established, major research area, support or
+challenge long-held beliefs in such an area with compelling evidence, or
+present a convincing, comprehensive new taxonomy of such an area. Survey papers
+without such insights are not appropriate. Submissions will be distinguished by
+the prefix âSoK:â in the title and a checkbox on the submission form. They will
+be reviewed by the full PC and held to the same standards as traditional
+research papers, but they will be accepted based on their treatment of existing
+work and value to the community, and not based on any new research results they
+may contain. Accepted papers will be presented at the symposium and included in
+the proceedings.</p>
+<h3>Ongoing Submissions</h3>
+<p>To enhance the quality and timeliness of the scientific results presented as
+part of the Symposium, and to improve the quality of our reviewing process,
+IEEE S&amp;P now accepts paper submissions 12 times a year, on the first of
+each month. The detailed process is as follows.</p>
+<ul>
+<li>A rolling deadline occurs on the 1st of each month, at 3:00 PM (UTC-7, i.e.,
+PDT). This deadline is strict and no extensions will be granted.</li>
+<li>Within two months of submission, author notifications of
+Accept/Revise/Reject decisions will be sent out.</li>
+<li>Within one month of acceptance, all accepted papers must
+submit a camera-ready copy incorporating reviewer feedback.
+The papers will immediately be published, open access, in the
+Computer Societyâs Digital Library, and they may be cited as âTo
+appear in the IEEE Symposium on Security &amp; Privacy, May
+20XXâ.</li>
+<li>A limited number of papers will be invited to submit a
+revision; such papers will receive a specific set of expectations
+to be met by that revision.  Authors may take up to three
+months from decision notification to produce a revised manuscript
+and submit it as part of the standard deadline on the 1st of the
+month.  Authors will receive decisions on revisions within one
+month.  See below for additional details on the resubmission
+procedure.</li>
+<li>Rejected papers must wait for one year, from the date of
+original submission, to resubmit to IEEE S&amp;P.
+
+<ul>
+<li>A paper will be judged to be a resubmit (as opposed to a
+new submission) if the paper is from the same or similar authors,
+and a reviewer could write a substantially similar summary of the
+paper compared with the original submission.  As a rule of
+thumb, if there is more than 40% overlap between the original
+submission and the new paper, it will be considered a
+resubmission.</li>
+</ul></li>
+<li>All papers <b>accepted</b> by February 1st, 2020, or that are submitted as a revision
+by February 1st, 2020 and the revision is then accepted, will be
+included in the proceedings of the symposium in May, 2020 and
+invited to present their work.  Other papers will be included
+in the 2021 proceedings.<br/>
+<ul>
+<li>As a result, for authors who anticipate using the full
+three months to respond to a Revision decision, the final
+submission deadline for possible inclusion in the 2020 proceedings
+is September 1st, 2019.</li>
+<li>For authors who anticipate using only one month to respond
+to a Revision decision, the final submission deadline for possible
+inclusion in the 2020 proceedings is November 1st, 2019.</li>
+<li>The final submission deadline for possible
+inclusion in the 2020 proceedings is December 1st, 2019, but only
+for papers accepted without revision.</li>
+</ul></li>
+</ul>
+<h3>Revised Submissions</h3>
+<p>As described above, some number of papers will receive a
+Revise decision, rather than Accept or Reject.  This decision
+will be accompanied by a detailed summary of the expectations for
+the revision, in addition to the standard reviewer comments.
+ Authors may take up to three months to prepare a revision,
+which may include running additional experiments, improving the
+paperâs presentation, or other such improvements.  Papers
+meeting the expectations will typically be accepted. Those that do
+not will be rejected. Only in exceptional circumstances will
+additional revisions be requested.</p>
+<p>Upon receiving a Revise decision, authors can choose to
+withdraw their paper or not submit a revision within three months,
+but they will be asked to not submit the same or similar work again
+(following the same rules as for Rejected papers) for 1 year from
+the date of the original submission.</p>
+<p>Revised submissions should be submitted on the first of
+the month, just as with new submissions.  Revisions must be
+accompanied by a summary of the changes that were made.</p>
+<h3>Submission Statistics</h3>
+<p>Statistics on the submissions and decisions made thus far are available <a href="submissions.html">here</a>.</p>
+<h3>Student Program Committee</h3>
+<p>Following a successful model used at last yearâs conference, as well as other
+premier technical conferences, some paper submissions will be reviewed by a
+âshadow PCâ of students and junior researchers. For more information see
+<a href="studentpc.html">
+https://www.ieee-security.org/TC/SP2020/studentpc.html</a>.</p>
+<h1>Instructions for Paper Submission</h1>
+<hr/>
+<p>These instructions apply to both the research papers and
+systematization of knowledge papers.</p>
+<p>All submissions must be original work; the submitter must
+clearly document any overlap with previously published or
+simultaneously submitted papers from any of the authors. Failure to
+point out and explain overlap will be grounds for rejection.
+Simultaneous submission of the same paper to another venue with
+proceedings or a journal is not allowed and will be grounds for
+automatic rejection. Contact the program committee chairs if there
+are questions about this policy.</p>
+<h3>Anonymous Submission</h3>
+<p>Papers must be submitted in a form suitable for anonymous
+review: no author names or affiliations may appear on the title
+page, and papers should avoid revealing their identity in the text.
+When referring to your previous work, do so in the third person, as
+though it were written by someone else. Only blind the reference
+itself in the (unusual) case that a third-person reference is
+infeasible. Publication as a technical report or in an online
+repository does not constitute a violation of this policy. Contact
+the program chairs if you have any questions. Papers that are not
+properly anonymized may be rejected without review.</p>
+<h3>Conflicts of Interest</h3>
+<h4>Drawn from the ACM SIGMOD 2015 CFP</h4>
+<p>During submission of a research paper, the submission site
+will request information about conflicts of interest of the paper's
+authors with program committee (PC) members. It is the full
+responsibility of all authors of a paper to identify all and only
+their potential conflict-of-interest PC members, according to the
+following definition. A paper author has a conflict of interest with a PC member
+when and only when one or more of the following conditions
+holds:</p>
+<ol>
+<li>The PC member is a co-author of the paper.</li>
+<li>The PC member has been a co-worker in the same company or university within
+the past two years.
+
+<ul>
+<li>For student interns, the student is conflicted with their
+supervisors and with members of the same research group.  If
+the student no longer works for the organization, then they are not
+conflicted with a PC member from the larger
+organization.</li>
+</ul></li>
+<li>The PC member has been a collaborator within the past two years.</li>
+<li>The PC member is or was the author's primary thesis advisor, no matter how
+long ago.</li>
+<li>The author is or was the PC member's primary thesis advisor, no matter how
+long ago.</li>
+<li>The PC member is a relative or close personal friend of the author.</li>
+</ol>
+<p>For any other situation where the authors feel they have a
+conflict with a PC member, they must explain the nature of the
+conflict to the PC chairs, who will mark the conflict if
+appropriate.  Papers with incorrect or incomplete conflict of
+interest information as of the submission closing time are subject
+to immediate rejection.</p>
+<h3>Human Subjects and Ethical Considerations</h3>
+<h4>Drawn from the USENIX Security 2016 CFP</h4>
+<p>Submissions that describe experiments on human subjects,
+that analyze data derived from human subjects (even anonymized
+data), or that otherwise may put humans at risk should:</p>
+<ol>
+<li>Disclose whether the research received an approval or waiver from each of
+the authors' institutional ethics review boards (IRB) if applicable.</li>
+<li>Discuss steps taken to ensure that participants and others who might have
+been affected by an experiment were treated ethically and with respect. </li>
+</ol>
+<p>If the submission deals with vulnerabilities (e.g.,
+software vulnerabilities in a given program or design weaknesses in
+a hardware system), the authors need to discuss in detail the steps
+they have taken or plan to take to address these vulnerabilities
+(e.g., by disclosing vulnerabilities to the vendors). The same
+applies if the submission deals with personal identifiable
+information (PII) or other kinds of sensitive data. If a paper
+raises significant ethical and legal concerns, it might be rejected
+based on these concerns.</p>
+<p>Contact the program co-chairs
+<a href="mailto:sp20-pcchairs@ieee-security.org">sp20-pcchairs@ieee-security.org</a> if you have any
+questions.</p>
+<h3>Page Limit and Formatting</h3>
+<p>Submitted papers may include up to 13 pages of text and up
+to 5 pages for references and appendices, totalling no more than 18
+pages. The same applies to camera-ready papers, although, at the PC
+chairsâ discretion, additional pages may be allowed for references
+and appendices. Reviewers are not required to read
+appendices.</p>
+<p>Papers must be formatted for US letter (not A4) size
+paper. The text must be formatted in a two-column layout, with
+columns no more than 9.5 in. tall and 3.5 in. wide. The text must
+be in Times font, 10-point or larger, with 11-point or larger line
+spacing. Authors are encouraged to use the IEEE conference
+proceedings templates. LaTeX submissions should use IEEEtran.cls
+version 1.8. All submissions will be automatically checked for
+conformance to these requirements.  Failure to adhere to the
+page limit and formatting requirements are grounds for rejection
+without review.</p>
+<h3>Reviews from Prior Submissions</h3>
+<p>Authors may optionally submit a document (PDF or text) containing:</p>
+<ol>
+<li>the complete reviews they received from prior
+submission(s) and</li>
+<li>a page of up to 500 words documenting the improvements
+made since the prior submission(s).</li>
+</ol>
+<p>Also starting this year, if a submission is derived in any
+way from a submission submitted to another venue (conference,
+journal, etc.) in the past twelve months, we require that the
+authors provide the name of the most recent venue to which it was
+submitted. This information will not be shared with
+reviewers. It will only be used (1) for aggregate statistics
+to understand the percent of resubmissions among the set of
+submitted (and accepted) papers; (2) at the Chairsâ discretion, to
+identify dual submissions and verify the accuracy of prior reviews
+provided by authors regarding previously rejected
+papers.</p>
+<h3>Submission</h3>
+<p>Submissions must be in Portable Document Format (.pdf).
+Authors should pay special attention to unusual fonts, images, and
+figures that might create problems for reviewers. Your document
+should render correctly in Adobe Reader 9 and when printed in black
+and white.</p>
+<h3>Conference Submission Server</h3>
+<p>Papers must be submitted at <a href="https://oakland20.seclab.cs.ucsb.edu">https://oakland20.seclab.cs.ucsb.edu</a>.</p>
+<h3>Publication and Presentation</h3>
+<p>Authors are responsible for obtaining appropriate
+publication clearances. One of the authors of the accepted paper is
+expected to present the paper at the conference.</p>
+<h1>Program Committee</h1>
+<hr/>
+<h3>PC Chairs</h3>
+<table class="table table-hover table-nonfluid">
+<tr>
+<td>Alina Oprea</td>
+<td>Northeastern University</td>
+</tr>
+<tr>
+<td>Hovav Shacham</td>
+<td>The University of Texas at Austin</td>
+</tr>
+</table>
+<h3>PC Members</h3>
+<table class="table table-hover table-nonfluid">
+<tr>
+<td>Manos Antonakakis</td>
+<td>Georgia Institute of Technology</td>
+</tr>
+<tr>
+<td>Davide Balzarotti</td>
+<td>Eurecom</td>
+</tr>
+<tr>
+<td>Adam Bates</td>
+<td>University of Illinois at Urbana-Champaign</td>
+</tr>
+<tr>
+<td>Konstantin (Kosta) Beznosov</td>
+<td>University of British Columbia</td>
+</tr>
+<tr>
+<td>Karthikeyan Bhargavan</td>
+<td>INRIA</td>
+</tr>
+<tr>
+<td>Battista Biggio</td>
+<td>University of Cagliari, Italy</td>
+</tr>
+<tr>
+<td>Leyla Bilge</td>
+<td>Symantec</td>
+</tr>
+<tr>
+<td>Marina Blanton</td>
+<td>University at Buffalo</td>
+</tr>
+<tr>
+<td>Joseph  Bonneau</td>
+<td>NYU</td>
+</tr>
+<tr>
+<td>Chris Brzuska</td>
+<td>Aalto University</td>
+</tr>
+<tr>
+<td>Kevin Butler</td>
+<td>University of Florida</td>
+</tr>
+<tr>
+<td>Juan Caballero</td>
+<td>IMDEA Software Institute</td>
+</tr>
+<tr>
+<td>Joe Calandrino</td>
+<td>Federal Trade Commission</td>
+</tr>
+<tr>
+<td>Aylin Caliskan</td>
+<td>The George Washington University</td>
+</tr>
+<tr>
+<td>Nicholas Carlini</td>
+<td>Google</td>
+</tr>
+<tr>
+<td>Melissa Chase</td>
+<td>Microsoft Research</td>
+</tr>
+<tr>
+<td>Stephen Checkoway</td>
+<td>Oberlin College</td>
+</tr>
+<tr>
+<td>Haibo Chen</td>
+<td>Shanghai Jiao Tong University</td>
+</tr>
+<tr>
+<td>David Choffnes</td>
+<td>Northeastern University</td>
+</tr>
+<tr>
+<td>Omar Chowdhury</td>
+<td>The University of Iowa</td>
+</tr>
+<tr>
+<td>Nicolas Christin</td>
+<td>Carnegie Mellon University</td>
+</tr>
+<tr>
+<td>Mihai Christodorescu</td>
+<td>Visa Research</td>
+</tr>
+<tr>
+<td>Henry Corrigan-Gibbs</td>
+<td>Stanford University</td>
+</tr>
+<tr>
+<td>VÃ©ronique Cortier</td>
+<td>CNRS, Loria, France</td>
+</tr>
+<tr>
+<td>Lorrie Cranor</td>
+<td>Carnegie Mellon University</td>
+</tr>
+<tr>
+<td>Weidong Cui</td>
+<td>Microsoft Research</td>
+</tr>
+<tr>
+<td>Emiliano De Cristofaro</td>
+<td>University College London</td>
+</tr>
+<tr>
+<td>Brendan Dolan-Gavitt</td>
+<td>NYU</td>
+</tr>
+<tr>
+<td>Adam DoupÃ©</td>
+<td>Arizona State University</td>
+</tr>
+<tr>
+<td>Thomas Dullien</td>
+<td>optimyze</td>
+</tr>
+<tr>
+<td>Annie Edmundson</td>
+<td>Squarespace</td>
+</tr>
+<tr>
+<td>Manuel Egele</td>
+<td>Boston University</td>
+</tr>
+<tr>
+<td>Sascha Fahl</td>
+<td>Leibniz University Hannover</td>
+</tr>
+<tr>
+<td>Giulia Fanti</td>
+<td>Carnegie Mellon University</td>
+</tr>
+<tr>
+<td>Nick Feamster</td>
+<td>Princeton</td>
+</tr>
+<tr>
+<td>Anders Fogh</td>
+<td>Intel Corporation</td>
+</tr>
+<tr>
+<td>AurÃ©lien Francillon</td>
+<td>EURECOM</td>
+</tr>
+<tr>
+<td>Michael Franz</td>
+<td>University of California, Irvine</td>
+</tr>
+<tr>
+<td>Christina Garman</td>
+<td>Purdue University</td>
+</tr>
+<tr>
+<td>Daniel Genkin</td>
+<td>University of Michigan</td>
+</tr>
+<tr>
+<td>Rosario Gennaro</td>
+<td>The City College of New York</td>
+</tr>
+<tr>
+<td>Cristiano Giuffrida</td>
+<td>VU Amsterdam</td>
+</tr>
+<tr>
+<td>Virgil Gligor</td>
+<td>CMU</td>
+</tr>
+<tr>
+<td>Ian Goldberg</td>
+<td>University of Waterloo</td>
+</tr>
+<tr>
+<td>Neil Gong</td>
+<td>Duke University</td>
+</tr>
+<tr>
+<td>Guofei Gu</td>
+<td>Texas A&amp;M University</td>
+</tr>
+<tr>
+<td>Andreas Haeberlen</td>
+<td>University of Pennsylvania</td>
+</tr>
+<tr>
+<td>Mike Hamburg</td>
+<td>Rambus</td>
+</tr>
+<tr>
+<td>Ethan Heilman</td>
+<td>Commonwealth Crypto</td>
+</tr>
+<tr>
+<td>Thorsten Holz</td>
+<td>Ruhr-UniversitÃ¤t Bochum</td>
+</tr>
+<tr>
+<td>Amir Houmansadr</td>
+<td>University of Massachusetts Amherst</td>
+</tr>
+<tr>
+<td>Suman Jana</td>
+<td>Columbia University</td>
+</tr>
+<tr>
+<td>Limin Jia</td>
+<td>Carnegie Mellon University</td>
+</tr>
+<tr>
+<td>Brent ByungHoon Kang</td>
+<td>KAIST</td>
+</tr>
+<tr>
+<td>Alexandros Kapravelos</td>
+<td>North Carolina State University</td>
+</tr>
+<tr>
+<td>Aniket Kate</td>
+<td>Purdue University</td>
+</tr>
+<tr>
+<td>Stefan Katzenbeisser</td>
+<td>TU Darmstadt</td>
+</tr>
+<tr>
+<td>Aggelos Kiayias</td>
+<td>University of Edinburgh &amp; IOHK</td>
+</tr>
+<tr>
+<td>Engin Kirda</td>
+<td>Northeastern University</td>
+</tr>
+<tr>
+<td>David Kohlbrenner</td>
+<td>UC Berkeley</td>
+</tr>
+<tr>
+<td>Vladimir Kolesnikov</td>
+<td>Georgia Institute of Technology</td>
+</tr>
+<tr>
+<td>Ralf Kuesters</td>
+<td>University of Stuttgart</td>
+</tr>
+<tr>
+<td>Wenke Lee</td>
+<td>Georgia Institute of Technology</td>
+</tr>
+<tr>
+<td>Anja Lehmann</td>
+<td>IBM</td>
+</tr>
+<tr>
+<td>Kirill Levchenko</td>
+<td>University of Illinois</td>
+</tr>
+<tr>
+<td>Dave Levin</td>
+<td>UMD</td>
+</tr>
+<tr>
+<td>Bo Li</td>
+<td>UIUC</td>
+</tr>
+<tr>
+<td>Xiaojing Liao</td>
+<td>Indiana University Bloomington</td>
+</tr>
+<tr>
+<td>Martina Lindorfer</td>
+<td>TU Wien</td>
+</tr>
+<tr>
+<td>Long Lu</td>
+<td>Northeastern University</td>
+</tr>
+<tr>
+<td>Matteo Maffei</td>
+<td>TU Wien</td>
+</tr>
+<tr>
+<td>Sergio Maffeis</td>
+<td>Imperial College London</td>
+</tr>
+<tr>
+<td>Piotr Mardziel</td>
+<td>Carnegie Mellon University</td>
+</tr>
+<tr>
+<td>ClÃ©mentine Maurice</td>
+<td>CNRS, IRISA</td>
+</tr>
+<tr>
+<td>Prateek Mittal</td>
+<td>Princeton University</td>
+</tr>
+<tr>
+<td>Payman Mohassel</td>
+<td>Visa Research</td>
+</tr>
+<tr>
+<td>Fabian Monrose</td>
+<td>UNC</td>
+</tr>
+<tr>
+<td>Neha Narula</td>
+<td>MIT Media Lab</td>
+</tr>
+<tr>
+<td>Nick Nikiforakis</td>
+<td>Stony Brook University</td>
+</tr>
+<tr>
+<td>Yossi Oren</td>
+<td>Ben Gurion University</td>
+</tr>
+<tr>
+<td>Dimitrios Papadopoulos</td>
+<td>Hong Kong University of Science and Technology</td>
+</tr>
+<tr>
+<td>Nicolas Papernot</td>
+<td>Google Brain</td>
+</tr>
+<tr>
+<td>Mathias Payer</td>
+<td>EPFL</td>
+</tr>
+<tr>
+<td>Paul Pearce</td>
+<td>Georgia Tech</td>
+</tr>
+<tr>
+<td>Marcus Peinado</td>
+<td>Microsoft Research</td>
+</tr>
+<tr>
+<td>Roberto Perdisci</td>
+<td>University of Georgia and Georgia Institute of Technology</td>
+</tr>
+<tr>
+<td>Adrian Perrig</td>
+<td>ETH Zurich</td>
+</tr>
+<tr>
+<td>Frank Piessens</td>
+<td>KU Leuven</td>
+</tr>
+<tr>
+<td>Christina Poepper</td>
+<td>New York University Abu Dhabi</td>
+</tr>
+<tr>
+<td>Michalis Polychronakis</td>
+<td>Stony Brook University</td>
+</tr>
+<tr>
+<td>Raluca Ada Popa</td>
+<td>UC Berkeley</td>
+</tr>
+<tr>
+<td>Zhiyun Qian</td>
+<td>University of California, Riverside</td>
+</tr>
+<tr>
+<td>Ananth Raghunathan</td>
+<td>Google</td>
+</tr>
+<tr>
+<td>Aanjhan Ranganathan</td>
+<td>Northeastern University</td>
+</tr>
+<tr>
+<td>Kasper Rasmussen</td>
+<td>University of Oxford</td>
+</tr>
+<tr>
+<td>Elissa Redmiles</td>
+<td>Microsoft Research/Princeton University</td>
+</tr>
+<tr>
+<td>Eric Rescorla</td>
+<td>Mozilla</td>
+</tr>
+<tr>
+<td>Konrad Rieck</td>
+<td>TU Braunschweig</td>
+</tr>
+<tr>
+<td>Tom Ristenpart</td>
+<td>Cornell Tech</td>
+</tr>
+<tr>
+<td>William Robertson</td>
+<td>Northeastern University</td>
+</tr>
+<tr>
+<td>Nitesh Saxena</td>
+<td>University of Alabama at Birmingham</td>
+</tr>
+<tr>
+<td>Prateek Saxena</td>
+<td>National university of Singapore</td>
+</tr>
+<tr>
+<td>Vyas Sekar</td>
+<td>Carnegie Mellon University</td>
+</tr>
+<tr>
+<td>Simha Sethumadhavan</td>
+<td>Columbia University/Chip Scan</td>
+</tr>
+<tr>
+<td>Srinath Setty</td>
+<td>Microsoft Research</td>
+</tr>
+<tr>
+<td>Abhi Ahelat</td>
+<td>Northeastern</td>
+</tr>
+<tr>
+<td>Emily Shen</td>
+<td>MIT Lincoln Laboratory</td>
+</tr>
+<tr>
+<td>Reza Shokri</td>
+<td>National University of Singapore (NUS)</td>
+</tr>
+<tr>
+<td>Yan Shoshitaishvili</td>
+<td>Arizona State University</td>
+</tr>
+<tr>
+<td>Natalie Silvanovich</td>
+<td>Google</td>
+</tr>
+<tr>
+<td>Asia Slowinska</td>
+<td>IBM Security</td>
+</tr>
+<tr>
+<td>Emily Stark</td>
+<td>Google</td>
+</tr>
+<tr>
+<td>Deian Stefan</td>
+<td>UC San Diego</td>
+</tr>
+<tr>
+<td>Ben Stock</td>
+<td>CISPA Helmholtz Center for Information Security</td>
+</tr>
+<tr>
+<td>Gianluca Stringhini</td>
+<td>Boston University</td>
+</tr>
+<tr>
+<td>Vanessa Teague</td>
+<td>university of Melbourne</td>
+</tr>
+<tr>
+<td>Yuan Tian</td>
+<td>University of Virginia</td>
+</tr>
+<tr>
+<td>Mohit Tiwari</td>
+<td>UT Austin</td>
+</tr>
+<tr>
+<td>Selcuk Uluagac</td>
+<td>Florida International University</td>
+</tr>
+<tr>
+<td>Blase Ur</td>
+<td>University of Chicago</td>
+</tr>
+<tr>
+<td>Thyla van der Merwe</td>
+<td>Mozilla</td>
+</tr>
+<tr>
+<td>Mayank Varia</td>
+<td>Boston University</td>
+</tr>
+<tr>
+<td>Xiao Wang</td>
+<td>Northwestern University</td>
+</tr>
+<tr>
+<td>XiaoFeng Wang</td>
+<td>Indiana University</td>
+</tr>
+<tr>
+<td>Christo Wilson</td>
+<td>Northeastern University</td>
+</tr>
+<tr>
+<td>Emmett Witchel</td>
+<td>The University of Texas at Austin</td>
+</tr>
+<tr>
+<td>Wenyuan Xu</td>
+<td>Zhejiang University</td>
+</tr>
+<tr>
+<td>Danfeng (Daphne) Yao</td>
+<td>Virginia Tech</td>
+</tr>
+<tr>
+<td>Yuval Yarom</td>
+<td>University of Adelaide and Data61</td>
+</tr>
+<tr>
+<td>Yanfang (Fanny) Ye</td>
+<td>West Virginia University</td>
+</tr>
+<tr>
+<td>Ting-Fang Yen</td>
+<td>Datavisor</td>
+</tr>
+<tr>
+<td>Yinqian Zhang</td>
+<td>The Ohio State University</td>
+</tr>
+<tr>
+<td>Saman Zonouz</td>
+<td>Rutgers University</td>
+</tr>
+</table>
+</div>
+<footer class="footer hidden-xs">
+<div class="container text-center">
+    <a href="http://www.ieee.org"><img alt="IEEE" height="44" src="images/logo-ieee.jpg"/></a>
+    <a href="http://www.computer.org"><img alt="IEEE Computer Society" height="44" src="images/logo-ieee-cs.gif"
+                                           style="padding: 0ex 4ex"/></a>
+    <a href="http://www.ieee-security.org"><img alt="IEEE Technical Committee on Security and Privacy" height="44"
+                                                src="images/trojan.png"/></a>
+</div>
+</footer>
+</body>
+</html>

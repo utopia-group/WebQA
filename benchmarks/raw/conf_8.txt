@@ -1,0 +1,541 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-US" xml:lang="en-US" xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<meta content="VSTTE PC" name="author"/>
+<meta content="verified software, software verification,
+    separation logic, hoare logic, model checking, verification condition,
+    theorem proving, automated deduction, automated reasoning, vstte, cav,
+    cfp, call for papers" name="keywords"/>
+<title>VSTTE 2020</title>
+</head>
+<body>
+<div id="container">
+<div id="content">
+<h1>VSTTE 2020</h1>
+<h2>12<sup>th</sup> Working Conference on Verified Software:
+Theories, Tools, and Experiments</h2>
+<p>July 19-20, 2020, Los Angeles, USA<br/> Co-located with the
+International Conference on Computer-Aided Verification
+(<a href="http://i-cav.org/2020/">CAV 2020</a>) and the International
+Symposium on Software Testing and Analysis
+(<a href="https://conf.researchr.org/home/issta-2020">ISSTA
+2020</a>)<br/>
+<br/>
+</p><hr/>
+<center>
+<a href="#submissions">Submissions</a> |
+  <a href="#dates"><font color="red">Important Dates</font></a> |
+  <a href="#registration">Registration</a> |
+  <a href="#program">Program</a> |
+  <a href="#invited">Invited Speakers</a> |
+  <a href="#chairs">Program Chairs</a> |
+  <a href="#commitee">Program Committee</a> |
+  <a href="#previous">Previous Editions</a>
+</center>
+<hr/>
+<a name="overview"></a>
+<h2>Overview</h2>
+<p>
+The goal of the VSTTE conference series is to advance the state of the art in
+the science and technology of software verification, through the interaction
+of theory development, tool evolution, and experimental validation.
+</p>
+<p>
+The Verified Software Initiative (VSI), spearheaded by Tony
+Hoare and Jayadev Misra, is an ambitious research program for making
+large-scale verified software a practical reality.  The Working
+Conference on Verified Software: Theories, Tools and Experiments
+(VSTTE) is the main forum for advancing the initiative.  VSTTE brings
+together experts spanning the spectrum of software verification in
+order to foster international collaboration on the critical research
+challenges. The theoretical work includes semantic foundations and
+logics for specification and verification, and verification algorithms
+and methodologies. The tools cover specification and annotation
+languages, program analyzers, model checkers, interactive verifiers
+and proof checkers, automated theorem provers and SAT/SMT solvers, and
+integrated verification environments. The experimental work drives the
+research agenda for theory and tools by taking on significant
+specification/verification exercises covering hardware, operating
+systems, compilers, computer security, parallel computing, and
+cyber-physical systems.
+</p>
+<p>
+The 2020 edition of VSTTE will be the 12th working conference in the
+series, and will be co-located with CAV 2020 and ISSTA 2020 in Los
+Angeles, USA.
+</p>
+<p>
+We welcome submissions describing significant advances in the
+production of verified software, i.e., software that has been proved
+to meet its functional specifications.  Submissions of theoretical,
+practical, and experimental contributions are equally encouraged,
+including those that focus on specific problems or problem domains.
+We are especially interested in submissions describing large-scale
+verification efforts that involve collaboration, theory unification,
+tool integration, and formalized domain knowledge.  We also welcome
+papers describing novel experiments and case studies evaluating
+verification techniques and technologies.
+</p>
+<p>
+Topics of interest for this conference include, but are not limited
+to, education, requirements modeling, specification languages,
+specification/verification/certification case studies, formal calculi,
+software design methods, automatic code generation, refinement
+methodologies, compositional analysis, verification tools (e.g.,
+static analysis, dynamic analysis, model checking, theorem proving,
+satisfiability), tool integration, benchmarks, challenge problems, and
+integrated verification environments.
+</p>
+<p>
+Work on diverse verification technologies, e.g., static analysis,
+dynamic analysis, model checking, theorem proving, satisfiability, is
+particularly encouraged.
+</p>
+<a name="submissions"></a>
+<h2>Paper Submissions</h2>
+<p>
+<font color="red">News</font>: VSTTE 2020 will take place as scheduled,
+possibly as a virtual meeting. 
+
+</p><p>
+VSTTE 2020 will accept both long (limited to 16 pages, excluding
+references) and short (limited to 10 pages, excluding references)
+paper submissions. Short submissions also cover Verification Pearls
+describing an elegant proof or proof technique. Submitted research
+papers and system descriptions must be original and not submitted for
+publication elsewhere. Submissions of theoretical, practical, and
+experimental contributions are equally encouraged, including those
+that focus on specific problems or problem domains.
+
+<!-- <p> -->
+<!--   Download <a href="docs/cfp.pdf">a PDF version</a> of the call for papers. -->
+<!-- </p> -->
+</p><p>
+Papers will be submitted via EasyChair at
+the <a href="https://easychair.org/conferences/?conf=vstte2020">VSTTE
+2020 conference page</a>. Submissions that arrive late, are not in the
+proper format, or are too long will not be considered. The
+post-conference proceedings of VSTTE 2020 will be published by
+Springer-Verlag in the LNCS series. Authors of accepted papers will be
+requested to sign a form transferring copyright of their contribution
+to Springer-Verlag. The use of LaTeX and
+the <a href="http://www.Springer.de/comp/lncs/authors.html">Springer
+LNCS class files</a> is strongly encouraged.
+</p>
+<!-- <p> -->
+<!-- <a href="https://easychair.org/cfp/VSTTE2020">Call for papers</a>. -->
+<!-- </p> -->
+<a name="program"></a>
+<h2>Preliminary Program</h2>
+<p> TBA
+
+
+<!-- <b>Saturday, July 13</b> -->
+<!-- <table border=0 style="width:95%"> -->
+<!-- <tr style="background-color:#dff0d8"> -->
+<!--   <td style="width:70px;">9:00-10:00</td> -->
+<!--   <td><b>Invited speaker:</b> -->
+<!--   Antoine Miné, Sorbonne Université <br> -->
+<!--   <i>Combinations of reusable abstract domains for a multilingual static analysis</i><br> -->
+<!--   <small> -->
+<!--     <p> <strong>Abstract:</strong> We discuss the design of MOPSA, an -->
+<!--     ongoing effort to design a novel semantic static analyzer by -->
+<!--     abstract interpretation. MOPSA strives to achieve a high degree of -->
+<!--     modularity and extensibility by considering value abstractions for -->
+<!--     numeric, pointer, objects, arrays, etc. as well as syntax-driver -->
+<!--     iterators and control-flow abstractions uniformly as domain -->
+<!--     modules, which offer a unified signature and loose coupling, so -->
+<!--     that they can be combined and reused at will. Moreover, domains -->
+<!--     can dynamically rewrite expressions, which simplifies the design -->
+<!--     of relational abstractions, encourages a design based on layered -->
+<!--     semantics, and enables domain reuse across different analyses and -->
+<!--     different languages. We present preliminary applications of MOPSA -->
+<!--     analyzing simple programs in subsets of the C and Python -->
+<!--     programming languages, checking them for run-time errors and -->
+<!--     uncaught exceptions. -->
+<!--  </p> -->
+<!--     <p> <strong>Bio:</strong> Antoine Miné is a Professor of Computer -->
+<!--     Science at Sorbonne Université (Paris, France) and Institut -->
+<!--     Universitaire de France, and formerly a researcher at CNRS and -->
+<!--     École Normale Supérieure. His researches focus on improving the -->
+<!--     safety of software by developing static analysis and automated -->
+<!--     program verification methods based on the principles of abstract -->
+<!--     interpretation. He contributed to the design of Astrée, a static -->
+<!--     analyzer for C used in the embedded critical industry. He is now -->
+<!--     striving to extend the scope of sound semantic static analysis to -->
+<!--     more diverse software and programming languages, such as -->
+<!--     Python.  </p> -->
+<!--   </small> -->
+<!-- </td> -->
+<!-- </tr> -->
+<!-- <tr align=center> -->
+<!--   <td>10:00-10:30</td> -->
+<!--   <td>Coffee Break</td> -->
+<!-- </tr> -->
+<!-- <tr style="background-color:#ffcc66" align=center> -->
+<!-- <td style="width:70px;"> </td> -->
+<!-- <td> Session 1 </td> -->
+<!-- </tr> -->
+<!-- <tr style="background-color:#dff0d8"> -->
+<!-- <td>10:30-11:05</td> -->
+<!-- <td> -->
+<!--   Yuepeng Wang, Shuvendu K. Lahiri, Shuo Chen, Rong Pan, Isil Dillig, -->
+<!--   Cody Born and Immad Naseer <br> -->
+<!-- <i> Formal Verification of Workflow Policies for Smart Contracts in Azure Blockchain</i><br> -->
+<!-- </td> -->
+<!-- </tr> -->
+<!-- <tr style="background-color:#dff0d8"> -->
+<!-- <td>11:05-11:40</td> -->
+<!-- <td> -->
+<!-- Ákos Hajdu and Dejan Jovanović <br> -->
+<!-- <i> solc-verify: A Modular Verifier for Solidity Smart Contracts</i><br> -->
+<!-- </td> -->
+<!-- </tr> -->
+<!-- <tr style="background-color:#dff0d8"> -->
+<!-- <td>11:40-12:15</td> -->
+<!-- <td> -->
+<!-- Mukesh Tiwari, Dirk Pattinson and Thomas Haines <br> -->
+<!-- <i> Verifiable Homomorphic -->
+<!-- Tallying for the Schulze Vote Counting Scheme</i><br> -->
+<!-- </td> -->
+<!-- </tr> -->
+<!-- <tr align=center> -->
+<!--   <td>12:30-14:30</td> -->
+<!--   <td>Lunch Break</td> -->
+<!-- </tr> -->
+<!-- </td> -->
+<!-- </tr> -->
+<!-- <tr style="background-color:#dff0d8"> -->
+<!--   <td style="width:70px;">14:30-15:30</td> -->
+<!--   <td><b>Invited speaker:</b> -->
+<!--   Marsha Chechik, University of Toronto<br> -->
+<!--   <i> Software Assurance in an Uncertain World </i><br> -->
+<!--   <small> -->
+<!--     <p> <strong>Abstract:</strong> From financial services platforms -->
+<!--     to social networks to vehicle control, software has come to -->
+<!--     mediate many activities of daily life. Governing bodies and -->
+<!--     standards organizations have responded to this trend by creating -->
+<!--     regulations and standards to address issues such as safety, -->
+<!--     security and privacy. In this environment, the compliance of -->
+<!--     software development to standards and regulations has emerged as a -->
+<!--     key requirement. Compliance claims and arguments are often -->
+<!--     captured in assurance cases, with linked evidence of -->
+<!--     compliance. Evidence can come from testcases, verification proofs, -->
+<!--     human judgement, or a combination of these. That is, we try to -->
+<!--     build (safety-critical) systems carefully according to well -->
+<!--     justified methods and articulate these justifications in an -->
+<!--     assurance case that is ultimately judged by a human. -->
+<!-- Yet software is deeply rooted in uncertainty making pragmatic -->
+<!-- assurance more inductive than deductive: most of complex open-world -->
+<!-- functionality is either not completely specifiable (due to -->
+<!-- uncertainty) or it is not cost-effective to do so, and deductive -->
+<!-- verification cannot happen without specification. Inductive assurance, -->
+<!-- achieved by sampling or testing, is easier but generalization from -->
+<!-- finite set of examples cannot be formally justified. And of course the -->
+<!-- recent popularity of constructing software via machine learning only -->
+<!-- worsens the problem. Then how can we successfully argue about safety -->
+<!-- and security of software under all this uncertainty, and without fully -->
+<!-- sound and complete methods? -->
+<!-- This talk will aim to tease apart the ultimately intertwined notions -->
+<!-- of argument and uncertainty in order to identify research -->
+<!-- opportunities to make progress with software assurance. -->
+<!--  </p> -->
+<!--     <p> <strong>Bio:</strong> Marsha Chechik is Professor in the -->
+<!--     Department of Computer Science at the University of Toronto. She -->
+<!--     received her PhD from the University of Maryland in -->
+<!--     1996. Prof. Chechik’s research interests are in the application of -->
+<!--     formal methods to improve the quality of software. She has -->
+<!--     authored numerous papers in formal methods, software specification -->
+<!--     and verification, computer safety and security and requirements -->
+<!--     engineering. In 2002-2003, Prof. Chechik was a visiting scientist -->
+<!--     at Lucent Technologies in Murray Hill, NY and at Imperial College, -->
+<!--     London UK, and in 2013 – at Stonybrook University. She is a member -->
+<!--     of IFIP WG 2.9 on Requirements Engineering and an Associate Editor -->
+<!--     of Journal on Software and Systems Modeling. She is has been an -->
+<!--     associate editor of IEEE Transactions on Software Engineering -->
+<!--     2003-2007, 2010-2013. She regularly serves on program committees -->
+<!--     of international conferences in the areas of software engineering -->
+<!--     and automated verification. Marsha Chechik has been Program -->
+<!--     Committee Co- Chair of the International Conference in Software -->
+<!--     Engineering (ICSE18). She has been a PC Co-Chair of the 2016 -->
+<!--     International Conference on Tools and Algorithms for the -->
+<!--     Construction and Analysis of Systems (TACAS), the 2016 Working -->
+<!--     Conference on Verified Software: Theories, Tools, and Experiments -->
+<!--     (VSTTE16), the 2014 International Conference on Automated Software -->
+<!--     Engineering (ASE), Co-Chair of the 2008 International Conference -->
+<!--     on Concurrency Theory (CONCUR), PC Co-Chair of the 2008 -->
+<!--     International Conference on Computer Science and Software -->
+<!--     Engineering (CASCON), and PC Co-Chair of the 2009 International -->
+<!--     Conference on Formal Aspects of Software Engineering (FASE). She -->
+<!--     is a Member of ACM SIGSOFT and the IEEE Computer Society.</p> -->
+<!--   </small> -->
+<!-- </td> -->
+<!-- </tr> -->
+<!-- <\!-- <tr align=center> -\-> -->
+<!-- <\!--   <td>15:30-16:00</td> -\-> -->
+<!-- <\!--   <td>Free time</td> -\-> -->
+<!-- <\!-- </tr> -\-> -->
+<!-- <\!-- </td> -\-> -->
+<!-- <\!-- </tr> -\-> -->
+<!-- <tr align=center> -->
+<!--   <td>16:00-16:30</td> -->
+<!--   <td>Coffee Break</td> -->
+<!-- </tr> -->
+<!-- </td> -->
+<!-- </tr> -->
+<!-- <tr style="background-color:#ffcc66" align=center> -->
+<!-- <td style="width:70px;"></td> -->
+<!-- <td> Session 2 </td> -->
+<!-- </tr> -->
+<!-- <tr style="background-color:#dff0d8"> -->
+<!-- <td>16:30-17:05</td> -->
+<!-- <td> -->
+<!-- Sarah Grebing, Jonas Klamroth and Mattias Ulbrich <br> -->
+<!-- <i> Seamless Interactive Program Verification </i><br> -->
+<!-- </td> -->
+<!-- </tr> -->
+<!-- <tr style="background-color:#dff0d8"> -->
+<!-- <td>17:05-17:40</td> -->
+<!-- <td> -->
+<!-- Benedikt Becker and Claude Marché <br> -->
+<!-- <i> Ghost Code in Action: Automated Verification of a Symbolic Interpreter</i><br> -->
+<!-- </td> -->
+<!-- </tr> -->
+<!-- </table> -->
+<!-- <p> -->
+<!-- <b>Sunday, July 14</b> -->
+<!-- <table border=0 style="width:95%"> -->
+<!-- <tr style="background-color:#dff0d8"> -->
+<!--   <td style="width:70px;">9:00-10:00</td> -->
+<!--   <td><b>Invited speaker:</b> -->
+<!--   Aarti Gupta, Princeton University <br> -->
+<!--   <i> Verifying Network Control Planes </i><br> -->
+<!--   <small> -->
+<!--     <p> <strong>Abstract:</strong> The last decade has seen tremendous -->
+<!--     advances in applying formal methods to verification of computer -->
+<!--     networks. In this talk, I will describe two recent efforts that -->
+<!--     target network control planes, i.e., the complex distributed -->
+<!--     systems comprising various protocols for exchanging messages -->
+<!--     between routers and selecting paths for routing traffic. In the -->
+<!--     first effort, we develop a general-purpose, symbolic model of the -->
+<!--     network control and data planes that encodes the stable states of -->
+<!--     a network as a satisfying assignment to an SMT formula. Using this -->
+<!--     model, we show how to verify a wide variety of properties -->
+<!--     including reachability, fault-tolerance, router equivalence, and -->
+<!--     load balancing. Our second effort focuses on leveraging symmetry -->
+<!--     in control planes to find network abstractions that achieve -->
+<!--     compression in size while preserving many properties of interest. -->
+<!--      This is joint work with Ryan Beckett, Ratul Mahajan, and David Walker -->
+<!--     </p> -->
+<!--     <p> <strong>Bio:</strong> Aarti Gupta is a Professor in the -->
+<!--     Department of Computer Science at Princeton University. She -->
+<!--     received a PhD in Computer Science from Carnegie Mellon -->
+<!--     University. Her research interests are in the areas of formal -->
+<!--     verification of programs and systems, automatic decision -->
+<!--     procedures, and electronic design automation. She has served on -->
+<!--     the technical program committees of many leading conferences and -->
+<!--     is currently serving on the Steering Committee of CAV (Computer -->
+<!--     Aided Verification) Conference. She is an ACM Fellow</p> -->
+<!--   </small> -->
+<!-- </td> -->
+<!-- </tr> -->
+<!-- <tr align=center> -->
+<!--   <td>10:00-10:30</td> -->
+<!--   <td>Coffee Break</td> -->
+<!-- </tr> -->
+<!-- <tr style="background-color:#ffcc66" align=center> -->
+<!-- <td style="width:70px;"></td> -->
+<!-- <td> Session 3 </td> -->
+<!-- </tr> -->
+<!-- <tr style="background-color:#dff0d8"> -->
+<!-- <td>10:30-11:05</td> -->
+<!-- <td> -->
+<!--   Amol Wakankar, Paritosh Pandya and Raj Mohan Matteplackel <br> -->
+<!-- <i> DCSynth: Guided Reactive Synthesis with Soft Requirements </i><br> -->
+<!-- </td> -->
+<!-- </tr> -->
+<!-- <tr style="background-color:#dff0d8"> -->
+<!-- <td>11:05-11:40</td> -->
+<!-- <td> -->
+<!-- Jonathan Homburg and Parasara Sridhar Duggirala <br> -->
+<!-- <i> Incremental Minimization of Symbolic Automata </i><br> -->
+<!-- </td> -->
+<!-- </tr> -->
+<!-- <tr style="background-color:#dff0d8"> -->
+<!-- <td>11:40-12:15</td> -->
+<!-- <td> -->
+<!-- Rohit Dureja, Jianwen Li, Geguang Pu, Kristin Yvonne Rozier and Moshe Vardi <br> -->
+<!-- <i>  Intersection and Rotation of Assumption Literals Boosts Bug-Finding </i><br> -->
+<!-- </td> -->
+<!-- </tr> -->
+<!-- <tr align=center> -->
+<!--   <td>12:30-14:30</td> -->
+<!--   <td>Lunch Break</td> -->
+<!-- </tr> -->
+<!-- </td> -->
+<!-- </tr> -->
+<!-- <tr style="background-color:#dff0d8"> -->
+<!--   <td style="width:70px;">14:30-15:30</td> -->
+<!--   <td><b>Invited speaker:</b> -->
+<!--   Tevfik Bultan, University of California, Santa Barbara<br> -->
+<!--   <i> Side Channel Analysis Using a Model Counting Constraint Solver and Symbolic Execution </i><br> -->
+<!--   <small> -->
+<!--     <p> <strong>Abstract:</strong> A crucial problem in computer security is detecting information leakage via side channels. Information gained by observing non-functional properties of program executions (such as execution time or memory usage) can enable attackers to infer secret information accessed by the program. In this talk, I will discuss how symbolic execution, combined with a model counting constraint solver, can be used for detecting and quantifying side-channel leakage in programs, and also for identifying input sequences that can be used to recover secrets. I will also discuss how we implemented this approach as an extension to the symbolic execution tool SPF using our model counting constraint solver ABC. </p> -->
+<!--     <p> <strong>Bio:</strong> Tevfik Bultan is a professor in the Department of Computer Science at the University of California, Santa Barbara (UCSB). His research interests are in software verification, program analysis, software engineering, and computer security. He co-chaired the program committees of the 20th International Symposium on the Foundations of Software Engineering (FSE 2012), the 28th IEEE/ACM International Conference on Automated Software Engineering (ASE 2013), and the 41st ACM/IEEE International Conference on Software Engineering (ICSE 2020). He was the general chair of the 2017 ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA 2017). He has been an Associate Editor of the IEEE Transactions on Software Engineering (TSE) and the ACM Transactions on Software Engineering (TOSEM). He received a NATO Science Fellowship from the Scientific and Technical Research Council of Turkey (TUBITAK) in 1993, a Regents' Junior Faculty Fellowship from the University of California, Santa Barbara in 1999, a Faculty Early Career Development (CAREER) Award from the National Science Foundation in 2000, the ACM SIGSOFT Distinguished Paper Award and the Best Paper Award at the 20th IEEE/ACM International Conference on Automated Software Engineering (ASE 2005), the ACM SIGSOFT Distinguished Paper Award at the 29th IEEE/ACM International Conference on Automated Software Engineering (ASE 2014), and the UCSB Academic Senate Outstanding Graduate Mentor Award in 2016. He was recognized as an ACM Distinguished Scientist in 2016. </p> -->
+<!--   </small> -->
+<!-- </td> -->
+<!-- </tr> -->
+<!-- <tr style="background-color:#ffcc66" align=center> -->
+<!-- <td style="width:70px;"></td> -->
+<!-- <td> Session 4  </td> -->
+<!-- </tr> -->
+<!-- <tr style="background-color:#dff0d8"> -->
+<!-- <td>15:30-16:05</td> -->
+<!-- <td> -->
+<!-- Maxwell Shinn <br> -->
+<!-- <i> Refinement type contracts for verification of scientific investigative software </i><br> -->
+<!-- </td> -->
+<!-- </tr> -->
+<!-- <tr align=center> -->
+<!--   <td>16:05-16:30</td> -->
+<!--   <td>Coffee Break</td> -->
+<!-- </tr> -->
+<!-- </td> -->
+<!-- </tr> -->
+<!-- </table> -->
+<a name="dates"></a>
+</p><h2>Important Dates</h2>
+<ul>
+<li>Abstract submission: April 14, 2020 (AoE)</li>
+<li>Paper submission: April 20, 2020 (AoE)</li>
+<li>Notification of acceptance: June 5, 2020</li>
+<li>Conference: July 19-20, 2020</li>
+<li>Camera-ready for post-conference proceedings: August 28, 2020 (AoE)</li>
+</ul>
+<a name="registration"></a>
+<h2>Registration</h2>
+<p> TBA
+
+  <!-- Registration to VSTTE is part of the -->
+<!-- <a href="https://regmaster4.com/2020conf/CAV19/register.php">CAV registration</a> process. -->
+<!-- If you want to register only for VSTTE, proceed as follows: -->
+<!-- </p> -->
+<!-- <ol> -->
+<!-- <li>Log in to the registration site and click on Register Online button.</li> -->
+<!-- <li>Select Workshop - 2 Days button and click on Next page button. </li> -->
+<!-- <li>Select VSTTE both for Saturday and Sunday and click on Next page button. </li> -->
+<!-- <li>Continue with the registration process by providing personal data and credit card information </li> -->
+<!-- </ol> -->
+<!--
+<a name="organization"></a>
+<h2>Organization</h2>
+
+
+<p>
+Registration to VSTTE is part of the
+<a href="http://cavconference.org/2017/registration/">CAV registration</a> process.
+If you want to register only for workshops, proceed as follows:
+</p>
+
+<ol>
+<li>Log in to the registration site and start registration.</li>
+<li>On the first page, when it shows the different options for conference registration,
+do not select any option but just click the &ldquo;Next step&rdquo; button at the bottom of the page.</li>
+<li>This will take you to the workshop registration page and you can select one of the options.</li>
+</ol>
+
+<p>
+VSTTE will take place at the
+<a href="https://www.google.fr/maps/place/Crowne+Plaza+Heidelberg+City+Centre/@49.4066325,8.6897903,17z/">Crowne Plaza hotel</a>, Kurfürsten-Anlage 1, Heidelberg.
+</p>
+-->
+<a name="invited"></a>
+</p><h2>Invited Speakers and Tutorials</h2>
+<p> TBD
+
+<!-- <ul> -->
+<!--   <li> <a href="http://www.cs.ucsb.edu/~bultan/">Tevfik Bultan</a> (UC Santa Barbara, USA) </li>     -->
+<!--   <li> <a href="http://www.cs.toronto.edu/~chechik/">Marsha Chechik</a> (University of Toronto, Canada) </li> -->
+<!--   <li> <a href="http://www.cs.princeton.edu/~aartig/"> Aarti Gupta</a> (Princeton University, USA) </li> -->
+<!--   <li> <a href="https://www-apr.lip6.fr/~mine/"> Antoine Miné</a> (Sorbonne Université, France) </li>   -->
+<!-- </ul> -->
+<a name="chairs"></a>
+</p><h2>General Chair</h2>
+<ul>
+<li><a href="http://www.csl.sri.com/users/shankar/">Natarajan Shankar</a> (SRI International) </li>
+</ul>
+<h2>Program Chairs</h2>
+<ul>
+<li><a href="https://mariachris.github.io/">Maria Christakis</a> (MPI-SWS, Germany)</li>
+<li><a href="https://cseweb.ucsd.edu/~npolikarpova/">Nadia Polikarpova</a> (UCSD, USA)</li>
+</ul>
+<a name="commitee"></a>
+<h2>Program Committee</h2>
+<ul>
+<li><a href="https://wwwtcs.inf.tu-dresden.de/~baier/">Christel Baier</a> (TU Dresden, Germany)</li>
+<li><a href="https://www.microsoft.com/en-us/research/people/nbjorner/">Nikolaj Bjørner</a> (Microsoft Research, USA)</li>
+<li><a href="https://www.cse.iitb.ac.in/~supratik/">Supratik Chakraborty</a> (IIT Bombay, India)</li>
+<li><a href="https://people.mpi-sws.org/~eva/">Eva Darulova</a> (MPI-SWS, Germany)</li>
+<li><a href="http://people.eecs.berkeley.edu/~ankush/">Ankush Desai</a> (UC Berkeley and AWS, USA)</li>
+<li><a href="https://www.sosy-lab.org/people/ernst/">Gidon Ernst</a> (LMU Munich, Germany)</li>
+<li><a href="http://www.cs.fsu.edu/~grigory/">Grigory Fedyukovich</a> (Florida State University, USA)</li>
+<li><a href="https://pietroferrara.github.io/">Pietro Ferrara</a> (Ca' Foscari University of Venice, Italy)</li>
+<li><a href="https://www.lri.fr/~filliatr/">Jean-Christophe Filliâtre</a> (CNRS, France)</li>
+<li><a href="https://bugcounting.net/">Carlo A. Furia</a> (USI, Switzerland)</li>
+<li><a href="https://www.microsoft.com/en-us/research/people/pg/">Patrice Godefroid</a> (Microsoft Research, USA)</li>
+<li><a href="https://wwwhome.ewi.utwente.nl/~marieke/">Marieke Huisman</a> (University of Twente, Netherlands)</li>
+<li><a href="https://www.rjoshi.org/bio/">Rajeev Joshi</a> (AWS, USA)</li>
+<li><a href="http://csl.sri.com/users/dejan/">Dejan Jovanovi&amp;cacute;</a> (SRI International, USA)</li>
+<li><a href="https://www.microsoft.com/en-us/research/people/akashl/">Akash Lal</a> (Microsoft Research, India)</li>
+<li><a href="http://web.ist.utl.pt/nuno.lopes/">Nuno P. Lopes</a> (Microsoft Research, UK)</li>
+<li><a href="https://www.pm.inf.ethz.ch/people/personal/pmueller-pers.html">Peter Müller</a> (ETH Zurich, Switzerland)</li>
+<li><a href="https://jorgenavas.github.io/">Jorge Navas</a> (SRI International, USA)</li>
+<li><a href="http://tertium.org/">Andrei Paskevich</a> (Paris-Sud University, France)</li>
+<li><a href="http://cseweb.ucsd.edu/~hpeleg/">Hila Peleg</a> (UCSD, USA)</li>
+<li><a href="http://chrisposkitt.com/">Chris Poskitt</a> (SMU, Singapore)</li>
+<li><a href="https://zvonimir.info/">Zvonimir Rakamaric</a> (University of Utah, USA)</li>
+<li><a href="http://www.philipp.ruemmer.org/">Philipp Rümmer</a> (Uppsala University, Sweden)</li>
+<li><a href="https://schillic.github.io/">Christian Schilling</a> (IST Austria, Austria)</li>
+<li><a href="https://www.microsoft.com/en-us/research/people/rahsha/">Rahul Sharma</a> (Microsoft Research, India)</li>
+<li><a href="http://julien.signoles.free.fr/index.en.html">Julien Signoles</a> (CEA LIST, France)</li>
+<li><a href="http://staff.itee.uq.edu.au/smith/">Graeme Smith</a> (The University of Queensland, Australia)</li>
+<li><a href="https://www.tautschnig.net/">Michael Tautschnig</a> (Queen Mary University of London and AWS, UK)</li>
+<li><a href="http://www.f.waseda.jp/terauchi/">Tachio Terauchi</a> (Waseda University, Japan)</li>
+<li><a href="https://caterinaurban.github.io/">Caterina Urban</a> (INRIA, France)</li>
+<li><a href="https://cs.nyu.edu/wies/">Thomas Wies</a> (NYU, USA)</li>
+<li><a href="http://staff.itee.uq.edu.au/kirsten/">Kirsten Winter</a> (The University of Queensland, Australia)</li>
+<li><a href="http://www.wuestholz.com/">Valentin Wüstholz</a> (ConsenSys Diligence, Germany)</li>
+<li><a href="https://dzufferey.github.io/">Damien Zufferey</a> (MPI-SWS, Germany)</li>
+</ul>
+<a name="previous"></a>
+<h2>Previous Editions</h2>
+<ul>
+<li><a href="http://vstte.ethz.ch/">VSTTE 2005</a>
+(Zürich, Switzerland)</li>
+<li><a href="https://www.cs.york.ac.uk/vstte08/">VSTTE 2008</a>
+(Toronto, Canada)</li>
+<li><a href="http://www.macs.hw.ac.uk/vstte10/">VSTTE 2010</a>
+(Edinburgh, Scotland)</li>
+<li><a href="https://sites.google.com/site/vstte2012/">VSTTE 2012</a>
+(Philadelphia, USA, co-located with
+<a href="http://www.cse.psu.edu/popl/12/">POPL 2012</a>)</li>
+<li><a href="https://sites.google.com/site/vstte2013/">VSTTE 2013</a>
+(Atherton, USA)</li>
+<li><a href="http://www.easychair.org/smart-program/VSL2014/VSTTE-index.html">VSTTE 2014</a>
+(Vienna, Austria, co-located with <a href="http://i-cav.org/2014/">CAV 2014</a>
+as part of <a href="http://vsl2014.at/">VSL 2014</a>)</li>
+<li><a href="http://verifun.eecs.berkeley.edu/vstte15/">VSTTE 2015</a>
+(San Francisco, USA, co-located with <a href="http://i-cav.org/2015/">CAV 2015</a>)</li>
+<li><a href="https://www.cs.toronto.edu/~chechik/vstte16/">VSTTE 2016</a>
+(Toronto, Canada, co-located with <a href="http://i-cav.org/2016/">CAV 2016</a>)</li>
+<li><a href="https://vstte17.lri.fr/">VSTTE 2017</a>
+  (Heidelberg, Germany, co-located with <a href="http://i-cav.org/2017/">CAV 2017</a>)</li>
+<li><a href="http://vstte18.it.uu.se/">VSTTE 2018</a>
+  (Oxford, UK, co-located with <a href="http://i-cav.org/2018/">CAV 2018</a>)</li>
+<li><a href="https://sri-csl.github.io/VSTTE19/">VSTTE 2019</a>
+(New York, USA, co-located with <a href="http://i-cav.org/2019/">CAV 2019</a>)</li>
+</ul>
+</div>
+</div>
+</body></html>

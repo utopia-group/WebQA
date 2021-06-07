@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Call for papers</title>
+<!-- Bootstrap -->
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/spacelab/bootstrap.min.css" rel="stylesheet"/>
+<!-- Extensions of bootstrap -->
+<link href="./styles/jasny-bootstrap.css" rel="stylesheet"/>
+<link href="./styles/navmenu.css" rel="stylesheet"/>
+<!-- Styling -->
+<link href="./styles/main.css" rel="stylesheet"/>
+<link href="./styles/theme.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed" rel="stylesheet"/>
+</head>
+<body data-spy="scroll">
+<nav class="navmenu navmenu-default navmenu-fixed-left offcanvas-sm" id="mainmenu" role="navigation">
+<!-- populated by menus.js -->
+</nav>
+<nav class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg">
+<button class="navbar-toggle" data-target=".navmenu" data-toggle="offcanvas" type="button">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="index.html" id="topNavTitle">
+<span class="conf_name"></span>
+</a>
+</nav>
+<div class="container-fluid">
+<div class="row" id="conf_id">
+<header class="headerImg">
+<div class="col-sm-12 headerGradient">
+<div class="col-sm-6">
+<h1 class="headerTitle">
+<span class="conf_name"></span>
+</h1>
+</div>
+<div class="col-sm-6">
+<h3 class="headerInfoTop">
+<span class="conf_dates"></span>
+</h3>
+<h3 class="headerInfoBottom">
+<span class="conf_location"></span>
+</h3>
+</div>
+</div>
+</header>
+</div>
+<noscript>
+<div class="row">
+<article class="col-sm-12 sectionSpacing">
+<h1>This site is designed for browsers with javascript.</h1>
+<h3>The dates, name, and location for the conference are <a href="json/metadata.json">in a json file.</a></h3>
+</article>
+</div>
+</noscript>
+<div class="row">
+<div class="col-sm-12">
+<h2 class="indPageTitle">Call for Papers</h2>
+</div>
+</div>
+<!-- NOTE: below is standard placeholder text for when the page is under construction. please delete this entire <div class="row"> and all elements contained within it when ready to add other content -->
+<!-- <div class="row">
+        <div class="col-sm-12">
+          <p>
+            This information is not yet available. Thank you for your patience.
+          </p>
+        </div>
+      </div> -->
+<div class="row">
+<section class="col-sm-6">
+<h3 class="pageSubtitle">General Information</h3>
+<p>
+<span class="conf_name"></span> will take place in <span class="conf_location"></span> on <span class="conf_dates"></span>. <span class="conf_name"></span> is organized by <a href="http://iacr.org/">the International Association for Cryptologic Research</a> (IACR). Original research papers on all technical aspects of cryptology are solicited for submission.
+          </p>
+</section>
+<section class="col-sm-6">
+<div class="panel panel-success">
+<div class="panel-heading">
+<h3 class="panel-title">
+                Important Dates
+              </h3>
+</div>
+<div class="panel-body">
+<div class="row">
+<div class="col-xs-5">
+<p class="dateTitle">
+                    September 26 2019
+                  </p>
+</div>
+<div class="col-xs-7">
+<div class="countdown">
+<p class="dateText">
+                      Submission deadline at 23:59 CET
+                    </p>
+</div>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-xs-5">
+<p class="dateTitle">
+                    December 2 2019
+                  </p>
+</div>
+<div class="col-xs-7">
+<div class="countdown">
+<p class="dateText">
+                      Reviews sent out for rebuttals
+                    </p>
+</div>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-xs-5">
+<p class="dateTitle">
+                    December 6 2019
+                  </p>
+</div>
+<div class="col-xs-7">
+<div class="countdown">
+<p class="dateText">
+                      Rebuttals due by 23:59 CET
+                    </p>
+</div>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-xs-5">
+<p class="dateTitle">
+                    January 21 2019
+                  </p>
+</div>
+<div class="col-xs-7">
+<div class="countdown">
+<p class="dateText">
+                      Notification
+                    </p>
+</div>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-xs-5">
+<p class="dateTitle">
+                    February 20 2020
+                  </p>
+</div>
+<div class="col-xs-7">
+<div class="countdown">
+<p class="dateText">
+                      Camera-ready version due at 23:59 CET
+                    </p>
+</div>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-xs-5">
+<p class="dateTitle">
+                    May 10-14 2020
+                  </p>
+</div>
+<div class="col-xs-7">
+<div class="countdown">
+<p class="dateText">
+                      Conference
+                    </p>
+</div>
+</div>
+</div>
+</div>
+<div class="panel-footer">
+<span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span> To convert CET to your local time zone, <a href="https://www.timeanddate.com/time/zones/cet">click here</a>.
+            </div>
+</div>
+</section>
+</div>
+<div class="row">
+<section class="col-sm-12">
+<h3 class="pageSubtitle">
+            Instructions for Authors
+          </h3>
+<p>
+     Submissions must use Springerâs LNCS format with the default margins and font, with one modification: submissions must display page numbers (e.g., by adding \pagestyle{plain} to the document preamble). Submissions must be at most 30 pages long including title page, abstract, references and appendices. Any amount of clearly marked supplementary material may be supplied, following the main body of the paper or in separate files; however, reviewers are not required to read any supplementary material, and submissions are expected to be intelligible and complete without it.
+</p>
+<p>
+It is mandatory that the submission be processed in LaTeX2e according to the instructions given by Springer <a href="http://www.Springer.de/comp/lncs/authors.html">here</a>. Submitted papers must be in PDF format and submitted electronically via the <a href="https://eurocrypt.iacr.org/2020/papersubmission.html" target="_blank">submission server</a>. The submission server asks for a list of authors. The list is not visible to reviewers. The list of authors should include all those, and only those, who have contributed to the submission.</p>
+<p>
+  The submission must be anonymous with no author names, affiliations or obvious references. It should begin with a title, a short abstract, and an introduction. The introduction should summarise the contributions of the paper in a manner that is understandable to a general cryptographic audience, and should discuss the relation with relevant works. Submissions must not substantially duplicate published work or work that has been submitted in parallel to any other journal or conference/workshop with published proceedings, and cannot be submitted to any other venue before the notification date. Accepted submissions may not appear in any other conference or workshop that has proceedings. IACR reserves the right to share information about submissions with other program committees to detect parallel submissions and the IACR policy on irregular submissions will be strictly enforced.  For further details, see <a href="http://www.iacr.org/docs/irregular.pdf">here</a>.</p>
+<p class="alert alert-success">
+<span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span> 
+            Submissions not meeting these guidelines may be rejected without consideration of their merits.
+          </p>
+<p>
+For accepted papers, the formatting instruction will be the same as for submissions and the length of the final version will be at most 30 pages, including title page, abstract, references and appendices. </p>
+<p>
+  Program committee members are allowed to submit at most two papers. In borderline cases, submissions by PC members will be held to a higher standard. Program chairs are not allowed to submit. 
+</p>
+</section>
+</div>
+<div class="row">
+<section class="col-sm-6">
+<h3 class="pageSubtitle">
+            Conference Proceedings
+          </h3>
+<p>
+Proceedings will be published in Springer's Lecture Notes in Computer Science and will be available at the conference. Authors of accepted papers must complete the IACR copyright assignment form for their work to be published in the proceedings, and guarantee that their paper will be presented at the conference. At the conference presentations will be recorded and published for the sake of people that cannot attend the conference or the track in which the presentation was scheduled.
+          </p>
+</section>
+<section class="col-sm-6">
+<h3 class="pageSubtitle">
+            Stipends
+          </h3>
+<p>
+            Students whose papers have been accepted and who present their talks at the conference will have their registration waived. A limited number of stipends are available to those unable to obtain funding to attend the conference. Students, whose papers are accepted and who will present the paper themselves, are encouraged to apply if such assistance is needed. Requests for stipends should be sent to the general chair.
+          </p>
+</section>
+</div>
+<div class="row">
+<section class="col-sm-12">
+<h3 class="pageSubtitle">
+            Program Committee
+          </h3>
+</section>
+</div>
+<div class="row">
+<section class="col-sm-12">
+<ul class="list-group" id="committee">
+<!-- Handlebars import of PC members -->
+<script id="committee-member" type="text/x-handlebars-template">
+              {{#each committee}}
+                <li class="list-group-item listItems col-sm-4 wrapWell">
+                  <h4 class="list-group-item-heading tableItemTitle">
+                    {{name}}
+                  </h4>
+                  <p class="list-group-item-text listText">
+                    {{affiliation}}
+                  </p>
+                </li>
+              {{/each}}
+            </script>
+</ul>
+</section>
+</div>
+<div class="row">
+<div class="col-sm-12 text-center">
+<h3 class="pageSubtitle">
+            General Co-Chairs
+          </h3>
+</div>
+</div>
+<div class="row">
+<aside class="col-sm-4 col-sm-offset-2 text-center">
+<h4 class="tableItemTitle">
+            Lejla Batina
+          </h4>
+<p class="text-center">
+            Radboud University<br/>
+            The Netherlands
+          </p>
+</aside>
+<aside class="col-sm-4 text-center">
+<h4 class="tableItemTitle">
+            Stjepan Picek
+          </h4>
+<p class="text-center">
+            Delft University of Technology<br/>
+            The Netherlands
+          </p>
+</aside>
+</div>
+<div class="row">
+<div class="col-sm-12 text-center">
+<a href="mailto:eurocrypt2020@iacr.org">
+<span aria-hidden="true" class="glyphicon glyphicon-envelope"></span>
+</a> 
+          eurocrypt2020@iacr.org
+        </div>
+</div>
+<div class="row">
+<aside class="col-sm-12 text-center">
+<h3 class="pageSubtitle">
+            Program Co-Chairs
+          </h3>
+</aside>
+</div>
+<div class="row">
+<aside class="col-sm-4 col-sm-offset-2 text-center">
+<h4 class="tableItemTitle">
+          Anne Canteaut
+          </h4>
+<p class="text-center">
+            Inria Paris<br/>
+            France
+          </p>
+</aside>
+<aside class="col-sm-4 text-center">
+<h4 class="tableItemTitle">
+              Yuval Ishai
+          </h4>
+<p class="text-center">
+            Technion<br/>
+            Israel
+            
+          </p>
+</aside>
+</div>
+<div class="row">
+<div class="col-sm-12 text-center">
+<a href="mailto:eurocrypt2020programchairs@iacr.org">
+<span aria-hidden="true" class="glyphicon glyphicon-envelope"></span>
+</a> 
+          eurocrypt2020programchairs@iacr.org
+        </div>
+</div>
+<div class="row">
+<footer class="col-sm-12 text-center footer">
+<small>
+<span class="conf_name"></span>
+</small>
+</footer>
+</div>
+<!-- Bootstrap scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- Bootstrap plugins -->
+<script src="./js/jasny-bootstrap.js" type="text/javascript"></script>
+<!-- Handlebars -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.js" type="text/javascript"></script>
+<!-- Personal scripts -->
+<script src="./js/menus.js" type="text/javascript"></script>
+<script src="./js/navTitleFade.js" type="text/javascript"></script>
+<script src="./js/committee.js" type="text/javascript"></script>
+</div></body>
+</html>

@@ -1,0 +1,844 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<meta content="IE=8" http-equiv="X-UA-Compatible"/>
+<title>6.042/18.062 Class Home</title>
+<style media="all" type="text/css">@import "/stellar/f/shared/2.2.1/css/global.css";</style>
+<style media="all" type="text/css">@import "/stellar/f/default/2.1/css/default.css";</style>
+<style media="print" type="text/css">@import "/stellar/f/shared/2.2.1/css/print.css";</style>
+</head>
+<body>
+<div id="container">
+<div id="banner">
+<h1>6.042/18.062 
+Math For Computer Science</h1>
+</div>
+<div id="mainnav">
+<ul id="login">
+<li id="log">
+<a href="/S/login/?u=%2FS%2Fcourse%2F6%2Fsp15%2F6.042%2F">
+LOGIN
+</a>
+</li>
+<li id="user"></li>
+</ul>
+<ul>
+<li class="here">Class Home</li>
+<li>
+<a href="https://www.google.com/calendar/embed?src=eiielbenhp7ck7jmgur9v3ik4o%40group.calendar.google.com&amp;ctz=America/New_York">Calendar</a>
+</li>
+<li>
+<a href="http://courses.csail.mit.edu/6.042/Spring15/classinfo.shtml">Class Info</a>
+</li>
+<li>
+<a href="/S/course/6/sp15/6.042/materials.html">Materials</a>
+</li>
+<li>
+<a href="https://lms.mitx.mit.edu/courses/MITx/6.042r_1/2015_Spring/courseware">6042r &amp; videos</a>
+</li>
+<li>
+<a href="https://stellar.mit.edu/S/course/6/sp14/6.042/">SPRING 14 w/solns</a>
+</li>
+<li class="space"> </li>
+<li>
+<a href="https://courses.csail.mit.edu/6.042/Spring15/pset_instructions.shtml">Pset Instructions</a>
+</li>
+<li>
+<a href="/S/course/6/sp15/6.042/homework/index.html">Submit Psets</a>
+</li>
+<li class="space"> </li>
+<li>
+<a href="https://piazza.com/mit/Spring2015/6042j18062j/home"> Piazza Forum</a>
+</li>
+<li>
+<a href="/S/course/6/sp15/6.042/materials/other.html">Team Assignments</a>
+</li>
+<li>
+<a href="/S/course/6/sp15/6.042/people/membership.html" target="_blank">Membership</a>
+</li>
+<li>
+<a href="/S/course/6/sp15/6.042/people/stafflist.html">Staff List</a>
+</li>
+<li>
+<a href="/S/course/6/sp15/6.042/gradebook3/" target="_blank">Gradebook Module</a>
+</li>
+<li>
+<a href="/S/course/6/sp15/6.042/search.html">Search</a>
+</li>
+<li>
+<a href="/context-help/index.phtml?mode=students&amp;nexus=/S/course/6/sp15/6.042/" id="help" target="_new">
+Stellar Help</a>
+</li>
+<li>
+<br/>
+<a href="http://ist.mit.edu/support" target="_new">Contact Help Desk</a>
+</li>
+</ul>
+</div>
+<p id="crumbs">
+<a class="spanlink" href="/">Course</a>»<a class="spanlink" href="/courseguide/course/6/">Course 6</a>»<a class="spanlink" href="/courseguide/course/6/sp15/">Spring 2015</a>»<a class="spanlink" href="/S/course/6/sp15/6.042/">6.042/18.062</a>»Homepage</p>
+<div id="content">
+<!--
+$Revision: 1.119 $ / $Date: 2007-07-14 01:53:39 $
+-->
+<h2>6.042/18.062 
+Math For Computer Science</h2>
+<p>
+<strong>Spring 2015</strong>
+</p>
+<p>
+<img alt="home page image" border="1" src="http://courses.csail.mit.edu/6.042/Icons/15-puzzle.gif"/>
+</p>
+<p>
+<strong>Professors:</strong> Adam Chlipala, Albert R Meyer</p>
+<p>
+<strong>UTAs and LAs:</strong> Benjamin C Eysenbach, Misha N Jamy, Yan Annie Jiao, Tasha L Schoenstein, Elizabeth M Shen, Lisa Sukharev-Chuyan, Hyungie Sung, Sarah E Vente, Jasmeet Arora, Robi C Bhattacharjee, Leigh Braswell, Leigh M Braswell, Tomas A Calderon Gomez, Miranda R Cover, Leo de Castro, Julia Guo, Joyce Hong, Emilia A Kellison-Linn, Alexander C Lukas, Varun Mohan, Preksha Naik, Devin A Neal, Daryl G Neubieser, Divya P Pillai, Maria Ximena Rueda Guerrero, Sean C Soni, Maria M Stoica, Sorawit Suriyakarn, Suhas Vijaykumar, Elizabeth P Walker, Michael A Wallace, Shidan Xu, William Xue, Luyi Zhang</p>
+<p>
+<strong>Lecture 01</strong>:  
+MWF 1-2:30  
+(32-044)
+<br/>
+<strong>Lecture 02</strong>:  MWF 2:30-4  
+(32-044)
+  
+  
+  
+</p>
+<h3 class="topicheading">Announcements
+
+</h3>
+<div class="announcements" id="ann">
+<div class="announcement" id="ann1432587120">
+<h4>We are done!</h4>
+<div xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:x="urn:schemas-microsoft-com:office:excel">The Spring  2015 class is over.  Final exam grading
+rubrics &amp; solutions have been posted the Materials page.<br/>
+<br/>
+To view your graded final, contact the class secretary,
+<strong>Rebecca Yadegar, ryadegar@csail.mit.edu, room 32-G615,
+x3-6025</strong>.</div> <p class="announcedBy">
+Announced on 
+25 May 2015 
+4:52 
+p.m.
+
+by Albert R Meyer</p>
+</div>
+<div class="announcement" id="ann1432253040">
+<h4>Final Exam scores are up!</h4>
+<div xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:x="urn:schemas-microsoft-com:office:excel">Hi everyone, 
+
+<p>With very few exceptions, everyone's final exams have been
+graded. For those who took it today, Gradebook should include a
+comment with the points you earned for each question (final pdf is
+up on Stellar).</p>
+<p>The mean was 72, the median 74, and the standard deviation
+15.5.</p>
+<p>Rubrics have been posted in the Materials section.</p>
+<p>We will let you know how/when you can see your graded exam.</p>
+</div> <p class="announcedBy">
+Announced on 
+21 May 2015 
+8:04 
+p.m.
+
+by Tasha L Schoenstein</p>
+</div>
+<div class="announcement" id="ann1431796620">
+<h4>Pre-Finals Office Hours</h4>
+<div br="br" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:x="urn:schemas-microsoft-com:office:excel">Pre-finals office hours will be the following,<br/>
+rooms<br/>
+<br/>
+are TBA unless<br/>
+<br/>
+<br/>
+<br/>
+otherwise indicated:</div>
+<br xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:x="urn:schemas-microsoft-com:office:excel"/>
+<div br="br" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:x="urn:schemas-microsoft-com:office:excel">Sunday 5-6 with Tasha (Room 32-124)</div>
+<br xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:x="urn:schemas-microsoft-com:office:excel"/>
+<div br="br" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:x="urn:schemas-microsoft-com:office:excel">Monday 5-6 with Elizabeth</div>
+<br xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:x="urn:schemas-microsoft-com:office:excel"/>
+<div br="br" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:x="urn:schemas-microsoft-com:office:excel">Tuesday 5-6 with Misha and Hyungie (Room 36-156)</div>
+<br xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:x="urn:schemas-microsoft-com:office:excel"/>
+<div br="br" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:x="urn:schemas-microsoft-com:office:excel">Wednesday 6-7 with Sarah and Annie (Room 36-156)</div>
+<br xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:x="urn:schemas-microsoft-com:office:excel"/>
+<div br="br" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:x="urn:schemas-microsoft-com:office:excel">Wednesday 8-9 with Ben and Lisa (Room 36-112)</div> <p class="announcedBy">
+Announced on 
+16 May 2015 
+1:17 
+p.m.
+
+by Sarah E Vente</p>
+</div>
+<div class="announcement" id="ann1431353007">
+<h4>Office hours for the next 2 weeks</h4>
+This week, we will have one office hour: Thursday from 7-8pm in the
+usual room. 
+
+<p xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:x="urn:schemas-microsoft-com:office:excel">We expect to hold a few office hours next week before the final
+and will send another announcement once they are scheduled.</p> <p class="announcedBy">
+Announced on 
+11 May 2015 
+10:03 
+a.m.
+
+by Tasha L Schoenstein</p>
+</div>
+<div class="announcement" id="ann1430174239">
+<h4>End-of-term survey</h4>
+We've posted a repeat of the survey we gave to you after
+Midterm 2 on MITx to gauge your evolving opinion of the class.
+Link: <a href="http://tinyurl.com/6042survey" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:x="urn:schemas-microsoft-com:office:excel">http://tinyurl.com/6042survey</a>
+<p xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:x="urn:schemas-microsoft-com:office:excel">Note that only the first two questions are required, but we
+greatly value any input, especially open-ended comments.</p>
+<p xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:x="urn:schemas-microsoft-com:office:excel">Please fill this out by 4PM Wednesday!</p> <p class="announcedBy">
+Announced on 
+27 April 2015 
+6:37 
+p.m.
+
+by Elizabeth M Shen</p>
+</div>
+<p>
+<a href="announce.html">View archived announcements</a>
+</p>
+</div>
+</div>
+<div id="footer">
+<a href="#container" id="topLink" title="Back to top">top</a>
+<a class="library" href="http://libraries.mit.edu">
+<img alt="MIT Library logo" class="librarylogo" src="/stellar/f/shared/images/library-logo.png" title="Go to MIT Library"/>
+</a> | <a href="https://wikis.mit.edu/confluence/display/SUG2/Stellar+Terms+of+Service" target="new">TERMS OF SERVICE</a> | <a href="http://web.mit.edu/copyright/">MIT COPYRIGHT</a> | <a href="http://libraries.mit.edu/scholarly/publishing/copyright-information-for-mit-faculty/">FAIR USE GUIDELINES</a>
+</div>
+</div>
+<div>
+<table cellspacing="0">
+<tr valign="top">
+<td class="navbar">
+<span class="header">
+<a href="http://mit.edu"><img alt="MIT" src="../Icons/d030828-logo.gif"/></a>
+</span><br/>
+<br/> <a href="https://learning-modules.mit.edu/materials/index.html?uuid=/course/6/sp15/6.042">
+	   Stellar Main</a>
+<!--
+<a href =
+"https://learning-modules.mit.edu/class/index.html?uuid=/course/6/sp15/6.042#info">Stellar
+Main</a>
+
+  <br>
+  <a href="https://courses.csail.mit.edu/6.042/Spring18/solutions/6042-s18-teams.htm">
+    Teams</a>
+
+  <br><a href="officehours.shtml">Office Hrs</a>
+
+  <br>
+  <a href="https://courses.csail.mit.edu/6.042/Spring18/schedule.shtml">
+    Calendar</a>
+-->
+<br/> <a href="https://learning-modules.mit.edu/materials/index.html?uuid=/course/6/sp15/6.042#materials">
+    Materials</a>
+<!--
+  <br> 
+  <a href ="https://lms.mitx.mit.edu/courses/course-v1:MITx+6.042r_5+2015_Spring/info">
+    6042r/MITx</a>
+
+
+  <br> <a href="https://piazza.com/mit/Spring2018/6042">Piazza</a>
+-->
+<br/> <a href="classinfo.shtml">Class Info</a>
+<br/> <a href="team-protocol.shtml">Teamwork</a>
+<br/> <a href="pset_instructions.shtml">Submit Pset</a>
+<!--
+  <br> <a href = "makeup-policy.shtml">Makeups</a>
+
+  <br><a href = "https://gradescope.com">Gradescope</a>
+
+  <br><a href="staffpages.shtml">Staff Info</a>
+-->
+<br/><a href="objectives_outcomes.html">Outcomes</a>
+<br/><a href="staff/">Staff Only</a>
+</td>
+<td background="../Icons/tile.gif" class="content">
+<a name="top"></a>
+<!-- Beginning of content -->
+<h1 style="text-align: left;">
+<!--
+<img src="../Icons/constrct.gif" alt="UNDER CONSTRUCTION">
+<span class="red">UNDER CONSTRUCTION</span>
+-->
+<img alt="Mathematics for Computer Science" src="../Icons/15-puzzle.gif"/>
+</h1>
+<h1>6.042 Spring  2015 Class Overview</h1>
+<h2>Contents</h2>
+<ul>
+<li><a href="classinfo.shtml#intro">Introduction</a></li>
+<li><a href="classinfo#considerations">Considerations for Taking
+      the Subject This Term</a></li>
+<li><a href="classinfo#teams">Team Problem Solving</a></li>
+<ul>
+<li><a href="team-protocol">Team Protocols &amp; Participation Grades</a></li>
+</ul>
+<li><a href="classinfo.shtml#schedule">Weekly Schedule</a></li>
+<li><a href="classinfo.shtml#website">Class Website</a></li>
+<li>
+<a href="classinfo.shtml#psets">Problem Sets</a>
+<ul>
+<li><a href="pset_instructions.shtml">Submission Instructions</a></li>
+</ul>
+</li>
+<li><a href="classinfo.shtml#online"> Online Feedback Problems</a></li>
+<!--
+     <li><a href="classinfo#comments"> Weekly Reading
+	 Comment</a> in the
+       <a href="http://nb.csail.mit.edu">
+	 NB annotation system</a></li>
+     -->
+<li><a href="classinfo.shtml#midterms">Midterms &amp;
+  Exams</a></li>
+<li><a href="classinfo.shtml#collaboration">Collaboration</a></li>
+<li><a href="classinfo.shtml#grades">Grades</a></li>
+<!-- <li><a href="classinfo#latex">Latex Macros</a>
+     <li><a href="classinfo#textbooks">Textbooks and Reading</a>-->
+</ul>
+<a name="intro"></a><h2>Introduction</h2>
+<p>This subject offers an introduction to Discrete Mathematics
+oriented toward Computer Science and Engineering.  This Spring there are
+two class sessions MWF in 32-044 (EECS Tutorial Lounge):
+  </p><ul>
+<li> L01: 1－2:30PM
+    </li><li> L02: 2:30PM－4:00PM
+  </li></ul>  
+
+There are no separate recitations.  In-class problem-solving teams
+will be assigned by the second week of class.  You will need to work
+with the same team in the same session at each class meeting.
+(Contact the staff about needed assignment changes.)
+
+<p>
+  The subject coverage divides into three parts:
+  </p><ol>
+<li> Fundamental concepts of mathematics: definitions, proofs, sets,
+      functions.
+
+    </li><li> Discrete structures: elementary number theory, graphs, counting.
+
+    </li><li> Discrete probability theory.
+  </li></ol>
+<p>
+  The prerequisite is <span class="meyer">18.01</span> (first term
+  calculus), in particular, some familiarity with sequences and series,
+  limits, and differentiation and integration of functions of one variable.
+</p>
+<p>
+  The goals of the class are summarized in a statement of 
+  <a href="objectives">
+<strong>Class Objectives and Educational Outcomes</strong></a>.  A detailed
+  schedule of topic coverage appears in
+  the <a href="https://www.google.com/calendar/embed?src=eiielbenhp7ck7jmgur9v3ik4o%40group.calendar.google.com&amp;ctz=America/New_York">Class
+  Calendar</a>.
+</p>
+<a name="considerations"></a><h2>Considerations for Taking the Subject
+This Term</h2>
+
+There are two main considerations for students in deciding to take
+6.042J/18.062J <strong>this term</strong> or at all.
+
+<ol>
+<li>
+<a name="teams"></a><h3>Team Problem Solving</h3>
+
+    This is a "flipped" class: students prepare by doing assigned
+    reading and answering online questions <span class="meyer">before
+    class</span>.  Class meeting time is then devoted almost entirely
+    to problem solving in teams of 6 to 8 students sitting around a
+    table with a nearby whiteboard where a team can write their
+    solutions.  Participation in team sessions counts for
+      <span class="meyer">25%</span> of the final grade.
+
+    <p>
+      The sessions are open book, and <span class="meyer">laptops,
+      tablets, etc., are encouraged</span> for viewing class related
+      material (viewing email, facebook and the like during class will
+      be penalized).
+    </p>
+<p>
+      Each team will have a TA/LA coach providing feedback on
+      students' solutions.  The coach will initially resist answering
+      questions about the material, always trying first to find a team
+      member who can explain the answer to the rest of the team.  Of
+      course the coach will provide hints and explanations when the
+      whole team is stuck.  Instructors circulate among the teams
+      overseeing class activity.  See
+      the <a href="team-protocol">description of team protocols and
+      grading</a> for more information about team activities.
+    </p>
+<p>
+<span class="meyer">The Good News</span> is that the immediate,
+      active engagement in problem solving sessions is an effective
+      and enjoyable way for most students to master the material.
+      Team sessions also provide a supervised setting to acquire and
+      practice technical communication skills.  Student grades for
+      problem solving sessions depend on degree of
+      <strong>active, prepared</strong> participation, rather than problem
+      solving success.  Sessions are not aimed to test how well a
+      student can solve the problems in class; the goal is to have
+      students understand how to solve them by the end of the session.
+
+    </p><p>
+<span class="meyerp">The Bad News</span> is that a team problem
+      solving approach to teaching requires students to
+      arrive <strong>prepared</strong> at the sessions: they need to
+      do (though not carefully study) the assigned reading and do the
+      online problems <span class="meyer">before class</span>.  The
+      team problem solving aims to help solidify students'
+      understanding of <strong>material they have already
+      seen</strong>.  Watching designated videos, or at least looking
+      at the lecture-slide handouts, is generally helpful
+      but <em>optional</em>.  We expect that class preparation,
+      including assigned reading and online material, will
+      take <strong>1.5 hours per class</strong>.
+
+    </p><p>
+      There is no way to make up for not working with the team, so it
+      is necessary to keep up and be there no focusing on
+      some other activity for a month, aiming to catch up afterward.
+      <strong><span class="purple">If you cannot commit to keeping up, you
+	  may prefer to take the subject some other term.</span></strong>
+	  (In Fall  2016, Math Department faculty are expected to teach
+	  the class in standard lecture/recitation style.)
+  </p></li>
+<!--
+<h3><a href="team-protocol">Team Grading & Protocols</a></h3>
+More about team grading and protocols can be
+found <a href="team-protocol">here</a>.
+-->
+<li> <h3>Department Requirement</h3>
+<p>
+      This subject is required of all Computer Science (6-3) majors
+      and is in a required category for Math majors taking the
+      Computer Science option (18C).  It covers many mathematical
+      topics that are essential in Computer Science and are not
+      covered in the standard calculus or algebra curriculum.  In
+      addition, the subject teaches students about careful
+      mathematics: precisely stating assertions about well-defined
+      mathematical objects and verifying these assertions using
+      mathematically sound proofs.  While some students have had
+      earlier exposure to some of these topics, in most cases they
+      learn a lot more in 6.042J/18.062J.
+    </p>
+<p>
+      However, students who have a firm understanding of sound proofs
+      and who are familiar with a significant fraction of the covered
+      topics should discuss with the instructor and their advisor the
+      possibility of
+      <span class="meyer">substituting another subject</span>
+      for 6.042.  It is also possible for qualified students to get
+      <span class="meyer">credit for the class by serving as a Lab
+      Assistant</span>.
+    </p>
+</li>
+</ol>
+<a name="schedule"></a><h2>Weekly Schedule</h2>
+<ul>
+<li> <h3>Class Text</h3>
+
+    Weekly reading will be assigned from our own <a href="mcs.pdf">
+class textbook</a>.
+  </li>
+<p>
+</p><li><h3><a href="classinfo.shtml#online">Videos and Online
+      Feedback Questions</a></h3>
+      
+      Video mini-lectures and online questions are posted on
+the <a href="https://lms.mitx.mit.edu/courses/MITx/6.042r_1/2015_Spring/courseware">
+6.042r</a> website.  Answers to online questions are due before each
+class that they cover.
+    </li>
+<p>
+</p><li><h3><a href="classinfo.shtml#psets"> Problem Sets</a></h3>
+
+      Problem sets are due at 1PM on most Fridays.  They are assigned
+      a week or more in advance.  The exact schedule is posted on the
+      <a href="https://www.google.com/calendar/embed?src=eiielbenhp7ck7jmgur9v3ik4o%40group.calendar.google.com&amp;ctz=America/New_York">
+	Class Calendar</a>.
+    </li>
+</ul>
+<a name="website"></a><h2>Class Website</h2>
+
+The class has a comprehensive <a href="https://stellar.mit.edu/S/course/6/sp15/6.042/">Stellar
+web site</a>
+<!--
+<p align=center>
+<span class="meyer">
+<a href="https://stellar.mit.edu/S/course/6/sp15/6.042/">
+<tt>https://stellar.mit.edu/S/course/6/sp15/6.042</tt></a>
+</span></p>-->
+where notes, problem sets, solutions, etc., will be posted.
+Announcement and staff contact information are also available on this
+website.  It is <strong>always worth checking the website</strong> for
+corrections and announcements before starting problem sets.
+
+
+<h2><a name="psets"></a>Problem Sets</h2>
+<p>
+<a name="pset-credit"></a>Problem sets count
+  for <span class="meyer">15%</span> of the final grade.  Making a
+  reasonable effort on the problem sets is, for most students, crucial
+  for mastering the course material.  Problem sets are designed to be
+  completed in at most 3 hours; the time is monitored through student
+  reports.
+</p>
+<!--
+
+<p>
+  <a name="submission"></a>
+  Electronic submission of problem sets is normally due
+  by <span class="due">1PM on Fridays</span>.
+  The <a href="https://stellar.mit.edu/S/course/6/sp15/6.042/courseMaterial/topics/topic4/syllabus/text3/text">Problem Set Submission instructions</a>
+  explain how.
+  <span class="due">Late submissions</span> will <span class="due">not
+  be accepted</span> once the solutions are posted.  Note that
+  solutions are generally posted promptly after the time they are due.
+  Late submissions received before solutions are posted may be
+  accepted at the convenience of the graders.
+</p>
+
+<p>
+  The guidelines for a good solution are similar to those for class
+  problems: a prepared student who didn't see right away how
+  to solve the problem should be able to read your answer and promptly
+  see how to go about solving the problem themselves.  If you cannot
+  solve a problem in a reasonable time, don't lose sleep over it: you
+  can get useful credit by including an explanation of where and how
+  you got stuck.
+</p>
+
+<p>
+  Graders' time is limited, and they have been instructed to deny
+  credit without struggling unduly to understand answers.  For this
+  reason,
+  <ul>
+    <li> unclear answers may not receive adequate part credit (you
+      won't get full credit for an unclear answer even if is
+      ``correct''), and </li>
+    <li> good but unusual answers are occasionally denied credit.</li>
+  </ul>
+  We encourage you to <span class="meyer">seek the credit you
+  deserve</span> by asking either your team coach or emailing
+    the <a class="email" href =
+     "mailto:6042-gradesmaster@&#109;&#105;&#116;.edu?subject=grading%20concern">6042-webmaster(at)&#109;&#105;&#116;.edu</a>
+    6042-gradesmaster(at)&#109;&#105;&#116;.edu</a>
+  to review your solution.  If you are not satisfied with their
+    response, you may appeal to one of the instructors.
+</p>
+-->
+<a name="online"></a><h2>Online Feedback Problems</h2>
+
+Online problems to be completed before most class meetings are posted
+on the <a href="https://lms.mitx.mit.edu/courses/MITx/6.042r/2015_Spring/"> 6.042r
+website</a>.  These consist of straightforward questions that provide
+useful feedback about the assigned material.  (Some students prefer to
+try the online problems before reading the text or watching videos as
+an advance guide to going over the material; that's fine.)  Watching
+designated videos, or at least looking at the lecture-slide handouts,
+is generally helpful but <em>optional</em>.
+
+<p>
+  Like team problem-solving in class, online problems are graded
+  solely on <strong>participation</strong>: students receive full
+  credit as long as they try the problem, even if their answer is
+  wrong.  Online feedback problems count
+  for <span class="meyer">5%</span> of the final grade.  
+</p>
+<h2><a name="collaboration"></a>Collaboration</h2>
+
+  You are encouraged to collaborate on problem sets as you do on teams
+  in class.  However, you must <span class="meyer">cite all your collaborators and any
+  sources beyond this term's class materials</span> that you consulted while
+  working on a problemfor example, an "expert" consultant
+  other than 6.042 staff, or another textmust be <strong>given
+  a proper scholarly citation</strong>, which you should include with
+  the <a href="pset_instructions.shtml">collaboration
+  statement</a> accompanying your submission.
+
+
+<!--<h2>Other Sources</h2>-->
+
+Class materials (excluding solutions) from Spring  2014 are available on the 
+ <a href="https://stellar.mit.edu/S/course/6/sp14/6.042/">Spring  2014
+Stellar web site</a>.
+  Materials including some solutions are available on MIT OCW for 
+  <a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-Fall-2010/">Fall  2010</a>,
+  <a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-Spring-2010/">Spring
+   2010</a>.
+
+<p>
+  A problem from prior terms may occasionally be assigned again
+  without change.  <span class="meyer">If you find a <strong>published
+  solution, you should cite it, and you may not simply copy</strong>
+  it</span>.  Instead, submit a critique of the published solution, an
+  improved solution, or a suggestion for an improved or variant
+  versionbasically any commentary that shows engagement
+  with the material comparable to that required to solve the problem
+  on its own.
+</p>
+<p>
+  We discourage, but do not forbid, use of materials from terms prior
+  to Spring  2014.  We repeat, however, that use of material from a
+  previous term requires <span class="meyer"><strong>a proper
+  scholarly citation</strong></span>.  As long as you provide an
+  accurate citation and <a href="pset_instructions.shtml">
+  collaboration statement</a>, a questionable submission will rarely
+  be sanctionedinstead, we'll explain why we judge the
+  submission unsatisfactory (and maybe deny credit for a specific,
+  clearly copied solution).  But <strong>omission</strong> of such a
+  citation will be taken as <strong>a priori</strong> evidence of
+  cheating, with undesirable consequences for everyone.</p>
+<!--
+<p>If you are concerned about a possible violation of this kind, please
+talk with your TA and/or the Lecturer.  It is better if you take the
+initiative to contact us in such cases, rather than vice-versa.
+
+<a name="prepchecks"></a><h2>Preparation checks</h2>
+
+
+A preparation check consists of one or two questions which will be
+easy to answer in 3&#150;&#150;5 minutes if you have prepared for
+class (looked at the assigned reading and slides/videos)&#65293;but
+not so easy if you haven't prepared.  Prep checks are given at the
+beginning of nearly every class unless there is another exam.  Your
+response is ranked <strong>P</strong> for <strong>p</strong>repared or <strong>U</strong>
+for <strong>u</strong>nprepared.  Your team coach takes the preparation check
+into account when assigning you a participation grade for the day's
+class.
+
+<p>
+To write your preparation check solutions, you are expected to bring a
+piece of paper (8.5 x 11in) and a pen to class.  Preparation checks
+are closed book; no cribsheets.  You may fill out your name, session
+(1PM, 2:30TEAL, 2:30Lounge) and Team label (1&#150;&#150;13 or
+A&#150;&#150;L), and heading "Prep Check [month day], 2013" in
+advance.
+</p>
+
+<p>
+If you get a <strong>U</strong> or miss a prep-check, you may email
+an <span class="meyer">appeal for upgrade</span> to your coach within
+one week of the prep-check.  The email should include
+<ul>
+  <li>
+    an honest indication of whether you actually made an effort to
+    prepare for class&#65293;admitting you were not prepared will not
+    disqualify you from an upgrade,
+  </li>
+
+  <li>
+    an indication that you have found the proper answer to the
+    prep-check (prep-check solns are usually not posted)
+  </li>
+
+  <li>
+    a new prep-check question that would be suitable for this prep-check
+    in a future term.
+  </li>
+</ul>
+Upgrades are not guaranteed but remain at the discretion of your
+coach.  (We do guarantee that <span class="meyer">you will not be
+downgraded</span> because of an appeal.)  The bar for upgrades will be
+set high enough to ensure that counting on appeals to make up for
+being unprepared will not be a good strategy.
+</p>
+
+
+<a name="miniquizzes"></a><h2>Weekly Miniquizzes</h2>
+
+A <span class="due">closed book</span> miniquiz, usually 15 minutes,
+will be given in class most Mondays.  Miniquizzes count for a total
+of <span class="meyer">5%</span> of the final grade.
+
+<p>
+Material to study for a miniquiz is well defined: a miniquiz will
+basically consist of excerpts or small variations of problems assigned
+the previous week, including class, pset, and online problems.  You
+can prepare for a miniquiz simply by reviewing the posted problem
+solutions for the previous week.  (You
+are <span class="red">not</span> allowed to use a crib sheet during
+miniquizzes.)
+</p>
+
+<p>
+For miniquizzes, the grades are <span class="meyer">OK, NeedsWork,
+UnConvincing</span>.  If you get an <span class="meyer">NW</span>
+or <span class="meyer">UC</span>, you may email an appeal for upgrade
+The email should include:
+<ul>
+
+  <li> a self-assessment of your miniquiz answers, indicating
+    weaknesses you acknowledge (or deny) in comparison to the posted
+    solution (in cases with no posted solution, you should also write
+    a solution),</li>
+
+  <li> a new miniquiz question that would be suitable for this
+    miniquiz in a future term.</li>
+</ul>
+If you <span class="meyer">miss</span> a miniquiz, you are allowed to make it up using the same procedure. First you should write up your own solutions (without looking at the offical solutions) and then follow the same steps as above. In this case, you must also email your own solution.
+<br>
+Upgrades are not guaranteed but remain at the discretion of your
+coach.  (We do guarantee that you will not be downgraded because of an
+appeal, even if a mistake in your favor is uncovered.)  The bar for
+upgrades will be set high enough to ensure that counting on appeals to
+make up for being unprepared will not be a good strategy.
+</p>
+-->
+<a name="midterm"></a><h2>Midterm Exams</h2>
+
+Three 80 minute midterm exams will be given in class on on
+Wednesday, <span class="due">February
+25</span>, <span class="due">March 18</span>,
+and <span class="due">April 15</span>.  The midterm
+exams <strong>each</strong> count for a total
+of <span class="meyer">10%</span> of the final grade.
+
+<p>
+  Midterm questions will typically be variations of prior problems from
+  class and psets, and the best way to prepare is to review on the
+  published solutions to these problems.  The first exam covers all
+  previous weeks' material; subsequent exams focus on the material after
+  the previous exam.  The material on the Monday before midterms 2 &amp; 3
+  will not be covered, but because of lost days to snow, induction will be
+  covered by midterm 1.  A single two-sided crib sheet is allowed for each
+  midterm.
+</p>
+<h2>Final Exam</h2>
+
+There will be a three hour final exam during exam period on
+ <span class="meyer">Thursday, May 21, 9AM</span> in 34-101.  This
+exam is worth <span class="meyer">25%</span> of the final class grade.
+
+<p>
+The final exam will cover the entire subject with somewhat greater
+emphasis on material from after Midterm 3.  Most exam questions will
+be variants of problems assigned during the term (pset, class,
+midterm, and online).  It may include a few questions which combine
+topics that were originally covered separately.  A pair of two-sided
+crib sheets (total: 4 sides) are allowed for the final.
+</p>
+<a name="grades"></a><h2>Grades</h2>
+
+Grades for the class are based on the following weighting:
+
+<h4></h4><table>
+<tr><td>Class participation</td><td>25%</td></tr>
+<tr><td>Online Feedback Problems: </td><td>05%</td></tr>
+<tr><td>Problem Sets: </td><td>15%</td></tr>
+<!--<tr><td>Miniquizzes: </td><td>05%</td></tr>-->
+<tr><td>Midterm exams: </td><td>30%</td></tr>
+<tr><td>Final: </td><td>25%</td></tr>
+<!--<tr><td>Weekly Reading Comments: </td><td>2.5%</td></tr>-->
+</table>
+<p>
+  The lowest problem set score and lowest <em>three (3)</em> class
+session scores will not count in grade calculation.  This effectively
+gives you <span class="meyer">a problem set and three class
+sessions</span> you can miss without excuse or penalty.  You should
+notify the staff in advance of an absence if possible, and briefly
+indicate the reason.
+</p>
+<p>
+  Think of the three absences as "personal" days which you may use for
+  sick leave, professional conflicts like job interviews, or sleeping
+  in.  Waivers and makeups for missed psets or absences will be
+  considered only <strong>after the one pset or three allowed absence
+  waivers are used up</strong>.
+</p>
+<p>
+  The class is <strong>not</strong> graded on a curve.  In fact, MIT policy
+  (Rules and Regulations of the Faculty, section 2.62) does not allow
+  grading according to a fixed grade distribution.  Instead, students
+  are assessed individually.  In particular, students who remain in
+  class after Drop Date are not in jeopardy of seeing their grades
+  change due to the change in class composition.
+</p>
+
+ While there is no curve, it is expected that 6.042J/18.062J will
+  be "(A-/B+)-centered" with more than 10% unsatisfactory grades (D or
+  F) unlikely.
+
+
+<h2>Questions, Suggestions, and Complaints to the Staff</h2>
+
+Messages for the staff can be posted (publicly or privately) on the
+class <a href="https://piazza.com/mit/Spring2015/6042j18062j/home">Piazza forum</a>
+or by email to
+
+<p align="center">
+<a class="email" href="mailto:6042-staff@mit.edu?subject=classinfo%20page">
+6042-staff(at)mit.edu</a>
+</p>
+
+Email addresses for <a href="https://stellar.mit.edu/S/course/6/sp15/6.042/people/stafflist.html">
+ individual staff members</a> are available on the Stellar site.
+
+<!--
+<h2><a name="latex"></a>Latex macros</h2>
+
+Class handouts are formatted
+using <a href="http://www.latex-project.org">LaTeX</a>, which is the
+preferred formatting system among mathematics professionals.  Note
+that we do <strong>not</em> require students to use it for their class
+submissions, though you are certainly welcome to do so if you wish
+(please remember to follow the submission guidelines
+outlined <a href="classinfo#psets">above</a>).  We'll still
+want you to print out your pset solutions on separate pages and hand
+them in to the appropriate boxes.
+-->
+<p>
+</p><hr/>
+<table width="100%">
+<tr>
+<td>
+<span style="font-size: 75%; font-style: italic;">
+<a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en_US" rel="license">
+<img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png" style="border-width:0"/></a>
+</span>
+</td>
+</tr>
+<tr>
+<td><span style="font-size: 75%; font-style: italic;">
+<span property="dct:title" xmlns:dct="https://purl.org/dc/terms/">
+      MIT 6.042 class material</span> by 
+    <a href="https://people.csail.mit.edu/meyer" property="cc:attributionName" rel="cc:attributionURL" xmlns:cc="https://creativecommons.org/ns#">
+      Albert R Meyer</a> is licensed under a
+    <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en_US" rel="license">
+      Creative Commons Attribution-ShareAlike 3.0 Unported  License</a>
+<a href="staff">.</a> <!-- convenient hidden link-->
+</span>
+</td>
+</tr>
+<tr>
+<td>
+<span style="font-size: 75%">
+    For website issues, contact the
+    <a class="email" href="mailto:6042-webmaster@mit.edu?">
+      6042-webmaster@mit.edu</a>
+</span>
+</td>
+<td><a href="https://courses.csail.mit.edu/6.042/Spring18/"><img src="../Icons/15-puzzle-small-autocrop.gif" valign="center"/></a>
+</td>
+</tr>
+</table>
+<!-- end of main layout table </td></tr></table> -->
+<table width="800">
+<tbody>
+<tr>
+<td width="200"> </td>
+<td width="600">
+<p class="timestamp"> This document last modified
+          Saturday, 17-Feb-2018 20:51:03 EST</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td></tr></table></div></body>
+</html>

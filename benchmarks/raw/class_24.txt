@@ -1,0 +1,358 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+<title>Coalgebra 2014</title>
+<link href="/_styles/main.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<p>
+<b>Lecturers:</b>
+<a href="http://www.alexandrasilva.org" target="_top">Alexandra Silva</a> and
+<a href="http://www.cs.ru.nl/~sstaton" target="_top">Sam Staton</a>.
+</p>
+<p>General information on this course can be found in the
+<a href="http://www.studiegids.science.ru.nl/2014/en/science/prospectus/Softwarescience_master/course/32229/" target="_top">studiegids</a>. 
+
+
+</p><hr/>
+<h2> Contents of this course webpage </h2>
+<ul>
+<li> <a href="#announce">Announcements</a>
+</li>
+<li> <a href="#timedate">Dates, Time and Location</a>
+</li>
+<li> <a href="#material">Course Material</a>
+</li>
+<li> <a href="#lectures">Lectures Overview</a>
+</li>
+<li> <a href="#course">Course Description and Prerequisites</a>
+</li>
+<li> <a href="#grading">Grading</a>
+</li></ul>
+<hr/>
+<h2><a name="announce"><font color="black"> Announcements </font></a></h2>
+<ul>
+<li>
+<b>Please register in blackboard for this course</b> in order to receive (email)
+announcements. Relevant course information will be provided here (and
+not in blackboard).<p>
+</p></li>
+<li>Exercise sheet 1 is here: [<a href="h1.pdf">pdf</a>]. <b>Deadline:</b> Tues 21 Oct. (Minor clarifications added to exercises on Tues 14 Oct.) <p>
+Handwritten solutions are recommended. Please deliver to Sam Staton's pigeon hole or his office (Mercator 03.02).</p><p>
+</p></li>
+<li>Exercise sheet 2 is here: [<a href="h2.pdf">pdf</a>]. <b>Deadline:</b> Wdnesday 14 Jan.<p>
+Handwritten solutions are recommended. Please deliver to Alexandra's pigeon hole(first floor)  or by email (as a pdf).</p><p>
+</p></li></ul>
+<hr/>
+<h2><a name="timedate"><font color="black">Dates, Time and Location</font></a> </h2>
+<ul>
+<li> The course runs officially in weeks 36-51 in 2014, and weeks 2-3 of 2015.
+</li><li> Lectures take place in <b>HG01.028</b> on <b>Tuesdays 15:30 - 17:30</b>.
+</li><li> Lectures will be in taught in English.
+</li><li> The exam will be on Friday 30 Jan 2015, 8:30 - 11:30 in HG00.308.
+</li></ul>
+<hr/>
+<h2><a name="material"><font color="black">Course Material</font></a></h2> 
+
+We will be follow Bart Jacobs' draft book, available <a href="http://www.cs.ru.nl/B.Jacobs/CLG/JacobsCoalgebraIntro.pdf">here</a>. We might give additional material, such as slides, hand-outs, and
+research papers on coalgebra. All material will be made available electronically
+via this webpage, or distributed during class.
+
+We also recommend the tutorial on coalgebras and coinduction by Bart Jacobs and Jan Rutten. See <a href="http://homepages.cwi.nl/~janr/papers/files-of-papers/2011_Jacobs_Rutten_new.pdf">here</a>.
+
+<hr/>
+<h2><a name="lectures"><font color="black">Lectures Overview</font></a></h2>
+Note: The course will be taught in English.
+
+<ol>
+<li> <b>Lecture 1, Tuesday 2 Sep, 15:30-17:30, in LIN4</b>
+<ul>
+<li><em>Topic:</em> Course overview, introduction to coalgebra, examples.</li>
+</ul></li>
+<li> <b>Lecture 2, Tuesday 9 Sep, 15:30-17:30, in HG01.028</b>
+<ul>
+<li><em>Topic:</em> Coalgebras for polynomial functors.
+Section 2.2 of Jacobs' book.
+</li>
+<ul>
+<li>Arities and Coalgebras for arities. Homomorphisms of coalgebras for arities.</li>
+<li>Functors on sets and coalgebras for functors. Homomorphisms of coalgebras for functors on sets.</li>
+<li>Natural bijections between functors.</li>
+</ul>
+<li><em>Suggested exercises and preparation</em>: </li>
+<ul>
+<li>Exercises 2.2.2, 2.2.4, 1.1.1 in Jacobs' book. 
+</li>
+<li>Check that the definition of "arity functor" satisfies the conditions for functors.</li>
+<li>Define a bijective correspondence between coalgebras for an arity and coalgebras for the corresponding arity functor. Likewise for coalgebra homomorphisms.</li>
+<li>Find all the natural bijections from the functor (-)<sup>3</sup> to itself.
+</li><li>Revise concepts: functions, disjoint union, bijections, function composition.</li>
+<li>Learn a proof of the 'currying' bijection.</li>
+</ul>
+</ul></li>
+<li> <b>Lecture 3, Tuesday 16 Sep, 15:30-17:30, in HG01.028</b>
+<ul>
+<li><em>Topic:</em> Coalgebras for functors.
+Section 1.4 of Jacobs' book.
+</li>
+<ul>
+<li>Categories and functors. The free category on a graph.</li>
+<li>Coalgebras for a functor on a category. 
+The category of coalgebras for a functor.</li>
+<li>Definition: final object in a category.</li>
+</ul>
+<li><em>Suggested exercises and preparation</em>: </li>
+<ul>
+<li>Fix a finite set Sigma. 
+Define a functor on Sets that takes a set X to the set 2 x P(X)<sup>Sigma</sup>, where P is the powerset construction. A coalgebra for this functor is a non-deterministic automaton, but what does it mean for a function to be a coalgebra homomorphism?
+</li>
+<li>Show that every polynomial functor is naturally isomorphic to an arity functor.</li>
+<li>Consider two functors on sets, F and G, that are in natural bijection. Show that the category of F-coalgebras is isomorphic to the category of G-coalgebras.</li>
+<li>Finish 2.2.4(ii).</li>
+<li>Write out an equational calculation to check that morphisms of coalgebras compose. </li>
+<li>For those who took the course on category theory last year:
+  describe translations between the definition of category in that course
+  (with one big collection of morphisms) and
+  my definition of category (with a collection
+  of morphisms Mor(X,Y) for all objects X and Y).</li>
+</ul>
+</ul></li>
+<li> <b>Lecture 4, Tuesday 23 Sep, 15:30-17:30, in HG01.028</b>
+<ul>
+<li><em>Topic:</em> Final coalgebras.
+Sections 2.3 and 1.2 of Jacobs' book.
+</li>
+<ul>
+<li>Final objects in categories. Isomorphisms in categories. Final objects
+are unique up to unique isomorphism.</li>
+<li>Lambek's lemma: the structure morphism of a final coalgebra is an isomorphism.</li>
+<li>The final Zx(-) coalgebra and coinductive definitions and reasoning about streams.</li>
+</ul>
+<li><em>Suggested exercises and preparation</em>: </li>
+<ul>
+<li>Again:
+Define a functor on Sets that takes a set X to the set 2 x P(X)<sup>Sigma</sup>, where P is the powerset construction. A coalgebra for this functor is a non-deterministic automaton, but what does it mean for a function to be a coalgebra homomorphism?
+</li>
+<li>Check that inverses to isomorphisms are always unique.</li>
+<li>Finish checking that the final Zx(-) coalgebra is indeed final.</li>
+<li>Exercise 1.3.5 in Jacobs' book.</li>
+</ul>
+</ul></li>
+<li> <b>Lecture 5, Tuesday 30 Sep, 15:30-17:30, in HG01.028</b>
+<ul>
+<li><em>Topic:</em> Algebras.
+Section 2.4 Jacobs' book.
+</li>
+<ul>
+<li>Algebras for an arity. Terms for an arity.</li>
+<li>Algebras for a functor. Algebras for an arity functor; universal property
+of disjoint union (coproduct).</li>
+<li>Dual (opposite) categories. Algebras versus coalgebras. Initial objects versus final objects. Algebras for a functor form a category; Lambek's lemma for initial algebras.</li>
+<li>Terms for an arity form an initial algebra. Inductive definitions from
+initiality. Informal comparison with final coalgebra for an arity.</li>
+</ul>
+<li><em>Suggested exercises and preparation</em>: </li>
+<ul>
+<li>Check the details of the universal property of disjoint union.</li>
+<li>Describe explicitly what is meant by a homomorphism between algebras for an arity.</li>
+<li>Finish checking that terms form an initial algebra.</li>
+</ul>
+</ul></li>
+<li> <b>Lecture 6, Tuesday 7 October, 15:30-17:30, in HG01.028</b>
+<ul>
+<li><em>Topic:</em> Automata as coalgebras; relation lifting.
+Part of the paper Automata and Coinduction (<a href="http://homepages.cwi.nl/~janr/papers/files-of-papers/1998_CONCUR_automata_and_coinduction.pdf">pdf</a>). Section 3.1 Jacobs' book.
+</li>
+<ul>
+<li> Deterministic finite automata as coalgebras.</li>
+<li> Bisimulation and coinduction principle for automata.</li>
+<li> Relation lifiting and Jacobs/Hermida bisimulation for Kripke polynomial functors.</li>
+</ul>
+<li><em>Suggested exercises</em>:</li>
+<ul>
+<li>Prove the coinduction principle for automata.</li>
+<li>Give the definition of relation lifting for coproduct and powerset.</li>
+<li>Exercises 3.1.1 and 3.1.2 from the book.</li>
+</ul>
+</ul>
+</li><li> <b>Lecture 7, Tuesday 14 October, 15:30-17:30, in HG01.028</b>
+<ul>
+<li><em>Topic:</em> Concrete coinduction proofs. Section 3.4 Jacobs' book.
+</li>
+<ul>
+<li> Regular expressions as automata.</li>
+<li> Bisimulation proofs for language equivalence.</li>
+<li> Up-to techniques. </li>
+</ul>
+<li><em>Suggested exercises</em>:</li>
+<ul>
+<li>Exercises 3.4.4-3.4.7 from the book.</li>
+</ul>
+</ul>
+</li><li> <b>Lecture 8, Tuesday 21 October, 15:30-17:30, in HG01.028</b>
+<ul>
+<li><em>Topic:</em> Properties of bisimulations. Section 3.2 Jacobs' book.
+</li>
+<ul>
+<li> Preservation properties of relation lifting.</li>
+<li> Closure properties of bisimulations (Proposition 3.2.6).</li>
+</ul>
+<li><em>Suggested exercises</em>:</li>
+<ul>
+<li> Show that relation lifting - Rel(F) - for a Kripke polynomial functor F, forms a functor in the category REL, with sets as objects and binary relations as arrows.
+</li><li>Exercises 3.2.1(i), 3.2.5, and 3.2.7 from the book.</li>
+</ul>
+</ul>
+</li><li> <b>Lecture 9, Tuesday 11 November, 15:30-17:30, in HG01.028</b>
+<ul>
+<li><em>Topic:</em> Different definitions of bisimulation. Section 3.3 Jacobs' book.
+</li>
+<ul>
+<li> Aczel-Mendler bisimulation.</li>
+<li> Bisimulations as spans and co-spans.</li>
+<li> Equivalence of Aczel-Mendler and Hermida-Jacobs for Kripke polynomial functors.</li>
+</ul>
+<li><em>Suggested exercises</em>:</li>
+<ul>
+<li>Dualize the Aczel Mendler definition from bisimulations to congruences of algebras.</li>
+<li>Complete the proof of Theorem 3.3.1.</li>
+<li>Exercises 3.3.2 and 3.3.3 from the book.</li>
+</ul>
+</ul>
+</li><li> <b>Lecture 10, Thursday 13 November, 10:30-12:30, in HG00.307</b>
+<ul>
+<li><em>Topic:</em> Brzozowski minimization algorithm. See <a href="http://alexandrasilva.org/files/RechabilityObservability.pdf">here</a> for the research paper in which the lecture was based. The missing proof from the lecture is <a href="missing.pdf">here</a>. 
+</li>
+<ul>
+<li> Brzozowski algorithm.</li>
+<li> Contravariant powerset construction to do reverse and determinization.</li>
+<li> Reachbility and Observability.</li>
+<li> Proof of correctness using initial and final coalgebras.</li>
+</ul>
+<li><em>Suggested exercises</em>:</li>
+<ul>
+<li>Define the functor B^- (contravariant on functions).</li>
+<li>A Moore automaton is an automaton with outputs in a set B instead of 2, like deterministic automata. Describe reverse and determinize using B^- for a Moore automaton.</li>
+<li>What is the final coalgebra for the Moore automata functor?</li>
+<li>Draw an example of a Moore automaton and apply reverse and determinize once.</li>
+</ul>
+</ul>
+</li><li><b>Lecture 11, Tuesday 25 November, 15:30-17:30, in HG01.028.</b> </li>
+</ol><ul>
+<li><em>Topic</em>:Monads, natural transformations, computational effects. Section 5.1 Jacobs' book. See <a href="dist.pdf">here</a> for the proof of the monad laws for the distribution monad (due to Rik, thanks!).</li> <ul>
+<li>Natural transformations: definitions and examples.</li>
+<li>
+Monad: definition and examples. 
+</li>
+<li>Lift, powerset and distribution monad. </li>
+</ul>
+<li><em>Suggested exercises</em>:</li>
+<ul>
+<li>Show that the mu and eta we defined for distribution are indeed natural transformations.</li>
+<li>Define and prove that PP (double powerset) is a monad.</li>
+<li>Define the list monad (-)^*.</li>
+<li>For a fixed set A, the functor (-)^A is a monad (called the input/reader monad in Haskell). Define it and prove the monad laws. </li>
+<li> Exercises 5.1.2 and 5.1.3 of the book.</li>
+</ul>
+</ul>
+<li><b>Lecture 12, Tuesday 2 December, 15:30-17:30, in HG01.028.</b> </li>
+<ul>
+<li><em>Topic</em>: Algebras for a monad, Eilenberg-Moore category. Section 5.4 Jacobs' book.</li> <ul>
+<li>Algebras for a monad: definitions and examples.</li>
+<li>Pointed sets, join semi-lattices.
+</li>
+<li>Vector spaces.</li>
+</ul>
+<li><em>Suggested exercises</em>:</li>
+<ul>
+<li>Given a vector space W over the reals show that it is an algebra for the monad V(-) defined on objects as V(X) = { phi : Reals^X | support of phi is finite}, on arrows and monad laws are the same as for the distribution monad (see last lecture) .</li>
+<li> Show that any algebra for the monad V(-) is indeed a vector space. (that is, it satisfy the vector space laws).
+</li><li>Show that given any set B and monad T, the set T(B) carries an algebra structure. </li>
+<li> Exercises 5.4.5 (ii) and 5.4.9 (ii) and (iii) of the book.</li>
+</ul>
+</ul>
+<li><b>Lecture 13, Tuesday 9 December, 15:30-17:30, in HG01.028.</b> </li>
+<ul>
+<li><em>Topic</em>: Generalized powerset construction, language semantics of non-determinsitic automata. See <a href="http://arxiv.org/abs/1302.1046">here</a> and <a href="http://alexandrasilva.org/files/talks/indiana.pdf">here</a> for material on this topic.  </li> <ul>
+<li>Generalized subset construction for coalgebras: definition.</li>
+<li>Coalgebraic language semantics (if final coalgebra exists). Connection to bisimilarity. 
+</li>
+<li>Examples: non-deterministic automata, partial and weighted automata.</li>
+</ul>
+<li><em>Suggested exercises</em>:</li>
+<ul>
+<li>Recall the non-deterministic automaton example from the lecture. How can one change the algebra structure on the output set 2 in order to achieve the following language semantics: a word is accepted by a state in an NFA if and only if every path labelled by the word leads to a final state.</li>
+<li> Show that if X and Y both have a T-algebra structure, for a given monad T, then also the cartesian product XxY and exponential X^A have a T-algebra structure. </li>
+<li>Show that given a coalgebra for the functor [0,1] x D(-)^A, where D is the subdistribution monad, one can define the semantics of such a coalgebra in terms of languages [0,1]^{A^*}.</li>
+</ul>
+</ul>
+<li><b>Lecture 14, Tuesday 16 December, 15:30-17:30, in HG01.028.</b> </li>
+<ul>
+<li><em>Topic</em>: Recap, exercises on bisimulation, algebras for a monad and determinization. See <a href="http://www.cs.ru.nl/is/education/courses/2012/coalgebra/ex1.pdf">here</a> for the list of exercises.</li>
+<hr/>
+<h2><a name="course"><font color="black">Course Description and Prerequisites</font></a></h2>
+<b>Course description:</b>
+<p>
+State-based systems are used widely in computer science
+to model concrete systems such as digital hardware, 
+software programs, and distributed systems.
+Coalgebra is a unifying framework for
+studying the behaviour of state-based systems.
+In coalgebra,
+a system is viewed as a black box where knowledge of the system's
+state can only be obtained by observing the external behaviour.
+In particular,
+two states <em>s</em> and <em>t</em> are considered equivalent 
+if whenever we run the system starting in state <em>s</em>, 
+the observed behaviour is the same as when we run the system in 
+starting in state <em>t</em>.
+The type of observations and transitions in the 
+external behaviour is specified by the system type. 
+The theory of <em>universal coalgebra</em>
+provides general definitions of observable behaviour and bisimilarity
+that can be instantiated for concrete system types,
+as well as a powerful and fascinating reasoning principle called 
+<em>coinduction</em> (a notion
+that is dual to the well known induction principle).
+</p><p>
+This course is an introduction to coalgebra.
+The course starts by studying how various types of systems can be modelled as
+coalgebras, and how coinduction can be applied to them.
+These systems include basic datatypes, 
+such as infinite streams and trees, and many types 
+of automata (deterministic, nondeterministic, probabilistic, ...).
+Next, a number of fundamental notions 
+such as language equivalence of automata,
+bisimilarity of processes, and
+determinisation of nondeterministic automata,
+will be treated coalgebraically.
+The coalgebraic framework will then be used to obtain
+generalisations of these constructions to other types of systems.
+
+</p><p>
+Coalgebra is a rather recent field of research, existing for 
+a mere two decades, 
+and it is attracting an enthusiastic, ever-growing community.
+Being relatively young, it still has many elementary and exciting 
+research questions to offer.
+
+</p><p>
+<b>Prerequisites:</b> 
+We only assume basic knowledge of automata, formal languages
+and propositional logic, for example, as covered in the courses
+Talen en Automaten, Discrete Wiskunde, Beweren en Bewijzen, en 
+Semantiek en Correctheid.
+With respect to category theory and modal logic,
+the course will be self-contained: 
+Only basic definitions will be needed, and these will be
+introduced as part of the course. 
+</p>
+<hr/>
+<h2><a name="grading"><font color="black">Grading</font></a></h2>
+The <b>final grade</b> will be the 0.3 * H1+ 0.3 * H2 + 0.4 * E,
+where H1 and H2 are the grade given for the two exntended homework assignments
+and E is the grade given for the final exam.
+
+
+</ul></body>
+</html>

@@ -1,0 +1,2530 @@
+{
+    "id": 0,
+    "content": "ASPLOS 2020 – Lausanne, Switzerland March 16-20, 2020",
+    "children": [
+        {
+            "id": 1,
+            "content": "Skip to content",
+            "key": 1
+        },
+        {
+            "id": 2,
+            "content": "ASPLOS 2020",
+            "key": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "content": "Thank you to all who participated in ASPLOS 2020! Please see the following message from the Chairs for a special thanks to all who helped make this event possible.",
+                    "key": 1
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "content": "Awards Announced",
+            "isList": true,
+            "key": 3,
+            "children": [
+                {
+                    "id": 5,
+                    "content": "",
+                    "key": 1,
+                    "children": [
+                        {
+                            "id": 6,
+                            "content": "Most Influential Paper Award :",
+                            "key": 1
+                        },
+                        {
+                            "id": 7,
+                            "content": "",
+                            "isList": true,
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 8,
+                                    "content": "“ Energy-efficient computing for wildlife tracking: design tradeoffs and early experiences with ZebraNet ”,   by Philo Juang (Princeton University), Hidekazu Oki (Princeton University), Yong Wang (Princeton University), Margaret Martonosi (Princeton University), Li Shiuan Peh (Princeton University), and Daniel Rubenstein (Princeton University)",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 9,
+                                    "content": "“ A comparison of software and hardware techniques for x86 virtualization ”,   by Keith Adams (VMWare) and Ole Agesen (VMWare)",
+                                    "key": 2
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "content": "Best Paper Award",
+                    "key": 2,
+                    "children": [
+                        {
+                            "id": 11,
+                            "content": ":",
+                            "key": 1
+                        },
+                        {
+                            "id": 12,
+                            "content": "",
+                            "isList": true,
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 13,
+                                    "content": "“ Orbital Edge Computing: Nanosatellite Constellations as a New Class of Computing System ”,   by Bradley Denby (Carnegie Mellon University) and Brandon Lucia (Carnegie Mellon University)",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 14,
+                                    "content": "“ IOctopus: Outsmarting Nonuniform DMA ”,   by Igor Smolyar (Technion — Israel Institute of Technology), Alex Markuze (Technion — Israel Institute of Technology), Boris Pismenny (Technion — Israel Institute of Technology & Mellanox), Haggai Eran (Technion — Israel Institute of Technology & Mellanox), Gerd Zellweger (VMware Research), Austin Bolen (Dell), Liran Liss (Mellanox), Adam Morrison (Tel Aviv University), and Dan Tsafrir (Technion — Israel Institute of Technology & VMware Research)",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 15,
+                                    "content": "“ Elastic Cuckoo Page Tables: Rethinking Virtual Memory Translation for Parallelism ”,   by Dimitrios Skarlatos (University of Illinois at Urbana-Champaign), Apostolos Kokolis (University of Illinois at Urbana-Champaign), Tianyin Xu (University of Illinois at Urbana-Champaign), and Josep Torrellas (University of Illinois at Urbana-Champaign)",
+                                    "key": 3
+                                },
+                                {
+                                    "id": 16,
+                                    "content": "“ Challenging Sequential Bitstream Processing via Principled Bitwise Speculation ”,   by Junqiao Qiu (University of California, Riverside), Lin Jiang (University of California, Riverside), and Zhijia Zhao (University of California, Riverside)",
+                                    "key": 4
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "content": "Virtual ASPLOS Logistics",
+            "isList": true,
+            "key": 4,
+            "children": [
+                {
+                    "id": 18,
+                    "content": "A Slack channel is in use to facilitate discussions.",
+                    "key": 1
+                },
+                {
+                    "id": 19,
+                    "content": "All talks are available on the SIGARCH Youtube Channel.",
+                    "key": 2
+                },
+                {
+                    "id": 20,
+                    "content": "The full proceedings can be found in the ACM DL.",
+                    "key": 3
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "content": "Cancellation due to COVID-19",
+            "key": 5,
+            "children": [
+                {
+                    "id": 22,
+                    "content": "I am sorry to announce that ASPLOS 2020 and the associated symposium and workshops in Lausanne are canceled because of the COVID-19 outbreak.",
+                    "key": 1
+                },
+                {
+                    "id": 23,
+                    "content": "There are three strong reasons to cancel ASPLOS:",
+                    "key": 2
+                },
+                {
+                    "id": 24,
+                    "content": "1. Attendance is likely to be poor, at best. I was hoping for 400-500 people. We currently have a bit more than 300. I have heard from a few people who are reluctant to travel, but as yet, there has not been a rush to cancel. However, large companies (e.g., Amazon, Amgen, Nestlé, to name three in the news) are starting to tell their employees to avoid unnecessary or all travel. In the next two weeks, the number of companies (and universities) limiting travel will surely increase.",
+                    "key": 3
+                },
+                {
+                    "id": 25,
+                    "content": "2. There is a significant chance that the Swiss government or EPFL will prevent the conference from occurring. Friday, the Swiss government banned gatherings of more than 1000 people, which caused the cancelation of the Geneva Auto Show next month. EPFL has banned people who visited China, Iran, South Korea, Singapore, and Northern Italy from its campus for two weeks after their visit (STCC is on the EPFL campus and affected by this rule). As the disease spreads, both regulations are likely to become stricter and will eventually prevent us from holding ASPLOS.",
+                    "key": 4
+                },
+                {
+                    "id": 26,
+                    "content": "3. And, finally, I believe it is the responsible and proper action at this time. On Friday, the WHO elevated the risk of COVID - 19 to “very high.” It is essential to take steps to reduce the spread of the virus. Handwashing and quarantine are two such steps, but avoiding large gatherings, particularly those involving people flying from far - flung places is another important measure to contain the virus’s spread.",
+                    "key": 5
+                },
+                {
+                    "id": 27,
+                    "content": "Obviously, none of us involved with ASPLOS are happy with this decision, but we believe that it is the right one.",
+                    "key": 6
+                },
+                {
+                    "id": 28,
+                    "content": "We will take the following steps:",
+                    "key": 7,
+                    "children": [
+                        {
+                            "id": 29,
+                            "content": "1. We will refund the registration fee of all attendees later this week. Students who received travel support will have their non-refundable expenses paid.",
+                            "key": 1
+                        },
+                        {
+                            "id": 30,
+                            "content": "2. We will ask all ASPLOS presenters to record a video of their conference talk. We will put them up on YouTube and the ACM DL along with the papers. The PC chairs, Luis and Karin, will be in touch with authors to provide them with guidelines for producing a high-quality video of their talk and help in putting it online.",
+                            "key": 2
+                        },
+                        {
+                            "id": 31,
+                            "content": "3. We will create a Slack workspace with a discussion channel for each session, in which we will put the papers and videos, so the authors and attendees can discuss the papers and research. We will open this workspace up to the larger community, not just registered attendees.",
+                            "key": 3
+                        },
+                        {
+                            "id": 32,
+                            "content": "We considered other, more interactive options (e.g. Zoom), but believe that the large number of time zones make this approach impractical without a great deal of thought and planning, which is obviously not possible in the limited time.",
+                            "key": 4
+                        },
+                        {
+                            "id": 33,
+                            "content": "Several ASPLOS steering committee members have suggested and volunteered to arrange local meetings of people interested in ASPLOS, to hear local talks and discuss papers.",
+                            "key": 5
+                        },
+                        {
+                            "id": 34,
+                            "content": "4. The workshops and VEE will make their own decisions about presentations and discussions, but a number are likely to follow in the footsteps of ASPLOS. The workshop chairs will be in touch with authors to inform them about next steps.",
+                            "key": 6
+                        },
+                        {
+                            "id": 35,
+                            "content": "5. We are investigating the possibility of holding an ASPLOS session or day at related conferences (ISCCA, PLDI, OSDI) this year.",
+                            "key": 7
+                        },
+                        {
+                            "id": 36,
+                            "content": "I am personally very unhappy and disappointed with this situation, as I was looking forward to seeing all of you in Lausanne. However, I am confident that it is the right decision and that we do not have another, responsible alternative. I hope that everyone will be able to visit lovely Lausanne in the near future!",
+                            "key": 8
+                        },
+                        {
+                            "id": 37,
+                            "content": "If you have further questions, please do not hesitate to contact me.",
+                            "key": 9
+                        },
+                        {
+                            "id": 38,
+                            "content": "James Larus   General Chair ASPLOS 2020   Dean and Professor, EPFL IC",
+                            "key": 10
+                        },
+                        {
+                            "id": 39,
+                            "content": "ASPLOS Cancelation Letter.pdf",
+                            "key": 11
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 40,
+            "content": "ASPLOS 2020",
+            "key": 6,
+            "children": [
+                {
+                    "id": 41,
+                    "content": "ASPLOS is the premier forum for interdisciplinary systems research, intersecting computer architecture, hardware and emerging technologies, programming languages and compilers, operating systems, and networking. The 25th ASPLOS will be held on March 16-20, 2020 in Lausanne, Switzerland, a beautiful town on the shores of Lake Geneva, conveniently located in the center of Europe, and at EPFL.",
+                    "key": 1
+                }
+            ]
+        },
+        {
+            "id": 42,
+            "content": "Important Dates",
+            "isList": true,
+            "key": 7,
+            "children": [
+                {
+                    "id": 43,
+                    "content": "Abstract submissions:",
+                    "key": 1,
+                    "children": [
+                        {
+                            "id": 44,
+                            "content": "August 9, 2019 (4:59:59pm PDT)",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 45,
+                    "content": "Full paper submissions:",
+                    "key": 2,
+                    "children": [
+                        {
+                            "id": 46,
+                            "content": "August 16, 2019 (4:59:59pm PDT)",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 47,
+                    "content": "Author response:",
+                    "key": 3,
+                    "children": [
+                        {
+                            "id": 48,
+                            "content": "October 28-November 1, 2019",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 49,
+                    "content": "Workshop/Tutorial proposal submissions:",
+                    "key": 4,
+                    "children": [
+                        {
+                            "id": 50,
+                            "content": "November 4, 2019 (Correction: previously November 1, 2019)",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 51,
+                    "content": "Workshop/Tutorial notification:",
+                    "key": 5,
+                    "children": [
+                        {
+                            "id": 52,
+                            "content": "November 18, 2019",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 53,
+                    "content": "Notification:",
+                    "key": 6,
+                    "children": [
+                        {
+                            "id": 54,
+                            "content": "November 20, 2019",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                  "id": 55,
+                  "content": "Artifact submission (optional):",
+                  "key": 7,
+                  "children": [
+                    {
+                      "id": 56,
+                      "content": "December 4, 2019",
+                      "key": 1
+                    }
+                  ]
+                },
+              {
+                "id": 57,
+                "content": "Student travel grant application deadline:",
+                "key": 8,
+                "children": [
+                  {
+                    "id": 58,
+                    "content": "January 17, 2020",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 59,
+                "content": "Final copy deadline:",
+                "key": 9,
+                "children": [
+                  {
+                    "id": 60,
+                    "content": "January 20, 2020",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 61,
+                "content": "Early registration deadline:",
+                "key": 10,
+                "children": [
+                  {
+                    "id": 62,
+                    "content": "February 24, 2020 (11:59pm CET)",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 63,
+                "content": "Virtual Conference dates:",
+                "key": 11,
+                "children": [
+                  {
+                    "id": 64,
+                    "content": "March 16-20, 2020",
+                    "key": 1
+                  }
+                ]
+              }
+            ]
+        },
+      {
+        "id": 65,
+        "content": "ASPLOS 2019 Website Moved",
+        "key": 8,
+        "children": [
+          {
+            "id": 66,
+            "content": "The ASPLOS 2019 website is here .",
+            "key": 1
+          }
+        ]
+      },
+      {
+        "id": 67,
+        "content": "Social Media",
+        "key": 9,
+        "children": [
+          {
+            "id": 68,
+            "content": "Follow @ASPLOSConf",
+            "key": 1
+          },
+          {
+            "id": 69,
+            "content": "ASPLOSConf",
+            "key": 2
+          }
+        ]
+      },
+      {
+        "id": 70,
+        "content": "Venue",
+        "key": 10
+      },
+      {
+        "id": 71,
+        "content": "Please Note:",
+        "key": 11,
+        "children": [
+          {
+            "id": 72,
+            "content": "The ASPLOS 2020 meeting has been canceled due to COVID-19. Please read the latest details here.",
+            "key": 1
+          }
+        ]
+      },
+      {
+        "id": 73,
+        "content": "Conference Venue",
+        "key": 12,
+        "children": [
+          {
+            "id": 74,
+            "content": "ASPLOS 2020 will be held in the Swiss Tech Convention Center near the campus of EPFL in Lausanne.",
+            "key": 1
+          }
+        ]
+      },
+      {
+        "id": 75,
+        "content": "Hotels",
+        "key": 13,
+        "children": [
+          {
+            "id": 76,
+            "content": "ASPLOS 2020 has negotiated a special rate with three hotels in Lausanne: The Alpha-Palmiers Hotel in downtown Lausanne, the Starling Hotel next to EPFL Campus, and the Swisstech Hotel on EPFL Campus.",
+            "key": 1
+          },
+          {
+            "id": 77,
+            "content": "Alpha-Palmiers Hotel",
+            "key": 2,
+            "children": [
+              {
+                "id": 78,
+                "content": "Nightly Rate:",
+                "key": 1,
+                "children": [
+                  {
+                    "id": 79,
+                    "content": "CHF 203.5 (include city tax and breakfast)",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 80,
+                "content": "Reservation Deadline:",
+                "key": 2,
+                "children": [
+                  {
+                    "id": 81,
+                    "content": "January 31, 2020",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 82,
+                "content": "Promotion Code for ASPLOS:",
+                "key": 3,
+                "children": [
+                  {
+                    "id": 83,
+                    "content": "ASPLOS2020   Reservation Link: https://byfassbind.com/hotel/alpha-palmiers/",
+                    "key": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 84,
+            "content": "Starling Hotel",
+            "key": 3,
+            "children": [
+              {
+                "id": 85,
+                "content": "Nightly Rate:",
+                "key": 1,
+                "children": [
+                  {
+                    "id": 86,
+                    "content": "Single Occupancy:",
+                    "key": 1,
+                    "children": [
+                      {
+                        "id": 87,
+                        "content": "CHF 163.5 (include city tax and breakfast)",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 88,
+                    "content": "Double Occupancy:",
+                    "key": 2,
+                    "children": [
+                      {
+                        "id": 89,
+                        "content": "CHF 198.5 (include city tax and breakfast)",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 90,
+                    "content": "Reservation Deadline:",
+                    "key": 3,
+                    "children": [
+                      {
+                        "id": 91,
+                        "content": "February 15, 2020",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 92,
+                    "content": "Promotion Code for ASPLOS:",
+                    "key": 4,
+                    "children": [
+                      {
+                        "id": 93,
+                        "content": "ASPLOS20   Reservation Link: https://reservations.starling-hotel-lausanne.com",
+                        "key": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 94,
+            "content": "Swisstech Hotel",
+            "key": 4,
+            "children": [
+              {
+                "id": 95,
+                "content": "Nightly Rate:",
+                "key": 1,
+                "children": [
+                  {
+                    "id": 96,
+                    "content": "CHF 128.5 (include city tax. Breakfast costs CHF 14.-)",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 97,
+                "content": "Reservation Deadline:",
+                "key": 2,
+                "children": [
+                  {
+                    "id": 98,
+                    "content": "February 1, 2020",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 99,
+                "content": "Promotion Code for ASPLOS:",
+                "key": 3,
+                "children": [
+                  {
+                    "id": 100,
+                    "content": "ASPLOS2020   Reservation Link: www.swisstech-hotel.com",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 101,
+                "content": "If you are staying at a hotel in Lausanne, you are eligible for a free daily pass for public transportation within Lausanne. You must ask for the pass at the Hotel Desk. Moreover, you also can use public transport free of charge in Lausanne (the Metro and buses) on the day of your arrival to get to your hotel; you will need to show your hotel reservation in case the authorities ask for tickets.",
+                "key": 4
+              },
+              {
+                "id": 102,
+                "content": "Please get a pass, even if you are at a hotel near the conference center. You will need the pass to go to the Olympic Museum on Thursday evening for the ASPLOS banquet.",
+                "key": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 103,
+        "content": "Transportation",
+        "key": 14,
+        "children": [
+          {
+            "id": 104,
+            "content": "By plane/train",
+            "key": 1,
+            "children": [
+              {
+                "id": 105,
+                "content": "Genève-Cointrin (GVA) is the nearest airport (40 – 60 minutes). Zürich Airport (ZRH) is located 2.5 hours by train. The Swiss railroad (SBB CFF FFS – German / French / Italian) leaves from both airports and will take you quickly to Lausanne. There are 2-4 trains per hour from each airport. The SBB Mobile App displays train schedules and enables quick online ticket purchases.",
+                "key": 1
+              },
+              {
+                "id": 106,
+                "content": "Taxis and Uber are very expensive in Switzerland and public transportation is frequent and reliable (though not inexpensive), so it is preferable.",
+                "key": 2
+              },
+              {
+                "id": 107,
+                "content": "Other possible airports include Paris and Lyon in France and Milan in Italy. From these airports, you can take a train to Lausanne and get access to your hotel either on foot (Alpha-Palmiers Hotel) or by public transportation (Swisstech Hotel and Starling Hotel).",
+                "key": 3
+              }
+            ]
+          },
+          {
+            "id": 108,
+            "content": "Public Transportation",
+            "key": 2,
+            "children": [
+              {
+                "id": 109,
+                "content": "Lausanne TRANSIT MAP",
+                "key": 1
+              },
+              {
+                "id": 110,
+                "content": "If you are staying at a hotel in Lausanne, you are eligible for a free daily pass for public transportation within Lausanne. You must ask for the pass at the Hotel Desk. Moreover, you also can use public transport free of charge in Lausanne (the Metro and buses) on the day of your arrival to get to your hotel; you will need to show your hotel reservation in case the authorities ask for tickets.",
+                "key": 2
+              },
+              {
+                "id": 111,
+                "content": "Please get a pass, even if you are at a hotel near the conference center. You will need the pass to go to the Olympic Museum on Thursday evening for the ASPLOS banquet.",
+                "key": 3
+              }
+            ]
+          },
+          {
+            "id": 112,
+            "content": "To the Alpha-Palmiers Hotel",
+            "key": 3,
+            "children": [
+              {
+                "id": 113,
+                "content": "From Lausanne Gare, you can walk directly to the hotel.",
+                "key": 1
+              }
+            ]
+          },
+          {
+            "id": 114,
+            "content": "To the Swisstech Hotel",
+            "isList": true,
+            "key": 4,
+            "children": [
+              {
+                "id": 115,
+                "content": "Take Metro M2 (directly across the street from the Lausanne Gare) toward Croisettes and get off at the next station (Lausanne-Flon)",
+                "key": 1
+              },
+              {
+                "id": 116,
+                "content": "Change to Metro M1 at Lausanne-Flon. (Lausanne Flon is the terminus for M1; there is only one direction to go.)",
+                "key": 2
+              },
+              {
+                "id": 117,
+                "content": "Get off the M1 at the EPFL stop. The Hotel is right on the Metro platform",
+                "key": 3
+              }
+            ]
+          },
+          {
+            "id": 118,
+            "content": "To the Starling Hotel",
+            "isList": true,
+            "key": 5,
+            "children": [
+              {
+                "id": 119,
+                "content": "Take Metro M2 (directly across the street from the Lausanne Gare) toward Croisettes and get off at the next station (Lausanne-Flon)",
+                "key": 1
+              },
+              {
+                "id": 120,
+                "content": "Change to Metro M1 at Lausanne-Flon. (Lausanne Flon is the terminus for M1; there is only one direction to go.)",
+                "key": 2
+              },
+              {
+                "id": 121,
+                "content": "Get off the M1 at the EPFL stop. Walk to the Starling Hotel through the EPFL campus as indicated.",
+                "key": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 122,
+        "content": "Lunch around the Swiss Tech Conference Center (STCC)",
+        "key": 15,
+        "children": [
+          {
+            "id": 123,
+            "content": "To keep costs reasonable, the workshops Monday and Tuesday do not include lunch. Fortunately, there are several restaurants immediately next to the STCC and many cafeterias on the EPFL campus within a 5 - 10 min walk. All offer a good meal at a reasonable price. Among the on - campus cafeterias, I recommend L’Ornithorynque, Le Corbusier, and Le Puur. All the restaurants accept payment in cash or credit cards.",
+            "key": 1
+          }
+        ]
+      },
+      {
+        "id": 124,
+        "content": "Thinking of Skiing?",
+        "key": 16,
+        "children": [
+          {
+            "id": 125,
+            "content": "It should be possible to ski before or after ASPLOS, depending on the snow. Here’s a good site with a lot of information about the many possible resorts https://www.myswitzerland.com/en-ch/destinations/holiday-destinations/Winter-ski-resort/.",
+            "key": 1
+          }
+        ]
+      },
+      {
+        "id": 126,
+        "content": "Sponsors",
+        "key": 17
+      },
+      {
+        "id": 127,
+        "content": "Platinum Sponsors",
+        "key": 18
+      },
+      {
+        "id": 128,
+        "content": "Gold Sponsors",
+        "key": 19
+      },
+      {
+        "id": 129,
+        "content": "Silver Sponsors",
+        "key": 20
+      },
+      {
+        "id": 130,
+        "content": "Bronze Sponsors",
+        "key": 21
+      },
+      {
+        "id": 131,
+        "content": "Other Corporate Sponsors",
+        "key": 22
+      },
+      {
+        "id": 132,
+        "content": "Student Participation Sponsors",
+        "key": 23
+      },
+      {
+        "id": 133,
+        "content": "Technical Sponsors",
+        "key": 24
+      },
+      {
+        "id": 134,
+        "content": "Committees",
+        "key": 25
+      },
+      {
+        "id": 135,
+        "content": "Please Note:",
+        "key": 26,
+        "children": [
+          {
+            "id": 136,
+            "content": "The ASPLOS 2020 meeting has been canceled due to due to COVID-19. Please read the latest details here.",
+            "key": 1
+          }
+        ]
+      },
+      {
+        "id": 137,
+        "content": "Organization Committee",
+        "isList": true,
+        "key": 27,
+        "children": [
+          {
+            "id": 138,
+            "content": "General Chair,James Larus,EPFL",
+            "isList": true,
+            "key": 1
+          },
+          {
+            "id": 139,
+            "content": "Program Chairs,Luis Ceze,University of Washington,Karin Strauss,Microsoft",
+            "isList": true,
+            "key": 2
+          },
+          {
+            "id": 140,
+            "content": "Finance,Sophia Shao,NVIDIA",
+            "isList": true,
+            "key": 3
+          },
+          {
+            "id": 141,
+            "content": "",
+            "isList": true,
+            "key": 4,
+            "children": [
+              {
+                "id": 142,
+                "content": "Mike Carbin",
+                "key": 1
+              },
+              {
+                "id": 143,
+                "content": "MIT",
+                "key": 2
+              }
+            ]
+          },
+          {
+            "id": 144,
+            "content": "Workshop & Tutorial,Joe Devietti,University of Pennsylvania",
+            "isList": true,
+            "key": 5
+          },
+          {
+            "id": 145,
+            "content": "Travel Grant,Shan Lu,Chicago,Markus Püschel,ETH Zurich",
+            "isList": true,
+            "key": 6
+          },
+          {
+            "id": 146,
+            "content": "Poster Session,Milind Kulkarni,Purdue",
+            "isList": true,
+            "key": 7
+          },
+          {
+            "id": 147,
+            "content": "Wild and Crazy Ideas,Adrian Sampson,Cornell University",
+            "isList": true,
+            "key": 8
+          },
+          {
+            "id": 148,
+            "content": "Lightning Talks,Mohit Tiwari,UT Austin",
+            "isList": true,
+            "key": 9
+          },
+          {
+            "id": 149,
+            "content": "Artifacts,Grigori Fursin,CodeReef,Vijay Janapa Reddi,Harvard,Thierry Moreau,University of Washington",
+            "isList": true,
+            "key": 10
+          },
+          {
+            "id": 150,
+            "content": ",Akshitha Sriraram,University of Michigan",
+            "isList": true,
+            "key": 11
+          },
+          {
+            "id": 151,
+            "content": "Web,Emily Ruppel,Carnegie Mellon University",
+            "isList": true,
+            "key": 12
+          },
+          {
+            "id": 152,
+            "content": "Sponsorship,Haibo Chen,Shanghai Jiao Tong University,Carole-Jean Wu,Arizona State University,Boris Grot,University of Edinburgh",
+            "isList": true,
+            "key": 13
+          },
+          {
+            "id": 153,
+            "content": "Local Arrangements,Ousmane Diallo,EPFL",
+            "isList": true,
+            "key": 14
+          },
+          {
+            "id": 154,
+            "content": "Publications,Abhishek Bhattacharjee,Yale University,Guilherme Cox,NVIDIA",
+            "isList": true,
+            "key": 15
+          }
+        ]
+      },
+      {
+        "id": 155,
+        "content": "Program Committee",
+        "isList": true,
+        "key": 28,
+        "children": [
+          {
+            "id": 156,
+            "content": "Yungang Bao,ICT, CAS",
+            "isList": true,
+            "key": 1
+          },
+          {
+            "id": 157,
+            "content": "Emery Berger,University of Massachusetts",
+            "isList": true,
+            "key": 2
+          },
+          {
+            "id": 158,
+            "content": "Abhishek Bhattacharjee,Yale University",
+            "isList": true,
+            "key": 3
+          },
+          {
+            "id": 159,
+            "content": "Ricardo Bianchini,Microsoft Research",
+            "isList": true,
+            "key": 4
+          },
+          {
+            "id": 160,
+            "content": "Steve Blackburn,Australian National University",
+            "isList": true,
+            "key": 5
+          },
+          {
+            "id": 161,
+            "content": "Michael Bond,Ohio State University",
+            "isList": true,
+            "key": 6
+          },
+          {
+            "id": 162,
+            "content": "David Brooks,Harvard University",
+            "isList": true,
+            "key": 7
+          },
+          {
+            "id": 163,
+            "content": "Michael Carbin,MIT",
+            "isList": true,
+            "key": 8
+          },
+          {
+            "id": 164,
+            "content": "Haibo Chen,SJTU",
+            "isList": true,
+            "key": 9
+          },
+          {
+            "id": 165,
+            "content": "Albert Cohen,Google",
+            "isList": true,
+            "key": 10
+          },
+          {
+            "id": 166,
+            "content": "Christina Delimitrou,Cornell University",
+            "isList": true,
+            "key": 11
+          },
+          {
+            "id": 167,
+            "content": "David Devecsery,Georgia Tech",
+            "isList": true,
+            "key": 12
+          },
+          {
+            "id": 168,
+            "content": "Joe Devietti,University of Pennsylvania",
+            "isList": true,
+            "key": 13
+          },
+          {
+            "id": 169,
+            "content": "Yufei Ding,UC Santa Barbara",
+            "isList": true,
+            "key": 14
+          },
+          {
+            "id": 170,
+            "content": "Lieven Eeckhout,Ghent University",
+            "isList": true,
+            "key": 15
+          },
+          {
+            "id": 171,
+            "content": "Babak Falsafi,EPFL",
+            "isList": true,
+            "key": 16
+          },
+          {
+            "id": 172,
+            "content": "Chris Fletcher,UIUC",
+            "isList": true,
+            "key": 17
+          },
+          {
+            "id": 173,
+            "content": "Ada Gavrilovska,Georgia Tech",
+            "isList": true,
+            "key": 18
+          },
+          {
+            "id": 174,
+            "content": "Boris Grot,University of Edinburgh",
+            "isList": true,
+            "key": 19
+          },
+          {
+            "id": 175,
+            "content": "Qi Guo,ICT",
+            "isList": true,
+            "key": 20
+          },
+          {
+            "id": 176,
+            "content": "Steven Hand,Google",
+            "isList": true,
+            "key": 21
+          },
+          {
+            "id": 177,
+            "content": "Tim Harris,Amazon",
+            "isList": true,
+            "key": 22
+          },
+          {
+            "id": 178,
+            "content": "Hank Hoffmann,University of Chicago",
+            "isList": true,
+            "key": 23
+          },
+          {
+            "id": 179,
+            "content": "Ulya Karpuzcu,University of Minnesota",
+            "isList": true,
+            "key": 24
+          },
+          {
+            "id": 180,
+            "content": "Kim Keeton,HP Labs",
+            "isList": true,
+            "key": 25
+          },
+          {
+            "id": 181,
+            "content": "Martha Kim,Columbia University",
+            "isList": true,
+            "key": 26
+          },
+          {
+            "id": 182,
+            "content": "John Kim,KAIST",
+            "isList": true,
+            "key": 27
+          },
+          {
+            "id": 183,
+            "content": "Chandra Krintz,UC Santa Barbara",
+            "isList": true,
+            "key": 28
+          },
+          {
+            "id": 184,
+            "content": "Milind Kulkarni,Purdue University",
+            "isList": true,
+            "key": 29
+          },
+          {
+            "id": 185,
+            "content": "Benjamin Lee,Duke University",
+            "isList": true,
+            "key": 30
+          },
+          {
+            "id": 186,
+            "content": "Jing Li,University of Wisconsin",
+            "isList": true,
+            "key": 31
+          },
+          {
+            "id": 187,
+            "content": "Gabriel Loh,AMD",
+            "isList": true,
+            "key": 32
+          },
+          {
+            "id": 188,
+            "content": "Jason Lowe-Power,UC Davis",
+            "isList": true,
+            "key": 33
+          },
+          {
+            "id": 189,
+            "content": "Brandon Lucia,Carnegie Mellon University",
+            "isList": true,
+            "key": 34
+          },
+          {
+            "id": 190,
+            "content": "Srilatha Manne,Microsoft",
+            "isList": true,
+            "key": 35
+          },
+          {
+            "id": 191,
+            "content": "Margaret Martonosi,Princeton University",
+            "isList": true,
+            "key": 36
+          },
+          {
+            "id": 192,
+            "content": "Kathryn McKinley,Google",
+            "isList": true,
+            "key": 37
+          },
+          {
+            "id": 193,
+            "content": "Todd Mowry,Carnegie Mellon University",
+            "isList": true,
+            "key": 38
+          },
+          {
+            "id": 194,
+            "content": "Michael O’Boyle,University of Edinburgh",
+            "isList": true,
+            "key": 39
+          },
+          {
+            "id": 195,
+            "content": "Kunle Olukotun,Stanford University",
+            "isList": true,
+            "key": 40
+          },
+          {
+            "id": 196,
+            "content": "Xuehai Qian,USC",
+            "isList": true,
+            "key": 41
+          },
+          {
+            "id": 197,
+            "content": "Jonathan Ragan-Kelley,UC Berkeley",
+            "isList": true,
+            "key": 42
+          },
+          {
+            "id": 198,
+            "content": "Christopher Rossbach,UT Austin",
+            "isList": true,
+            "key": 43
+          },
+          {
+            "id": 199,
+            "content": "Adrian Sampson,Cornell University",
+            "isList": true,
+            "key": 44
+          },
+          {
+            "id": 200,
+            "content": "Sophia Shao,NVIDIA",
+            "isList": true,
+            "key": 45
+          },
+          {
+            "id": 201,
+            "content": "Tim Sherwood,UC Santa Barbara",
+            "isList": true,
+            "key": 46
+          },
+          {
+            "id": 202,
+            "content": "Tatiana Shpeisman,Google",
+            "isList": true,
+            "key": 47
+          },
+          {
+            "id": 203,
+            "content": "Mark Silberstein,Technion",
+            "isList": true,
+            "key": 48
+          },
+          {
+            "id": 204,
+            "content": "Steve Swanson,UC San Diego",
+            "isList": true,
+            "key": 49
+          },
+          {
+            "id": 205,
+            "content": "Mike Swift,University of Wisconsin",
+            "isList": true,
+            "key": 50
+          },
+          {
+            "id": 206,
+            "content": "Lin Tan,Purdue University",
+            "isList": true,
+            "key": 51
+          },
+          {
+            "id": 207,
+            "content": "Zachary Tatlock,University of Washington",
+            "isList": true,
+            "key": 52
+          },
+          {
+            "id": 208,
+            "content": "Mohit Tiwari,University of Texas at Austin",
+            "isList": true,
+            "key": 53
+          },
+          {
+            "id": 209,
+            "content": "Caroline Trippel,Princeton University",
+            "isList": true,
+            "key": 54
+          },
+          {
+            "id": 210,
+            "content": "Emmett Witchel,University of Texas at Austin",
+            "isList": true,
+            "key": 55
+          },
+          {
+            "id": 211,
+            "content": "Jae Wook Lee,SNU",
+            "isList": true,
+            "key": 56
+          },
+          {
+            "id": 212,
+            "content": "Harry Xu,UCLA",
+            "isList": true,
+            "key": 57
+          }
+        ]
+      },
+      {
+        "id": 213,
+        "content": "ASPLOS Steering Committee",
+        "key": 29,
+        "children": [
+          {
+            "id": 214,
+            "content": "",
+            "isList": true,
+            "key": 1,
+            "children": [
+              {
+                "id": 215,
+                "content": "Sarita Adve,UIUC",
+                "isList": true,
+                "key": 1
+              },
+              {
+                "id": 216,
+                "content": "Iris Bahar,Brown University",
+                "isList": true,
+                "key": 2
+              },
+              {
+                "id": 217,
+                "content": "Ricardo Bianchini,Microsoft Research",
+                "isList": true,
+                "key": 3
+              },
+              {
+                "id": 218,
+                "content": "John Carter,IBM",
+                "isList": true,
+                "key": 4
+              },
+              {
+                "id": 219,
+                "content": "Yunji Chen,Chinese Academy of Science",
+                "isList": true,
+                "key": 5
+              },
+              {
+                "id": 220,
+                "content": "Babak Falsafi,EPFL",
+                "isList": true,
+                "key": 6
+              },
+              {
+                "id": 221,
+                "content": "Maurice Herlihy,Brown University",
+                "isList": true,
+                "key": 7
+              },
+              {
+                "id": 222,
+                "content": "Shan Lu,University Chicago",
+                "isList": true,
+                "key": 8
+              },
+              {
+                "id": 223,
+                "content": "Alvin Lebeck,Duke University",
+                "isList": true,
+                "key": 9
+              },
+              {
+                "id": 224,
+                "content": "Benjamin Pierce,University of Pennsylvania",
+                "isList": true,
+                "key": 10
+              },
+              {
+                "id": 225,
+                "content": "Vivek Sarkar,Georgia Institute of Techology",
+                "isList": true,
+                "key": 11
+              },
+              {
+                "id": 226,
+                "content": "Xipeng Shen (co-chair),North Carolina State University",
+                "isList": true,
+                "key": 12
+              },
+              {
+                "id": 227,
+                "content": "James Tuck (co-chair),North Carolina State University",
+                "isList": true,
+                "key": 13
+              },
+              {
+                "id": 228,
+                "content": "Emmett Witchel,University of Texas at Austin",
+                "isList": true,
+                "key": 14
+              }
+            ]
+          },
+          {
+            "id": 229,
+            "content": "Skip to content",
+            "key": 2
+          }
+        ]
+      },
+      {
+        "id": 230,
+        "content": "Call for Contributions",
+        "key": 30,
+        "children": [
+          {
+            "id": 231,
+            "content": "Please Note:",
+            "key": 1,
+            "children": [
+              {
+                "id": 232,
+                "content": "The ASPLOS 2020 meeting has been canceled due to due to COVID-19. Please read the latest details here.",
+                "key": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 233,
+        "content": "Call for Papers",
+        "key": 31,
+        "children": [
+          {
+            "id": 234,
+            "content": "Main conference:",
+            "key": 1,
+            "children": [
+              {
+                "id": 235,
+                "content": "25th International Conference on Architectural Support for Programming Languages and Operating Systems",
+                "key": 1
+              },
+              {
+                "id": 236,
+                "content": "PDF Version",
+                "key": 2
+              },
+              {
+                "id": 237,
+                "content": "Abstract submissions August 9, 2019 (4:59:59pm PDT)Full paper submissions August 16, 2019 (4:59:59pm PDT)   Author response October 28-November 1, 2019Author Notification November 20, 2019   Artifact submission (optional) December 4, 2019   Final copy deadline January 20, 2020",
+                "key": 3
+              },
+              {
+                "id": 238,
+                "content": "ASPLOS is the premier forum for interdisciplinary systems research, intersecting computer architecture, hardware and emerging technologies, programming languages and compilers, operating systems, and networking. The 25th ASPLOS will be held in Lausanne, Switzerland, a beautiful town on the shores of Lake Geneva, conveniently located in the center of Europe, and at EPFL.",
+                "key": 4
+              },
+              {
+                "id": 239,
+                "content": "Like its predecessors, ASPLOS 2020 invites papers on ground-breaking research at the intersection of the ASPLOS disciplines: architecture, programming languages, operating systems, and related areas. Non-traditional topics are especially encouraged. The importance of cross-cutting research continues to increase as we grapple with the end of Dennard scaling, the explosion of big data, the scale of computing from ultra-low power wearables to exascale systems, the need for sustainability, and the growth of human-centered applications. ASPLOS embraces systems research that addresses new problems in innovative ways. Research may target diverse goals such as performance, energy and thermal efficiency, resiliency, security, privacy, sustainability, applicability to future technologies, applications, and environments. The review process will be sensitive to the challenges of multidisciplinary work and emerging areas.",
+                "key": 5
+              },
+              {
+                "id": 240,
+                "content": "Areas of interest include, but are not limited to:",
+                "key": 6
+              },
+              {
+                "id": 241,
+                "content": "",
+                "isList": true,
+                "key": 7,
+                "children": [
+                  {
+                    "id": 242,
+                    "content": "Existing and emerging platforms at all scales, from embedded to cloud",
+                    "key": 1
+                  },
+                  {
+                    "id": 243,
+                    "content": "Traditional and extreme environments, from implantable to space",
+                    "key": 2
+                  },
+                  {
+                    "id": 244,
+                    "content": "Internet services, cloud computing, and datacenters",
+                    "key": 3
+                  },
+                  {
+                    "id": 245,
+                    "content": "Multicore architectures and systems",
+                    "key": 4
+                  },
+                  {
+                    "id": 246,
+                    "content": "Heterogeneous architectures and accelerators",
+                    "key": 5
+                  },
+                  {
+                    "id": 247,
+                    "content": "Systems for enabling parallelism at an extreme scale",
+                    "key": 6
+                  },
+                  {
+                    "id": 248,
+                    "content": "Programming models, languages, and compilation for all platforms",
+                    "key": 7
+                  },
+                  {
+                    "id": 249,
+                    "content": "Managing, storing, and computing big data",
+                    "key": 8
+                  },
+                  {
+                    "id": 250,
+                    "content": "Virtualization and virtualized systems",
+                    "key": 9
+                  },
+                  {
+                    "id": 251,
+                    "content": "Memory/storage technologies and architectures",
+                    "key": 10
+                  },
+                  {
+                    "id": 252,
+                    "content": "Power, energy, and thermal management",
+                    "key": 11
+                  },
+                  {
+                    "id": 253,
+                    "content": "Security, reliability, availability, and sustainability",
+                    "key": 12
+                  },
+                  {
+                    "id": 254,
+                    "content": "Verification and testing, and their impact on design and security",
+                    "key": 13
+                  },
+                  {
+                    "id": 255,
+                    "content": "Systems and hardware support for machine learning",
+                    "key": 14
+                  },
+                  {
+                    "id": 256,
+                    "content": "Non-traditional computing systems, including emerging devices",
+                    "key": 15
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 257,
+        "content": "Call for Research Artifacts",
+        "key": 32,
+        "children": [
+          {
+            "id": 258,
+            "content": "Submissions to ASPLOS often comprise far more than the paper– they include supporting materials such as code, data, models, experimental workflows or results that are crucial to evaluating the conclusions drawn in the paper. To promote the reproducibility of experimental results and to encourage authors to provide useful artifacts that help the community quickly validate and compare alternative approaches, ASPLOS 2020 includes an artifact evaluation process. We invite authors of accepted ASPLOS 2020 papers to submit their supporting materials to the Artifact Evaluation process based on the ACM Artifact Review and Badging policy, a standard for systems conferences including CGO, PLDI, PPoPP and SuperComputing.",
+            "key": 1
+          },
+          {
+            "id": 259,
+            "content": "The Artifact Evaluation process is run by a separate committee whose task is to assess how the artifacts support the work described in the papers. This submission is voluntary and will not influence the final decision regarding the papers. Please note that the artifact submission deadline is shortly after notification of the paper’s acceptance– authors should prepare in advance to ensure time for artifact assembly and documentation. Camera-ready papers that successfully go through the Artifact Evaluation process will include an Artifact Appendix and will receive a set of ACM badges printed on the camera-ready papers. Additional information is available on the ASPLOS 2020 AE web page.",
+            "key": 2
+          },
+          {
+            "id": 260,
+            "content": "Important Dates:",
+            "isList": true,
+            "key": 3,
+            "children": [
+              {
+                "id": 261,
+                "content": "Artifact submission:",
+                "key": 1,
+                "children": [
+                  {
+                    "id": 262,
+                    "content": "December 4, 2019",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 263,
+                "content": "Artifact decision:",
+                "key": 2,
+                "children": [
+                  {
+                    "id": 264,
+                    "content": "January 15, 2020",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 265,
+                "content": "Reproducibility discussion:",
+                "key": 3,
+                "children": [
+                  {
+                    "id": 266,
+                    "content": "TBA",
+                    "key": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 267,
+            "content": "Important Links:",
+            "isList": true,
+            "key": 4,
+            "children": [
+              {
+                "id": 268,
+                "content": "ASPLOS 2020 Artifact Evaluation website",
+                "key": 1
+              },
+              {
+                "id": 269,
+                "content": "Artifact submissions",
+                "key": 2
+              },
+              {
+                "id": 270,
+                "content": "Example artifact submissions",
+                "key": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 271,
+        "content": "Call for Workshop Proposals",
+        "key": 33,
+        "children": [
+          {
+            "id": 272,
+            "content": "Workshop proposals are solicited for ASPLOS 2020 in Lausanne, Switzerland. Workshops will be held Monday, March 16, 2020 and Tuesday, March 17, 2020.",
+            "key": 1
+          },
+          {
+            "id": 273,
+            "content": "Proposals in the interplay between programming languages, computer architecture, operating systems, and user interfaces to deal with challenges — such as, power, performance, resilience, and programmer productivity — in emerging areas — such as datacenter/cloud computing, systems based on non-volatile memory technologies, large-scale data analysis, smart infrastructure, and extreme scale computing — are encouraged.",
+            "key": 2
+          },
+          {
+            "id": 274,
+            "content": "Please include the following in your proposal:",
+            "key": 3,
+            "children": [
+              {
+                "id": 275,
+                "content": "",
+                "isList": true,
+                "key": 1,
+                "children": [
+                  {
+                    "id": 276,
+                    "content": "Title of the workshop",
+                    "key": 1
+                  },
+                  {
+                    "id": 277,
+                    "content": "Organizers and their affiliations",
+                    "key": 2
+                  },
+                  {
+                    "id": 278,
+                    "content": "Sample call for papers",
+                    "key": 3
+                  },
+                  {
+                    "id": 279,
+                    "content": "Duration – Half-Day or Full Day",
+                    "key": 4
+                  },
+                  {
+                    "id": 280,
+                    "content": "Preferred Day - Monday or Tuesday",
+                    "key": 5
+                  },
+                  {
+                    "id": 281,
+                    "content": "If the workshop was held previously, please include the location (conference), date, and the number of attendees.",
+                    "key": 6
+                  }
+                ]
+              },
+              {
+                "id": 282,
+                "content": "Proposals should be submitted via e-mail to Michael Carbin (mcarbin@csail.mit.edu) with the subject “ASPLOS2020 Workshop Proposal”. Submissions will be acknowledged via e-mail.",
+                "key": 2
+              },
+              {
+                "id": 283,
+                "content": "Feel free to contact Michael with questions about the suitability of a workshop for ASPLOS or for any other related matters.",
+                "key": 3
+              }
+            ]
+          },
+          {
+            "id": 284,
+            "content": "Important Dates:",
+            "isList": true,
+            "key": 4,
+            "children": [
+              {
+                "id": 285,
+                "content": "Submission deadline:",
+                "key": 1,
+                "children": [
+                  {
+                    "id": 286,
+                    "content": "Monday, November 4, 2019 *",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 287,
+                "content": "Notification:",
+                "key": 2,
+                "children": [
+                  {
+                    "id": 288,
+                    "content": "Monday, November 18, 2019",
+                    "key": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 289,
+        "content": "Call for Tutorial Proposals",
+        "key": 34,
+        "children": [
+          {
+            "id": 290,
+            "content": "Tutorial proposals are solicited for ASPLOS 2020 in Lausanne, Switzerland. Tutorials will be held Monday, March 16, 2020 and Tuesday, March 17, 2020.",
+            "key": 1
+          },
+          {
+            "id": 291,
+            "content": "Proposals for both half- and full-day tutorials are solicited on any topic that is relevant to the ASPLOS audience. In previous years, tutorials seeking to achieve either of the following goals have been particularly successful:",
+            "key": 2
+          },
+          {
+            "id": 292,
+            "content": "",
+            "isList": true,
+            "key": 3,
+            "children": [
+              {
+                "id": 293,
+                "content": "Describe an important piece of research infrastructure.",
+                "key": 1
+              },
+              {
+                "id": 294,
+                "content": "Educate the community on an emerging topic.",
+                "key": 2
+              }
+            ]
+          },
+          {
+            "id": 295,
+            "content": "Please include the following in your proposal:",
+            "key": 4,
+            "children": [
+              {
+                "id": 296,
+                "content": "",
+                "isList": true,
+                "key": 1,
+                "children": [
+                  {
+                    "id": 297,
+                    "content": "Title",
+                    "key": 1
+                  },
+                  {
+                    "id": 298,
+                    "content": "Presenter(s) and contact information",
+                    "key": 2
+                  },
+                  {
+                    "id": 299,
+                    "content": "Proposed duration– Half-Day or Full Day",
+                    "key": 3
+                  },
+                  {
+                    "id": 300,
+                    "content": "1-2 paragraph abstract suitable for tutorial publicity",
+                    "key": 4
+                  },
+                  {
+                    "id": 301,
+                    "content": "1 paragraph biography per presenter suitable for tutorial publicity",
+                    "key": 5
+                  },
+                  {
+                    "id": 302,
+                    "content": "",
+                    "key": 6,
+                    "children": [
+                      {
+                        "id": 303,
+                        "content": "1-3 page description (for evaluation). This should include:",
+                        "key": 1
+                      },
+                      {
+                        "id": 304,
+                        "content": "",
+                        "isList": true,
+                        "key": 2,
+                        "children": [
+                          {
+                            "id": 305,
+                            "content": "Tutorial scope and objectives",
+                            "key": 1
+                          },
+                          {
+                            "id": 306,
+                            "content": "Topics to be covered",
+                            "key": 2
+                          },
+                          {
+                            "id": 307,
+                            "content": "Target audience",
+                            "key": 3
+                          },
+                          {
+                            "id": 308,
+                            "content": "If the tutorial has been held previously, the location (i.e., conference), date, and number of attendees.",
+                            "key": 4
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 309,
+                "content": "Proposals should be submitted via e-mail to Michael Carbin (mcarbin@csail.mit.edu) with the subject “ASPLOS2020 Tutorial Proposal”. Submissions will be acknowledged via e-mail.",
+                "key": 2
+              },
+              {
+                "id": 310,
+                "content": "Feel free to contact Michael with questions about the suitability of a tutorial for ASPLOS or for any other related matters.",
+                "key": 3
+              }
+            ]
+          },
+          {
+            "id": 311,
+            "content": "Important Dates:",
+            "key": 5,
+            "children": [
+              {
+                "id": 312,
+                "content": "",
+                "isList": true,
+                "key": 1,
+                "children": [
+                  {
+                    "id": 313,
+                    "content": "Submission deadline:",
+                    "key": 1,
+                    "children": [
+                      {
+                        "id": 314,
+                        "content": "Monday, November 4, 2019 *",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 315,
+                    "content": "Notification:",
+                    "key": 2,
+                    "children": [
+                      {
+                        "id": 316,
+                        "content": "Monday, November 18, 2019",
+                        "key": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 317,
+                "content": "*Correction: Previously listed as Monday, November 1, 2019",
+                "key": 2
+              }
+            ]
+          },
+          {
+            "id": 318,
+            "content": "Call for WACI",
+            "key": 6,
+            "children": [
+              {
+                "id": 319,
+                "content": "The Wild and Crazy Ideas (WACI) session is a time-honored tradition at ASPLOS that frees researchers from the shackles of realism, removes the blinders of short-term thinking, and opens the scientific mind to uncharted frontiers. Since 1998, WACI has provided a counterweight to the conservative impulses wrought by the traditional peer review path.",
+                "key": 1
+              },
+              {
+                "id": 320,
+                "content": "This is your moment to propose something huge—something no one else is talking about. Craft a talk proposal that:",
+                "key": 2
+              },
+              {
+                "id": 321,
+                "content": "",
+                "isList": true,
+                "key": 3,
+                "children": [
+                  {
+                    "id": 322,
+                    "content": "Falls within the ASPLOS purview:",
+                    "key": 1,
+                    "children": [
+                      {
+                        "id": 323,
+                        "content": "Your idea should combine elements of at least two of architecture, programming languages, and operating systems.",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 324,
+                    "content": "Is not (yet) publishable research:",
+                    "key": 2,
+                    "children": [
+                      {
+                        "id": 325,
+                        "content": "Propose something neither you nor anyone else in the community is actually working on—for example, because it seems only barely feasible, because it requires thinking far into the future, because it strays into intellectual domains too far from core ASPLOS expertise, or because it directly contradicts the conventional wisdom.",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 326,
+                    "content": "Might change the world:",
+                    "key": 3,
+                    "children": [
+                      {
+                        "id": 327,
+                        "content": "Your idea must be enormous. Unshackle your ambition.",
+                        "key": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 328,
+                "content": "Ideas may also be funny—we encourage it!—but we think ideas are funniest when they build on an element of real, world-changing, convention-challenging research thought.",
+                "key": 4
+              },
+              {
+                "id": 329,
+                "content": "Submit a one-paragraph abstract of your idea by January 31 via the submission form [https://forms.gle/oCn7YMRjDyNdTKz28 ]. If the WACI chairs select your abstract for a talk, here’s what you can expect:",
+                "key": 5
+              },
+              {
+                "id": 330,
+                "content": "",
+                "isList": true,
+                "key": 6,
+                "children": [
+                  {
+                    "id": 331,
+                    "content": "You write a longer version of your idea (limit: two pages) for publication on the WACI website.",
+                    "key": 1
+                  },
+                  {
+                    "id": 332,
+                    "content": "The WACI chairs work with you to craft an excellent, compact, entertaining talk for the WACI session in Lausanne.",
+                    "key": 2
+                  }
+                ]
+              },
+              {
+                "id": 333,
+                "content": "Contact the WACI chairs, Adrian Sampson and Christina Delimitrou, with any questions.",
+                "key": 7
+              },
+              {
+                "id": 334,
+                "content": "Skip to content",
+                "key": 8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 335,
+        "content": "Committees",
+        "key": 35,
+        "children": [
+          {
+            "id": 336,
+            "content": "Please Note:",
+            "key": 1,
+            "children": [
+              {
+                "id": 337,
+                "content": "The ASPLOS 2020 meeting has been canceled due to due to COVID-19. Please read the latest details here.",
+                "key": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 338,
+        "content": "Organization Committee",
+        "isList": true,
+        "key": 36,
+        "children": [
+          {
+            "id": 339,
+            "content": "General Chair,James Larus,EPFL",
+            "isList": true,
+            "key": 1
+          },
+          {
+            "id": 340,
+            "content": "Program Chairs,Luis Ceze,University of Washington,Karin Strauss,Microsoft",
+            "isList": true,
+            "key": 2
+          },
+          {
+            "id": 341,
+            "content": "Finance,Sophia Shao,NVIDIA",
+            "isList": true,
+            "key": 3
+          },
+          {
+            "id": 342,
+            "content": "",
+            "isList": true,
+            "key": 4,
+            "children": [
+              {
+                "id": 343,
+                "content": "Mike Carbin",
+                "key": 1
+              },
+              {
+                "id": 344,
+                "content": "MIT",
+                "key": 2
+              }
+            ]
+          },
+          {
+            "id": 345,
+            "content": "Workshop & Tutorial,Joe Devietti,University of Pennsylvania",
+            "isList": true,
+            "key": 5
+          },
+          {
+            "id": 346,
+            "content": "Travel Grant,Shan Lu,Chicago,Markus Püschel,ETH Zurich",
+            "isList": true,
+            "key": 6
+          },
+          {
+            "id": 347,
+            "content": "Poster Session,Milind Kulkarni,Purdue",
+            "isList": true,
+            "key": 7
+          },
+          {
+            "id": 348,
+            "content": "Wild and Crazy Ideas,Adrian Sampson,Cornell University",
+            "isList": true,
+            "key": 8
+          },
+          {
+            "id": 349,
+            "content": "Lightning Talks,Mohit Tiwari,UT Austin",
+            "isList": true,
+            "key": 9
+          },
+          {
+            "id": 350,
+            "content": "Artifacts,Grigori Fursin,CodeReef,Vijay Janapa Reddi,Harvard,Thierry Moreau,University of Washington",
+            "isList": true,
+            "key": 10
+          },
+          {
+            "id": 351,
+            "content": ",Akshitha Sriraram,University of Michigan",
+            "isList": true,
+            "key": 11
+          },
+          {
+            "id": 352,
+            "content": "Web,Emily Ruppel,Carnegie Mellon University",
+            "isList": true,
+            "key": 12
+          },
+          {
+            "id": 353,
+            "content": "Sponsorship,Haibo Chen,Shanghai Jiao Tong University,Carole-Jean Wu,Arizona State University,Boris Grot,University of Edinburgh",
+            "isList": true,
+            "key": 13
+          },
+          {
+            "id": 354,
+            "content": "Local Arrangements,Ousmane Diallo,EPFL",
+            "isList": true,
+            "key": 14
+          },
+          {
+            "id": 355,
+            "content": "Publications,Abhishek Bhattacharjee,Yale University,Guilherme Cox,NVIDIA",
+            "isList": true,
+            "key": 15
+          }
+        ]
+      },
+      {
+        "id": 356,
+        "content": "Program Committee",
+        "isList": true,
+        "key": 37,
+        "children": [
+          {
+            "id": 357,
+            "content": "Yungang Bao,ICT, CAS",
+            "isList": true,
+            "key": 1
+          },
+          {
+            "id": 358,
+            "content": "Emery Berger,University of Massachusetts",
+            "isList": true,
+            "key": 2
+          },
+          {
+            "id": 359,
+            "content": "Abhishek Bhattacharjee,Yale University",
+            "isList": true,
+            "key": 3
+          },
+          {
+            "id": 360,
+            "content": "Ricardo Bianchini,Microsoft Research",
+            "isList": true,
+            "key": 4
+          },
+          {
+            "id": 361,
+            "content": "Steve Blackburn,Australian National University",
+            "isList": true,
+            "key": 5
+          },
+          {
+            "id": 362,
+            "content": "Michael Bond,Ohio State University",
+            "isList": true,
+            "key": 6
+          },
+          {
+            "id": 363,
+            "content": "David Brooks,Harvard University",
+            "isList": true,
+            "key": 7
+          },
+          {
+            "id": 364,
+            "content": "Michael Carbin,MIT",
+            "isList": true,
+            "key": 8
+          },
+          {
+            "id": 365,
+            "content": "Haibo Chen,SJTU",
+            "isList": true,
+            "key": 9
+          },
+          {
+            "id": 366,
+            "content": "Albert Cohen,Google",
+            "isList": true,
+            "key": 10
+          },
+          {
+            "id": 367,
+            "content": "Christina Delimitrou,Cornell University",
+            "isList": true,
+            "key": 11
+          },
+          {
+            "id": 368,
+            "content": "David Devecsery,Georgia Tech",
+            "isList": true,
+            "key": 12
+          },
+          {
+            "id": 369,
+            "content": "Joe Devietti,University of Pennsylvania",
+            "isList": true,
+            "key": 13
+          },
+          {
+            "id": 370,
+            "content": "Yufei Ding,UC Santa Barbara",
+            "isList": true,
+            "key": 14
+          },
+          {
+            "id": 371,
+            "content": "Lieven Eeckhout,Ghent University",
+            "isList": true,
+            "key": 15
+          },
+          {
+            "id": 372,
+            "content": "Babak Falsafi,EPFL",
+            "isList": true,
+            "key": 16
+          },
+          {
+            "id": 373,
+            "content": "Chris Fletcher,UIUC",
+            "isList": true,
+            "key": 17
+          },
+          {
+            "id": 374,
+            "content": "Ada Gavrilovska,Georgia Tech",
+            "isList": true,
+            "key": 18
+          },
+          {
+            "id": 375,
+            "content": "Boris Grot,University of Edinburgh",
+            "isList": true,
+            "key": 19
+          },
+          {
+            "id": 376,
+            "content": "Qi Guo,ICT",
+            "isList": true,
+            "key": 20
+          },
+          {
+            "id": 377,
+            "content": "Steven Hand,Google",
+            "isList": true,
+            "key": 21
+          },
+          {
+            "id": 378,
+            "content": "Tim Harris,Amazon",
+            "isList": true,
+            "key": 22
+          },
+          {
+            "id": 379,
+            "content": "Hank Hoffmann,University of Chicago",
+            "isList": true,
+            "key": 23
+          },
+          {
+            "id": 380,
+            "content": "Ulya Karpuzcu,University of Minnesota",
+            "isList": true,
+            "key": 24
+          },
+          {
+            "id": 381,
+            "content": "Kim Keeton,HP Labs",
+            "isList": true,
+            "key": 25
+          },
+          {
+            "id": 382,
+            "content": "Martha Kim,Columbia University",
+            "isList": true,
+            "key": 26
+          },
+          {
+            "id": 383,
+            "content": "John Kim,KAIST",
+            "isList": true,
+            "key": 27
+          },
+          {
+            "id": 384,
+            "content": "Chandra Krintz,UC Santa Barbara",
+            "isList": true,
+            "key": 28
+          },
+          {
+            "id": 385,
+            "content": "Milind Kulkarni,Purdue University",
+            "isList": true,
+            "key": 29
+          },
+          {
+            "id": 386,
+            "content": "Benjamin Lee,Duke University",
+            "isList": true,
+            "key": 30
+          },
+          {
+            "id": 387,
+            "content": "Jing Li,University of Wisconsin",
+            "isList": true,
+            "key": 31
+          },
+          {
+            "id": 388,
+            "content": "Gabriel Loh,AMD",
+            "isList": true,
+            "key": 32
+          },
+          {
+            "id": 389,
+            "content": "Jason Lowe-Power,UC Davis",
+            "isList": true,
+            "key": 33
+          },
+          {
+            "id": 390,
+            "content": "Brandon Lucia,Carnegie Mellon University",
+            "isList": true,
+            "key": 34
+          },
+          {
+            "id": 391,
+            "content": "Srilatha Manne,Microsoft",
+            "isList": true,
+            "key": 35
+          },
+          {
+            "id": 392,
+            "content": "Margaret Martonosi,Princeton University",
+            "isList": true,
+            "key": 36
+          },
+          {
+            "id": 393,
+            "content": "Kathryn McKinley,Google",
+            "isList": true,
+            "key": 37
+          },
+          {
+            "id": 394,
+            "content": "Todd Mowry,Carnegie Mellon University",
+            "isList": true,
+            "key": 38
+          },
+          {
+            "id": 395,
+            "content": "Michael O’Boyle,University of Edinburgh",
+            "isList": true,
+            "key": 39
+          },
+          {
+            "id": 396,
+            "content": "Kunle Olukotun,Stanford University",
+            "isList": true,
+            "key": 40
+          },
+          {
+            "id": 397,
+            "content": "Xuehai Qian,USC",
+            "isList": true,
+            "key": 41
+          },
+          {
+            "id": 398,
+            "content": "Jonathan Ragan-Kelley,UC Berkeley",
+            "isList": true,
+            "key": 42
+          },
+          {
+            "id": 399,
+            "content": "Christopher Rossbach,UT Austin",
+            "isList": true,
+            "key": 43
+          },
+          {
+            "id": 400,
+            "content": "Adrian Sampson,Cornell University",
+            "isList": true,
+            "key": 44
+          },
+          {
+            "id": 401,
+            "content": "Sophia Shao,NVIDIA",
+            "isList": true,
+            "key": 45
+          },
+          {
+            "id": 402,
+            "content": "Tim Sherwood,UC Santa Barbara",
+            "isList": true,
+            "key": 46
+          },
+          {
+            "id": 403,
+            "content": "Tatiana Shpeisman,Google",
+            "isList": true,
+            "key": 47
+          },
+          {
+            "id": 404,
+            "content": "Mark Silberstein,Technion",
+            "isList": true,
+            "key": 48
+          },
+          {
+            "id": 405,
+            "content": "Steve Swanson,UC San Diego",
+            "isList": true,
+            "key": 49
+          },
+          {
+            "id": 406,
+            "content": "Mike Swift,University of Wisconsin",
+            "isList": true,
+            "key": 50
+          },
+          {
+            "id": 407,
+            "content": "Lin Tan,Purdue University",
+            "isList": true,
+            "key": 51
+          },
+          {
+            "id": 408,
+            "content": "Zachary Tatlock,University of Washington",
+            "isList": true,
+            "key": 52
+          },
+          {
+            "id": 409,
+            "content": "Mohit Tiwari,University of Texas at Austin",
+            "isList": true,
+            "key": 53
+          },
+          {
+            "id": 410,
+            "content": "Caroline Trippel,Princeton University",
+            "isList": true,
+            "key": 54
+          },
+          {
+            "id": 411,
+            "content": "Emmett Witchel,University of Texas at Austin",
+            "isList": true,
+            "key": 55
+          },
+          {
+            "id": 412,
+            "content": "Jae Wook Lee,SNU",
+            "isList": true,
+            "key": 56
+          },
+          {
+            "id": 413,
+            "content": "Harry Xu,UCLA",
+            "isList": true,
+            "key": 57
+          }
+        ]
+      },
+      {
+        "id": 414,
+        "content": "ASPLOS Steering Committee",
+        "isList": true,
+        "key": 38,
+        "children": [
+          {
+            "id": 415,
+            "content": "Sarita Adve,UIUC",
+            "isList": true,
+            "key": 1
+          },
+          {
+            "id": 416,
+            "content": "Iris Bahar,Brown University",
+            "isList": true,
+            "key": 2
+          },
+          {
+            "id": 417,
+            "content": "Ricardo Bianchini,Microsoft Research",
+            "isList": true,
+            "key": 3
+          },
+          {
+            "id": 418,
+            "content": "John Carter,IBM",
+            "isList": true,
+            "key": 4
+          },
+          {
+            "id": 419,
+            "content": "Yunji Chen,Chinese Academy of Science",
+            "isList": true,
+            "key": 5
+          },
+          {
+            "id": 420,
+            "content": "Babak Falsafi,EPFL",
+            "isList": true,
+            "key": 6
+          },
+          {
+            "id": 421,
+            "content": "Maurice Herlihy,Brown University",
+            "isList": true,
+            "key": 7
+          },
+          {
+            "id": 422,
+            "content": "Shan Lu,University Chicago",
+            "isList": true,
+            "key": 8
+          },
+          {
+            "id": 423,
+            "content": "Alvin Lebeck,Duke University",
+            "isList": true,
+            "key": 9
+          },
+          {
+            "id": 424,
+            "content": "Benjamin Pierce,University of Pennsylvania",
+            "isList": true,
+            "key": 10
+          },
+          {
+            "id": 425,
+            "content": "Vivek Sarkar,Georgia Institute of Techology",
+            "isList": true,
+            "key": 11
+          },
+          {
+            "id": 426,
+            "content": "Xipeng Shen (co-chair),North Carolina State University",
+            "isList": true,
+            "key": 12
+          },
+          {
+            "id": 427,
+            "content": "James Tuck (co-chair),North Carolina State University",
+            "isList": true,
+            "key": 13
+          },
+          {
+            "id": 428,
+            "content": "Emmett Witchel,University of Texas at Austin",
+            "isList": true,
+            "key": 14
+          }
+        ]
+      }
+    ]
+}

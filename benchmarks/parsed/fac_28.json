@@ -1,0 +1,435 @@
+{
+    "id": 0,
+    "content": "Ronghui Gu - Computer Science - Columbia University",
+    "children": [
+        {
+            "id": 1,
+            "content": "Ronghui Gu",
+            "key": 1,
+            "children": [
+                {
+                    "id": 2,
+                    "content": "I am an Assistant Professor of Computer Science at Columbia University.",
+                    "key": 1
+                },
+                {
+                    "id": 3,
+                    "content": "My research interests span a range of areas in Programming Languages, Operating Systems, and Blockchain Systems, with a focus on language-based support for safety and security, certified system software, certified programming and compilation, formal methods, and concurrency reasoning.",
+                    "key": 2
+                },
+                {
+                    "id": 4,
+                    "content": "I co-founded CertiK, a systems verification startup. Press on CertiK: Forbes, Coindesk, Yale News.",
+                    "key": 3
+                },
+                {
+                    "id": 5,
+                    "content": "[CV.pdf] [ResearchStatement.pdf]",
+                    "key": 4
+                },
+                {
+                    "id": 6,
+                    "content": "Hiring!",
+                    "key": 5,
+                    "children": [
+                        {
+                            "id": 7,
+                            "content": "My research group at Columbia University is looking for PhD/Master students, and Postdocs. Check out our recent CACM Research Highlights, SOSP 2019 (Best Paper Award), PLDI 2018, OSDI 2016, and POPL 2015 papers (and the press release) for an overview of our latest breakthrough on building bug-free and hacker-resistant systems software.",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "content": "Education",
+                    "isList": true,
+                    "key": 6,
+                    "children": [
+                        {
+                            "id": 9,
+                            "content": "Aug. 2011 to Aug. 2016, Yale University, PhD in Computer Science.",
+                            "key": 1
+                        },
+                        {
+                          "id": 10,
+                          "content": "Advisor:",
+                          "key": 2,
+                          "children": [
+                            {
+                              "id": 11,
+                              "content": "Professor Zhong Shao",
+                              "key": 1
+                            }
+                          ]
+                        },
+                      {
+                        "id": 12,
+                        "content": "Thesis:",
+                        "key": 3,
+                        "children": [
+                          {
+                            "id": 13,
+                            "content": "An Extensible Architecture for Building Certified Sequential and Concurrent OS Kernels.",
+                            "key": 1
+                          }
+                        ]
+                      },
+                      {
+                        "id": 14,
+                        "content": "Distinction Dissertation of Yale Graduate School of Art and Science",
+                        "key": 4
+                      },
+                      {
+                        "id": 15,
+                        "content": "Yale Nominee of the ACM Doctoral Dissertation Award",
+                        "key": 5
+                      },
+                      {
+                        "id": 16,
+                        "content": "Aug. 2007 to Jul. 2011, Tsinghua University, B.S. in Computer Science.",
+                        "key": 6
+                      },
+                      {
+                        "id": 17,
+                        "content": "Rank:",
+                        "key": 7,
+                        "children": [
+                          {
+                            "id": 18,
+                            "content": "4/140",
+                            "key": 1
+                          }
+                        ]
+                      },
+                      {
+                        "id": 19,
+                        "content": "Graduation with Highest Distinction, 3among 140",
+                        "key": 8
+                      }
+                    ]
+                },
+                {
+                    "id": 20,
+                    "content": "Manuscripts",
+                    "key": 7,
+                    "children": [
+                        {
+                            "id": 21,
+                            "content": "[arXiv] Contract-based Verification of a Realistic Quantum Compiler. Y. Shi, X. Li, R. Tao, A. Javadi-Abhari, A. Cross, F. Chong, and R. Gu",
+                            "isList": true,
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 22,
+                    "content": "Select Publications",
+                    "isList": true,
+                    "key": 8,
+                    "children": [
+                      {
+                        "id": 23,
+                        "content": "[PLDI 2020][New] Learning Nonlinear Loop Invariants with Gated Continuous Logic Networks. J. Yao, G. Ryan, J. Wong, S. Jana, and R. Gu",
+                        "key": 1
+                      },
+                      {
+                        "id": 24,
+                        "content": "[ICLR 2020][New] CLN2INV: Learning Loop Invariants with Continuous Logic Networks. G. Ryan, J. Wong, J. Yao, R. Gu, and S. Jana",
+                        "key": 2
+                      },
+                      {
+                        "id": 25,
+                        "content": "[POPL 2020][New] Virtual Timeline: A Formal Abstraction for Verifying Preemptive Schedulers with Temporal Isolation. M. Liu, L. Rieg, Z. Shao, R. Gu, D. Costanzo, J. Kim, and M. Yoon",
+                        "key": 3
+                      },
+                      {
+                        "id": 26,
+                        "content": "[CACM] Building Certified Concurrent OS Kernels. R. Gu, Z. Shao, H. Chen, J. Kim, J. Koenig, X. Wu, V. Sjoberg, and D. Constanzo. Research Highlights See \"Technical Perspective: The Scalability of CertiKOS\" by Andrew W. Appel.",
+                        "key": 4
+                      },
+                      {
+                        "id": 27,
+                        "content": "[SOSP 2019] Scaling Symbolic Evaluation for Automated Verification of Systems Code with Serval. L. Nelson, J. Bornholt, R. Gu, A. Baumann, E. Torlak, and X. Wang SOSP Best Paper Award",
+                        "key": 5
+                      },
+                      {
+                        "id": 28,
+                        "content": "[SOSP 2019] Using Concurrent Relational Logic with Helper for Verifying the AtomFS File System. M. Zou, H. Ding, D. Du, M. Fu, R. Gu, and H. Chen",
+                        "key": 6
+                      },
+                      {
+                        "id": 29,
+                        "content": "[PLDI 2018] Certified Concurrent Abstraction Layers. R. Gu, Z. Shao, J. Kim, X. Wu, J. Koenig, V. Sjoberg, H. Chen, D. Constanzo, and T.Ramananandro",
+                        "key": 7
+                      },
+                      {
+                        "id": 30,
+                        "content": "[CAV 2018] Partial Order Aware Concurrency Sampling. X. Yuan, J. Yang, and R. Gu",
+                        "key": 8
+                      },
+                      {
+                        "id": 31,
+                        "content": "[OSDI 2016] CertiKOS: An Extensible Architecture for Building Certified Concurrent OS Kernels. R. Gu, Z. Shao, H. Chen, X. Wu, J. Kim, V. Sjoberg, and D. Constanzo Media coverage: Yale News, International Business Times, Yale Daily News",
+                        "key": 9
+                      },
+                      {
+                        "id": 32,
+                        "content": "[PLDI 2016] End-to-End Verification of Information-Flow Security for C and Assembly Programs. D. Constanzo, Z. Shao, and R. Gu",
+                        "key": 10
+                      },
+                      {
+                        "id": 33,
+                        "content": "[PLDI 2016] Toward Compositional Verification of Interruptible OS Kernels and Device Drivers. H. Chen, X. Wu, Z. Shao, J. Lockerman, and R. Gu",
+                        "key": 11
+                      },
+                      {
+                        "id": 34,
+                        "content": "[POPL 2015] Deep Specifications and Certified Abstraction Layers. R. Gu, J. Koenig, T. Ramananandro, Z. Shao, X. Wu, S. Weng, H. Zhang, and Y. Guo",
+                        "key": 12
+                      }
+                    ]
+                },
+                {
+                    "id": 35,
+                    "content": "Program Committees",
+                    "isList": true,
+                    "key": 9,
+                    "children": [
+                        {
+                            "id": 36,
+                            "content": "PLDI 2020,SecDev 2020,NSDI 2019,SoCC 2019",
+                            "isList": true,
+                            "key": 1
+                        },
+                        {
+                            "id": 37,
+                            "content": "SecDev 2019,PLDI 2018 ERC,SecDev 2018,ICFP 2018 SRC",
+                            "isList": true,
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 38,
+                    "content": "Students",
+                    "key": 10,
+                    "children": [
+                        {
+                            "id": 39,
+                            "content": "I am fortunate to work or have worked with these brilliant students.",
+                            "key": 1
+                        },
+                        {
+                            "id": 40,
+                            "content": "",
+                            "isList": true,
+                            "key": 2,
+                            "children": [
+                              {
+                                "id": 41,
+                                "content": "PhD:",
+                                "key": 1,
+                                "children": [
+                                  {
+                                    "id": 42,
+                                    "content": "Runzhou Tao, John Zhuang Hui, Jianan Yao, Xupeng Li.",
+                                    "key": 1
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 43,
+                                "content": "BS:",
+                                "key": 2,
+                                "children": [
+                                  {
+                                    "id": 44,
+                                    "content": "Justin Wong, River Dillon Keefer, Jerry Lin.",
+                                    "key": 1
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 45,
+                                "content": "Student collaborators:",
+                                "key": 3,
+                                "children": [
+                                  {
+                                    "id": 46,
+                                    "content": "Shih-wei Li, Yunong Shi (UChicago), Gabriel Ryan, Mengqi Liu (Yale), and Xinhao Yuan.",
+                                    "key": 1
+                                  }
+                                ]
+                              }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 47,
+                    "content": "Teaching",
+                    "isList": true,
+                    "key": 11,
+                    "children": [
+                        {
+                            "id": 48,
+                            "content": "COMS 4115 Programming Languages and Translators (Spring 2020).",
+                            "key": 1
+                        },
+                        {
+                            "id": 49,
+                            "content": "COMS E6998 Formal Verification of System Software (Fall 2019).",
+                            "key": 2
+                        },
+                        {
+                            "id": 50,
+                            "content": "COMS 4115 Programming Languages and Translators (Spring 2019).",
+                            "key": 3
+                        },
+                        {
+                            "id": 51,
+                            "content": "COMS E6998 Formal Verification of System Software (Fall 2018).",
+                            "key": 4
+                        },
+                        {
+                            "id": 52,
+                            "content": "COMS Winter 193101 Programming Languages (Spring 2018).",
+                            "key": 5
+                        },
+                        {
+                            "id": 53,
+                            "content": "Graduate Seminar on Systems.",
+                            "key": 6
+                        }
+                    ]
+                },
+                {
+                    "id": 54,
+                    "content": "Select Awards",
+                    "isList": true,
+                    "key": 12,
+                    "children": [
+                        {
+                            "id": 55,
+                            "content": "Columbia Universityâs Final Nominee for the Packard Fellowship,Mar. 2020",
+                            "isList": true,
+                            "key": 1
+                        },
+                        {
+                            "id": 56,
+                            "content": "SOSP Best Paper Award,Oct. 2019",
+                            "isList": true,
+                            "key": 2
+                        },
+                        {
+                            "id": 57,
+                          "content": "Communications of the ACM (CACM) Research Highlights,Oct. 2019",
+                          "isList": true,
+                          "key": 3
+                        },
+                      {
+                        "id": 58,
+                        "content": "MIT Technology Review 35 Innovators Under 35 Semi-Finalist,Feb. 2019",
+                        "isList": true,
+                        "key": 4
+                      },
+                      {
+                        "id": 59,
+                        "content": "Columbia-IBM Center Seed Grant Award,Dec. 2018",
+                        "isList": true,
+                        "key": 5
+                      },
+                      {
+                        "id": 60,
+                        "content": "Distinction Dissertation, Yale University,Dec. 2016",
+                        "isList": true,
+                        "key": 6
+                      },
+                      {
+                        "id": 61,
+                        "content": "Yale Nominee, ACM Doctoral Dissertation Award,Aug. 2016",
+                        "isList": true,
+                        "key": 7
+                      },
+                      {
+                        "id": 62,
+                        "content": "Robert Willets Carle Scholarship, Yale University,Feb. 2016",
+                        "isList": true,
+                        "key": 8
+                      },
+                      {
+                        "id": 63,
+                        "content": "Graduation with Highest Distinction (3among 140), Tsinghua University,July 2011",
+                        "isList": true,
+                        "key": 9
+                      },
+                      {
+                        "id": 64,
+                        "content": "Outstanding Undergraduate of Beijing City, China,July 2011",
+                        "isList": true,
+                        "key": 10
+                      },
+                      {
+                        "id": 65,
+                        "content": "Honors Undergraduate Thesis Award (5among 140), Tsinghua University,July 2011",
+                        "isList": true,
+                        "key": 11
+                      },
+                      {
+                        "id": 66,
+                        "content": "First Prize of National Mathematical Olympiad Competition, China,Oct. 2006",
+                        "isList": true,
+                        "key": 12
+                      }
+                    ]
+                },
+                {
+                    "id": 67,
+                    "content": "Email",
+                    "key": 13
+                },
+                {
+                    "id": 68,
+                    "content": "Office",
+                    "key": 14,
+                    "children": [
+                        {
+                            "id": 69,
+                            "content": "515 CSB, Columbia University",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 70,
+                    "content": "Phone",
+                    "key": 15,
+                    "children": [
+                        {
+                            "id": 71,
+                            "content": "+1 (212) 939-7111",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 72,
+                    "content": "CertiKOS Video (for CACM)",
+                    "key": 16
+                },
+                {
+                    "id": 73,
+                    "content": "CertiKOS Layers (for fun)",
+                    "key": 17,
+                    "children": [
+                        {
+                            "id": 74,
+                            "content": "Layout based on BASIC by Download Website Templates",
+                            "key": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

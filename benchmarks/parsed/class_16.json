@@ -1,0 +1,1824 @@
+{
+    "id": 0,
+    "content": "6.033 | Spring 2020 | General Information",
+    "children": [
+        {
+            "id": 1,
+            "content": "Learning Objectives | Course Structure | Recitation + Tutorial Schedule | Staff Contact | Grade Breakdown + Late Policy | Grade Components | Collaboration Policy",
+            "key": 1
+        },
+        {
+            "id": 2,
+            "content": "6.033 Learning Objectives",
+            "key": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "content": "After 6.033, the students will be able to design their own distributed systems to solve real-world problems. The ability to design one's own distributed system includes an ability to argue for one's design choices.",
+                    "key": 1
+                },
+                {
+                    "id": 4,
+                    "content": "This primary objective is supported by a few others:",
+                    "key": 2
+                },
+                {
+                    "id": 5,
+                    "content": "",
+                    "isList": true,
+                    "key": 3,
+                    "children": [
+                        {
+                            "id": 6,
+                            "content": "The students will be able to evaluate and critique existing systems, as well as their own system designs. As part of that, students will learn to recognize design choices made in existing systems.",
+                            "key": 1
+                        },
+                        {
+                            "id": 7,
+                            "content": "",
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 8,
+                                    "content": "The students will be able to apply the technical material taught in lecture to new system components. This implies an ability to recognize and describe:",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 9,
+                                    "content": "",
+                                    "isList": true,
+                                    "key": 2,
+                                    "children": [
+                                        {
+                                            "id": 10,
+                                            "content": "How common design patterns in computer system—such as abstraction and modularity—are used to limit complexity.",
+                                            "key": 1
+                                        },
+                                        {
+                                            "id": 11,
+                                            "content": "How operating systems use virtualization and abstraction to enforce modularity.",
+                                            "key": 2
+                                        },
+                                        {
+                                            "id": 12,
+                                            "content": "How the Internet is designed to deal with scale, a diversity of applications, and competing economic interests.",
+                                            "key": 3
+                                        },
+                                        {
+                                            "id": 13,
+                                            "content": "How reliable, usable distributed systems are able to be built on top of an unreliable network.",
+                                            "key": 4
+                                        },
+                                        {
+                                            "id": 14,
+                                            "content": "Common pitFalls in the security of computer systems, and how to combat them.",
+                                            "key": 5
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 15,
+                    "content": "Because 6.033 is a CI-M class, students will also learn to communicate in forms that are common in the field of computer systems. This includes written design reports, oral presentations, and peer review.",
+                    "key": 4
+                },
+                {
+                    "id": 16,
+                    "content": "The communication instruction also supports the primary learning objective of designing systems. In the real world, we design systems in teams, and communication of many forms (written, oral, etc.) is part of that process.",
+                    "key": 5
+                },
+                {
+                    "id": 17,
+                    "content": "Prerequisites:",
+                    "key": 6,
+                    "children": [
+                        {
+                            "id": 18,
+                            "content": "6.004; 6.005 or 6.009   Units: 5-1-6   Requirements satisfied: CI-M for Course 6-1, 6-2, 6-3, 6-P, and 18-C",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 19,
+                    "content": "Textbook:",
+                    "key": 7,
+                    "children": [
+                        {
+                            "id": 20,
+                            "content": "6.033 uses Saltzer and Kaashoek's Principles of Computer System Design: An Introduction (Morgan Kaufmann 2009). The text supplements the lectures and recitations; it should be your first resource when you are confused by a lecture topic, or want more information.",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 21,
+                    "content": "If you notice errors of any kind in the 6.033 text, from minor typos to major blunders, please report them by e-mail to saltzer@mit.edu and kaashoek@mit.edu.",
+                    "key": 8
+                },
+                {
+                    "id": 22,
+                    "content": "You can find PDFs with corrections to the printed and online textbook here. A more up to date version of the Part II errata is here.",
+                    "key": 9
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "content": "Course Structure",
+            "key": 3,
+            "children": [
+                {
+                    "id": 24,
+                    "content": "6.033 has three components: lectures, recitations, and tutorials. We expect you to attend all three, as they each serve a different purpose.",
+                    "key": 1
+                },
+                {
+                    "id": 25,
+                    "content": "Lectures",
+                    "key": 2,
+                    "children": [
+                        {
+                            "id": 26,
+                            "content": "Lectures are held Monday Wednesday 2:00pm - 3:00pm in 26 - 100. The lectures are designed to teach students the technical details necessary to design their own systems and to put those details in larger contexts: both the contexts of a specific area of systems as well as systems in general.",
+                            "key": 1
+                        },
+                        {
+                            "id": 27,
+                            "content": "This type of material appears in lectures because that's what lectures are good at: giving a higher-level context for the details of the class.",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 28,
+                    "content": "Recitations",
+                    "key": 3,
+                    "children": [
+                        {
+                            "id": 29,
+                            "content": "Recitations are held Tuesday and Thursday (schedule below). For the first recitation, attend whichever one you want. After that, you will be assigned a permanent section.",
+                            "key": 1
+                        },
+                        {
+                            "id": 30,
+                            "content": "Recitations are designed to give students a chance to practice their system-analysis and oral communication skills. Each recitation revolves around a particular paper in systems. Through reading these papers, students get a better sense of how communication in the field is done. Recitations are discussion-based; students get practice analyzing, critiquing, and communicating about systems.",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 31,
+                    "content": "Writing Tutorials",
+                    "key": 4,
+                    "children": [
+                        {
+                            "id": 32,
+                            "content": "Writing tutorials are held on Friday (schedule below). All tutorials occur at 1:00pm or 2:00pm ; we will assign you timeslot during the first week of classes.",
+                            "key": 1
+                        },
+                        {
+                            "id": 33,
+                            "content": "Most of these tutorials will teach the communication theory and practices of this course, and assist you in preparing for the assignments. You'll become fluent in a variety of communication genres, develop strategies and skills needed to present technical concepts to different audiences, learn how to use writing to develop and deepen your technical understanding—and get specific, directed instruction on writing and presenting your 6.033 assignments. A handful of the tutorials will be dedicated to discussing the design project.",
+                            "key": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 34,
+            "content": "Recitation + Tutorial Schedule",
+            "key": 4,
+            "children": [
+                {
+                    "id": 35,
+                    "content": "All recitation sections meet Tuesday and Thursday at the specified time. All tutorials meet on Friday, at either 1pm or 2pm. Your section (and tutorial time) will be assigned during the first week of class.",
+                    "key": 1
+                },
+                {
+                    "id": 36,
+                    "content": "",
+                    "isList": true,
+                    "key": 2,
+                    "children": [
+                        {
+                            "id": 37,
+                            "content": ",Recitations,Tutorials",
+                            "isList": true,
+                            "key": 1
+                        },
+                        {
+                            "id": 38,
+                            "content": "#:",
+                            "isList": true,
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 39,
+                                    "content": ",Time:,Location:,Instructor:,Instructor:,Location:,TA:",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 40,
+                            "content": "1,10am,34-302,Karen Sollins,Keith Clavin,34-301,Christabel Sitienei",
+                            "isList": true,
+                            "key": 3
+                        },
+                        {
+                            "id": 41,
+                            "content": "2,11am,34-302,Karen Sollins,Keith Clavin,34-301,Christabel Sitienei",
+                            "isList": true,
+                            "key": 4
+                        },
+                        {
+                            "id": 42,
+                            "content": "3,10am,26-168,Howie Shrobe,Caroline Beimford and Juergen Schoenstein,24-112,Urmi Mustafi",
+                            "isList": true,
+                            "key": 5
+                        },
+                        {
+                            "id": 43,
+                            "content": "4,11am,26-168,Howie Shrobe,Caroline Beimford and Juergen Schoenstein,24-112,Urmi Mustafi",
+                            "isList": true,
+                            "key": 6
+                        },
+                        {
+                            "id": 44,
+                            "content": "5,10am,34-304,Manya Ghobadi,Atissa Banuazizi & Rebecca Thorndike-Breeze,26-328,Peter Griggs",
+                            "isList": true,
+                            "key": 7
+                        },
+                        {
+                            "id": 45,
+                            "content": "6,11am,34-304,Manya Ghobadi,Atissa Banuazizi & Rebecca Thorndike-Breeze,26-328,Peter Griggs",
+                            "isList": true,
+                            "key": 8
+                        },
+                        {
+                            "id": 46,
+                            "content": "7,12pm,34-304,Katrina LaCurts,Jessie Stickgold-Sarah & Michael Maune,34-304,Diana Wofk",
+                            "isList": true,
+                            "key": 9
+                        },
+                        {
+                            "id": 47,
+                            "content": "8,1pm,34-304,Katrina LaCurts,Jessie Stickgold-Sarah & Michael Maune,34-304,Diana Wofk",
+                            "isList": true,
+                            "key": 10
+                        },
+                        {
+                            "id": 48,
+                            "content": "9,12pm,34-302,Olivia Brode-Roger,Dave Larson,26-142,Crystal Wang",
+                            "isList": true,
+                            "key": 11
+                        },
+                        {
+                            "id": 49,
+                            "content": "10,1pm,34-302,Olivia Brode-Roger,Dave Larson,26-142,Crystal Wang",
+                            "isList": true,
+                            "key": 12
+                        },
+                        {
+                            "id": 50,
+                            "content": "11,12pm,36-372,Steve Bauer,Amy Carleton,36-372,Alex Lynch",
+                            "isList": true,
+                            "key": 13
+                        },
+                        {
+                            "id": 51,
+                            "content": "12,1pm,36-372,Steve Bauer,Amy Carleton,36-372,Alex Lynch",
+                            "isList": true,
+                            "key": 14
+                        },
+                        {
+                            "id": 52,
+                            "content": "13,1pm,36-155,Michael Cafarella,Michael Trice,36-155,Yunyi Zhu",
+                            "isList": true,
+                            "key": 15
+                        },
+                        {
+                            "id": 53,
+                            "content": "14,2pm,36-155,Michael Cafarella,Michael Trice,36-155,Yunyi Zhu",
+                            "isList": true,
+                            "key": 16
+                        },
+                        {
+                            "id": 54,
+                            "content": "15,1pm,38-166,Adam Belay,Kevin Marinelli,66-168,Sydney Gibson",
+                            "isList": true,
+                            "key": 17
+                        },
+                        {
+                            "id": 55,
+                            "content": "16,2pm,38-166,Adam Belay,Kevin Marinelli,66-168,Sydney Gibson",
+                            "isList": true,
+                            "key": 18
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 56,
+            "content": "Staff",
+            "key": 5,
+            "children": [
+                {
+                    "id": 57,
+                    "content": "To contact the course staff as a whole, please use Piazza unless you need to email a staff member individually. You can post a private question on Piazza if you do not want your communication to be visible to the other students in the class.",
+                    "key": 1
+                },
+                {
+                    "id": 58,
+                    "content": "",
+                    "isList": true,
+                    "key": 2,
+                    "children": [
+                        {
+                            "id": 59,
+                            "content": "",
+                            "isList": true,
+                            "key": 1,
+                            "children": [
+                                {
+                                    "id": 60,
+                                    "content": "Role",
+                                    "key": 1,
+                                    "children": [
+                                        {
+                                            "id": 61,
+                                            "content": "Lectures",
+                                            "key": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 62,
+                                    "content": "Name",
+                                    "key": 2,
+                                    "children": [
+                                        {
+                                            "id": 63,
+                                            "content": "Katrina LaCurts",
+                                            "key": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 64,
+                                    "content": "Email",
+                                    "key": 3,
+                                    "children": [
+                                        {
+                                            "id": 65,
+                                            "content": "lacurts at mit.edu",
+                                            "key": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 66,
+                            "content": "",
+                            "isList": true,
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 67,
+                                    "content": "Name",
+                                    "key": 1,
+                                    "children": [
+                                        {
+                                            "id": 68,
+                                            "content": "Adam Belay",
+                                            "key": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 69,
+                                    "content": "Email",
+                                    "key": 2,
+                                    "children": [
+                                        {
+                                            "id": 70,
+                                            "content": "abelay at mit.edu",
+                                            "key": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 71,
+                            "content": "",
+                            "isList": true,
+                            "key": 3,
+                            "children": [
+                                {
+                                    "id": 72,
+                                    "content": "Name",
+                                    "key": 1,
+                                    "children": [
+                                        {
+                                            "id": 73,
+                                            "content": "Steve Bauer",
+                                            "key": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 74,
+                                    "content": "Email",
+                                    "key": 2,
+                                    "children": [
+                                        {
+                                            "id": 75,
+                                            "content": "bauer at mit.edu",
+                                            "key": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 76,
+                            "content": "",
+                            "isList": true,
+                            "key": 4,
+                            "children": [
+                                {
+                                    "id": 77,
+                                    "content": "Name",
+                                    "key": 1,
+                                    "children": [
+                                        {
+                                            "id": 78,
+                                            "content": "Olivia Brode-Roger",
+                                            "key": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 79,
+                                    "content": "Email",
+                                    "key": 2,
+                                    "children": [
+                                        {
+                                            "id": 80,
+                                            "content": "nibr at mit.edu",
+                                            "key": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 81,
+                            "content": "",
+                            "isList": true,
+                            "key": 5,
+                            "children": [
+                                {
+                                    "id": 82,
+                                    "content": "Name",
+                                    "key": 1,
+                                    "children": [
+                                        {
+                                            "id": 83,
+                                            "content": "Michael Cafarella",
+                                            "key": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 84,
+                                    "content": "Email",
+                                    "key": 2,
+                                    "children": [
+                                        {
+                                            "id": 85,
+                                            "content": "michjc at mit.edu",
+                                            "key": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 86,
+                            "content": "",
+                            "isList": true,
+                            "key": 6,
+                            "children": [
+                                {
+                                    "id": 87,
+                                    "content": "Name",
+                                    "key": 1,
+                                    "children": [
+                                        {
+                                            "id": 88,
+                                            "content": "Manya Ghobadi",
+                                            "key": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 89,
+                                    "content": "Email",
+                                    "key": 2,
+                                    "children": [
+                                        {
+                                            "id": 90,
+                                            "content": "ghobadi at mit.edu",
+                                            "key": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 91,
+                            "content": "",
+                            "isList": true,
+                            "key": 7,
+                            "children": [
+                                {
+                                    "id": 92,
+                                    "content": "Name",
+                                    "key": 1,
+                                    "children": [
+                                        {
+                                            "id": 93,
+                                            "content": "Howard Shrobe",
+                                            "key": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 94,
+                                    "content": "Email",
+                                    "key": 2,
+                                    "children": [
+                                        {
+                                            "id": 95,
+                                            "content": "hes at csail.mit.edu",
+                                            "key": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 96,
+                            "content": "",
+                            "isList": true,
+                            "key": 8,
+                            "children": [
+                                {
+                                    "id": 97,
+                                    "content": "",
+                                    "key": 1,
+                                    "children": [
+                                        {
+                                            "id": 98,
+                                            "content": "Role",
+                                            "key": 1
+                                        },
+                                        {
+                                            "id": 99,
+                                            "content": "Role",
+                                            "key": 2
+                                        },
+                                        {
+                                            "id": 100,
+                                            "content": "Role",
+                                            "key": 3
+                                        },
+                                        {
+                                            "id": 101,
+                                            "content": "Role",
+                                            "key": 4
+                                        },
+                                        {
+                                            "id": 102,
+                                            "content": "Role",
+                                            "key": 5
+                                        },
+                                        {
+                                            "id": 103,
+                                            "content": "Role",
+                                            "key": 6
+                                        },
+                                        {
+                                            "id": 104,
+                                            "content": "Role",
+                                            "key": 7,
+                                            "children": [
+                                                {
+                                                    "id": 105,
+                                                    "content": "Recitations",
+                                                    "key": 1
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 106,
+                                    "content": "Name",
+                                    "key": 2,
+                                    "children": [
+                                        {
+                                            "id": 107,
+                                            "content": "Karen Sollins",
+                                            "key": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 108,
+                                    "content": "Email",
+                                    "key": 3,
+                                    "children": [
+                                        {
+                                            "id": 109,
+                                            "content": "sollins at csail.mit.edu",
+                                            "key": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 110,
+                            "content": "",
+                            "isList": true,
+                            "key": 9,
+                            "children": [
+                                {
+                                    "id": 111,
+                                    "content": "Name",
+                                    "key": 1,
+                                    "children": [
+                                        {
+                                            "id": 112,
+                                            "content": "Atissa Banuazizi",
+                                            "key": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 113,
+                                    "content": "Email",
+                                    "key": 2,
+                                    "children": [
+                                        {
+                                            "id": 114,
+                                            "content": "atissa at mit.edu",
+                                            "key": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 115,
+                            "content": "",
+                            "isList": true,
+                            "key": 10,
+                            "children": [
+                                {
+                                    "id": 116,
+                                    "content": "Name",
+                                    "key": 1,
+                                    "children": [
+                                        {
+                                            "id": 117,
+                                            "content": "Caroline Beimford",
+                                            "key": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 118,
+                                    "content": "Email",
+                                    "key": 2,
+                                    "children": [
+                                        {
+                                            "id": 119,
+                                            "content": "beimford at mit.edu",
+                                            "key": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 120,
+                            "content": "",
+                            "isList": true,
+                            "key": 11,
+                            "children": [
+                                {
+                                    "id": 121,
+                                    "content": "Name",
+                                    "key": 1,
+                                    "children": [
+                                        {
+                                            "id": 122,
+                                            "content": "Amy Carleton",
+                                            "key": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 123,
+                                    "content": "Email",
+                                    "key": 2,
+                                    "children": [
+                                        {
+                                            "id": 124,
+                                            "content": "amymarie at mit.edu",
+                                            "key": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 125,
+                            "content": "",
+                            "isList": true,
+                            "key": 12,
+                            "children": [
+                                {
+                                    "id": 126,
+                                    "content": "Name",
+                                    "key": 1,
+                                    "children": [
+                                        {
+                                            "id": 127,
+                                            "content": "Keith Clavin",
+                                            "key": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 128,
+                                    "content": "Email",
+                                    "key": 2,
+                                    "children": [
+                                        {
+                                            "id": 129,
+                                            "content": "clavin at mit.edu",
+                                            "key": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 130,
+                            "content": "",
+                            "isList": true,
+                            "key": 13,
+                            "children": [
+                                {
+                                    "id": 131,
+                                    "content": "Name",
+                                    "key": 1,
+                                    "children": [
+                                        {
+                                            "id": 132,
+                                            "content": "Dave Larson",
+                                            "key": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 133,
+                                    "content": "Email",
+                                    "key": 2,
+                                    "children": [
+                                        {
+                                            "id": 134,
+                                            "content": "larsond at mit.edu",
+                                            "key": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 135,
+                            "content": "",
+                            "isList": true,
+                            "key": 14,
+                            "children": [
+                                {
+                                    "id": 136,
+                                    "content": "Name",
+                                    "key": 1,
+                                    "children": [
+                                        {
+                                            "id": 137,
+                                            "content": "Kevin Marinelli",
+                                            "key": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 138,
+                                    "content": "Email",
+                                    "key": 2,
+                                    "children": [
+                                        {
+                                            "id": 139,
+                                            "content": "kevinmar at mit.edu",
+                                            "key": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 140,
+                            "content": "",
+                            "isList": true,
+                            "key": 15,
+                            "children": [
+                                {
+                                    "id": 141,
+                                    "content": "Name",
+                                    "key": 1,
+                                    "children": [
+                                        {
+                                            "id": 142,
+                                            "content": "Michael Maune",
+                                            "key": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 143,
+                                    "content": "Email",
+                                    "key": 2,
+                                    "children": [
+                                        {
+                                            "id": 144,
+                                            "content": "mmaune at mit.edu",
+                                            "key": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 145,
+                            "content": "",
+                            "isList": true,
+                            "key": 16,
+                            "children": [
+                                {
+                                    "id": 146,
+                                    "content": "Name",
+                                    "key": 1,
+                                    "children": [
+                                        {
+                                            "id": 147,
+                                            "content": "Juergen Schoenstein",
+                                            "key": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 148,
+                                    "content": "Email",
+                                    "key": 2,
+                                    "children": [
+                                        {
+                                            "id": 149,
+                                            "content": "juergen at mit.edu",
+                                            "key": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 150,
+                            "content": "",
+                            "isList": true,
+                            "key": 17,
+                            "children": [
+                                {
+                                    "id": 151,
+                                    "content": "Name",
+                                    "key": 1,
+                                    "children": [
+                                        {
+                                            "id": 152,
+                                            "content": "Jessie Stickgold-Sarah",
+                                            "key": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 153,
+                                    "content": "Email",
+                                    "key": 2,
+                                    "children": [
+                                        {
+                                            "id": 154,
+                                            "content": "jmss at mit.edu",
+                                            "key": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 155,
+                            "content": "",
+                            "isList": true,
+                            "key": 18,
+                            "children": [
+                                {
+                                    "id": 156,
+                                    "content": "Name",
+                                    "key": 1,
+                                    "children": [
+                                        {
+                                            "id": 157,
+                                            "content": "Rebecca Thorndike-Breeze",
+                                            "key": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 158,
+                                    "content": "Email",
+                                    "key": 2,
+                                    "children": [
+                                        {
+                                            "id": 159,
+                                            "content": "rtb at mit.edu",
+                                            "key": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 160,
+                            "content": "",
+                            "isList": true,
+                            "key": 19,
+                            "children": [
+                                {
+                                    "id": 161,
+                                    "content": "",
+                                    "key": 1,
+                                    "children": [
+                                        {
+                                            "id": 162,
+                                            "content": "Role",
+                                            "key": 1
+                                        },
+                                        {
+                                            "id": 163,
+                                            "content": "Role",
+                                            "key": 2
+                                        },
+                                        {
+                                            "id": 164,
+                                            "content": "Role",
+                                            "key": 3
+                                        },
+                                        {
+                                            "id": 165,
+                                            "content": "Role",
+                                            "key": 4
+                                        },
+                                        {
+                                            "id": 166,
+                                            "content": "Role",
+                                            "key": 5
+                                        },
+                                        {
+                                            "id": 167,
+                                            "content": "Role",
+                                            "key": 6
+                                        },
+                                        {
+                                            "id": 168,
+                                            "content": "Role",
+                                            "key": 7
+                                        },
+                                        {
+                                            "id": 169,
+                                            "content": "Role",
+                                            "key": 8
+                                        },
+                                        {
+                                            "id": 170,
+                                            "content": "Role",
+                                            "key": 9
+                                        },
+                                        {
+                                            "id": 171,
+                                            "content": "Role",
+                                            "key": 10
+                                        },
+                                        {
+                                            "id": 172,
+                                            "content": "Role",
+                                            "key": 11,
+                                            "children": [
+                                                {
+                                                    "id": 173,
+                                                    "content": "Tutorials",
+                                                    "key": 1
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 174,
+                                    "content": "Name",
+                                    "key": 2,
+                                    "children": [
+                                        {
+                                            "id": 175,
+                                            "content": "Michael Trice",
+                                            "key": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 176,
+                                    "content": "Email",
+                                    "key": 3,
+                                    "children": [
+                                        {
+                                            "id": 177,
+                                            "content": "mtrice at mit.edu",
+                                            "key": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 178,
+                            "content": "",
+                            "isList": true,
+                            "key": 20,
+                            "children": [
+                                {
+                                    "id": 179,
+                                    "content": "Name",
+                                    "key": 1,
+                                    "children": [
+                                        {
+                                            "id": 180,
+                                            "content": "Eric Bradford",
+                                            "key": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 181,
+                                    "content": "Email",
+                                    "key": 2,
+                                    "children": [
+                                        {
+                                            "id": 182,
+                                            "content": "ebrad at mit.edu",
+                                            "key": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 183,
+                            "content": "",
+                            "isList": true,
+                            "key": 21,
+                            "children": [
+                                {
+                                    "id": 184,
+                                    "content": "Name",
+                                    "key": 1,
+                                    "children": [
+                                        {
+                                            "id": 185,
+                                            "content": "Johnny Bui",
+                                            "key": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 186,
+                                    "content": "Email",
+                                    "key": 2,
+                                    "children": [
+                                        {
+                                            "id": 187,
+                                            "content": "jbui at mit.edu",
+                                            "key": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 188,
+                            "content": "",
+                            "isList": true,
+                            "key": 22,
+                            "children": [
+                                {
+                                    "id": 189,
+                                    "content": "Name",
+                                    "key": 1,
+                                    "children": [
+                                        {
+                                            "id": 190,
+                                            "content": "Sydney Gibson",
+                                            "key": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 191,
+                                    "content": "Email",
+                                    "key": 2,
+                                    "children": [
+                                        {
+                                            "id": 192,
+                                            "content": "gibsons at mit.edu",
+                                            "key": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 193,
+                            "content": "",
+                            "isList": true,
+                            "key": 23,
+                            "children": [
+                                {
+                                    "id": 194,
+                                    "content": "Name",
+                                    "key": 1,
+                                    "children": [
+                                        {
+                                            "id": 195,
+                                            "content": "Peter Griggs",
+                                            "key": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 196,
+                                    "content": "Email",
+                                    "key": 2,
+                                    "children": [
+                                        {
+                                            "id": 197,
+                                            "content": "pgriggs at mit.edu",
+                                            "key": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 198,
+                            "content": "",
+                            "isList": true,
+                            "key": 24,
+                            "children": [
+                                {
+                                    "id": 199,
+                                    "content": "Name",
+                                    "key": 1,
+                                    "children": [
+                                        {
+                                            "id": 200,
+                                            "content": "EJ Jiang",
+                                            "key": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 201,
+                                    "content": "Email",
+                                    "key": 2,
+                                    "children": [
+                                        {
+                                            "id": 202,
+                                            "content": "jiange at mit.edu",
+                                            "key": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 203,
+                            "content": "",
+                            "isList": true,
+                            "key": 25,
+                            "children": [
+                                {
+                                    "id": 204,
+                                    "content": "Name",
+                                    "key": 1,
+                                    "children": [
+                                        {
+                                            "id": 205,
+                                            "content": "Alex Lynch",
+                                            "key": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 206,
+                                    "content": "Email",
+                                    "key": 2,
+                                    "children": [
+                                        {
+                                            "id": 207,
+                                            "content": "ajlynch at mit.edu",
+                                            "key": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 208,
+                            "content": "",
+                            "isList": true,
+                            "key": 26,
+                            "children": [
+                                {
+                                    "id": 209,
+                                    "content": "Name",
+                                    "key": 1,
+                                    "children": [
+                                        {
+                                            "id": 210,
+                                            "content": "Urmi Mustafi",
+                                            "key": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 211,
+                                    "content": "Email",
+                                    "key": 2,
+                                    "children": [
+                                        {
+                                            "id": 212,
+                                            "content": "umustafi at mit.edu",
+                                            "key": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 213,
+                            "content": "",
+                            "isList": true,
+                            "key": 27,
+                            "children": [
+                                {
+                                    "id": 214,
+                                    "content": "Name",
+                                    "key": 1,
+                                    "children": [
+                                        {
+                                            "id": 215,
+                                            "content": "Christabel Sitienei",
+                                            "key": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 216,
+                                    "content": "Email",
+                                    "key": 2,
+                                    "children": [
+                                        {
+                                            "id": 217,
+                                            "content": "sitienei at mit.edu",
+                                            "key": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 218,
+                            "content": "",
+                            "isList": true,
+                            "key": 28,
+                            "children": [
+                                {
+                                    "id": 219,
+                                    "content": "Name",
+                                    "key": 1,
+                                    "children": [
+                                        {
+                                            "id": 220,
+                                            "content": "Crystal Wang",
+                                            "key": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 221,
+                                    "content": "Email",
+                                    "key": 2,
+                                    "children": [
+                                        {
+                                            "id": 222,
+                                            "content": "cyqwang at mit.edu",
+                                            "key": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 223,
+                            "content": "",
+                            "isList": true,
+                            "key": 29,
+                            "children": [
+                                {
+                                    "id": 224,
+                                    "content": "Name",
+                                    "key": 1,
+                                    "children": [
+                                        {
+                                            "id": 225,
+                                            "content": "Diana Wofk",
+                                            "key": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 226,
+                                    "content": "Email",
+                                    "key": 2,
+                                    "children": [
+                                        {
+                                            "id": 227,
+                                            "content": "diana96 at mit.edu",
+                                            "key": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 228,
+                            "content": "",
+                            "isList": true,
+                            "key": 30,
+                            "children": [
+                                {
+                                    "id": 229,
+                                    "content": "",
+                                    "key": 1,
+                                    "children": [
+                                        {
+                                            "id": 230,
+                                            "content": "Role",
+                                            "key": 1
+                                        },
+                                        {
+                                            "id": 231,
+                                            "content": "Role",
+                                            "key": 2
+                                        },
+                                        {
+                                            "id": 232,
+                                            "content": "Role",
+                                            "key": 3
+                                        },
+                                        {
+                                            "id": 233,
+                                            "content": "Role",
+                                            "key": 4
+                                        },
+                                        {
+                                            "id": 234,
+                                            "content": "Role",
+                                            "key": 5
+                                        },
+                                        {
+                                            "id": 235,
+                                            "content": "Role",
+                                            "key": 6
+                                        },
+                                        {
+                                            "id": 236,
+                                            "content": "Role",
+                                            "key": 7
+                                        },
+                                        {
+                                            "id": 237,
+                                            "content": "Role",
+                                            "key": 8
+                                        },
+                                        {
+                                            "id": 238,
+                                            "content": "Role",
+                                            "key": 9
+                                        },
+                                        {
+                                            "id": 239,
+                                            "content": "Role",
+                                            "key": 10
+                                        },
+                                        {
+                                            "id": 240,
+                                            "content": "Role",
+                                            "key": 11,
+                                            "children": [
+                                                {
+                                                    "id": 241,
+                                                    "content": "TAs",
+                                                    "key": 1
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 242,
+                                    "content": "Name",
+                                    "key": 2,
+                                    "children": [
+                                        {
+                                            "id": 243,
+                                            "content": "Yunyi Zhu",
+                                            "key": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 244,
+                                    "content": "Email",
+                                    "key": 3,
+                                    "children": [
+                                        {
+                                            "id": 245,
+                                            "content": "yunyizhu at mit.edu",
+                                            "key": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 246,
+            "content": "Grading",
+            "key": 6,
+            "children": [
+                {
+                    "id": 247,
+                    "content": "6.033 consists of three components: technical material, communication/system design and analysis, and participation. Each of these components comprises roughly one third of your grade, according to the following breakdown:",
+                    "key": 1
+                },
+                {
+                    "id": 248,
+                    "content": "",
+                    "isList": true,
+                    "key": 2,
+                    "children": [
+                        {
+                            "id": 249,
+                            "content": "35%:",
+                            "key": 1,
+                            "children": [
+                                {
+                                    "id": 250,
+                                    "content": "Technical Material",
+                                    "isList": true,
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 251,
+                            "content": "30% for Quizzes (two @ 15% each)",
+                            "isList": true,
+                            "key": 2
+                        },
+                        {
+                            "id": 252,
+                            "content": "5% for Hands-ons",
+                            "isList": true,
+                            "key": 3
+                        },
+                        {
+                            "id": 253,
+                            "content": "40%:",
+                            "key": 4,
+                            "children": [
+                                {
+                                    "id": 254,
+                                    "content": "Communication + System design and analysis",
+                                    "isList": true,
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 255,
+                            "content": "10% for DP preliminary report + DP presentation",
+                            "isList": true,
+                            "key": 5
+                        },
+                        {
+                            "id": 256,
+                            "content": "20% for DP report",
+                            "isList": true,
+                            "key": 6
+                        },
+                        {
+                            "id": 257,
+                            "content": "4% for the DP peer review",
+                            "isList": true,
+                            "key": 7
+                        },
+                        {
+                            "id": 258,
+                            "content": "6% for critiques (2%, 4%)",
+                            "isList": true,
+                            "key": 8
+                        },
+                        {
+                            "id": 259,
+                            "content": "25%:",
+                            "key": 9,
+                            "children": [
+                                {
+                                    "id": 260,
+                                    "content": "Participation",
+                                    "isList": true,
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 261,
+                            "content": "20% for recitation participation",
+                            "isList": true,
+                            "key": 10
+                        },
+                        {
+                            "id": 262,
+                            "content": "5% for communication participation",
+                            "isList": true,
+                            "key": 11
+                        }
+                    ]
+                },
+                {
+                    "id": 263,
+                    "content": "You must complete all design project assignments in order to pass 6.033. If you do not, you will automatically receive an F.",
+                    "key": 3
+                },
+                {
+                    "id": 264,
+                    "content": "Late Policy",
+                    "key": 4,
+                    "children": [
+                      {
+                        "id": 265,
+                        "content": "You must hand in assignments when they are due, and you must attend quizzes at the scheduled times. If you feel you have a compelling reason for not handing in an assignment on time, or for not attending a quiz, please talk to Dr. LaCurts in advance ; with support from S3 we will make exceptions.",
+                        "key": 1
+                      },
+                      {
+                        "id": 266,
+                        "content": "The only exception to this late policy is design-project materials. For those, the late policy will be explicitly posted on each assignment.",
+                        "key": 2
+                      },
+                      {
+                        "id": 267,
+                        "content": "If you miss an assignment deadline, you should still hand in the assignment; we'll give you feedback even though we won't give you credit for your final grade. Furthermore, doing assignments is the best way to prepare for exams and design project. Unless otherwise specified, assignments are due at 5:00pm on their assigned due-date (hands-ons are due at 11:59pm).",
+                        "key": 3
+                      }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 268,
+            "content": "Grade Components",
+            "key": 7,
+            "children": [
+                {
+                    "id": 269,
+                    "content": "Each assignment supports the objectives of 6.033 in various ways.",
+                    "key": 1
+                },
+                {
+                    "id": 270,
+                    "content": "Technical Material",
+                    "key": 2,
+                    "children": [
+                        {
+                            "id": 271,
+                            "content": "Quizzes:",
+                            "key": 1,
+                            "children": [
+                                {
+                                    "id": 272,
+                                    "content": "One quiz is held during the term. A second quiz will be scheduled during finals week. Each quiz will focus on half of the class' material, but keep in mind that later topics in 6.033 build heavily upon the earlier topics. The quizzes will test material from lectures, recitations, and the assigned reading, and let us test whether students have mastered the technical material.",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 273,
+                            "content": "Hands-ons: During most weeks, you will be expected to complete a hands-on experiment that requires a computer, usually an Athena workstation, and sometimes the Internet. These reinforce some of the abstract concepts from the lectures or papers that week, and let you find out how things really work.",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 274,
+                    "content": "Communication + System design and analysis",
+                    "key": 3,
+                    "children": [
+                        {
+                            "id": 275,
+                            "content": "The 6.033 staff have worked with the MIT Writing, Rhetoric, and Professional Communication (WRAP) program for more than 10 years to design 6.033 writing and speaking assignments. We have chosen assignments that are similar to the kinds of writing you will do in the engineering workplace: preliminary reports, final reports, and presentations. Communication assignments are designed to help you conceptualize and develop the design project.",
+                            "key": 1
+                        },
+                        {
+                            "id": 276,
+                            "content": "Design Project",
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 277,
+                                    "content": "The primary assignment in 6.033 is the design project (DP). This project is where the students get to design their own system, which is the primary objective of this course.",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 278,
+                                    "content": "The DP requires you to develop a detailed system design to solve a real-world problem. This project will extend over most of the semester, and will be done in teams of three students, all of whom attend the same writing tutorial (with exceptions only for extenuating circumstances). Real-world systems are not built individually; it's always a team effort. Part of the DP is to learn to work productively and effectively in this setting. We will give you tools for doing so in the writing tutorials.",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 279,
+                                    "content": "The DP consists of multiple deliverables: a preliminary report, oral presentation, final report, and peer review. The Design Project page gives more detail about the DP deliverables.",
+                                    "key": 3
+                                }
+                            ]
+                        },
+                        {
+                            "id": 280,
+                            "content": "System Critiques",
+                            "key": 3,
+                            "children": [
+                                {
+                                    "id": 281,
+                                    "content": "One of the goals of 6.033 is for students to be able to analyze and critique technical systems. We will assign multiple system critiques during the semester.",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 282,
+                                    "content": "These critiques will be graded by your TAs and/or Communication Instructors, and assigned a letter grade (we will specify more details about grading in each of the assignments). The expectations for each individual critique will be detailed in the tutorials. As your skills at analyzing and reading technical papers improve throughout the semester, we will expect your critiques to reflect that.",
+                                    "key": 2
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 283,
+                    "content": "Participation",
+                    "key": 4,
+                    "children": [
+                        {
+                            "id": 284,
+                            "content": "Recitation Participation",
+                            "key": 1,
+                            "children": [
+                                {
+                                    "id": 285,
+                                    "content": "Our recitations are discussion-based, and we expect you to be engaged and participate. Participating in a recitation means:",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 286,
+                                    "content": "",
+                                    "isList": true,
+                                    "key": 2,
+                                    "children": [
+                                        {
+                                            "id": 287,
+                                            "content": "Coming prepared to recitation (doing the reading, turning in the pre-reading question etc.)",
+                                            "key": 1
+                                        },
+                                        {
+                                            "id": 288,
+                                            "content": "Paying attention when the instructor is speaking (you can't participation in a discussion if you don't know what it's about)",
+                                            "key": 2
+                                        },
+                                        {
+                                            "id": 289,
+                                            "content": "Participating (verbally) in pair-/group-work",
+                                            "key": 3
+                                        },
+                                        {
+                                            "id": 290,
+                                            "content": "Volunteering to answer questions when the instructor asks them. (Note that you may not get called on each time. That's okay; our class sizes prevent that. Statistically, if you're raising your hand frequently, you'll get called on with some frequency.)",
+                                            "key": 4
+                                        },
+                                        {
+                                            "id": 291,
+                                            "content": "Responding to other student's comments with an opinion of their own.",
+                                            "key": 5
+                                        },
+                                        {
+                                            "id": 292,
+                                            "content": "Asking good questions in recitation (where \"good\" just means it's clear that you prepared for the recitation).",
+                                            "key": 6
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 293,
+                                    "content": "We will assign the participation grade at the end of the semester. So that you know where you stand throughout the class, we will you three preliminary participation grades (one about a quarter into the semester, one about halfway through, and one three quarters into the semester). This document explains in more detail how your participation grade is determined.",
+                                    "key": 3
+                                }
+                            ]
+                        },
+                        {
+                            "id": 294,
+                            "content": "Communication Participation",
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 295,
+                                    "content": "A portion of your participation grade will also be based on your participation in writing tutorials and on your understanding of communication concepts and skills, as demonstrated by your work on the design project and evaluated by your communication instructor.",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 296,
+                                    "content": "Note that over a third of your grade comes from written assignments: we expect you to take writing seriously in this class.",
+                                    "key": 2
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 297,
+            "content": "Collaboration",
+            "key": 8,
+            "children": [
+                {
+                    "id": 298,
+                    "content": "You may not collaborate on quizzes. On hands-ons, it's okay to discuss ideas with your classmates, but you should not be collaborating on the actual answers. Take the UNIX hands-on for example: it's okay to talk to your classmates about what pipes are, it's not okay to work together to come up with a command that gives a long listing of the smallest give files in the /etc directory whose name contains the string \".conf\", sorted by increasing file size (i.e., the solution to one of the first questions).",
+                    "key": 1
+                },
+                {
+                    "id": 299,
+                    "content": "On all writing assignments you are welcome to discuss ideas with others, but your writing should be your own and you should acknowledge all contributions of ideas by others , whether from classmates or from papers you have read.",
+                    "key": 2
+                }
+            ]
+        }
+    ]
+}

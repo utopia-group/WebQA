@@ -1,0 +1,257 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<title>COS 516/ELE 516: Automated Reasoning about Software</title>
+<link href="http://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet" type="text/css"/>
+<link href="http://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet" type="text/css"/>
+<link href="http://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css"/>
+<link href="../style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<center><span style="font-size:40px; font-weight:bold; color:#2980B9; font-family: 'Oswald'; align: center">COS 516/ELE 516: Automated Reasoning about Software, Fall 2018</span></center>
+<h1>Course information</h1>
+<b>Semester:</b> Fall 2018<br/>
+<b>Lectures:</b> Monday &amp; Wednesday 1:30 - 2:50pm<br/>
+<b>Location:</b> CS 301<br/>
+<b>Instructor:</b> <a href="http://www.cs.princeton.edu/~zkincaid/">Zak Kincaid</a>, <a href="mailto:zkincaid@cs.princeton.edu">zkincaid@cs.princeton.edu</a>.  <b>Office hours</b>: Tuesday 4-5pm in COS 219, or by appointment<br/>
+<b>Teaching assistant:</b> Jake Silverman, <a href="mailto:zkincaid@cs.princeton.edu">jakers@cs.princeton.edu</a>.  <b>Office hours</b>: Monday 3:30-4:30pm and Thursday 2-3pm, both in Friend 010.<br/>
+<b>Links:</b> <a href="https://piazza.com/princeton/Fall2018/cos516ele516/home">Piazza</a>, <a href="https://link.Springer.com/book/10.1007%2F978-3-540-74113-8">Calculus of Computation</a> <br/>
+<h1>Description</h1>
+   An introduction to algorithmic techniques for reasoning about
+   software. Basic concepts in logic-based techniques including model
+   checking, invariant generation, symbolic execution, and
+   syntax-guided synthesis; automatic decision procedures in modern
+   solvers for Boolean Satisfiability (SAT) and Satisfiability Modulo
+   Theory (SMT); and their applications in automated verification,
+   analysis, and synthesis of software. Emphasis on algorithms and
+   automatic tools.
+
+   <h1>Schedule</h1>
+   This is a tentative schedule that will be changed during the course.<br/><br/>
+<center>
+<table class="alt-color" style="width: 95%">
+<colgroup>
+<col span="1" style="width: 10%;"/>
+<col span="1" style="width: 60%;"/>
+<col span="1" style="width: 15%;"/>
+<col span="1" style="width: 15%;"/>
+</colgroup>
+<tr style="font-weight:bold">
+<td>Date</td>
+<td>Topics</td>
+<td>Readings</td>
+<td>Assignments</td>
+</tr>
+<tr>
+<td>Sept 12</td>
+<td>Introduction</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Sept 17,19</td>
+<td>Propositional logic and SAT.</td>
+<td>Bradley/Manna Ch 1</td>
+<td>PS1 posted</td>
+</tr>
+<tr>
+<td>Sept 24</td>
+<td>SAT solving.</td>
+<td><a href="readings/SATHandbook-CDCL.pdf">[R1]</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Sept 26</td>
+<td>Finite transition systems.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Oct 1</td>
+<td>First-order logic.</td>
+<td>Bradley/Manna Ch 2</td>
+<td>PS2 posted</td>
+</tr>
+<tr>
+<td>Oct 3</td>
+<td>Satisfiability modulo theories.</td>
+<td>Bradley/Manna Ch 3</td>
+<td></td>
+</tr>
+<tr>
+<td>Oct 8</td>
+<td>Reasoning about quantifiers.</td>
+<td>Bradley/Manna Ch 7</td>
+<td></td>
+</tr>
+<tr>
+<td>Oct 10</td>
+<td>Programs, operational semantics.</td>
+<td></td>
+<td>PS3 posted</td>
+</tr>
+<tr>
+<td>Oct 15</td>
+<td>Reasoning about program behavior.</td>
+<td>Bradley/Manna Ch 4-6</td>
+<td></td>
+</tr>
+<tr>
+<td>Oct 17</td>
+<td>Reasoning about program behavior cont'd.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Oct 22</td>
+<td>Invariant inference.</td>
+<td>Bradley/Manna Ch 12</td>
+<td>
+	   Project outline due. <br/>
+</td>
+</tr>
+<tr>
+<td>Oct 24</td>
+<td><span class="alert">Midterm exam.</span></td>
+<td></td>
+<td></td>
+</tr>
+<!-- <tr> -->
+<!-- 	 <td>Oct 22</td> -->
+<!-- 	 <td>Abstract interpretation.</td> -->
+<!-- 	 <td></td> -->
+<!-- 	 <td></td> -->
+<!-- </tr> -->
+<!-- <tr> -->
+<!-- 	 <td>Oct 24</td> -->
+<!-- 	 <td>Algebraic program analysis.</td> -->
+<!-- 	 <td></td> -->
+<!-- 	 <td></td> -->
+<!-- </tr> -->
+<tr>
+<td>Oct 29,31</td>
+<td><i>Fall break</i></td>
+<td></td><td></td>
+</tr>
+<tr>
+<td>Nov 5,7</td>
+<td>Software model checking.</td>
+<td></td>
+<td>PS4 posted.</td>
+</tr>
+<tr>
+<td>Nov 12</td>
+<td>Proving termination.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Nov 14</td>
+<td>Program synthesis.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Nov 19</td>
+<td>Meta-theory of first-order logic.</td>
+<td></td>
+<td>Project Interim Report due</td>
+</tr>
+<tr>
+<td>Nov 26</td>
+<td>Separation logic.</td>
+<td></td>
+<td>PS5 posted</td>
+</tr>
+<tr>
+<td>Nov 28</td>
+<td>Temporal logic.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Dec 3,5</td>
+<td>Project presentations</td>
+<td></td><td></td>
+</tr>
+<tr>
+<td>Dec 10,12</td>
+<td>Project presentations</td>
+<td></td><td></td>
+</tr>
+</table>
+</center>
+<h1>Grading policies</h1>
+
+   Your final grade will be weighted as follows:
+   <table class="alt-color" style="width: 20%">
+<colgroup>
+<col span="1" style="width: 70%;"/>
+<col span="1" style="width: 30%;"/>
+</colgroup>
+<tr>
+<td><b>Component</b></td>
+<td><b>Weight</b></td>
+</tr>
+<tr>
+<td>Homework and Assignments</td>
+<td>40%</td>
+</tr>
+<tr>
+<td>Class Project</td>
+<td>30%</td>
+</tr>
+<tr>
+<td>Midterm Exam</td>
+<td>25%</td>
+</tr>
+<tr>
+<td>Participation</td>
+<td>5%</td>
+</tr>
+</table>
+
+   We encourage you to attend the lectures and to participate actively
+   in the course. These will be components of your Participation
+   grade.
+
+   <h2>Late policy</h2>
+<ul>
+<li>
+       Late assignments will be penalized 1% per hour past the
+       deadline.
+     </li>
+<li>
+       You have one "late pass" that allows you to submit any one
+       homework or assignment up to three days late without
+       penalty. You can apply your late pass to at most one homework
+       or assignment; you cannot split your late pass across multiple
+       homeworks or assignments.
+     </li>
+<li>
+       In case of special circumstances (e.g., illness, religious holidays, etc.), please write to the Professor if you need an extension.
+     </li>
+</ul>
+<h2>Conduct</h2>
+   For homework and assignments, discussions with others are
+   permitted, where the goal is to aid your understanding. However,
+   the submitted work/code should be entirely your own.<br/>
+
+   For code submissions, please also submit a README file where you
+   should name the individuals that you received help from or provided
+   help to. Also briefly mention the nature of the help you received
+   or provided.<br/>
+
+   For the class project, you can work in teams of two. Discussions
+   with your team-mate and with others are permitted.<br/>
+
+   For any of these (homework, assignments, and class project), please
+   DO NOT copy or get solutions from resources outside the course.<br/>
+
+   If you have any questions or concerns, please discuss these
+   policies with the instructors.<br/>
+
+   Conduct during in-class exams is covered by the University Honor Code.
+ </body>
+</html>

@@ -1,0 +1,1015 @@
+{
+    "id": 0,
+    "content": "FAST 2020 Call for Papers | USENIX",
+    "children": [
+        {
+            "id": 1,
+            "content": "FAST 2020 Call for Papers",
+            "key": 1,
+            "children": [
+                {
+                    "id": 2,
+                    "content": "The 18th USENIX Conference on File and Storage Technologies (FAST 2020) will be co-located with the 17th USENIX Symposium on Networked Systems Design and Implementation (NSDI 2020) and will take place February 24–27, 2020, at the Hyatt Regency Santa Clara in Santa Clara, CA, USA.",
+                    "key": 1
+                },
+                {
+                    "id": 3,
+                    "content": "Sponsored by USENIX in cooperation with ACM SIGOPS.",
+                    "key": 2
+                },
+                {
+                    "id": 4,
+                    "content": "Important Dates",
+                    "key": 3,
+                    "children": [
+                        {
+                            "id": 5,
+                            "content": "",
+                            "isList": true,
+                            "key": 1,
+                            "children": [
+                                {
+                                  "id": 6,
+                                  "content": "Paper submissions due:",
+                                  "key": 1,
+                                  "children": [
+                                    {
+                                      "id": 7,
+                                      "content": "Thursday, September 26, 2019, 11:59pm AoE (Anywhere on Earth) time",
+                                      "key": 1
+                                    }
+                                  ]
+                                },
+                              {
+                                "id": 8,
+                                "content": "Tutorial submissions due:",
+                                "key": 2,
+                                "children": [
+                                  {
+                                    "id": 9,
+                                    "content": "Thursday, September 26, 2019, 11:59pm AoE (Anywhere on Earth) time",
+                                    "key": 1
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 10,
+                                "content": "Notification to authors:",
+                                "key": 3,
+                                "children": [
+                                  {
+                                    "id": 11,
+                                    "content": "Wednesday, December 11, 2019",
+                                    "key": 1
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 12,
+                                "content": "Final papers due:",
+                                "key": 4,
+                                "children": [
+                                  {
+                                    "id": 13,
+                                    "content": "Thursday, January 23, 2020",
+                                    "key": 1
+                                  }
+                                ]
+                              }
+                            ]
+                        },
+                        {
+                            "id": 14,
+                            "content": "Download Call for Papers PDF",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 15,
+                    "content": "Conference Organizers",
+                    "key": 4,
+                    "children": [
+                        {
+                            "id": 16,
+                            "content": "Program Co-Chairs",
+                            "key": 1,
+                            "children": [
+                                {
+                                    "id": 17,
+                                    "content": "Sam H. Noh, UNIST (Ulsan National Institute of Science and Technology)",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 18,
+                                    "content": "Brent Welch, Google",
+                                    "key": 2
+                                }
+                            ]
+                        },
+                        {
+                            "id": 19,
+                            "content": "Program Committee",
+                            "key": 2,
+                            "children": [
+                              {
+                                "id": 20,
+                                "content": "Nitin Agrawal, ThoughtSpot",
+                                "key": 1
+                              },
+                              {
+                                "id": 21,
+                                "content": "George Amvrosiadis, Carnegie Mellon University",
+                                "key": 2
+                              },
+                              {
+                                "id": 22,
+                                "content": "John Bent, Seagate",
+                                "key": 3
+                              },
+                              {
+                                "id": 23,
+                                "content": "Pramod Bhatotia, The University of Edinburgh",
+                                "key": 4
+                              },
+                              {
+                                "id": 24,
+                                "content": "Suparna Bhattacharya, Hewlett Packard Enterprise",
+                                "key": 5
+                              },
+                              {
+                                "id": 25,
+                                "content": "William J. Bolosky, Microsoft Research",
+                                "key": 6
+                              },
+                              {
+                                "id": 26,
+                                "content": "André Brinkmann, Johannes Gutenberg-University Mainz",
+                                "key": 7
+                              },
+                              {
+                                "id": 27,
+                                "content": "Randal Burns, Johns Hopkins University",
+                                "key": 8
+                              },
+                              {
+                                "id": 28,
+                                "content": "Ali Butt, Virginia Tech",
+                                "key": 9
+                              },
+                              {
+                                "id": 29,
+                                "content": "Young-ri Choi, UNIST (Ulsan National Institute of Science and Technology)",
+                                "key": 10
+                              },
+                              {
+                                "id": 30,
+                                "content": "Angela Demke Brown, University of Toronto",
+                                "key": 11
+                              },
+                              {
+                                "id": 31,
+                                "content": "Gary Grider, Los Alamos National Laboratory",
+                                "key": 12
+                              },
+                              {
+                                "id": 32,
+                                "content": "Haryadi Gunawi, University of Chicago",
+                                "key": 13
+                              },
+                              {
+                                "id": 33,
+                                "content": "Dean Hildebrand, Google",
+                                "key": 14
+                              },
+                              {
+                                "id": 34,
+                                "content": "Yu Hua, Huazhong University of Science and Technology",
+                                "key": 15
+                              },
+                              {
+                                "id": 35,
+                                "content": "H. Howie Huang, The George Washington University",
+                                "key": 16
+                              },
+                              {
+                                "id": 36,
+                                "content": "Jian Huang, University of Illinois at Urbana–Champaign",
+                                "key": 17
+                              },
+                              {
+                                "id": 37,
+                                "content": "Jooyoung Hwang, Samsung Electronics",
+                                "key": 18
+                              },
+                              {
+                                "id": 38,
+                                "content": "Bill Jannen, Williams College",
+                                "key": 19
+                              },
+                              {
+                                "id": 39,
+                                "content": "Kimberly Keeton, HP Labs",
+                                "key": 20
+                              },
+                              {
+                                "id": 40,
+                                "content": "Geoff Kuenning, Harvey Mudd College",
+                                "key": 21
+                              },
+                              {
+                                "id": 41,
+                                "content": "Patrick P. C. Lee, The Chinese University of Hong Kong",
+                                "key": 22
+                              },
+                              {
+                                "id": 42,
+                                "content": "Sungjin Lee, DGIST (Daegu Gyeongbuk Institute of Science and Technology)",
+                                "key": 23
+                              },
+                              {
+                                "id": 43,
+                                "content": "Darrell Long, University of California, Santa Cruz",
+                                "key": 24
+                              },
+                              {
+                                "id": 44,
+                                "content": "Xiaosong Ma, Qatar Computing Research Institute",
+                                "key": 25
+                              },
+                              {
+                                "id": 45,
+                                "content": "Umesh Maheshwari, Hewlett Packard Enterprise",
+                                "key": 26
+                              },
+                              {
+                                "id": 46,
+                                "content": "Ethan L. Miller, University of California, Santa Cruz, and Pure Storage",
+                                "key": 27
+                              },
+                              {
+                                "id": 47,
+                                "content": "Changwoo Min, Virginia Polytechnic Institute and State University",
+                                "key": 28
+                              },
+                              {
+                                "id": 48,
+                                "content": "Kiran-Kumar Muniswamy-Reddy, Amazon",
+                                "key": 29
+                              },
+                              {
+                                "id": 49,
+                                "content": "Dalit Naor, IBM Research",
+                                "key": 30
+                              },
+                              {
+                                "id": 50,
+                                "content": "Sam H. Noh, UNIST (Ulsan National Institute of Science and Technology)",
+                                "key": 31
+                              },
+                              {
+                                "id": 51,
+                                "content": "Don Porter, The University of North Carolina at Chapel Hill",
+                                "key": 32
+                              },
+                              {
+                                "id": 52,
+                                "content": "Rob Ross, Argonne National Laboratory",
+                                "key": 33
+                              },
+                              {
+                                "id": 53,
+                                "content": "Keith A. Smith, MongoDB",
+                                "key": 34
+                              },
+                              {
+                                "id": 54,
+                                "content": "Vasily Tarasov, IBM Research",
+                                "key": 35
+                              },
+                              {
+                                "id": 55,
+                                "content": "Devesh Tiwari, Northeastern University",
+                                "key": 36
+                              },
+                              {
+                                "id": 56,
+                                "content": "Carl Waldspurger, Carl Waldspurger Consulting",
+                                "key": 37
+                              },
+                              {
+                                "id": 57,
+                                "content": "Brent Welch, Google",
+                                "key": 38
+                              },
+                              {
+                                "id": 58,
+                                "content": "Ric Wheeler, Facebook",
+                                "key": 39
+                              },
+                              {
+                                "id": 59,
+                                "content": "Avani Wildani, Emory University",
+                                "key": 40
+                              },
+                              {
+                                "id": 60,
+                                "content": "Youjip Won, Korea Advanced Institute of Science and Technology (KAIST)",
+                                "key": 41
+                              },
+                              {
+                                "id": 61,
+                                "content": "Gala Yadgar, Technion—Israel Institute of Technology",
+                                "key": 42
+                              },
+                              {
+                                "id": 62,
+                                "content": "Jishen Zhao, University of California, San Diego",
+                                "key": 43
+                              }
+                            ]
+                        },
+                        {
+                            "id": 63,
+                            "content": "Poster Session Chair",
+                            "key": 3,
+                            "children": [
+                                {
+                                    "id": 64,
+                                    "content": "Dean Hildebrand, Google",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 65,
+                            "content": "Test of Time Awards Committee",
+                            "key": 4,
+                            "children": [
+                              {
+                                "id": 66,
+                                "content": "Jiri Schindler, Tranquil Data",
+                                "key": 1
+                              },
+                              {
+                                "id": 67,
+                                "content": "Bianca Schroeder, University of Toronto",
+                                "key": 2
+                              }
+                            ]
+                        },
+                        {
+                            "id": 68,
+                            "content": "Work-in-Progress Reports (WiPs) Chair",
+                            "key": 5,
+                            "children": [
+                                {
+                                    "id": 69,
+                                    "content": "Avani Wildani, Emory University",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 70,
+                            "content": "Tutorial Coordinators",
+                            "key": 6,
+                            "children": [
+                                {
+                                    "id": 71,
+                                    "content": "Andy Klosterman, NetApp",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 72,
+                                    "content": "John Strunk, Red Hat",
+                                    "key": 2
+                                }
+                            ]
+                        },
+                        {
+                            "id": 73,
+                            "content": "Steering Committee",
+                            "key": 7,
+                            "children": [
+                              {
+                                "id": 74,
+                                "content": "Nitin Agrawal, ThoughtSpot",
+                                "key": 1
+                              },
+                              {
+                                "id": 75,
+                                "content": "Angela Demke Brown, University of Toronto",
+                                "key": 2
+                              },
+                              {
+                                "id": 76,
+                                "content": "Greg Ganger, Carnegie Mellon University",
+                                "key": 3
+                              },
+                              {
+                                "id": 77,
+                                "content": "Casey Henderson, USENIX Association",
+                                "key": 4
+                              },
+                              {
+                                "id": 78,
+                                "content": "Kimberly Keeton, HP Labs",
+                                "key": 5
+                              },
+                              {
+                                "id": 79,
+                                "content": "Geoff Kuenning, Harvey Mudd College",
+                                "key": 6
+                              },
+                              {
+                                "id": 80,
+                                "content": "Arif Merchant, Google",
+                                "key": 7
+                              },
+                              {
+                                "id": 81,
+                                "content": "Florentina Popovici, Google",
+                                "key": 8
+                              },
+                              {
+                                "id": 82,
+                                "content": "Raju Rangaswami, Florida International University",
+                                "key": 9
+                              },
+                              {
+                                "id": 83,
+                                "content": "Erik Riedel",
+                                "key": 10
+                              },
+                              {
+                                "id": 84,
+                                "content": "Jiri Schindler, Tranquil Data",
+                                "key": 11
+                              },
+                              {
+                                "id": 85,
+                                "content": "Bianca Schroeder, University of Toronto",
+                                "key": 12
+                              },
+                              {
+                                "id": 86,
+                                "content": "Keith A. Smith, MongoDB",
+                                "key": 13
+                              },
+                              {
+                                "id": 87,
+                                "content": "Eno Thereska, Amazon",
+                                "key": 14
+                              },
+                              {
+                                "id": 88,
+                                "content": "Carl Waldspurger, Carl Waldspurger Consulting",
+                                "key": 15
+                              },
+                              {
+                                "id": 89,
+                                "content": "Hakim Weatherspoon, Cornell University",
+                                "key": 16
+                              },
+                              {
+                                "id": 90,
+                                "content": "Ric Wheeler, Facebook",
+                                "key": 17
+                              },
+                              {
+                                "id": 91,
+                                "content": "Erez Zadok, Stony Brook University",
+                                "key": 18
+                              }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 92,
+                    "content": "Overview",
+                    "key": 5,
+                    "children": [
+                        {
+                            "id": 93,
+                            "content": "The 18th USENIX Conference on File and Storage Technologies (FAST 2020) brings together storage-system researchers and practitioners to explore new directions in the design, implementation, evaluation, and deployment of storage systems. The program committee will interpret \"storage systems\" broadly; papers on low-level storage devices, distributed storage systems, and information management are all of interest. The conference will consist of technical presentations including refereed papers, Work-in-Progress (WiP) reports, poster sessions, and tutorials.",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 94,
+                    "content": "Topics",
+                    "key": 6,
+                    "children": [
+                        {
+                            "id": 95,
+                            "content": "Topics of interest include but are not limited to:",
+                            "key": 1
+                        },
+                        {
+                            "id": 96,
+                            "content": "",
+                            "isList": true,
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 97,
+                                    "content": "Archival storage systems",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 98,
+                                    "content": "Auditing and provenance",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 99,
+                                    "content": "Big data, analytics, and data sciences",
+                                    "key": 3
+                                },
+                                {
+                                    "id": 100,
+                                    "content": "Caching, replication, and consistency",
+                                    "key": 4
+                                },
+                                {
+                                    "id": 101,
+                                    "content": "Cloud storage",
+                                    "key": 5
+                                },
+                                {
+                                    "id": 102,
+                                    "content": "Data deduplication",
+                                    "key": 6
+                                },
+                                {
+                                    "id": 103,
+                                    "content": "Database storage",
+                                    "key": 7
+                                },
+                                {
+                                    "id": 104,
+                                    "content": "Distributed and networked storage (wide-area, grid, peer-to-peer)",
+                                    "key": 8
+                                },
+                                {
+                                    "id": 105,
+                                    "content": "Empirical evaluation of storage systems",
+                                    "key": 9
+                                },
+                                {
+                                    "id": 106,
+                                    "content": "Experience with deployed systems",
+                                    "key": 10
+                                },
+                                {
+                                    "id": 107,
+                                    "content": "File system design",
+                                    "key": 11
+                                },
+                                {
+                                    "id": 108,
+                                    "content": "High-performance file systems",
+                                    "key": 12
+                                },
+                                {
+                                    "id": 109,
+                                    "content": "Key-value and NoSQL storage",
+                                    "key": 13
+                                },
+                                {
+                                    "id": 110,
+                                    "content": "Memory-only storage systems",
+                                    "key": 14
+                                },
+                                {
+                                    "id": 111,
+                                    "content": "Mobile, personal, embedded, and home storage",
+                                    "key": 15
+                                },
+                                {
+                                    "id": 112,
+                                    "content": "Parallel I/O and storage systems",
+                                    "key": 16
+                                },
+                                {
+                                    "id": 113,
+                                    "content": "Power-aware storage architectures",
+                                    "key": 17
+                                },
+                                {
+                                    "id": 114,
+                                    "content": "RAID and erasure coding",
+                                    "key": 18
+                                },
+                                {
+                                    "id": 115,
+                                    "content": "Reliability, availability, and disaster tolerance",
+                                    "key": 19
+                                },
+                                {
+                                    "id": 116,
+                                    "content": "Search and data retrieval",
+                                    "key": 20
+                                },
+                                {
+                                    "id": 117,
+                                    "content": "Solid state storage technologies and uses (e.g., flash, byte-addressable NVM)",
+                                    "key": 21
+                                },
+                                {
+                                    "id": 118,
+                                    "content": "Storage management",
+                                    "key": 22
+                                },
+                                {
+                                    "id": 119,
+                                    "content": "Storage networking",
+                                    "key": 23
+                                },
+                                {
+                                    "id": 120,
+                                    "content": "Storage performance and QoS",
+                                    "key": 24
+                                },
+                                {
+                                    "id": 121,
+                                    "content": "Storage security",
+                                    "key": 25
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 122,
+                    "content": "Submission Instructions",
+                    "key": 7,
+                    "children": [
+                      {
+                        "id": 123,
+                        "content": "Please submit full and short paper submissions by 11:59pm AoE (Anywhere on Earth) time on September 26, 2019, in PDF format via the submission form. Do not email submissions. There is no separate deadline for abstract submissions.",
+                        "key": 1
+                      },
+                      {
+                        "id": 124,
+                        "content": "",
+                        "isList": true,
+                        "key": 2,
+                        "children": [
+                          {
+                            "id": 125,
+                            "content": "The complete submission must be no longer than 11 pages for full papers and 6 pages for short papers, excluding references. The program committee will value conciseness, so if an idea can be expressed in fewer pages than the limit, please do so. Supplemental material may be added as a single-but-separate file without page limit; however the reviewers are not required to read such material or consider it in making their decision. Any material that should be considered to properly judge the paper for acceptance or rejection is not supplemental and will apply to the page limit.",
+                            "key": 1
+                          },
+                          {
+                            "id": 126,
+                            "content": "Papers should be typeset on U.S. letter-sized pages in two-column format in 10-point Times Roman type on 12-point leading (single-spaced), in a text block 7\" wide by 9\" deep .",
+                            "key": 2
+                          },
+                          {
+                            "id": 127,
+                            "content": "Labels, captions, and other text in figures, graphs, and tables must use reasonable font sizes that, as printed, do not require extra magnification to be legible. Because references do not count against the page limit, they should not be set in a smaller font. Submissions that violate any of these restrictions will not be reviewed. The limits will be interpreted strictly. No extensions will be given for reformatting.",
+                            "key": 3
+                          },
+                          {
+                            "id": 128,
+                            "content": "A LaTeX template and style file are available on the USENIX templates page.",
+                            "key": 4
+                          },
+                          {
+                            "id": 129,
+                            "content": "Double-blind policy:",
+                            "key": 5,
+                            "children": [
+                              {
+                                "id": 130,
+                                "content": "Authors must not be identified in the submissions, either explicitly or by implication. When it is necessary to cite your own work, cite it as if it were written by a third party. Do not say \"reference removed for blind review.\" Any supplemental material must also be anonymized.",
+                                "key": 1
+                              }
+                            ]
+                          },
+                          {
+                            "id": 131,
+                            "content": "Simultaneous submission of the same work to multiple venues, submission of previously published work, or plagiarism constitutes dishonesty or fraud. USENIX, like other scientific and technical conferences and journals, prohibits these practices and may take action against authors who have committed them. See the USENIX Conference Submissions Policy for details.",
+                            "key": 6
+                          },
+                          {
+                            "id": 132,
+                            "content": "If you are uncertain whether your submission meets USENIX's guidelines, please contact the program co-chairs, fast20chairs@usenix.org, or the USENIX office, submissionspolicy@usenix.org.",
+                            "key": 7
+                          },
+                          {
+                            "id": 133,
+                            "content": "Papers accompanied by nondisclosure agreement forms will not be considered.",
+                            "key": 8
+                          },
+                          {
+                            "id": 134,
+                            "content": "Submission should abide by the Conflict Identification guidelines (see below).",
+                            "key": 9
+                          }
+                            ]
+                        },
+                        {
+                            "id": 135,
+                            "content": "The program committee and external reviewers will judge papers on technical merit, significance, relevance, and presentation. A good research paper will demonstrate that the authors:",
+                            "key": 3
+                        },
+                        {
+                            "id": 136,
+                            "content": "",
+                            "isList": true,
+                            "key": 4,
+                            "children": [
+                                {
+                                    "id": 137,
+                                    "content": "are attacking a significant problem",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 138,
+                                    "content": "have devised an interesting, compelling solution",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 139,
+                                    "content": "have demonstrated the practicality and benefits of the solution",
+                                    "key": 3
+                                },
+                                {
+                                    "id": 140,
+                                    "content": "have drawn appropriate conclusions using sound experimental methods",
+                                    "key": 4
+                                },
+                                {
+                                    "id": 141,
+                                    "content": "have clearly described what they have done",
+                                    "key": 5
+                                },
+                                {
+                                    "id": 142,
+                                    "content": "have clearly articulated the advances beyond previous work",
+                                    "key": 6
+                                }
+                            ]
+                        },
+                        {
+                            "id": 143,
+                            "content": "Moreover, program committee members, USENIX, and the reading community generally value a paper more highly if it clearly defines and is accompanied by assets not previously available. These assets may include traces, original data, source code, or tools developed as part of the submitted work.",
+                            "key": 5
+                        },
+                        {
+                            "id": 144,
+                            "content": "Blind reviewing of all papers will be done by the program committee, assisted by outside referees when necessary. Each accepted paper will be shepherded through an editorial review process by a member of the program committee.",
+                            "key": 6
+                        },
+                        {
+                            "id": 145,
+                            "content": "If you need a bigger testbed for the work that you will submit to FAST 2020, see PRObE at www.nmc-probe.org.",
+                            "key": 7
+                        },
+                        {
+                            "id": 146,
+                            "content": "Long vs. Short Papers",
+                            "key": 8,
+                            "children": [
+                                {
+                                    "id": 147,
+                                    "content": "While FAST accepts both full-length and short papers, we emphasize that short paper submissions are reviewed to the same standards as full papers and differ primarily in the scope of the ideas expressed. That is, preliminary or work-in-progress papers generally considered in workshops do not Fall in our scope of short papers. Complete papers where ideas, evaluation, and presentation that does not require the full number of pages to present Fall in this scope. The idea in a short paper needs to be formulated concisely and evaluated, and conclusions need to be drawn from it, just like in a full-length paper. The program committee will not accept a full paper on the condition that it is cut down to fit in the short paper page limit, nor will it invite short papers to be extended to full length. Submissions will be considered only in the category in which they are submitted.",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 148,
+                            "content": "Deployed-Systems Papers",
+                            "key": 9,
+                            "children": [
+                                {
+                                    "id": 149,
+                                    "content": "In addition to papers that describe original research, FAST 2020 also solicits papers that describe large-scale, operational systems. Such papers should address experience with the practical design, implementation, analysis, or deployment of such systems. We encourage submission of papers that disprove or strengthen existing assumptions, deepen the understanding of existing problems, and validate known techniques at scales or in environments in which they were never before used or tested. Deployed-system papers need not necessarily present new ideas or results to be accepted, although that is certainly welcome, but should offer useful guidance to practitioners.",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 150,
+                                    "content": "A good deployed-system paper will demonstrate that the authors:",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 151,
+                                    "content": "",
+                                    "isList": true,
+                                    "key": 3,
+                                    "children": [
+                                        {
+                                            "id": 152,
+                                            "content": "are describing an operational system that is of wide interest",
+                                            "key": 1
+                                        },
+                                        {
+                                            "id": 153,
+                                            "content": "have addressed the practicality of the system in more than one real-world environment, especially at large scale",
+                                            "key": 2
+                                        },
+                                        {
+                                            "id": 154,
+                                            "content": "have clearly explained the implementation of the system",
+                                            "key": 3
+                                        },
+                                        {
+                                            "id": 155,
+                                            "content": "have discussed practical problems encountered in production",
+                                            "key": 4
+                                        },
+                                        {
+                                            "id": 156,
+                                            "content": "have carefully evaluated the system with good statistical techniques",
+                                            "key": 5
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 157,
+                                    "content": "Authors should indicate on the title page of the paper and in the submission form that they are submitting a Deployed-system paper.",
+                                    "key": 4
+                                },
+                                {
+                                    "id": 158,
+                                    "content": "Double-blind policy for Deployed-system paper:",
+                                    "key": 5,
+                                    "children": [
+                                        {
+                                            "id": 159,
+                                            "content": "All submissions for FAST 2020 are required to follow the double-blind policy (see below). However, only for deployed-system papers, while the authors still need to be anonymized, the product and company described in the paper need not be anonymized.",
+                                            "key": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 160,
+                            "content": "Conflict Identification",
+                            "key": 10,
+                            "children": [
+                                {
+                                    "id": 161,
+                                    "content": "When registering and submitting your paper, you will need to provide information about conflicts with PC members. Use the following guidelines to determine conflicts:",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 162,
+                                    "content": "Institution:",
+                                    "key": 2,
+                                    "children": [
+                                        {
+                                            "id": 163,
+                                            "content": "You are currently employed at the same institution, have been previously employed at the same institution within the past two years, or are going to begin employment at the same institution.",
+                                            "key": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 164,
+                                    "content": "Advisor/Advisee:",
+                                    "key": 3,
+                                    "children": [
+                                        {
+                                            "id": 165,
+                                            "content": "You have a past or present association as thesis advisor or advisee.",
+                                            "key": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 166,
+                                    "content": "Collaboration:",
+                                    "key": 4,
+                                    "children": [
+                                        {
+                                            "id": 167,
+                                            "content": "You have a collaboration on a project, publication, grant proposal, or editorship within the past two years.",
+                                            "key": 1
+                                        },
+                                        {
+                                            "id": 168,
+                                            "content": "The PC will review paper conflicts to ensure the integrity of the reviewing process, adding conflicts if necessary. Similarly, if there is no basis for conflicts provided by authors, such conflicts will be removed (e.g., do not improperly identify PC members as a conflict in an attempt to avoid having an individual review your paper). If you have any questions about conflicts, please contact the program co-chairs.",
+                                            "key": 2
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 169,
+                            "content": "Author Notification and Beyond",
+                            "key": 11,
+                            "children": [
+                                {
+                                    "id": 170,
+                                    "content": "Authors will be notified of paper acceptance or rejection no later than Wednesday, December 11, 2019. If your paper is accepted and you need an invitation letter to apply for a visa to attend the conference, please contact conference@usenix.org as soon as possible. (Visa applications can take at least 30 working days to process.) Please identify yourself as a presenter and include your mailing address in your email.",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 171,
+                                    "content": "All papers will be available online to registered attendees no earlier than Thursday, January 23, 2020. If your accepted paper should not be published prior to the event, please notify production@usenix.org. The papers will be available online to everyone beginning on the first day of the main conference, February 25, 2019. Accepted submissions will be treated as confidential prior to publication on the USENIX FAST 2020 website; rejected submissions will be permanently treated as confidential.",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 172,
+                                    "content": "By submitting a paper, you agree that at least one of the authors will attend the conference to present it. If the conference registration fee will pose a hardship for the presenter of the accepted paper, please contact conference@usenix.org.",
+                                    "key": 3
+                                },
+                                {
+                                    "id": 173,
+                                    "content": "SUBMIT YOUR WORK",
+                                    "key": 4
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 174,
+                    "content": "Best Paper Awards",
+                    "key": 8,
+                    "children": [
+                        {
+                            "id": 175,
+                            "content": "Awards will be given for the best paper(s) at the conference. A small, selected set of papers will be forwarded for publication in ACM Transactions on Storage (TOS) via a fast-path editorial process. Both full and short papers will be considered.",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 176,
+                    "content": "Test of Time Award",
+                    "key": 9,
+                    "children": [
+                        {
+                            "id": 177,
+                            "content": "We will award a FAST paper from a conference at least 10 years earlier with the \"Test of Time\" award in recognition of its lasting impact on the field.",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 178,
+                    "content": "Work-in-Progress Reports and Poster Sessions",
+                    "key": 10,
+                    "children": [
+                        {
+                            "id": 179,
+                            "content": "The FAST technical sessions will include a slot for short Work-in-Progress (WiP) reports presenting preliminary results and opinion statements. We are particularly interested in presentations of student work and topics that will provoke informative debate. While WiP proposals will be evaluated for appropriateness, they are not peer reviewed in the same sense that papers are.",
+                            "key": 1
+                        },
+                        {
+                            "id": 180,
+                            "content": "We will also hold poster sessions each evening. WiP submissions will automatically be considered for a poster slot, and authors of all accepted full papers will be asked to present a poster on their paper. Other poster submissions are very welcome. The Call for Posters and WiPs will be available soon.",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 181,
+                    "content": "Birds-of-a-Feather Sessions",
+                    "key": 11,
+                    "children": [
+                        {
+                            "id": 182,
+                            "content": "Birds-of-a-Feather sessions (BoFs) are informal gatherings held in the evenings and organized by attendees interested in a particular topic. BoFs may be scheduled in advance by emailing the Conference Department at bofs@usenix.org. BoFs may also be scheduled at the conference.",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 183,
+                    "content": "Tutorial Sessions",
+                    "key": 12,
+                    "children": [
+                      {
+                        "id": 184,
+                        "content": "Tutorial sessions will be held on February 24, 2020. Please submit tutorial proposals to fasttutorials@usenix.org by 11:59pm AoE (Anywhere on Earth) time on Thursday, September 26, 2019.",
+                        "key": 1
+                      }
+                    ]
+                },
+                {
+                    "id": 185,
+                    "content": "Registration Materials",
+                    "key": 13,
+                    "children": [
+                        {
+                            "id": 186,
+                            "content": "Complete program and registration information will be available in December 2019 on the conference website.",
+                            "key": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

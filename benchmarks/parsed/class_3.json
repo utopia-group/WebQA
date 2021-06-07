@@ -1,0 +1,554 @@
+{
+    "id": 0,
+    "content": "CS 327E Elements of Databases",
+    "children": [
+        {
+            "id": 1,
+            "content": "Syllabus for CS 327E Elements of Databases - Spring 2020",
+            "key": 1,
+            "children": [
+                {
+                    "id": 2,
+                    "content": "Class Times:",
+                    "key": 1,
+                    "children": [
+                        {
+                            "id": 3,
+                            "content": "Monday 6:00pm - 9:00pm   Class Location: Zoom",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "content": "Instructor:",
+                    "key": 2,
+                    "children": [
+                        {
+                            "id": 5,
+                            "content": "Shirley Cohen   Email: scohen at cs dot utexas dot edu   Office hours: After class or by appointment on Zoom",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "content": "TA:",
+                    "key": 3,
+                    "children": [
+                        {
+                            "id": 7,
+                            "content": "Ethan Houston   Email: ethan dot houston at utexas dot edu   Office hours: Wednesday and Friday 12:00pm - 1:00pm on Zoom",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "content": "TA:",
+                    "key": 4,
+                    "children": [
+                        {
+                            "id": 9,
+                            "content": "Jiayi Zhou   Email: judyzhou959 at utexas dot edu   Office hours: Tuesday 3:00pm - 4:00pm and Friday 10:00am - 11:00am on Zoom",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "content": "Course Description :",
+                    "key": 5,
+                    "children": [
+                        {
+                            "id": 11,
+                            "content": "This course is designed to give students a practical understanding of databases and data systems. The goal is to learn modern data management and data processing techniques through a mix of best practices, experimentation, and problem solving.",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 12,
+                    "content": "The content of the course is organized into three broad areas: 1) SQL with an emphasis on the standard features of the language; 2) data models from relational to nested; and 3) dataflow programming and workflow orchestration for processing data at-scale.",
+                    "key": 6
+                },
+                {
+                    "id": 13,
+                    "content": "We will first construct a analytics database from single dataset of structured data. We will then expand the scope of the database with additional datasets from multiple sources. We will gradually enrich, cleanse, and transform the data to create a unified view of the data across multiple datasets. This work will be implemented on Google Cloud Platform using a variety of data science tools: Postgres, BigQuery, Apache Beam and Dataflow, Apache Airflow and Composer, Jupyter Notebooks, and Data Studio.",
+                    "key": 7
+                },
+                {
+                    "id": 14,
+                    "content": "Below are some of the topics we will be covering during the term:",
+                    "key": 8
+                },
+                {
+                    "id": 15,
+                    "content": "SQL:",
+                    "isList": true,
+                    "key": 9,
+                    "children": [
+                        {
+                            "id": 16,
+                            "content": "- select-from-where",
+                            "key": 1
+                        },
+                        {
+                            "id": 17,
+                            "content": "- order-bys",
+                            "key": 2
+                        },
+                        {
+                            "id": 18,
+                            "content": "- joins",
+                            "key": 3
+                        },
+                        {
+                            "id": 19,
+                            "content": "- inserts, updates, deletes",
+                            "key": 4
+                        },
+                        {
+                            "id": 20,
+                            "content": "- aggregates",
+                            "key": 5
+                        },
+                        {
+                            "id": 21,
+                            "content": "- group-bys",
+                            "key": 6
+                        },
+                        {
+                            "id": 22,
+                            "content": "- subqueries",
+                            "key": 7
+                        },
+                        {
+                            "id": 23,
+                            "content": "- functions",
+                            "key": 8
+                        }
+                    ]
+                },
+                {
+                    "id": 24,
+                    "content": "Data Modeling:",
+                    "isList": true,
+                    "key": 10,
+                    "children": [
+                        {
+                            "id": 25,
+                            "content": "- referential integrity",
+                            "key": 1
+                        },
+                        {
+                            "id": 26,
+                            "content": "- normalization",
+                            "key": 2
+                        },
+                        {
+                            "id": 27,
+                            "content": "- hierarchies",
+                            "key": 3
+                        },
+                        {
+                            "id": 28,
+                            "content": "- repeated fields",
+                            "key": 4
+                        },
+                        {
+                            "id": 29,
+                            "content": "- views",
+                            "key": 5
+                        },
+                        {
+                            "id": 30,
+                            "content": "- partitioning",
+                            "key": 6
+                        }
+                    ]
+                },
+                {
+                    "id": 31,
+                    "content": "Dataflow Programming:",
+                    "isList": true,
+                    "key": 11,
+                    "children": [
+                        {
+                            "id": 32,
+                            "content": "- ingestion",
+                            "key": 1
+                        },
+                        {
+                            "id": 33,
+                            "content": "- cleansing",
+                            "key": 2
+                        },
+                        {
+                            "id": 34,
+                            "content": "- transformation",
+                            "key": 3
+                        },
+                        {
+                            "id": 35,
+                            "content": "- data integration",
+                            "key": 4
+                        },
+                        {
+                            "id": 36,
+                            "content": "- workflow orchestration",
+                            "key": 5
+                        }
+                    ]
+                },
+                {
+                    "id": 37,
+                    "content": "Prerequisites:",
+                    "key": 12,
+                    "children": [
+                        {
+                            "id": 38,
+                            "content": "The course assumes a programming background and in particular, a solid working knowledge of Python scripting. As such, the prerequisites for this course are CS 303E, CS 307 or the equivalent. Familiarity with SQL is also helpful, but not required.",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 39,
+                    "content": "Textbooks:",
+                    "key": 13,
+                    "children": [
+                        {
+                            "id": 40,
+                            "content": "There are two required texts for this course:",
+                            "key": 1
+                        },
+                        {
+                            "id": 41,
+                            "content": "",
+                            "isList": true,
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 42,
+                                    "content": "- Wilfried Lemahieu et. al, Principles of Database Management , First Edition, 2018. Available as an ebook from Amazon.",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 43,
+                                    "content": "- Clare Churcher, Beginning SQL Queries: From Notice to Professional , Second Edition, 2016. Available as an ebook from the UT Library.",
+                                    "key": 2
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 44,
+                    "content": "Supplemental Readings:",
+                    "key": 14,
+                    "children": [
+                        {
+                            "id": 45,
+                            "content": "The course requires consulting the product documentation on Postgres, BigQuery, Beam, Dataflow, Airflow, and Data Studio. The documentation is updated frequently and will be reviewed on a regular basis throughout the course.",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 46,
+                    "content": "Quizzes:",
+                    "key": 15,
+                    "children": [
+                        {
+                            "id": 47,
+                            "content": "There will be weekly quizzes based on assigned readings. The quizzes are closed notes. They will have 5 multiple-choice questions and they will be taken at the start of class with your iClicker. iClickers are available as a web and mobile app. You must create an iClicker Reef account and register it with this course. You will not be able to take the quizzes with a physical iClicker remote starting after Spring Break.",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 48,
+                    "content": "Project:",
+                    "key": 16,
+                    "children": [
+                        {
+                            "id": 49,
+                            "content": "The most important component of this course is the term project. The project will be to construct a data warehouse that brings together previously siloed datasets with the goal of deriving some interesting insights from the combined data. It will tie together many of the concepts you will learn throughout this course, such as data modeling, transformations, visualization, and orchestration. It is an ambigious project that will take up the entire term. The project will be carried out in teams of two students. You will form groups at the start of the term and work with the same person on all the milestones. There are 12 milestones overall. More details on the miletones are provided in the Week-by-Week section below.",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 50,
+                    "content": "Exam:",
+                    "key": 17,
+                    "children": [
+                        {
+                            "id": 51,
+                            "content": "There is only one exam for this course which is the midterm. This exam is comprehensive and will cover all the material to-date, including SQL, data modeling, and dataflow programming. It is a closed-book exam and will be done entirely in class. Unfortunately, no make-up exam will be offered due to our limited resources.",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 52,
+                    "content": "Participation:",
+                    "key": 18,
+                    "children": [
+                        {
+                            "id": 53,
+                            "content": "This class will be taught using \"active learning\" techniques. My goal is to spend the majority of class time clarifying difficult concepts and actively working through problems rather than delivering a traditional lecture. You will need to bring a laptop to class and sit with your partner to able to work together on practice problems. Participation questions will be answered with your iClicker and they will be based on these exercises.",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 54,
+                    "content": "Absences",
+                    "key": 19,
+                    "children": [
+                        {
+                            "id": 55,
+                            "content": "Excused absences may be given only for verifiable medical or family emergencies. Written documentation must be provided to qualify for an excused absence. The medical documentation must specifically state that you could not attend class due to your illness and must be signed by a physician. A job or intership interview or any other appointment does not constitute an excused absence.",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 56,
+                    "content": "Grading Rubric:",
+                    "key": 20,
+                    "children": [
+                        {
+                            "id": 57,
+                            "content": "The basic grading rubric is comprised of the four components listed below:",
+                            "key": 1
+                        },
+                        {
+                            "id": 58,
+                            "content": "",
+                            "isList": true,
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 59,
+                                    "content": "Quizzes 15%",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 60,
+                                    "content": "Project 50%",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 61,
+                                    "content": "Exam 25%",
+                                    "key": 3
+                                },
+                                {
+                                    "id": 62,
+                                    "content": "Participation 10%",
+                                    "key": 4
+                                }
+                            ]
+                        },
+                        {
+                            "id": 63,
+                            "content": "Note:",
+                            "key": 3,
+                            "children": [
+                                {
+                                    "id": 64,
+                                    "content": "The final grade will use the plus/minus grading system.",
+                                    "key": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 65,
+                    "content": "Late Submission Policy:",
+                    "key": 21,
+                    "children": [
+                        {
+                            "id": 66,
+                            "content": "There is a 10% reduction in the grade per day. This applies to all project submissions throughout the term.",
+                            "key": 1
+                        },
+                        {
+                            "id": 67,
+                            "content": "Tooling:",
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 68,
+                                    "content": "- Google Cloud Platform for practice problems and project work.",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 69,
+                            "content": "",
+                            "isList": true,
+                            "key": 3,
+                            "children": [
+                                {
+                                    "id": 70,
+                                    "content": "- GitHub for code repository, version control, and how-to guides.",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 71,
+                                    "content": "- Lucidchart for diagramming.",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 72,
+                                    "content": "- Piazza for asynchronous communication (announcements, questions, discussions).",
+                                    "key": 3
+                                },
+                                {
+                                    "id": 73,
+                                    "content": "- Canvas for grade reporting.",
+                                    "key": 4
+                                },
+                                {
+                                    "id": 74,
+                                    "content": "- Zoom for online instruction.",
+                                    "key": 5
+                                }
+                            ]
+                        },
+                        {
+                            "id": 75,
+                            "content": "Academic Integrity:",
+                            "key": 4,
+                            "children": [
+                                {
+                                    "id": 76,
+                                    "content": "This course will abide by UTCS' code of academic integrity .",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 77,
+                            "content": "Students with Disabilities:",
+                            "key": 5,
+                            "children": [
+                                {
+                                    "id": 78,
+                                    "content": "Students with disabilities may request appropriate academic accommodations .",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 79,
+                            "content": "Week-by-Week Schedule: Below is a week-by-week schedule that includes the important milestones and assigned readings:",
+                            "key": 6
+                        },
+                        {
+                            "id": 80,
+                            "content": "",
+                            "isList": true,
+                            "key": 7,
+                            "children": [
+                                {
+                                    "id": 81,
+                                    "content": "01/27: Course Overview and Database Foundations. Read before class: Chapter 1 from PDBM text. Milestone 1 Slides.",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 82,
+                                    "content": "02/03: Simple Queries. Read before class: Chapter 2 from PDBM text and Chapter 2 from SQL text. Milestone 2 Slides Notes.",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 83,
+                                    "content": "02/10: Joins. Read before class: Chapters 3 and 5 from SQL text. Milestone 3 Slides Notes.",
+                                    "key": 3
+                                },
+                                {
+                                    "id": 84,
+                                    "content": "02/17: Data Modeling. Read before class: Chapter 3 up to section 3.4 from PDBM text and Chapter 6 from SQL text. Milestone 4 Slides Notes.",
+                                    "key": 4
+                                },
+                                {
+                                    "id": 85,
+                                    "content": "02/24: Data Transformations. Watch before class: Beam Overview .Milestone 5 Slides Notes.",
+                                    "key": 5
+                                },
+                                {
+                                    "id": 86,
+                                    "content": "03/02: Data Transformations. Read before class: Beam Programming Guide , sections 1-5.Milestone 6 Slides Notes.",
+                                    "key": 6
+                                },
+                                {
+                                    "id": 87,
+                                    "content": "03/09: Groupings and Aggregations. Read before class: Chapters 7 and 8 from SQL text. Milestone 7 Slides Notes.",
+                                    "key": 7
+                                },
+                                {
+                                    "id": 88,
+                                    "content": "03/16: Spring Break.",
+                                    "key": 8
+                                },
+                                {
+                                    "id": 89,
+                                    "content": "03/23: Spring Break.",
+                                    "key": 9
+                                },
+                                {
+                                    "id": 90,
+                                    "content": "03/30: Subqueries. Read before class: Chapter 4 from SQL text. Milestone 8 Slides Notes.",
+                                    "key": 10
+                                },
+                                {
+                                    "id": 91,
+                                    "content": "04/06: Midterm Exam.",
+                                    "key": 11
+                                },
+                                {
+                                    "id": 92,
+                                    "content": "04/13: Data Integration. Read before class: Chapter 17 from PDBM text. Milestone 9 Slides.",
+                                    "key": 12
+                                },
+                                {
+                                    "id": 93,
+                                    "content": "04/20: Data Integration. Read before class: Common Dataflow Patterns Part 1 and Part 2 .Milestone 10.",
+                                    "key": 13
+                                },
+                                {
+                                    "id": 94,
+                                    "content": "04/27: Workflow Orchestration. Read before class: Airflow Concepts and Airflow Tutorial .Milestone 11.",
+                                    "key": 14
+                                },
+                                {
+                                    "id": 95,
+                                    "content": "05/04: Final Demos and Presentations. Milestone 12.",
+                                    "key": 15
+                                }
+                            ]
+                        },
+                        {
+                            "id": 96,
+                            "content": "Acknowledgments:",
+                            "key": 8,
+                            "children": [
+                                {
+                                    "id": 97,
+                                    "content": "This course is generously supported by Google by giving us access to their Cloud Platform .",
+                                    "key": 1
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

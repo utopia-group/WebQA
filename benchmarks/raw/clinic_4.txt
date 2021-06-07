@@ -1,0 +1,1855 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<link href="/favicon.ico" rel="icon" type="image/vnd.microsoft.icon"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.5, user-scalable=yes" name="viewport"/>
+<!-- Social Meta Tags -->
+<meta content="en_US" property="og:locale"/>
+<meta content="website" property="og:type"/>
+<meta content="https://www.pacificmedicalcenters.org//" property="og:url"/>
+<meta content="Pacific Medical Centers" property="og:site_name"/>
+<meta content="PacMed Primary &amp; Specialty Care Medical Clinics - Seattle" property="og:title"/>
+<meta content="PacMed Primary &amp; Specialty Care Medical Clinics - Seattle" name="twitter:title"/>
+<title>Seattle Medical Clinic | Seattle Doctor | Primary Care &amp; Specialty Care at PacMed</title>
+<meta content="Seattle Medical Clinic | Seattle Doctor | Primary Care &amp; Specialty Care at PacMed" name="title"/>
+<meta content="Pacific Medical Centers" name="description"/>
+<meta content="Primary and specialty care medical clinics in Seattle, Federal Way, Lynnwood, Bothell, Lacey, Lakewood, Puyallup, Renton, and Totem Lake, with state-of-the-art technology and over 150 doctors committed to compassionate medical care." property="og:description"/>
+<meta content="Primary and specialty care medical clinics in Seattle, Federal Way, Lynnwood, Bothell, Lacey, Lakewood, Puyallup, Renton, and Totem Lake, with state-of-the-art technology and over 150 doctors committed to compassionate medical care." name="twitter:description"/>
+<meta content="https://www.pacificmedicalcenters.org/images/uploads/PacMed-Social.JPG" property="og:image"/>
+<meta content="https://www.pacificmedicalcenters.org/images/uploads/beacon_hill_160.jpg" name="twitter:image"/>
+<meta content="summary" name="twitter:card"/>
+<meta content="@pacmedwa" name="twitter:site"/>
+<meta content="@pacmedwa" name="twitter:creator"/>
+<!-- End Social Meta Tags -->
+<title>Seattle Medical Clinic | Seattle Doctors | Primary Care &amp; Specialty Care at PacMed</title>
+<link href="https://www.pacificmedicalcenters.org//" rel="canonical"/>
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" rel="stylesheet"/>
+<link href="https://www.pacificmedicalcenters.org//?css=stylesheets/site.v.1591736506" rel="stylesheet"/>
+<link href="https://www.pacificmedicalcenters.org//?css=stylesheets/responsive.v.1540836924" rel="stylesheet"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABNA2umfFF4OhacZjI3_epSKsezYRE_bI&amp;sensor=true" type="text/javascript"></script>
+<!-- Google Tag Manager -->
+<script>(function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-T2QKTW');</script>
+<!-- End Google Tag Manager -->
+<script type="text/javascript">
+        $(document).ready(function () {
+            $("#site_search").submit(function () {
+                if ($("#keywords").val() == "" || $("#keywords").val() == "SEARCH") {
+                    alert("Please enter a search term");
+                    return false;
+                } else if ($("#keywords").val().length < 3) {
+                    alert("Search terms must be at least 3 characters in length");
+                    return false;
+                }
+            });
+
+            $("img").on('error', function () {
+                $(this).attr('src', $(this).attr('src').replace('/ ', '/'));
+            });
+
+            $(".name, .cfix").text(function (index, text) {
+                return text.replace(/ ,/g, ",");
+            });
+        });
+
+    </script>
+<!-- Facebook Pixel Code -->
+<script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init',  201279159812201636');
+        fbq('track', 'PageView');
+    </script>
+<noscript><img height="1" src="https://www.facebook.com/tr?id=1279159812201636&amp;ev=PageView&amp;noscript=1" style="display:none" width="1"/></noscript>
+<!-- End Facebook Pixel Code -->
+<meta content="ERtA_4GkR3d8VdTzHQUws3y5kT8TVa3MKtWyU53MGR8" name="google-site-verification"/>
+<meta content="vxmgaNNU58a3uCaYhK9WSpxIzvgIC1r_5h6SODN4hv8" name="google-site-verification"/>
+</head>
+<body class="bgOne" id="">
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+<iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-T2QKTW" style="display:none;visibility:hidden" width="0"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<header>
+<nav class="navbar navbar-default navbar-static-top">
+<div class="container">
+<div class="search">
+<form action="https://www.pacificmedicalcenters.org//" id="site_search" method="post">
+<div class="hiddenFields">
+<input name="ACT" type="hidden" value="19"/>
+<input name="XID" type="hidden" value="f250ad25f7de2580e80bb75e56abcbbd586a7a4c"/>
+<input name="RES" type="hidden" value=""/>
+<input name="meta" type="hidden" value="WHvLbldnuk5pzZ9S6CMSJ84fF/xVjsusQdYLFx9QDm6mWP6sidHLpiJ9pmFp1p+mPYELhzfjLmA0iBku+jmbEobZwwQTyrD/U/0T1fH+1qjAXHGvIODEc4nSkWu4tFaclAYJNKSzqt5sjW7UfTI/TxjOqjh4jYjULUY59VKZcoo3K9D6qIVt+EgTS+FEsZ8OBeU0cxKLYWwKY7bHkdZo0n/H5lsekXZdocHRF0MbaQGyfdhqav6ID87SZaDaGBM5bfcTSLcd4TBNSd6Qw3+LRIcdB2GPoKxBxkX/EUPiiIE="/>
+<input name="site_id" type="hidden" value="1"/>
+</div>
+<div class="input-group secondary-nav-search">
+<input class="form-control" id="keywords" maxlength="100" name="keywords" placeholder="Search for..." size="18" type="text"/>
+<span class="input-group-btn">
+<input class="btn btn-default" type="submit" value="Go"/>
+</span>
+</div>
+</form>
+</div>
+<div class="call-us">Call us at <a href="tel:18884722633">1-888-4-PACMED</a></div>
+<div class="navbar-header">
+<a aria-controls="navbar" aria-expanded="false" class="navbar-toggle collapsed" data-target="#navbar" data-toggle="collapse" href="#" id="navbar_header">Patient Resources <span class="caret"></span></a>
+</div>
+<div class="navbar-collapse collapse secondary-navbar" id="navbar">
+<ul class="nav navbar-nav">
+<li><a href="/health-resources/">Health Resources</a></li>
+<li><a href="/help-faq/patient-financial-services/">Financial Services</a></li>
+<li><a href="/help-faq/">Help &amp; FAQ</a></li>
+<li><a href="/pediatrics-welcome/">Pediatrics</a></li>
+<li><a href="/diabetes-care/">Diabetes Care</a></li>
+<li><a href="/about-us/">About Us</a></li>
+</ul>
+</div><!--/.nav-collapse -->
+</div>
+</nav>
+<div class="inner-navbar" style="overflow: auto;">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="pull-left">
+<a href="/">
+<img class="logo" src="/images/v2/logo.jpg"/>
+</a>
+</div>
+<div class="pull-right navbar-buttons" style="text-align: right;">
+<div class="row">
+<div class="col-xs-6">
+<a href="https://www.usfhpnw.org" onclick="ga('send', 'event', 'Button', 'Click', 'USFHP Exit’);"><img alt="US Family Health Plan" src="/images/uploads/pacmed_elements-usfamily_button.png"/></a>
+</div>
+<div class="col-xs-6">
+<a href="https://mychartwa.providence.org/mychart/"><img src="/images/uploads/my_chart.png"/></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="navbar navbar-default primary-navbar">
+<div class="container">
+<div class="request-appt visible-xs-block"><a href="https://www.pacificmedicalcenters.org/schedule/"><span>Make a Doctor's Appointment</span></a>
+</div>
+<div class="navbar-header">
+<button class="navbar-toggle collapsed" data-target="#primary-navbar" data-toggle="collapse" type="button">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<span class="collapsed-menu-label">MENU</span>
+</div>
+<div class="collapse navbar-collapse" id="primary-navbar">
+<ul class="nav navbar-nav">
+<li class="">
+<a href="/who-we-are/">
+<h5>Who We Are</h5>
+<p>Physicians &amp; Professionals</p>
+</a>
+</li>
+<li class="">
+<a href="/where-we-are/">
+<h5>Where We Are</h5>
+<p>Center Locations</p>
+</a>
+</li>
+<li class="">
+<a href="/what-we-do/">
+<h5>What We Do</h5>
+<p>Primary &amp; Specialty Care</p>
+</a>
+</li>
+<li class="">
+<a href="/work-with-us/">
+<h5>Work With Us</h5>
+<p>Jobs</p>
+</a>
+</li>
+<li class="request-appt hidden-xs"><a href="https://www.pacificmedicalcenters.org/schedule/"><span>Make a Doctor's Appointment</span><br/> </a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+</header>
+<div class="container content-body" role="main">
+<div class="carousel slide" data-ride="carousel" id="carousel-home">
+<div class="carousel-inner" role="listbox">
+<!-- Leave this inside the carousel-inner element. -->
+<ol class="carousel-indicators">
+<li class="active" data-slide-to="0" data-target="#carousel-home"></li>
+<li data-slide-to="1" data-target="#carousel-home"></li>
+<li data-slide-to="2" data-target="#carousel-home"></li>
+<li data-slide-to="3" data-target="#carousel-home"></li>
+<li data-slide-to="3" data-target="#carousel-home"></li>
+</ol>
+<div class="item active" style="background-image: url('/images/uploads/bh-fh_slider.jpg');">
+<div class="text">
+<h2>Please Vote!</h2><br/>
+<h3>Beacon Hill and First Hill will close at 4 PM on 11/3</h3>
+</div>
+<a class="cta-home-button btn btn-primary">Beacon Hill and First Hill will close at 4 PM on 11/3 </a>
+</div>
+<div class="item" style="background-image: url('/images/uploads/flu_slider.jpg');">
+<div class="text">
+<h3>It’s more important than ever to get your flu shot.</h3><br/>
+<a class="btn btn-primary" href="/about-us/news-press/2020-flu-shot-clinic-info">Flu shot
+                        information <i class="fa fa-arrow-right"></i></a>
+</div>
+<a class="cta-home-button btn btn-primary" href="//about-us/news-press/2020-flu-shot-clinic-info">Flu
+                    shot information <i class="fa fa-arrow-right"></i></a>
+</div>
+<div class="item" style="background-image: url('/images/uploads/top-doc_slider-2.jpg');">
+<div class="text">
+<h2>Top Doctors Practice Here</h2><br/>
+<a class="btn btn-primary" href="/about-us/news-press/the-best-doctors-of-2020-are-at-pacmed/">Find
+                        out more <i class="fa fa-arrow-right"></i></a>
+</div>
+<a class="cta-home-button btn btn-primary" href="/about-us/news-press/the-best-doctors-of-2020-are-at-pacmed/">Top Doctors Practice Here <i class="fa fa-arrow-right"></i></a>
+</div>
+<div class="item" style="background-image: url('/images/uploads/BC-slider_4.jpg');">
+<div class="text">
+<h2>Know Your Breast Health. Get Screened. </h2><br/>
+<a class="btn btn-primary" href="/women-wellness/breast-health-diagnostics">Get informed <i class="fa fa-arrow-right"></i></a>
+</div>
+<a class="cta-home-button btn btn-primary" href="/women-wellness/breast-health-diagnostics">Know Your
+                    Breast Health <i class="fa fa-arrow-right"></i></a>
+</div>
+<div class="item" style="background-image: url('/images/uploads/weve-missed-you_slider.jpg');">
+<div class="text">
+<h3>New Protocols. Same Promise</h3>
+<h4>Our new normal is still putting your health and safety first.</h4><br/>
+<a class="btn btn-primary" href="/about-us/news-press/were-open-for-in-person-visits/">Learn more <i class="fa fa-arrow-right"></i></a>
+</div>
+<a class="cta-home-button btn btn-primary" href="/about-us/news-press/were-open-for-in-person-visits">We
+                    are open and safely delivering care <i class="fa fa-arrow-right"></i></a>
+</div>
+</div>
+<!-- Example row of columns -->
+<div class="row find-boxes">
+<div class="col-sm-4 col-md-4 col-xs-12 find-box find-doctor">
+<div class="find-tile find-a-doctor">
+<a href="/about-us/news-press/telehealth-pacmed-virtual-visits"><i class="fa fa-user-md"></i>
+                        Virtual Visits</a>
+</div>
+</div>
+<div class="col-sm-4 col-md-4 col-xs-12 find-box find-location">
+<div class="find-tile find-a-location">
+<a href="/where-we-are"><i class="fa fa-location-arrow"></i> Find A Location</a>
+</div>
+</div>
+<div class="col-sm-4 col-md-4 col-xs-12 find-box find-service">
+<div class="find-tile find-a-service">
+<a href="/about-us/news-press/covid-19-testing-at-pacmed/"><i class="fa fa-medkit"></i> COVID-19
+                        Testing</a>
+</div>
+</div>
+</div>
+<div class="learn-tile learn-tile-convenience learn-tile-convenience-mobile hidden">
+<h4 class="center"><a href="/where-we-are">Learn About Our Conveniences</a></h4>
+<ul>
+<li><a href="/billpay">Bill Pay</a></li>
+<li><a href="/where-we-are">Nine Locations</a></li>
+<li><a href="/extended-hours">Extended Hours</a></li>
+<li><a href="/weekend-appointments">Weekend Hours</a></li>
+<li><a href="/same-day-appointment">Same-Day Scheduling</a></li>
+<li><a href="/about-us/news-press/mychart-upgrade/">MyChart</a></li>
+<li><a href="/about-us/clinic-lab-pharmacy-hours/">Clinic, Lab &amp; Pharmacy Hours</a></li>
+<li><a href="/about-us/free-medicare-101-educational-sessions/">Medicare Enrollment</a></li>
+<li><a href="/work-with-us">Work With Us</a></li>
+<li>
+<i class="fa fa-arrow-right orange"></i> <a href="/where-we-are">Click to learn more</a>
+</li>
+</ul>
+</div>
+<div class="row latest-news hidden-sm hidden-xs">
+<div class="col-sm-4 col-md-4 col-xs-12">
+<div class="learn-tile learn-tile-news">
+<h4 class="center"><a href="/about-us/news-press">Latest News &amp; Press</a></h4>
+<ul>
+<li><strong>Senior Health Checklist: A yearly review</strong> <a href="https://www.pacificmedicalcenters.org/about-us/news-press/seniors/">Read
+                            more...</a></li>
+<li><strong>Keep on track with 2020 Flu Shots</strong> <a href="https://www.pacificmedicalcenters.org/about-us/news-press/2020-flu-shot-clinic-info/">Read
+                            more...</a></li>
+<li><strong>Our doctors are among the best in the region. PacMed Top Docs 2020!</strong> <a href="https://www.pacificmedicalcenters.org/about-us/news-press/the-best-doctors-of-2020-are-at-pacmed/">Read
+                            more...</a></li>
+<li><strong>Keeping safe from COVID? Share it with #MyMaskIs!</strong> <a href="https://www.pacificmedicalcenters.org/about-us/news-press/keeping-safe-from-covid-share-it-with-mymaskis/">Read
+                            more...</a></li>
+</ul>
+<div class="learn-tile-more-link">
+<i class="fa fa-arrow-right orange"></i> <a href="/about-us/news-press">View all news &amp;
+                        press</a>
+</div>
+</div>
+</div>
+<div class="col-sm-4 col-md-4 col-xs-14">
+<div class="learn-tile learn-tile-convenience">
+<h4 class="center"><a href="/where-we-are">Learn About Our Conveniences</a></h4>
+<ul>
+<li><a href="/billpay">Bill Pay</a></li>
+<li><a href="/where-we-are">Nine Locations</a></li>
+<li><a href="/extended-hours">Extended Hours</a></li>
+<li><a href="/weekend-appointments">Weekend Hours</a></li>
+<li><a href="/same-day-appointment">Same-Day Scheduling</a></li>
+<li><a href="/about-us/news-press/mychart-upgrade/">MyChart</a></li>
+<li><a href="/about-us/clinic-lab-pharmacy-hours/">Clinic, Lab &amp; Pharmacy Hours</a></li>
+<li><a href="/about-us/free-medicare-101-educational-sessions/">Medicare Enrollment</a></li>
+<li><a href="/work-with-us">Work With Us</a></li>
+</ul>
+<div class="learn-tile-more-link">
+<i class="fa fa-arrow-right orange"></i> <a href="/where-we-are">Click to learn more</a>
+</div>
+</div>
+</div>
+<div class="col-sm-4 col-md-4 col-xs-12">
+<div class="learn-tile learn-tile-faq">
+<h4 class="center"><a href="/help-faq">FAQs (Frequently Asked Questions)</a></h4>
+<ul>
+<li>
+<p>Q: What type of insurance do you accept?</p>
+<p>A: Please visit our Insurance Accepted page</p>
+</li>
+<li>
+<p>Q: Where do I go if I have an emergency?</p>
+<p>A: Please call 911 or your local emergency number</p>
+</li>
+<li>
+<p>Q: How do I confirm my appointment?</p>
+<p>A: Please call us at 1-888-4PACMED</p>
+</li>
+</ul>
+<div class="learn-tile-more-link">
+<i class="fa fa-arrow-right orange"></i> Click for more
+                    </div>
+</div>
+</div>
+</div>
+<div class="row our-locations">
+<div class="col-md-12">
+<h3>Our Locations</h3>
+</div>
+</div>
+<div class="row">
+<div class="col-md-3 no-pad-right">
+<div id="mapLocations">
+<h5 id="beacon-hill" rel="1">Beacon Hill
+                        <span class="1-info location-info" style="display: none;">
+<a href="/where-we-are/beacon-hill">Learn More</a>
+</span>
+</h5>
+<h5 id="canyon-park" rel="2">Canyon Park
+                        <span class="2-info location-info" style="display: none;">
+<a href="/where-we-are/canyon-park">Learn More</a>
+</span>
+</h5>
+<h5 id="women-wellness" rel="3">Diagnostic &amp; Wellness Center for Women
+                        <span class="3-info location-info" style="display: none;">
+<a href="/where-we-are/women-wellness">Learn More</a>
+</span>
+</h5>
+<h5 id="sleep-health" rel="4">Diagnostic Center for Sleep Health
+                        <span class="4-info location-info" style="display: none;">
+<a href="/where-we-are/sleep-health">Learn More</a>
+</span>
+</h5>
+<h5 id="federal-way" rel="5">Federal Way
+                        <span class="5-info location-info" style="display: none;">
+<a href="/where-we-are/federal-way">Learn More</a>
+</span>
+</h5>
+<h5 id="first-hill" rel="6">First Hill
+                        <span class="6-info location-info" style="display: none;">
+<a href="/where-we-are/first-hill">Learn More</a>
+</span>
+</h5>
+<h5 id="inland-pacific-imaging" rel="7">Inland Pacific Imaging
+                        <span class="7-info location-info" style="display: none;">
+<a href="/where-we-are/inland-pacific-imaging">Learn More</a>
+</span>
+</h5>
+<h5 id="lynnwood" rel="8">Lynnwood
+                        <span class="8-info location-info" style="display: none;">
+<a href="/where-we-are/lynnwood">Learn More</a>
+</span>
+</h5>
+<h5 id="northgate" rel="9">Northgate
+                        <span class="9-info location-info" style="display: none;">
+<a href="/where-we-are/northgate">Learn More</a>
+</span>
+</h5>
+<h5 id="puyallup" rel="10">Puyallup
+                        <span class="10-info location-info" style="display: none;">
+<a href="/where-we-are/puyallup">Learn More</a>
+</span>
+</h5>
+<h5 id="renton" rel="11">Renton
+                        <span class="11-info location-info" style="display: none;">
+<a href="/where-we-are/renton">Learn More</a>
+</span>
+</h5>
+<h5 id="totem-lake" rel="12">Totem Lake
+                        <span class="12-info location-info" style="display: none;">
+<a href="/where-we-are/totem-lake">Learn More</a>
+</span>
+</h5>
+</div>
+</div>
+<div class="col-md-9 hidden-xs">
+<div id="map-new" style="height: 532px;">Loading map...</div>
+<div id="directions"></div>
+</div>
+<script type="text/javascript">
+                //<![CDATA[
+
+                //var side_bar_html = "";
+                var gmarkers = [];
+                var htmls = [];
+                // arrays to hold variants of the info window html with get direction forms open
+                var to_htmls = [];
+                var from_htmls = [];
+
+                // only one infowindow can be shown at one time; we'll need to reuse the same
+                // one for all markers
+                var infowindow = new google.maps.InfoWindow();
+
+                // A function to create the marker and set up the event window
+                function createMarker(point, html) {
+                    var marker = new google.maps.Marker({
+                        position: point,
+                        map: map,
+                    });
+
+                    var i = gmarkers.length;
+
+                    // The info window version with the "to here" form open
+                    to_htmls[i] = html + '<br>Directions: <b>To here<\/b> - <a href="javascript:fromhere(' + i + ')">From here<\/a>' +
+                        '<br>Start address:<form action="http://maps.google.com/maps" method="get" target="_blank">' +
+                        '<input type="text" SIZE=40 MAXLENGTH=40 name="saddr" id="saddr" value="" /><br>' +
+                        '<INPUT value="Get Directions" TYPE="SUBMIT">' +
+                        '<input type="hidden" name="daddr" value="' + point.lat() + ',' + point.lng() +
+                        // "(" + name + ")" +
+                        '"/>';
+                    // The info window version with the "to here" form open
+                    from_htmls[i] = html + '<br>Directions: <a href="javascript:tohere(' + i + ')">To here<\/a> - <b>From here<\/b>' +
+                        '<br>End address:<form action="http://maps.google.com/maps" method="get"" target="_blank">' +
+                        '<input type="text" SIZE=40 MAXLENGTH=40 name="daddr" id="daddr" value="" /><br>' +
+                        '<INPUT value="Get Directions" TYPE="SUBMIT">' +
+                        '<input type="hidden" name="saddr" value="' + point.lat() + ',' + point.lng() +
+                        // "(" + name + ")" +
+                        '"/>';
+                    // The inactive version of the direction info
+                    html = html + '<br>Directions: <a href="javascript:tohere(' + i + ')">To here<\/a> - <a href="javascript:fromhere(' + i + ')">From here<\/a>';
+
+                    google.maps.event.addListener(marker, 'click', function () {
+                        displayInfoWindow(this, html);
+                    });
+
+                    gmarkers.push(marker);
+                    htmls[i] = html;
+                    return marker;
+                }
+
+                // functions that open the directions forms
+                function tohere(i) {
+                    displayInfoWindow(gmarkers[i], to_htmls[i]);
+                }
+
+                function fromhere(i) {
+                    displayInfoWindow(gmarkers[i], from_htmls[i]);
+                }
+
+                function displayInfoWindow(marker, infoWindowContent) {
+                    // close the previous infowindow if necessary
+                    infowindow.close();
+                    infowindow.setContent(infoWindowContent);
+                    infowindow.open(map, marker);
+                }
+
+                function mapClick() {
+                    infowindow.close();
+                }
+
+                // create the map
+                var mapOptions = {
+                    zoom: 8,
+                    center: new google.maps.LatLng(47.61167908, -122.33325958),
+                    mapTypeId: google.maps.MapTypeId.ROADMAP,
+                    panControl: false,
+                    panControlOptions: {
+                        position: google.maps.ControlPosition.TOP_LEFT
+                    },
+                    zoomControl: false,
+                    zoomControlOptions: {
+                        style: google.maps.ZoomControlStyle.SMALL,
+                        position: google.maps.ControlPosition.TOP_LEFT
+                    },
+                    mapTypeControl: false,
+                    scaleControl: false,
+                    streetViewControl: false,
+                    overviewMapControl: false
+                }
+
+                var map = new google.maps.Map(document.getElementById("map-new"), mapOptions);
+                google.maps.event.addListener(map, 'click', mapClick);
+
+                // Read the data from example.xml
+                $.ajax({
+                    type: "GET",
+                    url: "/where-we-are/map_locations/",
+                    dataType: 'xml',
+                    success: loadLocations,
+                });
+
+                function loadLocations(xml) {
+                    // obtain the array of markers and loop through it
+                    $(xml).find("marker").each(function () {
+                        // obtain the attribues of each marker
+                        var lat = parseFloat($(this).attr("lat"));
+                        var lng = parseFloat($(this).attr("lng"));
+                        var point = new google.maps.LatLng(lat, lng);
+                        var html = $(this).find("infowindow").text();
+
+                        // create the marker
+                        var marker = createMarker(point, html);
+                    });
+                }
+
+                $('#mapLocations > h5').click(function () {
+                    $('.location-info').hide();
+                    var count = $(this).attr('rel');
+                    // For GMap
+                    var i = count - 1;
+
+                    console.debug('count', count);
+
+                    // Show more info link
+                    $('.' + count + '-info').show();
+
+                    displayInfoWindow(gmarkers[i], htmls[i]);
+                });
+
+                //]]>
+            </script>
+</div>
+<!-- Site footer -->
+<div class="clearfix"></div>
+<footer class="footer">
+<div class="row">
+<div class="col-md-4 contact">
+<p><strong>New Patient Information Line</strong>
+</p><p>
+<a href="tel:18884722633">1.888.4PACMED (1.888.472.2633)</a>
+</p><p><strong>Corporate Office</strong>
+</p><p>
+</p><ul>
+<li>206.621.4466, 9am-5pm PST</li>
+<li>1200 12th Avenue S</li>
+<li>Seattle, WA 98144</li>
+</ul>
+<p class="newsletter-signup">Sign up for our Healthy Today newsletter or request a free wellness
+                        guide <a href="/health-resources/pacmed-request-more-info/">here <i class="fa fa-arrow-right orange"></i></a></p>
+<div class="social-links">
+<a href="https://www.facebook.com/pacificmedicalcenters" target="_blank"><i class="fa fa-lg fa-facebook-square"></i></a>
+<a href="https://twitter.com/PacMedWA" target="_blank"><i class="fa fa-lg fa-twitter-square"></i></a>
+<a href="https://plus.google.com/111531483946008441870" target="_blank"><i class="fa fa-lg fa-google-plus-square"></i></a>
+</div>
+</div>
+<div class="col-md-4 links">
+<strong>Quick Links</strong>
+<ul class="quick-links">
+<li><a href="/who-we-are/" target="_blank">Find a Physician</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/schedule/">Make An Appointment</a></li>
+<li><a href="/what-we-do/">Primary &amp; Specialty Care</a></li>
+<li><a href="/where-we-are/">Center Locations</a></li>
+<li><a href="/us-family-health-plan/">US Family Health Plan</a></li>
+<li><a href="/about-us/">About Us</a></li>
+<li><a href="/help-faq/preparing-for-your-visit/">Forms</a></li>
+<li><a href="/help-faq/medical-records/">Medical Records</a></li>
+<li><a href="/about-us/news-press/">News &amp; Press</a></li>
+<li><a href="/help-faq/">Help &amp; FAQ</a></li>
+<li><a href="/work-with-us/">Jobs</a></li>
+<li><a href="/about-us/privacy-policy/">Privacy Policy</a></li>
+<li><a href="/about-us/nondiscrimination-statement/">Nondiscrimination and Accessibility
+                            Rights</a></li>
+<li><a href="/contact-us/">Contact Us</a></li>
+<li><a href="/site-map/">Site Map</a></li>
+</ul>
+</div>
+<div class="col-md-4 news">
+<strong>Latest News</strong>
+<ul>
+<li><a href="https://www.pacificmedicalcenters.org/about-us/news-press/seniors/">Senior Health
+                            Checklist: A yearly review</a></li>
+<li>
+<a href="https://www.pacificmedicalcenters.org/about-us/news-press/2020-flu-shot-clinic-info/">Keep
+                                on track with 2020 Flu Shots</a></li>
+<li>
+<a href="https://www.pacificmedicalcenters.org/about-us/news-press/the-best-doctors-of-2020-are-at-pacmed/">Our
+                                doctors are among the best in the region. PacMed Top Docs 2020!</a></li>
+<li>
+<a href="https://www.pacificmedicalcenters.org/about-us/news-press/keeping-safe-from-covid-share-it-with-mymaskis/">Keeping
+                                safe from COVID? Share it with #MyMaskIs!</a></li>
+<li>
+<a href="https://www.pacificmedicalcenters.org/about-us/news-press/let-us-stand-for-each-other/">Let
+                                us stand for each other</a></li>
+<li>
+<a href="https://www.pacificmedicalcenters.org/about-us/news-press/parents-use-telemedicine-to-get-daughter-life-saving-care/">Parents
+                                Use Telemedicine to Get Daughter Life-Saving Care</a></li>
+<li>
+<a href="https://www.pacificmedicalcenters.org/about-us/news-press/telehealth-pacmed-virtual-visits/">Telehealth
+                                - PacMed Virtual Visits</a></li>
+<li>
+<a href="https://www.pacificmedicalcenters.org/about-us/news-press/covid-19-testing-at-pacmed/">COVID-19
+                                Testing</a></li>
+</ul>
+</div>
+</div>
+</footer>
+<!-- End .container div -->
+</div>
+<script src="https://use.fontawesome.com/40a93423bf.js"></script>
+<script crossorigin="anonymous" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</div><div class="bgThree" id="">
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+<iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-T2QKTW" style="display:none;visibility:hidden" width="0"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<header>
+
+<div class="inner-navbar" style="overflow: auto;">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="pull-left">
+<a href="/">
+<img class="logo" src="/images/v2/logo.jpg"/>
+</a>
+</div>
+<div class="pull-right navbar-buttons" style="text-align: right;">
+<div class="row">
+<div class="col-xs-6">
+<a href="https://www.usfhpnw.org" onclick="ga('send', 'event', 'Button', 'Click', 'USFHP Exit’);"><img alt="US Family Health Plan" src="/images/uploads/pacmed_elements-usfamily_button.png"/></a>
+</div>
+<div class="col-xs-6">
+<a href="https://mychartwa.providence.org/mychart/"><img src="/images/uploads/my_chart.png"/></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</header>
+<div class="container content-body" role="main">
+<div class="carousel slide" data-ride="carousel" id="carousel-example-generic">
+<div class="carousel-inner" role="listbox">
+<div class="item active" style="background-image: url('/images/uploads/view-by-name_banner.jpg');">
+<div class="text">
+<h3>View By Name</h3>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+<span class="btn btn-primary" href="" id="cta-home">View By Name</span>
+<div class="row">
+<div class="col-md-12">
+<div>
+<ul class="inline who-we-are-subnav">
+<li><a class="btn btn-info" href="https://www.pacificmedicalcenters.org/who-we-are">View by
+                        Search</a></li>
+<li><a class="btn btn-info" href="https://www.pacificmedicalcenters.org/who-we-are/view-by-practice">View By Practice</a>
+</li>
+<li><a class="btn btn-info" href="https://www.pacificmedicalcenters.org/who-we-are/view-by-name">View
+                        By Name</a></li>
+<li><a class="btn btn-info" href="https://www.pacificmedicalcenters.org/who-we-are/view-by-location">View By Location</a>
+</li>
+</ul>
+</div>
+<div id="mainPic">
+<div id="headline">
+<h1>Physicians &amp; Professionals</h1>
+<p>At Pacific Medical Centers, you’ll find more than 175 caring providers committed to offering the
+                        highest level of healthcare for you and the people you care about. From childbirth and internal
+                        medicine to cardiology, laser vision correction and more, you’ll find the medical expertise you
+                        need and the healthy patient-focused philosophy you’re looking for. <a href="/about-us/" title="About PacMed">
+                            Find out more about PacMed here.</a>
+</p>
+</div>
+</div>
+<div id="viewByName">
+<div class="row">
+<div class="col-md-3"><h4>A</h4>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/sharmila-ahmed/">
+                            Ahmed Sharmila , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/keiko-aikawa/">
+                            Aikawa Keiko , MD, FACC </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/alexander-kirk/">
+                            Alexander Kirk , DPM, FACFAS </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/lise-alexander/">
+                            Alexander Lise , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/nawal-alkharouf/">
+                            Alkharouf Nawal , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/victoria-allen/">
+                            Allen Victoria , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/raman-arora/"> Arora
+                            Raman , MD </a></p>
+<h4>B</h4>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/christopher-bailey/">
+                            Bailey Christopher , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/atis-barzdins/">
+                            Barzdins Atis , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/julia-becke/"> Becke
+                            Julia H. , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/shari-brennecke/">
+                            Brennecke , Shari , MPT </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/marianne-broers/">
+                            Broers Marianne , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/john-brooling/">
+                            Brooling John , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/elizabeth-broussard/">
+                            Broussard Elizabeth , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/maureen-burns/"> Burns
+                            Maureen , PTA </a></p>
+<h4>C</h4>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/gia-calabrese/">
+                            Calabrese Gia , DPT </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/alicia-cantrell/">
+                            Cantrell Alicia , MD, MPH </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/tasha-chang/"> Chang
+                            Tasha , DPT </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/shirley-chen/"> Chen
+                            Shirley , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/xiulian-chen-calhoun/"> Chen
+                            Xiulian , MD, PhD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/christina-chen-milhone/">
+                            Chen-Milhone Christina , DO </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/rex-cheng/"> Cheng
+                            Rex G. , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/stephanie-clements/">
+                            Clements Stephanie , PT </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/margaret-clowry/">
+                            Clowry Margaret , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/caitlin-cotter/">
+                            Cotter Caitlin , LICSW </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/davonna-cufley/">
+                            Cufley Davonna , MD, FACP </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/rene-d-czerwinski/">
+                            Czerwinski Rene , LMHC, NCC </a></p>
+<h4>D</h4>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/vik-dabhi/"> Dabhi
+                            Vik , MD, PhD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/shilpa-desai/"> Desai
+                            Shilpa , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/catalina-draghici/">
+                            Draghici Catalina , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/andrew-dym/"> Dym
+                            Andrew , MD </a></p>
+<h4>E</h4>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/erin-edwards/">
+                            Edwards Erin , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/anita-elangovan/">
+                            Elangovan Anita , MD, MPH </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/jay-estrada/"> Estrada
+                            Jay , MD </a></p>
+</div>
+<div class="col-md-3"><h4>F</h4>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/charles-falzon/">
+                            Falzon Charles , MD, MBA </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/nora-faram/"> Faram
+                            Nora , MSW, MHP, LlCSW </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/kimberly-farea/">
+                            Farea Kimberly , OD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/katy-jo-favia/"> Favia
+                            Katy Jo , DPT </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/ellen-forslund/">
+                            Forslund Ellen , DPT </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/barbara-fox/"> Fox
+                            Barbara J. , MD, FAAD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/xing-fu/"> Fu Xing ,
+                            MD </a></p>
+<h4>G</h4>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/lu-gao/"> Gao Lu ,
+                            MD, PhD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/mariana-garcia/">
+                            Garcia Mariana , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/laine-gawthrop/">
+                            Gawthrop Laine , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/michael-giese/"> Giese
+                            Michael , OD, FAAO </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/ari-gilmore/"> Gilmore
+                            Ari , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/stephen-gingrich/">
+                            Gingrich Stephen , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/robert-glazewski/">
+                            Glazewski Robert , PA-C </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/elizabeth-grace/">
+                            Grace Elizabeth M. , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/gregory-grant/"> Grant
+                            Gregory , DPM, FACFAS </a></p>
+<h4>H</h4>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/alexander-hamling/">
+                            Hamling Alexander M. , MD, MBA, FAAP </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/michael-han/"> Han
+                            Michael Y. , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/steven-han/"> Han
+                            Steven , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/kai-hansen/"> Hansen
+                            E. Kai , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/rutherford-hayes/">
+                            Hayes Rutherford , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/sara-helvestine/">
+                            Helvestine Sara , PA-C </a></p>
+<h4>J</h4>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/manika-jamwal/">
+                            Jamwal Manika , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/kyle-jordan/"> Jordan
+                            Kyle , MD </a></p>
+<h4>K</h4>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/sharyl-kamihara/">
+                            Kamihara Sharyl , PT </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/simon-katumu/"> Katumu
+                            Simon , DNP, FNP-BC </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/carmen-kelling/">
+                            Kelling Carmen , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/miriam-kennelly/">
+                            Kennelly Miriam , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/marie-kernie/"> Kernie
+                            Marie , OD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/brian-kim/"> Kim
+                            Brian , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/lesley-king/"> King
+                            Lesley , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/lori-kirsten/">
+                            Kirsten Lori , DPT </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/john-knutson/">
+                            Knutson John W. , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/madolyn-krengel/">
+                            Krengel Madolyn , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/eun-ku/"> Ku Eun ,
+                            LICSW, CMHS, EMMHS, CDPT </a></p>
+<h4>L</h4>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/benjamin-lacey/">
+                            Lacey Benjamin W. , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/ellen-lackermann/">
+                            Lackermann Ellen , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/serena-lam/"> Lam
+                            Serena , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/thomas-lamperti/">
+                            Lamperti Thomas A. , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/jenny-le/"> Le Jenny
+                            , DO </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/johanna-leader/">
+                            Leader Johanna , DPT </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/sandie-leistiko/">
+                            Leistiko Sandie , LICSW </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/susan-leu/"> Leu
+                            Susan , MD, FAAD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/oscar-lillo/"> Lillo
+                            Oscar , OD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/joel-lilly/"> Lilly
+                            Joel , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/estelle-lin/"> Lin
+                            Estelle , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/meng-lu/"> Lu Meng ,
+                            MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/james-lund/"> Lund
+                            James , MD </a></p>
+</div>
+<div class="col-md-3"><h4>M</h4>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/sonja-maddox/"> Maddox
+                            Sonja , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/chris-maeda/"> Maeda
+                            Chris , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/alex-majcher/">
+                            Majcher Alex , LICSW, MS </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/chad-marion/"> Marion
+                            Chad J. , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/grace-martin/"> Martin
+                            Grace , DNP, ARNP </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/philip-massey/">
+                            Massey Philip , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/kayla-matsunaga/">
+                            Matsunaga Kayla , DPT, CSCS </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/nimali-mendis/">
+                            Mendis Nimali D. , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/dawn-merydith/">
+                            Merydith Dawn , LICSW </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/amanda-methvin/">
+                            Methvin Amanda , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/kim-miles/"> Miles ,
+                            Kim MSW, LICSW </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/aileen-monponbanua/">
+                            Monponbanua Aileen , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/aysha-morgan/"> Morgan
+                            Aysha , PT, DPT </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/savannah-morgan/">
+                            Morgan Savannah , ARNP, FNP-BC </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/john-mullen/"> Mullen
+                            John , MD </a></p>
+<h4>N</h4>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/priyanka-naik/"> Naik
+                            Priyanka , DO </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/shalini-nair/"> Nair
+                            Shalini , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/michelle-navaja/">
+                            Navaja Michelle , DPT </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/nona-niculescu/">
+                            Niculescu Nona , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/judith-nielsen/">
+                            Nielsen Judith , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/adewunmi-nuga/"> Nuga
+                            Adewunmi (Ade) , MD, PhD </a></p>
+<h4>O</h4>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/stephanie-oneal/">
+                            O'Neal Stephanie , LICSW </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/lisa-olsson/"> Olsson
+                            Lisa , PhD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/lisa-oswald/"> Oswald
+                            Lisa , MD </a></p>
+<h4>P</h4>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/pathmaja-bobbie-paramsothy/">
+                            Paramsothy Pathmaja (Bobbie) , MD, MS </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/ameet-parikh/"> Parikh
+                            Ameet , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/alexander-park/"> Park
+                            Alexander , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/sonal-patel/"> Patel
+                            Sonal , MD, MPH </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/kathryn-pearson/">
+                            Pearson Kathryn , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/donald-pick/"> Pick
+                            Donald , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/rachel-pontemayor/">
+                            Pontemayor Rachel , DO </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/tiffany-poon/"> Poon
+                            Tiffany , DPT </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/chuck-potrykus/">
+                            Potrykus Chuck , MA, LMHC </a></p>
+<h4>R</h4>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/shailaja-reddy/">
+                            Reddy Shailaja , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/elham-rezvanian/">
+                            Rezvanian Elham , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/jody-rhoades/">
+                            Rhoades Jody , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/david-riggs/"> Riggs
+                            David , OD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/carrie-rose/"> Rose
+                            Carrie , MD, MPH </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/jodi-rubinstein/">
+                            Rubinstein Jodi , LICSW </a></p>
+</div>
+<div class="col-md-3"><h4>S</h4>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/dimple-sahay/"> Sahay
+                            Dimple , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/hina-sahi/"> Sahi
+                            Hina , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/barbara-schach/">
+                            Schach Barbara , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/parul-sharma/"> Sharma
+                            Parul , DO </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/ruchi-sharma/"> Sharma
+                            Ruchi , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/chelsea-shih/"> Shih
+                            Chelsea , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/victoria-shimotsu/">
+                            Shimotsu Victoria , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/serena-short/"> Short
+                            Serena , LMHC </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/jack-shriner/">
+                            Shriner Jack , LICSW, CMHS </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/lisa-sieberson/">
+                            Sieberson Lisa , DNP, ARNP </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/christopher-smith/">
+                            Smith Christopher , MD, FACP </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/loren-st-betts/"> St.
+                            Betts Loren , MSW, LICSW </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/jimmie-stewart/">
+                            Stewart Jimmie , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/christine-stirparo/">
+                            Stirparo Christine , RDN, CDE, CD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/stacy-story/"> Story
+                            Stacy , LICSW </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/joy-juwono-sutedjo/">
+                            Sutedjo Joy (Juwono) , MD, FACC </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/dana-swenson/">
+                            Swenson Dana , MD </a></p>
+<h4>T</h4>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/tavis-taylor/"> Taylor
+                            Tavis , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/danyelle-thomas/">
+                            Thomas Danyelle , MD, MPH </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/arkadiy-tkachev/">
+                            Tkachev Arkadiy , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/scott-trapman/">
+                            Trapman Scott , DO </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/david-true/"> True
+                            David D. , MD, PhD </a></p>
+<h4>U</h4>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/rafat-unnisa/"> Unnisa
+                            Rafat , MD </a></p>
+<h4>V</h4>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/jaymes-venema/">
+                            Venema Jaymes , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/ashu-verma/"> Verma
+                            Ashu , DO </a></p>
+<h4>W</h4>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/karen-wang/"> Wang
+                            Karen , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/elisabeth-ware/"> Ware
+                            Elisabeth , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/sara-waterman/">
+                            Waterman Sara , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/martha-ways/"> Ways
+                            Martha , MD, FACP </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/mary-wemple/"> Wemple
+                            Mary , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/david-white/"> White
+                            David M , MD, FACS </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/cynthia-wilcox/">
+                            Wilcox Cynthia , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/Winter-wildt-bailey/">
+                            Wildt-Bailey Winter , DPT </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/marianne-wilkins/">
+                            Wilkins Marianne , PA-C </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/julia-wilson/"> Wilson
+                            Julia , PA-C </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/michael-wolfe/"> Wolfe
+                            Michael , MD, FACS </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/rebecca-wolff/"> Wolff
+                            Rebecca , LMHC </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/kerlan-wolsey/">
+                            Wolsey Kerlan , MD, FCCP </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/sang-won/"> Won Sang
+                            , MD </a></p>
+<h4>Y</h4>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/d-owen-young/"> Young
+                            Owen , MD </a></p>
+<p><a class="name" href="https://www.pacificmedicalcenters.org/who-we-are/john-yuen/"> Yuen
+                            John B.K.K. , MD, FACP </a></p>
+</div>
+</div>
+<!-- END NAME -->
+</div>
+</div>
+<!-- Site footer -->
+<div class="clearfix"></div>
+<footer class="footer">
+<div class="row">
+<div class="col-md-4 contact">
+<p><strong>New Patient Information Line</strong>
+</p><p>
+<a href="tel:18884722633">1.888.4PACMED (1.888.472.2633)</a>
+</p><p><strong>Corporate Office</strong>
+</p><p>
+</p><ul>
+<li>206.621.4466, 9am-5pm PST</li>
+<li>1200 12th Avenue S</li>
+<li>Seattle, WA 98144</li>
+</ul>
+<p class="newsletter-signup">Sign up for our Healthy Today newsletter or request a free wellness
+                        guide <a href="/health-resources/pacmed-request-more-info/">here <i class="fa fa-arrow-right orange"></i></a></p>
+<div class="social-links">
+<a href="https://www.facebook.com/pacificmedicalcenters" target="_blank"><i class="fa fa-lg fa-facebook-square"></i></a>
+<a href="https://twitter.com/PacMedWA" target="_blank"><i class="fa fa-lg fa-twitter-square"></i></a>
+<a href="https://plus.google.com/111531483946008441870" target="_blank"><i class="fa fa-lg fa-google-plus-square"></i></a>
+</div>
+</div>
+<div class="col-md-4 links">
+<strong>Quick Links</strong>
+<ul class="quick-links">
+<li><a href="/who-we-are/" target="_blank">Find a Physician</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/schedule/">Make An Appointment</a></li>
+<li><a href="/what-we-do/">Primary &amp; Specialty Care</a></li>
+<li><a href="/where-we-are/">Center Locations</a></li>
+<li><a href="/us-family-health-plan/">US Family Health Plan</a></li>
+<li><a href="/about-us/">About Us</a></li>
+<li><a href="/help-faq/preparing-for-your-visit/">Forms</a></li>
+<li><a href="/help-faq/medical-records/">Medical Records</a></li>
+<li><a href="/about-us/news-press/">News &amp; Press</a></li>
+<li><a href="/help-faq/">Help &amp; FAQ</a></li>
+<li><a href="/work-with-us/">Jobs</a></li>
+<li><a href="/about-us/privacy-policy/">Privacy Policy</a></li>
+<li><a href="/about-us/nondiscrimination-statement/">Nondiscrimination and Accessibility
+                            Rights</a></li>
+<li><a href="/contact-us/">Contact Us</a></li>
+<li><a href="/site-map/">Site Map</a></li>
+</ul>
+</div>
+<div class="col-md-4 news">
+<strong>Latest News</strong>
+<ul>
+<li><a href="https://www.pacificmedicalcenters.org/about-us/news-press/seniors/">Senior Health
+                            Checklist: A yearly review</a></li>
+<li>
+<a href="https://www.pacificmedicalcenters.org/about-us/news-press/2020-flu-shot-clinic-info/">Keep
+                                on track with 2020 Flu Shots</a></li>
+<li>
+<a href="https://www.pacificmedicalcenters.org/about-us/news-press/the-best-doctors-of-2020-are-at-pacmed/">Our
+                                doctors are among the best in the region. PacMed Top Docs 2020!</a></li>
+<li>
+<a href="https://www.pacificmedicalcenters.org/about-us/news-press/keeping-safe-from-covid-share-it-with-mymaskis/">Keeping
+                                safe from COVID? Share it with #MyMaskIs!</a></li>
+<li>
+<a href="https://www.pacificmedicalcenters.org/about-us/news-press/let-us-stand-for-each-other/">Let
+                                us stand for each other</a></li>
+<li>
+<a href="https://www.pacificmedicalcenters.org/about-us/news-press/parents-use-telemedicine-to-get-daughter-life-saving-care/">Parents
+                                Use Telemedicine to Get Daughter Life-Saving Care</a></li>
+<li>
+<a href="https://www.pacificmedicalcenters.org/about-us/news-press/telehealth-pacmed-virtual-visits/">Telehealth
+                                - PacMed Virtual Visits</a></li>
+<li>
+<a href="https://www.pacificmedicalcenters.org/about-us/news-press/covid-19-testing-at-pacmed/">COVID-19
+                                Testing</a></li>
+</ul>
+</div>
+</div>
+</footer>
+<!-- End .container div -->
+</div>
+
+
+</div></div><div class="bgThree" id="">
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+<iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-T2QKTW" style="display:none;visibility:hidden" width="0"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<header>
+
+<div class="inner-navbar" style="overflow: auto;">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="pull-left">
+<a href="/">
+<img class="logo" src="/images/v2/logo.jpg"/>
+</a>
+</div>
+<div class="pull-right navbar-buttons" style="text-align: right;">
+<div class="row">
+<div class="col-xs-6">
+<a href="https://www.usfhpnw.org" onclick="ga('send', 'event', 'Button', 'Click', 'USFHP Exit’);"><img alt="US Family Health Plan" src="/images/uploads/pacmed_elements-usfamily_button.png"/></a>
+</div>
+<div class="col-xs-6">
+<a href="https://mychartwa.providence.org/mychart/"><img src="/images/uploads/my_chart.png"/></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</header>
+<div class="container content-body" role="main">
+<title>Seattle Family Doctor, Geriatric Doctor, Pediatric Doctor, Internal Medicine | PacMed</title>
+<div class="carousel slide" data-ride="carousel" id="carousel-example-generic">
+<div class="carousel-inner" role="listbox">
+<div class="item active" style="background-image: url('/images/v2/slider-placeholder3.jpg');">
+<div class="text">
+<h3>Primary &amp; Specialty Care</h3>
+<p>We offer a full range of primary and specialty care services. Your primary physician and any
+                        specialty providers work together so that no detail of your health is overlooked, and you can
+                        feel confident in your care.</p>
+</div>
+</div>
+</div>
+</div>
+<span class="btn btn-primary" href="" id="cta-home">Primary &amp; Specialty Care</span>
+<!-- <div class="row">
+        <div class="col-sm-12">
+            <div class="page-banner-container">
+                <img src="/images/v2/what-we-do.jpg" />
+                <div class="page-banner-copy">
+                    <h4>Primary & Speciality Care</h4>
+                    <p>
+                        We offer a full range of primary and speciality care services. And because health issues are often connected, we make sure your primary care and any specialty providers involved in your care are connected, too. They'll work together so that no detail of your health is overlooked, and you can feel confident there's always a team of experts looking out for you.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+<div class="row">
+<div class="col-sm-12">
+<h2><a href="/what-we-do/primary-care/">Primary Care</a></h2>
+<p>Physicians who practice primary care focus on the general care of patients. They are often the first
+                health care provider whom a patient sees. Primary care physicians usually provide continuing care for
+                patients over a long time and they often coordinate the specialized care that a patient may receive from
+                different medical specialists.</p>
+<ul>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/family-medicine/">Family Medicine</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/family-medicine-with-obstetrics/">Family
+                    Medicine with Obstetrics</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/internal-medicine/">Internal Medicine</a>
+</li>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/pediatrics/">Pediatrics</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/residents/">Residents</a></li>
+</ul>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12">
+<h2>Specialty Care</h2>
+<p>Physicians who practice specialty care focus on specific health matters of patients. Specialists
+                practicing at Pacific Medical Centers locations include urologists, cardiologists, oncologists, and many
+                others.</p>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-3">
+<ul>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/allergy/">Allergy and Immunology</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/behavioral-medicine/">Behavioral
+                    Medicine</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/breast-surgery/">Breast Surgery</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/cardiology/">Cardiology</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/cataract-surgery/">Cataract Surgery</a>
+</li>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/colon-rectal-and-anal-surgery/">Colon,
+                    Rectal and Anal Surgery</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/colonoscopy/">Colonoscopy</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/corneal-diseases-and-surgery/">Corneal
+                    Diseases and Surgery</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/da-vinci-robotic-assisted-surgery/">da
+                    Vinci® Robotic-Assisted Surgery</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/dermatology/">Dermatology</a></li>
+<li><a href="/diabetes-care/">Diabetes Care</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/diagnostic-imaging/">Diagnostic
+                    Imaging</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/diagnostic-imaging-breast/">Diagnostic
+                    Imaging—Breast Imaging</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/dietitian/">Dietitian</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/dxa-bone-scan/">DXA Bone Scan</a></li>
+</ul>
+</div>
+<div class="col-sm-3">
+<ul>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/endocrinology-metabolism/">Endocrinology
+                    and Metabolism</a></li>
+<li>
+<a href="https://www.pacificmedicalcenters.org/what-we-do/facial-plastic-and-reconstructive-surgery/">Facial
+                        Plastic and Reconstructive Surgery</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/foot-and-ankle-podiatry/">Foot and Ankle
+                    (Podiatry)</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/gastroenterology/">Gastroenterology</a>
+</li>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/general-surgery/">General Surgery</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/gynecology/">Gynecology</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/hematology/">Hematology</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/hepatology/">Hepatology and Liver
+                    Disease</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/interventional-pain-management/">Interventional
+                    Pain Management</a></li>
+</ul>
+</div>
+<div class="col-sm-3">
+<ul>
+<li><a href="/vision-correction-services/">LASIK and Vision-Correction Services</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/neurology/">Neurology</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/neuropsychology/">Neuropsychology</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/oncology/">Oncology</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/ophthalmology/">Ophthalmology</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/optometry/">Optometry</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/orthopedics/">Orthopedics</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/otolaryngology-head-neck-surgery/">Otolaryngology
+                    / Head-Neck Surgery</a></li>
+<li>
+<a href="https://www.pacificmedicalcenters.org/what-we-do/physiatry-physical-medicine-and-rehabilitation/">Physiatry
+                        / Physical Medicine and Rehabilitation</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/physical-therapy/">Physical Therapy</a>
+</li>
+</ul>
+</div>
+<div class="col-sm-3">
+<ul>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/pulmonology/">Pulmonology</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/rheumatology/">Rheumatology</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/sleep-medicine/">Sleep Medicine</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/sports-medicine/">Sports Medicine</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/travel-clinic/">Travel Clinic</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/urinary-incontinence-program/">Urinary
+                    Incontinence Program</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/urology/">Urology</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/vasectomy/">Vasectomy</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/what-we-do/womens-health/">Women’s Health</a>
+</li>
+</ul></div>
+</div>
+<div class="row">
+<div class="col-sm-12">
+<h2>More On-Site Care and Services</h2>
+</div>
+</div>
+<table align="left" border="0px">
+<tr>
+<td style="padding:0px" valign="top" width="240px">
+<ul>
+<p></p>
+<li style="line-height:1.5em">Ambulatory Surgery Procedures</li>
+<li style="line-height:1.5em">Anticoagulation Clinic</li>
+<li style="line-height:1.5em"><a href="/index.php/cardiovascular-lab/">Cardiovascular Laboratory</a>
+</li>
+<li style="line-height:1.5em"><a href="/where-we-are/inland-pacific-imaging">CT Scanning</a></li>
+<li style="line-height:1.5em"><a href="/where-we-are/inland-pacific-imaging">Digital Imaging</a>
+</li>
+<li style="line-height:1.5em">Echocardiography Laboratory</li>
+<li style="line-height:1.5em"><a href="/what-we-do/ambulatory-infusion-center/">Infusion Therapy</a>
+</li>
+</ul>
+</td>
+<td style="padding:11px" valign="top" width="240px">
+<li style="line-height:1.5em">Interpreter Services</li>
+<li style="line-height:1.5em"><a href="/about-us/clinic-lab-pharmacy-hours#lab">Laboratory</a></li>
+<li style="line-height:1.5em">Mammography</li>
+<li style="line-height:1.5em"><a href="/where-we-are/inland-pacific-imaging">Magnetic Resonance Imaging
+                    (MRI)</a></li>
+<li style="line-height:1.5em"><a href="/about-us/news-press/new-nuclear-cardiology-department">Nuclear
+                    Cardiology</a></li>
+<li style="line-height:1.5em"><a href="/about-us/clinic-lab-pharmacy-hours#pharmacy">Pharmacy</a></li>
+</td>
+<td style="padding:11px" valign="top" width="240px">
+<li style="line-height:1.5em"><a href="/what-we-do/platelet-rich-plasma-injections">Platelet-Rich Plasma
+                    Injections (PRP)</a></li>
+<li style="line-height:1.5em">Pulmonary Function Testing</li>
+<li style="line-height:1.5em">Respiratory Laboratory</li>
+<li style="line-height:1.5em">Ultrasound</li>
+<li style="line-height:1.5em">Vascular Studies</li>
+<li style="line-height:1.5em"><a href="/where-we-are/inland-pacific-imaging#x-ray">X-ray</a></li>
+</td>
+</tr>
+</table>
+<!-- Site footer -->
+<div class="clearfix"></div>
+<footer class="footer">
+<div class="row">
+<div class="col-md-4 contact">
+<p><strong>New Patient Information Line</strong>
+</p><p>
+<a href="tel:18884722633">1.888.4PACMED (1.888.472.2633)</a>
+</p><p><strong>Corporate Office</strong>
+</p><p>
+</p><ul>
+<li>206.621.4466, 9am-5pm PST</li>
+<li>1200 12th Avenue S</li>
+<li>Seattle, WA 98144</li>
+</ul>
+<p class="newsletter-signup">Sign up for our Healthy Today newsletter or request a free wellness guide
+                    <a href="/health-resources/pacmed-request-more-info/">here <i class="fa fa-arrow-right orange"></i></a>
+</p>
+<div class="social-links">
+<a href="https://www.facebook.com/pacificmedicalcenters" target="_blank"><i class="fa fa-lg fa-facebook-square"></i></a>
+<a href="https://twitter.com/PacMedWA" target="_blank"><i class="fa fa-lg fa-twitter-square"></i></a>
+<a href="https://plus.google.com/111531483946008441870" target="_blank"><i class="fa fa-lg fa-google-plus-square"></i></a>
+</div>
+</div>
+<div class="col-md-4 links">
+<strong>Quick Links</strong>
+<ul class="quick-links">
+<li><a href="/who-we-are/" target="_blank">Find a Physician</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/schedule/">Make An Appointment</a></li>
+<li><a href="/what-we-do/">Primary &amp; Specialty Care</a></li>
+<li><a href="/where-we-are/">Center Locations</a></li>
+<li><a href="/us-family-health-plan/">US Family Health Plan</a></li>
+<li><a href="/about-us/">About Us</a></li>
+<li><a href="/help-faq/preparing-for-your-visit/">Forms</a></li>
+<li><a href="/help-faq/medical-records/">Medical Records</a></li>
+<li><a href="/about-us/news-press/">News &amp; Press</a></li>
+<li><a href="/help-faq/">Help &amp; FAQ</a></li>
+<li><a href="/work-with-us/">Jobs</a></li>
+<li><a href="/about-us/privacy-policy/">Privacy Policy</a></li>
+<li><a href="/about-us/nondiscrimination-statement/">Nondiscrimination and Accessibility Rights</a>
+</li>
+<li><a href="/contact-us/">Contact Us</a></li>
+<li><a href="/site-map/">Site Map</a></li>
+</ul>
+</div>
+<div class="col-md-4 news">
+<strong>Latest News</strong>
+<ul>
+<li><a href="https://www.pacificmedicalcenters.org/about-us/news-press/seniors/">Senior Health
+                        Checklist: A yearly review</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/about-us/news-press/2020-flu-shot-clinic-info/">Keep
+                        on track with 2020 Flu Shots</a></li>
+<li>
+<a href="https://www.pacificmedicalcenters.org/about-us/news-press/the-best-doctors-of-2020-are-at-pacmed/">Our
+                            doctors are among the best in the region. PacMed Top Docs 2020!</a></li>
+<li>
+<a href="https://www.pacificmedicalcenters.org/about-us/news-press/keeping-safe-from-covid-share-it-with-mymaskis/">Keeping
+                            safe from COVID? Share it with #MyMaskIs!</a></li>
+<li>
+<a href="https://www.pacificmedicalcenters.org/about-us/news-press/let-us-stand-for-each-other/">Let
+                            us stand for each other</a></li>
+<li>
+<a href="https://www.pacificmedicalcenters.org/about-us/news-press/parents-use-telemedicine-to-get-daughter-life-saving-care/">Parents
+                            Use Telemedicine to Get Daughter Life-Saving Care</a></li>
+<li>
+<a href="https://www.pacificmedicalcenters.org/about-us/news-press/telehealth-pacmed-virtual-visits/">Telehealth
+                            - PacMed Virtual Visits</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/about-us/news-press/covid-19-testing-at-pacmed/">COVID-19
+                        Testing</a></li>
+</ul>
+</div>
+</div>
+</footer>
+<!-- End .container div -->
+</div>
+
+
+</div><div class="bgOne" id="">
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+<iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-T2QKTW" style="display:none;visibility:hidden" width="0"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<header>
+
+<div class="inner-navbar" style="overflow: auto;">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="pull-left">
+<a href="/">
+<img class="logo" src="/images/v2/logo.jpg"/>
+</a>
+</div>
+<div class="pull-right navbar-buttons" style="text-align: right;">
+<div class="row">
+<div class="col-xs-6">
+<a href="https://www.usfhpnw.org" onclick="ga('send', 'event', 'Button', 'Click', 'USFHP Exit’);"><img alt="US Family Health Plan" src="/images/uploads/pacmed_elements-usfamily_button.png"/></a>
+</div>
+<div class="col-xs-6">
+<a href="https://mychartwa.providence.org/mychart/"><img src="/images/uploads/my_chart.png"/></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</header>
+<div class="container content-body" role="main">
+<div class="row">
+<div class="col-md-3">
+<div class="sidebar-nav">
+<h4>More Help &amp; FAQ</h4>
+<ul><!-- embeds/help_sidebar_nav: insurance-accepted and  -->
+<!-- health-benefit-exchanges -->
+<li><a href="https://www.pacificmedicalcenters.org/help-and-faq/health-benefit-exchanges/">Affordable
+                        Care Act and Healthcare Insurance Exchange</a></li>
+<!-- help-faq -->
+<li><a href="https://www.pacificmedicalcenters.org/help-faq/">Help &amp; FAQ</a></li>
+<!-- insurance-accepted -->
+<li class="active"><a href="https://www.pacificmedicalcenters.org/help-faq/insurance-accepted/">Insurance
+                        Accepted</a></li>
+<!-- medical-records -->
+<li><a href="https://www.pacificmedicalcenters.org/help-faq/medical-records/">Medical Records</a>
+</li>
+<!-- patient-rights-and-responsibilities -->
+<li><a href="https://www.pacificmedicalcenters.org/help-faq/patient-rights-and-responsibilities/">Patient
+                        Rights and Responsibilities</a></li>
+<!-- preparing-for-your-visit -->
+<li><a href="https://www.pacificmedicalcenters.org/help-faq/preparing-for-your-visit/">Preparing for
+                        Your Visit</a></li>
+<!-- sample-statement -->
+<li><a href="https://www.pacificmedicalcenters.org/help-faq/sample-statement/">Sample Statement</a>
+</li>
+</ul>
+</div>
+<hr/>
+</div>
+<div class="col-md-9">
+<h3>Insurance Accepted</h3>
+<p>Pacific Medical Centers is committed to making it simple for our valued patients to receive the care they
+                need by offering a full range of primary and specialty services and accepting most major insurance
+                plans.</p>
+<p>We accept the following health insurance plans. If you are calling for a Behavioral Health appointment,
+                please check with your insurance carrier for benefits and a listing of their participating network
+                providers. Always check your coverage with your insurance carrier if you have questions.</p>
+<p>It is always a good idea to call your insurance carrier about specific care you might seek or be referred
+                to. That way you can learn in advance what your out-of-pocket costs might be. When you call your
+                insurance, it is a good idea to:</p>
+<p style="margin-left:3em;">- Ask about specific procedure (CPT) codes.<br/>
+                - Get a call reference number before hanging up, in case there is any dispute down the road.<br/>
+                - See the bottom of this page for more <a href="#tips">tips on getting the most out of your
+                    insurance</a>.</p><br/><br/>
+<p><b><a href="#2021-plans">2021 Plans Accepted</a></b></p>
+<p><b><a href="#2020-plans">2020 Plans Accepted</a></b></p><br/>
+<a name="2021-plans"></a>
+<h2>2021 Plans Accepted</h2>
+<p><b>** The list of 2021 PacMed plans accepted is actively rolling out. If you see “TBD” below, please
+                check back. This list will be updated as information is finalized. **</b></p>
+<p><b>2021 Exchange Plans accepted:</b></p>
+<ul>
+<li>TBD—please check back later</li>
+</ul>
+<a name="Medicare"></a>
+<p><b>2021 Medicare Plans accepted:</b></p>
+<ul>
+<li>Traditional Medicare (Part B)</li>
+<li>Medicare Prescription Drug coverage (Part D) – at Maxor pharmacies located in PacMed clinics<br/>
+<i>Note: Medicare Part A coverage is hospital insurance; PacMed does not have a hospital so this
+                        coverage does not apply. Please check with our affiliated hospital in your area about their
+                        Medicare Part A policy in case of hospital admissions.</i></li>
+<li><b>Medicare Supplemental (“Medigap”) plans</b> can also be used to pay for care at PacMed; these
+                    plans pay secondary to Medicare and may cover an additional percentage of Medicare Part B-eligible
+                    services.
+                </li>
+</ul>
+<a name="MedAdvantage"></a>
+<p><b>2021 Medicare Advantage (Part C) Plans accepted:</b></p>
+<p style="margin-left:3em;"><b>Aetna</b></p>
+<ul>
+<ul>
+<li style="margin-left:3em;">Aetna Medicare <b>Choice</b> Plan (PPO)</li>
+<li style="margin-left:3em;">Aetna Medicare <b>Eagle</b> Plan (PPO)</li>
+<li style="margin-left:3em;">Aetna Medicare <b>Elite</b> Plan (HMO)</li>
+<li style="margin-left:3em;">Aetna Medicare <b>Platinum Plus</b> Plan (HMO)</li>
+<li style="margin-left:3em;">Aetna Medicare <b>Prime</b> Plan (HMO)</li>
+<li style="margin-left:3em;">Aetna Medicare <b>Select</b> Plan (PPO)</li>
+<li style="margin-left:3em;">Aetna Medicare <b>Value</b> Plan (HMO)</li>
+<li style="margin-left:3em;">Aetna Medicare <b>Value Plus</b> Plan (HMO)</li>
+</ul>
+</ul>
+<p style="margin-left:3em;"><b>Humana</b></p>
+<ul>
+<ul>
+<li style="margin-left:3em;">Humana <b>Honor</b></li>
+<li style="margin-left:3em;">Humana <b>Choice</b> (<a href="/images/uploads/2021-Contracted-MA-Plans_PACMED.pdf" target="_blank">some plans
+                        accepted – see full list</a>)
+                    </li>
+<li style="margin-left:3em;">Humana <b>Gold Plus</b> (<a href="/images/uploads/2021-Contracted-MA-Plans_PACMED.pdf" target="_blank">some plans
+                        accepted – see full list</a>)
+                    </li>
+<li style="margin-left:3em;">Humana <b>Value Plus</b> (<a href="/images/uploads/2021-Contracted-MA-Plans_PACMED.pdf" target="_blank">one plan accepted
+                        – see full list</a>)
+                    </li>
+</ul>
+</ul>
+<p style="margin-left:3em;"><b>Kaiser Foundation Health Plan of Washington</b> (GHC)*</p>
+<ul>
+<ul>
+<li style="margin-left:3em;">Kaiser Permanente Medicare Advantage <b>Anchor</b> (HMO)</li>
+<li style="margin-left:3em;">Kaiser Permanente Medicare Advantage <b>Basic</b> (HMO)</li>
+<li style="margin-left:3em;">Kaiser Permanente Medicare Advantage <b>Centennial</b> (HMO)</li>
+<li style="margin-left:3em;">Kaiser Permanente Medicare Advantage <b>Columbia</b> (HMO)</li>
+<li style="margin-left:3em;">Kaiser Permanente Medicare Advantage <b>Essential</b> (HMO)</li>
+<li style="margin-left:3em;">Kaiser Permanente Medicare Advantage <b>Harbor</b> (HMO)</li>
+<li style="margin-left:3em;">Kaiser Permanente Medicare Advantage <b>Key</b> (HMO)</li>
+<li style="margin-left:3em;">Kaiser Permanente Medicare Advantage <b>Optimal</b> (HMO)</li>
+<li style="margin-left:3em;">Kaiser Permanente Medicare Advantage <b>Vital (HMO) Humana Honor</b>
+</li>
+</ul>
+</ul>
+<p style="margin-left:4em;">* Kaiser Medicare Advantage (MA) plans are contracted, but not
+                preferred/designated as in-network. Kaiser MA members cannot choose PacMed providers as their PCP. <b>Prior
+                    authorization is required</b>.</p><br/>
+<p style="margin-left:3em;"><b>Premera Blue Cross</b> Medicare Advantage</p>
+<ul>
+<ul>
+<li style="margin-left:3em;">Premera Blue Cross <b>Medicare Advantage (HMO)</b></li>
+<li style="margin-left:3em;">Premera Blue Cross Medicare Advantage <b>Classic</b> (HMO)</li>
+<li style="margin-left:3em;">Premera Blue Cross Medicare Advantage <b>Core</b> (HMO)</li>
+<li style="margin-left:3em;">Premera Blue Cross Medicare Advantage <b>Core Plu</b>s (HMO)</li>
+<li style="margin-left:3em;">Premera Blue Cross Medicare Advantage <b>Classic Plus</b> (HMO)</li>
+<li style="margin-left:3em;">Premera Blue Cross Medicare Advantage <b>Charter + R</b>x (HMO)</li>
+<li style="margin-left:3em;">Premera Blue Cross Medicare Advantage <b>Alpine</b> (HMO)</li>
+<li style="margin-left:3em;">Premera Blue Cross Medicare Advantage <b>Sound + Rx</b> (HMO)</li>
+<li style="margin-left:3em;">Premera Blue Cross Medicare Advantage <b>Peak + Rx</b> (HMO)</li>
+<li style="margin-left:3em;">Premera Blue Cross Medicare Advantage <b>Total Health</b> (HMO)</li>
+</ul>
+</ul>
+<p style="margin-left:3em;"><b>Providence Health Plan / Providence Health Assurance</b></p>
+<ul>
+<ul>
+<li style="margin-left:3em;">Providence Medicare <b>Focus Medical</b> (HMO)</li>
+<li style="margin-left:3em;">Providence Medicare <b>Select Medical</b> (HMO-POS)</li>
+<li style="margin-left:3em;">Providence Medicare <b>Timber + RX</b> (HMO)</li>
+<li style="margin-left:3em;">Providence Medicare <b>Extra + RX</b> (HMO)</li>
+<li style="margin-left:3em;">Providence Medicare <b>Choice + RX</b> (HMO-POS)</li>
+<li style="margin-left:3em;">Providence Medicare <b>Bridge 2 + RX</b> (HMO-POS)</li>
+<li style="margin-left:3em;">Providence Medicare <b>Summit + RX</b> (HMO-POS)</li>
+<li style="margin-left:3em;">Providence Medicare <b>Harbor + RX</b> (HMO)</li>
+<li style="margin-left:3em;">Providence Medicare <b>Cottonwood + RX</b> (HMO-POS)</li>
+<li style="margin-left:3em;">Providence Medicare <b>Pine + RX</b> (HMO)</li>
+</ul>
+</ul>
+<p style="margin-left:3em;"><b>Regence BlueShield</b></p>
+<ul>
+<ul>
+<li style="margin-left:3em;">Regence <b>Valiance</b> (PPO)
+                    </li><li style="margin-left:3em;">Regence <b>MedAdvantage + Rx Classic</b> (PPO)</li>
+<li style="margin-left:3em;">Regence <b>MedAdvantage + Rx Primary</b> (PPO)</li>
+<li style="margin-left:3em;">Regence <b>MedAdvantage + Rx Enhanced</b> (PPO)</li>
+<li style="margin-left:3em;">Regence <b>BlueAdvantage HMO Plus</b> (HMO)</li>
+<li style="margin-left:3em;">Regence <b>Valiance</b> (HMO)</li>
+<li style="margin-left:3em;">Regence <b>BlueAdvantage HMO</b> (HMO)</li>
+<li style="margin-left:3em;">Regence <b>Align</b> (HMO)</li>
+<li style="margin-left:3em;">Regence <b>Align Plus</b> (HMO)</li>
+</ul>
+</ul>
+<p style="margin-left:3em;"><b>United Health Care</b></p>
+<ul>
+<ul>
+<li style="margin-left:3em;"><b>AARP Medicare Advantage</b> (HMO)</li>
+<li style="margin-left:3em;">AARP Medicare Advantage <b>Choice</b> (PPO)</li>
+<li style="margin-left:3em;">AARP Medicare Advantage <b>Patriot</b> (HMO-POS)</li>
+<li style="margin-left:3em;">AARP Medicare Advantage <b>Plan 1 (HMO)</b></li>
+<li style="margin-left:3em;">AARP Medicare Advantage <b>Plan 1 (HMO-POS)</b></li>
+<li style="margin-left:3em;">AARP Medicare Advantage <b>Plan 2 (HMO)</b></li>
+<li style="margin-left:3em;">AARP Medicare Advantage <b>Plan 2 (HMO-POS)</b></li>
+<li style="margin-left:3em;">AARP Medicare Advantage <b>Plan 3 (HMO)</b></li>
+<li style="margin-left:3em;">AARP Medicare Advantage <b>Walgreens (HMO)</b></li>
+<li style="margin-left:3em;">AARP Medicare Advantage <b>Walgreens (HMO-POS)</b></li>
+</ul>
+</ul>
+<p style="margin-left:4em;">For dual-eligible Medicare/Medicaid members
+            </p><ul>
+<ul>
+<li style="margin-left:3em;">UnitedHealthcare <b>Assisted Living Plan</b> (PPO I-SNP)</li>
+<li style="margin-left:3em;">UnitedHealthcare <b>Nursing Home Plan (PPO I-SNP)</b></li>
+<li style="margin-left:3em;">UnitedHealthcare <b>Nursing Home Plan (HMO-POS I-SNP)</b></li>
+<li style="margin-left:3em;">UnitedHealthcare <b>Dual Complete</b> (HMO D-SNP)</li>
+</ul>
+</ul>
+<p><b>2021 All Other Accepted Insurance Plans</b></p>
+<ul>
+<li>TBD—please check back later</li>
+</ul>
+<br/><br/>
+<a name="2020-plans"></a>
+<h2>2020 Plans Accepted</h2>
+<p><strong>2020 Exchange Plans accepted:</strong></p>
+<ul>
+<li>Kaiser Foundation Health Plan of WA (specialty only with authorization)</li>
+<li>Molina Marketplace - Exchange</li>
+<li><a href="/help-faq/premera-plans-accepted-at-pacmed/">Premera Lifewise Plans</a></li>
+</ul>
+<p><b>2020 Medicare Plans accepted:</b></p>
+<ul>
+<li>Traditional Medicare (Part B)</li>
+<li>Medicare Prescription Drug coverage (Part D) – <i>at Maxor pharmacies located in PacMed clinics</i>
+</li>
+</ul>
+<p><i>Note: Medicare Part A coverage is hospital insurance; PacMed does not have a hospital so this coverage
+                does not apply. Please check with our affiliated hospital in your area about their Medicare Part A
+                policy in case of hospital admissions.<br/><br/>
+<b>Medicare Supplemental (“Medigap”) plans</b> can also be used to pay for care at PacMed; these plans
+                pay secondary to Medicare and may cover an additional percentage of Medicare Part B-eligible services.
+            </i></p><br/>
+<p><b>2020 Medicare Advantage Plans accepted (Part C):</b></p>
+<ul>
+<li>Aetna Medicare Advantage PPO and HMO</li>
+<li>AARP Medicare Advantage through UnitedHealthcare®</li>
+<li>Humana HMO and PPO</li>
+<li>Kaiser Foundation Health Plan of Washington (prior authorization is required)</li>
+<li>Premera Blue Cross Medicare Advantage</li>
+<li>Providence Health Plan / Providence Health Assurance</li>
+<li>Regence BlueShield HMO and PPO</li>
+</ul>
+<p>*Plans may vary by clinic. Please contact Connexion Insurance Solutions at 1-877-315-3279 to find a plan
+                that meets your needs.</p>
+<p>This is not a complete listing of plans available in your service area. For a complete listing please
+                contact 1.800.MEDICARE (TTY users should call 1.877.486.2048), 24 hours a day/7 days a week or consult
+                <a href="http://www.medicare.gov">www.medicare.gov</a>.</p>
+<br/>
+<p><strong>2020 All Other Accepted Insurance Plans</strong></p>
+<ul>
+<li><a href="http://www.aetna.com/index.htm" target="_blank">Aetna - all commercial plans</a> including
+                    Aetna Whole Health
+                </li>
+<li><a href="http://www.cigna.com/index.html" target="_blank"> Cigna/Cigna FlexCare/Great West</a>- all
+                    commercial plans
+                </li>
+<li><a href="http://www.evermeddpc.com" target="_blank"> EverMed Direct Primary Care</a></li>
+<li><a href="http://www.fchn.com/" target="_blank">First Choice Health Network</a></li>
+<li><a href="http://www.humana.com/" target="_blank">Humana</a> – HMO and PPO</li>
+<li><a href="https://www.ghc.org/" target="_blank">Kaiser Foundation Health Plan</a> – Options PPO and
+                    Access PPO
+                </li>
+<li><a href="http://www.medicare.gov/" target="_blank">Medicare</a></li>
+<li><a href="http://www.molinahealthcare.com/members/wa/en-US/hp/medicaid/Pages/medicaid.aspx" target="_blank">Molina Managed Care Medicaid</a> – accepting all Molina Managed Apple
+                    Health/Medicaid plans. PacMed is not currently accepting Molina Medicare. If you have Molina or
+                    other Medicaid eligibility related questions, please call 206.621.4049.<br/>
+<i>Note: Our doctors at the Puyallup clinic are currently unable to see new Medicaid patients. This
+                        includes Molina Medicaid plans. Please contact your insurance provider for a list of local
+                        doctors you can see, or visit the <a href="https://providersearch.molinahealthcare.com/Provider/ProviderSearch" target="">Provider
+                        Search page for Molina</a>.</i></li>
+<li>Molina Marketplace</li>
+<li><a href="http://www.multiplan.com/" target="_blank">Multiplan/Private Health Care Systems (PHCS)</a>
+</li>
+<li><a href="https://www.premera.com/" target="_blank">Premera Blue Cross, Commercial, Medicare
+                    Advantage, Lifewise</a></li>
+<li><a href="http://www.regence.com" target='_blank"'>Regence Blue Shield, Regence Uniform Medical Plan,
+                    Regence Select Network, Regence Selections, Regence Medicare Advantage Plan, Regence Master Builders
+                    Vision PPO</a></li>
+<li><a href="http://www.uhc.com/" target="blank">United Healthcare Core, United Healthcare Choice Plus,
+                    United Healthcare Navigate, United Healthcare Medicare Solutions, United Healthcare Medicare
+                    Complete, United Healthcare Dual Complete</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/us-family-health-plan">US Family Health Plan
+                    (USFHP)</a></li>
+</ul>
+<!--
+            <li><a href="http://www.uhc.com/" target="_blank"> United Healthcare Navigate</a></li>
+            -->
+<p><strong>Do you need insurance coverage?</strong></p>
+<p>If you need help finding insurance coverage for yourself or loved ones, please visit <a href="https://www.wahealthplanfinder.org/HBEWeb/Annon_DisplayHomePage.action?authn_try_count=0&amp;contextType=external&amp;username=string&amp;contextValue=%2Foam&amp;password=sercure_string&amp;challenge_url=https%3A%2F%2Fwww.wahealthplanfinder.org%2FHBEWeb%2FAnnon_DisplayHomePage.action&amp;request_id=-6439538047140638864&amp;locale=en_US&amp;resource_url=https%253A%252F%252Fwww.wahealthplanfinder.org%252FHBEWeb%252F" target="_blank">Washington Healthplanfinder</a>.</p>
+<p>Questions? Please call <strong>206.621.4049</strong>.</p> <br/>
+<p><strong>Are you an external provider group of facility looking to refer your patient to PacMed?</strong>
+</p>
+<p>Please fax in your request and all applicable chart notes to our centralized referral team at
+                206-505-1445.</p>
+<hr/>
+<a name="tips"></a>
+<h2>Tips for saving time and getting the most from your medical insurance</h2>
+<p>We’ve put together some helpful tips to save you time and help you get the most out of your medical
+                insurance. As with everything, good communication is the key to working well with insurance companies.
+                Because policies vary, it’s important to contact your insurance company directly to confirm how your
+                plan will pay charges for services and to keep records of the conversations.</p>
+<p>Prior to calling your insurance company, ask your provider:</p>
+<ul>
+<li>Is this a routine exam (i.e. an annual exam or physical)?</li>
+<li>What procedure (CPT) codes will apply to my visit/course of treatment?</li>
+</ul>
+<p>When you call your insurance company, have a set of questions ready to ask. Some suggestions are:</p>
+<ul>
+<li>Do I have benefit coverage for (insert service name/CPT code)?</li>
+<li>Is a referral or preauthorization necessary to have this service? (If yes, your primary care
+                    provider must initiate the referral or preauthorization.)
+                </li>
+<li>Do I have a deductible?</li>
+<li>Following my deductible, how much will I owe?</li>
+<li>How much am I responsible for paying following the insurance coverage?</li>
+<li>What is the call reference number for this conversation? (use this in case you need to refer back to
+                    the call with another agent)
+                </li>
+</ul>
+<p>To maximize your health insurance benefits, please contact your insurance company's Customer Service
+                department for policy and benefit verification. The Customer Service phone number should be located on
+                the back of your health insurance ID card.</p>
+<p>Please check with your insurance carrier for information on required referrals and authorizations and
+                co-payments.</p>
+<p>Please bring your insurance card to every appointment.</p>
+<p><strong>Questions about the Affordable Healthcare Act?</strong> You can find more information <a href="/help-and-faq/health-benefit-exchanges/">here</a>.</p>
+<p>If you are unable to pay your full statement balance, please contact the Pacific Medical Centers Patient
+                Accounts department at 206.621.4392 to discuss payment options.</p>
+</div>
+</div>
+<!-- Site footer -->
+<div class="clearfix"></div>
+<footer class="footer">
+<div class="row">
+<div class="col-md-4 contact">
+<p><strong>New Patient Information Line</strong>
+</p><p>
+<a href="tel:18884722633">1.888.4PACMED (1.888.472.2633)</a>
+</p><p><strong>Corporate Office</strong>
+</p><p>
+</p><ul>
+<li>206.621.4466, 9am-5pm PST</li>
+<li>1200 12th Avenue S</li>
+<li>Seattle, WA 98144</li>
+</ul>
+<p class="newsletter-signup">Sign up for our Healthy Today newsletter or request a free wellness guide
+                    <a href="/health-resources/pacmed-request-more-info/">here <i class="fa fa-arrow-right orange"></i></a>
+</p>
+<div class="social-links">
+<a href="https://www.facebook.com/pacificmedicalcenters" target="_blank"><i class="fa fa-lg fa-facebook-square"></i></a>
+<a href="https://twitter.com/PacMedWA" target="_blank"><i class="fa fa-lg fa-twitter-square"></i></a>
+<a href="https://plus.google.com/111531483946008441870" target="_blank"><i class="fa fa-lg fa-google-plus-square"></i></a>
+</div>
+</div>
+<div class="col-md-4 links">
+<strong>Quick Links</strong>
+<ul class="quick-links">
+<li><a href="/who-we-are/" target="_blank">Find a Physician</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/schedule/">Make An Appointment</a></li>
+<li><a href="/what-we-do/">Primary &amp; Specialty Care</a></li>
+<li><a href="/where-we-are/">Center Locations</a></li>
+<li><a href="/us-family-health-plan/">US Family Health Plan</a></li>
+<li><a href="/about-us/">About Us</a></li>
+<li><a href="/help-faq/preparing-for-your-visit/">Forms</a></li>
+<li><a href="/help-faq/medical-records/">Medical Records</a></li>
+<li><a href="/about-us/news-press/">News &amp; Press</a></li>
+<li><a href="/help-faq/">Help &amp; FAQ</a></li>
+<li><a href="/work-with-us/">Jobs</a></li>
+<li><a href="/about-us/privacy-policy/">Privacy Policy</a></li>
+<li><a href="/about-us/nondiscrimination-statement/">Nondiscrimination and Accessibility Rights</a>
+</li>
+<li><a href="/contact-us/">Contact Us</a></li>
+<li><a href="/site-map/">Site Map</a></li>
+</ul>
+</div>
+<div class="col-md-4 news">
+<strong>Latest News</strong>
+<ul>
+<li><a href="https://www.pacificmedicalcenters.org/about-us/news-press/seniors/">Senior Health
+                        Checklist: A yearly review</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/about-us/news-press/2020-flu-shot-clinic-info/">Keep
+                        on track with 2020 Flu Shots</a></li>
+<li>
+<a href="https://www.pacificmedicalcenters.org/about-us/news-press/the-best-doctors-of-2020-are-at-pacmed/">Our
+                            doctors are among the best in the region. PacMed Top Docs 2020!</a></li>
+<li>
+<a href="https://www.pacificmedicalcenters.org/about-us/news-press/keeping-safe-from-covid-share-it-with-mymaskis/">Keeping
+                            safe from COVID? Share it with #MyMaskIs!</a></li>
+<li>
+<a href="https://www.pacificmedicalcenters.org/about-us/news-press/let-us-stand-for-each-other/">Let
+                            us stand for each other</a></li>
+<li>
+<a href="https://www.pacificmedicalcenters.org/about-us/news-press/parents-use-telemedicine-to-get-daughter-life-saving-care/">Parents
+                            Use Telemedicine to Get Daughter Life-Saving Care</a></li>
+<li>
+<a href="https://www.pacificmedicalcenters.org/about-us/news-press/telehealth-pacmed-virtual-visits/">Telehealth
+                            - PacMed Virtual Visits</a></li>
+<li><a href="https://www.pacificmedicalcenters.org/about-us/news-press/covid-19-testing-at-pacmed/">COVID-19
+                        Testing</a></li>
+</ul>
+</div>
+</div>
+</footer>
+<!-- End .container div -->
+</div>
+
+
+</div></body>
+</html>

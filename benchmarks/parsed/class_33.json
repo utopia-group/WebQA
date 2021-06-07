@@ -1,0 +1,803 @@
+{
+    "id": 0,
+    "content": "CSE 331 Winter 2017",
+    "children": [
+        {
+            "id": 1,
+            "content": "CSE 331: Software Design and Implementation",
+            "key": 1,
+            "children": [
+                {
+                    "id": 2,
+                    "content": "Overview",
+                    "key": 1,
+                    "children": [
+                        {
+                            "id": 3,
+                            "content": "What qualities make a program good? How can we tell if a program is good? How can we build good programs? We will consider these questions as we explore concepts and techniques for the design and construction of reliable and maintainable software systems in modern high-level languages; program structure and design; program-correctness approaches, including testing; and event-driven programming. To practice the concepts from lecture, we will build substantial projects.",
+                            "key": 1
+                        },
+                        {
+                            "id": 4,
+                            "content": "",
+                            "isList": true,
+                            "key": 2,
+                            "children": [
+                              {
+                                "id": 5,
+                                "content": "Lecture,Monday  Wed, Friday 10:30 HCK 132",
+                                "isList": true,
+                                "key": 1
+                              },
+                              {
+                                "id": 6,
+                                "content": "Section,AA : Thursday 8:30 MGH 251",
+                                "isList": true,
+                                "key": 2
+                              },
+                              {
+                                "id": 7,
+                                "content": ",AB : Thursday 9:30 SAV 131",
+                                "isList": true,
+                                "key": 3
+                              },
+                              {
+                                "id": 8,
+                                "content": ",AC : Thursday 10:30 CHL 015",
+                                "isList": true,
+                                "key": 4
+                              },
+                              {
+                                "id": 9,
+                                "content": ",AD : Thursday 11:30 MGH 287",
+                                "isList": true,
+                                "key": 5
+                              },
+                              {
+                                "id": 10,
+                                "content": "Instructor,Zach Tatlock (ztatlock@cs)",
+                                "isList": true,
+                                "key": 6
+                              },
+                              {
+                                "id": 11,
+                                "content": ",Wednesday 11:30 CSE 546",
+                                "isList": true,
+                                "key": 7
+                              },
+                              {
+                                "id": 12,
+                                "content": "TAs,Christopher Chen (chrisc94@cs)",
+                                "isList": true,
+                                "key": 8
+                              },
+                              {
+                                "id": 13,
+                                "content": ",Thursday 2:30 CSE 006",
+                                "isList": true,
+                                "key": 9
+                              },
+                              {
+                                "id": 14,
+                                "content": ",Viktor Farkas (vfarkas@cs)",
+                                "isList": true,
+                                "key": 10
+                              },
+                              {
+                                "id": 15,
+                                "content": ",Monday 11:30 CSE 006",
+                                "isList": true,
+                                "key": 11
+                              },
+                              {
+                                "id": 16,
+                                "content": ",Cody Kesting (kesting@cs)",
+                                "isList": true,
+                                "key": 12
+                              },
+                              {
+                                "id": 17,
+                                "content": ",Wednesday 5:30 CSE 021",
+                                "isList": true,
+                                "key": 13
+                              },
+                              {
+                                "id": 18,
+                                "content": ",Chen (Jason) Qiu (chenq9@cs)",
+                                "isList": true,
+                                "key": 14
+                              },
+                              {
+                                "id": 19,
+                                "content": ",Tuesday 4:00 CSE 006",
+                                "isList": true,
+                                "key": 15
+                              },
+                              {
+                                "id": 20,
+                                "content": ",Matthew Yang (mattyang@cs)",
+                                "isList": true,
+                                "key": 16
+                              },
+                              {
+                                "id": 21,
+                                "content": ",Friday 4:00 CSE 006",
+                                "isList": true,
+                                "key": 17
+                              },
+                              {
+                                "id": 22,
+                                "content": ",Lucy Zhu (lucyzhu@cs)",
+                                "isList": true,
+                                "key": 18
+                              },
+                              {
+                                "id": 23,
+                                "content": ",Tuesday 10:30 CSE 006",
+                                "isList": true,
+                                "key": 19
+                              },
+                              {
+                                "id": 24,
+                                "content": ",Garrett Marconet (gmarco@cs)",
+                                "isList": true,
+                                "key": 20
+                              },
+                              {
+                                "id": 25,
+                                "content": ",Monday 3:30 CSE 006",
+                                "isList": true,
+                                "key": 21
+                              },
+                              {
+                                "id": 26,
+                                "content": ",Zhengyang Gao (gaoz6@uw)",
+                                "isList": true,
+                                "key": 22
+                              },
+                              {
+                                "id": 27,
+                                "content": ",Friday 3:30 CSE 006",
+                                "isList": true,
+                                "key": 23
+                              },
+                              {
+                                "id": 28,
+                                "content": ",Qian Yan (qiany7@cs)",
+                                "isList": true,
+                                "key": 24
+                              },
+                              {
+                                "id": 29,
+                                "content": ",Tuesday 3:00 CSE 006",
+                                "isList": true,
+                                "key": 25
+                              },
+                              {
+                                "id": 30,
+                                "content": "Resources,Piazza",
+                                "isList": true,
+                                "key": 26
+                              },
+                              {
+                                "id": 31,
+                                "content": ",Syllabus",
+                                "isList": true,
+                                "key": 27
+                              },
+                              {
+                                "id": 32,
+                                "content": ",Academic Integrity",
+                                "isList": true,
+                                "key": 28
+                              },
+                              {
+                                "id": 33,
+                                "content": ",Calendar",
+                                "isList": true,
+                                "key": 29
+                              },
+                              {
+                                "id": 34,
+                                "content": ",Dropbox",
+                                "isList": true,
+                                "key": 30
+                              },
+                              {
+                                "id": 35,
+                                "content": ",Gradebook",
+                                "isList": true,
+                                "key": 31
+                              }
+                            ]
+                        }
+                    ]
+                },
+              {
+                "id": 36,
+                "content": "Lectures",
+                "key": 2
+              },
+              {
+                "id": 37,
+                "content": "Sections",
+                "key": 3
+              },
+              {
+                "id": 38,
+                "content": "Reading",
+                "key": 4,
+                "children": [
+                  {
+                    "id": 39,
+                    "content": "We will be reading selections from The Pragmatic Programmer and Effective Java throughout the quarter. You can find quizzes on the reading in Catalyst.",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 40,
+                "content": "Homework",
+                "key": 5,
+                "children": [
+                  {
+                    "id": 41,
+                    "content": "Submit homeworks 0, 1, and 2 via the 331 Dropbox. Submit programming assignments by pushing and tagging your git repo as described in the assignment spec. If you need to, you can use up to 4 late days during the quarter, but at most 2 per assignment.",
+                    "key": 1
+                  },
+                  {
+                    "id": 42,
+                    "content": "To get ready for future homeworks, please see the References.",
+                    "key": 2
+                  }
+                ]
+              },
+              {
+                "id": 43,
+                "content": "Exams",
+                "key": 6
+              },
+              {
+                "id": 44,
+                "content": "Past Exams",
+                "key": 7,
+                "children": [
+                  {
+                    "id": 45,
+                    "content": "Previous midterms:",
+                    "key": 1,
+                    "children": [
+                      {
+                        "id": 46,
+                        "content": "15au (solution)   15sp (solution)   15wi (solution)   14au (solution)   14sp (solution)   14wi (solution)   13au (solution)   13sp (solution)   13wi (solution)   12au (solution)   12sp (solution)   12wi (solution)",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 47,
+                    "content": "Previous finals:",
+                    "key": 2,
+                    "children": [
+                      {
+                        "id": 48,
+                        "content": "15au (solution)   15sp (solution)   15wi (solution)   14au (solution)   14sp ( solution)   14wi (solution)   13au (solution)   13sp (solution)   13wi (solution)   12au (solution)   12sp (solution)   12wi (solution)",
+                        "key": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 49,
+                "content": "References",
+                "key": 8,
+                "children": [
+                  {
+                    "id": 50,
+                    "content": "Tools",
+                    "key": 1,
+                    "children": [
+                      {
+                        "id": 51,
+                        "content": "Basic Environment Setup",
+                        "key": 1
+                      },
+                      {
+                        "id": 52,
+                        "content": "Version Control",
+                        "key": 2
+                      },
+                      {
+                        "id": 53,
+                        "content": "Assignment Submission",
+                        "key": 3
+                      },
+                      {
+                        "id": 54,
+                        "content": "Working at home",
+                        "key": 4
+                      },
+                      {
+                        "id": 55,
+                        "content": "Editing, Compiling, Running and Testing Java Programs",
+                        "key": 5
+                      },
+                      {
+                        "id": 56,
+                        "content": "Eclipse Reference",
+                        "key": 6
+                      }
+                    ]
+                  },
+                  {
+                    "id": 57,
+                    "content": "Concepts",
+                    "key": 2,
+                    "children": [
+                      {
+                        "id": 58,
+                        "content": "Java Style Guide",
+                        "key": 1
+                      },
+                      {
+                        "id": 59,
+                        "content": "Class and Method Specifications",
+                        "key": 2
+                      },
+                      {
+                        "id": 60,
+                        "content": "Rep Invariants and Abstraction Functions",
+                        "key": 3
+                      },
+                      {
+                        "id": 61,
+                        "content": "Testing",
+                        "key": 4
+                      },
+                      {
+                        "id": 62,
+                        "content": "Debugging",
+                        "key": 5
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 63,
+                "content": "Syllabus",
+                "key": 9,
+                "children": [
+                  {
+                    "id": 64,
+                    "content": "Goals:",
+                    "key": 1,
+                    "children": [
+                      {
+                        "id": 65,
+                        "content": "There is a level of programming maturity beyond introductory programming that comes from building larger systems and understanding how to specify them precisely, manage their complexity, and verify that they work as expected. After completing this course successfully students should be able to:",
+                        "key": 1
+                      },
+                      {
+                        "id": 66,
+                        "content": "",
+                        "isList": true,
+                        "key": 2,
+                        "children": [
+                          {
+                            "id": 67,
+                            "content": "Successfully build medium-scale software projects in principled ways",
+                            "key": 1
+                          },
+                          {
+                            "id": 68,
+                            "content": "Understand the role of specifications and abstractions and how to verify that an implementation is correct, including effective testing and verification strategies and use of formal reasoning",
+                            "key": 2
+                          },
+                          {
+                            "id": 69,
+                            "content": "Analyze a software development problem and be able to design effective program structures to solve it, including appropriate modularity, separation of abstraction and implementation concerns, use of standard design patterns to solve recurring design problems, and use of standard libraries",
+                            "key": 3
+                          },
+                          {
+                            "id": 70,
+                            "content": "Use modern programming languages effectively, including understanding type systems, objects and classes, modularity, notions of identity and equality, and proper use of exceptions and assertions",
+                            "key": 4
+                          },
+                          {
+                            "id": 71,
+                            "content": "Use and learn new contemporary software tools, including integrated development environments, test frameworks, debuggers, version control, and documentation processing tools",
+                            "key": 5
+                          }
+                        ]
+                      },
+                      {
+                        "id": 72,
+                        "content": "To gain experience we will use Java and associated tools like Eclipse, JUnit, JavaDoc, and git, but the goal is to understand the underlying ideas and concepts that are widely applicable to software construction.",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 73,
+                    "content": "Prerequisite:",
+                    "key": 2,
+                    "children": [
+                      {
+                        "id": 74,
+                        "content": "The only formal prerequisite is CSE 143. We will very much rely on a thorough understanding of the concepts from CSE 143 as well as Java programming skills. We will go much further and you will be challenged to approach software development much differently than you have in CSE 143 or other courses.",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 75,
+                    "content": "Grading and Exams:",
+                    "key": 3,
+                    "children": [
+                      {
+                        "id": 76,
+                        "content": "Your overall grade will be determined as follows (subject to change as necessary, but substantial changes to the numbers below is unlikely):",
+                        "key": 1
+                      },
+                      {
+                        "id": 77,
+                        "content": "",
+                        "isList": true,
+                        "key": 2,
+                        "children": [
+                          {
+                            "id": 78,
+                            "content": "55% - Homework assignments, approximately weekly",
+                            "key": 1
+                          },
+                          {
+                            "id": 79,
+                            "content": "17% - Midterm exam",
+                            "key": 2
+                          },
+                          {
+                            "id": 80,
+                            "content": "23% - Final exam",
+                            "key": 3
+                          },
+                          {
+                            "id": 81,
+                            "content": "5% - Reading quizzes and other participation",
+                            "key": 4
+                          }
+                        ]
+                      },
+                      {
+                        "id": 82,
+                        "content": "There is approximately one assignment per week, but not on an exact schedule (i.e., assignments may be due on different days). The assignments are",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 83,
+                    "content": "not:",
+                    "key": 4,
+                    "children": [
+                      {
+                        "id": 84,
+                        "content": "weighted equally because they are of different length and sophistication. The exact weighting is to-be-determined and is not likely to be published in advance (we need to see how the course goes). Later assignments are likely to be weighted more heavily because they are more involved.",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 85,
+                    "content": "Late Policy:",
+                    "key": 5,
+                    "children": [
+                      {
+                        "id": 86,
+                        "content": "Deadlines will be given with each assignment. These deadlines are strict. For the entire quarter, you may have four \"late days\" . You are strongly advised to save them for emergencies. You may not use more than two for the same assignment. They must be used in 24-hour (integer) chunks. This policy may not be the same as in your other classes. You are responsible for understanding it if you choose to submit late work.",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 87,
+                    "content": "Academic Integrity:",
+                    "key": 6,
+                    "children": [
+                      {
+                        "id": 88,
+                        "content": "Any attempt to misrepresent the work you submit will be dealt with via the appropriate University mechanisms, and your instructor will make every attempt to ensure the harshest allowable penalty. The guidelines for this course and more information about academic integrity are below. You are responsible for knowing that information.",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 89,
+                    "content": "Texts:",
+                    "key": 7,
+                    "children": [
+                      {
+                        "id": 90,
+                        "content": "There are two required books for the course:",
+                        "key": 1
+                      },
+                      {
+                        "id": 91,
+                        "content": "",
+                        "isList": true,
+                        "key": 2,
+                        "children": [
+                          {
+                            "id": 92,
+                            "content": "The Pragmatic Programmer by Andrew Hunt and David Thomas, Addison-Wesley, 1999.",
+                            "key": 1
+                          },
+                          {
+                            "id": 93,
+                            "content": "Effective Java by Joshua Bloch, 2nd ed., Addison-Wesley, 2008.",
+                            "key": 2
+                          }
+                        ]
+                      },
+                      {
+                        "id": 94,
+                        "content": "These books contain a great deal of distilled wisdom about software construction in general and Java best practices, technical details, and style issues. Reading about software development is an important skill.",
+                        "key": 3
+                      },
+                      {
+                        "id": 95,
+                        "content": "There will be assigned readings from these books during the quarter, and you will be required to complete short online quizzes from time to time about the readings.",
+                        "key": 4
+                      }
+                    ]
+                  },
+                  {
+                    "id": 96,
+                    "content": "Advice:",
+                    "isList": true,
+                    "key": 8,
+                    "children": [
+                      {
+                        "id": 97,
+                        "content": "Do not skip class or section to work on homework, not even late in the quarter when you are more tired and busy. This will cost you time (not to mention learning) in the long run. Class will start promptly, and you will find the entire course easier and more educational if you arrive punctually, well-rested, and ready to pay attention for 50 minutes.",
+                        "key": 1
+                      },
+                      {
+                        "id": 98,
+                        "content": "Do buy a Java programming book. In general, a large, well-written reference book for any programming language you are using is a great value, sure to save you time over frustrating web-searching and time on sites like stackoverflow.com (though those are useful too -- it is not \"one or the other\"). Web-searching is cheaper, but you are spending a lot of money on your education and will likely get a high-paying job when you finish. The cost of a book that helps you do better in classes, internships, etc. is miniscule compared to the benefits you get from doing better work in less time. And such a book will be valuable long after you complete CSE331.",
+                        "key": 2
+                      },
+                      {
+                        "id": 99,
+                        "content": "A common misconception about this course is that the lectures, readings, and homeworks are disconnected. They are different since there is no point repeating something in multiple ways, but they also are connected. If you are approaching a homework and not using the concepts in the rest of the course materials, you are making it harder . When you are sawing something with a dull blade, it can seem like you do not have time to sharpen the blade because you need to finish sawing. In fact, you likely do not have time not to stop and sharpen the blade.",
+                        "key": 3
+                      },
+                      {
+                        "id": 100,
+                        "content": "Start homeworks early. They are more difficult than assignments in earlier courses and you need time to make mistakes.",
+                        "key": 4
+                      },
+                      {
+                        "id": 101,
+                        "content": "Enjoy this course and learn a lot. It is invaluable for making you a better software developer. The more you master these ideas now, the more effective you can be in jobs, other courses, and any other projects.",
+                        "key": 5
+                      }
+                    ]
+                  },
+                  {
+                    "id": 102,
+                    "content": "Approximate Topics (subject to change):",
+                    "key": 9,
+                    "children": [
+                      {
+                        "id": 103,
+                        "content": "We expect to cover the following, with an emphasis on specification and design. The order these are listed is only very rough as we will revisit some topics iteratively.",
+                        "key": 1
+                      },
+                      {
+                        "id": 104,
+                        "content": "",
+                        "isList": true,
+                        "key": 2,
+                        "children": [
+                          {
+                            "id": 105,
+                            "content": "Reasoning about programs:",
+                            "key": 1,
+                            "children": [
+                              {
+                                "id": 106,
+                                "content": "pre- and post-conditions, invariants, and correctness",
+                                "key": 1
+                              }
+                            ]
+                          },
+                          {
+                            "id": 107,
+                            "content": "Abstract data types, specification, implementation, abstraction functions, representation invariants, notions of equality",
+                            "key": 2
+                          },
+                          {
+                            "id": 108,
+                            "content": "Java language issues:",
+                            "key": 3,
+                            "children": [
+                              {
+                                "id": 109,
+                                "content": "subclasses and subtypes, generics, exceptions, assertions, etc.",
+                                "key": 1
+                              }
+                            ]
+                          },
+                          {
+                            "id": 110,
+                            "content": "Tools:",
+                            "key": 4,
+                            "children": [
+                              {
+                                "id": 111,
+                                "content": "Eclipse IDE, version control, git",
+                                "key": 1
+                              }
+                            ]
+                          },
+                          {
+                            "id": 112,
+                            "content": "Code quality, style, comments, documentation, JavaDoc",
+                            "key": 5
+                          },
+                          {
+                            "id": 113,
+                            "content": "Testing, test coverage, black- and white-box testing, test-first development, regression testing, JUnit",
+                            "key": 6
+                          },
+                          {
+                            "id": 114,
+                            "content": "Debugging strategies and tools",
+                            "key": 7
+                          },
+                          {
+                            "id": 115,
+                            "content": "Design:",
+                            "key": 8,
+                            "children": [
+                              {
+                                "id": 116,
+                                "content": "modular design, coupling, cohesion; design patterns",
+                                "key": 1
+                              }
+                            ]
+                          },
+                          {
+                            "id": 117,
+                            "content": "User interfaces, callbacks, separation of model from view/control",
+                            "key": 9
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 118,
+                "content": "Academic Integrity",
+                "key": 10,
+                "children": [
+                  {
+                    "id": 119,
+                    "content": "You are responsible for understanding every word in this document.",
+                    "key": 1
+                  },
+                  {
+                    "id": 120,
+                    "content": "",
+                    "isList": true,
+                    "key": 2,
+                    "children": [
+                      {
+                        "id": 121,
+                        "content": "Motivation:",
+                        "key": 1,
+                        "children": [
+                          {
+                            "id": 122,
+                            "content": "A course in which students do not accurately present what they know and the work they have done is worse than having no course at all. Your instructor and your fellow students expect and deserve a basic respect for the integrity of this course and an environment where we can all focus on learning. Therefore, this document establishes a clear understanding of what we all will do with the expectation that it will never be an issue.",
+                            "key": 1
+                          }
+                        ]
+                      },
+                      {
+                        "id": 123,
+                        "content": "Bottom Line:",
+                        "key": 2,
+                        "children": [
+                          {
+                            "id": 124,
+                            "content": "If you are ever unclear about how to represent what work you have done, (a) ask and (b) describe clearly what you have done. If you do, the worst that will happen is you will lose some credit on an assignment. This is much better than the alternative.",
+                            "key": 1
+                          },
+                          {
+                            "id": 125,
+                            "content": "If you are at all in doubt about whether your collaboration was appropriate, include a description of your collaboration with your homework submission.",
+                            "key": 2
+                          },
+                          {
+                            "id": 126,
+                            "content": "If the course staff receives homework submissions that are too similar to have been created independently, or are derived from other sources, we will pursue the maximum penalty allowed by the University.",
+                            "key": 3
+                          }
+                        ]
+                      },
+                      {
+                        "id": 127,
+                        "content": "Collaboration:",
+                        "key": 3,
+                        "children": [
+                          {
+                            "id": 128,
+                            "content": "You are encouraged to discuss the material in this course, including homework problems. We all learn better when we trade ideas with others, including course staff and fellow students. But you must produce your own homework solutions and you must not look at other students' solutions or other information that takes away the intellectual challenge of the homework.",
+                            "key": 1
+                          },
+                          {
+                            "id": 129,
+                            "content": "Unless specifically told otherwise, you are to complete assignments individually. You may discuss assignments in general terms with other students including a discussion of how to approach a problem, but the code and other work you submit must be your own. The intent is to allow you to get some help when you are stuck, but this help should be limited and should never involve details of how to write a solution. You may not have another person (current student, former student, tutor, friend, anyone) \"walk you through\" how to solve an assignment.",
+                            "key": 2
+                          },
+                          {
+                            "id": 130,
+                            "content": "Copying someone else's homework or receiving unfair help completing your assignment is cheating (see below), as is copying the homework from another source (the web, other classes, previous course offerings, etc.).",
+                            "key": 3
+                          }
+                        ]
+                      },
+                      {
+                        "id": 131,
+                        "content": "Cheating:",
+                        "key": 4,
+                        "children": [
+                          {
+                            "id": 132,
+                            "content": "Cheating is a very serious offense. If you are caught cheating, you can expect a failing grade and initiation of a cheating case in the University system. Cheating is an insult to your colleagues, to the instructors, to the department and major program, and most importantly, to you. If you feel that you are having a problem with the material, or do not have time to finish an assignment, or have any number of other reasons to cheat, then talk with the instructor. Copying others' work is not the solution.   To avoid creating situations where copying can arise, never e-mail or post your solution files. When using the class discussion board, do not post code that is an attempt to solve a homework problem. If in doubt about what might constitute cheating, send the instructor email describing the situation.",
+                            "key": 1
+                          }
+                        ]
+                      },
+                      {
+                        "id": 133,
+                        "content": "Fine Print:",
+                        "key": 5,
+                        "children": [
+                          {
+                            "id": 134,
+                            "content": "It's not effective for us to try to define a list of all impermissible activities. That approach can tempt people to look for loopholes. Consider: \"the code you write must be your own.\" This includes things like not using any substantive material or solutions from similar assignments this term or previous terms at UW or elsewhere, including anywhere on the Internet, transcribing solutions from any other source, etc. Our policy is intended to convey the spirit of the law, fully understanding that the letter of the law may not cover everything that someone may think of.",
+                            "key": 1
+                          }
+                        ]
+                      },
+                      {
+                        "id": 135,
+                        "content": "For additional information and a more detailed discussion, please refer to the CSE Academic Misconduct Policy page.",
+                        "key": 6
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 136,
+                "content": "Credits",
+                "key": 11,
+                "children": [
+                  {
+                    "id": 137,
+                    "content": "Material in this course based on work from Michael Ernst, Hal Perkins, Dan Grossman, David Notkin, numerous TAs, and past 331 students.",
+                    "key": 1
+                  }
+                ]
+              }
+            ]
+        }
+    ]
+}

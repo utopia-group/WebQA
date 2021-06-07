@@ -1,0 +1,471 @@
+{
+    "id": 0,
+    "content": "COMS Winter 194115 Programming Languages and Translators",
+    "children": [
+        {
+            "id": 1,
+            "content": "COMS Winter 194115 Programming Languages and Translators",
+            "key": 1,
+            "children": [
+                {
+                    "id": 2,
+                    "content": "Spring 2019",
+                    "key": 1
+                },
+                {
+                    "id": 3,
+                    "content": "General Information",
+                    "key": 2,
+                    "children": [
+                        {
+                          "id": 4,
+                          "content": "Instructor:",
+                          "key": 1,
+                          "children": [
+                            {
+                              "id": 5,
+                              "content": "Prof. Ronghui Gu   Lectures: Mudd 833, Monday Wednesday 2:40pm - 3:55pm",
+                              "key": 1
+                            }
+                          ]
+                        },
+                      {
+                        "id": 6,
+                        "content": "Staff:",
+                        "isList": true,
+                        "key": 2,
+                        "children": [
+                          {
+                            "id": 7,
+                            "content": "Name",
+                            "isList": true,
+                            "key": 1,
+                            "children": [
+                              {
+                                "id": 8,
+                                "content": ",Email,Office hours,Location",
+                                "key": 1
+                              }
+                            ]
+                          },
+                          {
+                            "id": 9,
+                            "content": "Prof. Ronghui Gu,ronghui.gu@columbia.edu,Th (1-2),515 CSB",
+                            "isList": true,
+                            "key": 2
+                          },
+                          {
+                            "id": 10,
+                            "content": "Justin Wong ( lead ),jw3354@columbia.edu,M (7-8) & T (2-3),486 CSB (Clic Lab)",
+                            "isList": true,
+                            "key": 3
+                          },
+                          {
+                            "id": 11,
+                            "content": "Ryan Bernstein ( lead ),rb3234@columbia.edu,W & F (11-12),486 CSB (Clic Lab)",
+                            "isList": true,
+                            "key": 4
+                          },
+                          {
+                            "id": 12,
+                            "content": "Lauren Bree Arnett,lba2138@columbia.edu,Th (3-4),486 CSB (Clic Lab)",
+                            "isList": true,
+                            "key": 5
+                          }
+                        ]
+                      },
+                      {
+                        "id": 13,
+                        "content": "Note:",
+                        "key": 3,
+                        "children": [
+                          {
+                            "id": 14,
+                            "content": ": For any general questions related to assignments and projects, please send emails to the following TA mailing list using your Columbia email address:",
+                            "key": 1
+                          },
+                          {
+                            "id": 15,
+                            "content": "4115Spring2019ta@lists.cs.columbia.edu",
+                            "key": 2
+                          }
+                        ]
+                      },
+                      {
+                        "id": 16,
+                        "content": "Overview",
+                        "key": 4,
+                        "children": [
+                          {
+                            "id": 17,
+                            "content": "The goal of PLT is to teach you both about the structure of computer programming languages and the basics of implementing compilers for such languages.",
+                            "key": 1
+                          },
+                          {
+                            "id": 18,
+                            "content": "The course will focus mostly on traditional imperative and object-oriented languages, but will also cover functional and logic programming, concurrency issues, and some aspects of scripting languages. Homework and tests will cover language issues. You will design and implement a language of your own design in a semester-long team project.",
+                            "key": 2
+                          },
+                          {
+                            "id": 19,
+                            "content": "While few of you will ever implement a full commercial compiler professionally, the concepts, techniques, and tools you will learn have broad application.",
+                            "key": 3
+                          }
+                        ]
+                      },
+                      {
+                        "id": 20,
+                        "content": "Prerequisites",
+                        "key": 5,
+                        "children": [
+                          {
+                            "id": 21,
+                            "content": "COMS Winter 193157 Advanced Programming:",
+                            "key": 1,
+                            "children": [
+                              {
+                                "id": 22,
+                                "content": ": You will be dividing into teams to build a compiler, so you need to have some idea how to keep this under control. Quick test : you need to know about Makefiles and source code control systems.",
+                                "key": 1
+                              }
+                            ]
+                          },
+                          {
+                            "id": 23,
+                            "content": "COMS Winter 193261 Computability and Models of Computation",
+                            "key": 2,
+                            "children": [
+                              {
+                                "id": 24,
+                                "content": ": You will need an understanding of formal languages and grammar to build the parser and lexical analyzer. Quick test : you must know about regular expressions, context-free grammars, and NFAs.",
+                                "key": 1
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": 25,
+                        "content": "Suggested Text",
+                        "key": 6,
+                        "children": [
+                          {
+                            "id": 26,
+                            "content": "You don't need to buy textbooks since all the materials will be covered by the lecture notes.",
+                            "key": 1
+                          },
+                          {
+                            "id": 27,
+                            "content": "",
+                            "isList": true,
+                            "key": 2,
+                            "children": [
+                              {
+                                "id": 28,
+                                "content": "Compilers:",
+                                "key": 1,
+                                "children": [
+                                  {
+                                    "id": 29,
+                                    "content": "Principles, Techniques, and Tools by Alfred V. Aho, Monica Lam, Ravi Sethi, and Jeffrey D. Ullman (Second Edition).",
+                                    "key": 1
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 30,
+                                "content": "Modern Compiler Implementation in ML by Andrew W. Appel.",
+                                "key": 2
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": 31,
+                        "content": "Grades",
+                        "isList": true,
+                        "key": 7,
+                        "children": [
+                          {
+                            "id": 32,
+                            "content": "40%: Team Programming Project",
+                            "key": 1
+                          },
+                          {
+                            "id": 33,
+                            "content": "20%: Midterm Exam",
+                            "key": 2
+                          },
+                          {
+                            "id": 34,
+                            "content": "20%: Final Exam (cumulative)",
+                            "key": 3
+                          },
+                          {
+                            "id": 35,
+                            "content": "20%: Three individual homework assignments",
+                            "key": 4
+                          }
+                        ]
+                      },
+                      {
+                        "id": 36,
+                        "content": "TENTATIVE Syllabus (Subject to change!)",
+                        "isList": true,
+                        "key": 8,
+                        "children": [
+                          {
+                            "id": 37,
+                            "content": "Date",
+                            "isList": true,
+                            "key": 1,
+                            "children": [
+                              {
+                                "id": 38,
+                                "content": ",Session,Lecture,Due",
+                                "key": 1
+                              }
+                            ]
+                          },
+                          {
+                            "id": 39,
+                            "content": "Wednesday Jan 23,1,Intro",
+                            "isList": true,
+                            "key": 2
+                          },
+                          {
+                            "id": 40,
+                            "content": "Monday Jan 28,2,Language Translators",
+                            "isList": true,
+                            "key": 3
+                          },
+                          {
+                            "id": 41,
+                            "content": "Wednesday Jan 30,3,Basic Elements of PL",
+                            "isList": true,
+                            "key": 4
+                          },
+                          {
+                            "id": 42,
+                            "content": ",Some Outstanding Projects",
+                            "isList": true,
+                            "key": 5
+                          },
+                          {
+                            "id": 43,
+                            "content": "Monday Feb 4,4,Programming in OCaml",
+                            "isList": true,
+                            "key": 6
+                          },
+                          {
+                            "id": 44,
+                            "content": "Wednesday Feb 6,5,\"",
+                            "isList": true,
+                            "key": 7
+                          },
+                          {
+                            "id": 45,
+                            "content": "Monday Feb 11,6,\"",
+                            "isList": true,
+                            "key": 8
+                          },
+                          {
+                            "id": 46,
+                            "content": "Wednesday Feb 13,7,\",Proposal",
+                            "isList": true,
+                            "key": 9
+                          },
+                          {
+                            "id": 47,
+                            "content": "Monday Feb 18,8,Scanning",
+                            "isList": true,
+                            "key": 10
+                          },
+                          {
+                            "id": 48,
+                            "content": "Wednesday Feb 20,9,\",HW1",
+                            "isList": true,
+                            "key": 11
+                          },
+                          {
+                            "id": 49,
+                            "content": "Monday Feb 25,10,Parsing",
+                            "isList": true,
+                            "key": 12
+                          },
+                          {
+                            "id": 50,
+                            "content": "Wednesday Feb 27,11,\"",
+                            "isList": true,
+                            "key": 13
+                          },
+                          {
+                            "id": 51,
+                            "content": "Monday Mar 4,12,\"",
+                            "isList": true,
+                            "key": 14
+                          },
+                          {
+                            "id": 52,
+                            "content": "Wednesday Mar 6,13,Types and Static Semantics,LRM",
+                            "isList": true,
+                            "key": 15
+                          },
+                          {
+                            "id": 53,
+                            "content": "Monday Mar 11,14,\",HW2",
+                            "isList": true,
+                            "key": 16
+                          },
+                          {
+                            "id": 54,
+                            "content": "Wednesday Mar 13,Midterm Exam:",
+                            "isList": true,
+                            "key": 17
+                          },
+                          {
+                            "id": 55,
+                            "content": "Mar 18 - 22:",
+                            "isList": true,
+                            "key": 18,
+                            "children": [
+                              {
+                                "id": 56,
+                                "content": ",Spring Break:",
+                                "key": 1
+                              }
+                            ]
+                          },
+                          {
+                            "id": 57,
+                            "content": "Monday Mar 25,15,Intermediate Code Generation",
+                            "isList": true,
+                            "key": 19
+                          },
+                          {
+                            "id": 58,
+                            "content": "Wednesday Mar 27,16,Runtime Environments I",
+                            "isList": true,
+                            "key": 20
+                          },
+                          {
+                            "id": 59,
+                            "content": "Monday Apr 1,17,The NanoC Compiler (zip)",
+                            "isList": true,
+                            "key": 21
+                          },
+                          {
+                            "id": 60,
+                            "content": "Wednesday Apr 3,18,\"",
+                            "isList": true,
+                            "key": 22
+                          },
+                          {
+                            "id": 61,
+                            "content": "Monday Apr 8,19,\",Hello World",
+                            "isList": true,
+                            "key": 23
+                          },
+                          {
+                            "id": 62,
+                            "content": "Wednesday Apr 10,20,The MicroC Compiler (zip)",
+                            "isList": true,
+                            "key": 24
+                          },
+                          {
+                            "id": 63,
+                            "content": "Monday Apr 15,21,\"",
+                            "isList": true,
+                            "key": 25
+                          },
+                          {
+                            "id": 64,
+                            "content": "Wednesday Apr 17,22,Runtime Environments II",
+                            "isList": true,
+                            "key": 26
+                          },
+                          {
+                            "id": 65,
+                            "content": "Monday Apr 22,23,IR Optimization,HW3",
+                            "isList": true,
+                            "key": 27
+                          },
+                          {
+                            "id": 66,
+                            "content": "Wednesday Apr 24,24,\"",
+                            "isList": true,
+                            "key": 28
+                          },
+                          {
+                            "id": 67,
+                            "content": "Monday Apr 29,25,Code Generation",
+                            "isList": true,
+                            "key": 29
+                          },
+                          {
+                            "id": 68,
+                            "content": "Wednesday May 1,26,Compiler Optimization",
+                            "isList": true,
+                            "key": 30
+                          },
+                          {
+                            "id": 69,
+                            "content": "Monday May 6,Final Exam:",
+                            "isList": true,
+                            "key": 31
+                          },
+                          {
+                            "id": 70,
+                            "content": "Wednesday May 15,Project Presentation:,Project Reports",
+                            "isList": true,
+                            "key": 32
+                          }
+                        ]
+                      },
+                      {
+                        "id": 71,
+                        "content": "Sample Proposals",
+                        "isList": true,
+                        "key": 9,
+                        "children": [
+                          {
+                            "id": 72,
+                            "content": "GRAIL:",
+                            "key": 1,
+                            "children": [
+                              {
+                                "id": 73,
+                                "content": "A Graph-Construction Language",
+                                "key": 1
+                              }
+                            ]
+                          },
+                          {
+                            "id": 74,
+                            "content": "FRY - A Flat File Data Processing Language",
+                            "key": 2
+                          },
+                          {
+                            "id": 75,
+                            "content": "Fly Language",
+                            "key": 3
+                          },
+                          {
+                            "id": 76,
+                            "content": "SetC: A Concise Set Language",
+                            "key": 4
+                          },
+                          {
+                            "id": 77,
+                            "content": "Coral Programming Language Proposal",
+                            "key": 5
+                          }
+                        ]
+                      }
+                    ]
+                }
+            ]
+        }
+    ]
+}

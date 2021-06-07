@@ -1,0 +1,727 @@
+{
+    "id": 0,
+    "content": "Zachary Ives",
+    "children": [
+        {
+            "id": 1,
+            "content": "",
+            "isList": true,
+            "key": 1,
+            "children": [
+                {
+                    "id": 2,
+                    "content": "Research,Teaching,Publications,Advisees & Collaborators,DB Group",
+                    "key": 1
+                },
+                {
+                    "id": 3,
+                    "content": "Zachary G. Ives",
+                    "isList": true,
+                    "key": 2,
+                    "children": [
+                        {
+                            "id": 4,
+                            "content": "Adani President's Distinguished Professor and Department Chair   Computer & Information Science Department   University of Pennsylvania",
+                            "key": 1
+                        },
+                        {
+                            "id": 5,
+                            "content": "Warren Center for Network and Data Science   Center for Neuroengineering and Therapeutics   Center for Health, Devices & Technology   Distinguished Research Fellow, Annenberg Center for Public Policy",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "content": "Contact Information",
+                    "key": 3,
+                    "children": [
+                        {
+                            "id": 7,
+                            "content": "305 Levine Hall   Computer and Information Science Department   University of Pennsylvania   3330 Walnut Street   Philadelphia, PA 19104-6389   zives @ cis.upenn.edu   (215) 746-2789 Fax: (215) 898-0587   Twitter: @zgives",
+                            "key": 1
+                        },
+                        {
+                            "id": 8,
+                            "content": "Teaching Big Data Analytics   Office Hours for the Spring: Wednesday 2:00 - 3:00",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "content": "Biographical Sketch",
+                    "key": 4,
+                    "children": [
+                        {
+                            "id": 10,
+                            "content": "Zachary Ives is the Department Chair and Adani President's Distinguished Professor of Computer and Information Science at the University of Pennsylvania. He is a co-founder of Blackfynn, Inc., a company focused on enabling life sciences research and discovery through data integration. Zack's research interests include data integration and sharing, managing \"big data,\" sensor networks, and data provenance and authoritativeness. He is a recipient of the NSF CAREER award, and an alumnus of the DARPA Computer Science Study Panel and Information Science and Technology advisory panel. He has also been awarded the Christian R. and Mary F. Lindback Foundation Award for Distinguished Teaching. He is a co-author of the textbook Principles of Data Integration, and has received an ICDE 2013 ten-year Most Influential Paper award as well as the 2017 SWSA Ten-Year Award at the International Semantic Web Conference. He has been an Associate Editor for Proceedings of the VLDB Endowment (2014) and a Program Co-Chair (2015) and Group Leader (2018) for the ACM SIGMOD conference.",
+                            "key": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "content": "CIS@Penn",
+            "key": 2,
+            "children": [
+                {
+                    "id": 12,
+                    "content": "Exciting things are happening in Computer and Information Science at Penn, as we continue to start revolutionary new projects, recruit new students and faculty, and continue on our period of high-speed growth. Want to know more about the great things happening in the department? Please check out our Highlights site, and follow me on Twitter (@zgives)! Please also see our faculty and lecturer ads.",
+                    "key": 1
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "content": "Research",
+            "key": 3,
+            "children": [
+                {
+                    "id": 14,
+                    "content": "My research interests lie in building data science tools , using techniques at the intersection of databases, machine learning, and distributed systems. I am interested in applications both to the Web and question answering, and to conducting data science. I often work with life scientists (especially in genetics and neuroscience) to evaluate our techniques with real data and real hypotheses.",
+                    "key": 1
+                },
+                {
+                    "id": 15,
+                    "content": "The power of the Web and conventional search is limited, because Web search does not reason about relationships between facts. Question answering and data analysis systems need better techniques for integrating data from multiple sources, and reasoning about certainty. Similarly, we are at still in the early stages of building the \"right\" tools for data science, that let us link data, rapidly pose and evaluate hypotheses, and ensure we have trustworthy results. I'm interested in questions such as:",
+                    "key": 2
+                },
+                {
+                    "id": 16,
+                    "content": "",
+                    "isList": true,
+                    "key": 3,
+                    "children": [
+                        {
+                            "id": 17,
+                            "content": "How do we tie together the world's data to answer key scientific or policy questions, when the connections between the data are ambiguous?",
+                            "key": 1
+                        },
+                        {
+                            "id": 18,
+                            "content": "How do we facilitate and foster large-scale collaborative projects involving updates to data, code, and visualization?",
+                            "key": 2
+                        },
+                        {
+                            "id": 19,
+                            "content": "How do we know when we can trust a data analysis result or an answer to a question?",
+                            "key": 3
+                        }
+                    ]
+                },
+                {
+                    "id": 20,
+                    "content": "I am a member of the database and systems research groups, the Warren Center for Network and Data Science, and the Center for Health, Devices, and Technology at Penn. My research projects relate to making it easier to exchange, locate, and analyze networked information.",
+                    "key": 4
+                },
+                {
+                    "id": 21,
+                    "content": "Facilitating Data Management and Reuse in Data Science. Today the predominant mode of interacting with data has changed: rather than working with highly controlled, regularized databases, data scientists tend to work with a variety of different data sources within computational notebook software such as Jupyter Notebook and JupyterLab. Such software allows for ad hoc discovery as well as for the creation of sophisticated data analyses and machine learning models. A key issue becomes the management of the many data products (tables, dataframes, models) produced; and there is a key opportunity to help new users understand prior best-practices in using, importing, cleaning, extracting, and analyzing datasets. The Juneau project addresses these issues. Funded by NSF III-1910108.",
+                    "key": 5
+                },
+                {
+                    "id": 22,
+                    "content": "Trustworthy Data Science. For any type of data science computation, the \"glue\" that links results to how they were derived is data provenance. Provenance explains the steps involved in the results, as well as what facts went into which conclusion. However, we need to develop better tools for collecting provenance in a convenient way; for reasoning about data's value given its provenance; for recommending related data; and broadly to assess trustworthiness of data analysis results. Funded by NSF (CiCi) and NIH (BD2K Targeted Software) and in collaboration with biologists at Penn, clinicians at UCSF, and computer scientists and computer engineers at U Memphis, Georgia Tech, and UCLA.",
+                    "key": 6
+                },
+                {
+                    "id": 23,
+                    "content": "Question Answering Over Integrated Data. The Q query system addresses the challenges of querying in a system like Orchestra, when one does not know apriori where to find the most relevant data. Q takes as input a keyword query, which it matches against schema elements to produce potential data integration queries. The system returns answers from the most promising queries and takes user feedback on the results. This feedback is used to learn which sources are most relevant to the information need that motivated the query. Funded by NSF CAREER #IIS-0477972, SEIII #IIS-0513778, and grants from Google. We are now applying the lessons of the Q System to \"the real world\" with scientific data.",
+                    "key": 7
+                },
+                {
+                    "id": 24,
+                    "content": "Developing a Testbed for Data Science. The IEEG Web Portal, in collaboration with Prof. Brian Litt of Bioengineering and Neurology, and Prof. Greg Worrell at Mayo Clinic, seeks to enable community-scale data integration and cloud-hosted science for epileptic seizure prediction (and beyond). Beyond its scientific applications, IEEG serves as a testbed for technologies from the Q System and other data integration research. As of Oct 2014 we have over 1200 datasets and 450 users. We have also hosted competitions for epileptic seizure detection and epileptic seizure prediction. Funded by NIH as well as grants from Amazon.",
+                    "key": 8
+                },
+                {
+                    "id": 25,
+                    "content": "This project has received a good deal of notice for its impact on data science:",
+                    "key": 9
+                },
+                {
+                    "id": 26,
+                    "content": "",
+                    "isList": true,
+                    "key": 10,
+                    "children": [
+                        {
+                            "id": 27,
+                            "content": "Seizure prediction contest results (504 teams, 82% accuracy)",
+                            "key": 1
+                        },
+                        {
+                            "id": 28,
+                            "content": "NIH Director's blog",
+                            "key": 2
+                        },
+                        {
+                            "id": 29,
+                            "content": "American Epilepsy Society press release",
+                            "key": 3
+                        },
+                        {
+                            "id": 30,
+                            "content": "Announcement of winners",
+                            "key": 4
+                        },
+                        {
+                            "id": 31,
+                            "content": "Science Daily:",
+                            "key": 5,
+                            "children": [
+                                {
+                                    "id": 32,
+                                    "content": "Crowdsourcing advances epileptic seizure detection, prediction",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 33,
+                            "content": "NPR, A Crowd of Scientists Finds a Better Way to Predict Seizures",
+                            "key": 6
+                        }
+                    ]
+                },
+                {
+                    "id": 34,
+                    "content": "Several prior projects have resulted in building blocks towards our ongoing work in supporting large-scale data integration and analysis. These projects are no longer directly active, but their core ideas (and code) are part of our more recent projects:",
+                    "key": 11
+                },
+                {
+                    "id": 35,
+                    "content": "ORCHESTRA focuses on the problem of collaborative data sharing: exchanging data and updates among loose confederations of databases, when the different database owners have different schemas and different ideas of what is the \"right\" content. We have developed techniques to map data and updates among different sites, maintain data provenance , and use the data provenance as the basis of assessing trust and ultimately to resolve conflicts. We specifically target biological data sharing applications. See here for an overview paper. Funded by NSF CAREER #IIS-0477972.",
+                    "key": 12
+                },
+                {
+                    "id": 36,
+                    "content": "Aspen addresses the problem of programming and integrating large-scale and complex sensor networks. The system focuses on a setting in which large numbers of distributed sensors, with varying capabilities, must be coordinated in order to manage and reason about collections of physical entities and phenomena. My focus is on sensor data integration, i.e., integration of data streams from multiple sensor (and other) sources. A target application is data center monitoring for energy, temperature, load, and other factors. Different aspects of the research are funded by NSF III #IIS-0713267, NOSS #CNS-0721541, and a University Research Initiative grant from Lockheed Martin.",
+                    "key": 13
+                },
+                {
+                    "id": 37,
+                    "content": "Acknowledgments :",
+                    "key": 14,
+                    "children": [
+                        {
+                            "id": 38,
+                            "content": "I have also received grants from DARPA CSSG (#HRO011-06-1-0016 and HRO1107-1-0029), Penn ISTAR, the State of Pennsylvania, Amazon, Google, and Lockheed Martin, and software donations from MarkLogic, Electric Software, and IBM Corp.",
+                            "key": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 39,
+            "content": "Teaching",
+            "key": 4,
+            "children": [
+                {
+                    "id": 40,
+                    "content": "I was the first Undergraduate Curriculum Chair for Penn's Singh Program on Networked and Social Systems Engineering, NETS, which was formerly known as MKSE. This Internet-centered degree program looks at how people and systems interact over networks. It combines computer science (algorithms, distributed systems) with sociology, incentives (game theory), and dynamic systems. The overall program is directed by Ali Jadbabaie. New NETS courses I co-developed include NETS (MKSE) 212 \"Scalable and Cloud Computing\" and NETS (MKSE) 150 \"Market and Social Systems on the Internet\".",
+                    "key": 1
+                },
+                {
+                    "id": 41,
+                    "content": "Current course:",
+                    "key": 2,
+                    "children": [
+                        {
+                            "id": 42,
+                            "content": "Spring 2020: CIS 545, Big Data Analytics",
+                            "isList": true,
+                            "key": 1
+                        },
+                        {
+                            "id": 43,
+                            "content": "Selected recent courses and seminars:",
+                            "key": 2
+                        },
+                        {
+                            "id": 44,
+                            "content": "",
+                            "isList": true,
+                            "key": 3,
+                            "children": [
+                                {
+                                    "id": 45,
+                                    "content": "Fall 2017: CIS 455/555, Internet and Web Systems",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 46,
+                                    "content": "Spring 2017: CIS 700-003, Big Data Analytics.",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 47,
+                                    "content": "Fall 2016: CIS 455/555, Internet and Web Systems",
+                                    "key": 3
+                                },
+                                {
+                                    "id": 48,
+                                    "content": "Spring 2016: CIS 450/550, Database and Information Systems",
+                                    "key": 4
+                                },
+                                {
+                                    "id": 49,
+                                    "content": "Fall 2015: CIS 455/555, Internet and Web Systems",
+                                    "key": 5
+                                },
+                                {
+                                    "id": 50,
+                                    "content": "Spring 2015: CIS 455/555, Internet and Web Systems",
+                                    "key": 6
+                                },
+                                {
+                                    "id": 51,
+                                    "content": "Fall 2014: NETS 212, Scalable and Cloud Computing.",
+                                    "key": 7
+                                },
+                                {
+                                    "id": 52,
+                                    "content": "Spring 2014: CIS 650, Implementing Data Management Systems.",
+                                    "key": 8
+                                },
+                                {
+                                    "id": 53,
+                                    "content": "Fall 2013: CIS 450/550, Database and Information Systems.",
+                                    "key": 9
+                                },
+                                {
+                                    "id": 54,
+                                    "content": "Spring 2012: MKSE 150, Market and Social Systems on the Internet.",
+                                    "key": 10
+                                },
+                                {
+                                    "id": 55,
+                                    "content": "Fall 2011: CIS 550, Database and Information Systems",
+                                    "key": 11
+                                },
+                                {
+                                    "id": 56,
+                                    "content": "Spring 2011: MKSE 150, Market and Social Systems on the Internet, with Sampath Kannan.",
+                                    "key": 12
+                                },
+                                {
+                                    "id": 57,
+                                    "content": "Fall 2010: CIS 399/002 (MKSE 212 pilot offering), Scalable and Cloud Computing, with Andreas Haeberlen.",
+                                    "key": 13
+                                },
+                                {
+                                    "id": 58,
+                                    "content": "Spring 2010: CIS 555, Internet and Web Systems.",
+                                    "key": 14
+                                },
+                                {
+                                    "id": 59,
+                                    "content": "Fall 2008: CIS 650, Implementing Data Management Systems.",
+                                    "key": 15
+                                }
+                            ]
+                        },
+                        {
+                            "id": 60,
+                            "content": "Detailed information is here.",
+                            "key": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 61,
+            "content": "Textbooks and Monographs",
+            "isList": true,
+            "key": 5,
+            "children": [
+                {
+                    "id": 62,
+                    "content": "Principles of Data Integration, with AnHai Doan and Alon Halevy. This textbook gives a comprehensive academic treatment of the wide range of topics related to research in data integration: mappings and data transformations, query rewriting, adaptive query processing, XML and streaming data, probabilistic mappings, keyword search, data provenance, and much more. We also describe research challenges, real systems, and implementation techniques. Lecture slides are available from Elsevier. Available from Amazon in hardcopy or Kindle form; from Google Play store in e-book form; from Barnes & Noble in hardcopy or Nook form. Thanks to Xiaofeng Meng, there is also now a Chinese translation of the book.",
+                    "isList": true,
+                    "key": 1
+                },
+                {
+                    "id": 63,
+                    "content": "Adaptive Query Processing, with Amol Deshpande and Vijayshankar Raman. Foundations and Trends in Databases, Vol. 1 No. 1, 2007. Hardcopy available at a discount from Now Publishers; see here.",
+                    "isList": true,
+                    "key": 2
+                }
+            ]
+        },
+        {
+          "id": 64,
+          "content": "Selected Publications",
+          "isList": true,
+          "key": 6,
+          "children": [
+            {
+              "id": 65,
+              "content": "Who Said It, and Why?. With Yi Zhang, Dan Roth. Accepted for publication, ACL 2020.",
+              "key": 1
+            },
+            {
+              "id": 66,
+              "content": "Finding Related Tables in Data Lakes for Interactive Data Science. With Yi Zhang. To appear, SIGMOD 2020.",
+              "key": 2
+            },
+            {
+              "id": 67,
+              "content": "Evidence-Based Trustworthiness. With Yi Zhang, Dan Roth. ACL 2019.",
+              "key": 3
+            },
+            {
+              "id": 68,
+              "content": "Data-Trace Types for Distributed Stream Processing Systems. With Konstantinos Mamouras, Caleb Stanford, Rajeev Alur, Val Tannen. PLDI 2019.",
+              "key": 4
+            },
+            {
+              "id": 69,
+              "content": "Fine-Grained Provenance for Matching & ETL. With Nan Zheng and Abdussalam Alawini. ICDE 2019.",
+              "key": 5
+            },
+            {
+              "id": 70,
+              "content": "Dataset Relationship Management. With Yi Zhang, Soonbo Han, Nan Zheng. CIDR 2019.",
+              "key": 6
+            },
+            {
+              "id": 71,
+              "content": "StreamQRE: Modular Specification and Efficient Evaluation of Quantitative Queries over Streaming Data. With Kostas Mamouras, Mukund Raghothaman, Rajeev Alur, Sanjeev Khanna. PLDI 2017.",
+              "key": 7
+            },
+            {
+              "id": 72,
+              "content": "Enabling an Open Data Ecosystem for the Neurosciences. With Martin Wiener, Fritz Sommer, Russ Poldrack, and Brian Litt. In Neuron.",
+              "key": 8
+            },
+            {
+              "id": 73,
+              "content": "Enabling Incremental Query Re-Optimization . With Mengmeng Liu and Boon Thau Loo. SIGMOD 2016.",
+              "key": 9
+            },
+            {
+              "id": 74,
+              "content": "Collaborating and Sharing Data in Epilepsy Research. With Joost Wagenaar, Greg Worrell, Matthias Dumpelmann, Brian Litt, Andreas Schulze-Bonhage. Journal of Clinical Neurophysiology.",
+              "key": 10
+            },
+            {
+              "id": 75,
+              "content": "Active Learning in Keyword Search-Based Data Integration. With Zhepeng Yan, Nan Zheng, Partha Pratim Talukdar, and Cong Yu. VLDB Journal Special Issue on Best Papers of VLDB 2013.",
+              "key": 11
+            },
+            {
+              "id": 76,
+              "content": "Looking at Everything in Context. With Zhepeng Yan, Nan Zheng, Brian Litt, Joost B. Wagenaar. CIDR 2015.",
+              "key": 12
+            },
+            {
+              "id": 77,
+              "content": "I recently participated on a panel on Big Data for VLDB 2013. Slides are here.",
+              "key": 13
+            },
+            {
+              "id": 78,
+              "content": "Our work in Schema Mediation in Peer Data Management Systems (with Alon Halevy, Dan Suciu, and Igor Tatarinov), published in ICDE 2003, has received the Most Influential Paper Award in ICDE 2013!",
+              "key": 14
+            },
+            {
+              "id": 79,
+              "content": "Actively Soliciting Feedback for Query Answers in Keyword Search-Based Data Integration, with Zhepeng Yan, Nan Zheng, Partha Talukdar, and Cong Yu. VLDB 2013.",
+              "key": 15
+            },
+            {
+              "id": 80,
+              "content": "Caravan: Provisioning for What-If Analysis, with Daniel Deutch, Tova Milo, and Val Tannen. CIDR 2013.",
+              "key": 16
+            },
+            {
+              "id": 81,
+              "content": "Distributed Time-aware Provenance, with Wenchao Zhou, Suyog Mapara, Yiqing Ren, Yang Li, Andreas Haeberlen, Boon Thau Loo, and Micah Sherr. VLDB 2013.",
+              "key": 17
+            },
+            {
+              "id": 82,
+              "content": "REX: Recursive, Delta-Based Data-Centric Computation, with Svilen Mihaylov and Sudipto Guha. Proc. VLDB 5(11): 1280-1291. VLDB 2012.",
+              "key": 18
+            },
+            {
+              "id": 83,
+              "content": "Querying Provenance for Ranking and Recommending, with Andreas Haeberlen, Tao Feng, Wolfgang Gatterbauer. TaPP 2012.",
+              "key": 19
+            },
+            {
+              "id": 84,
+              "content": "Recomputing Materialized Instances after Changes to Mappings and Data, with Todd J Green. ICDE 2012. Runner-up, Best paper award. Invited to TKDE Special Issue on Best Papers of ICDE 2012.",
+              "key": 20
+            },
+            {
+              "id": 85,
+              "content": "Sharing Work in Keyword Search over Databases, with Marie Jacob. SIGMOD 2011.",
+              "key": 21
+            },
+            {
+              "id": 86,
+              "content": "Querying Data Provenance, with Grigoris Karvounarakis and Val Tannen. SIGMOD 2010.",
+              "key": 22
+            },
+            {
+              "id": 87,
+              "content": "Automatically Incorporating New Sources in Keyword Search-Based Data Integration, with Partha Pratim Talukdar and Fernando Pereira. SIGMOD 2010.",
+              "key": 23
+            },
+            {
+              "id": 88,
+              "content": "Reliable Storage and Querying for Collaborative Data Sharing Systems, with Nicholas Taylor. Full paper, ICDE 2010.",
+              "key": 24
+            },
+            {
+              "id": 89,
+              "content": "Maintaining Recursive Views of Regions and Connectivity in Networks, with Mengmeng Liu, Nicholas Taylor, Wenchao Zhou, and Boon Thau Loo. IEEE TKDE Special Issue, \"Best Papers of ICDE 2008\".",
+              "key": 25
+            },
+            {
+              "id": 90,
+              "content": "The Orchestra Collaborative Data Sharing System, with Todd J. Green, Grigoris Karvounarakis, Nicholas E. Taylor, Val Tannen, Partha Pratim Talukdar, Marie Jacob, Fernando Pereira. ACM SIGMOD Record, September 2008.",
+              "key": 26
+            },
+            {
+              "id": 91,
+              "content": "Learning to Create Data-Integrating Queries, with Partha Pratim Talukdar, Marie Jacob, M. Salman Mehmood, Koby Crammer, Fernando Pereira, and Sudipto Guha, VLDB 2008.",
+              "key": 27
+            },
+            {
+              "id": 92,
+              "content": "DBpedia: a Nucleus for a Web of Open Data, with Soeren Auer, Christian Bizer, Georgi Kobilarov, Jens Lehmann, Richard Cyganiak. ISWC/ASWC In-Use Track, 2007.",
+              "key": 28
+            },
+            {
+              "id": 93,
+              "content": "Update Exchange with Mappings and Provenance, with Todd J. Green, Grigoris Karvounarakis, and Val Tannen. VLDB 2007.",
+              "key": 29
+            },
+            {
+              "id": 94,
+              "content": "Reconciling while Tolerating Disagreement in Collaborative Data Sharing, with Nick Taylor. SIGMOD 2006.",
+              "key": 30
+            },
+            {
+              "id": 95,
+              "content": "A complete list is here.",
+              "key": 31
+            }
+          ]
+        },
+      {
+        "id": 96,
+        "content": "Current Postdoc, PhD, and MS Research Advisees",
+        "isList": true,
+        "key": 7,
+        "children": [
+          {
+            "id": 97,
+            "content": "Phillip Hilliard (with Rajeev Alur)",
+            "key": 1
+          },
+          {
+            "id": 98,
+            "content": "Soonbo Han",
+            "key": 2
+          },
+          {
+            "id": 99,
+            "content": "Yi Zhang (with Dan Roth)",
+            "key": 3
+          },
+          {
+            "id": 100,
+            "content": "Nan Zheng",
+            "key": 4
+          },
+          {
+            "id": 101,
+            "content": "Steve Baldassano (postdoc, with Brian Litt)",
+            "key": 5
+          }
+        ]
+      },
+      {
+        "id": 102,
+        "content": "Alumni",
+        "isList": true,
+        "key": 8,
+        "children": [
+          {
+            "id": 103,
+            "content": "Marie Jacob Rajan. Apple.",
+            "key": 1
+          },
+          {
+            "id": 104,
+            "content": "Dr. Babak Bagheri Hariri (postdoc) with Val Tannen. System Group (Iran).",
+            "key": 2
+          },
+          {
+            "id": 105,
+            "content": "Dr. Allen Zhepeng Yan, Google Inc.",
+            "key": 3
+          },
+          {
+            "id": 106,
+            "content": "Dr. Mengmeng Liu (with Boon Thau Loo). @WalmartLabs.",
+            "key": 4
+          },
+          {
+            "id": 107,
+            "content": "Ling Ding, MSE. Now a PhD student at UCLA.",
+            "key": 5
+          },
+          {
+            "id": 108,
+            "content": "Dr. Medha Atre (postdoc). First position: Assistant Professor, IIT-Kanpur. Now Consultant at Persistent Systems, Inc.",
+            "key": 6
+          },
+          {
+            "id": 109,
+            "content": "Dr. Svilen Mihaylov (with Sudipto Guha). First position: Postdoc, University of Washington. Now Software Engineer at MemSQL, Inc.",
+            "key": 7
+          },
+          {
+            "id": 110,
+            "content": "Dr. Nicholas Taylor. Google, Inc.",
+            "key": 8
+          },
+          {
+            "id": 111,
+            "content": "Dr. Partha Pratim Talukdar (with Fernando Pereira and Mark Liberman). Assistant Professor, IISc-Bangalore.",
+            "key": 9
+          },
+          {
+            "id": 112,
+            "content": "Dr. Soren Auer (postdoc). Professor, University of Bonn.",
+            "key": 10
+          },
+          {
+            "id": 113,
+            "content": "Dr. Todd J. Green (with Val Tannen). First employment: University of California-Davis (now Adjunct Professor). Currently at LogicBlox, Inc.",
+            "key": 11
+          },
+          {
+            "id": 114,
+            "content": "Dr. Grigoris Karvounarakis (with Val Tannen). LogicBlox, Inc.",
+            "key": 12
+          },
+          {
+            "id": 115,
+            "content": "Geetika Vasudeo, MSE. Goldman Sachs.",
+            "key": 13
+          }
+        ]
+      },
+      {
+        "id": 116,
+        "content": "Frequent Collaborators",
+        "isList": true,
+        "key": 9,
+        "children": [
+          {
+            "id": 117,
+            "content": "Dan Roth, Penn CIS",
+            "key": 1
+          },
+          {
+            "id": 118,
+            "content": "Ani Nenkova, Penn CIS",
+            "key": 2
+          },
+          {
+            "id": 119,
+            "content": "Val Tannen, Penn CIS",
+            "key": 3
+          },
+          {
+            "id": 120,
+            "content": "Susan Davidson, Penn CIS",
+            "key": 4
+          },
+          {
+            "id": 121,
+            "content": "Sampath Kannan, Penn CIS",
+            "key": 5
+          },
+          {
+            "id": 122,
+            "content": "Cong Yu, Google, Inc.",
+            "key": 6
+          },
+          {
+            "id": 123,
+            "content": "Sudipto Guha, Penn CIS",
+            "key": 7
+          },
+          {
+            "id": 124,
+            "content": "Boon Thau Loo, Penn CIS",
+            "key": 8
+          },
+          {
+            "id": 125,
+            "content": "Andreas Haeberlen, Penn CIS",
+            "key": 9
+          },
+          {
+            "id": 126,
+            "content": "Jason Moore, Penn Genetics / Dir, Inst for Biomedical Informatics",
+            "key": 10
+          },
+          {
+            "id": 127,
+            "content": "Junhyong Kim, Penn Biology",
+            "key": 11
+          },
+          {
+            "id": 128,
+            "content": "Brian Litt, Penn Bioengineering and Neurology",
+            "key": 12
+          },
+          {
+            "id": 129,
+            "content": "Santosh Kumar, U Memphis",
+            "key": 13
+          },
+          {
+            "id": 130,
+            "content": "Mani Srivastava, UCLA",
+            "key": 14
+          },
+          {
+            "id": 131,
+            "content": "Ida Sim, UCSF",
+            "key": 15
+          },
+          {
+            "id": 132,
+            "content": "Byron Wallace, Northeastern U",
+            "key": 16
+          }
+        ]
+      },
+      {
+        "id": 133,
+        "content": "Tips on Interviewing",
+        "key": 10,
+        "children": [
+          {
+            "id": 134,
+            "content": "Finishing your PhD and going on the job market? I have previously compiled a list of reverences on interviewing, which you can find here.",
+            "key": 1
+          }
+        ]
+      }
+    ]
+}

@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"/>
+<link href="assets/css/font-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+<link href="assets/css/selectize.css" rel="stylesheet" type="text/css"/>
+<link href="assets/css/owl.carousel.css" rel="stylesheet" type="text/css"/>
+<link href="assets/css/vanillabox/vanillabox.css" rel="stylesheet" type="text/css"/>
+<link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+<title>2019 ACM Symposium on Cloud Computing</title>
+</head>
+<body class="page-sub-page page-microsite">
+<!-- Wrapper -->
+<div class="wrapper">
+<!-- Header -->
+<div class="navigation-wrapper">
+<div class="branding">
+<div class="container">
+<div class="navbar-brand nav" id="brand">
+<a href="index.html"><img alt="brand" src="assets/img/logo.png"/></a>
+</div>
+<div class="pull-right">
+<div class="reset-box-sizing socc-search">
+<script>
+  (function() {
+    var cx =  20007387558381500088924:-kkzusmx0fk';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+</div>
+</div><!-- /.pull-right -->
+</div>
+<div class="container">
+<div class="navbar-brand nav" id="brand">
+<a href="index.html"><img alt="brand" src="assets/img/cloud_lockup_vert.jpg" style="border:0px currentColor" width="70"/></a>
+<a href="index.html"><img alt="brand" src="assets/img/logos-aws2.png" style="border:0px currentColor" width="35"/></a>
+<a href="index.html"><img alt="brand" src="assets/img/logos-Microsoft.jpg" style="border:0px currentColor" width="60"/></a>
+<a href="index.html"><img alt="brand" src="assets/img/logos-Facebook.jpg" style="border:0px currentColor" width="60"/></a>
+<a href="index.html"><img alt="brand" src="assets/img/logos-VMware.png" style="border:0px currentColor" width="50"/></a>
+<a href="index.html"><img alt="brand" src="assets/img/Nutanix2.jpg" style="border:0px currentColor" width="50"/></a>
+<a href="index.html"><img alt="brand" src="assets/img/logo-cockroach.jpg" style="border:0px currentColor" width="90"/></a>
+<a href="index.html"><img alt="brand" src="assets/img/logos-Cisco.png" style="border:0px currentColor" width="50"/></a>
+<a href="index.html"><img alt="brand" src="assets/img/logos-netapp.jpg" style="border:0px currentColor" width="50"/></a>
+<a href="index.html"><img alt="brand" src="assets/img/alibaba-logo.jpg" style="border:0px currentColor" width="90"/></a>
+<a href="index.html"><img alt="brand" src="assets/img/logos-SIGMOD.gif" style="border:0px currentColor" width="50"/></a>
+<a href="index.html"><img alt="brand" src="assets/img/logos-SIGOPS.jpg" style="border:0px currentColor" width="50"/></a>
+<a href="index.html"><img alt="brand" src="assets/img/logos-NSF.jpg" style="border:0px currentColor" width="40"/></a>
+</div>
+</div>
+</div>
+<div class="primary-navigation-wrapper">
+<header class="navbar" id="top" role="banner">
+<div class="container">
+<div class="navbar-header">
+<button class="navbar-toggle" data-target=".bs-navbar-collapse" data-toggle="collapse" type="button">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<nav class="collapse navbar-collapse bs-navbar-collapse navbar-left" role="navigation">
+<ul class="nav navbar-nav">
+<li class="active">
+<a href="index.html">Home</a>
+</li>
+<li>
+<a class="has-child no-link" href="#">Participation</a>
+<ul class="list-unstyled child-navigation">
+<li><a href="camera-ready-instructions.html">Camera-ready instructions</a></li>
+<li><a href="papers.html">Call for papers</a></li>
+<li><a href="posters.html">Call for posters</a></li>
+</ul>
+</li>
+<li>
+<a class="has-child no-link" href="#">Conference attendees</a>
+<ul class="list-unstyled child-navigation">
+<li><a href="registration.html">Registration</a></li>
+<li><a href="scholarships.html">Student scholarships</a></li>
+<!--
+				<li><a href="diversity-grants.html">Diversity grants</a></li> -->
+<li><a href="visa.html">Visa support letters</a></li>
+<li><a href="childcare.html">Funding for child-related expenses</a></li>
+<li><a href="speaker-instructions.html">Speaker instructions</a></li>
+</ul>
+</li>
+<li>
+<a class="has-child no-link" href="#">Program</a>
+<ul class="list-unstyled child-navigation">
+<li><a href="schedule.html">Conference schedule</a></li>
+<li><a href="keynotes.html">Keynotes</a></li>
+<!--li><a href="poster-schedule.html">Poster schedule</a></li-->
+<li><a href="accepted-papers.html">Accepted papers</a></li>
+<li><a href="accepted-posters.html">Accepted posters</a></li>
+</ul>
+</li>
+<li>
+<a class="has-child no-link" href="#">Organization</a>
+<ul class="list-unstyled child-navigation">
+<li><a href="officers.html">Conference officers</a></li>
+<li><a href="program-committee.html">Program committee</a></li>
+<li><a href="volunteers.html">Volunteers</a></li>
+</ul>
+</li>
+<li>
+<a class="has-child no-link" href="#">Sponsorship</a>
+<ul class="list-unstyled child-navigation">
+<li><a href="sponsors.html">Our Sponsors</a></li>
+<li><a href="becoming-sponsor.html">Becoming a Sponsor</a></li>
+</ul>
+</li>
+<li>
+<a class="has-child no-link" href="#">Venue</a>
+<ul class="list-unstyled child-navigation">
+<!--li><a href="location.html">Location</a></li-->
+<li><a href="accommodation.html">Accommodation</a></li>
+</ul>
+</li>
+</ul>
+</nav><!-- /.navbar collapse-->
+<!--
+        <div class="social">
+          <div class="icons">
+            <a href="https://twitter.com/acmsocc2017"><i class="fa fa-twitter"></i></a>
+          </div>
+        </div>
+		-->
+</div><!-- /.container -->
+</header><!-- /.navbar -->
+</div><!-- /.primary-navigation -->
+</div>
+<!-- end Header -->
+<div id="page-content">
+<!-- Slider -->
+<div id="slider">
+<div class="container">
+<div class="slider-wrapper">
+<div class="row">
+<div class="col-md-6 col-sm-12">
+<div class="row">
+<div class="image-chaminade">
+<div class="slide">
+<div class="figure">
+<p><img alt="" src="assets/img/Chaminade2.jpg" style="width:300px;height:250px;"/></p></div>
+<p><i><small>Photo courtesy of Chaminade Resort &amp; Spa</small></i></p>
+</div><!-- /.slide -->
+</div><!-- /.image-chaminade -->
+</div><!-- /.row -->
+</div><!-- /.col-md-6 -->
+<div class="col-md-6 col-sm-12">
+<header>
+<h2>ACM Symposium on Cloud Computing 2019</h2>
+<h3 style="color:white">Chaminade, Santa Cruz, California</h3>
+<h3 style="color:white">November 20-23, 2019</h3>
+</header>
+</div><!-- /.col-md-6 -->
+</div><!-- /.row -->
+</div><!-- /.slider-wrapper -->
+</div><!-- /.container -->
+</div>
+<!-- end Slider -->
+<!-- Content -->
+<div class="block">
+<div class="container">
+<div class="row">
+<div class="col-md-3">
+<section class="events small" id="events-small">
+<header>
+<h2>Important dates</h2>
+</header>
+<div class="section-content">
+<article class="event nearest">
+<figure class="date">
+<div class="month">jun</div>
+<div class="day">3</div>
+</figure>
+<aside>
+<header>
+                  Submission deadline for abstracts at 11:59pm EDT
+                </header>
+</aside>
+</article><!-- /article -->
+<article class="event nearest-second">
+<figure class="date">
+<div class="month">jun</div>
+<div class="day">10</div>
+</figure>
+<aside>
+<header>
+                  Submission deadline for full papers at 11:59pm EDT
+                </header>
+</aside>
+</article><!-- /article -->
+<br/>
+<article class="event nearest">
+<figure class="date">
+<div class="month">sep</div>
+<div class="day">2</div>
+</figure>
+<aside>
+<header>
+                  Author notification
+                </header>
+</aside>
+</article>
+<br/>
+<article class="event nearest-second">
+<figure class="date">
+<div class="month">oct</div>
+<div class="day">13</div>
+</figure>
+<aside>
+<header>
+                  Camera-ready deadline
+                </header>
+</aside>
+</article>
+<br/>
+<article class="event nearest">
+<figure class="date">
+<div class="month">nov</div>
+<div class="day">13</div>
+</figure>
+<aside>
+<header>
+                  Registration close date 
+                </header>
+</aside>
+</article>
+<br/>
+<br/>
+</div><!-- /.section-content -->
+</section><!-- /.events-small -->
+<br/>
+<section class="events small" id="events-small">
+<header>
+<h2>Useful Links</h2>
+</header>
+<div class="section-content">
+<ul class="list-links">
+<li><h4><a href="registration.html">Conference registration</a></h4></li>
+<li><h4><a href="schedule.html">Schedule</a></h4></li>
+<li><h4><a href="keynotes.html">Keynotes</a></h4></li>
+<li><h4><a href="accommodation.html">Accommodation</a></h4></li>
+</ul>
+</div><!-- /.section-content -->
+</section><!-- /.events-small -->
+<section class="events small" id="events-small">
+<header>
+<h2>Past events</h2>
+</header>
+<div class="section-content">
+<ul class="list-links">
+<li><h4><a href="http://acmsocc.github.io/2018" target="_blank">2018</a></h4></li>
+<li><h4><a href="http://acmsocc.github.io/2017" target="_blank">2017</a></h4></li>
+<li><h4><a href="http://acmsocc.github.io/2016" target="_blank">2016</a></h4></li>
+<li><h4><a href="http://acmsocc.github.io/2015" target="_blank">2015</a></h4></li>
+<li><h4><a href="https://sites.google.com/site/2014socc/" target="_blank">2014</a></h4></li>
+<li><h4><a href="https://sites.google.com/site/2013socc/" target="_blank">2013</a></h4></li>
+<li><h4><a href="http://www.socc2012.org/" target="_blank">2012</a></h4></li>
+<li><h4><a href="http://socc2011.gsd.inesc-id.pt/" target="_blank">2011</a></h4></li>
+<!-- COMMENTED OUT BECAUSE LINK IS BROKEN
+              <li><h4><a href="http://research.microsoft.com/en-us/um/redmond/events/socc2010/" target="_blank">2010</a></h4></li>
+-->
+</ul>
+</div><!-- /.section-content -->
+</section><!-- /.events-small -->
+</div><!-- /.col-md-3 -->
+<div class="col-md-6">
+<section id="main-content">
+<div class="section-content">
+<header><h2>ACM Symposium on Cloud Computing 2019 (SoCC  2019)</h2></header>
+<p>
+<b>The ACM Symposium on Cloud Computing 2019 (SoCC  2019) is the tenth in an established series of symposia that bring
+              together researchers, developers, users, and practitioners interested in cloud computing. SoCC is co-sponsored
+              by the ACM Special Interest Groups on Management of Data (SIGMOD) and on Operating Systems (SIGOPS).</b>
+</p>
+<p>
+<b> SoCC will be held in <a href="https://www.chaminade.com"><font style="color:red;">Chaminade, Santa Cruz, California,</font></a>  to foster connections between the academic and industrial communities operating in the cloud space.</b>
+</p>
+<ul>
+<br/><br/><br/>
+<font style="color:black;">
+<p>  The ACM Symposium on Cloud Computing 2019 (SoCC  2019) acknowledges and values all dimensions of diversity by 
+	               cultivating an environment built on tolerance and mutual respect. We actively promote inclusion in every aspect 
+			  of the symposium including but not limited to organization and program committees and conference activities. 
+			  We encourage the participation of all individuals regardless of age, gender, gender identity, race, cultural 
+			  background, religion, physical and mental ability,  sexual orientation, parental and marital status, etc. 
+			  We actively denounce and combat prejudice and stereotyping, and will follow the 
+			  <a href="https://www.acm.org/about-acm/policy-against-harassment">ACM Policy Against Harassment</a>, 
+			  embracing <a href="https://www.acm.org/about-acm/reporting-unacceptable-behavior">ACM processes for Reporting Unacceptable Behavior</a>. 
+		  </p>
+<br/>
+<p>  Please follow this webpage for updates on the steps we are taking to create a diverse and inclusive 
+			  environment during the conference. You may contact SoCC D&amp;I Chair, Avrilia Floratou (avflor@microsoft.com), 
+				 with suggestions/comments/complaints about our work in this area. </p>
+<br/>
+<p>  As we embark in this journey of continued (un)learning we will misstep. Your ideas and feedback 
+			  can help us find our way towards a healthier and more welcoming community.</p>
+</font>
+<h2> Announcements </h2>
+<br/>
+<ul>
+<li><h4><b>[11/18/2019] Registered attendees can now use the <a href="https://whova.com/portal/ascc_201911/?source=text_link">Whova App </a>. </b></h4></li>
+<li><h4><b>[11/15/2019] Registration (including onsite registration) is now closed. </b></h4></li>
+<li><h4><b>[11/07/19] <a href="speaker-instructions.html" rel="nofollow" style="text-decoration: underline;">
+			    Instruction to speakers </a> are online. </b></h4></li>
+<li><h4><b>[10/16/19] <a href="accepted-posters.html" rel="nofollow" style="text-decoration: underline;">
+			    Accepted posters </a> are online. </b></h4></li>
+<li><h4><b>[10/12/19] <a href="schedule.html" rel="nofollow" style="text-decoration: underline;">
+			    The detailed conference program </a> is online.
+			  </b></h4>
+</li>
+<li><h4><b>[10/09/19] Application deadline for <a href="childcare.html" rel="nofollow" style="text-decoration: underline;">funding for child-related travel expenses</a> is extended to October 14th.</b></h4></li>
+<li><h4><b>[10/07/19] <a href="registration.html" rel="nofollow" style="text-decoration: underline;">Early Registration</a> deadline is extended to October 15th, 2019.</b></h4></li>
+<li><h4><b>[10/02/19] <a href="accepted-papers.html" rel="nofollow" style="text-decoration: underline;">
+			    Accepted papers </a> are online.
+			  </b></h4>
+</li>
+<li><h4><b>[9/30/19] <a href="posters.html" rel="nofollow" style="text-decoration: underline;">Camera-ready instructions for posters</a> are online.</b></h4></li>
+<li><h4><b>[9/30/19] <a href="keynotes.html" rel="nofollow" style="text-decoration: underline;">Keynote talks information</a> is online.</b></h4></li>
+<li><h4><b>[9/16/2019] Due to multiple requests, we extended the <a href="scholarships.html" rel="nofollow" style="text-decoration: underline;">student scholarship application</a> to <strike> 09/19/2019</strike> <strike>09/23/2019</strike> 10/01/2019</b></h4></li>
+<li><h4><b>[9/16/19] <a href="schedule.html" rel="nofollow" style="text-decoration: underline;">
+			    Preliminary program details</a> are online.
+			  </b></h4>
+</li>
+<li><h4><b>[9/12/19] Accommodation details are <a href="accommodation.html" rel="nofollow" style="text-decoration: underline;">available</a>.</b></h4></li>&gt;
+			    <li><h4><b>[9/12/19] <a href="registration.html" rel="nofollow" style="text-decoration: underline;">Registration</a> is online.</b></h4></li>
+<li><h4><b>[9/11/19] <a href="childcare.html" rel="nofollow" style="text-decoration: underline;">Funding for child-related travel expenses</a> is available.</b></h4></li>
+<li><h4><b>[9/05/19] <a href="posters.html" rel="nofollow" style="text-decoration: underline;">Call for Posters</a> is out.</b></h4></li>
+<li><h4><b>[9/03/19] <a href="camera-ready-instructions.html" rel="nofollow" style="text-decoration: underline;">Camera-ready instructions</a> are online.</b></h4></li>
+<li><h4><b>[7/03/19] <a href="scholarships.html" rel="nofollow" style="text-decoration: underline;">Student Scholarship application instructions</a> are online.</b></h4></li>
+<li><h4><b>[1/31/19] <a href="papers.html" rel="nofollow" style="text-decoration: underline;">Call for Papers</a> is out.</b></h4></li>
+<li><h4><b><a href="https://socc19.hotcrp.com/" rel="nofollow" style="text-decoration: underline;">SUBMISSION SITE</a> is now open</b></h4></li>
+<br/>
+<a id="goldsponsors"><h2>Platinum sponsors</h2></a>
+<div class="row">
+<div class="col-md-6" style="padding-left:0; padding-right:0;">
+<a href="https://cloud.google.com/" rel="nofollow" target="_blank"><img alt="https://cloud.google.com/" border="0" src="assets/img/cloud_lockup_vert.jpg" style="border:0px currentColor" width="150"/></a>
+</div>
+<br/> <br/>
+<div class="col-md-6" style="padding-left:0; padding-right:0;">
+<a href="https://aws.amazon.com/" rel="nofollow" target="_blank"><img alt="https://aws.amazon.com/" border="0" src="assets/img/logos-aws2.png" style="border:0px currentColor" width="100"/></a>
+</div>
+</div>
+<div class="row">
+<br/><br/>
+<div class="col-md-6" style="padding-left:5; padding-right:0;">
+<a href="https://www.microsoft.com/" rel="nofollow" target="_blank"><img alt="https://www.microsoft.com/" border="0" src="assets/img/logos-Microsoft.jpg" style="border:0px currentColor" width="130"/></a>
+</div>
+</div>
+<br/><br/>
+<a id="exclusivesponsors"><h2>Exclusive sponsor (Welcome Reception)</h2></a>
+<div class="row">
+<div class="col-md-6" style="padding-left:0; padding-right:0;">
+<a href="https://cloud.google.com/" rel="nofollow" target="_blank"><img alt="https://cloud.google.com/" border="0" src="assets/img/cloud_lockup_vert.jpg" style="border:0px currentColor" width="150"/></a>
+</div>
+</div>
+<br/>
+<a id="silversponsors"><h2>Silver sponsors</h2></a> <br/> <br/>
+<div class="row">
+<div class="col-md-6" style="padding-left:5; padding-right:0;">
+<a href="http://www.vmware.com" rel="nofollow" target="_blank"><img alt="www.vmware.com" border="0" src="assets/img/logos-VMware.png" style="border:0px currentColor" width="100"/></a>
+</div>
+<div class="col-md-6" style="padding-left:0; padding-right:0;">
+<a href="https://www.cockroachlabs.com" rel="nofollow" target="_blank"><img alt="https://www.cockroachlabs.com" border="0" src="assets/img/logo-cockroach.jpg" style="border:0px currentColor" width="150"/></a>
+</div>
+<div class="row">
+<div class="col-md-6" style="padding-left:5; padding-right:0;">
+<a href="https://www.facebook.com/" rel="nofollow" target="_blank"><img alt="https://www.facebook.com/" border="0" src="assets/img/logos-Facebook.jpg" style="border:0px currentColor" width="130"/></a>
+</div>
+<div class="col-md-6" style="padding-left:3; padding-right:0;">
+<a href="http://www.cisco.com" rel="nofollow" target="_blank"><img alt="www.cisco.com" border="0" src="assets/img/logos-Cisco.png" style="border:0px currentColor" width="100"/></a>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6" style="padding-left:5; padding-right:0;">
+<br/>
+<a href="https://www.nutanix.com/en" rel="nofollow" target="_blank"><img alt="https://www.nutanix.com/en" border="0" src="assets/img/Nutanix2.jpg" style="border:0px currentColor" width="130"/></a>
+</div>
+</div>
+</div>
+<br/> <br/>
+<a id="bronzesponsors"><h2>Bronze sponsors</h2></a> <br/> <br/>
+<div class="row">
+<div class="col-md-6" style="padding-left:0; padding-right:0;">
+<a href="https://www.netapp.com"><img alt="NetApp logo" src="assets/img/logos-netapp.jpg" style="border:0px currentColor" width="100"/></a>
+</div>
+<div class="col-md-6" style="padding-left:0; padding-right:0;">
+<a href="https://www.alibaba.com"><img alt="Alibaba logo" src="assets/img/alibaba-logo.jpg" style="border:0px currentColor" width="200"/></a>
+</div>
+</div>
+<br/> <br/>
+<a id="diversitysponsors"><h2>Diversity sponsors</h2></a>
+<div class="row">
+<div class="col-md-6" style="padding-left:0; padding-right:0;">
+<a href="http://www.microsoft.com" rel="nofollow" target="_blank">
+<img alt="www.microsoft.com" border="0" src="assets/img/logos-Microsoft.jpg" style="border:0px currentColor" width="150"/></a>
+</div>
+</div>
+<br/> <br/>
+<a id="exclusivesponsors"><h2>Exclusive sponsor (Welcome Reception)</h2></a>
+<div class="row">
+<div class="col-md-6" style="padding-left:0; padding-right:0;">
+<a href="https://cloud.google.com/" rel="nofollow" target="_blank"><img alt="https://cloud.google.com/" border="0" src="assets/img/cloud_lockup_vert.jpg" style="border:0px currentColor" width="150"/></a>
+</div>
+</div>
+<br/>
+<a id="scholarshipsponsors"><h2>Student travel grant sponsors</h2></a>
+<div class="row">
+<div class="col-md-6" style="padding-left:0; padding-right:0;">
+<a href="http://www.nsf.gov" rel="nofollow" target="_blank">
+<img alt="www.nsf.gov" border="0" src="assets/img/logos-NSF.jpg" style="border:0px currentColor" width="75"/></a>
+</div>
+<div class="col-md-6" style="padding-left:0; padding-right:0;">
+<a href="https://sigmod.org/" rel="nofollow" target="_blank"><img alt="https://sigmod.org" border="0" src="assets/img/logos-SIGMOD.gif" style="border:0px currentColor" width="100"/></a>
+</div>
+<div class="col-md-6" style="padding-left:0; padding-right:0;">
+<a href="https://www.sigops.org/" rel="nofollow" target="_blank"><img alt="https://www.sigops.org/" border="0" src="assets/img/logos-SIGOPS.jpg" style="border:0px currentColor" width="100"/></a>
+</div>
+</div>
+<!--div class="row">
+  <div class="col-md-6" style="padding-left:0; padding-right:0;">
+     <a href="https://www.sigops.org/" target="_blank" rel="nofollow"><img alt="https://www.sigops.org/" border="0" src="assets/img/logos-SIGOPS.jpg" style="border:0px currentColor" width="100" /></a>
+  </div>
+</div-->
+<br/><br/><br/><br/><br/><br/><br/><br/><br/> <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<p>
+<i>During official program sessions and events the words, images, sounds, object, and technologies presented at
+		      the Conference are protected by copyright or patents.  Please respect the owners’ intellectual property 
+		      and speakers’ rights of privacy by not recording or photographing these sessions without proper 
+		      clearance.</i>
+</p>
+</ul>
+</ul></div><!-- /.section-content -->
+</section><!-- /.main-content -->
+</div><!-- /.col-md-6 -->
+<div class="col-md-3">
+<!--
+        <section class="news-small" id="news-small">
+ 	 <header>
+       <h2>Latest news</h2>
+      </header>
+  
+        <div class="section-content">
+	  <a class="twitter-timeline" href="https://twitter.com/ACMSoCC">Tweets by acmsocc2018</a> 
+	  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+	
+         </section>
+           -->
+<section class="news-small" id="news-small">
+<header>
+<h2>Latest news</h2>
+</header>
+<div class="section-content">
+<b> Site and CFP for <a href="https://acmsocc.github.io/2020/">SoCC 2020</a> are up! </b>
+<a class="twitter-timeline" href="https://twitter.com/ACMSoCC">Tweets by acmsocc2018</a>
+<script async="" charset="utf-8" src="//platform.twitter.com/widgets.js"></script>
+<!-- /.news-small -->
+</div><!-- /.col-md-3 -->
+</section></div><!-- /.row -->
+</div><!-- /.container -->
+</div>
+<!-- end Content -->
+</div>
+<!-- Footer -->
+<footer id="page-footer">
+<section id="footer-top">
+<div class="container">
+<div class="footer-inner">
+<div class="footer-social">
+<!--<figure>Follow us:</figure>-->
+<div class="icons">
+<!--<a href="https://twitter.com/ACMSoCC2016"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.facebook.com/socc2016"><i class="fa fa-facebook"></i></a> -->
+</div><!-- /.icons -->
+</div><!-- /.social -->
+</div><!-- /.footer-inner -->
+</div><!-- /.container -->
+</section><!-- /#footer-top -->
+<section id="footer-bottom">
+<div class="container">
+<div class="footer-inner">
+<div class="copyright"></div><!-- /.copyright -->
+</div><!-- /.footer-inner -->
+</div><!-- /.container -->
+</section><!-- /#footer-bottom -->
+</footer>
+<!-- end Footer -->
+</div>
+</div><div class="page-sub-page page-microsite">
+<!-- Wrapper -->
+<div class="wrapper">
+<!-- Header -->
+<div class="navigation-wrapper">
+<div class="branding">
+<div class="container">
+<div class="navbar-brand nav" id="brand">
+<a href="index.html"><img alt="brand" src="assets/img/logo.png"/></a>
+</div>
+<div class="pull-right">
+<div class="reset-box-sizing socc-search">
+
+<gcse:search></gcse:search>
+</div>
+</div><!-- /.pull-right -->
+</div>
+<div class="container">
+<div class="navbar-brand nav" id="brand">
+<a href="index.html"><img alt="brand" src="assets/img/cloud_lockup_vert.jpg" style="border:0px currentColor" width="70"/></a>
+<a href="index.html"><img alt="brand" src="assets/img/logos-aws2.png" style="border:0px currentColor" width="35"/></a>
+<a href="index.html"><img alt="brand" src="assets/img/logos-Microsoft.jpg" style="border:0px currentColor" width="60"/></a>
+<a href="index.html"><img alt="brand" src="assets/img/logos-Facebook.jpg" style="border:0px currentColor" width="60"/></a>
+<a href="index.html"><img alt="brand" src="assets/img/logos-VMware.png" style="border:0px currentColor" width="50"/></a>
+<a href="index.html"><img alt="brand" src="assets/img/Nutanix2.jpg" style="border:0px currentColor" width="50"/></a>
+<a href="index.html"><img alt="brand" src="assets/img/logo-cockroach.jpg" style="border:0px currentColor" width="90"/></a>
+<a href="index.html"><img alt="brand" src="assets/img/logos-Cisco.png" style="border:0px currentColor" width="50"/></a>
+<a href="index.html"><img alt="brand" src="assets/img/logos-netapp.jpg" style="border:0px currentColor" width="50"/></a>
+<a href="index.html"><img alt="brand" src="assets/img/alibaba-logo.jpg" style="border:0px currentColor" width="90"/></a>
+<a href="index.html"><img alt="brand" src="assets/img/logos-SIGMOD.gif" style="border:0px currentColor" width="50"/></a>
+<a href="index.html"><img alt="brand" src="assets/img/logos-SIGOPS.jpg" style="border:0px currentColor" width="50"/></a>
+<a href="index.html"><img alt="brand" src="assets/img/logos-NSF.jpg" style="border:0px currentColor" width="40"/></a>
+</div>
+</div>
+</div>
+<div class="primary-navigation-wrapper">
+<header class="navbar" id="top" role="banner">
+<div class="container">
+<div class="navbar-header">
+<button class="navbar-toggle" data-target=".bs-navbar-collapse" data-toggle="collapse" type="button">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<!-- /.navbar collapse-->
+<!--
+        <div class="social">
+          <div class="icons">
+            <a href="https://twitter.com/acmsocc2017"><i class="fa fa-twitter"></i></a>
+          </div>
+        </div>
+		-->
+</div><!-- /.container -->
+</header><!-- /.navbar -->
+</div><!-- /.primary-navigation -->
+</div>
+<!-- end Header -->
+<div id="page-content">
+<!-- Slider -->
+<div id="slider">
+<div class="container">
+<div class="slider-wrapper">
+<div class="row">
+<div class="col-md-6 col-sm-12">
+<div class="row">
+<div class="image-chaminade">
+<div class="slide">
+<div class="figure">
+<p><img alt="" src="assets/img/Chaminade2.jpg" style="width:300px;height:250px;"/></p></div>
+<p><i><small>Photo courtesy of Chaminade Resort &amp; Spa</small></i></p>
+</div><!-- /.slide -->
+</div><!-- /.image-chaminade -->
+</div><!-- /.row -->
+</div><!-- /.col-md-6 -->
+<div class="col-md-6 col-sm-12">
+<header>
+<h2>Call for papers</h2>
+</header>
+</div><!-- /.col-md-6 -->
+</div><!-- /.row -->
+</div><!-- /.slider-wrapper -->
+</div><!-- /.container -->
+</div>
+<!-- end Slider -->
+<!-- Content -->
+<div class="block">
+<div class="container">
+<div class="row">
+<div class="col-md-3">
+<section class="events small" id="events-small">
+<header>
+<h2>Important dates</h2>
+</header>
+<div class="section-content">
+<article class="event nearest">
+<figure class="date">
+<div class="month">jun</div>
+<div class="day">2</div>
+</figure>
+<aside>
+<header>
+                  Submission deadline for abstracts at 11:59pm EDT
+                </header>
+</aside>
+</article><!-- /article -->
+<article class="event nearest-second">
+<figure class="date">
+<div class="month">jun</div>
+<div class="day">10</div>
+</figure>
+<aside>
+<header>
+                  Submission deadline for full papers at 11:59pm EDT
+                </header>
+</aside>
+</article><!-- /article -->
+<article class="event nearest">
+<figure class="date">
+<div class="month">sep</div>
+<div class="day">3</div>
+</figure>
+<aside>
+<header>
+                  Author notification
+                </header>
+</aside>
+</article><!-- /article -->
+<br/>
+<!--article class="event nearest-second">
+              <figure class="date">
+                <div class="month">Aug</div>
+                <div class="day">31</div>
+              </figure>
+              <aside>
+                <header>
+                  Camera-ready deadline
+                </header>
+              </aside>
+            </article--><!-- /article -->
+<br/>
+</div><!-- /.section-content -->
+</section><!-- /.events-small -->
+<br/>
+<section class="events small" id="events-small">
+<header>
+<h2>Links</h2>
+</header>
+<div class="section-content">
+<ul class="list-links">
+<li><h4><a href="#submission">Submission categories</a></h4></li>
+<li><h4><a href="#guidelines">Submission guidelines</a></h4></li>
+</ul>
+</div><!-- /.section-content -->
+</section><!-- /.events-small -->
+</div><!-- /.col-md-3 -->
+<div class="col-md-6">
+<section id="main-content">
+<header>
+<h1>Call for papers</h1>
+</header>
+<div class="section-content">
+<p>
+				The annual ACM Symposium on Cloud Computing (SoCC’19) brings together researchers, developers, users, and 
+		    practitioners interested in cloud computing. ACM SoCC’19 is the 10th edition of the premier conference on cloud computing; 
+		    it is the only conference co-sponsored by the ACM Special Interest Groups on Management of Data (SIGMOD) and on 
+		    Operating Systems (SIGOPS). SoCC will be held in Chaminade, Santa Cruz, California, to foster connections 
+		    between the academic and industrial communities operating in the cloud space. We solicit original contributions on
+		    all aspects of cloud computing. We particularly encourage submissions on the research, development, practice, and 
+		    experience of cloud computing systems and data management. 
+		    Specific topics of interest include but are not limited to the following, when related to the cloud:
+            </p>
+<div class="row">
+<div class="col-md-6" style="padding-left:0; padding-right:0;">
+<ul class="topics-list">
+<li>Administration and Manageability</li>
+<li>Cross Datacenter Data Management</li>
+<li>Data Services Architectures</li>
+<li>Data Markets</li>
+<li>Distributed and Parallel Query Processing</li>
+<li>Distributed Systems</li>
+<li>Energy Efficiency and Management</li>
+<li>Fault Tolerance, High Availability, and Reliability</li>
+<li>IoT Infrastructure</li>
+<li>Large Scale Cloud Applications</li>
+<li> Services and Systems for Machine Learning </li>
+<li>Multi-Tenancy</li>
+<li>Networking and SDNs</li>
+</ul>
+</div>
+<div class="col-md-6" style="padding-left:0; padding-right:0;">
+<ul class="topics-list">
+<li> Platform for Services </li>
+<li> Privacy of Data and Computation </li>
+<li> Programming Models  </li>
+<li> Provisioning and Metering  </li>
+<li> Query Optimization </li>
+<li> Resource Management </li>
+<li> Scientific Data Management  </li>
+<li> Security of Infrastructure and Services </li>
+<li> Service Level Agreements </li>
+<li> Storage Systems and New Technologies </li>
+<li> Transactional Models </li>
+<li> Virtualization, Containers, VMs </li>
+</ul>
+</div>
+</div>
+<!-- TODO
+			<p style="font-size:120%;text-decoration:underline;color:red"><a href="assets/img/socc2017-cfp.pdf" target="_blank" style="color:red">Download the CFP as a PDF</a></p>
+             -->
+<a id="submission"><h2>Submission categories</h2></a>
+<p>Authors can submit a paper in one of the following categories:</p>
+<ul class="topics-list">
+<li>Research Papers describe original research, where novelty is a primary consideration.</li>
+<li>Industry Papers describe existing, often deployed systems, 
+				  where the lessons from the experience are a primary consideration.</li>
+<li>Vision Papers describe speculative but well-reasoned and thought-provoking ideas, where 
+				  insight is a primary consideration.</li>
+</ul>
+<br/>
+<p>
+			Submissions will be judged based on their originality, technical merit,
+			relevance, value to the community, and likelihood of producing interesting
+			discussions at the symposium. Submissions will be kept confidential until
+			accepted. Rejected submissions will be kept confidential permanently.
+            </p>
+<p> As a special type of Research Paper, we call for 
+			  <b>Negative Result Papers</b> describing promising and innovative ideas that didn’t work upon 
+			  rigorous evaluation.  The primary considerations when reviewing these papers will be the 
+			  novelty and conceptual validity of the idea and the quality of the evaluation.</p>
+<a id="guidelines"><h2>Submission guidelines</h2></a>
+<p> Authors must submit original papers that are not being considered for publication in other forums. 
+		    Submissions cannot be accompanied by nondisclosure, confidentiality, or similar agreements.</p>
+<p>Papers that violate the below requirements will be rejected without reviews. 
+		    Judicious use of color is permitted, but the paper should print clearly in black and white. 
+		    Non-rejected papers will be shepherded, and final acceptance will be conditional on the shepherd’s approval. </p>
+<p> Reviewing for <b> Research and Vision papers is  double-blind </b>. 
+		    Authors must make a good faith effort to anonymize their submissions, and they should not identify 
+		    themselves either explicitly or by implication (e.g., through the references or acknowledgments). 
+		    Submissions violating the detailed formatting and anonymization rules will not be considered for review. 
+		   
+        	</p><p> Reviewing for <b>Industry papers is single-blind with respect to the company/product, 
+			but double blind with respect to the authors</b>.  That is, you need not anonymize the company 
+			or products/services you are referring to.  However, you should not reveal the paper’s author 
+			names directly in your submission.</p>
+<p>
+			   If you are uncertain about how to anonymize your submission, please contact 
+	           the program co-chairs (contacts at the end of the page) well in advance of the 
+			  submission deadline. </p>
+<h3>Paper format &amp; fonts</h3>
+<p>
+		    Submissions must be in PDF format using 10-point font on 12-point leading, Times-Roman or similar typeface,
+		    letter-sized paper, double column, a text block of 6.5 inches wide by 9 inches tall, with numbered pages. 
+		    
+		    A LaTeX template is available  <a href="assets/template.tex" style="color:red;text-decoration:underline;" target="_blank">here</a>, but authors can use other templates or editors that conform with the 
+		    requirements. (Please remember to suppress the author list from the submission)
+			
+            <br/><br/>
+<a href="assets/template.tex" style="color:red;font-size:125%;text-decoration:underline;" target="_blank">Download the Latex Template</a>
+</p>
+<h3>Page limit</h3>
+<p>
+			Submissions can have up to <b>12 pages</b> for Research and Industry papers, and <b>5 pages</b> for Vision papers; this limit includes the title, abstract, and appendices, but excludes references.
+            </p>
+<h3>Paper type</h3>
+<p> After the author list, papers should indicate the submission type (research, industry, vision).</p>
+<a id="posters"><h2>Posters</h2></a>
+<p> Details and deadlines for poster submissions will be available in the call for posters. Papers accepted to the conference are automatically allowed to have a poster.</p>
+<a id="submit"><h2>Deadlines</h2></a>
+<p>
+<b style="color:black">Registration deadline: 3 June 2019 11:59pm EDT</b><br/>
+				You can register new submissions until this deadline.
+				<br/><br/>
+<b style="color:black">Submission deadline: 10 June 2019 11:59pm EDT</b><br/>
+				Papers must be submitted by this deadline to be reviewed.
+
+            </p>
+<a id="submit"><h2>Submission site</h2></a>
+<p>
+              The paper submission site is now online at <a href="https://socc19.hotcrp.com/" style="color:red">https://socc19.hotcrp.com/</a>
+</p>
+<a id="submit"><h2>Questions?</h2></a>
+<p>
+              Email any questions you have to the PC chairs at <b style="color:black">roxana [at] cs [dot] columbia [dot] edu</b> or 
+		    <b style="color:black">mozafari [at] umich [dot] edu</b>
+</p>
+</div><!-- /.section-content -->
+</section><!-- /.main-content -->
+</div><!-- /.col-md-6 -->
+<div class="col-md-3">
+</div><!-- /.col-md-3 -->
+<div class="col-md-3">
+<section class="news-small" id="news-small">
+<!--  <header>
+    <h2>Latest news</h2>
+  </header>
+  <div class="section-content">
+	<a class="twitter-timeline" href="https://twitter.com/acmsocc2017">Tweets by acmsocc2017</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+	-->
+</section><!-- /.news-small -->
+</div><!-- /.col-md-3 -->
+</div><!-- /.row -->
+</div><!-- /.container -->
+</div>
+<!-- end Content -->
+</div>
+<!-- Footer -->
+<footer id="page-footer">
+<section id="footer-top">
+<div class="container">
+<div class="footer-inner">
+<div class="footer-social">
+<!--<figure>Follow us:</figure>-->
+<div class="icons">
+<!--<a href="https://twitter.com/ACMSoCC2016"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.facebook.com/socc2016"><i class="fa fa-facebook"></i></a> -->
+</div><!-- /.icons -->
+</div><!-- /.social -->
+</div><!-- /.footer-inner -->
+</div><!-- /.container -->
+</section><!-- /#footer-top -->
+<section id="footer-bottom">
+<div class="container">
+<div class="footer-inner">
+<div class="copyright"></div><!-- /.copyright -->
+</div><!-- /.footer-inner -->
+</div><!-- /.container -->
+</section><!-- /#footer-bottom -->
+</footer>
+<!-- end Footer -->
+</div>
+</div><div class="page-sub-page page-microsite">
+<!-- Wrapper -->
+<div class="wrapper">
+<!-- Header -->
+<div class="navigation-wrapper">
+<div class="branding">
+<div class="container">
+<div class="navbar-brand nav" id="brand">
+<a href="index.html"><img alt="brand" src="assets/img/logo.png"/></a>
+</div>
+<div class="pull-right">
+<div class="reset-box-sizing socc-search">
+
+<gcse:search></gcse:search>
+</div>
+</div><!-- /.pull-right -->
+</div>
+<div class="container">
+<div class="navbar-brand nav" id="brand">
+<a href="index.html"><img alt="brand" src="assets/img/cloud_lockup_vert.jpg" style="border:0px currentColor" width="70"/></a>
+<a href="index.html"><img alt="brand" src="assets/img/logos-aws2.png" style="border:0px currentColor" width="35"/></a>
+<a href="index.html"><img alt="brand" src="assets/img/logos-Microsoft.jpg" style="border:0px currentColor" width="60"/></a>
+<a href="index.html"><img alt="brand" src="assets/img/logos-Facebook.jpg" style="border:0px currentColor" width="60"/></a>
+<a href="index.html"><img alt="brand" src="assets/img/logos-VMware.png" style="border:0px currentColor" width="50"/></a>
+<a href="index.html"><img alt="brand" src="assets/img/Nutanix2.jpg" style="border:0px currentColor" width="50"/></a>
+<a href="index.html"><img alt="brand" src="assets/img/logo-cockroach.jpg" style="border:0px currentColor" width="90"/></a>
+<a href="index.html"><img alt="brand" src="assets/img/logos-Cisco.png" style="border:0px currentColor" width="50"/></a>
+<a href="index.html"><img alt="brand" src="assets/img/logos-netapp.jpg" style="border:0px currentColor" width="50"/></a>
+<a href="index.html"><img alt="brand" src="assets/img/alibaba-logo.jpg" style="border:0px currentColor" width="90"/></a>
+<a href="index.html"><img alt="brand" src="assets/img/logos-SIGMOD.gif" style="border:0px currentColor" width="50"/></a>
+<a href="index.html"><img alt="brand" src="assets/img/logos-SIGOPS.jpg" style="border:0px currentColor" width="50"/></a>
+<a href="index.html"><img alt="brand" src="assets/img/logos-NSF.jpg" style="border:0px currentColor" width="40"/></a>
+</div>
+</div>
+</div>
+<div class="primary-navigation-wrapper">
+<header class="navbar" id="top" role="banner">
+<div class="container">
+<div class="navbar-header">
+<button class="navbar-toggle" data-target=".bs-navbar-collapse" data-toggle="collapse" type="button">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<!-- /.navbar collapse-->
+<!--
+        <div class="social">
+          <div class="icons">
+            <a href="https://twitter.com/acmsocc2017"><i class="fa fa-twitter"></i></a>
+          </div>
+        </div>
+		-->
+</div><!-- /.container -->
+</header><!-- /.navbar -->
+</div><!-- /.primary-navigation -->
+</div>
+<!-- end Header -->
+<div id="page-content">
+<!-- Slider -->
+<div id="slider">
+<div class="container">
+<div class="slider-wrapper">
+<div class="row">
+<div class="col-md-6 col-sm-12">
+<div class="row">
+<div class="image-carousel">
+<div class="slide">
+<div class="figure">
+<p><img alt="" src="assets/img/Chaminade2.jpg" style="width:300px;height:250px;"/></p></div>
+<p><i><small>Photo courtesy of Chaminade Resort &amp; Spa</small></i></p>
+</div><!-- /.slide -->
+</div><!-- /.image-carousel -->
+</div><!-- /.row -->
+</div><!-- /.col-md-6 -->
+<div class="col-md-6 col-sm-12">
+<header>
+<h2>Program committee</h2>
+</header>
+</div><!-- /.col-md-6 -->
+</div><!-- /.row -->
+</div><!-- /.slider-wrapper -->
+</div><!-- /.container -->
+</div>
+<!-- end Slider -->
+<!-- Content -->
+<div class="block">
+<div class="container">
+<div class="row">
+<!--MAIN Content-->
+<div class="col-md-9">
+<div id="page-main">
+<section id="members">
+<header><h1>Program Committee</h1></header>
+<section id="program-chairs">
+<header><h2 class="no-divider">Program chairs</h2></header>
+<div class="row">
+<div class="col-md-6">
+<div class="author-block course-speaker" style="padding-left:0; margin:0; border-bottom:none;">
+<article class="paragraph-wrapper" style="padding-left:0;">
+<div class="inner">
+<header><a href="https://engineering.columbia.edu/faculty/roxana-geambasu" target="_blank">Roxana Geambasu</a></header>
+<figure>Columbia University</figure>
+</div>
+</article>
+</div><!-- /.author -->
+</div>
+<div class="col-md-6">
+<div class="author-block course-speaker" style="padding-left:0; margin:0; border-bottom:none;">
+<article class="paragraph-wrapper" style="padding-left:0;">
+<div class="inner">
+<header><a href="http://web.eecs.umich.edu/~mozafari/" target="_blank">Barzan Mozafari</a></header>
+<figure>University of Michigan, Ann Arbor</figure>
+</div>
+</article>
+</div><!-- /.author -->
+</div>
+</div> <!-- end row -->
+</section><!-- /#program-chairs -->
+<section id="program-committee">
+<header> <h2 class="no-divider">Program Committee</h2></header>
+<ul style="font-size:110%;">
+<li> Jeremy Andrus,	Apple</li>
+<li> Ken Birman, 	Cornell University </li>
+<li>Jeffrey Chase,	Duke University </li>
+<li>Alvin Cheung, 	University of Washington</li>
+<li>Beng Chin Ooi, 	National University of Singapore</li>
+<li>Heming Cui, 	Hong Kong University</li>
+<li>Sudipto Das, 	Microsoft</li>
+<li> Ahmed Eldawy, 	University of California, Riverside </li>
+<li>Raul Castro Fernandez,	MIT</li>
+<li>Jayneel Gandhi, 	VMWare</li>
+<li>Johannes Gehrke, 	Microsoft</li>
+<li>Ronghui Guo, 	Columbia University</li>
+<li> Hakan Hacigumus, Google </li>
+<li>Tim Harris,	Amazon UK</li>
+<li>Yu Hua, 		Huazhong University of Science and Technology</li>
+<li>Anand Iyer, 	University of California, Berkeley </li>
+<li> Virajith Jalaparti, 	Microsoft Research </li>
+<li> Hai Jin, Huazhong University of Science and Technology </li>
+<li>Alekh Jindal, 	Microsoft Research</li>
+<li>Kaustubh Joshi,	AT&amp;T Research</li>
+<li>Sailesh Krishnamurthy, 	Amazon</li>
+<li>Mathias Lecuyer, 	Columbia University</li>
+<li>Tanakorn Leesatapornwongsa, 	Samsung Research</li>
+<li>Amit Levy, 		Princeton University </li>
+<li> Feifei Li, Alibaba/University of Utah </li>
+<li> Heiner Litz, UC Santa Cruz </li>
+<li>Neha Narula,	MIT Media Lab</li>
+<li> Faisal Nawab, University of California, Santa Cruz </li>
+<li> Jason Nieh,	Columbia University</li>
+<li>Cristina Nita-Rotaru,	Northeastern University</li>
+<li>Yongjoo Park,	University of Michigan, Ann Arbor</li>
+<li>Srinivasan Parthasarathy, IBM</li>
+<li>Chris Rossbach,	University of Texas at Austin </li>
+<li>Mema Roussopoulos,	University of Athens</li>
+<li>Semih Salihoglu,	University of  Waterloo</li>
+<li> Mahadev Satya,  		Carnegie Mellon University</li>
+<li>Bianca Schroeder,	University of  Toronto</li>
+<li>David Schultz,	Google</li>
+<li>Rusty Sears, 	Apple</li>
+<li>Siddhartha Sen, 	Microsoft Research </li>
+<li> Huasong Shan, JD.com </li>
+<li>Supreeth Shastri, 	University of Texas at Austin</li>
+<li>Liuba Shrira,	Brandeis University</li>
+<li>Lalith Suresh, 	VMWare research</li>
+<li> Qifan Pu, University of California, Berkeley </li>
+<li> Rebecca Taft,	Cockroach Labs </li>
+<li>Doug Terry, 	Amazon</li>
+<li>Jiannan Wang, 	Simon Fraser University</li>
+<li>Michael Wei, 	University of California San Diego</li>
+<li> Neeraja J. Yadwadkar, 	Stanford University </li>
+<li>Xiangyao Yu,	MIT</li>
+<li>Kai Zeng, 		Alibaba</li>
+<li> Yiying Zhang,	Purdue University</li>
+<li>Timothy Zhu, 	Penn State University</li>
+</ul>
+</section> <!-- pc members-->
+</section>
+</div><!-- /#page-main -->
+</div><!-- /.col-md-6 -->
+<!--SIDEBAR Content-->
+<div class="col-md-3">
+<section class="news-small" id="news-small">
+</section><!-- /.news-small -->
+</div><!-- /.col-md-3 -->
+</div><!-- /.row -->
+</div><!-- /.container -->
+</div>
+<!-- end Content -->
+</div>
+<!-- Footer -->
+<footer id="page-footer">
+<section id="footer-top">
+<div class="container">
+<div class="footer-inner">
+<div class="footer-social">
+<!--<figure>Follow us:</figure>-->
+<div class="icons">
+<!--<a href="https://twitter.com/ACMSoCC2016"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.facebook.com/socc2016"><i class="fa fa-facebook"></i></a> -->
+</div><!-- /.icons -->
+</div><!-- /.social -->
+</div><!-- /.footer-inner -->
+</div><!-- /.container -->
+</section><!-- /#footer-top -->
+<section id="footer-bottom">
+<div class="container">
+<div class="footer-inner">
+<div class="copyright"></div><!-- /.copyright -->
+</div><!-- /.footer-inner -->
+</div><!-- /.container -->
+</section><!-- /#footer-bottom -->
+</footer>
+<!-- end Footer -->
+</div>
+</div></body>
+<script src="assets/js/jquery-2.1.0.min.js" type="text/javascript"></script>
+<script src="assets/js/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="assets/js/selectize.min.js" type="text/javascript"></script>
+<script src="assets/js/owl.carousel.min.js" type="text/javascript"></script>
+<script src="assets/js/jquery.validate.min.js" type="text/javascript"></script>
+<script src="assets/js/jquery.placeholder.js" type="text/javascript"></script>
+<script src="assets/js/jQuery.equalHeights.js" type="text/javascript"></script>
+<script src="assets/js/icheck.min.js" type="text/javascript"></script>
+<script src="assets/js/jquery.vanillabox-0.1.5.min.js" type="text/javascript"></script>
+<script src="assets/js/retina-1.1.0.min.js" type="text/javascript"></script>
+<script src="assets/js/custom.js" type="text/javascript"></script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-39874729-4', 'auto');
+  ga('send', 'pageview');
+</script>
+</html>

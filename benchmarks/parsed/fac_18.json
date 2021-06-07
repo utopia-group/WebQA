@@ -1,0 +1,854 @@
+{
+    "id": 0,
+    "content": "Adam Chlipala",
+    "children": [
+        {
+            "id": 1,
+            "content": "Adam Chlipala Associate Professor of Computer Science   Programming Languages & Verification Group (more PL at MIT)   Computer Science and Artificial Intelligence Laboratory   Department of Electrical Engineering and Computer Science   MIT   E-mail: adamc@csail.mit.edu   Office: 32-G842",
+            "isList": true,
+            "key": 1
+        },
+        {
+            "id": 2,
+            "content": "Contact Information - Publications [BibTeX] - CV: HTML, PDF",
+            "key": 2
+        },
+        {
+            "id": 3,
+            "content": "Startup update:",
+            "key": 3,
+            "children": [
+                {
+                    "id": 4,
+                    "content": "Including during sabbatical recently (which ended in late 2019), I've been developing a startup company based on Ur/Web and UPO. We are empowering \"normal folks\" without programming training to create full-featured, database-backed web apps quickly. Watch this space for a link to the company web site when one exists! Do let me know if you're an expert in subjects like dependent types or compilers and might be interested in joining our engineering team.",
+                    "key": 1
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "content": "I'm in a transitional period, in terms of simple descriptions of my research interests. My traditional areas are programming languages and formal methods, but my interests have broadened to include other aspects of computer-system design and implementation. I like the idea of doing clean-slate redesign of computing stacks with current security and privacy concerns front-and-center, which I do believe involves, in a central way, my traditional focus of mechanized mathematical proofs , especially with the Coq proof assistant. However, I also spend a fair amount of time now thinking more generally about pleasant interfaces (e.g., hardware instruction sets, OS system-call interfaces, programming languages) and efficient implementations of hardware and software systems, including through tinkering with traditional boundaries between layers.",
+            "key": 4
+        },
+        {
+            "id": 6,
+            "content": "I try to organize my research group as something like a startup company looking to produce one convincing unified demo of a clean-slate-ish full-stack, practical computer system. (Like startup companies, we expect to pivot often based on what we learn!) We are looking at simple embedded applications now, where the scope of machine-checked proofs and unified interface redesign reaches from RTL to relational specifications of network protocols. I'm interested in recruiting students to contribute. I do sometimes hire postdocs, though most of my recruiting strategy is centered on students (PhD, master's, undergrad). Ideal candidates have strong backgrounds in both rigorous mathematical reasoning and software/hardware systems implementation. There tends to be a bad match with students who use the word \"theory\" to describe their interests within programming languages or formal methods, to the point where our PhD program generally won't admit those people (they'd be better-served elsewhere!). Current MIT students interested in working together should e-mail me, while for others I suggest following our normal PhD application process.",
+            "key": 5
+        },
+        {
+            "id": 7,
+            "content": "For a bit more info on what I work on, two low-time-investment overviews (of the mechanized-proofs part) are my blog post on the surprising security benefits of formal proofs and video of a talk I gave at the 34th Chaos Communication Congress in December 2017.",
+            "key": 6
+        },
+        {
+            "id": 8,
+            "content": "Current Research",
+            "isList": true,
+            "key": 7,
+            "children": [
+                {
+                    "id": 9,
+                    "content": "",
+                    "isList": true,
+                    "key": 1,
+                    "children": [
+                        {
+                            "id": 10,
+                            "content": "needs logo",
+                            "key": 1
+                        },
+                        {
+                            "id": 11,
+                            "content": "Unnamed (and somewhat incipient) umbrella project to build demonstration software/hardware systems with end-to-end mechanized proofs. I started my time as faculty developing the Bedrock library for verified multilanguage programming, but that project is largely over; we are working on a replacement project now that shares the name but makes very different design decisions, still supporting separation-logic-verified low-level programs (in a tasteful language, not C!) processed by a verified compiler, which I would like to use to explore alternative and drastically simplified OS-like functionality. The programming layer on top is meant to involve our Fiat system for automatic and correct-by-construction program derivation from specifications, which we are currently experimenting with using to generate code for practical network servers, a convenient domain for trying to make high-level programming more like relational-database programming but without the usual rough edges. Beneath the level of assembly language, we have work in the Kami project on modular hardware verification and verified compilation, where development is proceeding now jointly with industry, and where I'm especially interested in exploring alternative concurrency support in general-purpose processors. One of the cross-cutting focuses now is cryptography, including in our Fiat Cryptography project that centers on what is essentially a verified domain-specific compiler for finite-field arithmetic, which should soon be included in the build process for Google Chrome (to produce some of the code to validate SSL connections).",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 12,
+                    "content": ",FSCQ, a file system verified in Coq using a separation logic for reasoning about crash safety, mostly carried out these days by colleagues in the PDOS group",
+                    "isList": true,
+                    "key": 2
+                },
+                {
+                    "id": 13,
+                    "content": ",The Science of Deep Specification , a National Science Foundation Expedition in Computing, 2016-2021, promoting similar full-stack-verification research to what I described above, but on more conventional architectures",
+                    "isList": true,
+                    "key": 3
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "content": "Some Old Research",
+            "isList": true,
+            "key": 8,
+            "children": [
+                {
+                    "id": 15,
+                    "content": "Ur/Web, a domain-specific functional programming language for modern Web applications. I started working on it when I was a grad student, and it's pretty much done research-wise, yielding a production-quality tool suite that a fair number of people enjoy using.",
+                    "isList": true,
+                    "key": 1
+                },
+                {
+                    "id": 16,
+                    "content": "Lambda Tamer, an umbrella library for the experiments in compiler verification that I started as a grad student. The most concrete outcome of the work was the parametric higher-order abstract syntax (PHOAS) encoding of program syntax, which we still put to use in many of my projects, where different kinds of compilers remain frequent ingredients in novel system designs.",
+                    "isList": true,
+                    "key": 2
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "content": "Research Students",
+            "key": 9,
+            "children": [
+                {
+                    "id": 18,
+                    "content": "PhD",
+                    "isList": true,
+                    "key": 1,
+                    "children": [
+                        {
+                            "id": 19,
+                            "content": "Jason Gross [since Summer 2012]",
+                            "key": 1
+                        },
+                        {
+                            "id": 20,
+                            "content": "Master's thesis:",
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 21,
+                                    "content": "An Extensible Framework for Synthesizing Efficient, Verified Parsers",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 22,
+                            "content": "Clément Pit--Claudel [since Spring 2014]",
+                            "key": 3
+                        },
+                        {
+                            "id": 23,
+                            "content": "Master's thesis:",
+                            "key": 4,
+                            "children": [
+                                {
+                                    "id": 24,
+                                    "content": "Compilation Using Correct-by-Construction Program Synthesis",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 25,
+                            "content": "Joonwon Choi (coadvised with Arvind) [since Fall 2014]",
+                            "key": 5
+                        },
+                        {
+                            "id": 26,
+                            "content": "Master's thesis:",
+                            "key": 6,
+                            "children": [
+                                {
+                                    "id": 27,
+                                    "content": "An Inlining Approach to Formal Hardware Semantics",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 28,
+                            "content": "Thomas Bourgeat (coadvised with Arvind) [since Spring 2016]",
+                            "key": 7
+                        },
+                        {
+                            "id": 29,
+                            "content": "Samuel Gruetter [since Fall 2017]",
+                            "key": 8
+                        },
+                        {
+                            "id": 30,
+                            "content": "Mirai Ikebuchi [since Fall 2017]",
+                            "key": 9
+                        },
+                        {
+                            "id": 31,
+                            "content": "Andres Erbsen [since Fall 2015]",
+                            "key": 10
+                        },
+                        {
+                            "id": 32,
+                            "content": "Master's thesis:",
+                            "key": 11,
+                            "children": [
+                                {
+                                    "id": 33,
+                                    "content": "Crafting Certified Elliptic Curve Cryptography Implementations in Coq",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 34,
+                            "content": "Jade Philipoom [since Fall 2015]",
+                            "key": 12
+                        },
+                        {
+                            "id": 35,
+                            "content": "Master's thesis:",
+                            "key": 13,
+                            "children": [
+                                {
+                                    "id": 36,
+                                    "content": "Correct-by-Construction Finite Field Arithmetic in Coq",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 37,
+                            "content": "Stella Lau [since Fall 2018]",
+                            "key": 14
+                        },
+                        {
+                            "id": 38,
+                            "content": "Edward Wang (coadvised with Saman Amarasinghe) [since Fall 2019]",
+                            "key": 15
+                        }
+                    ]
+                },
+                {
+                    "id": 39,
+                    "content": "Master's",
+                    "key": 2,
+                    "children": [
+                        {
+                            "id": 40,
+                            "content": "Zygimantas Straznickas [since Summer 2019]",
+                            "isList": true,
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 41,
+                    "content": "Undergraduate",
+                    "key": 3,
+                    "children": [
+                        {
+                            "id": 42,
+                            "content": "",
+                            "isList": true,
+                            "key": 1,
+                            "children": [
+                                {
+                                    "id": 43,
+                                    "content": "John Grosen [since Fall 2017]",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 44,
+                                    "content": "Shardul Chiplunkar [since Spring 2019]",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 45,
+                                    "content": "Áron Ricardo Perez-Lopez [since Spring 2019]",
+                                    "key": 3
+                                },
+                                {
+                                    "id": 46,
+                                    "content": "Jasper Haag [since Fall 2019]",
+                                    "key": 4
+                                },
+                                {
+                                    "id": 47,
+                                    "content": "Rachana Madhukara [since Fall 2019]",
+                                    "key": 5
+                                }
+                            ]
+                        },
+                        {
+                            "id": 48,
+                            "content": "Past students",
+                            "key": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 49,
+            "content": "Teaching",
+            "key": 10,
+            "children": [
+                {
+                    "id": 50,
+                    "content": "",
+                    "isList": true,
+                    "key": 1,
+                    "children": [
+                        {
+                            "id": 51,
+                            "content": "Spring 2020: 6.822: Formal Reasoning About Programs* (also Spring 2018, Spring 2017 [as 6.887], and Spring 2016 [as 6.887])",
+                            "key": 1
+                        },
+                        {
+                            "id": 52,
+                            "content": "Spring 2019: 6.009: Fundamentals of Programming* (also Fall 2017, Fall 2016, and Fall 2015 [as 6.Spring 2004])",
+                            "key": 2
+                        },
+                        {
+                            "id": 53,
+                            "content": "Spring 2015: 6.042: Mathematics for Computer Science (also Spring 2012)",
+                            "key": 3
+                        },
+                        {
+                            "id": 54,
+                            "content": "Fall 2014: 6.170: Software Studio",
+                            "key": 4
+                        },
+                        {
+                            "id": 55,
+                            "content": "Fall 2013: 6.820: Foundations of Program Analysis",
+                            "key": 5
+                        },
+                        {
+                            "id": 56,
+                            "content": "Spring 2013: 6.033: Computer Systems Engineering [recitation instructor]",
+                            "key": 6
+                        },
+                        {
+                            "id": 57,
+                            "content": "Fall 2012: 6.005: Software Construction",
+                            "key": 7
+                        },
+                        {
+                            "id": 58,
+                            "content": "Fall 2011: 6.892: Interactive Computer Theorem Proving*",
+                            "key": 8
+                        }
+                    ]
+                },
+                {
+                    "id": 59,
+                    "content": "(An \"*\" indicates a class I [co]created.)",
+                    "key": 2
+                }
+            ]
+        },
+        {
+            "id": 60,
+            "content": "Books",
+            "isList": true,
+            "key": 11,
+            "children": [
+                {
+                    "id": 61,
+                    "content": "",
+                    "isList": true,
+                    "key": 1,
+                    "children": [
+                        {
+                            "id": 62,
+                            "content": "Certified Programming with Dependent Types: A Pragmatic Introduction to the Coq Proof Assistant",
+                            "key": 1
+                        },
+                        {
+                            "id": 63,
+                            "content": "An introduction to the Coq proof assistant, assuming just familiarity with rigorous math and functional programming. Presents the techniques needed to scale to large formal developments in program verification and other domains, including scripted proof automation and expressive types for embedded programs.",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 64,
+                    "content": "",
+                    "isList": true,
+                    "key": 2,
+                    "children": [
+                        {
+                            "id": 65,
+                            "content": "FRAP",
+                            "key": 1
+                        },
+                        {
+                            "id": 66,
+                            "content": "",
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 67,
+                                    "content": "Formal Reasoning About Programs",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 68,
+                                    "content": "Introducing Coq simultaneously with semantics and program proof methods. Emphasizes commonalities through casting (almost) everything in terms of invariants on transition systems, with abstraction and modularity as our standard tools for simplifying invariant proofs. Presents ideas in parallel as chapters of a PDF with standard math notation and in Coq source files, mixing in bits of proof-automation wizardry at the author's whim. [I've used this book so far in three iterations of a graduate class and plan to fine-tune it through at least one more offering before declaring it beta-quality; but, for intrepid instructors of related classes, it could be worth experimenting with already!]",
+                                    "key": 2
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 69,
+            "content": "Advisory-Board Memberships",
+            "key": 12,
+            "children": [
+                {
+                    "id": 70,
+                    "content": "",
+                    "isList": true,
+                    "key": 1,
+                    "children": [
+                        {
+                            "id": 71,
+                            "content": "BedRock Systems [since 2018]: verified systems software for safety-critical computing",
+                            "key": 1
+                        },
+                        {
+                            "id": 72,
+                            "content": "DARPA Information Science and Technology (ISAT) study group [2018-2021]",
+                            "key": 2
+                        },
+                        {
+                            "id": 73,
+                            "content": "SiFive [since 2018]: rapid development of custom hardware solutions, based on RISC-V",
+                            "key": 3
+                        }
+                    ]
+                },
+                {
+                    "id": 74,
+                    "content": "Former",
+                    "key": 2,
+                    "children": [
+                        {
+                            "id": 75,
+                            "content": "krypt.co [2016-2019]: smarter management for cryptographic keys (acquired by Akamai)",
+                            "isList": true,
+                            "key": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 76,
+            "content": "How to Pronounce my Last Name",
+            "key": 13,
+            "children": [
+                {
+                    "id": 77,
+                    "content": "Pretend the first \"l\" isn't there (\"Chipala\") and you'll get close enough.",
+                    "key": 1
+                }
+            ]
+        },
+        {
+            "id": 78,
+            "content": "Recommended Reading",
+            "key": 14,
+            "children": [
+                {
+                    "id": 79,
+                    "content": "I'm straying pretty off-topic here, but, especially for all the students who might be reading this far down the page, I'd like to recommend a few books that have had big influences on me and that I wish I'd been told about as a student.",
+                    "key": 1
+                },
+                {
+                    "id": 80,
+                    "content": "",
+                    "isList": true,
+                    "key": 2,
+                    "children": [
+                        {
+                            "id": 81,
+                            "content": "",
+                            "key": 1,
+                            "children": [
+                                {
+                                    "id": 82,
+                                    "content": "Everything we do in trying to debug problems in the world today depends on understanding how we and other people think, and I've found that evolutionary psychology provides a crucial toolbox for making sense of it all. As a general starting point, I recommend The Moral Animal.",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 83,
+                                    "content": "An important subtopic is the roots of the ideological differences that divide us, which lately seem to be especially hard to dislodge. The Righteous Mind explains how genes influence moral intuitions and makes a good case for not demonizing people with opposing intuitions. (And, straying even more off-topic, for a fascinating [but North-America-specific] take on regional culture as another source of differences, see American Nations.)",
+                                    "isList": true,
+                                    "key": 2
+                                }
+                            ]
+                        },
+                        {
+                            "id": 84,
+                            "content": "Many of the choices we make have significant environmental consequences, and it's important to have a sound scientific basis for evaluating them. Sustainable Energy -- Without the Hot Air is a good source for the quantitative details. The most striking takeaway for me was, for my own carbon footprint, the total dominance of air travel, which is why it's super-cool that there is a SIGPLAN Climate Change committee now, to help us get this excessive conference-going under control. (I'm in favor of one conference per research area per year, with as many parallel tracks as needed!)",
+                            "key": 2
+                        },
+                        {
+                          "id": 85,
+                          "content": "One of the consequential kinds of choices we make is about what to eat.",
+                          "key": 3
+                        },
+                        {
+                            "id": 86,
+                            "content": "On the environmental-impact side, I have to admit I haven't found one book that summarizes the evidence and then makes recommendations without worrying too much about inertia and people's supposed unwillingness to change. Just Food is a start, though.",
+                            "key": 4
+                        },
+                        {
+                            "id": 87,
+                            "content": "The standard American diet also has huge problems for promoting good health. The best starter source of information there is How Not to Die.",
+                            "key": 5
+                        },
+                        {
+                            "id": 88,
+                            "content": "Our transportation customs (in the USA, at least) also have some remarkably bad but underappreciated consequences. Personally, I support dramatically curtailing use of vehicles that run on roads, in favor of much more walking and vehicles that run on rails, which are fundamentally more energy-efficient (as I learned in Without the Hot Air). For a fascinating analysis of the implicit subsidy on cars via legal minimum standards on parking spaces, see The High Cost of Free Parking.",
+                            "key": 6
+                        },
+                        {
+                            "id": 89,
+                            "content": "There's a lot of hand-wringing these days about how hard it is to \"make it\" financially starting as a student. That may very well be true, but for the elite audience likely to read this page, with strong skills in computing (broadly construed), things are pretty rosy. The challenge and opportunity is to reconsider norms about how much stuff we really want in our lives, and whether it is worth the cost in money, health, and whatever else. See the blog Mr. Money Mustache for a firehose of suggestions, or The Simple Path to Wealth for a gentler introduction.",
+                            "key": 7
+                        },
+                        {
+                            "id": 90,
+                            "content": "Finally, relatively on-topically, anyone out there who is into programming and hasn't yet tried proof assistants should seriously consider grabbing a good introduction like Software Foundations! This technology is going mainstream any year now, and in the mean time it's great fun and mental exercise, which I'd like to think prepares us for solid rational analysis of all sorts of big questions in the world.",
+                            "key": 8
+                        }
+                    ]
+                },
+                {
+                    "id": 91,
+                    "content": "More content and links....",
+                    "key": 3
+                }
+            ]
+        },
+        {
+            "id": 92,
+            "content": "Publications - Adam Chlipala",
+            "key": 15,
+            "children": [
+                {
+                    "id": 93,
+                    "content": "Refereed journal articles (6)",
+                    "key": 1,
+                    "children": [
+                        {
+                            "id": 94,
+                            "content": "Thomas Gregoire, Adam Chlipala. Mostly Automated Formal Verification of Loop Dependencies with Applications to Distributed Stencil Algorithms. Journal of Automated Reasoning (JAR). https://doi.org/10.1007/s10817-018-9451-y. Springer-Verlag. Extended version of our ITP 2016 paper",
+                            "key": 1
+                        },
+                        {
+                            "id": 95,
+                            "content": "Andrew W. Appel, Lennart Beringer, Adam Chlipala, Benjamin C. Pierce, Zhong Shao, Stephanie Weirich, Steve Zdancewic. The Science of Deep Specification. Philosophical Transactions of the Royal Society A (PTA). 2017 375 20160331. Royal Society. Overview of and case for the DeepSpec project",
+                            "key": 2
+                        },
+                        {
+                            "id": 96,
+                            "content": "Tej Chajed, Haogang Chen, Adam Chlipala, Frans Kaashoek, Nickolai Zeldovich, Daniel Ziegler. Research Highlight: Certifying a File System using Crash Hoare Logic: Correctness in the Presence of Crashes. Communications of the ACM (CACM). 60(4). 75-84, 2017. Association for Computing Machinery. A file system implemented and verified in Coq, using separation logic, connected to Linux and providing respectable performance",
+                            "key": 3
+                        },
+                        {
+                            "id": 97,
+                            "content": "Adam Chlipala. Research Highlight: Ur/Web: A Simple Model for Programming the Web. Communications of the ACM (CACM). 59(8). 93-100, 2016. Association for Computing Machinery. Introducing the Ur/Web programming language",
+                            "key": 4
+                        },
+                        {
+                            "id": 98,
+                            "content": "Adam Chlipala. An Introduction to Programming and Proving with Dependent Types in Coq. Journal of Formalized Reasoning (JFR). 3(2). 1-93, 2010. Excerpts from CPDT",
+                            "key": 5
+                        },
+                        {
+                            "id": 99,
+                            "content": "Adam Chlipala. Modular Development of Certified Program Verifiers with a Proof Assistant. Journal of Functional Programming (JFP). 18(5/6). 599-647, 2008. Cambridge University Press. Extended version of my ICFP 2006 paper",
+                            "key": 6
+                        }
+                    ]
+                },
+                {
+                    "id": 100,
+                    "content": "Refereed conference papers (38)",
+                    "key": 2,
+                    "children": [
+                        {
+                            "id": 101,
+                            "content": "ClÃ©ment Pit--Claudel, Peng Wang, Benjamin Delaware, Jason Gross, Adam Chlipala. Extensible Extraction of Efficient Imperative Programs with Foreign Functions, Manually Managed Memory, and Proofs. Proceedings of the 9th International Joint Conference on Automated Reasoning (IJCAR 2020). June 2020. The last link in a pipeline for automatic compilation, with proofs, from relational specifications to Bedrock assembly programs",
+                            "key": 1
+                        },
+                        {
+                            "id": 102,
+                            "content": "Thomas Bourgeat, ClÃ©ment Pit--Claudel, Adam Chlipala, Arvind. The Essence of Bluespec: A Core Language for Rule-Based Hardware Design. Proceedings of the ACM SIGPLAN 2020 Conference on Programming Language Design and Implementation (PLDI 2020). June 2020. A new hardware-description language that combines Bluespec's modular-decomposition style with fine-grained control of timing; includes Coq embedding with a verified compiler to circuits",
+                            "key": 2
+                        },
+                        {
+                            "id": 103,
+                            "content": "Benjamin Delaware, Sorawit Suriyakarn, ClÃ©ment Pit--Claudel, Qianchuan Ye, Adam Chlipala. Narcissus: Correct-By-Construction Derivation of Decoders and Encoders from Binary Formats. Proceedings of the 24th ACM SIGPLAN International Conference on Functional Programming (ICFP 2019). August 2019. Using Coq to derive efficient binary-format parsers from declarative specifications, automatically",
+                            "key": 3
+                        },
+                        {
+                            "id": 104,
+                            "content": "Andres Erbsen, Jade Philipoom, Jason Gross, Robert Sloan, Adam Chlipala. Simple High-Level Code For Cryptographic Arithmetic -- With Proofs, Without Compromises. Proceedings of the IEEE Symposium on Security & Privacy 2019 (S&P 2019). May 2019. Correct-by-construction generation of low-level crypto-primitive code using Coq",
+                            "key": 4
+                        },
+                        {
+                            "id": 105,
+                            "content": "Adam Chlipala. Algorithmic Checking of Security Arguments for Microprocessors. Proceedings of the Annual GOMACTech Conference 2019 (GOMACTech 2019). March 2019. Summarizing our team's work with formal methods in the DARPA SSITH program",
+                            "key": 5
+                        },
+                        {
+                            "id": 106,
+                            "content": "Atalay Ileri, Tej Chajed, Adam Chlipala, Frans Kaashoek, Nickolai Zeldovich. Proving confidentiality in a file system using DiskSec. Proceedings of the 13th USENIX Symposium on Operating Systems Design and Implementation (OSDI 2018). October 2018. FSCQ extended to track information-flow policies that distinguish between different users",
+                            "key": 6
+                        },
+                        {
+                            "id": 107,
+                            "content": "Antonis Stampoulis, Adam Chlipala. Prototyping a Functional Language using Higher-Order Logic Programming: A Functional Pearl on Learning the Ways of Lambda-Prolog/Makam. Proceedings of the 23rd ACM SIGPLAN International Conference on Functional Programming (ICFP 2018). September 2018. An introduction to a slick way of implementing programming languages concisely and modularly, focusing on type checking, told in the style of a play, including songs",
+                            "key": 7
+                        },
+                        {
+                            "id": 108,
+                            "content": "Benjamin Sherman, Luke Sciarappa, Adam Chlipala, Michael Carbin. Computable decision-making on the reals and other spaces via partiality and nondeterminism. Proceedings of the 33rd Annual ACM/IEEE Symposium on Logic in Computer Science (LICS 2018). July 2018. A theorem in real analysis shows that, in a world where all computations are continuous, we can't implement interesting conditional tests over, say, the real numbers. Here we show how to get around the problem with a functional-programming-friendly topological treatment of nondeterminism. (We can make discrete decisions about values from continuous spaces so long as we leave some wiggle room about what will actually happen at runtime.)",
+                            "key": 8
+                        },
+                        {
+                            "id": 109,
+                            "content": "Jason Gross, Andres Erbsen, Adam Chlipala. Reification by Parametricity: Fast Setup for Proof by Reflection, in Two Lines of Ltac. Proceedings of the Interactive Theorem Proving - Ninth International Conference (ITP 2018). July 2018. A surprisingly simple way to convert terms in higher-order logic into first-class syntax trees, using standard features: would you believe that reification can mostly be done by term normalization in the metalanguage?",
+                            "key": 9
+                        },
+                        {
+                            "id": 110,
+                            "content": "Haogang Chen, Tej Chajed, Alex Konradi, Stephanie Wang, Atalay Ileri, Adam Chlipala, Frans Kaashoek, Nickolai Zeldovich. Verifying a High-Performance Crash-Safe File System Using a Tree Specification. Proceedings of the 26th ACM Symposium on Operating Systems Principles (SOSP 2017). October 2017. FSCQ extended to support \"flush\" operations and delayed syncing of data to disk, as a performance optimization",
+                            "key": 10
+                        },
+                        {
+                            "id": 111,
+                            "content": "Peng Wang, Di Wang, Adam Chlipala. TiML: A Functional Language for Practical Complexity Analysis with Invariants. Proceedings of the 2017 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, & Applications (OOPSLA 2017). October 2017. Using refinement types to upper-bound program asymptotic running time, taking advantage of invariants specific to data structures",
+                            "key": 11
+                        },
+                        {
+                            "id": 112,
+                            "content": "Joonwon Choi, Muralidaran Vijayaraghavan, Benjamin Sherman, Adam Chlipala, Arvind. Kami: A Platform for High-Level Parametric Hardware Specification and its Modular Verification. Proceedings of the 22nd ACM SIGPLAN International Conference on Functional Programming (ICFP 2017). September 2017. A Coq framework for modular correctness proofs of computer-architecture designs, supporting automatic extraction to circuits that run on FPGAs, etc.",
+                            "key": 12
+                        },
+                        {
+                            "id": 113,
+                            "content": "Adam Chlipala, Benjamin Delaware, Samuel Duchovni, Jason Gross, ClÃ©ment Pit--Claudel, Sorawit Suriyakarn, Peng Wang, Katherine Ye. The End of History? Using a Proof Assistant to Replace Language Design with Library Design. Proceedings of the The 2nd Summit oN Advances in Programming Languages (SNAPL 2017). May 2017. The sales pitch for our Fiat system as embodying a new programming style, with novel and effective kinds of abstraction and modularity",
+                            "key": 13
+                        },
+                        {
+                            "id": 114,
+                            "content": "Ziv Scully, Adam Chlipala. A Program Optimization for Automatic Database Result Caching. Proceedings of the 44th ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL 2017). January 2017. A compiler optimization for Ur/Web that adds caching for SQL-query results and derived computations, inferring sound invalidation strategies that often avoid bottlenecks for parallel execution",
+                            "key": 14
+                        },
+                        {
+                            "id": 115,
+                            "content": "Thomas Gregoire, Adam Chlipala. Mostly Automated Formal Verification of Loop Dependencies with Applications to Distributed Stencil Algorithms. Proceedings of the Interactive Theorem Proving - Seventh International Conference (ITP 2016). August 2016. A Coq framework for verifying that nested loops obey dependency constraints, in message-passing distributed programs that collaboratively fill in the cells of large multidimensional grids",
+                            "key": 15
+                        },
+                        {
+                            "id": 116,
+                            "content": "Mohsen Lesani, Christian J. Bell, Adam Chlipala. Chapar: Certified Causally Consistent Distributed Key-Value Stores. Proceedings of the 43rd ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL 2016). January 2016. Coq proofs of several distributed key-value store algorithms, including principles for modular reasoning about client programs that use them",
+                            "key": 16
+                        },
+                        {
+                            "id": 117,
+                            "content": "Haogang Chen, Daniel Ziegler, Tej Chajed, Adam Chlipala, Frans Kaashoek, Nickolai Zeldovich. Using Crash Hoare Logic for Certifying the FSCQ File System. Proceedings of the 25th ACM Symposium on Operating Systems Principles (SOSP 2015). October 2015. Best Paper Award.A file system implemented and verified in Coq, using separation logic, connected to Linux and providing respectable performance",
+                            "key": 17
+                        },
+                        {
+                            "id": 118,
+                            "content": "Adam Chlipala. An Optimizing Compiler for a Purely Functional Web-Application Language. Proceedings of the 20th ACM SIGPLAN International Conference on Functional Programming (ICFP 2015). August 2015. The whole-program optimizing compiler for Ur/Web",
+                            "key": 18
+                        },
+                        {
+                            "id": 119,
+                            "content": "Muralidaran Vijayaraghavan, Adam Chlipala, Arvind, Nirav Dave. Modular Deductive Verification of Multiprocessor Hardware Designs. Proceedings of the 27th International Conference on Computer Aided Verification (CAV 2015). July 2015. Modular Coq proofs of Bluespec-style hardware descriptions, where processors and memory systems can be verified separately against generic specs (in the style of labeled transition systems) that are compatible with many different optimizations",
+                            "key": 19
+                        },
+                        {
+                            "id": 120,
+                            "content": "Benjamin Delaware, ClÃ©ment Pit--Claudel, Jason Gross, Adam Chlipala. Fiat: Deductive Synthesis of Abstract Data Types in a Proof Assistant. Proceedings of the 42nd ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL 2015). January 2015. Deriving efficient OCaml implementations of abstract data types, from declarative specifications, in Coq, mostly automatically. The main case study works with SQL-style relational queries and update operations.",
+                            "key": 20
+                        },
+                        {
+                            "id": 121,
+                            "content": "Adam Chlipala. Ur/Web: A Simple Model for Programming the Web. Proceedings of the 42nd ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL 2015). January 2015. At long last, a paper on the design of Ur/Web, a DSL for Web applications, supporting novel encapsulation techniques and a simple concurrency model for distributed applications",
+                            "key": 21
+                        },
+                        {
+                            "id": 122,
+                            "content": "Adam Chlipala. From Network Interface to Multithreaded Web Applications: A Case Study in Modular Program Verification. Proceedings of the 42nd ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL 2015). January 2015. A case study in building a whole-program Coq proof that covers both an application (a database-backed dynamic Web application) and systems infrastructure (a cooperative thread library). The components are verified modularly with Bedrock, and there is a verified compiler for a domain-specific language that can be used to derive similar theorems for similar Web applications, with minimal new proving work.",
+                            "key": 22
+                        },
+                        {
+                            "id": 123,
+                            "content": "Peng Wang, Santiago Cuellar, Adam Chlipala. Compiler Verification Meets Cross-Language Linking via Data Abstraction. Proceedings of the 2014 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, & Applications (OOPSLA 2014). October 2014. An approach to verifying multilanguage programs in the Bedrock framework, mixing operational semantics for intralanguage reasoning and axiomatic semantics for interlanguage reasoning",
+                            "key": 23
+                        },
+                        {
+                            "id": 124,
+                            "content": "Xi Wang, David Lazar, Nickolai Zeldovich, Adam Chlipala, Zachary Tatlock. Jitk: A Trustworthy In-Kernel Interpreter Infrastructure. Proceedings of the 11th USENIX Symposium on Operating System Design and Implementation (OSDI 2014). October 2014. Coq-verified just-in-time compilation for packet filters, etc., in Linux",
+                            "key": 24
+                        },
+                        {
+                            "id": 125,
+                            "content": "Gregory Malecha, Adam Chlipala, Thomas Braibant. Compositional Computational Reflection. Proceedings of the 5th International Conference on Interactive Theorem Proving (ITP 2014). July 2014. A framework for combining reflective Coq tactics, applied in the Bedrock system to verify imperative programs",
+                            "key": 25
+                        },
+                        {
+                            "id": 126,
+                            "content": "Jason Gross, Adam Chlipala, David Spivak. Experience Implementing a Performant Category-Theory Library in Coq. Proceedings of the 5th International Conference on Interactive Theorem Proving (ITP 2014). July 2014. A Coq category-theory library, designed to support computationally efficient proofs of large goals, taking advantage of recent improvements to the homotopy-type-theory Coq version and giving some other wishlist items for Coq",
+                            "key": 26
+                        },
+                        {
+                            "id": 127,
+                            "content": "Adam Chlipala. The Bedrock Structured Programming System: Combining Generative Metaprogramming and Hoare Logic in an Extensible Program Verifier. Proceedings of the 18th ACM SIGPLAN International Conference on Functional Programming (ICFP 2013). September 2013. Bedrock takes literally the idea of C as a \"macro assembly language.\" All the programming features are built up as macros on top of assembly language, and macros have verified Hoare logic-style proof rules attached to them, so that one gets a \"free\" environment for mostly automated deductive program verification for any mix of macros used in a particular program.",
+                            "key": 27
+                        },
+                        {
+                            "id": 128,
+                            "content": "Thomas Braibant, Adam Chlipala. Formal Verification of Hardware Synthesis. Proceedings of the 25th International Conference on Computer Aided Verification (CAV 2013). July 2013. A verified compiler for an idealization of the Bluespec hardware description language",
+                            "key": 28
+                        },
+                        {
+                            "id": 129,
+                            "content": "Adam Chlipala. Mostly-Automated Verification of Low-Level Programs in Computational Separation Logic. Proceedings of the ACM SIGPLAN 2011 Conference on Programming Language Design and Implementation (PLDI 2011). June 2011. A constructive proof that automating separation logic proofs for systems code is easy, despite claims to the contrary coming from SMT solver-centric perspectives. ;-) Specifically, this paper introduced Bedrock, a Coq library for foundational verification of code at the assembly level of abstraction. A mostly-automated separation logic prover uses a modest amount of programmer annotation to drive verification of examples like imperative data structures and a cooperative threading library.",
+                            "key": 29
+                        },
+                        {
+                            "id": 130,
+                            "content": "Adam Chlipala. Static Checking of Dynamically-Varying Security Policies in Database-Backed Applications. Proceedings of the 9th USENIX Symposium on Operating Systems Design and Implementation (OSDI 2010). October 2010. Static analysis for security policies for Ur/Web applications, based on the key new idea of representing policies as SQL queries. The analysis follows the well-trod path of symbolic evaluation and automated first-order-logic theorem-proving.",
+                            "key": 30
+                        },
+                        {
+                            "id": 131,
+                            "content": "Adam Chlipala. Ur: Statically-Typed Metaprogramming with Type-Level Record Computation. Proceedings of the ACM SIGPLAN 2010 Conference on Programming Language Design and Implementation (PLDI 2010). June 2010. A first paper about Ur, focusing on the metaprogramming aspect: we can write generic programs that write programs, based on inputs like database schemas, summaries of HTML form configurations, etc., and we can type-check our generators statically without needing to write any proof terms.",
+                            "key": 31
+                        },
+                        {
+                            "id": 132,
+                            "content": "Adam Chlipala. A Verified Compiler for an Impure Functional Language. Proceedings of the 37th ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL 2010). January 2010. A case study in verifying a compiler to an idealized assembly language from an untyped source language with most of the key dynamic features of ML: functions, products, sums, mutable references, and value-carrying exceptions. Syntax is encoded with parametric higher-order abstract syntax (PHOAS), which makes it possible to avoid almost all bookkeeping having to do with binders and fresh name generation. The semantics of the object languages are encoded in a new substitution-free style. All of the proofs are automated with tactic programs that can keep working even after changing the definitions of the languages.",
+                            "key": 32
+                        },
+                        {
+                            "id": 133,
+                            "content": "Adam Chlipala, Gregory Malecha, Greg Morrisett, Avraham Shinnar, Ryan Wisnesky. Effective Interactive Proofs for Higher-Order Imperative Programs. Proceedings of the 14th ACM SIGPLAN International Conference on Functional Programming (ICFP 2009). August 2009. An approach to automating correctness proofs about higher-order, imperative programs in Coq, based on an extensible simplifier for separation logic formulas",
+                            "key": 33
+                        },
+                        {
+                            "id": 134,
+                            "content": "Adam Chlipala. Parametric Higher-Order Abstract Syntax for Mechanized Semantics. Proceedings of the 13th ACM SIGPLAN International Conference on Functional Programming (ICFP 2008). September 2008. Awarded Most Influential Paper ten years later.A new trick for encoding variable binders in Coq, along with an exploration of its consequences: almost trivial syntax and type-theoretic semantics for languages including such features as polymorphism and complicated binding structure (e.g., ML-style pattern matching); almost trivial type preservation proofs for compiler passes that don't need intensional analysis of variables; mostly-automated semantic correctness proofs about those passes, by way of adding an axiom to make the parametricity of CIC usable explicitly in proofs; and the ability to drop down to more traditional syntactic representations for more arduous but feasible proofs of the same properties, when intensional variable analysis is needed.",
+                            "key": 34
+                        },
+                        {
+                            "id": 135,
+                            "content": "Adam Chlipala. A Certified Type-Preserving Compiler from Lambda Calculus to Assembly Language. Proceedings of the ACM SIGPLAN 2007 Conference on Programming Language Design and Implementation (PLDI 2007). June 2007. A compiler for a tiny statically-typed functional programming language, implemented in Coq with a proof of correctness. The main interesting bits are my use of dependently-typed abstract syntax and denotational semantics, along with some engineering tricks for making the task manageable.",
+                            "key": 35
+                        },
+                        {
+                            "id": 136,
+                            "content": "Adam Chlipala. Modular Development of Certified Program Verifiers with a Proof Assistant. Proceedings of the 11th ACM SIGPLAN International Conference on Functional Programming (ICFP 2006). September 2006. I report on an experience using the Coq proof assistant to develop a program verification tool with a machine-checkable proof of full correctness. The verifier is able to prove memory safety of x86 machine code programs compiled from code that uses algebraic datatypes. The tool's soundness theorem is expressed in terms of the bit-level semantics of x86 programs, so its correctness depends on very few assumptions. I take advantage of Coq's support for programming with dependent types and modules in the structure of my development. The approach is based on developing a library of reusable functors for transforming a verifier at one level of abstraction into a verifier at a lower level. Using this library, it's possible to prototype a verifier based on a new type system with a minimal amount of work, while obtaining a very strong soundness theorem about the final product.",
+                            "key": 36
+                        },
+                        {
+                            "id": 137,
+                            "content": "Bor-Yuh Evan Chang, Adam Chlipala, George C. Necula. A Framework for Certified Program Analysis and Its Applications to Mobile-Code Safety. Proceedings of the 7th International Conference on Verification, Model Checking, and Abstract Interpretation (VMCAI 2006). January 2006. We propose a new technique in support of the construction of efficient Foundational Proof-Carrying Code systems. Instead of suggesting that pieces of mobile code come with proofs of their safety, we instead suggest that they come with executable verifiers that can attest to their safety, as in our previous work on the Open Verifier. However, in contrast to that previous work, here we do away with any runtime proof generation by these verifiers. Instead, we require that the verifier itself is proved sound. To support this, we present a novel technique for extracting proof obligations about ML programs. Using this approach, we are able to demonstrate the first foundational verification technique for Typed Assembly Language with performance comparable to that of the traditional, uncertified TAL type checker.",
+                            "key": 37
+                        },
+                        {
+                            "id": 138,
+                            "content": "Dirk Beyer, Adam J. Chlipala, Thomas Henzinger, Ranjit Jhala, Rupak Majumdar. Generating Tests from Counterexamples. Proceedings of the 26th International Conference on Software Engineering (ICSE 2004), IEEE Computer Society Press. May 2004. We describe how to use the BLAST model checker to generate program test suites that achieve full coverage with respect to a given set of predicates.",
+                            "key": 38
+                        }
+                    ]
+                },
+                {
+                    "id": 139,
+                    "content": "Refereed workshop papers (6)",
+                    "key": 3,
+                    "children": [
+                        {
+                            "id": 140,
+                            "content": "Haogang Chen, Daniel Ziegler, Adam Chlipala, Frans Kaashoek, Eddie Kohler, Nickolai Zeldovich. Towards Certified Storage Systems. Proceedings of the 15th Workshop on Hot Topics in Operating Systems (HotOS 2015). May 2015. On verifying functional properties of filesystems in the presence of failures, using proof assistants",
+                            "key": 1
+                        },
+                      {
+                        "id": 141,
+                        "content": "Adam Chlipala. Position Paper: Thoughts on Programming with Proof Assistants. Proceedings of the Programming Languages meets Program Verification Workshop (PLPV 2006). August 2006. Some thoughts on how Coq is actually in pretty good shape to use today for non-trivial programming with dependent types",
+                        "key": 2
+                      },
+                      {
+                        "id": 142,
+                        "content": "Adam Chlipala, George C. Necula. Cooperative Integration of an Interactive Proof Assistant and an Automated Prover. Proceedings of the 6th International Workshop on Strategies in Automated Deduction (STRATEGIES 2006). August 2006. We show how to combine the interactive proof assistant Coq and the Nelson-Oppen-style automated first-order theorem prover Kettle in a synergistic way. We do this with a Kettle tactic for Coq that uses theory-specific reasoning to simplify goals based on automatically chosen case analyses, returning to the user as subgoals the cases it couldn't prove automatically. The process can then be repeated recursively, using Coq's tactical language as a very expressive extension of the matching strategies found in provers like Simplify. We also discuss how to encode specialized first-order proofs efficiently in Coq using proof by reflection.",
+                        "key": 3
+                      },
+                      {
+                        "id": 143,
+                        "content": "Bor-Yuh Evan Chang, Adam Chlipala, George C. Necula, Robert R. Schneck. The Open Verifier Framework for Foundational Verifiers. Proceedings of the 2nd ACM SIGPLAN Workshop on Types in Language Design and Implementation (TLDI 2005). January 2005. We propose a new framework for the construction of trustworthy program verifiers. The Open Verifier architecture can be viewed as an optimized Foundational Proof-Carrying Code toolkit. Instead of proposing that code producers send proofs of safety with all of their programs, we instead suggest that they send re-usable proof-generating verifiers. The proofs are generated in an online fashion via a novel interaction scheme between the untrusted verifier and the trusted core of the system.",
+                        "key": 4
+                      },
+                      {
+                        "id": 144,
+                        "content": "Bor-Yuh Evan Chang, Adam Chlipala, George C. Necula, Robert R. Schneck. Type-Based Verification of Assembly Language for Compiler Debugging. Proceedings of the 2nd ACM SIGPLAN Workshop on Types in Language Design and Implementation (TLDI 2005). January 2005. A new approach to checking assembly programs in a way similar to that used in the Java Bytecode Verifier. We introduce a novel mixed type/value technique that makes it tractable to deal with some of the \"dependent typing\" issues that come up. We also present results on using this technique to help students in an undergraduate compilers class debug their class projects.",
+                        "key": 5
+                      },
+                      {
+                        "id": 145,
+                        "content": "Adam Chlipala, Leaf Petersen, Robert Harper. Strict Bidirectional Type Checking. Proceedings of the 2nd ACM SIGPLAN Workshop on Types in Language Design and Implementation (TLDI 2005). January 2005. We present a type system that is useful in saving type annotation space in intermediate language terms expressed in the restricted form called \"A-normal form\" or \"one-half CPS.\" Our approach imports ideas from strict logic, which is based on the idea of hypotheses that must be used at least once. The resulting system is relevant to the efficiency of type-preserving compilers.",
+                        "key": 6
+                      }
+                    ]
+                },
+              {
+                "id": 146,
+                "content": "Refereed poster sessions (1). Adam Chlipala. Developing Certified Program Verifiers with a Proof Assistant. Proceedings of the International Workshop on Proof-Carrying Code (PCC 2006). August 2006. A poster about certified program verifiers in Coq",
+                "key": 4
+              },
+              {
+                "id": 147,
+                "content": "Invited conference papers (1). Dirk Beyer, Adam J. Chlipala, Thomas Henzinger, Ranjit Jhala, Rupak Majumdar. The Blast Query Language for Software Verification. Proceedings of the 11th Static Analysis Symposium (SAS 2004), Lecture Notes in Computer Science 3148, Springer-Verlag. August 2004. We describe a system that combines security automaton-based program specification with a facility for relational-style queries about the possible execution paths of a program.",
+                "key": 5
+              },
+              {
+                "id": 148,
+                "content": "Technical reports (5)",
+                "key": 6,
+                "children": [
+                  {
+                    "id": 149,
+                    "content": "Adam Chlipala. Generic Programming and Proving for Programming Language Metatheory. Technical Report UCB/EECS-2007-147. 2007. How to do dependently-typed generation of proofs about programming language syntax and semantics",
+                    "key": 1
+                  },
+                  {
+                    "id": 150,
+                    "content": "Adam Chlipala. Implementing Certified Programming Language Tools in Dependent Type Theory. Technical Report UCB/EECS-2007-113. 2007. My PhD dissertation, re-presenting the work on certified program verifiers (from ICFP 2006) and certified compilers (from PLDI 2007)",
+                    "key": 2
+                  },
+                  {
+                    "id": 151,
+                    "content": "Adam Chlipala. Scrap Your Web Application Boilerplate, or Metaprogramming with Row Types. Technical Report UCB/EECS-2006-120. 2006. An overview of a work-in-progress functional programming language that puts dependent types and theorem proving to work to make it easier to write concise and maintainable web applications",
+                    "key": 3
+                  },
+                  {
+                    "id": 152,
+                    "content": "Bor-Yuh Evan Chang, Adam Chlipala, George C. Necula. A Framework for Certified Program Analysis and Its Applications to Mobile-Code Safety. Technical Report UCB/ERL M05/32. UC Berkeley EECS Department. 2005. This is an extended version of our VMCAI 2006 paper, containing a formalization of our model extraction procedure and additional examples.",
+                    "key": 4
+                  },
+                  {
+                    "id": 153,
+                    "content": "Adam Chlipala. An Untrusted Verifier for Typed Assembly Language. MS Project Report. Technical Report UCB/ERL M04/41. UC Berkeley EECS Department. 2004. A summary of my experiences developing a proof-generating TAL type checker within the Open Verifier framework. In the style of Foundational PCC, the soundness of this verifier and the proofs it generates is based on no assumptions about the TAL type system. This was one of the first projects to consider the runtime performance of Foundational PCC-style verification.",
+                    "key": 5
+                  }
+                ]
+              }
+            ]
+        }
+    ]
+}

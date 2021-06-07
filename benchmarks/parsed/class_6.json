@@ -1,0 +1,773 @@
+{
+    "id": 0,
+    "content": "UW CSE373, Fall 2013",
+    "children": [
+        {
+            "id": 1,
+            "content": "CSE373: Data Structures and Algorithms, Fall 2013",
+            "key": 1,
+            "children": [
+                {
+                    "id": 2,
+                    "content": "Course Info",
+                    "key": 1
+                },
+                {
+                    "id": 3,
+                    "content": "Course Information and Policies",
+                    "key": 2,
+                    "children": [
+                        {
+                            "id": 4,
+                            "content": "",
+                            "isList": true,
+                            "key": 1,
+                            "children": [
+                                {
+                                    "id": 5,
+                                    "content": "Policies on Collaboration and Academic Integrity",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 6,
+                                    "content": "Policies on Grading",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 7,
+                                    "content": "Programming Guidelines",
+                                    "key": 3
+                                },
+                                {
+                                    "id": 8,
+                                    "content": "Written-Homework Guidelines",
+                                    "key": 4
+                                },
+                                {
+                                    "id": 9,
+                                    "content": "First-Day Handout",
+                                    "key": 5
+                                },
+                                {
+                                    "id": 10,
+                                    "content": "Gradebook",
+                                    "key": 6
+                                }
+                            ]
+                        },
+                        {
+                          "id": 11,
+                          "content": "Lecture:",
+                          "key": 2,
+                          "children": [
+                            {
+                              "id": 12,
+                              "content": "Monday, Wednesday, Friday 2:30 - 3:20 EEB 105",
+                              "key": 1
+                            }
+                          ]
+                        },
+                      {
+                        "id": 13,
+                        "content": "Optional TA - led meetings: Tuesday 3:30 - 4:30 EEB 037 and Thursday 4:30 - 5:30 EEB 037   Optional TA - led meetings will be held most but not all weeks and will be announced in advance",
+                        "key": 3
+                      },
+                      {
+                        "id": 14,
+                        "content": "Office Hours:",
+                        "key": 4,
+                        "children": [
+                          {
+                            "id": 15,
+                            "content": "Dan Grossman, Allen Center 574, Tuesday 9 - 10AM + by appointment + try stopping by",
+                            "key": 1
+                          }
+                        ]
+                      },
+                      {
+                        "id": 16,
+                        "content": "Sam Wilson, Allen Center 220, Monday 11:30AM - 12:30PM   Nicholas Shahan, Allen Center 021 (basement), Tuesday 1:30 - 2:30PM   Sam Wilson, Allen Center 220, Wednesday 11:30AM - 12:30PM   Conrad Nied, Allen Center 220, Thursday 9:30 - 10:30AM   Jasmine Singh, Allen Center 220, Thursday 2:30 - 3:30PM   Conrad Nied, Allen Center 218, Friday 10:30 - 11:30AM   Luyi Lu, Allen Center 218, Friday 1:30 - 2:30PM",
+                        "key": 5
+                      },
+                      {
+                        "id": 17,
+                        "content": "Contact Info",
+                        "key": 6
+                      }
+                    ]
+                },
+              {
+                "id": 18,
+                "content": "Contact Information",
+                "key": 3,
+                "children": [
+                  {
+                    "id": 19,
+                    "content": "Course Email List (mandatory):",
+                    "key": 1,
+                    "children": [
+                      {
+                        "id": 20,
+                        "content": "You should receive email sent to the course mailing list regularly, roughly at least once a day. Any important announcements will be sent to this list.",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 21,
+                    "content": "Email sent to cse373-staff@ cs .washington.edu ( not @u...) will reach the instructor and all the TAs. For questions multiple staff members can answer, please use this email so that you get a quicker reply and the whole staff is aware of points of confusion.",
+                    "key": 2
+                  },
+                  {
+                    "id": 22,
+                    "content": "Course staff:",
+                    "key": 3,
+                    "children": [
+                      {
+                        "id": 23,
+                        "content": "All staff: cse373-staff@ cs .washington.edu ( not @u...)   Instructor: Dan Grossman, djg@ cs .washington.edu, not @u...   TA: Luyi Lu, luluyi@ cs .washington.edu, not @u...   TA: Conrad Nied, anied@ cs .washington.edu, not @u...   TA: Nicholas Shahan, nshahan@ cs .washington.edu, not @u...   TA: Jasmine Singh, jsingh4@ cs .washington.edu, not @u...   TA: Sam Wilson, samw11@ cs .washington.edu, not @u...",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 24,
+                    "content": "Course Discussion Board (optional but encouraged)",
+                    "key": 4
+                  },
+                  {
+                    "id": 25,
+                    "content": "Anonymous Feedback (goes only to the instructor)",
+                    "key": 5
+                  },
+                  {
+                    "id": 26,
+                    "content": "Lectures",
+                    "key": 6
+                  }
+                ]
+              },
+              {
+                "id": 27,
+                "content": "Lecture Materials",
+                "key": 4,
+                "children": [
+                  {
+                    "id": 28,
+                    "content": "Material in the future naturally subject to change in terms of coverage or schedule",
+                    "key": 1
+                  },
+                  {
+                    "id": 29,
+                    "content": "",
+                    "isList": true,
+                    "key": 2,
+                    "children": [
+                      {
+                        "id": 30,
+                        "content": "1. Sep 25: Course Introduction; ADTs; Stacks and Queues pptx pdf1up pdf6up",
+                        "key": 1
+                      },
+                      {
+                        "id": 31,
+                        "content": "2. Sep 27: Math Review; Algorithm Analysis pptx pdf1up pdf6up xlsx",
+                        "key": 2
+                      },
+                      {
+                        "id": 32,
+                        "content": "3. Sep 30-Oct 2: Asymptotic Analysis pptx pdf1up pdf6up xlsx",
+                        "key": 3
+                      },
+                      {
+                        "id": 33,
+                        "content": "4. Oct 4-7: Dictionaries; Binary Search Trees pptx pdf1up pdf6up",
+                        "key": 4
+                      },
+                      {
+                        "id": 34,
+                        "content": "5. Oct 9-11: AVL Trees pptx pdf1up pdf6up xlsx   Optional slides not discussed in class for AVL deletion: pptx pdf1up pdf6up",
+                        "key": 5
+                      },
+                      {
+                        "id": 35,
+                        "content": "6. Oct 11-14: Priority Queues pptx pdf1up pdf6up",
+                        "key": 6
+                      },
+                      {
+                        "id": 36,
+                        "content": "7. Oct 14-16: More Binary Heaps pptx pdf1up pdf6up",
+                        "key": 7
+                      },
+                      {
+                        "id": 37,
+                        "content": "X. Oct 18: Midterm 1",
+                        "key": 8
+                      },
+                      {
+                        "id": 38,
+                        "content": "8. Oct 16-21: Amortized Analysis pptx pdf1up pdf6up",
+                        "key": 9
+                      },
+                      {
+                        "id": 39,
+                        "content": "9. Oct 21-23: Disjoint Sets and Union-Find pptx pdf1up pdf6up",
+                        "key": 10
+                      },
+                      {
+                        "id": 40,
+                        "content": "10. Oct 23-25: Implementing Union-Find pptx pdf1up pdf6up",
+                        "key": 11
+                      },
+                      {
+                        "id": 41,
+                        "content": "11. Oct 25-28: Hash Tables pptx pdf1up pdf6up",
+                        "key": 12
+                      },
+                      {
+                        "id": 42,
+                        "content": "12. Oct 30: Hash Collisions pptx pdf1up pdf6up xslx txt",
+                        "key": 13
+                      },
+                      {
+                        "id": 43,
+                        "content": "13. Nov 1-4: Introduction to Graphs pptx pdf1up pdf6up",
+                        "key": 14
+                      },
+                      {
+                        "id": 44,
+                        "content": "14. Nov 6: Topological Sort and Graph Traversals pptx pdf1up pdf6up",
+                        "key": 15
+                      },
+                      {
+                        "id": 45,
+                        "content": "15. Nov 8: Shortest Paths pptx pdf1up pdf6up",
+                        "key": 16
+                      },
+                      {
+                        "id": 46,
+                        "content": "16. Nov 13: Software-Design Interlude -- Preserving Abstractions pptx pdf1up pdf6up",
+                        "key": 17
+                      },
+                      {
+                        "id": 47,
+                        "content": "X. Nov 15: Midterm 2",
+                        "key": 18
+                      },
+                      {
+                        "id": 48,
+                        "content": "17. Nov 18: Minimum Spanning Trees pptx pdf1up pdf6up",
+                        "key": 19
+                      },
+                      {
+                        "id": 49,
+                        "content": "18. Nov 20, 25: Comparison Sorting pptx pdf1up pdf6up",
+                        "key": 20
+                      },
+                      {
+                        "id": 50,
+                        "content": "19. Nov 22: Locality pdf6up-with-ink-fromclass",
+                        "key": 21
+                      },
+                      {
+                        "id": 51,
+                        "content": "20. Nov 27: Beyond Comparison Sorting pptx pdf1up pdf6up",
+                        "key": 22
+                      },
+                      {
+                        "id": 52,
+                        "content": "21. Dec 2, 4: Introduction to Multithreading and Fork-Join Parallelism pptx pdf1up pdf6up",
+                        "key": 23
+                      },
+                      {
+                        "id": 53,
+                        "content": "22. Dec 4, 6: Parallel Reductions, Maps, and Algorithm Analysis pptx pdf1up pdf6up",
+                        "key": 24
+                      },
+                      {
+                        "id": 54,
+                        "content": "23. Dec 6: Course Victory Lap pptx pdf1up pdf6up",
+                        "key": 25
+                      }
+                    ]
+                  },
+                  {
+                    "id": 55,
+                    "content": "TA Sessions",
+                    "key": 3
+                  }
+                ]
+              },
+              {
+                "id": 56,
+                "content": "Materials from TA Sessions",
+                "key": 5,
+                "children": [
+                  {
+                    "id": 57,
+                    "content": "Optional sections that cover certain topics more in depth from the lectures and may or may not have postable items.",
+                    "key": 1
+                  },
+                  {
+                    "id": 58,
+                    "content": "",
+                    "isList": true,
+                    "key": 2,
+                    "children": [
+                      {
+                        "id": 59,
+                        "content": "1. Oct 01: Eclipse, Java basics, and Sox no pdf JavaClassHierarchy.jpg",
+                        "key": 1
+                      },
+                      {
+                        "id": 60,
+                        "content": "2. Oct 03: Proof by Induction no materials",
+                        "key": 2
+                      },
+                      {
+                        "id": 61,
+                        "content": "3. Oct 08 / 09: Asymptotic Analysis pptx pdf java",
+                        "key": 3
+                      },
+                      {
+                        "id": 62,
+                        "content": "4. Oct 10: AVL Trees no materials",
+                        "key": 4
+                      },
+                      {
+                        "id": 63,
+                        "content": "5. Oct 17: Midterm 1 Review no materials",
+                        "key": 5
+                      },
+                      {
+                        "id": 64,
+                        "content": "6. Oct 24: Pair Programming no materials",
+                        "key": 6
+                      },
+                      {
+                        "id": 65,
+                        "content": "7. Oct 31 / Nov 5: Union Find and Maze Builder pptx pdf",
+                        "key": 7
+                      },
+                      {
+                        "id": 66,
+                        "content": "8. Nov 12: Java Collections pptx pdf",
+                        "key": 8
+                      },
+                      {
+                        "id": 67,
+                        "content": "9. Nov 14: Midterm 2 Review no materials",
+                        "key": 9
+                      },
+                      {
+                        "id": 68,
+                        "content": "10. Nov 19: Abstraction code: zip",
+                        "key": 10
+                      },
+                      {
+                        "id": 69,
+                        "content": "11. Nov 21: JUnit Tests no materials",
+                        "key": 11
+                      },
+                      {
+                        "id": 70,
+                        "content": "12. Dec 09: Final Review notes: docx pdf",
+                        "key": 12
+                      }
+                    ]
+                  },
+                  {
+                    "id": 71,
+                    "content": "Homeworks",
+                    "key": 3
+                  }
+                ]
+              },
+              {
+                "id": 72,
+                "content": "Homework Assignments",
+                "key": 6,
+                "children": [
+                  {
+                    "id": 73,
+                    "content": "Electronic turn-in for programming assignments",
+                    "key": 1
+                  },
+                  {
+                    "id": 74,
+                    "content": "Homework 0: on - line survey worth 0 points, \"due\" Friday September 29",
+                    "key": 2
+                  },
+                  {
+                    "id": 75,
+                    "content": "",
+                    "isList": true,
+                    "key": 3,
+                    "children": [
+                      {
+                        "id": 76,
+                        "content": "Homework 1 due 11PM, Friday October 4",
+                        "key": 1
+                      },
+                      {
+                        "id": 77,
+                        "content": "Homework 2 due in class at the beginning of class (2:30PM), Friday October 11",
+                        "key": 2
+                      },
+                      {
+                        "id": 78,
+                        "content": "Homework 3 due 11PM, Friday October 25",
+                        "key": 3
+                      },
+                      {
+                        "id": 79,
+                        "content": "Homework 4 due 11PM, Thursday November 7",
+                        "key": 4
+                      },
+                      {
+                        "id": 80,
+                        "content": "Homework 5 due 11PM, Tuesday November 26",
+                        "key": 5
+                      },
+                      {
+                        "id": 81,
+                        "content": "Homework 6 due 11PM, Friday December 6",
+                        "key": 6
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 82,
+                "content": "Exams",
+                "key": 7,
+                "children": [
+                  {
+                    "id": 83,
+                    "content": "Midterm 1: Friday October 18 information unsolved solved",
+                    "key": 1
+                  },
+                  {
+                    "id": 84,
+                    "content": "Midterm 2: Friday November 15 information unsolved solved",
+                    "key": 2
+                  },
+                  {
+                    "id": 85,
+                    "content": "Final exam:",
+                    "key": 3,
+                    "children": [
+                      {
+                        "id": 86,
+                        "content": "Tuesday December 10, 2:30 - 4:20PM information unsolved solved",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 87,
+                    "content": "Software/Books",
+                    "key": 4
+                  }
+                ]
+              },
+              {
+                "id": 88,
+                "content": "Software and Textbook Information",
+                "key": 8,
+                "children": [
+                  {
+                    "id": 89,
+                    "content": "The programming assignments will use Java. We will use Java 7 , the most recent version of the language. So if installing Java on your own machine, you can get Java 7 from http://jdk7.java.net/.",
+                    "key": 1
+                  },
+                  {
+                    "id": 90,
+                    "content": "We strongly encourage using the Eclipse IDE , though we will not require this. You can download Eclipse for your own machine from http://eclipse.org/downloads; it is also installed on all the lab machines. Some guidance on getting started with Eclipse is included in Homework 1.",
+                    "key": 2
+                  },
+                  {
+                    "id": 91,
+                    "content": "The textbook is Data Structures and Algorithm Analysis in Java, Mark Allen Weiss, 3rd Edition, 2011, ISBN: 0132576279. Errata is here. Code from the book is here. We will also do our best to support the 2nd Edition, ISBN: 0321370139. Errata for the 2nd edition is here. Code for the 2nd edition is here. The textbook is also available for 4 hour loan at the Engineering library. The textbook often provides a second explanation for material covered in class.",
+                    "key": 3
+                  },
+                  {
+                    "id": 92,
+                    "content": "A Java reference is also strongly recommended. While there are a variety of (more than) sufficient references, we recommend Core Java(TM), Volume I--Fundamentals 9th Edition, Cay S. Horstmann and Gary Cornell, 2002, ISBN: 0137081898.",
+                    "key": 4
+                  },
+                  {
+                    "id": 93,
+                    "content": "For the material on parallelism in lectures 21 and 22 (and much more we did not have time for), see these notes written by the instructor. We covered the material in Sections 2.1-2.3, 3.1-3.3, 3.5 and 4.1-4.3 (except the last two paragraphs of 4.1.3).",
+                    "key": 5
+                  },
+                  {
+                    "id": 94,
+                    "content": "Here are some interesting, usful, and accessible articles related to the course material. These are optional reading that you may find helpful and enriching.",
+                    "key": 6
+                  },
+                  {
+                    "id": 95,
+                    "content": "",
+                    "isList": true,
+                    "key": 7,
+                    "children": [
+                      {
+                        "id": 96,
+                        "content": "The Data-Structure Canon, George V. Neville-Neil",
+                        "key": 1
+                      },
+                      {
+                        "id": 97,
+                        "content": "Bubble Sort:",
+                        "key": 2,
+                        "children": [
+                          {
+                            "id": 98,
+                            "content": "An Archaeological Algorithmic Analysis, Owen Astrachan",
+                            "key": 1
+                          }
+                        ]
+                      },
+                      {
+                        "id": 99,
+                        "content": "Wikipedia:",
+                        "key": 3,
+                        "children": [
+                          {
+                            "id": 100,
+                            "content": "Comparison Sort (follow links to different sorting algorithms to see animations of the algorithms in action)",
+                            "key": 1
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": 101,
+                    "content": "Acknowledgments:",
+                    "key": 8,
+                    "children": [
+                      {
+                        "id": 102,
+                        "content": "Many of the materials posted here and used in the course have been shared and refined by many other instructors and TAs in previous offerings of CSE373, CSE332, and CSE326. This version of the course was particularly based on previous offerings by Ruth Anderson.",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 103,
+                    "content": "Valid CSS! Valid XHTML 1.1",
+                    "key": 9
+                  }
+                ]
+              }
+            ]
+        },
+      {
+        "id": 104,
+        "content": "Grading Policies, CSE373 Fall 2013",
+        "key": 2,
+        "children": [
+          {
+            "id": 105,
+            "content": "Overall course grade",
+            "key": 1,
+            "children": [
+              {
+                "id": 106,
+                "content": "Your overall grade will be determined as follows (subject to change if necessary, but change is unlikely):",
+                "key": 1
+              },
+              {
+                "id": 107,
+                "content": "",
+                "isList": true,
+                "key": 2,
+                "children": [
+                  {
+                    "id": 108,
+                    "content": "Assignments (Written Exercises and Programming Projects): 50%",
+                    "key": 1
+                  },
+                  {
+                    "id": 109,
+                    "content": "Midterm Exam 1: 15%",
+                    "key": 2
+                  },
+                  {
+                    "id": 110,
+                    "content": "Midterm Exam 2: 15%",
+                    "key": 3
+                  },
+                  {
+                    "id": 111,
+                    "content": "Final Exam:",
+                    "key": 4,
+                    "children": [
+                      {
+                        "id": 112,
+                        "content": "20%",
+                        "key": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 113,
+                "content": "We will have approximately one assignment per week. If you find an error in our grading, please bring it to our attention within one week of that item being returned.",
+                "key": 3
+              }
+            ]
+          },
+          {
+            "id": 114,
+            "content": "Late policy",
+            "key": 2,
+            "children": [
+              {
+                "id": 115,
+                "content": "All parts of an assignment must be received by the stated deadline in order for the assignment to be counted as on time. Each student in the class will be given a total of two \"late days\" (a late day is 24 hours of lateness). There are no partial days, so assignments are either on time, 1 day late or 2 days late. Once a student has used all of his or her late days, each successive late day will result in a loss of 20% on the assignment. Note: In the case of written assignments that are due at 2:30pm on Friday, you would need to create an electronic version and email it to us by 2:30pm on Saturday to be considered 1 day late. You may not submit any portion of any assignment more than 3 days after its original due date.",
+                "key": 1
+              },
+              {
+                "id": 116,
+                "content": "Written assignments are due promptly at the beginning of lecture. If you cannot attend lecture, please arrange to turn in your homework earlier to the instructor or have a classmate turn it in for you at the beginning of lecture.",
+                "key": 2
+              },
+              {
+                "id": 117,
+                "content": "Programming projects will be submitted electronically by the deadline announced for each assignment.",
+                "key": 3
+              },
+              {
+                "id": 118,
+                "content": "Occasionally exceptional circumstances occur. If you contact the instructor well in advance of the deadline, we may be able to show more flexibility in some cases.",
+                "key": 4
+              }
+            ]
+          },
+          {
+            "id": 119,
+            "content": "Re-grade Policy",
+            "key": 3,
+            "children": [
+              {
+                "id": 120,
+                "content": "If you have a question about an assignment or exam that was returned to you, please do not hesitate to ask a TA or the instructor about it. Learning from our mistakes is often one of the most memorable ways of learning.",
+                "key": 1
+              },
+              {
+                "id": 121,
+                "content": "If, after discussing your question with a TA or the instructor, you feel that your work was misunderstood or otherwise should be looked at again to see if an appropriate grade was given, please submit a written re-grade request as follows:",
+                "key": 2
+              },
+              {
+                "id": 122,
+                "content": "",
+                "isList": true,
+                "key": 3,
+                "children": [
+                  {
+                    "id": 123,
+                    "content": "Along with the original version of the assignment you wish to have re-graded, include a written summary (which can be neatly handwritten) describing why the work should be looked at again.",
+                    "key": 1
+                  },
+                  {
+                    "id": 124,
+                    "content": "Submit it to the instructor or to a TA.",
+                    "key": 2
+                  },
+                  {
+                    "id": 125,
+                    "content": "Re-grade requests should be submitted within a week of when the assignment was returned.",
+                    "key": 3
+                  }
+                ]
+              },
+              {
+                "id": 126,
+                "content": "When a written assignment, programming project, or test is re-graded, the entire work will be re-graded. This means that while it is possible to gain points, it is also possible to lose points.",
+                "key": 4
+              }
+            ]
+          },
+          {
+            "id": 127,
+            "content": "Grading guidelines for programming assignments",
+            "key": 4,
+            "children": [
+              {
+                "id": 128,
+                "content": "See also Programming Guidelines for the course.",
+                "key": 1
+              },
+              {
+                "id": 129,
+                "content": "For each project the, approximate and subject-to-change grade breakdown is:",
+                "key": 2
+              },
+              {
+                "id": 130,
+                "content": "",
+                "isList": true,
+                "key": 3,
+                "children": [
+                  {
+                    "id": 131,
+                    "content": "Program correctness, compilation:",
+                    "key": 1,
+                    "children": [
+                      {
+                        "id": 132,
+                        "content": "40%",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 133,
+                    "content": "Architecture/design, style, commenting, documentation: 30%",
+                    "key": 2
+                  },
+                  {
+                    "id": 134,
+                    "content": "Writeup/README: 30%",
+                    "key": 3
+                  }
+                ]
+              },
+              {
+                "id": 135,
+                "content": "The reason why \"so few\" points are allocated toward program correctness and error-free compilation is because students who have gotten past CSE143 are accomplished enough to know how to get their code to compile and run against the general input (although testing \"boundary conditions\" is a skill that students should aim for). Program correctness and error-free compilation is neither a fair nor discriminating measurement of project quality.",
+                "key": 4
+              },
+              {
+                "id": 136,
+                "content": "The two biggest discriminating factors among CSE373 students are program design (such as style and architecture) and analysis (the README/writeup), which is why these factors are heavily weighted. CSE373 is a course about data structures and the tradeoffs made during algorithm/data structure/abstraction design, so putting additional weight on program design, and questions about algorithm analysis and weighing tradeoffs, is more in keeping with the course goals.",
+                "key": 5
+              }
+            ]
+          },
+          {
+            "id": 137,
+            "content": "Extra Credit",
+            "key": 5,
+            "children": [
+              {
+                "id": 138,
+                "content": "We will track any extra features you implement (the \"Above and Beyond\" parts). You will not see these affecting your grades for individual projects, but they will be accumulated over all projects and used to bump up borderline grades at the end of the quarter.",
+                "key": 1
+              },
+              {
+                "id": 139,
+                "content": "Valid CSS! Valid XHTML 1.1",
+                "key": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

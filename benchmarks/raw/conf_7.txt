@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>CAV 2020 | 32nd International Conference on Computer-Aided Verification</title>
+<link href="http://gmpg.org/xfn/11" rel="profile"/>
+<link href="http://i-cav.org/2020/xmlrpc.php" rel="pingback"/>
+<!--[if lt IE 9]>
+<script src="http://i-cav.org/2020/wp-content/themes/expound/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link href="//s.w.org" rel="dns-prefetch"/>
+<link href="http://i-cav.org/2020/feed/" rel="alternate" title="CAV 2020 » Feed" type="application/rss+xml"/>
+<link href="http://i-cav.org/2020/comments/feed/" rel="alternate" title="CAV 2020 » Comments Feed" type="application/rss+xml"/>
+<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/i-cav.org\/2020\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.5"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link href="http://i-cav.org/2020/wp-includes/css/dist/block-library/style.min.css?ver=5.2.5" id="wp-block-library-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="http://i-cav.org/2020/wp-content/themes/expound/style.css?ver=20140129" id="expound-style-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="http://i-cav.org/2020/wp-json/" rel="https://api.w.org/"/>
+<link href="http://i-cav.org/2020/xmlrpc.php?rsd" rel="EditURI" title="RSD" type="application/rsd+xml"/>
+<link href="http://i-cav.org/2020/wp-includes/wlwmanifest.xml" rel="wlwmanifest" type="application/wlwmanifest+xml"/>
+<meta content="WordPress 5.2.5" name="generator"/>
+<link href="http://i-cav.org/2020/" rel="canonical"/>
+<link href="http://i-cav.org/2020/" rel="shortlink"/>
+<link href="http://i-cav.org/2020/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fi-cav.org%2F2020%2F" rel="alternate" type="application/json+oembed"/>
+<link href="http://i-cav.org/2020/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fi-cav.org%2F2020%2F&amp;format=xml" rel="alternate" type="text/xml+oembed"/>
+<style type="text/css">
+	        .site-title a,
+        .site-title a:hover,
+        .site-description {
+			color: #3a3a3a;
+        }
+	
+			.site-header .site-branding {
+			background-color: transparent;
+			background-image: url('http://i-cav.org/2020/wp-content/uploads/2019/08/cropped-iStock-1059326212_blue-2.jpg');
+			background-position: 50% 0;
+			background-repeat: no-repeat;
+			height: 203px;
+		}
+		</style>
+</head>
+<body class="home page-template-default page page-id-15">
+<div class="hfeed site" id="page">
+<header class="site-header" id="masthead" role="banner">
+<div class="site-branding">
+<div class="site-title-group">
+<h1 class="site-title"><a href="http://i-cav.org/2020/" rel="home" title="CAV 2020">CAV 2020</a></h1>
+<h2 class="site-description">32nd International Conference on Computer-Aided Verification</h2>
+</div>
+</div>
+<nav class="navigation-main" id="site-navigation" role="navigation">
+<h1 class="menu-toggle">Menu</h1>
+<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+<div class="menu-main-container"><ul class="menu" id="menu-main"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-15 current_page_item menu-item-227" id="menu-item-227"><a aria-current="page" href="http://i-cav.org/2020/">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-250" id="menu-item-250"><a href="http://i-cav.org/2020/organization/">Organization</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-394" id="menu-item-394"><a href="http://i-cav.org/2020/keynotes/">Keynotes</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-395" id="menu-item-395"><a href="http://i-cav.org/2020/tutorials/">Tutorials</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-432" id="menu-item-432"><a href="http://i-cav.org/2020/workshops-2/">Workshops</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-249" id="menu-item-249"><a href="http://i-cav.org/2020/call-for-papers/">Call for Papers</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-366" id="menu-item-366"><a href="http://i-cav.org/2020/call-for-workshops/">Call for Workshops</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-246" id="menu-item-246"><a href="http://i-cav.org/2020/cav-award/">CAV Award</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-251" id="menu-item-251"><a href="http://i-cav.org/2020/fellowships/">Fellowships</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-417" id="menu-item-417"><a href="http://i-cav.org/2020/mentoring/">Mentoring</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-514" id="menu-item-514"><a href="http://i-cav.org/2020/code-of-conduct/">Code of Conduct</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-245" id="menu-item-245"><a href="http://i-cav.org/2020/venue/">Venue</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-252" id="menu-item-252"><a href="http://i-cav.org/2020/accommodation/">Accommodation</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-419" id="menu-item-419"><a href="http://i-cav.org/cavlinks/">CAVlinks</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-445" id="menu-item-445"><a href="http://i-cav.org/2020/artifact-evaluation/">Artifact Evaluation</a></li>
+</ul></div> </nav><!-- #site-navigation -->
+</header><!-- #masthead -->
+<div class="site-main" id="main">
+<div class="content-area" id="primary">
+<div class="site-content" id="content" role="main">
+<article class="post-15 page type-page status-publish hentry" id="post-15">
+<header class="entry-header">
+<h1 class="entry-title">About</h1>
+</header><!-- .entry-header -->
+<div class="entry-content">
+<p>CAV 2020 is the 32nd in a series dedicated to the advancement of the theory and practice of computer-aided formal analysis methods for hardware and software systems. The conference will take place July 19-24, 2020 in Los Angeles, California, USA.</p>
+<p>The conference covers the spectrum from theoretical results to concrete applications, with an emphasis on practical verification tools and the algorithms and techniques that are needed for their implementation. CAV considers it vital to continue spurring advances in hardware and software verification while expanding to new domains such as biological systems and computer security. The proceedings of the conference will be published in the Springer-Verlag <a href="https://link.Springer.com/conference/cav">Lecture Notes in Computer Science</a> series. A selection of papers is expected to be invited to a special issue of <a href="http://link.Springer.com/journal/10703">Formal Methods in System Design</a> and the <a href="http://jacm.acm.org/">Journal of the ACM</a>.</p>
+<p>See information of <a href="http://i-cav.org/home">CAV from previous years</a>. </p>
+<p>This year, CAV will be co-located with <a href="https://conf.researchr.org/home/issta-2020">ISSTA 2020</a>  — the last time these two conferences were co-located was in 2004!</p>
+<p></p>
+</div><!-- .entry-content -->
+</article><!-- #post-## -->
+</div><!-- #content -->
+</div><!-- #primary -->
+<div class="widget-area" id="secondary" role="complementary">
+<aside class="widget widget_media_image" id="media_image-5"><h1 class="widget-title">Silver Sponsors</h1><a href="https://www.denso.com/global/en/"><img alt="" class="image wp-image-511 attachment-200x96 size-200x96" height="96" sizes="(max-width: 200px) 100vw, 200px" src="http://i-cav.org/2020/wp-content/uploads/2020/03/DENSO-300x144.png" srcset="http://i-cav.org/2020/wp-content/uploads/2020/03/DENSO-300x144.png 300w, http://i-cav.org/2020/wp-content/uploads/2020/03/DENSO.png 324w" style="max-width: 100%; height: auto;" title="Silver Sponsors" width="200"/></a></aside><aside class="widget widget_media_image" id="media_image-7"><a href="http://www.utrc.utc.com/"><img alt="" class="image wp-image-516 attachment-200x36 size-200x36" height="36" sizes="(max-width: 200px) 100vw, 200px" src="http://i-cav.org/2020/wp-content/uploads/2020/03/UTRC-300x54.png" srcset="http://i-cav.org/2020/wp-content/uploads/2020/03/UTRC-300x54.png 300w, http://i-cav.org/2020/wp-content/uploads/2020/03/UTRC.png 427w" style="max-width: 100%; height: auto;" width="200"/></a></aside><aside class="widget widget_media_image" id="media_image-3"><h1 class="widget-title">Bronze Sponsors</h1><a href="https://www.oskitechnology.com/"><img alt="" class="image wp-image-486 attachment-150x65 size-150x65" height="65" sizes="(max-width: 150px) 100vw, 150px" src="http://i-cav.org/2020/wp-content/uploads/2020/03/oski-technology-logo_webready-300x130.jpg" srcset="http://i-cav.org/2020/wp-content/uploads/2020/03/oski-technology-logo_webready-300x130.jpg 300w, http://i-cav.org/2020/wp-content/uploads/2020/03/oski-technology-logo_webready.jpg 480w" style="max-width: 100%; height: auto;" title="Bronze Sponsors" width="150"/></a></aside> </div><!-- #secondary -->
+</div><!-- #main -->
+<footer class="site-footer" id="colophon" role="contentinfo">
+<div class="site-info">
+<a href="http://wordpress.org/" rel="generator">Proudly powered by WordPress</a><span class="sep"> | </span>Theme: Expound by <a href="http://kovshenin.com/" rel="designer">Konstantin Kovshenin</a> </div><!-- .site-info -->
+</footer><!-- #colophon -->
+</div><!-- #page -->
+<script src="http://i-cav.org/2020/wp-content/themes/expound/js/navigation.js?ver=20120206" type="text/javascript"></script>
+<script src="http://i-cav.org/2020/wp-content/themes/expound/js/skip-link-focus-fix.js?ver=20130115" type="text/javascript"></script>
+<script src="http://i-cav.org/2020/wp-includes/js/wp-embed.min.js?ver=5.2.5" type="text/javascript"></script>
+<div class="page-template-default page page-id-27">
+<div class="hfeed site" id="page">
+<header class="site-header" id="masthead" role="banner">
+<div class="site-branding">
+<div class="site-title-group">
+<h1 class="site-title"><a href="http://i-cav.org/2020/" rel="home" title="CAV 2020">CAV 2020</a></h1>
+<h2 class="site-description">32nd International Conference on Computer-Aided Verification</h2>
+</div>
+</div>
+<!-- #site-navigation -->
+</header><!-- #masthead -->
+<div class="site-main" id="main">
+<div class="content-area" id="primary">
+<div class="site-content" id="content" role="main">
+<article class="post-27 page type-page status-publish hentry" id="post-27">
+<header class="entry-header">
+<h1 class="entry-title">Call for Papers</h1>
+</header><!-- .entry-header -->
+<div class="entry-content">
+<h2>CAV 2020: 32nd International Conference on Computer-Aided Verification</h2>
+<p>July 19-24 2020, Los Angeles, USA</p>
+<h2>Important Dates</h2>
+<p>All deadlines are AOE (Anywhere on Earth).</p>
+<h3>Papers</h3>
+<table>
+<tbody>
+<tr>
+<td width="40%">Paper submission:</td>
+<td width="60%">January 28, 2020 <b>(firm)</b></td>
+</tr>
+<tr>
+<td width="40%">Rebuttal period:</td>
+<td width="60%">March 12-16, 2020</td>
+</tr>
+<tr>
+<td width="40%">Author notification:</td>
+<td width="60%"><span style="color: #ff6600;"><del>April 3, 2020</del> </span>April 6, 2020</td>
+</tr>
+<tr>
+<td width="40%">Artifact submission for full papers:</td>
+<td width="60%">April 14, 2020</td>
+</tr>
+<tr>
+<td width="40%">Artifact notification:</td>
+<td width="60%">May 10, 2020</td>
+</tr>
+<tr>
+<td width="40%">Final version due:</td>
+<td width="60%">May 15, 2020</td>
+</tr>
+</tbody>
+</table>
+<h3>CAV Award</h3>
+<table>
+<tbody>
+<tr>
+<td width="40%">Nomination deadline:</td>
+<td width="60%">February 20, 2020</td>
+</tr>
+</tbody>
+</table>
+<h3>Conference</h3>
+<table>
+<tbody>
+<tr>
+<td width="40%">Workshops:</td>
+<td width="60%">July 19-20, 2020</td>
+</tr>
+<tr>
+<td width="40%">Tutorials:</td>
+<td width="60%">July 20, 2020</td>
+</tr>
+<tr>
+<td width="40%">Main conference:</td>
+<td width="60%">July 21-24, 2020</td>
+</tr>
+</tbody>
+</table>
+<h2>Scope</h2>
+<p>CAV 2020 is the 32nd in a series dedicated to the advancement of the theory and practice of computer-aided formal analysis methods for hardware and software systems. The conference covers the spectrum from theoretical results to concrete applications, with an emphasis on practical verification tools and the algorithms and techniques that are needed for their implementation. CAV considers it vital to continue spurring advances in hardware and software verification while expanding to new domains such as machine learning, autonomous systems, and computer security. The proceedings of the conference will be published in the Springer-Verlag Lecture Notes in Computer Science series. A selection of papers is expected to be invited to a special issue of Formal Methods in System Design and the Journal of the ACM.</p>
+<p>CAV 2020 will take place in Los Angeles, California, USA.</p>
+<p>Topics of interest include but are not limited to:</p>
+<ul style="list-style-type: disc;">
+<li>Algorithms and tools for verifying models and implementations</li>
+<li>Algorithms and tools for system synthesis</li>
+<li>Algorithms and tools that combine verification and learning</li>
+<li>Mathematical and logical foundations of verification and synthesis</li>
+<li>Specifications and correctness criteria for programs and systems</li>
+<li>Deductive verification using proof assistants</li>
+<li>Hardware verification techniques</li>
+<li>Program analysis and software verification</li>
+<li>Software synthesis</li>
+<li>Hybrid systems and embedded systems verification</li>
+<li>Formal methods for cyber-physical systems</li>
+<li>Compositional and abstraction-based techniques for verification</li>
+<li>Probabilistic and statistical approaches to verification</li>
+<li>Verification methods for parallel and concurrent systems</li>
+<li>Testing and run-time analysis based on verification technology</li>
+<li>Decision procedures and solvers for verification and synthesis</li>
+<li>Applications and case studies in verification and synthesis</li>
+<li>Verification in industrial practice</li>
+<li>New application areas for algorithmic verification and synthesis</li>
+<li>Formal models and methods for security</li>
+<li>Formal models and methods for biological systems</li>
+</ul>
+<p>Submissions on a wide range of topics are sought, particularly ones that identify new research directions. CAV 2020 is not limited to topics discussed in previous instances of the conference. Authors concerned about the appropriateness of a topic may communicate with the conference chairs prior to submission.</p>
+<h2>Program Committee</h2>
+<p>See <a href="http://cavconference.org/2020/organization/" rel="noopener noreferrer" target="_blank">http://cavconference.org/2020/organization/</a>.</p>
+<h2>CAV Award</h2>
+<p>The CAV award is given annually at the CAV conference for fundamental contributions to the field of Computer-Aided Verification.</p>
+<p>CAV Award Nomination deadline: February 20, 2020</p>
+<p>For details about the CAV award nomination, please see the following page: <a href="http://i-cav.org/2020/cav-award/" rel="noopener noreferrer" target="_blank">http://i-cav.org/2020/cav-award/</a>.</p>
+<h2>Paper Submission</h2>
+<p><span style="font-weight: 400;">Paper submissions in CAV Fall into one of the following three categories (see more information below): </span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Regular Papers (20 pages max, </span><b>must be anonymized</b><span style="font-weight: 400;">)</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Tool Papers  (10 pages max, not anonymized,</span><b> artifact submission required with paper</b><span style="font-weight: 400;">) </span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Industrial Experience Reports &amp; Case Studies. (10 pages max, not anonymized)</span></li>
+</ul>
+<p><span style="font-weight: 400;">Papers in all three categories must be submitted by</span><b> January 28, 2020 AOE</b><span style="font-weight: 400;">, and should be in </span><a href="http://www.Springer.com/gp/computer-science/lncs/conference-proceedings-guidelines"><span style="font-weight: 400;">LNCS format</span></a><span style="font-weight: 400;">. Simultaneous submission to other conferences with proceedings or submission of material that has already been published elsewhere is not allowed. The review process will include a feedback/rebuttal period where authors will have the option to respond to reviewer comments. The PC chairs may solicit further reviews after the rebuttal period.</span></p>
+<p>Submission site: <a href="https://easychair.org/conferences/?conf=cav2020">https://easychair.org/conferences/?conf=cav2020</a> (opens January 2020).</p>
+<h3>Regular Papers</h3>
+<p>Regular Papers should not exceed 20 pages in LNCS format, not counting references and appendices.</p>
+<p><span style="font-weight: 400;">Regular papers at CAV 2020 will follow a </span><b>full double blind</b><span style="font-weight: 400;"> review process, which </span><span style="font-weight: 400;">means that author names and affiliations must be omitted from the submission. Additionally, if a submission refers to prior work done by the authors, the reference should be made in the third person. These are firm submission requirements, and any regular paper that does not conform to these requirements will be </span><b>rejected without review</b><span style="font-weight: 400;">.</span></p>
+<p><span style="color: #999999;"><em>We do not discourage authors to put their submission on arXiv, but we strongly encourage authors to not put the work on arXiv around (within 1 week) or shortly after (within 1 month) the submission deadline, because potential reviewers may be subscribed to receive updates on recently posted papers.</em> </span></p>
+<p><span style="font-weight: 400;">Authors can include a clearly marked appendix at the end of their submissions that is exempt from the page limit restrictions. However, the reviewers are not obliged to read the contents of these appendices. These papers should contain original research and sufficient detail to assess the merits and relevance of the contribution. Papers will be evaluated on basis of a combination of correctness, technical depth, significance, novelty, clarity, and elegance. </span></p>
+<p>Authors of accepted regular papers will be invited (but are not required) to submit the relevant artifact for evaluation by the artifact evaluation committee.</p>
+<h3>Tool Papers</h3>
+<p><span style="font-weight: 400;">Tool Papers should not exceed 10 pages, not counting references. </span><b>Tool papers require the submission of an artifact for evaluation by the paper submission deadline.</b></p>
+<p><span style="font-weight: 400;">Tool papers should describe system and implementation aspects of a tool with a large (potential) user base (experiments not required, rehash of theory strongly discouraged). Papers describing tools that have already been presented (in any conference) will be accepted only if significant and clear enhancements to the tool are reported and implemented. </span></p>
+<p><span style="font-weight: 400;">Artifacts must be submitted separately in the artifact evaluation track (in addition to the manuscript, which needs to be submitted in the main track). In special cases, where an artifact cannot be submitted, the authors should contact the Artifact Evaluation Chairs to find alternate modes of artifact evaluation.</span></p>
+<p><span style="font-weight: 400;">Artifacts will be evaluated concurrently with the review process and the program committee will have access to the artifact evaluation while making their decision.</span></p>
+<h3>Industrial Experience Reports and Case Studies</h3>
+<p><span style="font-weight: 400;">Industrial Experience Reports and Case Studies should not exceed 10 pages, not counting references.</span></p>
+<p><span style="font-weight: 400;">These papers are expected to describe the use of formal methods techniques in industrial settings or in new application domains. Papers in this category do not necessarily need to present original research results but are expected to contain novel applications of formal methods techniques as well as an evaluation of these techniques in the chosen application domain. Such papers are encouraged to discuss the unique challenges of transferring research ideas to a real-world setting and reflect on any lessons learned from this technology transfer experience.</span></p>
+<p></p>
+</div><!-- .entry-content -->
+</article><!-- #post-## -->
+</div><!-- #content -->
+</div><!-- #primary -->
+<div class="widget-area" id="secondary" role="complementary">
+<aside class="widget widget_media_image" id="media_image-5"><h1 class="widget-title">Silver Sponsors</h1><a href="https://www.denso.com/global/en/"><img alt="" class="image wp-image-511 attachment-200x96 size-200x96" height="96" sizes="(max-width: 200px) 100vw, 200px" src="http://i-cav.org/2020/wp-content/uploads/2020/03/DENSO-300x144.png" srcset="http://i-cav.org/2020/wp-content/uploads/2020/03/DENSO-300x144.png 300w, http://i-cav.org/2020/wp-content/uploads/2020/03/DENSO.png 324w" style="max-width: 100%; height: auto;" title="Silver Sponsors" width="200"/></a></aside><aside class="widget widget_media_image" id="media_image-7"><a href="http://www.utrc.utc.com/"><img alt="" class="image wp-image-516 attachment-200x36 size-200x36" height="36" sizes="(max-width: 200px) 100vw, 200px" src="http://i-cav.org/2020/wp-content/uploads/2020/03/UTRC-300x54.png" srcset="http://i-cav.org/2020/wp-content/uploads/2020/03/UTRC-300x54.png 300w, http://i-cav.org/2020/wp-content/uploads/2020/03/UTRC.png 427w" style="max-width: 100%; height: auto;" width="200"/></a></aside><aside class="widget widget_media_image" id="media_image-3"><h1 class="widget-title">Bronze Sponsors</h1><a href="https://www.oskitechnology.com/"><img alt="" class="image wp-image-486 attachment-150x65 size-150x65" height="65" sizes="(max-width: 150px) 100vw, 150px" src="http://i-cav.org/2020/wp-content/uploads/2020/03/oski-technology-logo_webready-300x130.jpg" srcset="http://i-cav.org/2020/wp-content/uploads/2020/03/oski-technology-logo_webready-300x130.jpg 300w, http://i-cav.org/2020/wp-content/uploads/2020/03/oski-technology-logo_webready.jpg 480w" style="max-width: 100%; height: auto;" title="Bronze Sponsors" width="150"/></a></aside> </div><!-- #secondary -->
+</div><!-- #main -->
+<footer class="site-footer" id="colophon" role="contentinfo">
+<div class="site-info">
+<a href="http://wordpress.org/" rel="generator">Proudly powered by WordPress</a><span class="sep"> | </span>Theme: Expound by <a href="http://kovshenin.com/" rel="designer">Konstantin Kovshenin</a> </div><!-- .site-info -->
+</footer><!-- #colophon -->
+</div><!-- #page -->
+
+
+
+</div><div class="page-template-default page page-id-23">
+<div class="hfeed site" id="page">
+<header class="site-header" id="masthead" role="banner">
+<div class="site-branding">
+<div class="site-title-group">
+<h1 class="site-title"><a href="http://i-cav.org/2020/" rel="home" title="CAV 2020">CAV 2020</a></h1>
+<h2 class="site-description">32nd International Conference on Computer-Aided Verification</h2>
+</div>
+</div>
+<!-- #site-navigation -->
+</header><!-- #masthead -->
+<div class="site-main" id="main">
+<div class="content-area" id="primary">
+<div class="site-content" id="content" role="main">
+<article class="post-23 page type-page status-publish hentry" id="post-23">
+<header class="entry-header">
+<h1 class="entry-title">Organization</h1>
+</header><!-- .entry-header -->
+<div class="entry-content">
+<p></p>
+<h3>Program Chairs</h3>
+<p><a href="https://www.microsoft.com/en-us/research/people/shuvendu/" rel="noopener noreferrer" target="_blank">Shuvendu Lahiri</a>, Microsoft Research<br/><a href="https://sites.usc.edu/chaowang/">Chao Wang</a>, University of Southern California</p>
+<h3>Workshop Chair</h3>
+<p><a href="https://zvonimir.info/">Zvonimir Rakamaric</a>, University of Utah</p>
+<h3>Sponsorship Chair</h3>
+<p><a href="https://theory.stanford.edu/~barrett/">Clark Barrett</a>, Stanford University</p>
+<h3>Publicity Chair</h3>
+<p><a href="http://www.cs.technion.ac.il/~yvizel/">Yakir Vizel</a>, Technion</p>
+<h3>Fellowship Chair</h3>
+<p><a href="https://cs.nyu.edu/wies/">Thomas Wies</a>, New York University</p>
+<h3>Local Arrangements Chair</h3>
+<p><a href="https://viterbi-web.usc.edu/~jdeshmuk/">Jyotirmoy Deshmukh</a>, University of Southern California</p>
+<h3>Program Committee</h3>
+<p>Aws Albarghouthi, University of Wisconsin-Madison<br/>Jade Alglave, University College London<br/>Christel Baier, TU Dresden<br/>Gogul Balakrishnan, Google<br/>Sorav Bansal, IIT Delhi<br/>Gilles Barthe, Max Planck Institute<br/>Josh Berdine, Facebook<br/>Per Bjesse, Synopsys<br/>Sam Blackshear, Calibra<br/>Roderick Bloem, Graz University of Technology<br/>Borzoo Bonakdarpour, Iowa State University<br/>Ahmed Bouajjani, University Paris Diderot<br/>Tevfik Bultan, UC Santa Barbara<br/>Pavol Cerny, Vienna University of Technology<br/>Sagar Chaki, Mentor Graphics<br/>Swarat Chaudhuri, Rice University<br/>Hana Chockler, King’s College London<br/>Maria Christakis, Max Planck Institute<br/>Eva Darulova, Max Planck Institute<br/>Cristina David, University of Cambridge<br/>Ankush Desai, Amazon<br/>Jyotirmoy Deshmukh, University of Southern California<br/>Cezara Dragoi, INRIA<br/>Kerstin Eder, University of Bristol<br/>Michael Emmi, Amazon<br/>Constantin Enea, University Paris Diderot<br/>Yu Feng, UC Santa Barbara<br/>Lu Feng, University of Virginia<br/>Bernd Finkbeiner, Saarland University<br/>Dana Fisman, Ben-Gurion University<br/>Daniel Fremont, UC Santa Cruz<br/>Malay Ganai, Synopsys<br/>Ganesh Gopalakrishnan, University of Utah<br/>Orna Grumberg, Technion <br/>Arie Gurfinkel, University of Waterloo<br/>Alan Hu, University of British Columbia<br/>Laura Humphrey, Air Force Research Laboratory<br/>Franjo Ivancic, Google<br/>Joxan Jaffar, National University of Singapore<br/>Dejan Jovanović, SRI International<br/>Zachary Kincaid, Princeton University<br/>Laura Kovacs, Vienna University of Technology<br/>Daniel Kroening, University of Oxford<br/>Ori Lahav, Tel Aviv University<br/>Akash Lal, Microsoft<br/>Anthony Lin, TU Kaiserslautern<br/>Yang Liu, Nanyang Technological University<br/>Francesco Logozzo, Facebook<br/>Ruben Martins, Carnegie Mellon University<br/>Anastasia Mavridou, NASA<br/>Jedidiah McClurg, Colorado School of Mines<br/>Ken McMillan, Microsoft<br/>Kuldeep Meel, National University of Singapore<br/>Sayan Mitra, University of Illinois at Urbana-Champaign<br/>Ruzica Piskac, Yale University<br/>Xiaokang Qiu, Purdue University<br/>Mukund Raghothaman, University of Southern California<br/>Jan Reineke, Saarland University<br/>Kristin Rozier, Iowa State University<br/>Philipp Ruemmer, Uppsala University<br/>Krishna Shankaranarayanana, IIT Bombay<br/>Sriram Sankaranarayanan, University of Colorado Boulder<br/>Natarajan Shankar, SRI International<br/>Natasha Sharygina, University of Lugano<br/>Sharon Shoham, Tel Aviv University<br/>Alexandra Silva, University College London<br/>Anna Slobodova, Centaur Technology<br/>Fabio Somenzi, University of Colorado Boulder<br/>Fu Song, ShanghaiTech University<br/>Aditya Thakur, UC Davis<br/>Ashish Tiwari, Microsoft<br/>Aaron Tomb, Galois, Inc.<br/>Ashutosh Trivedi, University of Colorado Boulder<br/>Caterina Urban, INRIA<br/>Niki Vazou, IMDEA<br/>Margus Veanes, Microsoft<br/>Yakir Vizel, Technion<br/>Xinyu Wang, University of Michigan<br/>Georg Weissenbacher, Vienna University of Technology<br/>Fei Xie, Portland State University<br/>Jin Yang, Intel<br/>Naijun Zhan, Chinese Academy of Sciences<br/>He Zhu, Rutgers University</p>
+<h3>Artifact Evaluation Committee</h3>
+<p><a href="https://www.cs.utexas.edu/~xwang/">Xinyu Wang</a>, University of Michigan (co-chair)<br/><a href="http://herowanzhu.github.io/">He Zhu</a>, Rutgers University (co-chair) <br/>Angello Astorga, University of Illinois at Urbana-Champaign <br/>Subarno Banerjee, University of Michigan <br/>Martin Blicha, University of Lugano <br/>Brandon Bohrer, Carnegie Mellon University <br/>Jose Cambronero, Massachusetts Institute of Technology <br/>Joonwon Choi, Massachusetts Institute of Technology <br/>Norine Coenen, Saarland University <br/>Katherine Cordwell, Carnegie Mellon University <br/>Chuchu Fan, Massachusetts Institute of Technology <br/>Yotam Feldman, Tel-Aviv University <br/>Timon Gehr, ETH Zurich <br/>Aman Goel, University of Michigan <br/>Chih-Duo Hong, University of Oxford <br/>Bo-Yuan Huang, Princeton University <br/>Jeevana Priya Inala, Massachusetts Institute of Technology <br/>Samuel Kaufman, University of Washington <br/>Ratan Lal, Kansas State University <br/>Stella Lau, Massachusetts Institute of Technology <br/>Juneyoung Lee, Seoul National University <br/>Enrico Magnago, Fondazione Bruno Kessler <br/>Umang Mathur, University of Illinois at Urbana Champaign <br/>Jedidiah McClurg, University of Colorado Boulder <br/>Sam Merten, Ohio University <br/>Luan Nguyen, University of Pennsylvania <br/>Aina Niemetz, Stanford University <br/>Shankara Pailoor, University of Texas at Austin <br/>Brandon Paulsen, University of Southern California <br/>Mouhammad Sakr, Saarland University <br/>Daniel Selsam, Microsoft Research, Redmond <br/>Jiasi Shen, Massachusetts Institute of Technology <br/>Xujie Si, University of Pennsylvania <br/>Gagandeep Singh, ETH Zurich <br/>Abhinav Verma, Rice University <br/>Di Wang, Carnegie Mellon University <br/>Yuepeng Wang, University of Texas at Austin <br/>Guannan Wei, Purdue University <br/>Zikang Xiong, Purdue University <br/>Klaus von Gleissenthall, University of California San Diego</p>
+<h3>Mentoring Workshop Organizing Committee</h3>
+<p><a href="https://www.cs.purdue.edu/homes/roopsha/">Roopsha Samanta</a>, Purdue University (chair)</p>
+<p></p>
+</div><!-- .entry-content -->
+</article><!-- #post-## -->
+</div><!-- #content -->
+</div><!-- #primary -->
+<div class="widget-area" id="secondary" role="complementary">
+<aside class="widget widget_media_image" id="media_image-5"><h1 class="widget-title">Silver Sponsors</h1><a href="https://www.denso.com/global/en/"><img alt="" class="image wp-image-511 attachment-200x96 size-200x96" height="96" sizes="(max-width: 200px) 100vw, 200px" src="http://i-cav.org/2020/wp-content/uploads/2020/03/DENSO-300x144.png" srcset="http://i-cav.org/2020/wp-content/uploads/2020/03/DENSO-300x144.png 300w, http://i-cav.org/2020/wp-content/uploads/2020/03/DENSO.png 324w" style="max-width: 100%; height: auto;" title="Silver Sponsors" width="200"/></a></aside><aside class="widget widget_media_image" id="media_image-7"><a href="http://www.utrc.utc.com/"><img alt="" class="image wp-image-516 attachment-200x36 size-200x36" height="36" sizes="(max-width: 200px) 100vw, 200px" src="http://i-cav.org/2020/wp-content/uploads/2020/03/UTRC-300x54.png" srcset="http://i-cav.org/2020/wp-content/uploads/2020/03/UTRC-300x54.png 300w, http://i-cav.org/2020/wp-content/uploads/2020/03/UTRC.png 427w" style="max-width: 100%; height: auto;" width="200"/></a></aside><aside class="widget widget_media_image" id="media_image-3"><h1 class="widget-title">Bronze Sponsors</h1><a href="https://www.oskitechnology.com/"><img alt="" class="image wp-image-486 attachment-150x65 size-150x65" height="65" sizes="(max-width: 150px) 100vw, 150px" src="http://i-cav.org/2020/wp-content/uploads/2020/03/oski-technology-logo_webready-300x130.jpg" srcset="http://i-cav.org/2020/wp-content/uploads/2020/03/oski-technology-logo_webready-300x130.jpg 300w, http://i-cav.org/2020/wp-content/uploads/2020/03/oski-technology-logo_webready.jpg 480w" style="max-width: 100%; height: auto;" title="Bronze Sponsors" width="150"/></a></aside> </div><!-- #secondary -->
+</div><!-- #main -->
+<footer class="site-footer" id="colophon" role="contentinfo">
+<div class="site-info">
+<a href="http://wordpress.org/" rel="generator">Proudly powered by WordPress</a><span class="sep"> | </span>Theme: Expound by <a href="http://kovshenin.com/" rel="designer">Konstantin Kovshenin</a> </div><!-- .site-info -->
+</footer><!-- #colophon -->
+</div><!-- #page -->
+
+
+
+</div></body>
+</html>

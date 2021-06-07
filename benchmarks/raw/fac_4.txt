@@ -1,0 +1,500 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Isil Dillig Website</title>
+<meta content="Isil Dillig Website" name="description"/>
+<style media="screen, print, projection" type="text/css"> 
+
+
+	body { font-family: Georgia, serif},
+	
+	html {
+		margin:0;
+		padding:0;
+		color:#000;
+		
+		
+	}
+	#wrap {
+		width:800px;
+		margin:0 auto;
+	}
+	#header {
+		height: 80px;
+		padding:5px 10px;
+		font-family:Georgia, serif;
+		text-align:right;
+		
+		background-image:url('top.png');
+	}
+	a
+	{
+	    color: gray;
+	    font-weight:bold
+	 }
+	h1 {
+	    margin:0;
+    }
+li {
+margin-left: 0;
+margin-right: 10%;
+margin-top: .5em;
+margin-bottom: 25px;
+padding:0px;
+}
+	#nav {
+		padding:5px 10px;
+		background:#2f5701;
+		color:white;
+	}
+	#nav ul {
+		margin:0;
+		padding:0;
+		list-style:none;
+	}
+	#nav li {
+		display:inline;
+		margin:0;
+		padding:0;
+	}
+	#main {
+
+		float:left;
+		width:780px;
+		padding:10px;
+		background:#f5f7f2; 
+	}
+	h1{
+	  font-family: Verdana, Geneva, sans-serif
+	}
+	h2 {
+		margin:0 0 1em;
+	}
+	#section
+	{
+	color: white;
+	background:#2f5701;
+	}
+
+	#footer {
+		clear:both;
+		padding:5px 10px;
+		background:#cc9;
+	}
+	#footer p {
+		margin:0;
+    }
+	* html #footer {
+		height:1px;
+	}
+	</style>
+</head>
+<body>
+<div id="wrap">
+<div id="header"></div>
+<div id="nav">
+<ul>
+<li><a href="#contact"> <b> Contact </b> </a>&amp;nbsp  </li>
+<li><a href="#bio"> <b>Biography </b></a>&amp;nbsp</li>
+<li><a href="#research"><b>Research</b></a>&amp;nbsp</li>
+<li><a href="#teaching"><b>Teaching</b></a>&amp;nbsp</li>
+<li><a href="publications.html"> <b>Publications</b></a>&amp;nbsp</li>
+<li><a href="#service"><b> Service </b></a>&amp;nbsp</li>
+<li><a href="#students"> <b>Students</b></a>&amp;nbsp</li>
+<li><a href="alumni.html"> <b>Alumni</b></a>&amp;nbsp</li>
+<li><a href="#awards"><b>Awards</b></a>&amp;nbsp</li>
+<li><a href="#personal"><b>Personal</b></a>&amp;nbsp</li>
+</ul></div>
+<div id="main">
+<table border="0" cellpadding="15">
+<tr>
+<td>
+<img src="isil-pic8.jpg"/>
+</td>
+<td>
+<h1>Işıl Dillig </h1><br/>
+<a href="#pronunciation"> Pronunciation Guide </a>
+<h3>
+		  
+		   Associate Professor <br/>
+		   of Computer Science <br/>
+		   University of Texas, Austin <br/>
+</h3>
+</td>
+</tr>
+</table>
+<a name="contact"> </a>
+<div id="section">
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+<tr>
+<td width="100%">
+<b>Contact</b>
+</td>
+</tr>
+</table>
+</div>
+<br/>
+<b>E-mail: </b> <a href="mailto:isil@cs.utexas.edu"> isil@cs.utexas.edu </a><br/><br/>
+<b> Address: </b> <br/>
+GDC 5.726 <br/>
+2317 Speedway, M/S D9500 <br/>
+The University of Texas <br/>
+Austin, TX  78712-0233 <br/> <br/>
+<b> Phone number: </b> 512-471-9794 <br/>
+<br/>
+<b> Group webpage: </b> <a href="http://utopia.cs.utexas.edu/"> http://utopia.cs.utexas.edu/ </a>
+<br/><br/>
+<a name="bio"> </a>
+<div id="section">
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+<tr>
+<td width="100%">
+<b>Biographical Sketch</b>
+</td>
+</tr>
+</table>
+</div>
+<p>
+
+I am an associate professor at the <a href="https://www.cs.utexas.edu/"> computer science department </a> of the <a href="http://www.utexas.edu/"> University of Texas at Austin</a> where I lead the <a href="http://utopia.cs.utexas.edu/"> UToPiA research group </a>. My main research interests are program analysis and verification, program synthesis, and automated logical reasoning. 
+I obtained all my degrees (BS, MS, PhD) at <a href="http://www-cs.stanford.edu/"> Stanford University </a>.  I am a 2015 Sloan Fellow and a recipient of an NSF CAREER award.
+<br/> <br/>
+<a name="research"> </a>
+</p><div id="section">
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+<tr>
+<td width="100%">
+<b>Research</b>
+</td>
+</tr>
+</table>
+</div>
+<p>
+My main research interests are static program analysis/verification, program synthesis, and automated logical reasoning.
+I am interested in developing  tools and novel techniques to make software systems more secure and reliable. 
+In particular, my research focuses on <i> automatically </i> proving the absence of certain classes of errors (e.g., memory safety errors, assertion failures etc.) and security vulnerabilities in software. I am also interested in techniques for automatically synthesizing programs from formal or informal specifications.  <br/> <br/>
+
+
+You can learn more about my research by checking out my <a href="publications.html"> publications </a> or through  the <a href="http://utopia.cs.utexas.edu/"> UToPiA group web page </a>!
+
+
+
+
+</p>
+<br/>
+<a name="teaching"> </a>
+<div id="section">
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+<tr>
+<td width="100%">
+<b>Teaching</b>
+</td>
+</tr>
+</table>
+</div>
+<ul>
+<li> <a href="http://www.cs.utexas.edu/~isil/cs311h"> CS311H: Honors Discrete Mathematics. </a>  (Taught every Fall since 2014) </li>
+<li> <a href="http://www.cs.utexas.edu/~isil/cs389L/">  CS389L: Automated Logical Reasoning. </a>  (Taught every Spring since 2015)
+
+
+
+</li></ul>
+<a name="students"> </a>
+<div id="section">
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+<tr>
+<td width="100%">
+<b> Current Students </b>
+</td>
+</tr>
+</table>
+</div>
+<ul>
+<li> <b> PhD students: </b> <a href="http://www.cs.utexas.edu/~ypwang"> Yuepeng Wang </a>,  <a href="http://kferles.github.io/"> Kostas Ferles </a>, <a href="https://mrvplusone.github.io/"> Jiayi Wei </a>, <a href="https://gavlegoat.github.io/"> Greg Anderson, </a><a href="https://stephensj2.github.io/"> Jon Stephens </a>, Jocelyn Chen, Shankara Pailoor,  Rong Pan, Ben Mariano, Sridhar Gopinath 
+
+</li><li> <b> Current undergraduate students: </b> <a href="https://www.rshah.org/"> Rushi Shah </a>, Maruth Goyal, James Dong, Abby Criswell, Rahul Krishnan 
+
+
+</li></ul>
+
+You can also find out more about my former students and their theses <a href="alumni.html"> here </a>!
+<br/> <br/>
+<a name="service"> </a>
+<div id="section">
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+<tr>
+<td width="100%">
+<b>Service</b>
+</td>
+</tr>
+</table>
+</div>
+<ul>
+<li> <b> Chair or co-chair: </b>  CAV 2019, VMCAI 2018, PLMW at POPL 2016, PLDI 2015 SRC, PLDI 2014 SRC, OOPSLA 2014 SRC, PLDI 2013 SRC, OOPSLA 2013 SRC
+</li><li> <b> Program Committees: </b> PLDI 2020, CAV 2018, PLDI 2018, POPL 2018, CAV 2017, SNAPL 2017, OOPSLA 2016, PLDI 2016, CAV 2015, ESOP 2015, HVC 2014, ECOOP 2014, ESOP 2014, SAS 2013, POPL 2013, OOPSLA 2012, PLDI 2012 SRC
+
+</li><li> <b> External Program Committees: </b> PLDI 2019, OOPSLA 2019
+
+</li><li> <b> External Review Committees: </b> POPL 2016, OOPSLA 2013
+</li></ul>
+<a name="awards"> </a>
+<div id="section">
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+<tr>
+<td width="100%">
+<b>Awards</b>
+</td>
+</tr>
+</table>
+</div>
+<p>
+</p><ul>
+<li> <b> Best paper awards </b>: PLDI 2019 distinguished paper award, PLDI 2018 distinguished paper award,
+OOPSLA 2017 distinguished paper award, ETAPS 2017 Best Paper Award, PLDI 2008 paper selected as CACM Research Highlight </li>
+<li> <b> Honors: </b>  Selected as <a href="http://www.sloan.org/fileadmin/media/files/srf/APS_2015_Research_Fellowships_ad_FINAL.pdf">Sloan Fellow 2015 </a>,  NSF CAREER Award 2015. </li>
+<li> <b> Other: </b> 
+OOPSLA 2012 Distinguished Reviewer Award </li>
+<li> <b> From grad school: </b> Stanford Graduate Fellowship, 2008-2010;  Forbes School of Engineering Fellowship, 2006-2007. </li>
+<li> <b> Undergrad and older: </b>    Wegbreit Award for the best  CS honors thesis (Stanford, 2006);  Firestone Medal for  undergraduate research (Stanford, 2006);  Frederick E. Terman Engineering  Award for outstanding achievement in engineering (Stanford, 2006); Mary Mills Patrick Award (Robert College, 2002);  Dora Aksoy Award for Excellence in Mathematics  (Robert College,  2002). </li>
+</ul>
+<br/>
+<div id="section">
+<a name="personal"> </a>
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+<tr>
+<td width="100%">
+<b>Personal</b>
+</td>
+</tr>
+</table>
+</div>
+<br/>
+I am originally from Istanbul, Turkey and moved to the United States to pursue my undergraduate studies at <a href="https://www.stanford.edu/"> Stanford University </a>  after finishing  high school at the beautiful <a href="https://website.robcol.k12.tr/en/home-page"> Robert College </a>. 
+
+<br/><br/> 
+
+Outside of work, I enjoy hiking, traveling, photography, and scuba diving.  I love taking photos, and  you can check out some of my photography <a href="https://www.flickr.com/photos/isildillig/albums"> here</a>. 
+
+<br/><br/> You can also find out a bit more about me through this <a href="http://abstract.ece.cmu.edu/peopleOfPLDI/Isil.html"> interview </a> conducted for the <a href="http://abstract.ece.cmu.edu/peopleOfPLDI/
+"> People of PLDI </a> project!
+
+<br/>
+<br/>
+<br/>
+<div id="section">
+<a name="pronunciation"> </a>
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+<tr>
+<td width="100%">
+<b>How To Pronounce My Name</b>
+</td>
+</tr>
+</table>
+</div>
+<p> <br/> 
+My first name is pronounced as "Ishil" rather than "Isil".
+ 
+ </p>
+</div>
+</div><div>
+<div id="section">
+<a name="publications"> </a>
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+<tr>
+<td width="100%">
+<b>Isil Dillig's Publications</b>
+</td>
+</tr>
+</table>
+</div>
+<ol>
+<li> <u> Program Synthesis using Deduction-Guided Reinforcement Learning. </u>  Yanju Chen, Chenglong Wang, Osbert Bastani, Isil Dillig and Yu Feng. In CAV 2020.
+
+
+</li><li> <u>  Synthesizing JIT Compilers for In-Kernel DSLs. </u>  Jacob Van Geffen, Luke Nelson, Isil Dillig, Xi Wang and Emina Torlak. In CAV 2020.
+
+</li><li> <u>  StructuredRegex: A New Dataset for Regex Synthesis from Natural Language and Examples</u>  Xi Ye, Qiaochu Chen, Isil Dillig and Greg Durrett. In ACL 2020.
+
+</li><li> <a href="regel.pdf">  Multi-Modal Synthesis of Regular Expressions. </a>  Jocelyn Chen, Xinyu Wang, Xi Ye, Greg Durrett, Isil Dillig. In PLDI 2020.
+
+</li><li> <a href="vldb20.pdf">  Data Migration using Datalog Program Synthesis. </a> Yuepeng Wang, Rushi Shah, Abby Criswell, Rong Pan, Isil Dillig. In VLDB 2020.
+
+</li><li> <a href="https://openreview.net/pdf?id=Hkx6hANtwH"> LambdaNet: Probabilistic Type Inference using Graph Neural Networks. </a> Jiayi Wei, Maruth Goyal, Greg Durrett, Isil Dillig. In ICLR 2020.
+
+</li><li> <a href="popl20.pdf"> Visualization by Example. </a> Chenglong Wang, Yu Feng, Ras Bodik, Alvin Cheung, Isil Dillig. In POPL 2020.
+
+</li><li> <a href="oopsla19.pdf"> Relational Verification using Reinforcement Learning. </a> Jia Chen, Jiayi Wei, Yu Feng, Osbert Bastani, Isil Dillig. In OOPSLA 2019.
+
+
+</li><li> <a href="pldi19a.pdf"> Optimization + Abstraction: A Synergistic Approach for Analyzing Neural Network Robustness.  </a> Greg Anderson, Shankara Pailoor, Isil Dillig, Swarat Chaudhuri. In PLDI 2019. <b> (Distinguished paper award) </b>
+</li><li> <a href="pldi19b.pdf"> Synthesizing Database Applications for Schema Refactoring  </a> Yuepeng Wang, James Dong,
+Rushi Shah, Isil Dillig. In PLDI 2019.
+
+</li><li> <a href="vstte.pdf"> Formal Verification of Workflow Policies for Smart Contracts in Azure Blockchain. </a>
+  In VSTTE 2019.
+
+</li><li> <u> Trinity: An Extensible Synthesis Framework for Data Science. </u> Jia Chen, Ruben Martins, Yanju Chen, Yu Feng, Isil Dillig.  In VLDB 2019.
+
+
+</li><li> <a href="relational-synthesis.pdf"> Relational Program Synthesis. </a> Yuepeng Wang, Xinyu Wang, Isil Dillig. In OOPSLA 2018. 
+
+</li><li> <a href="verified-merge.pdf"> Verified Three-Way Program Merge. </a> Marcelo Sousa, Isil Dillig, Shuvendu Lahiri. In OOPSLA 2018. 
+
+</li><li> <a href="fse18.pdf"> Singularity: Pattern Fuzzing for Worst Case Complexity. </a> Jiayi Wei, Jia Chen, Yu Feng, Kostas Ferles, Isil Dillig. To appear in FSE 2018. 
+
+</li><li> <a href="cav18-atlas.pdf"> Learning Abstractions for Program Synthesis. </a> Xinyu Wang, Greg Anderson, Isil Dillig, Ken McMillan. In CAV 2018. 
+
+
+</li><li> <a href="PLDI18-signal.pdf"> Symbolic Reasoning for Automatic Signal Placement. </a> Kostas Ferles, Jacob Van Geffen, Isil Dillig, Yannis Smaragdakis. In PLDI 2018. <a href="PLDI18-signal-extended.pdf"> [Extended version] </a>
+</li><li> <a href="pldi18-neo.pdf"> Program Synthesis using Conflict-Driven Learning. </a> Yu Feng, Ruben Martins, Osbert Bastani, Isil Dillig. In PLDI 2018.  <b> (Distinguished paper award) </b>
+</li><li> <a href="mitra.pdf"> Automated Migration of Hierarchical Data to Relational Tables using Programming-by-Example. </a> Navid Yaghmazadeh, Xinyu Wang, Isil Dillig. In VLDB 2018.
+
+</li><li> <a href="blaze.pdf"> Program Synthesis using Abstraction Refinement. </a>  Xinyu Wang, Isil Dillig, Rishabh Singh. In POPL 2018.
+
+</li><li> <a href="mediator.pdf"> Verifying Equivalence of Database-Driven Applications. </a> Yuepeng Wang, Isil Dillig, Shuvendu Lahiri, William Cook. In POPL 2018.
+
+</li><li> <a href="ccs17.pdf"> Precise Detection of Side-Channel Vulnerabilities using Quantitative Cartesian Hoare Logic. </a> Jia Chen, Yu Feng, Isil Dillig. In CCS 2017.
+
+</li><li> <a href="ase17.pdf"> Static Detection of Asymptotic Side Channel Vulnerabilities in Web Applications. </a> Jia Chen, Oswaldo Olivo, Isil Dillig, Calvin Lin In ASE 2017.
+
+</li><li> <a href="dace.pdf">  Synthesis of Data Completion Scripts using Finite Tree Automata </a>. Xinyu Wang, Isil Dillig, Rishabh Singh. In OOPSLA 2017.
+
+</li><li> <a href="sqlizer.pdf">  SQLizer: Query Synthesis from Natural Language </a>. Navid Yaghmazadeh, Yuepeng Wang, Isil Dillig, Thomas Dillig. In OOPSLA 2017. <b> (Distinguished paper award) </b>
+</li><li> <a href="program-trimming.pdf"> Failure-Directed Program Trimming</a>. Kostas Ferles, Valentin Wuestholz, Maria Christakis, Isil Dillig. In FSE 2017. 
+
+</li><li> <a href="pldi17-morpheus.pdf"> Component-based Synthesis of Table Consolidation and Transformation Tasks from Examples. </a> Yu Feng, Ruben Martins, Jacob VanGeffen, Isil Dillig, Swarat Chaudhuri. In PLDI 2017. <a href="morpheus.mp4"> [video] </a>
+</li><li> <a href="redos.pdf"> Static Detection of DoS Vulnerabilities in Programs that use Regular Expressions. </a>  Valentin Wuestholz, Oswaldo Olivo, Marijn Heule, Isil Dillig.  In TACAS 2017. <a href="redos-extended.pdf"> [Extended version]</a> <b> (ETAPS 2017 best paper award) </b>
+</li><li> <a href="ndss17-astroid.pdf"> Automated Synthesis of Semantic Malware Signatures using Maximum Satisfiability. </a>  Yu Feng, Osbert Bastani, Ruben Martins, Isil Dillig, Saswat Anand. In NDSS 2017. 
+
+</li><li> <a href="sypet-popl17.pdf"> Component-Based Synthesis for Complex APIs. </a>  Yu Feng, Ruben Martins,  Yuepeng Wang, Isil Dillig, Tom Reps. In  POPL 2017.  <a href="popl17-sypet-extended.pdf"> [Extended version]</a>
+</li><li> <a href="hunter.pdf"> Hunter: Type-Directed Code Reuse using Integer Linear Programming. </a> Yuepeng Wang, Yu Feng, Ruben Martins, Arati Kaushik, Isil Dillig, Steven P. Reiss. In  FSE 2016. <a href="hunter-long.pdf"> [Long version]</a>
+</li><li> <a href="pldi16-chl.pdf">  Cartesian Hoare Logic for Verifying k-Safety Properties.</a> Marcelo Sousa, Isil Dillig.  In PLDI 2016. <a href="chl-extended.pdf"> [Extended version]</a>
+</li><li> <a href="pldi16-hades.pdf"> Synthesizing Transformations on Hierarchically Structured Data. </a> Navid Yaghmazadeh, Chris Klinger, Isil Dillig, Swarat Chaudhuri. In PLDI 2016. <a href="Hades-Demo.mp4"> [demo video] </a>
+</li><li> <a href="popl16-short.pdf"> Maximal Specification Synthesis. </a> Aws Albarghouthi, Isil Dillig, Arie Gurfinkel. In POPL 2016. <a href="popl16-long.pdf"> [Extended version]</a>
+</li><li> <a href="aplas15.pdf">Bottom-up Context-Sensitive Pointer Analysis for Java. </a> Yu Feng, Xinyu Wang, Isil Dillig, Thomas Dillig. In APLAS 2015.
+
+</li><li> <a href="ccs15.pdf"> Detecting and Exploiting Second Order Denial of Service Vulnerabilities in Web Applications </a> Oswaldo Olivo, Isil Dillig, Calvin Lin. In CCS 2015.
+
+</li><li> <a href="oopsla15.pdf"> EXPLORER : Query- and Demand-Driven Exploration of Interprocedural Control Flow Properties. </a> Yu Feng, Xinyu Wang, Isil Dillig, Calvin Lin. In OOPSLA 2015.
+
+</li><li> <a href="pldi15b.pdf"> Synthesizing Data Structure Transformations from Input-Output Examples. </a> <br/> John Feser, Swarat Chaudhuri, Isil Dillig.  PLDI 2015.
+
+</li><li> <a href="pldi15a.pdf"> Static Detection of Asymptotic Performance
+Bugs in Collection Traversals.
+ </a> <br/> Oswaldo Olivo, Isil Dillig, Calvin Lin. PLDI 2015.
+
+</li><li> <a href="fse14.pdf"> Apposcopy: Semantics-Based Detection of Android Malware Through Static Analysis</a>. <br/>
+Yu Feng, Saswat Anand, Isil Dillig, Alex Aiken. FSE 2014.  
+
+</li><li> <a href="CAV14.pdf"> Optimal Guard Synthesis for Memory Safety</a>. <br/>
+Thomas Dillig, Isil Dillig, Swarat Chaudhuri. CAV 2014.  <a href="CAV14-extended.pdf"> [Extended version]</a>
+<a href="cav2014-talk-isil.pdf"> [slides]</a>
+</li><li> <a href="prog-cons.pdf"> Consolidation of Queries with User-Defined Functions </a>. <br/>
+Marcelo Sousa, Isil Dillig, Dimitrios Vytionitis, Thomas Dillig, Christos Gkantsidis. PLDI 2014.
+
+</li><li> <a href="aplas2013.pdf"> Automated Inference of Library Specifications for Source-Sink Property Verification</a>. <br/>
+Haiyan Zhu, Thomas Dillig, Isil Dillig. APLAS 2013.
+
+</li><li> <a href="oopsla13.pdf"> Inductive Invariant Generation via Abductive Inference </a>. <br/>
+Isil Dillig, Thomas Dillig, Boyang Li, Ken McMillan. OOPSLA 2013.
+
+</li><li> <a href="cav2013-tool.pdf"> EXPLAIN: A Tool for Performing Abductive Inference </a>. <br/>
+Isil Dillig, Thomas Dillig. CAV 2013. <a href="cav2013-talk.pdf"> [slides]</a>
+</li><li> <a href="tacas2013.pdf"> Synthesis of Circular Compositional Program Proofs via Abduction </a>. <br/>
+Boyang Li, Isil Dillig, Thomas Dillig, Ken McMillan, Mooly Sagiv. In TACAS 2013. Journal version in STTT 2015.
+<a href="tacas-talk.pdf"> [slides]</a> <b> (Invited for journal special issue) </b>
+</li><li> <a href="cav2012.pdf">  Minimum Satisfying Assignments for SMT. </a>   Isil Dillig, Thomas Dillig, Ken McMillan, Alex Aiken. 
+Computer Aided Verification (CAV) 2012. <a href="cav2012-talk.pdf"> [slides]</a>
+</li><li> <a href="pldi022-dillig.pdf"> Automated Error Diagnosis Using Abductive Inference.</a> Isil Dillig, Thomas Dillig, Alex Aiken. 
+Programming Languages Design and Implementation (PLDI) 2012. <a href="pldi2012-extended.pdf"> [Extended version]</a><a href="pldi2012-talk.pdf"> [slides]</a><a href="poster.pdf"> [poster]</a>
+</li><li><a href="phd-thesis.pdf"> Precise and Automatic Verification of Container Manipulating Programs </a>
+PhD Thesis, Stanford University Computer Science Department, 2011.
+
+</li><li><a href="cav2011.pdf"> Simplifying Loop Invariant Generation Using Splitter Predicates
+</a><br/> Rahul Sharma, Isil Dillig, Thomas Dillig, Alex Aiken. Proceedings of the International Conference on Computer Aided Verification (CAV) 2011.  <a href="cav2011-full.pdf"> [Full version]</a>
+<a href="cav11talk.pdf"> [slides] </a>
+</li><li><a href="fmsd.pdf"> Cuts from Proofs: A
+Complete and Practical Technique for Solving Linear Inequalities over Integers </a><br/>
+Isil Dillig, Thomas Dillig, Alex Aiken. Formal Methods in System Design (FMSD) CAV 2009 special issue.
+
+</li><li><a href="pldi068-dillig.pdf"> Precise and Compact Modular Procedure Summaries for Heap
+Manipulating Programs
+</a><br/> Isil Dillig, Thomas Dillig, Alex Aiken, Mooly Sagiv. Proceedings of the Conference on Programming Language Design and
+Implementation (PLDI) 2011. <a href="pldi2011-talk.pdf"> [slides] </a>
+</li><li><a href="popl2011.pdf">Precise Reasoning for Programs Using Containers
+</a><br/> Isil Dillig, Thomas Dillig, Alex Aiken. Principles of Programming Languages (POPL) 2011.
+<a href="popl2011-talk.pdf"> [slides] </a>
+</li><li><a href="oopsla2010.pdf">Symbolic Heap Abstraction with Demand-Driven Axiomatization of Memory Invariants
+</a><br/> Isil Dillig, Thomas Dillig, Alex Aiken. Object-Oriented Programming, Systems, Languages &amp; Applications (OOPSLA) 2010. <a href="oopsla-slides.pdf"> [slides] </a>
+</li><li><a href="sas2010.pdf"> Small Formulas for Large Programs: On-line Constraint Simplification in Scalable Static Analysis <br/>
+</a>Isil Dillig, Thomas Dillig, Alex Aiken. Static Analysis Symposium (SAS) 2010. Perpignan, France. <a href="sas2010-slides.pdf"> [slides] </a>
+</li><li><a href="cacm.pdf"> Reasoning About the Unknown in Static Analysis </a>
+<br/>
+ Isil Dillig, Thomas Dillig, Alex Aiken. Research highlight, Communications of the ACM (CACM), August 2010.
+
+
+</li><li> <a href="esop-extended.pdf"> Fluid Updates: Beyond Strong vs. Weak Updates</a>
+<br/>
+Isil Dillig, Thomas Dillig, Alex Aiken. Proceedings of the European
+Symposium on Programming (ESOP) 2010. Paphos, Cyprus.<a href="esop2010.pdf"> (Conference version without appendix) </a> <br/> 
+ Slides: <a href="esop2010.odp"> [odp version]</a>
+<a href="esop2010-talk.pdf"> [pdf version]</a>
+</li><li><a href="cav2009.pdf">  Cuts from Proofs: A
+Complete and Practical Technique for Solving Linear Inequalities over Integers
+ </a>
+<br/>
+ Isil Dillig, Thomas Dillig, Alex Aiken. Proceedings of
+Computer Aided Verification (CAV) 2009. Grenoble, France.
+<a href="cav2009-talk.pdf"> [slides]</a> <b> (Invited for journal special issue) </b>
+</li><li><a href="sail.pdf"> SAIL: Static Analysis Intermediate Language with a Two-Level Representation
+ </a>
+<br/>
+Isil Dillig, Thomas Dillig, Alex Aiken. Technical Report, Stanford University 2009. 
+<a href="http://www.cs.utexas.edu/~isil/sail/index.html"> [Project Website]</a>
+</li><li><a href="pldi006-dillig.pdf">Sound, Complete, and
+Scalable Path-Sensitive Analysis</a>
+<br/>
+Isil Dillig, Thomas Dillig, Alex
+Aiken. Proceedings of the Conference on Programming Language Design and
+Implementation (PLDI), June 2008. Tucson, AZ.
+<a href="pldi08-talk.pdf"> 
+[slides]</a> <b> (CACM research highlight) </b>
+</li><li><a href="ismm107-dillig.pdf">The CLOSER:
+Automating Resource Management in Java</a>
+<br/>
+ Isil Dillig, Thomas Dillig,
+Eran Yahav, Satish Chandra. Proceedings of the International Symposium on Memory
+Management (ISMM), June 2008. Tucson, AZ.
+<a href="ismm08-talk.pdf"> 
+[slides]</a>
+</li><li><a href="pldi056-dillig.pdf"> Static Error
+Detection Using Semantic Inconsistency Inference</a>
+<br/>
+ Isil Dillig,
+Thomas Dillig, Alex Aiken. Proceedings of the Conference on Programming Language
+Design and Implementation (PLDI), pages 435-446, June 2007. San Diego, CA.
+<a href="pldi07-talk.pdf"> [slides]</a>
+</li><li><a href="paste07.pdf"> An Overview of the Saturn
+Project</a>
+<br/>
+A. Aiken, S. Bugrara, I. Dillig, T. Dillig, P. Hawkins and
+B. Hackett. Proceedings of the Workshop on Program Analysis for Software Tools
+and Engineering (PASTE), pages 43-48, June 2007. San Diego, CA.
+ 
+
+ 
+</li><li> <a href="saturn.pdf"> The Saturn Program Analysis
+System. </a>
+<br/>
+ A. Aiken, S. Bugrara, I. Dillig, T. Dillig, B. Hackett, and
+P. Hawkins. Stanford University Computer Science Technical Report, December
+2006.
+
+
+
+
+
+</li></ol>
+</div></body>
+</html>

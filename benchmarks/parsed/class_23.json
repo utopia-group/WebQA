@@ -1,0 +1,609 @@
+{
+    "id": 0,
+    "content": "CS229T/STATS231: Statistical Learning Theory",
+    "children": [
+        {
+            "id": 1,
+            "content": "Announcements",
+            "isList": true,
+            "key": 1,
+            "children": [
+                {
+                    "id": 2,
+                    "content": "12/08: Homework 3 Solutions have been posted!",
+                    "key": 1
+                },
+                {
+                    "id": 3,
+                    "content": "11/26: exam2018-solutions have been posted!",
+                    "key": 2
+                },
+                {
+                    "id": 4,
+                    "content": "11/08: Homework 2 Solutions have been posted!",
+                    "key": 3
+                },
+                {
+                    "id": 5,
+                    "content": "11/02: Homework 3 is out! It's due on Wednesday, 11/28, 11pm.",
+                    "key": 4
+                },
+                {
+                    "id": 6,
+                    "content": "11/01: exam2013-solution, exam2014-solution, exam2015-solution, exam2016-solution have been posted!",
+                    "key": 5
+                },
+                {
+                    "id": 7,
+                    "content": "10/17: Homework 1 Solutions have been posted!",
+                    "key": 6
+                },
+                {
+                    "id": 8,
+                    "content": "10/14: Homework 2 is out! It's due on Thursday, 11/1, 11pm.",
+                    "key": 7
+                },
+                {
+                    "id": 9,
+                    "content": "10/08: Homework 0 Solutions have been posted!",
+                    "key": 8
+                },
+                {
+                    "id": 10,
+                    "content": "10/02: Homework 1 is out! It's due on Wednesday, 10/10, 11pm.",
+                    "key": 9
+                },
+                {
+                    "id": 11,
+                    "content": "9/29: some backgrounds on linear algebra, optimization, and probability. Note: all the mathematical statements in the document can be cited in the homework solutions without proofs.",
+                    "key": 10
+                },
+                {
+                    "id": 12,
+                    "content": "9/22: Homework 0 is out! It's due on Wednesday, 10/03, 11pm.",
+                    "key": 11
+                },
+                {
+                    "id": 13,
+                    "content": "9/8: Welcome to CS229T/STATS231! Previous years' home pages are here and here for reference. (Currently this page is still under construction.)",
+                    "key": 12
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "content": "Administrative information",
+            "key": 2,
+            "children": [
+                {
+                    "id": 15,
+                    "content": "Time/location:",
+                    "key": 1
+                },
+                {
+                  "id": 16,
+                  "content": "Lectures:",
+                  "key": 2,
+                  "children": [
+                    {
+                      "id": 17,
+                      "content": "Monday Wednesday 3 - 4:20pm in Pigott Hall 113",
+                      "key": 1
+                    }
+                  ]
+                },
+              {
+                "id": 18,
+                "content": "Instructor:",
+                "key": 3,
+                "children": [
+                  {
+                    "id": 19,
+                    "content": "Tengyu Ma",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 20,
+                "content": "Course assistants:",
+                "key": 4,
+                "children": [
+                  {
+                    "id": 21,
+                    "content": "",
+                    "isList": true,
+                    "key": 1,
+                    "children": [
+                      {
+                        "id": 22,
+                        "content": "Yu Bai (head CA)",
+                        "key": 1
+                      },
+                      {
+                        "id": 23,
+                        "content": "Tum Chaturapruek",
+                        "key": 2
+                      },
+                      {
+                        "id": 24,
+                        "content": "Jim Zhiyuan Li",
+                        "key": 3
+                      },
+                      {
+                        "id": 25,
+                        "content": "Luigi Nardi",
+                        "key": 4
+                      },
+                      {
+                        "id": 26,
+                        "content": "Colin Wei",
+                        "key": 5
+                      }
+                    ]
+                  },
+                  {
+                    "id": 27,
+                    "content": "Office hours:",
+                    "key": 2,
+                    "children": [
+                      {
+                        "id": 28,
+                        "content": "see Google Calendar",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 29,
+                    "content": "Contact:",
+                    "key": 3,
+                    "children": [
+                      {
+                        "id": 30,
+                        "content": "Please use Piazza for questions and discussions.",
+                        "key": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+        },
+      {
+        "id": 31,
+        "content": "Course content",
+        "key": 3,
+        "children": [
+          {
+            "id": 32,
+            "content": "Description:",
+            "key": 1,
+            "children": [
+              {
+                "id": 33,
+                "content": "When do machine learning algorithms work and why? How do we formalize what it means for an algorithm to learn from data? How do we use mathematical thinking to design better machine learning methods? This course focuses on developing a theoretical understanding of the statistical properties of learning algorithms.",
+                "key": 1
+              }
+            ]
+          },
+          {
+            "id": 34,
+            "content": "Topics :",
+            "isList": true,
+            "key": 2,
+            "children": [
+              {
+                "id": 35,
+                "content": "Uniform convergence (VC dimension, Rademacher complexity, etc)",
+                "key": 1
+              },
+              {
+                "id": 36,
+                "content": "Implicit/algorithmic regularization, generalization theory for neural networks",
+                "key": 2
+              },
+              {
+                "id": 37,
+                "content": "Kernel methods",
+                "key": 3
+              },
+              {
+                "id": 38,
+                "content": "Online learning and bandits problems",
+                "key": 4
+              },
+              {
+                "id": 39,
+                "content": "Unsupervised learning:",
+                "key": 5,
+                "children": [
+                  {
+                    "id": 40,
+                    "content": "exponential family, method of moments, statistical theory of GANs",
+                    "key": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 41,
+            "content": "Prerequisites:",
+            "isList": true,
+            "key": 3,
+            "children": [
+              {
+                "id": 42,
+                "content": "A solid background in linear algebra, real analysis, probability theory, and general ability to do mathematical proofs",
+                "key": 1
+              },
+              {
+                "id": 43,
+                "content": "Machine learning (CS229) or statistics (STATS315A)",
+                "key": 2
+              },
+              {
+                "id": 44,
+                "content": "Convex optimization (EE364A) is recommended",
+                "key": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "content": "Grading",
+        "key": 4,
+        "children": [
+          {
+            "id": 46,
+            "content": "Coursework :",
+            "key": 1,
+            "children": [
+              {
+                "id": 47,
+                "content": "",
+                "isList": true,
+                "key": 1,
+                "children": [
+                  {
+                    "id": 48,
+                    "content": "Homeworks (40%) : there will be three homeworks (plus a warmup which does not count towards your grade), centered around proving properties of statistical procedures. Each homework must be submitted through Gradescope. Sign up for the course using entry code M4V34N. You are encouraged to use LaTeX to writeup your homeworks (here's a template), but this is not a requirement. You will receive one (1) bonus point for submitting a typed written assignment (e.g. LaTeX, Microsoft Word). We will accept scanned handwritten assignments but they will not receive the bonus point.",
+                    "key": 1
+                  },
+                  {
+                    "id": 49,
+                    "content": "Exam (25%) : open - book, open - notes. Problems will be like the homeworks, but simpler. You can use laptops as long as you turn off the wireless. Date: Wednesday Nov 14, 6 - 10PM, Bishop Auditorium, Lathrop296",
+                    "key": 2
+                  },
+                  {
+                    "id": 50,
+                    "content": "Paper review (30%) : you will write a 2-4 page review of papers. The goal is to learn to read technically demanding papers critically, and hopefully in the process, generate novel research ideas. Your review should not only summarize the main result of the paper, but critique it, instantiate it on examples, discuss its overall significance, and suggest possible future directions. See this Google doc for detailed guidelines and a list of papers. The paper reviews can be done in pairs. Paper reviews that are done in pairs will be evaluated with a slightly higher bar, and they ideally should contain reviews for two closely-related papers and are allowed two additional pages. Appendix or references beyond the page limit are allowed, but you will not be graded based on them.   Instead of doing the paper review, with approval from the course staff on the project topic, you can do a final project. Please come to the Tengyu Ma or Yu Bai's office hours to request the approval by briefly describing the project plan. We don't encourage you to do the project unless you own research area is closely related to machine learning theory. The project can be done in pairs. The page limit for project report is 8 pages, not including reference or appendix.   The review and the project should be submitted electronically by 11pm.",
+                    "key": 3
+                  },
+                  {
+                    "id": 51,
+                    "content": "Scribe notes (5%) : Because there is no textbook or set of readings that perfectly fits this course, you will be asked to scribe a note for a lecture in LaTeX. The course staff will select one note for each lecture and share it with other students. 1% bonus credit will be given if your note is selected for posting. See this Google doc for the detailed guidelines. The scribe notes are due 2 days after the lecture (11pm Wednesday for Monday lecture, and Friday 11pm for Wednesday lecture). Please sign up here before Sept 29th and plan the time ahead. Extra credits will be given to the notes that are selected for posting. The scribe notes can be done in pairs.",
+                    "key": 4
+                  }
+                ]
+              },
+              {
+                "id": 52,
+                "content": "Late policy:",
+                "key": 2,
+                "children": [
+                  {
+                    "id": 53,
+                    "content": "Two total late days are accepted for homeworks, paper review, or projects, but not scribe notes. Late work done in pairs with x late days will require x late days from each of the contributors. Under extentuating circumstances, you may request an extension by contacting the course staff.",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 54,
+                "content": "Collaboration policy:",
+                "key": 3,
+                "children": [
+                  {
+                    "id": 55,
+                    "content": "we encourage you to form study groups and discuss homeworks. However, you must write up all homeworks from scratch independently without referring to any notes from the joint session. Please follow the honor code.",
+                    "key": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 56,
+        "content": "Texts and References",
+        "key": 5,
+        "children": [
+          {
+            "id": 57,
+            "content": "There is no required text for the course. A number of useful references:",
+            "key": 1
+          },
+          {
+            "id": 58,
+            "content": "",
+            "isList": true,
+            "key": 2,
+            "children": [
+              {
+                "id": 59,
+                "content": "Percy Liang's course notes from previous offerings of this course",
+                "key": 1
+              },
+              {
+                "id": 60,
+                "content": "Peter Bartlett's statistical learning theory course",
+                "key": 2
+              },
+              {
+                "id": 61,
+                "content": "Boyd and Vandenberghe's Convex Optimization",
+                "key": 3
+              },
+              {
+                "id": 62,
+                "content": "Sham Kakade's statistical learning theory course",
+                "key": 4
+              },
+              {
+                "id": 63,
+                "content": "Martin Wainwright's statistical learning theory course",
+                "key": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 64,
+        "content": "Schedule",
+        "key": 6,
+        "children": [
+          {
+            "id": 65,
+            "content": "(subject to change)",
+            "key": 1
+          },
+          {
+            "id": 66,
+            "content": "Week 1",
+            "isList": true,
+            "key": 2,
+            "children": [
+              {
+                "id": 67,
+                "content": "Monday 09/24: Lecture 1: overview, formulation of prediction problems, error decomposition [Scribe notes]",
+                "key": 1
+              },
+              {
+                "id": 68,
+                "content": "Wednesday 09/26: Lecture 2: asymptotics of maximum likelihood estimators (MLE) [Scribe notes]",
+                "key": 2
+              }
+            ]
+          },
+          {
+            "id": 69,
+            "content": "Week 2",
+            "isList": true,
+            "key": 3,
+            "children": [
+              {
+                "id": 70,
+                "content": "Monday 10/01: Lecture 3: uniform convergence overview, finite hypothesis class [Scribe notes]",
+                "key": 1
+              },
+              {
+                "id": 71,
+                "content": "Monday 10/01: Homework 1 out",
+                "key": 2
+              },
+              {
+                "id": 72,
+                "content": "Wednesday 10/03: Lecture 4: naive epsilon - cover argument, concentration inequalities [Scribe notes] [Advanced Reading]",
+                "key": 3
+              },
+              {
+                "id": 73,
+                "content": "Wednesday 10/03: Homework 0 (warmup) due",
+                "key": 4
+              }
+            ]
+          },
+          {
+            "id": 74,
+            "content": "Week 3",
+            "isList": true,
+            "key": 4,
+            "children": [
+              {
+                "id": 75,
+                "content": "Monday 10/08: Lecture 5: Sub - Gaussian random variables, Rademacher complexity [Scribe notes]",
+                "key": 1
+              },
+              {
+                "id": 76,
+                "content": "Wednesday 10/10: Lecture 6: Rademacher complexity, margin theory [Scribe notes]",
+                "key": 2
+              },
+              {
+                "id": 77,
+                "content": "Wednesday 10/10: Homework 1 due",
+                "key": 3
+              },
+              {
+                "id": 78,
+                "content": "Thursday 10/11: Homework 2 out",
+                "key": 4
+              }
+            ]
+          },
+          {
+            "id": 79,
+            "content": "Week 4",
+            "isList": true,
+            "key": 5,
+            "children": [
+              {
+                "id": 80,
+                "content": "Monday 10/15: Lecture 7: Rademacher complexity, neural networks [Scribe notes]",
+                "key": 1
+              },
+              {
+                "id": 81,
+                "content": "Wednesday 10/17: Lecture 8: Margin - based generalization error of two - layer neural networks [Scribe notes]",
+                "key": 2
+              }
+            ]
+          },
+          {
+            "id": 82,
+            "content": "Week 5",
+            "isList": true,
+            "key": 6,
+            "children": [
+              {
+                "id": 83,
+                "content": "Monday 10/22: Lecture 9: VC dimension, covering techniques [Scribe notes]",
+                "key": 1
+              },
+              {
+                "id": 84,
+                "content": "Wednesday 10/24: Lecture 10: Covering techniques, overview of GANs [Please refer to Percy's notes (page 88 - 95) for the covering part and Lecture 11 for the overview of GANs]",
+                "key": 2
+              }
+            ]
+          },
+          {
+            "id": 85,
+            "content": "Week 6",
+            "isList": true,
+            "key": 7,
+            "children": [
+              {
+                "id": 86,
+                "content": "Monday 10/29: Lecture 11: Total variation distance, Wasserstein distance, Wasserstein GANs [Scribe notes]",
+                "key": 1
+              },
+              {
+                "id": 87,
+                "content": "Wednesday 10/31: Lecture 12: Generalization and approximation in Wassersetin GANs [Scribe notes]",
+                "key": 2
+              },
+              {
+                "id": 88,
+                "content": "Thursday 11/01: Homework 2 (uniform convergence) due",
+                "key": 3
+              },
+              {
+                "id": 89,
+                "content": "Thursday 11/01: Homework 3 out",
+                "key": 4
+              }
+            ]
+          },
+          {
+            "id": 90,
+            "content": "Week 7",
+            "isList": true,
+            "key": 8,
+            "children": [
+              {
+                "id": 91,
+                "content": "Monday 11/05: Lecture 13: Restricted Approximability, overview of online learning [Scribe notes]",
+                "key": 1
+              },
+              {
+                "id": 92,
+                "content": "Wednesday 11/07: Lecture 14: Online learning, online convex optimization, Follow the Leader (FTL) algorithm [Scribe notes] [Additional Reading (Notes by Haipeng Luo)]",
+                "key": 2
+              }
+            ]
+          },
+          {
+            "id": 93,
+            "content": "Week 8",
+            "isList": true,
+            "key": 9,
+            "children": [
+              {
+                "id": 94,
+                "content": "Monday 11/12: Lecture 15: Follow the Regularized Leader (FTRL) algorithm [Scribe notes]",
+                "key": 1
+              },
+              {
+                "id": 95,
+                "content": "Wednesday 11/14: Lecture 16: FTRL in concrete problems: online regression & expert problem, convex to linear reduction [Scribe notes]",
+                "key": 2
+              },
+              {
+                "id": 96,
+                "content": "Wednesday 11/14: Exam (6 - 10pm, classroom: Bishop Auditorium, Lathrop296)",
+                "key": 3
+              }
+            ]
+          },
+          {
+            "id": 97,
+            "content": "Week 9",
+            "isList": true,
+            "key": 10,
+            "children": [
+              {
+                "id": 98,
+                "content": "Monday 11/26: Lecture 17: Multi - armed bandit problem, general OCO with partial observation [Scribe notes]",
+                "key": 1
+              },
+              {
+                "id": 99,
+                "content": "Wednesday 11/28: Lecture 18: Multi - armed bandit problem in the stochastic setting [Scribe notes]",
+                "key": 2
+              },
+              {
+                "id": 100,
+                "content": "Wednesday 11/28: Homework 3 due",
+                "key": 3
+              }
+            ]
+          },
+          {
+            "id": 101,
+            "content": "Week 10",
+            "isList": true,
+            "key": 11,
+            "children": [
+              {
+                "id": 102,
+                "content": "Monday 12/03: Lecture 19: Regret bound for UCB, Bayesian setup, Thompson sampling [Scribe notes]",
+                "key": 1
+              },
+              {
+                "id": 103,
+                "content": "Wednesday 12/05: Lecture 20: Information theory, regret bound for Thompson Sampling [Scribe notes]",
+                "key": 2
+              },
+              {
+                "id": 104,
+                "content": "Friday 12/07: Paper review due",
+                "key": 3
+              },
+              {
+                "id": 105,
+                "content": "Friday 12/07: Final project due (if you didn't do the paper review)",
+                "key": 4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

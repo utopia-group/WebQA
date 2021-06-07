@@ -1,0 +1,537 @@
+{
+    "id": 0,
+    "content": "331H: Algorithms and Complexity",
+    "children": [
+        {
+            "id": 1,
+            "content": "CS331H: Algorithms and Complexity (Honors), Spring 2019",
+            "isList": true,
+            "key": 1,
+            "children": [
+                {
+                    "id": 2,
+                    "content": "",
+                    "isList": true,
+                    "key": 1,
+                    "children": [
+                        {
+                            "id": 3,
+                            "content": "Logistics:",
+                            "key": 1
+                        },
+                        {
+                          "id": 4,
+                          "content": "Lecture:",
+                          "key": 2,
+                          "children": [
+                            {
+                              "id": 5,
+                              "content": "Monday Wednesday 2:00 - 3:30, GDC 1.304   Discussion section: Friday 10:00 - 11:00 / 11:00 - 12:00, RLP 0.122   Course web page: http://www.cs.utexas.edu/ - ecprice/courses/331h/   Unique number: 50910 / 50915",
+                              "key": 1
+                            }
+                          ]
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "content": "",
+                    "isList": true,
+                    "key": 2,
+                    "children": [
+                        {
+                            "id": 7,
+                            "content": "Professor:",
+                            "key": 1,
+                            "children": [
+                              {
+                                "id": 8,
+                                "content": "Eric Price   Email: ecprice@cs.utexas.edu   Office: GDC 4.510   Office Hours: 3:30 - 4:30pm Wednesday",
+                                "key": 1
+                              }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "content": "",
+                    "isList": true,
+                    "key": 3,
+                    "children": [
+                        {
+                            "id": 10,
+                            "content": "TA:",
+                            "key": 1,
+                            "children": [
+                              {
+                                "id": 11,
+                                "content": "Akshay Kamath   Email: kamath@cs.utexas.edu   Office Hours: 12:00 - 1:00pm Friday   GDC basement",
+                                "key": 1
+                              }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 12,
+                    "content": "",
+                    "isList": true,
+                    "key": 4,
+                    "children": [
+                        {
+                            "id": 13,
+                            "content": "Problem Sets:",
+                            "key": 1
+                        },
+                        {
+                            "id": 14,
+                            "content": "",
+                            "isList": true,
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 15,
+                                    "content": "Problem set 1 due Monday, February 4. Jupyter Notebook.",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 16,
+                                    "content": "Problem set 2 due Monday, February 11.",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 17,
+                                    "content": "Problem set 3 due Monday, February 18. Jupyter Notebook.",
+                                    "key": 3
+                                },
+                                {
+                                    "id": 18,
+                                    "content": "Problem set 4 due Monday, March 4. Jupyter Notebook.",
+                                    "key": 4
+                                },
+                                {
+                                    "id": 19,
+                                    "content": "Problem set 5 due Monday, March 11. Jupyter Notebook.",
+                                    "key": 5
+                                },
+                                {
+                                    "id": 20,
+                                    "content": "Problem set 6 due Monday, March 25. Supplemental exercises.",
+                                    "key": 6
+                                },
+                                {
+                                    "id": 21,
+                                    "content": "Problem set 7 due Thursday, April 4. Jupyter Notebook.",
+                                    "key": 7
+                                },
+                                {
+                                    "id": 22,
+                                    "content": "Problem set 8 due Monday, April 15. Jupyter Notebook.",
+                                    "key": 8
+                                },
+                                {
+                                    "id": 23,
+                                    "content": "Problem set 9 due Monday, April 22.",
+                                    "key": 9
+                                },
+                                {
+                                    "id": 24,
+                                    "content": "Problem set 10 due Monday, April 29.",
+                                    "key": 10
+                                },
+                                {
+                                    "id": 25,
+                                    "content": "Problem set 11 due Monday, May 6.",
+                                    "key": 11
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 26,
+                    "content": "",
+                    "isList": true,
+                    "key": 5,
+                    "children": [
+                        {
+                            "id": 27,
+                            "content": "Course Notes:",
+                            "key": 1
+                        },
+                        {
+                            "id": 28,
+                            "content": "",
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 29,
+                                    "content": "Lecture notes may be provided after class, but you should keep your own notes: topics will be covered in more detail in class than in the posted notes.",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 30,
+                                    "content": "",
+                                    "isList": true,
+                                    "key": 2,
+                                    "children": [
+                                      {
+                                        "id": 31,
+                                        "content": "Multiplication (Jan 23)",
+                                        "key": 1
+                                      },
+                                      {
+                                        "id": 32,
+                                        "content": "Fibonacci numbers (Jan 28)",
+                                        "key": 2
+                                      },
+                                      {
+                                        "id": 33,
+                                        "content": "Interval Scheduling (Jan 30)",
+                                        "key": 3
+                                      },
+                                      {
+                                        "id": 34,
+                                        "content": "Dynamic Programming:",
+                                        "key": 4,
+                                        "children": [
+                                          {
+                                            "id": 35,
+                                            "content": "intro, longest increasing subsequence, knapsack (Feb 4-13)",
+                                            "key": 1
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": 36,
+                                        "content": "BFS and DFS (February 18)",
+                                        "key": 5
+                                      },
+                                      {
+                                        "id": 37,
+                                        "content": "Shortest Paths:",
+                                        "key": 6,
+                                        "children": [
+                                          {
+                                            "id": 38,
+                                            "content": "Bellman Ford, Dijkstra (February 27)",
+                                            "key": 1
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": 39,
+                                        "content": "Network Flow and Minimum Cut (March 11,13,25)",
+                                        "key": 7
+                                      },
+                                      {
+                                        "id": 40,
+                                        "content": "Linear Programming (March 27, April 1, 8)",
+                                        "key": 8
+                                      },
+                                      {
+                                        "id": 41,
+                                        "content": "For NP-hardness, see Jeff Erickson's book (April 10,15,17)",
+                                        "key": 9
+                                      },
+                                      {
+                                        "id": 42,
+                                        "content": "Computability (April 22)",
+                                        "key": 10
+                                      },
+                                        {
+                                            "id": 43,
+                                            "content": "Approximation Algorithms (April 24)",
+                                            "key": 11
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 44,
+                    "content": "",
+                    "isList": true,
+                    "key": 6,
+                    "children": [
+                        {
+                            "id": 45,
+                            "content": "Content:",
+                            "key": 1
+                        },
+                        {
+                            "id": 46,
+                            "content": "",
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 47,
+                                    "content": "This honors undergraduate course will cover the basics of algorithms. The tentative outline for the course is as follows, with one week per topic:",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 48,
+                                    "content": "",
+                                    "isList": true,
+                                    "key": 2,
+                                    "children": [
+                                      {
+                                        "id": 49,
+                                        "content": "Introduction:",
+                                        "key": 1,
+                                        "children": [
+                                          {
+                                            "id": 50,
+                                            "content": "interval scheduling",
+                                            "key": 1
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": 51,
+                                        "content": "Basic dynamic programming",
+                                        "key": 2
+                                      },
+                                      {
+                                        "id": 52,
+                                        "content": "Advanced dynamic programming",
+                                        "key": 3
+                                      },
+                                      {
+                                        "id": 53,
+                                        "content": "Introduction to graphs; Test 1",
+                                        "key": 4
+                                      },
+                                      {
+                                        "id": 54,
+                                        "content": "Shortest paths, minimum spanning trees",
+                                        "key": 5
+                                      },
+                                        {
+                                            "id": 55,
+                                            "content": "Network flows, maximum matching, and minimum cut",
+                                            "key": 6
+                                        },
+                                        {
+                                            "id": 56,
+                                            "content": "Linear Programming",
+                                            "key": 7
+                                        },
+                                        {
+                                            "id": 57,
+                                            "content": "Test 2; Randomized algorithms",
+                                            "key": 8
+                                        },
+                                        {
+                                            "id": 58,
+                                            "content": "Approximation algorithms",
+                                            "key": 9
+                                        },
+                                        {
+                                            "id": 59,
+                                            "content": "NP-completeness",
+                                            "key": 10
+                                        },
+                                        {
+                                            "id": 60,
+                                            "content": "Hash tables",
+                                            "key": 11
+                                        },
+                                        {
+                                            "id": 61,
+                                            "content": "Advanced topics",
+                                            "key": 12
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 62,
+                    "content": "",
+                    "isList": true,
+                    "key": 7,
+                    "children": [
+                        {
+                            "id": 63,
+                            "content": "Prerequisites:",
+                            "key": 1,
+                            "children": [
+                                {
+                                    "id": 64,
+                                    "content": "The following coursework with a grade of at least C-: CS 311, 311H, 313H, or 313K; CS 307, 314, 314H, 315, or 315H; CS 310, 310H, 429, or 429H; M362K or SSC321; credit with a grade of at least C- or registration for M340L or SSC329C; and consent of the honors director.",
+                                    "key": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 65,
+                    "content": "",
+                    "isList": true,
+                    "key": 8,
+                    "children": [
+                        {
+                            "id": 66,
+                            "content": "Grading:",
+                            "key": 1,
+                            "children": [
+                                {
+                                    "id": 67,
+                                    "content": "40%: Homework   30%: Two in-class exams   20%: Final exam   10%: Class attendance and participation",
+                                    "key": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 68,
+                    "content": "",
+                    "isList": true,
+                    "key": 9,
+                    "children": [
+                        {
+                            "id": 69,
+                            "content": "Key dates:",
+                            "key": 1
+                        },
+                        {
+                            "id": 70,
+                            "content": "",
+                            "isList": true,
+                            "key": 2,
+                            "children": [
+                              {
+                                "id": 71,
+                                "content": "Exam 1: Wednesday, February 20.",
+                                "key": 1
+                              },
+                              {
+                                "id": 72,
+                                "content": "Exam 2 : Wednesday, April 3.",
+                                "key": 2
+                              },
+                              {
+                                "id": 73,
+                                "content": "Final exam:",
+                                "key": 3,
+                                "children": [
+                                  {
+                                    "id": 74,
+                                    "content": "take-home between last two classes.",
+                                    "key": 1
+                                  }
+                                ]
+                              }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 75,
+                    "content": "",
+                    "isList": true,
+                    "key": 10,
+                    "children": [
+                        {
+                            "id": 76,
+                            "content": "Text:",
+                            "key": 1,
+                            "children": [
+                                {
+                                    "id": 77,
+                                    "content": "There is no formal requirement of a textbook for this course. You may benefit from referencing Introduction to Algorithms by Cormen, Leiserson, Rivest, and Stein, or Jeff Erickson's notes.",
+                                    "key": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 78,
+                    "content": "",
+                    "isList": true,
+                    "key": 11,
+                    "children": [
+                        {
+                            "id": 79,
+                            "content": "Homework policy:",
+                            "key": 1
+                        },
+                        {
+                            "id": 80,
+                            "content": "",
+                            "key": 2,
+                            "children": [
+                              {
+                                "id": 81,
+                                "content": "There will be a homework assignment every week.",
+                                "key": 1
+                              },
+                              {
+                                "id": 82,
+                                "content": "Collaboration policy :",
+                                "key": 2,
+                                "children": [
+                                  {
+                                    "id": 83,
+                                    "content": "You are encouraged to collaborate on homework. However, you must write up your own solutions. You should also state the names of those you collaborated with on the first page of your submission.",
+                                    "key": 1
+                                  }
+                                ]
+                              }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 84,
+                    "content": "",
+                    "isList": true,
+                    "key": 12,
+                    "children": [
+                        {
+                            "id": 85,
+                            "content": "Students with Disabilites:",
+                            "key": 1,
+                            "children": [
+                                {
+                                    "id": 86,
+                                    "content": "Any student with a documented disability (physical or cognitive) who requires academic accommodations should contact the Services for Students with Disabilities area of the Office of the Dean of Students at 471-6259 (voice) or 471-4641 (TTY for users who are deaf or hard of hearing) as soon as possible to request an official letter outlining authorized accommodations.",
+                                    "key": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 87,
+                    "content": "",
+                    "isList": true,
+                    "key": 13,
+                    "children": [
+                      {
+                        "id": 88,
+                        "content": "Additional Class Policies",
+                        "key": 1,
+                        "children": [
+                          {
+                            "id": 89,
+                            "content": "You should read the CS Department Code of Conduct. The policies described there will be followed in this class.",
+                            "key": 1
+                          }
+                        ]
+                      }
+                    ]
+                }
+            ]
+        }
+    ]
+}

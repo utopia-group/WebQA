@@ -1,0 +1,212 @@
+{
+    "id": 0,
+    "content": "CS 239: Big Data Systems",
+    "children": [
+      {
+        "id": 1,
+        "content": "Fall 2019, Monday Wednesday 4:00 - 5:50pm, Haines Hall Room A25",
+        "key": 1
+      },
+      {
+        "id": 2,
+        "content": "Instructor: Harry Xu , Office: Rm 496A Engineering VI, Office hour: by appointment, Credits: 4",
+        "key": 2,
+        "children": [
+          {
+            "id": 3,
+            "content": "Schedule",
+            "key": 1
+          },
+          {
+            "id": 4,
+            "content": "Paper list",
+            "key": 2
+          },
+          {
+            "id": 5,
+            "content": "Project (TBD)",
+            "key": 3
+          },
+          {
+            "id": 6,
+            "content": "Course Overview",
+            "key": 4
+          },
+          {
+            "id": 7,
+            "content": "Modern computing has entered the era of big data. This class will introduce the concepts and state-of-the-art in modern big data systems. Specifically, we will cover these topics:",
+            "isList": true,
+            "key": 5,
+            "children": [
+              {
+                "id": 8,
+                "content": "_ Key challenges in big data processing",
+                "key": 1
+              },
+              {
+                "id": 9,
+                "content": "_ Storage systems:",
+                "key": 2,
+                "children": [
+                  {
+                    "id": 10,
+                    "content": "HDFS, GFS, Big Table, Spanner, Windows Azure Storage",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 11,
+                "content": "_ General-purpose dataflow systems such as MapReduce, Dryad, Scope/Cosmos, and Spark",
+                "key": 3
+              },
+              {
+                "id": 12,
+                "content": "_ Scheduling and resource management in cluster computing, such as YANN and Mesos",
+                "key": 4
+              },
+              {
+                "id": 13,
+                "content": "_ Batch processing systems such as Hive and Spark SQL",
+                "key": 5
+              },
+              {
+                "id": 14,
+                "content": "_ Streaming data processing systems such as Storm, Flink , DStream , and Naiad",
+                "key": 6
+              },
+              {
+                "id": 15,
+                "content": "_ Distributed and single-machine systems for large scale graph processing, such as Pregel , Ligra , GraphX , and PowerGraph",
+                "key": 7
+              },
+              {
+                "id": 16,
+                "content": "_ Systems for machine learning, such as Parameter Server and TensorFlow .",
+                "key": 8
+              }
+            ]
+                },
+                {
+                    "id": 17,
+                    "content": "Prerequisites",
+                    "key": 6,
+                    "children": [
+                        {
+                            "id": 18,
+                            "content": "There are no formal prerequisites, but it will help to have some background in the OS, distributed systems, or database systems.",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 19,
+                    "content": "Course Organization",
+                    "key": 7,
+                    "children": [
+                        {
+                            "id": 20,
+                            "content": "The course will have the following three parts:",
+                            "key": 1
+                        },
+                        {
+                            "id": 21,
+                            "content": "(1) Lectures by the Instructor",
+                            "key": 2,
+                            "children": [
+                              {
+                                "id": 22,
+                                "content": "I'll spend one meeting covering background before starting a topic.",
+                                "key": 1
+                              },
+                              {
+                                "id": 23,
+                                "content": "(2) Student presentations",
+                                "key": 2,
+                                "children": [
+                                  {
+                                    "id": 24,
+                                    "content": "Each student will present one or two papers from the list . For each presentation, two students (other than the presenter) are responsible for giving feedback as to how to improve the presentation.",
+                                    "key": 1
+                                  }
+                                ]
+                              }
+                            ]
+                        },
+                        {
+                            "id": 25,
+                            "content": "(3) Projects",
+                            "key": 3,
+                            "children": [
+                              {
+                                "id": 26,
+                                "content": "Students will form groups to undertake a project that explores a new research idea in the related areas. Detailed project information can be found here .",
+                                "key": 1
+                              }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 27,
+                    "content": "Grading",
+                    "key": 8,
+                    "children": [
+                      {
+                        "id": 28,
+                        "content": "The activities of the class include the following four parts:",
+                        "key": 1
+                      },
+                      {
+                        "id": 29,
+                        "content": "(1) Paper critiques (15%): There are two presentations scheduled for each class. Students are required to carefully read a number of papers on the same topic before the class and write critiques for the two papers that will be presented. I need your critiques the noon before the class. For example, for the Monday class, your critiques are due 12pm Monday.",
+                        "key": 2
+                      },
+                      {
+                        "id": 30,
+                        "content": "(2) Paper presentation (30%): Two papers presented in each class cover similar topics, so we will have an opportunity to read and compare a range of papers solving similar problems. The presenter is also the discussion leader, who is expected to prepare for a set of interesting questions that can provoke further thoughts and discussions. Although the number of papers each student needs to present will be determined by the number of students in the class, I expect each student to present at least two papers in the quarter.",
+                        "key": 3
+                      },
+                      {
+                        "id": 31,
+                        "content": "(3) In-class discussion (15%) : We will have in-depth discussions not only on the papers presented, but also on related papers and creative ideas that may open up opportunities for future work.",
+                        "key": 4
+                      },
+                      {
+                        "id": 32,
+                        "content": "(4) Projects (40%) : Research projects are conducted on a per-group-basis. Each group has two students who work together to develop a novel research idea. I will set up several meetings with each group to have in-depth discussions on the proposed project. Each group will report their projects twice in the class: a kickoff presentation to propose the project (typically in the third and/or fourth week) and a progress presentation at the end of the quarter. Each group is required to turn in a project writeup (like a research paper) that describes the idea, the implementation, and the experimental results. I hope some of the high-quality project reports can be turned into top-conference submissions.",
+                        "key": 5
+                      },
+                      {
+                        "id": 33,
+                        "content": "Paper Reading/Reviewing Tips",
+                        "key": 6,
+                        "children": [
+                          {
+                            "id": 34,
+                            "content": "How to read a paper",
+                            "key": 1
+                          },
+                          {
+                            "id": 35,
+                            "content": "Notes on Constructive and Positive Reviewing",
+                            "key": 2
+                          },
+                          {
+                            "id": 36,
+                            "content": "The task of the referee",
+                            "key": 3
+                          },
+                          {
+                            "id": 37,
+                            "content": "How to write a review for a system paper",
+                            "key": 4
+                          }
+                        ]
+                      }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="" name="description"/>
+<meta content="" name="author"/>
+<title>Sorin Lerner</title>
+<!-- Bootstrap core CSS -->
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" rel="stylesheet"/>
+<!-- .jumbotron { padding: 20px 10px; background-color: #f4f4f4; } -->
+<!-- .jumbotron { padding: 20px 10px; background-color: #fff4f4; border-style:solid; border-color: #ffe0e0 } -->
+<!-- .jumbotron { padding: 20px 10px; background-color: #faf4ff; border-style:solid; border-color: #f3e5ff } -->
+<style>
+      body { padding-top: 80px; }
+      .jumbotron { padding: 20px 10px; background-color: #f4f4f4; }
+      .navbar-brand { font-size: 18px; }
+      .nav-item { font-size: 18px; }
+      .form-inline .btn { font-size: 18px; }
+      .top5 { margin-top:5px; }
+      .top7 { margin-top:7px; }
+      .top10 { margin-top:10px; }
+      .top15 { margin-top:15px; }
+      .top17 { margin-top:17px; }
+      .top30 { margin-top:30px; }
+      .bio-div { display: flex; justify-content: flex-end; flex-flow: column nowrap; }
+    </style>
+<!-- <style> -->
+<!--   body { padding-top: 80px; } -->
+<!--   .navbar-brand { font-size: 18px; } -->
+<!--   .nav-item { font-size: 18px; } -->
+<!--   .form-inline .btn { font-size: 18px; } -->
+<!--   .panel-heading { font-size: 23px; } -->
+<!--   .panel .btn { font-size: 18px; } -->
+<!-- </style> -->
+<script language="javascript">
+      window.addEventListener("hashchange", function() { scrollBy(0, -80) })
+    </script>
+</head>
+<body data-spy="scroll" data-target="#main-nav-bar">
+<!-- <nav id="main-nav-bar" class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #182B49;"> -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light" id="main-nav-bar" style="background-color: #e3f2fd;">
+<div class="container">
+<a class="navbar-brand" href="#">Sorin Lerner</a>
+<button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav mr-auto">
+<li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+<li class="nav-item"><a class="nav-link" href="#students">Students</a></li>
+<li class="nav-item"><a class="nav-link" href="#teaching">Teaching</a></li>
+<li class="nav-item"><a class="nav-link" href="#papers">Papers</a></li>
+</ul>
+<form class="form-inline my-2 my-lg-0">
+<a class="btn btn-outline-primary" href="http://cseweb.ucsd.edu/groups/progsys/">PL@UCSD</a>  
+          <a class="btn btn-outline-success" href="https://ucsd-pl.github.io/cse231/wi20/">Teaching now</a>
+</form>
+</div>
+</div>
+</nav>
+<div class="container">
+<div class="jumbotron">
+<div class="row">
+<div class="col-sm-3 col-md-3 col-lg-2 bio-div">
+<img class="img-fluid" src="http://cseweb.ucsd.edu/~lerner/sorin-head-2012.JPG" width="120"/>
+</div>
+<div class="col-sm-9 col-md-4 col-lg-4 top10 bio-div">
+<h3>Sorin Lerner</h3>
+<span>Professor and Vice-Chair, <a href="http://www.cs.ucsd.edu">CSE</a> @ <a href="http://www.ucsd.edu">UCSD</a></span>
+	  Office: EBU3B 3116 <br/>
+	  email: lerner@cs.ucsd.edu
+	</div>
+<div class="col-sm-12 col-md-5 col-lg-6 top10 bio-div">
+          I develop Programming Language techniques and apply
+          them to various domains, including program
+          verification, security/privacy, and HCI. I am always looking
+          for great grad students and post-docs to join our group.
+        </div>
+</div>
+</div>
+<h3 id="projects">Current Work</h3>
+<div class="row">
+<div class="col-lg-4 col-sm-12 top10">
+<img alt="VD" height="60" src="browser-logos.jpg" style="float:left; margin:0px 10px 0px 0px"/>
+<h5><a href="browser-sec.html">Browser and Web Security</a>: Making web platforms safe</h5>
+</div>
+<div class="col-lg-4 col-sm-12 top10">
+<img alt="VD" height="85" src="proj-boxes-logo.png" style="float:left; margin:0px 10px 0px 0px"/>
+<h5><a href="proj-boxes.html">Projection Boxes</a>: Visualization for Live Programming</h5>
+</div>
+<div class="col-lg-4 col-sm-12 top10">
+<img alt="PB" height="60" src="pb-logo.png" style="float:left; margin:0px 10px 0px 0px"/>
+<h5><a href="pb.html">Polymorphic Blocks</a>: Block-based UI for proofs/types</h5>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-4 col-sm-12 top10">
+<img alt="PB" height="80" src="proof-games-logo-1.png" style="float:left; margin:0px 10px 0px 0px"/>
+<h5><a href="pg.html">Proof Games</a>: Crowdsourcing proofs via gamification</h5>
+</div>
+<div class="col-lg-4 col-sm-12 top10">
+<img alt="PB" height="80" src="GHC-2017/GHC-logo.jpg" style="float:left; margin:0px 10px 0px 0px"/>
+<h5><a href="GHC-2017">Attending GHC</a>: UCSD presence at Grace Hopper</h5>
+</div>
+<div class="col-lg-4 col-sm-12 top10">
+<img alt="PB" height="80" src="DEI-logo.png" style="float:left; margin:0px 10px 0px 0px"/>
+<h5>CSE's Efforts on <a href="https://cse.ucsd.edu/diversity_equity_inclusion">Diversity, Equity and Inclusion</a></h5>
+</div>
+</div>
+<br/>
+<h3>Previous Work</h3>
+<p class="lead">While the projects below are mostly wrapped up, they give you a flavor for the kind of research I'm interested in.</p>
+<div class="row">
+<div class="col-lg-3 col-sm-12 top10">
+<img alt="Collider" height="50" src="http://cseweb.ucsd.edu/~lerner/collider.jpg" style="float:left; margin:0px 10px 0px 0px" width="50"/>
+<a href="http://cseweb.ucsd.edu/~lerner/collider.html">Collider</a>: Correct opts from high-level specifications
+      </div>
+<div class="col-lg-3 col-sm-12 top10">
+<img alt="Radar" height="50" src="http://cseweb.ucsd.edu/~lerner/radar.jpg" style="float:left; margin:0px 10px 0px 0px" width="50"/>
+<a href="http://cseweb.ucsd.edu/~lerner/radar.html">Radar</a>: Concurrent analyses from sequential ones
+      </div>
+<div class="col-lg-3 col-sm-12 top10">
+<img alt="Quail" height="50" src="http://cseweb.ucsd.edu/~lerner/quail.jpg" style="float:left; margin:0px 10px 0px 0px" width="50"/>
+<a href="http://cseweb.ucsd.edu/~lerner/quail.html">Quail</a>:
+        Deep Typechecking &amp; Refactoring
+      </div>
+<div class="col-lg-3 col-sm-12 top10">
+<img alt="Arcum" height="50" src="http://cseweb.ucsd.edu/~lerner/arcum.bmp" style="float:left; margin:0px 10px 0px 0px" width="50"/>
+<a href="http://cseweb.ucsd.edu/~lerner/arcum.html">Arcum</a>: Crosscutting design idioms, made modular
+      </div>
+</div>
+<div class="row">
+<div class="col-lg-3 col-sm-12 top10">
+<img alt="CodeSpells" height="50" src="http://3.bp.blogspot.com/--IjghupZiuA/UA13hlCfW2I/AAAAAAAAAAk/Uu_WIRUnZ7Q/s640/Screen+Shot+2012-07-23+at+9.09.59+AM.png" style="float:left; margin:0px 10px 0px 0px" width="auto"/>
+<a href="https://codespells.org/">Code Spells:</a>
+        Game that teaches coding
+      </div>
+<div class="col-lg-3 col-sm-12 top10">
+<img alt="Reflex" height="50" src="http://goto.ucsd.edu/reflex/reflex.png" style="float:left; margin:0px 10px 0px 0px" width="50"/>
+<a href="http://goto.ucsd.edu/reflex/">Reflex</a>: Verification of reactive systems in Coq
+      </div>
+<div class="col-lg-3 col-sm-12 top10">
+<img alt="Quark" height="50" src="http://goto.ucsd.edu/quark/quark.png" style="float:left; margin:0px 10px 0px 0px" width="50"/>
+<a href="http://goto.ucsd.edu/quark/">Quark</a>: Practical web browser verified in Coq
+      </div>
+<div class="col-lg-3 col-sm-12 top10">
+<img alt="Javascript" height="50" src="http://cseweb.ucsd.edu/~lerner/js.jpg" style="float:left; margin:0px 10px 0px 0px" width="50"/>
+<a href="http://cseweb.ucsd.edu/~lerner/js.html">Javascript</a>: Analysis for Javascript security
+      </div>
+</div>
+<div class="row">
+<div class="col-lg-3 col-sm-12 top10">
+<img alt="TV-HLS" height="50" src="http://cseweb.ucsd.edu/~lerner/hls.jpg" style="float:left; margin:0px 10px 0px 0px" width="50"/>
+<a href="http://cseweb.ucsd.edu/~lerner/hls.html">TV-HLS</a>: Verification for High-Level Synthesis
+      </div>
+<div class="col-lg-3 col-sm-12 top10">
+<img alt="Parsimony" height="50" src="https://parsimony-ide.github.io/asset/image/persimmon.svg" style="float:left; margin:0px 10px 0px 0px" width="50"/>
+<a href="https://parsimony-ide.github.io/">Parsimony</a>: Construct parsers by example
+      </div>
+<div class="col-lg-3 col-sm-12 top10">
+<img alt="Parsimony" height="50" src="eddie.png" style="float:left; margin:0px 10px 0px 0px" width="50"/>
+<a href="http://goto.ucsd.edu/~john/eddie/overview/">Eddie</a>: Synthesize interactive diagrams
+      </div>
+<div class="col-lg-3 col-sm-12 top10">
+<img alt="VD" height="50" src="veridrone-logo.png" style="float:left; margin:0px 10px 0px 0px"/>
+<a href="http://veridrone.ucsd.edu">VeriDrone</a>: Verification of Cyber-physical Systems
+      </div>
+</div>
+<br/>
+<h3 id="students">Students</h3>
+<div class="lead">
+<p>
+<a href="http://davidthien.com/">David Thien</a> (PhD student, co-advised with <a href="http://cseweb.ucsd.edu/~dstefan/">Deian Stefan</a>, started 2019) <br/>
+      Yousef Alhessi (PhD student, started 2018) <br/>
+<a href="http://alex.uwplse.org/">Alex Sanchez-Stern</a> (PhD student, started 2016) <br/>
+<!-- <p> Anthony DeRossi (PhD student, started 2016) </p> -->
+<!-- <p> <a href="http://goto.ucsd.edu/~mario/">Mario Alvarez </a> (PhD student, started 2014) </p> -->
+<a href="http://cseweb.ucsd.edu/~jsarraci">John Sarracino</a> (PhD student, started 2014) <br/>
+</p>
+<p>
+<a href="http://cseweb.ucsd.edu/~vrobert/">Valentin Robert</a> (PhD 2018)   →   Galois<br/>
+      Dimitar Bounov (PhD 2018)   →   ConsenSys <br/>
+<a href="http://cseweb.ucsd.edu/~atl017/">Alan Leung</a> 
+        (PhD 2017)   →   Microsoft<br/>
+<a href="http://cseweb.ucsd.edu/~daricket/">Daniel Ricketts</a> 
+        (PhD 2017)   →   Oracle<br/>
+<a href="http://cseweb.ucsd.edu/~srfoster/">Stephen Foster</a>
+        (PhD 2015, co-advised with <a href="http://cseweb.ucsd.edu/~wgg/">Bill Griswold</a>) 
+          →   CEO of <a href="http://www.thoughtstem.com/">ThoughtStem</a><br/>
+      Samantha Wood (M. S. 2015, co-advised with <a href="http://cseweb.ucsd.edu/~wgg/">Bill Griswold</a>)<br/>
+<a href="http://homes.cs.washington.edu/~ztatlock">Zachary Tatlock</a> 
+        (PhD 2014)   →   Assistant Professor at University of Washington <br/>
+<a href="http://cseweb.ucsd.edu/~d1jang/">Dongseok Jang</a> 
+        (PhD 2014)   →   Google<br/>
+<a href="http://www.cs.cornell.edu/~ross/">Ross Tate</a> 
+	(PhD 2012)   →   Assistant Professor at Cornell<br/>
+<a href="http://goto.ucsd.edu/~mstepp/">Mike Stepp</a> 
+	(PhD 2011)   →   Google<br/>
+<a href="http://www.cs.ucsd.edu/~jmeister">Jeffrey A. Meister</a>
+	(M.S. 2011, co-advised with <a href="https://cseweb.ucsd.edu/~rjhala">Ranjit Jhala</a>)   →   MyLife<br/>
+<a href="http://www.cs.ucsd.edu/~skundu">Sudipta Kundu</a>
+	(PhD 2009, co-advised with <a href="http://cseweb.ucsd.edu/~gupta/">Rajesh Gupta</a>)   →   Synopsis<br/>
+      Macneil Shonle
+	(PhD 2009, co-advised with <a href="http://cseweb.ucsd.edu/~wgg/">Bill Griswold</a>)   →   The University of Texas at San Antonio, then Google<br/>
+<a href="http://www.cs.ucsd.edu/~jvoung">Jan Wen Voung</a>
+	(PhD 2009, co-advised with <a href="https://cseweb.ucsd.edu/~rjhala">Ranjit Jhala</a>)   →   Google
+      </p>
+</div>
+<br/>
+<h3 id="teaching">Teaching</h3>
+<p>
+</p><div class="lead">
+<div class="card card-default">
+<div class="card-header">
+<div class="row">
+<div class="col-sm-8">
+	      CSE 8A: Introduction to Programming
+	    </div>
+<div class="col-sm-2">
+<a class="btn btn-outline-primary btn-block" href="https://sites.google.com/eng.ucsd.edu/cse-8a-Fall-2019/home">Fall 19</a>
+</div>
+</div>
+</div>
+</div>
+<div class="card card-default top10">
+<div class="card-header">
+<div class="row">
+<div class="col-sm-8">
+	      CSE 130: Undergraduate Programming Languages
+	    </div>
+<div class="col-sm-2">
+<a class="btn btn-outline-primary btn-block" href="https://ucsd-pl.github.io/cse-130-230/fa18/">Fall 18</a>
+</div>
+<div class="col-sm-2">
+<button class="btn btn-outline-success dropdown-toggle" data-target="#all-130-offerings" data-toggle="collapse" type="button">
+		Past
+	      </button>
+</div>
+</div>
+</div>
+<div class="collapse" id="all-130-offerings">
+<div class="card-body">
+<div class="row">
+<div class="col-sm-2">
+<a class="btn btn-outline-secondary btn-block" href="http://cseweb.ucsd.edu/classes/wi07/cse130/">Winter 2007</a>
+</div>
+<div class="col-sm-2">
+<a class="btn btn-outline-secondary btn-block" href="http://cseweb.ucsd.edu/classes/wi08/cse130/">Winter 2008</a>
+</div>
+<div class="col-sm-2">
+<a class="btn btn-outline-secondary btn-block" href="http://cseweb.ucsd.edu/classes/wi09/cse130/">Winter 2009</a>
+</div>
+<div class="col-sm-2">
+<a class="btn btn-outline-secondary btn-block" href="http://cseweb.ucsd.edu/classes/wi10/cse130/">Winter 2010</a>
+</div>
+<div class="col-sm-2">
+<a class="btn btn-outline-secondary btn-block" href="http://cseweb.ucsd.edu/classes/fa10/cse130/">Fall 2010</a>
+</div>
+<div class="col-sm-2">
+<a class="btn btn-outline-secondary btn-block" href="http://cseweb.ucsd.edu/classes/wi11/cse130/">Winter 2011</a>
+</div>
+</div>
+<br/>
+<div class="row">
+<div class="col-sm-2">
+<a class="btn btn-outline-secondary btn-block" href="http://cseweb.ucsd.edu/classes/wi12/cse130-a/">Winter 2012</a>
+</div>
+<div class="col-sm-2">
+<a class="btn btn-outline-secondary btn-block" href="http://cseweb.ucsd.edu/classes/wi13/cse130-a/">Winter 2013</a>
+</div>
+<div class="col-sm-2">
+<a class="btn btn-outline-secondary btn-block" href="http://cseweb.ucsd.edu/classes/sp13/cse130-a/">Spring 2013</a>
+</div>
+<div class="col-sm-2">
+<a class="btn btn-outline-secondary btn-block" href="http://cseweb.ucsd.edu/classes/fa13/cse130-a/">Fall 2013</a>
+</div>
+<div class="col-sm-2">
+<a class="btn btn-outline-secondary btn-block" href="http://cseweb.ucsd.edu/classes/fa14/cse130-a/">Fall 2014</a>
+</div>
+<div class="col-sm-2">
+<a class="btn btn-outline-secondary btn-block" href="http://cseweb.ucsd.edu/classes/wi15/cse130-a/">Winter 2015</a>
+</div>
+</div>
+<br/>
+<div class="row">
+<div class="col-sm-2">
+<a class="btn btn-outline-secondary btn-block" href="http://cseweb.ucsd.edu/classes/wi16/cse130-a/">Winter 2016</a>
+</div>
+<div class="col-sm-2">
+<a class="btn btn-outline-secondary btn-block" href="http://cseweb.ucsd.edu/classes/fa16/cse130-a/">Fall 2016</a>
+</div>
+<div class="col-sm-2">
+<a class="btn btn-outline-secondary btn-block" href="https://ucsd-pl.github.io/cse-130-230/fa17/">Fall 2017</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="card card-default top10">
+<div class="card-header">
+<div class="row">
+<div class="col-sm-8">
+	      CSE 231: Graduate Compilers
+	    </div>
+<div class="col-sm-2">
+<a class="btn btn-outline-primary btn-block" href="https://ucsd-pl.github.io/cse231/wi20/">Winter 20</a>
+</div>
+<div class="col-sm-2">
+<button class="btn btn-outline-success dropdown-toggle" data-target="#all-231-offerings" data-toggle="collapse" type="button">
+		Past
+	      </button>
+</div>
+</div>
+</div>
+<div class="collapse" id="all-231-offerings">
+<div class="card-body">
+<div class="row">
+<div class="col-sm-2">
+<a class="btn btn-outline-secondary btn-block" href="http://www.cse.ucsd.edu/classes/fa06/cse231/">Fall 2006</a>
+</div>
+<div class="col-sm-2">
+<a class="btn btn-outline-secondary btn-block" href="http://www.cse.ucsd.edu/classes/fa07/cse231/">Fall 2007</a>
+</div>
+<div class="col-sm-2">
+<a class="btn btn-outline-secondary btn-block" href="http://www.cse.ucsd.edu/classes/fa08/cse231/">Fall 2008</a>
+</div>
+<div class="col-sm-2">
+<a class="btn btn-outline-secondary btn-block" href="http://www.cse.ucsd.edu/classes/fa09/cse231/">Fall 2009</a>
+</div>
+<div class="col-sm-2">
+<a class="btn btn-outline-secondary btn-block" href="http://www.cse.ucsd.edu/classes/sp11/cse231-a/">Spring 2011</a>
+</div>
+<div class="col-sm-2">
+<a class="btn btn-outline-secondary btn-block" href="http://www.cse.ucsd.edu/classes/fa11/cse231-a/">Fall 2011</a>
+</div>
+</div>
+<br/>
+<div class="row">
+<div class="col-sm-2">
+<a class="btn btn-outline-secondary btn-block" href="http://cseweb.ucsd.edu/classes/fa12/cse231-a/">Fall 2012</a>
+</div>
+<div class="col-sm-2">
+<a class="btn btn-outline-secondary btn-block" href="http://cseweb.ucsd.edu/classes/sp14/cse231-a/">Spring 2014</a>
+</div>
+<div class="col-sm-2">
+<a class="btn btn-outline-secondary btn-block" href="http://cseweb.ucsd.edu/classes/sp15/cse231-a/">Spring 2015</a>
+</div>
+<div class="col-sm-2">
+<a class="btn btn-outline-secondary btn-block" href="http://cseweb.ucsd.edu/classes/fa15/cse231-a/">Fall 2015</a>
+</div>
+<div class="col-sm-2">
+<a class="btn btn-outline-secondary btn-block" href="https://ucsd-pl.github.io/cse231/wi17/">Winter 2017</a>
+</div>
+<div class="col-sm-2">
+<a class="btn btn-outline-secondary btn-block" href="https://ucsd-pl.github.io/cse231/wi18/">Winter 2018</a>
+</div>
+</div>
+<br/>
+<div class="row">
+<div class="col-sm-2">
+<a class="btn btn-outline-secondary btn-block" href="https://ucsd-pl.github.io/cse231/wi19/">Winter 2019</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="card card-default top10">
+<div class="card-header">
+<div class="row">
+<div class="col-sm-8">
+	      CSE 230: Graduate Programming Languages
+	    </div>
+<div class="col-sm-2">
+<a class="btn btn-outline-primary btn-block" href="https://ucsd-pl.github.io/cse-130-230/fa18/">Fall 18</a>
+</div>
+<div class="col-sm-2">
+<button class="btn btn-outline-success dropdown-toggle" data-target="#all-230-offerings" data-toggle="collapse" type="button">
+		Past
+	      </button>
+</div>
+</div>
+</div>
+<div class="collapse" id="all-230-offerings">
+<div class="card-body">
+<div class="row">
+<div class="col-sm-2">
+<a class="btn btn-outline-secondary btn-block" href="https://ucsd-pl.github.io/cse-130-230/fa17/">Fall 2017</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<br/>
+<div class="card card-default">
+<div class="card-header">
+<div class="row">
+<div class="col-sm-8">
+	      CSE 291: Applied Automated Theorem Proving
+	    </div>
+<div class="col-sm-2">
+<a class="btn btn-outline-primary btn-block" href="http://cseweb.ucsd.edu/~lerner/sp10-atp/">Spring 10</a>
+</div>
+<div class="col-sm-2">
+<button class="btn btn-outline-success dropdown-toggle" data-target="#all-ATP-offerings" data-toggle="collapse" type="button">
+		Past
+	      </button>
+</div>
+</div>
+</div>
+<div class="card-collapse collapse" id="all-ATP-offerings">
+<div class="card-body">
+<div class="row">
+<div class="col-sm-2">
+<a class="btn btn-outline-secondary btn-block" href="http://www.cse.ucsd.edu/classes/wi06/cse291-f/">Winter 2006</a>
+</div>
+<div class="col-sm-2">
+<a class="btn btn-outline-secondary btn-block" href="http://www.cse.ucsd.edu/classes/sp08/cse291e/">Spring 2008</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="card card-default top10">
+<div class="card-header">
+<div class="row">
+<div class="col-sm-8">
+	      CSE 291: Power and Programming Languages
+	    </div>
+<div class="col-sm-2">
+<a class="btn btn-outline-primary btn-block" href="http://cseweb.ucsd.edu/~lerner/energy-seminar/">Spring 09</a>
+</div>
+</div>
+</div>
+</div>
+<div class="card card-default top10">
+<div class="card-header">
+<div class="row">
+<div class="col-sm-8">
+	      CSE 291: Software Reliability Methods
+	    </div>
+<div class="col-sm-2">
+<a class="btn btn-outline-primary btn-block" href="http://cseweb.ucsd.edu/classes/sp06/cse291-a/">Spring 06</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<br/>
+<h3 id="papers">Papers</h3>
+<div class="lead">
+<p><a href="papers/projection-boxes-chi2020.pdf">Projection Boxes: On-the-fly Reconfigurable Visualization for Live Programming</a> (CHI 2020)
+	<br/>
+	    Sorin Lerner.</p>
+<p><a href="papers/REPLica.pdf">REPLica: REPL Instrumentation for Coq Analysis</a> (CPP 2020)
+	<br/>
+	    with Talia Ringer, Alex Sanchez-Stern, and Dan Grossman.</p>
+<p><a href="papers/proof-games-chi18.pdf">Inferring Loop Invariants through Gamification</a> (CHI 2018)
+	<br/>
+	    with Dimitar Bounov, Anthony DeRossi, Massimiliano Menarini, and William G. Griswold.</p>
+<p><a href="papers/acc2018.pdf">Safety verification using barrier certificates with application to double integrator with input saturation and zero-order hold</a> (American Control Conference 2018)
+	<br/>
+	    with A. Ghaffari, I. Abel, D. Ricketts, and M. Krstic.</p>
+<p><a href="papers/dse-usenix2017.pdf">Dead Store Elimination (Still) Considered Harmful </a> (USENIX Security 2017)
+	<br/>
+	    with Z. Yang, B. Johannesmeyer, A. T. Olesen, and K. Levchenko.</p>
+<p><a href="papers/parsimony-ase2017.pdf">Parsimony: An IDE for Example-Guided Synthesis of Lexers and Parsers </a> (ASE 2017)
+	<br/>
+	    with Alan Leung.</p>
+<p><a href="papers/eddie-chi17.pdf">User-Guided Synthesis of Interactive Diagrams </a> (CHI 2017)
+	<br/>
+	    with John Sarracino, Odaris Barrios-Arciga, Jasmine Zhu, Noah Marcus, and Ben Wiedermann.</p>
+<p><a href="papers/emsoft2016.pdf">Modular Deductive Verification of Sampled-Data Systems</a> (EMSOFT 2016)
+	<br/>
+	    with Daniel Ricketts and Gregory Malecha.
+        <br/>
+            [<a href="http://veridrone.ucsd.edu">Veridrone Project</a>]
+</p>
+<p><a href="papers/soscyps2016.pdf">Towards Foundational Verification of Cyber-physical Systems </a> (<a href="http://publish.illinois.edu/science-of-security-lablet/science-of-security-for-cyber-physical-systems-workshop/">SoSCYPS 2016</a>)
+	<br/>
+	    with Gregory Malecha, Daniel Ricketts and Mario M. Alvarez.</p>
+<p><a href="papers/ivtbl-ndss16.pdf">Protecting C++ Dynamic Dispatch Through VTable Interleaving </a> (NDSS 2016)
+	<br/>
+	    with Dimitar Bounov and Rami Gökhan Kici.</p>
+<p><a href="http://ucsd-pl.github.io/veridrone/papers/coqpl2016.pdf">Formal Verification of Stability Properties of Cyber-physical Systems </a> (<a href="http://conf.researchr.org/home/CoqPL-2016">CoqPL 2016</a>)
+	<br/>
+	    with Matthew Chan, Daniel Ricketts, and Gregory Malecha.
+        <br/>
+            [<a href="http://veridrone.ucsd.edu">Veridrone Project</a>]
+        </p>
+<p><a href="papers/fp-printing-popl16.pdf">Printing Floating-Point Numbers: An Always Correct Method </a> (POPL 2016)
+	<br/>
+	    with Marc Andrysco and Ranjit Jhala.</p>
+<p><a href="http://ucsd-pl.github.io/veridrone/papers/memocode2015.pdf">Towards Verification of Hybrid Systems in a Foundational Proof Assistant</a> (<a href="http://memocode.irisa.fr/2015/">MEMOCODE 2015</a>)
+	<br/>
+	    with Daniel Ricketts, Gregory Malecha, Mario Alvarez, and Vignesh Gowda.
+        <br/>
+            [<a href="http://veridrone.ucsd.edu">Veridrone Project</a>, <a href="http://ucsd-pl.github.io/veridrone/videos/MEMOCODE-15-talk.mp4">Talk</a>]
+        </p>
+<p><a href="papers/tv-memocode15.pdf">C-To-Verilog Translation Validation </a> (<a href="http://memocode.irisa.fr/2015/">MEMOCODE 2015</a>)
+	<br/>
+	    with Alan Leung and Dimitar Bounov.</p>
+<p><a href="papers/GamesToCode-fdg15.pdf">Seamless Integration of Coding and Gameplay: Writing Code Without Knowing it</a> (<a href="http://www.fdg2015.org/">FDG 2015</a>)
+	<br/>
+	    with Stephen R. Foster and William G. Griswold.</p>
+<p><a href="papers/parsify-pldi15.pdf">Interactive Parser Synthesis by Example</a> (PLDI 2015)
+	<br/>
+	    with Alan Leung and John Sarracino.</p>
+<p><a href="papers/subnormal.pdf">On Subnormal Floating Point and Abnormal Timing</a> (Oakland 2015)
+	<br/>
+	    with Marc Andrysco, David Kohlbrenner, Keaton Mowery, Ranjit Jhala, and Hovav Shacham.</p>
+<p><a href="papers/polymorphic-blocks-chi15.pdf">Polymorphic Blocks: Formalism-Inspired UI for Structured Connectors</a> (CHI 2015)
+	<br/>
+	    with Stephen R. Foster and William G. Griswold.</p>
+<p><a href="http://goto.ucsd.edu/reflex/reflex-pldi14.pdf">Automating Formal Proofs for Reactive Systems</a> (PLDI 2014)
+      <br/>
+          with Daniel Ricketts, Valentin Robert, Dongseok Jang and Zachary Tatlock
+      <br/>
+          [Project web site for <a href="http://goto.ucsd.edu/reflex">Reflex</a>, including videos of what we built, video of PLDI talk, source code, and working VM image ]</p>
+<p><a href="papers/ndss14.pdf">SafeDispatch: Securing C++ Virtual Calls from Memory Corruption Attacks</a> (NDSS 2014)
+      <br/>
+          with Dongseok Jang and Zachary Tatlock
+
+      </p><p><a href="http://goto.ucsd.edu/quark/usenix12.pdf">Establishing Browser Security Guarantees through Formal Shim Verification</a> (USENIX Security 2012)
+      <br/>
+          with Dongseok Jang and Zachary Tatlock
+      <br/>
+          [Project web site for <a href="http://goto.ucsd.edu/quark">Quark browser</a>, including videos of the browser, source code, and working VM image]</p>
+<p><a href="papers/verifying_gpu_kernels_by_test_amplification.pdf">Verifying GPU Kernels By Test Amplification</a> (PLDI 2012)
+	<br/>
+	    with Alan Leung, Manish Gupta, Yuvraj Agarwal, Rajesh Gupta and Ranjit Jhala</p>
+<p><a href="papers/witch_doctor.pdf"> WitchDoctor: IDE support for real-time auto-completion of refactorings</a> (ICSE 2012)
+	<br/>
+	    with Stephen R. Foster and William G. Griswold
+      </p>
+<p><a href="papers/cav2011.pdf"> Equality-Based Translation Validator for LLVM</a> (CAV 2011)
+	<br/>
+	    with Michael Stepp and Ross Tate
+      </p>
+<p><a href="http://cseweb.ucsd.edu/~rtate/publications/tamewild/"> 
+	  Taming Wildcards in Java's Type System</a> (PLDI 2011)<br/>
+	    with Ross Tate and Alan Leung
+      </p>
+<p><a href="papers/nips10.html">Latent Variable Models for Predicting
+	  File Dependencies in Large-Scale Software Development</a> (NIPS 2010)<br/>
+	    with Diane Hu, Laurens van der Maaten, Youngmin
+	Cho, and Lawrence K. Saul
+      </p>
+<p><a href="papers/ccs10-jsc.html">An Empirical Study of
+	  Privacy-Violating Information Flows in JavaScript Web Applications</a> 
+	(CCS 2010)<br/>
+	    with Dongseok Jang, Ranjit Jhala, and Hovav Shacham
+      </p>
+<p><a href="papers/pldi10-xcert.html">Bringing Extensibility to
+	  Verified Compilers</a> (PLDI 2010)<br/>
+	    with Zachary Tatlock
+      </p>
+<p><a href="papers/popl10.html">Generating Compiler Optimizations from Proofs</a> (POPL 2010)<br/>
+	    with Ross Tate, and Michael Stepp
+      </p>
+<p><a href="papers/pldi09-pec.html">Proving Optimizations Correct using Parameterized Program Equivalence</a> (PLDI 2009)<br/>
+	    with Sudipta Kundu, and Zachary Tatlock
+      </p>
+<p><a href="papers/pldi09-sif.html">Staged Information Flow for 
+	  JavaScript</a> (PLDI 2009)<br/>
+	    with Ravi Chugh, Jeffrey A. Meister, and Ranjit Jhala
+      </p>
+<p><a href="papers/popl09.html">Equality Saturation: a New Approach to Optimization</a> (POPL 2009)<br/>
+	    with Ross Tate, Michael Stepp, and Zachary Tatlock
+      </p>
+<p><a href="papers/paste08.pdf">Addressing Common Crosscutting Problems with Arcum</a> (PASTE 2008)<br/>
+	    with Macneil Shonle and William G. Griswold
+      </p>
+<p><a href="papers/wrt08.pdf">When Refactoring Acts like Modularity:
+	  Keeping Options Open with Persistent Condition Checking</a>
+	(WRT 2008)<br/>
+	    with Macneil Shonle and William G. Griswold
+      </p>
+<p><a href="papers/quail.html">Deep Typechecking and Refactoring</a>
+	(OOPSLA 2008)<br/>
+	    with Zachary Tatlock, 
+	Chris Tucker, David Shuffelton, and Ranjit Jhala
+      </p>
+<p><a href="papers/hls.html">Validating High Level Synthesis</a> 
+	(CAV 2008)<br/>
+	    with Sudipta Kundu and Rajesh Gupta 
+      </p>
+<p><a href="papers/radar.html">Dataflow Analysis for Concurrent
+	  Programs using Datarace Detection</a> (PLDI 2008)<br/>
+	    with Ravi Chugh, Jan Voung, and Ranjit Jhala
+      </p>
+<p><a href="papers/arccos.html">Automated Refinement Checking of 
+	  Concurrent Systems</a> (ICCAD 2007) <br/>
+	    with Sudipta Kundu and Rajesh Gupta
+      </p>
+<p><a href="papers/arcum.html">Beyond Refactoring: A Framework for Modular
+	  Maintenance of Crosscutting Design Idioms</a> (ESEC/FSE 2007) <br/>
+	    with Macneil Shonle and William G. Griswold
+      </p>
+<p><a href="papers/relay.html"> RELAY: Static Race Detection on Millions of Lines of Code</a> (ESEC/FSE 2007) <br/>
+	    with Jan Voung and Ranjit Jhala
+      </p>
+<p><a href="papers/inferring_flow_functions.html"> 
+	  Automatic Inference of Optimizer Flow Functions from Semantic
+	  Meanings</a> (PLDI 2007) <br/>
+	    with Erika Rice Scherpelz and Craig Chambers
+      </p>
+<p><a href="papers/opium.html">
+	  OPIUM: Optimal Package Install/Uninstall Management</a> (ICSE 2007) <br/>
+	    with Chris Tucker, David Shuffelton, and Ranjit
+	Jhala <br/>
+	    <!-- <IMG SRC="new.gif" HEIGHT=12 WIDTH=31>  -->
+	Our OPIUM work is being incorporated into Eclipse <br/>
+	    
+	[ <a href="http://mail-archive.ow2.org/sat4j-dev/2008-03/msg00001.html">announcement
+	  1</a>
+	| <a href="http://forge.objectweb.org/forum/message.php?msg_id=10260">
+	  annoucement 2
+	</a> |  
+	<a href="http://wiki.eclipse.org/Equinox_P2_Resolution"> more details</a> ]
+	
+      </p>
+<p><a href="lerner-dissertation.pdf">
+	  Automatically Proving the Correctness of Program Analyses and 
+	  Transformations</a> (PhD dissertation, 2006)<br/>
+	    University of Washington
+      </p>
+<p><a href="http://www.cse.ucsd.edu/groups/progsys/pubs/rhodium_cocv_05.html">
+	  Automatically Inferring Sound Dataflow Functions from Dataflow Fact
+	  Schemas</a> (COCV 2005) <br/>
+	    with Erika Rice and Craig Chambers
+      </p>
+<p><a href="http://www.cse.ucsd.edu/groups/progsys/pubs/rhodium_popl_05.html">
+	  Automated Soundness Proofs for Dataflow Analyses and Transformations via
+	  Local Rules</a> (POPL 2005) <br/>
+	    with Todd Millstein, Erika Rice, and Craig
+	Chambers <br/>
+	    [ <a href="popl05.ppt">Slides</a> | <a href="UW-CSE-2004-07-04.pdf">Tech Report</a> ]
+      </p>
+<p><a href="http://www.cse.ucsd.edu/groups/progsys/pubs/cobalt_pldi_03.html">
+	  Automatically Proving the Correctness of Compiler Optimizations</a>
+	(PLDI 2003, Best Paper Award)
+	<br/>
+	    with Todd Millstein, and Craig Chambers<br/>
+	    [ <a href="pldi03.ppt">Slides</a> | 
+        <a href="UW-CSE-02-11-02.pdf">Tech Report</a> ]
+      </p>
+<p>
+	Speeding Up Dataflow Analysis Using Flow-Insensitive Pointer
+	Analysis (SAS 2002) <br/>
+	    with Stephen Adams, Thomas Ball, Manuvir Das, <br/>
+	     Sriram K. Rajamani, Mark Seigle, and Westley Weimer<br/>
+<!--    <i> The 9th International Static Analysis Symposium (SAS -->
+<!--    2002)</i>. Madrid, Spain September 2002. <br> -->
+</p>
+<p><a href="http://www.cse.ucsd.edu/groups/progsys/pubs/esp_pldi_02.html">
+	  ESP: Path-Sensitive Program Verification in Polynomial Time
+	</a> (PLDI 2002)
+	<br/>
+	    with Manuvir Das and Mark Seigle
+      </p>
+<p><a href="http://www.cse.ucsd.edu/groups/progsys/pubs/dataflow_popl_02.html">
+	  Combining Dataflow Analyses and Transformations</a> (POPL 2002) <br/>
+	    with David Grove and Craig Chambers <br/>
+	    [ <a href="popl02.ppt">Slides</a> | 
+        <a href="UW-CSE-01-11-01.pdf">Tech Report</a> ]
+      </p>
+</div>
+</div> <!-- /container -->
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script crossorigin="anonymous" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+<!-- <script src="jquery.js"></script> -->
+<!-- <script src="bootstrap.min.js"></script> -->
+</body>
+</html>

@@ -1,0 +1,2243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>UIST 2020 - Home</title>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="33rd ACM User Interface Software and Technology Symposium" name="description"/>
+<link href="assets/css/loaders/loader-typing.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="assets/css/theme-event.css" media="all" rel="stylesheet" type="text/css"/>
+<link as="font" crossorigin="anonymous" href="assets/fonts/Inter-UI-upright.var.woff2" rel="preload" type="font/woff2"/>
+<link as="font" crossorigin="anonymous" href="assets/fonts/Inter-UI.var.woff2" rel="preload" type="font/woff2"/>
+<link href="./favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+</head>
+<body>
+<div class="loader">
+<div class="loading-animation"></div>
+</div>
+<div class="navbar-container">
+<nav class="navbar navbar-expand-lg navbar-dark" data-overlay="" data-sticky="top">
+<div class="container">
+<button aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+<img alt="menu interface icon" class="icon navbar-toggler-open" data-inject-svg="" src="assets/img/icons/interface/menu.svg"/>
+<img alt="cross interface icon" class="icon navbar-toggler-close" data-inject-svg="" src="assets/img/icons/interface/cross.svg"/>
+</button>
+<div class="collapse navbar-collapse justify-content-center">
+<div class="py-2 py-lg-0">
+<ul class="navbar-nav">
+<a class="navbar-brand fade-page" href="index.html">
+<img alt="UIST Logo" src="assets/img/uist-logo.svg"/>
+</a>
+<li class="nav-item dropdown">
+<a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown-grid" href="index.html">Home</a>
+</li>
+<li class="nav-item dropdown">
+<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown-grid" href="cfp.html">CFP</a>
+</li>
+<li class="nav-item dropdown">
+<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown-grid" href="attending.html">Attending</a>
+</li>
+<li class="nav-item dropdown">
+<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown-grid" href="program.html">Program</a>
+</li>
+<li class="nav-item dropdown">
+<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown-grid" href="diversity.html">Diversity</a>
+</li>
+<li class="nav-item dropdown">
+<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown-grid" href="accessibility.html">Accessibility</a>
+</li>
+<li class="nav-item dropdown">
+<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown-grid" href="sustainability.html">Sustainability</a>
+</li>
+<li class="nav-item dropdown">
+<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown-grid" href="press.html">Press</a>
+</li>
+<li class="nav-item dropdown">
+<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown-grid" href="sponsors.html">Sponsors</a>
+</li>
+<li class="nav-item dropdown">
+<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown-grid" href="organizers.html">Organizers</a>
+</li>
+<li class="nav-item dropdown">
+<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown-grid" href="archive.html">Archive</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</nav>
+</div>
+<section class="bg-primary-2 text-light p-0 o-hidden">
+<img alt="Banner photo: Minneapolis skyline" class="bg-image blend-mode-multiply" src="assets/img/minneapolis_banner.jpg"/>
+<div class="container layer-2">
+<div class="row pb-6 pt-7 min-vh-50 align-items-center drop-shadow" data-aos="fade-up">
+<div class="col-lg-9 col-xl-8">
+<h5>October 20 - 23, 2020</h5>
+<h1 class="display-1">UIST 2020</h1>
+<p class="lead font-weight-bold">Minneapolis, Minnesota, USA</p>
+<p class="mb-4 font-weight-bold">Colocated with CSCW</p>
+</div>
+</div>
+</div>
+<div class="decoration-wrapper" style="display:none;">
+<div class="decoration middle-y left scale-4" data-aos="fade-right">
+<img alt="deco-lines-5 decoration" class="bg-primary-2" data-inject-svg="" src="assets/img/decorations/deco-lines-5.svg"/>
+</div>
+<div class="decoration bottom right scale-2" data-jarallax-element="20">
+<img alt="deco-blob-4 decoration" class="bg-primary" data-inject-svg="" src="assets/img/decorations/deco-blob-4.svg"/>
+</div>
+<div class="decoration bottom right" data-jarallax-element="-50">
+<img alt="deco-dots-1 decoration" class="bg-white" data-inject-svg="" src="assets/img/decorations/deco-dots-1.svg"/>
+</div>
+</div>
+<div class="divider flip-x">
+<img alt="divider graphic" class="bg-primary-3" data-inject-svg="" src="assets/img/dividers/divider-3.svg"/>
+</div>
+</section>
+<section class="bg-primary-3 text-light has-divider">
+<div class="container pt-2">
+<div class="row justify-content-between">
+<div class="col-md-5 mb-3 mb-md-0">
+<p class="">The ACM Symposium on User Interface Software and Technology (UIST) is the premier forum for innovations in human-computer interfaces. Sponsored by ACM special interest groups on computer-human interaction (SIGCHI) and computer graphics (SIGGRAPH), UIST brings together people from diverse areas including graphical &amp; web user interfaces, tangible &amp; ubiquitous computing, virtual &amp; augmented reality, multimedia, new input &amp; output devices, and CSCW. The intimate size and intensive program make UIST an ideal opportunity to exchange research results and ideas.</p>
+</div>
+<div class="col-md-6">
+<h4 class="h4">Important Dates
+            </h4><table class="table table-dark">
+<tbody>
+<tr>
+<th scope="row"><span style="color:red">Abstract Deadline</span></th>
+<td><span style="color:red">April 20, 2020 (5pm PDT)</span></td>
+</tr>
+<tr>
+<th scope="row"><span style="color:red">Paper Deadline</span></th>
+<td><span style="color:red">May 6, 2020 (5pm PDT)</span></td>
+</tr>
+<tr>
+<th scope="row">Conference Begins</th>
+<td>October 20, 2020</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</section>
+<section>
+<div class="container">
+<div class="row mb-4">
+<div class="col">
+<p class="h1">Updates</p>
+<div style="border:2px solid red; margin:5px;padding:10px;"><span style="color:red"><b>March 18: Further Paper Deadline Extension / Removing the Rebuttal Phase:</b><br/> As the measures to help contain the spread of the covid-19 pandemic increasingly disrupt the course of research activities worldwide, the UIST 2020 Program Chairs together with the General Chairs and Steering Committee have decided to further extend the UIST 2020 submission deadline. We hope this will allow authors to navigate this complex situation with more serenity. The new deadline for the <b>abstracts is April 20, 2020, 5PM PDT,</b> and the new deadline for the <b>papers is May 6, 2020, 5PM PDT.</b> <br/><br/>
+
+			These changes are made possible by <b>removing the rebuttal phase for this year.</b> We understand that this may end up frustrating for some. However, on balance we hope that the extra time for completing research is the most useful to you in these circumstances.<br/><br/>
+
+			We are aware that these are uncertain times; however, this new deadline is definitive. An extension to May 6 is the latest we can possibly accommodate without impacting the quality of the review process, or the cycle of other subsequent conferences.<br/><br/>
+
+			We also acknowledge that many authors are concerned with the impossibility of conducting in-person user studies. We want to stress that user studies are not the only possible means of assessing a research contribution. We encourage authors to consider the many other ways that contributions can be validated, and we will stress in the reviewing guidelines that, for many of the submitted works, user studies might not necessarily be the most appropriate, nor indispensable method to demonstrate validity or provide valuable insights.<br/><br/>
+
+			We appreciate your understanding and support during these unusual times. If you have any questions, please email the paper chairs: <a href="mailto:program2020@uist.org">program2020@uist.org</a> <br/><br/>
+</span></div>
+<div style="border:2px solid black; margin:5px;padding:10px;"> <b>March 10: Paper Deadline Extension:</b> With Covid-19 significantly impacting research work due to restrictions on carrying out user studies, delays of hardware orders that are shipping from affected countries, and limited access to research facilities/equipment due to enforced working from home, we are extending the paper deadline by two weeks. The paper abstract and meta-data (title, author list etc.) will still be due on April 1, 2020 (5pm PDT), the actual paper pdf and video will now be due on April 15, 2020 (5pm PDT). We will make the corresponding changes in the submission system within the next days. We will closely monitor the situation in the next weeks and will post a weekly update every wednesday of the week. If you have any questions, please email the paper chairs: program2020@uist.org</div>
+</div>
+</div>
+<div>
+<p class="h1">Keynote Speakers</p>
+</div>
+<div>
+<p class="lead">To be announced.</p>
+</div>
+<!--
+        <div class="row">
+          <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/img/avatars/male-1.jpg" alt="Benjamin Cameron" class="avatar avatar-xlg mr-3">
+            <div>
+              <h5 class="mb-0">Benjamin Cameron</h5>
+              <a href="#">@benjicam</a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="200">
+            <img src="assets/img/avatars/female-4.jpg" alt="Andrea Souzakis" class="avatar avatar-xlg mr-3">
+            <div>
+              <h5 class="mb-0">Andrea Souzakis</h5>
+              <a href="#">@sozakisnotsoz</a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <a href="#" class="hover-arrow">View all Speakers</a>
+          </div>
+        </div>
+        -->
+</div>
+</section>
+<section class="bg-primary-3 text-light">
+<div class="container">
+<div class="row mb-4">
+<h2 class="h1">Venue &amp; Surroundings</h2>
+</div>
+<div class="row">
+<div class="col-md-6 mb-3 mb-md-0" data-aos="fade-up" data-aos-delay="100">
+<a href="https://www.hyatt.com/en-US/hotel/minnesota/hyatt-regency-minneapolis/msprm">
+<img alt="Hyatt Regency hotel exterior" class="rounded" src="assets/img/hotel/exterior.jpg"/>
+</a>
+<div class="my-3">
+<span class="badge badge-primary-2">Venue</span>
+</div>
+<h3>Conference Venue</h3>
+<p class="pr-lg-4">
+              UIST 2020 will take place at the Hyatt Regency Minneapolis, located in the heart of downtown Minneapolis.
+            </p>
+<a class="hover-arrow" href="https://www.hyatt.com/en-US/hotel/minnesota/hyatt-regency-minneapolis/msprm">More information</a>
+</div>
+<div class="col-md-6 mb-3 mb-md-0" data-aos="fade-up" data-aos-delay="300">
+<a href="https://www.minneapolis.org/">
+<img alt="Bridge with Minneapolis skyline in the background" class="rounded" src="assets/img/downtown-bridge-ratio.jpg"/>
+</a>
+<div class="my-3">
+<span class="badge badge-primary-2">Surroundings</span>
+</div>
+<h3>Downtown Minneapolis</h3>
+<p class="pr-lg-4">
+              UIST 2020 will take place in Minneapolis, part of the Twin Cities and known for its lakes, parks, art, and music.
+            </p>
+<a class="hover-arrow" href="https://www.minneapolis.org/">More information</a>
+</div>
+</div>
+</div>
+</section>
+<section class="bg-primary-alt">
+<div class="container">
+<div class="row align-items-center justify-content-around">
+<div class="col-md-6 col-xl-5 mb-3 mb-md-0">
+<div class="row justify-content-center">
+<div class="col-xl-10 col-lg-11">
+<h3 class="display-4">Sponsors</h3>
+<p class="lead">The ACM Symposium on User Interface Software and Technology (UIST) is the premier forum for innovations in human-computer interfaces. More than 600 researchers and leading tech companies will attend the symposium.</p>
+<a class="lead hover-arrow" href="sponsors.html">Interested in sponsoring?</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<footer class="pb-4 bg-primary-3 text-light" id="footer">
+<div class="container">
+<div class="row justify-content-center">
+<div class="col col-md-auto text-center">
+<small class="text-muted">© Copyright 2020 ACM SIGCHI. Photo credits: Meet Minneapolis, Dan Anderson, Krivit Photography.</small>
+</div>
+</div>
+</div>
+</footer>
+<a class="btn back-to-top btn-primary btn-round" data-aos="fade-up" data-aos-mirror="true" data-aos-offset="2000" data-aos-once="false" data-smooth-scroll="" href="#">
+<img alt="arrow-up icon" class="icon" data-inject-svg="" src="assets/img/icons/theme/navigation/arrow-up.svg"/>
+</a>
+<!-- Required vendor scripts (Do not remove) -->
+<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+<script src="assets/js/popper.min.js" type="text/javascript"></script>
+<script src="assets/js/bootstrap.js" type="text/javascript"></script>
+<!-- Optional Vendor Scripts (Remove the plugin script here and comment initializer script out of index.js if site does not use that feature) -->
+<!-- AOS (Animate On Scroll - animates elements into view while scrolling down) -->
+<script src="assets/js/aos.js" type="text/javascript"></script>
+<!-- Clipboard (copies content from browser into OS clipboard) -->
+<script src="assets/js/clipboard.js" type="text/javascript"></script>
+<!-- Fancybox (handles image and video lightbox and galleries) -->
+<script src="assets/js/jquery.fancybox.min.js" type="text/javascript"></script>
+<!-- Flatpickr (calendar/date/time picker UI) -->
+<script src="assets/js/flatpickr.min.js" type="text/javascript"></script>
+<!-- Flickity (handles touch enabled carousels and sliders) -->
+<script src="assets/js/flickity.pkgd.min.js" type="text/javascript"></script>
+<!-- Ion rangeSlider (flexible and pretty range slider elements) -->
+<script src="assets/js/ion.rangeSlider.min.js" type="text/javascript"></script>
+<!-- Isotope (masonry layouts and filtering) -->
+<script src="assets/js/isotope.pkgd.min.js" type="text/javascript"></script>
+<!-- jarallax (parallax effect and video backgrounds) -->
+<script src="assets/js/jarallax.min.js" type="text/javascript"></script>
+<script src="assets/js/jarallax-video.min.js" type="text/javascript"></script>
+<script src="assets/js/jarallax-element.min.js" type="text/javascript"></script>
+<!-- jQuery Countdown (displays countdown text to a specified date) -->
+<script src="assets/js/jquery.countdown.min.js" type="text/javascript"></script>
+<!-- jQuery smartWizard facilitates steppable wizard content -->
+<script src="assets/js/jquery.smartWizard.min.js" type="text/javascript"></script>
+<!-- Plyr (unified player for Video, Audio, Vimeo and Youtube) -->
+<script src="assets/js/plyr.polyfilled.min.js" type="text/javascript"></script>
+<!-- Prism (displays formatted code boxes) -->
+<script src="assets/js/prism.js" type="text/javascript"></script>
+<!-- ScrollMonitor (manages events for elements scrolling in and out of view) -->
+<script src="assets/js/scrollMonitor.js" type="text/javascript"></script>
+<!-- Smooth scroll (animation to links in-page)-->
+<script src="assets/js/smooth-scroll.polyfills.min.js" type="text/javascript"></script>
+<!-- SVGInjector (replaces img tags with SVG code to allow easy inclusion of SVGs with the benefit of inheriting colors and styles)-->
+<script src="assets/js/svg-injector.umd.production.js" type="text/javascript"></script>
+<!-- TwitterFetcher (displays a feed of tweets from a specified account)-->
+<script src="assets/js/twitterFetcher_min.js" type="text/javascript"></script>
+<!-- Typed text (animated typing effect)-->
+<script src="assets/js/typed.min.js" type="text/javascript"></script>
+<!-- Required theme scripts (Do not remove) -->
+<script src="assets/js/theme.js" type="text/javascript"></script>
+<!-- Removes page load animation when window is finished loading -->
+<script type="text/javascript">
+      window.addEventListener("load", function () {    document.querySelector('body').classList.add('loaded');  });
+    </script>
+<div>
+<div class="loader">
+<div class="loading-animation"></div>
+</div>
+<div class="navbar-container">
+
+</div>
+<section class="bg-dark text-light overlay" data-overlay="">
+<img alt="Banner photo: Bde Maka Ska in Minneapolis" class="bg-image opacity-50" src="assets/img/banner_lake.JPG"/>
+<div class="container pt-6">
+<div class="row justify-content-center">
+<div class="col-lg-10 col-xl-8">
+<h1>Call for Participation</h1>
+</div>
+</div>
+</div>
+</section>
+<section class="p-0" data-reading-position="">
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-xl-7 col-lg-8 col-md-10">
+<div class="article">
+<br/>
+<span style="font-size:20px;"><a href="#papers">Papers</a></span> | 
+              <span style="font-size:20px;"><a href="#posters">Posters</a></span> | 
+              <span style="font-size:20px;"><a href="#demos">Demos</a></span> | 
+              <span style="font-size:20px;"><a href="#doctoralsymposium">Doctoral Symposium</a></span> | 
+              <span style="font-size:20px;"><a href="#visions">UIST Visions</a></span> | 
+              <span style="font-size:20px;"><a href="#svs">Student Volunteers</a></span> | 
+              <span style="font-size:20px;"><a href="#sic">Student Innovation Contest</a></span> | 
+              <br/>
+<p class="lead"></p><!-- empty <p> for margin -->
+<h2>Appropriate Topics</h2>
+<p>Appropriate topics include, but are not limited to:</p>
+<ul>
+<li>Enabling software and/or hardware technologies that open novel opportunities for interaction.</li>
+<li>Designs that demonstrate compelling new interactive experiences.</li>
+<li>Methods, architectures, and infrastructures for interactive systems.</li>
+</ul>
+<p>In recent years, successful UIST submissions have focused on domains including: input and output devices, augmented/virtual reality, programming tools, mobile interaction, haptic and tactile interfaces, human-robot interaction, AI and HCI, fabrication, design and prototyping tools, creativity tools, ubiquitous computing, accessibility, visualization, information management, wearable computing, social computing, toolkits, education, crowdsourcing, and computer-supported cooperative work. We look forward to relevant submissions in novel domains as well.</p>
+</div>
+<div style="border:2px solid red; margin:5px;padding:10px;"><span style="color:red"><b>Update (posted March 18, 2020): <br/>Further Paper Deadline Extension / Removing the Rebuttal Phase:</b><br/> As the measures to help contain the spread of the covid-19 pandemic increasingly disrupt the course of research activities worldwide, the UIST 2020 Program Chairs together with the General Chairs and Steering Committee have decided to further extend the UIST 2020 submission deadline. We hope this will allow authors to navigate this complex situation with more serenity. The new deadline for the <b>abstracts is April 20, 2020, 5PM PDT,</b> and the new deadline for the <b>papers is May 6, 2020, 5PM PDT.</b> <br/><br/>
+
+      These changes are made possible by <b>removing the rebuttal phase for this year.</b> We understand that this may end up frustrating for some. However, on balance we hope that the extra time for completing research is the most useful to you in these circumstances.<br/><br/>
+
+      We are aware that these are uncertain times; however, this new deadline is definitive. An extension to May 6 is the latest we can possibly accommodate without impacting the quality of the review process, or the cycle of other subsequent conferences.<br/><br/>
+
+      We also acknowledge that many authors are concerned with the impossibility of conducting in-person user studies. We want to stress that user studies are not the only possible means of assessing a research contribution. We encourage authors to consider the many other ways that contributions can be validated, and we will stress in the reviewing guidelines that, for many of the submitted works, user studies might not necessarily be the most appropriate, nor indispensable method to demonstrate validity or provide valuable insights.<br/><br/>
+
+      We appreciate your understanding and support during these unusual times. If you have any questions, please email the paper chairs: <a href="mailto:program2020@uist.org">program2020@uist.org</a>
+</span></div><br/><br/>
+<!-- <div style="border:2px solid black; margin:5px;padding:10px;"> <b>March 10: Paper Deadline Extension:</b> With Covid-19 significantly impacting research work due to restrictions on carrying out user studies, delays of hardware orders that are shipping from affected countries, and limited access to research facilities/equipment due to enforced working from home, we are extending the paper deadline by two weeks. The paper abstract and meta-data (title, author list etc.) will still be due on April 1, 2020 (5pm PDT), the actual paper pdf and video will now be due on April 15, 2020 (5pm PDT). We will make the corresponding changes in the submission system within the next days. We will closely monitor the situation in the next weeks and will post a weekly update every wednesday of the week. If you have any questions, please email the paper chairs: program2020@uist.org</div> -->
+<h2>Submission Deadlines</h2>
+<table class="table table-ssm table-borderless">
+<tbody>
+<tr>
+<th scope="row"><a href="#papers">Papers</a></th>
+<td><span style="color:red">Abstract Deadline: April 20, 2020, 5PM PDT</span></td>
+</tr>
+<tr>
+<th scope="row"></th>
+<td><span style="color:red">Paper Deadline: May 6, 2020, 5PM PDT</span></td>
+</tr>
+<tr>
+<th scope="row"><a href="#posters">Posters</a></th>
+<td>July 8, 2020, 5PM PDT</td>
+</tr>
+<tr>
+<th scope="row"><a href="#demos">Demos</a></th>
+<td>July 8, 2020, 5PM PDT</td>
+</tr>
+<tr>
+<th scope="row"><a href="#doctoralsymposium">Doctoral Symposium</a></th>
+<td>July 8, 2020, 5PM PDT</td>
+</tr>
+<tr>
+<th scope="row"><a href="#visions">UIST Visions</a></th>
+<td><i>To be announced.</i></td>
+</tr>
+<tr>
+<th scope="row"><a href="#svs">Student Volunteers</a></th>
+<td>July 15, 2020, 5PM PDT</td>
+</tr>
+<tr>
+<th scope="row"><a href="#sic">Student Innovation Contest</a></th>
+<td>July 8, 2020, 5PM PDT</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<br/>
+<div class="venues">
+<!-- End header section, begin sections for each submission type -->
+<h2>Papers</h2>
+<a class="h-anchor" name="papers"></a>
+<p>Papers are the main medium for conveying new research results at UIST and must describe original, unpublished work. </p>
+<table class="table table-sm table-striped">
+<tbody>
+<tr>
+<th scope="row">Abstract Deadline (Paper title, abstract, author list)</th>
+<td><span style="color:red">April 20, 2020, 5PM PDT</span></td>
+</tr>
+<tr>
+<th scope="row">Paper Deadline (Paper PDF and Video)</th>
+<td><span style="color:red">May 6, 2020, 5PM PDT</span></td>
+</tr>
+<tr>
+<th scope="row">Conditional acceptance notificationâ¨â¨</th>
+<td>June 20, 2020â¨â¨â¨</td>
+</tr>
+<tr>
+<th scope="row">Reviews sent to authorsâ¨â¨</th>
+<td>June 24, 2020â¨â¨â¨</td>
+</tr>
+<tr>
+<th scope="row">Camera-ready versions dueâ¨â¨</th>
+<td>July 10, 2020â¨â¨â¨, 5pm PDT</td>
+</tr>
+<tr>
+<th scope="row">Final acceptance decisionâ¨â¨</th>
+<td>July 21, 2020â¨â¨â¨</td>
+</tr>
+<tr>
+<th scope="row"><a href="videos-and-video-previews.html">Video preview</a> due</th>
+<td>July 31, 2020, 5pm PDT</td>
+</tr>   â¨â¨ 
+                  </tbody>
+</table>
+<div class="box">
+<strong>Revised Papers from Prior Submission:</strong> To ensure consistency of the review process, starting this year, we encourage authors of previously rejected papers to upload the prior version of the paper and the corresponding reviews from the last round of submission as part of the UIST 2020 paper submission process.
+	   </div>
+<br/><br/>
+<h5 class="info">Submission Information</h5>
+<table class="table table-sm">
+<tbody>
+<tr>
+<th scope="row" style="width: 20%;">Submission Platform</th>
+<td>
+<ul>
+<li>
+                                  All materials must be submitted electronically to PCS 2.0 <a href="http://new.precisionconference.com/~sigchi" target="_blank">http://new.precisionconference.com/~sigchi</a> by the abstract and paper deadline
+                              </li>
+<li>
+                                  In PCS 2.0, first click âSubmissionsâ at the top of the page, from the dropdown menus for society, conference, and track select âSIGCHIâ, âUIST 2020â and âUIST 2020 Papersâ, respectively, and press âGoâ.
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Submission Format and Length</th>
+<td>
+<ul>
+<li>
+                                  UIST Full Paper Format:<br/>
+<a href="submission-templates/SIGCHI-UIST2020-Sample-Paper.docx" target="_blank">Word Template</a> | <a href="submission-templates/SIGCHI-UIST2020-proceedings.zip" target="_blank">Latex Template</a> | <a href="https://www.overleaf.com/latex/templates/uist2020-overleaf-template/jdrxpnpcccgk" target="_blank">Overleaf Template</a>
+</li>
+<li>
+                                  typical page length is 4-10 pages + references, but any page length is allowed
+                              </li>
+<li>
+                                  page length should be commensurate with contribution size
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Accompanying Video</th>
+<td>
+<ul>
+<li>
+                                  optional, but highly encouraged
+                              </li>
+<li>
+                                resolution of 1080p (1920 x 1080), encoded as MP4 using the H.264 codec
+                              </li>
+<li>
+                                  no more than five minutes long
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Maximum File Size</th>
+<td>
+<ul>
+<li>
+                                 maximum total size for all files &lt; 100 MB    
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Anonymity</th>
+<td>
+<ul>
+<li>
+                                  anonymous, i.e. authors must remove their names and affiliations throughout all submission materials (paper, videos, supplementary material) <a href="author-guide.html#anonymity">[read more]</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Selection process</th>
+<td>
+<ul>
+<li>
+                                  referred, i.e. the program committee and a set of external reviewers will review submitted papers
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Publication</th>
+<td>
+<ul>
+<li>
+                                  archival, i.e. accepted papers will be published in the ACM Digital Library and distributed in digital form to conference attendees
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Presentation Format</th>
+<td>
+<ul>
+<li>
+                                  talk at the conference by one or more authors of the paper
+                              </li>
+<li>
+                                  20 minute talk (15 min + 5 min Q&amp;A)
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Demo</th>
+<td>
+<ul>
+<li>
+                                  authors of accepted papers will be invited to participate in the UIST demo session [<a href="#demos">see below</a>]
+                              </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<h5>Before Submitting, Read General Guidelines</h5>
+<p>Below we highlight some of the most important points, but please ensure you have reviewed the UIST paper submission and review process <a href="author-guide.html#process">[read more]</a> as well as a guide to a successful UIST paper submission <a href="author-guide.html#guidelines">[read more]</a>.</p>
+<ul>
+<li>
+<strong>Original Contributions &amp; Novelty Over Prior Work:</strong> If you have previously published a related paper, are unsure if your contribution is large enough to warrant a full paper, or if your work builds on top of your own prior poster or demo, please read the guidelines on novelty over existing work <a href="author-guide.html#novelty">[read more]</a>.
+                      </li>
+<li>
+<strong>Citing Your Own Prior Work:</strong> UIST has strict guidelines on how to refer to your own prior work, including your own prior papers, posters, and demos at UIST and other venues <a href="author-guide.html#cite-prior">[read more]</a>.
+                      </li>
+<li>
+<strong>Concurrent Submission:</strong> UIST does not allow any concurrent submissions to other conferences or journals during the entire review process <a href="author-guide.html#concurrent-submission">[read more]</a>.
+                      </li>
+</ul>
+<h4>Program Chairs</h4>
+<p>Questions? Contact: <a href="mailto:program2020@uist.org">program2020@uist.org</a></p>
+<div class="container">
+<div class="row">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+<img alt="Fanny Chevalier" class="avatar avatar-lg mr-3" src="assets/img/orgcomm/fanny_chevalier_square.jpg"/>
+<div>
+<h5 class="mb-0">Fanny Chevalier</h5>
+<a href="#">University of Toronto</a>
+</div>
+</div>
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="200">
+<img alt="Stefanie Mueller" class="avatar avatar-lg mr-3" src="assets/img/orgcomm/stefanie-mueller-profile-picture.jpg"/>
+<div>
+<h5 class="mb-0">Stefanie Mueller</h5>
+<a href="#">MIT</a>
+</div>
+</div>
+</div>
+</div>
+<br/>
+<br/>
+<h2>Posters</h2>
+<a class="h-anchor" name="posters"></a>
+<p>Posters provide an interactive forum in which authors can present their work to conference attendees during special poster sessions. Posters are an opportunity to describe new work or work that is still in progress, and will be more lightly reviewed than papers.</p>
+<table class="table table-sm table-striped">
+<tbody>
+<tr>
+<th scope="row">Submission Deadline</th>
+<td>July 8, 2020, 5pm PDT</td>
+</tr>
+<tr>
+<th scope="row">Acceptance notification</th>
+<td>July 29, 2020 </td>
+</tr>
+<tr>
+<th scope="row">Camera-ready versions due</th>
+<td>August 12, 2020, 5pm PDT</td>
+</tr>
+<tr>
+<th scope="row"><a href="videos-and-video-previews.html">Video preview</a> due (optional)</th>
+<td>August 19, 2020, 5pm PDT</td>
+</tr> â¨â¨ 
+                  </tbody>
+</table>
+<h5 class="info">Submission Information</h5>
+<table class="table table-sm">
+<tbody>
+<tr>
+<th scope="row" style="width: 20%;">Submission Platform</th>
+<td>
+<ul>
+<li>
+                                  All submission materials must be submitted electronically to PCS 2.0 <a href="http://new.precisionconference.com/~sigchi" target="_blank">http://new.precisionconference.com/~sigchi</a> before the submission deadline
+                              </li>
+<li>
+                                  In PCS 2.0, first click âSubmissionsâ at the top of the page, from the dropdown menus for society, conference, and track select âSIGCHIâ, âUIST 2020â and âUIST 2020 Posters", respectively, and press âGoâ.
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Submission Format and Length</th>
+<td>
+                          
+                              
+                                      <i>Poster abstract</i><br/>
+<ul>
+<li>UIST Full Paper Format:<br/>
+<a href="../submission-templates/SIGCHI-UIST2020-Sample-Paper.docx" target="_blank">Word Template</a> | <a href="../submission-templates/SIGCHI-UIST2020-proceedings.zip" target="_blank">Latex Template</a> | <a href="https://www.overleaf.com/latex/templates/uist2020-overleaf-template/jdrxpnpcccgk" target="_blank">Overleaf Template</a>
+</li>
+<li>2 pages maximum + references</li>
+</ul>
+                              
+
+                                      <i>Accompanying Poster</i><br/>
+<ul>
+<li>full size poster design in pdf</li>
+<li>less than 30 X 40 inches (76 X 101 cm)</li>
+<li>either portrait or landscape</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Accompanying Video</th>
+<td>
+<ul>
+<li>
+                                  optional, but highly encouraged
+                              </li>
+<li>
+                                resolution of 1080p (1920 x 1080), encoded as MP4 using the H.264 codec
+                              </li>
+<li>
+                                  no more than five minutes long
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Maximum File Size</th>
+<td>
+<ul>
+<li>
+                                 maximum total size for all files &lt; 50 MB    
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Anonymity</th>
+<td>
+<ul>
+<li>
+                                  not anonymous, include author names and institutions on extended abstract, poster, and the optional video
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Selection process</th>
+<td>
+<ul>
+<li>
+                                  juried by the UIST poster chairs
+                              </li>
+<li>
+                                less rigorous than paper review and does not include an authorâs response or conditional acceptance, i.e. authors may expect to only receive light feedback 
+                              </li>
+<li>
+                                juried content is generally not required to make the same level of lasting and significant contribution as refereed content
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Publication</th>
+<td>
+<ul>
+<li>
+                                    non-archival, ideas described in UIST posters can be resubmitted as an extended full paper in subsequent yearsâ¨</li>
+<li>
+                                  poster abstracts (2 pager) will be included in the ACM digital library as adjunct proceedings and distributed in digital form to conference attendees, the poster design will not be included in the ACM digital library
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Presentation Format</th>
+<td>
+<ul>
+<li>
+                                  a poster session lasting 1-2 hours on the first or second day of the conference
+                              </li>
+<li>
+                                  at least one author is requested to stand by their poster during the poster session to speak with conference attendees
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Concurrent UIST Demo Submission</th>
+<td>
+<ul>
+<li>
+                                  the same work cannot be submitted to both the UIST demo and poster tracks
+double submissions will only be considered as a demo submission and will be rejected from the poster track    
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Novelty of Work</th>
+<td>
+<ul>
+<li>
+                                  resubmission of posters previously shown at other venues is allowed</li>
+<li>
+                              please state previous poster venues and differences to previous posters in the appropriate box in PCS
+                              </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>The UIST Poster Example Gallery has ideas and guidelines for poster designs (<i>coming soon</i>). <br/>
+
+                In addition to the information provided here, you can find more information about the UIST poster submission and review process (<i>coming soon</i>) as well as a guide to a successful UIST paper submission here (<i>coming soon</i>).</p>
+<h4>Poster Chairs</h4>
+<p>Questions? Contact: <a href="mailto:posters2020@uist.org">posters2020@uist.org</a></p>
+<div class="container">
+<div class="row">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+<img alt="Amy X. Zhang" class="avatar avatar-lg mr-3" src="assets/img/orgcomm/amy_square.jpg"/>
+<div>
+<h5 class="mb-0">Amy X. Zhang</h5>
+<a href="#">University of Washington</a>
+</div>
+</div>
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="200">
+<img alt="Adam Fourney" class="avatar avatar-lg mr-3" src="assets/img/orgcomm/adam-fourney.jpeg"/>
+<div>
+<h5 class="mb-0">Adam Fourney</h5>
+<a href="#">Microsoft Research</a>
+</div>
+</div>
+</div>
+</div>
+<br/>
+<br/>
+<h2>Demos</h2>
+<a class="h-anchor" name="demos"></a>
+<p>Demonstrations show early implementations of novel and compelling interaction concepts, techniques, devices and systems. Demonstrations should be brief, and robust enough to be shown repeatedly. We particularly encourage highly interactive demos with strong participant engagementâ from novel web systems and prototype devices, to new materials, physical outputs, and large interactive installations. Demos are one of the highlights of the UIST conference, showcased at a special evening reception.</p>
+<table class="table table-sm table-striped">
+<tbody>
+<tr>
+<th scope="row">Submission Deadline</th>
+<td>July 8, 2020, 5pm PDT</td>
+</tr>
+<tr>
+<th scope="row">Acceptance notification</th>
+<td>July 29, 2020 </td>
+</tr>
+<tr>
+<th scope="row">Camera-ready versions due</th>
+<td>August 12, 2020, 5pm PDT</td>
+</tr>
+<tr>
+<th scope="row"><a href="videos-and-video-previews.html">Video preview</a> due</th>
+<td>August 19, 2020, 5pm PDT</td>
+</tr> â¨â¨ 
+                  </tbody>
+</table>
+<h5 class="info">Submission Information</h5>
+<table class="table table-sm">
+<tbody>
+<tr>
+<th scope="row" style="width: 20%;">Submission Platform</th>
+<td>
+<ul>
+<li>
+                                  All submission materials must be submitted electronically to PCS 2.0 <a href="http://new.precisionconference.com/~sigchi" target="_blank">http://new.precisionconference.com/~sigchi</a> before the submission deadline
+                              </li>
+<li>
+                                  In PCS 2.0, first click âSubmissionsâ at the top of the page, from the dropdown menus for society, conference, and track select âSIGCHIâ, âUIST 2020â and âUIST 2020 Demos", respectively, and press âGoâ.
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Submission Format and Length</th>
+<td>
+                          
+                              
+                                      <i>Demo abstract</i><br/>
+<ul>
+<li>UIST Full Paper Format:<br/>
+<a href="../submission-templates/SIGCHI-UIST2020-Sample-Paper.docx" target="_blank">Word Template</a> | <a href="../submission-templates/SIGCHI-UIST2020-proceedings.zip" target="_blank">Latex Template</a> | <a href="https://www.overleaf.com/latex/templates/uist2020-overleaf-template/jdrxpnpcccgk" target="_blank">Overleaf Template</a>
+</li>
+<li>2 pages maximum + references</li>
+</ul>
+                              
+                              
+                                    <i>Mock-Up Photo(s) / Drawing(s) of Envisioned Demo Setup</i><br/>
+<ul>
+<li>1 page, in pdf file format</li>
+<li>include demo hardware, tables, chairs, lights, and demonstrators alongside conference attendees interacting with the demo</li>
+<li>label and annotate all parts of the image(s) so that organizers get a good understanding of your setup</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Accompanying Video</th>
+<td>
+<ul>
+<li>
+                                  optional, but highly encouraged
+                              </li>
+<li> resolution of 1080p (1920 x 1080), encoded as MP4 using the H.264 codec
+                              </li>
+<li>
+                                  no more than five minutes long
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Maximum File Size</th>
+<td>
+<ul>
+<li>
+                                 maximum total size for all files &lt; 50 MB    
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Anonymity</th>
+<td>
+<ul>
+<li>
+                                  not anonymous, include author names and institutions on extended abstract, poster, and the optional video
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Selection process</th>
+<td>
+<ul>
+<li>
+                                  juried by the UIST demo chairs
+                              </li>
+<li>
+                                less rigorous than paper review and does not include an authorâs response or conditional acceptance, i.e. authors will not receive any formal feedback other than the selection decision
+                              </li>
+<li>
+                                juried content is generally not required to make the same level of lasting and significant contribution as refereed content
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Publication</th>
+<td>
+<ul>
+<li>
+                                non-archival, ideas presented as a UIST demo can be resubmitted as an extended full paper in subsequent years</li>
+<li>
+                                  demo abstracts (2 pager) will be included in the ACM digital library as adjunct proceedings and distributed in digital form to conference attendees, the mockup photo(s)/drawing(s) will not be included in the ACM digital library
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Presentation Format</th>
+<td>
+<ul>
+<li>
+                                  a demo session lasting 2-3 hours on the first or second day of the conference
+                              </li>
+<li>
+                                  at least one author is requested to stand by their demo during demo sessions to speak with conference attendees
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Concurrent UIST Poster Submission</th>
+<td>
+<ul>
+<li>
+                                  the same work cannot be submitted to both the UIST demo and poster tracks</li>
+<li>double submissions will only be considered as a demo submission and will be rejected from the poster track    
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Novelty of Work</th>
+<td>
+<ul>
+<li>
+                                  resubmission of demo previously shown at other venues is allowed</li>
+<li>
+                              please state previous demo venues and differences to previous demos in the appropriate box in PCS
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Accepted Paper Demos</th>
+<td>
+<ul>
+<li>
+                                  authors of accepted full papers have two choices: <br/>
+                                  (1) submit only the mockup photo(s)/drawing(s) <br/>
+                                  (2) submit the mock-up photo and the extended abstract, which will result in the abstract being included in the ACM digital library adjunct proceedings
+                                </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Demo Chairs</h3>
+<p>Questions? Contact: <a href="mailto:demos2020@uist.org">demos2020@uist.org</a></p>
+<div class="container">
+<div class="row">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+<img alt="Gierad Laput" class="avatar avatar-lg mr-3" src="assets/img/orgcomm/gierad.jpg"/>
+<div>
+<h5 class="mb-0">Gierad Laput</h5>
+<a href="#">Apple</a>
+</div>
+</div>
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="200">
+<img alt="Alexandra Ion" class="avatar avatar-lg mr-3" src="assets/img/orgcomm/alex-ion-Portrait_landscape_20103_square.jpg"/>
+<div>
+<h5 class="mb-0">Alexandra Ion</h5>
+<a href="#">ETH Zürich</a>
+</div>
+</div>
+</div>
+</div>
+<br/>
+<br/>
+<!-- DC -->
+<h2>Doctoral Symposium</h2>
+<a class="h-anchor" name="doctoralsymposium"></a>
+<p>The UIST Doctoral Symposium is a forum in which PhD students can meet and discuss their work with each other and a panel of experienced UIST researchers in an informal and interactive setting. The UIST Doctoral Symposium is a by invitation only event.</p>
+<table class="table table-sm table-striped">
+<tbody>
+<tr>
+<th scope="row">Submission Deadline</th>
+<td>July 8, 2020, 5pm PDT</td>
+</tr>
+<tr>
+<th scope="row">Acceptance notification</th>
+<td>July 29, 2020 </td>
+</tr>
+<tr>
+<th scope="row">Camera-ready versions due</th>
+<td>August 12, 2020, 5pm PDT</td>
+</tr>
+<tr>
+<th scope="row">Welcome dinner</th>
+<td>October 19, 2020</td>
+</tr> â¨
+                    <tr>
+<th scope="row">Doctoral symposium date</th>
+<td>October 20, 2020 9am-6pm</td>
+</tr> â¨â¨ â¨ 
+                  </tbody>
+</table>
+<h5 class="info">Submission Information</h5>
+<table class="table table-sm">
+<tbody>
+<tr>
+<th scope="row" style="width: 20%;">Eligibility</th>
+<td>
+<ul>
+<li>
+                                  current PhD student studying within the full range of disciplines and approaches that contribute to the UIST community
+                              </li>
+<li>
+                                  single-author
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Submission Platform</th>
+<td>
+<ul>
+<li>
+                                  All submission materials must be submitted electronically to PCS 2.0 <a href="http://new.precisionconference.com/~sigchi" target="_blank">http://new.precisionconference.com/~sigchi</a> before the submission deadline
+                              </li>
+<li>
+                                  In PCS 2.0, first click âSubmissionsâ at the top of the page, from the dropdown menus for society, conference, and track select âSIGCHIâ, âUIST 2020â and âUIST 2020 Doctoral Symposium", respectively, and press âGoâ.
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Submission Format and Length</th>
+<td>
+<ul>
+<li>
+                                  UIST Full Paper Format:<br/>
+<a href="../submission-templates/SIGCHI-UIST2020-Sample-Paper.docx" target="_blank">Word Template</a> | <a href="../submission-templates/SIGCHI-UIST2020-proceedings.zip" target="_blank">Latex Template</a> | <a href="https://www.overleaf.com/latex/templates/uist2020-overleaf-template/jdrxpnpcccgk" target="_blank">Overleaf Template</a>
+</li>
+<li>
+                                  4 pages maximum + references
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Accompanying Video</th>
+<td>
+<ul>
+<li>
+                                  optional, but highly encouraged
+                              </li>
+<li>
+                                resolution of 1080p (1920 x 1080), encoded as MP4 using the H.264 codec
+                              </li>
+<li>
+                                no more than five minutes long
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Maximum File Size</th>
+<td>
+<ul>
+<li>
+                                 maximum total size for all files &lt; 50 MB    
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Anonymity</th>
+<td>
+<ul>
+<li>
+                                  not anonymous, include the single author's name and institution(s) on the submission
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Selection process</th>
+<td>
+<ul>
+<li>
+                                 juried by the UIST doctoral symposium chairs and invited panelists
+                              </li>
+<li>
+                                maximum eight students will be selected
+                              </li>
+<li>criteria: anticipated contributions to the breadth and depth of the intellectual discussions of the symposium</li>
+<li>preference will be given to applicants beyond the proposal stage and well into their dissertation research
+                              </li>
+<li> does not include an authorâs response or conditional acceptance, i.e. authors will only receive feedback along with the final decision </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Publication</th>
+<td>
+<ul>
+<li>
+                                non-archival, ideas presented as the UIST Doctoral Symposium can be resubmitted</li>
+<li>
+                                doctoral symposium abstracts (4 pager) will be included in the ACM digital library as adjunct proceedings and distributed in digital form to conference attendees
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Presentation Format</th>
+<td>
+<ul>
+<li>
+                                 talk at the Doctoral Symposium event, followed by extensive discussion with the panel and the other student participants
+                              </li>
+<li>
+                                the student author is requested to attend
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Novelty of Work</th>
+<td>
+<ul>
+<li>
+                                  the doctoral symposium abstract should describe ongoing work and might summarize the student's full dissertation work, or highlight a particular part in depth.
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Posters for Accepted Submissions</th>
+<td>
+<ul>
+<li>
+                                  Each student is encouraged to present a poster describing his or her work to the full conference</li>
+<li>posters will be on display for two days during the conference
+                              </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<h5 class="info">Benefits</h5>
+<p>Accepted students will receive complimentary registration to the UIST 2020 conference, and a complimentary hotel room at the conference venue (on a shared basis; same-gendered members of the symposium will be paired together for room sharing). Travel subsidies may also be available to participants (the exact value of the travel subsidies has not yet been determined).</p>
+<h3>Doctoral Symposium Chairs</h3>
+<p>Questions? Contact: <a href="mailto:doctoralsymposium2020@uist.org">doctoralsymposium2020@uist.org</a></p>
+<div class="container">
+<div class="row">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+<img alt="Juergen Steimle" class="avatar avatar-lg mr-3" src="assets/img/orgcomm/juergensteimle.jpeg"/>
+<div>
+<h5 class="mb-0">Jürgen Steimle</h5>
+<a href="#">Saarland University</a>
+</div>
+</div>
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="200">
+<img alt="Wendy Ju" class="avatar avatar-lg mr-3" src="assets/img/orgcomm/wendy_ju.jpg"/>
+<div>
+<h5 class="mb-0">Wendy Ju</h5>
+<a href="#">Cornell Tech</a>
+</div>
+</div>
+</div>
+</div>
+<br/>
+<br/>
+<!-- Visions -->
+<h2>UIST Visions</h2>
+<a class="h-anchor" name="visions"></a>
+<p>Back for its third year, UIST Visions is a venue for forward thinking ideas to inspire the community. The goal is not to report research but to project and propose new research directions. We want to project the UIST community as thought leaders in HCI Technology. A maximum of 3 speakers will be invited and the review will be based on how interesting and provocative the ideas are. Appropriate issues might be: future trends, foundational technologies that we need to make progress, significant compelling problems that the community might address, something that is missing, or an alternative perspective on what we do.
+                </p>
+<table class="table table-sm table-striped">
+<tbody>
+<tr>
+<th scope="row">Submission Deadline</th>
+<td>tbd</td>
+</tr>
+<tr>
+<th scope="row">Acceptance notification</th>
+<td>tbd</td>
+</tr>
+<tr>
+<th scope="row">Slide submission</th>
+<td>tbd</td>
+</tr>
+</tbody>
+</table>
+<h5 class="info">Submission Information</h5>
+<table class="table table-sm">
+<tbody>
+<tr>
+<th scope="row" style="width: 20%;">Eligibility</th>
+<td>
+<ul>
+<li>
+                                  single author
+                              </li>
+<li>
+                                  submitters must have published at least 5 papers at a SIGCHI venue.
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Submission Platform</th>
+<td>
+<ul>
+<li>
+                                  All submission materials must be submitted electronically to PCS 2.0 <a href="http://new.precisionconference.com/~sigchi" target="_blank">http://new.precisionconference.com/~sigchi</a> before the submission deadline
+                              </li>
+<li>
+                                  In PCS 2.0, first click âSubmissionsâ at the top of the page, from the dropdown menus for society, conference, and track select âSIGCHIâ, âUIST 2020â and âUIST 2020 Visions", respectively, and press âGoâ.
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Submission Format and Length</th>
+<td>
+<ul>
+<li>
+                                  UIST Full Paper Format:<br/>
+<a href="../submission-templates/SIGCHI-UIST2020-Sample-Paper.docx" target="_blank">Word Template</a> | <a href="../submission-templates/SIGCHI-UIST2020-proceedings.zip" target="_blank">Latex Template</a> | <a href="https://www.overleaf.com/latex/templates/uist2020-overleaf-template/jdrxpnpcccgk" target="_blank">Overleaf Template</a>
+</li>
+<li>
+                                  1 page + references
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Accompanying Video</th>
+<td>
+<ul>
+<li>
+                                  none
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Maximum File Size</th>
+<td>
+<ul>
+<li>
+                                 maximum total size for all files &lt; 50 MB    
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Anonymity</th>
+<td>
+<ul>
+<li>
+                                  not anonymous, include the author's name and institution(s) on the 1 page submission
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Selection process</th>
+<td>
+<ul>
+<li>
+                                  curated by the UIST vision chair
+                              </li>
+<li>less rigorous than paper review and does not include an authorâs response or conditional acceptance, i.e. authors will not receive any formal feedback other than the selection decision
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Publication</th>
+<td>
+<ul>
+<li>
+                                non-archival, ideas presented as a UIST vision can be resubmitted as a full paper in subsequent years</li>
+<li>vision abstracts (1 pager) will be included in the ACM digital library as adjunct proceedings and distributed in digital form to conference attendees, the slides will not be included in the ACM digital library
+                              </li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row" style="width: 20%;">Presentation Format</th>
+<td>
+<ul>
+<li>
+                                  talk at the conference
+                              </li>
+<li>
+                                15 minute presentation + 15 minute Q&amp;A
+                              </li>
+<li>
+                                  accepted speakers will be required to sign the approval form to record and publish the talk</li>
+<li>slides will be reviewed ahead of the conference to ensure a great, engaging presentation
+
+                              </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Visions Chair</h3>
+<p>Questions? Contact: <a href="mailto:vision2020@uist.org">vision2020@uist.org</a></p>
+<div class="container">
+<div class="row">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+<img alt="Ken Perlin" class="avatar avatar-lg mr-3" src="assets/img/orgcomm/ken_perlin.jpg"/>
+<div>
+<h5 class="mb-0">Ken Perlin</h5>
+<a href="#">NYU</a>
+</div>
+</div>
+</div>
+</div>
+<br/>
+<br/>
+<!-- SV -->
+<h2>Student Volunteers</h2>
+<a class="h-anchor" name="svs"></a>
+<table class="table table-sm table-striped">
+<tbody>
+<tr>
+<th scope="row">Application due</th>
+<td>July 15, 2020, 5pm PDT </td>
+</tr>
+<tr>
+<th scope="row">Acceptance notification</th>
+<td>August 5, 2020</td>
+</tr>
+</tbody>
+</table>
+<div>
+<h5 class="info">Application Instructions</h5>
+<p><i>
+                        Please check back soon for information on applying to be a UIST student volunteer.
+                        Sign-ups will be done through the <a href="https://chisv.org">CHI SV portal</a>.
+                    </i></p>
+</div>
+<div>
+<h5 class="info">Benefits and Duties</h5>
+<p>If you are a UIST Student Volunteer, you get:</p>
+<ul>
+<li>Free conference registration
+                            </li><li>Free T-shirt</li>
+<li>A great SV party with free dinner</li>
+<li>A chance to attend the premier forum for innovations in human-computer interfaces</li>
+</ul>
+<p>Student volunteers will be required to help set up and perform needed work during the conference. Duties include: bag stuffing, registration desk, AV assistance, poster and demo setup, badge checking, break monitoring, etc. Volunteers will also need to be available during the conference if tasks come up. SVs usually get to attend most of the sessions, even when working. There will be approximately 14 scheduled hours per SV.</p>
+</div>
+<div>
+<h5 class="info">Arriving and Leaving</h5>
+<p>SVs need to be available to help throughout the conference. You will need to arrive on or before the Saturday preceding the conference for the SV orientation and should not leave the conference venue until sessions end. Also, we strongly encourage you to put off leaving until as late as you possibly can, because it is traditional to have a small party for student volunteers on Wednesday evening. The time and place for this party will be announced when we know all the student volunteers' travel plans.</p>
+</div>
+<div>
+<h5 class="info">Work Schedules</h5>
+<p>To give you an idea of what to expect, you can see the <a href="http://www.acm.org/uist/uist2008/uist06schedule.html" target="_blank">UIST 2006 Student Volunteer Schedule</a>.</p>
+</div>
+<div>
+<h5 class="info">Accommodation</h5>
+<p>We will not be able to provide free accommodation, but we will help you team up with other student volunteers for sharing rooms and we will provide a list of hotels with affordable room rates.</p>
+</div>
+<h3>Student Volunteers Chairs</h3>
+<p>Questions? Contact: <a href="mailto:sv2020@uist.org">sv2020@uist.org</a></p>
+<div class="container">
+<div class="row">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+<img alt="M. Doga Dogan" class="avatar avatar-lg mr-3" src="assets/img/orgcomm/MDoga Dogan small.jpg"/>
+<div>
+<h5 class="mb-0">M. Doga Dogan</h5>
+<a href="#">MIT</a>
+</div>
+</div>
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="200">
+<img alt="Jingyi Li" class="avatar avatar-lg mr-3" src="assets/img/orgcomm/Jingy Li square.jpg"/>
+<div>
+<h5 class="mb-0">Jingyi Li</h5>
+<a href="#">Stanford University</a>
+</div>
+</div>
+</div>
+</div>
+<br/>
+<br/>
+<!-- SIC -->
+<h2>Student Innovation Contest</h2>
+<a class="h-anchor" name="sic"></a>
+<table class="table">
+<tbody>
+<tr>
+<th scope="row">Deadline to apply</th>
+<td>July 8, 2020, 5pm PDT</td>
+</tr>
+<tr>
+<th scope="row">Decisions Announced</th>
+<td>July 22, 2020, 5pm PDT</td>
+</tr>
+</tbody>
+</table>
+<p>Apply here: <i>Applications are not open yet!</i></p>
+<p> The UIST SIC is your opportunity to shine and impress the world with your creative ideas! Each team will receive a hardware kit generously provided by our contestâs sponsor. Participants will have approximately three months to implement their innovative concept based on the sponsored hardware. Teams will demo their work during the reception at the conference in Minneapolis, Minnesota, USA, and contest winners will be announced during the conference. A jury composed of senior UIST community members will select one team to receive the SIC jury award. On top of that, conference attendees will get a chance to vote for their favorite teams in the People's Choice category. All categories receive prizes!</p>
+<p>The final hardware kit and contest modality will be updated soon!</p>
+<h4>Registration</h4>
+<p>To participate, follow the instructions on this <i>[Applications are not open yet]</i>.</p>
+<p>The submission deadline is July 8, 2020 5pm PDT.</p>
+<p>To complete your submission, youâll need:</p>
+<ul>
+<li>A description of your idea, in about 100-words</li>
+<li>Supporting document (SIGCHI extended abstract format, 2-page max)</li>
+<li>Link to supporting materials (images, video, etc.)</li>
+<li>Complete other items in the registration page (contact info, etc.)</li>
+</ul>
+<p>Decisions will be emailed to each team by <strong>July 22, 2020, 5pm PDT</strong></p>
+<p>For accepted teams, one of your team members MUST register for the UIST conference and pay the registration fee. If youâve been accepted as a student volunteer, you can let us know as well.</p>
+<p>Once we've confirmed your UIST conference registration, we will ship your hardware!</p>
+<h4>Contest Rules, Details, and Suggestions</h4>
+<ul>
+<li><strong>Pre-Selection Criteria:</strong> organizers will select up to 20 teams, judged based on usefulness, creativity, complexity, feasibility, and time/resource constraints.</li>
+<li><strong>Team Size:</strong>  minimum team size is 2, the maximum is 5.</li>
+<li><strong>Team Composition:</strong>  you canât be part of multiple teams!</li>
+<li><strong>Eligibility:</strong>  you MUST be a student to participate in this contest. Students of all levels (high school, bachelor's, master's, PhD) are encouraged to participate. </li>
+<li><strong>Registration Requirement:</strong>  If your team is accepted, at least one of your team members MUST register for the conference (or be accepted as a student volunteer). This is for three reasons: 1) you have to demo your idea, 2) you have to claim your prizes, and 3) UIST is an awesome conference!</li>
+<li><strong>Demo Ideas:</strong>  during the contest voting period, teams will be allowed to demo one idea. Different demos of the same idea are permitted.</li>
+<li><strong>Demo Code:</strong>  We encourage you to open-source your code. The organizers will create a github organization where all teams will be able to post their code (donât worry, we will not judge you on your code!).</li>
+<li><strong>Demo Safety:</strong>  Safety is our utmost priority. Make sure your demos follow reasonable safety guidelines (i.e., donât light anything on fire!)</li>
+<li><strong>Privacy:</strong>  Please do not record or publish materials (photo, video, on-body sensor data...) captured at the contest (e.g., participants using your hardware) without explicit consent approval from your institutionâs research ethics board. </li>
+<li><strong>Extra Equipment:</strong>  teams must bring supporting computers and hardware to run their demos, including the hardware shipped by the contest organizers. No extra equipment will be handed out at UIST.</li>
+<li><strong>Power Supply:</strong>  a <strong>US power strip</strong> will be provided for each team at their demo table. However, we recommend that you bring your own regional power strip with the appropriate adapter for connecting your hardware if needed.</li>
+<li><strong>WiFi:</strong>  Develop your project with the assumption that you will not have internet access at the venue. I.e., if your project absolutely need internet, make sure to bring your own router, switch, etc. and be prepared to create an access point using a mobile device. </li>
+<li><strong>Bluetooth:</strong>  If you decide to use Bluetooth, please test it beforehand (some bluetooth firmware are easily stressed when 300 attendees are around your demo with BT enabled devices). Make sure you have a (wired) plan B.</li>
+</ul>
+<h4>Awards</h4>
+<p>Innovation comes in many forms. At UIST, we provide Student Innovation Contest awards for the following categories:</p>
+<ul>
+<li>Jury Award</li>
+<li>People's Choice (Attendee Votes)</li>
+</ul>
+<p>Winners will win cash prizes and a UIST SIC certificate. Note that we reserve the right to change the awards structure during the contest.</p>
+<h4>Funding Opportunities</h4>
+<p>The Student Innovation Contestâs purpose is to provide students from all backgrounds with a dynamic and interdisciplinary atmosphere that allows them to explore HCI research and build a network of peers. Since it is fundamental to our development as a research community, UIST 2020 aims at increasing its diversity and inclusion efforts and broadening participation among underrepresented minorities.</p>
+<p>We are currently trying to secure grants to fund the travel costs of as many teams as possible! Stay tuned for announcements.</p>
+<h4>SIC Chairs</h4>
+<p>Questions? Contact the SIC Chairs! <a href="mailto:sic2020@uist.org">sic2020@uist.org</a></p>
+<div class="container">
+<div class="row">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+<img alt="Pascal Fortin" class="avatar avatar-lg mr-3" src="assets/img/orgcomm/pasca_e_fortin_cropped.jpg"/>
+<div>
+<h5 class="mb-0">Pascal Fortin</h5>
+<a href="#">McGill University</a>
+</div>
+</div>
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="200">
+<img alt="Koji Yatani" class="avatar avatar-lg mr-3" src="assets/img/orgcomm/koji_yatani.png"/>
+<div>
+<h5 class="mb-0">Koji Yatani</h5>
+<a href="#">University of Tokyo</a>
+</div>
+</div>
+</div>
+</div>
+<footer class="pb-4 bg-primary-3 text-light" id="footer">
+<div class="container">
+<div class="row justify-content-center">
+<div class="col col-md-auto text-center">
+<small class="text-muted">Copyrights and photo attributions go here.</small>
+</div>
+</div>
+</div>
+</footer>
+<a class="btn back-to-top btn-primary btn-round" data-aos="fade-up" data-aos-mirror="true" data-aos-offset="2000" data-aos-once="false" data-smooth-scroll="" href="#">
+<img alt="arrow-up icon" class="icon" data-inject-svg="" src="assets/img/icons/theme/navigation/arrow-up.svg"/>
+</a>
+<!-- Required vendor scripts (Do not remove) -->
+
+
+
+<!-- Optional Vendor Scripts (Remove the plugin script here and comment initializer script out of index.js if site does not use that feature) -->
+<!-- AOS (Animate On Scroll - animates elements into view while scrolling down) -->
+
+<!-- Clipboard (copies content from browser into OS clipboard) -->
+
+<!-- Fancybox (handles image and video lightbox and galleries) -->
+
+<!-- Flatpickr (calendar/date/time picker UI) -->
+
+<!-- Flickity (handles touch enabled carousels and sliders) -->
+
+<!-- Ion rangeSlider (flexible and pretty range slider elements) -->
+
+<!-- Isotope (masonry layouts and filtering) -->
+
+<!-- jarallax (parallax effect and video backgrounds) -->
+
+
+
+<!-- jQuery Countdown (displays countdown text to a specified date) -->
+
+<!-- jQuery smartWizard facilitates steppable wizard content -->
+
+<!-- Plyr (unified player for Video, Audio, Vimeo and Youtube) -->
+
+<!-- Prism (displays formatted code boxes) -->
+
+<!-- ScrollMonitor (manages events for elements scrolling in and out of view) -->
+
+<!-- Smooth scroll (animation to links in-page)-->
+
+<!-- SVGInjector (replaces img tags with SVG code to allow easy inclusion of SVGs with the benefit of inheriting colors and styles)-->
+
+<!-- TwitterFetcher (displays a feed of tweets from a specified account)-->
+
+<!-- Typed text (animated typing effect)-->
+
+<!-- Required theme scripts (Do not remove) -->
+
+<!-- Removes page load animation when window is finished loading -->
+
+</div></div></div></div></section></div><div>
+<div class="loader">
+<div class="loading-animation"></div>
+</div>
+<div class="navbar-container">
+
+</div>
+<section class="bg-dark text-light overlay" data-overlay="">
+<img alt="Minneapolis bridges banner" class="bg-image opacity-50" src="assets/img/banner_bridges.jpg"/>
+<div class="container pt-6">
+<div class="row justify-content-center">
+<div class="col-lg-10 col-xl-8">
+<h1>Organizers</h1>
+</div>
+</div>
+</div>
+</section>
+<section>
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-lg-8 col-md-10">
+<div class="row">
+<div class="col">
+<h3>General Chairs</h3>
+<p>
+<a href="mailto:chair2020@uist.org">chair2020@uist.org</a>
+</p>
+</div>
+</div>
+<div class="row">
+<a href="https://www.microsoft.com/en-us/research/people/shamsi/">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+<img alt="Shamsi Iqbal" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/shamsi.jpg"/>
+<div>
+<h5 class="mb-0">Shamsi Iqbal</h5>
+<a href="https://www.microsoft.com/en-us/research/people/shamsi/">Microsoft Research</a>
+</div>
+</div>
+</a>
+<a href="https://www.cs.ubc.ca/~maclean">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="200">
+<img alt="Karon MacLean" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/karon_maclean_square.jpg"/>
+<div>
+<h5 class="mb-0">Karon MacLean</h5>
+<a href="https://www.cs.ubc.ca/~maclean">UBC</a>
+</div>
+</div>
+</a>
+</div>
+<div class="row">
+<div class="col">
+<h3>Program Chairs</h3>
+<p>
+<a href="mailto:program2020@uist.org">program2020@uist.org</a>
+</p>
+</div>
+</div>
+<div class="row">
+<a href="https://fannychevalier.net">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+<img alt="Fanny Chevalier" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/fanny_chevalier_square.jpg"/>
+<div>
+<h5 class="mb-0">Fanny Chevalier</h5>
+<a href="https://fannychevalier.net">University of Toronto</a>
+</div>
+</div>
+</a><a href="https://hcie.csail.mit.edu/stefanie-mueller.html">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="200">
+<img alt="Stefanie Mueller" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/stefanie-mueller-profile-picture.jpg"/>
+<div>
+<h5 class="mb-0">Stefanie Mueller</h5>
+<a href="https://hcie.csail.mit.edu/stefanie-mueller.html">MIT</a>
+</div>
+</div>
+</a></div>
+<div class="row">
+<div class="col">
+<h3>Sponsorship Chairs</h3>
+<p>
+<a href="mailto:sponsorship2020@uist.org">sponsorship2020@uist.org</a>
+</p>
+</div>
+</div>
+<div class="row">
+<a href="https://engineering.columbia.edu/faculty/lydia-chilton">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+<img alt="Lydia Chilton" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/lydia_chilton.jpg"/>
+<div>
+<h5 class="mb-0">Lydia Chilton</h5>
+<a href="#">Columbia University</a>
+</div>
+</div>
+</a>
+<a href="www.dgp.toronto.edu/~dwigdor/">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="200">
+<img alt="Daniel Wigdor" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/daniel_wigdor.jpg"/>
+<div>
+<h5 class="mb-0">Daniel Wigdor</h5>
+<a href="www.dgp.toronto.edu/~dwigdor/">University of Toronto</a>
+</div>
+</div>
+</a></div>
+<div class="row">
+<div class="col">
+<h3>Demo Chairs</h3>
+<p>
+<a href="mailto:demos2020@uist.org">demo2020@uist.org</a>
+</p>
+</div>
+</div>
+<div class="row">
+<a href="https://www.gierad.com">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+<img alt="Gierad Laput" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/gierad.jpg"/>
+<div>
+<h5 class="mb-0">Gierad Laput</h5>
+<a href="https://www.gierad.com">Apple</a>
+</div>
+</div>
+</a>
+<a href="https://alexandraion.com">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="200">
+<img alt="Alexandra Ion" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/alex-ion-Portrait_landscape_20103_square.jpg"/>
+<div>
+<h5 class="mb-0">Alexandra Ion</h5>
+<a href="https://www.gierad.com">ETH Zürich</a>
+</div>
+</div>
+</a>
+</div>
+<div class="row">
+<div class="col">
+<h3>Poster Chairs</h3>
+<p>
+<a href="mailto:posters2020@uist.org">posters2020@uist.org</a>
+</p>
+</div>
+</div>
+<div class="row">
+<a href="https://www.adamfourney.com/">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+<img alt="Adam Fourney" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/adam-fourney.jpeg"/>
+<div>
+<h5 class="mb-0">Adam Fourney</h5>
+<a href="https://www.adamfourney.com/">Microsoft Research</a>
+</div>
+</div>
+</a>
+<a href="https://homes.cs.washington.edu/~axz/">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="200">
+<img alt="Amy Zhang" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/amy_square.jpg"/>
+<div>
+<h5 class="mb-0">Amy Zhang</h5>
+<a href="https://homes.cs.washington.edu/~axz/">University of Washington</a>
+</div>
+</div>
+</a>
+</div>
+<div class="row">
+<div class="col">
+<h3>Doctoral Symposium Chairs</h3>
+<p>
+<a href="mailto:doctoralsymposium2020@uist.org">doctoralsymposium2020@uist.org</a>
+</p>
+</div>
+</div>
+<div class="row">
+<a href="http://wendyju.com/">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+<img alt="Wendy Ju" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/wendy_ju.jpg"/>
+<div>
+<h5 class="mb-0">Wendy Ju</h5>
+<a href="http://wendyju.com/">Cornell Tech</a>
+</div>
+</div>
+</a>
+<a href="https://hci.cs.uni-saarland.de/people/juergen-steimle/">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="200">
+<img alt="Jürgen Steimle" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/juergensteimle.jpeg"/>
+<div>
+<h5 class="mb-0">Jürgen Steimle</h5>
+<a href="https://hci.cs.uni-saarland.de/people/juergen-steimle/">Saarland University</a>
+</div>
+</div>
+</a>
+</div>
+<div class="row">
+<div class="col">
+<h3>Vision Chair</h3>
+<p>
+<a href="mailto:vision2020@uist.org">vision2020@uist.org</a>
+</p>
+</div>
+</div>
+<div class="row">
+<a href="http://blog.kenperlin.com/">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+<img alt="Ken Perlin" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/ken_perlin.jpg"/>
+<div>
+<h5 class="mb-0">Ken Perlin</h5>
+<a href="http://blog.kenperlin.com/">NYU</a>
+</div>
+</div>
+</a>
+</div>
+<div class="row">
+<div class="col">
+<h3>Student Innovation Chairs</h3>
+<p>
+<a href="mailto:sic2020@uist.org">sic2020@uist.org</a>
+</p>
+</div>
+</div>
+<div class="row">
+<a href="https://www.pefortin.com/">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+<img alt="Pascal Fortin" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/pasca_e_fortin_cropped.jpg"/>
+<div>
+<h5 class="mb-0">Pascal Fortin</h5>
+<a href="https://www.pefortin.com/">McGill University</a>
+</div>
+</div>
+</a>
+<a href="https://iis-lab.org/member/koji-yatani/">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="200">
+<img alt="Koji Yatani" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/koji_yatani.png"/>
+<div>
+<h5 class="mb-0">Koji Yatani</h5>
+<a href="https://iis-lab.org/member/koji-yatani/">University of Tokyo</a>
+</div>
+</div>
+</a>
+</div>
+<div class="row">
+<div class="col">
+<h3>Awards Chairs</h3>
+<p>
+<a href="mailto:awards2020@uist.org">awards2020@uist.org</a>
+</p>
+</div>
+</div>
+<div class="row">
+<a href="https://ex-situ.lri.fr/people/mackay/">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+<img alt="Wendy Mackay" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/Wendy crop CHI small square.jpg"/>
+<div>
+<h5 class="mb-0">Wendy Mackay</h5>
+<a href="https://ex-situ.lri.fr/people/mackay/">INRIA</a>
+</div>
+</div>
+</a>
+<a href="http://mi-lab.org/about-us/michael-haller/">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="200">
+<img alt="Michael Haller" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/michael_haller.jpg"/>
+<div>
+<h5 class="mb-0">Michael Haller</h5>
+<a href="http://mi-lab.org/about-us/michael-haller/">FH Upper Austria</a>
+</div>
+</div>
+</a>
+</div>
+<div class="row">
+<div class="col">
+<h3>Treasurer</h3>
+<p>
+<a href="mailto:treasurer2020@uist.org">treasurer2020@uist.org</a>
+</p>
+</div>
+</div>
+<div class="row">
+<a href="https://michelleannett.com/">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+<img alt="Michelle Annett" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/michelle-annett.jpg"/>
+<div>
+<h5 class="mb-0">Michelle Annett</h5>
+<a href="https://michelleannett.com/">Mish Mash Makers</a>
+</div>
+</div>
+</a>
+</div>
+<div class="row">
+<div class="col">
+<h3>Web and Design Chairs</h3>
+<p>
+<a href="mailto:web2020@uist.org">web2020@uist.org</a>
+</p>
+</div>
+</div>
+<div class="row">
+<a href="http://oliverschneider.ca/">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+<img alt="Oliver Schneider" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/oliver.jpg"/>
+<div>
+<h5 class="mb-0">Oliver Schneider</h5>
+<a href="http://oliverschneider.ca/">University of Waterloo</a>
+</div>
+</div>
+</a>
+<a href="https://jasperoleary.com/">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="200">
+<img alt="Jasper Tran O'Leary" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/jtranoleary_headshot.png"/>
+<div>
+<h5 class="mb-0">Jasper Tran O'Leary</h5>
+<a href="https://jasperoleary.com/">University of Washington</a>
+</div>
+</div>
+</a>
+</div>
+<div class="row">
+<div class="col">
+<h3>Publicity Chairs</h3>
+<p>
+<a href="mailto:publicity2020@uist.org">publicity2020@uist.org</a>
+</p>
+</div>
+</div>
+<div class="row">
+<a href="https://cseweb.ucsd.edu/~cafraser/">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+<img alt="Ailie Fraser" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/Ailie Fraser square.jpg"/>
+<div>
+<h5 class="mb-0">Ailie Fraser</h5>
+<a href="https://cseweb.ucsd.edu/~cafraser/">UCSD</a>
+</div>
+</div>
+</a>
+<a href="https://glassmanlab.seas.harvard.edu/">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="200">
+<img alt="Elena Glassman" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/Glassman_200x200.jpg"/>
+<div>
+<h5 class="mb-0">Elena Glassman</h5>
+<a href="https://glassmanlab.seas.harvard.edu/">Harvard University</a>
+</div>
+</div>
+</a>
+</div>
+<div class="row">
+<div class="col">
+<h3>Proceedings Chairs</h3>
+<p>
+<a href="mailto:proceedings2020@uist.org">proceedings2020@uist.org</a>
+</p>
+</div>
+</div>
+<div class="row">
+<a href="https://xiangchen.me/">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+<img alt="Xiang Anthony Chen" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/xiang_anthony_chen.jpg"/>
+<div>
+<h5 class="mb-0">Xiang Anthony Chen</h5>
+<a href="https://xiangchen.me/">UCLA</a>
+</div>
+</div>
+</a>
+<a href="https://homes.cs.washington.edu/~emjun/">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+<img alt="Eunice Jun" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/eunice.png"/>
+<div>
+<h5 class="mb-0">Eunice Jun</h5>
+<a href="https://homes.cs.washington.edu/~emjun/">University of Washington</a>
+</div>
+</div>
+</a>
+</div>
+<div class="row">
+<div class="col">
+<h3>Video Previews Chair</h3>
+<p>
+<a href="mailto:videopreview2020@uist.org">videopreview2020@uist.org</a>
+</p>
+</div>
+</div>
+<div class="row">
+<a href="https://fbrudy.net/">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="200">
+<img alt="Frederik Brudy" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/frederik-brudy-square.jpg"/>
+<div>
+<h5 class="mb-0">Frederik Brudy</h5>
+<a href="https://fbrudy.net/">University College London</a>
+</div>
+</div>
+</a></div>
+<div class="row">
+<div class="col">
+<h3>Video Chair</h3>
+<p>
+<a href="mailto:video2020@uist.org">video2020@uist.org</a>
+</p>
+</div>
+</div>
+<div class="row">
+<a href="https://karan-ahuja.com">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="200">
+<img alt="Karan Ahuja" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/karan.jpg"/>
+<div>
+<h5 class="mb-0">Karan Ahuja</h5>
+<a href="https://karan-ahuja.com">Carnegie Mellon University</a>
+</div>
+</div>
+</a>
+</div>
+<div class="row">
+<div class="col">
+<h3>Documentation Chair</h3>
+<p>
+<a href="mailto:documentation2020@uist.org">documentation2020@uist.org</a>
+</p>
+</div>
+</div>
+<div class="row">
+<a href="http://www-personal.umich.edu/~harmank/">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="200">
+<img alt="Harman Kaur" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/harman_kaur_square.jpg"/>
+<div>
+<h5 class="mb-0">Harman Kaur</h5>
+<a href="www-personal.umich.edu/~harmank/">University of Michigan</a>
+</div>
+</div>
+</a>
+</div>
+<div class="row">
+<div class="col">
+<h3>Local Arrangements Chairs</h3>
+<p>
+<a href="mailto:local2020@uist.org">local2020@uist.org</a>
+</p>
+</div>
+</div>
+<div class="row">
+<a href="https://illusioneering.cs.umn.edu/">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+<img alt="Evan Suma Rosenberg" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/Evan Suma Rosenberg.jpg"/>
+<div>
+<h5 class="mb-0">Evan Suma Rosenberg</h5>
+<a href="https://illusioneering.cs.umn.edu/">University of Minnesota</a>
+</div>
+</div>
+</a>
+<a href="https://www.danielkeefe.net">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="200">
+<img alt="Daniel Keefe" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/dan_keefe_square.jpg"/>
+<div>
+<h5 class="mb-0">Daniel Keefe</h5>
+<a href="https://www.danielkeefe.net">University of Minnesota</a>
+</div>
+</div>
+</a>
+<a href="https://illusioneering.cs.umn.edu/">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+<img alt="Jerald Thomas" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/jerald_thomas.jpg"/>
+<div>
+<h5 class="mb-0">Jerald Thomas</h5>
+<a href="https://illusioneering.cs.umn.edu/">University of Minnesota</a>
+</div>
+</div>
+</a>
+<a href="https://illusioneering.cs.umn.edu/">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="200">
+<img alt="Sahar Aseeri" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/sahar_aseeri-300x300.jpg"/>
+<div>
+<h5 class="mb-0">Sahar Aseeri</h5>
+<a href="https://illusioneering.cs.umn.edu/">University of Minnesota</a>
+</div>
+</div>
+</a>
+</div>
+<div class="row">
+<div class="col">
+<h3>Student Volunteers Chairs</h3>
+<p>
+<a href="mailto:sv2020@uist.org">sv2020@uist.org</a>
+</p>
+</div>
+</div>
+<div class="row">
+<a href="http://www.dogadogan.com/">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+<img alt="M. Doga Dogan" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/MDoga Dogan small.jpg"/>
+<div>
+<h5 class="mb-0">M. Doga Dogan</h5>
+<a href="http://www.dogadogan.com/">MIT</a>
+</div>
+</div>
+</a>
+<a href="http://jingyi.me/">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="200">
+<img alt="Jingyi Li" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/Jingy Li square.jpg"/>
+<div>
+<h5 class="mb-0">Jingyi Li</h5>
+<a href="http://jingyi.me/">Stanford University</a>
+</div>
+</div>
+</a>
+</div>
+<div class="row">
+<div class="col">
+<h3>Registration Chairs</h3>
+<p>
+<a href="mailto:registration2020@uist.org">registration2020@uist.org</a>
+</p>
+</div>
+</div>
+<div class="row">
+<a href="http://www.jeeeunkim.com/">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+<img alt="Jeeeun Kim" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/jeeeunkim-square.jpg"/>
+<div>
+<h5 class="mb-0">Jeeeun Kim</h5>
+<a href="http://www.jeeeunkim.com/">Texas A&amp;M University</a>
+</div>
+</div>
+</a>
+<a href="http://www.saiganesh.net/">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="200">
+<img alt="Sai Swaminathan" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/sai-square.jpg"/>
+<div>
+<h5 class="mb-0">Sai Swaminathan</h5>
+<a href="http://www.saiganesh.net/">Carnegie Mellon University</a>
+</div>
+</div>
+</a>
+</div>
+<div class="row">
+<div class="col">
+<h3>Accessibility Chairs</h3>
+<p>
+<a href="mailto:accessibility2020@uist.org">accessibility2020@uist.org</a>
+</p>
+</div>
+</div>
+<div class="row">
+<a href="https://www.megan-hofmann.com/">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+<img alt="Megan Hofmann" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/Megan Hofmann square.jpg"/>
+<div>
+<h5 class="mb-0">Megan Hofmann</h5>
+<a href="https://www.megan-hofmann.com/">Carnegie Mellon University</a>
+</div>
+</div>
+</a><a href="https://www.violynnewang.com/">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="200">
+<img alt="Ruolin Wang" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/Ruolin Wang.jpg"/>
+<div>
+<h5 class="mb-0">Ruolin Wang</h5>
+<a href="https://www.violynnewang.com/">UCLA</a>
+</div>
+</div>
+</a>
+</div>
+<div class="row">
+<div class="col">
+<h3>Diversity Chairs</h3>
+<p>
+<a href="mailto:diversity2020@uist.org">diversity2020@uist.org</a>
+</p>
+</div>
+</div>
+<div class="row">
+<a href="http://www.shiriazenkot.com/">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+<img alt="Shiri Azenkot" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/shiri_azenkrot_square.jpg"/>
+<div>
+<h5 class="mb-0">Shiri Azenkot</h5>
+<a href="http://www.shiriazenkot.com/">Cornell Tech</a>
+</div>
+</div>
+</a>
+<a href="https://hci.rwth-aachen.de/hamdan">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="200">
+<img alt="Nur Al Hamdan" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/nur_al_hamdan.jpg"/>
+<div>
+<h5 class="mb-0">Nur Al Hamdan</h5>
+<a href="https://hci.rwth-aachen.de/hamdan">RWTH Aachen</a>
+</div>
+</div>
+</a>
+</div>
+<div class="row">
+<div class="col">
+<h3>Lasting Impact Chair</h3>
+<p>
+<a href="mailto:lastingimpact2020@uist.org">lastingimpact2020@uist.org</a>
+</p>
+</div>
+</div>
+<div class="row">
+<a href="https://www.microsoft.com/en-us/research/people/awilson/">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="200">
+<img alt="Andy Wilson" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/andy.jpg"/>
+<div>
+<h5 class="mb-0">Andy Wilson</h5>
+<a href="https://www.microsoft.com/en-us/research/people/awilson/">Microsoft Research</a>
+</div>
+</div>
+</a>
+</div>
+<div class="row">
+<div class="col">
+<h3>Sustainability Chairs</h3>
+<p>
+<a href="mailto:sustainability2020@uist.org">sustainability2020@uist.org</a>
+</p>
+</div>
+</div>
+<div class="row">
+<a href="https://www.cs.cmu.edu/~kmwillia/">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="200">
+<img alt="Kristin Williams" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/kristin_williams_photo_square.jpg"/>
+<div>
+<h5 class="mb-0">Kristin Williams</h5>
+<a href="https://www.cs.cmu.edu/~kmwillia/">Carnegie Mellon University</a>
+</div>
+</div>
+</a>
+<a href="https://christopherclarke.net/">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="200">
+<img alt="Chris Clarke" class="avatar avatar-xlg mr-3" src="assets/img/orgcomm/chris_clarke.jpg"/>
+<div>
+<h5 class="mb-0">Chris Clarke</h5>
+<a href="https://christopherclarke.net/">Lancaster University</a>
+</div>
+</div>
+</a>
+</div>
+<div class="row">
+<div class="col-sm-6 col-lg-6 d-flex align-items-center mb-3">
+<h3>Program Committee</h3>
+<a class="h-anchor" name="program-committee"></a>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-12 text-center">
+<table class="table table-striped">
+<tbody>
+<tr><td>Patrick Baudisch</td><td>Hasso Plattner Institute</td></tr>
+<tr><td>Seok-Hyung Bae</td><td>KAIST</td></tr>
+<tr><td>Michel Beaudouin-Lafon</td><td>UniversitÃ© Paris Sud</td></tr>
+<tr><td>Sebastian Boring</td><td>Aalborg University</td></tr>
+<tr><td>Zoya Bylinskii</td><td>Adobe Research</td></tr>
+<tr><td>Bing-Yu Chen</td><td>National Taiwan University</td></tr>
+<tr><td>Mike Chen</td><td>National Taiwan University</td></tr>
+<tr><td>Xiang "Anthony" Chen</td><td>UCLA</td></tr>
+<tr><td>Lydia Chilton</td><td>Columbia University</td></tr>
+<tr><td>Ruta Desai</td><td>Facebook Reality Labs</td></tr>
+<tr><td>Sean Follmer</td><td>Stanford University</td></tr>
+<tr><td>Aakar Gupta</td><td>Facebook Reality Labs</td></tr>
+<tr><td>Bjoern Hartmann</td><td>UC Berkeley</td></tr>
+<tr><td>Seongkook Heo</td><td>University of Virginia</td></tr>
+<tr><td>Otmar Hilliges</td><td>ETH Zurich</td></tr>
+<tr><td>Christian Holz</td><td>ETH Zurich</td></tr>
+<tr><td>Scott Hudson</td><td>Carnegie Mellon University</td></tr>
+<tr><td>Takeo Igarashi</td><td>University of Tokyo</td></tr>
+<tr><td>Alexandra Ion</td><td>ETH Zurich</td></tr>
+<tr><td>Yasuaki Kakehi</td><td>University of Tokyo</td></tr>
+<tr><td>Jeeeun Kim</td><td>Texas A&amp;M University</td></tr>
+<tr><td>Jarrod Knibbe</td><td>Monash University</td></tr>
+<tr><td>Ranjitha Kumar</td><td>University of Illinois at Urbana-Champaign</td></tr>
+<tr><td>Daniel Leithinger</td><td>University of Colorado</td></tr>
+<tr><td>Rong-Hao Liang</td><td>Eindhoven University</td></tr>
+<tr><td>David Lindlbauer</td><td>ETH Zurich</td></tr>
+<tr><td>Wendy Mackay</td><td>INRIA</td></tr>
+<tr><td>Michael Nebeling</td><td>University of Michigan</td></tr>
+<tr><td>Jun Nishida</td><td>University of Chicago</td></tr>
+<tr><td>Steve Oney</td><td>University of Michigan</td></tr>
+<tr><td>Amy Pavel</td><td>Carnegie Mellon University / Apple</td></tr>
+<tr><td>Parinya Punpongsanon</td><td>Osaka University</td></tr>
+<tr><td>Isabel Qamar</td><td>MIT CSAIL</td></tr>
+<tr><td>Nathalie Riche</td><td>Microsoft Research</td></tr>
+<tr><td>Anne Roudaut</td><td>University of Bristol</td></tr>
+<tr><td>Valkyrie Savage</td><td>Tactual Labs</td></tr>
+<tr><td>Paul Strohmeier</td><td>University of Copenhagen </td></tr>
+<tr><td>Radu-Daniel Vatavu</td><td>University of Suceava </td></tr>
+<tr><td>Michael Wessely</td><td>MIT CSAIL</td></tr>
+<tr><td>Daniel Wigdor</td><td>University of Toronto</td></tr>
+<tr><td>Nora S. Willett</td><td>Pixar Animation Studios</td></tr>
+<tr><td>Andy Wilson</td><td>Microsoft Research</td></tr>
+<tr><td>Haijun Xia</td><td>University of California San Diego</td></tr>
+<tr><td>Lining Yao</td><td>Carnegie Mellon University</td></tr>
+<tr><td>Xing-Dong Yang</td><td>Dartmouth College</td></tr>
+<tr><td>Amy Zhang</td><td>University of Washington</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<footer class="pb-4 bg-primary-3 text-light" id="footer">
+<div class="container">
+<div class="row justify-content-center">
+<div class="col col-md-auto text-center">
+<small class="text-muted">© Copyright 2020 ACM SIGCHI. Photo credits: Meet Minneapolis, Dan Anderson, Krivit Photography.</small>
+</div>
+</div>
+</div>
+</footer>
+<a class="btn back-to-top btn-primary btn-round" data-aos="fade-up" data-aos-mirror="true" data-aos-offset="2000" data-aos-once="false" data-smooth-scroll="" href="#">
+<img alt="arrow-up icon" class="icon" data-inject-svg="" src="assets/img/icons/theme/navigation/arrow-up.svg"/>
+</a>
+<!-- Required vendor scripts (Do not remove) -->
+
+
+
+<!-- Optional Vendor Scripts (Remove the plugin script here and comment initializer script out of index.js if site does not use that feature) -->
+<!-- AOS (Animate On Scroll - animates elements into view while scrolling down) -->
+
+<!-- Clipboard (copies content from browser into OS clipboard) -->
+
+<!-- Fancybox (handles image and video lightbox and galleries) -->
+
+<!-- Flatpickr (calendar/date/time picker UI) -->
+
+<!-- Flickity (handles touch enabled carousels and sliders) -->
+
+<!-- Ion rangeSlider (flexible and pretty range slider elements) -->
+
+<!-- Isotope (masonry layouts and filtering) -->
+
+<!-- jarallax (parallax effect and video backgrounds) -->
+
+
+
+<!-- jQuery Countdown (displays countdown text to a specified date) -->
+
+<!-- jQuery smartWizard facilitates steppable wizard content -->
+
+<!-- Plyr (unified player for Video, Audio, Vimeo and Youtube) -->
+
+<!-- Prism (displays formatted code boxes) -->
+
+<!-- ScrollMonitor (manages events for elements scrolling in and out of view) -->
+
+<!-- Smooth scroll (animation to links in-page)-->
+
+<!-- SVGInjector (replaces img tags with SVG code to allow easy inclusion of SVGs with the benefit of inheriting colors and styles)-->
+
+<!-- TwitterFetcher (displays a feed of tweets from a specified account)-->
+
+<!-- Typed text (animated typing effect)-->
+
+<!-- Required theme scripts (Do not remove) -->
+
+<!-- Removes page load animation when window is finished loading -->
+
+</div></body>
+</html>

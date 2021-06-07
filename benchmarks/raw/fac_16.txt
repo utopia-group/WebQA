@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width initial-scale=1" name="viewport"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<title>Aditya V. Thakur</title>
+<meta content="" name="description"/>
+<link href="/css/white.css" rel="stylesheet" type="text/css"/>
+<link href="/" rel="canonical"/>
+<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+</head>
+<body>
+<header class="site-header">
+<div class="wrapper">
+<a class="site-title" href="https://adityathakur.github.io/" style="color:white">Aditya V. Thakur</a>
+<!-- <nav class="site-nav"> -->
+<!--   <a href="#" class="menu-icon"> -->
+<!--     <svg viewBox="0 0 18 15"> -->
+<!--       <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/> -->
+<!--       <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/> -->
+<!--       <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/> -->
+<!--     </svg> -->
+<!--   </a> -->
+<!-- <div class="trigger"> -->
+<!--    <a class="page-link" style="color:#2a7aa2" href="#teaching">Teaching</a>	 -->
+<!--    <a class="page-link" style="color:#2a7aa2" href="#publications">Publications</a> -->
+<!--    <\!-- <a class="page-link" style="color:#2a7aa2" href="/blog.html">Blog</a> -\-> -->
+<!-- </div> -->
+</div>
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=11468100; 
+var sc_invisible=1; 
+var sc_security="9cada0f7"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a href="http://statcounter.com/" target="_blank" title="Web Analytics"><img alt="Web
+Analytics" class="statcounter" src="//c.statcounter.com/11468100/0/9cada0f7/1/"/></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+</header>
+<div class="page-content">
+<div class="wrapper">
+<p><img alt="Pic" src="/assets/images/bww.jpg" style="margin-top: -50px;border:0px" width="800px"/></p>
+<ul class="contact-list">
+<li>Assistant Professor</li>
+<li><a href="http://ucdavis.edu"> University of California, Davis</a></li>
+<li><a href="http://cs.ucdavis.edu"> Department of Computer Science</a></li>
+<li><a class="emph" href="/assets/cv.pdf">CV</a></li>
+<li><a class="emph" href="mailto:avthakur@ucdavis.edu">avthakur@ucdavis.edu</a></li>
+<li> (530) 754-0434</li>
+<li> <a href="http://campusmap.ucdavis.edu/?b=243">2073 Academic Surge Building</a></li>
+</ul>
+<p>My research and teaching interests are in programming languages,
+automated reasoning, and software engineering. The role, scale, and
+nature of software that affects our lives is ever changing. The goal
+of my research is to develop tools and techniques to improve the
+reliability and performance of software systems. My current research
+aims to develop explainable and scalable program analysis—tools that I
+would have wanted while I was working in the industry. Furthermore,
+the nature of software engineering is changing, spurred by the
+adoption of practical machine-learning systems; this change requires
+exploring fundamentally new ways of developing, verifying, and
+deploying software.</p>
+<!-- I am looking for highly-motivated PhD students to work on
+challenging research problems in the areas of programming languages,
+automated reasoning, and program analysis with applications to
+security, machine learning, and software engineering; if interested,
+please send me an email with a description of your research interests
+and your CV. -->
+<h1 id="recent-news">Recent News</h1>
+<table>
+<tbody>
+<tr>
+<td>01/2020</td>
+<td>Matthew Sotoudeh awarded second place in <a href="https://www.cs.ucdavis.edu/blog/cs-undergraduate-matthew-sotoudeh-wins-silver-medal-in-popl-student-research-competition/"><em>POPL 2020 Student Research Competition</em></a></td>
+</tr>
+<tr>
+<td>01/2020</td>
+<td>Our research on <a href="http://thakur.cs.ucdavis.edu/bibliography/POPL2020.html"><em>parallel abstract interpretation</em></a> has been pushed to two open-source abstract interpreters: <a href="https://github.com/NASA-SW-VnV/ikos"><em>NASA IKOS</em></a> and <a href="https://github.com/facebookincubator/SPARTA"><em>Facebook SPARTA</em></a>.</td>
+</tr>
+<tr>
+<td>10/2019</td>
+<td>Paper accepted to <a href="https://popl20.sigplan.org/"><em>POPL 2020</em></a>.</td>
+</tr>
+<tr>
+<td>09/2019</td>
+<td>Paper accepted to <a href="https://sites.google.com/view/neurips19-safe-robust-workshop"><em>NeurIPS 2019 Workshop on Safety and Robustness in Decision Making</em></a></td>
+</tr>
+<tr>
+<td>09/2019</td>
+<td>Talk at <a href="https://probabilityprogrammingworkshop.splashthat.com/"><em>Probability and Programming Workshop 2019</em></a></td>
+</tr>
+<tr>
+<td>09/2019</td>
+<td>Paper accepted to <a href="neurips.cc"><em>NeurIPS 2019</em></a></td>
+</tr>
+<tr>
+<td>07/2019</td>
+<td>Paper accepted to <a href="https://globecom2019.ieee-globecom.org/"><em>Globecom 2019</em></a></td>
+</tr>
+<tr>
+<td>06/2019</td>
+<td>Paper accepted to <a href="http://smt2019.galois.com/"><em>SMT 2019</em></a></td>
+</tr>
+<tr>
+<td>05/2019</td>
+<td>Paper accepted to <a href="https://esec-fse19.ut.ee/"><em>ESEC/FSE 2019</em></a></td>
+</tr>
+<tr>
+<td>05/2019</td>
+<td>Awarded <a href="https://research.fb.com/blog/2019/05/announcing-the-winners-of-the-probability-and-programming-research-awards/"><em>Facebook Probability and Programming Research Award</em></a></td>
+</tr>
+<tr>
+<td>11/2018</td>
+<td>Daniel DeFreez awarded first place in <a href="https://2018.fseconference.org/info/distinguished-paper-awards#graduate-students"><em>ESEC/FSE 2018 Student Research Competition (SRC)</em></a></td>
+</tr>
+<tr>
+<td>10/2018</td>
+<td>Awarded <a href="https://research.fb.com/blog/2018/10/announcing-the-winners-of-the-facebook-testing-and-verification-research-awards/"><em>Facebook Testing and Verification (TAV) Research Award</em></a></td>
+</tr>
+<tr>
+<td>07/2018</td>
+<td>Paper accepted to <a href="https://conf.researchr.org/home/fse-2018"><em>ESEC/FSE 2018</em></a></td>
+</tr>
+<tr>
+<td>06/2018</td>
+<td>Awarded <a href="https://www.cs.ucdavis.edu/blog/aditya-thakur-receives-2018-decor-award/"><em>DECOR 2018 Research Award</em></a></td>
+</tr>
+<tr>
+<td>03/2018 </td>
+<td>Poster paper accepted to <a href="https://www.icse2018.org/"><em>ICSE 2018</em></a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="publications">Publications</h1>
+<p><a class="emph" href="https://scholar.google.com/citations?hl=en&amp;user=x8952qgAAAAJ&amp;view_op=list_works&amp;sortby=pubdate">Google Scholar</a> / 
+<a class="emph" href="http://www.informatik.uni-trier.de/~ley/pers/hy/t/Thakur:Aditya_V=.html">DBLP</a></p>
+<ol class="bibliography"><li>
+<a href="bibliography/POPL2020.html"><em>Deterministic Parallel Fixpoint Computation</em></a> <br/>
+Proc. ACM Program. Lang.  (POPL) ,
+
+2020
+<br/>
+<a class="emph" href="assets/pubs/POPL2020.pdf">PDF</a>    
+
+ <a class="emph" href="http://dx.doi.org/10.1145/3371082">ACM©</a>     
+<a class="details" href="/bibliography/POPL2020.html">Details</a></li>
+<li>
+<a href="bibliography/SRDM2019.html"><em>Correcting Deep Neural Networks with Small, Generalizing Patches</em></a> <br/>
+NeurIPS 2019 Workshop on Safety and Robustness in Decision Making,
+
+2019
+<br/>
+<a class="emph" href="assets/pubs/SRDM2019.pdf">PDF</a>    
+
+
+<a class="details" href="/bibliography/SRDM2019.html">Details</a></li>
+<li>
+<a href="bibliography/NeurIPS2019.html"><em>Computing Linear Restrictions of Neural Networks</em></a> <br/>
+Advances in Neural Information Processing Systems 32: Annual Conference on Neural Information Processing Systems (NeurIPS),
+
+2019
+<br/>
+<a class="emph" href="assets/pubs/NeurIPS2019.pdf">PDF</a>    
+
+
+<a class="details" href="/bibliography/NeurIPS2019.html">Details</a></li>
+<li>
+<a href="bibliography/globecom2019.html"><em>A Reinforcement Learning Based Network Scheduler For Deadline-Driven Data Transfers</em></a> <br/>
+ IEEE Global Communications Conference (GLOBECOM),
+
+2019
+<br/>
+<a class="emph" href="assets/pubs/globecom2019.pdf">PDF</a>    
+
+
+<a class="details" href="/bibliography/globecom2019.html">Details</a></li>
+<li>
+<a href="bibliography/SMT2019.html"><em>An SMT Approach To A Multiparty Economic Scheduling Problem</em></a> <br/>
+17th International Workshop on Satisfiability Modulo Theories (SMT’19),
+
+2019
+<br/>
+<a class="emph" href="assets/pubs/SMT2019.pdf">PDF</a>    
+
+
+<a class="details" href="/bibliography/SMT2019.html">Details</a></li>
+<li>
+<a href="bibliography/defreez_rubio_thakur_FSE2019.html"><em>Effective Error-Specification Inference via Domain-Knowledge Expansion</em></a> <br/>
+Proceedings of the 27th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE’19) ,
+
+2019
+<br/>
+<a class="emph" href="assets/pubs/defreez_rubio_thakur_FSE2019.pdf">PDF</a>    
+
+ <a class="emph" href="http://dx.doi.org/10.1145/3338906.3338960">ACM©</a>     
+<a class="details" href="/bibliography/defreez_rubio_thakur_FSE2019.html">Details</a></li>
+<li>
+<a href="bibliography/defreez_thakur_rubio_FSE2018.html"><em>Path-Based Function Embedding and Its Application to Error-Handling Specification Mining</em></a> <br/>
+Proceedings of the 26th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE’18) ,
+
+2018
+<br/>
+<a class="emph" href="assets/pubs/defreez_thakur_rubio_FSE2018.pdf">PDF</a>    
+
+ <a class="emph" href="http://dx.doi.org/10.1145/3236024.3236059">ACM©</a>     
+<a class="details" href="/bibliography/defreez_thakur_rubio_FSE2018.html">Details</a></li>
+<li>
+<a href="bibliography/defreez_thakur_rubio_ICSE2018.html"><em>Path-Based Function Embeddings</em></a> <br/>
+Proceedings of the 40th International Conference on Software Engineering: Companion Proceeedings, ICSE 2018,
+
+2018
+<br/>
+<a class="emph" href="assets/pubs/defreez_thakur_rubio_ICSE2018.pdf">PDF</a>    
+
+ <a class="emph" href="http://dx.doi.org/10.1145/3183440.3195042">ACM©</a>     
+<a class="details" href="/bibliography/defreez_thakur_rubio_ICSE2018.html">Details</a></li>
+<li>
+<a href="bibliography/mangpo_thakur_ASPLOS16.html"><em>Scaling up Superoptimization</em></a> <br/>
+Proceedings of the Twenty-First International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS),
+
+2016
+<br/>
+<a class="emph" href="assets/pubs/mangpo_thakur_ASPLOS16.pdf">PDF</a>    
+
+ <a class="emph" href="http://dx.doi.org/10.1145/2872362.2872387">ACM©</a>     
+<a class="details" href="/bibliography/mangpo_thakur_ASPLOS16.html">Details</a></li>
+<li>
+<a href="bibliography/mangpo_thakur_CC16.html"><em>GreenThumb: superoptimizer construction framework</em></a> <br/>
+Proceedings of the 25th International Conference on Compiler Construction (CC),
+
+2016
+<br/>
+<a class="emph" href="assets/pubs/mangpo_thakur_CC16.pdf">PDF</a>    
+
+ <a class="emph" href="http://dx.doi.org/10.1145/2892208.2892233">ACM©</a>     
+<a class="details" href="/bibliography/mangpo_thakur_CC16.html">Details</a></li>
+<li>
+<a href="bibliography/reps_thakur_VMCAI16.html"><em>Automating Abstract Interpretation</em></a> <br/>
+17th International
+               Conference on Verification, Model Checking, and Abstract Interpretation (VMCAI),
+
+2016
+<br/>
+<em>Invited paper</em><br/>
+<a class="emph" href="assets/pubs/reps_thakur_VMCAI16.pdf">PDF</a>    
+
+ <a class="emph" href="http://dx.doi.org/10.1007/978-3-662-49122-5_1">Springer©</a>     
+<a class="details" href="/bibliography/reps_thakur_VMCAI16.html">Details</a></li>
+<li>
+<a href="bibliography/thakur_etal_TAPAS13.html"><em>PostHat and All That: Automating Abstract Interpretation</em></a> <br/>
+Electronic Notes in Theoretical Computer Science ,
+
+2015
+<br/>
+<em>Fourth Workshop on Tools for Automatic Program Analysis (TAPAS 2013)</em><br/>
+<a class="emph" href="assets/pubs/thakur_etal_TAPAS13.pdf">PDF</a>    
+
+ <a class="emph" href="http://dx.doi.org/10.1016/j.entcs.2015.02.003">Elsevier©</a>     
+<a class="details" href="/bibliography/thakur_etal_TAPAS13.html">Details</a></li>
+<li>
+<a href="bibliography/thakur_etal_SPIN14.html"><em>Satisfiability modulo abstraction for separation logic with linked
+               lists</em></a> <br/>
+2014 International Symposium on Model Checking of Software (SPIN),
+
+2014
+<br/>
+<a class="emph" href="assets/pubs/thakur_etal_SPIN14.pdf">PDF</a>    
+
+ <a class="emph" href="http://dx.doi.org/10.1145/2632362.2632376">ACM©</a>     
+<a class="details" href="/bibliography/thakur_etal_SPIN14.html">Details</a></li>
+<li>
+<a href="bibliography/itzhaky_etal_CAV14.html"><em>Property-Directed Shape Analysis</em></a> <br/>
+26th International Conference on Computer Aided Verification (CAV),
+
+2014
+<br/>
+<a class="emph" href="assets/pubs/itzhaky_etal_CAV14.pdf">PDF</a>    
+
+ <a class="emph" href="http://dx.doi.org/10.1007/978-3-319-08867-9_3">Springer©</a>     
+<a class="details" href="/bibliography/itzhaky_etal_CAV14.html">Details</a></li>
+<li>
+<a href="bibliography/reps_thakur_HCSS14.html"><em>Through the Lens of Abstraction</em></a> <br/>
+High Confidence Software and Systems Conference (HCSS),
+
+2014
+<br/>
+<a class="emph" href="assets/pubs/reps_thakur_HCSS14.pdf">PDF</a>    
+
+
+<a class="details" href="/bibliography/reps_thakur_HCSS14.html">Details</a></li>
+<li>
+<a href="bibliography/thakur_reps_SAS12.html"><em>A Generalization of Stålmarck’s Method</em></a> <br/>
+19th International Symposium on Static Analysis (SAS),
+
+2012
+<br/>
+<a class="emph" href="assets/pubs/thakur_reps_SAS12.pdf">PDF</a>    
+
+ <a class="emph" href="http://dx.doi.org/10.1007/978-3-642-33125-1_23">Springer©</a>     
+<a class="details" href="/bibliography/thakur_reps_SAS12.html">Details</a></li>
+<li>
+<a href="bibliography/thakur_etal_SAS12.html"><em>Bilateral Algorithms for Symbolic Abstraction</em></a> <br/>
+19th International Symposium on Static Analysis (SAS),
+
+2012
+<br/>
+<a class="emph" href="assets/pubs/thakur_etal_SAS12.pdf">PDF</a>    
+
+ <a class="emph" href="http://dx.doi.org/10.1007/978-3-642-33125-1_10">Springer©</a>     
+<a class="details" href="/bibliography/thakur_etal_SAS12.html">Details</a></li>
+<li>
+<a href="bibliography/driscoll_etal_CAV12.html"><em>OpenNWA: A Nested-Word Automaton Library</em></a> <br/>
+24th International Conference on Computer Aided Verification (CAV),
+
+2012
+<br/>
+<a class="emph" href="assets/pubs/driscoll_etal_CAV12.pdf">PDF</a>    
+
+ <a class="emph" href="http://dx.doi.org/10.1007/978-3-642-31424-7_47">Springer©</a>     
+<a class="details" href="/bibliography/driscoll_etal_CAV12.html">Details</a></li>
+<li>
+<a href="bibliography/thakur_reps_CAV12.html"><em>A Method for Symbolic Computation of Abstract Operations</em></a> <br/>
+24th International Conference on Computer Aided Verification (CAV),
+
+2012
+<br/>
+<a class="emph" href="assets/pubs/thakur_reps_CAV12.pdf">PDF</a>    
+
+ <a class="emph" href="http://dx.doi.org/10.1007/978-3-642-31424-7_17">Springer©</a>     
+<a class="details" href="/bibliography/thakur_reps_CAV12.html">Details</a></li>
+<li>
+<a href="bibliography/jin_etal_OOPSLA10.html"><em>Instrumentation and sampling strategies for cooperative concurrency
+               bug isolation</em></a> <br/>
+Proceedings of the 25th Annual ACM SIGPLAN Conference on Object-Oriented
+               Programming, Systems, Languages, and Applications (OOPSLA),
+
+2010
+<br/>
+<a class="emph" href="assets/pubs/jin_etal_OOPSLA10.pdf">PDF</a>    
+
+ <a class="emph" href="http://dx.doi.org/10.1145/1869459.1869481">ACM©</a>     
+<a class="details" href="/bibliography/jin_etal_OOPSLA10.html">Details</a></li>
+<li>
+<a href="bibliography/reps_etal_CAV10.html"><em>There’s Plenty of Room at the Bottom: Analyzing and Verifying Machine
+               Code</em></a> <br/>
+22nd International Conference on Computer Aided Verification (CAV),
+
+2010
+<br/>
+<em>Invited paper</em><br/>
+<a class="emph" href="assets/pubs/reps_etal_CAV10.pdf">PDF</a>    
+
+ <a class="emph" href="http://dx.doi.org/10.1007/978-3-642-14295-6_6">Springer©</a>     
+<a class="details" href="/bibliography/reps_etal_CAV10.html">Details</a></li>
+<li>
+<a href="bibliography/thakur_etal_CAV10.html"><em>Directed Proof Generation for Machine Code</em></a> <br/>
+22nd International Conference on Computer Aided Verification (CAV),
+
+2010
+<br/>
+<a class="emph" href="assets/pubs/thakur_etal_CAV10.pdf">PDF</a>    
+
+ <a class="emph" href="http://dx.doi.org/10.1007/978-3-642-14295-6_27">Springer©</a>     
+<a class="details" href="/bibliography/thakur_etal_CAV10.html">Details</a></li>
+<li>
+<a href="bibliography/beckman_etal_TSE10.html"><em>Proofs from Tests</em></a> <br/>
+IEEE Transactions on Software Engineering (TSE)  (4) ,
+
+2010
+<br/>
+<a class="emph" href="assets/pubs/beckman_etal_TSE10.pdf">PDF</a>    
+
+ <a class="emph" href="http://dx.doi.org/10.1109/TSE.2010.49">IEEE©</a>     
+<a class="details" href="/bibliography/beckman_etal_TSE10.html">Details</a></li>
+<li>
+<a href="bibliography/nori_etal_TACAS09.html"><em>The Yogi Project: Software Property Checking via Static
+                  Analysis and Testing</em></a> <br/>
+15th International Conference on Tools and Algorithms
+                  for the Construction and Analysis of Systems (TACAS),
+
+2009
+<br/>
+<a class="emph" href="assets/pubs/nori_etal_TACAS09.pdf">PDF</a>    
+
+ <a class="emph" href="http://dx.doi.org/10.1007/978-3-642-00768-2_17">Springer©</a>     
+<a class="details" href="/bibliography/nori_etal_TACAS09.html">Details</a></li>
+<li>
+<a href="bibliography/thakur_etal_WODA09.html"><em>Cooperative crug isolation</em></a> <br/>
+Seventh International Workshop on Dynamic Analysis (WODA),
+
+2009
+<br/>
+<a class="emph" href="assets/pubs/thakur_etal_WODA09.pdf">PDF</a>    
+
+ <a class="emph" href="http://dx.doi.org/10.1145/2134243.2134252">ACM©</a>     
+<a class="details" href="/bibliography/thakur_etal_WODA09.html">Details</a></li>
+<li>
+<a href="bibliography/thakur_govindarajan_CGO08.html"><em>Comprehensive path-sensitive data-flow analysis</em></a> <br/>
+Sixth International Symposium on Code Generation and
+                  Optimization (CGO),
+
+2008
+<br/>
+<a class="emph" href="assets/pubs/thakur_govindarajan_CGO08.pdf">PDF</a>    
+
+ <a class="emph" href="http://dx.doi.org/10.1145/1356058.1356066">ACM©</a>     
+<a class="details" href="/bibliography/thakur_govindarajan_CGO08.html">Details</a></li></ol>
+<h1 id="teaching">Teaching</h1>
+<table>
+<tbody>
+<tr>
+<td><em>F’19, F’18</em></td>
+<td><a href="http://www.cs.ucdavis.edu/blog/ecs-240-programming-languages/">ECS 240 Programming Languages (Graduate)</a></td>
+</tr>
+<tr>
+<td><em>W’19, S’18</em></td>
+<td><a href="http://www.cs.ucdavis.edu/blog/ecs-140a-programming-languages/">ECS 140A Programming Languages (Undergraduate)</a></td>
+</tr>
+<tr>
+<td><em>W’20, F’17</em></td>
+<td><a class="emph" href="tarpa.html">Topics in Automated Reasoning and Program Analysis</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="recent-service">Recent Service</h1>
+<table>
+<tbody>
+<tr>
+<td><em>PC</em></td>
+<td><a href="http://i-cav.org/2020/">CAV 2020</a>, <a href="https://sri-csl.github.io/VSTTE19/">VSTTE 2019</a>, <a href="http://staticanalysis.org/sas2019/">SAS 2019</a>, <a href="http://www.ase2018.com/">ASE 2018</a>, <a href="http://atva-conference.org/">ATVA 2018</a></td>
+</tr>
+<tr>
+<td><em>ERC</em>  </td>
+<td><a href="https://conf.researchr.org/home/pldi-2016">PLDI 2016</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="students">Students</h1>
+<table>
+<tbody>
+<tr>
+<td>Sung Kook Kim (PhD)</td>
+</tr>
+<tr>
+<td>Zhe Tao (PhD)</td>
+</tr>
+<tr>
+<td>Eric Li (B.S.)</td>
+</tr>
+<tr>
+<td>Jack Abukhovski (B.S.)</td>
+</tr>
+<tr>
+<td>Matthew Sotoudeh (B.S.)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="past-students">Past Students</h2>
+<table>
+<tbody>
+<tr>
+<td>Daniel DeFreez (PhD, 2019)</td>
+</tr>
+<tr>
+<td>Mohamed Alkaoud (M.S.)</td>
+</tr>
+<tr>
+<td>Jonathan Castello (M.S.)</td>
+</tr>
+<tr>
+<td>Dana Iltis (M.S.)</td>
+</tr>
+<tr>
+<td>Max Nedorezov (B.S.)</td>
+</tr>
+<tr>
+<td>Zaid Al Rakabi (B.S.)</td>
+</tr>
+<tr>
+<td>James Sun (B.S.)</td>
+</tr>
+<tr>
+<td>Xinyuan Sun (B.S.)</td>
+</tr>
+<tr>
+<td>Scott Reichelt (B.S.)</td>
+</tr>
+</tbody>
+</table>
+<h1 id="theses">Theses</h1>
+<ol class="bibliography"><li>
+<a href="bibliography/thakur_PHD14.html"><span id="thakur_PHD14">Thakur, A. V. (2014, August). <i>Symbolic Abstraction: Algorithms and Applications</i> (PhD dissertation). Computer Sciences Department, University of Wisconsin, Madison.</span></a>
+<br/>
+<a class="emph" href="assets/pubs/thakur_PHD14.pdf">PDF</a>    
+
+
+<a class="details" href="/bibliography/thakur_PHD14.html">Details</a></li>
+<li>
+<a href="bibliography/thakur_MSC08.html"><span id="thakur_MSC08">Thakur, A. V. (2008, August). <i>Comprehensive Path-sensitive Data-flow Analysis</i> (M.Sc.(Engg.) thesis). Indian Institute of Science, Bangalore.</span></a>
+<br/>
+<a class="emph" href="assets/pubs/thakur_MSC08.pdf">PDF</a>    
+
+
+<a class="details" href="/bibliography/thakur_MSC08.html">Details</a></li></ol>
+</div>
+</div>
+<footer class="site-footer">
+<div class="wrapper">
+<h2 class="footer-heading">Aditya V. Thakur</h2>
+<div class="footer-col-wrapper">
+<div class="footer-col footer-col-1">
+<ul class="contact-list">
+<li><a class="emph" href="mailto:avthakur@ucdavis.edu">avthakur@ucdavis.edu</a></li>
+<li><a href="http://ucdavis.edu"> University of California, Davis</a></li>
+<li><a href="http://cs.ucdavis.edu"> Department of Computer Science</a></li>
+</ul>
+</div>
+<div class="footer-col footer-col-2">
+<ul class="social-media-list">
+</ul>
+</div>
+<div class="footer-col footer-col-3">
+<p class="text">In these days, a person who says a thing cannot be done is quite apt to be interrupted by some idiot doing it.</p>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

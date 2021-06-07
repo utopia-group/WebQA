@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="http://gmpg.org/xfn/11" rel="profile"/>
+<link href="https://www.eurosys2020.org/xmlrpc.php" rel="pingback"/>
+<!-- FullCalendar -->
+<link href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.2.0/fullcalendar.min.css" rel="stylesheet"/>
+<link href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.2.0/fullcalendar.print.css" media="print" rel="stylesheet"/>
+<title>EUROSYS 2020</title>
+<link href="//fonts.googleapis.com" rel="dns-prefetch"/>
+<link href="//s.w.org" rel="dns-prefetch"/>
+<link href="https://www.eurosys2020.org/feed/" rel="alternate" title="EUROSYS 2020 » Feed" type="application/rss+xml"/>
+<link href="https://www.eurosys2020.org/comments/feed/" rel="alternate" title="EUROSYS 2020 » Comments Feed" type="application/rss+xml"/>
+<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.eurosys2020.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.1.4"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link href="https://www.eurosys2020.org/wp-content/themes/sydney/css/bootstrap/bootstrap.min.css?ver=1" id="sydney-bootstrap-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://www.eurosys2020.org/wp-includes/css/dist/block-library/style.min.css?ver=5.1.4" id="wp-block-library-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://www.eurosys2020.org/wp-content/plugins/wp-fullcalendar/includes/css/main.css?ver=1.2" id="wp-fullcalendar-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://www.eurosys2020.org/wp-content/plugins/wp-fullcalendar/includes/css/jquery-ui/ui-lightness/jquery-ui.min.css?ver=1.2" id="jquery-ui-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://www.eurosys2020.org/wp-content/plugins/wp-fullcalendar/includes/css/jquery-ui/ui-lightness/theme.css?ver=1.2" id="jquery-ui-theme-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C400italic%2C600%7CRaleway%3A400%2C500%2C600" id="sydney-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://www.eurosys2020.org/wp-content/themes/EuroSys/style.css?ver=20180710" id="sydney-style-css" media="all" rel="stylesheet" type="text/css"/>
+<style id="sydney-style-inline-css" type="text/css">
+.site-title { font-size:32px; }
+.site-description { font-size:16px; }
+#mainnav ul li a { font-size:14px; }
+h1 { font-size:52px; }
+h2 { font-size:42px; }
+h3 { font-size:32px; }
+h4 { font-size:25px; }
+h5 { font-size:20px; }
+h6 { font-size:18px; }
+body { font-size:16px; }
+.single .hentry .title-post { font-size:36px; }
+.header-image { background-size:cover;}
+.header-image { height:300px; }
+.site-header.float-header { background-color:rgba(0,0,0,0.9);}
+@media only screen and (max-width: 1024px) { .site-header { background-color:#000000;}}
+.site-title a, .site-title a:hover { color:#ffffff}
+.site-description { color:#ffffff}
+#mainnav ul li a, #mainnav ul li::before { color:#ffffff}
+#mainnav .sub-menu li a { color:#ffffff}
+#mainnav .sub-menu li a { background:#1c1c1c}
+.text-slider .maintitle, .text-slider .subtitle { color:#ffffff}
+body { color:#47425d}
+#secondary { background-color:#ffffff}
+#secondary, #secondary a, #secondary .widget-title { color:#767676}
+.footer-widgets { background-color:#252525}
+.btn-menu { color:#ffffff}
+#mainnav ul li a:hover { color:#d65050}
+.site-footer { background-color:#1c1c1c}
+.site-footer,.site-footer a { color:#666666}
+.overlay { background-color:#000000}
+.page-wrap { padding-top:83px;}
+.page-wrap { padding-bottom:100px;}
+@media only screen and (max-width: 1025px) {		
+			.mobile-slide {
+				display: block;
+			}
+			.slide-item {
+				background-image: none !important;
+			}
+			.header-slider {
+			}
+			.slide-item {
+				height: auto !important;
+			}
+			.slide-inner {
+				min-height: initial;
+			} 
+		}
+@media only screen and (max-width: 780px) { 
+    	h1 { font-size: 32px;}
+		h2 { font-size: 28px;}
+		h3 { font-size: 22px;}
+		h4 { font-size: 18px;}
+		h5 { font-size: 16px;}
+		h6 { font-size: 14px;}
+    }
+
+</style>
+<link href="https://www.eurosys2020.org/wp-content/themes/sydney/fonts/font-awesome.min.css?ver=5.1.4" id="sydney-font-awesome-css" media="all" rel="stylesheet" type="text/css"/>
+<!--[if lte IE 9]>
+<link rel='stylesheet' id='sydney-ie9-css'  href='https://www.eurosys2020.org/wp-content/themes/sydney/css/ie9.css?ver=5.1.4' type='text/css' media='all' />
+<![endif]-->
+<link href="https://www.eurosys2020.org/wp-content/tablepress-combined.min.css?ver=3" id="tablepress-default-css" media="all" rel="stylesheet" type="text/css"/>
+<script src="https://www.eurosys2020.org/wp-includes/js/jquery/jquery.js?ver=1.12.4" type="text/javascript"></script>
+<script src="https://www.eurosys2020.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1" type="text/javascript"></script>
+<script src="https://www.eurosys2020.org/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4" type="text/javascript"></script>
+<script src="https://www.eurosys2020.org/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4" type="text/javascript"></script>
+<script src="https://www.eurosys2020.org/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4" type="text/javascript"></script>
+<script src="https://www.eurosys2020.org/wp-includes/js/jquery/ui/menu.min.js?ver=1.11.4" type="text/javascript"></script>
+<script src="https://www.eurosys2020.org/wp-includes/js/jquery/ui/selectmenu.min.js?ver=1.11.4" type="text/javascript"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var WPFC = {"ajaxurl":"https:\/\/www.eurosys2020.org\/wp-admin\/admin-ajax.php","firstDay":"1","wpfc_theme":"1","wpfc_limit":"3","wpfc_limit_txt":"more ...","timeFormat":"HH:mm","defaultView":"basicWeek","weekends":"true","header":{"left":"prev,next today","center":"title","right":"basicWeek"},"wpfc_qtips":"1","wpfc_qtips_classes":"ui-tooltip-light","wpfc_qtips_my":"top center","wpfc_qtips_at":"bottom center"};
+/* ]]> */
+</script>
+<script src="https://www.eurosys2020.org/wp-content/plugins/wp-fullcalendar/includes/js/main.js?ver=1.2" type="text/javascript"></script>
+<link href="https://www.eurosys2020.org/wp-json/" rel="https://api.w.org/"/>
+<link href="https://www.eurosys2020.org/xmlrpc.php?rsd" rel="EditURI" title="RSD" type="application/rsd+xml"/>
+<link href="https://www.eurosys2020.org/wp-includes/wlwmanifest.xml" rel="wlwmanifest" type="application/wlwmanifest+xml"/>
+<meta content="WordPress 5.1.4" name="generator"/>
+<link href="https://www.eurosys2020.org/" rel="canonical"/>
+<link href="https://www.eurosys2020.org/" rel="shortlink"/>
+<link href="https://www.eurosys2020.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.eurosys2020.org%2F" rel="alternate" type="application/json+oembed"/>
+<link href="https://www.eurosys2020.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.eurosys2020.org%2F&amp;format=xml" rel="alternate" type="text/xml+oembed"/>
+<style id="wp-custom-css" type="text/css">
+			/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+
+.overlay {
+	background-color: rgba(0,0,0,0.4);
+}
+
+.site-info {
+	font-size: 10pt;
+}
+
+.sidebar-logo {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 10px
+}
+
+.sidebar-logo.big > img {
+    max-height: 50px;
+}
+
+.sidebar-logo > img {
+    max-width: 150px;
+    width: auto;
+    height: auto;
+    max-height: 40px;
+}
+
+.social-icon {
+   display: inline-block;
+   margin-right: 10px;
+}
+
+		</style>
+</head>
+<body class="home page-template-default page page-id-1154">
+<div class="preloader">
+<div class="spinner">
+<div class="pre-bounce1"></div>
+<div class="pre-bounce2"></div>
+</div>
+</div>
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="header-wrap">
+<div class="container">
+<div class="row">
+<div class="col-md-4 col-sm-8 col-xs-12">
+<a href="https://www.eurosys2020.org/" title="EUROSYS 2020"><img alt="EUROSYS 2020" class="site-logo" src="https://www.eurosys2020.org/wp-content/uploads/2020/02/EuroSys2020_logo.png"/></a>
+</div>
+<div class="col-md-8 col-sm-4 col-xs-12">
+<div class="btn-menu"></div>
+<nav class="mainnav" id="mainnav" role="navigation">
+<div class="menu-main-menu-container"><ul class="menu" id="menu-main-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-533" id="menu-item-533"><a>Calls</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1670" id="menu-item-1670"><a href="https://www.eurosys2020.org/call-for-shadow-pc-participation/">Call for Shadow PC Participation</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-917" id="menu-item-917"><a href="https://www.eurosys2020.org/call-for-papers/">Call for Papers</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1703" id="menu-item-1703"><a href="https://www.eurosys2020.org/paper-submission/">Paper Submission</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1802" id="menu-item-1802"><a href="https://www.eurosys2020.org/paper-submission/camera-ready-information/">Camera-Ready Information</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1681" id="menu-item-1681"><a href="https://www.eurosys2020.org/call-for-posters/">Call for Posters</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1663" id="menu-item-1663"><a href="https://www.eurosys2020.org/call-for-workshops/">Call for Workshops</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-535" id="menu-item-535"><a href="#">Committees</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1522" id="menu-item-1522"><a href="https://www.eurosys2020.org/organization-committee/">Organization Committee</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1528" id="menu-item-1528"><a href="https://www.eurosys2020.org/program-committee/">Program Committee</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1720" id="menu-item-1720"><a href="https://www.eurosys2020.org/workshops/">Workshops</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1695" id="menu-item-1695"><a href="https://www.eurosys2020.org/eurosys-grant/">Grants</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1798" id="menu-item-1798"><a href="https://www.eurosys2020.org/registration/">Registration</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1980" id="menu-item-1980"><a href="https://www.eurosys2020.org/program-2/">Program</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1881" id="menu-item-1881"><a href="https://www.eurosys2020.org/program/accepted-papers/">Accepted Papers</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1878" id="menu-item-1878"><a href="https://www.eurosys2020.org/poster-session/">Poster Session</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-534" id="menu-item-534"><a href="#">Venues</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-911" id="menu-item-911"><a href="https://www.eurosys2020.org/conference-venue/">Conference Venue</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-912" id="menu-item-912"><a href="https://www.eurosys2020.org/accommodation/">Accommodation</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1767" id="menu-item-1767"><a href="https://www.eurosys2020.org/child-care/">Child-care</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-913" id="menu-item-913"><a href="https://www.eurosys2020.org/getting-to-heraklion/">Getting to Heraklion</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-914" id="menu-item-914"><a href="https://www.eurosys2020.org/about-heraklion/">About Heraklion</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-537" id="menu-item-537"><a href="#">About</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1639" id="menu-item-1639"><a href="https://www.eurosys2020.org/past-editions/">Past Editions</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1640" id="menu-item-1640"><a href="https://www.eurosys2020.org/code-of-conduct/">Code of Conduct</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-910" id="menu-item-910"><a href="https://www.eurosys2020.org/contacts/">Contacts</a></li>
+</ul>
+</li>
+</ul></div> </nav><!-- #site-navigation -->
+</div>
+</div>
+</div>
+</div>
+</header><!-- #masthead -->
+<div class="sydney-hero-area">
+<div class="header-slider" data-mobileslider="responsive" data-speed="8000" id="slideshow">
+<div class="slides-container">
+<div class="slide-item" style="background-image:url('https://www.eurosys2020.org/wp-content/uploads/2019/03/208_Knosos.jpg');">
+<div class="overlay"></div>
+<img alt="" class="mobile-slide preserve" src="https://www.eurosys2020.org/wp-content/uploads/2019/03/208_Knosos.jpg"/>
+<div class="slide-inner">
+<div class="contain animated fadeInRightBig text-slider">
+<h2 class="maintitle">Welcome to EuroSys 2020</h2>
+<p class="subtitle">April 27-30, 2020 | Heraklion, Crete, Greece</p>
+</div>
+</div>
+</div>
+<div class="slide-item" style="background-image:url('https://www.eurosys2020.org/wp-content/uploads/2020/04/nher.jpg');">
+<div class="overlay"></div>
+<img alt="" class="mobile-slide preserve" src="https://www.eurosys2020.org/wp-content/uploads/2020/04/nher.jpg"/>
+<div class="slide-inner">
+<div class="contain animated fadeInRightBig text-slider">
+<h2 class="maintitle">Follow us on Twitter</h2>
+<p class="subtitle">#EuroSys20</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-image">
+<img alt="EUROSYS 2020" class="header-inner" src="https://www.eurosys2020.org/wp-content/uploads/2019/06/Picture4.png" title="EUROSYS 2020" width="1695"/>
+</div>
+</div>
+<div class="page-wrap" id="content">
+<div class="container content-wrapper">
+<div class="row">
+<div class="content-area col-md-8" id="primary">
+<main class="post-wrap" id="main" role="main">
+<article class="post-1154 page type-page status-publish hentry" id="post-1154">
+<header class="entry-header">
+</header><!-- .entry-header -->
+<div class="entry-content">
+<p>Dear Members of the EuroSys Community:</p>
+<p>The EuroSys’20 general chairs, PC chairs, and EuroSys officers actively discussed the impact of the global COVID-19 outbreak on this year’s EuroSys conference. Based on the input received from the EuroSys community, we decided that EuroSys’20 will be held as a virtual (online) conference on April 27-30, 2020. We are excited about this experiment and doing our best to make this a memorable experience, please stay tuned for more details!</p>
+<p>If you have any questions, please contact the EuroSys 2020 General Chairs (<a href="mailto:general-chairs@eurosys2020.org">general-chairs@eurosys2020.org</a>).</p>
+<p>— EuroSys 2020 General Chairs, PC Chairs and EuroSys Officers</p>
+<h1 class="title-post entry-title">Welcome</h1>
+<p>EuroSys 2020 is organized by <a href="http://www.eurosys.org/"><b>EuroSys</b></a>, the European Chapter of SIGOPS, sponsored by <a href="http://www.sigops.org/"><b>ACM SIGOPS</b></a>.</p>
+<p>The EuroSys conference series brings together professionals from academia and industry. It has a strong focus on systems research and development: operating systems, database systems, real-time systems, network middleware, distributed, parallel, or embedded computing systems. EuroSys has become a premier forum for discussing various issues of systems software research and development, including implications related to hardware and applications.</p>
+<p>The 15th edition of EuroSys will follow the pattern established by the previous EuroSys conferences, by seeking papers on all aspects of computer systems. EuroSys 2020 will also include a number of workshops to allow junior and senior members of the systems community to explore leading-edge topics and ideas before they are presented at a conference.</p>
+</div><!-- .entry-content -->
+<footer class="entry-footer">
+</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+</main><!-- #main -->
+</div><!-- #primary -->
+<div class="widget-area col-md-4" id="secondary" role="complementary">
+<aside class="widget widget_text" id="text-2"><h3 class="widget-title">Important Dates</h3> <div class="textwidget">
+<table class="tablepress tablepress-id-1" id="tablepress-1">
+<tbody class="row-hover">
+<tr class="row-1 odd">
+<td class="column-1">Full Paper Submission</td><td class="column-2">November 4, 2019</td>
+</tr>
+<tr class="row-2 even">
+<td class="column-1">Notification to Authors</td><td class="column-2">February 15, 2020<br/>
+</td>
+</tr>
+<tr class="row-3 odd">
+<td class="column-1">Camera Ready Deadline</td><td class="column-2"><del datetime="2020-03-17T13:54:25+00:00">March 15, 2020</del> March 31, 2020</td>
+</tr>
+<tr class="row-4 even">
+<td class="column-1">Workshops</td><td class="column-2">April 27, 2020</td>
+</tr>
+<tr class="row-5 odd">
+<td class="column-1">EuroSys 2020</td><td class="column-2">April 27-30, 2020</td>
+</tr>
+</tbody>
+</table>
+<!-- #tablepress-1 from cache -->
+</div>
+</aside><aside class="widget widget_text" id="text-4"><h3 class="widget-title">Sponsors</h3> <div class="textwidget">
+<table class="tablepress tablepress-id-3" id="tablepress-3">
+<tbody>
+<tr class="row-1">
+<td class="column-1"><strong>Platinum sponsors</strong><br/>
+<a href="https://www.vmware.com" rel="noopener" target="_blank"><img alt="VMWare-Logo" class="aligncenter size-full wp-image-1280" src="https://eurosys2019.org/wp-content/uploads/2019/01/VMWare_logo.png" width="385"/></a> <br/>
+<a href="https://www.redhat.com" rel="noopener" target="_blank"><img alt="RedHat" class="aligncenter size-full wp-image-1280" height="117" src="https://www.eurosys2020.org/wp-content/uploads/2020/04/redhat.png" width="362"/></a> <br/>
+<a href="https://www.microsoft.com/en-us/research/" rel="noopener" target="_blank"><img alt="Microsoft" class="aligncenter size-full wp-image-1283" height="74" src="https://eurosys2019.org/wp-content/uploads/2018/11/Microsoft_logo_2012.png" width="390"/></a><br/>
+<strong>Gold sponsors</strong><br/>
+<a href="https://research.fb.com/" rel="noopener" target="_blank"><img alt="Facebook" class="aligncenter size-full wp-image-1283" height="74" src="https://eurosys2019.org/wp-content/uploads/2018/11/facebook.png" width="330"/></a> <br/>
+<strong>Silver sponsors</strong><br/>
+<a href="https://labs.oracle.com" rel="noopener" target="_blank"><img alt="Oracle" class="aligncenter size-full wp-image-1284" src="https://eurosys2019.org/wp-content/uploads/2018/11/Oracle_Logo-1.png" width="220"/></a> <br/>
+<a href="http://www.google.com/" rel="noopener" target="_blank"><img alt="Google" class="aligncenter size-full wp-image-1284" src="https://eurosys2019.org/wp-content/uploads/2018/11/Google_logo.png" width="150"/></a><br/>
+<strong>Other sponsors</strong><br/>
+<a href="https://www.ics.forth.gr/" rel="noopener" target="_blank"><img alt="FORTH-Logo" class="aligncenter size-full wp-image-1280" src="https://www.eurosys2020.org/wp-content/uploads/2019/10/forth-logo-1200x1200.png" width="150"/></a><br/>
+<a href="http://en.uoc.gr/" rel="noopener" target="_blank"><img alt="UOC-Logo" class="aligncenter size-full wp-image-1280" src="https://www.eurosys2020.org/wp-content/uploads/2019/03/UoC_logo_with_text.png" width="150"/></a><br/>
+<a href="https://www.crete.gov.gr/en/" rel="noopener" target="_blank"><img class="aligncenter size-full wp-image-1280" src="https://www.eurosys2020.org/wp-content/uploads/2020/02/region2.png" width="150"/></a><br/>
+<strong>Organization</strong> <br/>
+<a href="http://www.acm.org/" rel="noopener" target="_blank"><img class="aligncenter size-full wp-image-1280" src="https://eurosys2018.org/wp-content/uploads/2018/04/eurosys-acm.png" width="220"/></a><br/>
+<br/>
+<br/>
+<br/>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- #tablepress-3 from cache -->
+</div>
+</aside></div><!-- #secondary -->
+</div>
+</div>
+</div><!-- #content -->
+<a class="go-top"><i class="fa fa-angle-up"></i></a>
+<footer class="site-footer" id="colophon" role="contentinfo">
+<div class="site-info container">
+			Copyright © 2019-2020 EuroSys 2020
+		</div><!-- .site-info -->
+</footer><!-- #colophon -->
+</div><!-- #page -->
+<script src="https://www.eurosys2020.org/wp-content/themes/sydney/js/scripts.js?ver=5.1.4" type="text/javascript"></script>
+<script src="https://www.eurosys2020.org/wp-content/themes/sydney/js/main.min.js?ver=20180716" type="text/javascript"></script>
+<script src="https://www.eurosys2020.org/wp-content/themes/sydney/js/skip-link-focus-fix.js?ver=20130115" type="text/javascript"></script>
+<script src="https://www.eurosys2020.org/wp-includes/js/wp-embed.min.js?ver=5.1.4" type="text/javascript"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js" type="text/javascript"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.js" type="text/javascript"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/locale-all.js" type="text/javascript"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/gcal.js" type="text/javascript"></script>
+<script type="text/javascript">
+	(function() {
+		var calendar = function() {
+			window.$ = window.jQuery;
+			$('#calendar').fullCalendar({
+				height: 'auto',
+				googleCalendarApiKey: 'AIzaSyCNqP_zDBfRbfnDnMnRDaONBdUPIvBgpx8',
+				events: {
+					googleCalendarId: 'f5lc6dfqcridnrktepfd2sml10@group.calendar.google.com'
+				},
+				defaultDate:  202019-03-25',
+				locale: 'en-ie',
+				columnFormat: 'ddd D MMMM',
+				views: {
+					agendaFourDay: {
+						type: 'agenda',
+						duration: { days: 4 }
+					}
+				},
+				defaultView: 'agendaFourDay',
+				header: {
+					left: '',
+					center: '',
+					right: ''
+				},
+				firstDay: 1,
+				allDaySlot: false,
+				minTime:  2008:00',
+				maxTime:  2023:00',
+						eventRender: function (event, element) {
+								if (event.title.search("Coffee|Lunch|Break")!=-1) {
+									element.css('background-color', "#6175A2");
+
+								} else if (event.title.search("Registration|Opening|Closing|Assembly")!=-1) {
+									element.css('background-color', "#bb4a62");
+
+								} else if (event.title.search("Banquet|Poster|Reception|Dinner")!=-1) {
+									element.css('background-color', "#7e3ea7");
+
+								} else if (event.title.search("Workshop")!=-1) {
+									element.css('background-color', "#caa250");
+								} else
+									element.css('background-color', "#6bb046");
+						},
+				eventClick: function(event) {
+					window.location.hash = event.id;
+					return false;
+				}
+			});
+			$('#calendar-list').fullCalendar({
+				height: 1000,
+				googleCalendarApiKey: 'AIzaSyCNqP_zDBfRbfnDnMnRDaONBdUPIvBgpx8',
+				events: {
+					googleCalendarId: 'f5lc6dfqcridnrktepfd2sml10@group.calendar.google.com'
+				},
+				defaultDate:  202019-03-25',
+				locale: 'en-ie',
+				listDayFormat: 'dddd, D MMMM',
+				views: {
+					agendaFourList: {
+						type: 'list',
+						duration: { days: 4 }
+					}
+				},
+				defaultView: 'agendaFourList',
+				header: {
+					left: '',
+					center: '',
+					right: ''
+				},
+				eventRender: function (event, element) {
+					event.url = null;
+					element.removeClass('fc-has-url')
+					element.find('.fc-list-item-time').wrapInner("<h6></h6>");
+					element.find('.fc-list-item-marker').remove();
+
+					element.find('.fc-list-item-title').empty();
+					element.find('.fc-list-item-title').append("<h6 id=\""+event.id+"\">"+event.title+"</h6>");
+
+					if (typeof(event.description) != 'undefined') {
+						element.find('.fc-list-item-title').append("<div>"+event.description+"</div>");
+					}
+				}
+			});
+		}
+
+		calendar();
+	})();
+</script>
+<div class="page-template-default page page-id-75">
+<div class="preloader">
+<div class="spinner">
+<div class="pre-bounce1"></div>
+<div class="pre-bounce2"></div>
+</div>
+</div>
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="header-wrap">
+<div class="container">
+<div class="row">
+<div class="col-md-4 col-sm-8 col-xs-12">
+<a href="https://www.eurosys2020.org/" title="EUROSYS 2020"><img alt="EUROSYS 2020" class="site-logo" src="https://www.eurosys2020.org/wp-content/uploads/2020/02/EuroSys2020_logo.png"/></a>
+</div>
+<div class="col-md-8 col-sm-4 col-xs-12">
+<div class="btn-menu"></div>
+<!-- #site-navigation -->
+</div>
+</div>
+</div>
+</div>
+</header><!-- #masthead -->
+<div class="sydney-hero-area">
+<div class="header-image">
+<img alt="EUROSYS 2020" class="header-inner" src="https://www.eurosys2020.org/wp-content/uploads/2019/06/Picture4.png" title="EUROSYS 2020" width="1695"/>
+</div>
+</div>
+<div class="page-wrap" id="content">
+<div class="container content-wrapper">
+<div class="row">
+<div class="content-area col-md-8" id="primary">
+<main class="post-wrap" id="main" role="main">
+<article class="post-75 page type-page status-publish hentry" id="post-75">
+<header class="entry-header">
+<h1 class="title-post entry-title">Call for Papers</h1> </header><!-- .entry-header -->
+<div class="entry-content">
+<p>The European Conference on Computer Systems (EuroSys) is a premier international forum for presenting computer systems research. EuroSys 2020 seeks papers on all areas of computer systems research, including:</p>
+<ul>
+<li>Cloud computing and datacenter systems</li>
+<li>Operating systems</li>
+<li>Distributed systems</li>
+<li>File and storage systems</li>
+<li>Networked systems</li>
+<li>Language support and runtime systems</li>
+<li>Systems security and privacy</li>
+<li>Dependable systems</li>
+<li>Database systems and data analytics frameworks</li>
+<li>Virtualization and virtualized systems</li>
+<li>Systems for machine learning/machine learning for systems</li>
+<li>Mobile and pervasive systems</li>
+<li>Parallelism, concurrency, and multicore systems</li>
+<li>Real-time, embedded, and cyber-physical systems</li>
+<li>Tracing, analysis, veriﬁcation, and transformation of systems</li>
+</ul>
+<p>We encourage papers that span multiple topics and communities. Papers will be judged on novelty, signiﬁcance, correctness, and clarity. The program committee seeks papers that address a signiﬁcant problem with an interesting and compelling solution whose validity and practicality are clearly demonstrated. A good paper will draw appropriate conclusions, honestly present related prior work, and clearly describe the new aspects of the authors‘ work. We welcome experience papers that clearly articulate lessons learned, as well as papers that refute prior published results.</p>
+<p>Reviewing is double-blind, meaning that the authors‘ identities will be hidden from the reviewers and vice versa. EuroSys applies ACM‘s policies for plagiarism, submission conﬁdentiality, reviewer anonymity, and prior and concurrent paper submission. Papers will be provisionally accepted and ﬁnal acceptance will be subject to shepherding by a member of the program committee.</p>
+<p>Full submission details will appear online on the conference Web site (<a href="http://eurosys2020.org/">http://eurosys2020.org/</a>). In addition to paper presentations, EuroSys 2020 will have a poster session. Submissions for posters will open closer to the conference deadline. Accepted papers will automatically qualify for the poster session, and authors will be strongly encouraged to participate. EuroSys grants awards for the best and best student papers.</p>
+<p>Authors who are unsure whether or not their submissions might meet these guidelines, or with speciﬁc questions about the guidelines, are welcome to contact the program committee co- chairs via <a href="mailto:pc-chairs@eurosys2020.org">pc-chairs@eurosys2020.org</a></p>
+<p>Authors should take note that the official publication date is the date the proceedings are made available in the ACM Digital Library. This date may be up to /two weeks prior/ to the first day of the conference.  The official publication date affects the deadline for any patent filings related to published work.</p>
+<p><strong>Submit your paper <a href="https://www.eurosys2020.org/paper-submission/">here</a>.</strong></p>
+</div><!-- .entry-content -->
+<footer class="entry-footer">
+</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+</main><!-- #main -->
+</div><!-- #primary -->
+<div class="widget-area col-md-4" id="secondary" role="complementary">
+<aside class="widget widget_text" id="text-2"><h3 class="widget-title">Important Dates</h3> <div class="textwidget">
+<table class="tablepress tablepress-id-1" id="tablepress-1">
+<tbody class="row-hover">
+<tr class="row-1 odd">
+<td class="column-1">Full Paper Submission</td><td class="column-2">November 4, 2019</td>
+</tr>
+<tr class="row-2 even">
+<td class="column-1">Notification to Authors</td><td class="column-2">February 15, 2020<br/>
+</td>
+</tr>
+<tr class="row-3 odd">
+<td class="column-1">Camera Ready Deadline</td><td class="column-2"><del datetime="2020-03-17T13:54:25+00:00">March 15, 2020</del> March 31, 2020</td>
+</tr>
+<tr class="row-4 even">
+<td class="column-1">Workshops</td><td class="column-2">April 27, 2020</td>
+</tr>
+<tr class="row-5 odd">
+<td class="column-1">EuroSys 2020</td><td class="column-2">April 27-30, 2020</td>
+</tr>
+</tbody>
+</table>
+<!-- #tablepress-1 from cache -->
+</div>
+</aside><aside class="widget widget_text" id="text-4"><h3 class="widget-title">Sponsors</h3> <div class="textwidget">
+<table class="tablepress tablepress-id-3" id="tablepress-3">
+<tbody>
+<tr class="row-1">
+<td class="column-1"><strong>Platinum sponsors</strong><br/>
+<a href="https://www.vmware.com" rel="noopener" target="_blank"><img alt="VMWare-Logo" class="aligncenter size-full wp-image-1280" src="https://eurosys2019.org/wp-content/uploads/2019/01/VMWare_logo.png" width="385"/></a> <br/>
+<a href="https://www.redhat.com" rel="noopener" target="_blank"><img alt="RedHat" class="aligncenter size-full wp-image-1280" height="117" src="https://www.eurosys2020.org/wp-content/uploads/2020/04/redhat.png" width="362"/></a> <br/>
+<a href="https://www.microsoft.com/en-us/research/" rel="noopener" target="_blank"><img alt="Microsoft" class="aligncenter size-full wp-image-1283" height="74" src="https://eurosys2019.org/wp-content/uploads/2018/11/Microsoft_logo_2012.png" width="390"/></a><br/>
+<strong>Gold sponsors</strong><br/>
+<a href="https://research.fb.com/" rel="noopener" target="_blank"><img alt="Facebook" class="aligncenter size-full wp-image-1283" height="74" src="https://eurosys2019.org/wp-content/uploads/2018/11/facebook.png" width="330"/></a> <br/>
+<strong>Silver sponsors</strong><br/>
+<a href="https://labs.oracle.com" rel="noopener" target="_blank"><img alt="Oracle" class="aligncenter size-full wp-image-1284" src="https://eurosys2019.org/wp-content/uploads/2018/11/Oracle_Logo-1.png" width="220"/></a> <br/>
+<a href="http://www.google.com/" rel="noopener" target="_blank"><img alt="Google" class="aligncenter size-full wp-image-1284" src="https://eurosys2019.org/wp-content/uploads/2018/11/Google_logo.png" width="150"/></a><br/>
+<strong>Other sponsors</strong><br/>
+<a href="https://www.ics.forth.gr/" rel="noopener" target="_blank"><img alt="FORTH-Logo" class="aligncenter size-full wp-image-1280" src="https://www.eurosys2020.org/wp-content/uploads/2019/10/forth-logo-1200x1200.png" width="150"/></a><br/>
+<a href="http://en.uoc.gr/" rel="noopener" target="_blank"><img alt="UOC-Logo" class="aligncenter size-full wp-image-1280" src="https://www.eurosys2020.org/wp-content/uploads/2019/03/UoC_logo_with_text.png" width="150"/></a><br/>
+<a href="https://www.crete.gov.gr/en/" rel="noopener" target="_blank"><img class="aligncenter size-full wp-image-1280" src="https://www.eurosys2020.org/wp-content/uploads/2020/02/region2.png" width="150"/></a><br/>
+<strong>Organization</strong> <br/>
+<a href="http://www.acm.org/" rel="noopener" target="_blank"><img class="aligncenter size-full wp-image-1280" src="https://eurosys2018.org/wp-content/uploads/2018/04/eurosys-acm.png" width="220"/></a><br/>
+<br/>
+<br/>
+<br/>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- #tablepress-3 from cache -->
+</div>
+</aside></div><!-- #secondary -->
+</div>
+</div>
+</div><!-- #content -->
+<a class="go-top"><i class="fa fa-angle-up"></i></a>
+<footer class="site-footer" id="colophon" role="contentinfo">
+<div class="site-info container">
+			Copyright © 2019-2020 EuroSys 2020
+		</div><!-- .site-info -->
+</footer><!-- #colophon -->
+</div><!-- #page -->
+
+
+
+
+
+
+
+
+
+</div><div class="page-template-default page page-id-1135">
+<div class="preloader">
+<div class="spinner">
+<div class="pre-bounce1"></div>
+<div class="pre-bounce2"></div>
+</div>
+</div>
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="header-wrap">
+<div class="container">
+<div class="row">
+<div class="col-md-4 col-sm-8 col-xs-12">
+<a href="https://www.eurosys2020.org/" title="EUROSYS 2020"><img alt="EUROSYS 2020" class="site-logo" src="https://www.eurosys2020.org/wp-content/uploads/2020/02/EuroSys2020_logo.png"/></a>
+</div>
+<div class="col-md-8 col-sm-4 col-xs-12">
+<div class="btn-menu"></div>
+<!-- #site-navigation -->
+</div>
+</div>
+</div>
+</div>
+</header><!-- #masthead -->
+<div class="sydney-hero-area">
+<div class="header-image">
+<img alt="EUROSYS 2020" class="header-inner" src="https://www.eurosys2020.org/wp-content/uploads/2019/06/Picture4.png" title="EUROSYS 2020" width="1695"/>
+</div>
+</div>
+<div class="page-wrap" id="content">
+<div class="container content-wrapper">
+<div class="row">
+<div class="content-area col-md-8" id="primary">
+<main class="post-wrap" id="main" role="main">
+<article class="post-1135 page type-page status-publish hentry" id="post-1135">
+<header class="entry-header">
+<h1 class="title-post entry-title">Program Committee</h1> </header><!-- .entry-header -->
+<div class="entry-content">
+<div class="entry-content">
+<h6><strong>Program Committee Chairs</strong></h6>
+<ul>
+<li>Dejan Kostic, KTH Royal Institute of Technology</li>
+<li>Margo Seltzer, University of British Columbia</li>
+</ul>
+<h6> </h6>
+<h6><strong>Program Committee Members</strong></h6>
+<ul>
+<li>Marc Shapiro, INRIA</li>
+<li>Phillip Stanley-Marbell, University of Cambridge</li>
+<li>Sonia Ben Mokhtar, CNRS Lyon</li>
+<li>Marta Patiño, Technical University of Madrid</li>
+<li>Liuba Shrira, Brandeis University</li>
+<li>Bianca Schroeder, University of Toronto</li>
+<li>Mema Roussopoulos, University of Athens</li>
+<li>Rodrigo Rodrigues, Nova U. of Lisbon</li>
+<li>Charlie Hu, Purdue University</li>
+<li>Tim Harris, Amazon UK</li>
+<li>Jon Crowcroft, University of Cambridge</li>
+<li>Petros Maniatis, Google</li>
+<li>Steve Hand, Google</li>
+<li>Manuel Costa, Microsoft Research Cambridge</li>
+<li>Christos Kozyrakis, Stanford University</li>
+<li>Frank Bellosa, Karlsruhe Institute of Technology</li>
+<li>Fernando Pedone, University of Lugano</li>
+<li>Kim Keeton, Hewlett-Packard</li>
+<li>Carmela Troncoso, EPFL</li>
+<li>Roger Wattenhofer, ETH Zurich</li>
+<li>Dan Tsafrir, Technion</li>
+<li>Bryan Ford, EPFL</li>
+<li>Valerie Issarny, INRIA</li>
+<li>Neeraj Suri, TU Darmstadt</li>
+<li>Ippokratis Pandis, Amazon</li>
+<li>Maurice Herlihy, Brown University</li>
+<li>KyoungSoo Park, KAIST</li>
+<li>Marco Canini, KAUST</li>
+<li>Irene Zhang, Microsoft Research</li>
+<li>Ranjita Bhagwan, Microsoft Research India</li>
+<li>Byung-Gon Chun, Seoul National University</li>
+<li>Yubin Xia, Shanghai Jiao Tong University</li>
+<li>Dilma da Silva, Texas A&amp;M University</li>
+<li>Joseph Gonzalez, UC Berkeley</li>
+<li>Sam H. Noh, UNIST (Ulsan National Institute of Science &amp; Technology)</li>
+<li>Jacob Gorm Hansen, Vertigo.ai</li>
+<li>Wenjun Hu, Yale</li>
+<li>Asaf Cidon, Columbia University</li>
+<li>James Cheney, Edinburgh</li>
+<li>Aleksandar Prokopec, Oracle Labs</li>
+<li>Thomas Pasquier, Bristol University</li>
+<li>Yousra Aafer, University of Waterloo</li>
+<li>Gabriele Mencagli, University of Pisa</li>
+<li>Roberto Natella, Federico II University</li>
+<li>Sergey Blagodurov, AMD</li>
+<li>Mathias Lecuyer, Microsoft Research</li>
+<li>Virendra Marathe, Oracle Labs</li>
+<li>Gala Yadgar, Technion-Israel Institute of Technology</li>
+<li>Huasong Shan, JD.com</li>
+<li>Kiran-Kumar Muniswamy-Reddy, Amazon</li>
+<li>Mark Moir, Oracle Labs</li>
+<li>Cliff Young, Google Brain</li>
+<li>Adem Efe Gencer, LinkedIn</li>
+<li>Marko Vukolic, IBM</li>
+<li>Xin Jin, Johns Hopkins</li>
+<li>Gennady Pekhimenko, University of Toronto</li>
+<li>Ce Zhang, ETH</li>
+<li>Eiko Yoneki, Cambridge</li>
+<li>Matteo Interlandi, Microsoft</li>
+<li>Keval Vora, Simon Fraser University</li>
+</ul>
+</div>
+</div><!-- .entry-content -->
+<footer class="entry-footer">
+</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+</main><!-- #main -->
+</div><!-- #primary -->
+<div class="widget-area col-md-4" id="secondary" role="complementary">
+<aside class="widget widget_text" id="text-2"><h3 class="widget-title">Important Dates</h3> <div class="textwidget">
+<table class="tablepress tablepress-id-1" id="tablepress-1">
+<tbody class="row-hover">
+<tr class="row-1 odd">
+<td class="column-1">Full Paper Submission</td><td class="column-2">November 4, 2019</td>
+</tr>
+<tr class="row-2 even">
+<td class="column-1">Notification to Authors</td><td class="column-2">February 15, 2020<br/>
+</td>
+</tr>
+<tr class="row-3 odd">
+<td class="column-1">Camera Ready Deadline</td><td class="column-2"><del datetime="2020-03-17T13:54:25+00:00">March 15, 2020</del> March 31, 2020</td>
+</tr>
+<tr class="row-4 even">
+<td class="column-1">Workshops</td><td class="column-2">April 27, 2020</td>
+</tr>
+<tr class="row-5 odd">
+<td class="column-1">EuroSys 2020</td><td class="column-2">April 27-30, 2020</td>
+</tr>
+</tbody>
+</table>
+<!-- #tablepress-1 from cache -->
+</div>
+</aside><aside class="widget widget_text" id="text-4"><h3 class="widget-title">Sponsors</h3> <div class="textwidget">
+<table class="tablepress tablepress-id-3" id="tablepress-3">
+<tbody>
+<tr class="row-1">
+<td class="column-1"><strong>Platinum sponsors</strong><br/>
+<a href="https://www.vmware.com" rel="noopener" target="_blank"><img alt="VMWare-Logo" class="aligncenter size-full wp-image-1280" src="https://eurosys2019.org/wp-content/uploads/2019/01/VMWare_logo.png" width="385"/></a> <br/>
+<a href="https://www.redhat.com" rel="noopener" target="_blank"><img alt="RedHat" class="aligncenter size-full wp-image-1280" height="117" src="https://www.eurosys2020.org/wp-content/uploads/2020/04/redhat.png" width="362"/></a> <br/>
+<a href="https://www.microsoft.com/en-us/research/" rel="noopener" target="_blank"><img alt="Microsoft" class="aligncenter size-full wp-image-1283" height="74" src="https://eurosys2019.org/wp-content/uploads/2018/11/Microsoft_logo_2012.png" width="390"/></a><br/>
+<strong>Gold sponsors</strong><br/>
+<a href="https://research.fb.com/" rel="noopener" target="_blank"><img alt="Facebook" class="aligncenter size-full wp-image-1283" height="74" src="https://eurosys2019.org/wp-content/uploads/2018/11/facebook.png" width="330"/></a> <br/>
+<strong>Silver sponsors</strong><br/>
+<a href="https://labs.oracle.com" rel="noopener" target="_blank"><img alt="Oracle" class="aligncenter size-full wp-image-1284" src="https://eurosys2019.org/wp-content/uploads/2018/11/Oracle_Logo-1.png" width="220"/></a> <br/>
+<a href="http://www.google.com/" rel="noopener" target="_blank"><img alt="Google" class="aligncenter size-full wp-image-1284" src="https://eurosys2019.org/wp-content/uploads/2018/11/Google_logo.png" width="150"/></a><br/>
+<strong>Other sponsors</strong><br/>
+<a href="https://www.ics.forth.gr/" rel="noopener" target="_blank"><img alt="FORTH-Logo" class="aligncenter size-full wp-image-1280" src="https://www.eurosys2020.org/wp-content/uploads/2019/10/forth-logo-1200x1200.png" width="150"/></a><br/>
+<a href="http://en.uoc.gr/" rel="noopener" target="_blank"><img alt="UOC-Logo" class="aligncenter size-full wp-image-1280" src="https://www.eurosys2020.org/wp-content/uploads/2019/03/UoC_logo_with_text.png" width="150"/></a><br/>
+<a href="https://www.crete.gov.gr/en/" rel="noopener" target="_blank"><img class="aligncenter size-full wp-image-1280" src="https://www.eurosys2020.org/wp-content/uploads/2020/02/region2.png" width="150"/></a><br/>
+<strong>Organization</strong> <br/>
+<a href="http://www.acm.org/" rel="noopener" target="_blank"><img class="aligncenter size-full wp-image-1280" src="https://eurosys2018.org/wp-content/uploads/2018/04/eurosys-acm.png" width="220"/></a><br/>
+<br/>
+<br/>
+<br/>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- #tablepress-3 from cache -->
+</div>
+</aside></div><!-- #secondary -->
+</div>
+</div>
+</div><!-- #content -->
+<a class="go-top"><i class="fa fa-angle-up"></i></a>
+<footer class="site-footer" id="colophon" role="contentinfo">
+<div class="site-info container">
+			Copyright © 2019-2020 EuroSys 2020
+		</div><!-- .site-info -->
+</footer><!-- #colophon -->
+</div><!-- #page -->
+
+
+
+
+
+
+
+
+
+</div></body>
+</html>

@@ -1,0 +1,421 @@
+{
+    "id": 0,
+    "content": "CMSC 22001: Software Construction",
+    "children": [
+        {
+            "id": 1,
+            "content": "",
+            "isList": true,
+            "key": 1,
+            "children": [
+                {
+                    "id": 2,
+                    "content": "",
+                    "isList": true,
+                    "key": 1,
+                    "children": [
+                      {
+                        "id": 3,
+                        "content": "CMSC 22001:",
+                        "key": 1,
+                        "children": [
+                          {
+                            "id": 4,
+                            "content": "Software Construction",
+                            "key": 1
+                          }
+                        ]
+                      },
+                      {
+                        "id": 5,
+                        "content": "University of Chicago Computer Science Department Fall 2019",
+                        "key": 2
+                      }
+                    ]
+                },
+              {
+                "id": 6,
+                "content": "",
+                "key": 2,
+                "children": [
+                  {
+                    "id": 7,
+                    "content": "Basic Information       Announcement       Overview       Readings       Project       Exam       Grading       Mailing List       Schedule",
+                    "key": 1
+                  },
+                  {
+                    "id": 8,
+                    "content": "Basic Information",
+                    "key": 2,
+                    "children": [
+                      {
+                        "id": 9,
+                        "content": "When",
+                        "key": 1
+                      },
+                      {
+                        "id": 10,
+                        "content": "9:30--10:50pm Tu/Th",
+                        "key": 2
+                      },
+                      {
+                        "id": 11,
+                        "content": "Where",
+                        "key": 3
+                      },
+                      {
+                        "id": 12,
+                        "content": "Ryerson 251",
+                        "key": 4
+                      }
+                    ]
+                  },
+                  {
+                    "id": 13,
+                    "content": "Instructor:",
+                    "key": 3,
+                    "children": [
+                      {
+                        "id": 14,
+                        "content": "Professor Shan Lu (shanlu@uch...); Crerar 343; office hour: Tu/Th 10:50--11:50am.",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 15,
+                    "content": "TA:",
+                    "key": 4,
+                    "children": [
+                      {
+                        "id": 16,
+                        "content": "Yuxi Chen (chenyuxi@uch...) office hour: Fr 4--6pm @ CSIL 5 (Linux Lab).        Chi Li (lichi@uch...) office hour: Tu 3--5pm @ CSIL1(Mac Lab).",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 17,
+                    "content": "Announcement",
+                    "key": 5,
+                    "children": [
+                      {
+                        "id": 18,
+                        "content": "12/04 4:00pm Project milestone 5 due.",
+                        "key": 1
+                      },
+                      {
+                        "id": 19,
+                        "content": "12/09 11:59pm Project milestone 6 due.",
+                        "key": 2
+                      },
+                      {
+                        "id": 20,
+                        "content": "12/10 10:30 -- 12:30 Final exam @ Ryerson 251.",
+                        "key": 3
+                      },
+                      {
+                        "id": 21,
+                        "content": "Stats, Notes, Useful Info.",
+                        "key": 4
+                      },
+                      {
+                        "id": 22,
+                        "content": "Stats:",
+                        "key": 5,
+                        "children": [
+                          {
+                            "id": 23,
+                            "content": "Midterm, median 90.75, average 88.75; Quiz 1, median 9.75, average 9.1; Quiz 2, median 9, average 8.1; Quiz 3, median 7, average 7.1.",
+                            "key": 1
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": 24,
+                    "content": "Overview",
+                    "key": 6,
+                    "children": [
+                      {
+                        "id": 25,
+                        "content": "Welcome to Software Construction! In this course, we will study a number of interesting topics including software processes, requirement engineering, software architecture and component design, software testing, debugging, and software maintenance.",
+                        "key": 1
+                      },
+                      {
+                        "id": 26,
+                        "content": "This course assumes familiarity with basic programming skills and data structures. Some background in object-oriented programming (e.g., C++ or Java) is not required, but would be good to have. You will need to program in a 8 people team.",
+                        "key": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": 27,
+                    "content": "Schedule",
+                    "key": 7,
+                    "children": [
+                      {
+                        "id": 28,
+                        "content": "This is a tentative schedule.",
+                        "key": 1
+                      },
+                      {
+                        "id": 29,
+                        "content": "#### 10/01",
+                        "key": 2
+                      },
+                      {
+                        "id": 30,
+                        "content": "Introduction, Software Processes [notes] ,10/03,Agile, Extreme Programming [notes]",
+                        "key": 3
+                      },
+                      {
+                        "id": 31,
+                        "content": "#### 10/08",
+                        "key": 4
+                      },
+                      {
+                        "id": 32,
+                        "content": "Project Discussion, Requirement Engineering & System Modeling I [notes] ,10/10,Architectural Design [notes]",
+                        "key": 5
+                      },
+                      {
+                        "id": 33,
+                        "content": "#### 10/15",
+                        "key": 6
+                      },
+                      {
+                        "id": 34,
+                        "content": "System Modeling II [notes][video 1, 2, 3,4, 5] ,10/17,System Modeling III [notes] [video] [video clips embedded in notes slides: 1, 2]",
+                        "key": 7
+                      },
+                      {
+                        "id": 35,
+                        "content": "#### 10/22",
+                        "key": 8
+                      },
+                      {
+                        "id": 36,
+                        "content": "Testing 1 [notes] ,10/24,Testing 2 [notes]",
+                        "key": 9
+                      },
+                      {
+                        "id": 37,
+                        "content": "#### 10/29",
+                        "key": 10
+                      },
+                      {
+                        "id": 38,
+                        "content": "Midterm ,10/31,Code Smell [notes]",
+                        "key": 11
+                      },
+                      {
+                        "id": 39,
+                        "content": "#### 11/05",
+                        "key": 12
+                      },
+                      {
+                        "id": 40,
+                        "content": "Refactoring [notes] (Quiz1) ,11/07,Software Maintenance and Design Patterns I (Observer) [notes ]",
+                        "key": 13
+                      },
+                      {
+                        "id": 41,
+                        "content": "#### 11/12",
+                        "key": 14
+                      },
+                      {
+                        "id": 42,
+                        "content": "Design Patterns II (Composite, Interpreter) [notes ] (Quiz2) ,11/14,Design Patterns III (Strategy, Template, Visitor) [notes ]",
+                        "key": 15
+                      },
+                      {
+                        "id": 43,
+                        "content": "#### 11/19",
+                        "key": 16
+                      },
+                      {
+                        "id": 44,
+                        "content": "Design Patterns IV (Factory, Abstract Factory) [notes] (Quiz3) ,11/21,Parallel Software Construction [notes ]",
+                        "key": 17
+                      },
+                      {
+                        "id": 45,
+                        "content": "#### 11/26",
+                        "key": 18
+                      },
+                      {
+                        "id": 46,
+                        "content": "No Class (Happy Thanksgiving)!,11/28,No Class (Happy Thanksgiving)!",
+                        "key": 19
+                      },
+                      {
+                        "id": 47,
+                        "content": "#### 12/03",
+                        "key": 20
+                      },
+                      {
+                        "id": 48,
+                        "content": "Project Presentation ,12/05,No Class (Reading Period)",
+                        "key": 21
+                      }
+                    ]
+                  },
+                  {
+                    "id": 49,
+                    "content": "Materials",
+                    "key": 8,
+                    "children": [
+                      {
+                        "id": 50,
+                        "content": "There is no required textbook for this course.",
+                        "key": 1
+                      },
+                      {
+                        "id": 51,
+                        "content": "We recommend the following books for your reference:",
+                        "key": 2
+                      },
+                      {
+                        "id": 52,
+                        "content": "Software Engineering:",
+                        "key": 3,
+                        "children": [
+                          {
+                            "id": 53,
+                            "content": "A Practitioner's Approach (8th edition) Roger Pressman and Bruce Maxim.       ISBN-10:0078022126       McGraw-Hill",
+                            "key": 1
+                          }
+                        ]
+                      },
+                      {
+                        "id": 54,
+                        "content": "Software Engineering Ian Sommerville.       ISBN-10:0137035152       Addison Wesley",
+                        "key": 4
+                      },
+                      {
+                        "id": 55,
+                        "content": "UML Distilled:",
+                        "key": 5,
+                        "children": [
+                          {
+                            "id": 56,
+                            "content": "A Brief Guide to the Standard Object Modeling Language (3rd Edition) Martin Fowler and Kendall Scott.       ISBN-10:0321193687       Addison Wesley",
+                            "key": 1
+                          }
+                        ]
+                      },
+                      {
+                        "id": 57,
+                        "content": "Design Patterns:",
+                        "key": 6,
+                        "children": [
+                          {
+                            "id": 58,
+                            "content": "Elements of Reusable Object-Oriented Software Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.       ISBN-10:0201633612       Addison Wesley",
+                            "key": 1
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": 59,
+                    "content": "Projects",
+                    "key": 9,
+                    "children": [
+                      {
+                        "id": 60,
+                        "content": "This is a tentative version.",
+                        "key": 1
+                      },
+                      {
+                        "id": 61,
+                        "content": "You will do a warm-up project in a group of two with the due day on 10/14. More information about this warm-up project will be posted before the second lecture of the class.",
+                        "key": 2
+                      },
+                      {
+                        "id": 62,
+                        "content": "You will propose a project and develop it following the process learned in the class with your teammates.       Your project will go through the following milestones, with every milestone being graded.       More details will be announced later.",
+                        "key": 3
+                      },
+                      {
+                        "id": 63,
+                        "content": "Milestone 1 (10/17): proposing a project, with requirement details and user stories written down (group of 2--3 people);        Milestone 2 (10/31): requirement validation and project planning, with development team and plans set up (group of 8 people);        Milestone 3 (11/06, 11/13): 1st development iteration, with unit test cases to show progress (group of 8 people);        Milestone 4 (11/20, 11/27): 2nd development iteration, with unit test cases to show progress (group of 8 people);        Milestone 5 (12/04): system testing and documentation (group of 8 people);        Milestone 6 (12/09): acceptance testing (groups testing each other's projects).",
+                        "key": 4
+                      }
+                    ]
+                  },
+                  {
+                    "id": 64,
+                    "content": "Exam",
+                    "key": 10,
+                    "children": [
+                      {
+                        "id": 65,
+                        "content": "There will be an in-lecture mid-term exam and a final exam.",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 66,
+                    "content": "Grading",
+                    "key": 11,
+                    "children": [
+                      {
+                        "id": 67,
+                        "content": "This is a tentative scheme.",
+                        "key": 1
+                      },
+                      {
+                        "id": 68,
+                        "content": "Warm-Up Project,8%",
+                        "key": 2
+                      },
+                      {
+                        "id": 69,
+                        "content": "Project,41%",
+                        "key": 3
+                      },
+                      {
+                        "id": 70,
+                        "content": "Quizzes,6%",
+                        "key": 4
+                      },
+                      {
+                        "id": 71,
+                        "content": "Mid-Term exam,20%",
+                        "key": 5
+                      },
+                      {
+                        "id": 72,
+                        "content": "Final exam,25%",
+                        "key": 6
+                      }
+                    ]
+                  },
+                  {
+                    "id": 73,
+                    "content": "Mailing List",
+                    "key": 12,
+                    "children": [
+                      {
+                        "id": 74,
+                        "content": "We will use Piazza.",
+                        "key": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+        },
+      {
+        "id": 75,
+        "content": "Your browser does not support JavaScript!",
+        "key": 2
+      }
+    ]
+}

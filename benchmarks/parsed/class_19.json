@@ -1,0 +1,418 @@
+{
+    "id": 0,
+    "content": "CS 468/568. HCI 2: Inclusive Design. Fall 2019",
+    "children": [
+        {
+            "id": 1,
+            "content": "CS 468/568 HCI 2: Inclusive Design: Fall 2019",
+            "key": 1,
+            "children": [
+                {
+                  "id": 2,
+                  "content": "Instructor:",
+                  "key": 1,
+                  "children": [
+                    {
+                      "id": 3,
+                      "content": "Dr. Burnett   My Office: KEC 3051   E - Mail: mylastname @ eecs ...   TA : Doshna Umma Reddy. Email: ummaredd@oregonstate.edu Dr. Burnett's Office Hours will be listed on my home page   In addition, the TA's Office Hours are: 10:00 - 10:50 Monday and Wed, KEC Atrium   Class location : Furman 202",
+                      "key": 1
+                    }
+                  ]
+                },
+                {
+                    "id": 4,
+                    "content": "Course Description",
+                    "key": 2,
+                    "children": [
+                        {
+                            "id": 5,
+                            "content": "Inclusive design has a strong business case: designing software that works for more customers than before has a wider potential market. The challenge is to find ways to design inclusively without having to have a separate design for each differently abled customer.",
+                            "key": 1
+                        },
+                        {
+                            "id": 6,
+                            "content": "One intellectual tool that can help with this is personas. Personas' use in HCI and User Experience jobs/fields is widespread in industry, so these skills should be useful from both HCI research and practice. Personas are also a cornerstone in some companies' software requirements and design processes, so these skills should also be useful to students heading for Software Engineering careers.",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "content": "Course objectives",
+                    "key": 3,
+                    "children": [
+                        {
+                            "id": 8,
+                            "content": "At its heart, this is an HCI methods course, focusing on inclusive design and all aspects of Persona creating, use, and dissemination. The goals are that by the end of this course, you will be able to:",
+                            "key": 1
+                        },
+                        {
+                            "id": 9,
+                            "content": "",
+                            "isList": true,
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 10,
+                                    "content": "CS468/568: Describe inclusive design.",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 11,
+                                    "content": "CS468: Identify problems with a design's inclusiveness. CS568: Analyze a design's inclusiveness.",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 12,
+                                    "content": "CS468/568: Describe the persona lifecycle.",
+                                    "key": 3
+                                },
+                                {
+                                    "id": 13,
+                                    "content": "CS468/568: Apply each phase of the persona lifecycle to the creation of your own persona.",
+                                    "key": 4
+                                },
+                                {
+                                    "id": 14,
+                                    "content": "CS468/568: Use personas to design an inclusive user interface.",
+                                    "key": 5
+                                },
+                                {
+                                    "id": 15,
+                                    "content": "CS468: Describe inclusiveness evaluation methods. CS568: Evaluate the inclusiveness of a design using an inclusiveness evaluation method.",
+                                    "key": 6
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 16,
+                    "content": "Course content",
+                    "isList": true,
+                    "key": 4,
+                    "children": [
+                        {
+                            "id": 17,
+                            "content": "Populations for inclusive design",
+                            "key": 1
+                        },
+                        {
+                            "id": 18,
+                            "content": "Methods for inclusive design",
+                            "key": 2
+                        },
+                        {
+                            "id": 19,
+                            "content": "Methods for analyzing and evaluating inclusiveness of a design",
+                            "key": 3
+                        },
+                        {
+                            "id": 20,
+                            "content": "Learning about different populations for inclusive designs",
+                            "key": 4
+                        },
+                        {
+                            "id": 21,
+                            "content": "Introduction to personas",
+                            "key": 5
+                        },
+                        {
+                            "id": 22,
+                            "content": "The personas lifecycle",
+                            "key": 6
+                        }
+                    ]
+                },
+                {
+                    "id": 23,
+                    "content": "Readings/assignments schedule",
+                    "key": 5
+                },
+                {
+                    "id": 24,
+                    "content": "Prerequisites",
+                    "key": 6,
+                    "children": [
+                        {
+                            "id": 25,
+                            "content": "This class has as a prequesite having already taken HCI 1. This can be fulfilled by:",
+                            "key": 1
+                        },
+                        {
+                            "id": 26,
+                            "content": "",
+                            "isList": true,
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 27,
+                                    "content": "CS352 (on-campus every Winter, e-campus every term), or",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 28,
+                                    "content": "CS565 (on-campus every Spring), or",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 29,
+                                    "content": "equivalent courses at other universities.",
+                                    "key": 3
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 30,
+                    "content": "How the course will be conducted, method of instruction",
+                    "key": 7,
+                    "children": [
+                        {
+                            "id": 31,
+                            "content": "You'll do a persona-based inclusive design project, with a team. I'm anticipating little or no programming in this course. There will be some lectures by me, but probably fewer than half of the classes will be like this. Some of the class will be studio style, with teams critiquing each others' work, and based on team presentations in which the class jointly provides feedback on some aspect of a team's project. In short, it will be highly interactive. Due to the interactive style, class size is limited.",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 32,
+                    "content": "Grading",
+                    "key": 8,
+                    "children": [
+                        {
+                            "id": 33,
+                            "content": "There will be a number of interim assignments, and a final presentation of your project. There will also be a midterm exam (sample). We will not have a final exam, but final project presentations will take place during the scheduled final exam period.",
+                            "key": 1
+                        },
+                        {
+                            "id": 34,
+                            "content": "I have high expectations, and expect performance worthy of advanced students in computer science. Thus, in this class, \"A\" does not mean \"adequate\" or \"nothing wrong\" -- it means \"excellent\". For an A, you should expect to dig deep and get the most you can out of the class.",
+                            "key": 2
+                        },
+                        {
+                            "id": 35,
+                            "content": "Weights:",
+                            "key": 3,
+                            "children": [
+                                {
+                                    "id": 36,
+                                    "content": "",
+                                    "isList": true,
+                                    "key": 1,
+                                    "children": [
+                                      {
+                                        "id": 37,
+                                        "content": "Exam:",
+                                        "key": 1,
+                                        "children": [
+                                          {
+                                            "id": 38,
+                                            "content": "total = 37.5%",
+                                            "key": 1
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": 39,
+                                        "content": "Assignments, presentations, other contributions to class discussions = 25%",
+                                        "key": 2
+                                      },
+                                      {
+                                        "id": 40,
+                                        "content": "Final project = 37.5%",
+                                        "key": 3
+                                      }
+                                    ]
+                                },
+                              {
+                                "id": 41,
+                                "content": "Grades to date:",
+                                "key": 2,
+                                "children": [
+                                  {
+                                    "id": 42,
+                                    "content": "Grades as of 11/12/19.",
+                                    "key": 1
+                                  }
+                                ]
+                              }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 43,
+                    "content": "Textbook",
+                    "key": 9,
+                    "children": [
+                        {
+                            "id": 44,
+                            "content": "",
+                            "isList": true,
+                            "key": 1,
+                            "children": [
+                              {
+                                "id": 45,
+                                "content": "Required:",
+                                "key": 1,
+                                "children": [
+                                  {
+                                    "id": 46,
+                                    "content": "ISBN/SKU 978-0-12-381418-0, Tamara Adlin and John Pruitt, The Essential Persona Lifecycle: Your Guide to Building and Using Personas, 2010, Publisher: Morgan Kaufmann/Elsevier. (Available new or used at the OSU Bookstore. Also at Amazon as a print book, rental or Kindle book, and at the Elsevier Store as a print book or e-book (for desktop or laptop).)",
+                                    "key": 1
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 47,
+                                "content": "Required:",
+                                "key": 2,
+                                "children": [
+                                  {
+                                    "id": 48,
+                                    "content": "Trap Cards Deck. Author: Medlock. Available at OSU Bookstore.",
+                                    "key": 1
+                                  }
+                                ]
+                              }
+                            ]
+                        },
+                        {
+                            "id": 49,
+                            "content": "We will also have selected readings from other sources, but you don't have to buy those.",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 50,
+                    "content": "Other Resources",
+                    "isList": true,
+                    "key": 10,
+                    "children": [
+                        {
+                            "id": 51,
+                            "content": "InclusiveMag diagram enlarged",
+                            "key": 1
+                        },
+                        {
+                            "id": 52,
+                            "content": "Microsoft's vision statement.",
+                            "key": 2
+                        },
+                        {
+                            "id": 53,
+                            "content": "Curb cuts",
+                            "key": 3
+                        },
+                        {
+                            "id": 54,
+                            "content": "Richard Ladner quote",
+                            "key": 4
+                        },
+                        {
+                            "id": 55,
+                            "content": "Some papers about personas",
+                            "key": 5
+                        },
+                        {
+                            "id": 56,
+                            "content": "Photos showing various kinds of color blindness",
+                            "key": 6
+                        },
+                        {
+                            "id": 57,
+                            "content": "CS 468 AND CS 568 Canvas link",
+                            "key": 7
+                        },
+                        {
+                            "id": 58,
+                            "content": "Brief summary of ReadSpeaker and TextAid",
+                            "key": 8
+                        },
+                      {
+                        "id": 59,
+                        "content": "Cute little boy",
+                        "key": 9
+                      },
+                      {
+                        "id": 60,
+                        "content": "Sad little boy",
+                        "key": 10
+                      },
+                      {
+                        "id": 61,
+                        "content": "Very young little boy",
+                        "key": 11
+                      },
+                      {
+                        "id": 62,
+                        "content": "Wicked Witch of the West",
+                        "key": 12
+                      },
+                      {
+                        "id": 63,
+                        "content": "Mockups prototyping tool:",
+                        "key": 13,
+                        "children": [
+                          {
+                            "id": 64,
+                            "content": "How to download for free: CS 468 AND CS 568 Canvas link, Mockups tutorials, Mockups complete documentation (manual), Mockups FAQ, Downloadable Symbols, templates, design patterns",
+                            "key": 1
+                          }
+                        ]
+                      },
+                      {
+                        "id": 65,
+                        "content": "Sample midterm exam.",
+                        "key": 14
+                      },
+                      {
+                        "id": 66,
+                        "content": "Acessibility making a difference:",
+                        "key": 15,
+                        "children": [
+                          {
+                            "id": 67,
+                            "content": "Glasses for color-blind people.",
+                            "key": 1
+                          }
+                        ]
+                      }
+                    ]
+                },
+                {
+                    "id": 68,
+                    "content": "Inclusiveness in this class",
+                    "key": 11,
+                    "children": [
+                        {
+                            "id": 69,
+                            "content": "In this class, all voices are welcome and will be heard. The more different kinds of thinking that are brought to a group, the better the outcomes (this has been shown again and again, both through scientific investigations and business practices). This class is one way to expand your ability to appreciate the value of multiple perspectives and kindly negotiate differences of opinions, as per the OSU Learning Goal for Graduates.",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 70,
+                    "content": "Students with Disabilities",
+                    "key": 12,
+                    "children": [
+                        {
+                            "id": 71,
+                            "content": "Accommodations for students with disabilities are determined and approved by Disability Access Services (DAS). If you, as a student, believe you are eligible for accommodations but have not obtained approval please contact DAS immediately at 541-737-4098 or at http://ds.oregonstate.edu. DAS notifies students and faculty members of approved academic accommodations and coordinates implementation of those accommodations. While not required, students and faculty members are encouraged to discuss details of the implementation of individual accommodations.",
+                            "key": 1
+                        },
+                        {
+                            "id": 72,
+                            "content": "Margaret M. Burnett   Date of last update: Nov. 15, 2019",
+                            "key": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

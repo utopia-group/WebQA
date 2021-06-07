@@ -1,0 +1,1596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Neelakantan R. Krishnaswami</title>
+<style>
+      body{ 
+	  background-color: white;
+          color: black; 
+	  font-family: Helvetica, sans-serif;
+      }
+      h2,h3,h4 { 
+       background-color:rgb(240,240,240); 
+      }
+      div.show { 
+        display:block; 
+        background-color:rgb(240,240,240); 
+        border-style:dashed; 
+        border-width:1px; 
+        padding-left:1ex; 
+        padding-right:1ex 
+      }
+      div.hide {
+        display:none
+      }
+      .highlight {
+	background-color:rgb(240,240,240); 
+	border:solid; border-width:2px; 
+	padding-left:0.5ex; padding-right:0.5ex;
+	transition: 200ms;
+      }
+      .highlight:hover {
+	background-color:rgb(220,220,220); 
+	transition: 200ms;
+      }
+      div.root { 
+	display: flex;
+	flex-direction: column;
+      }
+	
+      div.bibtex { 
+	font-family: monospace;
+	white-space: pre-wrap;
+	width: inherit;
+      }
+
+      div.columns { 
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+      }
+
+      div.info { 
+	flex-direction: column;
+	flex-grow: 16;
+        flex-shrink: 0;
+	flex-basis: 16em;
+	margin-right: 20px;
+      }
+
+      div.main { 
+	flex-direction: column;
+        flex-shrink: 0;
+	flex-grow: 40;
+	flex-basis: 40em;
+      }
+
+      span.email { 
+        font-family: monospace;
+      }
+
+      a { 
+       color: #0000AA;
+      }
+
+      a:visited { 
+       color: #0066cc;
+      }
+
+      a:hover { 
+       background-color:rgb(240,240,240);
+       transition: 200ms;
+      }
+
+
+.tabset > input[type="radio"] {
+  display: none;
+}
+
+.tabset .tab-panel {
+  display: none;
+}
+
+.tabset > input:nth-child(1):checked  ~ .tab-panels > .tab-panel:nth-child(1),
+.tabset > input:nth-child(3):checked  ~ .tab-panels > .tab-panel:nth-child(2),
+.tabset > input:nth-child(5):checked  ~ .tab-panels > .tab-panel:nth-child(3),
+.tabset > input:nth-child(7):checked  ~ .tab-panels > .tab-panel:nth-child(4),
+.tabset > input:nth-child(9):checked  ~ .tab-panels > .tab-panel:nth-child(5),
+.tabset > input:nth-child(11):checked ~ .tab-panels > .tab-panel:nth-child(6) {
+  display: block;
+}
+
+
+.tabset > label {
+  position: relative;
+  display: inline-block;
+  padding: 15px 15px 25px;
+  border: 1px solid transparent;
+  border-bottom: 0;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.tabset > label::after {
+  content: "";
+  position: absolute;
+  left: 15px;
+  bottom: 10px;
+  width: 22px;
+  height: 4px;
+  background: #000000;
+}
+
+.tabset > label:hover,
+.tabset > input:focus + label {
+  color: #0066cc;
+  background-color: rgb(240,240,240);
+  transition: 200ms;
+}
+
+.tabset > label:hover::after,
+.tabset > input:focus + label::after,
+.tabset > input:checked + label::after {
+  background: #0066cc;
+  transition: 200ms;
+}
+
+      
+.tabset > input:checked + label {
+  color: #0066cc;
+  border-color: #cccccc;
+  border-bottom: 1px solid #ffffff;
+  margin-bottom: -1px;
+}
+
+.tab-panel {
+  padding: 30px 0;
+  border-top: 1px solid #cccccc;
+}
+    </style>
+</head>
+<body>
+<div class="root">
+<div> <h1>Neel Krishnaswami</h1> </div>
+<div><hr/></div>
+<div class="columns">
+<script>
+      function toggle(id) { 
+        var elt = document.getElementById(id);
+        if (elt.className === "hide") {
+          elt.className = "show";
+        } else {
+          elt.className = "hide";
+        }
+      }
+    </script>
+<div class="info">
+<h3>Work</h3>
+<p>I am a lecturer (equivalent to an assistant professor) at
+    the <a href="https://www.cl.cam.ac.uk/">Computer Laboratory</a>,
+    at the <a href="https://www.cam.ac.uk/">University of
+    Cambridge</a>. I am also a fellow of <a href="https://www.trin.cam.ac.uk/">Trinity College</a>. 
+
+    </p><p>My research interests lie at the intersection of program
+    verification; programming language design; and logic, semantics
+    and type theory.
+    </p><h3>Contact</h3>
+<ul>
+<li>Postal: 
+	<p>
+	  Neel Krishnaswami <br/>
+	  University of Cambridge <br/>
+	  Computer Laboratory <br/>
+	  William Gates Building <br/>
+	  15 JJ Thomson Avenue <br/> 
+	  Cambridge CB3 0FD, UK <br/>
+</p>
+</li><li>Office: FS15
+      </li><li>Telephone: +44 122 376 3617
+      </li><li>Email: <a href="mailto:nk480@cl.cam.ac.uk"><span class="email">&lt;nk480@cl.cam.ac.uk&gt;</span></a>
+</li><li>Blog: <a href="https://semantic-domain.blogspot.com"><em>Semantic Domain</em></a>
+</li><li>Github: <a href="https://github.com/neel-krishnaswami"><span class="email">https://github.com/neel-krishnaswami</span></a>
+</li><li>ORCID id: <a href="https://orcid.org/0000-0003-2838-5865"><span class="email">https://orcid.org/0000-0003-2838-5865</span></a>
+</li></ul>
+</div>
+<div class="main">
+<div class="tabset"> <!-- The list of choices -->
+<input checked="" id="papers" name="tabset" type="radio"/>
+<label for="papers">Publications</label>
+<input id="drafts" name="tabset" type="radio"/>
+<label for="drafts">Draft Papers</label>
+<input id="students" name="tabset" type="radio"/>
+<label for="students">Students</label>
+<input id="history" name="tabset" type="radio"/>
+<label for="history">History</label>
+<div class="tab-panels">
+<section class="tab-panel">
+<h3>Conference Papers and Journal Articles</h3>
+<ul>
+<li><p><em><a href="seminaive-datafun.pdf">Seminaïve Evaluation for a Higher-Order Functional Language</a></em>, Michael Arntzenius and Neel Krishnaswami. Accepted for publication at POPL 2020. <b>Won Distinguished Paper Award.</b></p>
+<blockquote>
+<h5>
+<button class="highlight" onclick="toggle('seminaive-datafun')">→ Abstract</button>
+<button class="highlight" onclick="toggle('seminaive-datafun-bibtex')">→ BibTeX</button>
+</h5>
+<div class="hide" id="seminaive-datafun">
+<p>
+		 One of the workhorse techniques for implementing
+		 bottom-up Datalog engines is seminaïve
+		 evaluation. This optimization improves the
+		 performance of Datalog’s most distinctive feature:
+		 recursively defined predicates. These are computed
+		 iteratively, and under a naïve evaluation strategy,
+		 each iteration recomputes all previous
+		 values. Seminaïve evaluation computes a safe
+		 approximation of the difference between
+		 iterations. This can asymptotically improve the
+		 performance of Datalog queries.
+	       </p>
+<p>
+		 Seminaïve evaluation is defined partly as a program
+		 transformation and partly as a modified iteration
+		 strategy, and takes advantage of the first-order
+		 nature of Datalog code. This paper extends the
+		 seminaïve transformation to higher-order programs
+		 written in the Datafun language, which extends
+		 Datalog with features like first-class relations,
+		 higher-order functions, and datatypes like sum types.
+	       </p>
+</div>
+<div class="hide" id="seminaive-datafun-bibtex">
+<div class="bibtex">
+@article{seminaive-datafun,
+  author    = {Michael Arntzenius and
+               Neel Krishnaswami},
+  title     = {Seminaïve Evaluation for a Higher-Order Functional Language},
+  journal   = {{PACMPL}},
+  volume    = {3},
+  number    = {{POPL}},
+  pages     = {9:1--9:28},
+  year      = {2020}
+  note =      {\url{http://www.cl.cam.ac.uk/~nk480/seminaive-datafun.pdf}}
+}
+            </div>
+</div>
+</blockquote>
+</li>
+<li><p><em><a href="parsing.pdf">A Typed, Algebraic Approach to Parsing</a></em>, Neel Krishnaswami and Jeremy Yallop. Draft, accepted for publication at PLDI 2019. <b>Won Distinguished Paper Award.</b></p>
+<blockquote>
+<h5>
+<button class="highlight" onclick="toggle('parsing')">→ Abstract</button>
+<button class="highlight" onclick="toggle('parsing-bibtex')">→ BibTeX</button>
+</h5>
+<div class="hide" id="parsing">
+<p>
+		In this paper, we recall the definition of the
+		context-free expressions (or µ-regular expressions),
+		an algebraic presentation of the context-free
+		languages. Then, we define a core type system for the
+		context-free expressions which gives a compositional
+		criterion for identifying those context-free
+		expressions which can be parsed unambiguously by
+		predictive algorithms in the style of recursive
+		descent or LL(1).</p>
+<p>
+		Next, we show how these typed grammar expressions can
+		be used to derive a parser combinator library which
+		both guarantees linear-time parsing with no
+		backtracking and single-token lookahead, and which
+		respects the natural denotational semantics of
+		context-free expressions. Finally, we show how to
+		exploit the type information to write a staged version
+		of this library, which produces dramatic increases in
+		performance, even outperforming code generated by the
+		standard parser generator tool ocamlyacc.
+	      </p>
+</div>
+<div class="hide" id="parsing-bibtex">
+<div class="bibtex">
+@InProceedings{parsing-pldi19,
+  author = {Neel Krishnaswami and Jeremy Yallop},
+  title  = {A Typed, Algebraic Approach to Parsing},
+  booktitle = {Programming Language Design and Implementation (PLDI)},
+  month =     jun,
+  year =      {2019},
+  note =      {\url{http://www.cl.cam.ac.uk/~nk480/parsing.pdf}}
+}
+            </div>
+</div>
+</blockquote>
+</li>
+<li><p><em><a href="numlin.pdf">NumLin: Linear Types for Linear Algebra</a></em>, Dhruv Makwana and Neel Krishnaswmi. Draft, accepted for publication at ECOOP 2019.</p>
+<blockquote>
+<h5>
+<button class="highlight" onclick="toggle('numlin')">→ Abstract</button>
+<button class="highlight" onclick="toggle('numlin-bibtex')">→ BibTeX</button>
+</h5>
+<div class="hide" id="numlin">
+<p>We present NumLin, a functional programming language
+		designed to express the APIs of low-level linear
+		algebra libraries (such as BLAS/LAPACK) safely and
+		explicitly, through a brief description of its key
+		features and several illustrative examples. We show
+		that NumLin’s type system is sound and that its
+		implementation improves upon naïve implementations of
+		linear algebra programs, almost towards C-levels of
+		performance. Lastly, we contrast it to other recent
+		developments in linear types and show that using
+		linear types and fractional permissions to express the
+		APIs of low-level linear algebra libraries is a simple
+		and effective idea.
+	      </p>
+</div>
+<div class="hide" id="numlin-bibtex">
+<div class="bibtex">
+@InProceedings{numlin-ecoop19,
+  author = {Dhruv Makwana and Neel Krishnaswami},
+  title  = {NumLin: Linear Types for Linear Algebra},
+  booktitle = {European Conference On Programming languages (ECOOP)},
+  month =     jul,
+  year =      {2019},
+  note =      {\url{http://www.cl.cam.ac.uk/~nk480/numlin.pdf}}
+}
+            </div>
+</div>
+</blockquote>
+</li>
+<li><p><em><a href="wasm-pl.pdf">A Program Logic for First-Order Encapsulated WebAssembly</a></em>, Conrad Watt, Petar Maksimov, Neel Krishnaswami, Phillipa Gardner. Draft, accepted for publication at ECOOP 2019.</p>
+<blockquote>
+<h5>
+<button class="highlight" onclick="toggle('wasm')">→ Abstract</button>
+<button class="highlight" onclick="toggle('wasm-bibtex')">→ BibTeX</button>
+</h5>
+<div class="hide" id="wasm">
+<p>We introduce Wasm Logic, a sound program logic for
+	      first-order, encapsulated WebAssembly.</p>
+<p>We design a novel assertion syntax, tailored to
+	      WebAssembly's stack-based semantics and the strong
+	      guarantees given by WebAssembly's type system, and show
+	      how to adapt the standard separation logic triple and
+	      proof rules in a principled way to capture WebAssembly's
+	      uncommon structured control flow. Using Wasm Logic, we
+	      specify and verify a simple WebAssembly B-tree library,
+	      giving abstract specifications independent of the
+	      underlying implementation.</p>
+<p>We mechanise Wasm Logic and its soundness proof in
+	      full in Isabelle/HOL. As part of the soundness proof, we
+	      formalise and fully mechanise a novel, big-step
+	      semantics of WebAssembly, which we prove equivalent, up
+	      to transitive closure, to the original WebAssembly
+	      small-step semantics.</p>
+</div>
+<div class="hide" id="wasm-bibtex">
+<div class="bibtex">
+@InProceedings{wasm-ecoop19,
+  author = {Conrad Watt and Petar Maksimov and Neel Krishnaswami and Phillipa Gardner},
+  title  = {A Program Logic for First-Order Encapsulated WebAssembly},
+  booktitle = {European Conference On Programming languages  (ECOOP)},
+  month =     jul,
+  year =      {2019},
+  note =      {\url{http://www.cl.cam.ac.uk/~nk480/wasm-pl.pdf}}
+}
+            </div>
+</div>
+</blockquote>
+</li>
+<li><p><em><a href="sail-submitted.pdf">ISA Semantics for ARMv8-A, RISC-V, and CHERI-MIPS</a></em>, Alasdair Armstrong, Thomas Bauereiss, Brian Campbell, Alastair Reid, Kathryn E. Gray, Robert M. Norton, Prashanth Mundkur, Mark Wassell, Jon French, Christopher Pulte, Shaked Flur, Ian Stark, Neel Krishnaswami, Peter Sewell. Accepted for publication at POPL 2019.
+	</p><blockquote>
+<h5>
+<button class="highlight" onclick="toggle('sail')">→ Abstract</button>
+<button class="highlight" onclick="toggle('sail-bibtex')">→ BibTeX</button>
+</h5>
+<div class="hide" id="sail">
+<p>
+		Architecture specifications notionally define the
+		fundamental interface between hardware and software:
+		the envelope of allowed behaviour for processor
+		implementations, and the basic assumptions for
+		software development and verification. But in
+		practice, they are typically prose and pseudocode
+		documents, not rigorous or executable artifacts,
+		leaving software and verification on shaky ground.
+	      </p>
+<p>
+		In this paper, we present rigorous semantic models for
+		the sequential behaviour of large parts of the
+		mainstream ARMv8-A, RISC-V, and MIPS architectures,
+		and the research CHERI-MIPS architecture, that are
+		complete enough to boot operating systems, variously
+		Linux, FreeBSD, or seL4. Our ARMv8-A models are
+		automatically translated from authoritative
+		ARM-internal definitions, and (in one variant) tested
+		against the ARM Architecture Validation Suite.
+	      </p>
+<p>
+		We do this using a custom language for ISA semantics,
+		Sail, with a lightweight dependent type system, that
+		supports automatic generation of emulator code in C
+		and OCaml, and automatic generation of proof-assistant
+		definitions for Isabelle, HOL4, and (currently only
+		for MIPS) Coq. We use the former for validation, and
+		to assess specification coverage. To demonstrate the
+		usability of the latter, we prove (in Isabelle)
+		correctness of a purely functional characterisation of
+		ARMv8-A address translation. We moreover integrate the
+		RISC-V model into the RMEM tool for (user-mode)
+		relaxed-memory concurrency exploration. We prove (on
+		paper) the soundness of the core Sail type system.
+	      </p>
+<p>
+		We thereby take a big step towards making the
+		architectural abstraction actually well-defined,
+		establishing foundations for verification and
+		reasoning.
+	      </p>
+</div>
+<div class="hide" id="sail-bibtex">
+<div class="bibtex">
+@inproceedings{sail-popl2019,
+  author = {Alasdair Armstrong and Thomas Bauereiss and Brian Campbell and Alastair Reid and Kathryn E. Gray and Robert M. Norton and Prashanth Mundkur and Mark Wassell and Jon French and Christopher Pulte and Shaked Flur and Ian Stark and Neel Krishnaswami and Peter Sewell},
+  title = {{ISA} Semantics for {ARMv8-A, RISC-V, and CHERI-MIPS}},
+  optcrossref = {},
+  optkey = {},
+  conf = {POPL 2019},
+  booktitle = {\textbf{POPL 2019}: Proc. 46th ACM SIGPLAN Symposium on Principles of Programming Languages},
+  optbooktitle = {},
+  year = {2019},
+  opteditor = {},
+  optvolume = {},
+  optnumber = {},
+  optseries = {},
+  optpages = {},
+  month = jan,
+  optaddress = {},
+  optorganization = {},
+  optpublisher = {},
+  note = {Proc. ACM Program. Lang. 3, POPL, Article 71},
+  optnote = {},
+  optannote = {},
+  doi = {10.1145/3290384}
+            </div>
+</div>
+</blockquote>
+</li>
+<li><p><em><a href="gadt.pdf">Sound
+      and Complete Bidirectional Typechecking for Higher-Rank
+      Polymorphism and Indexed Types</a></em>, J. Dunfield and Neelakantan R. Krishnaswami. Accepted for publication at POPL 2019. 
+	</p><blockquote>
+<p>A <a href="gadt-techreport.pdf">technical report with complete proofs</a> is also available. 
+            </p><h5>
+<button class="highlight" onclick="toggle('gadt')">→ Abstract</button>
+<button class="highlight" onclick="toggle('gadt-bibtex')">→ BibTeX</button>
+</h5>
+<div class="hide" id="gadt">
+<p>
+		Bidirectional typechecking, in which terms either
+		synthesize a type or are checked against a known type,
+		has become popular for its scalability, its error
+		reporting, and its ease of implementation.  Following
+		principles from proof theory, bidirectional typing can
+		be applied to many type constructs.
+
+		The principles underlying a bidirectional approach to
+		indexed types (<em>generalized algebraic
+		datatypes</em>) are less clear.  Building on
+		proof-theoretic treatments of equality, we give a
+		declarative specification of typing based
+		on <em>focalization</em>.  This approach permits
+		declarative rules for coverage of pattern matching, as
+		well as support for first-class existential types
+		using a focalized subtyping judgment.
+
+		We use refinement types to avoid explicitly passing
+		equality proofs in our term syntax, making our
+		calculus close to languages such as Haskell and
+		OCaml. An explicit rule deduces when a type is
+		principal, leading to reliable substitution principles
+		for a rich type system with significant type
+		inference.</p>
+<p>We also give a set of algorithmic typing rules, and
+		  prove that it is sound and complete with respect to
+		  the declarative system.  The proof requires a number
+		  of technical innovations, including proving
+		  soundness and completeness in a mutually-recursive
+		  fashion.</p>
+</div>
+<div class="hide" id="gadt-bibtex">
+<div class="bibtex">
+@InProceedings{gadt-popl19,
+  author = {J. Dunfield and Neel Krishnaswami},
+  title  = {Sound and Complete Bidirectional Typechecking for Higher-Rank Polymorphism and Indexed Types},
+  booktitle = {Principles of Programming Languages (POPL)},
+  month =     jan,
+  year =      {2019},
+  note =      {\url{http://www.cl.cam.ac.uk/~nk480/gadt.pdf}}
+}
+            </div>
+</div>
+</blockquote>
+</li><li><p><em><a href="datafun.pdf">Datafun: a Functional Datalog</a></em>, Michael Arntzenius and Neelakantan R. Krishnaswami. Accepted for publication at ICFP 2016. 
+	</p><blockquote>
+<h5>
+<button class="highlight" onclick="toggle('datafun')">→ Abstract</button>
+<button class="highlight" onclick="toggle('datafun-bibtex')">→ BibTeX</button>
+</h5>
+<div class="hide" id="datafun">
+<p>  Datalog may be considered either an unusually powerful query language or a
+		carefully limited logic programming language. It has been applied successfully
+		in a wide variety of problem domains thanks to its "sweet spot" combination
+		of expressivity, optimizability, and declarativeness. However, most use-cases
+		require extending Datalog in an application-specific manner. In this paper we
+		define Datafun, an analogue of Datalog supporting higher-order functional
+		programming. The key idea is to <em>track monotonicity via types</em>.
+	      </p>
+</div>
+<div class="hide" id="datafun-bibtex">
+<div class="bibtex">
+	      @inproceedings{datafun,
+	       author = {Arntzenius, Michael and Krishnaswami, Neelakantan R.},
+	       title = {Datafun: A Functional Datalog},
+	       booktitle = {Proceedings of the 21st ACM SIGPLAN International Conference on Functional Programming},
+	       series = {ICFP 2016},
+	       year = {2016},
+	       isbn = {978-1-4503-4219-3},
+	       location = {Nara, Japan},
+	       pages = {214--227},
+	       numpages = {14},
+	       url = {https://doi.acm.org/10.1145/2951913.2951948},
+	       doi = {10.1145/2951913.2951948},
+	       acmid = {2951948},
+	       publisher = {ACM},
+	       address = {New York, NY, USA},
+	       keywords = {Datalog, Prolog, adjoint logic, denotational semantics, domain-specific languages, functional programming, logic programming, operational semantics, type theory},
+	      }
+            </div>
+</div>
+</blockquote>
+</li><li><p><em><a href="https://www.mpi-sws.org/~dreyer/papers/mtac/journal.pdf">Mtac: A Monad for Typed Tactic Programming in Coq</a></em>, Beta Ziliani, Derek Dreyer, Neelakantan R. Krishnaswami, Aleksandar Nanevski, Viktor Vafeiadis. To appear in the Journal of Functional Programming.
+	</p><blockquote>
+<p>A <a href="https://plv.mpi-sws.org/mtac">website with Coq source and tutorial</a> is available.
+            </p><h5>
+<button class="highlight" onclick="toggle('mtac-journal')">→ Abstract</button>
+<button class="highlight" onclick="toggle('mtac-journal-bibtex')">→ BibTeX</button>
+</h5>
+<div class="hide" id="mtac-journal">
+<p>Effective support for custom proof automation is
+	      essential for large-scale interactive proof development.
+	      However, existing languages for automation via <em>tactics</em>
+	      either (a) provide no way to specify the behavior of
+	      tactics within the base logic of the accompanying
+	      theorem prover, or (b) rely on advanced type-theoretic
+	      machinery that is not easily integrated into established
+	      theorem provers.
+	      </p>
+<p>We present Mtac, a lightweight but powerful extension to Coq that
+	      supports dependently-typed tactic programming.  Mtac tactics have
+	      access to all the features of ordinary Coq programming, as well as a
+	      new set of typed tactical primitives.  We avoid the need to touch the
+	      trusted kernel typechecker of Coq by encapsulating uses of these new
+	      tactical primitives in a <em>monad</em>, and instrumenting Coq so that it
+	      executes monadic tactics during type inference.
+	      </p>
+</div>
+<div class="hide" id="mtac-journal-bibtex">
+<div class="bibtex">
+	      @article{mtac-journal,
+  	      	title = "Mtac: A monad for typed tactic programming in Coq",
+  	      	doi = "10.1017/Spring 200956796815000118",
+  	      	publisher = "Cambridge University Press",
+  	      	address = "Cambridge, UK",
+  	      	author = "Beta Ziliani and Derek Dreyer and Neelakantan R. Krishnaswami and Aleksandar Nanevski and Viktor Vafeiadis",
+  	      	volume = "25",
+  	      	year = "2015",
+  	      	month = "001",
+  	      	day = "001",
+  	      	url = "https://www.cambridge.org/core/article/mtac-a-monad-for-typed-tactic-programming-in-coq/75B49F20037D8A0F718EAB21C662ABA0",
+  	      	journal = "Journal of Functional Programming"
+	      }
+	    </div>
+</div>
+</blockquote>
+</li><li><p><em><a href="dlnl-paper.pdf">Integrating Linear and Dependent Types</a></em>, Neelakantan R. Krishnaswami, Pierre Pradic, Nick Benton. Accepted for publication at POPL 2015.
+	  The <a href="dlnl.pdf">technical report with proofs</a> is also available.</p>
+<blockquote>
+<h5>
+<button class="highlight" onclick="toggle('dependent-lnl')">→ Abstract</button>
+<button class="highlight" onclick="toggle('dlnl-bibtex')">→ BibTeX</button></h5>
+<div class="hide" id="dependent-lnl">
+<p>In this paper, we show how to integrate linear types with
+		type dependency, by extending the linear/non-linear
+		calculus of Benton to support type dependency.
+	      </p>
+<p>Next, we give an application of this calculus by giving a
+		proof-theoretic account of imperative programming, which requires
+		extending the calculus with computationally irrelevant
+		quantification, proof irrelevance, and a monad of computations.  We
+		show the soundness of our theory by giving a realizability model in
+		the style of Nuprl, which permits us to validate not only the
+		β-laws for each type, but also the η-laws.
+	      </p>
+<p>These extensions permit us to decompose Hoare triples into
+		a collection of simpler type-theoretic connectives,
+		yielding a rich equational theory for dependently-typed
+		higher-order imperative programs. Furthermore, both the
+		type theory and its model are relatively simple, even when
+		all of the extensions are considered.
+	      </p>
+</div>
+<div class="hide" id="dlnl-bibtex">
+<div class="bibtex">
+              @InProceedings{dlnl15,
+                author =    {Neelakantan R. Krishnaswami and Pierre Pradic and Nick Benton},
+                title =     {Integrating Linear and Dependent Types},
+                booktitle = {Principles of Programming Languages (POPL)},
+                month =     jan,
+                year =      {2015},
+                note =      {\url{http://www.cs.bham.ac.uk/~krishnan/dlnl-paper.pdf}}
+              }
+            </div>
+</div>
+</blockquote>
+</li>
+<li><p><em><a href="lvish-popl.pdf">Freeze After Writing: Quasi-Deterministic Parallel Programming with LVars and Handlers</a></em>, Lindsey Kuper, Aaron Turon, Neelakantan R. Krishnaswami, Ryan Newton. Accepted for publication at POPL 2014. 
+        </p><blockquote>
+<h5>
+<button class="highlight" onclick="toggle('freeze-after-writing')">→ Abstract</button>
+<button class="highlight" onclick="toggle('lvish-bibtex')">→ BibTeX</button>
+</h5>
+<div class="hide" id="freeze-after-writing">
+<p> Deterministic-by-construction parallel programming
+              models offer programmers the promise of freedom from
+              subtle, hard-to-reproduce nondeterministic bugs in
+              parallel code.  A principled approach to
+              deterministic-by-construction parallel programming with
+              shared state is offered by <em>LVars</em>: shared memory
+              locations whose semantics are defined in terms of a
+              user-specified lattice.  Writes to an LVar take the
+              least upper bound of the old and new values with respect
+              to the lattice, while reads from an LVar can observe
+              only that its contents have crossed a specified
+              threshold in the lattice.  Although it guarantees
+              determinism, this interface is quite limited.
+            </p>
+<p> We extend LVars in two ways.  First, we add the
+              ability to "freeze" and then read the contents of an
+              LVar directly.  Second, we add the ability to attach
+              callback functions to an LVar, allowing events to be
+              triggered by writes to it.  Together, callbacks and
+              freezing enable an expressive and useful style of
+              parallel programming.  We prove that in a language where
+              communication takes place through freezable LVars,
+              programs are at worst quasi-deterministic: on every run,
+              they either produce the same answer or raise an error.
+              We demonstrate the viability of our approach by
+              implementing a library for Haskell supporting a variety
+              of LVar-based data structures, together with two case
+              studies that illustrate the programming model and yield
+              promising parallel speedup.
+            </p>
+</div>
+<div class="hide" id="lvish-bibtex">
+<div class="bibtex">
+              @InProceedings{kuper14lvish,
+                author =    {Lindsey Kuper and Aaron Turon and Neelakantan R. Krishnaswami and Ryan Newton},
+                title =     {Freeze After Writing: Quasi-Deterministic Parallel Programming with LVars and Handlers},
+                booktitle = {Principles of Programming Languages (POPL)},
+                month =     jan,
+                year =      {2014},
+                note =      {\url{https://www.cs.indiana.edu/~lkuper/papers/lvish-popl14.pdf}}
+              }
+            </div>
+</div>
+</blockquote>
+</li><li><p><em><a href="bidir.pdf">Complete and Easy Bidirectional Typechecking for Higher-Rank Polymorphism</a></em>, J. Dunfield and Neelakantan R. Krishnaswami. Accepted for publication at ICFP 2013. A <a href="bidir-proofs.pdf">companion tech report with detailed proofs</a> is also available. 
+
+        </p><blockquote>
+<p><a href="http://research.cs.queensu.ca/~joshuad/">J. Dunfield</a> has a <a href="http://research.cs.queensu.ca/~joshuad/papers/bidir/">web page for the paper</a>, too.
+
+          </p><h5> <button class="highlight" onclick="toggle('bidir-abstract')">→ Abstract</button>
+<button class="highlight" onclick="toggle('bidir-bibtex')">→ BibTeX</button>
+</h5>
+<div class="hide" id="bidir-abstract">
+<p>
+              Bidirectional typechecking, in which terms either
+              synthesize a type or are checked against a known type,
+              has become popular for its scalability (unlike
+              Damas-Milner type inference, bidirectional typing
+              remains decidable even for very expressive type
+              systems), its error reporting, and its relative ease of
+              implementation. Following design principles from proof
+              theory, bidirectional typing can be applied to many type
+              constructs. The principles underlying a bidirectional
+              approach to polymorphism, however, are less obvious. We
+              give a declarative, bidirectional account of higher-rank
+              polymorphism, grounded in proof theory; this calculus
+              enjoys many properties such as η-reduction and
+              predictability of annotations. We give an algorithm for
+              implementing the declarative system; our algorithm is
+              remarkably simple and well-behaved, despite being both
+              sound and complete.
+            </p>
+</div>
+<div class="hide" id="bidir-bibtex">
+<div class="bibtex">
+              @InProceedings{Dunfield13:bidir,
+                author =    {J. Dunfield and Neelakantan R. Krishnaswami},
+                title =     {Complete and Easy Bidirectional Typechecking for Higher-Rank Polymorphism},
+                booktitle = {International Conference on Functional Programming (ICFP)},
+                month =     sep,
+                year =      {2013},
+                note =      {\url{arXiv:1306.6032 [cs.PL]}}
+              }
+            </div>
+</div>
+</blockquote>
+</li><li><p><em><a href="simple-frp.pdf">Higher-Order Reactive Programming without Spacetime Leaks</a></em>, Neelakantan R. Krishnaswami. Accepted for publication at ICFP 2013. The <a href="simple-frp-techreport.pdf">companion tech report with the soundness proof</a> is also available.</p>
+<blockquote>
+<p>Download the source for <a href="adjs-0.1.tgz">the AdjS programming language</a> implementing the theory!
+            
+          </p><h5><button class="highlight" onclick="toggle('simple-frp-abstract')">→ Abstract</button>
+<button class="highlight" onclick="toggle('simple-frp-bibtex')">→ BibTeX</button>
+</h5>
+<div class="hide" id="simple-frp-abstract">
+<p>Functional reactive programming (FRP) is an elegant
+              approach to declaratively specify reactive
+              systems. However, the powerful abstractions of FRP have
+              historically made it difficult to predict and control
+              the resource usage of programs written in this
+              style.</p>
+<p>In this paper, we give a new language for higher-order
+              reactive programming. This language generalizes and
+              simplifies prior type systems for reactive programming,
+              supporting the use of first-class streams, such as
+              streams of streams; first-class functions and
+              higher-order operations; and permits encoding many
+              temporal operations beyond streams, such as terminatable
+              streams, events, and even resumptions with first-class
+              schedulers. Furthermore, our language supports an
+              efficient implementation strategy permitting us to
+              eagerly deallocate old values and statically rule out
+              <em>spacetime leaks</em>, a notorious source of
+              inefficiency in reactive programs. Furthermore, these
+              memory guarantees are achieved <em>without</em> the use
+              of a complex substructural type discipline.</p>
+<p>We also show that our implementation strategy of eager
+              deallocation is safe, by showing the soundness of our
+              type system with a novel step-indexed Kripke logical
+              relation.</p>
+</div>
+<div class="hide" id="simple-frp-bibtex">
+<div class="bibtex">
+              @InProceedings{Krishnaswami13:simple-frp,
+                author =    {Neelakantan R. Krishnaswami},
+                title =     {Higher-Order Reactive Programming without Spacetime Leaks},
+                booktitle = {International Conference on Functional Programming (ICFP)},
+                month =     sep,
+                year =      {2013},
+              }
+            </div>
+</div>
+</blockquote>
+</li><li><p><em><a href="mtac.pdf">Mtac: A Monad for Typed Tactic Programming in Coq </a></em>, Beta Ziliani, Derek Dreyer, Neelakantan R. Krishnaswami, Aleksandar Nanevski, Viktor Vafeiadis. Accepted for publication at ICFP 2013. 
+
+        </p><blockquote>
+<p>See <a href="https://www.mpi-sws.org/~beta/mtac/">the Mtac homepage</a> for more details, including software!</p>
+<h5> <button class="highlight" onclick="toggle('mtac-abstract')">→ Abstract</button>
+<button class="highlight" onclick="toggle('mtac-bibtex')">→ BibTeX</button>
+</h5>
+<div class="hide" id="mtac-abstract">
+<p>
+              Effective support for custom proof automation is
+              essential for large-scale interactive proof development.
+              However, existing languages for automation via
+              <em>tactics</em> either (a) provide no way to specify the
+              behavior of tactics statically within the logic of the
+              theorem prover or (b) rely on advanced type-theoretic
+              machinery that is not easily integrated into established
+              theorem provers.</p>
+<p>We present <em>Mtac</em>, a lightweight but powerful
+              extension to Coq for supporting dependently-typed tactic
+              programming.  Mtac tactics have access to all the
+              features of ordinary Coq programming, as well as a new
+              set of typed tactical primitives.  We avoid the need to
+              touch the trusted kernel typechecker of Coq by
+              encapsulating uses of the new tactical primitives in a
+              <em>monad</em>, and instrumenting Coq so that it
+              executes monadic tactics during type inference.
+            </p>
+</div>
+<div class="hide" id="mtac-bibtex">
+<div class="bibtex">
+              @InProceedings{Ziliani13:mtac,
+                author =    {Beta Ziliani, Derek Dreyer, Neelakantan R. Krishnaswami, Aleksandar Nanevski, Viktor Vafeiadis},
+                title =     {Mtac: A Monad for Typed Tactic Programming in Coq},
+                booktitle = {International Conference on Functional Programming (ICFP)},
+                month =     sep,
+                year =      {2013},
+              }
+            </div>
+</div>
+</blockquote>
+</li><li><p><a href="final-csl-internalizing-parametricity.pdf"><em>Internalizing Relational Parametricity in the Extensional Calculus of Constructions</em></a>, Neelakantan R. Krishnaswami, Derek Dreyer. Accepted for publication at CSL 2013. The <a href="appendix-for-internalizing-parametricity.pdf">tech report with expanded proofs</a> is also be available.</p>
+<blockquote>
+<h5> <button class="highlight" onclick="toggle('relpar-abstract')">→ Abstract</button>
+<button class="highlight" onclick="toggle('relpar-bibtex')">→ BibTeX</button>
+</h5>
+<div class="hide" id="relpar-abstract">
+            We give the first relationally parametric model of the
+            extensional calculus of constructions.  Our model remains
+            as simple as traditional PER models of types, but unlike
+            them, it additionally permits the relating of terms that
+            implement abstract types in different ways.  Using our
+            model, we can validate the soundness of quotient types, as
+            well as derive strong equality axioms for Church-encoded
+            data, such as the usual induction principles for Church
+            naturals and booleans, and the eta law for strong
+            dependent pair types.  Furthermore, we show that such
+            equivalences, justified by relationally parametric
+            reasoning, may soundly be internalized (i.e. added as
+            equality axioms to our type theory).  Thus, we demonstrate
+            that it is possible to interpret equality in a
+            dependently-typed setting using parametricity.  The key
+            idea behind our approach is to interpret types as
+            so-called <em>quasi-PERs</em> (or <em>zigzag-complete
+            relations</em>), which enable us to model the symmetry and
+            transitivity of equality while at the same time allowing
+            for different representations of abstract types.
+          </div>
+<div class="hide" id="relpar-bibtex">
+<div class="bibtex">
+              @InProceedings{KrishnaswamiDreyer13:relpar,
+                author =    {Neelakantan R. Krishnaswami, Derek Dreyer},
+                title =     {Internalizing Relational Parametricity in the Extensional Calculus of Constructions},
+                booktitle = {Computer Science Logic (CSL)},
+                month =     sep,
+                year =      {2013},
+              }
+            </div>
+</div>
+</blockquote>
+</li><li><p><em><a href="icfp12-superficial-krishnaswami-turon-dreyer-garg.pdf">Superficially Substructural Types</a></em>, Neelakantan R. Krishnaswami, Aaron Turon, Derek Dreyer, Deepak Garg. Accepted for publication at ICFP 2012. The <a href="icfp12-appendix.pdf">extended tech report</a> is also available.</p>
+<blockquote>
+<h5>
+<button class="highlight" onclick="toggle('icfp12')">→ Abstract</button>
+<button class="highlight" onclick="toggle('icfp12-bibtex')">→ BibTeX</button>
+</h5>
+<div class="hide" id="icfp12">
+<p>Many substructural type systems have been proposed for
+              controlling access to shared state in higher-order
+              languages.  Central to these systems is the notion of a
+              <em>resource</em>, which may be split into disjoint
+              pieces that different parts of a program can manipulate
+              independently without worrying about interfering with
+              one another.  Some systems support a <em>logical</em>
+              notion of resource (such as permissions), under which
+              two resources may be considered disjoint even if they
+              govern the <em>same</em> piece of state.  However, in
+              nearly all existing systems, the notions of resource and
+              disjointness are fixed at the outset, baked into the
+              model of the language, and fairly coarse-grained in the
+              kinds of sharing they enable.</p>
+<p>In this paper, inspired by recent work on "fictional
+              disjointness" in separation logic, we propose a simple
+              and flexible way of enabling any module in a program to
+              create its own custom type of splittable resource
+              (represented as a commutative monoid), thus providing
+              fine-grained control over how the module's private state
+              is shared with its clients.  This functionality can be
+              incorporated into an otherwise standard substructural
+              type system by means of a new typing rule we call
+              <em>the sharing rule</em>, whose soundness we prove
+              semantically via a novel resource-oriented Kripke
+              logical relation.
+            </p>
+</div>
+<div class="hide" id="icfp12-bibtex">
+<div class="bibtex">
+	      @inproceedings{krishnaswami-turon-dreyer-garg:superficial,
+	        title = {Superficially Substructural Types},
+	        author = {Neelakantan R. Krishnaswami and Aaron Turon and Derek Dreyer and Deepak Garg},
+	       	booktitle = {Proceedings of the 17th annual ACM SIGPLAN-SIGACT International Conference on Functional Programming},
+	       	series = {ICFP  2012},
+	        year  = {2012},
+	        month = {September},
+	        day   = {10-12},
+	        location = {Copenhagen, Denmark},
+	       	publisher = {ACM},
+	       	address = {New York, NY, USA},
+	       	keywords = {linear logic, aliasing, separation logic, sharing, step-indexing, logical relations},
+	      }
+	    </div>
+</div>
+</blockquote>
+</li>
+<li><p><em><a href="esop12.pdf">Adding Equations to System F Types</a></em>, Neelakantan R. Krishnaswami, Nick Benton. Appeared at ESOP 2012.</p>
+<blockquote>
+<h5>
+<button class="highlight" onclick="toggle('esop12-abstract')">→ Abstract</button>
+<button class="highlight" onclick="toggle('esop12-bibtex')">→ BibTeX</button>
+</h5>
+<div class="hide" id="esop12-abstract">
+<p>We present an extension of System F with types for
+	      term-level equations. This internalization of the rich
+	      equational theory of the polymorphic lambda calculus
+	      yields an expressive core language, suitable for
+	      formalizing features such as Haskell's rewriting rules
+	      mechanism or Extended ML signatures.</p>
+</div>
+<div class="hide" id="esop12-bibtex">
+<div class="bibtex">
+	      @inproceedings{krishnaswami-benton:feqn,
+	        title = {Adding Equations to System F Types},
+	        author = {Neelakantan R. Krishnaswami and Nick Benton},
+	        year  = {2012},
+	        month = {March},
+	        day   = {26},
+	        location = {Tallinn, Estonia},
+	        booktitle = {21st European Symposium on Programming (ESOP 2012)},
+	        series = {Lecture Notes in Computer Science},
+	        publisher = {Springer-Verlag}
+	      }
+	    </div>
+</div>
+</blockquote>
+</li>
+<li><p><a href="popl074-krishnaswami.pdf"><em>Higher-Order Functional Reactive Programming in Bounded Space</em></a>, Neelakantan R. Krishnaswami, Nick Benton, Jan Hoffmann. Accepted for publication at POPL 2012.</p>
+<blockquote>
+<h5>
+<button class="highlight" onclick="toggle('popl12-abstract')">→ Abstract</button>
+<button class="highlight" onclick="toggle('popl12-bibtex')">→ BibTeX</button>
+</h5>
+<div class="hide" id="popl12-abstract">
+<p>Functional reactive programming (FRP) is an elegant and
+	      successful approach to programming reactive systems
+	      declaratively. The high levels of abstraction and
+	      expressivity that make FRP attractive as a programming
+	      model do, however, often lead to programs whose resource
+	      usage is excessive and hard to predict.</p>
+<p>In this paper, we address the problem of space leaks in
+	      discrete-time functional reactive programs. We present a
+	      functional reactive programming language that statically
+	      bounds the size of the dataflow graph a reactive program
+	      creates, while still permitting use of higher-order
+	      functions and higher-type streams such as streams of
+	      streams. We achieve this with a novel linear type theory
+	      that both controls allocation and ensures that all
+	      recursive definitions are well-founded.</p>
+<p>We also give a denotational semantics for our language
+	      by combining recent work on metric spaces for the
+	      interpretation of higher-order causal functions with
+	      length-space models of space-bounded computation. The
+	      resulting category is doubly closed and hence forms a
+	      model of the logic of bunched implications.</p>
+</div>
+<div class="hide" id="popl12-bibtex">
+<div class="bibtex">
+	      @inproceedings{krishnaswami-benton-hoffmann:ho-frp,
+	       	author = {Krishnaswami, Neelakantan R. and Benton, Nick and Hoffmann, Jan},
+	       	title = {Higher-order functional reactive programming in bounded space},
+	       	booktitle = {Proceedings of the 39th annual ACM SIGPLAN-SIGACT symposium on Principles of programming languages},
+	       	series = {POPL  2012},
+	       	year = {2012},
+	       	isbn = {978-1-4503-1083-3},
+	       	location = {Philadelphia, PA, USA},
+	       	pages = {45--58},
+	       	numpages = {14},
+	       	url = {https://doi.acm.org/10.1145/2103656.2103665},
+	       	doi = {10.1145/2103656.2103665},
+	       	acmid = {2103665},
+	       	publisher = {ACM},
+	       	address = {New York, NY, USA},
+	       	keywords = {bunched implications, dataflow, functional reactive programming, linear logic, space-bounded computation},
+	      } 
+	    </div>
+</div>
+</blockquote>
+</li>
+<li><p><a href="icfp11-krishnaswami-benton.pdf"><em>A Semantic Model for Graphical User Interfaces</em></a>, Neelakantan R. Krishnaswami, Nick Benton. Appeared in ICFP 2011.</p>
+<blockquote>
+<h5>
+<button class="highlight" onclick="toggle('icfp11-abstract')">→ Abstract</button>
+<button class="highlight" onclick="toggle('icfp11-bibtex')">→ BibTeX</button>
+</h5>
+<div class="hide" id="icfp11-abstract">
+<p>We give a denotational model for graphical user
+	      interface (GUI) programming using the Cartesian closed
+	      category of ultrametric spaces.  The ultrametric
+	      structure enforces causality restrictions on reactive
+	      systems and allows well-founded recursive definitions by
+	      a generalization of guardedness.  We capture the
+	      arbitrariness of user input (e.g., a user gets to
+	      \emph{decide} the stream of clicks she sends to a
+	      program) by making use of the fact that the closed
+	      subsets of an ultrametric space themselves form an
+	      ultrametric space, allowing us to interpret
+	      nondeterminism with a ``powerspace'' monad.</p>
+<p>Algebras for the powerspace monad yield a model of
+	      intuitionistic linear logic, which we exploit in the
+	      definition of a mixed linear/non-linear domain-specific
+	      language for writing GUI programs.  The non-linear part
+	      of the language is used for writing reactive
+	      stream-processing functions whilst the linear
+	      sublanguage naturally captures the generativity and
+	      usage constraints on the various linear objects in GUIs,
+	      such as the elements of a DOM or scene graph.</p>
+<p>We have implemented this DSL as an extension to OCaml,
+	      and give examples demonstrating that programs in this
+	      style can be short and readable.</p>
+</div>
+<div class="hide" id="icfp11-bibtex">
+<div class="bibtex">
+	      @inproceedings{krishnaswami-benton:gui-semantics,
+	       	author = {Krishnaswami, Neelakantan R. and Benton, Nick},
+	       	title = {A semantic model for graphical user interfaces},
+	       	booktitle = {Proceedings of the 16th ACM SIGPLAN international conference on Functional programming},
+	       	series = {ICFP  2011},
+	       	year = {2011},
+	       	isbn = {978-1-4503-0865-6},
+	       	location = {Tokyo, Japan},
+	       	pages = {45--57},
+	       	numpages = {13},
+	       	url = {https://doi.acm.org/10.1145/2034773.2034782},
+	       	doi = {10.1145/2034773.2034782},
+	       	acmid = {2034782},
+	       	publisher = {ACM},
+	       	address = {New York, NY, USA},
+	       	keywords = {denotational semantics, functional reactive programming, guarded recursion, linear logic, ultrametric spaces},
+	      } 
+	    </div>
+</div>
+</blockquote>
+</li>
+<li><p><a href="frp-lics11.pdf"><em>Ultrametric Semantics of Reactive Programs</em></a>, Neelakantan R. Krishnaswami, Nick Benton. Preprint. Appeared in LICS 2011. 
+	</p><p>You can download the <a href="frpcaml-lics11.tgz">source code for the implementation</a> of the language in the paper. You need Ocaml 3.11 or higher, and the <a href="https://lablgtk.forge.ocamlcore.org/">Lablgtk2</a> GUI library.
+	</p><blockquote>
+<h5>
+<button class="highlight" onclick="toggle('lics11-abstract')">→ Abstract</button>
+<button class="highlight" onclick="toggle('lics11-bibtex')">→ BibTeX</button>
+</h5>
+<div class="hide" id="lics11-abstract">
+<p>We describe a denotational model of higher-order
+	      functional reactive programming using ultrametric spaces
+	      and nonexpansive maps, which provide a natural Cartesian
+	      closed generalization of causal stream functions and
+	      guarded recursive definitions. We define a type theory
+	      corresponding to this semantics and show that it
+	      satisfies normalization. Finally, we show how to
+	      efficiently implement reactive programs written in this
+	      language using an imperatively updated dataflow graph,
+	      and give a separation logic proof that this low-level
+	      implementation is correct with respect to the high-level
+	      semantics.
+	    </p>
+</div>
+<div class="hide" id="lics11-bibtex">
+<div class="bibtex">
+	      @inproceedings{krishnaswami-benton:ultrametric-frp,
+	       	author = {Krishnaswami, Neelakantan R. and Benton, Nick},
+	       	title = {Ultrametric Semantics of Reactive Programs},
+	       	booktitle = {Proceedings of the 2011 IEEE 26th Annual Symposium on Logic in Computer Science},
+	       	series = {LICS  2011},
+	       	year = {2011},
+	       	isbn = {978-0-7695-4412-0},
+	       	pages = {257--266},
+	       	numpages = {10},
+	       	url = {https://dx.doi.org/10.1109/LICS.2011.38},
+	       	doi = {10.1109/LICS.2011.38},
+	       	acmid = {2059621},
+	       	publisher = {IEEE Computer Society},
+	       	address = {Washington, DC, USA},
+	      } 
+	    </div>
+</div>
+</blockquote>
+</li>
+<li><p><em><a href="pattern-popl09.pdf">Focusing on Pattern Matching</a></em>, Neelakantan R. Krishnaswami. Appeared in POPL 2009.</p>
+<blockquote>
+<h5>
+<button class="highlight" onclick="toggle('popl09-abstract')">→ Abstract</button>
+<button class="highlight" onclick="toggle('popl09-bibtex')">→ BibTeX</button>
+</h5>
+<div class="hide" id="popl09-abstract">
+<p>In this paper, we show how pattern matching can be seen
+	      to arise from a proof term assignment for the focused
+	      sequent calculus.  This use of the Curry-Howard
+	      correspondence allows us to give a novel coverage
+	      checking algorithm, and makes it possible to give a
+	      rigorous correctness proof for the classical pattern
+	      compilation strategy of building decision trees via
+	      matrices of patterns.
+	    </p>
+</div>
+<div class="hide" id="popl09-bibtex">
+<div class="bibtex">
+	      @inproceedings{krishnaswami:pattern-matching,
+	       	author = {Krishnaswami, Neelakantan R.},
+	       	title = {Focusing on pattern matching},
+	       	booktitle = {Proceedings of the 36th annual ACM SIGPLAN-SIGACT symposium on Principles of programming languages},
+	       	series = {POPL  2009},
+	       	year = {2009},
+	       	isbn = {978-1-60558-379-2},
+	       	location = {Savannah, GA, USA},
+	       	pages = {366--378},
+	       	numpages = {13},
+	       	url = {https://doi.acm.org/10.1145/1480881.1480927},
+	       	doi = {10.1145/1480881.1480927},
+	       	acmid = {1480927},
+	       	publisher = {ACM},
+	       	address = {New York, NY, USA},
+	       	keywords = {curry-howard, focusing, pattern matching, type theory},
+	      } 
+	    </div>
+</div>
+</blockquote>
+</li>
+<li><p><em><a href="permission-based-ownership-pldi05.pdf">Permission-Based Ownership: Encapsulating State in Higher-Order Typed Languages</a></em>, Neel Krishnaswami and Jonathan Aldrich. Appeared in PLDI 2005.
+	</p><blockquote>
+<h5>
+<button class="highlight" onclick="toggle('pldi05-abstract')">→ Abstract</button>
+<button class="highlight" onclick="toggle('pldi05-bibtex')">→ BibTeX</button>
+</h5>
+<div class="hide" id="pldi05-abstract">
+<p>Today's module systems do not effectively support
+	      information hiding in the presence of shared mutable
+	      objects, causing serious problems in the development and
+	      evolution of large software systems. Ownership types
+	      have been proposed as a solution to this problem, but
+	      current systems have ad-hoc access restrictions and are
+	      limited to Java-like languages.  In this paper, we
+	      describe System Fown, an extension of System F with
+	      references and ownership. Our design shows both how
+	      ownership fits into standard type theory and the
+	      encapsulation benefits it can provide in languages with
+	      firstclass functions, abstract data types, and
+	      parametric polymorphism.  By looking at ownership in the
+	      setting of System F, we were able to develop a design
+	      that is more principled and flexible than previous
+	      ownership type systems, while also providing stronger
+	      encapsulation guarantees.
+	    </p>
+</div>
+<div class="hide" id="pldi05-bibtex">
+<div class="bibtex">
+	      @inproceedings{Krishnaswami:2005:POE:1065010.1065023,
+	       	author = {Krishnaswami, Neel and Aldrich, Jonathan},
+	       	title = {Permission-based ownership: encapsulating state in higher-order typed languages},
+	       	booktitle = {Proceedings of the 2005 ACM SIGPLAN conference on Programming language design and implementation},
+	       	series = {PLDI  2005},
+	       	year = {2005},
+	       	isbn = {1-59593-056-6},
+	       	location = {Chicago, IL, USA},
+	       	pages = {96--106},
+	       	numpages = {11},
+	       	url = {https://doi.acm.org/10.1145/1065010.1065023},
+	       	doi = {10.1145/1065010.1065023},
+	       	acmid = {1065023},
+	       	publisher = {ACM},
+	       	address = {New York, NY, USA},
+	       	keywords = {domains, lambda calculus, modularity, ownership types, permissions, state, system f, type theory},
+	      } 
+	    </div>
+</div>
+</blockquote>
+</li>
+<li><p><em><a href="inverse-method-for-bi.pdf">The Inverse Method for the Logic of Bunched Implications</a></em>, Kevin Donnelly, Tyler Gibson, Neel Krishnaswami, Steven Magill and Sungwoo Park. Appeared in LPAR 2004. (<a href="https://www.Springer.de/comp/lncs/index.html">Copyright Springer-Verlag</a>)
+	</p><blockquote>
+<h5>
+<button class="highlight" onclick="toggle('lpar04-abstract')">→ Abstract</button>
+<button class="highlight" onclick="toggle('lpar04-bibtex')">→ BibTeX</button>
+</h5>
+<div class="hide" id="lpar04-abstract">
+<p>The inverse method, due to Maslov, is a forward theorem
+	      proving method for cut-free sequent calculi that relies
+	      on the subformula property.  The Logic of Bunched
+	      Implications (BI), due to Pym and O'Hearn, is a logic
+	      which freely combines the familiar connectives of
+	      intuitionistic logic with multiplicative linear
+	      conjunction and its adjoint implication.  We present the
+	      first formulation of an inverse method for propositional
+	      BI without units. We adapt the sequent calculus for BI
+	      into a forward calculus. The soundness and completeness
+	      of the calculus are proved, and a canonical form for
+	      bunches is given.</p>
+</div>
+<div class="hide" id="lpar04-bibtex">
+<div class="bibtex">
+	      @inproceedings{donnelly-gibson-krishnaswami-magill-park:bi,
+	        author    = {Kevin Donnelly and
+	                     Tyler Gibson and
+	                     Neel Krishnaswami and
+	                     Stephen Magill and
+	                     Sungwoo Park},
+	        title     = {The Inverse Method for the Logic of Bunched Implications},
+	        booktitle = {Logic for Programming, Artificial Intelligence, and Reasoning,
+	                     11th International Conference, LPAR 2004},
+	        year      = {2004},
+	        pages     = {466-480},
+	        url       = {https://dx.doi.org/10.1007/978-3-540-32275-7_31},
+	        series    = {Lecture Notes in Computer Science},
+	        volume    = {3452},
+	        location  = {Montevideo, Uraguay},
+	        publisher = {Springer-Verlag},
+	        keywords  = {bunched implications, inverse method, theorem proving}
+	      }
+	    </div>
+</div>
+</blockquote>
+</li>
+</ul>
+<h3> Workshop Papers</h3>
+<ul>
+<li><p><a href="farm19-music-prefix-trees.pdf"><em>Representing Music with Prefix Trees</em></a>, Yan Han, Nada Amin, Neel Krishnaswami. FARM 2019. 
+	</p><blockquote>
+<h5>
+<button class="highlight" onclick="toggle('farm19-abstract')">→ Abstract</button>
+<button class="highlight" onclick="toggle('farm19-bibtex')">→ BibTeX</button>
+</h5>
+<div class="hide" id="farm19-abstract">
+<p>Tonal music contains repeating or varying patterns that
+	      occur at various scales, exist at multiple locations,
+	      and embody diverse properties of musical notes. We
+	      define a language for representing music that expresses
+	      such patterns as musical transformations applied to
+	      multiple locations in a score. To concisely represent
+	      collections of patterns with shared struc- ture, we
+	      organize them into prefix trees. We demonstrate the
+	      effectiveness of this approach by using it to recreate a
+	      complete piece of tonal music.  </p>
+</div>
+<div class="hide" id="farm19-bibtex">
+<div class="bibtex">
+	      @inproceedings{krishnaswami-birkedal-aldrich:ramified-frames,
+	       	author = {Han, Yan and Amin, Nada and Krishnaswami, Neel},
+	       	title = {Representing Music with Prefix Trees},
+	       	booktitle = {The ACM SIGPLAN International Workshop on Functional Art, Music, Modelling and Design (FARM)},
+	       	series = {FARM  2019},
+	       	year = {2019},
+	       	location = {Berlin, Germany},
+	       	numpages = {12},
+	       	publisher = {ACM},
+	       	address = {New York, NY, USA},
+	       	keywords = {prefix tree, music representation, Haskell},
+	      } 
+	    </div>
+</div>
+</blockquote>
+</li>
+<li><p><a href="ramified-frames-tldi10.pdf"><em>Verifying Event-Driven Programs using Ramified Frame Properties</em></a>, Neelakantan R. Krishnaswami, Jonathan Aldrich, Lars Birkedal. Appeared in TLDI 2010. 
+	</p><blockquote>
+<h5>
+<button class="highlight" onclick="toggle('tldi10-abstract')">→ Abstract</button>
+<button class="highlight" onclick="toggle('tldi10-bibtex')">→ BibTeX</button>
+</h5>
+<div class="hide" id="tldi10-abstract">
+<p> Interactive programs, such as GUIs or spreadsheets,
+	      often maintain dependency information over
+	      dynamically-created networks of objects.  That is, each
+	      imperative object tracks not only the objects its own
+	      invariant depends on, but also all of the objects which
+	      depend upon it, in order to notify them when it changes.</p>
+<p>These bidirectional linkages pose a serious challenge
+	      to verification, because their correctness relies upon a
+	      global invariant over the object graph.</p>
+<p>We show how to <em>modularly</em> verify programs
+	      written using dynamically-generated bidirectional
+	      dependency information. The critical idea is to
+	      distinguish between the footprint of a command, and the
+	      state whose invariants depends upon the footprint. To do
+	      so, we define an application-specific semantics of
+	      updates, and introduce the concept of a <em>ramification
+	      operator</em> to explain how local changes can alter our
+	      knowledge of the rest of the heap.  We illustrate the
+	      applicability of this style of proof with a case study
+	      from functional reactive programming, and formally
+	      justify reasoning about an extremely imperative
+	      implementation as if it were pure.
+	    </p>
+</div>
+<div class="hide" id="tldi10-bibtex">
+<div class="bibtex">
+	      @inproceedings{krishnaswami-birkedal-aldrich:ramified-frames,
+	       	author = {Krishnaswami, Neel R. and Birkedal, Lars and Aldrich, Jonathan},
+	       	title = {Verifying event-driven programs using ramified frame properties},
+	       	booktitle = {Proceedings of the 5th ACM SIGPLAN workshop on Types in language design and implementation},
+	       	series = {TLDI  2010},
+	       	year = {2010},
+	       	isbn = {978-1-60558-891-9},
+	       	location = {Madrid, Spain},
+	       	pages = {63--76},
+	       	numpages = {14},
+	       	url = {https://doi.acm.org/10.1145/1708016.1708025},
+	       	doi = {10.1145/1708016.1708025},
+	       	acmid = {1708025},
+	       	publisher = {ACM},
+	       	address = {New York, NY, USA},
+	       	keywords = {dataflow, frame rule, functional reactive programming, ramification problem, separation logic, subject-observer},
+	      } 
+	    </div>
+</div>
+</blockquote>
+</li>
+<li><p><em><a href="design-patterns-tldi09.pdf">Design Patterns in Separation Logic</a></em>, Neelakantan R. Krishnaswami, Jonathan Aldrich, Lars Birkedal, Kasper Svendsen, Alexandre Buisse. Appeared in TLDI 2009.</p>
+<blockquote>
+<h5>
+<button class="highlight" onclick="toggle('tldi09-abstract')">→ Abstract</button>
+<button class="highlight" onclick="toggle('tldi09-bibtex')">→ BibTeX</button>
+</h5>
+<div class="hide" id="tldi09-abstract">
+<p>
+	      Object-oriented programs are notable for making use of
+	      both higher-order abstractions and mutable, aliased
+	      state. Either feature alone is challenging for formal
+	      verification, and the combination yields very flexible
+	      program designs and correspondingly difficult
+	      verification problems. In this paper, we show how to
+	      formally specify and verify programs that use several
+	      common design patterns in concert.
+	    </p>
+</div>
+<div class="hide" id="tldi09-bibtex">
+<div class="bibtex">
+	      @inproceedings{krishnaswami-aldrich-birkedal-svendsen-buisse:design-patterns,
+	       	author = {Krishnaswami, Neelakantan R. and Aldrich, Jonathan and Birkedal, Lars and Svendsen, Kasper and Buisse, Alexandre},
+	       	title = {Design patterns in separation logic},
+	       	booktitle = {Proceedings of the 4th international workshop on Types in language design and implementation},
+	       	series = {TLDI  2009},
+	       	year = {2009},
+	       	isbn = {978-1-60558-420-1},
+	       	location = {Savannah, GA, USA},
+	       	pages = {105--116},
+	       	numpages = {12},
+	       	url = {https://doi.acm.org/10.1145/1481861.1481874},
+	       	doi = {10.1145/1481861.1481874},
+	       	acmid = {1481874},
+	       	publisher = {ACM},
+	       	address = {New York, NY, USA},
+	       	keywords = {design patterns, separation logic},
+	      } 
+	    </div>
+</div>
+</blockquote>
+</li></ul>
+<h3>Thesis</h3>
+<ul>
+<li>
+<p><a href="thesis.pdf"><em>Verifying Higher-Order Imperative Programs with Higher-Order Separation Logic</em></a>, Neel Krishnaswami. 2011.</p>
+<blockquote>
+<h5>
+<button class="highlight" onclick="toggle('thesis-abstract')">→ Abstract</button>
+<button class="highlight" onclick="toggle('thesis-bibtex')">→ BibTeX</button>
+</h5>
+<div class="hide" id="thesis-abstract">
+<p>In this thesis I show is that it is possible to give modular correctness proofs of
+	      interesting higher-order imperative programs using higher-order separation logic.</p>
+<p>To do this, I develop a model higher-order imperative
+	      programming language, and develop a program logic for
+	      it. I demonstrate the power of my program logic by
+	      verifying a series of examples. This includes both
+	      realistic patterns of higher-order imperative
+	      programming such as the subject-observer pattern, as
+	      well as examples demonstrating the use of higher-order
+	      logic to reason modularly about highly aliased data
+	      structures such as the union-find disjoint set
+	      algorithm.</p>
+</div>
+<div class="hide" id="thesis-bibtex">
+<div class="bibtex">
+	      @phdthesis{phdthesis,
+	      	author       = {Neelakantan R. Krishnaswami}, 
+	      	title        = {Verifying Higher-Order Imperative Programs with Higher-Order Separation Logic},
+	      	school       = {Carnegie Mellon University},
+	      	year         = 2011,
+	      	address      = {Pittsburgh, PA, USA.},
+	      	month        = 7
+	      }
+	    </div>
+</div>
+</blockquote>
+</li>
+</ul>
+</section>
+<section class="tab-panel">
+<h3>Working Drafts</h3>
+<ul>
+<li><p><em><a href="bidir-survey.pdf">Bidirectional Typechecking</a></em>, Joshua Dunfield and Neel Krishnaswami. Draft, submitted for publication August 2019. <a href="https://arxiv.org/abs/1908.05839"><em>Link to ArXiV version</em></a></p>
+<blockquote>
+<h5>
+<button class="highlight" onclick="toggle('bidir-survey')">→ Abstract</button>
+</h5>
+<div class="hide" id="bidir-survey">
+<p>
+		Bidirectional typing combines two modes of typing:
+		type checking, which checks that a program satisfies a
+		known type, and type synthesis, which determines a
+		type from the program. Using checking enables
+		bidirectional typing to break the decidability barrier
+		of Damas-Milner approaches; using synthesis enables
+		bidirectional typing to avoid the large annotation
+		burden of explicitly typed languages. In addition,
+		bidirectional typing improves error locality. We
+		highlight the design principles that underlie
+		bidirectional type systems, survey the development of
+		bidirectional typing from the prehistoric period
+		before Pierce and Turner's local type inference to the
+		present day, and provide guidance for future
+		investigations.  
+	      </p>
+</div>
+</blockquote>
+</li>
+<li><p><em><a href="icfp20-cap-submission.pdf">Recovering Purity with Comonads and Capabilities</a></em>, Vikraman Chaudhury and Neel Krishnaswami. Draft, submitted for publication March 2020.</p>
+<blockquote>
+<h5>
+<button class="highlight" onclick="toggle('comonads-and-capabilities')">→ Abstract</button>
+</h5>
+<div class="hide" id="comonads-and-capabilities">
+<p>
+		In this paper, we take a pervasively effectful (in the style of ML) typed lambda calculus, and show how to
+		extend it to permit capturing pure expressions with types. Our key observation is that, just as the pure simply-
+		typed lambda calculus can be extended to support effects with a monadic type discipline, an impure typed
+		lambda calculus can be extended to support purity with a comonadic type discipline.
+	      </p>
+<p>
+		We establish the correctness of our type system via a simple denotational model, which we call the capa-
+		bility space model. Our model formalizes the intuition common to systems programmers that the ability to
+		perform effects should be controlled via access to a permission or capability, and that a program is capability-
+		safe if it performs no effects that it does not have a runtime capability for. We then identify the axiomatic
+		categorical structure that the capability space model validates, and use these axioms to give a categorical semantics 
+		for our comonadic type system. We then give an equational theory (substitution and the call-by-value
+		β and η laws) for the imperative lambda calculus, and show its soundness relative to this semantics.
+	      </p>
+<p>
+		Finally, we give a translation of the pure simply-typed lambda calculus into our comonadic imperative
+		calculus, and show that any two terms which are βη-equal in the STLC are equal in the equational theory of
+		the comonadic calculus, establishing that pure programs can be mapped in an equation-preserving way into
+		our imperative calculus.
+	      </p>
+</div>
+</blockquote>
+</li>
+</ul>
+<h3>Older Drafts</h3>
+<ul>
+<li><p><em><a href="sail-isabelle.pdf">Mechanised Metatheory for the Sail ISA Specification
+Language</a></em>, Mark Wassell, Alasdair Armstrong, Neel Krishnaswami, Peter Sewell. Draft.</p>
+<blockquote>
+<h5>
+<button class="highlight" onclick="toggle('minisail')">→ Abstract</button>
+</h5>
+<div class="hide" id="minisail">
+<p>
+		Sail is a language for rigorous specification of
+		instruction set architectures (ISAs); it has been used
+		to model various production and research
+		architectures, including ARMv8-A, RISC-V, and
+		CHERI-MIPS, sufficiently completely to boot multiple
+		operating systems. Intended to be engineer friendly,
+		Sail is an imperative first-order language with a
+		light-weight dependent type system; it can generate
+		OCaml and C emulators and Isabelle, HOL4, and Coq
+		definitions. A recent substantial redesign of the Sail
+		type system has been done in conjunction with the
+		development of a core calculus, Mini- Sail, along with
+		paper proofs of type safety.
+	      </p>
+<p>
+		This paper presents further work to mechanise MiniSail
+		in the Isabelle theorem prover, making use of the
+		Nominal2 Isabelle library to address binding
+		structures and alpha-equivalence; it includes the
+		definition of the MiniSail type system and operational
+		semantics and proofs of preservation and progress. We
+		discuss how the mechanisation and paper formalisations
+		relate to each other, including the benefits and
+		pitFalls of each, and comment on how these have
+		influenced and been influenced by the Sail
+		implementation redesign.  We also comment on whether
+		the use of Nominal Isabelle allows us to write proofs
+		of programming language safety that are human readable
+		as well as being machine verified.  This mechanisation
+		should in future provide a platform for the mechanical
+		generation of a verified implementation of a type
+		checker and evaluator for the language.
+	      </p>
+</div>
+</blockquote>
+</li>
+<li><p><em><a href="essence-of-events.pdf">The Essence of Event-Driven Programming</a></em>, Jennifer Paykin, Neelakantan R. Krishnaswami, and Steve Zdancewic. Draft. 
+	</p><blockquote>
+<h5>
+<button class="highlight" onclick="toggle('events')">→ Abstract</button>
+</h5>
+<div class="hide" id="events">
+<p>Event-driven programming is based on a natural abstraction: an event is a computation that
+		can eventually return a value. This paper exploits the intuition relating events and time by
+		drawing a Curry-Howard correspondence between a functional event-driven programming language 
+		and a linear-time temporal logic. In this logic, the eventually proposition ◇A describes
+		the type of events, and Girard’s linear logic describes the effectful and concurrent nature of
+		the programs. The correspondence reveals many interesting insights into the nature of event-
+		driven programming, including a generalization of selective choice for synchronizing events, and
+		an implementation in terms of callbacks where ◇A is just ¬□¬A.
+	      </p>
+</div>
+</blockquote>
+</li>
+<li><p><em><a href="obt.pdf">Curry-Howard for GUIs: Or, User Interfaces via Linear Temporal, Classical Linear Logic</a></em>, Jennifer Paykin, Neel Krishnaswami, Steve Zdancewic. Unpublished draft.</p></li>
+<li><p><em><a href="observer.pdf">Modular Verification of the Subject-Observer Pattern via Higher-Order Separation Logic</a></em>, Neelakantan R. Krishnaswami, Lars Birkedal, and Jonathan Aldrich. Unpublished draft, presented at the FTFJP 2007 workshop.</p></li>
+<li><p><em><a href="ml-sep-logic-space06.pdf">Separation Logic for a Higher-Order Typed Language</a></em>, Neel Krishnaswami. Unpublished draft, presented at SPACE 2006 workshop.</p></li>
+<li><p><em><a href="separation-sequent.pdf">A Modal Sequent Calculus for Propositional Separation Logic</a></em>, Neelakantan R. Krishnaswami. Unpublished draft, presented at IMLA 2008 workshop (Intuitionistic Modal Logic and Applications). <b>Note</b>: the sequent calculus in this paper, while satisfying cut-elimination, is NOT sound with respect to the Kripke semantics of separation logic! The proof in the draft is incorrect. </p></li>
+<li><p><em><a href="idealized-ml-draft.pdf">Idealized ML and Its Separation Logic</a></em>, Neelakantan R. Krishnaswami, Lars Birkedal, Jonathan Aldrich, John C. Reynolds. Submitted for publication to POPL 2007.</p></li>
+</ul>
+</section>
+<section class="tab-panel">
+<h3>Students</h3>
+<h4> PhD Students</h4>
+<ul>
+<li><a href="http://www.rntz.net">Michael Arntzenius (2015-)</a>
+</li><li><a href="https://www.cl.cam.ac.uk/~ds709/">Dima Szamozvancev (2018-)</a> (with <a href="https://www.cl.cam.ac.uk/~mpf23/">Marcelo Fiore</a>)
+	    </li><li><a href="https://www.cl.cam.ac.uk/~ai294/">Andrej Ivašković (2018-)</a> (with <a href="https://www.cl.cam.ac.uk/~am21/">Alan Mycroft</a>)
+	  </li></ul>
+<h4> Master's Students </h4>
+<ul>
+<li><a href="https://github.com/Vtec234">Wojiech Nawrocki (2019-2020)</a>
+</li><li>Cameron Ramsay (2019-2020)
+	    </li><li>Simon P. Spies (2019-2020)
+	    </li><li><a href="https://hmercer.com/">Henry Mercer (2018-19)</a>
+</li><li>Yan Han (2018-19)
+	    </li><li><a href="https://dhruvmakwana.com/">Dhruv Makwana (2017-18)</a>
+</li><li><a href="https://www.cl.cam.ac.uk/~ds709/">Dima Szamozvancev (2017-18)</a>
+</li><li><a href="https://www.ps.uni-saarland.de/~menz/">Jan Christian Menz (2016-17)</a>
+</li></ul>
+</section>
+<section class="tab-panel">
+<h3>Personal History</h3>
+<p>Before coming to Cambridge, I was a Birmingham Fellow at
+	    the <a href="https://www.birmingham.ac.uk/index.aspx">University
+	    of Birmingham</a>, in
+	    the <a href="https://www.cs.bham.ac.uk/research/groupings/theory/">Theory
+	    Group</a>. Before that, I was a postdoc at
+	    the <a href="https://www.mpi-sws.org/">Max Planck
+	    Institute for Software Systems</a>, working
+	    with <a href="https://www.mpi-sws.org/~dreyer/">Derek
+	    Dreyer</a>. Before that, I was a postdoc
+	    at <a href="https://research.microsoft.com">Microsoft
+	    Research</a>, working
+	    with <a href="https://research.fb.com/people/benton-nick/">Nick
+	    Benton</a>, and before that, I was a PhD student under
+	    the supervision
+	    of <a href="https://www.cs.cmu.edu/~jcr">John
+	    C. Reynolds</a>
+	    and <a href="https://www.cs.cmu.edu/~aldrich">Jonathan
+	    Aldrich</a>. </p>
+<h3>Actual History</h3>
+<ul>
+<li><p>Gordon Plotkin, <a href="plotkin-logical-relations.pdf"><em>Lambda-definability and Logical Relations</em></a>,
+		unpublished manuscript, Edinburgh 1973.</p>
+<p>This is where, as far as I know, the phrase "logical relation" originates.</p>
+<p><b>Update</b>: Rick Statman tells me that Mike Gordon coined the phrase logical relation, and that he and Gordon Plotkin picked it up from him.</p>
+</li>
+</ul>
+</section>
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr/>
+<!-- Created: Mon Sep 22 13:20:19 EDT 2003 -->
+<!-- hhmts start -->
+<!-- Last modified: Fri Oct 21 2016 -->
+<!-- hhmts end -->
+<script>
+  // Stop href="#hashtarget" links jumping around the page
+  var hashLinks = document.querySelectorAll("a[href^='#']");
+  [].forEach.call(hashLinks, function (link) {
+    link.addEventListener("click", function (event) {
+      event.preventDefault();
+      history.pushState({}, "", link.href);
+      history.pushState({}, "", link.href);
+      history.back();
+    });
+  });
+  </script>
+</body>
+</html>

@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8"/>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="pandoc" name="generator"/>
+<title>Parallel Data Processing in MapReduce F’17</title>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet"/>
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet"/>
+<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs && document.readyState && document.readyState === "complete") {
+   window.setTimeout(function() {
+      hljs.initHighlighting();
+   }, 0);
+}
+</script>
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<style type="text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 64px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+
+.section h2 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h3 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h4 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h5 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h6 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+</style>
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+<div class="container-fluid main-container">
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+<!-- code folding -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button class="navbar-toggle collapsed" data-target="#navbar" data-toggle="collapse" type="button">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="index.html">PDPMR/F:17</a>
+</div>
+<div class="navbar-collapse collapse" id="navbar">
+<ul class="nav navbar-nav">
+<li>
+<a href="index.html">Home</a>
+</li>
+<li>
+<a href="about.html">Schedule</a>
+</li>
+<li>
+<a href="tasks.html">Tasks</a>
+</li>
+<li>
+<a href="notes.html">Notes</a>
+</li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+</ul>
+</div><!--/.nav-collapse -->
+</div><!--/.container -->
+</div><!--/.navbar -->
+<div class="fluid-row" id="header">
+<h1 class="title toc-ignore">Parallel Data Processing in MapReduce F’17</h1>
+</div>
+<p>Big data is a catchall term for datasets that are resource intensive. This course will introduce student to parallel and distributed processing technologies for analyzing ‘big data’. The course will cover programming paradigms and abstractions for data analysis at scale. Students will gain an understanding of the performance and usability trade-offs of various technologies and paradigms. Students will become familiar with technologies such as Hadoop, Spark, H20 and TensorFlow amongst other. Hands-on assignments will focus on machine learning and data analysis tasks. The class builds on known principles such as the design recipe, testing and code reviews.</p>
+<div class="section level2" id="prereqs">
+<h2>prereqs</h2>
+<p>Students should have taken the Algorithms course, should enjoy programming and strive to write beautiful code.</p>
+</div>
+<div class="section level2" id="staff">
+<h2>staff</h2>
+<p><strong>Instructors:</strong> <em>Jan Vitek</em> and <em>Konrad Siek</em> <strong>Teaching Assistant:</strong> <em>Aviral Goel</em></p>
+<p>Communication with staff is <strong>exclusively</strong> through <a href="https://piazza.com/class/j793b4islbv6nu">Piazza</a>. Use private notes for messages that should not be visible to other students.</p>
+</div>
+<div class="section level2" id="work">
+<h2>work</h2>
+<p>Approximatively fifteen hours a week, with regular codewalks and in-class tests.</p>
+</div>
+<div class="section level2" id="grading">
+<h2>grading</h2>
+<p>The class grade is on 100 points with 33 points for in-class participation (quizzes, questions, paper presentation, note taking), 34 points for the final project (software, report and oral defense) and 33 points for codewalks. The final grade is given on a scale of A=90, A-=85, B+=80, B=75, B-=70, C=65, D=55. Codewalks conducted in class focus on the student’s code output and graded based on code quality.</p>
+</div>
+<div class="section level2" id="authorship">
+<h2>authorship</h2>
+<p>Every code element (file or function) <strong>must</strong> have a note ascribing authorship to an initial author and, possibly, multiple maintainers. Sharing code is allowed. Changing authorship is cheating.</p>
+</div>
+<div class="section level2" id="integrity">
+<h2>integrity</h2>
+<p>Cheating means an F to <strong>all</strong> involved parties, expulsion from the class and notification of ORAF.</p>
+</div>
+<div class="section level2" id="presence">
+<h2>presence</h2>
+<p>There will be few traditional lectures, instead we discuss code, books and papers. Student will answer questions about assigned reading during class. Students should notify the instructor of absences. A scribe will record discussions in a shared document.</p>
+</div>
+<div class="section level2" id="hours">
+<h2>hours</h2>
+<p>Reception hours are held daily M,W,R from 11 am to 12 am. Class is in the <strong>Forsyth Building</strong>, room 129, Tuesday, Friday 3:30 – 5:00.</p>
+</div>
+<div class="section level2" id="regrades">
+<h2>regrades</h2>
+<p>All regrade requests and grade challenges <strong>must</strong> be submitted in writing, private posts on Piazza, no more than <strong>7 days</strong> after the grade was awarded.</p>
+</div>
+<div class="section level2" id="codewalks">
+<h2>codewalks</h2>
+<p>A <em>code review</em> is conducted after each task. Teams review other teams’ work, commenting on code quality, design, documentation and tests. The goal is to produce actionable suggestions for improvements. The output of a review is a report. <em>Code walks</em> are in-class discussions of programming tasks that start from a code review and explore the implementation of a student’s project. Review are emailed in PDF to the instructor and code authors. They comment on the report, code and packaging. The report should give sufficient information to understand what was achieved. It should be clear and complete. The code should be well documents, avoid repetition, have no obvious bugs, have authorship comments. The packaging should make the results easily reproducible. Be curious about the code. Question the results. Don’t waste space in your report on what works well – spend your time on what could be improved. Avoid generalities, be precise, give examples.</p>
+</div>
+<div class="section level2" id="reading">
+<h2>reading</h2>
+<!-- [link](https://github.com/CjTouzi/Learning-RSpark/blob/master/Zaharia%20M.%2C%20et%20al.%20Learning%20Spark%20(O%27Reilly%2C%202015)(274s).pdf) | -->
+<!-- [link](https://www.google.com/#q=http:%2F%2Fwww.iteblog.com%2Fdownloads%2FOReilly.Hadoop.The.Definitive.Guide.4th.Edition.2015.3.pdf) | -->
+<table>
+<colgroup>
+<col width="6%"/>
+<col width="72%"/>
+<col width="21%"/>
+</colgroup>
+<tbody>
+<tr class="odd">
+<td align="left">HTDG</td>
+<td align="left"><em>Hadoop The Definitive Guide</em> 4th Edition, White, <strong>O’Reilly</strong></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">KKWZ</td>
+<td align="left"><em>Learning Spark</em>, Zaharia M., et al., <strong>O’Reilly</strong></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">MR04</td>
+<td align="left"><em>MapReduce: Simplified Data Processing on Large Clusters</em>, Dean, Ghemawat, <strong>OSDI04</strong></td>
+<td align="left"><a href="http://research.google.com/archive/mapreduce-osdi04.pdf">link</a></td>
+</tr>
+<tr class="even">
+<td align="left">FJ10</td>
+<td align="left"><em>FlumeJava: Easy, Efficient Data-Parallel Pipelines</em>, Chambers+, <strong>PLDI’10</strong></td>
+<td align="left"><a href="http://pages.cs.wisc.edu/~akella/CS838/Fall 2012/838-CloudPapers/FlumeJava.pdf">link</a></td>
+</tr>
+<tr class="odd">
+<td align="left">SK12</td>
+<td align="left"><em>Possible Hadoop Trajectories Stonebraker</em>, Kepner, <strong>CACM’12</strong></td>
+<td align="left"><a href="http://cacm.acm.org/blogs/blog-cacm/149074-possible-hadoop-trajectories/fulltext">link</a></td>
+</tr>
+<tr class="even">
+<td align="left">Spring 2014</td>
+<td align="left"><em>Hadoop at a Crossroads?</em> Stonebraker, <strong>CACM’14</strong></td>
+<td align="left"><a href="http://cacm.acm.org/blogs/blog-cacm/177467-hadoop-at-a-crossroads/fulltext">link</a></td>
+</tr>
+<tr class="odd">
+<td align="left">M3R12</td>
+<td align="left"><em>Increased Performance for In-Memory Hadoop Jobs</em>, Shinnar+, <strong>VLDB’12</strong></td>
+<td align="left"><a href="http://vldb.org/pvldb/vol5/p1736_avrahamshinnar_vldb2012.pdf">link</a></td>
+</tr>
+<tr class="even">
+<td align="left">Z+12</td>
+<td align="left"><em>A Fault-Tolerant Abstraction for In-Memory Cluster Comp</em>, Zaharia+, <strong>NSDI’12</strong></td>
+<td align="left"><a href="https://www.usenix.org/system/files/conference/nsdi12/nsdi12-final138.pdf">link</a></td>
+</tr>
+<tr class="odd">
+<td align="left">J+12</td>
+<td align="left"><em>The Performance of MapReduce: An In-depth Study</em>, Jiang+, <strong>VLDB’10</strong></td>
+<td align="left"><a href="http://www.vldb.org/pvldb/vldb2010/papers/E03.pdf">link</a></td>
+</tr>
+<tr class="even">
+<td align="left">MAS11</td>
+<td align="left"><em>Evaluating MapReduce Performance Using Workload Suites</em>, Chen+, <strong>MASCOTS’11</strong></td>
+<td align="left"><a href="http://barbie.uta.edu/~jli/Resources/MapReduce&amp;Hadoop/the%20case%20for%20evaluating%20mapreduce.pdf">link</a></td>
+</tr>
+<tr class="odd">
+<td align="left">OS06</td>
+<td align="left"><em>Bigtable: A Distributed Storage System for Structured Data</em>, Chang+, <strong>OSDI06</strong></td>
+<td align="left"><a href="http://static.googleusercontent.com/media/research.google.com/en/us/archive/bigtable-osdi06.pdf">link</a></td>
+</tr>
+<tr class="even">
+<td align="left">R+12</td>
+<td align="left"><em>Nobody ever got fired for using Hadoop on a cluster</em>, Rowstron+</td>
+<td align="left"><a href="http://research.microsoft.com/pubs/179615/msrtr-2013-2.pdf">link</a></td>
+</tr>
+<tr class="odd">
+<td align="left">A+15</td>
+<td align="left"><em>Spark SQL: Relational Data Processing in Spark</em>, Armburst+, <strong>SIGMOD15</strong></td>
+<td align="left"><a href="https://amplab.cs.berkeley.edu/wp-content/uploads/2015/03/SparkSQLSigmod2015.pdf">link</a></td>
+</tr>
+<tr class="even">
+<td align="left">O+14</td>
+<td align="left"><em>Processing Theta-Joins using MapReduce</em>, Okcan+ <strong>SIGMOD11</strong></td>
+<td align="left"><a href="https://dl.acm.org/citation.cfm?id=1989423">link</a></td>
+</tr>
+<tr class="odd">
+<td align="left">AD15</td>
+<td align="left"><em>Scaling spark in the real world: performance and usability</em>, Armburst+, <strong>VLDB15</strong></td>
+<td align="left"><a href="https://people.csail.mit.edu/matei/papers/2015/vldb_spark.pdf">link</a></td>
+</tr>
+<tr class="even">
+<td align="left">JMM</td>
+<td align="left"><em>The Java Memory Model FAQ</em></td>
+<td align="left"><a href="http://www.cs.umd.edu/~pugh/java/memoryModel/jsr-133-faq.html">link</a></td>
+</tr>
+<tr class="odd">
+<td align="left">B+16</td>
+<td align="left"><em>SystemML: Declarative Machine Learning on Spark</em>, M. Boehm et al., <strong>VLDB16</strong></td>
+<td align="left"><a href="http://www.vldb.org/pvldb/vol9/p1425-boehm.pdf">link</a></td>
+</tr>
+<tr class="even">
+<td align="left">M+16</td>
+<td align="left"><em>dmapply: A functional primitive to express distributed machine learning algorithms in R</em>, Ma et al. <strong>VLDB16</strong></td>
+<td align="left"><a href="http://dl.acm.org/citation.cfm?id=3007268">link</a></td>
+</tr>
+<tr class="odd">
+<td align="left">S+16</td>
+<td align="left"><em>Titian: Data Provenance Support in Spark</em>, Shah et al., <strong>VLDB16</strong></td>
+<td align="left"><a href="http://www.vldb.org/pvldb/vol9/p216-interlandi.pdf">link</a></td>
+</tr>
+<tr class="even">
+<td align="left">O+04</td>
+<td align="left"><em>An Overview of the Scala Programming Language</em>, Odersky et al., <strong>LAMP TR</strong></td>
+<td align="left"><a href="http://lampwww.epfl.ch/~odersky/papers/ScalaOverview.html">link</a></td>
+</tr>
+<tr class="odd">
+<td align="left">A+16</td>
+<td align="left"><em>TensorFlow: A system for large-scale machine learning</em>, Abadi et al., <strong>USENIX16</strong></td>
+<td align="left"><a href="https://research.google.com/pubs/pub45381.html">link</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+<div>
+<style type="text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 64px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+
+.section h2 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h3 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h4 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h5 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h6 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+</style>
+
+<div class="container-fluid main-container">
+<!-- tabsets -->
+
+<!-- code folding -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button class="navbar-toggle collapsed" data-target="#navbar" data-toggle="collapse" type="button">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="index.html">PDPMR/F:17</a>
+</div>
+<div class="navbar-collapse collapse" id="navbar">
+<ul class="nav navbar-nav">
+<li>
+<a href="index.html">Home</a>
+</li>
+<li>
+<a href="about.html">Schedule</a>
+</li>
+<li>
+<a href="tasks.html">Tasks</a>
+</li>
+<li>
+<a href="notes.html">Notes</a>
+</li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+</ul>
+</div><!--/.nav-collapse -->
+</div><!--/.container -->
+</div><!--/.navbar -->
+<div class="fluid-row" id="header">
+<h1 class="title toc-ignore">Tasks</h1>
+</div>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Assignment</th>
+<th align="left">Title</th>
+<th align="left">Release</th>
+<th align="left">Submission Date</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">A0</td>
+<td align="left"><a href="tasks-a0-neighborhood-score.html">Neighborhood Score</a></td>
+<td align="left">9/8/17</td>
+<td align="left">None</td>
+</tr>
+<tr class="even">
+<td align="left">A1</td>
+<td align="left"><a href="tasks-a1-neighborhood-score-benchmarking.html">Neighborhood Score: Benchmarking</a></td>
+<td align="left">9/15/17</td>
+<td align="left">12 Noon, 9/22/17</td>
+</tr>
+<tr class="odd">
+<td align="left">A2</td>
+<td align="left"><a href="tasks-a2-neighborhood-score-map-reduce.html">Neighborhood Score: MapReduce</a></td>
+<td align="left">9/22/17</td>
+<td align="left">12 Noon, 9/29/17</td>
+</tr>
+<tr class="even">
+<td align="left">A3</td>
+<td align="left"><a href="tasks-a3-neighborhood-score-reloaded.html">Neighborhood Score: Reloaded</a></td>
+<td align="left">9/29/17</td>
+<td align="left">12 Noon, 10/06/17</td>
+</tr>
+<tr class="odd">
+<td align="left">A4</td>
+<td align="left"><a href="task-a4-delay.html">On-time performance: Starter kit</a></td>
+<td align="left">10/06/17</td>
+<td align="left">12 Noon, 10/13/17</td>
+</tr>
+<tr class="even">
+<td align="left">A5</td>
+<td align="left"><a href="task-a5-routes.html">On-time performance: Model and Join</a></td>
+<td align="left">10/13/17</td>
+<td align="left">12 Noon, 10/20/17</td>
+</tr>
+<tr class="odd">
+<td align="left">A6</td>
+<td align="left"><a href="task-a6-high-fidelity.html">Spark: High Fidelity</a></td>
+<td align="left">10/20/17</td>
+<td align="left">12 Noon, 10/27/17</td>
+</tr>
+<tr class="even">
+<td align="left">A7</td>
+<td align="left"><a href="task-a7-clustering.html">Spark: Clustering</a></td>
+<td align="left">10/27/17</td>
+<td align="left">12 Noon, 11/03/17</td>
+</tr>
+<tr class="odd">
+<td align="left">A8</td>
+<td align="left"><a href="task-a8-ghost.html">Ghost Protocol</a></td>
+<td align="left">11/04/17</td>
+<td align="left">12 Noon, 11/10/17</td>
+</tr>
+<tr class="even">
+<td align="left">Project</td>
+<td align="left"><a href="project.html">Crystal Discoball</a></td>
+<td align="left">11/04/17</td>
+<td align="left">12 Noon, 12/04/17</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+
+</div></body>
+</html>

@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="ie=edge" http-equiv="x-ua-compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title></title>
+<meta content="" name="description"/>
+<link href="https://fonts.googleapis.com/css?family=Droid+Serif|Montserrat" rel="stylesheet"/>
+<link href="/assets/css/app.css?v=.02" rel="stylesheet"/>
+<link href="/assets/css/main.css?v=.07" rel="stylesheet"/>
+<link href="/assets/css/froala_style.min.css?v=.03" rel="stylesheet"/>
+</head>
+<body>
+<div class="off-canvas position-left" data-off-canvas="" id="offCanvas">
+<!-- Close button -->
+<button aria-label="Close menu" class="close-button" data-close="" type="button">
+<span aria-hidden="true">×</span>
+</button>
+<!-- Menu -->
+<ul class="vertical menu">
+<li><a href="/for-patients">For Patients</a>
+<ul class="nested vertical menu">
+<li><a href="/social-media">Social Media</a></li>
+<li><a href="/truconnect-free-phones">TruConnect Free Phone &amp; Service</a></li>
+<li><a href="/covid_19_information">COVID-19 Information</a></li>
+<li><a href="/health-information">Health Information</a></li>
+</ul>
+</li>
+<li><a href="/providers">Providers</a></li>
+<li><a href="/services">Services</a>
+<ul class="nested vertical menu">
+<li><a href="/Chronic-Care-Management">Chronic Care Management</a></li>
+<li><a href="/diabetes-comprehensive-care-program">Diabetes Comprehensive Care Program</a></li>
+<li><a href="/Mental-Health-and-Substance-Use">Mental Health and Substance Use</a></li>
+<li><a href="/patient-centered-medical-home">PATIENT-CENTERED MEDICAL HOME</a></li>
+</ul>
+</li>
+<li><a href="/locations">Locations</a></li>
+<li><a href="/news-events">News/Events</a>
+<ul class="nested vertical menu">
+<li><a href="/our-events">Upcoming Events</a></li>
+</ul>
+</li>
+<li><a href="/about">About</a>
+<ul class="nested vertical menu">
+<li><a href="/executive-team">Executive Team</a></li>
+<li><a href="/join-our-team">JOIN OUR TEAM</a></li>
+<li><a href="/chairman-message">Board Chairman Message</a></li>
+<li><a href="/contact-us">Contact Us</a></li>
+<li><a href="/affiliates">Our Affiliates</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="off-canvas-content" data-off-canvas-content="">
+<header>
+<div class="row">
+<div class="medium-12 columns">
+<div class="row">
+<div class="medium-3 columns">
+<a href="/"> <img alt="CNHF Logo" class="header-logo" src="/assets/img/CNHF-logo.png"/>
+</a></div>
+<div class="medium-6 columns show-for-medium">
+<span class="header-tagline" style="font-family:Droid Serif, serif; color:#007ead; font-size:22px; margin-top: 33px; display: block;">Dedicated to caring for our community since 1967</span>
+</div>
+<div class="medium-3 columns">
+<button class="button float-right show-for-small-only" data-toggle="offCanvas" type="button">
+                            Menu
+                        </button>
+<div class="header-meta">
+<ul class="menu vertical">
+<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=MGW6TJ58Y8954
+" target="_blank">MAKE A DONATION<img alt="Make A Donation" src="/assets/img/icon-heart.png"/></a></li>
+<li><a href="https://cnhfclinics.imscareportal.com/general" target="_blank">PATIENT
+                                    PORTAL<img alt="Patient Portal" src="/assets/img/icon-pencil.png"/></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<nav class="show-for-medium">
+<div class="row">
+<div class="medium-12 columns">
+<ul class="dropdown menu top-nav-ul" data-dropdown-menu="">
+<li class="is-dropdown-submenu-parent"><a href="/for-patients">For Patients</a>
+<ul class="menu">
+<li><a href="/social-media">Social Media</a></li>
+<li><a href="/truconnect-free-phones">TruConnect Free Phone &amp; Service</a></li>
+<li><a href="/covid_19_information">COVID-19 Information</a></li>
+<li><a href="/health-information">Health Information</a></li>
+</ul>
+</li>
+<li><a href="/providers">Providers</a></li>
+<li class="is-dropdown-submenu-parent"><a href="/services">Services</a>
+<ul class="menu">
+<li><a href="/Chronic-Care-Management">Chronic Care Management</a></li>
+<li><a href="/diabetes-comprehensive-care-program">Diabetes Comprehensive Care Program</a>
+</li>
+<li><a href="/Mental-Health-and-Substance-Use">Mental Health and Substance Use</a></li>
+<li><a href="/patient-centered-medical-home">PATIENT-CENTERED MEDICAL HOME</a></li>
+</ul>
+</li>
+<li><a href="/locations">Locations</a></li>
+<li class="is-dropdown-submenu-parent"><a href="/news-events">News/Events</a>
+<ul class="menu">
+<li><a href="/our-events">Upcoming Events</a></li>
+</ul>
+</li>
+<li class="is-dropdown-submenu-parent"><a href="/about">About</a>
+<ul class="menu">
+<li><a href="/executive-team">Executive Team</a></li>
+<li><a href="/join-our-team">JOIN OUR TEAM</a></li>
+<li><a href="/chairman-message">Board Chairman Message</a></li>
+<li><a href="/contact-us">Contact Us</a></li>
+<li><a href="/affiliates">Our Affiliates</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<section class="page-header">
+<div class="row">
+<div class="medium-12 column">
+<h2 class="page-header-title"></h2>
+</div>
+</div>
+</section>
+<main>
+<div class="row" style="padding-bottom:24px">
+<div class="medium-12 column">
+<div class="doctors">
+<h3>Meet Our Staff</h3>
+<div class="row">
+<div class="small-6 large-4 columns">
+<div class="card"><img alt="Jaime Aglugub, NP" src="/uploads/team/jaime np.jpg"/>
+<div class="card-section"><p class="doctor-name"><a href="providers/team-jaime-aglugub">Jaime
+                                    Aglugub, NP</a></p>
+<p class="doctor-type">Family Medicine</p>
+<p class="doctor-link"><a href="providers/team-jaime-aglugub">VIEW BIO &gt;&gt;</a></p>
+</div>
+</div>
+</div>
+<div class="small-6 large-4 columns">
+<div class="card"><img alt="Fatema Shamim, MD" src="/uploads/team/fatema shamim_0.jpg"/>
+<div class="card-section"><p class="doctor-name"><a href="providers/team-fatema-shamim">Fatema
+                                    Shamim, MD</a></p>
+<p class="doctor-type">Pediatrician</p>
+<p class="doctor-link"><a href="providers/team-fatema-shamim">VIEW BIO &gt;&gt;</a></p>
+</div>
+</div>
+</div>
+<div class="small-6 large-4 columns">
+<div class="card"><img alt="Frederick Thomas, MD" src="/uploads/team/frederick thomas.jpg"/>
+<div class="card-section"><p class="doctor-name"><a href="providers/team-frederick-thomas">Frederick Thomas, MD</a></p>
+<p class="doctor-type">General Medicine</p>
+<p class="doctor-link"><a href="providers/team-frederick-thomas">VIEW BIO &gt;&gt;</a></p>
+</div>
+</div>
+</div>
+<div class="small-6 large-4 columns">
+<div class="card"><img alt="Doris Onuohah, NP" src="/uploads/team/doris onuohah.jpg"/>
+<div class="card-section"><p class="doctor-name"><a href="providers/team-doris-onuohah">Doris
+                                    Onuohah, NP</a></p>
+<p class="doctor-type">Family Medicine</p>
+<p class="doctor-link"><a href="providers/team-doris-onuohah">VIEW BIO &gt;&gt;</a></p>
+</div>
+</div>
+</div>
+<div class="small-6 large-4 columns">
+<div class="card"><img alt="Mehry Gharib, MD" src="/uploads/team/dr gharib.jpg"/>
+<div class="card-section"><p class="doctor-name"><a href="providers/team-mehry-gharib">Mehry
+                                    Gharib, MD</a></p>
+<p class="doctor-type">Pediatrician</p>
+<p class="doctor-link"><a href="providers/team-mehry-gharib">VIEW BIO &gt;&gt;</a></p>
+</div>
+</div>
+</div>
+<div class="small-6 large-4 columns">
+<div class="card"><img alt="Mehrangiz Cadry, MD" src="/uploads/team/mehrangiz cadry_1.jpg"/>
+<div class="card-section"><p class="doctor-name"><a href="providers/team-mehrangiz-cadry">Mehrangiz Cadry, MD</a></p>
+<p class="doctor-type">General Medicine and Pediatrician</p>
+<p class="doctor-link"><a href="providers/team-mehrangiz-cadry">VIEW BIO &gt;&gt;</a></p>
+</div>
+</div>
+</div>
+<div class="small-6 large-4 columns">
+<div class="card"><img alt="Robert Elliott, MD" src="/uploads/team/robert elliott.jpg"/>
+<div class="card-section"><p class="doctor-name"><a href="providers/team-robert-elliott">Robert Elliott, MD</a></p>
+<p class="doctor-type">Pediatrician</p>
+<p class="doctor-link"><a href="providers/team-robert-elliott">VIEW BIO &gt;&gt;</a></p>
+</div>
+</div>
+</div>
+<div class="small-6 large-4 columns">
+<div class="card"><img alt="Abiola Orkeh, NP" src="/uploads/team/abby np_0.jpg"/>
+<div class="card-section"><p class="doctor-name"><a href="providers/team-abiola-orkeh">Abiola
+                                    Orkeh, NP</a></p>
+<p class="doctor-type">Family Medicine</p>
+<p class="doctor-link"><a href="providers/team-abiola-orkeh">VIEW BIO &gt;&gt;</a></p>
+</div>
+</div>
+</div>
+<div class="small-6 large-4 columns">
+<div class="card"><img alt="Frederick Williams, MD" src="/uploads/team/dr williams picture.jpg"/>
+<div class="card-section"><p class="doctor-name"><a href="providers/team-frederick-williams">Frederick Williams, MD</a></p>
+<p class="doctor-type">General Medicine</p>
+<p class="doctor-link"><a href="providers/team-frederick-williams">VIEW BIO &gt;&gt;</a>
+</p></div>
+</div>
+</div>
+<div class="small-6 large-4 columns">
+<div class="card"><img alt="Ma Jasmin Binas, NP" src="/uploads/team/jasmin picture  (1).jpg"/>
+<div class="card-section"><p class="doctor-name"><a href="providers/Team-majasmin-binas">Ma Jasmin Binas, NP</a></p>
+<p class="doctor-type">Family Medicine</p>
+<p class="doctor-link"><a href="providers/Team-majasmin-binas">VIEW BIO &gt;&gt;</a></p>
+</div>
+</div>
+</div>
+<div class="small-6 large-4 columns">
+<div class="card"><img alt="Carlos Guerrero, PA" src="/uploads/team/carlos guerrero, physician assistant  for central.jpg"/>
+<div class="card-section"><p class="doctor-name"><a href="providers/team-carlos-guerreo">Carlos Guerrero, PA</a></p>
+<p class="doctor-type">Physician Assistant</p>
+<p class="doctor-link"><a href="providers/team-carlos-guerreo">VIEW BIO &gt;&gt;</a></p>
+</div>
+</div>
+</div>
+<div class="small-6 large-4 columns">
+<div class="card"><img alt="Chinenye Deborah Udoh, NP" src="/uploads/team/chinenye deborah udoh, nurse practitioner.jpg"/>
+<div class="card-section"><p class="doctor-name"><a href="providers/team-Chinenye-Udoh">Chinenye
+                                    Deborah Udoh, NP</a></p>
+<p class="doctor-type">Nurse Practitioner, Family Medicine</p>
+<p class="doctor-link"><a href="providers/team-Chinenye-Udoh">VIEW BIO &gt;&gt;</a></p>
+</div>
+</div>
+</div>
+<div class="small-6 large-4 columns">
+<div class="card"><img alt="Mario Alberto Diaz-Gomez, MD" src="/uploads/team/dr. mario alberto diaz-gomez, upland clinic medical clinic.jpg"/>
+<div class="card-section"><p class="doctor-name"><a href="providers/mario-diaz-gomez">Mario
+                                    Alberto Diaz-Gomez, MD</a></p>
+<p class="doctor-type">General Medicine </p>
+<p class="doctor-link"><a href="providers/mario-diaz-gomez">VIEW BIO &gt;&gt;</a></p>
+</div>
+</div>
+</div>
+<div class="small-6 large-4 columns">
+<div class="card"><img alt="Sward Mariam Southall, NP" src="/uploads/team/screen shot 2020-10-28 at 3.07.34 pm.png"/>
+<div class="card-section"><p class="doctor-name"><a href="providers/sward-southall">Sward
+                                    Mariam Southall, NP</a></p>
+<p class="doctor-type">Nurse Practitioner, Family Medicine</p>
+<p class="doctor-link"><a href="providers/sward-southall">VIEW BIO &gt;&gt;</a></p></div>
+</div>
+</div>
+<div class="small-6 large-4 columns">
+<div class="card"><img alt="Dorothy Filemu, NP" src="/uploads/team/dorothy filemu np grand_0.jpeg"/>
+<div class="card-section"><p class="doctor-name"><a href="providers/team-dorothy-filemu">Dorothy Filemu, NP</a></p>
+<p class="doctor-type">Family Medicine</p>
+<p class="doctor-link"><a href="providers/team-dorothy-filemu">VIEW BIO &gt;&gt;</a></p>
+</div>
+</div>
+</div>
+<div class="small-6 large-4 columns">
+<div class="card"><img alt="Fareeha Sial, NP" src="/uploads/team/fareeha.jpeg"/>
+<div class="card-section"><p class="doctor-name"><a href="providers/team-fareeha-sial">Fareeha
+                                    Sial, NP</a></p>
+<p class="doctor-type">Family Medicine</p>
+<p class="doctor-link"><a href="providers/team-fareeha-sial">VIEW BIO &gt;&gt;</a></p>
+</div>
+</div>
+</div>
+<div class="small-6 large-4 columns">
+<div class="card"><img alt="Mia Harrison, DDS" src="/uploads/team/screen shot 2020-10-19 at 2.07.39 pm.png"/>
+<div class="card-section"><p class="doctor-name"><a href="providers/Team-Mia-Harrison">Mia
+                                    Harrison, DDS</a></p>
+<p class="doctor-type">Dental Director and Doctor of Dental Surgery </p>
+<p class="doctor-link"><a href="providers/Team-Mia-Harrison">VIEW BIO &gt;&gt;</a></p>
+</div>
+</div>
+</div>
+<div class="small-6 large-4 columns">
+<div class="card"><img alt="Ludmilla M. Galbusera, LMFT" src="/uploads/team/medical-doctor-icon-by-friendesign-acongraphic-6_0.jpg"/>
+<div class="card-section"><p class="doctor-name"><a href="providers/team-ludmilla-galbusera">Ludmilla M. Galbusera, LMFT</a></p>
+<p class="doctor-type">Licensed Marriage and Family Therapist, Behavioral Health</p>
+<p class="doctor-link"><a href="providers/team-ludmilla-galbusera">VIEW BIO &gt;&gt;</a>
+</p></div>
+</div>
+</div>
+<div class="small-6 large-4 columns">
+<div class="card"><img alt="Rodolfo Rey, MD" src="/uploads/team/rodolfo rey, md.jpg"/>
+<div class="card-section"><p class="doctor-name"><a href="providers/team-rodolfo-rey">Rodolfo
+                                    Rey, MD</a></p>
+<p class="doctor-type">Obstetrics and Gynecology</p>
+<p class="doctor-link"><a href="providers/team-rodolfo-rey">VIEW BIO &gt;&gt;</a></p>
+</div>
+</div>
+</div>
+<div class="small-6 large-4 columns">
+<div class="card"><img alt="Janet Vadaparampil, MD" src="/uploads/team/screen shot 2020-10-21 at 10.15.25 am.png"/>
+<div class="card-section"><p class="doctor-name"><a href="providers/team-janet-vadaparmil">Janet Vadaparampil, MD</a></p>
+<p class="doctor-type">Obstetrics and Gynecology</p>
+<p class="doctor-link"><a href="providers/team-janet-vadaparmil">VIEW BIO &gt;&gt;</a></p>
+</div>
+</div>
+</div>
+<div class="small-6 large-4 columns">
+<div class="card"><img alt="Murni Lubis, MD" src="/uploads/team/murni lubis, md.jpg"/>
+<div class="card-section"><p class="doctor-name"><a href="providers/team-murni-lubis">Murni
+                                    Lubis, MD</a></p>
+<p class="doctor-type">Psychiatry</p>
+<p class="doctor-link"><a href="providers/team-murni-lubis">VIEW BIO &gt;&gt;</a></p>
+</div>
+</div>
+</div>
+<div class="small-6 large-4 columns">
+<div class="card"><img alt="Dwight S. Bell, MD" src="/uploads/team/doc icon_0.jpg"/>
+<div class="card-section"><p class="doctor-name"><a href="providers/dwight-bell">Dwight
+                                    S. Bell, MD</a></p>
+<p class="doctor-type">Psychiatry &amp; Behavior Health</p>
+<p class="doctor-link"><a href="providers/dwight-bell">VIEW BIO &gt;&gt;</a></p></div>
+</div>
+</div>
+<div class="small-6 large-4 columns">
+<div class="card"><img alt="Wendy Nuno, LMFT" src="/uploads/team/doc icon_1.jpg"/>
+<div class="card-section"><p class="doctor-name"><a href="providers/team-wendy-nuno">Wendy
+                                    Nuno, LMFT</a></p>
+<p class="doctor-type">Licensed Marriage &amp; Family Therapist, Behavioral Health</p>
+<p class="doctor-link"><a href="providers/team-wendy-nuno">VIEW BIO &gt;&gt;</a></p></div>
+</div>
+</div>
+<div class="small-6 large-4 columns">
+<div class="card"><img alt="Ron P. Simmons, SUDCC" src="/uploads/team/0.jpeg"/>
+<div class="card-section"><p class="doctor-name"><a href="providers/team-ronald-simmons">Ron P. Simmons, SUDCC</a></p>
+<p class="doctor-type">Substance Use Disorder Certified Counselor</p>
+<p class="doctor-link"><a href="providers/team-ronald-simmons">VIEW BIO &gt;&gt;</a></p>
+</div>
+</div>
+</div>
+<div class="small-6 large-4 columns">
+<div class="card"><img alt="Abdoulaye Diop, MD, CMO" src="/uploads/team/abdoulaye diop (crop)_0.jpg"/>
+<div class="card-section"><p class="doctor-name"><a href="providers/team-abdoulaye-diop">Abdoulaye Diop, MD, CMO</a></p>
+<p class="doctor-type">Family Medicine; Chief Medical Officer</p>
+<p class="doctor-link"><a href="providers/team-abdoulaye-diop">VIEW BIO &gt;&gt;</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row accreditations">
+<div class="medium-12 column">
+<div class="row">
+<div class="small-12 medium-5 column accred-1">
+<img alt="Federal Tort Claims Act" src="/assets/img/accred_ftca.png"/>
+</div>
+<div class="small-12 medium-2 column accred-2">
+<img alt="NCQA Recognized Practice" src="/assets/img/accred_ncqa.png"/>
+</div>
+<div class="small-12 medium-5 column accred-3">
+<img alt="HRSA" src="/assets/img/accred_hrsa.gif"/>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer>
+<div class="row">
+<div class="medium-12 columns">
+<div class="row">
+<div class="medium-4 columns">
+<img alt="Home" src="/images/CNHF-logo-white.png"/>
+</div>
+<div class="medium-4 columns">
+<h4 class="footer-titles">Quick Links</h4>
+<ul class="no-bullet">
+<li><a href="/about">About</a></li>
+<li><a href="/locations">Locations</a></li>
+<li><a href="/contact-us">Contact Us</a></li>
+<li><a href="/news-events">News/Events</a></li>
+<li><a href="/providers">Providers</a></li>
+<li><a href="/services">Services</a></li>
+<li><a href="/for-patients">For Patients</a></li>
+</ul>
+</div>
+<div class="medium-4 columns">
+<!-- <h4 class="footer-titles">Quick Links</h4> -->
+<ul class="no-bullet">
+<li><a href="https://mychart.ochin.org/mychart/" target="_blank">Patient Portal</a></li>
+<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=MGW6TJ58Y8954
+" target="_blank">Make a Donation</a></li>
+<li style="padding-top: 24px;">
+<!--<a href=""><img src="/assets/img/icon-twitter-header.png"></a>-->
+<a href="https://www.facebook.com/CNHFClinics/" target="_blank"><img alt="facebook" src="/assets/img/icon-facebook-header.png"/></a></li>
+</ul>
+</div>
+</div>
+<div class="row">
+<div class="medium-12 columns">
+<p style="font-size:14px;padding-top:24px;">© Copyright 2020, Central Neighborhood Health
+                            Foundation. All rights reserved.   |   Site by: <a href="https://placemakinggroup.com/">Placemaking Group</a></p>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="/assets/js/app.js"></script>
+</div>
+<div>
+<div class="off-canvas position-left" data-off-canvas="" id="offCanvas">
+<!-- Close button -->
+<button aria-label="Close menu" class="close-button" data-close="" type="button">
+<span aria-hidden="true">×</span>
+</button>
+<!-- Menu -->
+<ul class="vertical menu">
+<li><a href="/for-patients">For Patients</a>
+<ul class="nested vertical menu">
+<li><a href="/social-media">Social Media</a></li>
+<li><a href="/truconnect-free-phones">TruConnect Free Phone &amp; Service</a></li>
+<li><a href="/covid_19_information">COVID-19 Information</a></li>
+<li><a href="/health-information">Health Information</a></li>
+</ul>
+</li>
+<li><a href="/providers">Providers</a></li>
+<li><a href="/services">Services</a>
+<ul class="nested vertical menu">
+<li><a href="/Chronic-Care-Management">Chronic Care Management</a></li>
+<li><a href="/diabetes-comprehensive-care-program">Diabetes Comprehensive Care Program</a></li>
+<li><a href="/Mental-Health-and-Substance-Use">Mental Health and Substance Use</a></li>
+<li><a href="/patient-centered-medical-home">PATIENT-CENTERED MEDICAL HOME</a></li>
+</ul>
+</li>
+<li><a href="/locations">Locations</a></li>
+<li><a href="/news-events">News/Events</a>
+<ul class="nested vertical menu">
+<li><a href="/our-events">Upcoming Events</a></li>
+</ul>
+</li>
+<li><a href="/about">About</a>
+<ul class="nested vertical menu">
+<li><a href="/executive-team">Executive Team</a></li>
+<li><a href="/join-our-team">JOIN OUR TEAM</a></li>
+<li><a href="/chairman-message">Board Chairman Message</a></li>
+<li><a href="/contact-us">Contact Us</a></li>
+<li><a href="/affiliates">Our Affiliates</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="off-canvas-content" data-off-canvas-content="">
+<header>
+<div class="row">
+<div class="medium-12 columns">
+<div class="row">
+<div class="medium-3 columns">
+<a href="/"> <img alt="CNHF Logo" class="header-logo" src="/assets/img/CNHF-logo.png"/>
+</a></div>
+<div class="medium-6 columns show-for-medium">
+<span class="header-tagline" style="font-family:Droid Serif, serif; color:#007ead; font-size:22px; margin-top: 33px; display: block;">Dedicated to caring for our community since 1967</span>
+</div>
+<div class="medium-3 columns">
+<button class="button float-right show-for-small-only" data-toggle="offCanvas" type="button">
+                            Menu
+                        </button>
+<div class="header-meta">
+<ul class="menu vertical">
+<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=MGW6TJ58Y8954
+" target="_blank">MAKE A DONATION<img alt="Make A Donation" src="/assets/img/icon-heart.png"/></a></li>
+<li><a href="https://cnhfclinics.imscareportal.com/general" target="_blank">PATIENT
+                                    PORTAL<img alt="Patient Portal" src="/assets/img/icon-pencil.png"/></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+
+<style>.hero {
+        background-image: url(/assets/img/pageheaders/bkgd-elder-hands-young-nurse.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+        background-color: #1c1e23;
+        min-height: 350px
+    }
+
+    h2.hero-heading {
+        padding-top: 40px;
+        font-weight: normal;
+        font-size: 3.2em;
+        line-height: 1.2em;
+        color: #86cfe8;
+        font-family: 'Droid Serif', serif;
+    }
+
+    div.hero-description {
+        color: #ffffff;
+        font-size: 20px;
+    }
+
+    </style>
+<section class="hero">
+<div class="row">
+<div class="medium-12 column">
+<div class="hero-copy">
+<h2 class="hero-heading">Our Services</h2>
+<div class="hero-description"><p><span style="font-size: 18px; font-family: Georgia, serif;">CNHF services include Primary Care, Preventative Care, Minor Emergency Care, Diagnostics, Lab Testing, and Specialty Services.</span>
+</p></div>
+</div>
+</div>
+</div>
+</section>
+<main>
+<div class="row">
+<div class="medium-12 column">
+<div class="row">
+<div class="medium-8 columns">
+<div class="main-body fr-view"><h2><span style="font-family: Georgia,serif;"><img class="fr-fic fr-dii fr-fir" src="/uploads/pages/580d1aa7a80458fd934cb38ff65a3bf84a5959e7.jpeg" style="width: 356px;"/>Primary Care <a name="PC"></a></span></h2>
+<ul>
+<li><span style="font-size: 18px;"><span style="font-family: Georgia,serif;">Allergies</span></span></li>
+<li><span style="font-size: 18px;"><span style="font-family: Georgia,serif;">Chronic Disease Management</span></span>
+</li>
+<li><span style="font-size: 18px;"><span style="font-family: Georgia,serif;">Contraceptive Counseling (including emergency) </span></span>
+</li>
+<li><span style="font-size: 18px;"><span style="font-family: Georgia,serif;">Family Planning</span></span>
+</li>
+<li><span style="font-size: 18px;"><span style="font-family: Georgia,serif;">Physicals &amp; Pre-employment Exams </span></span>
+</li>
+<li><span style="font-size: 18px;"><span style="font-family: Georgia,serif;">Pregnancy Testing and Counseling</span></span>
+</li>
+<li><span style="font-size: 18px;"><span style="font-family: Georgia,serif;"><a name="PS"></a>School/Sports Physicals</span></span></li>
+<li><span style="font-size: 18px;"><span style="font-family: Georgia,serif;">Urinary Complaints</span></span>
+</li>
+<li><span style="font-family: Georgia, serif; font-size: 18px;">Pediatrics</span></li>
+</ul>
+<h2><span style="font-family: Georgia,serif;">Preventive Care Services</span></h2>
+<ul>
+<li><span style="font-family: Georgia, serif; font-size: 18px;">Cancer Screenings</span>
+</li>
+<li><span style="font-size: 18px;"><span style="font-family: Georgia,serif;">Child Immunizations<img class="fr-fic fr-dii fr-fir" src="/uploads/pages/26a4216cf322d3b385039437586faa7de9524414.jpg" style="width: 300px;"/></span></span></li>
+<li><span style="font-size: 18px;"><span style="font-family: Georgia,serif;">Child Developmental Screenings</span></span>
+</li>
+<li><span style="font-size: 18px;"><span style="font-family: Georgia,serif;">Cholesterol, Diabetes, and Hypertension Screening</span></span>
+</li>
+<li><span style="font-size: 18px;"><span style="font-family: Georgia,serif;">Child Hearing, Vision, and Dental Screenings</span></span>
+</li>
+<li><span style="font-size: 18px;"><span style="font-family: Georgia,serif;">Adult Immunizations (Flu Vacc, Tdap, Pnuemo Vacc)</span></span>
+</li>
+<li><span style="font-size: 18px;"><span style="font-family: Georgia,serif;"><a name="ES"></a>Colorectal Screening</span></span></li>
+<li><span style="font-size: 18px;"><span style="font-family: Georgia,serif;">Depression Screening</span></span>
+</li>
+<li><span style="font-size: 18px;"><span style="font-family: Georgia,serif;">Health Education Programs (not available at Inglewood)</span></span>
+</li>
+<li><span style="font-family: Georgia, serif; font-size: 18px;">Tobacco Cessation Intervention</span>
+</li>
+</ul>
+<h2><span style="font-family: Georgia,serif;">Minor Emergency Services</span></h2>
+<ul>
+<li><span style="font-family: Georgia, serif; font-size: 18px;">Abrasions, Cuts, and Lacerations </span>
+</li>
+<li><span style="font-size: 18px;"><span style="font-family: Georgia,serif;">Abscess Drainage (not available at Grand)</span></span>
+</li>
+<li><span style="font-size: 18px;"><span style="font-family: Georgia,serif;">Burns</span></span></li>
+<li><span style="font-size: 18px;"><span style="font-family: Georgia,serif;">Earache</span></span></li>
+<li><span style="font-size: 18px;"><span style="font-family: Georgia,serif;">Flu</span></span>
+</li>
+<li><span style="font-size: 18px;"><span style="font-family: Georgia,serif;">Headache</span></span></li>
+<li><span style="font-size: 18px;"><span style="font-family: Georgia,serif;">Pinkeye</span></span></li>
+<li><span style="font-size: 18px;"><span style="font-family: Georgia,serif;"><a name="DS"></a>Rashes</span></span></li>
+<li><span style="font-size: 18px;"><span style="font-family: Georgia,serif;">Sprains &amp; Strains </span></span>
+</li>
+<li><span style="font-size: 18px;"><span style="font-family: Georgia,serif;">Stings, Bites, Poison Ivy</span></span>
+</li>
+<li><span style="font-family: Georgia, serif; font-size: 18px;">Wound Infections</span>
+</li>
+</ul>
+<h2><span style="font-family: Georgia,serif;">Diagnostics Services<img class="fr-fic fr-dii fr-fir" src="/uploads/pages/547f10352865a5e2be69f3153691d105cd3f80d2.jpg" style="width: 300px;"/></span></h2>
+<ul>
+<li><span style="font-family: Georgia, serif; font-size: 18px;">EKG Testing</span></li>
+<li><span style="font-size: 18px;"><span style="font-family: Georgia,serif;">Hemoglobin Testing</span></span>
+</li>
+<li><span style="font-size: 18px;"><span style="font-family: Georgia,serif;">PPD skin testing</span></span>
+</li>
+<li><span style="font-size: 18px;"><span style="font-family: Georgia,serif;">Pregnancy Testing</span></span>
+</li>
+<li><span style="font-size: 18px;"><span style="font-family: Georgia,serif;">Pulmonary Function Testing (PFT)</span></span>
+</li>
+<li><span style="font-size: 18px;"><span style="font-family: Georgia,serif;">Phlebotomy/Lab Draws (not available at Inglewood)</span></span>
+</li>
+<li><span style="font-size: 18px;"><span style="font-family: Georgia,serif;">STI Testing &amp; Treatment</span></span>
+</li>
+<li><span style="font-size: 18px;"><span style="font-family: Georgia,serif;"><a name="SS"></a>Strep Test</span></span></li>
+<li><span style="font-size: 18px;"><span style="font-family: Georgia,serif;">Ultrasound</span></span></li>
+<li><span style="font-size: 18px;"><span style="font-family: Georgia,serif;">Urine Analysis</span></span>
+</li>
+<li><span style="font-family: Georgia, serif; font-size: 18px;">Xrays</span></li>
+</ul>
+<h2><span style="font-family: Georgia,serif;">Specialty Services (not available at all clinics)</span>
+</h2>
+<ul>
+<li><span style="font-family: Georgia, serif; font-size: 18px;">Comprehensive Women's Healthcare (including prenatal, perinatal, and postnatal services) - (H Street only)</span>
+</li>
+<li><span style="font-size: 18px;"><span style="font-family: Georgia,serif;">Nutrition and Exercise Counseling (Grand and Central)</span></span>
+</li>
+<li><span style="font-size: 18px;"><span style="font-family: Georgia,serif;">Behavioral Health and Substance Use Disorder (Grand, Central and H Street)</span></span>
+</li>
+<li><span style="font-family: Georgia, serif; font-size: 18px;">Dental (coming soon at Central)</span>
+</li>
+</ul>
+<h3><span style="font-family: Georgia,serif;">NOTE:</span></h3>
+<p><span style="font-family: Georgia, serif; font-size: 18px;">This list of services is neither comprehensive nor all-inclusive. Additional services may be provided on a case-by-case basis as determined by the medical provider.</span>
+</p>
+<p><span style="font-family: Georgia, serif; font-size: 18px;">Walk-in care is not an emergency treatment center and does not provide for complex or chronic pain and/or disease, or life-threatening conditions including but not limited to severe pain or bleeding, head injuries, chest pain, abdominal pain, stroke symptoms, or shortness of breath. Patients presenting with medical needs outside of our scope will be referred to other community healthcare providers. Patients experiencing a medical emergency should call 911.</span>
+</p></div>
+</div>
+<div class="medium-4 columns">
+<style>.aside-btn {
+                            margin-bottom: 24px;
+                        }</style>
+<div class="contact-form">
+<div class="card">
+<div class="card-divider">
+                                    Request an appointment
+                                </div>
+<div class="card-section">
+<form action="/thank-you-appointment" method="post">
+<div class="row">
+<div class="medium-12 columns">
+<label>Full Name
+                                                    <input name="name" type="text"/>
+</label>
+<label>Email or Phone Number
+                                                    <input name="email" type="text"/>
+</label>
+<label>Location
+                                                    <select name="location">
+<option disabled="" selected="" value="">Please Select A Location
+                                                        </option>
+<option value="Corporate Office">Corporate Office</option>
+<option value="Grand Ave - South Los Angeles Clinic">Grand Ave -
+                                                            South Los Angeles Clinic
+                                                        </option>
+<option value="H Street - Inland Empire Clinic">H Street -
+                                                            Inland Empire Clinic
+                                                        </option>
+<option value="Upland - Inland Empire Clinic">Upland - Inland
+                                                            Empire Clinic
+                                                        </option>
+<option value="Carmelitos - North Long Beach">Carmelitos - North
+                                                            Long Beach
+                                                        </option>
+<option value="Manchester Blvd - Inglewood Clinic">Manchester
+                                                            Blvd - Inglewood Clinic
+                                                        </option>
+<option value="Riverside - Inland Empire Clinic">Riverside -
+                                                            Inland Empire Clinic
+                                                        </option>
+<option value="Central Ave - South Los Angeles Clinic">Central
+                                                            Ave - South Los Angeles Clinic
+                                                        </option>
+</select>
+</label>
+<label>Date
+                                                    <input name="date" type="date"/>
+</label>
+<label>Time
+                                                    <input name="time" type="text"/>
+</label>
+<button class="button expanded" type="submit">Submit</button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+<div class="locations">
+<div class="card">
+<div class="card-divider">
+                                    Find a Location
+                                </div>
+<div class="card-section">
+<p>With seven locations in Southern California, we are here to serve you. <a href="../../../locations">View Locations </a></p></div>
+</div>
+</div>
+<div class="aside-btn">
+<a href="https://mychart.ochin.org/mychart/" target="_blank"><img alt="Patient Portal" src="/assets/img/btn-patient-portal.png"/></a>
+</div>
+<div class="aside-btn">
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=MGW6TJ58Y8954
+" target="_blank"><img alt="Make a Donation" src="/assets/img/btn-make-donationl.png"/></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row accreditations">
+<div class="medium-12 column">
+<div class="row">
+<div class="small-12 medium-5 column accred-1">
+<img alt="Federal Tort Claims Act" src="/assets/img/accred_ftca.png"/>
+</div>
+<div class="small-12 medium-2 column accred-2">
+<img alt="NCQA Recognized Practice" src="/assets/img/accred_ncqa.png"/>
+</div>
+<div class="small-12 medium-5 column accred-3">
+<img alt="HRSA" src="/assets/img/accred_hrsa.gif"/>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer>
+<div class="row">
+<div class="medium-12 columns">
+<div class="row">
+<div class="medium-4 columns">
+<img alt="Home" src="/images/CNHF-logo-white.png"/>
+</div>
+<div class="medium-4 columns">
+<h4 class="footer-titles">Quick Links</h4>
+<ul class="no-bullet">
+<li><a href="/about">About</a></li>
+<li><a href="/locations">Locations</a></li>
+<li><a href="/contact-us">Contact Us</a></li>
+<li><a href="/news-events">News/Events</a></li>
+<li><a href="/providers">Providers</a></li>
+<li><a href="/services">Services</a></li>
+<li><a href="/for-patients">For Patients</a></li>
+</ul>
+</div>
+<div class="medium-4 columns">
+<!-- <h4 class="footer-titles">Quick Links</h4> -->
+<ul class="no-bullet">
+<li><a href="https://mychart.ochin.org/mychart/" target="_blank">Patient Portal</a></li>
+<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=MGW6TJ58Y8954
+" target="_blank">Make a Donation</a></li>
+<li style="padding-top: 24px;">
+<!--<a href=""><img src="/assets/img/icon-twitter-header.png"></a>-->
+<a href="https://www.facebook.com/CNHFClinics/" target="_blank"><img alt="facebook" src="/assets/img/icon-facebook-header.png"/></a></li>
+</ul>
+</div>
+</div>
+<div class="row">
+<div class="medium-12 columns">
+<p style="font-size:14px;padding-top:24px;">© Copyright 2020, Central Neighborhood Health
+                            Foundation. All rights reserved.   |   Site by: <a href="https://placemakinggroup.com/">Placemaking Group</a></p>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+</div>
+</div><div>
+<div class="off-canvas position-left" data-off-canvas="" id="offCanvas">
+<!-- Close button -->
+<button aria-label="Close menu" class="close-button" data-close="" type="button">
+<span aria-hidden="true">×</span>
+</button>
+<!-- Menu -->
+<ul class="vertical menu">
+<li><a href="/for-patients">For Patients</a>
+<ul class="nested vertical menu">
+<li><a href="/social-media">Social Media</a></li>
+<li><a href="/truconnect-free-phones">TruConnect Free Phone &amp; Service</a></li>
+<li><a href="/covid_19_information">COVID-19 Information</a></li>
+<li><a href="/health-information">Health Information</a></li>
+</ul>
+</li>
+<li><a href="/providers">Providers</a></li>
+<li><a href="/services">Services</a>
+<ul class="nested vertical menu">
+<li><a href="/Chronic-Care-Management">Chronic Care Management</a></li>
+<li><a href="/diabetes-comprehensive-care-program">Diabetes Comprehensive Care Program</a></li>
+<li><a href="/Mental-Health-and-Substance-Use">Mental Health and Substance Use</a></li>
+<li><a href="/patient-centered-medical-home">PATIENT-CENTERED MEDICAL HOME</a></li>
+</ul>
+</li>
+<li><a href="/locations">Locations</a></li>
+<li><a href="/news-events">News/Events</a>
+<ul class="nested vertical menu">
+<li><a href="/our-events">Upcoming Events</a></li>
+</ul>
+</li>
+<li><a href="/about">About</a>
+<ul class="nested vertical menu">
+<li><a href="/executive-team">Executive Team</a></li>
+<li><a href="/join-our-team">JOIN OUR TEAM</a></li>
+<li><a href="/chairman-message">Board Chairman Message</a></li>
+<li><a href="/contact-us">Contact Us</a></li>
+<li><a href="/affiliates">Our Affiliates</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="off-canvas-content" data-off-canvas-content="">
+<header>
+<div class="row">
+<div class="medium-12 columns">
+<div class="row">
+<div class="medium-3 columns">
+<a href="/"> <img alt="CNHF Logo" class="header-logo" src="/assets/img/CNHF-logo.png"/>
+</a></div>
+<div class="medium-6 columns show-for-medium">
+<span class="header-tagline" style="font-family:Droid Serif, serif; color:#007ead; font-size:22px; margin-top: 33px; display: block;">Dedicated to caring for our community since 1967</span>
+</div>
+<div class="medium-3 columns">
+<button class="button float-right show-for-small-only" data-toggle="offCanvas" type="button">
+                            Menu
+                        </button>
+<div class="header-meta">
+<ul class="menu vertical">
+<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=MGW6TJ58Y8954
+" target="_blank">MAKE A DONATION<img alt="Make A Donation" src="/assets/img/icon-heart.png"/></a></li>
+<li><a href="https://cnhfclinics.imscareportal.com/general" target="_blank">PATIENT
+                                    PORTAL<img alt="Patient Portal" src="/assets/img/icon-pencil.png"/></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+
+<section class="page-header">
+<div class="row">
+<div class="medium-12 column">
+<h2 class="page-header-title">Locations</h2>
+</div>
+</div>
+</section>
+<main>
+<div class="row">
+<div class="medium-12 column">
+<div class="locations">
+<h3>Visit Our Locations</h3>
+<div class="row">
+<div class="small-6 large-3 columns">
+<div class="card"><a href="/locations/corporate-office"><img alt="Corporate Office" src="/uploads/location/screen shot 2020-10-20 at 3.48.16 pm.png"/></a>
+<div class="card-section"><p class="doctor-name"><a href="/locations/corporate-office">Corporate
+                                    Office</a></p>
+<p class="doctor-type">714 W. Olympic Blvd.(Suite 801)<br/>Los Angeles, CA
+                                        90015<br/>TEL: (213) 536-5815<br/>FAX: (213) 478-0172</p></div>
+</div>
+</div>
+<div class="small-6 large-3 columns">
+<div class="card"><a href="/locations/cnhf-grand"><img alt="Grand Ave - South Los Angeles Clinic" src="/uploads/location/img_3755_0.jpg"/></a>
+<div class="card-section"><p class="doctor-name"><a href="/locations/cnhf-grand">Grand
+                                    Ave - South Los Angeles Clinic</a></p>
+<p class="doctor-type">2614 S. Grand Avenue<br/>Los Angeles, CA 90007<br/>TEL: (323)
+                                        325-5882<br/>FAX: (213) 748-1618</p></div>
+</div>
+</div>
+<div class="small-6 large-3 columns">
+<div class="card"><a href="/locations/cnhf-san-bernardino"><img alt="H Street - Inland Empire Clinic" src="/uploads/location/h street exterior_0.jpeg"/></a>
+<div class="card-section"><p class="doctor-name"><a href="/locations/cnhf-san-bernardino">H Street - Inland Empire Clinic</a></p>
+<p class="doctor-type">1329 N. H Street<br/>San Bernardino, CA 92405<br/>TEL: (909)
+                                        381-0803<br/>FAX: (909) 381-0823</p></div>
+</div>
+</div>
+<div class="small-6 large-3 columns">
+<div class="card"><a href="/locations/cnhf-upland"><img alt="Upland - Inland Empire Clinic" src="/uploads/location/f64303a270ad4837b517f744eb762a02_4000x3000_resize.jpeg"/></a>
+<div class="card-section"><p class="doctor-name"><a href="/locations/cnhf-upland">Upland
+                                    - Inland Empire Clinic</a></p>
+<p class="doctor-type">360 E. 7th Street(Suite B)<br/>Upland, CA 91786<br/>TEL:
+                                        (909) 981-2500<br/>FAX: (909) 981-2509</p></div>
+</div>
+</div>
+<div class="small-6 large-3 columns">
+<div class="card"><a href="/locations/cnhf-carmelitos"><img alt="Carmelitos - North Long Beach" src="/uploads/location/carmelitos 2.jpg"/></a>
+<div class="card-section"><p class="doctor-name"><a href="/locations/cnhf-carmelitos">Carmelitos
+                                    - North Long Beach</a></p>
+<p class="doctor-type">711 E. Via Wanda Avenue<br/>Long Beach, CA 90805<br/>TEL:
+                                        (562) 380-1692 - EXT 502<br/>FAX: (562) 228-0046</p></div>
+</div>
+</div>
+<div class="small-6 large-3 columns">
+<div class="card"><a href="/locations/cnhf-inglewood"><img alt="Manchester Blvd - Inglewood Clinic" src="/uploads/location/screen shot 2020-10-29 at 12.42.47 pm.png"/></a>
+<div class="card-section"><p class="doctor-name"><a href="/locations/cnhf-inglewood">Manchester
+                                    Blvd - Inglewood Clinic</a></p>
+<p class="doctor-type">2710 W. Manchester Blvd.<br/>Inglewood, CA 90305<br/>TEL:
+                                        (323) 778-4310<br/>FAX: (323) 778-0838</p></div>
+</div>
+</div>
+<div class="small-6 large-3 columns">
+<div class="card"><a href="/locations/riverside-clinic"><img alt="Riverside - Inland Empire Clinic" src="/uploads/location/riverside.jpeg"/></a>
+<div class="card-section"><p class="doctor-name"><a href="/locations/riverside-clinic">Riverside
+                                    - Inland Empire Clinic</a></p>
+<p class="doctor-type">3750 Arlington Ave.<br/>Riverside, CA 92506<br/>TEL: (951)
+                                        774-3050 - EXT 702<br/>FAX: (951) 774-3182</p></div>
+</div>
+</div>
+<div class="small-6 large-3 columns">
+<div class="card"><a href="/locations/cnhf-central"><img alt="Central Ave - South Los Angeles Clinic" src="/uploads/location/loc-1.png"/></a>
+<div class="card-section"><p class="doctor-name"><a href="/locations/cnhf-central">Central
+                                    Ave - South Los Angeles Clinic</a></p>
+<p class="doctor-type">2707 S. Central Avenue<br/>Los Angeles, CA 90011<br/>TEL:
+                                        (323) 234-5000<br/>FAX: (323) 231-3985</p></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row accreditations">
+<div class="medium-12 column">
+<div class="row">
+<div class="small-12 medium-5 column accred-1">
+<img alt="Federal Tort Claims Act" src="/assets/img/accred_ftca.png"/>
+</div>
+<div class="small-12 medium-2 column accred-2">
+<img alt="NCQA Recognized Practice" src="/assets/img/accred_ncqa.png"/>
+</div>
+<div class="small-12 medium-5 column accred-3">
+<img alt="HRSA" src="/assets/img/accred_hrsa.gif"/>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer>
+<div class="row">
+<div class="medium-12 columns">
+<div class="row">
+<div class="medium-4 columns">
+<img alt="Home" src="/images/CNHF-logo-white.png"/>
+</div>
+<div class="medium-4 columns">
+<h4 class="footer-titles">Quick Links</h4>
+<ul class="no-bullet">
+<li><a href="/about">About</a></li>
+<li><a href="/locations">Locations</a></li>
+<li><a href="/contact-us">Contact Us</a></li>
+<li><a href="/news-events">News/Events</a></li>
+<li><a href="/providers">Providers</a></li>
+<li><a href="/services">Services</a></li>
+<li><a href="/for-patients">For Patients</a></li>
+</ul>
+</div>
+<div class="medium-4 columns">
+<!-- <h4 class="footer-titles">Quick Links</h4> -->
+<ul class="no-bullet">
+<li><a href="https://mychart.ochin.org/mychart/" target="_blank">Patient Portal</a></li>
+<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=MGW6TJ58Y8954
+" target="_blank">Make a Donation</a></li>
+<li style="padding-top: 24px;">
+<!--<a href=""><img src="/assets/img/icon-twitter-header.png"></a>-->
+<a href="https://www.facebook.com/CNHFClinics/" target="_blank"><img alt="facebook" src="/assets/img/icon-facebook-header.png"/></a></li>
+</ul>
+</div>
+</div>
+<div class="row">
+<div class="medium-12 columns">
+<p style="font-size:14px;padding-top:24px;">© Copyright 2020, Central Neighborhood Health
+                            Foundation. All rights reserved.   |   Site by: <a href="https://placemakinggroup.com/">Placemaking Group</a></p>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+</div>
+</div></body>
+</html>

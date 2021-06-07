@@ -1,0 +1,796 @@
+{
+    "id": 0,
+    "content": "Zak Kincaid",
+    "children": [
+        {
+            "id": 1,
+            "content": "",
+            "isList": true,
+            "key": 1,
+            "children": [
+                {
+                    "id": 2,
+                    "content": "Zak Kincaid",
+                    "key": 1
+                },
+                {
+                    "id": 3,
+                    "content": "I'm an assistant professor at Princeton University.   My main research interests are in program analysis and programming languages.   Email: zkincaid@cs.princeton.edu   Office: Computer Science Building, Room 219   Address: 35 Olden Street, Princeton, NJ 08540",
+                    "key": 2
+                },
+                {
+                    "id": 4,
+                    "content": "Office hours :",
+                    "key": 3,
+                    "children": [
+                        {
+                            "id": 5,
+                            "content": "Tuesday 4 - 5pm.",
+                            "key": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "content": "news",
+            "isList": true,
+            "key": 2,
+            "children": [
+                {
+                    "id": 7,
+                    "content": "4/15: Loop Summarization with Rational Vector Addition Systems, with Jake Silverman to appear at CAV 2019.",
+                    "key": 1
+                },
+                {
+                    "id": 8,
+                    "content": "2/4: I'll be teaching COS 320: Compiling Techniques this Spring.",
+                    "key": 2
+                },
+                {
+                    "id": 9,
+                    "content": "11/18: A Practical Algorithm for Structure Embedding, with Charlie Murphy to appear at VMCAI 2019.",
+                    "key": 3
+                },
+                {
+                    "id": 10,
+                    "content": "",
+                    "key": 4,
+                    "children": [
+                        {
+                            "id": 11,
+                            "content": "10/9: Two papers with Jason Breck, John Cyphert, and Tom Reps to appear at POPL 2019:",
+                            "key": 1
+                        },
+                        {
+                            "id": 12,
+                            "content": "",
+                            "isList": true,
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 13,
+                                    "content": "Closed Forms for Numerical Loops",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 14,
+                                    "content": "Refinement of Path Expressions for Static Analysis",
+                                    "key": 2
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 15,
+                    "content": "9/7: I'll be teaching COS 516: Automated Reasoning about Software this Fall.",
+                    "key": 5
+                },
+                {
+                    "id": 16,
+                    "content": "3/28: I'll be co-chairing colocated events for POPL 2019 with Marco Gaboardi.",
+                    "key": 6
+                },
+                {
+                    "id": 17,
+                    "content": "2/3: I'll be speaking at SAS 2018 on numerical invariant generation.",
+                    "key": 7
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "content": "selected publications (full list at dblp)",
+            "key": 3,
+            "children": [
+                {
+                    "id": 19,
+                    "content": "Loop Summarization with Rational Vector Addition Systems",
+                    "isList": true,
+                    "key": 1,
+                    "children": [
+                        {
+                            "id": 20,
+                            "content": "with Jake Silverman. CAV 2019.",
+                            "key": 1
+                        },
+                        {
+                            "id": 21,
+                            "content": "This paper presents a technique for computing numerical loop summaries. The method synthesizes a rational vector addition system with resets (Q-VASR) that simulates the action of an input loop, and then uses the reachability relation of that Q-VASR to over-approximate the behavior of the loop. The key technical problem solved in this paper is to automatically synthesize a Q-VASR that is a best abstraction of a given loop in the sense that (1) it simulates the loop and (2) it is simulated by any other Q-VASR that simulates the loop. Since our loop summarization scheme is based on computing the exact reachability relation of a best abstraction of a loop, we can make theoretical guarantees about its behavior. Moreover, we show experimentally that the technique is precise and performant in practice.",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 22,
+                    "content": "PDF",
+                    "key": 2
+                },
+                {
+                    "id": 23,
+                    "content": "A Practical Algorithm for Structure Embedding",
+                    "isList": true,
+                    "key": 3,
+                    "children": [
+                        {
+                            "id": 24,
+                            "content": "with Charlie Murphy. VMCAI 2019.",
+                            "key": 1
+                        },
+                        {
+                            "id": 25,
+                            "content": "This paper presents an algorithm for the structure embedding problem: given two finite first-order structures over a common relational vocabulary, does there exist an injective homomorphism from one to the other? The structure embedding problem is NP-complete in the general case, but for monadic structures (each predicate has arity at most 1) we observe that it can be solved in polytime by reduction to bipartite graph matching. Our algorithm, MatchEmbeds, extends the bipartite matching approach to the general case by using it as the foundation of a backtracking search procedure. We show that MatchEmbeds outper- forms state-of-the-art SAT, CSP, and subgraph isomorphism solvers on difficult random instances and significantly improves the performance of a client model checker for multi-threaded programs.",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 26,
+                    "content": "PDF",
+                    "key": 4
+                },
+                {
+                    "id": 27,
+                    "content": "Closed Forms for Numerical Loops",
+                    "isList": true,
+                    "key": 5,
+                    "children": [
+                        {
+                            "id": 28,
+                            "content": "with Jason Breck, John Cyphert, and Tom Reps. POPL 2019.",
+                            "key": 1
+                        },
+                        {
+                            "id": 29,
+                            "content": "This paper investigates the problem of reasoning about non-linear behavior of simple numerical loops. Our approach builds on classical techniques for analyzing the behavior of linear dynamical systems. It is well-known that a closed-form representation of the behavior of a linear dynamical system can always be expressed using algebraic numbers, but this approach can create formulas that present an obstacle for automated-reasoning tools. This paper characterizes when linear loops have closed forms in simpler theories that are more amenable to automated reasoning. The algorithms for computing closed forms described in the paper avoid the use of algebraic numbers, and produce closed forms expressed using polynomials and exponentials over rational numbers. We show that the logic for expressing closed forms is decidable, yielding decision procedures for verifying safety and termination of a class of numerical loops over rational numbers. We also show that the procedure for computing closed forms for this class of numerical loops can be usedxc to over-approximate the behavior of arbitrary numerical programs (with unrestricted control flow, non-deterministic assignments, and recursive procedures).",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 30,
+                    "content": "PDF           Slides",
+                    "key": 6
+                },
+                {
+                    "id": 31,
+                    "content": "Refinement of Path Expressions for Static Analysis",
+                    "isList": true,
+                    "key": 7,
+                    "children": [
+                        {
+                            "id": 32,
+                            "content": "with John Cyphert, Jason Breck, and Tom Reps. POPL 2019.",
+                            "key": 1
+                        },
+                        {
+                            "id": 33,
+                            "content": "Algebraic program analyses compute information about a program's behavior by first (a) computing a valid path expression and then (b) interpreting the path expression in a semantic algebra that defines the analysis. There are an infinite number of different regular expressions that qualify as valid path expressions, which raises the question: which one should we choose? While any choice yields a sound result, for many analyses the choice can have a drastic effect on the precision of the results obtained. In this paper, we develop an algorithm that takes as input a valid path expression E, and returns a valid path expression E' that is guaranteed to yield analysis results that are at least as good as those obtained using E.",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 34,
+                    "content": "PDF",
+                    "key": 8
+                },
+                {
+                    "id": 35,
+                    "content": "Numerical Invariants via Abstract Machines",
+                    "isList": true,
+                    "key": 9,
+                    "children": [
+                        {
+                            "id": 36,
+                            "content": ". Invited talk at SAS 2018.",
+                            "key": 1
+                        },
+                        {
+                            "id": 37,
+                            "content": "This talk presents an overview of a line of recent work on generating non-linear numerical invariants for loops and recursive procedures. The method is compositional in the sense that it operates by breaking the program into parts, analyzing each part independently, and then combining the results. The fundamental challenge is to devise an effective method for analyzing the behavior of a loop given the results of analyzing its body. The key idea is to separate the problem into two: first we approximate the loop dynamics by an abstract machine, and then symbolically compute the reachability relation of the abstract machine.",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 38,
+                    "content": "PDF           Slides",
+                    "key": 10
+                },
+                {
+                    "id": 39,
+                    "content": "Non-Linear Reasoning For Invariant Synthesis",
+                    "isList": true,
+                    "key": 11,
+                    "children": [
+                        {
+                            "id": 40,
+                            "content": "with Jason Breck, John Cyphert, and Tom Reps. POPL 2018.",
+                            "key": 1
+                        },
+                        {
+                            "id": 41,
+                            "content": "An appealing approach to non-linear invariant generation is to exploit the powerful recurrence-solving techniques that have been developed in the field of computer algebra. However, there is a gap between the capabilities of recurrence solvers and the needs of program analysis: (1) loop bodies are not merely systems of recurrence relations---they may contain conditional branches, nested loops, non-deterministic assignments, etc., and (2) a client program analyzer must be able to reason about the closed-form solutions produced by a recurrence solver (e.g., to prove assertions). This paper presents a method for generating non-linear invariants for general loops by analyzing recurrence relations. The key components are an abstract domain for reasoning about non-linear arithmetic, a semantics-based method for extracting recurrence relations from loop bodies, and a recurrence solver that avoids closed forms that involve complex or irrational numbers.",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 42,
+                    "content": "PDF           Slides",
+                    "key": 12
+                },
+                {
+                    "id": 43,
+                    "content": "Strategy Synthesis for Linear Arithmetic Games",
+                    "isList": true,
+                    "key": 13,
+                    "children": [
+                        {
+                            "id": 44,
+                            "content": "with Azadeh Farzan. POPL 2018.",
+                            "key": 1
+                        },
+                        {
+                            "id": 45,
+                            "content": "This paper studies the strategy synthesis problem for games defined within the theory of linear rational arithmetic. Two types of games are considered. A satisfiability game, described by a quantified formula, is played by two players that take turns instantiating quantifiers. The objective of each player is to prove (or disprove) satisfiability of the formula. A reachability game, described by a pair of formulas defining the legal moves of each player, is played by two players that take turns choosing positions---rational vectors of some fixed dimension. The objective of each player is to reach a position where the opposing player has no legal moves (or to play the game forever). We give a complete algorithm for synthesizing winning strategies for satisfiability games and a semi-algorithm for synthesizing winning strategies for reachability games.",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 46,
+                    "content": "PDF           Slides",
+                    "key": 14
+                },
+                {
+                    "id": 47,
+                    "content": "A Symbolic Decision Procedure for Symbolic Alternating Automata",
+                    "isList": true,
+                    "key": 15,
+                    "children": [
+                        {
+                            "id": 48,
+                            "content": "with Loris D'Antoni, and Fang Wang. MFPS 2017.",
+                            "key": 1
+                        },
+                        {
+                            "id": 49,
+                            "content": "We introduce Symbolic Alternating Finite Automata (s-AFA) as a succinct and decidable model for describing sets of finite sequences over arbitrary alphabets. Boolean operations over s-AFAs have linear complexity, which contrasts the quadratic cost of intersection and union for non-alternating symbolic automata. Due to this succinctness, emptiness and equivalence checking are PSpace-hard. We introduce an algorithm for checking the equivalence of two s-AFAs based on bisimulation up to congruence. This algorithm exploits the power of SAT solvers to efficiently search the state space of the s-AFAs.",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 50,
+                    "content": "PDF",
+                    "key": 16
+                },
+                {
+                    "id": 51,
+                    "content": "Compositional Recurrence Analysis Revisited",
+                    "isList": true,
+                    "key": 17,
+                    "children": [
+                        {
+                            "id": 52,
+                            "content": "with Jason Breck, Ashkan Boroujeni, and Tom Reps. PLDI 2017.",
+                            "key": 1
+                        },
+                        {
+                            "id": 53,
+                            "content": "Compositional recurrence analysis (CRA) is a static-analysis method based on a combination of symbolic analysis and abstract interpretation. CRA computes the meaning of a procedure following Tarjan’s path-expression method: first compute a regular expression recognizing a set of paths through the procedure, then interpret that regular expression within a suitable semantic algebra. This paper introduces ICRA, an extension of CRA to recursive procedures. ICRA overcomes the “impedance mismatch” between CRA, which relies on representing program paths with regular languages, and the context-free-language underpinnings of context-sensitive analysis.",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 54,
+                    "content": "PDF           Slides",
+                    "key": 18
+                },
+                {
+                    "id": 55,
+                    "content": "Linear Arithmetic Satisfiability via Strategy Improvement",
+                    "isList": true,
+                    "key": 19,
+                    "children": [
+                        {
+                            "id": 56,
+                            "content": "with Azadeh Farzan. IJCAI 2016.",
+                            "key": 1
+                        },
+                        {
+                            "id": 57,
+                            "content": "This article presents a decision procedure for the theory of linear rational arithmetic (and linear integer arithmetic), including quantifiers. The algorithm is based on synthesizing winning strategies for quantified formulas (interpreted as satisfiability games) by mutual strategy improvement.",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 58,
+                    "content": "PDF           Slides",
+                    "key": 20
+                },
+                {
+                    "id": 59,
+                    "content": "Proving Liveness of Parameterized Programs",
+                    "isList": true,
+                    "key": 21,
+                    "children": [
+                        {
+                            "id": 60,
+                            "content": "with Azadeh Farzan and Andreas Podelski. LICS 2016.",
+                            "key": 1
+                        },
+                        {
+                            "id": 61,
+                            "content": "Correctness of multi-threaded programs typically requires that they satisfy liveness properties. For example, a program may require that no thread is starved of a shared resource, or that all threads eventually agree on a single value. This paper presents a method for proving that such liveness properties hold. Two particular challenges addressed in this work are that (1) the correctness argument may rely on global behaviour of the system (e.g., the correctness argument may require that all threads collectively progress towards \"the good thing\" rather than one thread progressing while the others do not interfere), and (2) such programs are often designed to be executed by any number of threads, and the desired liveness properties must hold regardless of the number of threads that are active in the program.",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 62,
+                    "content": "PDF           Slides",
+                    "key": 22
+                },
+                {
+                    "id": 63,
+                    "content": "Compositional Recurrence Analysis",
+                    "isList": true,
+                    "key": 23,
+                    "children": [
+                        {
+                            "id": 64,
+                            "content": "with Azadeh Farzan. FMCAD 2015.",
+                            "key": 1
+                        },
+                        {
+                            "id": 65,
+                            "content": "This paper presents a new method for automatically generating numerical invariants for imperative programs. The procedure computes a transition formula which over-approximates the behaviour of a given input program. It is compositional in the sense that it operates by decomposing the program into parts, computing a transition formula for each part, and then composing them. Transition formulas for loops are computed by extracting recurrence relations from a transition formula for the loop body and then computing their closed forms. Experimentation demonstrates that this method is competitive with leading verification techniques.",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 66,
+                    "content": "PDF           Slides",
+                    "key": 24
+                },
+                {
+                    "id": 67,
+                    "content": "Spatial Interpolants",
+                    "isList": true,
+                    "key": 25,
+                    "children": [
+                        {
+                            "id": 68,
+                            "content": "with Aws Albarghouthi, Josh Berdine, and Byron Cook. ESOP 2015.",
+                            "key": 1
+                        },
+                        {
+                            "id": 69,
+                            "content": "We propose SplInter, a new technique for proving properties of heap-manipulating programs that marries (1) a new separation logic-based analysis for heap reasoning with (2) an interpolation-based technique for refining heap-shape invariants with data invariants. SplInter is property directed, precise, and produces counterexample traces when a property does not hold. Using the novel notion of spatial interpolants modulo theories, SplInter can infer complex invariants over general recursive predicates, e.g., of the form \"all elements in a linked list are even\" or \"a binary tree is sorted.\"",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 70,
+                    "content": "PDF",
+                    "key": 26
+                },
+                {
+                    "id": 71,
+                    "content": "Proof Spaces for Unbounded Parallelism",
+                    "isList": true,
+                    "key": 27,
+                    "children": [
+                        {
+                            "id": 72,
+                            "content": "with Azadeh Farzan and Andreas Podelski. POPL 2015.",
+                            "key": 1
+                        },
+                        {
+                            "id": 73,
+                            "content": "In this paper, we describe proof spaces, a proof system for verifying safety properties for multi-threaded programs in which the number of executing threads is not statically bounded. Our development of this proof system is motivated by the question of how to generalize a proof of correctness (perhaps obtained from a verifier for sequential programs) of a some finite set of example traces so that the correctness argument applies to all traces of the program. We show that proof spaces are complete relative to the inductive assertion method, and give algorithms for automating them.",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 74,
+                    "content": "PDF           Slides",
+                    "key": 28
+                },
+                {
+                    "id": 75,
+                    "content": "Consistency Analysis of Decision-Making Programs",
+                    "isList": true,
+                    "key": 29,
+                    "children": [
+                        {
+                            "id": 76,
+                            "content": "with Swarat Chaudhuri and Azadeh Farzan. POPL 2014.",
+                            "key": 1
+                        },
+                        {
+                            "id": 77,
+                            "content": "Applications in many areas of computing make discrete decisions under uncertainty; for example, the application may rely on limited numerical precision in input, or on input or sensory data. While an application executing under uncertainty cannot be relied upon to make decisions which are correct with respect to a given world, it is desirable that their decisions are at least consistent (i.e., correct with respect to some possible world). This paper presents a sound, automatic program analysis for verifying program consistency.",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 78,
+                    "content": "PDF",
+                    "key": 30
+                },
+                {
+                    "id": 79,
+                    "content": "Proofs that count",
+                    "isList": true,
+                    "key": 31,
+                    "children": [
+                        {
+                            "id": 80,
+                            "content": "with Azadeh Farzan and Andreas Podelski. POPL 2014.",
+                            "key": 1
+                        },
+                        {
+                            "id": 81,
+                            "content": "Counting arguments are among the most basic methods of proof in mathematics. Within the field of formal verification, they are useful for reasoning about programs with infinite control, such as programs with an unbounded number of threads, or (concurrent) programs with recursive procedures. While counting arguments are common in informal, hand-written proofs of such programs, there are no fully automated techniques to construct counting arguments. The key questions involved in automating counting arguments are: how to decide what should be counted?, and how to decide when a counting argument is valid? In this paper, we present a technique for automatically constructing and checking counting arguments, which includes novel solutions to these questions.",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 82,
+                    "content": "PDF           Slides",
+                    "key": 32
+                },
+                {
+                    "id": 83,
+                    "content": "Symbolic Optimization with SMT solvers",
+                    "isList": true,
+                    "key": 33,
+                    "children": [
+                        {
+                            "id": 84,
+                            "content": "with Yi Li, Aws Albarghouthi, Arie Gurfinkel and Marsha Chechik. POPL 2014.",
+                            "key": 1
+                        },
+                        {
+                            "id": 85,
+                            "content": "The rise in efficiency of Satisfiability Modulo Theories (SMT) solvers has created numerous uses for them in programming languages: software verification, program synthesis, functional programming, refinement types, etc. SMT solvers are effective at finding arbitrary satisfying assignments for formulae, but for some applications it is necessary to find an assignment that optimizes (minimizes/maximizes) certain criteria. We present an efficient SMT-based optimization algorithm for objective functions in the theory of linear real arithmetic.",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 86,
+                    "content": "PDF",
+                    "key": 34
+                },
+                {
+                    "id": 87,
+                    "content": "Duet: static analysis for unbounded parallelism",
+                    "isList": true,
+                    "key": 35,
+                    "children": [
+                        {
+                            "id": 88,
+                            "content": "with Azadeh Farzan. CAV 2013.",
+                            "key": 1
+                        },
+                        {
+                            "id": 89,
+                            "content": "Duet is a static analysis tool for concurrent programs in which the number of executing threads is not statically bounded. It has a modular architecture, which is based on separating the invariant synthesis problem in two subtasks: (1) data dependence analysis, which is used to construct a data flow model of the program, and (2) interpretation of the data flow model over a (possibly infinite) abstract domain, which generates invariants. This separation of concerns allows researchers working on data dependence analysis and abstract domains to combine their efforts toward solving the challenging problem of static analysis for unbounded concurrency.",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 90,
+                    "content": "PDF",
+                    "key": 36
+                },
+                {
+                    "id": 91,
+                    "content": "Recursive program synthesis",
+                    "isList": true,
+                    "key": 37,
+                    "children": [
+                        {
+                            "id": 92,
+                            "content": "with Aws Albargouthi and Sumit Gulwani. CAV 2013.",
+                            "key": 1
+                        },
+                        {
+                            "id": 93,
+                            "content": "Program synthesis from input-output examples has the power of extending the range of computational tasks achievable by end-users who have no programming knowledge, but can articulate their desired computations by describing input-output behaviour. In this paper we present Escher, an algorithm that interacts with the user via input-output examples to synthesize recursive programs. Escher is parameterized by the components that can be used in the program, thus providing a generic synthesis algorithm that can be instantiated to suit different domains. Escher adopts a novel search strategy through the space of programs that utilizes special datastructures for inferring conditionals and synthesizing recursive procedures.",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 94,
+                    "content": "PDF",
+                    "key": 38
+                },
+                {
+                    "id": 95,
+                    "content": "Inductive data flow graphs",
+                    "isList": true,
+                    "key": 39,
+                    "children": [
+                        {
+                            "id": 96,
+                            "content": "with Azadeh Farzan and Andreas Podelski. POPL 2013.",
+                            "key": 1
+                        },
+                        {
+                            "id": 97,
+                            "content": "We propose inductive data flow graphs, data flow graphs with incorporated inductive assertions, as the basis of an approach to verifying concurrent programs. An inductive data flow graph accounts for a set of dependencies between program events, and therefore stands as a representation for the set of executions which give rise to these dependencies. By representing information about dependencies rather than control flow, inductive data flow graphs can yield very succinct proofs. Our strategy for verifying concurrent programs defers reasoning about control to the proof checking step, a purely combinatorial problem, thus avoiding the need to reason about data and control simultaneously.",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 98,
+                    "content": "PDF           Slides",
+                    "key": 40
+                },
+                {
+                    "id": 99,
+                    "content": "Verification of parameterized concurrent programs by modular reasoning about data and control",
+                    "isList": true,
+                    "key": 41,
+                    "children": [
+                        {
+                            "id": 100,
+                            "content": "with Azadeh Farzan. POPL 2012.",
+                            "key": 1
+                        },
+                        {
+                            "id": 101,
+                            "content": "We consider the problem of verifying thread-state properties of multithreaded programs in which the number of active threads cannot be statically bounded. Our approach is based on decomposing the task into two modules, where one reasons about data and the other reasons about control. The two modules are incorporated into a feedback loop, so that the abstractions of data and control are iteratively coarsened as the algorithm progresses (that is, they become weaker) until a fixed point is reached.   This version fixes some typographical errors that appeared in the printed version - thanks to Chinmay Narayan, Suvam Mukherjee, and Deepak D'Souza for finding them.",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 102,
+                    "content": "PDF           Slides",
+                    "key": 42
+                },
+                {
+                    "id": 103,
+                    "content": "Compositional bitvector analysis for concurrent programs with nested locks",
+                    "isList": true,
+                    "key": 43,
+                    "children": [
+                        {
+                            "id": 104,
+                            "content": "with Azadeh Farzan. SAS 2010.",
+                            "key": 1
+                        },
+                        {
+                            "id": 105,
+                            "content": "We propose a new technique for bitvector data flow analysis for concurrent programs. Our algorithm works for concurrent programs that synchronize via nested locks. We give a compositional algorithm that first computes thread summaries and then efficiently combines them to solve the dataflow analysis problem. We show that this algorithm computes precise solutions (meet over all paths) to bitvector problems.",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 106,
+                    "content": "PDF           Slides",
+                    "key": 44
+                }
+            ]
+        },
+        {
+            "id": 107,
+            "content": "teaching",
+            "key": 4,
+            "children": [
+                {
+                    "id": 108,
+                    "content": "Spring 2019 - COS 320: Compiling techniques   Past:",
+                    "key": 1
+                },
+                {
+                    "id": 109,
+                    "content": "",
+                    "isList": true,
+                    "key": 2,
+                    "children": [
+                        {
+                            "id": 110,
+                            "content": "Fall 2018 - COS 516 / ELE 516: Automated Reasoning about Software",
+                            "key": 1
+                        },
+                        {
+                            "id": 111,
+                            "content": "Spring 2018 - COS IW 06: Little Languages and COS IW 07: Practical Solutions to Intractable Problems",
+                            "key": 2
+                        },
+                        {
+                            "id": 112,
+                            "content": "Spring 2017 - COS IW 08: Practical solutions to intractable problems.",
+                            "key": 3
+                        },
+                        {
+                            "id": 113,
+                            "content": "Fall 2016 - COS 597D: Reasoning about concurrent systems.",
+                            "key": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 114,
+            "content": "students",
+            "isList": true,
+            "key": 5,
+            "children": [
+                {
+                    "id": 115,
+                    "content": "Charlie Murphy",
+                    "key": 1
+                },
+                {
+                    "id": 116,
+                    "content": "Jake Silverman",
+                    "key": 2
+                },
+                {
+                    "id": 117,
+                    "content": "Shaowei Zhu",
+                    "key": 3
+                }
+            ]
+        },
+        {
+            "id": 118,
+            "content": "activities",
+            "isList": true,
+            "key": 6,
+            "children": [
+                {
+                    "id": 119,
+                    "content": "CAV 2020: Program Committee.",
+                    "key": 1
+                },
+                {
+                    "id": 120,
+                    "content": "PLDI 2020: External Review Committee.",
+                    "key": 2
+                },
+                {
+                    "id": 121,
+                    "content": "POPL 2019-2020: Workshop co-chair.",
+                    "key": 3
+                },
+                {
+                    "id": 122,
+                    "content": "OBT 2018: Program Committee.",
+                    "key": 4
+                },
+                {
+                    "id": 123,
+                    "content": "CAV 2018: Program Committee.",
+                    "key": 5
+                },
+                {
+                    "id": 124,
+                    "content": "VSTTE 2017: Program Committee.",
+                    "key": 6
+                },
+                {
+                    "id": 125,
+                    "content": "CAV 2017: Program Committee.",
+                    "key": 7
+                },
+                {
+                    "id": 126,
+                    "content": "PLDI 2017: Program Committee.",
+                    "key": 8
+                },
+                {
+                    "id": 127,
+                    "content": "POPL 2017: Program Committee.",
+                    "key": 9
+                },
+                {
+                    "id": 128,
+                    "content": "CAV 2016: Workshop chair/Program Committee.",
+                    "key": 10
+                },
+                {
+                    "id": 129,
+                    "content": "PLDI 2016: External Review Committee.",
+                    "key": 11
+                },
+                {
+                    "id": 130,
+                    "content": "TACAS 2016: Program Committee.",
+                    "key": 12
+                },
+                {
+                    "id": 131,
+                    "content": "SSS 2015: Program Committee",
+                    "key": 13
+                },
+                {
+                    "id": 132,
+                    "content": "Tiny Transactions on Computer Science vol. 3.: Program Committee",
+                    "key": 14
+                },
+                {
+                    "id": 133,
+                    "content": "PLDI 2014: Artifact Evaluation Committee",
+                    "key": 15
+                }
+            ]
+        },
+        {
+            "id": 134,
+            "content": "the rest",
+            "isList": true,
+            "key": 7,
+            "children": [
+                {
+                    "id": 135,
+                    "content": "Slides for POPL 2018 tutorial on algebraic program analysis:   background | intraprocedural analysis | interprocedural analysis | iteration domains",
+                    "key": 1
+                },
+                {
+                    "id": 136,
+                    "content": "I received my PhD from the University of Toronto. My adviser was Azadeh Farzan.",
+                    "key": 2
+                },
+                {
+                    "id": 137,
+                    "content": "Some of my work is implemented in the Duet program analyzer.",
+                    "key": 3
+                },
+                {
+                    "id": 138,
+                    "content": "My Erdős number is 3.",
+                    "key": 4
+                },
+                {
+                    "id": 139,
+                    "content": "Chinmay Narayan has typeset a FAQ for our POPL12 paper.",
+                    "key": 5
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8"/>
+<meta content="pandoc" name="generator"/>
+<meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport"/>
+<title>Zachary Tatlock</title>
+<style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+<link href="css/common.css" rel="stylesheet"/>
+<link href="css/index.css" rel="stylesheet"/>
+<!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-46098184-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-46098184-1');
+  </script>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Zachary Tatlock</h1>
+</header>
+<div id="hdr">
+<h1 id="zachary-tatlock">Zachary Tatlock</h1>
+<div class="line-block"><a href="mailto:ztatlock@cs.washington.edu"><code>ztatlock@cs.washington.edu</code></a><br/>
+Assistant Professor<br/>
+<a href="https://www.cs.washington.edu/">Allen School of Computer Science and Engineering</a><br/>
+<a href="http://www.washington.edu/">University of Washington</a></div>
+</div>
+<div id="nav">
+<p><img alt="Zachary Tatlock" id="profile-pic" src="img/ztatlock-profile.jpg"/></p>
+<ul>
+<li><a href="#research">Research</a></li>
+<li><a href="#students">Students</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#teaching">Teaching</a></li>
+<li><a href="#publications">Publications</a></li>
+<li><a href="#service">Service</a></li>
+<li><a href="#collaborators">Collaborators</a></li>
+<li><a href="#background">Background</a></li>
+</ul>
+</div>
+<div class="clear">
+</div>
+<h2 id="news">News</h2>
+<ul>
+<li>I’ll be giving a talk at Galois Inc. in early September.</li>
+<li>I taught at the <a href="https://deepspec.org/event/dsss18/">Deep Spec Summer School</a> this July at Princeton. Check out the <a href="https://github.com/DeepSpec/dsss18/tree/master/verdi">materials</a>!</li>
+<li>I spoke about verifying systems at the <a href="https://coqworkshop2018.inria.fr/">Coq Workshop 2018</a> co-located with FloC in Oxford, July 2018. See the <a href="https://easychair.org/smart-slide/slide/gJSP#%7Bsn:1%7D">slides</a>!</li>
+<li>I spoke at <a href="https://pldi18.sigplan.org/committee/plmw-pldi-2018-speakers">PLMW @ PLDI 2018</a>. It was a great event for junior researchers in PL thanks to all the hard work of the organizers.</li>
+<li>I lead the organizition for <a href="http://pnwplse.org/">PNW PLSE 2018</a>. If you hang out in the Pacific Northwest and are working in software engineering, programming languages, systems, or related areas make sure to stay tuned for next year’s event!</li>
+<li><a href="#past-news">Past news…</a></li>
+</ul>
+<h2 id="research">Research</h2>
+<p>Computer programming is a huge success; it plays a major role in most modern problem solving. However, for some problems we still have trouble writing programs that reliably do the right thing. My research improves software reliability by developing tools that help programmers ensure their code is safe and accurate.</p>
+<p>My students and I focus on important programs, including the software infrastructure that many other programs rely on (compilers, distributed systems, networks); control programs in safety-critical applications (radiotherapy devices); and approximations used in engineering and manufacturing (floating point, 3D printing). We spend many hours working out proofs on the whiteboard, but we always build working systems. We <a href="https://github.com/uwplse">release our code</a> so others can review and build on our work, and we get free food when we work late.</p>
+<p>All our <a href="#publications">papers</a> and <a href="#projects">projects</a> are collaborations with incredible <a href="#collaborators">colleagues</a>. Our home base is in the vibrant <a href="http://uwplse.org/">UW PLSE</a> group and we also have long term collaborations with <a href="https://sampl.cs.washington.edu/">SAMPL</a>, <a href="https://syslab.cs.washington.edu/">Syslab</a>, the <a href="https://adacenter.org/index.php/">Applications Driving Architectures (ADA)</a> Center, and the <a href="http://sandcat.cs.washington.edu/">SandCat Project</a>.</p>
+<h2 id="students">Students</h2>
+<p>I’m extremely fortunate to advise some spectacular PhD students:</p>
+<div class="students">
+<ul>
+<li><a href="https://homes.cs.washington.edu/~sslyu/">Steven Lyubomirsky</a></li>
+<li><a href="https://homes.cs.washington.edu/~cnandi/">Chandrakana Nandi</a><sup>1</sup></li>
+<li><a href="https://pavpanchekha.com/">Pavel Panchekha</a><sup>2</sup></li>
+<li><a href="https://jroesch.github.io/">Jared Roesch</a></li>
+<li><a href="http://homes.cs.washington.edu/~jrw12/">James R. Wilcox</a></li>
+<li><a href="http://www.dougwoos.com/">Doug Woos</a><sup>2,3</sup></li>
+</ul>
+</div>
+<p>As well as some stellar BS and BS/MS students (co-advised with my graduate students):</p>
+<div class="students">
+<ul>
+<li><a href="https://github.com/joshpoll">Josh Pollock</a></li>
+<li><a href="http://students.washington.edu/chenq9/">Jason (Chen) Qiu</a></li>
+<li><a href="https://homes.cs.washington.edu/~dthien/">David Thien</a></li>
+<li><a href="https://github.com/weberlo">Logan Weber</a></li>
+</ul>
+</div>
+<p>After graduating, students go on to awesome new opportunities:</p>
+<div class="students">
+<ul>
+<li><a href="https://www.linkedin.com/in/juliet-oh-37bb59132/">Juliet Oh</a> (HS 2015 → Princeton BS)</li>
+<li><a href="http://alex.uwplse.org/">Alex Sanchez-Stern</a> (BS/MS 2016 → UCSD PhD)</li>
+<li><a href="http://darzu.io/">Daryl Zuniga</a><sup>1</sup> (BS 2016 → Microsoft)</li>
+<li><a href="https://www.linkedin.com/in/sethdp/">Seth Pendergrass</a> (BS 2017 → Microsoft)</li>
+<li><a href="http://ryandoeng.es/">Ryan Doenges</a> (BS 2017 → Cornell PhD)</li>
+<li><a href="https://homes.cs.washington.edu/~lukenels/">Luke Nelson</a><sup>4</sup> (BS 2017 → UW PhD)</li>
+<li><a href="http://www.konne.me/">Konstantin Weitz</a><sup>2</sup> (PhD 2017 → Google)</li>
+<li><a href="http://homes.cs.washington.edu/~atgeller/">Adam Geller</a> (BS 2018 → UBC Phd)</li>
+<li><a href="https://homes.cs.washington.edu/~emullen/">Eric Mullen</a><sup>1</sup> (PhD 2018 → Google)</li>
+<li><a href="https://homes.cs.washington.edu/~spernste/">Stuart Pernsteiner</a> (PhD 2018 → Galois Inc.)</li>
+</ul>
+</div>
+<div id="co-advising">
+<p>Co-advised with (1) <a href="https://homes.cs.washington.edu/~djg/">Dan Grossman</a>, (2) <a href="https://homes.cs.washington.edu/~mernst/">Michael D. Ernst</a>, (3) <a href="http://www.cs.washington.edu/people/faculty/tom/">Tom Anderson</a>, (4) <a href="http://homes.cs.washington.edu/~xi/">Xi Wang</a></p>
+</div>
+<h2 id="projects">Projects</h2>
+<div id="proj">
+<table>
+<colgroup>
+<col style="width: 19%"/>
+<col style="width: 80%"/>
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><img alt="OEUF_LOGO" src="img/oeuf-logo-75.png"/></td>
+<td style="text-align: left;"><a href="http://oeuf.uwplse.org/">Oeuf</a> explores verified compilation from a subset of <a href="https://coq.inria.fr/refman/gallina.html">Gallina</a> (Coq’s functional programming language) to the <a href="http://compcert.inria.fr/">CompCert</a> <a href="http://compcert.inria.fr/doc/html/Cminor.html">Cminor</a> intermediate representation to enable trustworthy binary executable code generation for <a href="https://coq.inria.fr/">Coq</a>. [CPP 18]</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><img alt="DISCO_LOGO" src="img/disco-logo-75.png"/></td>
+<td style="text-align: left;">The <a href="http://distributedcomponents.net/">Distributed Components</a> project aims to provide modular verified components for distributed systems. [POPL 18, SNAPL 17]</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><img alt="INCARNATE_LOGO" src="img/incarnate-logo-75.png"/></td>
+<td style="text-align: left;"><a href="http://incarnate.uwplse.org/">Incarnate</a> applies ideas from compiler verifiation and numerical methods to improve the reliability of desktop 3D printers. [SNAPL 17]</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><img alt="CASSIUS_LOGO" src="img/cassius-logo-75.png"/></td>
+<td style="text-align: left;"><a href="http://cassius.uwplse.org/">Cassius</a> develops tools to automatically reason about web page layout and help developers ensure their pages are accessible to everyone. [PLDI 18]</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><img alt="HERBGRIND_LOGO" src="img/herbgrind-logo-75.png"/></td>
+<td style="text-align: left;"><a href="http://herbgrind.ucsd.edu/">Herbgrind</a> builds on <a href="http://valgrind.org/">Valgrind</a> to provide binary instrumentation for dynamically identifying the root cause of floating-point inaccuracy in large, low-level numerical programs. [PLDI 18]</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><img alt="NEUTRONS_LOGO" src="img/neutrons-logo-75.jpg"/></td>
+<td style="text-align: left;"><a href="http://neutrons.uwplse.org/">Neutrons</a> develops techniques to ensure the correctness of radiotherapy devices in the <a href="https://staff.washington.edu/jon/cnts/">UW Clinical Neutron Therapy System</a>. [ICALEPCS 17, CAV 16, SNAPL 15]</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><img alt="VERDI_LOGO" src="img/verdi-logo-75.png"/></td>
+<td style="text-align: left;"><a href="http://verdi.uwplse.org/">Verdi</a> provides a framework for formally verifying implementations of distributed systems. [CPP 16, PLDI 15]</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><img alt="HERBIE_LOGO" src="img/herbie-logo-75.png"/></td>
+<td style="text-align: left;"><a href="http://herbie.uwplse.org/">Herbie</a> automatically improves the numerically accuracy of floating-point programs. [PLDI 15]</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><img alt="FPBENCH_LOGO" src="img/fpbench-logo-75.png"/></td>
+<td style="text-align: left;"><a href="http://fpbench.org/">FPBench</a> provides a set of tools and community standard for floating-point accuracy benchmarks. [NSV 16]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Checking out past projects can also help provide a sense for the sort of work we do:</p>
+<div id="past-proj">
+<ul>
+<li><a href="https://github.com/konne88/SpaceSearch">SpaceSearch</a></li>
+<li><a href="http://bagpipe.uwplse.org/bagpipe/">Bagpipe</a></li>
+<li><a href="http://peek.uwplse.org/">Peek</a></li>
+<li><a href="https://homes.cs.washington.edu/~ztatlock/roboflow/">RoboFlow</a></li>
+<li><a href="http://css.csail.mit.edu/jitk/">Jitk</a></li>
+<li><a href="http://goto.ucsd.edu/reflex/">Reflex</a></li>
+<li><a href="pubs/sd-jang-ndss14.pdf">SafeDispatch</a></li>
+<li><a href="http://goto.ucsd.edu/quark/">Quark</a></li>
+<li><a href="http://www.cs.cornell.edu/~ross/publications/eqsat/">Peggy</a></li>
+<li><a href="http://cseweb.ucsd.edu/~lerner/collider.html">PEC/XCert</a></li>
+<li><a href="http://cseweb.ucsd.edu/~lerner/quail.html">Quail</a></li>
+</ul>
+</div>
+<div class="clear">
+</div>
+<h2 id="teaching">Teaching</h2>
+<div id="teach">
+<table>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">Sp 20</td>
+<td><a href="https://sites.google.com/cs.washington.edu/cse-505-Spring-2020">CSE 505: Graduate Programming Languages</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">Wi 20</td>
+<td><a href="https://sites.google.com/cs.washington.edu/cse-341-Winter-2020">CSE 341: Programming Languages</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">Sp 19</td>
+<td><a href="https://sites.google.com/cs.washington.edu/cse-p505-19sp">CSE P505: Graduate Programming Languages</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">Wi 19</td>
+<td><a href="https://sites.google.com/cs.washington.edu/cse341-19wi">CSE 341: Programming Languages</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">Fa 18</td>
+<td><a href="https://sites.google.com/cs.washington.edu/cse-505-18au">CSE 505: Graduate Programming Languages</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">Sp 18</td>
+<td><a href="https://courses.cs.washington.edu/courses/cse331/18sp/">CSE 331: Software Design and Implementation</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">Wi 18</td>
+<td><a href="https://courses.cs.washington.edu/courses/cse341/18wi/">CSE 341: Programming Languages</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">Fa 17</td>
+<td><a href="http://courses.cs.washington.edu/courses/cse505/17au/">CSE 505: Graduate Programming Languages</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">Sp 17</td>
+<td><a href="https://homes.cs.washington.edu/~ztatlock/599z-17sp/">CSE 599Z: Accurate Computing</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">Wi 17</td>
+<td><a href="http://courses.cs.washington.edu/courses/cse331/17wi/">CSE 331: Software Design and Implementation</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">Fa 16</td>
+<td><a href="http://courses.cs.washington.edu/courses/cse505/16au/">CSE 505: Graduate Programming Languages</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">Sp 16</td>
+<td><a href="http://courses.cs.washington.edu/courses/cse599w/16sp/">CSE 599W: Systems Verification</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">Wi 16</td>
+<td><a href="http://courses.cs.washington.edu/courses/cse331/16wi/">CSE 331: Software Design and Implementation</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">Fa 15</td>
+<td><a href="http://courses.cs.washington.edu/courses/cse505/15au/">CSE 505: Graduate Programming Languages</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">Sp 15</td>
+<td><a href="http://courses.cs.washington.edu/courses/cse341/15sp/">CSE 341: Programming Languages</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">Wi 15</td>
+<td><a href="http://courses.cs.washington.edu/courses/cse505/15wi/">CSE 505: Graduate Programming Languages</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">Sp 14</td>
+<td><a href="https://courses.cs.washington.edu/courses/cse341/14sp/">CSE 341: Programming Languages</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">Wi 14</td>
+<td><a href="http://courses.cs.washington.edu/courses/cse506/14wi/">CSE 506: Proof Assistants</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">Fa 13</td>
+<td><a href="http://courses.cs.washington.edu/courses/cse505/13au/">CSE 505: Graduate Programming Languages</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>I was honored to be nominated for the <a href="http://www.washington.edu/teaching/innovation/teaching-awards/nominees-award-recipients/new-teaching-award-nominees/">UW Distinguished Teaching Award</a> in 2015.</p>
+<h2 id="publications">Publications</h2>
+<div id="pubs">
+<table>
+<colgroup>
+<col style="width: 13%"/>
+<col style="width: 86%"/>
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">ICFP 18</td>
+<td><a href="pubs/reincarnate-nandi-icfp18.pdf">Functional Programming for Compiling and Decompiling Computer-Aided Design</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><a href="https://homes.cs.washington.edu/~cnandi/">Chandrakana Nandi</a>, <a href="http://homes.cs.washington.edu/~jrw12/">James R. Wilcox</a>, <a href="https://pavpanchekha.com/">Pavel Panchekha</a>, <a href="https://ttaylorr.com/">Taylor Blau</a>, <a href="https://homes.cs.washington.edu/~djg/">Dan Grossman</a>, <a href="https://homes.cs.washington.edu/~ztatlock/">Zachary Tatlock</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td><a href="http://incarnate.uwplse.org/">project</a>  </td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td> </td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">FM 18</td>
+<td><a href="pubs/fpbench-becker-fm18.pdf">Combining Tools for Optimization and Analysis of Floating-Point Computations</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><a href="https://www.mpi-sws.org/people/hbecker/">Heiko Becker</a>, <a href="https://pavpanchekha.com/">Pavel Panchekha</a>, <a href="https://people.mpi-sws.org/~eva/">Eva Darulova</a>, <a href="https://homes.cs.washington.edu/~ztatlock/">Zachary Tatlock</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td><a href="https://github.com/malyzajko/daisy">Daisy</a>   <a href="http://herbie.uwplse.org/">Herbie</a>   <a href="http://fpbench.org/">FPBench</a>   <!-- TODO --></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td> </td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">MAPL 18</td>
+<td>Relay: A New IR for Machine Learning Frameworks</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><a href="https://jroesch.github.io/">Jared Roesch</a>, <a href="https://homes.cs.washington.edu/~sslyu/">Steven Lyubomirsky</a>, <a href="https://github.com/weberlo">Logan Weber</a>, <a href="https://github.com/joshpoll">Josh Pollock</a>,</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td><a href="https://homes.cs.washington.edu/~tqchen/">Tianqi Chen</a>, <a href="https://homes.cs.washington.edu/~ztatlock/">Zachary Tatlock</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><a href="https://sampl.cs.washington.edu/">project</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td> </td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">ITP 18</td>
+<td>Software Verification with ITPs Should Use Binary Code Extraction to Reduce the TCB (short paper)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td><a href="https://www.cl.cam.ac.uk/~rk436/">Ramana Kumar</a>, <a href="https://homes.cs.washington.edu/~emullen/">Eric Mullen</a>, <a href="https://homes.cs.washington.edu/~ztatlock/">Zachary Tatlock</a>, <a href="http://www.cse.chalmers.se/~myreen/">Magnus O. Myreen</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><a href="https://cakeml.org/">CakeML</a>   <a href="http://oeuf.uwplse.org/">Oeuf</a>   <!-- TODO --></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td> </td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">PLDI 18</td>
+<td>Verifying that Web Pages have Accessible Layout</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td><a href="https://pavpanchekha.com/">Pavel Panchekha</a>, <a href="http://homes.cs.washington.edu/~atgeller/">Adam Geller</a>, <a href="https://homes.cs.washington.edu/~mernst/">Michael D. Ernst</a>, <a href="https://homes.cs.washington.edu/~ztatlock/">Zachary Tatlock</a>, <a href="https://research.adobe.com/person/shoaib-kamil/">Shoaib Kamil</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><a href="http://cassius.uwplse.org/">project</a> <!-- TODO --></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td> </td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">PLDI 18</td>
+<td>Finding Root Causes of Floating Point Error</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td><a href="http://alex.uwplse.org/">Alex Sanchez-Stern</a>, <a href="https://pavpanchekha.com/">Pavel Panchekha</a>, <a href="http://cseweb.ucsd.edu/~lerner/">Sorin Lerner</a>, <a href="https://homes.cs.washington.edu/~ztatlock/">Zachary Tatlock</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><a href="http://herbgrind.ucsd.edu/">project</a> <!-- TODO --></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td> </td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">CPP 18</td>
+<td><a href="pubs/oeuf-mullen-cpp18.pdf">Œuf: Minimizing the Coq Extraction TCB</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td><a href="https://homes.cs.washington.edu/~emullen/">Eric Mullen</a>, <a href="https://homes.cs.washington.edu/~spernste/">Stuart Pernsteiner</a>, <a href="http://homes.cs.washington.edu/~jrw12/">James R. Wilcox</a>, <a href="https://homes.cs.washington.edu/~ztatlock/">Zachary Tatlock</a>, <a href="https://homes.cs.washington.edu/~djg/">Dan Grossman</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><a href="http://oeuf.uwplse.org/">project</a>   <!-- TODO slides --></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td> </td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">POPL 18</td>
+<td><a href="pubs/diesel-sergey-popl18.pdf">Programming and Proving with Distributed Protocols</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td><a href="http://ilyasergey.net/">Ilya Sergey</a>, <a href="http://homes.cs.washington.edu/~jrw12/">James R. Wilcox</a>, <a href="https://homes.cs.washington.edu/~ztatlock/">Zachary Tatlock</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><a href="http://distributedcomponents.net/">project</a>   <a href="https://www.youtube.com/watch?v=zuuBEXhM4tU">talk</a>   <!-- TODO slides --></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td> </td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">ICFP 17</td>
+<td><a href="pubs/spacesearch-weitz-icfp17.pdf">Spacesearch: A Library for Building and Verifying Solver-aided Tools</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td><a href="http://www.konne.me/">Konstantin Weitz</a>, <a href="https://homes.cs.washington.edu/~sslyu/">Steven Lyubomirsky</a>, <a href="https://stefanheule.com/">Stefan Heule</a>,</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><a href="https://homes.cs.washington.edu/~emina/index.html">Emina Torlak</a>, <a href="https://homes.cs.washington.edu/~mernst/">Michael D. Ernst</a>, <a href="https://homes.cs.washington.edu/~ztatlock/">Zachary Tatlock</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td><a href="https://github.com/konne88/SpaceSearch">project</a>   <!-- TODO slides --></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td> </td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">ICALEPCS 17</td>
+<td><a href="pubs/neutrons-jacky-icalepcs17.pdf">Automatic Formal Verification for EPICS</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><a href="http://staff.washington.edu/jon/">Jonathan Jacky</a>, <a href="https://www.researchgate.net/profile/Stefani_Banerian">Stefani Banerian</a>, <a href="https://homes.cs.washington.edu/~mernst/">Michael D. Ernst</a>, <a href="https://homes.cs.washington.edu/~loncaric/">Calvin Loncaric</a>,</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td><a href="https://homes.cs.washington.edu/~spernste/">Stuart Pernsteiner</a>, <a href="https://homes.cs.washington.edu/~ztatlock/">Zachary Tatlock</a>, <a href="https://homes.cs.washington.edu/~emina/index.html">Emina Torlak</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><a href="http://neutrons.uwplse.org/">project</a>   <a href="pubs/neutrons-jacky-icalepcs17-talk.mp4">talk</a>   <a href="pubs/neutrons-jacky-icalepcs17-slides.pdf">pdf slides</a>   <a href="pubs/neutrons-jacky-icalepcs17.bib">bib</a>   <a href="http://accelconf.web.cern.ch/AccelConf/icalepcs2017/html/auth0738.htm">publisher</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td> </td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">SNAPL 17</td>
+<td><a href="pubs/incarnate-nandi-snapl17.pdf">Programming Language Tools and Techniques for 3D Printing</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td><a href="https://homes.cs.washington.edu/~cnandi/">Chandrakana Nandi</a>, <a href="http://escience.washington.edu/people/anat-caspi/">Anat Caspi</a>, <a href="https://homes.cs.washington.edu/~djg/">Dan Grossman</a>, <a href="https://homes.cs.washington.edu/~ztatlock/">Zachary Tatlock</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><a href="http://incarnate.uwplse.org/">project</a>   <!-- TODO slides --></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td> </td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">SNAPL 17</td>
+<td><a href="pubs/diesel-wilcox-snapl17.pdf">Programming Language Abstractions for Modularly Verified Distributed Systems</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td><a href="http://homes.cs.washington.edu/~jrw12/">James R. Wilcox</a>, <a href="http://ilyasergey.net/">Ilya Sergey</a>, <a href="https://homes.cs.washington.edu/~ztatlock/">Zachary Tatlock</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><a href="http://distributedcomponents.net/">project</a>   <!-- TODO slides --></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td> </td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">COQPL 17</td>
+<td><a href="pubs/churn-doenges-coqpl17.pdf">Verification of Implementations of Distributed Systems Under Churn</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td><a href="http://ryandoeng.es/">Ryan Doenges</a>, <a href="http://homes.cs.washington.edu/~jrw12/">James R. Wilcox</a>, <a href="http://www.dougwoos.com/">Doug Woos</a>, <a href="https://homes.cs.washington.edu/~ztatlock/">Zachary Tatlock</a>, <a href="http://www.palmskog.net/">Karl Palmskog</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><a href="http://verdi.uwplse.org/">project</a>   <!-- TODO slides --></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td> </td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">OOPSLA 16</td>
+<td><a href="pubs/bagpipe-weitz-oopsla16.pdf">Scalable Verification of Border Gateway Protocol Configurations with an SMT Solver</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td><a href="http://www.konne.me/">Konstantin Weitz</a>, <a href="http://www.dougwoos.com/">Doug Woos</a>, <a href="https://homes.cs.washington.edu/~emina/index.html">Emina Torlak</a>,</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><a href="https://homes.cs.washington.edu/~mernst/">Michael D. Ernst</a>, <a href="http://www.cs.washington.edu/people/faculty/arvind">Arvind Krishnamurthy</a>, <a href="https://homes.cs.washington.edu/~ztatlock/">Zachary Tatlock</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td><a href="http://bagpipe.uwplse.org/bagpipe/">project</a>   <!-- TODO slides --></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td> </td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">NSV 16</td>
+<td><a href="pubs/fpbench-damouche-nsv16.pdf">Toward a Standard Benchmark Format and Suite for Floating-point Analysis</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><a href="http://perso.univ-perp.fr/nasrine.damouche/">Nasrine Damouche</a>, <a href="http://perso.univ-perp.fr/mmartel/">Matthieu Martel</a>, <a href="https://pavpanchekha.com/">Pavel Panchekha</a>,</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td><a href="http://students.washington.edu/chenq9/">Chen Qiu</a>, <a href="http://alex.uwplse.org/">Alexander Sanchez-Stern</a>, <a href="https://homes.cs.washington.edu/~ztatlock/">Zachary Tatlock</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><a href="http://fpbench.org/">project</a>   <a href="pubs/fpbench-damouche-nsv16-talk.mp4">talk</a>   <a href="pubs/fpbench-damouche-nsv16-slides.pdf">pdf slides</a> <!-- TODO slides pptx --></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td> </td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">NETPL 16</td>
+<td><a href="pubs/bagpipe-weitz-netpl16.pdf">Formal Semantics and Automated Verification for the Border Gateway Protocol</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td><a href="http://www.konne.me/">Konstantin Weitz</a>, <a href="http://www.dougwoos.com/">Doug Woos</a>, <a href="https://homes.cs.washington.edu/~emina/index.html">Emina Torlak</a>,</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><a href="https://homes.cs.washington.edu/~mernst/">Michael D. Ernst</a>, <a href="http://www.cs.washington.edu/people/faculty/arvind">Arvind Krishnamurthy</a>, <a href="https://homes.cs.washington.edu/~ztatlock/">Zachary Tatlock</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td><a href="http://bagpipe.uwplse.org/bagpipe/">project</a>   <!-- TODO slides --></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td> </td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">CAV 16</td>
+<td><a href="pubs/neutrons-pernsteiner-cav16.pdf">Investigating Safety of a Radiotherapy Machine using System Models with Pluggable Checkers</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><a href="https://homes.cs.washington.edu/~spernste/">Stuart Pernsteiner</a>, <a href="https://homes.cs.washington.edu/~loncaric/">Calvin Loncaric</a>, <a href="https://homes.cs.washington.edu/~emina/index.html">Emina Torlak</a>,</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td><a href="https://homes.cs.washington.edu/~ztatlock/">Zachary Tatlock</a>, <a href="http://homes.cs.washington.edu/~xi/">Xi Wang</a>, <a href="https://homes.cs.washington.edu/~mernst/">Michael D. Ernst</a>, <a href="http://staff.washington.edu/jon/">Jonathan Jacky</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><a href="http://neutrons.uwplse.org/">project</a>   <!-- TODO slides --></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td> </td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">PLDI 16</td>
+<td><a href="pubs/peek-mullen-pldi16.pdf">Verified Peephole Optimizations for CompCert</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td><a href="https://homes.cs.washington.edu/~emullen/">Eric Mullen</a>, <a href="http://darzu.io/">Daryl Zuniga</a>, <a href="https://homes.cs.washington.edu/~ztatlock/">Zachary Tatlock</a>, <a href="https://homes.cs.washington.edu/~djg/">Dan Grossman</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><a href="http://peek.uwplse.org/">project</a>   <a href="pubs/peek-mullen-pldi16-talk.m4v">talk</a>   <!-- TODO : slides --></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td> </td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">CPP 16</td>
+<td><a href="pubs/verdi-woos-cpp16.pdf">Planning for Change in a Formal Verification of the Raft Consensus Protocol</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td><a href="http://homes.cs.washington.edu/~jrw12/">James R. Wilcox</a>, <a href="http://www.dougwoos.com/">Doug Woos</a>, <a href="https://www.linkedin.com/in/steve-anton-944aa36b/">Steve Anton</a>,</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><a href="https://homes.cs.washington.edu/~ztatlock/">Zachary Tatlock</a>, <a href="https://homes.cs.washington.edu/~mernst/">Michael D. Ernst</a>, <a href="http://www.cs.washington.edu/people/faculty/tom/">Tom Anderson</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td><a href="http://verdi.uwplse.org/">project</a>   <a href="pubs/verdi-woos-cpp16-slides.pdf">pdf slides</a>   <!-- TODO keynote slides --></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td> </td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">SNAPL 15</td>
+<td><a href="pubs/neutrons-ernst-snapl15.pdf">Toward a Dependability Case Language and Workflow for a Radiation Therapy System</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><a href="https://homes.cs.washington.edu/~mernst/">Michael D. Ernst</a>, <a href="https://homes.cs.washington.edu/~djg/">Dan Grossman</a>, <a href="http://staff.washington.edu/jon/">Jon Jacky</a>, <a href="https://homes.cs.washington.edu/~loncaric/">Calvin Loncaric</a>,</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td><a href="https://homes.cs.washington.edu/~spernste/">Stuart Pernsteiner</a>, <a href="https://homes.cs.washington.edu/~ztatlock/">Zachary Tatlock</a>, <a href="https://homes.cs.washington.edu/~emina/index.html">Emina Torlak</a>, <a href="http://homes.cs.washington.edu/~xi/">Xi Wang</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><a href="http://neutrons.uwplse.org/">project</a>   <a href="pubs/neutrons-ernst-snapl15-slides.pdf">pdf slides</a>   <!-- TODO keynote slides --></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td> </td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">PLDI 15</td>
+<td><a href="pubs/herbie-panchekha-pldi15.pdf">Automatically Improving Accuracy for Floating Point Expressions</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td><a href="https://pavpanchekha.com/">Pavel Panchekha</a>, <a href="http://alex.uwplse.org/">Alex Sanchez-Stern</a>, <a href="http://homes.cs.washington.edu/~jrw12/">James R. Wilcox</a>, <a href="https://homes.cs.washington.edu/~ztatlock/">Zachary Tatlock</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><a href="http://herbie.uwplse.org/">project</a>   <a href="pubs/herbie-panchekha-pldi15-video-abstract.mp4">video abstract</a>   <a href="pubs/herbie-panchekha-pldi15-talk.mkv">talk</a>   <a href="pubs/herbie-panchekha-pldi15-poster.pdf">poster</a>   <a href="pubs/herbie-panchekha-pldi15-slides.pdf">pdf slides</a> <!-- TODO slides key --></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td><em>Distinguished Paper Award</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td> </td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">PLDI 15</td>
+<td><a href="pubs/verdi-wilcox-pldi15.pdf">Verdi: A Framework for Implementing and Formally Verifying Distributed Systems</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><a href="http://homes.cs.washington.edu/~jrw12/">James R. Wilcox</a>, <a href="http://www.dougwoos.com/">Doug Woos</a>, <a href="https://pavpanchekha.com/">Pavel Panchekha</a>,</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td><a href="https://homes.cs.washington.edu/~ztatlock/">Zachary Tatlock</a>, <a href="http://homes.cs.washington.edu/~xi/">Xi Wang</a>, <a href="https://homes.cs.washington.edu/~mernst/">Michael D. Ernst</a>, <a href="http://www.cs.washington.edu/people/faculty/tom/">Tom Anderson</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><a href="http://verdi.uwplse.org/">project</a>   <a href="pubs/verdi-wilcox-pldi15-slides.pdf">pdf slides</a>   <!-- TODO keynote slides --></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td> </td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">HRI 15</td>
+<td><a href="pubs/roboflow-alexandrova-hri15.pdf">Visual Robot Programming for Generalizable Mobile Manipulation Tasks</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td><a href="https://scholar.google.com/citations?user=LidK--MAAAAJ&amp;hl=en">Sonya Alexandrova</a>, <a href="https://homes.cs.washington.edu/~ztatlock/">Zachary Tatlock</a>, <a href="https://homes.cs.washington.edu/~mcakmak/">Maya Cakmak</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><a href="https://homes.cs.washington.edu/~ztatlock/roboflow/">project</a> <!-- TODO port roboflow to new site --></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td> </td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">ICRA 15</td>
+<td><a href="pubs/roboflow-alexandrova-icra15.pdf">RoboFlow: A Flow-based Visual Programming Language for Mobile Manipulation Tasks</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td><a href="https://scholar.google.com/citations?user=LidK--MAAAAJ&amp;hl=en">Sonya Alexandrova</a>, <a href="https://homes.cs.washington.edu/~ztatlock/">Zachary Tatlock</a>, <a href="https://homes.cs.washington.edu/~mcakmak/">Maya Cakmak</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><a href="https://homes.cs.washington.edu/~ztatlock/roboflow/">project</a> <!-- TODO port roboflow to new site --></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td> </td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">COQPL 15</td>
+<td><a href="pubs/peek-mullen-coqpl15.pdf">Peek: A Formally Verified Peephole Optimization Framework for x86</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td><a href="https://homes.cs.washington.edu/~emullen/">Eric Mullen</a>, <a href="https://homes.cs.washington.edu/~ztatlock/">Zachary Tatlock</a>, <a href="https://homes.cs.washington.edu/~djg/">Dan Grossman</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><a href="http://peek.uwplse.org/">project</a> <!-- TODO : slides --></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td> </td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">OSDI 14</td>
+<td><a href="pubs/jitk-wang-osdi14.pdf">Jitk: A Trustworthy In-Kernel Interpreter Infrastructure</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td><a href="http://homes.cs.washington.edu/~xi/">Xi Wang</a>, <a href="https://davidlazar.org/">David Lazar</a>, <a href="http://people.csail.mit.edu/nickolai/">Nickolai Zeldovich</a>, <a href="http://adam.chlipala.net/">Adam Chlipala</a>, <a href="https://homes.cs.washington.edu/~ztatlock/">Zachary Tatlock</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><a href="http://css.csail.mit.edu/jitk/">project</a>   <a href="pubs/jitk-wang-osdi14-talk.mp4">talk</a>   <a href="pubs/jitk-wang-osdi14-slides.pdf">slides</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td> </td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">PLDI 14</td>
+<td><a href="pubs/reflex-ricketts-pldi14.pdf">Automating Formal Proofs for Reactive Systems</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td><a href="http://cseweb.ucsd.edu/~daricket/">Daniel Ricketts</a>, <a href="http://cseweb.ucsd.edu/~vrobert/">Valentin Robert</a>, <a href="http://cseweb.ucsd.edu/~d1jang/">Dongseok Jang</a>, <a href="https://homes.cs.washington.edu/~ztatlock/">Zachary Tatlock</a>, <a href="http://cseweb.ucsd.edu/~lerner/">Sorin Lerner</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><a href="http://goto.ucsd.edu/reflex/">project</a>   <a href="pubs/reflex-ricketts-pldi14-talk.mp4">talk</a>   <a href="pubs/reflex-ricketts-pldi14-slides.pdf">pdf slides</a>   <a href="pubs/reflex-ricketts-pldi14-slides.key">slides</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td> </td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">NDSS 14</td>
+<td><a href="pubs/sd-jang-ndss14.pdf">SafeDispatch: Securing C++ Virtual Calls from Memory Corruption Attacks</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td><a href="http://cseweb.ucsd.edu/~d1jang/">Dongseok Jang</a>, <a href="https://homes.cs.washington.edu/~ztatlock/">Zachary Tatlock</a>, <a href="http://cseweb.ucsd.edu/~lerner/">Sorin Lerner</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><a href="pubs/sd-jang-ndss14-slides.pdf">pdf slides</a>   <a href="pubs/sd-jang-ndss14-slides.pptx">slides</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td> </td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">SECURITY 12</td>
+<td><a href="pubs/quark-jang-usenixsec12.pdf">Establishing Browser Security Guarantees Through Formal Shim Verification</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td><a href="http://cseweb.ucsd.edu/~d1jang/">Dongseok Jang</a>, <a href="https://homes.cs.washington.edu/~ztatlock/">Zachary Tatlock</a>, <a href="http://cseweb.ucsd.edu/~lerner/">Sorin Lerner</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><a href="http://goto.ucsd.edu/quark/">project</a>   <a href="pubs/quark-jang-usenixsec12-poster.pdf">poster</a>   <a href="pubs/quark-jang-usenixsec12-talk.mp4">talk</a>   <a href="pubs/quark-jang-usenixsec12-slides.pdf">slides</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td> </td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">LMCS 11</td>
+<td><a href="pubs/eqsat-tate-lmcs11.pdf">Equality Saturation: A New Approach to Optimization</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td><a href="http://www.cs.cornell.edu/~ross/">Ross Tate</a>, <a href="http://goto.ucsd.edu/~mstepp/">Michael Stepp</a>, <a href="https://homes.cs.washington.edu/~ztatlock/">Zachary Tatlock</a>, <a href="http://cseweb.ucsd.edu/~lerner/">Sorin Lerner</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><a href="http://www.cs.cornell.edu/~ross/publications/eqsat/">project</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td> </td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">PLDI 10</td>
+<td><a href="pubs/xcert-tatlock-pldi10.pdf">Bringing Extensibility to Verified Compilers</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td><a href="https://homes.cs.washington.edu/~ztatlock/">Zachary Tatlock</a>, <a href="http://cseweb.ucsd.edu/~lerner/">Sorin Lerner</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><a href="http://cseweb.ucsd.edu/~lerner/collider.html">project</a>   <a href="pubs/xcert-tatlock-pldi10-slides.pptx">slides</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td> </td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">PLDI 09</td>
+<td><a href="pubs/pec-kundu-pldi09.pdf">Proving Optimizations Correct Using Parameterized Program Equivalence</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td><a href="http://mesl.ucsd.edu/sudipta/">Sudipta Kundu</a>, <a href="https://homes.cs.washington.edu/~ztatlock/">Zachary Tatlock</a>, <a href="http://cseweb.ucsd.edu/~lerner/">Sorin Lerner</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><a href="http://cseweb.ucsd.edu/~lerner/collider.html">project</a>   <a href="pubs/pec-kundu-pldi09-talk.mp4">talk</a>   <a href="pubs/pec-kundu-pldi09-slides.pptx">slides</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td> </td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">POPL 09</td>
+<td><a href="pubs/eqsat-tate-popl09.pdf">Equality Saturation: A New Approach to Optimization</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td><a href="http://www.cs.cornell.edu/~ross/">Ross Tate</a>, <a href="http://goto.ucsd.edu/~mstepp/">Michael Stepp</a>, <a href="https://homes.cs.washington.edu/~ztatlock/">Zachary Tatlock</a>, <a href="http://cseweb.ucsd.edu/~lerner/">Sorin Lerner</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><a href="http://www.cs.cornell.edu/~ross/publications/eqsat/">project</a>   <a href="pubs/eqsat-tate-popl09-talk.mp4">talk</a>   <a href="pubs/eqsat-tate-popl09-slides.pptx">slides</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td> </td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">OOPSLA 08</td>
+<td><a href="pubs/dtar-tatlock-oopsla08.pdf">Deep Typechecking and Refactoring</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td><a href="https://homes.cs.washington.edu/~ztatlock/">Zachary Tatlock</a>, <a href="https://www.linkedin.com/in/ctucker/">Chris Tucker</a>, <a href="https://www.linkedin.com/in/david-shuffelton-3209412/">David Shuffelton</a>, <a href="https://ranjitjhala.github.io/">Ranjit Jhala</a>, <a href="http://cseweb.ucsd.edu/~lerner/">Sorin Lerner</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><a href="http://cseweb.ucsd.edu/~lerner/quail.html">project</a>   <a href="pubs/dtar-tatlock-oopsla08-poster.pdf">poster</a>   <a href="pubs/dtar-tatlock-oopsla08-slides.pptx">slides</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Similar listings are available at: <a href="http://dblp.uni-trier.de/pers/hd/t/Tatlock:Zachary">DBLP</a>, <a href="https://scholar.google.com/citations?user=jz2Tvk4AAAAJ&amp;hl=en">Google Scholar</a>, <a href="https://www.semanticscholar.org/author/Zachary-Tatlock/2272813">Semantic Scholar</a>, <a href="https://www.researchgate.net/profile/Zachary_Tatlock">Research Gate</a></p>
+<h2 id="service">Service</h2>
+<p>Reviewing:</p>
+<ul>
+<li>ICFP 2019 External Review Committee</li>
+<li>TOPLAS Referee 2018</li>
+<li>PLDI 2019 Program Committee</li>
+<li>CPP 2019 Program Committee</li>
+<li>ITP 2018 Program Committee</li>
+<li>POPL 2018 Program Committee</li>
+<li>PNW PLSE 2018 Organizing and Program Committee Chair</li>
+<li>Onward! 2017 Program Committee</li>
+<li>Splash 2017 Doctoral Symposium Program Committee</li>
+<li>ASPLOS 2017 External Reviewer</li>
+<li>POPL 2017 External Reviewer</li>
+<li>PLDI 2016 Program Committee</li>
+<li>PLDI 2016 Artifact Evaluation Committee co-Chair</li>
+<li>CPP 2016 Program Committee</li>
+<li>ASPLOS 2016 External Review Committee</li>
+<li>POPL 2016 External Review Committee</li>
+<li>POPL 2016 Student Research Competition Organizer</li>
+<li>PLDI 2015 Student Research Competition Committee</li>
+<li>CoqPL 2015 Program Committee</li>
+<li>POPL 2015 External Review Committee</li>
+<li>Inspirations at SPLASH 2014 Organizer and Speaker</li>
+<li>OOPSLA 2014 External Review Committee</li>
+<li>PLDI 2014 External Review Committee</li>
+<li>Compiler Construction 2009 External Reviewer</li>
+</ul>
+<h2 id="collaborators">Collaborators</h2>
+<p>I have been very fortunate to work on projects with some amazing folks over the years:</p>
+<div id="collabs">
+<ul>
+<li><a href="http://adam.chlipala.net/">Adam Chlipala</a></li>
+<li><a href="http://homes.cs.washington.edu/~atgeller/">Adam Geller</a></li>
+<li><a href="http://alex.uwplse.org/">Alex Sanchez-Stern</a></li>
+<li><a href="http://escience.washington.edu/people/anat-caspi/">Anat Caspi</a></li>
+<li><a href="http://hosking.github.io/">Antony Hosking</a></li>
+<li><a href="http://www.cs.washington.edu/people/faculty/arvind">Arvind Krishnamurthy</a></li>
+<li><a href="https://www.cc.gatech.edu/~wharris/">Bill Harris</a></li>
+<li><a href="https://homes.cs.washington.edu/~loncaric/">Calvin Loncaric</a></li>
+<li><a href="https://homes.cs.washington.edu/~cnandi/">Chandrakana Nandi</a></li>
+<li><a href="http://students.washington.edu/chenq9/">Chen Qiu</a></li>
+<li><a href="https://www.linkedin.com/in/ctucker/">Chris Tucker</a></li>
+<li><a href="https://homes.cs.washington.edu/~djg/">Dan Grossman</a></li>
+<li><a href="http://cseweb.ucsd.edu/~daricket/">Daniel Ricketts</a></li>
+<li><a href="http://darzu.io/">Daryl Zuniga</a></li>
+<li><a href="https://davidlazar.org/">David Lazar</a></li>
+<li><a href="https://www.linkedin.com/in/david-shuffelton-3209412/">David Shuffelton</a></li>
+<li><a href="http://cseweb.ucsd.edu/~d1jang/">Dongseok Jang</a></li>
+<li><a href="http://www.dougwoos.com/">Doug Woos</a></li>
+<li><a href="https://homes.cs.washington.edu/~emina/index.html">Emina Torlak</a></li>
+<li><a href="https://homes.cs.washington.edu/~emullen/">Eric Mullen</a></li>
+<li><a href="https://people.mpi-sws.org/~eva/">Eva Darulova</a></li>
+<li><a href="https://www.mpi-sws.org/people/hbecker/">Heiko Becker</a></li>
+<li><a href="http://ilyasergey.net/">Ilya Sergey</a></li>
+<li><a href="http://homes.cs.washington.edu/~jrw12/">James R. Wilcox</a></li>
+<li><a href="https://jroesch.github.io/">Jared Roesch</a></li>
+<li><a href="http://staff.washington.edu/jon/">Jon Jacky</a></li>
+<li><a href="https://pjreddie.com/">Joseph Chet Redmon</a></li>
+<li><a href="https://github.com/joshpoll">Josh Pollock</a></li>
+<li><a href="https://www.linkedin.com/in/juliet-oh-37bb59132/">Juliet Oh</a></li>
+<li><a href="http://www.palmskog.net/">Karl Palmskog</a></li>
+<li><a href="http://www.konne.me/">Konstantin Weitz</a></li>
+<li><a href="https://github.com/weberlo">Logan Weber</a></li>
+<li><a href="https://homes.cs.washington.edu/~lukenels/">Luke Nelson</a></li>
+<li><a href="http://www.cse.chalmers.se/~myreen/">Magnus O. Myreen</a></li>
+<li><a href="http://perso.univ-perp.fr/mmartel/">Matthieu Martel</a></li>
+<li><a href="https://homes.cs.washington.edu/~mcakmak/">Maya Cakmak</a></li>
+<li><a href="https://students.washington.edu/medskm/">Melissa Medsker-Galloway</a></li>
+<li><a href="https://homes.cs.washington.edu/~mernst/">Michael D. Ernst</a></li>
+<li><a href="http://goto.ucsd.edu/~mstepp/">Michael Stepp</a></li>
+<li><a href="http://perso.univ-perp.fr/nasrine.damouche/">Nasrine Damouche</a></li>
+<li><a href="http://people.csail.mit.edu/nickolai/">Nickolai Zeldovich</a></li>
+<li><a href="https://pavpanchekha.com/">Pavel Panchekha</a></li>
+<li><a href="https://www.cl.cam.ac.uk/~rk436/">Ramana Kumar</a></li>
+<li><a href="https://ranjitjhala.github.io/">Ranjit Jhala</a></li>
+<li><a href="http://www.cs.cornell.edu/~ross/">Ross Tate</a></li>
+<li><a href="http://ryandoeng.es/">Ryan Doenges</a></li>
+<li><a href="https://www.linkedin.com/in/sethdp/">Seth Pendergrass</a></li>
+<li><a href="https://research.adobe.com/person/shoaib-kamil/">Shoaib Kamil</a></li>
+<li><a href="https://scholar.google.com/citations?user=LidK--MAAAAJ&amp;hl=en">Sonya Alexandrova</a></li>
+<li><a href="http://cseweb.ucsd.edu/~lerner/">Sorin Lerner</a></li>
+<li><a href="https://stefanheule.com/">Stefan Heule</a></li>
+<li><a href="https://www.researchgate.net/profile/Stefani_Banerian">Stefani Banerian</a></li>
+<li><a href="https://www.linkedin.com/in/steve-anton-944aa36b/">Steve Anton</a></li>
+<li><a href="https://homes.cs.washington.edu/~sslyu/">Steven Lyubomirsky</a></li>
+<li><a href="https://homes.cs.washington.edu/~spernste/">Stuart Pernsteiner</a></li>
+<li><a href="http://mesl.ucsd.edu/sudipta/">Sudipta Kundu</a></li>
+<li><a href="https://www.cs.purdue.edu/homes/suresh/">Suresh Jagannathan</a></li>
+<li><a href="https://ttaylorr.com/">Taylor Blau</a></li>
+<li><a href="https://homes.cs.washington.edu/~tqchen/">Tianqi Chen</a></li>
+<li><a href="http://www.cs.washington.edu/people/faculty/tom/">Tom Anderson</a></li>
+<li><a href="http://cseweb.ucsd.edu/~vrobert/">Valentin Robert</a></li>
+<li><a href="http://homes.cs.washington.edu/~xi/">Xi Wang</a></li>
+</ul>
+</div>
+<div class="clear">
+</div>
+<h2 id="background">Background</h2>
+<p>My research interests include formal verification, compilers, and security. Even outside the lab, I try to code for fun most days. If I’m not hacking, I’m running with friends or making something. I can juggle and solve Rubik’s cubes, but not at the same time. Also, my name has a <a href="http://totalcrazyhack.net/">wicked cool anagram</a>.</p>
+<p>I spent six sunny years at <a href="http://cse.ucsd.edu/">UC San Diego</a> working on the PhD with my incredible advisor <a href="http://cseweb.ucsd.edu/~lerner/">Sorin Lerner</a>. Throughout grad school, Sorin set a stellar example of how remarkable research can be when you put students first, an example I strive to emulate. I also learned many invaluable lessons from the great <a href="https://ranjitjhala.github.io/">Ranjit Jhala</a>, especially when it comes to writing and presentation: <em>Less is more!</em></p>
+<p>I graduated from <a href="http://www.purdue.edu/">Purdue University</a> back in Spring 2007 with degrees in <a href="http://www.cs.purdue.edu/">Computer Science</a> and <a href="http://www.math.purdue.edu/">Mathematics</a>. As an undergraduate, I was fortunate to perform research with <a href="https://www.cs.purdue.edu/homes/suresh/">Suresh Jagannathan</a> on the SML compiler <a href="http://mlton.org/">MLton</a>. For our Honors Project, advised by <a href="http://hosking.github.io/">Antony Hosking</a>, <a href="https://www.cc.gatech.edu/~wharris/">Bill Harris</a> and I designed and implemented a domain specific language to control a giant neon sculpture over the web. Over nearly three years, I ran the lab component of Purdue’s introductory Java programming course.</p>
+<h2 id="past-news">Past News</h2>
+<ul>
+<li>Our submissions on <a href="http://cassius.uwplse.org/">Cassius</a> and <a href="http://herbgrind.ucsd.edu/">Herbgrind</a> were both accepted to <a href="https://conf.researchr.org/home/pldi-2018">PLDI 2018</a>. The talks in Philly June 2018 were great!</li>
+<li><a href="http://homes.cs.washington.edu/~jrw12/">James Wilcox</a>’s February 2018 article in CACM on <a href="https://dl.acm.org/citation.cfm?id=3132271">Highlights in Systems Verification</a> has a nice account of <a href="http://verdi.uwplse.org/">Verdi</a> and other marquee verification successes in the field.</li>
+<li>I was honored to receive an <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1749570&amp;HistoricalAwards=false">NSF CAREER Award</a> in early 2018.</li>
+<li>The September 2018 CACM article on <a href="https://cacm.acm.org/magazines/2017/8/219596-hacker-proof-coding/fulltext">Hacker-Proof Coding</a> featured our work on <a href="http://neutrons.uwplse.org/">verifying radiotherapy control systems</a>.</li>
+<li>In Fall 2017 <a href="http://neutrons.uwplse.org/">Neutrons</a> was featured in <a href="https://news.cs.washington.edu/2017/08/08/allen-schools-zachary-tatlock-and-neutrons-software-verification-project-featured-in-communications-of-the-acm/">CSE News</a>.</li>
+<li>In August 2017, <a href="https://pavpanchekha.com/">Pavel</a> and I presented at a <a href="pubs/17-fp-dagstuhl.pdf">Dagstuhl on Floating Point</a>.</li>
+<li>In June 2017, I gave a <a href="http://coalg.org/mfps-calco2017/invited-mfps.html">talk at MFPS</a> on the <a href="http://bagpipe.uwplse.org/bagpipe/">Bagpipe</a> and <a href="http://verdi.uwplse.org/">Verdi</a> projects for verifying distributed systems.</li>
+<li>In April 2017, I gave a <a href="https://purduepl.github.io/seminars.html">talk at Purdue</a> on the <a href="http://bagpipe.uwplse.org/bagpipe/">Bagpipe</a> tool for verifying BGP router configurations.</li>
+<li>In February 2017, I gave a <a href="http://www.cs.utah.edu/calendar/colloquium-zach-tatlock/">talk at Utah</a> on <a href="http://herbie.uwplse.org/">Herbie</a>, <a href="http://herbgrind.ucsd.edu/">Herbgrind</a>, and <a href="http://fpbench.org/">FPBench</a>.</li>
+<li>I was honored to receive a <a href="https://research.googleblog.com/2016/02/google-research-awards-Fall-2015.html">Google Faculty Award in 2016</a>.</li>
+<li>I gave an invited talk at <a href="http://www.cs.toronto.edu/~chechik/vstte16/tatlock.html">VSTTE 2016</a> on <a href="http://neutrons.uwplse.org/">verifying radiotherapy control software</a>.</li>
+<li>In 2010, I wrote a chapter for <a href="http://mesl.ucsd.edu/sudipta/">Dipu</a>’s book <a href="http://www.Springer.com/us/book/9781441993588">High-Level Verification</a>.</li>
+</ul>
+<h2 id="misc">Misc</h2>
+<p>We have a great running group, <a href="http://raceconditionrunning.com/">Race Condition Running</a>, that trots all over the city and gets brunch each week.</p>
+<div class="center">
+<p><img alt="race condition running" class="photo-80" src="img/race-condition-running.jpg"/></p>
+</div>
+<p>The PLSE faculty are a great group, with incredible fashion sense.</p>
+<div class="center">
+<p><img alt="UW PLSE faculty ponchos" class="photo-80" src="img/plse-faculty-ponchos.jpg"/></p>
+</div>
+<p>I help out with a bunch of stuff around the Allen School, including <a href="https://tgif.cs.washington.edu">TGIF</a>. Sometimes famous guests swing by :)</p>
+<div class="center">
+<p><img alt="david walker and zach tatlock uw cse tgif" class="photo-80" src="https://goo.gl/aPVRba"/></p>
+</div>
+<p>I also help with the holiday skit where we try to take things a little less seriously.</p>
+<div class="center">
+<p><img alt="UW CSE charlie brown faculty skit" class="photo-80" src="img/charlie-brown-skit.jpg"/></p>
+</div>
+<p>In Spring 2017 my first PhD student <a href="http://www.konne.me/">Konstantin</a> graduated!</p>
+<div class="center">
+<p><img alt="Konstantin Weitz graduation" class="photo-80" src="img/konne-graduation.jpg"/></p>
+</div>
+<p>In Summer 2017, <a href="https://pavpanchekha.com/">Pavel</a> and I met with a bunch of great folks at a <a href="pubs/17-fp-dagstuhl.pdf">Dagstuhl on Floating Point</a>.</p>
+<div class="center">
+<p><img alt="2017 floating point dagstuhl" class="photo-80" src="img/17-fp-dagstuhl.jpg"/></p>
+</div>
+<p>In Spring 2017, a bunch of us went to the second <a href="http://snapl.org/2017/index.html">SNAPL</a> at Asilomar.</p>
+<div class="center">
+<p><img alt="2017 SNAPL" class="photo-80" src="img/snapl17-full-group.jpg"/></p>
+</div>
+<p><a href="https://homes.cs.washington.edu/~emina/index.html">Emina</a> and I made video about <a href="http://neutrons.uwplse.org/">Neutrons</a>.</p>
+<div class="center">
+<iframe allowfullscreen="" src="https://www.youtube.com/embed/QdR9_TJ1br8" style="width: 80%; height: 350px">
+</iframe>
+</div>
+<p>We made a cool video showing how <a href="https://homes.cs.washington.edu/~ztatlock/roboflow/">Roboflow</a> works.</p>
+<div class="center">
+<iframe allowfullscreen="" src="https://www.youtube.com/embed/CEKFUMBNEmU" style="width: 80%; height: 350px">
+</iframe>
+</div>
+<p>My friend Garbo and I run Seattle’s premier pizza haiku blog: <a href="http://seattlepizzaodyssey.tumblr.com/">Seattle Pizza Odyssey</a>.</p>
+<p>Some folks in the department juggle stuff.</p>
+<div class="center">
+<p><img alt="ztatlock juggling" id="juggling-photo" src="img/ztatlock-juggling.jpg"/></p>
+</div>
+<p>We teach many important <a href="https://news.cs.washington.edu/2015/09/08/uw-cses-zach-tatlock-learns-to-wear-shoes/">life skills</a> here in the Allen School.</p>
+<p>UCSD’s 2014 Holiday Party featured an <a href="https://www.youtube.com/watch?v=z2kXq1Fkhvg&amp;feature=youtu.be">inspirational ad</a>, and <a href="https://news.cs.washington.edu/2014/12/17/uw-cses-zach-tatlock-in-ucsd-cse-holiday-party-2014-give-them-your-dissertation/">Ed noticed</a>.</p>
+<p>Once while interning at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-india/">MSR India</a>, I got to drive an auto rickshaw.</p>
+<div class="center">
+<p><img alt="ztatlock rickshaw" class="photo-80" src="img/ztatlock-rickshaw.jpg"/></p>
+</div>
+<p>Some things worth reading:</p>
+<ul>
+<li><a href="https://blog.regehr.org/">John Regehr’s Blog</a></li>
+<li><a href="http://matt.might.net/articles/">Matt Might’s Blog</a></li>
+<li><a href="https://homes.cs.washington.edu/~jfogarty/">Fogarty</a> on <a href="https://homes.cs.washington.edu/~jfogarty/publications/workshop-chi2017-codeandcontribution.pdf">Code and Contribution</a></li>
+<li>Gabriel on <a href="https://www.dreamsongs.com/WorseIsBetter.html">Worse Is Better</a></li>
+<li>Simon on <a href="https://www.jstor.org/stable/985254">The Architecture of Complexity</a></li>
+<li><a href="https://www.amazon.com/Style-Basics-Clarity-Grace-5th/dp/0321953304">Style: The Basics of Clarity and Grace</a></li>
+<li>Orwell on <a href="http://www.orwell.ru/library/essays/politics/english/e_polit/">Politics and the English Language</a></li>
+<li><a href="https://www.nature.com/articles/d41586-018-07332-x">Twenty things I wish I’d known when I started my PhD</a></li>
+<li><a href="https://www.cs.unc.edu/~azuma/hitch4.html">So long, and thanks for the PhD!</a></li>
+</ul>
+<p>Some interesting opinions on conferences and opinions:</p>
+<ul>
+<li><a href="https://homes.cs.washington.edu/~tom/support/confreview.pdf">Conference Reviewing Considered Harmful</a></li>
+<li><a href="http://ece.ucsb.edu/~parhami/pubs_folder/parh16-comp-low-accept-rates-harmful.pdf">Low Acceptance Rates of Conference Papers Considered Harmful</a></li>
+<li><a href="https://meyerweb.com/eric/comment/chech.html">“Considered Harmful” Essays Considered Harmful</a></li>
+</ul>
+<p>Some useful videos that illustrate a point:</p>
+<ul>
+<li>Gary Bernhardt’s <a href="https://www.destroyallsoftware.com/talks/wat">Wat</a> talk on sharp edges in dynamic scripting languages</li>
+<li><a href="https://www.youtube.com/watch?v=cZDn0U0w78k">Mary Carillo’s epic improvisation</a> shows cohesiveness without coherence (they can be independent!)</li>
+</ul>
+<p>My academic genealogy:</p>
+<div id="genealogy">
+<ul>
+<li><a href="https://www.genealogy.math.ndsu.nodak.edu/id.php?id=222430">Royal W. Sorensen</a>
+<ul>
+<li><a href="https://academictree.org/physics/peopleinfo.php?pid=100144">Physics Tree</a></li>
+</ul></li>
+<li><a href="https://www.genealogy.math.ndsu.nodak.edu/id.php?id=29801">Vincent C. Rideout</a>
+<ul>
+<li><a href="https://academictree.org/physics/peopleinfo.php?pid=100143">Physics Tree</a></li>
+</ul></li>
+<li><a href="https://www.genealogy.math.ndsu.nodak.edu/id.php?id=69930">Gerald Estrin</a></li>
+<li><a href="https://www.genealogy.math.ndsu.nodak.edu/id.php?id=70595">David Martin</a></li>
+<li><a href="https://www.genealogy.math.ndsu.nodak.edu/id.php?id=98366">David Patterson</a></li>
+<li><a href="https://www.genealogy.math.ndsu.nodak.edu/id.php?id=65708">David Ungar</a></li>
+<li><a href="https://www.genealogy.math.ndsu.nodak.edu/id.php?id=71760">Craig Chambers</a></li>
+<li><a href="https://www.genealogy.math.ndsu.nodak.edu/id.php?id=66244">Sorin Lerner</a></li>
+<li><a href="https://www.genealogy.math.ndsu.nodak.edu/id.php?id=180839">Zachary Tatlock</a></li>
+</ul>
+</div>
+<p>The best bound I know on my <a href="https://en.wikipedia.org/wiki/Erd%C5%91s_number">Erdős number</a>, is 4 via <a href="http://homes.cs.washington.edu/~jrw12/">James Wilcox</a>:</p>
+<div class="center">
+<p><a href="https://mathscinet.ams.org/mathscinet/collaborationDistance.html?group_source=931936"><img alt="ztatlock erdos number" class="photo-80" src="img/ztatlock-mr-erdos-number.png"/></a></p>
+</div>
+<div class="clear" id="bottom-spacer">
+</div>
+<hr/>
+<div id="footer">
+<ul>
+<li><a href="https://pandoc.org/">Pandoc</a></li>
+<li><a href="https://validator.w3.org/unicorn/check?ucn_task=conformance&amp;ucn_uri=referer">Validate HTML/CSS</a></li>
+<li><a href="https://validator.w3.org/checklink?uri=https%3A%2F%2Fhomes.cs.washington.edu%2F~ztatlock%2F&amp;hide_type=all&amp;depth=&amp;check=Check">Check Links</a></li>
+</ul>
+</div>
+</body>
+</html>

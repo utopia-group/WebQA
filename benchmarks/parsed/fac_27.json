@@ -1,0 +1,495 @@
+{
+    "id": 0,
+    "content": "Sam Staton",
+    "children": [
+        {
+            "id": 1,
+            "content": "Sam Staton",
+            "key": 1,
+            "children": [
+                {
+                    "id": 2,
+                    "content": "",
+                    "isList": true,
+                    "key": 1,
+                    "children": [
+                        {
+                            "id": 3,
+                            "content": "",
+                            "key": 1,
+                            "children": [
+                                {
+                                    "id": 4,
+                                    "content": "Sam Staton   Associate Professor and Royal Society University Research Fellow   Department of Computer Science, University of Oxford",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 5,
+                                    "content": "Room 421   Wolfson Building, Parks Road   Oxford OX1 3QD",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 6,
+                                    "content": "Hugh Price Fellow, Jesus College, Oxford",
+                                    "key": 3
+                                }
+                            ]
+                        },
+                        {
+                            "id": 7,
+                            "content": "+44 (0)1865 (2)73893",
+                            "key": 2
+                        },
+                        {
+                            "id": 8,
+                            "content": "sam.staton at cs.ox.ac.uk",
+                            "key": 3
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "content": "Interests: My research is in programming language theory, and I'm also interested in logic and category theory. I've recently been especially interested in two kinds of programming language:",
+                    "key": 2
+                },
+                {
+                    "id": 10,
+                    "content": "",
+                    "isList": true,
+                    "key": 3,
+                    "children": [
+                        {
+                            "id": 11,
+                            "content": "Probabilistic programming languages :",
+                            "key": 1,
+                            "children": [
+                                {
+                                    "id": 12,
+                                    "content": "This is broadly to do with specifying and understanding statistical models using programming languages. I was recently awarded an ERC Consolidator grant in this area, and we recently won a Facebook research award too. My paper in ESOP 2017 introduced the idea of using s-finite kernels as a simple compositional formalism allowing both sampling and observations. In LICS 2017 we introduced quasi-Borel spaces : a new setting for higher order probability theory; this is then used to validate some inference algorithms in POPL 2018 and extended to recursion in POPL 2019. Our PPS 2017 abstract is about the relationship between exchangeability and program modules; we followed this up with an analysis of the Beta-Bernoulli process in ICALP 2018.",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 13,
+                            "content": "Quantum computing and programming languages : Most recently, Mathieu Huot and I found a neat universal property for quantum theory (LICS 2019, QPL 2018) based on my theory of quantum programs (POPL 2015). I've also been working on contextuality and non-locality with Sander Uijlen (see our ICALP 2015 paper), and on quantum programming languages with Mathys Rennela (see our MFPS 2017 and 2015 papers and our QPL 2016 paper). My research in this area has been supported by my grant 'Quantum Computation as a Programming Language' (EP/N007387/1).",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 14,
+                    "content": "Aside from these recent interests, I've been involved in various foundational aspects of programming language theory. One key theme has been computational monads and algebraic theories: This line of work stems from the observation that notions of computation can be determined by program equations using techniques from universal algebra. I have presented new algebraic frameworks to analyze program equations for quantum computation (POPL 2015), jumps (LICS 2014), local store and pi-calculus (LICS 2013, FOSSACS 2010 and MFPS 2009) and functional logic programming (FOSSACS 2013). See FOSSACS 2019 for a program logic, and WACT 2014 for a categorical perspective. I've also been involved in game semantics (LICS 2014) and categorical operational semantics (e.g. LICS 2008, LICS 2006, LMCS 2011).",
+                    "key": 4
+                },
+                {
+                    "id": 15,
+                    "content": "Quick biography:",
+                    "key": 5,
+                    "children": [
+                        {
+                            "id": 16,
+                            "content": "I've been in Oxford since March 2015. Before that, I spent time in Nijmegen (NL) on Bart Jacobs' ERC project Quantum Computation, Logic, and Security (2013–14), in Paris on the CHOCO project (2010–11), and in Cambridge as a lecturer (2010–13), EPSRC research fellow (2007–10), postdoc (2006–07), PhD student (with Marcelo Fiore, 2002–06) and undergraduate.",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 17,
+                    "content": "Publications and preprints",
+                    "isList": true,
+                    "key": 6,
+                    "children": [
+                        {
+                            "id": 18,
+                            "content": "M. Huot, S. Staton and M. Vákár. Correctness of Automatic Differentiation via diffeologies and categorical gluing. In 23rd International Conference on Foundations of Software Science and Computation Structures (FOSSACS 2020). Preprint: arxiv:2001.02209. Currently nominated for EATCS award and EAPLS award at ETAPS.",
+                            "key": 1
+                        },
+                        {
+                            "id": 19,
+                            "content": "B. Jacobs and S. Staton. De Finetti's construction as a categorical limit. To appear in 15th International Workshop on Coalgebraic Methods in Computer Science (CMCS 2020). Preprint: arxiv:2003.01964",
+                            "key": 2
+                        },
+                        {
+                            "id": 20,
+                            "content": "M. Huot and S. Staton. Quantum channels as a categorical completion. In 34th Annual ACM/IEEE Symposium on Logic in Computer Science (LICS 2019). Preprint: arxiv:1904.09600",
+                            "key": 3
+                        },
+                        {
+                            "id": 21,
+                            "content": "C. Matache and S. Staton. A sound and complete logic for algebraic effects. To appear in 22nd International Conference on Foundations of Software Science and Computation Structures (FOSSACS 2019). Preprint: [pdf]",
+                            "key": 4
+                        },
+                        {
+                            "id": 22,
+                            "content": "Honourable Mention for poster at BNP 2019: P. Jung, J. Lee, H. Yang and S. Staton. A generalization of hierarchical exchangeability on trees to directed acyclic graphs. Preprint: arxiv:1812.06282.",
+                            "key": 5
+                        },
+                        {
+                            "id": 23,
+                            "content": "POPL distinguished paper: M. Vákár, O. Kammar and S. Staton. A domain theory for statistical probabilistic programming. In Proceedings of 46th ACM Symposium on Principles of Programming Languages (POPL 2019). Proc. ACM Program. Lang., Volume 3, Article 36. doi:10.1145 / 3290349. Preprint: arxiv:1811.04196.",
+                            "key": 6
+                        },
+                        {
+                            "id": 24,
+                            "content": "M. Huot and S. Staton. Universal properties in quantum theory. In 15th International Conference on Quantum Physics and Logic (QPL 2018). Electronic Proceedings in Theoretical Computer Science 287, pp. 213–223. doi:10.4204/EPTCS.287.12 (open access).",
+                            "key": 7
+                        },
+                        {
+                            "id": 25,
+                            "content": "S. Staton, D. Stein, H. Yang, N. L. Ackerman, C. Freer, D. Roy. The Beta-Bernoulli Process and Algebraic Effects. In Proceedings of 45th International Colloquium on Automata, Languages and Programming (ICALP 2018). doi:10.4230/LIPIcs.ICALP.2018.141. Preprint: arxiv:1802.09598.",
+                            "key": 8
+                        },
+                        {
+                            "id": 26,
+                            "content": "A. Ścibior, O. Kammar, M. Vákár, S. Staton, H. Yang, Y. Cai, K. Ostermann, S.K. Moss, C. Heunen, and Zoubin Ghahramani. Denotational validation of Bayesian inference. In Proceedings of 45th ACM SIGPLAN Symposium on Principles of Programming Languages (POPL 2018). In Proc. ACM Program. Lang., Volume 2, Article 60. doi:10.1145 / 3158148. Preprint: arxiv:1711.03219.",
+                            "key": 9
+                        },
+                        {
+                            "id": 27,
+                            "content": "S. Staton and S. Uijlen. Effect algebras, presheaves, non-locality and contextuality. Information and Computation Vol 261, Part 2, Pages 336–365. (2018). Invited contribution for special issue on ICALP 2015. doi:10.1016/j.ic.2018.02.012. Preprint: [pdf]",
+                            "key": 10
+                        },
+                        {
+                            "id": 28,
+                            "content": "Winner of EATCS Best Paper Award: S. Staton. Commutative semantics for probabilistic programming. In Proceedings of 26th European Symposium on Programming (ESOP 2017), doi:10.1007 / 978-3-662-54434-1_32. Preprint: [pdf]",
+                            "key": 11
+                        },
+                        {
+                            "id": 29,
+                            "content": "M. Rennela and S. Staton. Classical Control and Quantum Circuits in Enriched Category Theory. In Proceedings of 33rd Conference on Mathematical Foundations of Programming Semantics (MFPS 2017). Electr. Notes Theor. Comput. Sci. 336: 257--279. Open access: doi:10.1016/j.entcs.2018.03.027. Extended version: arxiv:1711.05159.",
+                            "key": 12
+                        },
+                        {
+                            "id": 30,
+                            "content": "M. Piróg and S. Staton. Backtracking with cut via a distributive law and left-zero monoids. Theoretical Pearl for Journal of Functional Programming, vol 27. 2017. doi:10.1017/Spring 200956796817000077. Preprint: [pdf]",
+                            "key": 13
+                        },
+                        {
+                            "id": 31,
+                            "content": "Selected for STOC best of theory: C. Heunen, O. Kammar, S. Staton and H. Yang. A convenient category for higher-order probability theory. In Proceedings of 32nd Annual ACM/IEEE Symposium on Logic in Computer Science (LICS 2017). doi:10.1109/LICS.2017.8005137. Preprint: arxiv:1701.02547.",
+                            "key": 14
+                        },
+                        {
+                            "id": 32,
+                            "content": "O. Kammar, P. B. Levy, S. K. Moss and S. Staton. A monad for full ground reference cells. In Proceedings of 32nd Annual ACM/IEEE Symposium on Logic in Computer Science (LICS 2017). doi:10.1109/LICS.2017.8005109. Preprint: arxiv:1702.04908.",
+                            "key": 15
+                        },
+                        {
+                            "id": 33,
+                            "content": "S. Staton, H. Yang, N. L.. Ackerman, C. Freer, D. Roy. Exchangeable random process and data abstraction. Workshop on probabilistic programming semantics (PPS 2017). Extended abstract: [pdf]",
+                            "key": 16
+                        },
+                        {
+                            "id": 34,
+                            "content": "R. Furber, M. Rennela and S. Staton. Infinite-dimensionality in quantum foundations: W*-algebras as presheaves over matrix algebras. In Proceedings of 13th International Conference on Quantum Physics and Logic (QPL 2016). Electronic Proceedings in Theoretical Computer Science vol 236 pages 161–173. doi:10.4204/EPTCS.236.11",
+                            "key": 17
+                        },
+                        {
+                            "id": 35,
+                            "content": "S. Staton, H. Yang, C. Heunen, O. Kammar and F. Wood. Semantics for probabilistic programming: higher-order functions, continuous distributions, and soft constraints. In Proceedings of 31st Annual ACM/IEEE Symposium on Logic in Computer Science (LICS 2016). doi:10.1145 / 2933575.2935313. Preprint: arXiv:1601.04943.",
+                            "key": 18
+                        },
+                        {
+                            "id": 36,
+                            "content": "M. Rennela and S. Staton. Complete positivity and natural representation of quantum computations. In Proceedings of 31st Conference on Mathematical Foundations of Programming Semantics (MFPS 2015). Electr. Notes Theor. Comput. Sci. 319: 369-385. doi:10.1016/j.entcs.2015.12.022.",
+                            "key": 19
+                        },
+                        {
+                            "id": 37,
+                            "content": "S. Staton and S. Uijlen. Effect algebras, presheaves, non-locality and contextuality. In Proceedings of 42nd International Colloquium on Automata, Languages and Programming (ICALP 2015), pages 401-413. doi:10.1007 / 978-3-662-47666-6_32. [preprint: pdf]",
+                            "key": 20
+                        },
+                        {
+                            "id": 38,
+                            "content": "R. Atkey, N. Ghani, F. Nordvall Forsberg, T. Revell and S. Staton. Models for polymorphism over physical dimensions. In Proceedings of 13th International Conference on Typed Lambda Calculi and Applications (TLCA 2015), pages 45-59. doi:10.4230/LIPIcs.TLCA.2015.45. [preprint: pdf]",
+                            "key": 21
+                        },
+                        {
+                            "id": 39,
+                            "content": "S. Staton. Algebraic effects, linearity, and quantum programming languages. In proceedings of 42nd ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL 2015), pages 395-406. doi:10.1145 / 2676726.2676999. [preprint: pdf]",
+                            "key": 22
+                        },
+                        {
+                            "id": 40,
+                            "content": "M. P. Fiore and S. Staton. Substitution, jumps, and algebraic effects. In proceedings of Joint meeting of the Twenty-Third EACSL Annual Conference on Computer Science Logic and the Twenty-Ninth Annual ACM/IEEE Symposium on Logic in Computer Science (CSL-LICS14). doi:10.1145 / 2603088.2603163. [preprint: pdf]",
+                            "key": 23
+                        },
+                        {
+                            "id": 41,
+                            "content": "P. B. Levy and S. Staton. Transition systems over games. In proceedings of Joint meeting of the Twenty-Third EACSL Annual Conference on Computer Science Logic and the Twenty-Ninth Annual ACM/IEEE Symposium on Logic in Computer Science (CSL-LICS14). doi:10.1145 / 2603088.2603150. [preprint: pdf]",
+                            "key": 24
+                        },
+                        {
+                            "id": 42,
+                            "content": "R. E. Møgelberg and S. Staton. Linear usage of state. Logical Methods in Computer Science, Vol 10, Issue 1. Special issue on Algebraic and Coalgebraic Methods in Computer Science . doi:10.2168/LMCS-10(1:17)2014. arxiv:1403.1477.",
+                            "key": 25
+                        },
+                        {
+                            "id": 43,
+                            "content": "S. Staton. Freyd categories are enriched Lawvere theories. In Proceedings of Workshop on Algebra, Coalgebra and Topology. Electron. Notes Theor. Comput. Sci. 303:197-206. 2013 . doi:10.1016/j.entcs.2014.02.010. [preprint: pdf | note: txt]",
+                            "key": 26
+                        },
+                        {
+                            "id": 44,
+                            "content": "D. Ahman and S. Staton. Normalization by evaluation and algebraic effects. In Proceedings of Twenty-Ninth Conference on Mathematical Foundations of Programming Semantics (MFPS 2013). Electron. Notes Theor. Comput. Sci. 298:51-69. 2013. doi:10.106/j.entcs.2013.09.007.",
+                            "key": 27
+                        },
+                        {
+                            "id": 45,
+                            "content": "S. Staton. Instances of computational effects. In Proceedings of Twenty-Eighth Annual ACM/IEEE Symposium on Logic in Computer Science (LICS 2013). doi:10.1109/LICS.2013.58. [preprint: pdf | errata: txt]",
+                            "key": 28
+                        },
+                        {
+                            "id": 46,
+                            "content": "S. Staton. An algebraic presentation of predicate logic. In Proceedings of Sixteenth International Conference on Foundations of Software Science and Computation Structures (FOSSACS 2013), Lecture Notes in Comput. Sci. 7794:401-417. Springer, 2013. doi:10.1007 / 978-3-642-37075-5_26. [preprint: pdf]",
+                            "key": 29
+                        },
+                        {
+                            "id": 47,
+                            "content": "S. Staton and P. Levy. Universal properties for impure programming languages. In Proceedings of Fortieth ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL 2013), pages 179-192. doi:10.1145 / 2429069.2429091. [preprint: pdf]",
+                            "key": 30
+                        },
+                        {
+                            "id": 48,
+                            "content": "R. E. Møgelberg and S. Staton. Linearly-used state in models of call-by-value. In Proceedings of Fourth International Conference on Algebra and Coalgebra in Computer Science (CALCO 2011). Lecture Notes in Comput. Sci. 6859:293-313. doi:10.1007 / 978-3-642-22944-2_21. [preprint: pdf]",
+                            "key": 31
+                        },
+                        {
+                            "id": 49,
+                            "content": "S. Staton. Relating coalgebraic notions of bisimulation. Logical Methods in Computer Science Vol 7, Issue 1 (March 2011). doi:10.2168/LMCS-7(1:13)2011. arXiv:1101.4223.",
+                            "key": 32
+                        },
+                        {
+                            "id": 50,
+                            "content": "S. Staton and G. Winskel. On the expressivity of symmetry in event structures. In Proceedings of 25th Annual IEEE Symposium on Logic in Computer Science (LICS 2010), pages 392-401. doi:10.1109/LICS.2010.37. [preprint: pdf]",
+                            "key": 33
+                        },
+                        {
+                            "id": 51,
+                            "content": "R. E. Møgelberg and S. Staton. Full abstraction in a metalanguage for state. In Workshop on Syntax and Semantics of Low Level Languages (LOLA 2010). Satellite workshop of LICS 2010.",
+                            "key": 34
+                        },
+                        {
+                            "id": 52,
+                            "content": "T. Altenkirch, P. Levy and S. Staton. Higher order containers. In Proceedings of Computability in Europe (CiE 2010). Lecture Notes in Comput. Sci. 6158:11-20. doi:10.1007 / 978-3-642-13962-8_2. [preprint: pdf]",
+                            "key": 35
+                        },
+                        {
+                            "id": 53,
+                            "content": "M. P. Fiore and S. Staton. Positive structural operational semantics and monotone distributive laws. Short contribution for 10th International Workshop on Coalgebraic Methods in Computer Science (CMCS 2010). CWI Technical report SEN-1004. [preprint: pdf]",
+                            "key": 36
+                        },
+                        {
+                            "id": 54,
+                            "content": "S. Staton. Completeness for algebraic theories of local state. Proceedings of 13th International Conference on Foundations of Software Science and Computation Structure (FOSSACS 2010). Lecture Notes in Comput. Sci. 6014:48-63. doi:10.1007 / 978-3-642-12032-9_5. [preprint: pdf | errata: txt]",
+                            "key": 37
+                        },
+                        {
+                            "id": 55,
+                            "content": "S. Staton. Relating coalgebraic notions of bisimulation, with applications to name-passing process calculi. Proceedings of 3rd Conference on Algebra and Coalgebra in Computer Science (CALCO 2009). Lecture Notes in Comput. Sci. 5728:191-205. doi:10.1007 / 978-3-642-03741-2_14. [preprint: pdf]",
+                            "key": 38
+                        },
+                        {
+                            "id": 56,
+                            "content": "S. Staton. Two cotensors in one: Presentations of algebraic theories for local state and fresh names. Proceedings of 25th Conference on the Mathematical Foundations of Programming Semantics (MFPS 25). Electron. Notes Theor. Comput. Sci. 249:471-490. 2009. doi:10.1016/j.entcs.2009.07.103. [preprint: pdf]",
+                            "key": 39
+                        },
+                        {
+                            "id": 57,
+                            "content": "S. Staton. Substitution in Structural Operational Semantics and value-passing process calculi. Proceedings of 2nd International Workshop on Theory and Applications of Abstraction, Substitution and Naming (TAASN 2009). [preprint: pdf]",
+                            "key": 40
+                        },
+                        {
+                            "id": 58,
+                            "content": "M. Fiore and S. Staton. A Congruence Rule Format for Name-Passing Process Calculi. Information and Computation Vol 207, Issue 2 (February 2009), Pages 209-236. Special Issue on Structural Operational Semantics. doi:10.1016/j.ic.2007.12.005. [preprint: pdf]",
+                            "key": 41
+                        },
+                        {
+                            "id": 59,
+                            "content": "S. Staton. General Structural Operational Semantics through Categorical Logic. Proceedings of 23rd Annual IEEE Symposium on Logic in Computer Science (LICS 2008), pages 166-177. doi:10.1109/LICS.2008.43. [preprint: pdf]",
+                            "key": 42
+                        },
+                        {
+                            "id": 60,
+                            "content": "S. Staton. Name-Passing Process Calculi: Operational Models and Structural Operational Semantics. PhD thesis. Girton College, Cambridge. Supervised by Marcelo Fiore, and examined by Gordon Plotkin and Andrew Pitts. Computer Laboratory Technical Report UCAM-CL-TR-688. [Thesis summary: pdf]",
+                            "key": 43
+                        },
+                        {
+                            "id": 61,
+                            "content": "M. P. Fiore and S. Staton. A Congruence Rule Format for Name-Passing Process Calculi from Mathematical Operational Semantics. Proceedings of 21st Annual IEEE Symposium on Logic in Computer Science (LICS 2006), pages 49-58. doi:10.1109/LICS.2006.7. [preprint: pdf]",
+                            "key": 44
+                        },
+                        {
+                            "id": 62,
+                            "content": "M. P. Fiore and S. Staton. Comparing operational models of name-passing process calculi. Information and Computation Vol 204, Issue 4 (April 2006), Pages 524-560. doi:10.1016/j.ic.2005.08.004. [preprint: pdf]. Preliminary version in Proceedings of 7th International Workshop on Coalgebraic Methods in Computer Science (CMCS 2004). Electron. Notes Theor. Comput. Sci. 106:91-104. doi:10.1016/j.entcs.2004.02.025. [preprint: pdf]",
+                            "key": 45
+                        }
+                    ]
+                },
+                {
+                    "id": 63,
+                    "content": "Students and RAs",
+                    "key": 7,
+                    "children": [
+                        {
+                            "id": 64,
+                            "content": "",
+                            "isList": true,
+                            "key": 1,
+                            "children": [
+                                {
+                                    "id": 65,
+                                    "content": "I'm currently supervising DPhil/PhD students Swaraj Dash, Mathieu Huot, Cristina Matache and Dario Stein in Oxford, and co-supervising Nick Hu and Yuan Zhou.",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 66,
+                                    "content": "",
+                                    "key": 2,
+                                    "children": [
+                                        {
+                                            "id": 67,
+                                            "content": "Some people I have supervised:",
+                                            "key": 1
+                                        },
+                                        {
+                                            "id": 68,
+                                            "content": "",
+                                            "isList": true,
+                                            "key": 2,
+                                            "children": [
+                                                {
+                                                    "id": 69,
+                                                    "content": "Ohad Kammar was an RA on my EPSRC grant EP/N007387/1 and earlier on a grant from the Isaac Newton Trust. Ohad is now a Lecturer in Edinburgh.",
+                                                    "key": 1
+                                                },
+                                                {
+                                                    "id": 70,
+                                                    "content": "Marcin Szymczak was an RA on seed funding from the Alan Turing Institute, on a project with Scott Hale, Ohad Kammar, Helen Margetts, and Tom Melham. Marcin is now a postdoc in Aachen.",
+                                                    "key": 2
+                                                },
+                                                {
+                                                    "id": 71,
+                                                    "content": "Mathys Rennela (PhD on quantum programming languages, 2013-2019).",
+                                                    "key": 3
+                                                },
+                                                {
+                                                    "id": 72,
+                                                    "content": "Sander Uijlen (PhD on quantum logic, 2013-2019, cosupervised with Aleks Kissinger and Bart Jacobs).",
+                                                    "key": 4
+                                                },
+                                                {
+                                                    "id": 73,
+                                                    "content": "Ben Roberts (PhD on information flow security for distributed programming languages, 2013).",
+                                                    "key": 5
+                                                },
+                                                {
+                                                    "id": 74,
+                                                    "content": "Danel Ahman (MPhil project on normalization by evaluation).",
+                                                    "key": 6
+                                                },
+                                                {
+                                                    "id": 75,
+                                                    "content": "Ramana Kumar (MPhil essay on formalizing set theory).",
+                                                    "key": 7
+                                                },
+                                                {
+                                                    "id": 76,
+                                                    "content": "Kwok Cheung (MPhil essay on algebraic effects and partiality).",
+                                                    "key": 8
+                                                },
+                                                {
+                                                    "id": 77,
+                                                    "content": "Sohum Banerjea (MPhil essay on inference programming languages).",
+                                                    "key": 9
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 78,
+                            "content": "Courses taught:",
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 79,
+                                    "content": "Probabilistic Programming at Oregon PL Summer School 2019. Principles of Programming Languages in Oxford. A course on coalgebra jointly with Alexandra Silva in Nijmegen. Courses on Discrete mathematics I, Semantics of programming languages, and Category theory and logic in Cambridge.",
+                                    "key": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 80,
+                    "content": "Responsibilities and events",
+                    "key": 8,
+                    "children": [
+                        {
+                            "id": 81,
+                            "content": "I currently co-organize the OASIS seminars in Oxford.",
+                            "key": 1
+                        },
+                        {
+                            "id": 82,
+                            "content": "Steering committees:",
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 83,
+                                    "content": "IEEE Symposium on Logic in Computer Science (LICS); Formal Structures in Computation and Deduction (FSCD).",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 84,
+                            "content": "Editorial board member:",
+                            "key": 3,
+                            "children": [
+                                {
+                                    "id": 85,
+                                    "content": "ACM Transactions on Quantum Computing.",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 86,
+                            "content": "Programme committee member:",
+                            "key": 4,
+                            "children": [
+                                {
+                                    "id": 87,
+                                    "content": "25th Annual ACM/IEEE Symposium on Logic in Computer Science (LICS 2020); 24th ACM SIGPLAN International Conference on Functional Programming (ICFP 2019); 4th International Conference on Formal Structures for Computation and Deduction (FSCD 2019); PC chair: 34th Conference on Mathematical Foundations of Programming Semantics (MFPS XXXIV); 42nd International Symposium on Mathematical Foundations of Computer Science (MFCS 2017); 44th ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL 2017); 26th European Symposium on Programming (ESOP 2017); Workshop on Syntax and Semantics of Low-level Languages (LOLA 2016); 10th International Workshop on Fixed Points in Computer Science (FICS 2015); 6th Conference on Algebra and Coalgebra in Computer Science (CALCO 2015); PC co-chair: 30th Conference on Mathematical Foundations of Programming Semantics (MFPS XXX); 3rd ACM-SIGPLAN Workshop on Higher-Order Programming with Effects (HOPE 2014); Combined 21st International Workshop on Expressiveness in Concurrency and 11th Workshop on Structured Operational Semantics (EXPRESS/SOS 2014); 11th International Workshop on Domain Theory and Applications (Domains XI); 18th ACM SIGPLAN International Conference on Functional Programming (ICFP 2013); Workshop on Syntax and Semantics of Low-Level Languages (LOLA 2013); 5th Conference on Algebra and Coalgebra in Computer Science (CALCO 2013); 21st Conference on Computer Science Logic (CSL 2012), 4th Workshop on Mathematically Structured Functional Programming (MSFP 2012); 11th International Workshop on Coalgebraic Methods in Computer Science (CMCS 2012); 9th Asian Symposium on Programming Languages and Systems (APLAS 2011); 4th Conference on Algebra and Coalgebra (CALCO 2011); 8th International Workshop on Structural Operational Semantics (SOS 2011); 7th International Workshop on Structural Operational Semantics (SOS 2010). External review committee of 39th ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL 2012).",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 88,
+                            "content": "Organizing committees :",
+                            "key": 5,
+                            "children": [
+                                {
+                                    "id": 89,
+                                    "content": "Local organizer: LICS 2018; FSCD 2017; CALCO 2015 and MFPS XXXI; International Conference on Category Theory (CT 2014); Informal Workshop on Programming with Handlers (Cambridge June 2013).",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 90,
+                            "content": "Some recent/upcoming invited or keynote talks: OPLSS 2019; CIE 2019; PIHOC 2019; ICALP 2018; STOC 2018; Logic and learning 2018; British Logic Colloquium 2017; Uncertainty in Computation, 2016; QSLC 2016; WIP 2016; MFPS 2016; CHOCOLA, Jan 2016; S-REPLS2, Nov 2015; MFPS 2015.",
+                            "key": 6
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

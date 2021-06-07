@@ -1,0 +1,387 @@
+<html><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="shanlu" name="Author"/>
+<meta content="MPCS 52030: Operating Systems" name="Description"/><title>MPCS 52030: Operating Systems</title></head><body alink="#ff0000" bgcolor="#ffffff" link="black" text="#000000" vlink="black">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td valign="top" width="150">
+<center><a href="http://www.cs.uchicago.edu/"><img align="left" border="0" height="120" src="index_files/UC-Seal.jpg"/></a>
+<p>
+</p></center></td>
+<td bgcolor="maroon">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td width="1100">
+<ul>
+<font color="white">
+<br/><font size="-2">  
+<br/><font size="+2"><b>MPCS 52030: Operating Systems</b></font>
+</font></font><p><font color="white"><font size="-2"><font size="+1"> University of Chicago 
+<br/> Computer Science Department
+<br/> Spring 2019
+<br/><font size="-2">  
+<br/>
+</font>
+</font>
+</font></font></p></ul>
+</td><td width="10">
+ 
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td bgcolor="maroon" valign="top" width="150">
+<p><br/><br/>      <a href="#info" style="color: white;">Basic Information</a>
+<br/>      <a href="#announcement" style="color: white;">Announcement</a>
+<br/>      <a href="#overview" style="color: white;">Overview</a>
+<br/>      <a href="#readings" style="color: white;">Readings</a>
+<br/>      <a href="#project" style="color: white;">Project</a>
+<br/>      <a href="#quiz" style="color: white;">Quizzes</a>
+<br/>      <a href="#exams" style="color: white;">Exam</a>
+<br/>      <a href="#grading" style="color: white;">Grading</a>
+<br/>      <a href="#mailing" style="color: white;">Mailing List</a>
+<br/>      <a href="#schedule" style="color: white;">Schedule</a>
+<br/><br/>
+</p></td>
+<td valign="top">
+<ul>
+<br/>
+<p>
+<font color="maroon"><a name="info"><b>Basic Information</b></a></font>
+</p>
+<ul><font color="maroon">When:</font> 5:30--8:30pm, Wed.
+<br/><font color="maroon">Where:</font> 251 Ryerson
+<br/><font color="maroon">Instructor:</font> Professor <a href="http://people.cs.uchicago.edu/~shanlu/">Shan Lu</a> (shanlu@uc....); JCL-343.
+<br/><font color="maroon">TA:</font> Yuxi Chen (chenyuxi@uc...) &amp; Kelvin Ho (kelvinho@uc...); office hour: 6pm--8pm, Tuesday/Friday @ JCL 354.
+</ul>
+<p>
+<font color="maroon"><a name="announcement"><b>Announcement</b></a></font>
+</p>
+<ul>
+<p><b>06/08 11:59pm:</b> <a href="projects/p3.html">Project 3</a> Due!
+</p><p><b>06/12, 3:00 -- 5:00 pm:</b> Final Exam @ JCL 390.
+</p><p><b>Make-up lectures:</b> May 15th lecture will be moved to May 8th 9am--12pm; May 29th lecture will be moved to May 24th 9am--12pm.
+
+
+
+</p>
+<!--
+<p><b>02/17 6:00pm</b>  UPL 1 or 2-hour tutorial on C programming. It'll be held in room 1221 CS. </p>
+<p><b>02/08</b> Programs that we discussed (or planned to discuss) in the discussion session: <a href="code/fork.c">fork.c</a>, <a href="code/strtok.c">strtok.c</a></p>
+
+<p><b>02/26</b> A dummy implementation 
+of project 3 discussed in our discussion session: <a href="code/discussion_p3.tar">p3.tar</a> (use `tar -xvf p3.tar' to untar it) </p>
+
+<p><b>03/05</b> The deadline for <a href="projects/p3.html">
+project 3.</a> Please start early. The test cases are available now at
+~cs537-2/testing/p3/. </p>
+
+<p><b>03/01</b> You can see a partial impelmentation of the project3 data structure ({size, prev, next} for each memory region) that we discussed in the discussion session here: <a href="code/disc_6.tar">disc_6.tar</a> (use `tar -xvf disc_6.tar' to unzip it) </p>
+
+
+
+<p> The test cases are at ~cs537-2/testing/p6
+</p>
+
+<p><b><a href="projects/p6.html">Project 6</a></b> is posted. The deadline is 
+May 8th, 6pm. Again, you can have a partner in Project 6.
+</p>
+
+<p>A <a href="code/gdb.pdf"> short gdb command reference</a> is posted.
+</p>
+<p>
+<b>The optional final exam</b> will be held on May 10th (Monday) 12:25pm--2:25pm at computer science building Room 1221.
+</p>
+
+
+-->
+<!--
+<p><b>02/01 4:30pm</b> Quiz 1</p>
+<p><b>02/02 11:00pm</b> P0 due</p>
+-->
+</ul>
+<p>
+<font color="maroon"><a name=""><b>Stats, Notes, Useful Info.</b></a></font>
+</p>
+<ul>
+<li> <b>Stats</b>: . 
+</li><li> <b>Useful debugging tools</b>: <a href="http://www.cs.cmu.edu/~gilpin/tutorial/">GDB</a>, <a href="http://www.valgrind.org">Valgrind</a>.
+
+</li></ul>
+<p><br/><font color="maroon"><a name="overview"><b>Overview</b></a></font>
+</p><ul>
+<p>Welcome to MPCS Operating Systems! 
+In this course, we will study a number of interesting topics including
+basic operating system structure, process scheduling and management, memory management,
+concurrency and synchronization, file systems and storage, virtual machines, 
+etc. <br/><br/>
+This course assumes familiarity with basic computer organization 
+and data structures. You will need to program in C 
+for course assignments. 
+</p>
+</ul>
+<p><br/><font color="maroon"><a name="schedule"><b>Schedule</b></a></font>
+</p><ul> This is a <b>tentative</b> schedule. The numbers refer to chapters in 
+Arpaci-Dusseaus' <a href="http://pages.cs.wisc.edu/~remzi/OSTEP/">OS textbook</a>. 
+</ul>
+<br/>
+<ul>
+<table border="0" cellpadding="1" valign="center">
+<tr>
+<td>
+<b>04/03 </b>
+</td>
+<td>Intro [<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/intro.pdf">2</a>, <a href="notes/52030_.ppt">notes</a>],
+		Processes[<a href="notes/03_cpu-intro.pdf">4</a>, 
+		<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf">5</a>],
+		Scheduling
+[<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf">7</a>]
+	</td>
+<td>
+<b>04/05 </b>
+</td>
+<td><a href="projects/p1.html"><font color="blue">P1: a shell</font></a></td>
+</tr>
+<tr>
+<td>
+<b>04/10 </b>
+</td><td>
+		Scheduling II [<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-mlfq.pdf">8</a>,
+		<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-lottery.pdf">9</a>],
+		Memory Management
+		[<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf">13</a>,
+		<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/vm-api.pdf">14</a>,
+		<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/vm-mechanism.pdf">15</a>] 
+		</td>
+<td>
+<b> </b>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<b>04/17 </b>
+</td><td>
+		Segmentation[<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/vm-segmentation.pdf">16</a>, <a href="http://pages.cs.wisc.edu/~remzi/OSTEP/vm-freespace.pdf">17</a>],
+		Paging [<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/vm-paging.pdf">18</a>]
+		</td>
+<td>
+<b> </b>
+</td><td>
+</td>
+</tr>
+<tr>
+<td><b>04/24 </b></td>
+<td>
+	Paging [<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/vm-tlbs.pdf">19</a>,
+			<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/vm-smalltables.pdf">20</a>],
+Beyond Physical Memory [<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys.pdf">21</a>, <a href="http://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys-policy.pdf">22</a>]
+</td>
+<td>
+<b>04/26 </b>
+</td><td>
+<font color="red"> P1 Due</font>;
+<a href="projects/p2.html"><font color="blue">P2: thread library</font></a>
+</td>
+</tr>
+<tr>
+<td>
+<b>05/01 </b>
+</td><td>
+			Threads [<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf">26</a>, <a href="http://pages.cs.wisc.edu/~remzi/OSTEP/threads-api.pdf">27</a>],
+		Locks [<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks.pdf">28</a>, <a href="http://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks-usage.pdf">29</a>]
+		</td>
+<td><b></b>
+</td><td>
+</td>
+</tr>
+<tr>
+<td>
+<b> <font color="red">05/08 </font></b>
+</td><td>
+
+(<font color="red">@JCL298</font>)
+CVs
+[<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/threads-cv.pdf">30</a>], 
+Semaphores [<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/threads-sema.pdf">31</a>],
+	       	Concurrency bugs [<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/threads-bugs.pdf">32</a>]	
+		</td>
+<td><b></b>
+</td><td>
+</td>
+</tr>
+<tr>
+<td>
+<b>05/08 </b>
+</td><td>
+		I/O [<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/file-devices.pdf">36</a>],
+		Disks [<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/file-disks.pdf">37</a>],
+		RAID [<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/file-raid.pdf">38</a>]
+		</td>
+<td><b>05/17 </b>
+</td><td>
+<font color="red">P2 Due;
+			<a href="projects/p3.html"><font color="blue">P3: a network file system</font></a>
+</font></td>
+</tr>
+<tr>
+<td>
+<b>05/22 </b>
+</td><td>Files &amp;
+		File Systems [<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf">39</a>, <a href="http://pages.cs.wisc.edu/~remzi/OSTEP/file-implementation.pdf">40</a>],
+		FFS [<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/file-ffs.pdf">41</a>],
+		Journaling [<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/file-journaling.pdf">42</a>],
+		LFS [<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/file-lfs.pdf">43</a>]
+
+	
+		</td>
+<td><b> </b>
+</td><td>
+</td>
+</tr>
+<tr>
+<td>
+<b><font color="red">05/24 </font></b>
+</td><td>
+(<font color="red">@JCL 298</font>)
+		NFS[<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/dist-nfs.pdf">49</a>],
+		AFS[<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/dist-afs.pdf">50</a>],
+		GFS[<a href="https://research.google.com/archive/gfs.html">paper</a>]
+	
+		</td>
+<td><b> </b>
+</td><td>
+</td>
+</tr>
+<tr>
+<td>
+<b>06/05 </b>
+</td><td>	
+		Virtual Machine [<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/vmm-intro.pdf">VM</a>]
+		</td><td>
+<b>06/08 </b>
+</td><td> <font color="red"> P3 Due</font>
+</td><td>
+</td>
+</tr>
+</table>
+</ul>
+<p><br/><font color="maroon"><a name="readings"><b>Materials</b></a></font>
+</p><ul>
+<p>We will use Prof. Arpaci-Dusseaus' 
+<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/">
+<b>Operating Systems: Three Easy Pieces</b></a>.
+</p>
+
+We recommend the following book for your reference if you are not familiar with C-programming:
+<!--
+<p>
+<a href="http://www.amazon.com/Operating-System-Concepts-Abraham-Silberschatz/dp/0470128720"><b>Operating System Concepts (8th edition)</b></a><br>
+Silberschatz, Galvin, Gagne.<br>
+ISBN-10:0470128720<br>
+Wiley<br>
+</p>
+-->
+<p><a href="http://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628"><b>The C Programming Language (2nd edition)</b></a><br/>
+Kernighan and Ritchie.<br/>
+ISBN-10: 0131103628<br/>
+Prentice Hall<br/></p>
+</ul>
+<p><br/><font color="maroon"><a name="project"><b>Projects</b></a></font>
+</p><ul>
+<p> In this course, you will be doing projects. <b>Projects are worth 40% of your final grade.</b></p>
+<p> You can program on your own Linux machines or machines in CSIL labs. 
+</p><p>All the projects have to be finished in C <b>not</b> Java. Please start early. <b>No</b> late submission is allowed.</p>
+<p>It is ok to discuss the project in general terms, or help others debug
+their code. It is <font color="red"><b>NOT</b></font> OK to share your code
+directly with other people/groups.
+</p>
+</ul>
+<p><br/><font color="maroon"><a name="quiz"><b>Quizzes</b></a></font>
+</p><ul>
+<p>This course has <b>no</b> midterm exam. 
+Instead, to help you learn the material incrementally, each week (starting from April 4th) there will be a quiz. 
+</p><ul>
+<li> Each quiz will take about 15--30 minutes in the middle of the lecture.
+</li><li>Each quiz will mainly cover the lecture in the earlier week, and occasionally also the passed projects. </li>
+<li>Quizzes are closed-book and closed-note.</li>
+<li>We will drop your lowest quiz grade from your average at the end.</li>.
+</ul>
+</ul>
+<p><br/><font color="maroon"><a name="exams"><b>Exam</b></a></font>
+</p>
+<ul> There will be one final exam at the end of the quarter.
+</ul>
+<!--
+<ul> The <b>optional</b> final exam will be on May 10th (Monday), 12:25pm--2:25pm.
+</ul>
+-->
+<p><br/><font color="maroon"><a name="grading"><b>Grading</b></a></font>
+</p><ul>
+<p>
+</p><table align="left" cellpadding="5">
+<tr> <td></td><td>
+</td></tr><tr> <td>Projects </td><td> 40% 
+</td></tr><tr> <td>Quizzes </td><td>  30%
+</td></tr><tr> <td>Final exam </td><td> 30%
+
+</td></tr></table>
+</ul>
+<br/><p></p>
+<br/><p></p><br/><p></p><br/><p></p><br/><p></p><br/><p></p>
+<p><br/><font color="maroon"><a name="mailing"><b>Mailing List</b></a></font>
+</p><ul> Please post your questions on Piazza.
+</ul>
+<br/><br/><br/><br/><br/><br/>
+</ul>
+</td>
+</tr>
+</tbody></table>
+<hr width="100%"/>
+<font color="gray"><font size="-2">
+<script language="JavaScript">
+<!-- Begin
+var days = new Array(8);
+days[1] = "Sun";
+days[2] = "Mon";
+days[3] = "Tue";
+days[4] = "Wed";
+days[5] = "Thu";
+days[6] = "Fri";
+days[7] = "Sat";
+var months = new Array(13);
+months[1] = "Jan";
+months[2] = "Feb";
+months[3] = "Mar";
+months[4] = "Apr";
+months[5] = "May";
+months[6] = "Jun";
+months[7] = "Jul";
+months[8] = "Aug";
+months[9] = "Sep";
+months[10] = "Oct";
+months[11] = "Nov";
+months[12] = "Dec";
+var dateObj = new Date(document.lastModified)
+var wday = days[dateObj.getDay() + 1]
+var lmonth = months[dateObj.getMonth() + 1]
+var date = dateObj.getDate()
+var fyear = dateObj.getYear()
+if (fyear < 2000)
+fyear = fyear + 1900
+document.write("Last modified: " + wday + " " + lmonth + " " + date + " " + fyear)
+// End -->
+</script>
+<noscript>Your browser does not support JavaScript!</noscript>
+</font></font>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-2967223-2");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body></html>

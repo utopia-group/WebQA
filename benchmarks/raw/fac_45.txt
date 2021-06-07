@@ -1,0 +1,1330 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Vijayanand "Vijay" Nagarajan</title>
+</head>
+<body onload="javascript:setupOnLoad()">
+<font face="Arial">
+<table align="left" cellpadding="20" cellspacing="10" cols="4" width="100%">
+<td align="left" width="120">
+<img align="bottom" alt="Vijay Nagarajan Image" bcolor="white" border="1" height="165" src="media/vijay2.jpg" width="170"/>
+</td><td>
+<font size="4"><b>Vijay Nagarajan</b> </font><br/>
+<font face="Arial" size="2">Reader (Associate Professor)<br/>
+<a href="http://www.icsa.informatics.ed.ac.uk/">Institute of Computer Systems Architecture</a><br/>
+<a href="http://www.inf.ed.ac.uk/">School of Informatics</a><br/>
+<a href="http://www.ed.ac.uk/">University of Edinburgh</a><br/>
+    1.22 Informatics Forum<br/>
+    10 Crichton Street <br/>
+    Edinburgh, EH8 9AB <br/><br/>
+<i>Office Phone:</i> (+44) 131-651-3440<br/>
+<i>E-mail:</i>
+<b>vijay.nagarajan at ed.ac.uk</b><br/>
+</font>
+</td>
+<td>
+<a href="http://www.morganclaypoolpublishers.com/catalog_Orig/product_info.php?products_id=1503"><img border="0" height="170" src="book.jpg" width="150"/>
+</a>
+</td>
+<td align="right">
+<font size="2">
+<a href="publications.html">Publications</a> <br/><br/>
+<a href="#students_anchor">CAPS Research Group</a> <br/><br/>
+<a href="#teaching_anchor">Teaching</a> <br/><br/>
+<a href="personal.html">Personal</a> <br/><br/>
+<a href="cv.pdf">CV</a> <br/>
+</font>
+</td>
+</table>
+<br clear="all"/>
+<!--
+<font size=2>
+<a name="open_anchor"></a>
+<table BORDER=0 CELLPADDING=2 WIDTH="100%" bgcolor="#6699FF" id="research">
+<tr>
+<td ALIGN=LEFT><b><font face=Arial,Helvetica
+color="#000000" size="3">Open Positions</font></b></td>
+</tr>
+</table>
+-->
+<font size="2">
+<a name="research_interests_anchor"></a>
+<table bgcolor="#ee775e" border="0" cellpadding="2" id="Positions" width="100%">
+<tr>
+<td align="LEFT"><b><font color="#000000" face="Arial,Helvetica" size="3">Open PhD Positions:</font></b> You have a good 
+background in computer architecture/formal methods with good programming skills. Email your resume! </td>
+</tr>
+</table>
+<br/>
+<font size="2">
+<a name="research_interests_anchor"></a>
+<table bgcolor="#6699FF" border="0" cellpadding="2" id="research" width="100%">
+<tr>
+<td align="LEFT"><b><font color="#000000" face="Arial,Helvetica" size="3">Research</font></b></td>
+</tr>
+</table>
+<ul>
+<div id="rsrch_int_condensed" style="display:block">
+<p style="width:60%">
+Our research broadly spans computer architecture, compilers and computer systems. We embrace the <a href="https://www.cs.utexas.edu/users/EWD/transcriptions/EWD02xx/EWD209.html">constructive</a>, <a href="https://cacm.acm.org/magazines/2015/4/184705-who-builds-a-house-without-drawing-blueprints/fulltext">specification-directed</a> approach to system design where possible. 
+We've found the approach not only leads to correctness but also to efficiency. 
+</p>
+<p>
+A full list of publications can be found <a href="publications.html">here</a>. Code can be found <a href="https://github.com/icsa-caps">here</a>. We work on hardware/software support for: 
+</p>
+<p style="width:60%">
+</p></div>
+</ul>
+<ul>
+<p>
+</p><table border="1" cellpadding="4" style="width:60%">
+<tr>
+<th>Research area</th>
+<!--   <th>Funding</th> -->
+<th>Recent Publications</th>
+<!--<th>Project/Funding</th> -->
+</tr>
+<tr>
+<td>Consistency &amp; Availability of Key-value-stores</td>
+<!--<td>ESPRC</td>-->
+<td>
+<a href="papers/ppopp20.pdf">[PPoPP 2020]</a>
+<a href="papers/asplos20a.pdf">[ASPLOS 2020]</a>
+<a href="papers/eurosys18.pdf">[EuroSys 2018]</a>
+</td>
+<!--<td><a href="http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/M027317/1">EPSRC</a> </td>-->
+</tr>
+<tr>
+<td>Persistent memory</td>
+<!--<td>Intel</td>-->
+<td>
+<a href="papers/asplos20b.pdf">[ASPLOS 2020]</a>
+<a href="papers/isca18b.pdf">[ISCA 2018]</a>
+<a href="papers/hpca17a.pdf">[HPCA 2017]</a>
+<a href="papers/micro2015.pdf">[MICRO 2015]</a>
+</td>
+<!--<td><a href="http://www.intel.com/content/www/us/en/education/university/research-focused.html">Intel</a></td>-->
+</tr>
+<tr>
+<td>Synthesis of coherence protocols </td>
+<td>
+<a href="papers/isca20.pdf">[ISCA 2020]</a>
+<a href="papers/isca18a.pdf">[ISCA 2018]</a>
+<a href="papers/date18.pdf">[DATE 2018]</a>
+</td>
+</tr>
+<tr>
+<td>Consistency &amp; Coherence of Multicores</td>
+<!--<td>ESPRC</td>-->
+<td>
+<a href="http://www.morganclaypoolpublishers.com/catalog_Orig/product_info.php?products_id=1503">[Synthesis Lectures]</a>
+<a href="https://arxiv.org/abs/1705.08262">[FMCAD 2017]</a>
+<a href="papers/hpca16.pdf">[HPCA 2016]</a>
+<a href="papers/taco15.pdf">[TACO 2015]</a>
+<a href="papers/hpca14.pdf">[HPCA 2014]</a>
+<a href="papers/pldi13.pdf">[PLDI 2013]</a>
+<a href="http://dl.acm.org/citation.cfm?id=2151006">[ASPLOS 2012]</a>
+</td>
+<!--<td><a href="http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/M027317/1">EPSRC</a> </td>-->
+</tr>
+</table>
+<!--<p>
+<a href=http://www.morganclaypoolpublishers.com/catalog_Orig/product_info.php?products_id=1503><img border="0"  src="book.jpg" width="140" height="150">
+</a>
+</p>-->
+<!--
+
+
+  <tr>
+    <td>Control Flow Delivery</td>
+    <td>
+	    <a href="papers/asplos18.pdf">[ASPLOS 2018]</a>
+	    <a href="papers/hpca17b.pdf">[HPCA 2017]</a>
+    </td>
+    <td><a href="http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/M001202/1">EPSRC</a> </td>		
+  </tr>
+
+
+ <tr>
+    <td>DRAM Caches</td>
+    <td>
+		<a href="papers/micro16.pdf">[MICRO 2016]</a> 
+		<a href="papers/sc16.pdf">[SC 2016]</a> 
+		<a href="papers/pact14.pdf">[PACT 2014]</a> 
+    </td>
+   <td><a href=http://www.ukieri.org/ugc-thematic-partnerships.html>British Council</a></td>	
+  </tr>
+
+ <tr>
+    <td>GPU Memory Systems</td>
+    <td>
+		<a href="papers/hpca19.pdf">[HPCA 2019]</a> 
+		<a href="papers/ispass17.pdf">[ISPASS 2017]</a> 
+		<a href="https://dl.acm.org/citation.cfm?doid=3012405.3001589">[TACO 2017]</a> 
+    </td>
+    <td></td>		
+  </tr>
+
+
+
+  <tr>
+    <td>Robotics</td>
+    <td>
+            <a href="papers/rss16.pdf">[RSS 2016]</a> 
+            <a href="papers/iros16.pdf">[IROS 2016]</a> 
+	    <a href="http://www.research.ed.ac.uk/portal/en/publications/dynamic-process-migration-in-heterogeneous-rosbased-environments(6e390d00-7fa6-4c82-826a-df53fdf0ed01).html">[ICAR 2015]</a> 
+    </td>
+    <td><a href="http://anyscale.org">AnyScale Apps</a> (<a href="http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/L000725/1">EPSRC</a>)</td>		
+  </tr>
+
+
+
+
+
+<li><b>HW/SW Support for Shared Memory</b> 
+<ul> 
+	   <li> Results:
+		<a href="papers/hpca14.pdf">[HPCA 2014]</a> 
+		<a href="papers/sc14.pdf">[SC 2014]</a> 
+		<a href="http://dl.acm.org/citation.cfm?id=2462196">[PLDI 2013]</a> 
+		<a href="http://dl.acm.org/citation.cfm?doid=2464996.2465015">[ICS 2013]</a> 
+		<a href="http://dl.acm.org/citation.cfm?id=2151006">[ASPLOS 2012]</a> 
+		<a href="http://portal.acm.org/citation.cfm?id=1854273.1854312">[PACT 2010]</a> 
+	   <li> Project: C3 (funded by EPSRC)<br><br>
+	</ul>	
+
+   <li><b>Cache design </b>
+	<ul>
+		<li> Results: 
+		<a href="papers/pact14.pdf">[PACT 2014]</a> 
+		<a href="contact.html">[ICCD 2014]</a> 
+		<li> Project: Power-efficient Prefetching (funded by British Council)<br><br>
+   </ul> 
+
+	<li><b>HW Support for Monitoring</b>
+	<ul> <li>
+	<a href="http://dl.acm.org/citation.cfm?id=2212922">[ACM CF 2012]</a> 
+	<a href="http://doi.acm.org/10.1145/1555754.1555798">[ISCA 2009]</a>  
+	<a href="http://doi.acm.org/10.1145/1531793.1531798">[SIGOPS 2009]</a> 
+</ul>
+   <br><br>
+<li><b>Speculative Optimizations</b> 
+	<a href="papers/lcpc09.pdf">[LCPC 2009]</a> 
+	<a href="http://dx.doi.org/10.1007/s10766-009-0111-z">[IJPP 2009]</a> 
+	<a href="http://dx.doi.org/10.1109/MICRO.2008.4771802">[MICRO 2008]</a>   
+	-->
+<!--<br><br><a href=publications.html>Full list of our publications</a><br><br> 
+<a href=https://github.com/icsa-caps>Code</a>  
+</p>
+-->
+</ul>
+<br/>
+<font size="2">
+<a name="students_anchor"></a>
+<table bgcolor="#6699FF" border="0" cellpadding="2" id="teaching" width="100%">
+<tr>
+<td align="LEFT"><b><font color="#000000" face="Arial,Helvetica" size="3">CAPS Research Group</font></b></td>
+</tr>
+</table>
+<ul>
+<div id="rsrch_int_condensed" style="display:block">
+<p>
+</p>
+<table border="1" cellpadding="4" style="width:60%">
+<tr>
+<th>PhD Students</th>
+<td>
+<a href="https://vasigavr1.github.io/">Vasileios Gavrielatos</a><br/><br/>
+<a href="https://www.inf.ed.ac.uk/people/students/Antonios_Katsarakis.html">Antonis Katsarakis</a> (co-supervisor, with Boris Grot)<br/><br/>
+<a href="https://nicolai-oswald.de/">Nicolai Oswald</a><br/><br/>
+<a href="https://maheshdananjaya.github.io/">Mahesh Dananjaya</a><br/><br/>
+<a href="http://timewarp.adarshpatil.in/">Adarsh Patil</a><br/><br/>
+<a href="https://uk.linkedin.com/in/theo-olausson">Theo Olausson</a> (MInf) <br/><br/>
+</td>
+</tr>
+<!--   
+    <th> Research Associates</th>
+    <td>
+	    <a href ="https://www.inf.ed.ac.uk/people/staff/Chris_Banks.html">Chris Banks</a> <br><br>
+            <a href ="http://homepages.inf.ed.ac.uk/jcanore/">Jose Cano Reyes</a> <br><br>
+            <a href ="http://homepages.inf.ed.ac.uk/rkumar2/index.html">Rakesh Kumar</a>
+	   	
+    </td>
+   </tr>
+-->
+<tr>
+<th> PhD Alumni</th>
+<td>
+<a href="http://homepages.inf.ed.ac.uk/s0978451/">Bharghava Rajaram</a> <i>(First: Assistant Professor, VIT University; Current: Assistant Professor, Mahindra Ecole Centrale, India) </i> <br/><br/>
+<a href="http://homepages.inf.ed.ac.uk/s0678953/">Andrew J. McPherson</a> <i> (First: IBM Research; Current: Senior Data Scientist, Credit Suisse) </i> <br/><br/>
+<a href="http://homepages.inf.ed.ac.uk/s0787712/">Marco Elver</a> <i> (Software Engineer, Google, Mountain View) </i><br/><br/>
+<a href="http://homepages.inf.ed.ac.uk/s1150068/">Cheng-Chieh Huang</a> <i> (First: Senior Software Development Engineer, Mentor Graphics; Current: Software Engineer, Google) </i><br/><br/>
+<a href="http://homepages.inf.ed.ac.uk/s1372211/">Arpit Joshi</a> <i>(Researcher, Intel, Portland)</i><br/><br/>
+<a href="http://homepages.inf.ed.ac.uk/s1433370/">Saumay Dublish</a> <i>(Synopsys)<br/><br/>
+</i></td>
+</tr>
+<th>Post-doc Alumni</th>
+<td>
+<a href="http://www.dcs.gla.ac.uk/~josecr/">Jose Cano Reyes</a> <i>(Assistant Professor, University of Glasgow)</i><br/><br/>
+<a href="https://www.ntnu.edu/employees/rakesh.kumar">Rakesh Kumar</a> <i>(Associate Professor, NTNU)</i><br/><br/>
+<a href="">Chris Banks</a> <i>(Permanent Research Scientist, Roslin Institute and School of Veterinary studies, Edinburgh</i> <br/><br/>
+</td>
+</table>
+<p>
+</p></div>
+</ul>
+<br/>
+<font size="2">
+<a name="teaching_anchor"></a>
+<table bgcolor="#6699FF" border="0" cellpadding="2" id="teaching" width="100%">
+<tr>
+<td align="LEFT"><b><font color="#000000" face="Arial,Helvetica" size="3">Teaching</font></b></td>
+</tr>
+</table>
+<ul>
+<div id="rsrch_int_condensed" style="display:block">
+<p>
+</p>
+<li><a href="https://course.inf.ed.ac.uk/pa/">Parallel Architectures 2013-present </a> <br/><br/>
+</li><li><a href="http://www.inf.ed.ac.uk/teaching/courses/car/">Computer Architecture 2012-present </a> <br/><br/>
+<p>
+</p></li></div>
+</ul>
+<br/>
+<font size="2">
+<a name="professional_anchor"></a>
+<table bgcolor="#6699FF" border="0" cellpadding="2" id="teaching" width="100%">
+<tr>
+<td align="LEFT"><b><font color="#000000" face="Arial,Helvetica" size="3">Professional Activities</font></b></td>
+</tr>
+</table>
+<ul>
+<div id="rsrch_int_condensed" style="display:block">
+<p>
+</p>
+<li> Editorial Board: <a href="https://www.computer.org/web/cal">IEEE CAL (Associate Editor)</a> <br/><br/>
+</li><li> Organizing Committees: <a href="http://workshops.inf.ed.ac.uk/wams/">WAMS 18</a> <a href="http://conf.researchr.org/home/LCTES-2017">LCTES 17 (General Chair)</a> <a href="http://conferences.inf.ed.ac.uk/pldi2014/">PLDI 14 (Finance Chair)</a> <a href="http://www.pactconf.org/">PACT 13 (Registration Chair)</a> <br/><br/>
+</li><li> Program Committees:<a href="https://iscaconf.org/isca2020/">ISCA 20</a> <a href="https://www.microarch.org/micro52/">MICRO 19</a> <a href="http://hpca2019.seas.gwu.edu/index.html">HPCA 19/17</a> <a href="https://cc-conference.github.io/18/">CC 18</a> <a href="http://sc16.supercomputing.org/">SC 16</a> <a href="http://www.rtcsa.org/">RTCSA 14/15/16</a> <a href="http://nas-conference.org/">NAS 14/15</a>
+<a href="http://nvmsa.comp.polyu.edu.hk/">NVMSA 15/16/17</a> <a href="http://www.iccd-conf.com/Home.html">ICCD 14/15</a> <a href="http://woda14.cs.rutgers.edu/">WODA 14</a> <br/><br/>
+</li><li> External Review Committees: <a href="https://asplos-conference.org/">ASPLOS 2019</a> <a href="http://www.pactconf.org/">PACT 18/14</a> <a href="http://www.lrr.in.tum.de/~gerndt/ICS2014/">ICS 14</a> <a href="http://conferences.inf.ed.ac.uk/pldi2014/">PLDI 14</a> <a href="http://www.inf.ed.ac.uk/teaching/courses/car/">ASPLOS Doctoral Workshop 12</a> (mentor)   <br/><br/>
+</li><li> Membership: <a href="http://www.nais.org.uk/">NAIS</a>, ACM, IEEE, HiPEAC <br/>
+<p>
+</p></li></div>
+</ul>
+<!--
+<br>
+<font size=2>
+<a name="news_anchor"></a>
+<table BORDER=0 CELLPADDING=2 WIDTH="100%" bgcolor="#6699FF" id="biography">
+<tr>
+<td ALIGN=LEFT><b><font face=Arial,Helvetica 
+color="#000000" size="3">News</font></b></td>
+</tr>
+</table>
+
+<ul>
+<p>
+
+<li> April 2015: Papers accepted at <a href="http://icar2015.org/">ICAR 2015</a> and <a href="http://nvmw.ucsd.edu/2015/">NVMW 2015</a> <br><br>
+
+<li> Feb 2015: Invited talk at <a href="http://user.it.uu.se/~mohat117/UpmarcWorkshop/">UPMARC workshop on memory models.</a> <br><br>
+
+<li> Jan 2015: <a href="http://www.inf.ed.ac.uk/people/staff/Rakesh_Kumar.html">Rakesh Kumar</a> joins research group. Welcome Rakesh! <br><br>
+
+<li> Sep 2014: <a href="http://homepages.inf.ed.ac.uk/s0978451/">Bharghava Rajaram</a> has defended his PhD viva. Congratulations!<br><br> 
+
+<li> June 2014: Papers accepted at <a href="http://www.pactconf.org/">PACT 2014,</a>  <a href="http://sc14.supercomputing.org/">SC 2014,</a> and <a href="http://www.iccd-conf.com/">ICCD 2014.</a> <br><br>
+
+<li> Jan 2014: <a href="http://www.dcs.gla.ac.uk/~jsinger/anyscale/">AnyScale Applications</a> kicks off at Edinburgh! <br><br>
+
+<li> Jan 2014: <a href="http://homepages.inf.ed.ac.uk/jcanore/">Jose Cano Reyes</a> joins research group. Welcome Jose! <br><br>
+
+<li> Paper accepted at <a href="http://hpca20.ece.ufl.edu/">HPCA 2014.</a> <br><br>
+
+<li> Selected for <a href=https://www.intel-university-collaboration.net/news-blogs-and-announcements/intel-labs-announces-its-2013-european-faculty-and-doctoral-student-awardees-3>2013 Intel Early Career Honor Award.</a> <br><br>
+
+<li> Paper accepted at <a href="http://www.ics-conference.org/">ICS 2013.</a> <br><br>
+
+<li> Paper accepted at <a href="http://pldi2013.ucombinator.org/">PLDI 2013.</a> <br><br>
+
+<li> <a href="http://homepages.inf.ed.ac.uk/s0978451/">Bharghava Rajaram</a> selected for 2012-13 Intel Doctoral Student Honour 
+Programme. Congrats Bharghava!<br><br>
+
+
+<li> <a href="http://www.cse.iitm.ac.in/~madhu/">Prof. Madhu Mutyam</a> and K. Raghavendra are visiting us as part of <a href="http://wcms.inf.ed.ac.uk/icsa/news/ukieri-thematic-partnerships-award">UKIERI thematic partnership</a>. <br><br>
+
+<li> Paper accepted at <a href="http://www.computingfrontiers.org/2012/">ACM CF 2012.</a> <br><br>
+
+<li> Poster wins 2nd prize at <a href="http://research.microsoft.com/en-us/um/cambridge/events/asplos_2012/posters.html">ASPLOS 2012.</a> <br><br>
+
+<li> Won <a href="http://wcms.inf.ed.ac.uk/icsa/news/ukieri-thematic-partnerships-award">UKIERI Thematic Partnership Award</a> from UK Indian Research Initiative, British Council <br><br>
+
+<li> Paper accepted at <a href="http://research.microsoft.com/en-us/um/cambridge/events/asplos_2012/programme.html">ASPLOS 2012.</a> <br><br>
+<li> <a href ="http://portal.acm.org/citation.cfm?id=1854273.1854312">Paper</a> wins a <a href ="http://pactconf.org/awards.html">best paper award</a> at PACT 2010.<br><br>
+</p>
+</ul>
+-->
+</font></font></font></font></font></font><div><font face="Arial">
+<table align="left" cellpadding="20" cellspacing="10" cols="3" width="100%">
+<td align="left" width="120">
+<img align="bottom" alt="Vijay Nagarajan Image" bcolor="white" border="1" height="165" src="media/vijay2.jpg" width="170"/>
+</td><td>
+<font size="4"><b>Vijay Nagarajan</b></font><br/><br/>
+<font face="Arial" size="2">Reader (Associate Professor)<br/>
+<a href="http://www.icsa.informatics.ed.ac.uk/">Institute of Computer Systems Architecture</a><br/>
+<a href="http://www.inf.ed.ac.uk/">School of Informatics</a><br/>
+<a href="http://www.ed.ac.uk/">University of Edinburgh</a><br/>
+    1.22 Informatics Forum<br/>
+    10 Crichton Street <br/>
+    Edinburgh, EH8 9AB <br/><br/>
+<i>Office Phone:</i> (+44) 131-651-3440<br/>
+<i>E-mail:</i>
+<b>vijay.nagarajan at ed.ac.uk</b><br/>
+</font>
+</td>
+<td align="right">
+<font size="2"><font face="Arial">
+<a href="index.html">Back to Home</a> <br/><br/>
+<a href="#publications_anchor">Publications</a> <br/><br/>
+<a href="#patents_anchor">Patents</a> <br/><br/>
+</font>
+</font></td>
+</table>
+<br clear="all"/>
+<font size="2">
+<a name="publications_anchor"></a>
+<table bgcolor="#6699FF" border="0" cellpadding="2" id="publications" width="100%">
+<tr>
+<td align="LEFT"><b><font color="#000000" face="Arial,Helvetica" size="3">Publications</font></b></td>
+</tr>
+</table>
+<br/>
+<font size="2">
+<table bgcolor="#6699FF" border="0" cellpadding="2" id="personal" width="100%">
+<tr>
+<td align="CENTER"><b><font color="#000000" face="Arial,Helvetica" size="3">2020</font></b></td>
+</tr>
+</table>
+<table border="0" cellpadding="2" width="100%">
+<tbody>
+</tbody>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[ISCA]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>N. Oswald, V. Nagarajan and D.J. Sorin</b><br/>
+<a href="papers/isca20.pdf">
+HieraGen: Automatically Generating Hierarchical Cache Coherence Protocols from
+Atomic Specifications</a><br/>
+<em> The 47th International Symposium on Computer Architecture, June 2020, to appear.<br/>
+</em></font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[PPoPP]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<font color="red">One of the 5 best paper candidates</font><br/>
+<b>V. Gavrielatos, A. Katsarakis,  V. Nagarajan, B. Grot and A. Joshi </b><br/>
+<a href="papers/ppopp20.pdf">
+Kite: Efficient and Available Release Consistency for the Datacenter</a><br/>
+<em> The 25th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming.<br/>
+<a href="https://github.com/icsa-caps/Kite">[Code]</a>
+</em></font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[ASPLOS]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>A. Katsarakis, V. Gavrielatos, M.R.S. Katebzadeh, A. Joshi, A. Dragojevich, B. Grot and V. Nagarajan  </b><br/>
+<a href="papers/asplos20a.pdf">
+Hermes: A Fast, Fault-Tolerant and Linearizable Replication Protocol</a><br/>
+<em> The 25th International Conference on Architectural Support for Programming Languages and Operating Systems<br/>
+<a href="https://github.com/akatsarakis/Hermes">[Code]</a>
+</em></font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[ASPLOS]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>M. Dananjaya, V. Gavrielatos, A. Joshi, and V. Nagarajan </b><br/>
+<a href="papers/asplos20b.pdf">
+Lazy Release Persistency</a><br/>
+<em> The 25th International Conference on Architectural Support for Programming Languages and Operating Systems<br/>
+<a href="https://github.com/dananjayamahesh/primesim/tree/dimp">[Code]</a>
+</em></font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[Synthesis Lectures]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>V. Nagarajan, D. J. Sorin, M. D. Hill, and D. A. Wood </b><br/>
+<a href="http://www.morganclaypoolpublishers.com/catalog_Orig/product_info.php?products_id=1503">
+A Primer on Memory Consistency and Cache Coherence, Second Edition</a><br/>
+<em> Synthesis Lectures on Computer Architecture, Morgan and Claypool.<br/>
+</em></font></td>
+</tr>
+<br/>
+</table>
+<font size="2">
+<table bgcolor="#6699FF" border="0" cellpadding="2" id="personal" width="100%">
+<tr>
+<td align="CENTER"><b><font color="#000000" face="Arial,Helvetica" size="3">2019</font></b></td>
+</tr>
+</table>
+</font>
+<table border="0" cellpadding="2" width="100%">
+<tbody>
+</tbody>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[HPCA]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>S. Dublish, V. Nagarajan and N. Topham</b><br/>
+<a href="papers/hpca19.pdf">
+Poise: Balancing Thread-Level Parallelism and Memory System
+Performance in GPUs using Machine Learning</a><br/>
+<em> 25th IEEE International Symposium on High-Performance Computer Architecture, Feb 2019, to appear.  </em></font></td>
+</tr>
+<br/>
+</table>
+<font size="2">
+<table bgcolor="#6699FF" border="0" cellpadding="2" id="personal" width="100%">
+<tr>
+<td align="CENTER"><b><font color="#000000" face="Arial,Helvetica" size="3">2018</font></b></td>
+</tr>
+</table>
+</font>
+<table border="0" cellpadding="2" width="100%">
+<tbody>
+</tbody>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[ISCA]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<font color="red">IEEE MICRO Top Picks Honourable Mention</font><br/>
+<b>N. Oswald, V. Nagarajan and D.J. Sorin</b><br/>
+<a href="papers/isca18a.pdf">
+ProtoGen: Automatically Generating Directory Cache Coherence Protocols from
+Atomic Specifications</a><br/>
+<em> The 45th International Symposium on Computer Architecture, June 2018.<br/>
+<a href="https://github.com/icsa-caps/protogen">[Code]</a>
+</em></font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[ISCA]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>A. Joshi, V. Nagarajan, M. Cintra, and S. Viglas</b><br/>
+<a href="papers/isca18b.pdf">
+DHTM: Durable Hardware Transactional Memory
+</a><br/>
+<em> The 45th International Symposium on Computer Architecture, June 2018.<br/>
+</em></font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[EuroSys]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>V. Gavrielatos, A. Katsarakis, A. Joshi, N. Oswald, B. Grot, and V. Nagarajan </b><br/>
+<a href="papers/eurosys18.pdf">
+Scale-Out ccNUMA: Exploiting Skew with Strongly Consistent Caching</a><br/>
+<em> The 13th European Conference on Computer Systems, April 2018.<br/>
+<a href="https://github.com/icsa-caps/ccKVS">[Code]</a>
+</em></font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[ASPLOS]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>R. Kumar, B. Grot, and V. Nagarajan </b><br/>
+<a href="papers/asplos18.pdf">
+Blasting Through The Front-End Bottleneck with Shotgun </a><br/>
+<em>The 23rd ACM International Conference on Architectural Support for Programming Languages and Operating Systems, March 2018.<br/>
+</em></font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[DATE]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b> M. Elver, C. J. Banks, P. Jackson, and V. Nagarajan</b><br/>
+<a href="papers/date18.pdf">
+VerC3: A Library for Explicit State Synthesis for Concurrent Systems</a><br/>
+<em> Design, Automation and Test in Europe, March 2018.<br/>
+<a href="https://github.com/icsa-caps/verc3">[Code]</a>
+</em></font></td>
+</tr>
+<br/>
+</table>
+<font size="2">
+<table bgcolor="#6699FF" border="0" cellpadding="2" id="personal" width="100%">
+<tr>
+<td align="CENTER"><b><font color="#000000" face="Arial,Helvetica" size="3">2017</font></b></td>
+</tr>
+</table>
+</font>
+<table border="0" cellpadding="2" width="100%">
+<tbody>
+</tbody>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[FMCAD]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>C. J. Banks, M. Elver, R. Hoffmann, S. Sarkar, P. Jackson, and V. Nagarajan</b><br/>
+<a href="https://arxiv.org/abs/1705.08262">
+Verification of a lazy cache coherence protocol against a weak memory model (preprint)</a><br/>
+<em>The 17th Conference on Formal Methods in Computer-Aided Design, Oct 2017.<br/>
+<a href="https://github.com/icsa-caps/tso-cc">[Code]</a>
+</em></font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[ISPASS]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>S. Dublish, V. Nagarajan and N. Topham</b><br/>
+<a href="papers/ispass17.pdf">
+Evaluating and Mitigating Bandwidth Bottlenecks Across the Memory Hierarchy in GPUs</a><br/>
+<em>IEEE International Symposium on Performance Analysis of Systems and Software</em><br/>
+San Francisco, April 2017.
+</font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[HPCA]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>A. Joshi, V. Nagarajan, M. Cintra, and S. Viglas </b><br/>
+<a href="papers/hpca17a.pdf">
+ATOM: Atomic Durability in Non-volatile Memory through Hardware Support for Logging </a><br/>
+<em>The 23rd IEEE Symposium on High Performance Computer Architecture</em><br/> Austin, Texas, USA Feb 2017.
+</font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[HPCA]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>R. Kumar, C. Huang, B. Grot, and V. Nagarajan </b><br/>
+<a href="papers/hpca17b.pdf">
+Boomerang: a Metadata-Free Architecture for Control Flow Delivery </a><br/>
+<em>The 23rd IEEE Symposium on High Performance Computer Architecture</em><br/> Austin, Texas, USA Feb 2017.
+</font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[TACO]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>S. Dublish, V. Nagarajan and N. Topham</b><br/>
+<a href="http://dl.acm.org/citation.cfm?doid=3012405.3001589">
+Cooperative Caching for GPUs </a><br/>
+<em>ACM Transactions on Architecture and Code Optimization</em><br/> 
+Also invited presentation at HiPEAC 2017, Stockholm, Sweden, Jan 2017. 
+</font></td>
+</tr>
+<br/>
+</table>
+<font size="2">
+<table bgcolor="#6699FF" border="0" cellpadding="2" id="personal" width="100%">
+<tr>
+<td align="CENTER"><b><font color="#000000" face="Arial,Helvetica" size="3">2016</font></b></td>
+</tr>
+</table>
+</font>
+<table border="0" cellpadding="2" width="100%">
+<tbody>
+</tbody>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[MICRO]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>C. Huang, R. Kumar, M. Elver, B. Grot, and V. Nagarajan</b> <br/>
+<a href="papers/micro16.pdf">C3D: Mitigating NUMA Effects via Coherent DRAM Caches</a><br/>
+<em>The 49th ACM/IEEE International Symposium on Microarchitecture,</em><br/> Taipei, Taiwan, October 2016. <br/>
+<a href="https://github.com/icsa-caps/c3d-protocol">[C3D Specification and Murphi Model]</a>
+</font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[SC]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>C. Huang, V. Nagarajan and A. Joshi</b><br/>
+<a href="papers/sc16.pdf"> DCA: a DRAM-cache-aware DRAM controller</a><br/>
+<em>The IEEE/ACM International Conference for High Performance Computing, Networking, Storage and Analysis,</em><br/> Salt Lake City, USA November 2016.
+</font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[IROS]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>J. Cano, A. Bordallo, V. Nagarajan, S. Ramamoorthy, and S. Vijayakumar </b><br/>
+<a href="papers/iros16.pdf">Automatic  Configuration of ROS Applications for near-optimal Performance</a><br/>
+<em> IEEE/RSJ International Conference on Intelligent Robots and Systems</em><br/> Korea, October 2016 (to appear).
+</font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[RSS]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>J. Cano, D. White, A. Bordallo, C. McCreesh, P. Prosser, J. Singer and V. Nagarajan </b><br/>
+<a href="papers/rss16.pdf">Task Variant Allocation in Distributed Robotics</a><br/>
+<em>Robotics: Science and Systems</em><br/> Ann Arbor, USA, June 2016.<br/>
+<a href="https://github.com/ipab-rad/task_alloc">[Code]</a>
+</font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[HPCA]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>M. Elver and V. Nagarajan </b><br/>
+<a href="papers/hpca16.pdf">McVerSi: A Test Generation Framework for Fast Memory Consistency Verification in Simulation</a><br/>
+<em>The 22nd Symposium on High Performance Computer Architecture</em><br/>Barcelona, Spain March 2016. <br/>
+<a href="https://github.com/icsa-caps/mc2lib">[Simulator-independent library]</a>
+</font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[TACO]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>A. J. McPherson, V. Nagarajan, S. Sarkar and M. Cintra </b><br/>
+<a href="http://dl.acm.org/citation.cfm?doid=2836331.2835179">
+Fence placement for legacy data-race-free programs via synchronization read detection</a><br/>
+<em>ACM Transactions on Architecture and Code Optimization</em>, January 2016.<br/> 
+Also appeared as <a href="http://dl.acm.org/citation.cfm?id=2688524&amp;CFID=624055418&amp;CFTOKEN=68477654">PPoPP Poster</a>, Feb 2015.<br/>
+</font></td>
+</tr>
+<br/>
+</table>
+<font size="2">
+<table bgcolor="#6699FF" border="0" cellpadding="2" id="personal" width="100%">
+<tr>
+<td align="CENTER"><b><font color="#000000" face="Arial,Helvetica" size="3">2015</font></b></td>
+</tr>
+</table>
+</font>
+<table border="0" cellpadding="2" width="100%">
+<tbody>
+</tbody>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[MICRO]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>A. Joshi, V. Nagarajan, M. Cintra, and S. Viglas </b><br/>
+<a href="papers/micro2015.pdf">
+Efficient Persist Barriers for Multicores</a><br/>
+<em>The 48th Annual IEEE/ACM International Symposium on Microarchitecture</em><br/> Waikiki, Hawaii, USA Dec 2015.
+</font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[PACT]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>M. Elver and V. Nagarajan </b><br/>
+<a href="papers/pact15.pdf">
+RC3: Consistency directed Cache Coherence for x86-64 with RC extensions</a><br/>
+<em>The 24th International Conference on Parallel Architectures and Compilation Techniques</em><br/> San Francisco, USA Oct 2015.
+</font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[SAFECOMP]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>G. Stefanakis, V. Nagarajan, and M. Cintra</b><br/>
+<a href="http://www.research.ed.ac.uk/portal/en/publications/understanding-the-effects-of-data-corruption-on-application-behavior-based-on-data-charecterestics(a603b6a9-d7bb-42e8-b343-7e307074618e).html">
+Understanding the Effects of Data Corruption on Application Behavior Based on Data Charecterestics</a><br/>
+<em>International Conference on Computer Safety, Reliability and Security</em><br/> Delft, Netherlands Sep 2015. 
+</font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[ICAR]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>J. Cano, E. Molinos, V. Nagarajan, and S. Vijayakumar</b><br/>
+<a href="http://www.research.ed.ac.uk/portal/en/publications/dynamic-process-migration-in-heterogeneous-rosbased-environments(6e390d00-7fa6-4c82-826a-df53fdf0ed01).html">
+Dynamic process migration in heterogeneous ROS-based environments</a><br/>
+<em>The 17th International Conference on Advanced Robotics</em><br/> Istanbul, Turkey July 2015. 
+</font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[NVMW]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>M. Cintra, A. Chatzistergiou, A. Joshi, V. Nagarajan, and S. Viglas</b><br/>
+<a href="">
+DAPPER: a database-inspired approach to persistent memory</a><br/>
+<em>Non-Volatile Memories Workshop</em><br/> San Diego, USA March 2015. 
+</font></td>
+</tr>
+<br/>
+</table>
+<font size="2">
+<table bgcolor="#6699FF" border="0" cellpadding="2" id="personal" width="100%">
+<tr>
+<td align="CENTER"><b><font color="#000000" face="Arial,Helvetica" size="3">2014</font></b></td>
+</tr>
+</table>
+</font>
+<table border="0" cellpadding="2" width="100%">
+<tbody>
+</tbody>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[SC]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>C. Lin, V. Nagarajan and R. Gupta</b><br/>
+<a href="papers/sc14.pdf">
+Fence Scoping</a><br/>
+<em>The IEEE/ACM International Conference for High Performance Computing, Networking, Storage and Analysis,</em><br/> New Orleans, USA November 2014. 
+</font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[ICCD]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>C. Huang and V. Nagarajan </b><br/>
+<a href="papers/iccd14.pdf">
+Increasing Cache Capacity via Critical-words-Only Cache </a><br/>
+<em>The 32nd IEEE International Conference on Computer Design,</em><br/> Seoul, Korea October 2014. 
+</font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[LCPC]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>A. J. McPherson, V. Nagarajan, and M. Cintra </b><br/>
+<a href="papers/lcpc14.pdf">
+Static Approximation of MPI Communication Graphs for Optimized Process Placement</a><br/>
+<em>The 27th International Workshop on Languages and Compilers for Parallel Computing,</em><br/> Hilsboro, September 2014. 
+</font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[PACT]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>C. Huang and V. Nagarajan </b><br/>
+<a href="papers/pact14.pdf">
+ATCache: Reducing DRAM cache Latency via a Small SRAM Tag Cache</a><br/>
+<em>The 23rd International Conference on Parallel Architectures and Compilation Techniques,</em><br/> Edmonton, Canada, August 2014. 
+</font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[HPCA]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>M. Elver and V. Nagarajan </b><br/>
+<a href="papers/hpca14.pdf">
+TSO-CC: Consistency directed cache coherence for TSO</a><br/>
+<em>The International Symposium on High-Performance Computer Architecture,</em><br/> Orlando, USA Feb 2014. <br/>
+<a href="papers/tso-cc_spec.pdf">[TSO-CC Specification]</a>
+</font></td>
+</tr>
+<br/>
+</table>
+<font size="2">
+<table bgcolor="#6699FF" border="0" cellpadding="2" id="personal" width="100%">
+<tr>
+<td align="CENTER"><b><font color="#000000" face="Arial,Helvetica" size="3">2013</font></b></td>
+</tr>
+</table>
+</font>
+<table border="0" cellpadding="2" width="100%">
+<tbody>
+</tbody>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[PLDI]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>B. Rajaram, V. Nagarajan, S. Sarkar, and M. Elver </b><br/>
+<a href="papers/pldi13.pdf">
+Fast RMWs for TSO: Semantics and Implementation</a><br/>
+<em>ACM SIGPLAN Conference on Programming Language Design and Implemenation,</em><br/> Seattle, Washington, June 2013. 
+</font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[ICS]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>C. Lin, V. Nagarajan, and R. Gupta </b><br/>
+<a href="http://dl.acm.org/citation.cfm?doid=2464996.2465015">
+Address-aware Fences</a><br/>
+<em>27th International Conference on Supercomputing,</em><br/>Eugene, Oregon, June 2013
+</font></td>
+<br/>
+</table>
+<font size="2">
+<table bgcolor="#6699FF" border="0" cellpadding="2" id="personal" width="100%">
+<tr>
+<td align="CENTER"><b><font color="#000000" face="Arial,Helvetica" size="3">2012</font></b></td>
+</tr>
+</table>
+</font>
+<table border="0" cellpadding="2" width="100%">
+<tbody>
+</tbody>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[ACM CF]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>B. Rajaram, V. Nagarajan, A. J. McPherson, and M. Cintra</b><br/>
+<a href="http://dl.acm.org/citation.cfm?id=2212922">
+SuperCoP: A General, Correct, and Performance-efficient Supervised Memory System,</a><br/>
+<em>ACM International Conference on Computing Frontiers,</em><br/> May 2012. 
+</font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[ASPLOS]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>C. Lin, V. Nagarajan, R. Gupta and B. Rajaram</b><br/>
+<a href="http://dl.acm.org/citation.cfm?id=2151006">
+Efficient Sequential Consistency via Conflict Ordering,</a><br/>
+<em>ACM 17th International Conference on Architectural Support for Programming Languages and Operating Systems,</em><br/>
+March 2012. 
+</font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[ASPLOS poster]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<font color="red">Received 2nd prize: Best Poster</font><br/>
+<b>B. Rajaram and V. Nagarajan</b><br/>
+<a href="contact.html">
+Fast RMWs for TSO,</a><br/>
+<em>ACM 17th International Conference on Architectural Support for Programming Languages and Operating Systems,</em><br/>
+Poster session. 
+</font></td>
+</tr>
+<br/>
+</table>
+<font size="2">
+<table bgcolor="#6699FF" border="0" cellpadding="2" id="personal" width="100%">
+<tr>
+<td align="CENTER"><b><font color="#000000" face="Arial,Helvetica" size="3">2011</font></b></td>
+</tr>
+</table>
+</font>
+<table border="0" cellpadding="2" width="100%">
+<tbody>
+</tbody>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[SP&amp;E]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>V. Nagarajan, D.Jeffrey, and R.Gupta</b><br/>
+<a href="http://dx.doi.org/10.1002/spe.1105">
+A System for Debugging via Online Tracing and Dynamic Slicing,</a><br/>
+<em>Software - Practice &amp; Experience,</em><br/>
+July 2011. 
+</font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[IJPP]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>C.Lin, V. Nagarajan, and R.Gupta</b><br/>
+<a href="http://dx.doi.org/10.1007/s10766-011-0176-3">
+Efficient Sequential Consistency Using Conditional Fences,</a><br/>
+<em>International Journal of Parallel Programming,</em><br/> June 2011. 
+</font></td>
+</tr>
+<br/>
+</table>  
+<font size="2">
+<table bgcolor="#6699FF" border="0" cellpadding="2" id="personal" width="100%">
+<tr>
+<td align="CENTER"><b><font color="#000000" face="Arial,Helvetica" size="3">2010</font></b></td>
+</tr>
+</table>
+</font>
+<table border="0" cellpadding="2" width="100%">
+<tbody>
+</tbody>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[PACT]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<font color="red">Received a Best Paper Award</font><br/>
+<b>C.Lin, V. Nagarajan, and R.Gupta</b><br/>
+<a href="http://portal.acm.org/citation.cfm?id=1854273.1854312">
+Efficient Sequential Consistency Using Conditional Fences,</a><br/>
+<em>The 19th International Conference on Parallel Architectures and Compilation Techniques,</em><br/>
+Vienna, Austria, September 2010. 
+</font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[TOPLAS]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>D.Jeffrey, V. Nagarajan, and R.Gupta</b><br/>
+<a href="http://doi.acm.org/10.1145/1745312.1745314">
+Execution Supression: An Automated Iterative Technique for locating Memory Errors,</a><br/>
+<em>ACM Transactions on Programming Languages and Systems,</em><br/> Vol. 32, No. 5, 36 pages, May 2010. 
+</font></td>
+</tr>
+<br/>
+</table>
+<font size="2">
+<table bgcolor="#6699FF" border="0" cellpadding="2" id="personal" width="100%">
+<tr>
+<td align="CENTER"><b><font color="#000000" face="Arial,Helvetica" size="3">2009</font></b></td>
+</tr>
+</table>
+</font>
+<table border="0" cellpadding="2" width="100%">
+<tbody>
+</tbody>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[LCPC]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>V. Nagarajan and R.Gupta,</b><br/>
+<a href="papers/lcpc09.pdf">
+Speculative Optimizations for Parallel Programs on Multicores,</a><br/>
+<em>22nd International Workshop on Languages and Compilers for Parallel Computing,</em><br/>
+Newark, Delaware, October 2009. 
+</font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[IJPP]
+</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>C. Tian, M.Feng, V. Nagarajan and R. Gupta,</b><br/>
+<a href="http://dx.doi.org/10.1007/s10766-009-0111-z">
+Speculative Parallelization of Sequential Loops On Multicores,</a><br/>
+<em>International Journal of Parallel Programming</em>, October 2009.
+</font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[SP&amp;E]
+</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>C. Tian, V. Nagarajan, R. Gupta, and S. Tallam,</b><br/>
+<a href="http://dx.doi.org/10.1002/spe.922">
+<font face="Arial" size="2">
+Automated Dynamic Detection of Busy-wait Synchronizations,</font></a><br/>
+<em>Software - Practice and Experience</em>, August 2009.
+</font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[ISCA]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>V. Nagarajan and R.Gupta,</b><br/>
+<a href="http://doi.acm.org/10.1145/1555754.1555798">
+ECMon: Exposing Cache Events for Monitoring,</a><br/>
+<em>ACM/IEEE 36th International Symposium on Computer Architecture,</em><br/>
+Austin, Texas, June 2009.
+</font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[ISMM]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>V. Nagarajan, D. Jeffrey and R. Gupta,</b><br/>
+<a href="http://doi.acm.org/10.1145/1542431.1542439">
+Self Recovery in Server Programs,</a><br/>
+<em>International Symposium on Memory Management,</em><br/>
+Dublin, Ireland, June 2009.
+</font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[SIGOPS]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>V. Nagarajan and R.Gupta,</b><br/>
+<a href="http://doi.acm.org/10.1145/1531793.1531798">
+Runtime Monitoring on Multicores via OASES,</a><br/>
+<em>ACM SIGOPS Operating Systems Review,</em><br/>
+special issue on the interaction  among the OS, Compilers, and Multicore Processors,<br/>10 pages, April 2009 (Invited Paper).
+</font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[VEE]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>V. Nagarajan and R.Gupta,</b><br/>
+<a href="http://doi.acm.org/10.1145/1508293.1508295">
+Architectural Support for Shadow Memory in Multiprocessors,</a><br/>
+<em>ACM SIGPLAN/SIGOPS International Conference on Virtual Execution Environments,</em><br/>
+10 pages, Washington DC, March 2009.
+</font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[Trans. HiPEAC]
+</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>V.Nagarajan, R. Gupta, and A.Krishnaswamy,</b><br/>
+<a href="http://www.Springerlink.com/content/bt12623006357831/">
+Compiler-Assisted Memory Encryption for Embedded Processors</a><br/>
+<em> Transactions on High Performance Embedded Architectures and Compilers</em>,<br/>
+Vol. 2, No. 1, pages 23-44, Springer Verlag, 2009<br/>(Invited Paper -- special 
+issue of selected papers from HiPEAC Conference).<br/><br/>
+</font></td>
+</tr>
+<br/>
+</table>
+<font size="2">
+<table bgcolor="#6699FF" border="0" cellpadding="2" id="personal" width="100%">
+<tr>
+<td align="CENTER"><b><font color="#000000" face="Arial,Helvetica" size="3">2008</font></b></td>
+</tr>
+</table>
+</font>
+<table border="0" cellpadding="2" width="100%">
+<tbody>
+</tbody>
+<br/>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[MICRO]
+</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>C. Tian, M. Feng, V. Nagarajan, and R. Gupta,</b><br/>
+<a href="http://dx.doi.org/10.1109/MICRO.2008.4771802">
+Copy or Discard Execution Model For Speculative Parallelization On Multicores,</a><br/>
+<em>IEEE/ACM 41st International Symposium on Microarchitecture</em>,<br/>
+pages 330-341, Lake Como, Italy, Nov. 2008. 
+</font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[ISSTA]
+</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>C. Tian, V. Nagarajan, R. Gupta, and S. Tallam,</b><br/>
+<a href="http://doi.acm.org/10.1145/1390630.1390649">
+Dynamic Recognition 
+of Synchronization Operations for Improved Data Race Detection,</a><br/>
+<em>SIGSOFT International Symposium on Software Testing and Analysis</em>,<br/>
+pages 143-154, Seattle, July 2008. 
+</font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[PADTAD]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>V. Nagarajan and R.Gupta,</b><br/>
+<a href="http://doi.acm.org/10.1145/1390841.1390846">
+Support for Symmetric Shadow Memory in Multiprocessors,</a><br/>
+<em>Workshop on Parallel and Distributed Systems: Testing, Analysis, and Debugging,</em><br/>
+(colocated with ISSTA), 9 pages, Seattle, July 2008. 
+</font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font color="#000000">
+<font face="Arial" size="2">
+[STMCS]</font></font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>C. Tian, V. Nagarajan, and R. Gupta,</b><br/>
+<a href="papers/stmcs.pdf">
+Synchronization Aware Conflict Resolution for Runtime Monitoring Using Transactional Memory,</a><br/>
+<em>Workshop on Software Tools for Multicore Systems,</em><br/>
+(colocated with CGO), 6 pages, Boston, April 2008.
+</font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font color="#000000">
+<font face="Arial" size="2">
+[NSFNGS]</font></font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>R. Gupta, N. Gupta, X. Zhang, D. Jeffrey, V. Nagarajan, S. Tallam and C. Tian</b><br/>
+<a href="http://ieeexplore.ieee.org/search/wrapper.jsp?arnumber=4536382">
+Scalable Dynamic Information Flow Tracking and its Applications,</a><br/>
+<em>NSF Next Generation Software Workshop,</em><br/>
+colocated with IPDPS, pages 1-5, Florida, April 2008.
+</font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font color="#000000">
+<font face="Arial" size="2">
+[INTERACT]</font></font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>V. Nagarajan, H-S.Kim, Y.Wu and R. Gupta,</b><br/>
+<a href="papers/interact08.pdf">
+<font face="Arial" size="2">
+Dynamic Information Flow Tracking on Multicores,</font></a><br/>
+<em> Workshop on Interaction between Compilers and Computer Architectures,</em><br/>
+(colocated with HPCA), 10 pages, Salt Lake City, Feb. 2008.
+</font></td>
+</tr>
+</table>
+<br/>
+<font size="2">
+<table bgcolor="#6699FF" border="0" cellpadding="2" id="personal" width="100%">
+<tr>
+<td align="CENTER"><b><font color="#000000" face="Arial,Helvetica" size="3">2007</font></b></td>
+</tr>
+</table>
+<table border="0" cellpadding="2" width="100%">
+<tbody>
+</tbody>
+<br/>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[ICSM]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>V. Nagarajan, D. Jeffrey, R. Gupta and  N. Gupta</b><br/>
+<a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4362657">
+<font face="Arial" size="2">
+ONTRAC: A System for Efficient ONline TRACing for Debugging,</font></a><br/>
+<em> International Conference on Software Maintenance,</em><br/>
+pages 445-454, Paris, September 2007.
+</font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[ICSM]</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>V. Nagarajan, R. Gupta, X. Zhang, M. Madou, and B. De Sutter</b><br/>
+<a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4362621">
+Matching Control Flow of Program Versions,</a><br/>
+<em> International Conference on Software Maintenance,</em><br/>
+pages 84-93, Paris, September 2007.
+</font></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+[HiPEAC]
+</font></td>
+<td align="left" valign="top">
+<font face="Arial" size="2">
+<b>V.Nagarajan, R. Gupta, and A.Krishnaswamy,</b><br/>
+<a href="papers/hipeac07.pdf">
+Compiler-Assisted Memory Encryption for Embedded Processors</a><br/>
+<em>International Conference on High Performance Embedded Architectures and Compilers</em>,<br/>
+Springer Verlag, LNCS 4367, pages 7-22, Ghent, Belgium, January 2007.
+</font></td>
+</tr>
+</table>
+<br/>
+<font size="2">
+<a name="patents_anchor"></a>
+<table bgcolor="#6699FF" border="0" cellpadding="2" id="patents" width="100%">
+<tr>
+<td align="LEFT"><b><font color="#000000" face="Arial,Helvetica" size="3">Patents</font></b></td>
+</tr>
+</table>
+<ul>
+<p>
+<br/>
+<a href="http://www.google.com/patents/US8321840">
+Software Flow Tracking using Multiple threads.</a><br/>
+<b>Inventors: </b>V. Nagarajan, H-S. Kim (Intel), Y. Wu (Intel), and R. Gupta, <em> US Patent 8,321,840 </em>.
+</p></ul>
+<br/>
+</font>
+</div></body></html>

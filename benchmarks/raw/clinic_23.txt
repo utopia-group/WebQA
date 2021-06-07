@@ -1,0 +1,2088 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="width=device-width, initial-scale=1 user-scalable=no" name="viewport"/>
+<link href="https://www.gaclinicpc.com/about-us.html" rel="canonical"/>
+<title>About Us</title>
+<meta content="Georgia Clinic, PC. Located in 6330 Primrose Hill Court, Norcross, GA 30092-4544." name="description"/>
+<!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE"/><![endif]-->
+<meta content="skype_toolbar_parser_compatible" name="skype_toolbar"/>
+<meta data-map-key-bing="ApF_N4GPwyVPE3HDnetDqCzw2N8Oe7tS7L4RnUwYad2KnubKjOknT7QEaDlUHZoA" id="map-key-bing"/>
+<link href="/assets/favicons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="/assets/favicons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="/assets/favicons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="/assets/favicons/site.webmanifest" rel="manifest"/>
+<link color="#5bbad5" href="/assets/favicons/safari-pinned-tab.svg" rel="mask-icon"/>
+<link href="/assets/favicons/favicon.ico" rel="shortcut icon"/>
+<meta content="#da532c" name="msapplication-TileColor"/>
+<meta content="/assets/favicons/browserconfig.xml" name="msapplication-config"/>
+<meta content="#ffffff" name="theme-color"/>
+<base href="https://www.gaclinicpc.com/"/>
+<script type="text/javascript">
+        var arrGlobals = [];
+        arrGlobals.link_pre = '';
+        arrGlobals.link_post = '.html';
+        arrGlobals.page_uri = 'about-us.html';
+        arrGlobals.site_url = 'https://www.gaclinicpc.com/';
+    </script>
+<!-- CSS -->
+<link as="style" href="templates/portal/portal/css/wtm_icons/wtm_icon.css" onload="this.rel='stylesheet'" rel="preload"/>
+<noscript>
+<link href="templates/portal/portal/css/wtm_icons/wtm_icon.css" rel="stylesheet"/>
+</noscript>
+<link as="style" href="core/css/bootstrap/bootstrap-3.2.0-dist/css/bootstrap.min.css" onload="this.rel='stylesheet'" rel="preload"/>
+<noscript>
+<link href="core/css/bootstrap/bootstrap-3.2.0-dist/css/bootstrap.min.css" rel="stylesheet"/>
+</noscript>
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<link as="style" href="core/javascript/jquery/swiper/css/swiper.min.css" onload="this.rel='stylesheet'" rel="preload"/>
+<noscript>
+<link href="core/javascript/jquery/swiper/css/swiper.min.css" rel="stylesheet"/>
+</noscript>
+<link as="style" href="custom/javascripts-design-2/lib/mmenu/jquery.mmenu.all.css" onload="this.rel='stylesheet'" rel="preload"/>
+<noscript>
+<link href="custom/javascripts-design-2/lib/mmenu/jquery.mmenu.all.css" rel="stylesheet"/>
+</noscript>
+<!-- Custom Listing CSS -->
+<link href="/templates/portal/portal/css/opensans/stylesheet.css" rel="stylesheet" type="text/css"/>
+<link href="/web/style/4e87a5027f53ebe45638808d4e387d82.css?20201102164322" rel="stylesheet"/>
+<!-- JS -->
+<script src="/core/javascript/jquery/js/jquery-1.10.2.min.js"></script>
+<script src="/view/core/javascript/jquery/js/jquery.ajax.js?20201102164322"></script>
+<script defer="" src="/templates/portal/portal/js/lazyload.min.js"></script>
+<!-- Custom Listing JS -->
+<script src="/templates/portal/portal/js/custom/4e87a5027f53ebe45638808d4e387d82.js?version=20201102164322"></script>
+<!-- CMS HTML Head -->
+<!-- Custom Head Element -->
+<!-- Custom Head Listing Content -->
+<!-- Head String -->
+<meta content="About Us" property="og:title"/>
+<meta content="Georgia Clinic, PC" property="og:site_name"/>
+<meta content="https://www.gaclinicpc.com/about-us.html" property="og:url"/>
+<meta content="Georgia Clinic, PC. Located in 6330 Primrose Hill Court, Norcross, GA 30092-4544." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="https://www.gaclinicpc.com/assets/silver_websites/georgia-clinic/logo.png" property="og:image"/>
+<script>
+        !function (a) {
+            "use strict";
+            var b = function (b, c, d) {
+                function j(a) {
+                    if (e.body) return a();
+                    setTimeout(function () {
+                        j(a)
+                    })
+                }
+
+                function l() {
+                    f.addEventListener && f.removeEventListener("load", l), f.media = d || "all"
+                }
+
+                var g, e = a.document, f = e.createElement("link");
+                if (c) g = c; else {
+                    var h = (e.body || e.getElementsByTagName("head")[0]).childNodes;
+                    g = h[h.length - 1]
+                }
+                var i = e.styleSheets;
+                f.rel = "stylesheet", f.href = b, f.media = "only x", j(function () {
+                    g.parentNode.insertBefore(f, c ? g : g.nextSibling)
+                });
+                var k = function (a) {
+                    for (var b = f.href, c = i.length; c--;) if (i[c].href === b) return a();
+                    setTimeout(function () {
+                        k(a)
+                    })
+                };
+                return f.addEventListener && f.addEventListener("load", l), f.onloadcssdefined = k, k(l), f
+            };
+            "undefined" != typeof exports ? exports.loadCSS = b : a.loadCSS = b
+        }("undefined" != typeof global ? global : this);
+        !function (a) {
+            if (a.loadCSS) {
+                var b = loadCSS.relpreload = {};
+                if (b.support = function () {
+                    try {
+                        return a.document.createElement("link").relList.supports("preload")
+                    } catch (a) {
+                        return !1
+                    }
+                }, b.poly = function () {
+                    for (var b = a.document.getElementsByTagName("link"), c = 0; c < b.length; c++) {
+                        var d = b[c];
+                        "preload" === d.rel && "style" === d.getAttribute("as") && (a.loadCSS(d.href, d, d.getAttribute("media")), d.rel = null)
+                    }
+                }, !b.support()) {
+                    b.poly();
+                    var c = a.setInterval(b.poly, 300);
+                    a.addEventListener && a.addEventListener("load", function () {
+                        b.poly(), a.clearInterval(c)
+                    }), a.attachEvent && a.attachEvent("onload", function () {
+                        a.clearInterval(c)
+                    })
+                }
+            }
+        }(this);
+    </script>
+</head>
+<body class="partner_ v_2 subpage about-us" id="body">
+<!-- clean html -->
+<div class="b_share__overlay"></div>
+<div class="clear"></div>
+<div class="b_header__outer">
+<div class="b_header">
+<div class="b_header__left_cell">
+<div class="b_header__logo">
+<div class="b_logo b_logo--header">
+<a href="https://www.gaclinicpc.com/" target="_self">
+<img alt="Georgia Clinic, PC Logo" class="img-responsive b_logo__header" src="/assets/silver_websites/georgia-clinic/logo.png"/>
+</a>
+</div>
+</div>
+<div class="b_header__info hidden-xs">
+<div class="b_header__phone">
+<div class="b_wtm_icon b_wtm_icon__phone">
+<i class="icon-phone"></i>
+</div>
+<a class="b_phone b_phone--header" href="tel:7709030120" target="_self"><span class="b_header__phone_label"></span> <span>(770) 903-0120</span></a>
+</div>
+<div class="b_header__patient_portal">
+<div class="b_wtm_icon b_wtm_icon__pp"><i class="icon-pp"></i></div>
+<div class="b_header__patient_portal--body"><a class="b_header__patient_portal--link" href="https://www.nextmd.com/ud2/Login/Login.aspx" target="_blank"><span class="txt">Patient Portal</span></a></div>
+</div>
+</div>
+<div class="b_header__misc">
+<div class="b_header__patient_education">
+<div class="b_wtm_icon b_wtm_icon__pp">
+<i class="icon-pp"></i>
+</div>
+<div class="b_header__patient_portal--body">
+<a class="b_header__patient_portal--link" href="https://www.nextmd.com/ud2/Enroll/TermsAndConditions.aspx?practiceId=f7061d3c-a607-4a82-9646-5b8584e828a7" target="_blank">
+<span class="txt">Patient Enrollment</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="b_header__background"></div>
+<div class="b_header__right_cell">
+<nav class="b_header__menu">
+<div class="b_menu b_menu--header">
+<ul class="b_menu__ul b_menu__ul--header"></ul>
+<div class="b_menu__three_dots">
+<span></span>
+<span></span>
+<span></span>
+</div>
+</div>
+</nav>
+<script>
+                var wtmMenuObj = {
+                    arrMenu: [{
+                        "label": "Patient Testimonials",
+                        "type": "page",
+                        "pid": "3810ae5fb6bc391df10b10ab9fe6ab62",
+                        "handle": "patient-testimonials",
+                        "hide_on_menu": "1",
+                        "link_url": null,
+                        "link_target": "_self",
+                        "href": "patient-testimonials.html"
+                    }, {
+                        "label": "Video Gallery",
+                        "type": "page",
+                        "pid": "11237929507c46bbd6f6a2ac78dabcc3",
+                        "handle": "video-gallery",
+                        "hide_on_menu": "1",
+                        "link_url": null,
+                        "link_target": "_self",
+                        "href": "video-gallery.html"
+                    }, {
+                        "label": "Home",
+                        "type": "page",
+                        "pid": "e953f2fe12e9201b2a73397bb8a51068",
+                        "handle": "index",
+                        "hide_on_menu": "0",
+                        "link_url": null,
+                        "link_target": "_self",
+                        "href": ""
+                    }, {
+                        "label": "About Us",
+                        "type": "page",
+                        "pid": "906f4b39b493e684810df79fb9bc4659",
+                        "handle": "about-us",
+                        "hide_on_menu": "0",
+                        "link_url": null,
+                        "link_target": "_self",
+                        "href": "about-us.html"
+                    }, {
+                        "label": "Services",
+                        "type": "text",
+                        "pid": "c002953d1a34e720f4e11c301e5e6e2e",
+                        "handle": null,
+                        "hide_on_menu": "0",
+                        "link_url": null,
+                        "link_target": "_self",
+                        "href": "",
+                        "children": [{
+                            "label": "Primary Care",
+                            "type": "page",
+                            "pid": "7635567c0aba1bac86a60c43f8944b82",
+                            "handle": "primary-care",
+                            "hide_on_menu": "0",
+                            "link_url": null,
+                            "link_target": "_self",
+                            "href": "primary-care.html"
+                        }, {
+                            "label": "Cardiac Imaging, Testing & Podiatry",
+                            "type": "page",
+                            "pid": "4cc80eca7380250d600a91f30465d9aa",
+                            "handle": "cardiac-test",
+                            "hide_on_menu": "0",
+                            "link_url": null,
+                            "link_target": "_self",
+                            "href": "cardiac-test.html"
+                        }, {
+                            "label": "Diagnostic Testing \/ Radiology",
+                            "type": "page",
+                            "pid": "b6202e83ac375eaddb37292a6e094a68",
+                            "handle": "diagnostic-testing-radiology",
+                            "hide_on_menu": "0",
+                            "link_url": null,
+                            "link_target": "_self",
+                            "href": "diagnostic-testing-radiology.html"
+                        }, {
+                            "label": "Sleep Study Center",
+                            "type": "page",
+                            "pid": "0b24a98acdfa0499d99c1f3b274bd587",
+                            "handle": "sleep-study-center",
+                            "hide_on_menu": "0",
+                            "link_url": null,
+                            "link_target": "_self",
+                            "href": "sleep-study-center.html"
+                        }, {
+                            "label": "Pharmacy",
+                            "type": "page",
+                            "pid": "dd5b4cd4104bf33bafb1a0850fbd498a",
+                            "handle": "pharmacy",
+                            "hide_on_menu": "0",
+                            "link_url": null,
+                            "link_target": "_self",
+                            "href": "pharmacy.html"
+                        }]
+                    }, {
+                        "label": "Insurances",
+                        "type": "page",
+                        "pid": "d0ddbc004d90faffe77efe2770e52a3c",
+                        "handle": "insurances",
+                        "hide_on_menu": "0",
+                        "link_url": null,
+                        "link_target": "_self",
+                        "href": "insurances.html"
+                    }, {
+                        "label": "After Hours",
+                        "type": "page",
+                        "pid": "94dcc7d38df235190f5397c4033edf0b",
+                        "handle": "after-hours",
+                        "hide_on_menu": "0",
+                        "link_url": null,
+                        "link_target": "_self",
+                        "href": "after-hours.html"
+                    }, {
+                        "label": "Patient Education",
+                        "type": "page",
+                        "pid": "c4763820695699912cd86e0702c624ca",
+                        "handle": "patient-education",
+                        "hide_on_menu": "0",
+                        "link_url": null,
+                        "link_target": "_self",
+                        "href": "patient-education.html"
+                    }, {
+                        "label": "Forms",
+                        "type": "page",
+                        "pid": "c4a083a7c71cff65308b6110c67cef11",
+                        "handle": "forms",
+                        "hide_on_menu": "0",
+                        "link_url": null,
+                        "link_target": "_self",
+                        "href": "forms.html"
+                    }, {
+                        "label": "Contact Us",
+                        "type": "page",
+                        "pid": "3e3b187a27224d8298c945bfe6ebf5f0",
+                        "handle": "contact-us",
+                        "hide_on_menu": "0",
+                        "link_url": null,
+                        "link_target": "_self",
+                        "href": "contact-us.html"
+                    }, {
+                        "label": "Careers",
+                        "type": "page",
+                        "pid": "209b1882875b427b9970e4c09cdee2d2",
+                        "handle": "careers",
+                        "hide_on_menu": "0",
+                        "link_url": "",
+                        "link_target": "_self",
+                        "href": "careers.html"
+                    }],
+                    strlistingWebURL: 'https://www.gaclinicpc.com/',
+                    strCurPage: 'about-us'
+                };
+            </script>
+<div class="sticky_banner">
+<div class="sticky_banner__button">
+<a class="sticky_banner__link" href="/contact-us.html">Make an Appointment</a></div>
+<div class="sticky_banner__block">
+<div class="sticky_banner__close">
+<i class="fa fa-times fa-2x">?</i></div>
+<div class="sticky_banner__content">
+<a class="sticky_banner__link" href="/contact-us.html">Make an Appointment</a> <a class="sticky_banner__link" href="https://www.nextmd.com/ud2/Enroll/TermsAndConditions.aspx?practiceId=f7061d3c-a607-4a82-9646-5b8584e828a7" target="_blank">Patient Initiated Enrollment</a></div>
+</div>
+</div>
+<div class="b_header__quick_info visible-xs">
+<div class="b_wtm_icon b_wtm_icon__quick_info">
+<i class="icon-quick_info"></i>
+</div>
+</div>
+<div class="b_header__soci">
+<div class="b_share">
+<div class="b_wtm_icon b_wtm_icon__share">
+<i class="icon-share"></i>
+</div>
+</div>
+<div class="b_share__hidden">
+<div class="b_share__box b_share__box--b_header">
+<div class="b_share__triangle"></div>
+</div>
+</div>
+</div>
+<div class="b_header__hmenu">
+<span></span>
+<span></span>
+<span></span>
+</div>
+</div>
+</div>
+<!-- submenu -->
+<div class="b_submenu">
+<div class="b_submenu__second_row">
+<ul class="b_submenu__ul b_submenu__ul--second_row"></ul>
+</div>
+<div class="b_submenu__menu_row">
+<div class="b_submenu__title_row">
+<div class="container">
+<div class="b_submenu__title_container">
+<h2 class="b_submenu__title"></h2>
+<div class="b_submenu__close"></div>
+</div>
+</div>
+<div class="b_submenu__title_row--background"></div>
+</div>
+<div class="b_submenu__container">
+<div class="container">
+<div class="b_submenu__level b_submenu__level--lvl_two"></div>
+<div class="b_submenu__level b_submenu__level--lvl_three"></div>
+</div>
+<div class="b_submenu__container--background"></div>
+</div>
+</div>
+<div class="b_submenu__mobile" id="wtm-mmenu">
+<ul class="b_submenu__mobile_ul"></ul>
+</div>
+</div>
+<!-- /submenu -->
+</div>
+<div class="b_quick_info_menu">
+<div class="b_quick_info_menu__triangle"></div>
+<div class="b_quick_info_menu__wrapper">
+<div class="b_quick_info_menu__phone"><span>Call Us:</span>
+<a class="b_phone b_phone--info" href="tel:7709030120" target="_self"><span class="b_quick_info_menu__phone_label"></span> <span>(770) 903-0120</span></a>
+</div>
+<!-- <div class="b_quick_info_menu__directions"> -->
+<!-- -->
+<!-- </div> -->
+<div class="b_quick_info_menu__pp">
+<div class="b_quick_info_menu__patient_portal--body"><a class="b_quick_info_menu__patient_portal--link" href="https://www.nextmd.com/ud2/Login/Login.aspx" target="_blank"><span class="txt">Patient Portal</span></a></div>
+</div>
+<div class="b_quick_info_menu__more_info">
+<a href="https://www.gaclinicpc.com/contact-us.html" target="_self"><span>Request More Information</span></a></div>
+<div class="b_quick_info_menu__location">
+<p class="b_quick_info_menu__location--text">Our Location</p>
+<div class="b_quick_info_menu__map"></div>
+<p class="b_quick_info_menu__address">
+                6330 Primrose Hill Court<span class="b_address--coma">,</span><br/> <br/> Norcross, GA 30092-4544</p>
+</div>
+</div>
+<div class="b_quick_info_menu__background"></div>
+</div>
+<div class="clear"></div>
+<div class="b_subpage__background">
+<div class="block_1"></div>
+<div class="block_2"></div>
+<div class="block_3"></div>
+<div class="block_4"></div>
+<div class="block_5"></div>
+</div>
+<div class="b_subpage">
+<div class="container">
+<div class="row">
+<div class="col-md-12 title-sect">
+<h1 class="b_subpage__title">About Us</h1>
+</div>
+<div class="col-md-12">
+<div class="b_subpage__content">
+<div class="b_subpage__page_content web-content"><h2>Welcome</h2>
+<p>Georgia Clinic, PC has been caring for Families of Metro Atlanta since 1999. Our State of the
+                            Art Medical Offices are staffed with over twenty American Board-Certified Physicians and
+                            Nurse Practitioner/Physician Assistant's including Family Medicine/Primary Care, and
+                            Specialty Physicians. Our physicians and staff are available whenever you and your Family
+                            are in need of Quality Healthcare in 16 locations all throughout Metropolitan Atlanta.</p>
+<img alt="Main Office" class="img_content_left" src="/assets/silver_websites/georgia-clinic/office.jpg"/>
+<p>Our dedicated Physicians and Staff work together as a team to Provide High-Quality
+                            Comprehensive Care. Our goal is to provide each and every patient with individualized
+                            medical care to meet their needs. We strive to Provide Acute Care (non-life-threatening), as
+                            well as Preventative Care thereby improving the quality of life for you, our Patients. We
+                            have 16 convenient locations and are open 7 days a week including Weekends and Holidays. We
+                            accommodate Walk-in and appointment schedule Patients.</p>
+<p>Thank you for considering our practice as a Home for your Medical Care. Welcome to Georgia
+                            Clinic, we look forward to serving all your Healthcare Needs.</p>
+<p>For life-threatening emergencies please seek hospital care and/or call 911.<br/>
+<br/>
+<img alt="staff image" src="/assets/websites/7976138d9ce4b54eb387ea0b8f6ba5b6/3b4c7fc5ae1476c5ae416d74df9e2282.jpg"/>
+</p>
+</div>
+<div class="clear"></div>
+<div class="b_subpage__widget">
+<div class="b_staff_page">
+<hr/>
+<h2 class="b_staff_page__title">Our Team</h2>
+<div class="b_staff_page__container" data-widget="staff">
+<div class="b_staff_page__staff">
+<div class="b_staff_page__anchor" id="staff-1"></div>
+<hr class="b_staff_page__hr"/>
+<div class="row">
+<div class="col-lg-2 col-sm-2">
+<a href="https://www.gaclinicpc.com/staff/naresh-parikh-md.html"> <img alt="Naresh Parikh, MD" class="img-responsive b_staff_page__img" src="/assets/websites/7976138d9ce4b54eb387ea0b8f6ba5b6/5571b1925aa701411dd0fa126393143d-dr-naresh-parikh.jpg"/>
+</a></div>
+<div class="col-lg-10 col-sm-10">
+<h2 class="b_staff_page__staff--name"><a href="https://www.gaclinicpc.com/staff/naresh-parikh-md.html">Naresh
+                                                Parikh, MD</a></h2>
+<p class="b_staff_page__staff--specialty">
+<strong> Cardiology</strong>
+</p>
+<hr class="b_staff_page__hr--title"/>
+<div class="b_staff_page__staff--desc"><p>Details Coming Soon </p></div>
+<div class="b_staff_page__staff--desc">
+<p><a href="https://www.gaclinicpc.com/staff/naresh-parikh-md.html">Read
+                                                    more about Naresh Parikh, MD</a></p></div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="b_staff_page__staff">
+<div class="b_staff_page__anchor" id="staff-2"></div>
+<hr class="b_staff_page__hr"/>
+<div class="row">
+<div class="col-lg-2 col-sm-2">
+<a href="https://www.gaclinicpc.com/staff/asha-parikh-md.html"> <img alt="Asha Parikh, MD" class="img-responsive b_staff_page__img" src="/assets/websites/7976138d9ce4b54eb387ea0b8f6ba5b6/cce36dd79bbcf580df25c059b5bec320-dr-asha-parikh.jpg"/>
+</a></div>
+<div class="col-lg-10 col-sm-10">
+<h2 class="b_staff_page__staff--name"><a href="https://www.gaclinicpc.com/staff/asha-parikh-md.html">Asha
+                                                Parikh, MD</a></h2>
+<p class="b_staff_page__staff--specialty">
+<strong> Internal Medicine</strong>
+</p>
+<hr class="b_staff_page__hr--title"/>
+<div class="b_staff_page__staff--desc"><p>Details Coming Soon</p></div>
+<div class="b_staff_page__staff--desc">
+<p><a href="https://www.gaclinicpc.com/staff/asha-parikh-md.html">Read
+                                                    more about Asha Parikh, MD</a></p></div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="b_staff_page__staff">
+<div class="b_staff_page__anchor" id="staff-3"></div>
+<hr class="b_staff_page__hr"/>
+<div class="row">
+<div class="col-lg-2 col-sm-2">
+<a href="https://www.gaclinicpc.com/staff/alan-cu-chiam-md.html"> <img alt="Alan Cu-Chiam, MD" class="img-responsive b_staff_page__img" src="/assets/silver_websites/georgia-clinic/staff/Alan Cu-Chiam, M.D.- Internal Medicine.jpg"/>
+</a></div>
+<div class="col-lg-10 col-sm-10">
+<h2 class="b_staff_page__staff--name"><a href="https://www.gaclinicpc.com/staff/alan-cu-chiam-md.html">Alan
+                                                Cu-Chiam, MD</a></h2>
+<p class="b_staff_page__staff--specialty">
+<strong> Internal Medicine</strong>
+</p>
+<hr class="b_staff_page__hr--title"/>
+<div class="b_staff_page__staff--desc"><p>Details Coming Soon</p></div>
+<div class="b_staff_page__staff--desc">
+<p><a href="https://www.gaclinicpc.com/staff/alan-cu-chiam-md.html">Read
+                                                    more about Alan Cu-Chiam, MD</a></p></div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="b_staff_page__staff">
+<div class="b_staff_page__anchor" id="staff-4"></div>
+<hr class="b_staff_page__hr"/>
+<div class="row">
+<div class="col-lg-2 col-sm-2">
+<a href="https://www.gaclinicpc.com/staff/asmita-joshi-md.html"> <img alt="Asmita Joshi, MD" class="img-responsive b_staff_page__img" src="/assets/silver_websites/georgia-clinic/staff/Asmita Joshi, M.D.- Family Medicine.jpg"/>
+</a></div>
+<div class="col-lg-10 col-sm-10">
+<h2 class="b_staff_page__staff--name"><a href="https://www.gaclinicpc.com/staff/asmita-joshi-md.html">Asmita
+                                                Joshi, MD</a></h2>
+<p class="b_staff_page__staff--specialty">
+<strong> Family Medicine</strong>
+</p>
+<hr class="b_staff_page__hr--title"/>
+<div class="b_staff_page__staff--desc"><p>Details Coming Soon</p></div>
+<div class="b_staff_page__staff--desc">
+<p><a href="https://www.gaclinicpc.com/staff/asmita-joshi-md.html">Read
+                                                    more about Asmita Joshi, MD</a></p></div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="b_staff_page__staff">
+<div class="b_staff_page__anchor" id="staff-5"></div>
+<hr class="b_staff_page__hr"/>
+<div class="row">
+<div class="col-lg-2 col-sm-2">
+<a href="https://www.gaclinicpc.com/staff/britt-boyd-md.html"> <img alt="Britt Boyd, MD" class="img-responsive b_staff_page__img" src="/assets/silver_websites/georgia-clinic/staff/Britt Boyd, M.D.- Family Medicine.jpg"/>
+</a></div>
+<div class="col-lg-10 col-sm-10">
+<h2 class="b_staff_page__staff--name"><a href="https://www.gaclinicpc.com/staff/britt-boyd-md.html">Britt
+                                                Boyd, MD</a></h2>
+<p class="b_staff_page__staff--specialty">
+<strong> Family Medicine</strong>
+</p>
+<hr class="b_staff_page__hr--title"/>
+<div class="b_staff_page__staff--desc"><p>Details Coming Soon</p></div>
+<div class="b_staff_page__staff--desc">
+<p><a href="https://www.gaclinicpc.com/staff/britt-boyd-md.html">Read
+                                                    more about Britt Boyd, MD</a></p></div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="b_staff_page__staff">
+<div class="b_staff_page__anchor" id="staff-6"></div>
+<hr class="b_staff_page__hr"/>
+<div class="row">
+<div class="col-lg-2 col-sm-2">
+<a href="https://www.gaclinicpc.com/staff/galina-vayner-md.html"> <img alt="Galina Vayner, MD" class="img-responsive b_staff_page__img" src="/assets/silver_websites/georgia-clinic/staff/Galina Vayner, M.D.- Internal Medicine.jpg"/>
+</a></div>
+<div class="col-lg-10 col-sm-10">
+<h2 class="b_staff_page__staff--name"><a href="https://www.gaclinicpc.com/staff/galina-vayner-md.html">Galina
+                                                Vayner, MD</a></h2>
+<p class="b_staff_page__staff--specialty">
+<strong> Internal Medicine</strong>
+</p>
+<hr class="b_staff_page__hr--title"/>
+<div class="b_staff_page__staff--desc"><p>Details Coming Soon</p></div>
+<div class="b_staff_page__staff--desc">
+<p><a href="https://www.gaclinicpc.com/staff/galina-vayner-md.html">Read
+                                                    more about Galina Vayner, MD</a></p></div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="b_staff_page__staff">
+<div class="b_staff_page__anchor" id="staff-7"></div>
+<hr class="b_staff_page__hr"/>
+<div class="row">
+<div class="col-lg-2 col-sm-2">
+<a href="https://www.gaclinicpc.com/staff/gregory-smith-md.html"> <img alt="Gregory Smith, MD" class="img-responsive b_staff_page__img" src="/assets/silver_websites/georgia-clinic/staff/Gregory Smith, M.D.- Family Medicine.jpg"/>
+</a></div>
+<div class="col-lg-10 col-sm-10">
+<h2 class="b_staff_page__staff--name"><a href="https://www.gaclinicpc.com/staff/gregory-smith-md.html">Gregory
+                                                Smith, MD</a></h2>
+<p class="b_staff_page__staff--specialty">
+<strong> Family Medicine</strong>
+</p>
+<hr class="b_staff_page__hr--title"/>
+<div class="b_staff_page__staff--desc"><p>Details Coming Soon</p></div>
+<div class="b_staff_page__staff--desc">
+<p><a href="https://www.gaclinicpc.com/staff/gregory-smith-md.html">Read
+                                                    more about Gregory Smith, MD</a></p></div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="b_staff_page__staff">
+<div class="b_staff_page__anchor" id="staff-8"></div>
+<hr class="b_staff_page__hr"/>
+<div class="row">
+<div class="col-lg-2 col-sm-2">
+<a href="https://www.gaclinicpc.com/staff/kota-reddy-md.html"> <img alt="Kota Reddy, MD" class="img-responsive b_staff_page__img" src="/assets/silver_websites/georgia-clinic/staff/Kota Reddy, M.D.- Cardiology.jpg"/>
+</a></div>
+<div class="col-lg-10 col-sm-10">
+<h2 class="b_staff_page__staff--name"><a href="https://www.gaclinicpc.com/staff/kota-reddy-md.html">Kota
+                                                Reddy, MD</a></h2>
+<p class="b_staff_page__staff--specialty">
+<strong> Cardiology</strong>
+</p>
+<hr class="b_staff_page__hr--title"/>
+<div class="b_staff_page__staff--desc"><p>Details Coming Soon</p></div>
+<div class="b_staff_page__staff--desc">
+<p><a href="https://www.gaclinicpc.com/staff/kota-reddy-md.html">Read
+                                                    more about Kota Reddy, MD</a></p></div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="b_staff_page__staff">
+<div class="b_staff_page__anchor" id="staff-9"></div>
+<hr class="b_staff_page__hr"/>
+<div class="row">
+<div class="col-lg-2 col-sm-2">
+<a href="https://www.gaclinicpc.com/staff/sujatha-lingatlu-md.html"> <img alt="Sujatha Lingatlu, MD" class="img-responsive b_staff_page__img" src="/assets/silver_websites/georgia-clinic/staff/Sujatha Lingatla.jpg"/>
+</a></div>
+<div class="col-lg-10 col-sm-10">
+<h2 class="b_staff_page__staff--name"><a href="https://www.gaclinicpc.com/staff/sujatha-lingatlu-md.html">Sujatha
+                                                Lingatlu, MD</a></h2>
+<p class="b_staff_page__staff--specialty">
+<strong> Family Medicine</strong>
+</p>
+<hr class="b_staff_page__hr--title"/>
+<div class="b_staff_page__staff--desc"><p>Details Coming Soon</p></div>
+<div class="b_staff_page__staff--desc">
+<p><a href="https://www.gaclinicpc.com/staff/sujatha-lingatlu-md.html">Read
+                                                    more about Sujatha Lingatlu, MD</a></p></div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="b_staff_page__staff">
+<div class="b_staff_page__anchor" id="staff-10"></div>
+<hr class="b_staff_page__hr"/>
+<div class="row">
+<div class="col-lg-2 col-sm-2">
+<a href="https://www.gaclinicpc.com/staff/stephanie-han-np.html"> <img alt="Stephanie Han, NP" class="img-responsive b_staff_page__img" src="/assets/silver_websites/georgia-clinic/staff/Stephanie Han, NP- Adult Care.jpg"/>
+</a></div>
+<div class="col-lg-10 col-sm-10">
+<h2 class="b_staff_page__staff--name"><a href="https://www.gaclinicpc.com/staff/stephanie-han-np.html">Stephanie
+                                                Han, NP</a></h2>
+<p class="b_staff_page__staff--specialty">
+<strong> Adult Care</strong>
+</p>
+<hr class="b_staff_page__hr--title"/>
+<div class="b_staff_page__staff--desc"><p>Details Coming Soon</p></div>
+<div class="b_staff_page__staff--desc">
+<p><a href="https://www.gaclinicpc.com/staff/stephanie-han-np.html">Read
+                                                    more about Stephanie Han, NP</a></p></div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="b_staff_page__staff">
+<div class="b_staff_page__anchor" id="staff-11"></div>
+<hr class="b_staff_page__hr"/>
+<div class="row">
+<div class="col-lg-2 col-sm-2">
+<a href="https://www.gaclinicpc.com/staff/tommie-floyd-np.html"> <img alt="Tommie Floyd, NP" class="img-responsive b_staff_page__img" src="/assets/silver_websites/georgia-clinic/staff/Tommie Floyd, NP- Family Medicine.jpg"/>
+</a></div>
+<div class="col-lg-10 col-sm-10">
+<h2 class="b_staff_page__staff--name"><a href="https://www.gaclinicpc.com/staff/tommie-floyd-np.html">Tommie
+                                                Floyd, NP</a></h2>
+<p class="b_staff_page__staff--specialty">
+<strong> Family Medicine</strong>
+</p>
+<hr class="b_staff_page__hr--title"/>
+<div class="b_staff_page__staff--desc"><p>Details Coming Soon</p></div>
+<div class="b_staff_page__staff--desc">
+<p><a href="https://www.gaclinicpc.com/staff/tommie-floyd-np.html">Read
+                                                    more about Tommie Floyd, NP</a></p></div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="b_staff_page__staff">
+<div class="b_staff_page__anchor" id="staff-12"></div>
+<hr class="b_staff_page__hr"/>
+<div class="row">
+<div class="col-lg-2 col-sm-2">
+<a href="https://www.gaclinicpc.com/staff/leslie-knicely-pa.html"> <img alt="Leslie Knicely, PA" class="img-responsive b_staff_page__img" src="/assets/websites/7976138d9ce4b54eb387ea0b8f6ba5b6/e8601537baf07cf4c07061a43f1dc117-leslie-knicely-pa-adult-care.jpg"/>
+</a></div>
+<div class="col-lg-10 col-sm-10">
+<h2 class="b_staff_page__staff--name"><a href="https://www.gaclinicpc.com/staff/leslie-knicely-pa.html">Leslie
+                                                Knicely, PA</a></h2>
+<p class="b_staff_page__staff--specialty">
+<strong> RN-CCRN </strong>
+</p>
+<hr class="b_staff_page__hr--title"/>
+<div class="b_staff_page__staff--desc"><p>Details Coming Soon</p></div>
+<div class="b_staff_page__staff--desc">
+<p><a href="https://www.gaclinicpc.com/staff/leslie-knicely-pa.html">Read
+                                                    more about Leslie Knicely, PA</a></p></div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="b_staff_page__staff">
+<div class="b_staff_page__anchor" id="staff-13"></div>
+<hr class="b_staff_page__hr"/>
+<div class="row">
+<div class="col-lg-2 col-sm-2">
+<a href="https://www.gaclinicpc.com/staff/sharon-campbell-np.html"> <img alt="Sharon Campbell, NP" class="img-responsive b_staff_page__img" src="/assets/websites/7976138d9ce4b54eb387ea0b8f6ba5b6/10ebd01e0e7df45e5311022181992746-sharon-campbell-np.jpg"/>
+</a></div>
+<div class="col-lg-10 col-sm-10">
+<h2 class="b_staff_page__staff--name"><a href="https://www.gaclinicpc.com/staff/sharon-campbell-np.html">Sharon
+                                                Campbell, NP</a></h2>
+<p class="b_staff_page__staff--specialty">
+<strong> Adult Care </strong>
+</p>
+<hr class="b_staff_page__hr--title"/>
+<div class="b_staff_page__staff--desc"><p>Details Coming Soon</p></div>
+<div class="b_staff_page__staff--desc">
+<p><a href="https://www.gaclinicpc.com/staff/sharon-campbell-np.html">Read
+                                                    more about Sharon Campbell, NP</a></p></div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="b_staff_page__staff">
+<div class="b_staff_page__anchor" id="staff-14"></div>
+<hr class="b_staff_page__hr"/>
+<div class="row">
+<div class="col-lg-2 col-sm-2">
+<a href="https://www.gaclinicpc.com/staff/nirav-parikh-md.html"> <img alt="Nirav Parikh, MD" class="img-responsive b_staff_page__img" src="/assets/silver_websites/georgia-clinic/staff/Nirav_Parikh.jpg"/>
+</a></div>
+<div class="col-lg-10 col-sm-10">
+<h2 class="b_staff_page__staff--name"><a href="https://www.gaclinicpc.com/staff/nirav-parikh-md.html">Nirav
+                                                Parikh, MD</a></h2>
+<p class="b_staff_page__staff--specialty">
+<strong> Internal Medicine</strong>
+</p>
+<hr class="b_staff_page__hr--title"/>
+<div class="b_staff_page__staff--desc"><p>Details Coming Soon</p></div>
+<div class="b_staff_page__staff--desc">
+<p><a href="https://www.gaclinicpc.com/staff/nirav-parikh-md.html">Read
+                                                    more about Nirav Parikh, MD</a></p></div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="b_staff_page__staff">
+<div class="b_staff_page__anchor" id="staff-15"></div>
+<hr class="b_staff_page__hr"/>
+<div class="row">
+<div class="col-lg-2 col-sm-2">
+<a href="https://www.gaclinicpc.com/staff/irina-rabayeva-np.html"> <img alt="Irina Rabayeva, NP" class="img-responsive b_staff_page__img" src="/assets/silver_websites/georgia-clinic/staff/Irina Rabayeva, NP- Family Medicine.jpg"/>
+</a></div>
+<div class="col-lg-10 col-sm-10">
+<h2 class="b_staff_page__staff--name"><a href="https://www.gaclinicpc.com/staff/irina-rabayeva-np.html">Irina
+                                                Rabayeva, NP</a></h2>
+<p class="b_staff_page__staff--specialty">
+<strong> Family Medicine</strong>
+</p>
+<hr class="b_staff_page__hr--title"/>
+<div class="b_staff_page__staff--desc"><p>Details Coming Soon</p></div>
+<div class="b_staff_page__staff--desc">
+<p><a href="https://www.gaclinicpc.com/staff/irina-rabayeva-np.html">Read
+                                                    more about Irina Rabayeva, NP</a></p></div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+<div class="b_subpage__form">
+<h2 class="b_subpage__form--title">Get More Info</h2>
+<script id="form-widget-1" src="https://www.medicalcloudprofile.com/widgets.js?id=form-widget-1&amp;type=web_contact_form&amp;listing=NGU4N2E1MDI3ZjUzZWJlNDU2Mzg4MDhkNGUzODdkODI=&amp;ts=full_website_silver_2&amp;custom_stylesheet=&amp;lng=" type="text/javascript"></script>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+<section class="b_patient_portal">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="b_patient_portal__banner lazy-background">
+<h2 class="b_patient_portal__title"><span class="b_patient_portal__title--online">Online</span>
+<span class="b_patient_portal__title--pp">Patient Portal</span></h2>
+<h3 class="b_patient_portal__text">Manage your health from the comfort of home</h3>
+<a class="b_btn b_btn--patient_portal b_btn--shadow" href="https://www.nextmd.com/ud2/Login/Login.aspx" target="_blank"><span>Log-In / Register <span class="b_wtm_icon b_wtm_icon__pp_button"><i class="icon-pp_button"></i></span></span></a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="clear"></div>
+<div class="clear"></div>
+<div class="clear"></div>
+<section class="b_footer">
+<footer class="b_footer__content">
+<div class="container">
+<div class="row">
+<div class="b_footer__logos">
+<div class="col-md-12 col-lg-6">
+<div class="b_logo b_logo--footer">
+<a href="https://www.gaclinicpc.com/" target="_self">
+<img alt="Georgia Clinic, PC Logo" class="img-responsive" src="/assets/silver_websites/georgia-clinic/logo.png" title="Georgia Clinic, PC Logo"/> </a>
+</div>
+</div>
+<div class="col-md-12 col-lg-6">
+<div class="b_footer__share">
+<div class="share-div">
+<iframe class="share-facebook" src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.gaclinicpc.com%2Fabout-us.html&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=21" style="border:none; overflow:hidden; height:21px;"></iframe>
+<iframe class="share-twitter" scrolling="no" src="https://platform.twitter.com/widgets/tweet_button.html" style="width:90px; height:25px;"></iframe>
+<script src="//platform.linkedin.com/in.js" type="text/javascript">
+                                    lang: en_US
+                                </script>
+<script type="IN/Share"></script>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+</div>
+</div>
+<div class="b_footer__info">
+<div class="container">
+<div class="row">
+<div class="col-sm-12 col-md-3">
+<div class="b_footer__copyright">
+<h2 class="b_footer__copyright--title">Copyright © 2020 Georgia Clinic, PC.</h2>
+<p class="b_footer__copyright--text">All rights reserved.</p>
+<p class="b_footer__copyright--text"></p>
+</div>
+</div>
+<div class="col-sm-4 col-md-3">
+<div class="b_footer__important">
+<h2 class="b_footer__important--title">Important!</h2>
+<p class="b_footer__important--text">IMPORTANT! All information presented in this website is
+                                intended for informational purposes only and not for the purpose of rendering medical
+                                advice. Statements made on this website have not been evaluated by the Food and Drug
+                                Administration. The information contained herein is not intended to diagnose, treat,
+                                cure or prevent any disease.</p>
+</div>
+</div>
+<div class="col-sm-4 col-md-3">
+<div class="b_footer__menu">
+<h2 class="b_footer__menu--title">Menu</h2>
+<div class="b_menu b_menu--footer">
+<ul class="b_menu__ul b_menu__ul--footer"></ul>
+</div>
+</div>
+</div>
+<div class="col-sm-4 col-md-3">
+<div class="b_footer__address">
+<h2 class="b_footer__address--title">Address:</h2>
+<p class="b_footer__address--text b_address b_address--footer">6330 Primrose Hill Court<span class="b_address--coma">,</span><br/> Norcross, GA 30092-4544
+                            </p>
+<p class="b_footer__address--text"></p>
+<p class="b_footer__address--text b_phone b_phone--footer hidden-xs">Call Us: <a href="tel:7709030120" target="_self">(770) 903-0120</a>
+</p>
+<a class="visible-xs b_phone b_phone--footer" href="tel:7709030120">
+                                Call Us Now: (770) 903-0120
+                            </a>
+<span class="b_footer__address--text b_phone b_phone--footer hidden-xs">Fax: (770) 903-0145</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<div class="b_footer__wtm">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<img alt="WebToMed" class="lazy img_content_center" data-src="/templates/portal/portal/assets/images/website/silver/wtm_logo.png"/>
+<div class="b_footer__wtm_links">
+<p> Medical Website Design by <a href="https://www.webtomed.com/medical-website-design.html" target="_blank">WebToMed</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="clear"></div>
+<div class="b_map__default_locations">
+<script>
+        window.objLocations = {};
+        window.objHours = {};
+    </script>
+<div class="b_map__default_items">
+<script>
+            window.objLocations[0] = {
+                "name": "Main Location",
+                "address": "33.964655,-84.253799",
+                "Latitude": "33.964655",
+                "Longitude": "-84.253799",
+                "fullAddress": {
+                    "streetFirst": "6330 Primrose Hill Court",
+                    "streetSecond": "",
+                    "city": "Norcross",
+                    "state": "GA",
+                    "zip": "30092-4544"
+                }
+            };
+        </script>
+<script>
+            window.objLocations[1] = {
+                "name": "Georgia Clinic, PC",
+                "address": "33.9296662,-84.31116689999999",
+                "Latitude": "33.9296662",
+                "Longitude": "-84.31116689999999",
+                "fullAddress": {
+                    "streetFirst": "1861 Peeler Rd.",
+                    "streetSecond": "",
+                    "city": "Dunwoody",
+                    "state": "GA",
+                    "zip": " 30338-5714"
+                }
+            };
+        </script>
+<script>
+            window.objLocations[2] = {
+                "name": "Georgia Clinic, PC",
+                "address": "33.8362152,-84.33120739999998",
+                "Latitude": "33.8362152",
+                "Longitude": "-84.33120739999998",
+                "fullAddress": {
+                    "streetFirst": "#3 Corporate Square, Suite 130",
+                    "streetSecond": "",
+                    "city": "Atlanta",
+                    "state": "GA",
+                    "zip": "30329-2014"
+                }
+            };
+        </script>
+<script>
+            window.objLocations[3] = {
+                "name": "Georgia Clinic, PC",
+                "address": "34.0209417,-84.2654516",
+                "Latitude": "34.0209417",
+                "Longitude": "-84.2654516",
+                "fullAddress": {
+                    "streetFirst": "3280 Old Alabama Rd.",
+                    "streetSecond": "",
+                    "city": "Johns Creek",
+                    "state": "GA",
+                    "zip": "30022-8544"
+                }
+            };
+        </script>
+<script>
+            window.objLocations[4] = {
+                "name": "Georgia Clinic, PC",
+                "address": "33.7149399,-84.2520387",
+                "Latitude": "33.7149399",
+                "Longitude": "-84.2520387",
+                "fullAddress": {
+                    "streetFirst": "2496 Columbia Dr.",
+                    "streetSecond": "",
+                    "city": "Decatur",
+                    "state": "GA",
+                    "zip": "30034-1769"
+                }
+            };
+        </script>
+<script>
+            window.objLocations[5] = {
+                "name": "Specialist Physicians &amp; Department",
+                "address": "33.964119,-84.254968",
+                "Latitude": "33.964119",
+                "Longitude": "-84.254968",
+                "fullAddress": {
+                    "streetFirst": "6330 Primrose Hill Court,<br> Suite 102",
+                    "streetSecond": "",
+                    "city": "Norcross",
+                    "state": "GA",
+                    "zip": "30092-4544"
+                }
+            };
+        </script>
+<script>
+            window.objLocations[6] = {
+                "name": "Cardiology, Nuclear & Stress Studies, Echo & Ultrasound",
+                "address": "33.964119,-84.254968",
+                "Latitude": "33.964119",
+                "Longitude": "-84.254968",
+                "fullAddress": {
+                    "streetFirst": "6330 Primrose Hill Court,<br> Suite 102",
+                    "streetSecond": "",
+                    "city": "Norcross",
+                    "state": "GA",
+                    "zip": "30092-4544"
+                }
+            };
+        </script>
+<script>
+            window.objLocations[7] = {
+                "name": "Nerve Conduction Studies",
+                "address": "33.964119,-84.254968",
+                "Latitude": "33.964119",
+                "Longitude": "-84.254968",
+                "fullAddress": {
+                    "streetFirst": "6330 Primrose Hill Court,<br> Suite 102",
+                    "streetSecond": "",
+                    "city": "Norcross",
+                    "state": "GA",
+                    "zip": "30092-4544"
+                }
+            };
+        </script>
+<script>
+            window.objLocations[8] = {
+                "name": "Diagnostic Imaging Department",
+                "address": "33.964119,-84.254968",
+                "Latitude": "33.964119",
+                "Longitude": "-84.254968",
+                "fullAddress": {
+                    "streetFirst": "6330 Primrose Hill Court,<br> Suite 104",
+                    "streetSecond": "",
+                    "city": "Norcross",
+                    "state": "GA",
+                    "zip": "30092-4544"
+                }
+            };
+        </script>
+<script>
+            window.objLocations[9] = {
+                "name": "Diagnostic Imaging Dept, X-Ray, CT, Bone Density",
+                "address": "33.964119,-84.254968",
+                "Latitude": "33.964119",
+                "Longitude": "-84.254968",
+                "fullAddress": {
+                    "streetFirst": "6330 Primrose Hill Court,<br> Suite 104",
+                    "streetSecond": "",
+                    "city": "Norcross",
+                    "state": "GA",
+                    "zip": "30092-4544"
+                }
+            };
+        </script>
+<script>
+            window.objLocations[10] = {
+                "name": "Administration",
+                "address": "33.964119,-84.254968",
+                "Latitude": "33.964119",
+                "Longitude": "-84.254968",
+                "fullAddress": {
+                    "streetFirst": "6330 Primrose Hill Court, Suite 168",
+                    "streetSecond": "",
+                    "city": "Norcross",
+                    "state": "GA",
+                    "zip": "30092-4544"
+                }
+            };
+        </script>
+<script>
+            window.objLocations[11] = {
+                "name": "Billing Department",
+                "address": "34.023243,-84.361556",
+                "Latitude": "34.023243",
+                "Longitude": "-84.361556",
+                "fullAddress": {
+                    "streetFirst": "P.O. Box 769609",
+                    "streetSecond": "",
+                    "city": "Roswell",
+                    "state": "GA",
+                    "zip": "30076-8224"
+                }
+            };
+        </script>
+<script>
+            window.objLocations[12] = {
+                "name": "Georgia Clinic, PC",
+                "address": "33.738138,-84.427002",
+                "Latitude": "33.738138",
+                "Longitude": "-84.427002",
+                "fullAddress": {
+                    "streetFirst": "1188 Ralph David Abernathy Blvd.",
+                    "streetSecond": "",
+                    "city": "Atlanta",
+                    "state": "GA",
+                    "zip": "30310"
+                }
+            };
+        </script>
+<script>
+            window.objLocations[13] = {
+                "name": "Georgia Clinic, PC",
+                "address": "34.109261,-84.153369",
+                "Latitude": "34.109261",
+                "Longitude": "-84.153369",
+                "fullAddress": {
+                    "streetFirst": "3135 Mathis Airport Parkway, Suite 200",
+                    "streetSecond": "",
+                    "city": "Suwanee",
+                    "state": "GA",
+                    "zip": "30024"
+                }
+            };
+        </script>
+<script>
+            window.objLocations[14] = {
+                "name": "Georgia Clinic, PC",
+                "address": "33.854063,-84.215065",
+                "Latitude": "33.854063",
+                "Longitude": "-84.215065",
+                "fullAddress": {
+                    "streetFirst": "2362 Main Street",
+                    "streetSecond": "",
+                    "city": "Tucker",
+                    "state": "GA",
+                    "zip": "30084-4477"
+                }
+            };
+        </script>
+<script>
+            window.objLocations[15] = {
+                "name": "Georgia Clinic, PC",
+                "address": "33.918392,-84.000210",
+                "Latitude": "33.918392",
+                "Longitude": "-84.000210",
+                "fullAddress": {
+                    "streetFirst": "845 Scenic Highway, Suite 100",
+                    "streetSecond": "",
+                    "city": "Lawrenceville",
+                    "state": "GA",
+                    "zip": "30046"
+                }
+            };
+        </script>
+<script>
+            window.objLocations[16] = {
+                "name": "Georgia Clinic, PC",
+                "address": "34.069758,-84.206786",
+                "Latitude": "34.069758",
+                "Longitude": "-84.206786",
+                "fullAddress": {
+                    "streetFirst": "11912 Jones Br. Rd.",
+                    "streetSecond": "",
+                    "city": "Johns Creek",
+                    "state": "GA",
+                    "zip": "30005"
+                }
+            };
+        </script>
+<script>
+            window.objLocations[17] = {
+                "name": "Georgia Clinic, PC",
+                "address": "33.9078935,-84.1119103",
+                "Latitude": "33.9078935",
+                "Longitude": "-84.1119103",
+                "fullAddress": {
+                    "streetFirst": "3855 Lawrenceville Highway",
+                    "streetSecond": "",
+                    "city": "Lawrenceville",
+                    "state": "GA",
+                    "zip": "30044"
+                }
+            };
+        </script>
+<script>
+            window.objLocations[18] = {
+                "name": "Georgia Clinic, PC",
+                "address": "34.057290,-84.231601",
+                "Latitude": "34.057290",
+                "Longitude": "-84.231601",
+                "fullAddress": {
+                    "streetFirst": "11378 State Bridge Rd.",
+                    "streetSecond": "",
+                    "city": "Alpharetta",
+                    "state": "GA",
+                    "zip": "30022-5639"
+                }
+            };
+        </script>
+<script>
+            window.objLocations[19] = {
+                "name": "Georgia Clinic, P.C.",
+                "address": "5246 Peachtree Parkway Corners  Peachtree Corners 30092",
+                "Latitude": "",
+                "Longitude": "",
+                "fullAddress": {
+                    "streetFirst": "5246 Peachtree Parkway Corners",
+                    "streetSecond": "",
+                    "city": "Peachtree Corners",
+                    "state": "GA",
+                    "zip": "30092"
+                }
+            };
+        </script>
+</div>
+</div>
+<div class="clear"></div>
+<!-- clean html end -->
+<script type="text/javascript">
+    var listingFormDialogTitle = "<strong>SEND <i><u>Quick Message</u></i></strong>&nbsp;&nbsp;to  Nirav Parikh";
+    var strFormSrc = 'https://www.medicalcloudprofile.com/secure-contact-us.html?listing=NGU4N2E1MDI3ZjUzZWJlNDU2Mzg4MDhkNGUzODdkODI=&SESSION_MAIN=uju90v25nc6ggda1oa9pevdlsq&form_source_url=www.gaclinicpc.com/about-us.html';
+    var strExtraData = 'ajax_handle=quick_contact_listing_bs&listing=NGU4N2E1MDI3ZjUzZWJlNDU2Mzg4MDhkNGUzODdkODI=&form_source_url=www.gaclinicpc.com/about-us.html';
+</script>
+<!-- <script type="text/javascript">
+	$(document).trigger('before_ready');
+</script> -->
+<script> window.createMapSlider = '1'</script>
+<script data-main="/custom/javascripts-design-2/main.js?20201102164322" data-version="20201102164322" defer="" id="require-js-script" src="/custom/javascripts-design-2/require.js?20201102164322"></script>
+<script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "MedicalBusiness",
+    "address": [
+        {
+            "@type": "PostalAddress",
+            "streetAddress": "6330 Primrose Hill Court ",
+            "addressLocality": "Norcross",
+            "addressRegion": "GA",
+            "postalCode": "30092-4544"
+        },
+        {
+            "@type": "PostalAddress",
+            "addressLocality": "Dunwoody",
+            "addressRegion": "GA",
+            "postalCode": " 30338-5714",
+            "streetAddress": "1861 Peeler Rd. "
+        },
+        {
+            "@type": "PostalAddress",
+            "addressLocality": "Atlanta",
+            "addressRegion": "GA",
+            "postalCode": "30329-2014",
+            "streetAddress": "#3 Corporate Square, Suite 130 "
+        },
+        {
+            "@type": "PostalAddress",
+            "addressLocality": "Johns Creek",
+            "addressRegion": "GA",
+            "postalCode": "30022-8544",
+            "streetAddress": "3280 Old Alabama Rd. "
+        },
+        {
+            "@type": "PostalAddress",
+            "addressLocality": "Decatur",
+            "addressRegion": "GA",
+            "postalCode": "30034-1769",
+            "streetAddress": "2496 Columbia Dr. "
+        },
+        {
+            "@type": "PostalAddress",
+            "addressLocality": "Alpharetta",
+            "addressRegion": "GA",
+            "postalCode": "30022-5639",
+            "streetAddress": "11378 State Bridge Rd. "
+        },
+        {
+            "@type": "PostalAddress",
+            "addressLocality": "Lawrenceville",
+            "addressRegion": "GA",
+            "postalCode": "30044",
+            "streetAddress": "3855 Lawrenceville Highway "
+        },
+        {
+            "@type": "PostalAddress",
+            "addressLocality": "Johns Creek",
+            "addressRegion": "GA",
+            "postalCode": "30005",
+            "streetAddress": "11912 Jones Br. Rd. "
+        },
+        {
+            "@type": "PostalAddress",
+            "addressLocality": "Lawrenceville",
+            "addressRegion": "GA",
+            "postalCode": "30046",
+            "streetAddress": "845 Scenic Highway, Suite 100 "
+        },
+        {
+            "@type": "PostalAddress",
+            "addressLocality": "Tucker",
+            "addressRegion": "GA",
+            "postalCode": "30084-4477",
+            "streetAddress": "2362 Main Street "
+        },
+        {
+            "@type": "PostalAddress",
+            "addressLocality": "Suwanee",
+            "addressRegion": "GA",
+            "postalCode": "30024",
+            "streetAddress": "3135 Mathis Airport Parkway, Suite 200 "
+        },
+        {
+            "@type": "PostalAddress",
+            "addressLocality": "Atlanta",
+            "addressRegion": "GA",
+            "postalCode": "30310",
+            "streetAddress": "1188 Ralph David Abernathy Blvd. "
+        },
+        {
+            "@type": "PostalAddress",
+            "addressLocality": "Norcross",
+            "addressRegion": "GA",
+            "postalCode": "30092-4544",
+            "streetAddress": "6330 Primrose Hill Court,<br> Suite 102 "
+        },
+        {
+            "@type": "PostalAddress",
+            "addressLocality": "Norcross",
+            "addressRegion": "GA",
+            "postalCode": "30092-4544",
+            "streetAddress": "6330 Primrose Hill Court,<br> Suite 104 "
+        },
+        {
+            "@type": "PostalAddress",
+            "addressLocality": "Norcross",
+            "addressRegion": "GA",
+            "postalCode": "30092-4544",
+            "streetAddress": "6330 Primrose Hill Court,<br> Suite 102 "
+        },
+        {
+            "@type": "PostalAddress",
+            "addressLocality": "Norcross",
+            "addressRegion": "GA",
+            "postalCode": "30092-4544",
+            "streetAddress": "6330 Primrose Hill Court,<br> Suite 104 "
+        },
+        {
+            "@type": "PostalAddress",
+            "addressLocality": "Norcross",
+            "addressRegion": "GA",
+            "postalCode": "30092-4544",
+            "streetAddress": "6330 Primrose Hill Court,<br> Suite 102 "
+        },
+        {
+            "@type": "PostalAddress",
+            "addressLocality": "Roswell",
+            "addressRegion": "GA",
+            "postalCode": "30076-8224",
+            "streetAddress": "P.O. Box 769609 "
+        },
+        {
+            "@type": "PostalAddress",
+            "addressLocality": "Norcross",
+            "addressRegion": "GA",
+            "postalCode": "30092-4544",
+            "streetAddress": "6330 Primrose Hill Court, Suite 168 "
+        },
+        {
+            "@type": "PostalAddress",
+            "addressLocality": "Tucker",
+            "addressRegion": "GA",
+            "postalCode": "30084",
+            "streetAddress": "1462 Montreal Road, Suite 201 "
+        },
+        {
+            "@type": "PostalAddress",
+            "addressLocality": "Peachtree Corners",
+            "addressRegion": "GA",
+            "postalCode": "30092",
+            "streetAddress": "5246 Peachtree Parkway Corners "
+        }
+    ],
+    "telephone": "(770) 903-0120",
+    "url": "https://www.gaclinicpc.com/",
+    "name": "Georgia Clinic, PC",
+    "image": "https://www.gaclinicpc.com/assets/silver_websites/georgia-clinic/logo.png"
+}</script>
+<div class="partner_ v_2 subpage primary-care" id="body">
+<!-- clean html -->
+<div class="b_share__overlay"></div>
+<div class="clear"></div>
+<div class="b_header__outer">
+<div class="b_header">
+<div class="b_header__left_cell">
+<div class="b_header__logo">
+<div class="b_logo b_logo--header">
+<a href="https://www.gaclinicpc.com/" target="_self">
+<img alt="Georgia Clinic, PC Logo" class="img-responsive b_logo__header" src="/assets/silver_websites/georgia-clinic/logo.png"/>
+</a>
+</div>
+</div>
+<div class="b_header__info hidden-xs">
+<div class="b_header__phone">
+<div class="b_wtm_icon b_wtm_icon__phone">
+<i class="icon-phone"></i>
+</div>
+<a class="b_phone b_phone--header" href="tel:7709030120" target="_self"><span class="b_header__phone_label"></span> <span>(770) 903-0120</span></a>
+</div>
+<div class="b_header__patient_portal">
+<div class="b_wtm_icon b_wtm_icon__pp"><i class="icon-pp"></i></div>
+<div class="b_header__patient_portal--body"><a class="b_header__patient_portal--link" href="https://www.nextmd.com/ud2/Login/Login.aspx" target="_blank"><span class="txt">Patient Portal</span></a></div>
+</div>
+</div>
+<div class="b_header__misc">
+<div class="b_header__patient_education">
+<div class="b_wtm_icon b_wtm_icon__pp">
+<i class="icon-pp"></i>
+</div>
+<div class="b_header__patient_portal--body">
+<a class="b_header__patient_portal--link" href="https://www.nextmd.com/ud2/Enroll/TermsAndConditions.aspx?practiceId=f7061d3c-a607-4a82-9646-5b8584e828a7" target="_blank">
+<span class="txt">Patient Enrollment</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="b_header__background"></div>
+<div class="b_header__right_cell">
+
+
+<div class="sticky_banner">
+<div class="sticky_banner__button">
+<a class="sticky_banner__link" href="/contact-us.html">Make an Appointment</a></div>
+<div class="sticky_banner__block">
+<div class="sticky_banner__close">
+<i class="fa fa-times fa-2x">?</i></div>
+<div class="sticky_banner__content">
+<a class="sticky_banner__link" href="/contact-us.html">Make an Appointment</a> <a class="sticky_banner__link" href="https://www.nextmd.com/ud2/Enroll/TermsAndConditions.aspx?practiceId=f7061d3c-a607-4a82-9646-5b8584e828a7" target="_blank">Patient Initiated Enrollment</a></div>
+</div>
+</div>
+<div class="b_header__quick_info visible-xs">
+<div class="b_wtm_icon b_wtm_icon__quick_info">
+<i class="icon-quick_info"></i>
+</div>
+</div>
+<div class="b_header__soci">
+<div class="b_share">
+<div class="b_wtm_icon b_wtm_icon__share">
+<i class="icon-share"></i>
+</div>
+</div>
+<div class="b_share__hidden">
+<div class="b_share__box b_share__box--b_header">
+<div class="b_share__triangle"></div>
+</div>
+</div>
+</div>
+<div class="b_header__hmenu">
+<span></span>
+<span></span>
+<span></span>
+</div>
+</div>
+</div>
+<!-- submenu -->
+<div class="b_submenu">
+<div class="b_submenu__second_row">
+<ul class="b_submenu__ul b_submenu__ul--second_row"></ul>
+</div>
+<div class="b_submenu__menu_row">
+<div class="b_submenu__title_row">
+<div class="container">
+<div class="b_submenu__title_container">
+<h2 class="b_submenu__title"></h2>
+<div class="b_submenu__close"></div>
+</div>
+</div>
+<div class="b_submenu__title_row--background"></div>
+</div>
+<div class="b_submenu__container">
+<div class="container">
+<div class="b_submenu__level b_submenu__level--lvl_two"></div>
+<div class="b_submenu__level b_submenu__level--lvl_three"></div>
+</div>
+<div class="b_submenu__container--background"></div>
+</div>
+</div>
+<div class="b_submenu__mobile" id="wtm-mmenu">
+<ul class="b_submenu__mobile_ul"></ul>
+</div>
+</div>
+<!-- /submenu -->
+</div>
+<div class="b_quick_info_menu">
+<div class="b_quick_info_menu__triangle"></div>
+<div class="b_quick_info_menu__wrapper">
+<div class="b_quick_info_menu__phone"><span>Call Us:</span>
+<a class="b_phone b_phone--info" href="tel:7709030120" target="_self"><span class="b_quick_info_menu__phone_label"></span> <span>(770) 903-0120</span></a>
+</div>
+<!-- <div class="b_quick_info_menu__directions"> -->
+<!-- -->
+<!-- </div> -->
+<div class="b_quick_info_menu__pp">
+<div class="b_quick_info_menu__patient_portal--body"><a class="b_quick_info_menu__patient_portal--link" href="https://www.nextmd.com/ud2/Login/Login.aspx" target="_blank"><span class="txt">Patient Portal</span></a></div>
+</div>
+<div class="b_quick_info_menu__more_info">
+<a href="https://www.gaclinicpc.com/contact-us.html" target="_self"><span>Request More Information</span></a></div>
+<div class="b_quick_info_menu__location">
+<p class="b_quick_info_menu__location--text">Our Location</p>
+<div class="b_quick_info_menu__map"></div>
+<p class="b_quick_info_menu__address">
+                6330 Primrose Hill Court<span class="b_address--coma">,</span><br/> <br/> Norcross, GA 30092-4544</p>
+</div>
+</div>
+<div class="b_quick_info_menu__background"></div>
+</div>
+<div class="clear"></div>
+<div class="b_subpage__background">
+<div class="block_1"></div>
+<div class="block_2"></div>
+<div class="block_3"></div>
+<div class="block_4"></div>
+<div class="block_5"></div>
+</div>
+<div class="b_subpage">
+<div class="container">
+<div class="row">
+<div class="col-md-12 title-sect">
+<h1 class="b_subpage__title">Primary Care</h1>
+</div>
+<div class="col-md-12">
+<div class="b_subpage__content">
+<div class="b_subpage__page_content web-content"><h2>Medical Services Provided</h2>
+<ul class="column_count_two">
+<li>Physicians’ Exam and Consultation</li>
+<li>Acute &amp; Chronic Care</li>
+<li>School and Sports Physical Exams</li>
+<li>Routine Age Appropriate Physical Exam for Adults &amp; Youth / Children</li>
+<li>Available at all locations for either in-house or specimen obtained at site &amp; sent
+                                to outside clinical lab
+                            </li>
+<li>Electrocardiogram (EKG)</li>
+<li>Nebulizer Treatment</li>
+<li>X-Ray (Available at most of our locations)</li>
+<li>Lab</li>
+</ul>
+<h2>Lab Testing / Studies</h2>
+<ul class="column_count_two">
+<li>CBC / Complete Blood Count</li>
+<li>Comprehensive Metabolic Panel</li>
+<li>Electrolyte Panel</li>
+<li>Glucose</li>
+<li>Lipid Profile (Cholesterol)</li>
+<li>Pap Smear</li>
+<li>Pregnancy Testing</li>
+<li>Urine Drug Screen</li>
+<li>PSA</li>
+<li>PT / PTT</li>
+<li>Rapid Strep</li>
+<li>Thyroid Panel &amp; TSH</li>
+<li>Urine Analysis</li>
+<li>Vitamin D</li>
+<li>&amp; Many More</li>
+</ul>
+<h2>Additional Diagnostic and Procedure Capabilities that Georgia Clinic, PC Can Provide
+                            In-House at Our Norcross Location</h2>
+<ul class="column_count_two">
+<li>ANS Study</li>
+<li>Cardiac Nuclear Stress Thallium</li>
+<li>Cardiac Stress Test</li>
+<li>CT</li>
+<li>Ultrasound / Carotid / Echo / Doppler</li>
+<li>Sleep Study</li>
+<li>Bone Density</li>
+<li>Mammography</li>
+<li>Nerve Conduction</li>
+<li>Spirometry</li>
+<li>Physical Therapy</li>
+<li>Podiatrist <span style="font-size:11.0pt"><span style='font-family:"Calibri",sans-serif'>(available every Thursday in the main Norcross location)</span></span>
+</li>
+<li>Obstetrics and Gynecology </li>
+</ul>
+<h2>Languages Spoken Collectively by Doctors / Staff in Addition to English</h2>
+<ul class="column_count_two">
+<li>Hindi</li>
+<li>Spanish</li>
+<li>Gujarati</li>
+<li>Telugu</li>
+<li>Kannada</li>
+<li>Russian</li>
+<li>German</li>
+<li>Romanian</li>
+<li>Yoruba</li>
+<li>Bosnian</li>
+<li>Croatian</li>
+<li>Arabic</li>
+<li>French</li>
+</ul>
+</div>
+<div class="clear"></div>
+<div class="b_subpage__widget">
+<div class="clear"></div>
+<div class="b_subpage__form">
+<h2 class="b_subpage__form--title">Get More Info</h2>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+<section class="b_patient_portal">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="b_patient_portal__banner lazy-background">
+<h2 class="b_patient_portal__title"><span class="b_patient_portal__title--online">Online</span>
+<span class="b_patient_portal__title--pp">Patient Portal</span></h2>
+<h3 class="b_patient_portal__text">Manage your health from the comfort of home</h3>
+<a class="b_btn b_btn--patient_portal b_btn--shadow" href="https://www.nextmd.com/ud2/Login/Login.aspx" target="_blank"><span>Log-In / Register <span class="b_wtm_icon b_wtm_icon__pp_button"><i class="icon-pp_button"></i></span></span></a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="clear"></div>
+<div class="clear"></div>
+<div class="clear"></div>
+<section class="b_footer">
+<footer class="b_footer__content">
+<div class="container">
+<div class="row">
+<div class="b_footer__logos">
+<div class="col-md-12 col-lg-6">
+<div class="b_logo b_logo--footer">
+<a href="https://www.gaclinicpc.com/" target="_self">
+<img alt="Georgia Clinic, PC Logo" class="img-responsive" src="/assets/silver_websites/georgia-clinic/logo.png" title="Georgia Clinic, PC Logo"/> </a>
+</div>
+</div>
+<div class="col-md-12 col-lg-6">
+<div class="b_footer__share">
+<div class="share-div">
+<iframe class="share-facebook" src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.gaclinicpc.com%2Fprimary-care.html&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=21" style="border:none; overflow:hidden; height:21px;"></iframe>
+<iframe class="share-twitter" scrolling="no" src="https://platform.twitter.com/widgets/tweet_button.html" style="width:90px; height:25px;"></iframe>
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+</div>
+</div>
+<div class="b_footer__info">
+<div class="container">
+<div class="row">
+<div class="col-sm-12 col-md-3">
+<div class="b_footer__copyright">
+<h2 class="b_footer__copyright--title">Copyright © 2020 Georgia Clinic, PC.</h2>
+<p class="b_footer__copyright--text">All rights reserved.</p>
+<p class="b_footer__copyright--text"></p>
+</div>
+</div>
+<div class="col-sm-4 col-md-3">
+<div class="b_footer__important">
+<h2 class="b_footer__important--title">Important!</h2>
+<p class="b_footer__important--text">IMPORTANT! All information presented in this website is
+                                intended for informational purposes only and not for the purpose of rendering medical
+                                advice. Statements made on this website have not been evaluated by the Food and Drug
+                                Administration. The information contained herein is not intended to diagnose, treat,
+                                cure or prevent any disease.</p>
+</div>
+</div>
+<div class="col-sm-4 col-md-3">
+<div class="b_footer__menu">
+<h2 class="b_footer__menu--title">Menu</h2>
+<div class="b_menu b_menu--footer">
+<ul class="b_menu__ul b_menu__ul--footer"></ul>
+</div>
+</div>
+</div>
+<div class="col-sm-4 col-md-3">
+<div class="b_footer__address">
+<h2 class="b_footer__address--title">Address:</h2>
+<p class="b_footer__address--text b_address b_address--footer">6330 Primrose Hill Court<span class="b_address--coma">,</span><br/> Norcross, GA 30092-4544
+                            </p>
+<p class="b_footer__address--text"></p>
+<p class="b_footer__address--text b_phone b_phone--footer hidden-xs">Call Us: <a href="tel:7709030120" target="_self">(770) 903-0120</a>
+</p>
+<a class="visible-xs b_phone b_phone--footer" href="tel:7709030120">
+                                Call Us Now: (770) 903-0120
+                            </a>
+<span class="b_footer__address--text b_phone b_phone--footer hidden-xs">Fax: (770) 903-0145</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<div class="b_footer__wtm">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<img alt="WebToMed" class="lazy img_content_center" data-src="/templates/portal/portal/assets/images/website/silver/wtm_logo.png"/>
+<div class="b_footer__wtm_links">
+<p> Medical Website Design by <a href="https://www.webtomed.com/medical-website-design.html" target="_blank">WebToMed</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="clear"></div>
+<div class="b_map__default_locations">
+
+<div class="b_map__default_items">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+<div class="clear"></div>
+<!-- clean html end -->
+
+<!-- <script type="text/javascript">
+	$(document).trigger('before_ready');
+</script> -->
+
+
+
+</div><div class="partner_ v_2 subpage insurances" id="body">
+<!-- clean html -->
+<div class="b_share__overlay"></div>
+<div class="clear"></div>
+<div class="b_header__outer">
+<div class="b_header">
+<div class="b_header__left_cell">
+<div class="b_header__logo">
+<div class="b_logo b_logo--header">
+<a href="https://www.gaclinicpc.com/" target="_self">
+<img alt="Georgia Clinic, PC Logo" class="img-responsive b_logo__header" src="/assets/silver_websites/georgia-clinic/logo.png"/>
+</a>
+</div>
+</div>
+<div class="b_header__info hidden-xs">
+<div class="b_header__phone">
+<div class="b_wtm_icon b_wtm_icon__phone">
+<i class="icon-phone"></i>
+</div>
+<a class="b_phone b_phone--header" href="tel:7709030120" target="_self"><span class="b_header__phone_label"></span> <span>(770) 903-0120</span></a>
+</div>
+<div class="b_header__patient_portal">
+<div class="b_wtm_icon b_wtm_icon__pp"><i class="icon-pp"></i></div>
+<div class="b_header__patient_portal--body"><a class="b_header__patient_portal--link" href="https://www.nextmd.com/ud2/Login/Login.aspx" target="_blank"><span class="txt">Patient Portal</span></a></div>
+</div>
+</div>
+<div class="b_header__misc">
+<div class="b_header__patient_education">
+<div class="b_wtm_icon b_wtm_icon__pp">
+<i class="icon-pp"></i>
+</div>
+<div class="b_header__patient_portal--body">
+<a class="b_header__patient_portal--link" href="https://www.nextmd.com/ud2/Enroll/TermsAndConditions.aspx?practiceId=f7061d3c-a607-4a82-9646-5b8584e828a7" target="_blank">
+<span class="txt">Patient Enrollment</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="b_header__background"></div>
+<div class="b_header__right_cell">
+
+
+<div class="sticky_banner">
+<div class="sticky_banner__button">
+<a class="sticky_banner__link" href="/contact-us.html">Make an Appointment</a></div>
+<div class="sticky_banner__block">
+<div class="sticky_banner__close">
+<i class="fa fa-times fa-2x">?</i></div>
+<div class="sticky_banner__content">
+<a class="sticky_banner__link" href="/contact-us.html">Make an Appointment</a> <a class="sticky_banner__link" href="https://www.nextmd.com/ud2/Enroll/TermsAndConditions.aspx?practiceId=f7061d3c-a607-4a82-9646-5b8584e828a7" target="_blank">Patient Initiated Enrollment</a></div>
+</div>
+</div>
+<div class="b_header__quick_info visible-xs">
+<div class="b_wtm_icon b_wtm_icon__quick_info">
+<i class="icon-quick_info"></i>
+</div>
+</div>
+<div class="b_header__soci">
+<div class="b_share">
+<div class="b_wtm_icon b_wtm_icon__share">
+<i class="icon-share"></i>
+</div>
+</div>
+<div class="b_share__hidden">
+<div class="b_share__box b_share__box--b_header">
+<div class="b_share__triangle"></div>
+</div>
+</div>
+</div>
+<div class="b_header__hmenu">
+<span></span>
+<span></span>
+<span></span>
+</div>
+</div>
+</div>
+<!-- submenu -->
+<div class="b_submenu">
+<div class="b_submenu__second_row">
+<ul class="b_submenu__ul b_submenu__ul--second_row"></ul>
+</div>
+<div class="b_submenu__menu_row">
+<div class="b_submenu__title_row">
+<div class="container">
+<div class="b_submenu__title_container">
+<h2 class="b_submenu__title"></h2>
+<div class="b_submenu__close"></div>
+</div>
+</div>
+<div class="b_submenu__title_row--background"></div>
+</div>
+<div class="b_submenu__container">
+<div class="container">
+<div class="b_submenu__level b_submenu__level--lvl_two"></div>
+<div class="b_submenu__level b_submenu__level--lvl_three"></div>
+</div>
+<div class="b_submenu__container--background"></div>
+</div>
+</div>
+<div class="b_submenu__mobile" id="wtm-mmenu">
+<ul class="b_submenu__mobile_ul"></ul>
+</div>
+</div>
+<!-- /submenu -->
+</div>
+<div class="b_quick_info_menu">
+<div class="b_quick_info_menu__triangle"></div>
+<div class="b_quick_info_menu__wrapper">
+<div class="b_quick_info_menu__phone"><span>Call Us:</span>
+<a class="b_phone b_phone--info" href="tel:7709030120" target="_self"><span class="b_quick_info_menu__phone_label"></span> <span>(770) 903-0120</span></a>
+</div>
+<!-- <div class="b_quick_info_menu__directions"> -->
+<!-- -->
+<!-- </div> -->
+<div class="b_quick_info_menu__pp">
+<div class="b_quick_info_menu__patient_portal--body"><a class="b_quick_info_menu__patient_portal--link" href="https://www.nextmd.com/ud2/Login/Login.aspx" target="_blank"><span class="txt">Patient Portal</span></a></div>
+</div>
+<div class="b_quick_info_menu__more_info">
+<a href="https://www.gaclinicpc.com/contact-us.html" target="_self"><span>Request More Information</span></a></div>
+<div class="b_quick_info_menu__location">
+<p class="b_quick_info_menu__location--text">Our Location</p>
+<div class="b_quick_info_menu__map"></div>
+<p class="b_quick_info_menu__address">
+                6330 Primrose Hill Court<span class="b_address--coma">,</span><br/> <br/> Norcross, GA 30092-4544</p>
+</div>
+</div>
+<div class="b_quick_info_menu__background"></div>
+</div>
+<div class="clear"></div>
+<div class="b_subpage__background">
+<div class="block_1"></div>
+<div class="block_2"></div>
+<div class="block_3"></div>
+<div class="block_4"></div>
+<div class="block_5"></div>
+</div>
+<div class="b_subpage">
+<div class="container">
+<div class="row">
+<div class="col-md-12 title-sect">
+<h1 class="b_subpage__title">Insurances</h1>
+</div>
+<div class="col-md-12">
+<div class="b_subpage__content">
+<div class="b_subpage__page_content web-content"><h2>Georgia Clinic is In-Network and Accepts Most
+                        Major Insurance Plans as well as Self Pay and Workers Compensation Patients</h2>
+<h3>Medical &amp; Medicare Plans &amp; Medicare RR</h3>
+<ul class="column_count_two">
+<li>Aetna (All Plans)</li>
+<li>Alliant Health Plans &amp; Health One Alliance</li>
+<li>Ambetter</li>
+<li>Amerigroup Health Care</li>
+<li>B/C B/S (All Plans Including HMO)</li>
+<li>Beech Street PPO, W/C</li>
+<li>Care Improvement Plus</li>
+<li>Choice Care PPO</li>
+<li>Cigna (All Plans)</li>
+<li>Coventry (All Plans)</li>
+<li>EHN-Employer Health Network</li>
+<li>Evolutions Healthcare PPO (All Plans)</li>
+<li>First Health (All Plans &amp; W/C)</li>
+<li>First MN</li>
+<li>Focus Healthcare WC &amp; PPO Type</li>
+<li>Galaxy Health Care PPO (All Plans)</li>
+<li>Great West</li>
+<li>Humana (All Plans)</li>
+<li>Medicaid &amp; Georgia Better Health Care</li>
+<li>Medicare &amp; Medicare RR</li>
+<li>Multi Plan (All Plans)</li>
+<li>NovaNet Inc.</li>
+<li>Peach State Health Plans</li>
+<li>Private Health Care Services / PHCS (All Plans)</li>
+<li>PPO Plans</li>
+<li>Prime Health Services</li>
+<li>Principal Edge Network</li>
+<li>State Health Ben. Plan PPO/Indemnity</li>
+<li>SuperMed (All Plans)</li>
+<li>Tricare (All Plans)</li>
+<li>United Healthcare (All Plans)</li>
+<li>USA Managed Care PPO/W/C</li>
+<li>Wellcare Health Plan (Medicaid &amp; Medicare)</li>
+</ul>
+<p><strong>Billing address:</strong><br/>
+                            Georgia Clinic, PC<br/>
+                            P.O. Box 769609<br/>
+                            Roswell, GA 30076</p></div>
+<div class="clear"></div>
+<div class="b_subpage__widget">
+<div class="clear"></div>
+<div class="b_subpage__form">
+<h2 class="b_subpage__form--title">Get More Info</h2>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+<section class="b_patient_portal">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="b_patient_portal__banner lazy-background">
+<h2 class="b_patient_portal__title"><span class="b_patient_portal__title--online">Online</span>
+<span class="b_patient_portal__title--pp">Patient Portal</span></h2>
+<h3 class="b_patient_portal__text">Manage your health from the comfort of home</h3>
+<a class="b_btn b_btn--patient_portal b_btn--shadow" href="https://www.nextmd.com/ud2/Login/Login.aspx" target="_blank"><span>Log-In / Register <span class="b_wtm_icon b_wtm_icon__pp_button"><i class="icon-pp_button"></i></span></span></a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="clear"></div>
+<div class="clear"></div>
+<div class="clear"></div>
+<section class="b_footer">
+<footer class="b_footer__content">
+<div class="container">
+<div class="row">
+<div class="b_footer__logos">
+<div class="col-md-12 col-lg-6">
+<div class="b_logo b_logo--footer">
+<a href="https://www.gaclinicpc.com/" target="_self">
+<img alt="Georgia Clinic, PC Logo" class="img-responsive" src="/assets/silver_websites/georgia-clinic/logo.png" title="Georgia Clinic, PC Logo"/> </a>
+</div>
+</div>
+<div class="col-md-12 col-lg-6">
+<div class="b_footer__share">
+<div class="share-div">
+<iframe class="share-facebook" src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.gaclinicpc.com%2Finsurances.html&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=21" style="border:none; overflow:hidden; height:21px;"></iframe>
+<iframe class="share-twitter" scrolling="no" src="https://platform.twitter.com/widgets/tweet_button.html" style="width:90px; height:25px;"></iframe>
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+</div>
+</div>
+<div class="b_footer__info">
+<div class="container">
+<div class="row">
+<div class="col-sm-12 col-md-3">
+<div class="b_footer__copyright">
+<h2 class="b_footer__copyright--title">Copyright © 2020 Georgia Clinic, PC.</h2>
+<p class="b_footer__copyright--text">All rights reserved.</p>
+<p class="b_footer__copyright--text"></p>
+</div>
+</div>
+<div class="col-sm-4 col-md-3">
+<div class="b_footer__important">
+<h2 class="b_footer__important--title">Important!</h2>
+<p class="b_footer__important--text">IMPORTANT! All information presented in this website is
+                                intended for informational purposes only and not for the purpose of rendering medical
+                                advice. Statements made on this website have not been evaluated by the Food and Drug
+                                Administration. The information contained herein is not intended to diagnose, treat,
+                                cure or prevent any disease.</p>
+</div>
+</div>
+<div class="col-sm-4 col-md-3">
+<div class="b_footer__menu">
+<h2 class="b_footer__menu--title">Menu</h2>
+<div class="b_menu b_menu--footer">
+<ul class="b_menu__ul b_menu__ul--footer"></ul>
+</div>
+</div>
+</div>
+<div class="col-sm-4 col-md-3">
+<div class="b_footer__address">
+<h2 class="b_footer__address--title">Address:</h2>
+<p class="b_footer__address--text b_address b_address--footer">6330 Primrose Hill Court<span class="b_address--coma">,</span><br/> Norcross, GA 30092-4544
+                            </p>
+<p class="b_footer__address--text"></p>
+<p class="b_footer__address--text b_phone b_phone--footer hidden-xs">Call Us: <a href="tel:7709030120" target="_self">(770) 903-0120</a>
+</p>
+<a class="visible-xs b_phone b_phone--footer" href="tel:7709030120">
+                                Call Us Now: (770) 903-0120
+                            </a>
+<span class="b_footer__address--text b_phone b_phone--footer hidden-xs">Fax: (770) 903-0145</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<div class="b_footer__wtm">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<img alt="WebToMed" class="lazy img_content_center" data-src="/templates/portal/portal/assets/images/website/silver/wtm_logo.png"/>
+<div class="b_footer__wtm_links">
+<p> Medical Website Design by <a href="https://www.webtomed.com/medical-website-design.html" target="_blank">WebToMed</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="clear"></div>
+<div class="b_map__default_locations">
+
+<div class="b_map__default_items">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+<div class="clear"></div>
+<!-- clean html end -->
+
+<!-- <script type="text/javascript">
+	$(document).trigger('before_ready');
+</script> -->
+
+
+
+</div></body>
+</html>

@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Call for papers</title>
+<!-- Bootstrap with spacelab theme -->
+<link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootswatch/3.3.7/spacelab/bootstrap.min.css" integrity="sha384-L/tgI3wSsbb3f/nW9V6Yqlaw3Gj7mpE56LWrhew/c8MIhAYWZ/FNirA64AVkB5pI" rel="stylesheet"/>
+<!-- Extensions of bootstrap -->
+<link href="./styles/jasny-bootstrap.css" rel="stylesheet"/>
+<link href="./styles/navmenu.css" rel="stylesheet"/>
+<!-- Styling -->
+<link href="./styles/main.css" rel="stylesheet"/>
+<link href="./styles/theme.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto%7CRoboto+Condensed" rel="stylesheet"/>
+</head>
+<body data-spy="scroll">
+<!-- NOTE: see index.html for explanation of why the role=navigation is still here despite appearance of redundancy -->
+<nav class="navmenu navmenu-default navmenu-fixed-left offcanvas-sm" id="mainmenu" role="navigation">
+<!-- populated by menus.js -->
+</nav>
+<nav class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg">
+<button class="navbar-toggle" data-target=".navmenu" data-toggle="offcanvas" type="button">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="index.html" id="topNavTitle">
+<span class="conf_name"></span>
+</a>
+</nav>
+<main class="container-fluid">
+<header class="row headerImg" id="conf_id">
+<div class="col-sm-12 headerGradient">
+<div class="row">
+<div class="col-sm-6">
+<h1 class="headerTitle">
+<span class="conf_name"></span>
+</h1>
+</div>
+<div class="col-sm-6">
+<h3 class="headerInfoTop">
+<span class="conf_dates"></span>
+</h3>
+<h3 class="headerInfoBottom">
+<span class="conf_location"></span>
+</h3>
+</div>
+</div>
+</div>
+</header>
+<!-- NOTE: noscript tag lets people who aren't running JS know that this page may not function correctly without JS. -->
+<noscript>
+<div class="row">
+<article class="col-sm-12 sectionSpacing">
+<h2>
+              This site is designed for browsers with javascript.
+            </h2>
+<h3>
+                When the committee names are announced, they will be contained in a <a href="json/comm.json">json file.</a> The dates, name, and location for the conference are <a href="json/metadata.json">in another json file.</a>
+</h3>
+</article>
+</div>
+</noscript>
+<div class="row">
+<div class="col-sm-12">
+<h2 class="indPageTitle">Call for Papers (deadline passed!)</h2>
+</div>
+</div>
+<div class="row">
+<section class="col-sm-6">
+<p>
+            Original contributions on all technical aspects of cryptology are solicited
+            for submission to <span class="conf_name"></span>, the <span class="long_conf"></span>.
+            Submissions are welcomed on any cryptographic topic including, but not limited to:
+        </p>
+<ul>
+<li>foundational theory and mathematics;</li>
+<li>the design, proposal, and analysis of cryptographic primitives and protocols;</li>
+<li>secure implementation and optimization in hardware or software; and</li>
+<li>applied aspects of cryptography.</li>
+</ul>
+<p>
+<span class="conf_name"></span> is sponsored by the International Association for Cryptologic Research (IACR),
+            in co-operation with the Computer Science Department of the University of
+            California, Santa Barbara. The proceedings of <span class="conf_name"></span>
+            will be published by Springer in the LNCS series. 
+        </p>
+</section>
+<section class="col-sm-6">
+<div class="row">
+<p class="dateText"><a href="files/cfp.pdf">Click for Call For Papers in PDF Version</a></p>
+<div class="panel panel-success">
+<div class="panel-heading">
+<h3 class="panel-title">
+                Important Dates
+              </h3>
+</div>
+<div class="panel-body">
+<div class="row">
+<div class="col-xs-5">
+<p class="dateTitle">
+<s>February 11 2020</s>
+</p>
+</div>
+<div class="col-xs-7">
+<div class="countdown">
+<p class="dateText">
+<a href="papersubmission.html">Submission</a> deadline at 21:00:00 <a href="https://www.timeanddate.com/time/zone/timezone/utc">UTC</a>
+</p>
+</div>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-xs-5">
+<p class="dateTitle">
+<s>March 27</s> April 3 2020
+                  </p>
+</div>
+<div class="col-xs-7">
+<div class="countdown">
+<p class="dateText">
+                      Reviews sent out for rebuttal
+                    </p>
+</div>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-xs-5">
+<p class="dateTitle">
+<s>April 3</s> April 10 2020
+                  </p>
+</div>
+<div class="col-xs-7">
+<div class="countdown">
+<p class="dateText">
+                      Rebuttal deadline
+                    </p>
+</div>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-xs-5">
+<p class="dateTitle">
+                    May 8 2020
+                  </p>
+</div>
+<div class="col-xs-7">
+<div class="countdown">
+<p class="dateText">
+                      Paper notification
+                    </p>
+</div>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-xs-5">
+<p class="dateTitle">
+                    June 15 2020
+                  </p>
+</div>
+<div class="col-xs-7">
+<div class="countdown">
+<p class="dateText">
+                      Final version due
+                    </p>
+</div>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-xs-5">
+<p class="dateTitle">
+                    August 15-16 2020
+                  </p>
+</div>
+<div class="col-xs-7">
+<div class="countdown">
+<p class="dateText">
+                      Affiliated Events (unless canceled/postponed)
+                    </p>
+</div>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-xs-5">
+<p class="dateTitle">
+                    August 16-20 2020
+                  </p>
+</div>
+<div class="col-xs-7">
+<div class="countdown">
+<p class="dateText">
+                      Conference (unless canceled/postponed)
+                    </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<section class="col-sm-12">
+<h3 class="pageSubtitle">
+            Instructions for Authors
+          </h3>
+<p>
+            Submissions must use the Springer LNCS format with the default margins and
+            font, with one modification: submissions <i>must</i> display page numbers
+            (e.g., by adding <code>\pagestyle{plain}</code> to the document preamble).
+            Submissions may contain at most 30 pages including the title page,
+            bibliography, and figures.  Optionally, any amount of clearly marked
+            supplementary material may be supplied, following the main body of
+            the paper or in separate files; however, reviewers are not required to
+            read or review any supplementary material, and submissions are expected
+            to be intelligible without it.
+            Significant changes between the published version and the submitted version
+            should be approved by the program committee.
+        </p>
+<p>
+            Submissions should begin with a title and abstract, followed by
+            an introduction that summarizes the paper's contribution in a manner that
+            is understandable to a general cryptographic audience.
+            Submissions must be anonymous, with no author names, affiliations,
+            or obvious references;
+            all submissions will be blind-refereed. Submissions must not
+            substantially duplicate published work or work that has been
+            submitted in parallel to any other journal or
+            conference/workshop with published proceedings. All submissions to <span class="conf_name"></span> are viewed as
+            active submissions throughout the entire review period, and
+            may not be submitted to any other journal or
+            conference/workshop with published proceedings before the notification date.
+            Accepted submissions cannot appear in any other
+            conference or workshop that has published proceedings. 
+            The IACR reserves the right to share information about submissions with other program
+            committees to check for violations of these rules. The conference will follow the IACR
+            <a href="https://www.iacr.org/docs/irregular.pdf">Policy on Irregular Submissions</a>;
+            authors may wish to consult the IACR
+            <a href="https://www.iacr.org/docs/author.pdf">Guidelines for Authors</a>.
+
+          </p>
+<p>
+<a href="papersubmission.html">Papers must be submitted electronically
+	    following instructions at this link</a>. Submissions not meeting the guidelines above may be rejected without
+            consideration of their merits.
+            All accepted papers must conform to the Springer publishing requirements,
+            and authors will be required to sign the IACR Copyright
+            form when submitting the proceedings version of their paper.
+            By submitting a paper, the authors agree that if the paper is accepted, one of the authors will 
+            present the paper at the conference and, in addition, will grant permission to the IACR to distribute the 
+            presentation slides as well as an audio/video recording of the presentation as per the 
+            IACR copyright and consent form.
+            When applicable, we encourage authors to include in their supplementary materials the responses to 
+            reviews from prior IACR events as described in the  
+            <a href="https://www.iacr.org/docs/author.pdf">Guidelines for Authors</a>.
+            During submission, the authors will be asked to indicate any conflicts of interest with the PC members,
+            per the <a href="https://www.iacr.org/docs/conflicts.pdf">IACR CoI policy</a>.
+
+          </p>
+</section>&gt;
+        </div>
+<div class="row">
+<section class="col-sm-12">
+<h3 class="pageSubtitle">
+            Awards
+          </h3>
+<p>
+            The Program Committee may choose a paper to receive an overall best
+            paper award.  In a continuing effort to promote independent work by
+            researchers at an early stage in their career, the Program Committee
+            may also award a prize for the best paper authored exclusively by
+            early-career researchers. To be eligible, all co-authors must be
+            studying full/part-time or have received their
+            degree in 2018 or later. As usual, awards will only be
+            given if deserving papers are identified.
+          </p>
+</section>
+<section class="col-sm-12">
+<h3 class="pageSubtitle">
+            Stipends
+          </h3>
+<p>
+            The IACR's Cryptography Research Fund allows us to waive the registration
+            fee for all student presenters of an accepted paper (application
+            required).  Thanks to our sponsors' generosity, a limited number of
+            stipends will also be available to students unable to obtain funding to
+            attend the conference.  Students in under-represented groups are especially
+            encouraged to apply.  To apply, go to the <a href="stipends.html">stipends webpage</a>.
+            <a href="contact.html">Contact the general chair</a> with any questions.
+          </p>
+</section>
+</div>
+<div class="row">
+<section class="col-sm-12">
+<h3 class="pageSubtitle">
+            Program Committee
+          </h3>
+</section>
+</div>
+<div class="row">
+<section class="col-sm-12">
+<ul class="list-group" id="committee">
+<!-- Handlebars import of PC members -->
+<script id="committee-member" type="text/x-handlebars-template">
+              {{#each committee}}
+                <li class="list-group-item listItems col-sm-4 wrapWell">
+                  <h4 class="list-group-item-heading tableItemTitle">
+                    {{name}}
+                  </h4>
+                  <p class="list-group-item-text listText">
+                    {{affiliation}}
+                  </p>
+                </li>
+              {{/each}}
+            </script>
+</ul>
+<ul class="list-group">
+<li class="list-group-item listItems col-sm-4 wrapWell">
+                  Advisory Member:
+                  <h4 class="list-group-item-heading tableItemTitle">
+                    Alexandra Boldyreva
+                  </h4>
+<p class="list-group-item-text listText">
+			Georgia Institute of Technology<br/>Crypto 2019 Program Co-Chair
+                  </p>
+</li>
+</ul>
+</section>
+</div>
+<div class="row">
+<section class="col-sm-12">
+<h3 class="pageSubtitle">
+		    Contact Information
+          </h3>
+<div class="row top-buffer">
+<div class="col-sm-12 text-center">
+<h4 class="tableItemTitle">
+                      General Chair
+                    </h4>
+</div>
+</div>
+<p class="text-center">
+<a href="http://www.cs.bu.edu/~reyzin">Leonid Reyzin</a><br/>
+                Boston University <br/>
+                Boston, MA 02215, USA <br/>
+<a href="mailto:crypto2020@iacr.org">
+<span aria-hidden="true" class="glyphicon glyphicon-envelope"></span>
+                  crypto2020@iacr.org</a>
+</p>
+</section>
+</div>
+<div class="row top-buffer">
+<div class="col-sm-12 text-center">
+<h4 class="tableItemTitle">
+              Program Co-Chairs
+            </h4>
+</div>
+</div>
+<div class="row">
+<aside class="col-sm-4 col-sm-offset-2 text-center">
+<p class="text-center">
+<a href="https://cseweb.ucsd.edu/~daniele/">Daniele Micciancio</a><br/>
+          UC San Diego<br/>
+          La Jolla, CA 92093, USA
+        </p>
+</aside>
+<aside class="col-sm-4 text-center">
+<p class="text-center">
+<a href="https://rist.tech.cornell.edu/">Thomas Ristenpart</a><br/>
+            Cornell Tech<br/>
+            New York, NY 10044, USA
+        </p>
+</aside>
+</div>
+<div class="row">
+<div class="col-sm-12 text-center">
+<a href="mailto:crypto2020programchairs@iacr.org">
+<span aria-hidden="true" class="glyphicon glyphicon-envelope"></span>
+         crypto2020programchairs@iacr.org</a>
+</div>
+</div>
+<div class="row">
+<footer class="col-sm-12 text-center footer">
+<small>
+<span class="conf_name"></span>
+</small>
+</footer>
+</div>
+<!-- Bootstrap scripts -->
+<script crossorigin="anonymous" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script crossorigin="anonymous" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Bootstrap plugins -->
+    <script src="./js/jasny-bootstrap.js"></script>
+    <!-- Handlebars -->
+    <script crossorigin="anonymous" integrity="sha256-1O3BtOwnPyyRzOszK6P+gqaRoXHV6JXj8HkjZmPYhCI="
+            src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.min.js"></script>
+    <!-- Personal scripts -->
+    <script src="./js/menus.js"></script>
+    <script src="./js/navTitleFade.js"></script>
+    <script src="./js/committee.js"></script>
+</div>
+</section>
+</div>
+</main>
+<div>
+    <!-- BEGIN nav -->
+    <div id="pageTop">
+        <header class="headerImg" id="conf_id">
+            <div class="headerGradient">
+                <div class="pageTopContainer">
+                    <div class="d-flex justify-content-between align-items-center" id="titlesLogoDiv">
+                        <div class="headerConferenceName">
+                            <h1 class="headerTitle">
+                                Crypto 2020 </h1>
+                        </div>
+                        <div class="headerLogo">
+                            <a href="https://iacr.org/">
+                                <img class="d-none d-lg-block mx-auto" id="logo"
+                                     src="https://iacr.org/img/logo/iacrlogo_small.png"
+                                     title="International Association for Cryptologic Research"/>
+                            </a>
+                        </div>
+                        <div class="headerInfo">
+                            <h3 class="headerInfoTop">
+                                August 17-21 2020 </h3>
+                            <h3 class="headerInfoBottom">
+                                Virtual
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="sticky-top" id="main-nav-row">
+
+        </div>
+    </div>
+    <noscript>
+        <div class="container">
+            <h2>
+                This site is designed for browsers with javascript.
+            </h2>
+            <h3>
+                The dates and name for the conference are <a href="json/metadata.json">in a json file.</a>
+            </h3>
+        </div>
+    </noscript>
+    <!-- END OF nav -->
+    <main class="container p-4">
+        <h2 class="indPageTitle">
+            Sponsors
+        </h2>
+        <div class="d-flex flex-wrap align-items-center sponsorRows">
+            <div class="sponsorLogoBox justify-content-between">
+                <a href="https://www.cloudflare.com/">
+                    <img alt="Cloudflare" class="sponsorPageLogo" src="images/sponsors/CloudFlare.png"
+                         title="Cloudflare"/>
+                </a>
+            </div>
+            <div class="sponsorLogoBox justify-content-between">
+                <a href="https://www.concordium.com/">
+                    <img alt="Concordium" class="sponsorPageLogo" src="images/sponsors/Concordium_Landscape.svg"
+                         title="Concordium"/>
+                </a>
+            </div>
+            <div class="sponsorLogoBox justify-content-between">
+                <a href="http://www.fujitsu.com/us/about/businesspolicy/tech/rd/">
+                    <img alt="Fujitsu" class="sponsorPageLogo" src="./images/sponsors/Fujitsu.gif" title="Fujitsu"/>
+                </a>
+            </div>
+            <div class="sponsorLogoBox justify-content-between">
+                <a href="https://iohk.io/">
+                    <img alt="IOHK" class="sponsorPageLogo" src="images/sponsors/IOHK.png" title="IOHK"/>
+                </a>
+            </div>
+            <div class="sponsorLogoBox justify-content-between">
+                <a href="https://ntt-research.com/cis/">
+                    <img alt="NTT Research" class="sponsorPageLogo" src="./images/sponsors/NTTResearch_Symbol.jpg"
+                         title="NTT Research"/>
+                </a>
+            </div>
+            <div class="sponsorLogoBox justify-content-between">
+                <a href="https://starkware.co/" rel="nofollow">
+                    <img alt="StarkWare" class="sponsorPageLogo" src="images/sponsors/StarkWare.png" title="StarkWare"/>
+                </a>
+            </div>
+            <div class="sponsorLogoBox justify-content-between">
+                <a href="https://ibm.com/" rel="nofollow">
+                    <img alt="IBM" class="sponsorPageLogo" src="images/sponsors/logo-ibm.gif" title="IBM"/>
+                </a>
+            </div>
+            <div class="sponsorLogoBox justify-content-between">
+                <a href="https://www.jpmorgan.com/" rel="nofollow">
+                    <img alt="J.P. Morgan" class="sponsorPageLogo" src="images/sponsors/JPM.jpg" title="J.P. Morgan"/>
+                </a>
+            </div>
+            <div class="sponsorLogoBox justify-content-between">
+                <a href="https://www.google.com/" rel="nofollow">
+                    <img alt="Google" class="sponsorPageLogo" src="images/sponsors/Google_Logo.png" title="Google"/>
+                </a>
+            </div>
+            <div class="sponsorLogoBox justify-content-between">
+                <a href="https://www.platon.network/#/" rel="nofollow">
+                    <img alt="PlatON" class="sponsorPageLogo" src="images/sponsors/PlatON.png" title="PlatON"/>
+                </a>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <section class="col-12">
+                <!-- TODO: this text may need to be revised -->
+                <p>
+                    Crypto 2020 relies on sponsors to help ensure student participation. Please contact the <a
+                        href="contact.php">General Chair</a> if your company is interested in sponsoring this
+                    conference.
+                </p>
+            </section>
+        </div>
+    </main>
+    <footer class="text-center footer">
+        <small>
+            Crypto 2020<br/>
+            <a href="https://iacr.org/copyright.html">Copyright ©
+                2020</a>
+            <span class="d-none d-md-inline">by the </span><span class="d-md-none">IACR</span>
+            <span class="d-none d-md-inline">International Association for Cryptologic Research</span>
+            <span class="d-none d-md-inline">• </span><br class="d-md-none"/> <a href="https://iacr.org/privacy.html">Privacy
+            Policy</a>
+        </small>
+    </footer>
+
+
+</div>
+</body>
+</html>

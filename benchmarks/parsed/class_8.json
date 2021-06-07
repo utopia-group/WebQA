@@ -1,0 +1,335 @@
+{
+    "id": 0,
+    "content": "CS 111 Course Reference",
+    "children": [
+        {
+            "id": 1,
+            "content": "CS111 Winter 2020 | News | Course Reference | Course Objectives | Schedule | Project Guide",
+            "key": 1
+        },
+        {
+            "id": 2,
+            "content": "CS 111: Operating System Principles   Winter 2020, 2– 3:50pm M W, DODD 147",
+            "key": 2
+        },
+        {
+            "id": 3,
+            "content": "Instructor information",
+            "key": 3,
+            "children": [
+                {
+                    "id": 4,
+                    "content": "Harry Xu   Office: 496A Engineering VI   Email: harryxu@cs.ucla.edu",
+                    "key": 1
+                },
+                {
+                    "id": 5,
+                    "content": "Contacting me:",
+                    "key": 2,
+                    "children": [
+                        {
+                            "id": 6,
+                            "content": "I prefer to be reached by email.",
+                            "key": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "content": "Teaching assistant",
+            "key": 4,
+            "children": [
+                {
+                    "id": 8,
+                    "content": "In addition to me, this course is staffed by three teaching assistants, who will be attending the lab sections, and will be the primary point of contact with regard to the grading of projects.",
+                    "key": 1
+                },
+                {
+                    "id": 9,
+                    "content": "Alexandre Tiard (alexandre.tiard@gmail.com), TA   Section: 1E: PUB AFF 1246 / Friday / 2:00pm - 3:50pm",
+                    "key": 2
+                },
+                {
+                    "id": 10,
+                    "content": "Rishab Doshi (rishabkdoshi@g.ucla.edu), TA   Section: 1F: Haines 118 / Friday/ 2 - 3:50pm",
+                    "key": 3
+                },
+                {
+                    "id": 11,
+                    "content": "Shaan Mathur (shaankaranmathur@gmail.com), TA   Section: 1D: Kaplan A 65 / Friday/ 2 - 3:50pm",
+                    "key": 4
+                },
+                {
+                    "id": 12,
+                    "content": "Karen Quadros (quadroskaren369@gmail.com), TA   Section: Kaplan 135 / Friday/ 2 - 3:50pm",
+                    "key": 5
+                },
+                {
+                    "id": 13,
+                    "content": "Nikita Sivakumar (nikita3096@g.ucla.edu), TA   Section: PAB 2748 / Friday/ 4 - 5:50pm",
+                    "key": 6
+                },
+                {
+                    "id": 14,
+                    "content": "Howard Xie (howardx@cs.ucla.edu), TA   Section: Royce 190 / Friday/ 12 - 1:50pm",
+                    "key": 7
+                },
+                {
+                    "id": 15,
+                    "content": "Piazza",
+                    "key": 8,
+                    "children": [
+                        {
+                            "id": 16,
+                            "content": "Please post your questions on the piazza online forum.",
+                            "key": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "content": "Course Overview",
+            "key": 5,
+            "children": [
+                {
+                    "id": 18,
+                    "content": "CS 111, Operating System Principles is meant to provide you with a solid grounding in the basic principles of operating system design. This grounding will give you a deeper understanding of how a vital piece of system software operates and introduce you to important concepts that are frequently used in large software systems you are likely to encounter in your future work.",
+                    "key": 1
+                },
+                {
+                    "id": 19,
+                    "content": "CS 111 has prerequisites of CS 32, 33, and 35L. The class involves serious programming and would be extremely challenging for anyone without a programming background. It also assumes knowledge of many fundamental tools used in software development, particularly in Linux/Unix environments. If you have not taken these courses or otherwise acquired this background, you are likely to find CS 111 very difficult.",
+                    "key": 2
+                },
+                {
+                    "id": 20,
+                    "content": "CS 111 is widely held to be one of the most difficult courses in the undergraduate Computer Science catalog, due to:",
+                    "key": 3
+                },
+                {
+                    "id": 21,
+                    "content": "· the amount of reading",
+                    "key": 4
+                },
+                {
+                    "id": 22,
+                    "content": "· the number of new and subtle concepts to be mastered",
+                    "key": 5
+                },
+                {
+                    "id": 23,
+                    "content": "· the complexity of the principles that must be applied",
+                    "key": 6
+                },
+                {
+                    "id": 24,
+                    "content": "· the amount of work involved in the projects",
+                    "key": 7
+                },
+                {
+                    "id": 25,
+                    "content": "People who have had little difficulty with previous Computer Science courses are often surprised by the workload in this course. Keeping up in this course requires considerable work and discipline. Catching up after Falling behind is extremely difficult.",
+                    "key": 8
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "content": "Times and place",
+            "key": 6,
+            "children": [
+                {
+                    "id": 27,
+                    "content": "The lecture meets Monday Wednesday 2 - 3:50am in DODD 147.",
+                    "key": 1
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "content": "Textbooks",
+            "key": 7,
+            "children": [
+                {
+                    "id": 29,
+                    "content": "Most of the readings for this course will come from Remzi Arpaci-Dusseau 's Operating Systems in Three Easy Pieces. This is an on-line textbook, so you will not need to purchase a book for this class. However, the course covers certain topics that are not discussed in this textbook. These topics will be covered from alternative readings (all available on-line). These readings will be posted on the class web site before the class in question. Tests will cover material from both lectures and all assigned readings. Exam questions WILL assume you have read and understood all assigned readings, so if you don’t read them, you are likely to do poorly on the exams.",
+                    "key": 1
+                }
+            ]
+        },
+        {
+            "id": 30,
+            "content": "Slides and other materials",
+            "key": 8,
+            "children": [
+                {
+                    "id": 31,
+                    "content": "All slides and other materials will be posted on the course website.",
+                    "key": 1
+                }
+            ]
+        },
+        {
+          "id": 32,
+          "content": "Obtaining additional assistance",
+          "key": 9,
+          "children": [
+            {
+              "id": 33,
+              "content": "Asking questions of course stuff",
+              "key": 1,
+              "children": [
+                {
+                  "id": 34,
+                  "content": "You can most easily get course questions answered by coming to lecture, a lab section, or office hours and asking them. I am happy to help you in person when I'm available. You can also ask questions by posting them on our piazza site or sending email to your TAs. If the questions require a complex or lengthy response, we may ask you to see one of us in person. As projects approach their due date, particularly on days when projects are due, we begin to receive quite a bit of email all at once, so we may not be able to respond to all messages before the project is due. We aren't ignoring you on purpose, but unfortunately it's not always possible for the relatively small course staff to answer questions from a large number of students at once.",
+                  "key": 1
+                }
+              ]
+            },
+            {
+              "id": 35,
+              "content": "Accommodations for disabilities",
+              "key": 2,
+              "children": [
+                {
+                  "id": 36,
+                  "content": "Any students who feel that they may need an accommodation based on the impact of a disability should contact me privately to discuss these specific needs. Also, contact the Center for Accessible Education online at (310) 206-8049 as soon as possible to better ensure that such accommodations, such as alternative test-taking environments or note-taking services, can be arranged for you in a timely way.",
+                  "key": 1
+                }
+              ]
+            }
+          ]
+        },
+      {
+        "id": 37,
+        "content": "Grading",
+        "key": 10,
+        "children": [
+          {
+            "id": 38,
+            "content": "Weights of graded artifacts",
+            "key": 1,
+            "children": [
+              {
+                "id": 39,
+                "content": "Your course grade will be determined from the weighted combination of your scores on each of six projects, one Midterm, and one Final Exam. The weights of each of these are:",
+                "key": 1
+              },
+              {
+                "id": 40,
+                "content": "",
+                "isList": true,
+                "key": 2,
+                "children": [
+                  {
+                    "id": 41,
+                    "content": "Midterm, 25%",
+                    "key": 1
+                  },
+                  {
+                    "id": 42,
+                    "content": "Final Exam, 30%",
+                    "key": 2
+                  },
+                  {
+                    "id": 43,
+                    "content": "Lab 0, 5%",
+                    "key": 3
+                  },
+                  {
+                    "id": 44,
+                    "content": "Labs 1--4, 10% each",
+                    "key": 4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 45,
+            "content": "Determining final grades",
+            "key": 2,
+            "children": [
+              {
+                "id": 46,
+                "content": "No slip days are allowed. If your submission is X days late for a project, 2X-1 points will be deducted from your project grade. Makeups or alternate times for exams will only be possible with consent of the instructor prior to the exam date.",
+                "key": 1
+              },
+              {
+                "id": 47,
+                "content": "I will not formally curve the grades, but I will look at the distribution.",
+                "key": 2
+              },
+              {
+                "id": 48,
+                "content": "If you're curious about how you're doing in the course, I'm happy to discuss your estimated grade at any time. It's generally best to have this conversation in person, so that we can explore issues other than just the raw numbers; I'm happy to have this conversation at any time that I'm available, and I'm also glad to do it via email if we can't find a mutually available time.",
+                "key": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 49,
+        "content": "Tests",
+        "key": 11,
+        "children": [
+          {
+            "id": 50,
+            "content": "There will be a midterm and final exam for this class. The midterm will be held in class during the fifth week. The final exam will be held in the scheduled final period for the class, which is Wednesday, March 18, 11:30AM - 2:30PM. The location is to be determined, but will probably be in the regular classroom.",
+            "key": 1
+          }
+        ]
+      },
+      {
+        "id": 51,
+        "content": "Requesting PTEs",
+        "key": 12,
+        "children": [
+          {
+            "id": 52,
+            "content": "I have received many requests for PTEs. I will not give out PTEs until week 2 of the Spring quarter. Please come to the class and tell me you need a PTE if you still want to take the class at the end of week 2.",
+            "key": 1
+          }
+        ]
+      },
+      {
+        "id": 53,
+        "content": "Academic honesty",
+        "key": 13,
+        "children": [
+          {
+            "id": 54,
+            "content": "The policy—avoid cheating!",
+            "key": 1,
+            "children": [
+              {
+                "id": 55,
+                "content": "I expect all students to follow the UCLA Student Conduct Code. This code prohibits cheating, fabrication, multiple submissions, and facilitating academic dishonesty. You can find further information about this code at the Student Guide to Academic Integrity. The Office of the Dean of Students offers a workshop on academic integrity if you wish to understand UCLA’s policies on this issue more thoroughly.",
+                "key": 1
+              },
+              {
+                "id": 56,
+                "content": "Group study is often useful and is encouraged, but projects are to be performed by each student individually, except for project 3, which can be performed with one partner. You are not permitted to use any other students’ code or written material in your projects (other than your partner’s for project 3), and you should not give your code or written material to any other students. You are not permitted to post your code to Github or to other web sites. In cases where multiple projects show signs of plagiarism, all involved parties will be reported to the Dean, so even if it was your work that was copied, you could still face consequences. Brief quotations from other sources are sometimes acceptable in project submissions, but submissions should be predominantly your own original work. If you include any material in your project submissions that is obtained from an online source, book, or other place, you must specify the sources for these parts of your submitted work.",
+                "key": 2
+              }
+            ]
+          }
+        ]
+      },
+        {
+            "id": 57,
+            "content": "Acknowledgements",
+          "key": 14
+        },
+        {
+            "id": 58,
+            "content": "The instructor is grateful to Paul Eggert, Peter Reiher and Mark Kampe who have generously provided related course materials.",
+          "key": 15
+        }
+    ]
+}

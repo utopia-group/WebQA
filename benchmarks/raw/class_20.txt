@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<script src="script.js"></script>
+<title>CS 565: Spring 2019 </title>
+</head>
+<body class="spacing">
+<button id="backToTop" onclick="topFunction()" title="Go to top">Back to Top</button>
+<h1 align="center">
+            CS 565 Spring 2019<br/>
+            Introduction to HCI
+      </h1>
+<h3 align="center">
+            Classroom Location: Bat 250 (M,W) and BEXL 321 (F) <br/>
+            Time: a subset of MWF 12:00-1:50pm <br/>
+</h3>
+<!--navigation bar-->
+<ul class="nav">
+<li class="nav">
+<a class="button" href="#syllabus">Syllabus</a>
+</li>
+<li class="nav">
+<a class="button" href="#resources">Resources</a>
+</li>
+<li class="nav">
+<a class="button" href="#schedule-heading">Schedule/Assignments</a>
+</li>
+</ul>
+<p>
+</p><p class="border-instructor">
+<b>Instructor:</b>
+<a href="http://web.engr.oregonstate.edu/~burnett/">Prof. Margaret Burnett</a>
+<br/><b>E-Mail:</b>
+<a href="mailto: burnett@eecs.oregonstate.edu">burnett@eecs.oregonstate.edu</a>
+<br/><b>Office Hours:</b>
+                  listed on my <a href="http://web.engr.oregonstate.edu/~burnett/">home page</a>
+<br/><b>Office Hours Location:</b>
+                  KEC 3051
+            </p>
+<p class="border-ta">
+<b>TA:</b>
+                  Roli Khanna<br/>
+<b>E-Mail:</b>
+<a href="mailto: khannaro@oregonstate.edu">khannaro@oregonstate.edu</a>
+<br/><b>Office Hours:</b>
+		  Tuesdays (11 am to 12 noon) and Wednesdays (3 to 4 pm) <br/>
+<b>Office Hours Location:</b>
+                  KEC Atrium<br/>
+</p>
+<hr/>
+<h2 id="syllabus">Syllabus</h2>
+<h3>Course Description</h3>
+<p>
+      In this class, you will learn basic principles of Human-Computer Interaction (HCI) for the design and evaluation of software systems. Includes research methods for studying human-machine interactions and user interfaces; design strategies; software evaluation methods; and related guidelines and standards. PREREQS: Grad standing in CS or permission of instructor.
+      </p>
+<p>There will be no programming. However, a significant portion of your grade
+      will be based on a <a href="Project/project.html">team project</a> Here are <a href="Project/patients.html">possible projects</a> to choose from.
+      </p>
+<h3>Class meeting times</h3>
+<p>This class will meet an average of only 3 hours per week in the classroom, because the hands-on component will require significant meeting times with your teams as well.  </p>
+<p>The class sessions will be drawn from <font color="red">Mondays, Wednesdays, <b>and Fridays, 12:00-1:50pm</b></font>.  So, that means your schedule needs to allow attending class on any of those times.</p>
+
+The in-classroom sessions are shown on the <a href="#schedule-heading">Schedule below</a>.
+
+
+
+      <h3>Learning Objectives</h3>
+<p>
+            At the completion of this course, students will be able to:
+            </p><ol>
+<li>Describe HCI design processes.</li>
+<li>Discuss HCI design guidelines, their foundations, assumptions, advantages, and weaknesses.</li>
+<li>Describe basics of human subjects research.</li>
+<li>Complete a basic human subjects research certification form.</li>
+<li>Design a user interface based on analysis of human capabilities and needs, and prepare a prototype system.</li>
+<li>Evaluate user interfaces using a variety of HCI research methods.</li>
+<li>Make an oral presentation that justifies design decisions. </li>
+</ol>
+<h3>How the course will be conducted, method of instruction</h3>
+<p>We will run this class as an "HCI clinic".  You will act as the "HCI doctors" to apply your emerging skills to healing <a href="Project/patients.html">"HCI patients"</a> -- systems whose UIs probably need improvement.  Thus, it is a hands-on course.
+
+      </p><p>
+	To do this, you will
+      be required to work on group projects (~4-person groups) and
+      classwork (in addition to doing readings) outside of class
+      time. This class will also be very interactive. Participation
+      will count towards your final grade, and I want a healthy
+      discussion in each class session.</p>
+<p>You are responsible for having done the reading before attending class
+      that day and be ready to participate in the discussion.
+      I may not go over all the reading material in class, preferring
+      to spend that time elaborating or discussing that material with you.
+      This does not mean the assigned reading is not important, or will not
+      be covered in a test.</p>
+<h3>Grading</h3>
+<p>I have high expectations.
+      Thus, in this class, "A" does not mean
+      "adequate" or "nothing really wrong": instead, it means "excellent". For an A, you
+      should expect to work hard and get the most you can out of the class.</p>
+
+Student performance will be evaluated via projects and assignments, a midterm exam, a final exam, and active participation.  Weights will be Projects and assignments 45%, midterm 25%, final 25%, and 5% for participation.
+
+      <p> <b>Note:</b> The team receives one grade for the group project. However, allocation of the grade among team members will in some cases not be equal, if team members do not contribute relatively equally to the effort.</p>
+<p><a href="CS565-2019-0517-1058-posted.xlsx">Grades as of 5/17</a>, <a href="CS565-2019-0522-1207-posted.xlsx">Grades as of 5/22</a>, <a href="CS565-2019-0608-1054-posted.xlsx">Grades as of 6/8</a>, <a href="CS565-2019-0617-0814-examScores-posted.xlsx">Final exam and Participation Grades</a>
+</p><h3>Textbooks</h3>
+<ul>
+<li>
+<b>Required:</b>
+<i>Designing with the Mind in Mind, 2nd Edition: Simple Guide to Understanding User Interface Design Guidelines, </i>2014,
+                  <br/>Author: Jeff Johnson
+                  <br/>Publishers: Morgan Kaufmann
+                  <br/>ISBN/SKU 978-0124079144.
+                  <br/>(Available at <a href="http://osubeaverstore.com/Academics/">OSU bookstore</a>.
+                  Also available for free as an <a href="http://search.library.oregonstate.edu/OSU:everything:CP71199765050001451" target="_blank">on-line book from the OSU Library</a>.)
+                  <!--Also available for free as an <a href="http://search.library.oregonstate.edu/primo_library/libweb/action/display.do?tabs=viewOnlineTab&ct=display&fn=search&doc=dedupmrg592564371&indx=2&recIds=dedupmrg592564371&recIdxs=1&elementId=1&renderMode=poppedOut&displayMode=full&frbrVersion=5&frbg=&&dscnt=0&scp.scps=scope%3A%28OSU%29%2Cscope%3A%28P%29%2Cscope%3A%28E-OSU%29%2Cprimo_central_multiple_fe&tb=t&mode=Basic&vid=OSU&srt=rank&tab=default_tab&dum=true&vl(freeText0)=Designing%20with%20the%20Mind%20in%20Mind%2C%202nd%20Edition%3A%20Simple%20Guide%20to%20Understanding%20User%20Interface%20Design%20Guidelines%2C%202014&dstmp=1483054339258">on-line book from the OSU Library</a>.)-->
+</li>
+<li>
+<b>Required:</b>
+<i>Trap Cards Deck</i>
+<br/>Author: Medlock
+                  <br/>Available at OSU Bookstore
+
+            </li>
+</ul>
+<p>We will also have selected readings from other sources, but you don't have to buy those.</p>
+<h3>Classroom Policies</h3>
+      This class is our community.
+      <p>Every student should feel safe and welcome to contribute in this course, and it is all of our jobs to make sure this is the case. I will try to establish this tone whenever possible, but ultimately the responsibility for cultivating a safe and welcoming community belongs to the students—that means you! Fortunately, forming a safe and welcoming community is not too hard. A good place to start is to recognize (and continually remind yourself) of the following facts:
+            </p><ul>
+<li>Your classmates come from a variety of cultural, economic, and educational backgrounds. Something that is obvious to you may not be obvious to them, and vice versa.</li>
+<li>Your classmates are human beings with intelligence and emotions. This applies even when one or the other of you is posting anonymously. Rudeness and disrespect are unprofessional, and have no place in this course or in your career.</li>
+<li>Your classmates are here to learn. They have the right to pursue their education without being distracted by others' disruptive behavior, or made uncomfortable by inappropriate jokes or unwanted sexual interest.</li>
+</ul>
+<p>In addition, the <a href="http://oregonstate.edu/studentconduct/offenses-0">OSU Expectations for Student Conduct</a> apply.</p>
+<p>In short, treat your classmates as respected colleagues, support each other when needed, have fun without spoiling it for anyone else, and everybody wins.</p>
+<h4>Laptops and phones in the class</h4>
+<p>(1) You are welcome to take notes on your laptop, but this can be distracting to others, so please sit in the back if you do this.  (2) If you find yourself trying to keep an eye on your emails and messages during class, know that you are missing out on a lot of information that will eventually prove useful to your project and your grade.  As you'll learn in this class, we humans pay a huge cognitive tax when we try to multitask. You'll be better off as a student and a future professional if you learn to wait till after class to check your phone/etc.</p>
+<h3>Students with Disabilities</h3>
+<p>
+      Accommodations for students with disabilities are determined and
+      approved by Disability Access Services (DAS). If you, as a student,
+      believe you are eligible for accommodations but have not obtained
+      approval please contact DAS immediately at 541-737-4098 or at
+      <a href="http://ds.oregonstate.edu">http://ds.oregonstate.edu</a>.
+      DAS notifies students and faculty members
+      of approved academic accommodations and coordinates implementation of
+      those accommodations. While not required, students and faculty members
+      are encouraged to discuss details of the implementation of individual
+      accommodations.
+      </p>
+<hr/>
+<a id="resources" name="Resources">
+<h2>Other Resources and Links</h2>
+<ul>
+<li>Slides from Class:
+               <ul>
+<li><a href="http://classes.engr.oregonstate.edu/eecs/Spring2019/cs565/Slides/TandT-dataLoss+AmbiguousHome.ppt">T &amp; T examples: Data Loss + Ambiguous Home</a></li>
+<li>
+<a href="http://classes.engr.oregonstate.edu/eecs/Spring2019/cs565/Slides/lecture1-intro+process+principles+history.ppt">First day of class (introduction, design principles, etc.)
+                     </a></li>
+<li>
+<a href="http://classes.engr.oregonstate.edu/eecs/Spring2019/cs565/Slides/lecture2-designProcess-PRICPE.ppt">PRICPE design process</a>.
+                     </li>
+<li>
+<a href="http://classes.engr.oregonstate.edu/eecs/Spring2019/cs565/Slides/lecture3-designActivity.ppt">Design principles and process (cont.), in-class design activity</a>.</li>
+</ul></li>
+<li>
+<a href="http://classes.engr.oregonstate.edu/eecs/Spring2019/cs565/Slides/lecture4-projectAndTeam.ppt">Project and team</a>.</li>
+<li>
+<a href="http://classes.engr.oregonstate.edu/eecs/Spring2019/cs565/Slides/lecture13a-GenderMag-personas.ppt">Personas</a>.</li>
+<li>
+<a href="http://classes.engr.oregonstate.edu/eecs/Spring2019/cs565/Slides/lecture13-evaluation2-CW+HE.ppt">Analytical Evaluation: CW and HE</a>.</li>
+<li>
+<a href="http://classes.engr.oregonstate.edu/eecs/Spring2019/cs565/Slides/lecture5-userData-interviews.ppt">Interviewing</a>. And accompanying <a href="http://classes.engr.oregonstate.edu/eecs/Spring2019/cs565/Slides/Interview-quickRef.docx">Quick Reference</a>.</li>
+<li>
+<a href="http://classes.engr.oregonstate.edu/eecs/Spring2019/cs565/Slides/lecture6-userData-fieldInterviews.ppt">Field interviews</a>.</li>
+<li>
+<a href="http://classes.engr.oregonstate.edu/eecs/Spring2019/cs565/Slides/lecture7-userObservations.ppt">Observing</a>. Examples: <a href="http://classes.engr.oregonstate.edu/eecs/Winter2019/cs352-001/Slides/ecafe-example.pdf">Observing people in E-cafe</a>, <a href="http://classes.engr.oregonstate.edu/eecs/Winter2019/cs352-001/Slides/teacher-tutorial-example.pdf">Observing teachers in system tutorial</a>.
+               </li>
+<li>
+<a href="http://classes.engr.oregonstate.edu/eecs/Spring2019/cs565/Slides/lecture8-1-userObservations2.ppt">Observing users (cont.)</a>.</li>
+<li>
+<a href="http://classes.engr.oregonstate.edu/eecs/Spring2019/cs565/Slides/lecture9-perception.ppt">Human perception</a>.</li>
+<li>
+<a href="http://classes.engr.oregonstate.edu/eecs/Spring2019/cs565/Slides/lecture8-2-memory.ppt">Memory</a>.</li>
+<li>
+<a href="http://classes.engr.oregonstate.edu/eecs/Spring2019/cs565/Slides/lecture10-mentalModels.ppt">Mental models</a>.</li>
+<li>
+<a href="http://classes.engr.oregonstate.edu/eecs/Spring2019/cs565/Slides/lecture11-conceptsPrototypes.ppt">Concepts and Prototypes</a>.</li>
+<li>
+<a href="http://classes.engr.oregonstate.edu/eecs/Spring2019/cs565/Slides/lecture14subset-evaluation-empirical-thinkaloud.ppt">Empirical: Think-aloud techniques for usability studies</a>.</li>
+<li>
+<a href="http://classes.engr.oregonstate.edu/eecs/Spring2019/cs565/Slides/lecture15a-attention-s19.ppt">Human Attention</a>.</li>
+<li>
+<a href="http://classes.engr.oregonstate.edu/eecs/Spring2019/cs565/Slides/lecture15b-attentionInvestment.ppt">Attention Investment</a>.</li>
+<li>
+<a href="http://classes.engr.oregonstate.edu/eecs/Spring2019/cs565/Slides/lecture16-surpriseExplainReward.ppt">Surprise-Explain-Reward</a>.</li>
+</ul>
+<li><a href="https://oregonstate.instructure.com/courses/1719748">CS565's Canvas site</a></li>
+<li><a href="https://oregonstate.instructure.com/courses/1719748/files?preview=74755770">The GenderMag Heuristics</a>.</li>
+<li><a href="http://www.nngroup.com/articles/disruptive-workflow-design/">Examples of bad workflow</a>.</li>
+<li><a href="Pictures/AbbyPersona-2019-0411-forCS565.pdf">Abby</a>, <a href="Pictures/AbbyPersona-electronicallyCustomizable.pdf">customizable Abby</a>.</li>
+<li><a href="Slides/tAndT-effInvisibleElt-video.pptx">"White Team" video</a></li>
+<li><a href="https://www.webdesignerdepot.com/2015/04/6-types-of-digital-affordance-that-impact-your-ux/">Great examples about affordance</a> (thanks, Andrew!).</li>
+<li><a href="http://www.sensible.com/rocketsurgery/index.html">Steve Krug</a>'s <a href="http://www.peachpit.com/promotions/promotion.aspx?promo=137602">demo</a> (pertains to both interviewing and prototype evaluation). (<a href="Slides/SteveKrug_UsabilityDemo.wmv">local WMV</a>. <a href="Slides/SteveKrug_UsabilityDemo.mov">local MOV</a>. <a href="https://oregonstate.instructure.com/courses/1719748">Captioned version is on Canvas</a> (in the Media Gallery).)</li>
+<li>Mockups prototyping tool: <a href="http://support.balsamiq.com/tutorials/">Mockups tutorials</a>, <a href="http://docs.balsamiq.com/desktop/">Mockups complete documentation (manual)</a>, <a href="http://support.balsamiq.com/desktop/">Mockups FAQ</a>, a user-contributed collection of <a href="https://wireframestogo.com/">some Mockups controls and design patterns</a>. (For the <a href="https://oregonstate.instructure.com/courses/1719748">free download info</a>, see our Canvas site announcement.)
+		  <ul><li>
+Getting <b>low fidelity prototypess</b> into Mockups: to do this, just scan them in from sketches, then add "shape" controls on top of the buttons, links, etc. that you have drawn on there, make them 25% opacity so that you can see the drawing beneath them, and make them "live" by linking the covering shapes to the right next screen.)</li></ul>
+</li>
+<li><a href="Pictures/sampleConcept.png">Sample concept</a>, <a href="Pictures/sampleLoFiPrototype.png">sample lo-fi prototype</a></li>
+<li>A very good book: The design of everyday things, by Donald Norman.</li>
+<li><a href="http://uxmyths.com/">UX Myths</a></li>
+<li><a href="http://www.useit.com/papers/heuristic/heuristic_list.html">Nielsen's heuristics for Heuristic Evaluation</a></li>
+<li>What do HCI researchers work on? Here is the <a href="http://chi2012.acm.org/program/">Advance Program</a> for <a href="http://chi2012.acm.org/">ACM's 2012 CHI conference</a>, which is the primary conference in HCI. There are several papers and events with OSU authors on the program. :-)</li>
+<li><a href="colorWheel.pdf">Color Wheel</a></li>
+<li><a href="whatEmployersWant-2017-cs352.pdf">What Employers Want: 75% want UI expertise</a></li>
+<li>Here is one <a href="midterm-cs352-sample.pdf">sample from CS352</a> with <a href="midterm-cs352-sample-answers.pdf">sample answers</a>. Here is a second <a href="midterm-cs352-w19-public.pdf">sample midterm from CS352</a>. CS352 is the undergrad HCI intro course.
+      
+
+
+      <hr/>
+<h2 id="schedule-heading">Schedule (subject to change)</h2>
+<table border="1" cellpadding="4" cellspacing="3" id="schedule">
+<tr>
+<th width="100"> When </th>
+<th width="200"> Topics </th>
+<th> Readings</th>
+<th> Due dates and assignments</th>
+</tr>
+<tr>
+<td> Week 1 (4/1-...) </td>
+<!--
+               **est: lecs 1,2,3.
+            <-->
+<td>
+<li>M (#1: 1 hour): Brief introduction, Solicitation of team projects, HW #1 assigned. Project pitches by Andrew Anderson, Brijesh Bhuva</li>
+<li>W (#2, #3: 2 hours): Introduction<br/>Design, PRICPE</li>
+<li>F (#4: 1 hour): Project pitches by: Tadesse Zemichael, **TBA**, **TBA**
+                  </li></td>
+<td>
+<li>Interaction design and process: Read Rogers handout (retrieve from <a href="https://oregonstate.instructure.com/courses/1719748">Canvas</a>): 1.6.1 (goals) and 1.6.3 (affordances).</li>
+<li>Designing: Read Johnson book: Forward &amp; Intro (pp. ix-xvi).</li>
+<li>Designing: Read Rogers handout (<a href="https://oregonstate.instructure.com/courses/1719748">Canvas</a>): 9.3.top - 9.3.1.</li>
+<li>T and T: #4 (Uncomprehended element), #9 (Feedback failure)</li>
+</td>
+<td>
+<li>
+<a href="HWs/hw1.html">HW #1</a> due F 4/5, 12:00 noon, on <a href="https://teach.engr.oregonstate.edu/teach.php?type=assignment">TEACH</a> and <b>also hardcopy (one/team)</b>.
+                        </li>
+</td>
+</tr>
+<tr>
+<td> Week 2 (4/8-...)</td>
+<!--
+               **est: lecs 4,13, 5, maybe 6
+            <-->
+<td>
+<li>M (#5, #6: 2 hours)</li>
+<li>W - no class - </li>
+<li>F (#7, #8: 2 hours)</li>
+<br/><i><u>Topics:</u></i>
+<li>Teams and Projects</li>
+<li>Analytical Evaluation</li>
+<li>Learning about your users: Interviews</li>
+</td>
+<td>
+<li>Analytical Evaluation (HE, CW, GOMS): Read Rogers handout 15.1-15.2 (pp 505-518) and part of 15.4 (pp 521-524). Retrieve from  <a href="https://oregonstate.instructure.com/courses/1719748">Canvas</a>.</li>
+<li>Analytical Evaluation: Read GenderMag-Heuristics document (retrieve from  <a href="https://oregonstate.instructure.com/courses/1719748">Canvas</a>).</li>
+<li>T and T: #1 (Invisible element), #2 (Effectively invisible element).</li>
+<li>Data gathering about users: Read Rogers handout
+            (<a href="https://oregonstate.instructure.com/courses/1719748">Canvas</a>):
+            7-7.4, 7.6-7.6.1.
+
+            </li></td>
+<td>
+<li><a href="Project/project.html#intro">Project 1 (introduction)</a> due F 4/12, 11:30am on <a href="https://teach.engr.oregonstate.edu/teach.php?type=assignment">TEACH</a> <b>and hardcopy</b></li>
+</td>
+</tr>
+<tr>
+<td> Week 3 (4/15...)</td>
+<!--
+		DO: Must get thru ≈ Lectures 6, 7
+		-->
+<td>
+<li>M: no class</li>
+<li>W: no class</li>
+<li>F: (#9, #10: 2 hours): Learning about your users: Interviews (cont.), Observations</li>
+</td><td>
+<li>Human Perception: From Johnson book, start reading ch 1-4 (pp. 1-48)</li>
+</td>
+<td>
+<li><a href="Project/project.html#he">Project 2 Individual part</a>: <b>Individual</b> Heuristic Evaluations: <b>every individual</b> bring yours to class Friday 4/19, hardcopy AND electronic, and also hand in on <a href="https://teach.engr.oregonstate.edu/teach.php?type=assignment">TEACH</a> by 11:30am Friday 4/19.</li>
+<li><a href="Project/project.html#he">Project 2 Team part</a>: <b>Group</b> Heuristic Evaluations due: one per team, turn in on <a href="https://teach.engr.oregonstate.edu/teach.php?type=assignment">TEACH</a> by 11:30pm Sunday 4/21.</li>
+</td>
+</tr>
+<tr>
+<td> Week 4 (4/22...)</td>
+<!--
+                Must get thru ≈ Lectures 8-1, Perception, perhaps part of Memory
+		-->
+<td>
+<li>M (#11, #12: 2 hours)</li>
+<li>W (#13, #14: 2 hours)</li>
+<li>F: no class</li>
+<br/><i><u>Topics:</u></i>
+<li>Analyzing observational data</li>
+<li>Human Capabilities: Perception, Memory, Mental Models</li>
+</td>
+<td>
+<li>Human Perception: From Johnson book, finish reading ch 1-4 (pp. 1-48)</li>
+<li>T and T: #20 (Data loss), #25 (Ambiguous home)</li>
+</td>
+<td>
+<li><a href="HWs/hw2.html">HW #2 (Human subjects ethics)</a> due Wednesday, 11:30 am on  <a href="https://teach.engr.oregonstate.edu/teach.php?type=assignment">TEACH</a></li>
+<li>Start <a href="Project/project.html#users">Project #3</a></li>
+</td>
+</tr>
+<tr>
+<td> Week 5 (4/29-...) </td>
+<!--Must finish Memory and all of lecture 10 (Mental Models)
+-->
+<td>
+<li>M: no class</li>
+<li>W (#15, #16: 2 hours): Human Capabilities (cont.), Concepts &amp; Prototypes</li>
+<li>F: no class</li>
+</td>
+<td>
+<li>T and T: #6 (Poor grouping), #23 (Wandering element), #24 (Inconsistent appearance, #8 (Memory challenge)</li>
+<li>Human memory: Read Johnson book, ch 7 (pp. 87-105) &amp; 9 (pp. 121-139)</li>
+<li>Human thought cycle: Read Johnson book, pp. 116-120 (from ch 8).</li>
+</td>
+<td>
+<li>Work on Project #3</li>
+</td>
+</tr>
+<!--
+**---------apparently this is an extra copy of week 5??**
+            <tr>
+            <td> Week 5 (4/30-...) </td>
+
+            <td>Designing: Concepts & Prototypes, cont.
+            </li>
+
+            <!-- <font color="red"><hr><center>(<i>end of material to be covered on midterm exam)</i></center></font>
+
+
+            </td>
+            <td>
+            <li><b>Quiz #3</b> on Monday over weeks #3-#4 readings and lectures.
+            </li><li><b>Design gallery #1</b> (Wednesday). Team posters will be presented at this gallery. <a href="https://docs.google.com/forms/d/1PTSQcbRU8iKqHVKmJo9uKOjmiY72pqlM7BfpW3WOF_0/">
+You can give feedback to other teams here from Design Gallery #1 (until Wednesday 5/23)</a>
+            </li><li><a href="Project/project.html#prototype1">Project Part 5: concepts and early prototype</a> due in class on your poster at the Design gallery, and then 11:59 pm the same day electronically on <a href="https://teach.engr.oregonstate.edu/teach.php?type=assignment&action=print_assn_turnin_form&course=CS%20565&section=001&assn_num=Project_5">TEACH</a>.
+            </li>
+            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfhDMBru6gRnGelyR4tUaRBwwmCdkGBFgB4HVyrxbGmDfIEZw/viewform?usp=sf_link">You can give your feedback to other teams here (until Feb. 12)</a></li>
+            </tr>
+
+
+            <td> Designing for Human Capabilities, cont.
+            <br> Designing: Concepts & Prototypes. <br> Mental Models.
+            </td>
+            <td><li>Human memory: Read Johnson book, ch 7 (pp. 87-105) & 9 (pp. 121-139)
+            </li><li>Human thought cycle: Read Johnson book, pp. 116-120 (from ch 8).
+            </li>
+            </td>
+            <td><li><b>No quiz</b> this week (too many deadlines).
+            </li><li><a href="Project/project.html#users">Project Part 4: user data</a> due Monday 1/29 by beginning of class, 10:59 am. Turn in hardcopy in class, also electronically using TEACH.
+            </li>
+            <li><a href="http://classes.engr.oregonstate.edu/eecs/Winter2019/cs565-001/HWs/hw3.html">HW #3 (Design/Evaluation Jam scheduling)</a> due Sunday midnight 2/4. (Just fill out the doodle poll.)</li>
+            </td>
+            </tr>
+
+-->
+<tr>
+<td> Week 6 (5/6-...) </td>
+<td>
+<li>M: no class</li>
+<li>Wed: (#17: 1 hour+): <b>Midterm exam </b>. <font color="red">Bring your TandT card deck</font>.(Here is one <a href="midterm-cs352-sample.pdf">sample from CS352</a> with <a href="midterm-cs352-sample-answers.pdf">sample answers</a>. Here is a second <a href="midterm-cs352-w19-public.pdf">sample midterm from CS352</a>. CS352 is the undergrad HCI intro course).</li>
+<!--<font color=red>Bring a printout</font> of your team's Project #2 (Heuristic Evaluation). Make sure the screenshots on it are readable, as you'll be working with them. -->
+<li>F: no class</li>
+</td>
+<td>No readings assigned this week</td>
+<td><li><a href="Project/project.html#users">Project #3 due</a> Tues 5/7, electronic on TEACH by 11:30am </li>
+<li>Start <a href="Project/project.html#prototype1">Project 4</a></li>
+</td>
+</tr>
+<!--
+
+
+
+**this is last year's week 6:**
+
+            <td>Concepts and prototypes
+	    <br>            <font color="red"><hr><center>(<i>end of material to be covered on midterm exam)</i></center></font>
+	    </td>
+            <td><li>Krug Ch 10, on prioritizing what you find. </li>
+	      <li>Krug Ch 11-12, on fixing what you've decided to fix <a href="https://oregonstate.instructure.com/courses/1719748">(CS565's Canvas site)</a></li>
+	      <li>T and T #18 (Irreversible action), #19 (Unwanted disclosure), and #22 (Variable outcome). Watch out not to introduce these in your emerging prototype.</li>
+            <font color="red"><hr><center>(<i>end of material to be covered on midterm exam)</i></center></font>
+</td>
+            <td>
+	      <li><a href="Project/project.html#users">Project 3 (User observation)</a> due W 5/9, 1:30pm (i.e., just before class) on <a href="https://teach.engr.oregonstate.edu/teach.php?type=assignment">TEACH</a>. Also <b>bring a hardcopy</b> (one per team) to class.</li>
+	    </td>
+            </tr>
+-->
+<tr>
+<td>
+                  Week 7 (5/13-...)</td>
+<td>
+<li>M: no class</li>
+<li>W (#18-19: 2 hours): Design Gallery. Team posters will be presented at this gallery. <a href="https://docs.google.com/forms/d/1QVUMcqxful_w0MZqpssJa49DIFpyQ-2ctRYm2LIWIk4/">You can give feedback to other teams here from Design Gallery #1 (until Sunday 5/19)</a></li>
+<li>F (#20: 1 hour): Go over midterms, next steps on project</li>
+</td>
+<td><li>Krug Ch 10, on prioritizing what you find. <a href="https://oregonstate.instructure.com/courses/1719748">(CS565's Canvas site)</a></li>
+<li>Krug Ch 11-12, on fixing what you've decided to fix <a href="https://oregonstate.instructure.com/courses/1719748">(CS565's Canvas site)</a></li>
+<li>T and T #18 (Irreversible action), #19 (Unwanted disclosure), and #22 (Variable outcome). Watch out not to introduce these in your emerging prototype.</li>
+</td>
+<td><a href="Project/project.html#prototype1">Project #4</a> due Wed 5/15, electronic on TEACH before midnight.</td>
+</tr>
+<!--
+    **here's the old week 7**
+
+                  <td>
+                  Foundations and Strategies: Information Foraging Theory.
+		  Prototyping with Balsamiq's Mockups prototyping system.
+		  </td>
+                  <td>
+		    <li><i>(Refer to only as needed):</i> Mockups tutorial, documentation, FAQ <a href="index.html#Resources">(see Resources section above)</a>
+		    </li>
+		    <li><i>(Optional)</i>: Acting on results of evaluating with users: Krug book ch 12</li>
+                  </td>
+                  <td>
+		    <li>Monday: <a href="Project/project.html#evalprep">Project Part 6:  evaluation prep</a> due, 10:59 am (hardcopy in class, plus electronically at TEACH).</li>
+                  </td>
+            </tr>
+
+-->
+<tr>
+<td> Week 8 (5/20...)</td>
+<td>
+<li>M (#21, 22: 2 hours)</li>
+<li>W (#23, 24: 2 hours)</li>
+<li>F (no class)</li>
+<br/><u><i>Topics: Foundations and strategies</i></u>
+<li>Human attention and Attention Investment</li>
+<li>Planning your upcoming evaluation (group activity)</li>
+<li>Surprise-Explain-Reward</li>
+<li>Information Foraging Theory</li>
+</td>
+<td>
+<li>Human attention: Read remainder of ch 8 from Johnson book (pp. 107-116)</li>
+<li>T and T: #3 (Distraction), #5 (Inviting dead end)</li>
+<li><a href="ftp://ftp.cs.orst.edu/pub/burnett/chi03.curiosity.pdf">Surprise/Explain/Reward "Harnessing Curiosity" paper (8 pages</a>)</li>
+</td>
+<td>
+<li>ASAP: Schedule your human for evaluation</li>
+<li>ASAP: Scan your lo-fi prototype into Mockups and decorate it with hot spots. (See Resources above for useful Mockups resources and free download instructions.)</li>
+<li>Start <a href="Project/project.html#prototype2">Project 5</a></li>
+</td>
+</tr>
+<!--
+    **this is the old week 8
+
+            <td>
+	      <li>Monday: Design Gallery: bring your posters and set up around the room. (<a href="https://docs.google.com/forms/d/1PTSQcbRU8iKqHVKmJo9uKOjmiY72pqlM7BfpW3WOF_0/">Feedback form</a>, open until Wed., 5/23.)</li>
+	      <li>Mon, Wed: Foundations and strategies: Human attention and Attention Investment, Surprise-Explain-Reward, Information Foraging Theory</li>
+	    </td>
+            <td>
+	      <li>Human attention: Read remainder of ch 8 from Johnson book (pp. 107-116)</li>
+	      <li><a href="ftp://ftp.cs.orst.edu/pub/burnett/chi03.curiosity.pdf">Surprise/Explain/Reward "Harnessing Curiosity" paper (8 pages</a>)</li>
+	      <li>T and T: #3 (Distraction), #5 (Inviting dead end)</li>
+	    </td>
+            <td>
+	      <li><a href="Project/project.html#prototype1">Project 4 (Design Fixes: Lo-Fi Prototypes)</a> due M 5/21, 1:30pm (i.e., just before class) on <a href="https://teach.engr.oregonstate.edu/teach.php?type=assignment">TEACH</a>. Also <b>bring hardcopy posters</b> (one per team) to class for our Design Gallery.</li>
+	      <li>Download free Mockups tool using the special CS565 instructions on <a href="https://oregonstate.instructure.com/courses/1719748">Canvas</a></li>
+	      <li>Start Project 5</li>
+	    </td>
+            </tr>
+
+-->
+<tr>
+<td> Week 9 (5/27...)</td>
+<td>
+<li>M: University Holiday -- but your evaluation should be completed by now.</li>
+<li>W (#25, 26: 2 hours): Design Gallery #2. Team posters will be presented at this gallery. <a href="https://docs.google.com/forms/d/1MRmtiWdLN9WJ7-7sYtzSk-a48NzstvHxhSShKlnCe0E/">You can give feedback to other teams here from Design Gallery #2 (until Sunday 6/2)</a></li>
+<br/>--
+	      <br/>F (#27: 1 hour): Team presentations by
+		<li><font color="blue">WRESTORE (Efrain, Suleman, Abdulkarim)</font> </li>
+<li><font color="blue">Networking Night (Qi, Wei, Jiaming, Xintong, Yin)</font></li>
+<li><a href="https://docs.google.com/forms/d/1MRmtiWdLN9WJ7-7sYtzSk-a48NzstvHxhSShKlnCe0E/">You can give feedback here</a></li>
+</td>
+<td>
+<li>(Optional): Read the Information Scent (Spool) article (<a href="https://oregonstate.instructure.com/courses/1719748">Canvas</a>)</li>
+</td>
+<td><a href="Project/project.html#prototype2">Project 5</a> due on 5/27 before midnight</td>
+</tr>
+<!--
+
+            <td><li><i>(Refer to only as needed):</i> Mockups tutorial, documentation, FAQ <a href="index.html#Resources">(see Resources section above)</a></li>
+	    </td>
+            <td>
+	      <li><a href="Project/project.html#prototype2">Project 5</a> due Wed 5/30, 11:30 pm. (Prototype: Add remaining scenarios, all moved to Mockups, at least one scenario is now hi-fidelity).</li>
+	    </td>
+
+-->
+<tr>
+<td> Week 10 (6/3...)</td>
+<td>
+	      M (#28, 29: 2 hours): Team presentations by
+	      <li><font color="blue">Campus Hero (Christoper, Mingyang, Louis, Bowen), </font></li>
+<li><font color="blue">AME (Wei-Jen, Yi Xuan, Reem)</font> </li>
+<li><font color="blue">TAHMO (Yujie, Kun, Muqi, Xingnuo)</font></li>
+<li><font color="blue">GenderMag (Alex, Eman, Kajal)</font></li>
+<li><a href="https://docs.google.com/forms/d/1MRmtiWdLN9WJ7-7sYtzSk-a48NzstvHxhSShKlnCe0E/">You can give feedback here</a></li>
+<br/>--
+	      <li>W (no class)
+	      <br/>--
+	      <br/>F (#30, 31: 2 hours): Team presentations by:
+	      </li><li><font color="blue">HazAdapt-Public (Mariam, Omeed, Arash, Yipeng</font></li>
+<li><font color="blue">HazAdapt-Manager (Virginia, Tanmay, Uday, Pallavi)</font> </li>
+<li><font color="blue">InterACTWEL (Majid, Yufei, Deval, Yuan)</font></li>
+<li><a href="https://docs.google.com/forms/d/1MRmtiWdLN9WJ7-7sYtzSk-a48NzstvHxhSShKlnCe0E/">You can give feedback here</a></li>
+<li>Final remarks</li>
+</td>
+<td>(No readings)</td>
+<td><a href="Project/project.html#prototype3">Final project</a> with <a href="Project/finalReportDetails.html">final report</a> due Saturday 6/8 by midnight</td>
+</tr>
+<!--
+
+            <tr>
+                  <td> Week 10 (6/4...) </td>
+                  <td>
+                        M: Final presentations @(15+5) by:
+			<li><font color=blue>CHARLIE (Beatrice et al.)</font></li>
+			<li><font color=blue>Chair-Bot (Abhi et al.)</font></li>
+			<li><font color=blue>ClickPlot (Kaijun et al.). Client will attend via skype</font>.</li>
+			<li><font color=blue>Hue Lights (Kim et al.)</font></li>
+			<li><font color=blue>COE IT (Xingyu et al.)</font></li>
+                        W: Final presentations @(15+5) by:
+			<li><font color=green>OrangeWave (Doshna et al.)</font></li>
+			<li><font color=green>XAI (Andrew et al.)</font></li>
+			<li><font color=green>Code Bubbles (Nicholas et al.)</font></li>
+			<li><font color=green>School Auction (Hima et al.). Client attending via skype</font>.</li>
+			<li><font color=green>Web Design Class (Teng et al.)</font></li>
+			<li><font color=green>IRB (Li-Wei et al.). Client attending via skype</font>.</li>
+			<a href="https://docs.google.com/forms/d/1QGjPcsHiXj2UfHBeKFzohFCe3HyitB5jfuNC54jJ8Lc/">You can give your feedback on teams from their final presentations here (until June 7 at 4:00pm)</a>
+                  </td>
+
+                  <td>
+                        No readings this week.
+                  </td>
+
+                  <td>
+                        <li>
+                              <a href="Project/project.html#prototype3">Final project write-up</a> due Friday June 8 by 11:30pm.
+                        </li>
+                  </td>
+            </tr>
+
+
+-->
+<tr>
+<td> Final exam (Tuesday, 6/11, 6:00 pm, in our regular classroom). You can bring your TandT deck and one 4x6 index card.</td>
+<td> </td>
+<td> </td>
+<td><li><b>Comprehensive final exam</b> is on Tues, 6/11, 6:00 pm, in our regular classroom.
+            </li>
+</td>
+</tr>
+</table>
+<hr align="center" size="2" width="100%"/>
+<p><br/>
+<i>Margaret M. Burnett </i><br/>
+Date of last update: June 17, 2019
+
+</p></li></a></body></html>

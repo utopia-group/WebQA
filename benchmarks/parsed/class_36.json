@@ -1,0 +1,354 @@
+{
+    "id": 0,
+    "content": "CIS 545, Spring 2020",
+    "children": [
+        {
+            "id": 1,
+            "content": "Big Data Analytics",
+            "key": 1,
+            "children": [
+              {
+                "id": 2,
+                "content": "Logistics",
+                "key": 1
+              },
+              {
+                "id": 3,
+                "content": "Instructor:",
+                "key": 2,
+                "children": [
+                  {
+                    "id": 4,
+                    "content": "Prof. Zachary Ives",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 5,
+                "content": "Your fantastic TAs:",
+                "key": 3,
+                "children": [
+                  {
+                    "id": 6,
+                    "content": "Shubham Annadate, Vatsal Chanana, Pooja Consul, Andrew Cui, Craig Fan, Hoyt Gong, Isha Gupta, Anavi Kaushik, Hemanth Kothapalli, Younghu Park, Aishwarya Singh, Dewang Sultana, Raghav Vedire, Kunyang Zhang, Margaret Zheng, Marko Zotovic",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 7,
+                "content": "Due to COVID-19 precautions, we are moving the class totally online. Please stay tuned to Piazza for updates.",
+                "key": 4
+              },
+              {
+                "id": 8,
+                "content": "Synchronous lectures + Q&A: Monday Wednesday 12:00pm - 1:30pm. Asynchronous lectures will be available.",
+                "key": 5
+              },
+              {
+                "id": 9,
+                "content": "Optional recitations:",
+                "key": 6,
+                "children": [
+                  {
+                    "id": 10,
+                    "content": "Friday 1:30pm - 3:00pm online.",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 11,
+                "content": "Course Description",
+                "key": 7
+              },
+              {
+                "id": 12,
+                "content": "In the new era of big data, we are increasingly faced with the challenges of processing vast volumes of data. Given the limits of individual machines (compute power, memory, bandwidth), increasingly the solution is to process the data in parallel on many machines. This course focuses on the fundamentals of scaling computation to handle common data analytics tasks. You will learn about basic tasks in collecting, wrangling, and structuring data; programming models for performing certain kinds of computation in a scalable way across many compute nodes; common approaches to converting algorithms to such programming models; standard toolkits for data analysis consisting of a wide variety of primitives; and popular distributed frameworks for analytics tasks such as filtering, graph analysis, clustering, and classification.",
+                "key": 8
+              },
+              {
+                "id": 13,
+                "content": "Prerequisites",
+                "key": 9
+              },
+              {
+                "id": 14,
+                "content": "This course expects broad familiarity with probability and statistics, as well as programming in Python. CIS 110, MCIT 590, or the equivalent is required. Additional background in statistics, data analysis (e.g., in Matlab or R), and machine learning (e.g., CIS 519) is helpful.",
+                "key": 10
+              },
+              {
+                "id": 15,
+                "content": "Grading",
+                "key": 11
+              },
+              {
+                "id": 16,
+                "content": "The grade breakdown will be as follows: homeworks (5 expected)-35%, term project-15%, midterm-20%, final-25%, participation 5%.",
+                "key": 12
+              },
+              {
+                "id": 17,
+                "content": "Late Days:",
+                "key": 13,
+                "children": [
+                  {
+                    "id": 18,
+                    "content": "Students can submit two homework assignments (including HW0 and the project) up to 48 hours late with no penalty. Details are pinned on piazza.",
+                    "key": 1
+                  },
+                  {
+                    "id": 19,
+                    "content": "Readings and Resources",
+                    "key": 2
+                  },
+                  {
+                    "id": 20,
+                    "content": "Please sign up for the following Web resources:",
+                    "key": 3
+                  },
+                  {
+                    "id": 21,
+                    "content": "",
+                    "isList": true,
+                    "key": 4,
+                    "children": [
+                      {
+                        "id": 22,
+                        "content": "Colab:",
+                        "key": 1,
+                        "children": [
+                          {
+                            "id": 23,
+                            "content": "(for homeworks)",
+                            "key": 1
+                          }
+                        ]
+                      },
+                      {
+                        "id": 24,
+                        "content": "GradeScope:",
+                        "key": 2,
+                        "children": [
+                          {
+                            "id": 25,
+                            "content": "(for exams)",
+                            "key": 1
+                          }
+                        ]
+                      },
+                      {
+                        "id": 26,
+                        "content": "Piazza:",
+                        "key": 3,
+                        "children": [
+                          {
+                            "id": 27,
+                            "content": "(for questions)",
+                            "key": 1
+                          }
+                        ]
+                      },
+                      {
+                        "id": 28,
+                        "content": "Canvas:",
+                        "key": 4,
+                        "children": [
+                          {
+                            "id": 29,
+                            "content": "(for lecture audio)",
+                            "key": 1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 30,
+                "content": "",
+                "key": 14,
+                "children": [
+                  {
+                    "id": 31,
+                    "content": "Readings:",
+                    "key": 1,
+                    "children": [
+                      {
+                        "id": 32,
+                        "content": "We recommend several books for students of different skill levels. The tentative list is:",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 33,
+                    "content": "For students who do not have at least 2 years of a CS degree",
+                    "key": 2,
+                    "children": [
+                      {
+                        "id": 34,
+                        "content": ": You should get the book Data Science from Scratch , by Grus, from O'Reilly. This book provides a quick refresher in Python, probability, statistics, and linear algebra. An online version can be accessed from O'Reilly's Safari service.",
+                        "key": 1
+                      },
+                      {
+                        "id": 35,
+                        "content": "For all students:",
+                        "key": 2,
+                        "children": [
+                          {
+                            "id": 36,
+                            "content": "Python for Data Analysis , by McKinney, from O'Reilly.",
+                            "key": 1
+                          }
+                        ]
+                      },
+                      {
+                        "id": 37,
+                        "content": "For advanced students:",
+                        "key": 3,
+                        "children": [
+                          {
+                            "id": 38,
+                            "content": "Python Machine Learning , 3rd edition by Raschka, from Packt.",
+                            "key": 1
+                          }
+                        ]
+                      },
+                      {
+                        "id": 39,
+                        "content": "If you are new to Python and data science, you may find the UC Berkeley free book The Foundations of Data Science useful.",
+                        "key": 4
+                      },
+                      {
+                        "id": 40,
+                        "content": "Office Hours",
+                        "key": 5
+                      },
+                      {
+                        "id": 41,
+                        "content": "(Please see here to meet the staff!)",
+                        "key": 6
+                      },
+                      {
+                        "id": 42,
+                        "content": "All OH will be hosted in Levine 5th floor bump space near the elevators(Not the inner part). The exception is Wednesday where the OH will be held in Professor Ives office in Levine 305.",
+                        "key": 7
+                      },
+                      {
+                        "id": 43,
+                        "content": "Team Calendar",
+                        "key": 8
+                      },
+                      {
+                        "id": 44,
+                        "content": "Schedule",
+                        "key": 9
+                      },
+                      {
+                        "id": 45,
+                        "content": "(Subject to revision)",
+                        "key": 10
+                      },
+                      {
+                        "id": 46,
+                        "content": "Schedule",
+                        "key": 11
+                      },
+                      {
+                        "id": 47,
+                        "content": "Page updated",
+                        "key": 12
+                      },
+                      {
+                        "id": 48,
+                        "content": "Report abuse",
+                        "key": 13
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+        },
+      {
+        "id": 49,
+        "content": "Assignments",
+        "key": 2,
+        "children": [
+          {
+            "id": 50,
+            "content": "Homework 0: Getting Started",
+            "key": 1
+          },
+          {
+            "id": 51,
+            "content": "This assignment focuses on getting you up to speed on Google Colab and some basics of Python and Jupyter Notebook.",
+            "key": 2
+          },
+          {
+            "id": 52,
+            "content": "Homework 1",
+            "key": 3
+          },
+          {
+            "id": 53,
+            "content": "This assignment focuses on data wrangling.",
+            "key": 4
+          },
+          {
+            "id": 54,
+            "content": "Homework 2",
+            "key": 5
+          },
+          {
+            "id": 55,
+            "content": "This assignment focuses on data modeling, queries in SQL, and graph traversal.",
+            "key": 6
+          },
+          {
+            "id": 56,
+            "content": "Homework 3",
+            "key": 7
+          },
+          {
+            "id": 57,
+            "content": "This assignment focuses on Spark on the Cloud.",
+            "key": 8
+          },
+          {
+            "id": 58,
+            "content": "Homework 4",
+            "key": 9
+          },
+          {
+            "id": 59,
+            "content": "This assignment focuses on clustering and classification.",
+            "key": 10
+          },
+          {
+            "id": 60,
+            "content": "Homework 5",
+            "key": 11
+          },
+          {
+            "id": 61,
+            "content": "This assignment will cover neural networks.",
+            "key": 12
+          },
+          {
+            "id": 62,
+            "content": "Page updated",
+            "key": 13
+          },
+          {
+            "id": 63,
+            "content": "Report abuse",
+            "key": 14
+          }
+        ]
+      }
+    ]
+}

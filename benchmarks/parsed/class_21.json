@@ -1,0 +1,412 @@
+{
+    "id": 0,
+    "content": "CSEE 3827, Spring 2016",
+    "children": [
+        {
+            "id": 1,
+            "content": "Fundamentals of Computer Systems",
+            "key": 1
+        },
+        {
+            "id": 2,
+            "content": "CSEE 3827, Spring 2016",
+            "key": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "content": "Lectures",
+                    "key": 1,
+                    "children": [
+                        {
+                          "id": 4,
+                          "content": "Lectures will be held Tuesday Thursday 8:40am - 9:55am in 501 Schermerhorn Hall.",
+                          "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "content": "Instructor",
+                    "key": 2,
+                    "children": [
+                        {
+                            "id": 6,
+                            "content": "Prof. Martha Kim   Email: martha@cs.columbia.edu   Phone: (212) 939-7094   Office: 469 CSB",
+                            "isList": true,
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "content": "Teaching Assistants",
+                    "isList": true,
+                    "key": 3,
+                    "children": [
+                        {
+                            "id": 8,
+                            "content": "Joseph Campo",
+                            "key": 1
+                        },
+                        {
+                            "id": 9,
+                            "content": "Caleb Fujimori",
+                            "key": 2
+                        },
+                        {
+                            "id": 10,
+                            "content": "Gaurav Gite",
+                            "key": 3
+                        },
+                        {
+                            "id": 11,
+                            "content": "Adam Incera",
+                            "key": 4
+                        },
+                        {
+                            "id": 12,
+                            "content": "Kevin Lin",
+                            "key": 5
+                        },
+                        {
+                            "id": 13,
+                            "content": "Eashwar Rangarajan",
+                            "key": 6
+                        },
+                        {
+                            "id": 14,
+                            "content": "Laura Tang",
+                            "key": 7
+                        }
+                    ]
+                },
+                {
+                    "id": 15,
+                    "content": "Upcoming Office Hours",
+                    "key": 4,
+                    "children": [
+                        {
+                            "id": 16,
+                            "content": ".",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 17,
+                    "content": "Questions and Announcements",
+                    "key": 5,
+                    "children": [
+                        {
+                            "id": 18,
+                            "content": "Please register for Piazza, where you can ask technical questions, contact TAs, and receive course-wide announcements.",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 19,
+                    "content": "Course Overview",
+                    "key": 6,
+                    "children": [
+                        {
+                            "id": 20,
+                            "content": "This course examines how the 1s and 0s that form the foundation of digital computing are organized, structured, and manipulated to produce full-fledged computer systems. In bridging this gap, the course will cover many subjects beginning with binary logic, combinatorial and sequential circuit design, memory structures, instruction set architectures, and, ultimately, basic processor design.",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 21,
+                    "content": "Prerequisites",
+                    "key": 7,
+                    "children": [
+                        {
+                            "id": 22,
+                            "content": "An introductory programming course, such as COMS 1004 or 1007. You need to understand the basics of imperative, sequential programming to understand the assembly language programming we will discuss.",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 23,
+                    "content": "Late Policy",
+                    "key": 8,
+                    "children": [
+                        {
+                            "id": 24,
+                            "content": "Each homework assignment is due in the CSEE 3827 box in the TA room by 5PM on the due date. Late submissions will not be accepted. We will drop each student's lowest homework grade when calculating final grades.",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 25,
+                    "content": "Collaboration and Academic Integrity",
+                    "key": 9,
+                    "children": [
+                        {
+                            "id": 26,
+                            "content": "We take academic honesty extremely seriously, and expect the same of you. You may discuss homework problems with your classmates, however, each student is to write up his or her own solution and is expected to be able to explain and reproduce the work he or she submits. Please note the names of your collaborators at the top of your homework submission. Apart from these exceptions, the Computer Science Department's Academic Honesty policy is in effect.",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 27,
+                    "content": "Grading Rubric",
+                    "key": 10,
+                    "children": [
+                      {
+                        "id": 28,
+                        "content": "Top Five Homeworks:",
+                        "key": 1,
+                        "children": [
+                          {
+                            "id": 29,
+                            "content": "40%   In Class Tests: 30% + 30%",
+                            "key": 1
+                          }
+                        ]
+                      }
+                    ]
+                },
+                {
+                    "id": 30,
+                    "content": "Textbooks",
+                    "key": 11,
+                    "children": [
+                        {
+                            "id": 31,
+                            "content": "There are no required texts. If you want to use a text, we recommend:",
+                            "key": 1
+                        },
+                        {
+                            "id": 32,
+                            "content": "",
+                            "isList": true,
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 33,
+                                    "content": "Logic and Computer Design Fundamentals, 4th ed, by M. Morris Mano and Charles Kime, ISBN-10: 0-13-198926-X, ISBN-13: 978-0-13-198926-9",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 34,
+                                    "content": "Computer Organization and Design, The Hardware/Software Interface, 4th ed, by David A. Patterson and John L. Hennessy, ISBN: 978-0-12-374493-7",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 35,
+                                    "content": "Digital Design and Computer Architecture, 2nd ed, by D. Harris and S. Harris, ISBN: 978-0-12-394424-5",
+                                    "key": 3
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 36,
+                    "content": "Syllabus",
+                    "isList": true,
+                    "key": 12,
+                    "children": [
+                      {
+                        "id": 37,
+                        "content": "Date,Topic(s),Reading,Slides,Homework Due",
+                        "isList": true,
+                        "key": 1
+                      },
+                      {
+                        "id": 38,
+                        "content": "Tuesday 1/19,Representing Numbers (Prof. Edwards),M&K: 1, 4.3 - 4.4, 10.7H&H: 1.4P&H: 3.5,binary.pdf",
+                        "isList": true,
+                        "key": 2
+                      },
+                      {
+                        "id": 39,
+                        "content": "Thursday 1/21,Admin; Boolean Logic,M&K: 2.1 - 2.5, 2.8, 2.9H&H: 1.5, 2.1 - 2.7,admin.pdfboolean.pdf",
+                        "isList": true,
+                        "key": 3
+                      },
+                      {
+                        "id": 40,
+                        "content": "Tuesday 1/26",
+                        "isList": true,
+                        "key": 4
+                      },
+                      {
+                        "id": 41,
+                        "content": "Thursday 1/28,Combinational Logic,M&K: 3.1, 3.3, 3, 3.6 - 3.9, 4.1 - 4.2, 4.5, 9.4H&H: 2.8,2.9,5.2,combinational.pdf",
+                        "isList": true,
+                        "key": 5
+                      },
+                      {
+                        "id": 42,
+                        "content": "Tuesday 2/2,hw1.pdfhw1 - solutions.pdf",
+                        "isList": true,
+                        "key": 6
+                      },
+                      {
+                        "id": 43,
+                        "content": "Thursday 2/4,Sequential Logic,M&K: 5.1 - 5.3, 5.6H&H: 3.1 - 3.3,3.5,sequential.pdf",
+                        "isList": true,
+                        "key": 7
+                      },
+                      {
+                        "id": 44,
+                        "content": "Tuesday 2/9",
+                        "isList": true,
+                        "key": 8
+                      },
+                      {
+                        "id": 45,
+                        "content": "Thursday 2/11,Finite State Machines,M&K: 5.4 - 5.5H&H: 3.4,fsms.pdf,hw2.pdfhw2 - solutions.pdf",
+                        "isList": true,
+                        "key": 9
+                      },
+                      {
+                        "id": 46,
+                        "content": "Tuesday 2/16",
+                        "isList": true,
+                        "key": 10
+                      },
+                      {
+                        "id": 47,
+                        "content": "Thursday 2/18,Memory Elements,M&K: 6.8, 7.1 - 7.3, 8.1 - 8.7H&H: 5.5,memory.pdf",
+                        "isList": true,
+                        "key": 11
+                      },
+                      {
+                        "id": 48,
+                        "content": "Tuesday 2/23",
+                        "isList": true,
+                        "key": 12
+                      },
+                      {
+                        "id": 49,
+                        "content": "Thursday 2/25,Lecture cancelled.",
+                        "isList": true,
+                        "key": 13
+                      },
+                      {
+                        "id": 50,
+                        "content": "Friday 2/26,Not a lecture day; Homework due.,hw3.pdfhw3 - solutions.pdf",
+                        "isList": true,
+                        "key": 14
+                      },
+                      {
+                        "id": 51,
+                        "content": "Tuesday 3/1,Review #1",
+                        "isList": true,
+                        "key": 15
+                      },
+                      {
+                        "id": 52,
+                        "content": "Thursday 3/3,Test #1test1 - solutions.pdf",
+                        "isList": true,
+                        "key": 16
+                      },
+                      {
+                        "id": 53,
+                        "content": "Tuesday 3/8,The MIPS Instruction Set,H&H: 6.1 - 6.7P&H: 2.1 - 2.8, 2.10,mips - isa.pdf",
+                        "isList": true,
+                        "key": 17
+                      },
+                      {
+                        "id": 54,
+                        "content": "Thursday 3/10",
+                        "isList": true,
+                        "key": 18
+                      },
+                      {
+                        "id": 55,
+                        "content": "Tuesday 3/15,No class (Spring Break)",
+                        "isList": true,
+                        "key": 19
+                      },
+                      {
+                        "id": 56,
+                        "content": "Thursday 3/17,No class (Spring Break)",
+                        "isList": true,
+                        "key": 20
+                      },
+                      {
+                        "id": 57,
+                        "content": "Tuesday 3/22",
+                        "isList": true,
+                        "key": 21
+                      },
+                      {
+                        "id": 58,
+                        "content": "Thursday 3/24,MIPS Microarchitecture,H&H: 7.1 - 7.3P&H: 4.1 - 4.4,mips - uarch.pdf",
+                        "isList": true,
+                        "key": 22
+                      },
+                      {
+                        "id": 59,
+                        "content": "Tuesday 3/29",
+                        "isList": true,
+                        "key": 23
+                      },
+                      {
+                        "id": 60,
+                        "content": "Thursday 3/31",
+                        "isList": true,
+                        "key": 24
+                      },
+                      {
+                        "id": 61,
+                        "content": "Tuesday 4/5,Lecture cancelled - MK travel,hw4.tar.gzhw4 - solutions.s",
+                        "isList": true,
+                        "key": 25
+                      },
+                      {
+                        "id": 62,
+                        "content": "Thursday 4/7,Pipelined MIPS,H&H: 7.5P&H: 4.5 - 4.8,mips - pipeline.pdf",
+                        "isList": true,
+                        "key": 26
+                      },
+                      {
+                        "id": 63,
+                        "content": "Tuesday 4/12,hw5.pdfhw5 - solutions.pdf",
+                        "isList": true,
+                        "key": 27
+                      },
+                      {
+                        "id": 64,
+                        "content": "Thursday 4/14,Caches,H&H: 8.3P&H: 5.1 - 5.2,caches.pdf",
+                        "isList": true,
+                        "key": 28
+                      },
+                      {
+                        "id": 65,
+                        "content": "Tuesday 4/19",
+                        "isList": true,
+                        "key": 29
+                      },
+                      {
+                        "id": 66,
+                        "content": "Thursday 4/21,Advanced Topics / TBD,hw6.pdfhw6 - solutions.pdf",
+                        "isList": true,
+                        "key": 30
+                      },
+                      {
+                        "id": 67,
+                        "content": "Tuesday 4/26,Review #2",
+                        "isList": true,
+                        "key": 31
+                      },
+                      {
+                        "id": 68,
+                        "content": "Thursday 4/28,Test #2",
+                        "isList": true,
+                        "key": 32
+                      }
+                    ]
+                }
+            ]
+        }
+    ]
+}

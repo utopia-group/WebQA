@@ -1,0 +1,1362 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta content="madhusudan, madhu, uiuc, formal methods, verification, automata, visibly pushdown, nested words, getafix, parthasarathy, recursion, upcrc" name="keywords"/>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<title>Madhusudan's homepage</title>
+<style media="all" type="text/css">@import "layout1.css";</style>
+</head><body>
+<div id="Header">
+<h1> 
+Madhusudan Parthasarathy
+</h1>
+</div>
+<div id="Content">
+<h3>Research Interests </h3>
+ Software verification;  Security;  Program Synthesis and Machine Learning; Logic and automata theory;<br/>
+<h3>Outreach Interests </h3>
+<a href="http://www.mecr.org">Massively Empowered Classrooms (MEC)</a>, a hybrid MOOC model for Indian undergraduate education, in collaboration with <a href="http://research.microsoft.com/en-us/labs/india/default.aspx">Microsoft Research, India.</a><br/>
+<h3>Current research projects and philosophy</h3>
+<p>My general research philosophy is to turn the theory lens (mainly logic
+  and algorithms) towards practical computing domains.
+  I shy away, for the most part, from working on problems
+  purely motivated by theoretical concerns as well as those entirely
+  based on heuristics to solve practical problems.<br/><br/>
+  
+My current research interests are primarily in <b>automating software
+    verification</b>, building correct-by-design <b>secure distributed systems</b>,
+  and exploring synergies between <b>machine learning 
+ and program synthesis</b> for building intelligent systems.<br/><br/>
+<em> Automating software verification:</em>
+	  Proving a program safe using logical techniques is composed
+of two phases: finding possible inductive invariants and formally
+establishing that they are inductive invariants that prove safety.<br/>
+</p><dir><li>
+For the latter problem, the main approach that I currently believe in
+for <em>automation</em> is the framework of 
+<b><em>natural proofs</em></b> that we have been working on for the last
+10 years.
+In particular, though I believe decidable
+logics are useful for this problem, I do not
+believe they will solely be powerful enough for addressing the needs
+of program verification, due to their inherent inexpressivity.
+Natural proofs aim for sound and oftentimes complete (though not decidable)
+approaches for this problem.<br/>
+</li><li>As for the former problem for finding invariants, I believe that a
+combination of several techniques that are proposed in recent literature
+(including interpolation and IC3) are called for. The primary techniques 
+  techniques I work on have been those based on <b><em>learning</em></b> and (more recently)
+  finding
+<b><em>uninterpreted invariants</em></b>.
+</li></dir>
+<em> Building verified systems:</em>
+My view on building verified systems is that they should be
+  built correct by construction (as opposed to verifying existing systems),
+  by proving more abstract systems correct and then refining them
+  to concrete performant code. The proofs of abstract systems
+  against complex specifications would invariably require considerable
+  human input and intuition, while automation can help in refining
+  abstract systems to performant code.<br/><br/>
+<p>
+<em> Machine Learning and Program Synthesis:</em>
+One of my latest interests is in building synergies of
+<b>program synthesis</b> and
+<b>machine learning</b>--- I believe practical pattern-matching inductive
+techniques (like neural nets) can be combined with symbolic search
+(like synthesizing logical formulas and programs) to build more
+intelligent systems.
+
+</p><h3>Note to prospective students</h3>
+I am actively looking for PhD students in the following areas. If
+you are interested, please apply for the PhD program and write to me
+personally.<br/>
+<dir>
+<li> Machine learning and program synthesis; learning logics.
+    Exploring new techniques that go beyond neural nets by
+    using symbolic search, abstraction, and reasoning.
+ </li><li> Building verified software using almost-automated verification,
+   especially distributed systems that involve crptography,
+   like blockchains, bitcoin, and smart contracts.
+ </li><li> Logics and reasoning for program verification: especially logics
+   involving expressive specifications for programs manipulating
+   quantified specifications and datastructures. See papers on
+   natural proofs in POPL 2012, PLDI 2013, PLDI 2014, and POPL 2018,
+   and the <a href="http://www.cs.illinois.edu/~madhu/vcdryad/">Dryad and VCDryad</a>) pages.
+   
+ </li><li> Invariant synthesis and mining specifications from code
+   using machine learning, online learning,
+   and learning logical formulas. See papers in CAV14, POPL16, TACAS16, TOCL18, TACAS18, OOPSLA18. 
+ </li><li> Exploring the world of uninterpreted programs--- we have discovered
+   a new technique for verifying uninterpreted programs using
+   complete/decidable techniques for generating inductive invariants.
+   This opens up a wide avenue for future work--- tracttable
+   verification, invariant synthesis, synergy with natural proofs, and
+   program synthesis.
+</li></dir>
+<h3>Earlier research Projects</h3>
+<li> Decidable logics for reasoning with heaps/dynamic data structures (<a href="http://www.cs.uiuc.edu/~qiu2/strand/">Strand</a>)
+ </li><li> Security of web browser extensions (<a href="http://www.cs.uiuc.edu/~sbandha2/VEX/overview.html">VEX</a>)
+ </li><li> Testing concurrent programs (<a href="http://www.cs.uiuc.edu/~sorrent1/penelope">Penelope</a>)
+ </li><li> Security of access control (<a href="http://users.ecs.soton.ac.uk/gp4/VAC.html">VAC</a>)
+ </li><li> Annotation and proof mechanisms for safe concurrency (Accord)
+ </li><li> Model-checking abstractions of programs (<a href="http://www.cs.uiuc.edu/~madhu/getafix/">Getafix</a>)
+ </li><li> Decidable automata models (<a href="http://www.cs.uiuc.edu/~madhu/vpa">See page on visibly pushdown automata</a>)
+
+
+<h3>Software/tools: </h3>
+<dir style="margin-left:0px; padding-left:20px; list-style-type:square;">
+<li> <a href="http://www.cs.uiuc.edu/~madhu/vcdryad/">VCDryad</a> - An extension of VCC that provides sound but incomplete automatic
+mechanisms against Dryad specifications, a dialect of separation logic.
+ </li><li> <a href="http://www.cs.uiuc.edu/~madhu/dryad/">Dryad</a> - Sound but incomplete mechanism for proving heap-based programs correct
+ </li><li> <a href="http://www.cs.illinois.edu/~madhu/cav13">CAV 2013 tool</a> - for learning universally quantified invariants on linear data-structures using quantified data automata
+ </li><li> <a href="http://www.cs.uiuc.edu/~qiu2/strand/">Strand</a> - Decidable logics/SMT solver for reasoning with heaps
+ </li><li> <a href="http://www.cs.uiuc.edu/~madhu/getafix/">Getafix</a> - A boolean model-checker for concurrent and recursive programs
+ </li><li> <a href="http://www.cs.uiuc.edu/~sbandha2/VEX/overview.html">VEX</a> - Static analysis of web-browser extensions for security vulnerabilities
+ </li><li> <a href="http://www.cs.uiuc.edu/~sorrent1/penelope">Penelope</a> - A testing tool for concurrent programs
+</li><li> <a href="http://users.ecs.soton.ac.uk/gp4/VAC.html">VAC</a> - Verifier of Access Control
+ </li><li> <a href="http://www.cis.upenn.edu/~cernyp/jist/index.html">JIST</a> - Java Interface Synthesis Tool
+</li></dir>
+<hr noshade=""/>
+<h3> Students and Post-doctoral researchers: </h3>
+<b> Students currently advised: </b>
+<dir style="margin-left:0px; padding-left:20px; list-style-type:square;">
+<li> <a href="http://aastorg2.web.engr.illinois.edu/">Angello Astorga</a> (mining program specifications), jointly advised with Tao Xie
+ </li><li> Adithya Murali (combining machine learning and program synthesis; learnin logics)
+ </li><li> Shambwaditya Saha  (synthesis, learning, mining specifications) </li>
+</dir>
+<b> Formerly advised: </b>
+<dir style="margin-left:0px; padding-left:20px; list-style-type:square;">
+<li> Students: 
+<dir>
+<li> <a href="http://www.cs.uiuc.edu/~garg11/">Pranav Garg</a> (deductive verification; compositional verification)</li>
+<li> <a href="http://www.cs.illinois.edu/homes/pek1/">Edgar Pek</a> (static analysis; points-to analysis)</li>
+<li> <a href="http://www.cs.uiuc.edu/~sorrent1/">Francesco Sorrentino</a>  (testing concurrent programs) </li>
+<li> <a href="http://people.csail.mit.edu/xkqiu/">Xiaokang Qiu</a><br/>
+<a href="https://www.ideals.illinois.edu/handle/2142/45498">Thesis: Automatic Techniques for Proving Correctness of Heap-Manipulating Programs</a><br/>
+ Now postdoc at MIT/UMD.
+</li>
+<li>Sruthi Bandhakavi; security of web extensions -- now at Google</li>
+</dir>
+</li><li> Postdocs:
+ <dir>
+<li> <a href="http://users.ecs.soton.ac.uk/gp4/">Gennaro Parlato</a> -- now faculty at University of Southampton </li>
+<li> <a href="http://www.palmskog.net/">Karl Palmskog</a>-- now a postdoc at UT Austin.
+ </li><li> <a href="http://www.seas.upenn.edu/~neider/">Daniel Neider</a>  (automated deductiver verification, synthesis, learning, invariant synthesis) <br/>
+ Post-doctoral researcher in the ExCAPE project, jointly at Illinois and UCLA.
+-- now at Max Planck Institute</li>
+</dir>
+<hr/>
+<h3> Courses: </h3>
+<i>Note to graduate students: </i>If you are interested in mainstream software verification, I suggest that you take the course CS477 (Formal Methods in Software Development) followed by my course CS598MP (offered only once in a while) on Software Verification.
+The CS598MP course is more advanced, and CS477 will be a pre-requisite for it in the future.
+I also strongly encourage you to take the CS498  course on "Logic in Computer Science" (aka Logical Systems) offered by me or Prof. Viswanathan before you take CS58MP:Software Verification.
+
+ <dir style="margin-left:0px; padding-left:20px; list-style-type:square;">
+<li> <b> Spring  2014:
+    <a href="http://courses.engr.illinois.edu/cs498mp3/sp2014/">CS498: Logic in Computer Science</a></b><br/></li>
+<li> <b> Fall  2013:
+    <a href="http://courses.engr.illinois.edu/cs173/fa2013/B-lecture/">CS173: Discrete Structures</a></b><br/></li>
+<li> <b> Fall  2011:
+    <a href="http://www.cs.illinois.edu/class/fa11/cs373/">CS373: Intro to Theory of Computation</a></b><br/></li>
+<li> <b> Spring  2011:
+    <a href="http://www.cs.uiuc.edu/class/cs477/">CS477: Formal Methods in Software Development</a></b><br/></li>
+<li> <a href="earliercourses.html">Earlier courses</a></li>
+</dir>
+
+Also check out the following:
+<dir>
+<li> <a href="https://agora.cs.illinois.edu/display/fmseminar/Formal+Methods+Seminar">Formal Methods Seminar at Illinois</a>
+</li><li> The new <a href="https://agora.cs.illinois.edu/display/~madhu/Formal+methods+reading+list">Formal Methods Reading List</a>
+</li></dir>
+<hr noshade=""/>
+<h3> Service </h3>
+<dir style="margin-left:0px; padding-left:20px; list-style-type:square;">
+<li> PC Member: POPL 2019
+ </li><li> PC Member: <a href="http://lcs.ios.ac.cn/concur2018/">CONCUR 2018</a>
+</li><li> PC Member: <a href="http://www-verimag.imag.fr/ADSL-2018.html">Workshop on Automated Deduction for Separation Logics (ADSL)</a>, affiliated with LICS and FLOC, 2018.
+ </li><li> PC Member: <a href="https://www.etaps.org/index.php/2017/tacas">TACAS 2017</a>
+</li><li> PC Member: <a href="http://highlights-conference.org/">Highlights of Logic, Automata, and Games,</a> 2017.
+ </li><li> PC Member: <a href="http://rv2017.cs.manchester.ac.uk/">International Conference on Runtime Verification (RV 2017)</a>.
+ </li><li> <a href="http://madhu.cs.illinois.edu/CAV15Tutorial/">
+     Tutorial on Machine-learning based methods for synthesizing invariants.
+   </a>, at Computer Aided Verification (CAV), San Fransisco, USA, 2015.
+
+ </li><li> PC Member: <a href="http://www.easyconferences.eu/icalp2016/">ICALP 2016: Int'l Colloq. on Automata Languages and Programming</a>, Rome, Italy.
+
+ </li><li> External Review Committee: <a href="http://i-cav.org/2016/"> CAV 2016: Computer Aided Verification,</a> Toronto, Canada.
+
+ </li><li> Co-chair/Organizer: <a href="http://formal.epfl.ch/synt/2015/">SYNT 2015: 4th Workshop on Synthesis (associated CAV)</a>, San Francisco, USA.
+ </li><li> PC Member:  <a href="http://tgc2015.disia.unifi.it/">Trustworthy Global Computing (TGC), 2015</a>, Madrid, Spain.<br/>
+</li><li> ERC Member:  <a href="http://conf.researchr.org/home/pldi2015">PLDI 2015</a>, Portland, Oregon, USA.<br/>
+</li><li> PC Member:  <a href="http://tgc2015.disia.unifi.it/">ACM/IEEE International Conference on
+Model Driven Engineering Languages and Systems,  2014</a>, Madrid, Spain.<br/>
+</li><li> PC Member:  <a href="http://popl.mpi-sws.org/2015/">POPL 2015</a>, Mumbai, India.<br/>
+</li><li> PC Member:  <a href="http://conferences.inf.ed.ac.uk/pldi2014/">PLDI 2014</a>, Edinburgh, Scotland.<br/>
+</li><li> PC Member:  <a href="http://concur2014.org/">CONCUR 2014</a>, Rome, Italy<br/>
+</li><li> PC Member:  <a href="http://cs.uni-muenster.de/sev/sas14/">SAS 2014</a>, Munich, Germany<br/>
+</li></dir>
+<b><u> Earlier </u></b>
+<br/>
+<dir style="margin-left:0px; padding-left:20px; list-style-type:square;">
+<li> <b>2013: </b> PC Member: <a href="http://ist.ac.at/mfcs13/">MFCS, 2013</a>, <a href="http://cav2013.forsyte.at/">CAV 2013</a>, <a href="http://highlights-conference.org/">Highlights of Logic, Automata, Games</a>
+</li><li> <b>2012: </b> PC Chair: <a href="http://cav12.cs.illinois.edu">CAV 2012</a>; PC Member:  <a href="http://www.cs.miami.edu/~geoff/Conferences/LPAR-18/">LPAR-18</a>, <a href="http://www.cse.psu.edu/popl/12/">POPL 2012</a>.<br/>
+</li><li> <b>2011: </b> PC Member:  <a href="http://www.cs.utah.edu/events/conferences/cav2011/">CAV 2011</a>, <a href="http://www2.ee.ntu.edu.tw/~atva2011/">ATVA 2011</a>, <a href="http://www.fsttcs.org/">FSTTCS 2011</a>.
+
+ </li><li> <b>2010: </b> PC Member:  <a href="http://www.fsttcs.org">FSTTCS 2010</a>, <a href="http://atva10.comp.nus.edu.sg/">ATVA 2010</a>, 
+       <a href="http://stacs.loria.fr/">STACS 2010</a>, 
+
+
+ </li><li> <b>2009:</b> PC member: <a href="http://www-cav2009.imag.fr/">CAV 2009</a>, 
+<a href="http://www2.informatik.hu-berlin.de/lics/lics09/index.html">LICS 2009</a>, <a href="http://www.inf.unibz.it/krdb/events/time-2009/">TIME 2009</a>; Ext Rev Committee: <a href="http://www-plan.cs.colorado.edu/~pldi09/">PLDI 2009</a>
+</li><li> <b>2008:</b> PC Member: <a href="http://research.microsoft.com/~grama/APLAS2008/">APLAS 2008</a>, <a href="http://www.cse.yorku.ca/concur08">CONCUR 2008</a>.
+
+ </li><li> <b>2007</b> PC Chair: <a href="http://www.cs.uiuc.edu/infinity07/">INFINITY 2007 (with CONCUR)</a>; PC Member: <a href="http://icalp07.ii.uni.wroc.pl//">ICALP 2007</a>
+</li><li> <b>2006</b> PC member: <a href="http://www.cs.wmich.edu/~zijiang/sac2006/">ACM SAC</a>.
+
+ </li><li> <b>2005</b> PC member: <a href="http://www.fsttcs.org">FSTTCS 2005</a>, <a href="http://www.cav2005.inf.ed.ac.uk/">CAV 2005</a>.
+   <a href="http://www.cs.ucla.edu/~rupak/gdv2005.htm">GDV 2005 (with CAV 2005)</a>.
+
+  </li><li> <b>2004</b> PC member: <a href="http://www-formats-ftrtft.imag.fr/"> FORMATS and FTRTFT, 2004 </a> <br/>
+</li>
+</dir>
+<b><u><a href="other.html">Other Activities: Organized events, invited talks, etc.</a></u></b>
+</li></dir>
+<hr noshade=""/>
+</li></div>
+<meta content="madhusudan, madhu, uiuc, formal methods, verification, automata, visibly pushdown, nested words, getafix, parthasarathy, recursion, upcrc" name="keywords"/>
+<div id="Menu">
+<img src="madhusudan.jpg" width="175,"/>
+<br/>
+<p>
+<strong> Professor </strong>
+<br/>
+<a href="http://www.cs.illinois.edu/">Computer Science</a><br/>
+<a href="http://illinois.edu/">University of Illinois at <br/> Urbana-Champaign</a><br/>
+<img align="center" src="email.gif"/> <br/>
+<img align="center" src="email2.gif"/> <br/>
+<a href="http://www.oakland.edu/enp/" title="--&gt;Moshe Vardi--&gt;Joel Spencer--&gt;Paul Erdos">Erdos number = 3</a><br/>
+<i>Assistant:</i> <a href="https://cs.illinois.edu/directory/profile/sdsmith3">Samantha Smith</a><br/>
+</p><dir>
+<li> <a href="index.html">Home</a></li>
+<li> <a href="research.html">Research</a></li>
+<li> <a href="pub.html">Publications</a></li>
+<dir>
+<li> <a href="http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/m/Madhusudan:P=.html">DBLP</a></li>
+<li> <a href="https://scholar.google.com/citations?user=V828uG8AAAAJ">G Scholar</a></li>
+<li> <a href="https://www.semanticscholar.org/author/P.-Madhusudan/5085067">Sem Scholar</a></li>
+</dir>
+<li> <a href="cv.pdf">Curriculum vitae</a></li>
+<li> <a href="coauthors.html">My coauthors</a></li>
+<li> <a href="contact.html">Co-ordinates</a></li>
+</dir>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-10263004-1");
+pageTracker._setDomainName("none");
+pageTracker._setAllowLinker(true);
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<div><p>BBB<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/0;276;0cxhtml1/DTD/xhtml1-strict.dtd">
+
+</p><meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Madhusudan's page</title>
+<style media="all" type="text/css">@import "layout1.css";</style>
+<div id="Header"> <h1> Madhusudan Parthasarathy </h1></div>
+<div id="Content">
+<h2> Publications:</h2>
+<h3> Under submission </h3>
+<dir>
+<p>
+</p><li>
+<b>
+<a href="deltalogics.pdf"> Delta Logics: Logics for Change</a></b>
+<dd> Adithya Murali, P. Madhusudan
+  </dd></li>
+<p> </p><li>
+<b>
+<a href="https://arxiv.org/abs/1907.05878">Augmenting Neural Nets with Symbolic Synthesis: Applications to Few-Shot Learning</a></b>
+<dd> Adithya Murali and P. Madhusudan
+  </dd></li>
+<p>
+</p><li>
+<b>
+    Decidable Synthesis of Programs with Uninterpreted Functions</b>
+<dd> Paul Krogmeier, Umang Mathur, Adithya Murali, P. Madhusudan, Mahesh Viswanathan
+  </dd></li>
+</dir>
+<h3> 2020 </h3>
+<dir>
+<p>
+</p><li>
+<b>
+<a href="FrameLogicESOP2020.pdf"> A First Order Logic with Frames</a></b>
+<dd> Christof Loding, P. Madhusudan, Adithya Murali, Lucas Pena
+    <dd> To appear in ESOP 2020.
+  </dd></dd></li>
+<p>
+</p><li>
+<b>
+    What's Decidable About Program Verification Modulo Axioms? </b>
+<dd> Umang Mathur, P. Madhusudan, Mahesh Viswanathan
+    <dd> To appear in TACAS 2020.
+ </dd></dd></li>
+<p>
+</p><li>
+<b> <a href="POPL20-MemSafety.pdf">Deciding Memory Safety for Single-Pass Heap-Manipulating
+Programs</a>
+</b>
+<dd> Umang Mathur, Adithya Murali, Paul Krogmeier, P. Madhusudan, Mahesh Viswanathan
+    <dd> Proceedings of Principles of Programming Languages (POPL), 2020.<br/>
+<p></p></dd></dd></li>
+</dir>
+<h3> 2019 </h3>
+<dir>
+<p>
+</p><li>
+<b>
+<a href="concunintpgms">Reachability in Concurrent Uninterpreted
+Programs</a></b>
+<dd> Salvatore La Torre, P. Madhusudan
+    <dd> 39th Int'l Conference on  Foundations of Software Technology and Theoretical Computer Science
+(FSTTCS 2019).
+  </dd></dd></li>
+<p>
+</p><li>
+<b> <a href="Kaizen.pdf">Kaizen: Building a Verified and Performant Blockchain System</a>,
+</b>
+<dd> Faria Kalim, Karl Palmskog, Jayasi Mehar, Adithya Murali, Indranil Gupta, P. Madhusudan. 
+    <dd>  Proc. Formal Methods in Computer-Aided Design (FMCAD), 2019. <br/>
+<p></p></dd></dd></li>
+<li>
+<b>
+<a href="Sorcar.pdf"> Sorcar: Property-Driven Algorithms for
+Learning Conjunctive Invariants</a></b>
+<dd> Daniel Neider, Shambwaditya Saha, Pranav Garg, and P. Madhusudan
+    <dd> Proc. of 26th Static Analysis Symposium (SAS), 2019. <br/>
+<p></p></dd></dd></li>
+<li>
+<b>
+<a href="pldi19-proviso.pdf"> Learning Stateful Preconditions Modulo a Test Generator</a></b>
+<dd> Angello Astorga, P. Madhusudan, Shambwaditya Saha, Shiyu Wang, Tao Xie
+    <dd> Proc. of Programming Languages Design and Implementation (PLDI), 2019. <br/>
+<p></p></dd></dd></li>
+<li>
+<b>
+<a href="UnintProgPOPL19.pdf"> Decidable Verification of Uninterpreted Programs</a></b>
+<dd> Umang Mathur, P. Madhusudan, Mahesh Viswanathan
+    <dd> Proceedings of Principles of Programming Languages (POPL), 2019. <br/>
+         Published in Proc. ACM Program. Lang., Vol. 3, POPL, Article 46, January 2019.
+    <br/> <a href="https://www.youtube.com/watch?v=BJLQfKH75ow"> Talk at POPL by Umang Mathur </a>
+<p></p></dd></dd></li>
+</dir>
+<h3> 2018 </h3>
+<dir>
+<li>
+<b>
+<a href="HornICELearning-OOPSLA18.pdf"> Horn-ICE Learning for Synthesizing Invariants and Contracts</a></b>
+<dd> D. D'Souza, P. Ezudheen, P. Garg, P. Madhusudan and D. Neider
+    <dd> Conference on Object-Oriented Programming Systems, Languages, and Applications, OOPSLA 2018.
+      <p></p></dd></dd></li>
+<li>
+<b>
+<a href="LagrangesTheoremBinarySquares-MFCS18.pdf">Lagrange's theorem for binary squares,</a></b>
+<dd> P. Madhusudan, Dirk Nowotka, Aayush Rajasekaran, and Jeffrey Shallit, 
+    <dd> 43rd International Symposium on Mathematical Foundations of Computer Science (MFCS 2018),
+    <dd><b><a href="http://eatcs.org/index.php/component/content/article/1-news/2737-mfcs-2018-best-paper-and-best-student-paper-award">Best paper award</a></b>
+<p></p></dd></dd></dd></li>
+<li>
+<b>
+<a href="eqsmt-csl2018.pdf">A Decidable Fragment of Second Order Logic
+  With Applications to Synthesis</a>
+</b>
+<dd> P. Madhusudan, Umang Mathur, Shambwaditya Saha, Mahesh Viswanathan
+  <dd> 7th EACSL Annual Conference on Computer Science Logic, CSL 2018.
+    <p></p></dd></dd></li>
+<li>
+<b>
+<a href="InvSynthIncompleteVerifEngines-TACAS18.pdf">Invariant Synthesis for Incomplete Verification Engines</a>
+</b>
+<dd> Daniel Neider, Pranav Garg, P. Madhusudan, Shambwaditya Saha, Daejun Park.
+<dd>  International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS), 2018.
+<p></p></dd></dd></li>
+<li>
+<b>
+<a href="FoundationsForNaturalProofs.pdf">Foundations for Natural Proofs and Quantifier Elimination</a>
+</b>
+<dd> Christof Loding, P. Madhusudan, Lucas Pena.
+<dd> 45th ACM SIGPLAN Symp. on Principles of Programming Languages (POPL  2018) 2018.
+<p></p></dd></dd></li>
+</dir>
+<h3> 2017 </h3>
+<dir>
+<li>
+<b>
+ Efficient Incrementalized Runtime Checking of Linear Measures on Lists
+</b>
+<dd> Alex Gyori, Pranav Garg, Edgar Pek, P. Madhusudan
+<dd>  10th IEEE International Conference on Software Testing, Verification and Validation (ICST 2017).
+<p></p></dd></dd></li>
+<li>
+<b>
+<a href="CompSynthesis-TOCL.pdf">Compositional Synthesis of Piece-Wise Functions by Learning Classifiers</a>
+</b>
+<dd> P. Madhusudan, Daniel Neider, Shambwaditya Saha
+<dd> Accepted to appear in ACM Transactions on Computational Logic
+<p>
+</p><p></p></dd></dd></li>
+</dir>
+<h3> 2016 </h3>
+<dir>
+<li>
+<b>
+Abstract Learning Frameworks for Synthesis  
+</b>
+<dd> Christof Loding, P. Madhusudan, Daniel Neider.
+<dd> 22nd Int'l Conf. on Tools and Algorithms for the Construction and Analysis of Systems (TACAS), 2016, ETAPS 2016, Eindhoven, The Netherlands.
+<p></p></dd></dd></li>
+<li>
+<b>
+  Synthesizing Piece-wise Functions by Learning Classifiers
+</b>
+<dd> P. Madhusudan, Daniel Neider, Shambwaditya Saha
+<dd> 22nd Int'l Conf. on Tools and Algorithms for the Construction and Analysis of Systems (TACAS), 2016, ETAPS 2016, Eindhoven, The Netherlands.
+<p></p></dd></dd></li>
+<li>
+<b>
+<a href="popl16.pdf">Learning Invariants using Decision Trees and
+Implication Counterexamples</a>
+</b>
+<dd> Pranav Garg, Daniel Neider, P. Madhusudan, and Dan Roth
+<p>
+Annual Symposium on Principles of Programming Languages (POPL), St. Petersburg, Florida, USA, 2016.
+</p></dd></li>
+</dir>
+<h3> 2015 </h3>
+<dir>
+<li>
+<b>
+<a href="fmsd15.pdf">Quantified Data Automata for Linear Data Structures. A Register Automaton Model with Applications to Learning Invariants of Programs Manipulating Arrays and Lists</a>
+</b>
+<dd> <a href="http://ebooks.iospress.nl/publication/39188">Formal Methods in System Design (FMSD) 47(1) 2015</a>. Invited article as a special issue for the Computer Aided Verification conference.
+<dd> Pranav Garg, Christof Loding, P. Madhusudan and Daniel Neider
+<p></p></dd></dd></li>
+<li>
+<b>
+<a href="cav15.pdf">Alchemist: Learning Guarded Affine Functions</a>
+</b>
+<dd> Shambwaditya Saha, Pranav Garg, and P. Madhusudan
+<dd> 27th Int'l Conf. on Computer Aided Verification, 2015,  San Fransisco, USA (CAV 2015)
+<p></p></dd></dd></li>
+<li>
+<b>
+NETGEN: Synthesizing Data-plane configurations for Network Policies
+</b>
+<dd> Shambwaditya Saha, M. Prabhu, P. Madhusudan
+<dd> 1st ACM SIGCOMM Symp. on Software Defined Networking Research (SOSR 2015), Santa Clara, USA.
+<dd> <a href="sosr15-netgen.pdf">Paper (PDF)</a>
+<p></p></dd></dd></dd></li>
+</dir>
+<h3> 2014 </h3>
+<dir>
+<li>
+<b> 
+Natural Proofs for Asynchronous Programs
+using Almost-Synchronous Reductions
+</b>
+<dd> Ankush Desai, Pranav Garg, P. Madhusudan
+<dd> ACM SIGPLAN Int'l Conf.
+               on Object Oriented Prog. Sys. Languages &amp; Applications 
+               (OOPSLA 2014), part of SPLASH 2014, USA.
+<br/><a href="OOPSLA14.pdf">Paper PDF</a><p>
+</p><p></p></dd></dd></li>
+<li>
+<b> 
+ICE: A Robust Learning Framework for Synthesizing Invariants</b>
+<dd> Pranav Garg, Christof Loeding, P. Madhusudan, and Daniel Neider
+<dd> 26th Int'l Conf. on Computer Aided Verification, 2014,  Vienna, Austria (CAV 2014)
+<br/><a href="CAV14ice.pdf">Paper PDF</a><p>
+</p><p></p></dd></dd></li>
+<li>
+<b> 
+VAC -  Verifier of Administrative Role-based Access Control Policies</b>
+<dd> Anna Lisa Ferrara, P. Madhusudan, Truc L. Nguyen and Gennaro Parlato.
+<dd> 26th Int'l Conf. on Computer Aided Verification, 2014,  Vienna, Austria (CAV 2014)
+<br/><a href="CAV14vac.pdf">Paper PDF</a><p>
+</p><p></p></dd></dd></li>
+<li>
+<b> 
+Natural Proofs for Data Structure
+Manipulation in C using Separation Logic</b>
+<dd> Edgar Pek, Xiaokang Qiu, P. Madhusudan
+<dd> 35th ACM SIGPLAN Programming Language Design and Implementation (PLDI 2014)
+<br/><a href="pldi14-NatProofsForC.pdf">Paper PDF</a><p>
+</p></dd></dd></li>
+<li>
+<b> Online Learning versus Blended Learning: An Exploratory Study
+</b>
+<dd> Cross, Ashok, Bala, Cutrell, Datha, Kumar, Kumar, Madhusudan, Prakash, Rajamani, Sangameswaran, Sharma, Thies.
+<dd> Work in Progress paper, First ACM Conference on Learning at Scale
+<br/><a href="las2014.pdf">Paper PDF</a><p>
+</p></dd></dd></li>
+</dir>
+<h3> 2013 </h3>
+<dir>
+<li>
+<b> Quantified Data Automata on Skinny Trees: an Abstract Domain for Lists
+</b>
+<dd> Pranav Garg, P. Madhusudan, and Gennaro Parlato
+<dd> 20th Static Analysis Symposium (SAS), 2013.
+<br/><a href="sas13.pdf">Paper PDF</a><p>
+</p></dd></dd></li>
+<li>
+<b>Learning Universally Quantified Invariants of Linear Data Structures
+</b>
+<dd> Pranav Garg, Christof Loeding, P. Madhusudan, and Daniel Neider
+<dd> 25th Int'l Conf. on Computer Aided Verification (CAV), 2013.
+<br/><a href="cav13.pdf">Paper PDF</a><p>
+</p></dd></dd></li>
+<li>
+<b>Natural Proofs for Structure, Data, and Separation</b>
+<dd> Xiaokang Qiu, Pranav Garg, and Andrei Stefanescu, P. Madhusudan
+<dd> ACM SIGPLAN Conf. on Programming Language Design and Implementation (PLDI), 2013.
+<dd><a href="pldi13.pdf">Paper PDF</a> and  <a href="pldi13supplementary.pdf">Supplementary material</a>
+<br/><p>
+</p></dd></dd></dd></li>
+<li>
+<b>Verifying Security Invariants in ExpressOS
+</b>
+<dd> 
+Haohui Mai, Edgar Pek, Hui Xue, 
+Samuel T. King, and P. Madhusudan
+<dd> 18th Int'l Conf. on Architectural Support for Prog. Lang. and Operating Sys. (ASPLOS), 2013
+<dd><a href="asplos13.pdf">PDF</a>
+<br/><p>
+</p></dd></dd></dd></li>
+<li>
+<b>Policy Analysis for Self-administrated role-based access control
+</b>
+<dd>
+<a href="http://www.cs.bris.ac.uk/home/csxaf/">Anna Lisa Ferrara</a>, P. Madhusudan,  and 
+<a href="http://users.ecs.soton.ac.uk/gp4/">Gennaro Parlato</a>
+<dd> 19th Int'l Conf. on Tools and Algorithms for the Construction and Analysis of Systems (TACAS), 2013
+<dd><a href="tacas13.pdf">PDF</a>
+<br/><p>
+</p></dd></dd></dd></li>
+</dir>
+<h3> 2012 </h3>
+<dir>
+<li>
+<b>Predicting Null-Pointer Dereferences in Concurrent Programs</b>
+<dd> with <a href="http://www.cs.toronto.edu/~azadeh/"> Azadeh Farzan </a>, Niloofar Razavi, and <a href="http://www.cs.uiuc.edu/~sorrent1/">Francesco Sorrentino</a>
+<dd>  20th ACM SIGSOFT Int'l Symp on Foundations of Software Engineering (FSE), 2012.
+<dd><a href="fse12.pdf">PDF</a>
+<br/><p>
+</p></dd></dd></dd></li>
+<li>
+<b>Security Analysis of Role-based Access Control through Program Verification</b>
+<dd> with  <a href="http://users.ecs.soton.ac.uk/gp4/">Gennaro Parlato</a>
+ and 
+ <a href="http://www.cs.bris.ac.uk/home/csxaf/">Anna Lisa Ferrara</a>
+<dd> 25th IEEE Computer Security Foundations Symposium (CSF).
+<dd> Harvard University, Cambridge MA, USA, 2012.
+<dd><a href="csf12.pdf">PDF</a>
+<dd> See the associated <a href="http://users.ecs.soton.ac.uk/gp4/VAC.html"> VAC Tool page</a>.
+<br/><p>
+</p></dd></dd></dd></dd></dd></li>
+<li>
+<b>Analyzing Temporal Role Based Access Control Models</b>
+<dd> with Emre Uzun, Vijay Atluri, Shamik Sural, Jaideep Vaidya, <a href="http://users.ecs.soton.ac.uk/gp4/">Gennaro Parlato</a>,
+ and 
+ <a href="http://www.cs.bris.ac.uk/home/csxaf/">Anna Lisa Ferrara</a>
+<dd> 17th ACM Symposium on Access Control Models and Technologies (SACMAT)
+<dd> Newark, USA, 2012.
+<br/><p>
+</p></dd></dd></dd></li>
+<li>
+<b>Reachability under Contextual Locking</b>
+<dd> with  <a href="http://www.cs.uiuc.edu/homes/vmahesh/">Mahesh Viswanathan</a>
+ and 
+ <a href="">Rohit Chadha</a>
+<dd> Tools and Algorithms for the Construction and Analysis of Systems (TACAS), 2012, Tallinn, Estonia.
+<dd><a href="tacas12.pdf">PDF</a>
+<br/><p>
+</p></dd></dd></dd></li>
+<li>
+<b>Recursive Proofs for Inductive Tree Data-structures</b>
+<dd> with 
+ <a href="http://www.cs.uiuc.edu/homes/qiu2/">Xiaokang Qiu</a>
+ and 
+ <a href="http://fsl.cs.uiuc.edu/index.php/Andrei_Stefanescu">Andrei Stefanescu</a>
+<dd> Principles of Programming Languages (POPL), 2012, Philadelphia.
+<dd><a href="popl12.pdf">PDF</a>
+<br/><p>
+</p></dd></dd></dd></li>
+</dir>
+<h3> 2011 </h3>
+<dir>
+<li>
+<b><a href="http://dl.acm.org/citation.cfm?id=1995376.1995398&amp;coll=portal&amp;dl=ACM">Vetting browser extensions for security vulnerabilities with VEX</a></b>
+<dd> with <a href="http://elephant.cs.uiuc.edu/~sbandha2/">Sruthi Bandhakavi</a>, Nandit Tiku, Wyatt Pittman, <a href="http://www.cs.uiuc.edu/homes/kingst/Home.html">Sam King</a>, and <a href="http://dais.cs.uiuc.edu/dais/winslett.php">Marianne Winslett</a>
+<dd> Research Highlights
+<dd> Communications of the ACM (CACM), Vol. 54, Issue 9, September 2011.
+<br/><p>
+</p></dd></dd></dd></li>
+<li>
+<b> Synthesizing Reactive Programs</b>
+<dd> 20th Conference on Computer Science Logic (CSL), Bergen, Norway, 2011.
+<dd><a href="csl11.pdf">PDF</a>
+<br/><p>
+</p></dd></dd></li>
+<li>
+<b> Efficient algorithms for deciding properties of heaps using STRAND </b>
+<dd> with 
+ <a href="http://www.cs.uiuc.edu/homes/qiu2/">Xiaokang Qiu</a>
+<dd> Static Analysis Symposium (SAS) 2011, Venice, Italy.
+<dd> <a href="sas11.pdf">PDF</a>
+<br/><p>
+</p></dd></dd></dd></li>
+<li>
+<b> Compositionality entails Sequentializability</b>
+<dd> with 
+ <a href="http://www.cs.uiuc.edu/~garg11">Pranav Garg</a>
+<dd> Int'l Conf on Tools and Algorithms for the Construction and Analysis of Systems (TACAS), 2011.
+<dd><a href="tacas11.pdf">PDF</a>
+<br/><p>
+</p></dd></dd></dd></li>
+<li>
+<b> Thread Contracts for Safe Parallelism</b>
+<dd> with 
+ <a href="http://osl.cs.uiuc.edu/people?user=rkumar8">Rajesh Karmani</a> and Brandon Moore
+<dd> 16th ACM SIGPLAN Annual Symp. on Principles and Practice of Parallel Programming (PPoPP 2011).
+<dd> <a href="ppopp10.pdf">PDF</a>
+<br/><p>
+</p></dd></dd></dd></li>
+<li>
+<b> Decidable Logics Combining Heap Structures and Data</b>
+<dd> with 
+ <a href="http://www.liafa.jussieu.fr/~gennaro/">Gennaro Parlato</a> and 
+ <a href="http://www.cs.uiuc.edu/homes/qiu2/">Xiaokang Qiu</a>
+<dd> ACM SIGACT-SIGPLAN Symp. on Principles of Programming Languages (POPL),  2011
+<dd> <a href="strand-popl11.pdf">PDF</a>
+<br/><p>
+</p></dd></dd></dd></li>
+<li>
+<b> The Tree Width of Auxiliary Storage</b>
+<dd> with 
+ <a href="http://www.cs.uiuc.edu/~parlato">Gennaro Parlato</a>
+<dd> ACM SIGACT-SIGPLAN Symp. on Principles of Programming Languages (POPL),  2011
+<dd> <a href="graphautomata-popl11.pdf">PDF</a>
+<dd>
+See also <a href="http://hdl.handle.net/2142/15433">Technical Report.</a> that has more proofs.
+<br/><p>
+</p></dd></dd></dd></dd></li>
+</dir>
+<h3> 2010 </h3>
+<dir>
+<li>
+<b> PENELOPE: Weaving Threads to Expose Atomicity Violations</b>
+<dd> with <a href="http://www.cs.toronto.edu/~azadeh/"> Azadeh Farzan </a> and <a href="http://www.cs.uiuc.edu/~sorrent1/">Francesco Sorrentino</a>
+<dd> ACM SIGSOFT Int'l Symp. on the Foundations of Software Engineering (FSE), Santa Fe, New Mexico, USA, November 2010.
+<dd> <a href="fse10.pdf">PDF</a>
+<br/><p>
+</p></dd></dd></dd></li>
+<li>
+<b> VEX: Vetting Browser Extensions For Security Vulnerabilities</b>
+<dd> with <a href="http://elephant.cs.uiuc.edu/~sbandha2/">Sruthi Bandhakavi</a>, <a href="http://www.cs.uiuc.edu/homes/kingst/Home.html">Sam King</a>, and <a href="http://dais.cs.uiuc.edu/dais/winslett.php">Marianne Winslett</a>
+<dd> Proc. of  USENIX Security Symposium. Washington D.C, USA, August 2010. 
+<dd> <b> *** Best paper award *** </b>
+<dd> See the <a href="http://www.cs.uiuc.edu/~sbandha2/VEX/overview.html">VEX Website</a> for details on the tool.
+<dd> <a href="usenix10.pdf">PDF</a>
+<br/><p>
+</p></dd></dd></dd></dd></dd></li>
+<li>
+<b> Model-checking Parameterized Concurrent Programs using Linear Interfaces</b>
+<dd> with 
+ <a href="http://www.dia.unisa.it/professori/latorre/">Salvatore La Torre</a>
+and  <a href="http://www.cs.uiuc.edu/~parlato">Gennaro Parlato</a>
+<dd> To appear in 22nd Int'l Conf. on Computer Aided Verification (CAV), 2010, Edinburgh, UK.
+<dd> <a href="cav10.pdf">PDF</a>
+<br/><p>
+</p></dd></dd></dd></li>
+<li>
+<b> The language theory of bounded context-switching </b>
+<dd> with 
+ <a href="http://www.dia.unisa.it/professori/latorre/">Salvatore La Torre</a>
+and <a href="http://www.dia.unisa.it/~parlato/">Gennaro Parlato</a>
+<dd> 9th Latin American Theoretical Informatics Symposium (LATIN),
+Oaxaca, Mexico, 2010.
+<dd><a href="latin10.pdf">PDF</a>.
+<br/><p>
+</p></dd></dd></dd></li>
+</dir>
+<h3> 2009 </h3>
+<dir>
+<li>
+<b> 
+Query automata for nested words
+</b>
+<dd> with  <a href="http://www.cs.uiuc.edu/homes/vmahesh/">Mahesh Viswanathan</a>
+<dd> 34th International Symposium on
+Mathematical Foundations of Computer Science (MFCS), High Tatras, Slovakia, 2009.
+<dd><a href="mfcs09.pdf">PDF</a>.
+<br/><p>
+</p></dd></dd></dd></li>
+<li>
+<b> 
+Meta-analysis for Atomicity Violations under Nested Locking
+</b>
+<dd> with <a href="http://www.cs.toronto.edu/~azadeh/"> Azadeh Farzan </a> and Francesco Sorrentino
+<dd> Computer Aided Verification (CAV), Grenoble, France, 2009.
+<dd><a href="cav09atomicity.pdf">PDF</a>.
+<br/><p>
+</p></dd></dd></dd></li>
+<li>
+<b> Reducing Context-bounded Concurrent
+Reachability to Sequential Reachability </b>
+<dd> with 
+ <a href="http://www.dia.unisa.it/professori/latorre/">Salvatore La Torre</a>
+and <a href="http://www.dia.unisa.it/~parlato/">Gennaro Parlato</a>
+<dd> Computer Aided Verification (CAV), Grenoble, France, 2009.
+<dd><a href="cav09lazy.pdf">PDF</a>.
+<br/><p>
+</p></dd></dd></dd></li>
+<li>
+<b> Analyzing Recursive Programs using a Fixed-point Calculus 
+</b>
+<dd> with 
+ <a href="http://www.dia.unisa.it/professori/latorre/">Salvatore La Torre</a>
+and <a href="http://www.dia.unisa.it/~parlato/">Gennaro Parlato</a>
+<dd> ACM SIGPLAN Conf. on Programming Language Design and Implementation (PLDI)
+<dd> Dublin, Ireland, 2009.
+<dd><a href="pldi09.pdf">PDF</a>.
+<dd>See also the <a href="getafix/">Getafix page</a> for the tool and experiments
+<br/><p>
+</p></dd></dd></dd></dd></dd></li>
+<li>
+<b> 
+The Complexity of Predicting Atomicity Violations
+</b>
+<dd> with <a href="http://www.cs.toronto.edu/~azadeh/"> Azadeh Farzan </a>
+<dd> Int'l Conf. on Tools and Algorithms for the Construction &amp; Analysis of Systems (TACAS)
+<dd> York, UK, 2009.
+<dd>
+<a href="tacas09.pdf">PDF</a>.
+<dd>
+Slides: <a href="tacas09slides.pptx">Powerpoint</a>, <a href="tacas09slides.pdf">PDF</a>
+<br/><p>
+</p></dd></dd></dd></dd></dd></li>
+<li>
+<b> 
+Adding nesting structure to words. 
+</b>
+<dd> with <a href="http://www.cis.upenn.edu/~alur/">R. Alur</a>
+<dd> <a href="http://portal.acm.org/citation.cfm?doid=1516512.1516518">Journal of the ACM (JACM)</a>, Vol. 56(3), pages 1-43, ACM, 2009. 
+<dd>
+<a href="jacmnestedwords.pdf">PDF</a>.
+<br/><p>
+</p></dd></dd></dd></li>
+<li>
+<b> 
+CANDID: Dynamic Candidate Evaluations for
+Automatic Prevention of SQL Injection Attacks
+</b>
+<dd> with 
+ <a href="http://www.cs.uic.edu/~pbisht/">Prithvi Bisht</a> and
+ <a href="http://www.cs.uic.edu/~venkat/">V.N. Venkatakrishnan</a>.
+<dd> ACM Transactions on Information and System Security (TISSEC), 2009.
+<dd>
+<a href="tissec09.pdf">PDF</a>.
+<br/><p>
+</p></dd></dd></dd></li>
+</dir>
+<h3> 2008 </h3>
+<dir>
+<li>
+<b> Parallel Computing at Illinois: The UPCRC Agenda </b>
+<dd> with S. Adve, V. Adve, G. Agha, M.I. Frank, M.J. Garzaran, J.H.Hart, W.W. Hwu, R.E. Johnson, L.V. Kale, R. Kumar, D. Marinov, K. Nahrstedt, D. Padua, S. Patel, G. Rosu, D. Roth, M.Snir, J. Torrellas, C. Zilles
+<dd>
+<a href="http://www.upcrc.uiuc.edu/UPCRC_Whitepaper.pdf">Whitepaper PDF</a>.
+<br/><p>
+</p></dd></dd></li>
+<li>
+<b> A Formal Framework for Reflective Database Access Control Policies </b>
+<dd> with
+ <a href="http://www.ews.uiuc.edu/~leolson1">Lars Olson</a> and
+ <a href="http://seclab.uiuc.edu/cgunter/">Carl Gunter</a>.
+<dd> 15th ACM Conference on Computer and Communications Security (CCS)
+<dd> Alexandria, USA, 2008.
+<dd>
+<a href="ccs08.pdf">PDF</a>.
+<br/><p>
+</p></dd></dd></dd></dd></li>
+<li>
+<b> An Infinite Automaton Characterization of Double Exponential Time </b>
+<dd> with
+ Gennaro Parlato and
+ <a href="http://www.dia.unisa.it/professori/latorre/">Salvatore La Torre</a>.
+<dd> 17th EACSL Annual Conference on Computer Science Logic
+<dd> Bertinoro, Italy, 2008.
+<dd>
+<a href="csl08.pdf">Conference version</a>, <a href="csl08_FinalWithAppendix.pdf">More complete version with an appendix</a>
+<br/><p>
+</p></dd></dd></dd></dd></li>
+<li>
+<b> Monitoring Atomicity in Concurrent Programs  </b>
+<dd> with
+ <a href="http://www.cs.cmu.edu/~afarzan/"> Azadeh Farzan </a>
+<dd> Computer Aided Verification (CAV), Princeton, USA, 2008.
+<dd>
+<a href="cav08.pdf">PDF</a>.
+<br/><p>
+</p></dd></dd></dd></li>
+<li>
+<b> Context-Bounded Analysis of Concurrent Queue Systems</b>
+<dd> with
+ <a href="http://www.dia.unisa.it/dottorandi/parlato/">Gennaro Parlato</a> and
+ <a href="http://www.dia.unisa.it/professori/latorre/">Salvatore La Torre</a>.
+<dd> Tools and Algorithms for the Construction and Analysis of Systems
+<dd> (TACAS), Budapest, Hungary, 2008.
+<dd>
+<a href="tacas08.pdf">PDF</a>.
+<br/><p>
+</p></dd></dd></dd></dd></li>
+</dir>
+<h3> 2007 </h3>
+<dir>
+<li>
+<b> CANDID: Preventing SQL Injection Attacks using Dynamic Candidate Evaluations </b>
+<dd> with
+ Sruthi Bandhakavi,
+ <a href="http://www.cs.uic.edu/~pbisht/">Prithvi Bisht</a> and
+ <a href="http://www.cs.uic.edu/~venkat/">V.N. Venkatakrishnan</a>.
+<dd> 14th ACM Conference on Computer and Communications Security (CCS)
+<dd> Alexandria, USA, 2007.
+<dd>
+<a href="ccs07.pdf">PDF</a>.
+<br/><p>
+</p></dd></dd></dd></dd></li>
+<li>
+<b> A Robust Class of Context-Sensitive Languages </b>
+<dd> with
+ Gennaro Parlato and
+ <a href="http://www.dia.unisa.it/professori/latorre/">Salvatore La Torre</a>.
+<dd> 22nd IEEE Symp. on Logic in Computer Science (LICS)
+<dd> Wroclaw, Poland, 2007.
+<dd>
+<a href="lics07.pdf">PDF</a>.
+<br/><p>
+</p></dd></dd></dd></dd></li>
+<li>
+<b> Visibly Pushdown Automata for Streaming XML </b>
+<dd> with
+<a href="http://www.ews.uiuc.edu/~kumar/">Viraj Kumar</a> and
+ <a href="http://www.cs.uiuc.edu/homes/vmahesh/">Mahesh Viswanathan</a>.
+<dd> Int'l World Wide Web Conference (WWW)
+<dd> Alberta, Canada, 2007.
+<dd>
+<a href="www07.pdf">PDF</a>.
+<br/><p>
+</p></dd></dd></dd></dd></li>
+<li>
+<b> Causal Dataflow Analysis for Concurrent Programs </b>
+<dd> with
+ <a href="http://peepal.cs.uiuc.edu/~azadeh/">Azadeh Farzan</a>.
+<dd> Tools and Algorithms for the Construction and Analysis of Systems
+<dd> (TACAS), Braga, Portugal, 2007.
+<dd>
+<a href="tacas07.pdf">PDF</a>.
+<br/><p>
+</p></dd></dd></dd></dd></li>
+</dir>
+<h3> 2006 </h3>
+<dir>
+<li>
+<b> Minimization, Learning, and Conformance Testing of Boolean Programs </b>
+<dd> with
+<a href="http://www.ews.uiuc.edu/~kumar/">Viraj Kumar</a> and
+ <a href="http://www.cs.uiuc.edu/directory/directory.php?name=viswanathan">Mahesh Viswanathan</a>.
+<dd> Int'l Conf on Concurrency Theory (CONCUR), Bonn, Germany, 2006.
+<dd>
+<a href="concur06.pdf">PDF</a>.
+<br/><p>
+</p></dd></dd></dd></li>
+<li>
+<b> Causal Atomicity </b>
+<dd> with
+ <a href="http://peepal.cs.uiuc.edu/~azadeh/">Azadeh Farzan</a>.
+<dd> Computer Aided Verification (CAV), Seattle, USA, 2006.
+<dd>
+<a href="cav06-ca.pdf">PDF</a>.
+<br/><p>
+</p></dd></dd></dd></li>
+<li>
+<b> Languages of nested trees </b>
+<dd> with
+ <a href="http://www.cis.upenn.edu/~alur/">Rajeev Alur</a>
+and  <a href="http://www.cis.upenn.edu/~swarat">Swarat Chaudhuri</a>.
+<dd> Computer Aided Verification (CAV), Seattle, USA, 2006.
+<dd>
+<a href="cav06-nt.pdf">PDF</a>.
+<br/><p>
+</p></dd></dd></dd></li>
+<li>
+<b> Adding Nesting Structure to Words </b>
+<dd> with
+ <a href="http://www.cis.upenn.edu/~alur/">Rajeev Alur</a>. 
+<dd> Developments in Language Theory (DLT), Santa Barbara, USA, 2006.
+<dd>
+<a href="dlt06.pdf">PDF</a>.
+<br/><p>
+</p></dd></dd></dd></li>
+<li>
+<b> Modular Strategies for Recursive Game Graphs </b>
+<dd> with
+ <a href="http://www.cis.upenn.edu/~alur/">Rajeev Alur</a> and
+ <a href="http://www.dia.unisa.it/professori/latorre/">Salvatore La Torre</a>.
+<dd><i>Theoretical Computer Science, Special Issue for TACAS 2003</i>
+<dd> Volume 354, Issue 2, 28 March 2006, Pages 230-249.
+<dd>
+<a href="tcs06-tacas03.pdf">PDF</a>; 
+<a href="http://dx.doi.org/10.1016/j.tcs.2005.11.017"> Link to journal article </a>
+<br/><p>
+</p></dd></dd></dd></dd></li>
+<li>
+<b>  A Fixpoint Calculus for Local and Global Program Flows </b>
+<dd> with
+ <a href="http://www.cis.upenn.edu/~alur/">Rajeev Alur</a> and
+ <a href="http://www.cis.upenn.edu/~swarat">Swarat Chaudhuri</a>.
+<dd> Principles of Programming Languages (POPL), Charleston, USA, 2006.
+<dd><a href="popl06.ps">Postscript</a>, <a href="popl06.pdf">PDF</a>.
+<br/><p>
+</p></dd></dd></dd></li>
+</dir>
+<h3> 2005 </h3>
+<dir>
+<li>
+<b> The MSO Theory  of Connectedly Communicating Processes </b>
+<dd> with
+ <a href="http://www.comp.nus.edu.sg/~yangsf//">Yang Shaofa</a> and
+ <a href="http://www.comp.nus.edu.sg/~thiagu/"> P.S. Thiagarajan</a>.
+<dd> Foundations of Software Technology and Theoretical Computer Science
+     (FSTTCS), 2005
+<dd><a href="fsttcs05.ps">Postscript</a>, <a href="fsttcs05.pdf">PDF</a>.
+<br/><p>
+</p></dd></dd></dd></li>
+<li>
+<b> Congruences for visibly pushdown languages </b>
+<dd> with
+ <a href="http://www.cis.upenn.edu/~alur/">Rajeev Alur</a>,
+ <a href="http://www.ews.uiuc.edu/~kumar/">Viraj Kumar</a> and
+ <a href="http://www.cs.uiuc.edu/directory/directory.php?name=viswanathan">Mahesh Viswanathan</a>.
+<dd> Int'l Coll. on Automata, Lang. and Prog. (ICALP), Lisboa, Portugal, 2005.
+<dd><a href="icalp05.ps">Postscript</a>, <a href="icalp05.pdf">PDF</a>.
+<br/><p>
+</p></dd></dd></dd></li>
+<li>
+<b>Symbolic Compositional Verification by Learning Assumptions</b>
+<dd> with
+ <a href="http://www.cis.upenn.edu/~alur/">Rajeev Alur</a> and
+ <a href="http://www.cis.upenn.edu/~wnam">Wonhong Nam</a>.
+<dd>Computer Aided Verification (CAV), Edinburgh, UK, 2005.
+<dd><a href="cav05.ps">Postscript</a>, <a href="cav05.pdf">PDF</a>.
+<br/><p>
+</p></dd></dd></dd></li>
+<li>
+<b> Symbolic Computational Techniques for Solving Games </b>
+<dd> with
+ <a href="http://www.cis.upenn.edu/~alur/">Rajeev Alur</a> and
+ <a href="http://www.cis.upenn.edu/~wnam">Wonhong Nam</a>.
+<dd> <i> Journal version of BMC 2003 paper, </i>
+<dd> International Journal on Software Tools for Technology Transfer (STTT)
+<dd> February, 2005,  <i> © Springer-Verlag </i>
+<dd>
+<a href="sttt-bmc03.ps">Postscript of prelim version</a>,
+<a href="http://Springerlink.metapress.com/openurl.asp?genre=article&amp;id=doi:10.1007/s10009-004-0179-0"> Paper on Springer's site </a><p>
+</p></dd></dd></dd></dd></dd></li>
+<li>
+<b> On-the-fly reachability and cycle detection for recursive state machines  </b>
+<br/>
+<dd> with
+ <a href="http://www.cis.upenn.edu/~alur/">Rajeev Alur</a>,
+ <a href="http://www.cis.upenn.edu/~swarat">Swarat Chaudhuri</a>, and 
+ <a href="http://homepages.inf.ed.ac.uk/kousha/">Kousha Etessami</a>.
+<dd><i>TACAS  2005, April 4-8, Edinburgh, UK. </i>
+<dd><a href="tacas05.ps">Postscript</a>
+<br/><p>
+</p></dd></dd></dd></li>
+<li>
+<b> Perturbed timed automata  </b>
+<br/>
+<dd> with
+ <a href="http://www.cis.upenn.edu/~alur/">Rajeev Alur</a> and
+ <a href="http://www.cis.upenn.edu/~latorre">Salvatore La Torre</a>.
+<dd><i> Hybrid Systems: Computation and Control (HSCC),</i>
+<dd><i> Zurich, Switzerland, 2005. </i>
+<dd><a href="hscc05.ps">Postscript</a>, <a href="hscc05.pdf">PDF</a>
+<br/><p>
+</p></dd></dd></dd></dd></li>
+<li>
+<b> Synthesis of Interface Specifications for Java Classes  </b>
+<br/><dd> (Version 2, July 2004: See the <a href="http://www.cis.upenn.edu/jist">
+JIST </a> page)
+<dd> with
+ <a href="http://www.cis.upenn.edu/~alur/">Rajeev Alur</a>,
+ <a href="http://www.cis.upenn.edu/~cernyp/">Pavol Cerny</a>
+ and <a href="http://www.cis.upenn.edu/~wnam/">Wonhong Nam</a>.
+<dd><i> 32nd ACM SIGPLAN-SIGACT Symp. on Principles of
+Prog. Languages,<br/>
+<dd>        POPL 2005, Long Beach, California, USA, Jan 2005.</dd></i>
+<dd><a href="popl05.ps">Postscript</a>, <a href="popl05.pdf">PDF</a>
+<br/><p>
+</p></dd></dd></dd></dd></li>
+</dir>
+<h3> 2004 </h3>
+<dir>
+<li>
+<b> Visibly pushdown games </b>
+<dd> with
+ <a href="http://www-i7.informatik.rwth-aachen.de/~loeding/">Christof Loeding</a> and
+ <a href="http://www.liafa.jussieu.fr/~serre/">Olivier Serre</a>.
+
+<dd><i>Foundations of Software Tech. and Theoretical Comp. Sc. (FSTTCS),</i>
+<dd><i>Chennai, India, 2004.</i>
+<dd>
+<a href="vpgames.ps">Postscript</a>
+<p>
+</p></dd></dd></dd></dd></li>
+<li>
+<b> Decision problems for timed automata: A Survey </b>
+<dd> with
+ <a href="http://www.cis.upenn.edu/~alur/">Rajeev Alur</a>
+<dd><i>4th Int'l School Formal Methods for the design of <br/>
+<dd>computer, communication and software systems: Real Time (SFM-04:RT), 
+<dd>Bertinoro, Italy, 2004. 
+     LNCS © Springer-Verlag </dd></dd></i>
+<dd>
+<a href="tasurvey04.ps">Postscript</a>
+<p>
+</p></dd></dd></dd></li>
+<li>
+<b> Optimal Reachability for Weighted Timed Games </b>
+<dd> with
+ <a href="http://www.cis.upenn.edu/~alur/">Rajeev Alur</a> and 
+  Mikhail Bernadsky.
+<dd><i>ICALP, 31st Int'l Colloquium on Automata, Languages and Programming,</i>
+<dd><i>Turku, Finland, 2004.</i>
+     LNCS © Springer-Verlag
+<dd>
+<a href="pubs.html#icalp04">Abstract</a>,  
+<a href="icalp04.pdf">PDF</a>
+<p>
+</p></dd></dd></dd></dd></li>
+<li>
+<b> Visibly pushdown languages </b>
+<dd> with
+ <a href="http://www.cis.upenn.edu/~alur/">Rajeev Alur</a>.
+<dd><i>STOC, Symp. on Theory of Computing, Chicago, USA, 2004.</i>
+<dd>
+<a href="pubs.html#stoc04">Abstract</a>,  
+<a href="stoc04.pdf">PDF</a>
+<p>
+</p></dd></dd></dd></li>
+<li>
+<b> A Temporal Logic for Nested Calls and Returns </b>
+<dd> with
+ <a href="http://www.cis.upenn.edu/~alur/">Rajeev Alur</a> and
+ <a href="http://homepages.inf.ed.ac.uk/kousha/">K. Etessami</a>.
+<dd><i>TACAS, Barcelona, Spain, 2004.</i>
+     LNCS © Springer-Verlag
+<dd>
+<a href="pubs.html#tacas04">Abstract</a>,  
+<a href="tacas04.ps">Postscript</a>
+<p>
+</p></dd></dd></dd></li>
+</dir>
+<h3> 2003 </h3>
+<dir>
+<li>
+<b> Playing Games with Boxes and Diamonds </b>
+<dd> with
+ <a href="http://www.cis.upenn.edu/~alur/">Rajeev Alur</a> and
+ <a href="http://www.cis.upenn.edu/~latorre">Salvatore La Torre</a>.
+<dd><i>CONCUR, Marseilles, France, 2003, </i>
+     LNCS
+© Springer-Verlag
+<dd>
+<a href="pubs.html#concur03">Abstract</a>,  
+<a href="concur03.ps">Postscript</a>
+<p>
+</p></dd></dd></dd></li>
+<li>
+<b> Symbolic Computational Techniques for Solving Games </b>
+<dd> with
+ <a href="http://www.cis.upenn.edu/~alur/">Rajeev Alur</a> and
+ <a href="http://www.cis.upenn.edu/~wnam">Wonhong Nam</a>.
+<dd><i>Bounded Model Checking Workshop, Boulder, Colorado, USA, 2003, </i>
+<dd> Electronic Notes in Theoretical Computer Science, Vol 89, Issue 4.
+<dd>
+<a href="pubs.html#bmc03">Abstract</a>,  
+<a href="bmc03.ps">Postscript</a>, 
+<a href="bmc03.pdf">PDF</a>
+<p>
+</p></dd></dd></dd></dd></li>
+<li>
+<b> Modular Strategies for Infinite Games on Recursive Graphs </b>
+<dd> with
+ <a href="http://www.cis.upenn.edu/~alur/">Rajeev Alur</a> and
+ <a href="http://www.cis.upenn.edu/~latorre">Salvatore La Torre</a>.
+<dd><i>CAV, Boulder, Colorado, USA, 2003, </i>
+     LNCS
+© Springer-Verlag
+<dd>
+<a href="pubs.html#cav03a">Abstract</a>,  
+<a href="cav03a.ps">Postscript</a>
+<p>
+</p></dd></dd></dd></li>
+<li>
+<b> Timed Control with Partial Observability </b>
+<dd> with
+ <a href="http://www.cmi.ac.in/~deepak">Deepak D'Souza</a>,
+ <a href="http://www.lsv.ens-cachan.fr/~bouyer/">Patricia Bouyer</a> and
+ <a href="http://www.lsv.ens-cachan.fr/~petit/">Antoine Petit</a>.
+<dd><i>CAV, Boulder, Colorado, USA, 2003, </i>
+     LNCS
+© Springer-Verlag
+<dd>
+<a href="pubs.html#cav03b">Abstract</a>,  
+<a href="cav03b.ps">Postscript</a>
+<p>
+</p></dd></dd></dd></li>
+<li>
+<b> Model-checking Trace Event Structures </b>
+<dd>
+<i>LICS, Ottawa, Canada, 2003, </i>
+     © IEEE
+<dd>
+<a href="pubs.html#lics03">Abstract</a>,  
+<a href="lics03.ps">Postscript</a>
+<p>
+</p></dd></dd></li>
+<li>
+<b> Modular Strategies for Recursive Game Graphs </b>
+<dd> with
+ <a href="http://www.cis.upenn.edu/~alur/">Rajeev Alur</a> and
+ <a href="http://www.cis.upenn.edu/~latorre">Salvatore La Torre</a>.
+<dd><i>9th TACAS, Warsaw, Poland, 2003, </i>
+     LNCS
+© Springer-Verlag
+<dd>
+<a href="pubs.html#tacas03">Abstract</a>,  
+<a href="tacas03.ps">Postscript</a>
+<p>
+</p></dd></dd></dd></li>
+</dir>
+<h3> 2002 </h3>
+<dir>
+<li>
+<b> Dynamic Message Sequence Charts </b>
+<dd> with
+ <a href="http://user.it.uu.se/~leucker/">Martin Leucker</a> and
+ <a href="http://www.cis.upenn.edu/~supratik">Supratik Mukhopadhyay</a>.
+<dd><i>22nd FSTTCS, Kanpur, India, 2002, </i>
+<a href="http://link.Springer.de/link/service/series/0558/tocs.htm">
+     LNCS</a>
+© Springer-Verlag
+<dd>
+<a href="pubs.html#fst02">Abstract</a>,  
+<a href="fst02.ps">Postscript</a>
+<p>
+</p></dd></dd></dd></li>
+<li>
+<b> A Decidable Class of Asynchronous Distributed Controllers </b>
+<dd> with 
+  <a href="http://www.cmi.ac.in/~pst">P.S. Thiagarajan</a>.
+<dd><i>CONCUR, Brno, Czech Republic, 2002, </i>
+LNCS 2421 © Springer-Verlag
+<dd>
+<a href="pubs.html#concur02">Abstract</a>,  
+<a href="concur02.ps">Postscript</a>
+<p>
+</p></dd></dd></dd></li>
+<li>
+<b> Timed Control Synthesis for External Specifications </b>
+<dd>
+with <a href="http://www.cmi.ac.in/~deepak">Deepak D'Souza</a>, CMI.
+<dd><i>STACS, Antibes - Juan les Pins, France, 2002, </i>
+<dd><i><a href="http://link.Springer.de/link/service/series/0558/tocs/t2285.htm">
+     LNCS 2285</a>
+© Springer-Verlag</i>
+<dd>
+<a href="pubs.html#stacs02">Abstract</a>,  
+      <a href="stacs02.ps">Postscript</a>
+<p>
+</p></dd></dd></dd></dd></li>
+<li>
+<b> Branching-time controllers for discrete event systems </b>
+<dd>
+with <a href="http://www.cmi.ac.in/~pst">P.S. Thiagarajan</a>, CMI.
+<dd><i> CONCUR  1998 Special Issue,
+     <a href="http://www.elsevier.nl/locate/tcs">Theoretical Computer
+       Science</a>,
+<dd>
+       274 1-2 (2002)</dd></i>
+       © Elsevier Sceince
+<dd>
+<a href="pubs.html#tcs02">Abstract</a>,  
+    <a href="tcsconcur98.ps">Postscript</a>, 
+    <a href="tcsconcur02.pdf">PDF</a> (actual journal version)
+<p>
+</p></dd></dd></dd></li>
+</dir>
+<h3> 2001 </h3>
+<dir>
+<li>
+<b> Control and Synthesis of Open Reactive Systems </b>
+<dd>
+<i>PhD thesis, November 2001</i>
+<dd>
+<a href="pubs.html#phd">Abstract</a>,  
+    <a href="control.ps">Postscript</a>
+<p>
+</p></dd></dd></li>
+<li>
+<b> Beyond Message Sequence Graphs </b>
+<dd> with
+ <a href="http://www.imsc.ernet.in/~bmeena">B. Meenakshi</a>.
+<dd><i>21st FSTTCS, Bangalore, India, 2001, </i>
+<a href="http://link.Springer.de/link/service/series/0558/tocs/t2245.htm">
+     LNCS 2245</a>
+© Springer-Verlag
+<dd>
+<a href="pubs.html#fst01">Abstract</a>,  
+     <a href="fst01.ps">Postscript</a>
+<p>
+</p></dd></dd></dd></li>
+<li>
+<b> Reasoning about Sequential and Branching Behaviours of
+    Message Sequence Graphs </b>
+<dd>
+<i>28th ICALP, Crete, Greece, 2001, </i>
+<a href="http://link.Springer.de/link/service/series/0558/tocs/t2076.htm">
+     LNCS 2076</a>
+© Springer-Verlag
+<dd>
+<a href="pubs.html#icalp01b">Abstract</a>,  
+     <a href="icalp01b.ps">Postscript</a>
+<p>
+</p></dd></dd></li>
+<li>
+<b> Distributed Controller Synthesis for Local Specifications </b>
+<dd> with 
+ <a href="http://www.cmi.ac.in/~pst">P.S. Thiagarajan</a>.
+<dd><i>28th ICALP, Crete, Greece, 2001, </i>
+<a href="http://link.Springer.de/link/service/series/0558/tocs/t2076.htm">
+     LNCS 2076</a>
+© Springer-Verlag
+<dd>
+<a href="pubs.html#icalp01a">Abstract</a>,  
+     <a href="icalp01a.ps">Postscript</a>
+<p>
+</p></dd></dd></dd></li>
+</dir>
+<h3> Before 2000 </h3>
+<dir>
+<li>
+<b> Open systems in reactive environments: Control and Synthesis </b>
+<dd> with 
+ <a href="http://www.cs.huji.ac.il/~orna/"> Orna Kupferman,
+ </a><a href="http://www.cmi.ac.in/~pst">P.S. Thiagarajan</a>, 
+ <a href="http://www.cs.rice.edu/~vardi">Moshe Vardi</a>.
+<dd><i> 11th CONCUR, Penn. State Univ., USA, 2000, </i>
+<a href="http://link.Springer.de/link/service/series/0558/tocs/t1877.htm">
+     LNCS 1877</a>
+© Springer-Verlag
+<dd>
+<a href="pubs.html#concur00">Abstract</a>,  
+     <a href="concur00.ps">Postscript</a>
+<p>
+</p></dd></dd></dd></li>
+<li>
+<b> Controllers for discrete event systems via morphisms </b>
+<dd>
+with <a href="http://www.cmi.ac.in/~pst">P.S. Thiagarajan</a>, CMI.
+<dd><i>
+9th CONCUR, Nice, France, 1998, </i>
+<a href="http://link.Springer.de/link/service/series/0558/tocs/t1466.htm">
+     LNCS 1466</a>
+© Springer-Verlag
+<dd>
+<a href="pubs.html#concur98">Abstract</a>,  
+     <a href="concur98.ps">Postscript</a>
+<p>
+</p></dd></dd></dd></li>
+<li>
+<b> On-the-fly verification of Product-LTL </b>
+<dd>
+with <a href="http://www.cmi.ac.in/~deepak">Deepak D'Souza</a>, CMI.
+<dd><i>
+National Seminar on Theoretical Computer Science, Madras, June  1997.</i>
+<dd>
+<a href="pubs.html#nstcs97">Abstract</a>,  
+        <a href="nstcs97.ps">Postscript</a>
+<p>
+</p></dd></dd></dd></li>
+<li>
+<b>An on-the-fly algorithm for linear-time temporal logic </b>
+<dd>
+<i>M.Sc. thesis, 1994 </i>
+<dd>
+<a href="pubs.html#mscthesis">Abstract</a>,  
+        <a href="mscthesis.ps">Postscript</a>
+<p>
+</p></dd></dd></li>
+</dir>
+<hr noshade="" width="25%"/>
+<p>
+</p><hr noshade=""/>
+<br/>
+<!-- 
+<li>
+<!-b> Query Automata for Nested Words </b>
+<dd> with
+ <a href="http://www.cs.uiuc.edu/homes/vmahesh/">Mahesh Viswanathan</a>.
+<dd> Under Submission
+<dd>
+<a href=vpquery.pdf>PDF</a>.
+<br><p>
+-->
+<meta content="madhusudan, madhu, uiuc, formal methods, verification, automata, visibly pushdown, nested words, getafix, parthasarathy, recursion, upcrc" name="keywords"/>
+<div id="Menu">
+<img src="madhusudan.jpg" width="175,"/>
+<br/>
+<p>
+<strong> Professor </strong>
+<br/>
+<a href="http://www.cs.illinois.edu/">Computer Science</a><br/>
+<a href="http://illinois.edu/">University of Illinois at <br/> Urbana-Champaign</a><br/>
+<img align="center" src="email.gif"/> <br/>
+<img align="center" src="email2.gif"/> <br/>
+<a href="http://www.oakland.edu/enp/" title="--&gt;Moshe Vardi--&gt;Joel Spencer--&gt;Paul Erdos">Erdos number = 3</a><br/>
+<i>Assistant:</i> <a href="https://cs.illinois.edu/directory/profile/sdsmith3">Samantha Smith</a><br/>
+</p><dir>
+<li> <a href="index.html">Home</a></li>
+<li> <a href="research.html">Research</a></li>
+<li> <a href="pub.html">Publications</a></li>
+<dir>
+<li> <a href="http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/m/Madhusudan:P=.html">DBLP</a></li>
+<li> <a href="https://scholar.google.com/citations?user=V828uG8AAAAJ">G Scholar</a></li>
+<li> <a href="https://www.semanticscholar.org/author/P.-Madhusudan/5085067">Sem Scholar</a></li>
+</dir>
+<li> <a href="cv.pdf">Curriculum vitae</a></li>
+<li> <a href="coauthors.html">My coauthors</a></li>
+<li> <a href="contact.html">Co-ordinates</a></li>
+</dir>
+</div>
+
+
+</div></div></body>
+</html>

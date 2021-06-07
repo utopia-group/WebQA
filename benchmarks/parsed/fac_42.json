@@ -1,0 +1,654 @@
+{
+    "id": 0,
+    "content": "Xavier Rival",
+    "children": [
+        {
+            "id": 1,
+            "content": "Xavier Rival",
+            "key": 1
+        },
+        {
+            "id": 2,
+            "content": "Home",
+            "key": 2
+        },
+        {
+            "id": 3,
+            "content": "Research interests",
+            "key": 3
+        },
+        {
+            "id": 4,
+            "content": "Publications",
+            "key": 4
+        },
+        {
+            "id": 5,
+            "content": "Software",
+            "key": 5
+        },
+        {
+            "id": 6,
+            "content": "Projects",
+            "key": 6
+        },
+        {
+            "id": 7,
+            "content": "Current students",
+            "key": 7
+        },
+        {
+            "id": 8,
+            "content": "Past students",
+            "key": 8
+        },
+        {
+            "id": 9,
+            "content": "Teaching",
+            "key": 9
+        },
+        {
+            "id": 10,
+            "content": "Contact",
+            "key": 10
+        },
+        {
+            "id": 11,
+            "content": "More",
+            "key": 11
+        },
+        {
+            "id": 12,
+            "content": "Xavier Rival",
+            "key": 12,
+            "children": [
+                {
+                    "id": 13,
+                    "content": "Research Director at INRIA Paris-Rocquencourt (Directeur de Recherche, DR 2)",
+                    "key": 1
+                },
+                {
+                    "id": 14,
+                    "content": "Head of the ANTIQUE (ANalyste staTIQUE) Project-Team",
+                    "key": 2,
+                    "children": [
+                      {
+                        "id": 15,
+                        "content": "(formerly Abstraction Project-Team)",
+                        "key": 1
+                      },
+                      {
+                        "id": 16,
+                        "content": "Recent and upcoming events",
+                        "isList": true,
+                        "key": 2,
+                        "children": [
+                          {
+                            "id": 17,
+                            "content": "Semantic-Directed Clumping of Disjunctive Abstract States, ACM Symposium on Principles of Programming Languages (POPL 2017), 2017 (VM).",
+                            "key": 1
+                          },
+                          {
+                            "id": 18,
+                            "content": "SAS 2016, Edinburgh, September 2016 (PC Chair)",
+                            "key": 2
+                          },
+                          {
+                            "id": 19,
+                            "content": "APLAS 2015, Pohang, South Korea, December 2015 (Program Committee)",
+                            "key": 3
+                          },
+                          {
+                            "id": 20,
+                            "content": "SAS 2014, Münich, Germany, September 2014 (Program Committee)",
+                            "key": 4
+                          },
+                          {
+                            "id": 21,
+                            "content": "VMCAI 2014, San Diego, USA, January 2014 (Program Committe Co-Chair)",
+                            "key": 5
+                          },
+                          {
+                            "id": 22,
+                            "content": "POPL 2014, San Diego, USA, January 2014 (Program Committee)",
+                            "key": 6
+                          }
+                        ]
+                      },
+                      {
+                        "id": 23,
+                        "content": "Research interests",
+                        "key": 3,
+                        "children": [
+                          {
+                            "id": 24,
+                            "content": "I am working on static analysis for the verification of semantic properties of programs. My main focus is on abstract interpretation and more specifically on symbolic abstractions:",
+                            "key": 1
+                          },
+                          {
+                            "id": 25,
+                            "content": "",
+                            "isList": true,
+                            "key": 2,
+                            "children": [
+                              {
+                                "id": 26,
+                                "content": "Static Analysis of embedded, safety critical software   the Astrée project: static analysis, for proving the absence of runtime errors in safety critical embedded software.   Commercial support by AbsInt (see here for more info).",
+                                "key": 1
+                              },
+                              {
+                                "id": 27,
+                                "content": "",
+                                "key": 2,
+                                "children": [
+                                  {
+                                    "id": 28,
+                                    "content": "Shape analysis",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 29,
+                                    "content": "",
+                                    "isList": true,
+                                    "key": 2,
+                                    "children": [
+                                      {
+                                        "id": 30,
+                                        "content": "MemCAD ERC Project",
+                                        "key": 1
+                                      },
+                                      {
+                                        "id": 31,
+                                        "content": "the Xisa analyzer",
+                                        "key": 2
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 32,
+                                "content": "Certified Compilation   the Lcertify translation validator",
+                                "key": 3
+                              },
+                              {
+                                "id": 33,
+                                "content": "Abstract Interpretation",
+                                "key": 4
+                              },
+                              {
+                                "id": 34,
+                                "content": "Slicing, dependence semantics",
+                                "key": 5
+                              },
+                              {
+                                "id": 35,
+                                "content": "Verification of Spreadsheet Applications",
+                                "key": 6
+                              },
+                              {
+                                "id": 36,
+                                "content": "Static Analysis of JavaScript Software",
+                                "key": 7
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": 37,
+                        "content": "Software",
+                        "isList": true,
+                        "key": 4,
+                        "children": [
+                          {
+                            "id": 38,
+                            "content": "MemCAD static analyzer, as part of the MemCAD ERC Project.",
+                            "key": 1
+                          },
+                          {
+                            "id": 39,
+                            "content": "Astrée static analyzer.",
+                            "key": 2
+                          },
+                          {
+                            "id": 40,
+                            "content": "LCertify translation validator library.",
+                            "key": 3
+                          }
+                        ]
+                      },
+                      {
+                        "id": 41,
+                        "content": "Projects",
+                        "isList": true,
+                        "key": 5,
+                        "children": [
+                          {
+                            "id": 42,
+                            "content": "MemCAD ERC Project (ERC Starting Grant).",
+                            "key": 1
+                          },
+                          {
+                            "id": 43,
+                            "content": "MBAT.",
+                            "key": 2
+                          },
+                          {
+                            "id": 44,
+                            "content": "Astrée.",
+                            "key": 3
+                          },
+                          {
+                            "id": 45,
+                            "content": "AstréeA.",
+                            "key": 4
+                          },
+                          {
+                            "id": 46,
+                            "content": "ANR VerAsCo.",
+                            "key": 5
+                          },
+                          {
+                            "id": 47,
+                            "content": "ANR AnaStaSec.",
+                            "key": 6
+                          }
+                        ]
+                      },
+                      {
+                        "id": 48,
+                        "content": "Current PhD students",
+                        "key": 6,
+                        "children": [
+                          {
+                            "id": 49,
+                            "content": "Hugo Illous, PhD Student at CEA and ENS Paris, co-supervised with Matthieu Lemerre.",
+                            "isList": true,
+                            "key": 1
+                          }
+                        ]
+                      },
+                      {
+                        "id": 50,
+                        "content": "Past PhD students",
+                        "isList": true,
+                        "key": 7,
+                        "children": [
+                          {
+                            "id": 51,
+                            "content": "Tie Cheng, PhD at ENS Paris, graduated in September 2015. Founder and CEO of MatrixLead.",
+                            "key": 1
+                          },
+                          {
+                            "id": 52,
+                            "content": "Arlen Cox, PhD at University of Colorado at Boulder and ENS Paris, co-advised with Bor-Yuh Evan Chang, graduated in November 2014. Researcher in Formal Methods.",
+                            "key": 2
+                          },
+                          {
+                            "id": 53,
+                            "content": "Huisong Li, PhD at ENS Paris, graduated in March 2018. Developer at TrustInSoft.",
+                            "key": 3
+                          },
+                          {
+                            "id": 54,
+                            "content": "Jiangchao Liu, PhD at ENS Paris, graduated in February 2018. Assistant Professor at NUDT.",
+                            "key": 4
+                          }
+                        ]
+                      },
+                      {
+                        "id": 55,
+                        "content": "Teaching",
+                        "isList": true,
+                        "key": 8,
+                        "children": [
+                          {
+                            "id": 56,
+                            "content": "I teach a part of the Semantics and application to verification Course, in the first year of the Computer Science Curriculum at ENS of Paris.",
+                            "key": 1
+                          },
+                          {
+                            "id": 57,
+                            "content": "I teach a part of the Abstract Interpretation course, at the Master Parisien de Recherche en Informatique (MPRI) Master.",
+                            "key": 2
+                          },
+                          {
+                            "id": 58,
+                            "content": "I teach a part of the Protocol Safety and Verification, at the Advanced Computer Network Master",
+                            "key": 3
+                          },
+                          {
+                            "id": 59,
+                            "content": "I teach a part of the Program Verification, Experimental Course in the third year of the École Polytechnique",
+                            "key": 4
+                          },
+                          {
+                            "id": 60,
+                            "content": "I teach the lecture on \"Programmation Avancée\" (Advanced Programming) in the second year of the École Polytechnique",
+                            "key": 5
+                          }
+                        ]
+                      },
+                      {
+                        "id": 61,
+                        "content": "Address and contact information",
+                        "key": 9,
+                        "children": [
+                          {
+                            "id": 62,
+                            "content": "DI - Ecole Normale Supérieure   45, rue d'Ulm   75230 Paris Cedex 05 - France",
+                            "key": 1
+                          },
+                          {
+                            "id": 63,
+                            "content": "E-mail: rival A T di.ens.fr   Bureau: 2nd étage, \"escalier de la direction\", see the map   Phone: +33 1 44 32 21 50   Fax: +33 1 44 32 20 80",
+                            "key": 2
+                          }
+                        ]
+                      },
+                      {
+                        "id": 64,
+                        "content": "More information about me",
+                        "key": 10,
+                        "children": [
+                          {
+                            "id": 65,
+                            "content": "Photography",
+                            "isList": true,
+                            "key": 1
+                          },
+                          {
+                            "id": 66,
+                            "content": "Xavier Rival",
+                            "key": 2
+                          },
+                          {
+                            "id": 67,
+                            "content": "Home",
+                            "key": 3
+                          },
+                          {
+                            "id": 68,
+                            "content": "Research interests",
+                            "key": 4
+                          },
+                          {
+                            "id": 69,
+                            "content": "Publications",
+                            "key": 5
+                          },
+                          {
+                            "id": 70,
+                            "content": "Software",
+                            "key": 6
+                          },
+                          {
+                            "id": 71,
+                            "content": "Projects",
+                            "key": 7
+                          },
+                          {
+                            "id": 72,
+                            "content": "Current students",
+                            "key": 8
+                          },
+                          {
+                            "id": 73,
+                            "content": "Past students",
+                            "key": 9
+                          },
+                          {
+                            "id": 74,
+                            "content": "Contact",
+                            "key": 10
+                          },
+                          {
+                            "id": 75,
+                            "content": "More",
+                            "key": 11
+                          }
+                        ]
+                      }
+                    ]
+                }
+            ]
+        },
+      {
+        "id": 76,
+        "content": "Xavier Rival's publications",
+        "isList": true,
+        "key": 13,
+        "children": [
+          {
+            "id": 77,
+            "content": "A Relational Shape Abstract Domain. Hugo Illous, Matthieu Lemerre and Xavier Rival. In Nasa Formal Methods Symposium (NFM 2017).",
+            "key": 1
+          },
+          {
+            "id": 78,
+            "content": "Semantic-Directed Clumping of Disjunctive Abstract States, ACM Symposium on Principles of Programming Languages (POPL 2017), 2017 Huisong Li, Francois Berenger, Bor-Yuh Evan Chang and Xavier Rival. In Principles Of Programming Languages 2017 (POPL 2017), Paris, Jan. 2017. (VM).",
+            "key": 2
+          },
+          {
+            "id": 79,
+            "content": "Proceedings of the Static Analysis Symposium (SAS 2016). Xavier Rival. September 2016. Srpinger.",
+            "key": 3
+          },
+          {
+            "id": 80,
+            "content": "An array content static analysis based on non-contiguous partitions. Jiangchao Liu and Xavier Rival. In Computers, Languages, Systems and Structures, January 2016, Elsevier. [.pdf]",
+            "key": 4
+          },
+          {
+            "id": 81,
+            "content": "Proceedings of the Workshop on the State Of the Art in Program Analysis (SOAP 2016) Charles Zhang and Xavier Rival. June 2016. ACM Sigplan.",
+            "key": 5
+          },
+          {
+            "id": 82,
+            "content": "Abstraction of Optional Numerical Values. Jiangchao Liu and Xavier Rival. In Asian Conference on Programming Languages And Software (APLAS 2015), Pohang (South Korea), December 2015, Lecture Notes in Computer Science 9458, pages 146--166, Springer. [.pdf]",
+            "key": 6
+          },
+          {
+            "id": 83,
+            "content": "Abstract Domains and Solvers for Sets Reasoning. Arlen Cox, Bor-Yuh Evan Chang, Huisong Li and Xavier Rival. In Logic for Programming, Artificial Intelligence, and Reasoning (LPAR 2015), Suva (Fidji), December 2015, Lecture Notes in Computer Science 9450, pages 356--371, Springer. [.pdf]",
+            "key": 7
+          },
+          {
+            "id": 84,
+            "content": "Shape Analysis for Unstructured Sharing. Huisong Li, Xavier Rival, Bor-Yuh Evan Chang. In Static Analysis Symposium (SAS 2015), Saint-Malo (France), September 2015, Lecture Notes in Computer Science 9291, pages 90--108, Springer. [.pdf]",
+            "key": 8
+          },
+          {
+            "id": 85,
+            "content": "Desynchronized Multi-State Abstractions for Open Programs in Dynamic Languages. Arlen Cox, Bor-Yuh Evan Chang and Xavier Rival. In European Symposium On Programming (ESOP 2015), London (UK), April 2015. [.pdf] (to appear).",
+            "key": 9
+          },
+          {
+            "id": 86,
+            "content": "Static Analysis of Spreadsheet Applications for the Detection of Type Unsafe Operations. Tie Cheng and Xavier Rival, In European Symposium On Programming (ESOP 2015), London (UK), April 2015. [.pdf] (to appear).",
+            "key": 10
+          },
+          {
+            "id": 87,
+            "content": "Abstraction of Arrays Based on Non-Contiguous Partitions. Jiangchao Liu and Xavier Rival, In Conference on Verification, Model Checking and Abstract Interpretation (VMCAI 2015), Mumbai (India), January 2015, Lecture Notes in Computer Science 8931, pages 375--395, Springer. [.pdf].",
+            "key": 11
+          },
+          {
+            "id": 88,
+            "content": "Construction of Abstract Domains for Heterogeneous Properties. Antoine Toubhans, Bor-Yuh Evan Chang and Xavier Rival, In International Symposium On Leveraging Applications of Formal Methods, Verification and Validation (ISOLA 2014), Corfu (Greece), October 2014, Lecture Notes in Computer Science 8803, pages 489--492, Springer. [.pdf].",
+            "key": 12
+          },
+          {
+            "id": 89,
+            "content": "Automatic Analysis of Open Objects in Dynamic Language Programs. Arlen Cox, Bor-Yuh Evan Chang and Xavier Rival, In Static Analysis Symposium (SAS 2014), Muenchen (Germany), September 2014, Lecture Notes in Computer Science 8723, pages 285--301, Springer. [.pdf].",
+            "key": 13
+          },
+          {
+            "id": 90,
+            "content": "An Abstract Domain Combinator for Separately Conjoining Memory Abstractions. Antoine Toubhans, Bor-Yuh Evan Chang and Xavier Rival, In Static Analysis Symposium (SAS 2014), Muenchen (Germany), September 2014, Lecture Notes in Computer Science 8723, pages 285--301, Springer. [.pdf].",
+            "key": 14
+          },
+          {
+            "id": 91,
+            "content": "Modular Construction of Shape-Numeric Analyzers. Bor-Yuh Evan Chang and Xavier Rival, In Festschrift for Dave Schmidt, Manhattan (Kansas, USA), September 2013, Electronic Proceedings in Theoretical Computer Science 129, pages 161--185, EPTCS. [.pdf].",
+            "key": 15
+          },
+          {
+            "id": 92,
+            "content": "Reduced Product Combination of Abstract Domains for Shapes. Antoine Toubhans, Bor-Yuh Evan Chang and Xavier Rival. In Verification, Model Checking and Abstract Interpretation 2013 (VMCAI 2013). [.pdf]",
+            "key": 16
+          },
+          {
+            "id": 93,
+            "content": "Hierarchical Abstraction of Dynamic Structures. Pascal Sotin and Xavier Rival. In Asian Conference on Programming Languages And Software 2012. [.pdf]",
+            "key": 17
+          },
+          {
+            "id": 94,
+            "content": "An Abstract Domain to Infer Types over Zones in Spreadsheets. Tie Cheng and Xavier Rival. In Static Analysis Symposium (SAS 2012). [.pdf]",
+            "key": 18
+          },
+          {
+            "id": 95,
+            "content": "Abstract Domains for the Analysis of Programs Manipulating Complex Data-Structures. Xavier Rival. Habilitation Thesis. [.pdf]",
+            "key": 19
+          },
+          {
+            "id": 96,
+            "content": "Abstracting Calling Contexts with Shapes. Xavier Rival and Bor-Yuh Evan Chang. In Principles Of Programming Languages 2011 (POPL 2011). [.pdf]",
+            "key": 20
+          },
+          {
+            "id": 97,
+            "content": "Static Analysis by Abstract Interpretation of Embedded Critical Software. Julien Bertrane, Patrick Cousot, Radhia Cousot, Jéròme Feret, Laurent Mauborgne, Antoine Miné, and Xavier Rival. In Third IEEE International workshop UML and Formal Methods, 16 November 2010, Shanghai, China [.pdf]",
+            "key": 21
+          },
+          {
+            "id": 98,
+            "content": "Concrete Memory Models for Shape Analysis. Pascal Sotin, Bertrand Jeannet, and Xavier Rival. In The Second International Workshop on Numerical and Symbolic Abstract Domains (NSAD 2010), ENTCS. September 2010. [.pdf]",
+            "key": 22
+          },
+          {
+            "id": 99,
+            "content": "Astrée: Proving the Absence of Runtime Errors. Daniel Kaestner, Stephan Wilhelm, Stefana Nenova, Patrick Cousot, Radhia Cousot, Jérôme Feret, Laurent Mauborgne, Antoine Miné and Xavier Rival. In Embedded Real Time Software and Systems (ERTS 2010). [.pdf]",
+            "key": 23
+          },
+          {
+            "id": 100,
+            "content": "Static Analysis and Verification of Aerospace Software by Abstract Interpretation. Julien Bertrane, Patrick Cousot, Radhia Cousot, Jérôme Feret, Laurent Mauborgne, Antoine Min&eacute and Xavier Rival. In American Institute of Aeronautics and Astronautics (AIAA 2010). Copyright AIAA. [.pdf]",
+            "key": 24
+          },
+          {
+            "id": 101,
+            "content": "Analyse Statique par Interprétation Abstraite. Xavier Rival. In Technique des Sciences Informatiques. [.pdf]",
+            "key": 25
+          },
+          {
+            "id": 102,
+            "content": "Separating Shape Graphs. Vincent Laviron, Bor-Yuh Evan Chang and Xavier Rival. In European Symposium On Programming 2010 (ESOP 2010). [.pdf]",
+            "key": 26
+          },
+          {
+            "id": 103,
+            "content": "Why does Astrée scale up? Patrick Cousot, Radhia Cousot, Jérôme Feret, Laurent Mauborgne, Antoine Miné and Xavier Rival. In Formal Methods in System Design (FMSD), volume 35(3), pages 229-264, 2009. [.pdf]",
+            "key": 27
+          },
+          {
+            "id": 104,
+            "content": "Space Software Validation using Abstract Interpretation. Olivier Bouissou, Eric Conquet, Patrick Cousot, Radhia Cousot, Jérôme Feret, Khalil Ghorbal, Eric Goubault, David Lesens, Laurent Mauborgne, Antoine Miné, Sylvie Putot, Xavier Rival and Michel Turin. In DAta System In Aerospace (DASIA 2009). ESA 2009. [.pdf]",
+            "key": 28
+          },
+          {
+            "id": 105,
+            "content": "Relational Inductive Shape Analysis. Bor-Yuh Evan Chang and Xavier Rival. In Principles Of Programming Languages 2008 (POPL 2008). [.pdf]",
+            "isList": true,
+            "key": 29
+          },
+          {
+            "id": 106,
+            "content": "Trace Partitioning in Abstract Interpretation Based Static Analyzers. Xavier Rival and Laurent Mauborgne. In ACM Transactions On Programming Languages And Software (TOPLAS). July 2007. [.pdf]",
+            "key": 30
+          },
+          {
+            "id": 107,
+            "content": "Shape Analysis with Structural Invariant Checkers. Bor-Yuh Evan Chang, Xavier Rival and George Necula. In Static Analysis Symposium 2007 (SAS 2007). [.pdf]",
+            "key": 31
+          },
+          {
+            "id": 108,
+            "content": "Varieties of Static Analyzers: A Comparison with Astrée. Patrick Cousot, Radhia Cousot, Jérôme Feret, Laurent Mauborgne, Antoine Miné, David Monniaux, and Xavier Rival. In IFIP International Symposium on Theoretical Aspects of Software Engineering 2007 (TASE 2007). [.pdf]",
+            "key": 32
+          },
+          {
+            "id": 109,
+            "content": "Combination of Abstractions in the Astrée static analyzer. Patrick Cousot, Radhia Cousot, Jérôme Feret, Laurent Mauborgne, Antoine Miné, David Monniaux, and Xavier Rival. In the 11th Annual Asian Comuting Science Conference (ASIAN 2006). [.pdf]",
+            "isList": true,
+            "key": 33
+          },
+          {
+            "id": 110,
+            "content": "Abstract Dependences for Alarm Diagnosis. Xavier Rival. In Asian Conference on Programming Languages And Software 2005 (APLAS 2005). Lecture Notes in Computer Science. [.pdf]",
+            "key": 34
+          },
+          {
+            "id": 111,
+            "content": "Traces Abstractions in Static Analysis and Program Transformations. Xavier Rival. PhD Thesis. [.pdf].",
+            "key": 35
+          },
+          {
+            "id": 112,
+            "content": "Understanding the Origin of Alarms in Astrée Xavier Rival. In Static Analysis Symposium (SAS) 2005 Lecture Notes in Computer Science. [.pdf]",
+            "key": 36
+          },
+          {
+            "id": 113,
+            "content": "Trace Partitioning in Abstract Interpretation Based Static Analyzers. Laurent Mauborgne and Xavier Rival. In European Symposium On Programming (ESOP) 2005 Lecture Notes in Computer Science. [.pdf]",
+            "key": 37
+          },
+          {
+            "id": 114,
+            "content": "The Astrée Analyzer. Patrick Cousot, Radhia Cousot, Jérôme Feret, Laurent Mauborgne, Antoine Miné, David Monniaux, Xavier Rival. In European Symposium On Programming (ESOP) 2005 Lecture Notes in Computer Science. [.pdf]",
+            "key": 38
+          },
+          {
+            "id": 115,
+            "content": "Invariant Translation-Based Certification of Assembly Code. Xavier Rival. In International Journal on Software and Tools for Technology Transfer Springer Verlag, 2004. [.pdf]",
+            "key": 39
+          },
+          {
+            "id": 116,
+            "content": "Symbolic Transfer Functions-based Approaches to Certified Compilation. Xavier Rival. In 31st Symposium on Principles of Programming Languages (POPL 202004), Venice, Jan. 2004 ACM. [.pdf]",
+            "key": 40
+          },
+          {
+            "id": 117,
+            "content": "A Static Analyzer for Large Safety-Critical Software. Bruno Blanchet, Patrick Cousot, Radhia Cousot, Jérôme Feret, Laurent Mauborgne, Antoine Miné, David Monniaux & Xavier Rival. In ACM Programming Language Design and Implementation (PLDI 2003). [.pdf]",
+            "key": 41
+          },
+          {
+            "id": 118,
+            "content": "Abstract Interpretation Based Certification of Assembly Code, Xavier Rival. In Proc. 4th International Conference on Verification, Model Checking and Abstract Interpretation (VMCAI 202003), New York, Jan. 2003 Lecture Notes in Computer Science. [.pdf]",
+            "key": 42
+          },
+          {
+            "id": 119,
+            "content": "Design and Implementation of a Special-Purpose Static Program Analyzer for Safety-Critical Real-Time Embedded Software, invited chapter. Bruno Blanchet, Patrick Cousot, Radhia Cousot, Jérôme Feret, Laurent Mauborgne, Antoine Miné, David Monniaux and Xavier Rival. In The Essence of Computation: Complexity, Analysis, Transformation. Essays Dedicated to Neil D. Jones, T. Mogensen and D.A. Schmidt and I.H. Sudborough (Editors). Lecture Notes in Computer Science 2566, Springer. [.pdf]",
+            "key": 43
+          },
+          {
+            "id": 120,
+            "content": "Proofnets and Context Semantics for the Additives. Harry Mairson and Xavier Rival. In Proc. Computer Science Logic (CSL 2002), Edinburgh, Scotland, Sep. 2002, Lecture Notes in Computer Science. Springer, 2002. [.pdf]",
+            "key": 44
+          },
+          {
+            "id": 121,
+            "content": "Experiments with finite tree automata in Coq. Xavier Rival and Jean Goubault-Larrecq. In Proc. 14th Int. Conf. Theorem Proving in Higher Order Logics (TPHOL 2001), Edinburgh, Scotland, Sep. 2001, Lecture Notes in Computer Science. Springer, 2001. [.pdf]",
+            "isList": true,
+            "key": 45
+          }
+        ]
+      }
+    ]
+}

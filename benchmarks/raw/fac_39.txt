@@ -1,0 +1,411 @@
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Zachary Ives</title>
+<!--mstheme--><link href="_themes/indust/theme.css" rel="stylesheet" type="text/css"/>
+<link href="http://fonts.googleapis.com/css?family=Marcellus" rel="stylesheet" type="text/css"/>
+<link href="http://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div class="bar">
+<table align="center" cellpadding="0" cellspacing="0">
+<tr>
+<td style="padding-left: 5px; padding-right: 5px"><a class="linkButton" href="#research">Research</a></td>
+<td style="padding-left: 5px; padding-right: 5px"><a class="linkButton" href="#teaching">Teaching</a></td>
+<td style="padding-left: 5px; padding-right: 5px"><a class="linkButton" href="#publications">Publications</a></td>
+<td style="padding-left: 5px; padding-right: 5px"><a class="linkButton" href="#students">Advisees &amp; Collaborators</a></td>
+<td style="padding-left: 5px; padding-right: 5px"><a class="linkButton" href="https://dbappserv.cis.upenn.edu/home/">DB Group</a></td>
+<!--<td style="padding-left: 5px; padding-right: 5px"><a href="http://mkse.upenn.edu" class="linkButton">NETS Program</a></td></tr>-->
+</tr></table>
+</div>
+<table cellspacing="0" width="100%">
+<tr>
+<td>
+<x-img alt="Photo" border="0" src="photos/photo-small.jpg"></x-img>
+<img alt="Photo" src="photos/photo-2009.jpg" style="border: 5px solid #eeeeee;" valign="top" width="200"/>
+</td>
+<td style="padding-right: 20px"><h1 align="right">Zachary G. Ives</h1>
+<p align="right" style="color: rgb(0,0,100);"><b>Adani President's Distinguished Professor and Department Chair<br/>
+<a href="http://www.cis.upenn.edu/" style="color: rgb(153,0,0); text-decoration: none; ">Computer &amp; Information Science Department</a><br/>
+<a href="http://www.upenn.edu/" style="color: rgb(153,0,0); text-decoration: none">University of Pennsylvania</a>
+</b></p>
+<p align="right" style="color: black;"><font size="-1">
+<!--
+Director and Undergraduate Chair, <a style="color: black;
+text-decoration: none" href="http://www.nets.upenn.edu/">Singh Program on Networked &amp; Social Systems (NETS)</a><br/>-->
+<a href="http://www.warrencenter.upenn.edu/" style="color: black; text-decoration: none">Warren Center for Network and Data Science</a><br/>
+<a href="http://cnt.upenn.edu" style="color: black;
+text-decoration: none;">Center for Neuroengineering and Therapeutics</a><br/>
+<a href="http://healthtech.upenn.edu" style="color: black;
+text-decoration: none;">Center for Health, Devices &amp; Technology</a><br/>
+Distinguished Research Fellow, <a href="http://www.annenbergpublicpolicycenter.org/" style="color: black;
+text-decoration: none">Annenberg Center for
+Public Policy</a></font></p>
+</td>
+</tr>
+</table>
+<p> </p>
+<table width="100%">
+<tr>
+<td align="left" valign="top" width="200">
+<h2>Contact Information</h2>
+<xfont size="-1">
+305 Levine Hall<br/>
+Computer and Information Science Department<br/>
+University of Pennsylvania<br/>
+3330 Walnut Street<br/>
+Philadelphia, PA 19104-6389<br/>
+zives<span style="display: visible">@</span>cis.upenn.edu<br/>
+(215) 746-2789    Fax: (215) 898-0587<br/>
+Twitter: <a href="https://twitter.com/zgives">@zgives</a><br/>
+<br/>
+<p align="left">
+Teaching <a href="http://www.cis.upenn.edu/~cis545/">Big Data Analytics</a><br/>
+Office Hours for the Spring: Wed 2:00-3:00</p>
+</xfont></td>
+<td width="10px"></td>
+<td align="left" valign="top" width="60%">
+<h2>Biographical Sketch</h2>
+<p><xfont size="-1">Zachary Ives is the Department Chair and Adani President's Distinguished Professor of Computer and Information
+Science at the University of Pennsylvania.
+He is a co-founder of <a href="http://www.blackfynn.com">Blackfynn, Inc.</a>, a company focused on enabling life sciences research and discovery through data integration.  Zack's research interests include data
+integration and sharing, managing "big data," sensor networks, and
+data provenance and authoritativeness. He is a recipient of the NSF
+CAREER award, and an alumnus of the DARPA Computer Science Study Panel
+and Information Science and Technology advisory panel.  He has
+also been awarded the Christian R. and Mary F. Lindback Foundation
+Award for Distinguished Teaching.  He is a
+co-author of the textbook <i>Principles of Data Integration</i>, and
+has received an ICDE 2013 ten-year Most Influential Paper award as well as the 2017 SWSA Ten-Year Award at the International Semantic Web Conference.  He has
+been an Associate Editor for Proceedings of the VLDB Endowment (2014) and
+a Program Co-Chair (2015) and Group Leader (2018) for the ACM SIGMOD conference.</xfont></p>
+</td>
+</tr>
+</table>
+<div id="main">
+<h2>CIS@Penn</h2>
+<p>Exciting things are happening in <a href="https://www.cis.upenn.edu/">Computer and Information Science at Penn</a>, as we continue to start revolutionary new projects, recruit new students and faculty, and continue on our period of high-speed growth.  Want to know more about the great things happening in the department?  Please check out our <a href="https://highlights.cis.upenn.edu">Highlights</a> site, and follow me on Twitter (<a href="https://twitter.com/zgives">@zgives</a>)!  Please also see our <a href="http://www.cis.upenn.edu/faculty-staff/index.php">faculty and lecturer ads</a>.</p>
+<div id="research">
+<a name="research">
+<h2>Research</h2>
+</a>
+<p>My research interests lie in building <b>data science tools</b>,
+using techniques at the intersection of databases, machine learning,
+and distributed systems.  I am interested in applications both to the
+Web and question answering, and to conducting data science.  I often
+work with life scientists (especially
+in <a href="http://www.pennprovenance.net">genetics</a> and
+<a href="https://www.ieeg.org">neuroscience</a>) to evaluate our
+techniques with real data and real hypotheses.</p>
+<p>The power of the Web and conventional search is limited, because
+Web search does not <i>reason</i> about relationships between facts.
+Question answering and data analysis systems need better techniques
+for <i>integrating</i> data from multiple sources, and reasoning about
+certainty.  Similarly, we are at still in the early stages of building
+the "right" tools for data science, that let us link data, rapidly
+pose and evaluate hypotheses, and ensure we have trustworthy
+results. I'm interested in questions such as:</p>
+<ul>
+<li>How do we tie together the world's data to answer key scientific or
+policy questions, when the connections between the data are ambiguous?</li>
+<li>How do we facilitate and foster large-scale
+collaborative projects involving updates to data, code, and visualization?</li>
+<li>How do we know when we can trust a data
+analysis result or an answer to a question?</li>
+</ul>
+<p>I am a member of the <a href="http://db.cis.upenn.edu">database</a>
+and <a href="http://www.cis.upenn.edu/systems">systems</a> research
+groups, the <a href="www.warrencenter.upenn.edu">Warren Center for
+Network and Data Science</a>, and
+the <a href="http://healthtech.upenn.edu">Center for Health, Devices,
+and Technology</a> at Penn.  My research projects relate to making it
+easier to exchange, locate, and analyze networked information.</p>
+<div class="projectb"><p><b>Facilitating Data Management and Reuse in Data Science.</b>
+    Today the predominant mode of interacting with data has changed: rather than working
+    with highly controlled, regularized databases, data scientists tend to work with a
+    variety of different data sources within <i>computational notebook</i> software such
+    as Jupyter Notebook and JupyterLab.  Such software allows for ad hoc discovery as well
+    as for the creation of sophisticated data analyses and machine learning models.  A key
+    issue becomes the <i>management</i> of the many data products (tables, dataframes, models)
+    produced; and there is a key opportunity to help new users understand prior best-practices
+    in using, importing, cleaning, extracting, and analyzing datasets.  The <a href="https://dbappserv.cis.upenn.edu/home/?q=node/259">Juneau</a> project
+    addresses these issues.  Funded by NSF III-1910108.
+</p></div>
+<div class="project"><p><b>Trustworthy Data Science.</b> For any type
+of data science computation, the "glue" that links results to how they
+were derived is <i>data provenance</i>.  Provenance explains the steps
+involved in the results, as well as what facts went into which conclusion.
+However, we need to develop better tools for collecting provenance in
+a convenient way; for reasoning about data's value given its provenance;
+for recommending related data; and broadly to
+assess <i>trustworthiness</i> of data analysis results.
+<a href="https://pennprovenance.net">Funded by NSF
+(CiCi) and NIH (BD2K Targeted Software)</a> and in collaboration
+with biologists at Penn, clinicians at UCSF, and computer scientists
+and computer engineers at U Memphis, Georgia Tech, and UCLA.</p></div>
+<div class="projectb"><b>Question Answering Over Integrated Data.</b>
+The <a href="https://dbappserv.cis.upenn.edu/home/?q=node/105">Q</a>
+query system addresses the challenges of <em>querying</em> in a system
+like Orchestra, when one does not know apriori where to find the most
+relevant data.  Q takes as input a keyword query, which it
+matches against schema elements to produce potential data integration
+queries.  The system returns answers from the most promising
+queries and takes <em>user feedback</em> on the results.  This
+feedback is used to <em>learn</em> which sources are most relevant to
+the <em> information need</em> that motivated the query.  Funded
+by NSF CAREER #<a href="orchestra/">IIS-0477972</a>, SEIII
+#IIS-0513778, and grants from Google.  We are now applying the lessons
+of the Q System to "the real world" with scientific data.</div>
+<div class="project"><p><b>Developing a Testbed for Data Science.</b> The <a href="http://www.ieeg.org">IEEG</a> Web
+  Portal, in collaboration with Prof. Brian Litt of Bioengineering and
+  Neurology, and Prof. Greg Worrell at Mayo Clinic, seeks to enable
+  community-scale data integration and cloud-hosted science for
+  epileptic seizure prediction (and beyond).  Beyond its scientific
+  applications, IEEG serves as a testbed for technologies from the Q
+  System and other data integration research.  As of Oct 2014 we have
+  over 1200 datasets and 450 users.  We have also hosted competitions for
+  <a href="http://kaggle.com/c/seizure-detection">epileptic seizure
+  detection</a>
+  and <a href="http://kaggle.com/c/seizure-prediction">epileptic seizure
+  prediction</a>.  Funded by NIH as well as grants from Amazon.</p>
+<p>This project has received a good deal of notice for its impact on data science:
+  </p><ul>
+<li><a href="http://www.kaggle.com/c/seizure-prediction/leaderboard/private">Seizure prediction</a> contest results (504 teams, 82% accuracy)</li>
+<li>NIH <a href="http://directorsblog.nih.gov/2015/01/20/epilepsy-research-benefits-from-the-crowd/">Director's blog</a></li>
+<li>American Epilepsy Society <a href="https://www.aesnet.org/sites/default/files/file_attach/Meeting/Crowdsourcing%20Advances%20Epileptic%20Seizure%20Detection%20and%20Prediction%20%281%29.pdf">press release</a></li>
+<li>Announcement of <a href="http://www.ninds.nih.gov/news_and_events/news_articles/pressrelease_epilepsy_challenge_12162014.htm">winners</a></li>
+<li><a href="http://www.sciencedaily.com/releases/2014/12/141206111241.htm">Science Daily: Crowdsourcing advances epileptic seizure detection, prediction</a></li>
+<li><a href="http://www.npr.org/blogs/health/2014/12/10/369654830/a-crowd-of-scientists-finds-a-better-way-to-predict-epileptic-seizures">NPR, A Crowd of Scientists Finds a Better Way to Predict Seizures</a></li>
+</ul>
+<!--
+<p>Some of the technologies from IEEG have been licensed to <a href="www.blackfynn.com">Blackfynn</a>, a company focused on supporting data analytics and team science for biomedical data.</p>-->
+</div>
+<!--
+<div class="projectb">
+These two projects, along with significant infrastructure for "pay as
+you go" data integration, are being combined into a platform we call
+Habitat.  See our <a href="http://www.cis.upenn.edu/~zives/research/in-situ.pdf">vision paper</a> for more details.
+</div>-->
+<p>Several prior projects have resulted in building blocks towards our ongoing work in supporting large-scale data integration and analysis.  These projects are no longer directly active, but their core ideas (and code) are part of our more recent projects:</p>
+<div class="project"><a href="https://dbappserv.cis.upenn.edu/home/?q=node/8">O<font size="-1">RCHESTRA</font></a> focuses on the problem of
+<i>collaborative data sharing</i>:  exchanging data and updates among loose confederations of
+databases, when the different database owners have different schemas and different ideas of what is the "right"
+content.  We have developed techniques to map data and updates among different 
+sites, maintain <em>data provenance</em>, and use the data provenance as the 
+basis of assessing <em>trust</em> and ultimately to resolve conflicts.  We
+specifically target biological data sharing applications. 
+See <a href="research/sigrec.pdf">here</a> for an overview paper. Funded by NSF
+CAREER #<a href="orchestra/">IIS-0477972</a>.</div>
+<div class="projectb"><a href="https://dbappserv.cis.upenn.edu/home/?q=node/11">Aspen</a> addresses the problem of programming and
+integrating large-scale and complex sensor networks.  The system focuses on a
+setting in which large numbers of distributed sensors, with varying
+capabilities, must be coordinated in order to manage and reason about
+collections of physical entities and phenomena.  My focus is on <i>sensor
+data integration</i>, i.e., integration of data streams from multiple sensor 
+(and other) sources. A target application is data center monitoring for energy,
+    temperature, load, and other factors.  Different aspects of the research are funded by NSF III 
+#<a href="stream-integration/">IIS-0713267</a>, NOSS
+    #<a href="aspen-rt/">CNS-0721541</a>, and a University Research Initiative grant from Lockheed Martin.</div>
+<!--
+<div class="projectb">The new Concerto system builds upon the ideas of Q and
+O<font size="-1">RCHESTRA</font> to build a network of interlinked
+data sources and "live ranked views."  More details will be
+forthcoming shortly.  Funded in part by IIS-1050448.</div>-->
+<p><font size="-1"><b>Acknowledgments</b>: I have also received grants
+from DARPA CSSG (#HRO011-06-1-0016 and HRO1107-1-0029), Penn ISTAR,
+the State of Pennsylvania, Amazon, Google, and Lockheed Martin, and software
+donations
+from <a href="http://www.marklogic.com">MarkLogic</a>, <a href="http://www.glowcode.com">Electric
+Software</a>, and IBM Corp.</font></p>
+</div>
+<div id="teaching">
+<h2><a name="teaching">Teaching</a></h2>
+<p>I was the first Undergraduate Curriculum Chair for Penn's
+<a href="http://nets.upenn.edu">Singh Program on Networked and Social
+Systems Engineering</a>, NETS, which was formerly known as MKSE. This Internet-centered degree program looks at how people and systems interact over networks.  It combines computer science (algorithms, distributed systems) with sociology, incentives (game theory), and dynamic systems. The overall program is directed by Ali Jadbabaie.  New NETS courses I co-developed include <a href="http://www.cis.upenn.edu/~mkse212">NETS (MKSE) 212
+"Scalable and Cloud Computing"</a> and <a href="http://www.cis.upenn.edu/~mkse150">NETS (MKSE) 150 "Market and Social Systems on the Internet"</a>.</p>
+<p>Current course:</p>
+<ul>
+<li>Spring 2020: CIS 545, <a href="http://www.cis.upenn.edu/~cis545">Big Data Analytics</a></li>
+</ul>
+<p>Selected recent courses and seminars:</p>
+<ul>
+<li>Fall 2017: CIS 455/555, Internet and Web Systems</li>
+<li>Spring 2017: <a href="http://www.dataanalytics.education">CIS 700-003, Big Data Analytics</a>.</li>
+<li>Fall 2016: CIS 455/555, Internet and Web Systems</li>
+<li>Spring 2016: <a href="http://www.cis.upenn.edu/~cis550">CIS 450/550, Database and Information Systems</a></li>
+<li>Fall 2015: CIS 455/555, Internet and Web Systems</li>
+<li>Spring 2015: CIS 455/555, Internet and Web Systems</li>
+<li>Fall 2014: <a href="http://www.cis.upenn.edu/~nets212">NETS 212, Scalable and Cloud Computing</a>.</li><li>Spring 2014: <a href="http://www.cis.upenn.edu/~cis650">CIS 650, Implementing Data Management Systems</a>.</li>
+<li>Fall 2013: <a href="http://www.cis.upenn.edu/~cis550">CIS 450/550, Database and Information Systems</a>.</li>
+<li>Spring 2012: <a href="http://www.cis.upenn.edu/~mkse150/">MKSE 150, Market and Social Systems on the Internet</a>.</li>
+<li>Fall 2011: <a href="http://www.cis.upenn.edu/~cis550/">CIS 550, Database and Information Systems</a></li>
+<li>Spring 2011: <a href="http://www.cis.upenn.edu/~mkse150/">MKSE 150, Market and Social Systems on the Internet</a>, with <a href="http://www.cis.upenn.edu/~kannan/">Sampath Kannan</a>.</li>
+<li>Fall 2010: <a href="http://www.cis.upenn.edu/~cis399sc/">CIS 399/002 (MKSE 212 pilot offering), Scalable and Cloud Computing</a>, with <a href="http://www.cis.upenn.edu/~ahae/">Andreas Haeberlen</a>.</li>
+<li>Spring 2010: <a href="http://www.seas.upenn.edu/~zives/10s/cis555/">CIS 555, Internet and Web Systems</a>.</li>
+<!--
+<li>Fall 2009: <a href="http://www.seas.upenn.edu/~zives/09f/cis550/">CIS 550, Database Management Systems</a>.</li>
+<li>Our Database Group Meeting occurs on Mondays at 3:00, in the DSL Conference Room.</li>
+<li>Our Systems Lunch occurs on Wednesdays at noon, in the DSL Conference Room.</li>
+<li>Spring 2009: <a href="http://www.seas.upenn.edu/~zives/09s/cis555/">CIS
+    455/555, Internet and Web Systems</a>.</li>-->
+<li>Fall 2008: <a href="http://www.seas.upenn.edu/~zives/08f/cis650/">CIS 650, Implementing Data Management Systems</a>.</li>
+</ul>
+<p>Detailed information is <a href="teaching.html">here</a>.</p>
+</div>
+<div id="books">
+<h2><a name="publications">Textbooks and Monographs</a></h2>
+<table>
+<tr>
+<td>
+<p><a href="http://www.amazon.com/Principles-Data-Integration-AnHai-Doan/dp/0124160441/ref=sr_1_1?ie=UTF8&amp;qid=1331863343&amp;sr=8-1"><img height="100" hspace="5px" src="http://covers.elsevier.com/tango2/large/9780124160446.jpg" width="81"/></a></p>
+</td>
+<td><a href="http://research.cs.wisc.edu/dibook/"><i>Principles
+of Data Integration</i></a>, with AnHai Doan and Alon Halevy.  This
+textbook gives a comprehensive academic treatment of the wide range of
+topics related to research in data integration: mappings and data transformations,
+query rewriting, adaptive query processing, XML and streaming data,
+probabilistic mappings, keyword search, data provenance, and much
+more.  We also describe research challenges, real systems, and implementation techniques.  Lecture slides are available
+from <a href="http://www.elsevierdirect.com/companion.jsp?ISBN=9780124160446">Elsevier</a>.  Available from <a href="http://www.amazon.com/Principles-Data-Integration-AnHai-Doan/dp/0124160441/ref=sr_1_1?ie=UTF8&amp;qid=1331863343&amp;sr=8-1">Amazon</a> in hardcopy or Kindle form; from Google Play store in <a href="http://books.google.com/books?id=s2YCKGrO10YC&amp;printsec=frontcover&amp;dq=principles+of+data+integration&amp;hl=en&amp;sa=X&amp;ei=1d_IUP6hCbO80AHenoFA&amp;ved=0CDoQ6AEwAA#v=onepage&amp;q=principles%20of%20data%20integration&amp;f=false">e-book</a> form; from Barnes &amp; Noble in hardcopy or <a href="http://www.barnesandnoble.com/w/principles-of-data-integration-anhai-doan/1108541482?ean=9780124160446">Nook form.  Thanks to </a><a href="http://www.ccf-dbs.org.cn/idke/xfmeng/">Xiaofeng Meng</a>, there is also now a Chinese translation of the book.</td>
+</tr>
+<tr>
+<td></td>
+<td>
+<i><a href="research/aqp-survey.pdf">Adaptive Query Processing</a></i>, with Amol
+Deshpande and Vijayshankar Raman.  Foundations and Trends in
+Databases, Vol. 1 No. 1, 2007.  Hardcopy available at a discount from Now
+Publishers; see <a href="publications.htm#2007">here</a>.
+</td>
+</tr>
+</table>
+</div>
+<div id="publications">
+<h2>Selected Publications</h2>
+<ul>
+<li><i>Who Said It, and Why?</i>. With Yi Zhang, Dan Roth. Accepted for publication, ACL 2020.</li>
+<li><a href="https://www.cis.upenn.edu/~zives/research/Finding_Related_Tables_in_Data_Lakes_for_Interactive_Data_Science.pdf"><i>Finding Related Tables in Data Lakes for Interactive Data Science</i></a>. With Yi Zhang. To appear, SIGMOD 2020.</li>
+<li><i>Evidence-Based Trustworthiness</i>. With Yi Zhang, Dan Roth. ACL 2019.</li>
+<li><i>Data-Trace Types for Distributed Stream Processing Systems</i>. With Konstantinos Mamouras, Caleb Stanford, Rajeev Alur, Val Tannen. PLDI 2019.</li>
+<li><i>Fine-Grained Provenance for Matching &amp; ETL</i>. With Nan Zheng and Abdussalam Alawini. ICDE 2019.</li>
+<li><a href="http://cidrdb.org/cidr2019/papers/p55-ives-cidr19.pdf"><i>Dataset Relationship Management</i></a>. With Yi Zhang, Soonbo Han, Nan Zheng. CIDR  2019.</li>
+<li><a href="research/PLDI17.pdf"><i>StreamQRE: Modular Specification and Efficient Evaluation of Quantitative Queries over Streaming Data</i></a>. With Kostas Mamouras, Mukund Raghothaman, Rajeev Alur, Sanjeev Khanna. PLDI 2017.</li>
+<li><i><a href="http://www.cell.com/neuron/abstract/Spring 200896-6273(16)30787-5">Enabling an Open Data Ecosystem for the Neurosciences</a></i>. With Martin Wiener, Fritz Sommer, Russ Poldrack, and Brian Litt. In <i>Neuron</i>.</li>
+<li><i>Enabling Incremental Query Re-Optimization </i>. With Mengmeng Liu and Boon Thau Loo.  SIGMOD 2016.</li>
+<li><i>Collaborating and Sharing Data in Epilepsy Research</i>.  With Joost Wagenaar, Greg Worrell, Matthias Dumpelmann, Brian Litt, Andreas Schulze-Bonhage. Journal of Clinical Neurophysiology.</li>
+<li><i>Active Learning in Keyword Search-Based Data Integration</i>.  With Zhepeng Yan, Nan Zheng, Partha Pratim Talukdar, and Cong Yu. VLDB Journal Special Issue on Best Papers of VLDB 2013.</li>
+<li><a href="research/in-situ.pdf">Looking at Everything in Context</a>. With Zhepeng Yan, Nan Zheng, Brian Litt, Joost B. Wagenaar. CIDR 2015.</li>
+<li>I recently participated on a panel on Big Data for VLDB 2013.  Slides are <a href="http://www.cs.duke.edu/~junyang/PANEL/">here</a>.</li>
+<li>Our work in <i>Schema Mediation in Peer Data Management Systems</i> (with Alon Halevy, Dan Suciu, and Igor Tatarinov), published in ICDE 2003, has received the Most Influential Paper Award in ICDE 2013!</li>
+<li><a href="http://www.vldb.org/pvldb/vol6/p205-ives.pdf"><i>Actively Soliciting Feedback for Query Answers in Keyword Search-Based Data Integration</i></a>, with Zhepeng Yan, Nan Zheng, Partha Talukdar, and Cong Yu.  VLDB 2013.</li>
+<li><a href="http://www.cidrdb.org/cidr2013/Papers/CIDR13_Paper100.pdf"><i>Caravan: Provisioning for What-If Analysis</i></a>, with Daniel Deutch, Tova Milo, and Val Tannen. CIDR 2013.</li>
+<li><i>Distributed Time-aware Provenance</i>, with Wenchao Zhou, Suyog Mapara, Yiqing Ren, Yang Li, Andreas Haeberlen, Boon Thau Loo, and Micah Sherr. VLDB 2013.</li>
+<li><a href="http://vldb.org/pvldb/vol5/p1280_svilenrmihaylov_vldb2012.pdf"><i>REX: Recursive, Delta-Based Data-Centric Computation</i></a>, with Svilen Mihaylov and Sudipto Guha. Proc. VLDB 5(11): 1280-1291. VLDB 2012.</li>
+<li><a href="research/proql-rank-tapp12.pdf"><i>Querying Provenance for Ranking and Recommending</i></a>, with Andreas Haeberlen, Tao Feng, Wolfgang Gatterbauer. TaPP 2012.</li>
+<!--<li><a href="research/diffs-tocs.pdf"><i>Reconciling Differences</i></a>, with Todd J Green and Val Tannen.  Theory of Computing Systems.</li>-->
+<li><a href="research/recomputing-instances.pdf"><i>Recomputing Materialized Instances after Changes to Mappings and Data</i></a>, with Todd J Green.  ICDE 2012.  Runner-up, Best paper award.  Invited to TKDE Special Issue on Best Papers of ICDE 2012.</li>
+<li><a href="research/atc.pdf"><i>Sharing Work in Keyword Search over Databases</i></a>, with Marie Jacob.  SIGMOD 2011.</li>
+<!--<li><a href="research/opt-multihop.pdf"><i>Dynamic Join Optimization for Multi-Hop Wireless Sensor Networks</i></a>, with Svilen Mihaylov, Marie Jacob, Sudipto Guha.  Proc. VLDB Endowment, Vol 3(1) and VLDB 2010.</li>-->
+<li><a href="research/proql.pdf"><i>Querying Data Provenance</i></a>, with Grigoris Karvounarakis and Val Tannen.  SIGMOD 2010.</li>
+<li><a href="research/auto-integrate.pdf"><i>Automatically Incorporating New Sources in Keyword Search-Based Data Integration</i></a>, with Partha Pratim Talukdar and Fernando Pereira.  SIGMOD 2010.</li>
+<li><a href="research/reliability.pdf"><i>Reliable Storage and Querying for Collaborative Data Sharing Systems</i></a>, with Nicholas Taylor.  Full paper, ICDE 2010.</li>
+<li><a href="research/maintenance-tkde.pdf"><i>Maintaining Recursive Views of Regions and Connectivity in Networks</i></a>, with Mengmeng Liu, Nicholas Taylor, Wenchao Zhou, and Boon Thau Loo.  IEEE TKDE Special Issue, "Best Papers of ICDE 2008".</li>
+<!--<li><a href="research/smartcis.pdf"><i>SmartCIS: Integrating Digital and
+      Physical Environments</i></a>, with Mengmeng Liu, Svilen Mihaylov,
+  Zhuowei Bao, Marie Jacob, Boon Thau Loo, Sudipto Guha.  Demonstration
+  description, SIGMOD 2009.</li>
+<li><a href="research/icdt2009_differences.pdf"><i>Reconciling Differences</i></a>, with TJ Green and Val Tannen.  ICDT 2009.</li>
+<li><a href="research/maintenance.pdf"><i>Recursive Computation of Regions and Connectivity in Networks</i></a>, with
+  Mengmeng Liu, Nicholas E. Taylor, Wenchao Zhou, and Boon Thau Loo.  ICDE 2009.</li>
+ <li><i><a href="research/cidr.pdf">Interactive Data Integration through Smart Copy and Paste</a></i>, with
+  Craig Knoblock, Steve Minton, Marie Jacob, Partha Talukdar, Rattapoom
+  Tuchinda, Jose Luis Ambite, Maria Muslea, Cenk Gazen.  CIDR 2009.</li>-->
+<li><i><a href="research/sigrec.pdf">The Orchestra Collaborative Data Sharing
+      System</a></i>, with Todd J. Green, Grigoris Karvounarakis, Nicholas
+    E. Taylor, Val Tannen, Partha Pratim Talukdar, Marie Jacob, Fernando
+    Pereira.  ACM SIGMOD Record, September 2008.</li>
+<!-- <li><i><a href="research/joins.pdf">A Substrate for In-Network Sensor Data Integration</a></i>, with Svilen
+Mihaylov, Marie Jacob, and Sudipto Guha.  DMSN 2008.  Extended version
+  available as Technical Report MS-CIS-08-26.</li> -->
+<li><i><a href="research/kbdi.pdf">Learning to Create Data-Integrating Queries</a></i>, with Partha Pratim
+Talukdar, Marie Jacob, M. Salman Mehmood, Koby Crammer, Fernando Pereira, 
+and Sudipto Guha, VLDB 2008.</li>
+<!--<li><i><a href="http://www.cis.upenn.edu/~zives/research/bidir.pdf">Bidirectional Mappings for Data and Update Exchange</a></i>, with Grigoris 
+Karvounarakis, WebDB 2008.</li>
+<li><i><a href="http://repository.upenn.edu/db_research/42">Sideways Information Passing for Push-Style Query Processing</a></i>, with
+Nicholas Taylor.  ICDE 2008, Cancun, Mexico.</li>-->
+<li><i><a href="research/dbpedia.pdf">DBpedia: a Nucleus for a Web of Open Data</a></i>, with Soeren Auer,
+Christian Bizer, Georgi Kobilarov, Jens Lehmann, Richard Cyganiak.  
+ISWC/ASWC In-Use Track, 2007.</li>
+<li><i><a href="research/exchange.pdf">Update Exchange with Mappings and Provenance</a></i>, with Todd J. Green,
+Grigoris Karvounarakis, and Val Tannen.  VLDB 2007.</li>
+<!--<li><a href="http://repository.upenn.edu/db_research/9/"><i>O<font size="-1">RCHESTRA</font>: Facilitating Collaborative Data
+Sharing</i></a>, with TJ Green, Nick Taylor, Grigoris Karvounarakis, Olivier Biton,
+Val Tannen.  Demonstration description, SIGMOD 2007.</li> -->
+<li><i><a href="http://repository.upenn.edu/db_research/3/">Reconciling while Tolerating Disagreement in Collaborative Data
+Sharing</a></i>, with Nick Taylor.  SIGMOD 2006.</li>
+</ul>
+<p>A complete list is <a href="publications.htm">here</a>.</p>
+</div>
+<div id="students">
+<h2><a name="students">Current Postdoc, PhD, and MS Research Advisees</a></h2>
+<ul>
+<li><a href="https://www.cis.upenn.edu/~pdh/">Phillip Hilliard</a> (with Rajeev Alur)</li>
+<li><a href="https://www.cis.upenn.edu/~soonbo/">Soonbo Han</a></li>
+<li><a href="https://www.linkedin.com/in/yi-zhang-5b135a97/">Yi Zhang</a> (with Dan Roth)</li>
+<li><a href="https://www.cis.upenn.edu/~nanzheng/">Nan Zheng</a></li>
+<li>Steve Baldassano (postdoc, with Brian Litt)</li>
+</ul>
+</div>
+<div id="alumni">
+<h2>Alumni</h2>
+<ul>
+<li><a href="http://www.mariejacob.net/">Marie Jacob Rajan</a>. Apple.</li>
+<li>Dr. Babak Bagheri Hariri (postdoc) with Val Tannen. System Group (Iran).</li>
+<li>Dr. <a href="https://www.linkedin.com/in/allen-zhepeng-yan-21543622/">Allen Zhepeng Yan</a>, Google Inc.</li>
+<li>Dr. <a href="http://www.cis.upenn.edu/~mengmeng/">Mengmeng Liu</a> (with Boon Thau Loo).  @WalmartLabs.</li>
+<li>Ling Ding, MSE. Now a PhD student at UCLA.</li>
+<li>Dr. <a href="https://www.cs.ox.ac.uk/people/medha.atre/">Medha Atre</a> (postdoc). First position: Assistant Professor, IIT-Kanpur. Now Consultant at Persistent Systems, Inc.</li>
+<li>Dr. <a href="s">Svilen Mihaylov</a> (with Sudipto Guha). First position: Postdoc, University of Washington.  Now Software Engineer at MemSQL, Inc.</li>
+<li>Dr. Nicholas Taylor.  Google, Inc.</li>
+<li>Dr. <a href="http://talukdar.net/">Partha Pratim Talukdar</a>
+  (with Fernando Pereira and Mark Liberman).  Assistant Professor, IISc-Bangalore.</li>
+<li>Dr. <a href="http://eis.iai.uni-bonn.de/SoerenAuer.html">Soren Auer</a> (postdoc).  Professor, University of Bonn.</li>
+<li>Dr. <a href="http://www.cs.ucdavis.edu/~green">Todd J. Green</a> (with Val
+Tannen).   First employment: University of California-Davis (now Adjunct Professor). Currently at LogicBlox, Inc.</li>
+<li>Dr. <a href="http://www.ics.forth.gr/~gregkar">Grigoris Karvounarakis</a> (with Val Tannen). 
+LogicBlox, Inc.</li>
+<li>Geetika Vasudeo, MSE. Goldman Sachs.</li>
+</ul>
+</div>
+<div id="collaborators">
+<h2>Frequent Collaborators</h2>
+<ul>
+<li>Dan Roth, Penn CIS</li>
+<li><a href="http://www.cis.upenn.edu/~nenkova">Ani Nenkova</a>, Penn CIS</li>
+<li><a href="http://www.cis.upenn.edu/~val">Val Tannen</a>, Penn CIS</li>
+<li><a href="http://www.cis.upenn.edu/~susan">Susan Davidson</a>, Penn CIS</li>
+<li><a href="http://www.cis.upenn.edu/~sampath">Sampath Kannan</a>, Penn CIS</li>
+<li><a href="https://sites.google.com/site/congyu/home">Cong Yu</a>, Google, Inc.</li>
+<li><a href="http://www.cis.upenn.edu/~sudipto">Sudipto Guha</a>, Penn CIS</li>
+<li><a href="http://www.cis.upenn.edu/~boonloo">Boon Thau Loo</a>, Penn CIS</li>
+<li><a href="http://www.cis.upenn.edu/~ahae">Andreas Haeberlen</a>, Penn CIS</li>
+<li><a href="http://www.epistasis.org/">Jason Moore</a>, Penn Genetics / Dir, Inst for Biomedical Informatics</li>
+<li><a href="https://www.bio.upenn.edu/people/junhyong-kim">Junhyong Kim</a>, Penn Biology</li>
+<li><a href="http://littlab.seas.upenn.edu/">Brian Litt</a>, Penn Bioengineering and Neurology</li>
+<li>Santosh Kumar, U Memphis</li>
+<li>Mani Srivastava, UCLA</li>
+<li>Ida Sim, UCSF</li>
+<li>Byron Wallace, Northeastern U</li>
+</ul>
+</div>
+<div id="tips">
+<h2>Tips on Interviewing</h2>
+<p>Finishing your PhD and going on the job market?  I have previously
+compiled a list of reverences on interviewing, which you can find
+<a href="http://www.cis.upenn.edu/~zives/tips_on_interviewing.htm">here</a>.</p>
+</div>
+<hr/>
+</div>
+</body>
+</html>

@@ -1,0 +1,393 @@
+{
+    "id": 0,
+    "content": "Fan Long's Homepage",
+    "children": [
+        {
+            "id": 1,
+            "content": "Fan Long",
+            "key": 1,
+            "children": [
+                {
+                    "id": 2,
+                    "content": "Assistant Professor",
+                    "key": 1,
+                    "children": [
+                        {
+                            "id": 3,
+                            "content": "Department of Computer Science, University of Toronto Bahen Centre for Information Technology, BA3250   416-978-6055",
+                            "key": 1
+                        },
+                        {
+                            "id": 4,
+                            "content": "fanl at cs dot toronto dot edu",
+                            "key": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "content": "About",
+            "key": 2,
+            "children": [
+                {
+                    "id": 6,
+                    "content": "My research interests are programming language, software engineering, systems security, and blockchain. I am involved in the Conflux project for building the next generation blockchain platform.",
+                    "key": 1
+                },
+                {
+                    "id": 7,
+                    "content": "Useful Links :",
+                    "key": 2,
+                    "children": [
+                        {
+                            "id": 8,
+                            "content": "Google Scholar page, and Automatic Patch Generation project website.",
+                            "key": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "content": "News",
+            "isList": true,
+            "key": 3,
+            "children": [
+                {
+                    "id": 10,
+                    "content": "I moved replication packages and experimental data to U of T server for for automatic patch generation via learning (Genesis, Prophet, and SPR).",
+                    "key": 1
+                },
+                {
+                    "id": 11,
+                    "content": "Welcome to my new homepage! My old homepage at MIT CSAIL is no longer maintained.",
+                    "key": 2
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "content": "Research Projects",
+            "key": 4,
+            "children": [
+                {
+                    "id": 13,
+                    "content": "Blockchain Scalability",
+                    "key": 1,
+                    "children": [
+                        {
+                            "id": 14,
+                            "content": "Following the success of the cryptocurrencies, blockchain has recently evolved into a technology platform that powers secure, decentralized, and consistent transaction ledgers at Internet-scale. However, the performance bottleneck remains one of the most critical challenges of current blockchains. In the standard Nakamoto consensus, the performance is bottlenecked by the facts 1) that only one participant can win the competition and contribute to the blockchain, i.e., concurrent blocks are discarded as forks, and 2) that the slowness is essential to defend against adversaries. For example, Bitcoin generates one 1MB block every 10 minutes and can therefore only process 7 transactions per second. The insufficient throughput and long confirmation delay severely limit the adoptions of blockchain techniques, causing poor user experience, congested network, and skyrocketing transaction fees.",
+                            "key": 1
+                        },
+                        {
+                            "id": 15,
+                            "content": "Conflux : Conflux is a new fast, scalable, and decentralized blockchain system that can process thousands of transactions per second while confirming each transaction in minutes. Conflux records additional informations between blocks and organizes generated blocks into direct acyclic graphs. The core of Conflux is its consensus protocol that allows multiple participants to contribute to the Conflux blockchain concurrently (i.e., processing transactions in all concurrent blocks) while still being provably safe. See the Conflux project website for more information.",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 16,
+                    "content": "Automatic Patch Generation",
+                    "key": 2,
+                    "children": [
+                        {
+                            "id": 17,
+                            "content": "Software defects are pervasive in software systems and can cause undesirable user experience, denial of service, or even security exploitation. Generating a patch for a defect is a tedious, time-consuming, and often repetitive process. Automatic patch generation techniques holds out the promise of automatically correcting software defects without the need for human developers to diagnose, understand, and correct these defects. To learn more, please visit our project website!",
+                            "key": 1
+                        },
+                        {
+                            "id": 18,
+                            "content": "Prophet :",
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 19,
+                                    "content": "Prophet is the state-of-art generate-and-validate patch generation system for C programs. It is the first system that uses machine learning techniques to learn from past successful human patches to recognize and predict correct patches for new errors.",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 20,
+                            "content": "SPR : SPR is the baseline system on which Prophet is built. It uses the condition synthesis technique to explore its search space up to two magnitude faster.",
+                            "key": 3
+                        },
+                        {
+                            "id": 21,
+                            "content": "CodePhage : CodePhage systematically transfers useful security checks from a donor application to eliminate bugs and security vulnerabilities in a recipient application. It is the first system that transfers useful code across applications. It does not even require the source code of the donor application!",
+                            "key": 4
+                        }
+                    ]
+                },
+                {
+                    "id": 22,
+                    "content": "Input Filtering and Rectification",
+                    "key": 3,
+                    "children": [
+                        {
+                            "id": 23,
+                            "content": "What if we cannot change the source code of an application? Let's look at the inputs of the application. We can make sure that malicious input cannot reach the application, i.e., filter them or rectify them.",
+                            "key": 1
+                        },
+                        {
+                            "id": 24,
+                            "content": "SIFT :",
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 25,
+                                    "content": "SIFT is a sound input filter system with sophisticated program analysis techniques. It guarantees to filter out all malicious inputs that trigger critical integer overflow errors. In practice, it also has zero to negligible false positives.",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 26,
+                            "content": "SOAP :",
+                            "key": 3,
+                            "children": [
+                                {
+                                    "id": 27,
+                                    "content": "SOAP is the first automatic input rectification system. It enforces a set of inferred invariants on the inputs so that potentially malicious inputs are transformed to benign inputs.",
+                                    "key": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 28,
+                    "content": "Program Recovery",
+                    "key": 4,
+                    "children": [
+                        {
+                            "id": 29,
+                            "content": "What if an application crashes during its execution and we only have its binary? We can use our recovery shepherding technique to enable the application to survive the error triggering input unit and recovers its execution.",
+                            "key": 1
+                        },
+                        {
+                            "id": 30,
+                            "content": "RCV : RCV is a lightweight program recovery tool with negligible overhead during normal execution. When a crash error (null-dereference and/or divide-by-zero) occurs, it systematically guides the application execution to survive the error triggering input unit. It also tracks how the error propagates in the application and waits until the error is flushed away after the program moves to the next input unit. Instead of crash and getting nothing, you can get part or all of your desired results.",
+                            "key": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 31,
+            "content": "Media Coverage",
+            "key": 5,
+            "children": [
+                {
+                    "id": 32,
+                    "content": "Press on Conflux",
+                    "isList": true,
+                    "key": 1,
+                    "children": [
+                        {
+                            "id": 33,
+                            "content": "Fortune",
+                            "key": 1
+                        },
+                        {
+                            "id": 34,
+                            "content": "Forbes",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 35,
+                    "content": "Press on Prophet",
+                    "isList": true,
+                    "key": 2,
+                    "children": [
+                        {
+                            "id": 36,
+                            "content": "PCWorld",
+                            "key": 1
+                        },
+                        {
+                            "id": 37,
+                            "content": "MITNews",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 38,
+                    "content": "Press on CodePhage",
+                    "isList": true,
+                    "key": 3,
+                    "children": [
+                        {
+                            "id": 39,
+                            "content": "Fortune",
+                            "key": 1
+                        },
+                        {
+                            "id": 40,
+                            "content": "SlashDot",
+                            "key": 2
+                        },
+                        {
+                            "id": 41,
+                            "content": "MITNews",
+                            "key": 3
+                        }
+                    ]
+                },
+                {
+                    "id": 42,
+                    "content": "Press on DIODE",
+                    "key": 4,
+                    "children": [
+                        {
+                            "id": 43,
+                            "content": "MITNews",
+                            "isList": true,
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 44,
+                    "content": "Press on NL2P",
+                    "isList": true,
+                    "key": 5,
+                    "children": [
+                        {
+                            "id": 45,
+                            "content": "MITNews",
+                            "key": 1
+                        },
+                        {
+                            "id": 46,
+                            "content": "Upstart Business Journal",
+                            "key": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+          "id": 47,
+          "content": "Publications",
+          "isList": true,
+          "key": 6,
+          "children": [
+            {
+              "id": 48,
+              "content": "Automatic Patch Generation via Learning from Successful Human Patches [pdf]   Fan Long   PhD Thesis",
+              "key": 1
+            },
+            {
+              "id": 49,
+              "content": "Automatic Inference of Code Transforms for Patch Generation [pdf slides artifact]   Fan Long, Peter Amidon, and Martin Rinard   FSE 2017",
+              "key": 2
+            },
+            {
+              "id": 50,
+              "content": "CodeCarbonCopy [pdf]   Stelios Sidiroglou-Douskos, Eric Lahtinen, Anthony Eden, Fan Long, and Martin Rinard   FSE 2017",
+              "key": 3
+            },
+            {
+              "id": 51,
+              "content": "An Analysis of the Search Spaces for Generate and Validate Patch Generation Systems [pdf slides artifact]   Fan Long and Martin Rinard   ICSE 2016",
+              "key": 4
+            },
+            {
+              "id": 52,
+              "content": "Automatic Patch Generation by Learning Correct Code [pdf slides artifact]   Fan Long and Martin Rinard   POPL 2016",
+              "key": 5
+            },
+            {
+              "id": 53,
+              "content": "Control Jujutsu: On the Weaknesses of Fine-Grained Control Flow Integrity [pdf slides]   Isaac Evans, Fan Long, Ulziibayar Otgonbaatar, Howard Shrobe, Martin Rinard, Hamed Okhravi, and Stelios Sidiroglou-Douskos   CCS 2015",
+              "key": 6
+            },
+            {
+              "id": 54,
+              "content": "Staged Program Repair with Condition Synthesis [pdf slides artifact]   Fan Long and Martin Rinard   ESEC-FSE 2015",
+              "key": 7
+            },
+            {
+              "id": 55,
+              "content": "An Analysis of Patch Plausibility and Correctness for Generate-And-Validate Patch Generation Systems [pdf artifact]   Zichao Qi, Fan Long, Sara Achour, and Martin Rinard   ISSTA 2015",
+              "key": 8
+            },
+            {
+              "id": 56,
+              "content": "Automatic Error Elimination by Multi-Application Code Transfer [pdf]   Stelios Sidiroglou, Eric Lahtinen, Fan Long, and Martin Rinard   PLDI 2015",
+              "key": 9
+            },
+            {
+              "id": 57,
+              "content": "Automatic Integer Overflow Discovery Using Goal-Directed Conditional Branch Enforcement [pdf]   Stelios Sidiroglou, Eric Lahtinen, Nathan Rittenhouse, Paolo Piselli, Fan Long, Doekhwan Kim, and Martin Rinard   ASPLOS 2015",
+              "key": 10
+            },
+            {
+              "id": 58,
+              "content": "Principled Sampling for Anomaly Detection [pdf]   Brendan Juba, Christopher Musco, Fan Long, Stelios Sidiroglou, and Martin Rinard   NDSS 2015",
+              "key": 11
+            },
+            {
+              "id": 59,
+              "content": "Automatic Runtime Error Repair and Containment via Recovery Shepherding [ pdf ] [slides]   Fan Long, Stelios Sidiroglou, and Martin Rinard.   PLDI 2014",
+              "key": 12
+            },
+            {
+              "id": 60,
+              "content": "Sound Input Filter Generation for Integer Overflow Errors [ pdf slides]   Fan Long, Stelios Sidiroglou, Deokhwan Kim, and Martin Rinard.   POPL 2014",
+              "key": 13
+            },
+            {
+              "id": 61,
+              "content": "From Natural Language Specifications to Program Input Parsers [ pdf ]   Tao Lei, Fan Long, Regina Barzilay, and Martin Rinard.   ACL 2013",
+              "isList": true,
+              "key": 14
+            },
+            {
+              "id": 62,
+              "content": "Automatic Input Rectification [ pdf ]   Fan Long , Vijay Ganesh, Michael Carbin, Stelios Sidiroglou, and Martin Rinard.   ICSE 2012",
+              "isList": true,
+              "key": 15
+            },
+            {
+              "id": 63,
+              "content": "2011 - 2009",
+              "isList": true,
+              "key": 16,
+              "children": [
+                {
+                  "id": 64,
+                  "content": "G2: A Graph Processing System for Diagnosing Distributed Systems. [ pdf ]   Zhenyu Guo, Dong Zhou, Haoxiang Lin, Mao Yang, Fan Long, Chaoqiang Deng, Changshu Liu, and Lidong Zhou.   USENIX ATC 2011",
+                  "key": 1
+                },
+                {
+                  "id": 65,
+                  "content": "Language-based Replay via Data Flow Cut. [ pdf | slides ]   Ming Wu, Fan Long, Xi Wang, Zhilei Xu, Haoxiang Lin, Xuezheng Liu, Zhenyu Guo, Huayang Guo, Lidong Zhou, and Zheng Zhang.   FSE 2010",
+                  "key": 2
+                },
+                {
+                  "id": 66,
+                  "content": "API Hyperlinking via Structural Overlap. [ pdf | slides ]   Fan Long , Xi Wang, and Yang Cai.   ESEC-FSE 2009",
+                  "key": 3
+                },
+                {
+                  "id": 67,
+                  "content": "MODIST: Transparent Model Checking of Unmodified Distributed Systems. [ pdf ]   Junfeng Yang, Tisheng Chen, Ming Wu, Zhilei Xu, Xuezheng Liu, Haoxiang Lin, Mao Yang, Fan Long, Lintao Zhang, and Lidong Zhou   NSDI 2009",
+                  "key": 4
+                }
+              ]
+            }
+          ]
+        }
+    ]
+}

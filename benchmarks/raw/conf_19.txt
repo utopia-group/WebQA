@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8"/>
+<meta content="ie=edge" http-equiv="x-ua-compatible"/><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"550c176780",applicationID:"322440980"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(f(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(4),f=e(5),c=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",d=l+"ixn-";a(p,function(e,n){s[n]=i(l+n,!0,"api")}),s.addPageAction=i(l+"addPageAction",!0),s.setCurrentRouteName=i(l+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(d+"tracer",[u.now(),e,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],t),e}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(d+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?c("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&c("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&c("lcp",[t[t.length-1]])}function o(e){if(e instanceof s&&!l){var n,t=Math.round(e.timeStamp);n=t>1e12?Date.now()-t:u.now()-t,l=!0,c("timing",["fi",t,{type:e.type,fid:n}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,f,c=e("handle"),u=e("loader"),s=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),f=new PerformanceObserver(i);try{a.observe({entryTypes:["paint"]}),f.observe({entryTypes:["largest-contentful-paint"]})}catch(p){}}if("addEventListener"in document){var l=!1,d=["click","keydown","mousedown","pointerdown","touchstart"];d.forEach(function(e){document.addEventListener(e,o,!1)})}}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],5:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],6:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?c(e,f,o):o()}function t(t,r,i,o){if(!l.aborted||o){e&&e(t,r,i);for(var a=n(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function d(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||i(t)}function w(e,n){u(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:d,addEventListener:d,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(l.aborted=!0,s=l.backlog={})}var f="nr@context",c=e("gos"),u=e(4),s={},p={},l=n.exports=i();l.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(y,function(n,t){e[n]||(e[n]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function i(){"complete"===d.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=e("handle"),u=e(4),s=e("ee"),p=e(3),l=window,d=l.document,m="addEventListener",v="attachEvent",g=l.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:g,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1167.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),e(2),d[m]?(d[m]("DOMContentLoaded",o,!1),l[m]("load",r,!1)):(d[v]("onreadystatechange",i),l[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=e(6)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){l([u,"",[r,a,i],f])}s(n+"start",[r,a,i],f);try{return c=e.apply(a,r)}catch(p){throw s(n+"err",[r,a,p],f),p}finally{s(n+"end",[r,a,c],f)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,p(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<n.length;c++)f=n[c],a=e[f],r(a)||(e[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||n){var o=c;c=!0;try{e.emit(t,r,i,n)}catch(a){l([a,t,r,i])}c=o}}function p(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){l([r])}for(var i in e)f.call(e,i)&&(n[i]=e[i]);return n}function l(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+<link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" rel="stylesheet"/>
+<title>NDSS Symposium 2020 – NDSS Symposium</title>
+<link href="//www.ndss-symposium.org" rel="dns-prefetch"/>
+<link href="//fonts.googleapis.com" rel="dns-prefetch"/>
+<link href="//s.w.org" rel="dns-prefetch"/>
+<!-- This site uses the Google Analytics by ExactMetrics plugin v6.0.2 - Using Analytics tracking - https://www.exactmetrics.com/ -->
+<script data-cfasync="false" type="text/javascript">
+	var em_version         = '6.0.2';
+	var em_track_user      = true;
+	var em_no_track_reason = '';
+	
+	var disableStr = 'ga-disable-UA-1978561-20';
+
+	/* Function to detect opted out users */
+	function __gaTrackerIsOptedOut() {
+		return document.cookie.indexOf(disableStr + '=true') > -1;
+	}
+
+	/* Disable tracking if the opt-out cookie exists. */
+	if ( __gaTrackerIsOptedOut() ) {
+		window[disableStr] = true;
+	}
+
+	/* Opt-out function */
+	function __gaTrackerOptout() {
+	  document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+	  window[disableStr] = true;
+	}
+
+	if ( 'undefined' === typeof gaOptout ) {
+		function gaOptout() {
+			__gaTrackerOptout();
+		}
+	}
+	
+	if ( em_track_user ) {
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+window.ga = __gaTracker;		__gaTracker('create', 'UA-1978561-20', 'auto');
+		__gaTracker('set', 'forceSSL', true);
+		__gaTracker('send','pageview');
+		__gaTracker( function() { window.ga = __gaTracker; } );
+	} else {
+		console.log( "" );
+		(function() {
+			/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+			var noopfn = function() {
+				return null;
+			};
+			var noopnullfn = function() {
+				return null;
+			};
+			var Tracker = function() {
+				return null;
+			};
+			var p = Tracker.prototype;
+			p.get = noopfn;
+			p.set = noopfn;
+			p.send = noopfn;
+			var __gaTracker = function() {
+				var len = arguments.length;
+				if ( len === 0 ) {
+					return;
+				}
+				var f = arguments[len-1];
+				if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+					console.log( 'Not running function __gaTracker(' + arguments[0] + " ....) because you are not being tracked. " + em_no_track_reason );
+					return;
+				}
+				try {
+					f.hitCallback();
+				} catch (ex) {
+
+				}
+			};
+			__gaTracker.create = function() {
+				return new Tracker();
+			};
+			__gaTracker.getByName = noopnullfn;
+			__gaTracker.getAll = function() {
+				return [];
+			};
+			__gaTracker.remove = noopfn;
+			window['__gaTracker'] = __gaTracker;
+			window.ga = __gaTracker;		})();
+		}
+</script>
+<!-- / Google Analytics by ExactMetrics -->
+<link href="https://www.ndss-symposium.org/wp-includes/css/dist/block-library/style.min.css?ver=5.3.2" id="wp-block-library-css" media="all" rel="stylesheet" type="text/css"/>
+<style id="wp-block-library-inline-css" type="text/css">
+.has-text-align-justify{text-align:justify;}
+</style>
+<link href="https://www.ndss-symposium.org/wp-content/themes/ndss2/dist/styles/main_e8b4062a.css" id="sage/main.css-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://fonts.googleapis.com/css?family=Yantramanav&amp;ver=5.3.2" id="google-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://www.ndss-symposium.org/wp-content/plugins/jetpack/css/jetpack.css?ver=8.3" id="jetpack_css-css" media="all" rel="stylesheet" type="text/css"/>
+<script type="text/javascript">
+/* <![CDATA[ */
+var exactmetrics_frontend = {"js_events_tracking":"true","download_extensions":"zip,mp3,mpeg,pdf,docx,pptx,xlsx,rar","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/www.ndss-symposium.org","hash_tracking":"false"};
+/* ]]> */
+</script>
+<script src="https://www.ndss-symposium.org/wp-content/plugins/google-analytics-dashboard-for-wp/assets/js/frontend.min.js?ver=6.0.2" type="text/javascript"></script>
+<script src="https://www.ndss-symposium.org/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp" type="text/javascript"></script>
+<script src="https://www.ndss-symposium.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1" type="text/javascript"></script>
+<link href="https://www.ndss-symposium.org/wp-json/" rel="https://api.w.org/"/>
+<link href="https://www.ndss-symposium.org/xmlrpc.php?rsd" rel="EditURI" title="RSD" type="application/rsd+xml"/>
+<link href="https://www.ndss-symposium.org/wp-includes/wlwmanifest.xml" rel="wlwmanifest" type="application/wlwmanifest+xml"/>
+<meta content="WordPress 5.3.2" name="generator"/>
+<link href="https://www.ndss-symposium.org/ndss2020/" rel="canonical"/>
+<link href="https://www.ndss-symposium.org/?p=5188" rel="shortlink"/>
+<link href="https://www.ndss-symposium.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.ndss-symposium.org%2Fndss2020%2F" rel="alternate" type="application/json+oembed"/>
+<link href="https://www.ndss-symposium.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.ndss-symposium.org%2Fndss2020%2F&amp;format=xml" rel="alternate" type="text/xml+oembed"/>
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><link href="https://www.ndss-symposium.org/wp-content/uploads/cropped-NDSS_512x512-32x32.png" rel="icon" sizes="32x32"/>
+<link href="https://www.ndss-symposium.org/wp-content/uploads/cropped-NDSS_512x512-192x192.png" rel="icon" sizes="192x192"/>
+<link href="https://www.ndss-symposium.org/wp-content/uploads/cropped-NDSS_512x512-180x180.png" rel="apple-touch-icon-precomposed"/>
+<meta content="https://www.ndss-symposium.org/wp-content/uploads/cropped-NDSS_512x512-270x270.png" name="msapplication-TileImage"/>
+</head>
+<body class="page-template-default page page-id-5188 page-parent ndss2020 app-data index-data singular-data page-data page-5188-data page-ndss2020-data">
+<header>
+<div id="home-nav">
+<a class="navbar-brand" href="https://www.ndss-symposium.org/">
+<img alt="ndss logo" id="ndss-logo" src="https://www.ndss-symposium.org/wp-content/uploads/NDSS_Logo_Grayscale_Reverse.png"/>
+</a>
+<a class="navbar-brand" href="https://www.ndss-symposium.org/" id="home-link">NDSS</a>
+<ul class="navbar-nav" id="menu-static-navigation"><li class="nav-item dropdown"><a class="nav-link toggle" href="https://www.ndss-symposium.org/about/">About NDSS</a></li>
+<li class="nav-item dropdown"><a class="nav-link toggle" href="https://www.ndss-symposium.org/sponsorship/">Sponsorship</a></li>
+</ul> <ul class="navbar-nav" id="menu-previous-conferences"><li class="nav-item dropdown"><a class="nav-link toggle" href="#">Previous Events</a>
+<ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+<li class="dropdown-item"><a class="nav-link toggle" href="#">NDSS Symposia</a>
+<ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+<li class="dropdown-item"><a class="nav-link toggle" href="/ndss2019">NDSS 2019</a></li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss2018">NDSS 2018</a></li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss2017">NDSS 2017</a></li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss2016">NDSS 2016</a></li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss2015">NDSS 2015</a></li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss2014">NDSS 2014</a></li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/previous-conferences">More...</a></li>
+</ul>
+</li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/previous-conferences/usec-events/">Usable Security (USEC) Events</a></li>
+</ul>
+</li>
+</ul> </div>
+<nav class="navbar navbar-expand-lg" role="navigation">
+<a class="navbar-brand" href="https://www.ndss-symposium.org/ndss2020">
+<span class="year">NDSS 2020</span> </a>
+<button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right" data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
+<i class="fas fa-bars"></i>
+</button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav" id="menu-ndss2020"><li class="nav-item dropdown"><a class="nav-link toggle" href="#">Attend</a>
+<ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss2020/coronavirus-covid-19-update/">NDSS 2020 Coronavirus (COVID-19) Update</a></li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss2020/registration-information/">NDSS 2020 Registration Information</a></li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss-code-of-conduct/">NDSS Code of Conduct</a></li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss2020/venue-and-travel-information/">NDSS 2020 Venue and Travel Information</a></li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss2020/student-travel-grant/">NDSS 2020 Student Travel Grant</a></li>
+</ul>
+</li>
+<li class="nav-item dropdown"><a class="nav-link toggle" href="#">Programme</a>
+<ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss-program/2020-program/">NDSS Symposium 2020 Programme</a></li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss2020/keynote-feb-24/">Keynote: Paul Forney</a></li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss2020/keynote-feb-25/">Keynote: Dr. Sharon Goldberg</a></li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss-program/2020-program/diss-workshop/">DISS Workshop 2020</a></li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss2020/laser-workshop-2020/">LASER Workshop 2020</a></li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss-program/2020-program/madweb-workshop/">MADWeb Workshop 2020</a></li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss2020/quic-privacy-and-security-workshop/">QUIPS Workshop 2020</a></li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss-program/bar-workshop-2020/">BAR Workshop 2020</a></li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss2020/posters/">NDSS 2020 Posters</a></li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss2020/accepted-papers/">NDSS 2020 Accepted Papers</a></li>
+</ul>
+</li>
+<li class="nav-item dropdown"><a class="nav-link toggle" href="#">Submissions</a>
+<ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss2020/call-for-posters/">NDSS 2020 Call for Posters</a></li>
+<li class="dropdown-item"><a class="nav-link toggle" href="#">NDSS 2020 Workshops – Call For Papers</a>
+<ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss2020/cfp-quips-workshop/">Call for Papers: QUIC Privacy and Security (QUIPS) Workshop 2020</a></li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss2020/cfp-madweb-workshop/">Call for Papers: Workshop on Measurements, Attacks, and Defenses for the Web (MADWeb) 2020</a></li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss2020/call-for-participation-laser-workshop/">Call for Participation: Learning from Authoritative Security Experiment Results (LASER) Workshop 2020</a></li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss2020/cfp-bar-workshop/">Call for Papers: Workshop on Binary Analysis Research (BAR) 2020</a></li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss2020/cfp-diss-workshop/">Call for Papers: Workshop on Decentralized IoT Systems and Security (DISS) 2020</a></li>
+</ul>
+</li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss2020/call-for-workshops/">NDSS 2020 Call for Workshops</a></li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss2020/call-for-papers/">NDSS 2020 Call for Papers</a></li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss2020/templates/">Paper Templates</a></li>
+</ul>
+</li>
+<li class="nav-item dropdown"><a class="nav-link toggle" href="#">Committees</a>
+<ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss-2021/program-committee/">NDSS 2021 Program Committee</a></li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss2020/program-committee/">NDSS 2020 Program Committee</a></li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss2020/steering-group-and-organizing-committee/">NDSS 2020 Steering Group and Organizing Committee</a></li>
+</ul>
+</li>
+</ul> </div>
+<div class="collapse navbar-collapse justify-content-end" id="navbarSocialContent">
+<ul class="navbar-nav" id="menu-social-icons"><li class="nav-item dropdown"><a class="nav-link toggle" href="https://twitter.com/NDSSSymposium"><i class="fab fa-twitter-square" id="icon-twitter"></i></a></li>
+<li class="nav-item dropdown"><a class="nav-link toggle" href="https://www.facebook.com/NDSSSymposium/"><i class="fab fa-facebook-square" id="icon-facebook"></i></a></li>
+<li class="nav-item dropdown"><a class="nav-link toggle" href="https://www.linkedin.com/company/network-and-distributed-system-symposium-ndss-/"><i class="fab fa-linkedin" id="icon-linkedin"></i></a></li>
+<li class="nav-item dropdown"><a class="nav-link toggle" href="https://www.youtube.com/ndsssymposium"><i class="fab fa-youtube-square" id="icon-youtube"></i></a></li>
+</ul> </div>
+</nav>
+</header>
+<div class="wrap container" role="document">
+<div class="content">
+<main class="main">
+<div class="page-header">
+<h1>NDSS Symposium 2020</h1>
+</div>
+<div class="wp-block-image"><figure class="alignleft size-medium"><a href="https://www.ndss-symposium.org/ndss2020/"><img alt="" class="wp-image-5648" sizes="(max-width: 300px) 100vw, 300px" src="https://www.ndss-symposium.org/wp-content/uploads/NDSS_Logo_Final_2020_RGB-300x125.png" srcset="https://www.ndss-symposium.org/wp-content/uploads/NDSS_Logo_Final_2020_RGB-300x125.png 300w, https://www.ndss-symposium.org/wp-content/uploads/NDSS_Logo_Final_2020_RGB-768x321.png 768w, https://www.ndss-symposium.org/wp-content/uploads/NDSS_Logo_Final_2020_RGB.png 823w"/></a></figure></div>
+<p>The Network and Distributed System Security Symposium (NDSS) fosters information exchange among researchers and practitioners of network and distributed system security. The target audience includes those interested in practical aspects of network and distributed system security, with a focus on actual system design and implementation. A major goal is to encourage and enable the Internet community to apply, deploy, and advance the state of available security technologies.</p>
+<p>NDSS 2020 conference takes place from 23-26 February 2020 at Catamaran Resort Hotel &amp; Spa in San Diego, California. If you haven’t registered, please register on-site.</p>
+<p><strong>Check out:</strong></p>
+<ul><li><a href="/ndss2020/accepted-papers/">List of NDSS 2020 Accepted Papers</a></li><li><a href="https://www.ndss-symposium.org/ndss-program/2020-program/">NDSS 2020 Programme</a></li><li><a href="https://www.ndss-symposium.org/ndss2020/keynote-feb-24/">Keynote by Mr. Paul Forney</a></li><li><a href="https://www.ndss-symposium.org/ndss2020/keynote-feb-25/">Keynote by Dr. Sharon Goldberg</a></li><li>Workshops:<ul><li><a href="https://www.ndss-symposium.org/ndss-program/2020-program/diss-workshop/">DISS Workshop Agenda</a></li><li><a href="https://www.ndss-symposium.org/ndss2020/laser-workshop-description-and-preliminary-agenda/">LASER Workshop Agenda</a></li><li><a href="https://www.ndss-symposium.org/ndss2020/madweb-workshop-preliminary-agenda/">MADWeb Workshop Agenda</a></li><li><a href="https://www.ndss-symposium.org/ndss2020/bar-workshop-2020/">BAR Workshop Agenda</a></li><li><a href="https://www.ndss-symposium.org/ndss-program/2020-program/quips-workshop/">QUIPS Workshop Agenda</a></li></ul></li></ul>
+<div style="background: #fff; padding: 20px; max-width: none;">
+<h2 style="text-align:center; padding-bottom: 20px;">2020 Event Sponsors</h2>
+<table>
+<tbody>
+<tr style="background:#3e84e1; font-size: 1.7rem; color: white; ">
+<td colspan="12" style="text-align:center; padding: 10px;">Platinum Sponsor</td>
+</tr>
+<tr>
+<td colspan="12" style="text-align:center; padding: 20px;"><a href="http://www.nsf.com"><img alt="" class="wp-image-1575" height="150" sizes="(max-width: 150px) 100vw, 150px" src="https://www.ndss-symposium.org/wp-content/uploads/2017/09/NSF-300x300.jpg" srcset="https://www.ndss-symposium.org/wp-content/uploads/2017/09/NSF-300x300.jpg 300w, https://www.ndss-symposium.org/wp-content/uploads/2017/09/NSF-150x150.jpg 150w, https://www.ndss-symposium.org/wp-content/uploads/2017/09/NSF.jpg 309w" width="150"/></a></td>
+</tr>
+<tr style="background:#3e84e1; font-size: 1.7rem; color: white; ">
+<td colspan="12" style="text-align:center; padding: 10px;">Gold Sponsors</td>
+</tr>
+<tr>
+<td colspan="3" style="text-align:center; padding: 10px;"><a href="https://www.cisco.com/"><img alt="Cisco logo" class="alignnone size-medium wp-image-5723" height="auto" src="https://www.ndss-symposium.org/wp-content/uploads/2020/02/cisco.png" style="height: 80px; width: auto;" width="300"/></a></td><td colspan="3" style="text-align:center; padding: 10px;"><a href="http://www.google.com"><img alt="Google logo" class="alignnone size-medium wp-image-5319" height="176" sizes="(max-width: 300px) 100vw, 300px" src="https://www.ndss-symposium.org/wp-content/uploads/Google-logo-e1567070246693-300x176.jpg" srcset="https://www.ndss-symposium.org/wp-content/uploads/Google-logo-e1567070246693-300x176.jpg 300w, https://www.ndss-symposium.org/wp-content/uploads/Google-logo-e1567070246693.jpg 333w" width="300"/></a></td>
+<td colspan="3" style="text-align:center; padding: 10px;"><a href="https://www.intel.com/content/www/us/en/homepage.html"><img alt="Intel logo" class="alignnone size-medium wp-image-5723" height="198" sizes="(max-width: 300px) 100vw, 300px" src="https://www.ndss-symposium.org/wp-content/uploads/2017/09/thumbnail-300x198.jpg" srcset="https://www.ndss-symposium.org/wp-content/uploads/2017/09/thumbnail-300x198.jpg 300w, https://www.ndss-symposium.org/wp-content/uploads/2017/09/thumbnail.jpg 400w" style="height: 80px; width: auto;" width="300"/></a></td>
+<td colspan="3" style="text-align:center; padding: 10px;"><a href="https://www.internetsociety.org"><img alt="Internet Society logo" class="alignnone size-medium wp-image-5320" height="175" sizes="(max-width: 300px) 100vw, 300px" src="https://www.ndss-symposium.org/wp-content/uploads/ISOC-Dark-RGB_Logo_2016-08-01_EN_FINAL_v01_1-300x100-300x175.png" srcset="https://www.ndss-symposium.org/wp-content/uploads/ISOC-Dark-RGB_Logo_2016-08-01_EN_FINAL_v01_1-300x100-300x175.png 300w, https://www.ndss-symposium.org/wp-content/uploads/ISOC-Dark-RGB_Logo_2016-08-01_EN_FINAL_v01_1-300x100.png 335w" width="300"/></a></td>
+</tr>
+<tr style="background:#3e84e1; font-size: 1.7rem; color: white; ">
+<td colspan="12" style="text-align:center; padding: 10px;">Silver Sponsors</td>
+</tr>
+<tr>
+<td colspan="3" style="text-align:center; padding: 10px;"><a href="http://www.baidu.com/"><img alt="" class="alignnone size-medium wp-image-6081" height="103" sizes="(max-width: 300px) 100vw, 300px" src="https://www.ndss-symposium.org/wp-content/uploads/2020/02/baidu-logo-300x103.png" srcset="https://www.ndss-symposium.org/wp-content/uploads/2020/02/baidu-logo-300x103.png 300w, https://www.ndss-symposium.org/wp-content/uploads/2020/02/baidu-logo.png 462w" width="300"/></a></td>
+<td colspan="3" style="text-align:center; padding: 10px;"><a href="https://bytedance.com/en"><img alt="ByteDance logo" class="alignnone size-medium wp-image-5316" height="175" src="https://www.ndss-symposium.org/wp-content/uploads/2020/02/ByteDance_EN.png" width="300"/></a></td>
+<td colspan="3" style="text-align:center; padding: 10px;"><a href="https://www.calibra.com/"><img alt="" class="alignnone size-medium wp-image-5522" height="109" sizes="(max-width: 300px) 100vw, 300px" src="https://www.ndss-symposium.org/wp-content/uploads/Calibra-Logo-1-300x109.png" srcset="https://www.ndss-symposium.org/wp-content/uploads/Calibra-Logo-1-300x109.png 300w, https://www.ndss-symposium.org/wp-content/uploads/Calibra-Logo-1.png 600w" width="300"/></a></td>
+<td colspan="3" style="text-align:center; padding: 10px;"><a href="https://www.checkpoint.com/"><img alt="Checkpoint logo" class="alignnone size-medium wp-image-5316" height="175" sizes="(max-width: 300px) 100vw, 300px" src="https://www.ndss-symposium.org/wp-content/uploads/Checkpoint-300x68-300x175.jpg" srcset="https://www.ndss-symposium.org/wp-content/uploads/Checkpoint-300x68-300x175.jpg 300w, https://www.ndss-symposium.org/wp-content/uploads/Checkpoint-300x68.jpg 335w" width="300"/></a></td>
+</tr>
+<tr>
+<td colspan="4" style="text-align:center; padding: 10px;"><a href="https://www.microsoft.com/en-us/research/"><img alt="" class="alignnone size-medium wp-image-5516" height="110" sizes="(max-width: 300px) 100vw, 300px" src="https://www.ndss-symposium.org/wp-content/uploads/Microsoft-Logo-300x110.jpg" srcset="https://www.ndss-symposium.org/wp-content/uploads/Microsoft-Logo-300x110.jpg 300w, https://www.ndss-symposium.org/wp-content/uploads/Microsoft-Logo.jpg 600w" width="300"/></a></td>
+<td colspan="4" style="padding: 10px; text-align:center;"><a href="https://www.paloaltonetworks.com/"><img alt="" class="alignnone size-medium wp-image-5515" height="160" sizes="(max-width: 300px) 100vw, 300px" src="https://www.ndss-symposium.org/wp-content/uploads/Logo_Palo_Alto.eps_-300x160.jpg" srcset="https://www.ndss-symposium.org/wp-content/uploads/Logo_Palo_Alto.eps_-300x160.jpg 300w, https://www.ndss-symposium.org/wp-content/uploads/Logo_Palo_Alto.eps_.jpg 600w" width="300"/></a></td>
+<td colspan="4" style="text-align:center; padding: 10px;"><a href="https://www.qualcomm.com/"><img alt="Qualcomm logo" class="alignnone size-medium wp-image-5321" height="175" sizes="(max-width: 300px) 100vw, 300px" src="https://www.ndss-symposium.org/wp-content/uploads/Qualcomm-1-300x175.jpeg" srcset="https://www.ndss-symposium.org/wp-content/uploads/Qualcomm-1-300x175.jpeg 300w, https://www.ndss-symposium.org/wp-content/uploads/Qualcomm-1.jpeg 335w" width="300"/></a></td>
+</tr>
+<tr style="background:#3e84e1; font-size: 1.7rem; color: white; ">
+<td colspan="12" style="text-align:center; padding: 10px;">Bronze Sponsor</td>
+</tr>
+<tr>
+<td colspan="12" style="padding: 20px; text-align:center;"><a href="https://afilias.info/"><img alt="" class="wp-image-3294" height="86" sizes="(max-width: 225px) 100vw, 225px" src="https://www.ndss-symposium.org/wp-content/uploads/2017/09/Afilias-1-300x114.jpeg" srcset="https://www.ndss-symposium.org/wp-content/uploads/2017/09/Afilias-1-300x114.jpeg 300w, https://www.ndss-symposium.org/wp-content/uploads/2017/09/Afilias-1.jpeg 309w" width="225"/></a></td>
+</tr>
+<tr style="background:#3e84e1; font-size: 1.7rem; color: white; ">
+<td colspan="12" style="text-align:center; padding: 10px;">In Cooperation With</td>
+</tr>
+<tr>
+<td colspan="12" style="padding: 10px; text-align:center;"><a href="https://www.usenix.org/"><img alt="" class="wp-image-3846" height="113" src="https://www.ndss-symposium.org/wp-content/uploads/2017/09/usenix_logo_300x150_neat_2.png" width="225"/></a></td>
+</tr>
+<tr style="background:#3e84e1; font-size: 1.7rem; color: white; ">
+<td colspan="12" style="text-align:center; padding: 10px;">Technical Support Provided By</td>
+</tr>
+<tr>
+<td colspan="12" style="padding: 20px; text-align:center;"><a href="https://www.sdsc.edu/"><img alt="" class="wp-image-6104" height="59" sizes="(max-width: 450px) 100vw, 450px" src="https://www.ndss-symposium.org/wp-content/uploads/2020/02/sdsclogo.jpg" srcset="https://www.ndss-symposium.org/wp-content/uploads/2020/02/sdsclogo.jpg 900w, https://www.ndss-symposium.org/wp-content/uploads/2020/02/sdsclogo-300x39.jpg 300w, https://www.ndss-symposium.org/wp-content/uploads/2020/02/sdsclogo-768x100.jpg 768w" width="450"/></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</main>
+</div>
+</div>
+<footer class="content-info">
+<div class="container">
+<a href="https://www.internetsociety.org"><img alt="isoc logo" id="isoc-logo" src="https://www.ndss-symposium.org/wp-content/themes/ndss2/resources/dist/images/ISOC-logo-light_2.png"/></a>
+<small>Internet Society © 1992-2020<a href="https://www.ndss-symposium.org/privacy-policy/">&amp;nbsp &amp;nbsp Privacy Policy</a></small>
+<section class="widget text-4 widget_text"> <div class="textwidget"><p style="text-align: right;"><a href="mailto:ndss@elists.isoc.org" style="color: white;">Contact Us</a></p>
+<p style="text-align: right;"><a href="https://www.ndss-symposium.org/ndss-code-of-conduct/" style="color: white;">NDSS Code of Conduct</a></p>
+</div>
+</section> </div>
+</footer>
+<script src="https://www.ndss-symposium.org/wp-content/themes/ndss2/dist/scripts/main_e8b4062a.js" type="text/javascript"></script>
+<script src="https://www.ndss-symposium.org/wp-includes/js/wp-embed.min.js?ver=5.3.2" type="text/javascript"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"550c176780","applicationID":"322440980","transactionName":"ZwRQbBRVDEADVEYLXV5Oc1sSXQ1dTV5cBldI","queueTime":0,"applicationTime":1418,"atts":"S0NTGlxPH04=","errorBeacon":"bam.nr-data.net","agent":""}</script><div class="page-template-default page page-id-5190 page-child parent-pageid-5188 call-for-papers app-data index-data singular-data page-data page-5190-data page-call-for-papers-data">
+<header>
+<div id="home-nav">
+<a class="navbar-brand" href="https://www.ndss-symposium.org/">
+<img alt="ndss logo" id="ndss-logo" src="https://www.ndss-symposium.org/wp-content/uploads/NDSS_Logo_Grayscale_Reverse.png"/>
+</a>
+<a class="navbar-brand" href="https://www.ndss-symposium.org/" id="home-link">NDSS</a>
+<ul class="navbar-nav" id="menu-static-navigation"><li class="nav-item dropdown"><a class="nav-link toggle" href="https://www.ndss-symposium.org/about/">About NDSS</a></li>
+<li class="nav-item dropdown"><a class="nav-link toggle" href="https://www.ndss-symposium.org/sponsorship/">Sponsorship</a></li>
+</ul> <ul class="navbar-nav" id="menu-previous-conferences"><li class="nav-item dropdown"><a class="nav-link toggle" href="#">Previous Events</a>
+<ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+<li class="dropdown-item"><a class="nav-link toggle" href="#">NDSS Symposia</a>
+<ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+<li class="dropdown-item"><a class="nav-link toggle" href="/ndss2019">NDSS 2019</a></li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss2018">NDSS 2018</a></li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss2017">NDSS 2017</a></li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss2016">NDSS 2016</a></li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss2015">NDSS 2015</a></li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss2014">NDSS 2014</a></li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/previous-conferences">More...</a></li>
+</ul>
+</li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/previous-conferences/usec-events/">Usable Security (USEC) Events</a></li>
+</ul>
+</li>
+</ul> </div>
+
+</header>
+<div class="wrap container" role="document">
+<div class="content">
+<main class="main">
+<div class="page-header">
+<h1>NDSS 2020 Call for Papers</h1>
+</div>
+<p>The
+Network and Distributed System Security Symposium (NDSS) is a top venue that
+fosters information exchange among researchers and practitioners of computer,
+network and distributed system security. The target audience includes those
+interested in practical aspects of network and distributed system security,
+with a focus on actual system design and implementation. A major goal is to
+encourage and enable the Internet community to apply, deploy, and advance the
+state of practical security technologies. </p>
+<p>Technical
+papers and panel proposals are solicited. Authors are
+encouraged to write the abstract and introduction of their paper in a way that
+makes the results accessible and compelling to a general computer-security
+researcher. All
+submissions will be reviewed by the Program Committee and accepted submissions
+will be published by the Internet Society in the Proceedings of NDSS 2020. The
+Proceedings will be made freely accessible from the Internet Society webpages.
+Furthermore, permission to freely reproduce all or parts of papers for
+noncommercial purposes is granted provided that copies bear the Internet
+Society notice included in the first page of the paper. The authors are
+therefore free to post the camera-ready versions of their papers on their
+personal pages and within their institutional repositories. Reproduction for
+commercial purposes is strictly prohibited and requires prior consent.</p>
+<h2>Paper Submission Information</h2>
+<p><strong>New Submission Model:</strong> NDSS will have two review cycles in 2020: the first (Summer) with a submission deadline of June 14, 2019, and the second (Fall) with a submission deadline of September 13, 2019. All submissions must be received by <strong>11:59 PM AoE (UTC-12) on the day of the corresponding deadline</strong>.</p>
+<p>For each submission to one of the two review
+cycles, one of the following decisions will be made:</p>
+<ul><li><strong>Accept</strong>: Papers in this category will be accepted for publication in the proceedings and presentation at the conference.</li><li><strong>Minor Revision: </strong>Papers in this category will be accepted for publication in the proceedings and presentation at the conference, if and only if they undergo a minor revision and the revision is determined satisfactory by their shepherds.</li><li><strong>Major Revision</strong>: Papers in this category are considered promising but need additional work (e.g., new implementations, experiments and/or proofs). Authors may choose to revise and resubmit such papers to NDSS 2020, with appropriate revisions and within about 45 days after notification (see specific deadlines below). The revision and second-review of “Major Revision” papers will be based on a list of “revision tasks” clearly specified by the original reviewers and conveyed to authors in the notification. A revised paper will be accepted to NDSS 2020, if it satisfactorily fulfills the revision tasks. A paper may undergo at most one major revision for NDSS 2020. </li><li><strong>Reject:</strong> Papers in this category are not allowed to be resubmitted to NDSS 2020.</li></ul>
+<p>Authors of accepted papers must ensure that
+their papers will be presented at the conference.</p>
+<h2>Important Dates</h2>
+<h4>Summer Review Cycle:</h4>
+<p>May 31,  2019: Submission site opens for Summer review cycle <br/>June 14, 2019: Full submissions for technical papers <br/>July 25, 2019: Early notification for submissions rejected in the first round<br/>August 14-17, 2019: Author rebuttal period for papers advanced to the second round<br/>August 25, 2019: Notification of acceptance/minor revision/major revision/rejection<br/>October 9, 2019: Resubmission of revised papers (for Summer review cycle only)</p>
+<h4>Fall Review Cycle:</h4>
+<p>August 30, 2019: Submission site opens for Fall review cycle<br/>September 13, 2019: Full submissions for technical papers<br/>October 31, 2019: Early notification for submissions rejected in the first round<br/>November 21-24, 2019: Author rebuttal period for papers advanced to the second round<br/>December 8, 2019: Final notification of acceptance/minor revision/major revision/rejection<br/>January 24, 2020: Resubmission of revised papers (for Fall review cycle only)</p>
+<h4> NDSS 2020 Workshops and Symposium</h4>
+<p>February 23-26, 2020 — San Diego, CA </p>
+<h2>Areas/Topics of Interest</h2>
+<p>Submissions are solicited in, but not limited
+to, the following areas:</p>
+<ul><li>Anti-malware
+techniques: detection, analysis, and prevention</li><li>Cyber-crime
+defense and forensics (e.g., anti-phishing, anti-blackmailing, anti-fraud
+techniques)</li><li>Security for future
+Internet architectures and designs (e.g., Software-Defined Networking)</li><li>Implementation,
+deployment and management of network security policies</li><li>Integrating
+security in network protocols (e.g., routing, naming, and management)</li><li>Cyber attack
+(e.g., APTs, botnets, DDoS) prevention, detection, investigation, and response</li><li>Software/firmware
+analysis, customization, and transformation for systems security</li><li>Privacy and
+anonymity in networks and distributed systems</li><li>Security and
+privacy for blockchains and cryptocurrencies</li><li>Public key
+infrastructures, key management, certification, and revocation</li><li>Security for
+cloud/edge computing</li><li>Security and
+privacy of mobile/smartphone platforms</li><li>Security for
+cyber-physical systems (e.g., autonomous vehicles, industrial control systems)</li><li>Security for
+emerging networks (e.g., home networks, IoT, body-area networks, VANETs)</li><li>Security for
+large-scale, critical infrastructures (e.g., electronic voting, smart grid)</li><li>Security and
+privacy of systems based on machine learning and AI</li><li>Security of
+Web-based applications and services (e.g., social networking, crowd-sourcing)</li><li>Special
+problems and case studies: e.g., tradeoffs between security and efficiency,
+usability, cost, and ethics</li><li>Usable
+security and privacy</li><li>Trustworthy
+Computing software and hardware to secure networks and systems</li></ul>
+<p class="has-background has-cyan-bluish-gray-background-color"><strong>A
+special note on “fit” for all submissions:</strong> NDSS is primarily a venue focusing on
+network and systems security. As such, the Program Committee will be looking
+for papers that have a clear relation to real systems and applications. For
+instance, a paper that makes significant contributions in an area such as
+cryptography but that fails to demonstrably tie those advances to real systems
+is unlikely to be accepted.</p>
+<h2>Review Task Force</h2>
+<p>The Program Committee (PC) has an exceedingly
+difficult job that demands, collectively, many thousands of hours of
+volunteered effort. The goal of NDSS is to not only to select the submissions
+that are ready for presentation at this venue, but also to assist the authors
+of rejected papers in improving their work as much as possible.</p>
+<p>To assist in this process, we are creating a
+group of senior PC members who will read reviews across many papers and ensure
+that all feedback achieves the following goals: 1) Provide concrete steps for
+improving the work; 2) Separate reviewer opinion from demonstrable technical
+weakness; and 3) Provide clear citation to work when claims of novelty are
+raised. While we make no claims that these changes will make the peer review process
+perfect (i.e., very good papers may still not be selected), we believe that
+this will help to improve the process.</p>
+<h2>Paper Formatting</h2>
+<p>Technical papers submitted for NDSS should be written in English. Papers must not exceed 13 pages, <em>excluding</em> references and appendices. Papers must be formatted for US letter size (not A4) paper in a two-column layout, with columns no more than 9.25 in. high and 3.5 in. wide. The text must be in Times font, 10-point or larger, with 11-point or larger line spacing. Authors must use the NDSS templates. The NDSS 2020 Templates are available at <a href="https://www.ndss-symposium.org/ndss2020/templates/">https://www.ndss-symposium.org/ndss2020/templates/</a>.  Submissions must be in Portable Document Format (.pdf). Authors should pay special attention to unusual fonts, images, and figures that might create problems for reviewers. Documents should render correctly in Adobe Reader when printed in black and white.</p>
+<h2>Double and Concurrent Submissions</h2>
+<p>Technical papers must not substantially
+overlap with papers that have been published or that are simultaneously
+submitted to a journal or a conference/workshop with proceedings.
+Double-submission will result in immediate rejection. The Program Committee may
+share information with other conference chairs and journal editors so as to
+detect such cases.</p>
+<h2>Ethical Considerations</h2>
+<p>If a paper relates to human subjects,
+analyzes data derived from human subjects, may put humans at risk, or might
+have other ethical implications or introduce legal issues of potential concern
+to the NDSS community, authors should disclose if an ethics review (e.g., IRB
+approval) was conducted, and discuss in the paper how ethical and legal
+concerns were addressed. If the paper reports a potentially high-impact
+vulnerability the authors should discuss their plan for responsible disclosure.
+The chairs will contact the authors in case of major concerns. The Program
+Committee reserves the right to reject a submission if insufficient evidence
+was presented that ethical or relevant legal concerns were appropriately
+addressed.</p>
+<h2>Anonymous Submissions</h2>
+<p>NDSS implements a double-blind reviewing
+process. Author names and affiliations should not appear in the paper. The
+authors should make a reasonable effort not to reveal their identities or
+institutional affiliation in the text, figures, photos, links, or other data
+that is contained in the paper. Authors’ prior work should be preferably
+referred to in the third person; if this is not feasible, the references should
+be blinded. Submissions that violate these requirements will be rejected
+without review. The list of authors cannot be changed after the acceptance
+decision is made unless approved by the Program Chairs.</p>
+<h2>Conflicts of Interest</h2>
+<p>Authors and Program Committee members are
+required to indicate any conflict of interest and its nature. Advisors and
+advisees, as well as authors and PC members with an institutional relationship
+are considered to share a conflict of interest. Professional collaborations
+(irrespective of whether they resulted in publication or funding) that occurred
+in the past 2 years and close personal relationships equally constitute a
+conflict of interest. PC members, including chairs that have a conflict of
+interest with a paper, will be entirely excluded from the evaluation of that
+paper.</p>
+<p>The PC Co-Chairs are not allowed to submit to
+the conference.</p>
+<p class="has-background has-cyan-bluish-gray-background-color"><strong>A
+Special Note on “Fake Conflicts”:</strong> Declaring conflicts of interest to avoid
+certain (otherwise non-conflicting) PC members is not allowed and can
+constitute grounds for rejection. The PC Chairs reserve the right to request
+additional explanation for a declared conflict. If authors have concerns about
+the fair treatment of their submissions, they should instead contact the chairs
+and provide convincing arguments for any special consideration that they are
+requesting.</p>
+<h2>Submissions of papers</h2>
+<p>The submission site for the Summer review cycle (opening on May 31, 2019) is <a href="https://ndss20-Summer.hotcrp.com/">https://ndss20-Summer.hotcrp.com</a>. </p>
+<p>The submission site for the Fall review cycle (opening on August 30, 2019) is <a href="https://ndss20-Fall.hotcrp.com/">https://ndss20-Fall.hotcrp.com.</a> </p>
+<p>PC chair contact: <a href="mailto:ndss-pc-chair@elists.isoc.org">ndss-pc-chair@elists.isoc.org</a></p>
+<h2>Acknowledgement </h2>
+<p>We thank the PC Co-Chairs of ACM CCS’19 and
+USENIX Security’19 for allowing us to reuse certain text in their CFPs. </p>
+</main>
+</div>
+</div>
+<footer class="content-info">
+<div class="container">
+<a href="https://www.internetsociety.org"><img alt="isoc logo" id="isoc-logo" src="https://www.ndss-symposium.org/wp-content/themes/ndss2/resources/dist/images/ISOC-logo-light_2.png"/></a>
+<small>Internet Society © 1992-2020<a href="https://www.ndss-symposium.org/privacy-policy/">&amp;nbsp &amp;nbsp Privacy Policy</a></small>
+<section class="widget text-4 widget_text"> <div class="textwidget"><p style="text-align: right;"><a href="mailto:ndss@elists.isoc.org" style="color: white;">Contact Us</a></p>
+<p style="text-align: right;"><a href="https://www.ndss-symposium.org/ndss-code-of-conduct/" style="color: white;">NDSS Code of Conduct</a></p>
+</div>
+</section> </div>
+</footer>
+
+
+</div><div class="page-template-default page page-id-5295 page-child parent-pageid-5188 program-committee app-data index-data singular-data page-data page-5295-data page-program-committee-data">
+<header>
+<div id="home-nav">
+<a class="navbar-brand" href="https://www.ndss-symposium.org/">
+<img alt="ndss logo" id="ndss-logo" src="https://www.ndss-symposium.org/wp-content/uploads/NDSS_Logo_Grayscale_Reverse.png"/>
+</a>
+<a class="navbar-brand" href="https://www.ndss-symposium.org/" id="home-link">NDSS</a>
+<ul class="navbar-nav" id="menu-static-navigation"><li class="nav-item dropdown"><a class="nav-link toggle" href="https://www.ndss-symposium.org/about/">About NDSS</a></li>
+<li class="nav-item dropdown"><a class="nav-link toggle" href="https://www.ndss-symposium.org/sponsorship/">Sponsorship</a></li>
+</ul> <ul class="navbar-nav" id="menu-previous-conferences"><li class="nav-item dropdown"><a class="nav-link toggle" href="#">Previous Events</a>
+<ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+<li class="dropdown-item"><a class="nav-link toggle" href="#">NDSS Symposia</a>
+<ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+<li class="dropdown-item"><a class="nav-link toggle" href="/ndss2019">NDSS 2019</a></li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss2018">NDSS 2018</a></li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss2017">NDSS 2017</a></li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss2016">NDSS 2016</a></li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss2015">NDSS 2015</a></li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/ndss2014">NDSS 2014</a></li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/previous-conferences">More...</a></li>
+</ul>
+</li>
+<li class="dropdown-item"><a class="nav-link toggle" href="https://www.ndss-symposium.org/previous-conferences/usec-events/">Usable Security (USEC) Events</a></li>
+</ul>
+</li>
+</ul> </div>
+
+</header>
+<div class="wrap container" role="document">
+<div class="content">
+<main class="main">
+<div class="page-header">
+<h1>NDSS 2020 Program Committee</h1>
+</div>
+<h2>Program Committee Chairs</h2>
+<p>Ahmad-Reza Sadeghi, TU Darmstadt<br/>Dongyan Xu, Purdue University</p>
+<h2>Program Committee Members</h2>
+<p>Adam Aviv, The George Washington University<br/> Adam Bates, University of Illinois at Urbana-Champaign <br/> Adam Doupe, Arizona State University<br/> Adwait Nadkarni, William &amp; Mary<br/> Alexandra Dmitrienko, University of Würzburg<br/> Amir Houmansadr, University of Massachusetts-Amherst <br/> Andrew Paverd, Microsoft Research<br/> Antonio Bianchi, Purdue University<br/> Anupam Das, North Carolina State University<br/> Ben Stock, CISPA Helmholtz Center for Information Security<br/> Benny Pinkas, VMware Research, Bar Ilan University<br/> Bimal Viswanath, Virginia Tech<br/> Blase Ur, University of Chicago<br/> Brad Reaves, North Carolina State University<br/> Brendan Dolan-Gavitt, NYU<br/> Brendan Saltaformaggio, Georgia Institute of Technology<br/> Brent ByungHoon Kang, KAIST<br/> Bryan Parno, Carnegie Mellon University<br/> Byoungyoung Lee, Seoul National University<br/> Carmela Troncoso, EPFL<br/> Carrie Gates, Bank of America<br/> Chris Kanich, University of Illinois at Chicago<br/> Christina Garman, Purdue University<br/> Christina Poepper, New York University Abu Dhabi<br/> Christopher Liebchen, Google<br/> Cristina Nita-Rotaru, Northeastern University<br/> David Lie, University of Toronto<br/> Davide Balzarotti, EURECOM<br/> Earlence Fernandes, University of Wisconsin-Madison<br/> Emiliano De Cristofaro, University College London (UCL)<br/> Engin Kirda, Northeastern University<br/> Farinaz Koushanfar, University of California San Diego<br/> Gang Tan, Pennsylvania State University<br/> Gang Wang, Virginia Tech<br/> Gene Tsudik, University of California Irvine (UCI)<br/> Guofei Gu, Texas A&amp;M University<br/> Haibo Chen, Shanghai Jiao Tong University<br/> Hamed Okhravi, MIT Lincoln Lab<br/> Ivan Martinovic, Oxford University<br/> Jack Stokes, Microsoft Research<br/> Jeremiah Blocki, Purdue University<br/> Jon McCune, Google<br/> Juan Caballero, IMDEA Software Institute<br/> Kevin Butler, University of Florida<br/> Kevin Hamlen, University of Texas at Dallas<br/> Konrad Rieck, TU Braunschweig<br/> Kun Sun, George Mason University<br/> Lejla Batina, Radboud University<br/> Limin Jia, Carnegie Mellon University<br/> Long Lu, Northeastern University<br/> Lucas Davi, University of Duisburg-Essen<br/> Luyi Xing, Indiana University Bloomington<br/> Manuel Egele, Boston University<br/> Marcus Peinado, Microsoft Research<br/> Mathias Payer, EPFL<br/> Matt Fredrikson, Carnegie Mellon University<br/> Mauro Conti, University of Padua<br/> Micah Sherr, Georgetown University<br/> Michelle Mazurek, University of Maryland<br/> Mihai Christodorescu, Visa Research<br/> Neil Gong, Duke University<br/> Nele Mentens, KU Leuven<br/> Nick Nikiforakis, Stony Brook University<br/> Panos Papadimitratos, KTH Royal Institute of Technology<br/> Patrick Traynor, University of Florida<br/> Per Larsen, University of California Irvine and Immunant, Inc.<br/> Qi Li, Tsinghua University<br/> Rosario Cammarota, Intel<br/> Saman Zonouz, Rutgers University<br/> Sebastian Faust, TU Darmstadt<br/> Selcuk Uluagac, Florida International University<br/> Srdjan Capkun, ETH Zurich<br/> Stefan Katzenbeisser, University of Passau<br/> Stefanie Roos, TU Delft<br/> Stephen McCamant, University of Minnesota<br/> Suman Jana, Columbia University<br/> Taesoo Kim, Georgia Institute of Technology<br/> Thomas Schneider, TU Darmstadt<br/> Thorsten Holz, Ruhr-University Bochum<br/> Tiffany Bao, Arizona State University<br/> Trent Jaeger, Pennsylvania State University <br/> Tudor Dumitras, University of Maryland<br/> Vinod Ganapathy, Indian Institute of Science<br/> Wenyuan Xu, Zhejiang University<br/> William Enck, North Carolina State University<br/> Xiaojing Liao, Indiana University Bloomington<br/> Yinqian Zhang, Ohio State University<br/> Yongdae Kim, KAIST<br/> Yonghwi Kwon, University of Virginia<br/> Yossef Oren, Ben-Gurion University of the Negev<br/> Yuan Tian, University of Virginia<br/> Zhenkai Liang, National University of Singapore<br/> Zhiqiang Lin, Ohio State University<br/> Zhiyun Qian, University of California, Riverside<br/> Zhou Li, University Of California Irvine‎</p>
+</main>
+</div>
+</div>
+<footer class="content-info">
+<div class="container">
+<a href="https://www.internetsociety.org"><img alt="isoc logo" id="isoc-logo" src="https://www.ndss-symposium.org/wp-content/themes/ndss2/resources/dist/images/ISOC-logo-light_2.png"/></a>
+<small>Internet Society © 1992-2020<a href="https://www.ndss-symposium.org/privacy-policy/">&amp;nbsp &amp;nbsp Privacy Policy</a></small>
+<section class="widget text-4 widget_text"> <div class="textwidget"><p style="text-align: right;"><a href="mailto:ndss@elists.isoc.org" style="color: white;">Contact Us</a></p>
+<p style="text-align: right;"><a href="https://www.ndss-symposium.org/ndss-code-of-conduct/" style="color: white;">NDSS Code of Conduct</a></p>
+</div>
+</section> </div>
+</footer>
+
+
+</div></body>
+</html>

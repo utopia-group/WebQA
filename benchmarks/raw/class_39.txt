@@ -1,0 +1,254 @@
+<!DOCTYPE HTML PUBLIC "-//SQ//DTD HTML 2.0 + all extensions//EN" "hmpro3.dtd">
+<html>
+<head>
+<title>COS 375, Fall 2015: Home Page</title>
+<style media="screen" type="text/css">
+
+table{
+border-collapse:collapse;
+border:1px solid #000000;
+}
+
+table td{
+border:1px solid #000000;
+}
+</style>
+</head>
+<body bgcolor="#ffffff">
+<table border="0" cellpadding="5" cellspacing="0" width="100%">
+<tr>
+<td align="CENTER" valign="TOP" width="20%">
+<img src="http://www.cs.princeton.edu/pulogo.gif"/>
+<h5>
+<a href="http://www.princeton.edu/">Princeton University</a>
+<br/>
+<a href="http://www.cs.princeton.edu/">Computer Science Department</a>
+</h5>
+</td>
+<td align="CENTER" valign="MIDDLE">
+<h2>
+			Computer Science 375			<br/>
+			Computer Architecture			<br/><br/>
+<a href="http://www.cs.princeton.edu/~august/">David August</a>
+</h2>
+</td>
+<td align="RIGHT" valign="MIDDLE" width="20%">
+<h3>
+<large>Fall 2015</large>
+<h3>
+</h3></h3></td>
+</tr>
+</table>
+<hr/>
+<h2>Course Description</h2>
+
+An introduction to computer architecture and organization. Instruction
+set design; basic processor implementation techniques; performance
+measurement; caches and virtual memory; pipelined processor design;
+RISC architectures; design trade-offs among cost, performance, and
+complexity.
+
+<hr/>
+<h2>Announcements</h2>
+<li>REVIEW SESSION: CS Room 105 on January 15, 2016 from 10:30am-12:00pm.</li>
+<li>Jan 6: <a href="./finals">Sample Finals</a> are now available.</li>
+<!-- <li>Dec 15: <a href="./homework/4.pdf">Problem Set 4</a> is now available.</li>
+<li>Dec 10: Extra 3rd edition problem suggestions with answers are available from the <a href="http://books.elsevier.com/companions/1558606041/">companion site</a>.</li>
+<li>Dec 10: <a href="./problems.txt">Extra problem suggestions</a> are now available.  Your TAs and I are happy to help you with these.</li>
+<li>Nov 14: <a href="./midterms/midterm-sol.pdf">Midterm Solutions</a> are now available</li>
+<li>Nov 7: Project 2 <a href="./labs/lab2hw.pdf">[PDF]</a> is now available.</li>
+-->
+<li>Dec 17: <a href="./homework/4.pdf">Problem Set 4</a> is now available.</li>
+<li>Dec 2: <a href="./homework/3.pdf">Problem Set 3</a> is now available.</li>
+<li>Nov 18: Project 2 <a href="./labs/lab2hw.pdf">[PDF]</a> is now available.</li>
+<li>Nov 9: Midterms Solutions are now available on Piazza.</li>
+<li>Oct 21: <a href="./midterms">Sample Midterms</a> are now available.</li>
+<li>Oct 10: <a href="./homework/2.pdf">Problem Set 2</a> is now available. NOW DUE 10/26.</li>
+<li>Sept 30: Project 1 <a href="./labs/lab1simulator.pdf">[PDF]</a> is now available.</li>
+<li>Sept 21: <a href="./homework/1.pdf">Problem Set 1</a> is now available.</li>
+<li>Sept 19: This is the official web page for COS375/ELE375
+Welcome! -DIA </li>
+<hr/>
+<h2>Midterm</h2>
+<p>
+The midterm is CLOSED BOOK/CLOSED NOTES, ONE TWO-SIDED HANDWRITTEN SHEET WILL BE ALLOWED.
+</p><p>
+Topics include ISA, Assembly Language, Dependences, Calling Convention, Performance (IPC, Amdahl's Law, Bmarks), Arithmetic (Integer, Floating Point), Datapath, Control, Microprogramming.
+</p><p>
+Book chapters: Chapters 1-4/B.
+</p>
+<hr/>
+<h2>Course Syllabus/Lectures</h2>
+<a href="./lectures">All Course Lecture Notes including 1x1, 2x2, and 3x1 formats</a><br/>
+<table cellpadding="4" rules="none">
+<tr><td>September 16:</td><td> Introduction </td><td>Read Chapter 1</td></tr>
+<tr><td>September 21:</td><td> ISA 1 </td><td>Read Chapters 1,2, Appendix B</td></tr>
+<tr><td>September 23:</td><td> ISA 2 </td><td></td></tr>
+<tr><td>September 28:</td><td> Metrics </td><td></td></tr>
+<tr><td>September 30:</td><td> Arithmetic </td><td>Read Chapters 1-3/B, Project partner selection after class, </td></tr>
+<tr><td>October 5:</td><td> Arithmetic </td><td>Read Chapters 1-4/B</td></tr>
+<tr><td>October 7:</td><td></td><td>Problem Set 1 due at 5PM</td></tr>
+<tr><td>October 12:</td><td>RTL</td><td>Read Chapters 1-4/B</td></tr>
+<tr><td>October 14:</td><td></td><td></td></tr>
+<tr><td>October 19:</td><td> Datapath </td><td></td></tr>
+<tr><td>October 21:</td><td> Control </td><td></td></tr>
+<tr><td>October 26:</td><td> Microprogramming</td><td>Problem Set 2 Due at 5PM</td></tr>
+<tr><td>October 26:</td><td> Q&amp;A, Review </td><td>3PM at COS105, small auditorium </td></tr>
+<tr><td>October 28:</td><td> <b>MIDTERM</b> </td><td></td></tr>
+<tr><td>October 31-November 8:</td><td> </td><td><b>FALL BREAK</b></td></tr>
+<tr><td>November 9:</td><td>Pipelining </td><td>Read Chapters 1-4/B</td></tr>
+<tr><td>November 11:</td><td>Pipeline Control </td><td>Project #1 Due at 5PM</td></tr>
+<tr><td>November 16: </td><td>Branch Prediction</td><td>Read Chapters 1-4/B</td></tr>
+<tr><td>November 18: </td><td>Branch Prediction</td><td></td></tr>
+<tr><td>November 23:</td><td>Memory Hierarchy</td><td>Read Chapters 1-5/B</td></tr>
+<tr><td>November 24-29:</td><td></td><td><b>THANKSGIVING BREAK</b></td></tr>
+<tr><td>November 30:</td><td>Memory Hierarchy, Virtual Memory</td><td></td></tr>
+<tr><td>December 2:</td><td>Virtual Memory, Memory Technology</td><td>Read Chapters 1-5/B</td></tr>
+<tr><td>December 7:</td><td>I/O and Disk</td><td></td></tr>
+<tr><td>December 9:</td><td>Instruction-Level Parallelism</td><td>Read Chapters 1-6/B</td></tr>
+<tr><td>December 14:</td><td>Multiprocessor Parallelism</td><td></td></tr>
+<tr><td>December 16:</td><td>Multiprocessor Parallelism</td><td></td></tr>
+<tr><td>December 17:</td><td></td><td>Problem Set 3 Due at 5PM</td></tr>
+<tr><td>December 18-January 3:</td><td></td><td><b>WINTER BREAK</b></td></tr>
+<tr><td>January 6:</td><td> </td><td>Problem Set 4 Due at 5PM, late days may be used if really necessary</td></tr>
+<tr><td>January 12:</td><td></td><td>Project #2 Due, no late days may be used</td></tr>
+<tr><td>January 16, 1:30pm:</td><td><b>FINAL Exam</b></td><td>Room: Computer Science Building 104</td></tr>
+</table>
+<hr/>
+<!-- <H2>Final Exam Information</H2>
+
+The final exam will cover the material covered in lecture and in the text.  
+You will have 3 hours for the final exam.  The final exam is closed book.  
+Only two two-sided, handwritten 8.5x11 sheets will be allowed.  
+No calculators will be allowed.
+<br>
+<a href="finals/final1.pdf">Sample Final 1</a>
+<a href="finals/final2.pdf">Sample Final 2</a>
+<a href="finals/final3.pdf">Sample Final 3</a>
+<a href="finals/final4.pdf">Sample Final 4</a>
+<HR>
+--->
+<h2>Supplemental Reading</h2>
+<a href="reading/two-level_bpred.pdf">Two-Level Branch Prediction</a>
+  A Comparison of Dynamic Branch Predictors that use Two Levels of Branch 
+  History by T.-Y. Yeh and Y. Patt<br/>
+<a href="reading/smt.pdf">SMT</a>
+ Simultaneous Multithreading: Maximizing On-Chip Parallelism by
+ Dean M. Tullsen, Susan J. Eggers, and Henry M. Levy <br/>
+<a href="reading/cachecoherence.pdf">Cache Coherence</a>
+ A Survey of Cache Coherence Schemes for Multiprocessors by
+ Per Stenstrom<br/>
+<a href="reading/ilp1.pdf">ILP1</a>
+ Instruction-Level Parallel Processing: History, Overview and Perspective
+ by B. Rau and J. Fisher <br/>
+<a href="reading/ilp2.pdf">ILP2</a>
+ Compiler Technology for Future Microprocessors by
+ W. Hwu, R. Hank, D. Gallagher, S. Mahlke, D. Lavery,
+ G. Haab, J. Gyllenhaal, and D. August <br/>
+<a href="reading/dram.pdf">DRAM</a>
+ A Case for Studying DRAM Issues at the System Level by B. Jacob <br/>
+<hr/>
+<h2>Project References</h2>
+<li><a href="./lectures/Verilog_Tutorial.pdf">Verilog and FPGA Tutorial</a><a></a></li>
+<li><a href="./labs/reference/pawARM.pdf">The PAW Architecture Reference Manual</a><a></a></li>
+<li><a href="./labs/reference/pawbinutils.pdf">PAW Binutils Documentation</a><a></a></li>
+<hr/>
+<h2>Text</h2>
+<i>Computer Organization and Design: The Hardware/Software Interface</i>
+by David Patterson and John Hennessy.  Fifth edition. 
+
+<hr/>
+<h2>Course Project Information</h2>
+<table cellpadding="5" cellspacing="1" style="border: 1px solid #000000">
+<tr>
+<td align="center"><b>Course</b></td>
+<td align="center">COS306</td>
+<td align="center">COS375</td>
+<td align="center">COS475</td>
+</tr>
+<tr>
+<td align="center"><b>Form Factor</b></td>
+<td align="center">FPGA</td>
+<td align="center">FPGA and Real Peripherals</td>
+<td align="center">Software Simulation</td>
+</tr>
+<tr>
+<td align="center"><b>Difference in Learning Processor Design</b></td>
+<td align="center">Simple processor, Datapath and Control Design</td>
+<td align="center">Pipelined In-Order Processor, Realistic I/O (Keyboard, Monitor, etc)</td>
+<td align="center">Out-of-Order Processor, Superscalar</td>
+</tr>
+<tr>
+<td align="center"><b>Optional</b></td>
+<td align="center">Pipeline</td>
+<td align="center">Wide Issue, Speculation, Misspeculation Recovery</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><b>ISA</b></td>
+<td align="center">LC3</td>
+<td align="center">PAW, subset of ARM ’Thumb’</td>
+<td align="center">PARC, subset of MIPS32</td>
+</tr>
+</table>
+<hr/>
+<h2>Grading</h2>
+<table cellpadding="5" rules="none">
+<tr>
+<td align="center"><b>Project</b></td>
+<td align="center">40%</td>
+</tr>
+<tr>
+<td align="center"><b>Midterm</b></td>
+<td align="center">15%</td>
+</tr>
+<tr>
+<td align="center"><b>Final</b></td>
+<td align="center">25%</td>
+</tr>
+<tr>
+<td align="center"><b>Quizzes</b></td>
+<td align="center"><font color="#ff0000">EXTRA CREDIT<font></font></font></td>
+</tr>
+<tr>
+<td align="center"><b>Participation</b></td>
+<td align="center">5%</td>
+</tr>
+<tr>
+<td align="center"><b>Homework</b></td>
+<td align="center">15% (best 3 of 4)</td>
+</tr>
+</table>
+<br/>
+<hr/>
+<h2>Collaboration Policy</h2>
+<p>Assignments should be attempted individually. If you cannot come up with an answer after trying for a while then you may discuss the material or specific issue with a friend/TA/Prof. The answers should be your own.  In other words, don't discuss or compare your answers to an assignment with anyone or any
+source.</p>
+<p>Project teams should work independently. Collaboration among team members is unrestricted (obviously).</p>
+<hr/>
+<a name="ADMIN"></a>
+<h2>Administrative Information</h2>
+<h4>Lectures:  MW 1330-1450, Room:  Robertson Hall 001</h4>
+<p>
+<b>Professor:</b> <a href="http://www.cs.princeton.edu/~august/">David August</a> - 221 CS Building - Office Hours: after class or by appointment.
+ 
+</p><p>
+<b>Undergraduate Coordinator:</b>
+Colleen Kenny-McGinley - 210 CS Building - 258-1746
+<a href="mailto:ckenny@cs.princeton.edu">ckenny@cs.princeton.edu</a>
+</p><p>
+<b>Teaching Assistants:</b> <br/>
+</p><table width="100%">
+<tr>
+<td>Bochao Wang</td> <td>E-Quad C-319B</td> <td>bochaow@princeton.edu</td> <td>Office Hours: Th/F 10:30-11:30AM </td>
+</tr>
+<tr>
+<td>Debajit Bhattacharya</td> <td>E-Quad C-319D</td> <td>dbhattac@princeton.edu</td> <td>Office Hours: T/Th 3-4PM </td>
+</tr>
+<tr>
+<td>Hansen Zhang</td> <td>241 CS Building</td> <td>hansenz@princeton.edu</td> <td>Office Hours: M/W 3-4PM</td>
+</tr>
+</table>
+<hr/>
+</body>
+</html>

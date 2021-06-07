@@ -1,0 +1,549 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>CMSC 631, Spring 2013</title>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<link href="http://www.cs.umd.edu/class/Spring2013/cmsc631/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<table cellpadding="8" cellspacing="0" width="100%">
+<tr>
+<td valign="top" width="15%">
+<table border="0" cellpadding="2" cellspacing="2" class="menu" width="100%">
+<tbody>
+<tr><td><a href="index.shtml">Home</a></td></tr>
+<tr><td><a href="http://piazza.com/class#Spring2013/cmsc631">Piazza</a> (discussion forum)
+      </td></tr><tr><td><a href="syllabus.shtml">Syllabus</a></td></tr>
+<tr><td><a href="materials.shtml">Schedule and Materials</a></td></tr>
+<tr><td><a href="projects.shtml">Projects</a></td></tr>
+<tr><td><a href="resources.shtml">Resources</a></td></tr>
+<tr><td><a href="https://grades.cs.umd.edu">Grades</a></td></tr>
+<tr><td><a href="https://submit.cs.umd.edu">Submit server</a></td></tr>
+</tbody>
+</table>
+</td><td valign="top" width="85%">
+<div class="header">
+<center>
+<h2>CMSC 631, Spring 2013</h2>
+<h3>Program Analysis and Understanding</h3>
+</center>
+</div>
+<div>
+<b>Announcements:</b><br/>
+<i>All announcements will be posted exclusively on Piazza.</i>
+</div>
+<p>
+</p><table bgcolor="#ACDCEE" class="info" width="50%">
+<tr><th>Location</th>
+<td colspan="2"><a href="http://www.umd.edu/CampusMaps/bld_detail.cfm?bld_code=CSI"><abbr title="Computer Science Instructional Center">CSI</abbr></a> 1121, MW 3:30-4:45pm</td></tr>
+<!--<tr><th>Final Exam</th>
+    <td>TBA</td></tr>
+<tr><th>Final Project</th>
+    <td>TBA</td></tr> -->
+<tr><th>Instructors</th>
+<td><a href="http://www.cs.umd.edu/~mwh/">Mike Hicks</a><br/>
+<a href="http://www.umd.edu/CampusMaps/bld_detail.cfm?bld_code=AVW"><abbr title="A.V. Williams Building">AVW</abbr></a> 4131<br/>
+        Hours: M/W/Th 10-11</td>
+<td><a href="http://www.cs.umd.edu/~jfoster/">Jeff Foster</a><br/>
+<a href="http://www.umd.edu/CampusMaps/bld_detail.cfm?bld_code=AVW"><abbr title="A.V. Williams Building">AVW</abbr></a> 3423<br/>
+        Hours: M 11-12, Tu 11-11:45</td></tr>
+<tr><th></th>
+<td><a href="http://www.cs.umd.edu/~hammer/">Matthew Hammer</a><br/>
+<a href="http://www.umd.edu/CampusMaps/bld_detail.cfm?bld_code=AVW"><abbr title="A.V. Williams Building">AVW</abbr></a> 4161<br/>
+        Hours: M/W 5-6</td>
+<td><a href="http://www.cs.umd.edu/~sstrickl/">Stevie Strickland</a><br/>
+<a href="http://www.umd.edu/CampusMaps/bld_detail.cfm?bld_code=AVW"><abbr title="A.V. Williams Building">AVW</abbr></a> 4161<br/>
+        Hours: Tu/W 2-3</td></tr>
+<tr><th></th>
+<td colspan="2">Additional office hours available by appointment.</td></tr>
+<tr><th>TA</th>
+<td colspan="2"><a href="http://www.cs.umd.edu/~piotrm/">Peter Mardziel</a><br/>
+        Location: <a href="http://www.umd.edu/CampusMaps/bld_detail.cfm?bld_code=AVW"><abbr title="A.V. Williams Building">AVW</abbr></a> 1112 (TA Room)<br/>
+        Hours: Th 1-2, F 2-3</td>
+<td></td></tr>
+<tr><th>Textbook
+    </th><td colspan="2">None (but see <a href="resources.shtml">recommendations</a>)
+</td></tr></table>
+<h2>Description</h2>
+<p>
+This core course is about techniques for analyzing and understanding
+software artifacts.  Ultimately, the goal of this area of study is to
+improve the quality of software.  We will cover three
+related areas of programming languages research: 
+</p><ol>
+<li><i>Static analysis</i>, the name for any automatic technique for reasoning
+about program source code.  We will study data flow analysis, symbolic
+  execution, and type systems in depth, with more cursory coverage of
+  other analysis techniques.  Related techniques are covered in CMSC
+  630.
+</li><li><i>Formal systems</i> for describing languages and
+programs, including lambda calculus and axiomatic, denotational, and
+operational semantics.  We will use the Coq proof assistant to help
+  mechanize our formalizations and check proofs of properties about
+  these systems. 
+</li><li><i>Programming language features</i> and
+how they affect software, including imperative, functional, and
+object-oriented programming.
+</li></ol>
+</td>
+</tr></table>
+<p><a href="http://validator.w3.org/check/referer"><img align="right" alt="Valid HTML 4.01!" border="0" height="31" src="http://www.w3.org/Icons/valid-html401" width="88"/></a></p>
+<p style="text-align: right;"><a href="https://www.umd.edu/web-accessibility" title="UMD Web Accessibility">Web Accessibility</a></p>
+<div>
+<table cellpadding="8" cellspacing="0" width="100%">
+<tr>
+<td valign="top" width="15%">
+<table border="0" cellpadding="2" cellspacing="2" class="menu" width="100%">
+<tbody>
+<tr><td><a href="index.shtml">Home</a></td></tr>
+<tr><td><a href="http://piazza.com/class#Spring2013/cmsc631">Piazza</a> (discussion forum)
+      </td></tr><tr><td><a href="syllabus.shtml">Syllabus</a></td></tr>
+<tr><td><a href="materials.shtml">Schedule and Materials</a></td></tr>
+<tr><td><a href="projects.shtml">Projects</a></td></tr>
+<tr><td><a href="resources.shtml">Resources</a></td></tr>
+<tr><td><a href="https://grades.cs.umd.edu">Grades</a></td></tr>
+<tr><td><a href="https://submit.cs.umd.edu">Submit server</a></td></tr>
+</tbody>
+</table>
+</td><td valign="top" width="85%">
+<div class="header">
+<center>
+<h2>CMSC 631, Spring 2013</h2>
+<h3>Program Analysis and Understanding</h3>
+</center>
+</div>
+
+<h1 class="title">Syllabus</h1>
+<p>
+<i>Subject to change, especially until the start of the semester.</i>
+
+Last modified on January 22, 2013.
+
+<!-- <p>Last Modified on <span id="lastModified">&nbsp;</span></p> -->
+</p><h2>Grading and Expectations</h2>
+<p>
+The final course grade will be made up of the following components:
+</p><ul>
+<li><b>Homework and Programming Assignments</b> (45%)  During the
+semester, there will be several short written homework assignments;
+a few programming assignments; and assignments using the Coq
+proof assistant.
+
+</li><li><b>Project</b> (25%) You will be expected to complete a
+substantial research project during the semester.  Projects may be
+completed individually or in pairs.  For more details, see the
+projects page.
+
+</li><li><b>Participation and Presentation</b> (5%) You will present your
+ project to the class, and if there is time, we will include student
+ presentations of existing papers (probably on static analysis tools).
+ The criteria for grading presentations are given below.  You will
+ also be graded on contributions to class discussion.
+
+</li><li><b>Final Exam</b> (25%) This course will include a final exam,
+which will cover material from the homeworks, programming assginments,
+and other lecture material.
+</li></ul>
+<h2>Late Policy</h2>
+<p>
+Written assignments are due at the beginning of class on the due date.
+Programming assignments (or assignments developed in Coq) are due at
+midnight on the due date.  Neither written nor programming assignments
+may be turned in late.  If you cannot make a due date because of
+extenuating circumstances, or because it conflicts with a religious
+holiday, please inform the instructor as soon as possible.
+
+</p><h2>Presentations</h2>
+<p>
+Student presentations will be judged based on the following criteria:
+
+</p><ul>
+<li><b>Understanding</b>: does the presenter understand the problem in a larger
+context, and place the solution within it?
+</li><li><b>Background/perspective</b>: does the presenter understand the relevant
+related work?
+</li><li><b>Clarity</b>: can the audience understand the presentation? is the "big
+picture" clear? are there useful examples?
+</li><li><b>Materials</b>: do the slides or use of blackboard illustrate and support
+the talk? are there diagrams to help convey the technicalities? (when
+your talk gets into deep territory, a diagram is worth 10K words)
+</li><li><b>Delivery</b>: has the the presenter practiced?
+</li><li><b>Answering questions</b>: can the presenter handle questions from the audience?
+</li></ul>
+<h2>Excused Absences</h2>
+<p> Any student who needs to be excused for an absence from a single
+ <b>lecture, recitation, or lab</b> due to illness shall:
+
+</p><ol>
+<li> Make a reasonable attempt to inform the instructor of his/her
+illness prior to the class.</li>
+<li> Upon returning to the class, present their instructor with a
+ self-signed note attesting to the date of their illness.  Each note
+ must contain an acknowledgment by the student that the information
+ provided is true and correct.  Providing false information to
+ University officials is prohibited under Part 9(h) of the Code of
+ Student Conduct (V-1.00(B) University of Maryland Code of Student
+ Conduct) and may result in disciplinary action.</li>
+</ol>
+<p> Missing an <b>exam</b> for reasons such as illness, religious
+observance, participation in required university activities, or family
+or personal emergency (such as a serious automobile accident or close
+relative's funeral) will be excused so long as the absence is
+requested in writing and the student includes documentation that shows
+the absence qualifies as excused; <b> a self-signed note is not
+sufficient</b> as exams are <i>Major Scheduled Grading Events</i>.
+
+</p><p> For medical absences, you must furnish documentation
+from the health care professional who treated you. This documentation
+must verify dates of treatment and indicate the timeframe that the
+student was unable to meet academic responsibilities. In addition, it
+must contain the name and phone number of the medical service provider
+to be used if verification is needed. No diagnostic information will
+ever be requested.  Note that simply being seen by a health care
+professional does not constitute an excused absence; it must be clear
+ that you were unable to perform your academic duties.
+
+</p><p> It is the University's policy to provide accommodations for
+students with religious observances conflicting with exams, but it is
+the your responsibility to inform the instructor in advance of
+intended religious observances.  If you have a conflict with one of
+the planned exams, you <b>must</b> inform us prior to the end of the
+first two weeks of the class.
+
+</p><p> For missed exams due to excused absences, the
+instructor will arrange a makeup exam.  If you might miss an exam for
+any other reason other than those above, you must contact the
+instructor <b>in advance</b> to discuss the circumstances.  We are not
+obligated to offer a substitute assignment or to provide a makeup exam
+unless the failure to perform was due to an excused absence.
+
+</p><p>
+The policies for excused absences <b>do not</b> apply to project assignments.
+Projects will be assigned with sufficient time to be completed by
+students who have a reasonable understanding of the necessary material
+and begin promptly.  In cases of <b>extremely serious</b> documented
+illness of <b>lengthy duration</b> or other protracted, severe
+emergency situations, the instructor may consider extensions on
+project assignments, depending upon the specific circumstances.
+
+</p><p>
+Besides the policies in this syllabus, the University's policies apply
+during the semester.  Various policies that may be relevant appear in
+the <a href="http://www.gradschool.umd.edu/catalog/">Graduate Catalog</a>.
+
+</p><p>
+If you experience difficulty during the semester keeping up with the
+academic demands of your courses, you may consider contacting the
+<a href="http://www.counseling.umd.edu/LAS">Learning Assistance Service</a> in 2202 <a href="http://www.umd.edu/CampusMaps/bld_detail.cfm?bld_code=SHM">Shoemaker Building</a> at (301)
+314-7693.  Their educational counselors can help with time management
+issues, reading, note-taking, and exam preparation skills.
+
+</p><h2>Students with Disabilities</h2>
+
+Students with disabilities who have been certified by <a href="http://www.counseling.umd.edu/DSS/">Disability
+Support Services</a> as needing any type of special accommodations should
+see the instructor as soon as possible during the schedule adjustment
+period (the first two weeks of class). Please provide DSS's letter of
+accommodation to the instructor at that time.
+
+<p>All arrangements for exam accommodations as a result of disability
+<b>must</b> be made and arranged with the instructor <b>at least</b>
+three business days prior to the exam date; later requests (including
+retroactive ones) will be refused.
+
+</p><h2>Academic Integrity</h2>
+<p>
+The Campus Senate has adopted a policy asking students to include the
+following statement on each examination or assignment in every course:
+"I pledge on my honor that I have not given or received any
+unauthorized assistance on this examination (or assignment)."
+Consequently, you will be requested to include this pledge on each
+exam and project.  Please also carefully read the Office of
+Information Technology's <a href="http://www.nethics.umd.edu/aup/">policy</a>
+regarding acceptable use of computer accounts.
+
+</p><p>
+Programming projects are to be written <b>individually</b>, therefore
+cooperation or use of unauthorized materials on projects is a
+violation of the University's Code of Academic Integrity.  <b>Any
+evidence</b> of this, or of unacceptable use of computer accounts, use
+of unauthorized materials or cooperation on exams or quizzes, or other
+possible violations of the Honor Code, <b>will be submitted</b> to the
+Student Honor Council, which could result in an XF for the course,
+suspension, or expulsion.
+
+</p><ul>
+<li>
+For learning the course concepts (including the programming
+languages), students are welcome to study together or to receive help
+from anyone else.  You may discuss with others the project
+requirements, the features of the programming languages used, what was
+discussed in class and in the class web forum, and general syntax
+errors.  Examples of questions that would be allowed are "Does a Java
+class definition end in a semicolon?"  or "What does a 'class not
+found' error indicate?", because they convey no information about the
+contents of a project.
+
+</li><li>
+When it comes to actually writing a project assignment, other than
+help from the instructional staff a project must solely and entirely
+be your own work.  Working with another student or individual, or
+using anyone else's work <b>in any way</b> except as noted in this
+paragraph, is a violation of the code of academic integrity and
+<b>will be reported</b> to the Honor Council.  You may not discuss
+design of any part of a project with <b>anyone</b> except the
+instructor or teaching assistants.  Examples of questions you may
+<b>not</b> ask others might be "How did you implement this part of
+the project?"  or "Please look at my code and help me find my stupid
+syntax error!".  You may not use any disallowed source of information
+in creating either their project design or code.  When writing
+projects you are free to use ideas or <b>short fragments</b> of code
+from <b>published</b> textbooks or <b>publicly available</b>
+information, but the specific source must be cited in a comment in the
+relevant section of the program.
+</li></ul>
+<p>
+<b>Violations of the Code of Academic Integrity may include, but are
+not limited to:</b>
+</p><ol>
+<li>
+Failing to do all or any of the work on a project by yourself, other
+than assistance from the instructional staff.
+
+</li><li>
+Using any ideas or any part of another person's project, or copying
+any other individual's work in any way.
+
+</li><li>
+Giving any parts or ideas from your project, including test data, to
+another student.
+
+</li><li>
+Allowing any other students access to your program on any computer
+system.
+
+</li><li>
+Transferring any part of a project to or from another student or
+individual by any means, electronic or otherwise.
+
+</li></ol>
+<p>
+  If you have any question about a particular situation or source then
+consult with the instructors in advance.  Should you have difficulty
+with a programming assignment you should <b>see the instructional
+staff in office hours</b>, and not solicit help from anyone else in
+violation of these rules.
+
+</p><p>
+<b>It is the responsibility, under the honor policy, of anyone who
+suspects an incident of academic dishonesty has occurred to report it
+to their instructor, or directly to the Honor Council.</b>
+</p><p>
+  Every semester the department has discovered a number of students
+attempting to cheat on project assignments, in violation of academic
+integrity requirements.  Students' academic careers have been
+significantly affected by a decision to cheat.  Think about whether
+you want to join them before contemplating cheating, or before helping
+a friend to cheat.
+
+</p><p>
+You are welcome and encouraged to study and compare or discuss their
+implementations of the programming projects with any others after they
+are graded, <b>provided that</b> all of the students in question have
+received nonzero scores for that project assignment, and if that
+project will not be extended upon in a later project assignment.
+
+</p><h2>Course Evaluations</h2>
+<p>
+Your participation in the evaluation of courses through
+<i>CourseEvalUM</i> is a responsibility you hold as a student member
+of our academic community. Your feedback is confidential and important
+to the improvement of teaching and learning at the University as well
+as to the tenure and promotion process. CourseEvalUM will be open for
+you to complete your evaluations for Spring semester courses between
+Tuesday, April 23 and Friday, May 10. Please go directly to the
+website (<a href="http://www.courseevalum.umd.edu">www.courseevalum.umd.edu</a>)
+to complete your evaluations starting April 23. By completing all of
+your evaluations each semester, you will have the privilege of
+accessing online, at Testudo, the evaluation reports for the thousands
+of courses for which 70% or more students submitted their evaluations.
+
+</p><p>
+If you are a teaching assistant, be sure to encourage your students to
+complete course evaluations at the same time you are completing your own.
+
+</p><h2>Right to Change Information</h2>
+
+  Although every effort has been made to be complete and accurate,
+unforeseen circumstances arising during the semester could require the
+adjustment of any material given here.  Consequently, given due notice
+to students, the instructors reserve the right to change any
+
+
+
+</td>
+</tr></table>
+<p><a href="http://validator.w3.org/check/referer"><img align="right" alt="Valid HTML 4.01!" border="0" height="31" src="http://www.w3.org/Icons/valid-html401" width="88"/></a></p>
+<p style="text-align: right;"><a href="https://www.umd.edu/web-accessibility" title="UMD Web Accessibility">Web Accessibility</a></p>
+</div><div>
+<table cellpadding="8" cellspacing="0" width="100%">
+<tr>
+<td valign="top" width="15%">
+<table border="0" cellpadding="2" cellspacing="2" class="menu" width="100%">
+<tbody>
+<tr><td><a href="index.shtml">Home</a></td></tr>
+<tr><td><a href="http://piazza.com/class#Spring2013/cmsc631">Piazza</a> (discussion forum)
+      </td></tr><tr><td><a href="syllabus.shtml">Syllabus</a></td></tr>
+<tr><td><a href="materials.shtml">Schedule and Materials</a></td></tr>
+<tr><td><a href="projects.shtml">Projects</a></td></tr>
+<tr><td><a href="resources.shtml">Resources</a></td></tr>
+<tr><td><a href="https://grades.cs.umd.edu">Grades</a></td></tr>
+<tr><td><a href="https://submit.cs.umd.edu">Submit server</a></td></tr>
+</tbody>
+</table>
+</td><td valign="top" width="85%">
+<div class="header">
+<center>
+<h2>CMSC 631, Spring 2013</h2>
+<h3>Program Analysis and Understanding</h3>
+</center>
+</div>
+<h1 class="title">Lecture Material and Assignments</h1>
+<h3>Lecture Material</h3>
+<ul>
+<li>Lecture 1 - Introduction (<a href="lectures/intro.pdf">slides</a>)</li>
+<li>Lectures 2,3 - OCaml (<a href="lectures/ocaml.pdf">slides</a>)</li>
+<li>Lecture 4 - Symbolic execution (<a href="lectures/symbolic-exec.pdf">slides</a>, <a href="lectures/symbolic-exec.ml">interpreter code</a>)
+<ul>
+<li><i>(Optional)</i> <a href="http://www.stanford.edu/~engler/exe-ccs-06.pdf">EXE:
+Automatically Generating Inputs of Death</a></li>
+<li>For reference, see <a href="http://laser.inf.ethz.ch/2011/Elba/patrice/">lectures
+    3 and 6 of this tutorial</a> by Patrice Godefroid</li>
+<li><i>(Optional)</i> <a href="http://www.cs.umd.edu/~mwh/papers/ma11directed.html">Directed
+    Symbolic Execution</a></li>
+<li><i>(Optional)</i> <a href="https://research.microsoft.com/en-us/um/people/pg/public_psfiles/pldi2005.pdf">DART:
+Directed Automated Random Testing</a></li>
+<li><i>(Optional)</i><a href="http://www.cs.umd.edu/~jfoster/papers/pldi10.pdf">Mixing Type
+Checking and Symbolic Execution</a></li>
+</ul></li>
+<li>Lectures 5,6 - Data flow analysis (<a href="lectures/data-flow.pdf">slides</a>)
+<ul>
+<li><i>(Optional)</i> <a href="http://portal.acm.org/citation.cfm?doid=115372.115320">Efficiently
+Computing Static Single Assignment Form and the Control Dependence Graph</a>
+</li></ul></li>
+<li>Lecture 7 - Operational semantics (<a href="lectures/op-sem.pdf">slides</a> <i>updated 2/18/13</i>)
+</li><li>Lecture 8,9 - Abstract Interpretation (<a href="lectures/absinterp.pdf">slides</a> <i>updated 220, 8:15pm</i>)
+<ul><li><i>(Optional) </i><a href="http://www.cse.ohio-state.edu/~neelam/courses/755/abstractInterJonesNielson.pdf">Abstract interpretation tutorial</a> (sections 1 and 2 recommended)
+</li><li>Example code for signs domain and IMP language: <a href="lectures/absinterp.tgz">absinterp.tgz</a>
+</li><li><i>(Optional)</i> <a href="http://web.mit.edu/16.399/www/lecture_01-intro/Cousot_MIT_2005_Course_01_4-1.pdf">Introductory
+			 slides by Patrick Cousot</a></li>
+<li><i>(Optional)</i> <a href="http://www.di.ens.fr/~cousot/COUSOTpapers/POPL79.shtml">Systematic
+    Design of Program Analysis Frameworks</a>, Cousot and Cousot</li>
+</ul>
+</li>
+<li>Lecture 10 - Probabilistic Computation</li>
+<ul><li>Some examples, concrete operational semantics (<a href="lectures/probcomp.pdf">slides</a>)
+  </li><li>Probabilistic abstract interpretation applied to knowledge-based security policies (<a href="lectures/knowlpolicies-pres.pdf">slides</a>, <a href="http://www.cs.umd.edu/~mwh/papers/mardziel13belieflong.html">paper</a>)
+  </li></ul>
+<li>Lecture 11 - Synthesis (<a href="lectures/synthesis.pdf">slides</a>)</li>
+<li>Lecture 12 - Lambda Calculus (<a href="lectures/lambda.pdf">slides</a>)</li>
+<li>Lecture 13,14,15 - Types and Proofs (<a href="lectures/types.pdf">slides</a>, <a href="lectures/lam_type.ml">sample typechecker</a>, <a href="lectures/stlc-soundness.pdf">proof of STLC soundness</a>)</li>
+<li>Lecture 16 - Dynamic Typing, Contracts, and Gradual Typing (<a href="lectures/contracts.pdf">slides</a>)</li>
+<li>Lecture 16 - Dependent Types (<a href="lectures/dependent-types.txt">notes</a>)</li>
+<li>Lecture 17,18 - Coq
+<ul><li>See the <a href="resources.shtml">resources</a> page for
+    links to the Coq distribution, and Proof General
+</li><li>Course material for Coq: from <a href="http://www.cis.upenn.edu/~bcpierce/sf/">Software
+    Foundations</a>
+</li><li>Coq lecture 1/2: <a href="http://www.cis.upenn.edu/~bcpierce/sf/Basics.html">Basics</a></li>
+<li>Coq lecture 2/2: 
+<a href="http://www.cis.upenn.edu/~bcpierce/sf/Lists.html">Lists</a>,
+<a href="http://www.cis.upenn.edu/~bcpierce/sf/Poly.html">Poly</a>,
+<a href="http://www.cis.upenn.edu/~bcpierce/sf/Gen.html">Gen</a>,
+<a href="http://www.cis.upenn.edu/~bcpierce/sf/Prop.html">Prop</a> and
+<a href="http://www.cis.upenn.edu/~bcpierce/sf/Logic.html">Logic</a>.
+</li>
+</ul></li>
+<li>Lecture 19 - Axiomatic semantics (<a href="lectures/axsem.pdf">slides</a>)</li>
+<li>Lecture 20 - Hoare Logic in Coq 
+(<a href="http://www.cis.upenn.edu/~bcpierce/sf/Imp.html">Imp</a> and 
+ <a href="http://www.cis.upenn.edu/~bcpierce/sf/Hoare.html">Hoare</a>)
+</li>
+<li>Lecture 21 - Language-Based Security
+<ul>
+<li><a href="lectures/info-flow.pdf">Introduction and Secure
+    Information Flow</a>
+</li><li><i>(Optional)</i> <a href="http://www.cs.cornell.edu/andru/papers/jsac/sm-jsac03.pdf">Language-based information flow security</a></li>
+</ul>
+</li><li>Lecture 22 - <a href="lectures/qualifiers.pdf">Type qualifiers</a> (as applied to security)
+<ul><li><a href="http://www.cs.umd.edu/~jfoster/papers/toplas-quals.pdf">TOPLAS</a> paper on general technique
+  </li><li><a href="http://www.cs.umd.edu/~jfoster/papers/usenixsec01.pdf">USENIX Security</a> paper on application to format strings
+  </li><li><a href="http://www.cs.berkeley.edu/~daw/papers/fmtstr-plas07.pdf">PLAS paper</a> on application to entire Debian distribution
+  </li></ul>
+</li><li>Lecture 23 - Incremental computation </li>
+<li>Lecture 24 - Scriptable debugging (guest lecture from Khoo Yit Phang) </li>
+<li>Project presentations
+<ul>
+<li><a href="http://www.cs.umd.edu/~mwh/talks/simonpjmwhpaper.ppt">How to write a research paper</a> and <a href="http://research.microsoft.com/en-us/um/people/simonpj/papers/giving-a-talk/giving-a-talk-slides.pdf">How
+  to give a research talk</a></li>
+</ul></li>
+<li>May 1:
+<ul>
+<li>Travis Brown, Fay and Effects: Safer JavaScript FFI.
+</li><li>Chris Imbriano and Chang Liu, Coq Formalization of Memory Trace
+  Oblivious Execution.
+</li><li>Moshe Katz, Specification-Driven Implementation of
+Dynamically-Reconfigurable Distributed Applications.
+</li><li>Alex Malozemoff, Automatically Verifying and Synthesizing
+Cryptographic Modes of Operation.
+</li><li>Nate Parsons, Type Inference for M3PC, a Language for Mixed Mode
+Multiparty Computation.
+</li><li>Darren Smith, Compact Code Encodings.
+</li></ul>
+</li><li>May 6:
+<ul>
+<li>William Armstrong, A Comparison of Automated Static Analysis Tools for
+use in Bug-detection on Stand-Alone Java Applications.
+</li><li>Cody Buntain, Automated Software Diversification via Synthesis-Based
+Metamorphism.
+</li><li>Yehuda Katz, Identifying and Analyzing Program Runtime Configuration.
+</li><li>Youndo Lee, A Survey on Static Analysis of SQL Queries.
+</li><li>Max Potasznik, Programming Languages in Software Defined Networks.
+</li><li>Anilesh Shrivastava, A Look at an Implementation of Probabilistic
+Abstract interpretation.
+</li></ul>
+</li><li>May 8
+<ul>
+<li>Kerry Cheng and Rob Argue, Probabilistic Computation: Abstract
+Interpretation and Machine Learning.
+</li><li>Wenshuai Hou, A Survey on MapReduce and Its Variations.
+</li><li>Beth McNany and David Wasser, Symbolic Execution in Ruby.
+</li><li>Nuttiiya Seekhao and Hui Zhang, Synthesizing Distributed Memory
+Parallel Programs.
+</li></ul>
+</li></ul>
+<h3>Homework</h3>
+<ul>
+<li><a href="h1.pdf">Homework 1</a> - Dataflow analysis</li>
+<li><a href="h2.pdf">Homework 2</a> - Operational semantics and abstract interpretation</li>
+<li><a href="h3.pdf">Homework 3</a> - Type systems</li>
+<li><a href="h4.v">  Homework 4</a> - Formal reasoning in Coq
+  (requires <a href="Sflib.v">Sflib.v</a>) </li>
+</ul>
+<h3>Projects</h3>
+<ul>
+<li><a href="p1.shtml">Programming project 1</a> - Ocaml programming</li>
+<li><a href="p2.shtml">Programming project 2</a> - Symbolic execution</li>
+<!--
+<li><a href = "p3.v">Coq Exercises 1 (p3)</a>, also requires you download
+  <a href = "SfLib.v">Sflib.v</a>; due October 26.
+<li><a href = "p4.v">Coq Exercises 2 (p4)</a>
+<li><a href = "p5.pdf">Written exercises (p5)</a>
+-->
+</ul>
+</td>
+</tr></table>
+<p><a href="http://validator.w3.org/check/referer"><img align="right" alt="Valid HTML 4.01!" border="0" height="31" src="http://www.w3.org/Icons/valid-html401" width="88"/></a></p>
+<p style="text-align: right;"><a href="https://www.umd.edu/web-accessibility" title="UMD Web Accessibility">Web Accessibility</a></p>
+</div></body>
+</html>

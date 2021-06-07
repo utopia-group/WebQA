@@ -1,0 +1,639 @@
+{
+  "id": 0,
+  "content": "MIT 6.822, Spring 2020",
+  "children": [
+    {
+      "id": 1,
+      "content": "Go to student portal (requires an MIT client certificate)",
+      "key": 1
+    },
+    {
+      "id": 2,
+      "content": "Formal Reasoning About Programs",
+      "key": 2,
+      "children": [
+        {
+          "id": 3,
+          "content": "A graduate course at MIT in Spring 2020",
+          "key": 1
+        },
+        {
+          "id": 4,
+          "content": "",
+          "isList": true,
+          "key": 2,
+          "children": [
+            {
+              "id": 5,
+              "content": "Subject number:",
+              "key": 1,
+              "children": [
+                {
+                  "id": 6,
+                  "content": "6.822",
+                  "isList": true,
+                  "key": 1
+                }
+              ]
+            },
+            {
+              "id": 7,
+              "content": "Instructor:",
+              "key": 2,
+              "children": [
+                {
+                  "id": 8,
+                  "content": "Adam Chlipala",
+                  "isList": true,
+                  "key": 1
+                }
+              ]
+            },
+            {
+              "id": 9,
+              "content": "Teaching assistants:",
+              "key": 3,
+              "children": [
+                {
+                  "id": 10,
+                  "content": "Andres Erbsen   Sam Gruetter",
+                  "isList": true,
+                  "key": 1
+                }
+              ]
+            },
+            {
+              "id": 11,
+              "content": "Class meets:",
+              "key": 4,
+              "children": [
+                {
+                  "id": 12,
+                  "content": "Monday Wednesday 2:30 - 4:00, 2 - 105",
+                  "isList": true,
+                  "key": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "content": "Key links:",
+          "key": 3,
+          "children": [
+            {
+              "id": 14,
+              "content": "book and related source code; GitHub repo with problem sets",
+              "key": 1
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "content": "What's it all about?",
+          "key": 4,
+          "children": [
+            {
+              "id": 16,
+              "content": "Briefly, this course is about an approach to bringing software engineering up to speed with more traditional engineering disciplines, providing a mathematical foundation for rigorous analysis of realistic computer systems. As civil engineers apply their mathematical canon to reach high certainty that bridges will not Fall down, the software engineer should apply a different canon to argue that programs behave properly. As other engineering disciplines have their computer-aided-design tools, computer science has proof assistants, IDEs for logical arguments. We will learn how to apply these tools to certify that programs behave as expected.",
+              "key": 1
+            },
+            {
+              "id": 17,
+              "content": "More specifically:",
+              "key": 2,
+              "children": [
+                {
+                  "id": 18,
+                  "content": "Introductions to two intertangled subjects: the Coq proof assistant, a tool for machine-checked mathematical theorem proving; and formal logical reasoning about the correctness of programs . The latter category overlaps significantly with MIT's 6.820, but we will come to appreciate the material at a different level, by focusing on machine-checked proofs, both of the soundness of general reasoning techniques and of the correctness of particular programs.",
+                  "key": 1
+                }
+              ]
+            },
+            {
+              "id": 19,
+              "content": "We welcome participation by graduate and undergraduate students from MIT and other local universities, as well as other auditors interested in jumping into this material. Per MIT's academic calendar, the first class meeting will be on February 3rd.",
+              "key": 3
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "content": "Major topics covered",
+          "key": 5,
+          "children": [
+            {
+              "id": 21,
+              "content": "Here's a tentative syllabus.",
+              "key": 1
+            },
+            {
+              "id": 22,
+              "content": "",
+              "isList": true,
+              "key": 2,
+              "children": [
+                {
+                  "id": 23,
+                  "content": "Foundations",
+                  "isList": true,
+                  "key": 1,
+                  "children": [
+                    {
+                      "id": 24,
+                      "content": "Inductive types, recursive functions, induction, and rewriting: the heart of formal reasoning, and useful for defining and reasoning about language interpreters",
+                      "key": 1
+                    }
+                  ]
+                },
+                {
+                  "id": 25,
+                  "content": "Foundations",
+                  "isList": true,
+                  "key": 2,
+                  "children": [
+                    {
+                      "id": 26,
+                      "content": "Data abstraction in the presence of formal proofs",
+                      "key": 1
+                    }
+                  ]
+                },
+                {
+                  "id": 27,
+                  "content": "Foundations",
+                  "isList": true,
+                  "key": 3,
+                  "children": [
+                    {
+                      "id": 28,
+                      "content": "Inductively defined relations and rule induction, applied to invariant-based verification of state machines",
+                      "key": 1
+                    }
+                  ]
+                },
+                {
+                  "id": 29,
+                  "content": "Foundations",
+                  "isList": true,
+                  "key": 4,
+                  "children": [
+                    {
+                      "id": 30,
+                      "content": "Model checking and abstraction:",
+                      "key": 1,
+                      "children": [
+                        {
+                          "id": 31,
+                          "content": "finitizing state spaces with clever relations",
+                          "key": 1
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 32,
+                  "content": "Foundations",
+                  "isList": true,
+                  "key": 5,
+                  "children": [
+                    {
+                      "id": 33,
+                      "content": "Operational semantics:",
+                      "key": 1,
+                      "children": [
+                        {
+                          "id": 34,
+                          "content": "the standard approach to give meanings to programs",
+                          "key": 1
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 35,
+                  "content": "Foundations",
+                  "isList": true,
+                  "key": 6,
+                  "children": [
+                    {
+                      "id": 36,
+                      "content": "Compiler verification",
+                      "key": 1
+                    }
+                  ]
+                },
+                {
+                  "id": 37,
+                  "content": "Foundations",
+                  "isList": true,
+                  "key": 7,
+                  "children": [
+                    {
+                      "id": 38,
+                      "content": "Abstract interpretation",
+                      "key": 1
+                    }
+                  ]
+                },
+                {
+                  "id": 39,
+                  "content": "",
+                  "isList": true,
+                  "key": 8,
+                  "children": [
+                    {
+                      "id": 40,
+                      "content": "Foundations",
+                      "key": 1
+                    },
+                    {
+                      "id": 41,
+                      "content": "Type Systems",
+                      "key": 2
+                    }
+                  ]
+                },
+                {
+                  "id": 42,
+                  "content": "Foundations",
+                  "isList": true,
+                  "key": 9,
+                  "children": [
+                    {
+                      "id": 43,
+                      "content": "Lambda-calculus semantics",
+                      "key": 1
+                    }
+                  ]
+                },
+                {
+                  "id": 44,
+                  "content": "Foundations",
+                  "isList": true,
+                  "key": 10,
+                  "children": [
+                    {
+                      "id": 45,
+                      "content": "Type systems and the syntactic approach to type soundness",
+                      "key": 1
+                    }
+                  ]
+                },
+                {
+                  "id": 46,
+                  "content": "Foundations",
+                  "isList": true,
+                  "key": 11,
+                  "children": [
+                    {
+                      "id": 47,
+                      "content": "Advanced type-system features:",
+                      "key": 1,
+                      "children": [
+                        {
+                          "id": 48,
+                          "content": "subtyping, mutable references",
+                          "key": 1
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 49,
+                  "content": "",
+                  "isList": true,
+                  "key": 12,
+                  "children": [
+                    {
+                      "id": 50,
+                      "content": "Foundations",
+                      "key": 1
+                    },
+                    {
+                      "id": 51,
+                      "content": "Program Logics",
+                      "key": 2
+                    }
+                  ]
+                },
+                {
+                  "id": 52,
+                  "content": "Foundations",
+                  "isList": true,
+                  "key": 13,
+                  "children": [
+                    {
+                      "id": 53,
+                      "content": "Hoare logic:",
+                      "key": 1,
+                      "children": [
+                        {
+                          "id": 54,
+                          "content": "an approach to verifying imperative programs",
+                          "key": 1
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 55,
+                  "content": "Foundations",
+                  "isList": true,
+                  "key": 14,
+                  "children": [
+                    {
+                      "id": 56,
+                      "content": "Deep embeddings, shallow embeddings, and options in between: choices for how to represent programs formally",
+                      "key": 1
+                    }
+                  ]
+                },
+                {
+                  "id": 57,
+                  "content": "Foundations",
+                  "isList": true,
+                  "key": 15,
+                  "children": [
+                    {
+                      "id": 58,
+                      "content": "Separation logic: reasoning about aliasing and pointer-based data structures",
+                      "key": 1
+                    }
+                  ]
+                },
+                {
+                  "id": 59,
+                  "content": "",
+                  "isList": true,
+                  "key": 16,
+                  "children": [
+                    {
+                      "id": 60,
+                      "content": "Foundations",
+                      "key": 1
+                    },
+                    {
+                      "id": 61,
+                      "content": "Concurrency",
+                      "key": 2
+                    }
+                  ]
+                },
+                {
+                  "id": 62,
+                  "content": "Foundations",
+                  "isList": true,
+                  "key": 17,
+                  "children": [
+                    {
+                      "id": 63,
+                      "content": "Operational semantics for concurrent programs, illustrated with partial-order reduction for model checking",
+                      "key": 1
+                    }
+                  ]
+                },
+                {
+                  "id": 64,
+                  "content": "Foundations",
+                  "isList": true,
+                  "key": 18,
+                  "children": [
+                    {
+                      "id": 65,
+                      "content": "Concurrent Separation Logic and rely-guarantee reasoning: verifying shared-memory programs",
+                      "key": 1
+                    }
+                  ]
+                },
+                {
+                  "id": 66,
+                  "content": "Foundations",
+                  "isList": true,
+                  "key": 19,
+                  "children": [
+                    {
+                      "id": 67,
+                      "content": "Pi-calculus and behavioral refinement:",
+                      "key": 1,
+                      "children": [
+                        {
+                          "id": 68,
+                          "content": "modular reasoning about message-passing functional programs",
+                          "key": 1
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 69,
+          "content": "The big ideas",
+          "key": 6,
+          "children": [
+            {
+              "id": 70,
+              "content": "That's quite a lot of topics, isn't it? We'll be sticking to techniques for proving safety properties (and we'll clarify what that term means), so there's even a whole other world of foundational ideas for proving other sorts of program properties! Nonetheless, a key goal of the course is to clarify how all of these techniques can be seen as applying a few big ideas of semantics and verification:",
+              "key": 1
+            },
+            {
+              "id": 71,
+              "content": "",
+              "isList": true,
+              "key": 2,
+              "children": [
+                {
+                  "id": 72,
+                  "content": "Encoding",
+                  "key": 1,
+                  "children": [
+                    {
+                      "id": 73,
+                      "content": "There are an awful lot of different ways to formalize the shape and behavior of programs, and the choice of a method can have big consequences for how easy the proofs are.",
+                      "isList": true,
+                      "key": 1
+                    }
+                  ]
+                },
+                {
+                  "id": 74,
+                  "content": "Invariants",
+                  "key": 2,
+                  "children": [
+                    {
+                      "id": 75,
+                      "content": "Almost all program proofs come down to finding invariants of state machines. That is, we prove that some property holds of all reachable states of a formal system, and we show that the property implies the one we started out trying to prove.",
+                      "isList": true,
+                      "key": 1
+                    }
+                  ]
+                },
+                {
+                  "id": 76,
+                  "content": "Abstraction",
+                  "key": 3,
+                  "children": [
+                    {
+                      "id": 77,
+                      "content": "Often we replace one state machine with a simpler one that somehow represents it faithfully enough with respect to the property of interest.",
+                      "isList": true,
+                      "key": 1
+                    }
+                  ]
+                },
+                {
+                  "id": 78,
+                  "content": "Modularity",
+                  "key": 4,
+                  "children": [
+                    {
+                      "id": 79,
+                      "content": "We also often break a complex state machine into several simpler ones that can be analyzed independently.",
+                      "isList": true,
+                      "key": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 80,
+          "content": "Mechanics",
+          "key": 7,
+          "children": [
+            {
+              "id": 81,
+              "content": "Most homework assignments are mechanized proofs that are checked automatically. Once a month, though, we'll have an assignment that also involves choosing the right theorems to prove in the first place, which usually involves defining some program reasoning system for a domain that we describe in a handout.",
+              "key": 1
+            },
+            {
+              "id": 82,
+              "content": "There are two lectures per week. At the very beginning, we'll spend all the lecture time on basics of Coq. Shortly afterward, we'll switch to, each week, having one lecture on a concept in semantics and/or proofs of program correctness and one lecture on some moderate-to-advanced feature of Coq.",
+              "key": 2
+            },
+            {
+              "id": 83,
+              "content": "Grades are based entirely on problem sets (mostly graded by the machines), and a new one is released right after each Wednesday lecture, due a week later (or a little earlier, usually starts of class periods; see each assignment's posting for details). Late problem - set turn - in is accepted, but 20% is subtracted from the grade for every day late, starting one second after the posted deadline, so don't bet your grade on details of the server's clock! (In other words, any fractional late time is rounded up to a whole day, before applying the 20% - per - day penalty.)",
+              "key": 3
+            },
+            {
+              "id": 84,
+              "content": "It takes a while to internalize all the pro tips for writing Coq proofs productively. It really helps to have experts nearby to ask in person. For that reason, we will also have copious office hours, in the neighborhood of 10 hours per week. Course staff members will be around, and we also encourage students to help each other at these sessions. We'll take a poll on the best times for office hours, but the default theory is that the day before an assignment is due and the day after it is released are the best times.",
+              "key": 4
+            },
+            {
+              "id": 85,
+              "content": "Academic-integrity guidelines:",
+              "key": 5,
+              "children": [
+                {
+                  "id": 86,
+                  "content": "Learning to drive a proof assistant is hard work, and it's valuable to be able to ask for help from your classmates. For that reason, we allow asking for help from classmates, not just the course staff, with no particular acknowledgment in turned-in solutions. However, the requirement is that you have entered your problem-set code/proofs yourself, without someone else looking over your shoulder telling you more or less what to type at every stage. Use your judgment about exactly which interaction styles will stay compatible with this rule. You'll generally learn more as you spend time working through the parts of assignments where you don't wind up stuck on something, and it's generally valuable to seek help (from classmates or course staff) when you're stuck.",
+                  "key": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 87,
+          "content": "Prerequisites",
+          "key": 8,
+          "children": [
+            {
+              "id": 88,
+              "content": "Two main categories of prior knowledge are assumed: mathematical foundations of computer science, including rigorous proofs with induction; and intermediate-level programming experience, including familiarity with concepts like higher-order functions, pointers, and multithreading. MIT's 6.042 and 6.031 should respectively satisfy those requirements, but many other ways of coming by this core knowledge should also be fine. We'll start off pretty quickly with functional programming in Coq, as our main vehicle for expressing programs and their specifications. Many students find it unnecessary to have studied functional programming beforehand, but others appreciate learning a bit about Haskell or OCaml on their own first. (6.820 also provides lightning-speed introductions to those languages.)",
+              "key": 1
+            }
+          ]
+        },
+        {
+          "id": 89,
+          "content": "Suggested reading",
+          "key": 9,
+          "children": [
+            {
+              "id": 90,
+              "content": "The main source is the book Formal Reasoning About Programs, which is in decent shape from the prior offering of this subject, but which will likely have small changes made as we go.",
+              "key": 1
+            },
+            {
+              "id": 91,
+              "content": "The course is intended to be self-contained, and notes and example Coq code will be in the book's GitHub repo. We'll also be using a custom Coq library designed to present a relatively small set of primitive commands to be learned. However, the following popular sources may be helpful supplements.",
+              "key": 2
+            },
+            {
+              "id": 92,
+              "content": "The Coq proof assistant",
+              "isList": true,
+              "key": 3,
+              "children": [
+                {
+                  "id": 93,
+                  "content": "Certified Programming with Dependent Types, the instructor's book introducing Coq at a more advanced level",
+                  "key": 1
+                },
+                {
+                  "id": 94,
+                  "content": "Interactive Theorem Proving and Program Development (Coq'Art), the first book about Coq",
+                  "key": 2
+                },
+                {
+                  "id": 95,
+                  "content": "Software Foundations, a popular introduction to Coq that covers ideas similar to the ones in this course, at a slower pace",
+                  "key": 3
+                }
+              ]
+            },
+            {
+              "id": 96,
+              "content": "Semantics and program proof",
+              "isList": true,
+              "key": 4,
+              "children": [
+                {
+                  "id": 97,
+                  "content": "Types and Programming Languages",
+                  "key": 1
+                },
+                {
+                  "id": 98,
+                  "content": "The Formal Semantics of Programming Languages: An Introduction",
+                  "key": 2
+                },
+                {
+                  "id": 99,
+                  "content": "Practical Foundations for Programming Languages",
+                  "key": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 100,
+          "content": "This web app...",
+          "key": 10,
+          "children": [
+            {
+              "id": 101,
+              "content": "...is built using advanced type-system ideas relevant to the course, and the source code is available. Pull requests welcome!",
+              "key": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

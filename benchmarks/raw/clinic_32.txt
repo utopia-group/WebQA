@@ -1,0 +1,2991 @@
+<!DOCTYPE html>
+<html dir="ltr" version="XHTML+RDFa 1.0" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/terms/" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:product="http://ogp.me/ns/product#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:video="http://ogp.me/ns/video#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+<!--[if IE]><![endif]-->
+<link crossorigin="" href="//fonts.gstatic.com" rel="preconnect"/>
+<link href="//fonts.gstatic.com" rel="dns-prefetch"/>
+<link href="//cdn.rawgit.com" rel="preconnect"/>
+<link href="//cdn.rawgit.com" rel="dns-prefetch"/>
+<link href="//stats.g.doubleclick.net" rel="preconnect"/>
+<link href="//stats.g.doubleclick.net" rel="dns-prefetch"/>
+<link href="//www.google-analytics.com" rel="preconnect"/>
+<link href="//www.google-analytics.com" rel="dns-prefetch"/>
+<link href="//netdna.bootstrapcdn.com" rel="preconnect"/>
+<link href="//netdna.bootstrapcdn.com" rel="dns-prefetch"/>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://afcurgentcareportland.com/sites/default/files/afc-urgent-care-favicon_1.png" rel="shortcut icon" type="image/png"/>
+<meta content="AFC Urgent Care locations are ready to treat any emergency medical issues, including common illnesses or more severe injuries. Visit a location near you today." name="description"/>
+<meta content="AFC Urgent Care locations are ready to treat any emergency medical issues, including common illnesses or more severe injuries. Visit a location near you today." name="abstract"/>
+<meta content="Drupal 7 (http://drupal.org)" name="generator"/>
+<link href="https://afcurgentcareportland.com/what-we-treat" rel="canonical"/>
+<link href="https://afcurgentcareportland.com/what-we-treat" rel="shortlink"/>
+<meta content="AFC Urgent Care | Portland" property="og:site_name"/>
+<meta content="article" property="og:type"/>
+<meta content="https://afcurgentcareportland.com/what-we-treat" property="og:url"/>
+<meta content="What We Treat" property="og:title"/>
+<!-- Facebook Pixel Code -->
+<script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window,
+            document, 'script', '//connect.facebook.net/en_US/fbevents.js');
+
+        fbq('init',  201461005733944277');
+        fbq('track', 'PageView');
+    </script>
+<noscript><img height="1" src="https://www.facebook.com/tr?id=1461005733944277&amp;ev=PageView&amp;noscript=1" style="display:none" width="1"/></noscript>
+<!-- End Facebook Pixel Code -->
+<title>What We Treat | AFC Urgent Care | Portland</title>
+<script type="text/javascript">
+        <!--//--><![CDATA[//><!--
+        for (var fonts = document.cookie.split("advaggf"), i = 0; i < fonts.length; i++) {
+            var font = fonts[i].split("="), pos = font[0].indexOf("ont_");
+            -1 !== pos && (window.document.documentElement.className += " " + font[0].substr(4).replace(/[^a-zA-Z0-9\-]/g, ""))
+        }
+        if (void 0 !== Storage) {
+            fonts = JSON.parse(localStorage.getItem("advagg_fonts"));
+            var current_time = (new Date).getTime();
+            for (var key in fonts) fonts[key] >= current_time && (window.document.documentElement.className += " " + key.replace(/[^a-zA-Z0-9\-]/g, ""))
+        }
+        //--><!]]>
+    </script>
+<style media="all" type="text/css">
+        /* <![CDATA[ */
+        @font-face {
+            font-family: 'Roboto';
+            font-style: italic;
+            font-weight: 400;
+            src: local('Roboto Italic'), local('Roboto-Italic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xIIzQ.woff) format('woff'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xIIzc.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc-.woff) format('woff'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc9.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxM.woff) format('woff'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBBc-.woff) format('woff'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBBc9.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc-.woff) format('woff'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc9.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v17/S6uyw4BMUTPHjx4wWA.woff) format('woff'), url(https://fonts.gstatic.com/s/lato/v17/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 700;
+            src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v17/S6u9w4BMUTPHh6UVSwiPHw.woff) format('woff'), url(https://fonts.gstatic.com/s/lato/v17/S6u9w4BMUTPHh6UVSwiPHA.ttf) format('truetype');
+        }
+
+        /* ]]> */
+    </style>
+<link href="/sites/default/files/advagg_css/css__J8l7ESMdGtI82uhLgTDwZCkW_lLaepawaWl4M7A73P8__MpmmeeDYJxDY5Hpex3WSQ8Jl62Al870bjLeCesRpkeg__DrS1FY0tAdsEfJ-uNXuFqvKpG1oNUT8s3rXuBGUPGc0.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="/sites/default/files/advagg_css/css__WTeMhojSGcpiPCHEwS7H0QbugijsSSMJ8nd5-p1NNzI__g8kJiycoqQxrwJupA89cZirX3BpKlgA-GTeRDOjmSfk__DrS1FY0tAdsEfJ-uNXuFqvKpG1oNUT8s3rXuBGUPGc0.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="/sites/default/files/advagg_css/css__x94EuVEyZh7cUrns7OGNLJ0OujOdupMP3bAbP2D6ViM__FviX13FUB-Ppa2XB29BUIJQZ1Wg-F5XiDE7XD5y7mjQ__DrS1FY0tAdsEfJ-uNXuFqvKpG1oNUT8s3rXuBGUPGc0.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="/sites/default/files/advagg_css/css__pdUF915aN_pfdQGrp5b1IBmLEcAZRXjr7Qvzf26gdmU__K84P-zPgnMbrGwDSQaU5o16fePoqTuUa0FMC1sQyazI__DrS1FY0tAdsEfJ-uNXuFqvKpG1oNUT8s3rXuBGUPGc0.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="/sites/default/files/advagg_css/css__yEo1SSdO7qzJlpU7cw7tLxfRJ_yOcKHCxKZIuF87QeQ__0xLCq8g7DGiSEWs_m23uaCzEI3s2jDOaxNK_Os64au8__DrS1FY0tAdsEfJ-uNXuFqvKpG1oNUT8s3rXuBGUPGc0.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="/sites/default/files/advagg_css/css__kLrohJc2BKiCP1m-TsVjd8ILE-7WTpuHq77r33hnEIM__RPWBFW53Z7JvexMzni9nut9qWNVoU2FEFefnSz7VmDc__DrS1FY0tAdsEfJ-uNXuFqvKpG1oNUT8s3rXuBGUPGc0.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="/sites/default/files/advagg_css/css__SKGpOE2TONkcX1wX03xHk5hXB-0IYCmD35lUnNXI-6w__XWqgxJL16ZsuJ2GdOdgjAYTX2E0z3I5FkGMqSwpsHg8__DrS1FY0tAdsEfJ-uNXuFqvKpG1oNUT8s3rXuBGUPGc0.css" media="all" rel="stylesheet" type="text/css"/>
+<script defer="defer" src="/sites/default/files/advagg_js/js__WABquebcu-gxdJy4p3XUIEPwZprzET9dBQUtwm_NaQ8__J87zcSdUUSEK63IS7Xl_wrZ4MEIDT_Acp8J1F_JuDwA__DrS1FY0tAdsEfJ-uNXuFqvKpG1oNUT8s3rXuBGUPGc0.js" type="text/javascript"></script>
+<script type="text/javascript">
+        <!--//--><![CDATA[//><!--
+        (function (i, s, o, r) {
+            i["GoogleAnalyticsObject"] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date()
+        })(window, document, "script", "ga");
+        ga("create", "UA-1227360-2", {"cookieDomain": "auto"});
+        ;ga("set", "anonymizeIp", true);
+        ga("send", "pageview");
+        //--><!]]>
+    </script>
+<script async="async" src="https://cdn.rawgit.com/bramstein/fontfaceobserver/v2.1.0/fontfaceobserver.js" type="text/javascript"></script>
+<script async="async" defer="defer" src="/sites/default/files/advagg_js/js__GM3GJPR36rRIz0TRkjC5OQwrioSyN9aoYRivDhCO_AM__qAl84FcCv2jyN22yFGS5Oc85cjd9zKX6p_cFNLGhe-M__DrS1FY0tAdsEfJ-uNXuFqvKpG1oNUT8s3rXuBGUPGc0.js" type="text/javascript"></script>
+<script async="async" defer="defer" src="/sites/default/files/advagg_js/js__RvLVKOnTdQO4VBlh8z2t4GJAwCACZ-707Dk1YziIbCw__TmFa4TunXxUa66wSnhGgjy6lFdGkRVcGM22Zg57peyQ__DrS1FY0tAdsEfJ-uNXuFqvKpG1oNUT8s3rXuBGUPGc0.js" type="text/javascript"></script>
+<script async="async" defer="defer" src="/sites/default/files/advagg_js/js__4Q6ApQNFc2oU1PxW3k_O9E5_8-2JdJHlmtXV7vUApMY__8XFCHk-niC9n5AaA20gSYriOm1mAt6ysZU06MqilKPc__DrS1FY0tAdsEfJ-uNXuFqvKpG1oNUT8s3rXuBGUPGc0.js" type="text/javascript"></script>
+<script async="async" defer="defer" src="/sites/default/files/advagg_js/js__E3u8USQplSZ5KJ7H1a04va3fLnxx2SBJ-VuwgI4-0Sk__AdhAFZ5QAk_VrKkFUOCnxJb9ANrhuWlKf15A7QHm14M__DrS1FY0tAdsEfJ-uNXuFqvKpG1oNUT8s3rXuBGUPGc0.js" type="text/javascript"></script>
+<!-- Google Tag Manager -->
+<script>(function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-N6998TP');</script>
+<!-- End Google Tag Manager -->
+<!--[if lt IE 9]>
+    <script>
+        document.createElement('header');
+        document.createElement('nav');
+        document.createElement('section');
+        document.createElement('article');
+        document.createElement('aside');
+        document.createElement('footer');
+    </script>
+    <![endif]-->
+</head>
+<body class="html not-front not-logged-in no-sidebars page-what-we-treat region-content panel-layout-radix_brenham_flipped panel-region-contentmain panel-region-sidebar">
+<div id="skip-link">
+<a class="element-invisible element-focusable" href="#main">Skip to main content</a>
+</div>
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+<iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-N6998TP" style="display:none;visibility:hidden" width="0"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<header class="header" id="header" role="banner">
+<div class="drxp--announcement-wrapper">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="drxp--announcement">Rapid Travel Testing is currently limited. Please be patient as more
+                        testing supplies arrive.
+                    </div>
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-md-5 col-lg-6">
+<a href="/" rel="home" title="Home">
+<img alt="Home" id="logo" src="https://afcurgentcareportland.com/sites/default/files/afc_logo_-_medium_res_1_0.png"/>
+</a>
+</div>
+<div class="col-md-7 col-lg-6">
+<div class="header--clinics">
+<div id="clinics-toggle">
+<h4>CLINICS</h4>
+</div>
+<div id="clinics">
+<div class="clinic" style="padding:4px;">
+<h5><a href="/locations/nw-portland-urgent-care">NW Portland</a></h5>
+<span style="font-size: 12px;">Mon-Fri: 8am-8pm</span><br/>
+<span style="font-size: 12px;">Sat-Sun: 9am-6pm</span>
+</div>
+<div class="clinic" style="padding:4px;">
+<h5><a href="/locations/ne-portland-urgent-care">NE Portland</a></h5>
+<span style="font-size: 12px;">Mon-Fri: 8am-8pm</span><br/>
+<span style="font-size: 12px;">Sat-Sun: 9am-6pm</span>
+</div>
+<div class="clinic" style="padding:4px;">
+<h5><a href="/locations/lake-oswego-urgent-care">Lake Oswego</a></h5>
+<span style="font-size: 12px;">Mon-Fri: 8am-8pm</span><br/>
+<span style="font-size: 12px;">Sat-Sun: 9am-6pm</span>
+</div>
+<div class="clinic" style="padding:4px;">
+<h5><a href="/locations/beaverton-urgent-care">Beaverton</a></h5>
+<span style="font-size: 12px;">Mon-Fri: 8am-8pm</span><br/>
+<span style="font-size: 12px;">Sat-Sun: 9am-6pm</span>
+</div>
+<div class="clinic" style="padding:4px;">
+<h5><a href="/locations/oregoncity">Oregon City</a></h5>
+<span style="font-size: 12px;">Mon-Fri: 8am-8pm</span><br/>
+<span style="font-size: 12px;">Sat-Sun: 9am-6pm</span>
+</div>
+</div>
+</div>
+<div class="header--info">
+<div class="header--careers-pay">
+<a href="/#cw-scheduler">Schedule Appointment</a>
+</div>
+<div class="header--phone">
+<a href="tel:+15033056262">(503) 305-6262</a>
+</div>
+</div>
+<div class="walk-in-wrapper">
+<!-- <div class="no-appointment">
+                     Telemedicine/Virtual Visit
+                    </div> -->
+<div class="walk-in-status">
+<!-- <span class="status">OPEN</span> -->
+<!-- WALK-IN <span class="status">< ?php //print $walk_in_status; ? ></span-->
+</div>
+</div>
+</div>
+</div>
+</div> <!-- /.container -->
+<div class="nav-wrapper">
+<div class="container">
+<!-- Brand and toggle get grouped for better mobile display -->
+<nav class="navbar navbar-default" role="navigation">
+<div class="navbar-header">
+<button class="navbar-toggle" data-target="#navbar-collapse" data-toggle="collapse" type="button">
+<span class="sr-only">Toggle navigation</span>
+<!--            <span class="icon-bar"></span>-->
+<!--            <span class="icon-bar"></span>-->
+<!--            <span class="icon-bar"></span>-->
+<h4>MAIN MENU</h4>
+</button>
+</div> <!-- /.navbar-header -->
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse" id="navbar-collapse">
+<ul class="menu nav navbar-nav" id="main-menu">
+<li class="first leaf menu-link-home"><a href="/" title="Home">Home</a></li>
+<li class="expanded dropdown menu-link-locations"><a class="dropdown-toggle" data-target="#" data-toggle="dropdown" href="/clinics" title="AFC Urgent Care Locations">Locations<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li class="first leaf menu-link-beaverton"><a href="/locations/beaverton-urgent-care" title="AFC Urgent Care Beaverton">BEAVERTON</a>
+</li>
+<li class="leaf menu-link-lake-oswego"><a href="/locations/lake-oswego-urgent-care" title="AFC Urgent Care Lake Oswego">LAKE
+                                    OSWEGO</a></li>
+<li class="leaf menu-link-ne-portland"><a href="/locations/ne-portland-urgent-care" title="AFC Urgent Care NE Portland">NE
+                                    PORTLAND</a></li>
+<li class="leaf menu-link-nw-portland"><a href="/locations/nw-portland-urgent-care" title="AFC Urgent Care NW Portland">NW
+                                    PORTLAND</a></li>
+<li class="last leaf menu-link-oregon-city"><a href="/locations/oregoncity">OREGON
+                                    CITY</a></li>
+</ul>
+</li>
+<li class="expanded dropdown menu-link-about-us"><a class="dropdown-toggle" data-target="#" data-toggle="dropdown" href="/about-us" title="About AFC Urgent Care">About
+                            Us<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li class="first leaf menu-link-the-afc-difference"><a href="/afc-difference" title="The AFC Difference">The
+                                    AFC Difference</a></li>
+<li class="leaf menu-link-blog"><a href="/blog" title="Blog">Blog</a></li>
+<li class="leaf menu-link-contact-us"><a href="/contact-afc-urgent-care" title="Contact AFC Urgent Care">Contact Us</a>
+</li>
+<li class="leaf menu-link-faq"><a href="/faq" title="FAQs">FAQ</a></li>
+<li class="last leaf menu-link-news"><a href="/news" title="AFC Urgent Care News">News</a></li>
+</ul>
+</li>
+<li class="leaf menu-link-pricing--insurance"><a href="/pricing-insurance" title="Pricing &amp; Accepted Insurance">Pricing
+                            &amp; Insurance</a></li>
+<li class="expanded dropdown menu-link-our-services"><a class="dropdown-toggle" data-target="#" data-toggle="dropdown" href="/patient-services" title="Our Services">Our
+                            Services<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li class="first leaf menu-link-occupational-health-services"><a href="/services/occupational-medicine" title="Occupational Health Services">Occupational
+                                    Health Services</a></li>
+<li class="leaf menu-link-immigration-physicals"><a href="/services/immigration-physicals" title="Immigration Physicals">Immigration
+                                    Physicals</a></li>
+<li class="leaf menu-link-primary-care"><a href="/services/primary-care-services" title="Primary Care Services">Primary
+                                    Care</a></li>
+<li class="leaf menu-link-travel-medicine"><a href="/services/travel-medicine" title="Travel Medicine">Travel
+                                    Medicine</a></li>
+<li class="leaf menu-link-urgent-care"><a href="/services/urgent-care" title="Urgent Care">Urgent Care</a></li>
+<li class="leaf menu-link-std-testing"><a href="/services/std-testing-portland" title="STD Testing">STD Testing</a></li>
+<li class="leaf menu-link-annual-wellness-exam"><a href="/services/annual-exam-wellness-visit" title="Annual Wellness Exam">Annual
+                                    Wellness Exam</a></li>
+<li class="leaf menu-link-flu-shot-vaccinations"><a href="/services/flu-shot-vaccination" title="Flu Shots | Flu Vaccination">Flu
+                                    Shot/Vaccinations</a></li>
+<li class="leaf menu-link-sports--camp-physicals"><a href="/services/sports-camp-physicals-only-50-youth" title="Sports &amp; Camp Physicals">Sports &amp; Camp Physicals</a></li>
+<li class="leaf active menu-link-what-we-treat"><a class="active" href="/what-we-treat" title="What We Treat">What
+                                    We Treat</a></li>
+<li class="last leaf menu-link-veterans"><a href="/veterans">Veterans</a></li>
+</ul>
+</li>
+<li class="leaf menu-link-set-an-appointment"><a href="/#cw-scheduler" title="Schedule an Appointment">Set an
+                            Appointment</a></li>
+<li class="last leaf menu-link-pay-your-bill"><a href="https://afcurgentcareportland.com/pay-online" title="">Pay Your Bill</a></li>
+</ul>
+</div><!-- /.navbar-collapse -->
+</nav><!-- /.navbar -->
+</div>
+</div>
+</header>
+<div id="main-wrapper">
+<div class="main" id="main">
+<div class="container">
+<div id="page-header">
+<div class="page-header">
+<h1 class="title">What We Treat</h1>
+</div>
+<ul class="action-links">
+</ul>
+</div>
+</div>
+<div class="container" id="content">
+<div class="region region-content">
+<div class="block block-system" id="block-system-main">
+<div class="content">
+<div class="panel-display brenham-flipped clearfix radix-brenham-flipped">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12 radix-layouts-header panel-panel">
+<div class="panel-panel-inner">
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-8 radix-layouts-content panel-panel">
+<div class="panel-panel-inner">
+<div class="panel-pane pane-views-panes pane-what-we-treat-panel-pane-1">
+<div class="pane-content">
+<div class="view view-what-we-treat view-id-what_we_treat view-display-id-panel_pane_1 view-dom-id-f51dcbc9aa1a402185f6594475e2d8e1">
+<div class="view-content">
+<div class="clearfix views-group">
+<h3>
+<div class="field field-name-field-category field-type-taxonomy-term-reference field-label-hidden">
+                                                                        Injury
+                                                                    </div>
+<div class="field field-name-field-category field-type-taxonomy-term-reference field-label-hidden">
+                                                                        Prevention
+                                                                    </div>
+</h3>
+<div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+<div class="views-field views-field-title"><span class="field-content"><a href="/what-we-treat/x-raydigital-x-ray">X-Ray/Digital X-Ray</a></span>
+</div>
+</div>
+</div>
+<div class="clearfix views-group">
+<h3>
+<div class="field field-name-field-category field-type-taxonomy-term-reference field-label-hidden">
+                                                                        Employer Services
+                                                                    </div>
+</h3>
+<div class="views-row views-row-1 views-row-odd views-row-first">
+<div class="views-field views-field-title"><span class="field-content"><a href="/what-we-treat/workers-compensation">Workers' Compensation</a></span>
+</div>
+</div>
+<div class="views-row views-row-2 views-row-even">
+<div class="views-field views-field-title"><span class="field-content"><a href="/what-we-treat/pre-employment-physicals">Pre-Employment Physicals</a></span>
+</div>
+</div>
+<div class="views-row views-row-3 views-row-odd">
+<div class="views-field views-field-title"><span class="field-content"><a href="/what-we-treat/employment-screening">Employment Screening</a></span>
+</div>
+</div>
+<div class="views-row views-row-4 views-row-even">
+<div class="views-field views-field-title"><span class="field-content"><a href="/what-we-treat/employee-drug-testing">Employee Drug Testing</a></span>
+</div>
+</div>
+<div class="views-row views-row-5 views-row-odd views-row-last">
+<div class="views-field views-field-title"><span class="field-content"><a href="/what-we-treat/dot-physicals">DOT Physicals</a></span>
+</div>
+</div>
+</div>
+<div class="clearfix views-group">
+<h3>
+<div class="field field-name-field-category field-type-taxonomy-term-reference field-label-hidden">
+                                                                        Infections
+                                                                    </div>
+</h3>
+<div class="views-row views-row-1 views-row-odd views-row-first">
+<div class="views-field views-field-title"><span class="field-content"><a href="/what-we-treat/urinary-tract-infection">Urinary Tract Infection</a></span>
+</div>
+</div>
+<div class="views-row views-row-2 views-row-even">
+<div class="views-field views-field-title"><span class="field-content"><a href="/what-we-treat/ringworm">Ringworm</a></span>
+</div>
+</div>
+<div class="views-row views-row-3 views-row-odd">
+<div class="views-field views-field-title"><span class="field-content"><a href="/what-we-treat/prostatitis">Prostatitis</a></span>
+</div>
+</div>
+<div class="views-row views-row-4 views-row-even">
+<div class="views-field views-field-title"><span class="field-content"><a href="/what-we-treat/inner-ear-infection">Inner Ear Infection</a></span>
+</div>
+</div>
+<div class="views-row views-row-5 views-row-odd views-row-last">
+<div class="views-field views-field-title"><span class="field-content"><a href="/what-we-treat/bladder-infections">Bladder Infections</a></span>
+</div>
+</div>
+</div>
+<div class="clearfix views-group">
+<h3>
+<div class="field field-name-field-category field-type-taxonomy-term-reference field-label-hidden">
+                                                                        Prevention
+                                                                    </div>
+</h3>
+<div class="views-row views-row-1 views-row-odd views-row-first">
+<div class="views-field views-field-title"><span class="field-content"><a href="/what-we-treat/travel-medicine-vaccines">Travel Medicine &amp; Vaccines</a></span>
+</div>
+</div>
+<div class="views-row views-row-2 views-row-even">
+<div class="views-field views-field-title"><span class="field-content"><a href="/what-we-treat/portland-std-testing">Portland STD Testing</a></span>
+</div>
+</div>
+<div class="views-row views-row-3 views-row-odd">
+<div class="views-field views-field-title"><span class="field-content"><a href="/what-we-treat/physicals">Physicals</a></span>
+</div>
+</div>
+<div class="views-row views-row-4 views-row-even">
+<div class="views-field views-field-title"><span class="field-content"><a href="/what-we-treat/hiv-testing">HIV Testing</a></span>
+</div>
+</div>
+<div class="views-row views-row-5 views-row-odd views-row-last">
+<div class="views-field views-field-title"><span class="field-content"><a href="/what-we-treat/ear-lavage">Ear Lavage</a></span>
+</div>
+</div>
+</div>
+<div class="clearfix views-group">
+<h3>
+<div class="field field-name-field-category field-type-taxonomy-term-reference field-label-hidden">
+                                                                        Illness
+                                                                    </div>
+</h3>
+<div class="views-row views-row-1 views-row-odd views-row-first">
+<div class="views-field views-field-title"><span class="field-content"><a href="/what-we-treat/swimmers-ear">Swimmer's Ear</a></span>
+</div>
+</div>
+<div class="views-row views-row-2 views-row-even">
+<div class="views-field views-field-title"><span class="field-content"><a href="/what-we-treat/sore-throat">Sore Throat</a></span>
+</div>
+</div>
+<div class="views-row views-row-3 views-row-odd">
+<div class="views-field views-field-title"><span class="field-content"><a href="/what-we-treat/rashes">Rashes</a></span>
+</div>
+</div>
+<div class="views-row views-row-4 views-row-even">
+<div class="views-field views-field-title"><span class="field-content"><a href="/what-we-treat/poison-ivy-oak-sumac">Poison Ivy, Oak &amp; Sumac</a></span>
+</div>
+</div>
+<div class="views-row views-row-5 views-row-odd">
+<div class="views-field views-field-title"><span class="field-content"><a href="/what-we-treat/bronchitis">Bronchitis</a></span>
+</div>
+</div>
+<div class="views-row views-row-6 views-row-even">
+<div class="views-field views-field-title"><span class="field-content"><a href="/what-we-treat/athletes-foot">Athlete's Foot</a></span>
+</div>
+</div>
+<div class="views-row views-row-7 views-row-odd">
+<div class="views-field views-field-title"><span class="field-content"><a href="/what-we-treat/asthma">Asthma</a></span>
+</div>
+</div>
+<div class="views-row views-row-8 views-row-even">
+<div class="views-field views-field-title"><span class="field-content"><a href="/what-we-treat/anxiety">Anxiety</a></span>
+</div>
+</div>
+<div class="views-row views-row-9 views-row-odd">
+<div class="views-field views-field-title"><span class="field-content"><a href="/what-we-treat/allergy-treatment">Allergy Treatment</a></span>
+</div>
+</div>
+<div class="views-row views-row-10 views-row-even">
+<div class="views-field views-field-title"><span class="field-content"><a href="/what-we-treat/acne">Acne</a></span>
+</div>
+</div>
+<div class="views-row views-row-11 views-row-odd">
+<div class="views-field views-field-title"><span class="field-content"><a href="/what-we-treat/abscess">Abscess</a></span>
+</div>
+</div>
+<div class="views-row views-row-12 views-row-even views-row-last">
+<div class="views-field views-field-title"><span class="field-content"><a href="/what-we-treat/abdominal-pain">Abdominal Pain</a></span>
+</div>
+</div>
+</div>
+<div class="clearfix views-group">
+<h3>
+<div class="field field-name-field-category field-type-taxonomy-term-reference field-label-hidden">
+                                                                        Injury
+                                                                    </div>
+</h3>
+<div class="views-row views-row-1 views-row-odd views-row-first">
+<div class="views-field views-field-title"><span class="field-content"><a href="/what-we-treat/sports-injuries">Sports Injuries</a></span>
+</div>
+</div>
+<div class="views-row views-row-2 views-row-even">
+<div class="views-field views-field-title"><span class="field-content"><a href="/what-we-treat/cuts-lacerations">Cuts &amp; Lacerations</a></span>
+</div>
+</div>
+<div class="views-row views-row-3 views-row-odd">
+<div class="views-field views-field-title"><span class="field-content"><a href="/what-we-treat/concussions">Concussions</a></span>
+</div>
+</div>
+<div class="views-row views-row-4 views-row-even views-row-last">
+<div class="views-field views-field-title"><span class="field-content"><a href="/what-we-treat/aches-and-pains">Aches and Pains</a></span>
+</div>
+</div>
+</div>
+<div class="clearfix views-group">
+<h3>
+<div class="field field-name-field-category field-type-taxonomy-term-reference field-label-hidden">
+                                                                        Illness
+                                                                    </div>
+<div class="field field-name-field-category field-type-taxonomy-term-reference field-label-hidden">
+                                                                        Prevention
+                                                                    </div>
+</h3>
+<div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+<div class="views-field views-field-title"><span class="field-content"><a href="/what-we-treat/fluinfluenza">Flu/Influenza</a></span>
+</div>
+</div>
+</div>
+<div class="clearfix views-group">
+<h3>
+<div class="field field-name-field-category field-type-taxonomy-term-reference field-label-hidden">
+                                                                        Illness
+                                                                    </div>
+<div class="field field-name-field-category field-type-taxonomy-term-reference field-label-hidden">
+                                                                        Injury
+                                                                    </div>
+</h3>
+<div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+<div class="views-field views-field-title"><span class="field-content"><a href="/what-we-treat/back-pain">Back Pain</a></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4 radix-layouts-sidebar panel-panel">
+<div class="panel-panel-inner">
+<div class="panel-pane pane-block pane-menu-menu-menu-footer-menu-locations">
+<h2 class="pane-title">
+                                                    Locations </h2>
+<div class="pane-content">
+<ul class="menu nav">
+<li class="first leaf menu-link-nw-portland"><a href="/locations/nw-portland-urgent-care" title="AFC Urgent Care NW Portland">NW Portland</a></li>
+<li class="leaf menu-link-ne-portland"><a href="/locations/ne-portland-urgent-care" title="AFC Urgent Care NE Portland">NE Portland</a></li>
+<li class="leaf menu-link-lake-oswego"><a href="/locations/lake-oswego-urgent-care" title="AFC Urgent Care Lake Oswego">Lake Oswego</a></li>
+<li class="leaf menu-link-beaverton"><a href="/locations/beaverton-urgent-care" title="AFC Urgent Care Beaverton">Beaverton</a></li>
+<li class="last leaf menu-link-oregon-city"><a href="/locations/oregoncity" title="">Oregon City</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><!-- /.brenham-flipped --> </div>
+</div>
+</div>
+</div>
+</div> <!-- /#main -->
+</div> <!-- /#main-wrapper -->
+<footer class="footer" id="footer">
+<div class="region region-footer">
+<div class="block block-panels-mini" id="block-panels-mini-footer">
+<div class="content">
+<div class="panel-display drxp-footer clearfix drxp-footer" id="mini-panel-footer">
+<div class="row4">
+<div class="container">
+<div class="row">
+<div class="col-md-12 radix-layouts-row1 panel-panel">
+<div class="panel-panel-inner">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row1">
+<div class="container">
+<div class="row">
+<div class="col-md-12 radix-layouts-row1 panel-panel">
+<div class="panel-panel-inner">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row2">
+<div class="container">
+<div class="row">
+<div class="col-md-12 radix-layouts-row2 panel-panel">
+<div class="panel-panel-inner">
+<div class="panel-pane pane-node">
+<h2 class="pane-title">
+                                                NW Portland Urgent Care </h2>
+<div class="pane-content">
+<div class="node-clinic view-mode-footer">
+<div class="panel-display boxton clearfix radix-boxton">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12 radix-layouts-content panel-panel">
+<div class="panel-panel-inner">
+<div class="panel-pane pane-entity-field pane-node-field-address">
+<div class="pane-content">
+<div class="field field-name-field-address field-type-addressfield field-label-hidden">
+<div class="street-block">
+<div class="thoroughfare">25 NW
+                                                                                            23rd Place
+                                                                                        </div>
+</div>
+<div class="addressfield-container-inline locality-block country-US">
+<span class="locality">Portland</span>,
+                                                                                        <span class="state">OR</span>
+<span class="postal-code">97210</span>
+</div>
+<span class="country">United States</span>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-yelp-link">
+<div class="pane-content">
+<div class="field field-name-field-yelp-link field-type-link-field field-label-hidden">
+<a class="fa fa-yelp" href="http://www.yelp.com/biz/afc-urgent-care-portland" target="_blank">Yelp</a></div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-facebook-link">
+<div class="pane-content">
+<div class="field field-name-field-facebook-link field-type-link-field field-label-hidden">
+<a class="fa fa-facebook-official" href="https://www.facebook.com/afcnwportland/" rel="nofollow" target="_blank">Facebook</a>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-google-link">
+<div class="pane-content">
+<div class="field field-name-field-google-link field-type-link-field field-label-hidden">
+<a class="fa fa-map-marker" href="https://goo.gl/maps/jRuZZnVSRqbazrBV9" rel="nofollow" target="_blank">Google
+                                                                                        Maps</a></div>
+</div>
+</div>
+<div class="panel-pane pane-custom pane-1">
+<div class="pane-content">
+<p style="margin-top:10px"><span>8-8 Mon-Fri | 9-6 Sat/Sun</span>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><!-- /.boxton -->
+</div>
+</div>
+</div>
+<div class="panel-pane pane-node">
+<h2 class="pane-title">
+                                                NE Portland Urgent Care </h2>
+<div class="pane-content">
+<div class="node-clinic view-mode-footer">
+<div class="panel-display boxton clearfix radix-boxton">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12 radix-layouts-content panel-panel">
+<div class="panel-panel-inner">
+<div class="panel-pane pane-entity-field pane-node-field-address">
+<div class="pane-content">
+<div class="field field-name-field-address field-type-addressfield field-label-hidden">
+<div class="street-block">
+<div class="thoroughfare">7033
+                                                                                            NE Sandy Blvd
+                                                                                        </div>
+</div>
+<div class="addressfield-container-inline locality-block country-US">
+<span class="locality">Portland</span>,
+                                                                                        <span class="state">OR</span>
+<span class="postal-code">97213</span>
+</div>
+<span class="country">United States</span>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-yelp-link">
+<div class="pane-content">
+<div class="field field-name-field-yelp-link field-type-link-field field-label-hidden">
+<a class="fa fa-yelp" href="http://www.yelp.com/biz/afc-urgent-care-portland-2" target="_blank">Yelp</a></div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-facebook-link">
+<div class="pane-content">
+<div class="field field-name-field-facebook-link field-type-link-field field-label-hidden">
+<a class="fa fa-facebook-official" href="https://www.facebook.com/afcneportland/" rel="nofollow" target="_blank">Facebook</a>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-google-link">
+<div class="pane-content">
+<div class="field field-name-field-google-link field-type-link-field field-label-hidden">
+<a class="fa fa-map-marker" href="https://goo.gl/maps/J1AMEQoPSZFVttMW9" rel="nofollow" target="_blank">Google
+                                                                                        Maps</a></div>
+</div>
+</div>
+<div class="panel-pane pane-custom pane-2">
+<div class="pane-content">
+<p style="margin-top:10px"><span>8-8 Mon-Fri | 9-6 Sat/Sun</span>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><!-- /.boxton -->
+</div>
+</div>
+</div>
+<div class="panel-pane pane-node">
+<h2 class="pane-title">
+                                                Lake Oswego Urgent Care </h2>
+<div class="pane-content">
+<div class="node-clinic view-mode-footer">
+<div class="panel-display boxton clearfix radix-boxton">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12 radix-layouts-content panel-panel">
+<div class="panel-panel-inner">
+<div class="panel-pane pane-entity-field pane-node-field-address">
+<div class="pane-content">
+<div class="field field-name-field-address field-type-addressfield field-label-hidden">
+<div class="street-block">
+<div class="thoroughfare">17437
+                                                                                            Boones Ferry Rd
+                                                                                        </div>
+</div>
+<div class="addressfield-container-inline locality-block country-US">
+<span class="locality">Lake Oswego</span>,
+                                                                                        <span class="state">OR</span>
+<span class="postal-code">97035</span>
+</div>
+<span class="country">United States</span>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-yelp-link">
+<div class="pane-content">
+<div class="field field-name-field-yelp-link field-type-link-field field-label-hidden">
+<a class="fa fa-yelp" href="http://www.yelp.com/biz/afc-urgent-care-lake-oswego" target="_blank">Yelp</a></div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-facebook-link">
+<div class="pane-content">
+<div class="field field-name-field-facebook-link field-type-link-field field-label-hidden">
+<a class="fa fa-facebook-official" href="https://www.facebook.com/afclakeoswego/" rel="nofollow" target="_blank">Facebook</a>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-google-link">
+<div class="pane-content">
+<div class="field field-name-field-google-link field-type-link-field field-label-hidden">
+<a class="fa fa-map-marker" href="https://goo.gl/maps/Fn9KJMHrYZg7tkaD7" rel="nofollow" target="_blank">Google
+                                                                                        Maps</a></div>
+</div>
+</div>
+<div class="panel-pane pane-custom pane-3">
+<div class="pane-content">
+<p style="margin-top:10px"><span>8-8 Mon-Fri | 9-6 Sat/Sun</span>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><!-- /.boxton -->
+</div>
+</div>
+</div>
+<div class="panel-pane pane-node">
+<h2 class="pane-title">
+                                                Beaverton Urgent Care </h2>
+<div class="pane-content">
+<div class="node-clinic view-mode-footer">
+<div class="panel-display boxton clearfix radix-boxton">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12 radix-layouts-content panel-panel">
+<div class="panel-panel-inner">
+<div class="panel-pane pane-entity-field pane-node-field-address">
+<div class="pane-content">
+<div class="field field-name-field-address field-type-addressfield field-label-hidden">
+<div class="street-block">
+<div class="thoroughfare">14278
+                                                                                            SW Allen Blvd
+                                                                                        </div>
+</div>
+<div class="addressfield-container-inline locality-block country-US">
+<span class="locality">Beaverton</span>,
+                                                                                        <span class="state">OR</span>
+<span class="postal-code">97005</span>
+</div>
+<span class="country">United States</span>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-yelp-link">
+<div class="pane-content">
+<div class="field field-name-field-yelp-link field-type-link-field field-label-hidden">
+<a class="fa fa-yelp" href="http://www.yelp.com/biz/afc-urgent-care-beaverton-beaverton" target="_blank">Yelp</a></div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-facebook-link">
+<div class="pane-content">
+<div class="field field-name-field-facebook-link field-type-link-field field-label-hidden">
+<a class="fa fa-facebook-official" href="https://www.facebook.com/afcbeaverton/" rel="nofollow" target="_blank">Facebook</a>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-google-link">
+<div class="pane-content">
+<div class="field field-name-field-google-link field-type-link-field field-label-hidden">
+<a class="fa fa-map-marker" href="https://goo.gl/maps/QW2HWRFUh5NULBcT8" rel="nofollow" target="_blank">Google
+                                                                                        Maps</a></div>
+</div>
+</div>
+<div class="panel-pane pane-custom pane-4">
+<div class="pane-content">
+<p style="margin-top:10px"><span>8-8 Mon-Fri | 9-6 Sat/Sun</span>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><!-- /.boxton -->
+</div>
+</div>
+</div>
+<div class="panel-pane pane-node">
+<h2 class="pane-title">
+                                                Oregon City Urgent Care </h2>
+<div class="pane-content">
+<div class="node-clinic view-mode-footer">
+<div class="panel-display boxton clearfix radix-boxton">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12 radix-layouts-content panel-panel">
+<div class="panel-panel-inner">
+<div class="panel-pane pane-entity-field pane-node-field-address">
+<div class="pane-content">
+<div class="field field-name-field-address field-type-addressfield field-label-hidden">
+<div class="street-block">
+<div class="thoroughfare">397
+                                                                                            Warner Milne Rd
+                                                                                        </div>
+</div>
+<div class="addressfield-container-inline locality-block country-US">
+<span class="locality">Oregon City</span>,
+                                                                                        <span class="state">OR</span>
+<span class="postal-code">97045</span>
+</div>
+<span class="country">United States</span>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-yelp-link">
+<div class="pane-content">
+<div class="field field-name-field-yelp-link field-type-link-field field-label-hidden">
+<a class="fa fa-yelp" href="https://www.yelp.com/biz/afc-urgent-care-oregon-city-oregon-city?osq=AFC%20urgent%20care%20oregon%20city" target="_blank">Yelp</a></div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-facebook-link">
+<div class="pane-content">
+<div class="field field-name-field-facebook-link field-type-link-field field-label-hidden">
+<a class="fa fa-facebook-official" href="https://www.facebook.com/AFC-Urgent-Care-Oregon-City-476017396487983/" rel="nofollow" target="_blank">Facebook</a>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-google-link">
+<div class="pane-content">
+<div class="field field-name-field-google-link field-type-link-field field-label-hidden">
+<a class="fa fa-map-marker" href="https://www.google.com/maps/place/AFC+Urgent+Care+Oregon+City/@45.3368281,-122.593423,17z/data=!3m1!4b1!4m5!3m4!1s0x54957117bf7c8fc3:0xb6e85d9774b6788b!8m2!3d45.3368243!4d-122.5912397" rel="nofollow" target="_blank">Google
+                                                                                        Maps</a></div>
+</div>
+</div>
+<div class="panel-pane pane-custom pane-5">
+<div class="pane-content">
+<p style="margin-top:10px"><span>8-8 Mon-Fri | 9-6 Sat/Sun</span>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><!-- /.boxton -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row3">
+<div class="container">
+<div class="row">
+<div class="col-md-12 radix-layouts-row3 panel-panel">
+<div class="panel-panel-inner">
+<div class="panel-pane pane-menu-tree pane-menu-menu-footer-menu-locations col-xs-12 col-sm-6 col-md-3 col-lg-3">
+<h2 class="pane-title">
+                                                Locations </h2>
+<div class="pane-content">
+<div class="menu-block-wrapper menu-block-ctools-menu-menu-footer-menu-locations-1 menu-name-menu-menu-footer-menu-locations parent-mlid-0 menu-level-1">
+<ul class="menu nav nav-pills nav-stacked">
+<li class="first leaf menu-mlid-2259 menu-link-nw-portland"><a href="/locations/nw-portland-urgent-care" title="AFC Urgent Care NW Portland">NW Portland</a></li>
+<li class="leaf menu-mlid-2260 menu-link-ne-portland"><a href="/locations/ne-portland-urgent-care" title="AFC Urgent Care NE Portland">NE Portland</a></li>
+<li class="leaf menu-mlid-2261 menu-link-lake-oswego"><a href="/locations/lake-oswego-urgent-care" title="AFC Urgent Care Lake Oswego">Lake Oswego</a></li>
+<li class="leaf menu-mlid-2262 menu-link-beaverton"><a href="/locations/beaverton-urgent-care" title="AFC Urgent Care Beaverton">Beaverton</a></li>
+<li class="last leaf menu-mlid-2805 menu-link-oregon-city"><a href="/locations/oregoncity" title="">Oregon City</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-menu-tree pane-menu-menu-footer-menu-about col-xs-12 col-sm-6 col-md-3 col-lg-3">
+<h2 class="pane-title">
+                                                About </h2>
+<div class="pane-content">
+<div class="menu-block-wrapper menu-block-ctools-menu-menu-footer-menu-about-1 menu-name-menu-menu-footer-menu-about parent-mlid-0 menu-level-1">
+<ul class="menu nav nav-pills nav-stacked">
+<li class="first leaf menu-mlid-2619 menu-link-our-history"><a href="/history" title="AFC Urgent Care History">Our
+                                                            History</a></li>
+<li class="leaf menu-mlid-2612 menu-link-privacy-policy"><a href="/privacy-policy" title="AFC Portland Privacy Policy">Privacy Policy</a>
+</li>
+<li class="last leaf menu-mlid-2610 menu-link-contact-us"><a href="/contact-afc-urgent-care" title="Contact AFC Urgent Care Portland">Contact Us</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-menu-tree pane-menu-menu-footer-menu-resources col-xs-12 col-sm-6 col-md-3 col-lg-3">
+<h2 class="pane-title">
+                                                Resources </h2>
+<div class="pane-content">
+<div class="menu-block-wrapper menu-block-ctools-menu-menu-footer-menu-resources-1 menu-name-menu-menu-footer-menu-resources parent-mlid-0 menu-level-1">
+<ul class="menu nav nav-pills nav-stacked">
+<li class="first leaf menu-mlid-2615 menu-link-pay-your-bill"><a href="/pay-online" title="Pay Your Bill Online">Pay Your
+                                                            Bill</a></li>
+<li class="leaf menu-mlid-2613 menu-link-careers--employment"><a href="/careers" title="Careers &amp; Employment">Careers
+                                                            &amp; Employment</a></li>
+<li class="last leaf menu-mlid-2614 menu-link-news--articles"><a href="/news" title="AFC News &amp; Articles">News &amp;
+                                                            Articles</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-menu-tree pane-menu-menu-footer-menu-services col-xs-12 col-sm-6 col-md-3 col-lg-3">
+<h2 class="pane-title">
+                                                Additional Services </h2>
+<div class="pane-content">
+<div class="menu-block-wrapper menu-block-ctools-menu-menu-footer-menu-services-1 menu-name-menu-menu-footer-menu-services parent-mlid-0 menu-level-1">
+<ul class="menu nav nav-pills nav-stacked">
+<li class="first leaf menu-mlid-2617 menu-link-physician-services">
+<a href="/physician-services" title="Services for Physicians">Physician Services</a>
+</li>
+<li class="last leaf menu-mlid-2616 menu-link-employer-services">
+<a href="/services/occupational-medicine" title="Occ Med Services for Employers">Employer
+                                                                Services</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer--social">
+<ul class="social-links">
+<!--      <li><a id="facebook" href="https://www.facebook.com/AFCUrgentCarePortland/" target="_blank">Facebook</a></li>-->
+<!--      <li><a id="twitter" href="https://twitter.com/AFCpdx" target="_blank">Twitter</a></li>-->
+<!-- -->
+<!--      <li><a id="linkedin" href="https://www.linkedin.com/company/2099201" target="_blank">LinkedIn</a></li>-->
+<li><a class="social-icons social-icons--facebook" href="https://www.facebook.com/AFCUrgentCarePortland/" target="_blank">Facebook</a></li>
+<li><a class="social-icons social-icons--linkedin" href="https://twitter.com/AFCpdx" target="_blank">Twitter</a></li>
+<li><a class="social-icons social-icons--twitter" href="https://www.linkedin.com/company/2099201" target="_blank">LinkedIn</a></li>
+<li><a class="social-icons social-icons--instagram" href="https://www.instagram.com/afcpdx/" target="_blank">Instagram</a></li>
+</ul>
+</div>
+<span class="footer-copyright">Copyright © 2020 AFC Urgent Care Portland. All rights reserved.</span>
+</footer>
+<!--a class="schedule-cta hidden-md hidden-lg" >Virtual Doctor Visit</a -->
+<a class="schedule-cta hidden-md hidden-lg" href="/telemedicine">Virtual Doctor Visit</a>
+<!-- <script type="text/javascript" src="//cdn.callrail.com/companies/242373876/4efbd2efbff6783a5b4c/12/swap.js"></script> -->
+<script>
+    function advagg_mod_1() {
+        // Count how many times this function is called.
+        advagg_mod_1.count = ++advagg_mod_1.count || 1;
+        try {
+            if (advagg_mod_1.count <= 40) {
+
+                (function (w, d, t, r, u) {
+                    var f, n, i;
+                    w[u] = w[u] || [], f = function () {
+                        var o = {
+                            ti: "5439392"
+                        };
+                        o.q = w[u], w[u] = new UET(o), w[u].push("pageLoad")
+                    }, n = d.createElement(t), n.src = r, n.async = 1, n.onload = n.onreadystatechange = function () {
+                        var s = this.readyState;
+                        s && s !== "loaded" && s !== "complete" || (f(), n.onload = n.onreadystatechange = null)
+                    }, i = d.getElementsByTagName(t)[0], i.parentNode.insertBefore(n, i)
+                })(window, document, "script", "//bat.bing.com/bat.js", "uetq");
+
+
+                // Set this to 100 so that this function only runs once.
+                advagg_mod_1.count = 100;
+            }
+        } catch (e) {
+            if (advagg_mod_1.count >= 40) {
+                // Throw the exception if this still fails after running 40 times.
+                throw e;
+            } else {
+                // Try again in 250 ms.
+                window.setTimeout(advagg_mod_1, 250);
+            }
+        }
+    }
+
+    function advagg_mod_1_check() {
+        if (window.jQuery && window.Drupal && window.Drupal.settings) {
+            advagg_mod_1();
+        } else {
+            window.setTimeout(advagg_mod_1_check, 250);
+        }
+    }
+
+    advagg_mod_1_check();</script>
+<noscript><img height="0" src="//bat.bing.com/action/0?ti=5439392&amp;Ver=2" style="display:none; visibility: hidden;" width="0"/></noscript>
+<!--[if lte IE 9]>
+<script type="text/javascript"
+        src="/sites/default/files/advagg_js/js__9Cx5V9kgfqBOBsVd7ynjlMqo7MQiW51n4JtwKGs0EXw__GFcMVwA_8zYqqv3dYigkNwJmJBQm6DAlc8htDu-dGw4__DrS1FY0tAdsEfJ-uNXuFqvKpG1oNUT8s3rXuBGUPGc0.js#ie9-"
+        onload="if(jQuery.isFunction(jQuery.holdReady)){jQuery.holdReady(true);}"></script>
+<![endif]-->
+<!--[if gt IE 9]>
+<script type="text/javascript"
+        src="/sites/default/files/advagg_js/js__9Cx5V9kgfqBOBsVd7ynjlMqo7MQiW51n4JtwKGs0EXw__GFcMVwA_8zYqqv3dYigkNwJmJBQm6DAlc8htDu-dGw4__DrS1FY0tAdsEfJ-uNXuFqvKpG1oNUT8s3rXuBGUPGc0.js#ie10+"
+        defer="defer" onload="if(jQuery.isFunction(jQuery.holdReady)){jQuery.holdReady(true);}"></script>
+<![endif]-->
+<!--[if !IE]><!-->
+<script defer="defer" onload="if(jQuery.isFunction(jQuery.holdReady)){jQuery.holdReady(true);}" src="/sites/default/files/advagg_js/js__9Cx5V9kgfqBOBsVd7ynjlMqo7MQiW51n4JtwKGs0EXw__GFcMVwA_8zYqqv3dYigkNwJmJBQm6DAlc8htDu-dGw4__DrS1FY0tAdsEfJ-uNXuFqvKpG1oNUT8s3rXuBGUPGc0.js" type="text/javascript"></script>
+<!--<![endif]-->
+<script defer="defer" src="/sites/default/files/advagg_js/js__qvxhs9hiTVr_USTpngJWnfdQEU8sbxmerZ1FBORD7ks__c_vdLVdm2dhTjV0-cjXbrVvnpDDp5m6xnNff8tSZ1fg__DrS1FY0tAdsEfJ-uNXuFqvKpG1oNUT8s3rXuBGUPGc0.js" type="text/javascript"></script>
+<script defer="defer" onload=";function advagg_mod_2(){advagg_mod_2.count=++advagg_mod_2.count||1;try{if(advagg_mod_2.count&lt;=40){init_drupal_core_settings();advagg_mod_2.count=100}}catch(d){if(advagg_mod_2.count&gt;=40){throw d}
+else{window.setTimeout(advagg_mod_2,1)}}};function advagg_mod_2_check(){if(window.init_drupal_core_settings&amp;&amp;window.jQuery&amp;&amp;window.Drupal){advagg_mod_2()}
+else{window.setTimeout(advagg_mod_2_check,1)}};advagg_mod_2_check();" src="/sites/default/files/advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__JIy-3lUpq3qC8JjvfOMkqOB8loYzuE93VQgLvC7HpVM__DrS1FY0tAdsEfJ-uNXuFqvKpG1oNUT8s3rXuBGUPGc0.js" type="text/javascript"></script>
+<script defer="defer" src="/sites/default/files/advagg_js/js__fwhbnUWIxW-jFl55E2mBYVtZTjGhJ1JWyZYAJ2cEd3A__jCrCuWCJIPYPe1FzZoUvsJWEjkNMmRIQHYek1h7idBE__DrS1FY0tAdsEfJ-uNXuFqvKpG1oNUT8s3rXuBGUPGc0.js" type="text/javascript"></script>
+<script defer="defer" src="/sites/default/files/advagg_js/js__v6Ydsa-oLVsCbWBUPEs_rmv-EgYK35mJXlwzszDg2io__NcbPgl6yce1cPkJcub1SVldKst10pVo0nN36XtkHZn8__DrS1FY0tAdsEfJ-uNXuFqvKpG1oNUT8s3rXuBGUPGc0.js" type="text/javascript"></script>
+<script defer="defer" src="/sites/default/files/advagg_js/js__GCGGwCNZZOWJoIX_rIUxRHIGsjlzB8xUKrNrPh0wkUM__tixnApg4lViNGoAVgqOGMPwywAGyaHKoN1Oohk5iaHc__DrS1FY0tAdsEfJ-uNXuFqvKpG1oNUT8s3rXuBGUPGc0.js" type="text/javascript"></script>
+<script defer="defer" src="/sites/default/files/advagg_js/js__G-xMHiMqTnhKZsMqbtpFHtvv5NDl4KtgSxuWxGRD9ro__iyJgKdlhSVoeTgnDsq5X-WZfaJXsStf1JY8aUazzQoI__DrS1FY0tAdsEfJ-uNXuFqvKpG1oNUT8s3rXuBGUPGc0.js" type="text/javascript"></script>
+<script defer="defer" src="/sites/default/files/advagg_js/js__fqjYq0e8kKapMBXYSjLyU4-CQI6pMV0ZKjNWu2LaORU__ZT8J1D-X9HFqZYnt8wf6fjmgaJtYRc9ze9JUXRBDXOE__DrS1FY0tAdsEfJ-uNXuFqvKpG1oNUT8s3rXuBGUPGc0.js" type="text/javascript"></script>
+<script defer="defer" src="/sites/default/files/advagg_js/js__qXd2YxwEPtbuuFWYLZnfY9GjkKqNG9lyuzPicejyeQ0__oapZAcV83XkcJ6XCxNAEaZh-Cgcz16_nQMiV61HN_Tw__DrS1FY0tAdsEfJ-uNXuFqvKpG1oNUT8s3rXuBGUPGc0.js" type="text/javascript"></script>
+<script defer="defer" src="/sites/default/files/advagg_js/js__KaZp60twaRFpB7IdN57N22C_sjMQDY1aEnvERtknlIg__RPUH1Pa_09kAZ8D2-aMQ-HwAGT4k3LEND1qRE2SEZHM__DrS1FY0tAdsEfJ-uNXuFqvKpG1oNUT8s3rXuBGUPGc0.js" type="text/javascript"></script>
+<script defer="defer" src="/sites/default/files/advagg_js/js__7TbGjsNor_zMuCkUJGUZktBZlcclEmPWoRvTh9IakcY__e6Jel6EtuTor-3zbvydwod9gGIDZS6Rd8J66tQxJPpM__DrS1FY0tAdsEfJ-uNXuFqvKpG1oNUT8s3rXuBGUPGc0.js" type="text/javascript"></script>
+<script defer="defer" src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js" type="text/javascript"></script>
+<script defer="defer" src="/sites/default/files/advagg_js/js__teshMkesgAK7FDG62gbdgas9SDLhHJnnLMOhh7Tq8mE__W6wGkHxvdoGYQZuiDt8s3qSKRrjgVU5hIZ9Ci7YZ3L4__DrS1FY0tAdsEfJ-uNXuFqvKpG1oNUT8s3rXuBGUPGc0.js" type="text/javascript"></script>
+<script type="text/javascript">
+    <!--//--><![CDATA[//><!--
+    ;
+
+    function advagg_mod_3() {
+        advagg_mod_3.count = ++advagg_mod_3.count || 1;
+        try {
+            if (advagg_mod_3.count <= 40) {
+                document.createElement('picture');
+                advagg_mod_3.count = 100
+            }
+        } catch (d) {
+            if (advagg_mod_3.count >= 40) {
+                throw d
+            } else {
+                window.setTimeout(advagg_mod_3, 250)
+            }
+        }
+    };
+
+    function advagg_mod_3_check() {
+        if (window.jQuery && window.Drupal && window.Drupal.settings) {
+            advagg_mod_3()
+        } else {
+            window.setTimeout(advagg_mod_3_check, 250)
+        }
+    };advagg_mod_3_check();
+    //--><!]]>
+</script>
+<script type="text/javascript">
+    <!--//--><![CDATA[//><!--
+    function init_drupal_core_settings() {
+        jQuery.extend(Drupal.settings, {
+            "basePath": "\/",
+            "pathPrefix": "",
+            "ajaxPageState": {"theme": "drx_portland", "theme_token": "1Gf6TbiZO2mY0YTepIOENxnPkRacCDCA3ew0BrOr4jg"},
+            "authcache": {
+                "q": "what-we-treat",
+                "cp": {"path": "\/", "domain": ".afcurgentcareportland.com", "secure": true},
+                "cl": 1
+            },
+            "CToolsModal": {
+                "modalSize": {
+                    "type": "scale",
+                    "width": ".9",
+                    "height": ".9",
+                    "addWidth": 0,
+                    "addHeight": 0,
+                    "contentRight": 25,
+                    "contentBottom": 75
+                },
+                "modalOptions": {"opacity": ".55", "background-color": "#FFF"},
+                "animationSpeed": "fast",
+                "modalTheme": "CToolsModalDialog",
+                "throbberTheme": "CToolsModalThrobber"
+            },
+            "panopoly_magic": {"pane_add_preview_mode": "single"},
+            "googleanalytics": {
+                "trackOutbound": 1,
+                "trackMailto": 1,
+                "trackDownload": 1,
+                "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"
+            },
+            "currentPath": "what-we-treat",
+            "currentPathIsAdmin": false,
+            "advagg_font": {"open-sans": "Open Sans", "lato": "Lato"},
+            "advagg_font_storage": 1,
+            "advagg_font_cookie": 1,
+            "advagg_font_no_fout": 1,
+            "drxp": {"open_status": "automatic"}
+        });
+        if (jQuery.isFunction(jQuery.holdReady)) {
+            jQuery.holdReady(false);
+        }
+    }
+
+    if (window.jQuery && window.Drupal) {
+        init_drupal_core_settings();
+    }
+    //--><!]]>
+</script>
+<script defer="defer" src="/sites/default/files/advagg_js/js__MYqFVdJ6pnlxY3PQz8vLX-VTwhTQ95Z45dmbBGqy_pc__gYJ6HZyRcQKE_xVOMgxsyU7Ye-KLbEdyP1mtsrCXYtQ__DrS1FY0tAdsEfJ-uNXuFqvKpG1oNUT8s3rXuBGUPGc0.js" type="text/javascript"></script>
+<div class="html not-front not-logged-in no-sidebars page-node page-node- page-node-46 node-type-panopoly-page node-promoted region-content panel-layout-radix_brenham_flipped panel-region-contentmain panel-region-sidebar">
+<div id="skip-link">
+<a class="element-invisible element-focusable" href="#main">Skip to main content</a>
+</div>
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+<iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-N6998TP" style="display:none;visibility:hidden" width="0"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<header class="header" id="header" role="banner">
+<div class="drxp--announcement-wrapper">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="drxp--announcement">Rapid Travel Testing is currently limited. Please be patient as more
+                        testing supplies arrive.
+                    </div>
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-md-5 col-lg-6">
+<a href="/" rel="home" title="Home">
+<img alt="Home" id="logo" src="https://afcurgentcareportland.com/sites/default/files/afc_logo_-_medium_res_1_0.png"/>
+</a>
+</div>
+<div class="col-md-7 col-lg-6">
+<div class="header--clinics">
+<div id="clinics-toggle">
+<h4>CLINICS</h4>
+</div>
+<div id="clinics">
+<div class="clinic" style="padding:4px;">
+<h5><a href="/locations/nw-portland-urgent-care">NW Portland</a></h5>
+<span style="font-size: 12px;">Mon-Fri: 8am-8pm</span><br/>
+<span style="font-size: 12px;">Sat-Sun: 9am-6pm</span>
+</div>
+<div class="clinic" style="padding:4px;">
+<h5><a href="/locations/ne-portland-urgent-care">NE Portland</a></h5>
+<span style="font-size: 12px;">Mon-Fri: 8am-8pm</span><br/>
+<span style="font-size: 12px;">Sat-Sun: 9am-6pm</span>
+</div>
+<div class="clinic" style="padding:4px;">
+<h5><a href="/locations/lake-oswego-urgent-care">Lake Oswego</a></h5>
+<span style="font-size: 12px;">Mon-Fri: 8am-8pm</span><br/>
+<span style="font-size: 12px;">Sat-Sun: 9am-6pm</span>
+</div>
+<div class="clinic" style="padding:4px;">
+<h5><a href="/locations/beaverton-urgent-care">Beaverton</a></h5>
+<span style="font-size: 12px;">Mon-Fri: 8am-8pm</span><br/>
+<span style="font-size: 12px;">Sat-Sun: 9am-6pm</span>
+</div>
+<div class="clinic" style="padding:4px;">
+<h5><a href="/locations/oregoncity">Oregon City</a></h5>
+<span style="font-size: 12px;">Mon-Fri: 8am-8pm</span><br/>
+<span style="font-size: 12px;">Sat-Sun: 9am-6pm</span>
+</div>
+</div>
+</div>
+<div class="header--info">
+<div class="header--careers-pay">
+<a href="/#cw-scheduler">Schedule Appointment</a>
+</div>
+<div class="header--phone">
+<a href="tel:+15033056262">(503) 305-6262</a>
+</div>
+</div>
+<div class="walk-in-wrapper">
+<!-- <div class="no-appointment">
+                     Telemedicine/Virtual Visit
+                    </div> -->
+<div class="walk-in-status">
+<!-- <span class="status">OPEN</span> -->
+<!-- WALK-IN <span class="status">< ?php //print $walk_in_status; ? ></span-->
+</div>
+</div>
+</div>
+</div>
+</div> <!-- /.container -->
+<div class="nav-wrapper">
+<div class="container">
+<!-- Brand and toggle get grouped for better mobile display -->
+<!-- /.navbar -->
+</div>
+</div>
+</header>
+<div id="main-wrapper">
+<div class="main" id="main">
+<div class="container">
+<div id="page-header">
+<div class="page-header">
+<h1 class="title">Patient Services</h1>
+</div>
+<ul class="action-links">
+</ul>
+</div>
+</div>
+<div class="container" id="content">
+<div class="region region-content">
+<div class="block block-system" id="block-system-main">
+<div class="content">
+<div class="panel-display brenham-flipped clearfix radix-brenham-flipped" id="page-page">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12 radix-layouts-header panel-panel">
+<div class="panel-panel-inner">
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-8 radix-layouts-content panel-panel">
+<div class="panel-panel-inner">
+<div class="panel-pane pane-entity-field pane-node-field-featured-image">
+<div class="pane-content">
+<div class="field field-name-field-featured-image field-type-image field-label-hidden">
+<div class="field-items">
+<div class="field-item even">
+<picture>
+<source srcset="https://afcurgentcareportland.com/sites/default/files/pages/afc-patient-services.webp" type="image/webp"/>
+<img alt="AFC Patient Services" height="213" src="https://afcurgentcareportland.com/sites/default/files/pages/afc-patient-services.jpg" title="AFC Patient Services" typeof="foaf:Image" width="300"/>
+</picture>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-body">
+<div class="pane-content">
+<div class="field field-name-body field-type-text-with-summary field-label-hidden">
+<div class="field-items">
+<div class="field-item even" property="content:encoded"><h2>
+                                                                When You Just Can't Wait to Get Better</h2>
+<p>Along with helping the sick and injured, our clinic
+                                                                    also provides lab and STD testing, occupational
+                                                                    medicine, physicals for sports and employment and
+                                                                    travel medicine such as vaccines when leaving the
+                                                                    country.</p>
+<h2>Get the Care You Need Right Now</h2>
+<ul>
+<li>Illness and Infection.</li>
+<li>Fractures and Sprains.</li>
+<li>Lab Testing and Screening.</li>
+<li>Injury and Minor Trauma.</li>
+</ul>
+<p><span>AFC Urgent Care</span> provides high-quality,
+                                                                    urgent care at a low cost! When you come to <span>AFC Urgent Care</span> you’ll
+                                                                    be seen by a highly qualified provider every time.
+                                                                    Our professional staff of providers, x-ray
+                                                                    technicians and medical assistants are here to not
+                                                                    only provide you with high quality care but a
+                                                                    positive experience. We have a comfortable lounge to
+                                                                    wait in, a very friendly and professional staff and
+                                                                    state of the art equipment (including digital x-ray
+                                                                    and a full lab) to take of all your urgent care
+                                                                    needs.</p>
+<ul>
+<li>No Appointment Needed.</li>
+<li>X-ray and Lab Services On Site.</li>
+<li>Vaccinations and Physicals.</li>
+<li>Major Insurance Plans Accepted.</li>
+</ul>
+<p>Open to the public with extended hours each day,
+                                                                    <span>AFC Urgent Care</span> is convenient and
+                                                                    reliable for those in need. Urgent care services
+                                                                    cover a wide area and a variety of medical needs.
+                                                                    Instead of scheduling an appointment at your local
+                                                                    clinic, skip the hassle and visit <span>AFC Urgent Care</span> today.
+                                                                    <span>AFC Urgent Care</span> services are available
+                                                                    during extended hours, 8:00 a.m. - 8:00 p.m., 7 days
+                                                                    a week including holidays. No Appointments Necessary
+                                                                </p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-node-links link-wrapper">
+<div class="pane-content">
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4 radix-layouts-sidebar panel-panel">
+<div class="panel-panel-inner">
+<div class="panel-pane pane-fieldable-panels-pane pane-fpid-11 pane-bundle-table">
+<h2 class="pane-title">
+                                                    Hours - All Clinics </h2>
+<div class="pane-content">
+<div class="fieldable-panels-pane">
+<div class="field field-name-field-basic-table-table field-type-tablefield field-label-hidden">
+<div class="field-items">
+<div class="field-item even">
+<div class="tablefield-wrapper" id="tablefield-wrapper-fieldable-panels-pane-11-field-basic-table-table-0">
+<table class="tablefield tablefield-columns-0" id="tablefield-fieldable_panels_pane-11-field_basic_table_table-0">
+<caption></caption>
+<tbody>
+<tr class="odd">
+<td class="row_1 col_0">Monday</td>
+<td class="row_1 col_1">8am - 8pm</td>
+</tr>
+<tr class="even">
+<td class="row_2 col_0">Tuesday</td>
+<td class="row_2 col_1">8am - 8pm</td>
+</tr>
+<tr class="odd">
+<td class="row_3 col_0">Wednesday</td>
+<td class="row_3 col_1">8am - 8pm</td>
+</tr>
+<tr class="even">
+<td class="row_4 col_0">Thursday</td>
+<td class="row_4 col_1">8am - 8pm</td>
+</tr>
+<tr class="odd">
+<td class="row_5 col_0">Friday</td>
+<td class="row_5 col_1">8am - 8pm</td>
+</tr>
+<tr class="even">
+<td class="row_6 col_0">Saturday</td>
+<td class="row_6 col_1">9am - 6pm</td>
+</tr>
+<tr class="odd">
+<td class="row_7 col_0">Sunday</td>
+<td class="row_7 col_1">9am - 6pm</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-fieldable-panels-pane pane-fpid-52 pane-bundle-text">
+<h2 class="pane-title">
+                                                    Our Services </h2>
+<div class="pane-content">
+<div class="fieldable-panels-pane">
+<div class="field field-name-field-basic-text-text field-type-text-long field-label-hidden">
+<div class="field-items">
+<div class="field-item even"><p><a href="https://afcurgentcareportland.com/services/urgent-care" title="Urgent Care">URGENT CARE</a></p>
+<p>
+<a href="https://afcurgentcareportland.com/services/primary-care-services" title="Primary Care">PRIMARY CARE</a></p>
+<p>
+<a href="https://afcurgentcareportland.com/services/occupational-medicine" title="Occupational Health">OCCUPATIONAL
+                                                                            HEALTH</a></p>
+<p>
+<a href="https://afcurgentcareportland.com/services/immigration-physicals" title="Immigration Physicals">IMMIGRATION
+                                                                            PHYSICALS</a></p>
+<p>
+<a href="https://afcurgentcareportland.com/services/std-testing-portland" title="STD Testing">STD TESTING</a></p>
+<p>
+<a href="https://afcurgentcareportland.com/services/travel-medicine" title="Travel Medicine">TRAVEL MEDICINE</a>
+</p>
+<p>
+<a href="https://afcurgentcareportland.com/services/sports-camp-physicals" title="Physical Exams">PHYSICALS &amp;
+                                                                            EXAMS</a></p></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><!-- /.brenham-flipped --> </div>
+</div>
+</div>
+</div>
+</div> <!-- /#main -->
+</div> <!-- /#main-wrapper -->
+<footer class="footer" id="footer">
+<div class="region region-footer">
+<div class="block block-panels-mini" id="block-panels-mini-footer">
+<div class="content">
+<div class="panel-display drxp-footer clearfix drxp-footer" id="mini-panel-footer">
+<div class="row4">
+<div class="container">
+<div class="row">
+<div class="col-md-12 radix-layouts-row1 panel-panel">
+<div class="panel-panel-inner">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row1">
+<div class="container">
+<div class="row">
+<div class="col-md-12 radix-layouts-row1 panel-panel">
+<div class="panel-panel-inner">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row2">
+<div class="container">
+<div class="row">
+<div class="col-md-12 radix-layouts-row2 panel-panel">
+<div class="panel-panel-inner">
+<div class="panel-pane pane-node">
+<h2 class="pane-title">
+                                                NW Portland Urgent Care </h2>
+<div class="pane-content">
+<div class="node-clinic view-mode-footer">
+<div class="panel-display boxton clearfix radix-boxton">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12 radix-layouts-content panel-panel">
+<div class="panel-panel-inner">
+<div class="panel-pane pane-entity-field pane-node-field-address">
+<div class="pane-content">
+<div class="field field-name-field-address field-type-addressfield field-label-hidden">
+<div class="street-block">
+<div class="thoroughfare">25 NW
+                                                                                            23rd Place
+                                                                                        </div>
+</div>
+<div class="addressfield-container-inline locality-block country-US">
+<span class="locality">Portland</span>,
+                                                                                        <span class="state">OR</span>
+<span class="postal-code">97210</span>
+</div>
+<span class="country">United States</span>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-yelp-link">
+<div class="pane-content">
+<div class="field field-name-field-yelp-link field-type-link-field field-label-hidden">
+<a class="fa fa-yelp" href="http://www.yelp.com/biz/afc-urgent-care-portland" target="_blank">Yelp</a></div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-facebook-link">
+<div class="pane-content">
+<div class="field field-name-field-facebook-link field-type-link-field field-label-hidden">
+<a class="fa fa-facebook-official" href="https://www.facebook.com/afcnwportland/" rel="nofollow" target="_blank">Facebook</a>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-google-link">
+<div class="pane-content">
+<div class="field field-name-field-google-link field-type-link-field field-label-hidden">
+<a class="fa fa-map-marker" href="https://goo.gl/maps/jRuZZnVSRqbazrBV9" rel="nofollow" target="_blank">Google
+                                                                                        Maps</a></div>
+</div>
+</div>
+<div class="panel-pane pane-custom pane-1">
+<div class="pane-content">
+<p style="margin-top:10px"><span>8-8 Mon-Fri | 9-6 Sat/Sun</span>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><!-- /.boxton -->
+</div>
+</div>
+</div>
+<div class="panel-pane pane-node">
+<h2 class="pane-title">
+                                                NE Portland Urgent Care </h2>
+<div class="pane-content">
+<div class="node-clinic view-mode-footer">
+<div class="panel-display boxton clearfix radix-boxton">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12 radix-layouts-content panel-panel">
+<div class="panel-panel-inner">
+<div class="panel-pane pane-entity-field pane-node-field-address">
+<div class="pane-content">
+<div class="field field-name-field-address field-type-addressfield field-label-hidden">
+<div class="street-block">
+<div class="thoroughfare">7033
+                                                                                            NE Sandy Blvd
+                                                                                        </div>
+</div>
+<div class="addressfield-container-inline locality-block country-US">
+<span class="locality">Portland</span>,
+                                                                                        <span class="state">OR</span>
+<span class="postal-code">97213</span>
+</div>
+<span class="country">United States</span>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-yelp-link">
+<div class="pane-content">
+<div class="field field-name-field-yelp-link field-type-link-field field-label-hidden">
+<a class="fa fa-yelp" href="http://www.yelp.com/biz/afc-urgent-care-portland-2" target="_blank">Yelp</a></div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-facebook-link">
+<div class="pane-content">
+<div class="field field-name-field-facebook-link field-type-link-field field-label-hidden">
+<a class="fa fa-facebook-official" href="https://www.facebook.com/afcneportland/" rel="nofollow" target="_blank">Facebook</a>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-google-link">
+<div class="pane-content">
+<div class="field field-name-field-google-link field-type-link-field field-label-hidden">
+<a class="fa fa-map-marker" href="https://goo.gl/maps/J1AMEQoPSZFVttMW9" rel="nofollow" target="_blank">Google
+                                                                                        Maps</a></div>
+</div>
+</div>
+<div class="panel-pane pane-custom pane-2">
+<div class="pane-content">
+<p style="margin-top:10px"><span>8-8 Mon-Fri | 9-6 Sat/Sun</span>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><!-- /.boxton -->
+</div>
+</div>
+</div>
+<div class="panel-pane pane-node">
+<h2 class="pane-title">
+                                                Lake Oswego Urgent Care </h2>
+<div class="pane-content">
+<div class="node-clinic view-mode-footer">
+<div class="panel-display boxton clearfix radix-boxton">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12 radix-layouts-content panel-panel">
+<div class="panel-panel-inner">
+<div class="panel-pane pane-entity-field pane-node-field-address">
+<div class="pane-content">
+<div class="field field-name-field-address field-type-addressfield field-label-hidden">
+<div class="street-block">
+<div class="thoroughfare">17437
+                                                                                            Boones Ferry Rd
+                                                                                        </div>
+</div>
+<div class="addressfield-container-inline locality-block country-US">
+<span class="locality">Lake Oswego</span>,
+                                                                                        <span class="state">OR</span>
+<span class="postal-code">97035</span>
+</div>
+<span class="country">United States</span>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-yelp-link">
+<div class="pane-content">
+<div class="field field-name-field-yelp-link field-type-link-field field-label-hidden">
+<a class="fa fa-yelp" href="http://www.yelp.com/biz/afc-urgent-care-lake-oswego" target="_blank">Yelp</a></div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-facebook-link">
+<div class="pane-content">
+<div class="field field-name-field-facebook-link field-type-link-field field-label-hidden">
+<a class="fa fa-facebook-official" href="https://www.facebook.com/afclakeoswego/" rel="nofollow" target="_blank">Facebook</a>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-google-link">
+<div class="pane-content">
+<div class="field field-name-field-google-link field-type-link-field field-label-hidden">
+<a class="fa fa-map-marker" href="https://goo.gl/maps/Fn9KJMHrYZg7tkaD7" rel="nofollow" target="_blank">Google
+                                                                                        Maps</a></div>
+</div>
+</div>
+<div class="panel-pane pane-custom pane-3">
+<div class="pane-content">
+<p style="margin-top:10px"><span>8-8 Mon-Fri | 9-6 Sat/Sun</span>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><!-- /.boxton -->
+</div>
+</div>
+</div>
+<div class="panel-pane pane-node">
+<h2 class="pane-title">
+                                                Beaverton Urgent Care </h2>
+<div class="pane-content">
+<div class="node-clinic view-mode-footer">
+<div class="panel-display boxton clearfix radix-boxton">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12 radix-layouts-content panel-panel">
+<div class="panel-panel-inner">
+<div class="panel-pane pane-entity-field pane-node-field-address">
+<div class="pane-content">
+<div class="field field-name-field-address field-type-addressfield field-label-hidden">
+<div class="street-block">
+<div class="thoroughfare">14278
+                                                                                            SW Allen Blvd
+                                                                                        </div>
+</div>
+<div class="addressfield-container-inline locality-block country-US">
+<span class="locality">Beaverton</span>,
+                                                                                        <span class="state">OR</span>
+<span class="postal-code">97005</span>
+</div>
+<span class="country">United States</span>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-yelp-link">
+<div class="pane-content">
+<div class="field field-name-field-yelp-link field-type-link-field field-label-hidden">
+<a class="fa fa-yelp" href="http://www.yelp.com/biz/afc-urgent-care-beaverton-beaverton" target="_blank">Yelp</a></div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-facebook-link">
+<div class="pane-content">
+<div class="field field-name-field-facebook-link field-type-link-field field-label-hidden">
+<a class="fa fa-facebook-official" href="https://www.facebook.com/afcbeaverton/" rel="nofollow" target="_blank">Facebook</a>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-google-link">
+<div class="pane-content">
+<div class="field field-name-field-google-link field-type-link-field field-label-hidden">
+<a class="fa fa-map-marker" href="https://goo.gl/maps/QW2HWRFUh5NULBcT8" rel="nofollow" target="_blank">Google
+                                                                                        Maps</a></div>
+</div>
+</div>
+<div class="panel-pane pane-custom pane-4">
+<div class="pane-content">
+<p style="margin-top:10px"><span>8-8 Mon-Fri | 9-6 Sat/Sun</span>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><!-- /.boxton -->
+</div>
+</div>
+</div>
+<div class="panel-pane pane-node">
+<h2 class="pane-title">
+                                                Oregon City Urgent Care </h2>
+<div class="pane-content">
+<div class="node-clinic view-mode-footer">
+<div class="panel-display boxton clearfix radix-boxton">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12 radix-layouts-content panel-panel">
+<div class="panel-panel-inner">
+<div class="panel-pane pane-entity-field pane-node-field-address">
+<div class="pane-content">
+<div class="field field-name-field-address field-type-addressfield field-label-hidden">
+<div class="street-block">
+<div class="thoroughfare">397
+                                                                                            Warner Milne Rd
+                                                                                        </div>
+</div>
+<div class="addressfield-container-inline locality-block country-US">
+<span class="locality">Oregon City</span>,
+                                                                                        <span class="state">OR</span>
+<span class="postal-code">97045</span>
+</div>
+<span class="country">United States</span>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-yelp-link">
+<div class="pane-content">
+<div class="field field-name-field-yelp-link field-type-link-field field-label-hidden">
+<a class="fa fa-yelp" href="https://www.yelp.com/biz/afc-urgent-care-oregon-city-oregon-city?osq=AFC%20urgent%20care%20oregon%20city" target="_blank">Yelp</a></div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-facebook-link">
+<div class="pane-content">
+<div class="field field-name-field-facebook-link field-type-link-field field-label-hidden">
+<a class="fa fa-facebook-official" href="https://www.facebook.com/AFC-Urgent-Care-Oregon-City-476017396487983/" rel="nofollow" target="_blank">Facebook</a>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-google-link">
+<div class="pane-content">
+<div class="field field-name-field-google-link field-type-link-field field-label-hidden">
+<a class="fa fa-map-marker" href="https://www.google.com/maps/place/AFC+Urgent+Care+Oregon+City/@45.3368281,-122.593423,17z/data=!3m1!4b1!4m5!3m4!1s0x54957117bf7c8fc3:0xb6e85d9774b6788b!8m2!3d45.3368243!4d-122.5912397" rel="nofollow" target="_blank">Google
+                                                                                        Maps</a></div>
+</div>
+</div>
+<div class="panel-pane pane-custom pane-5">
+<div class="pane-content">
+<p style="margin-top:10px"><span>8-8 Mon-Fri | 9-6 Sat/Sun</span>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><!-- /.boxton -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row3">
+<div class="container">
+<div class="row">
+<div class="col-md-12 radix-layouts-row3 panel-panel">
+<div class="panel-panel-inner">
+<div class="panel-pane pane-menu-tree pane-menu-menu-footer-menu-locations col-xs-12 col-sm-6 col-md-3 col-lg-3">
+<h2 class="pane-title">
+                                                Locations </h2>
+<div class="pane-content">
+<div class="menu-block-wrapper menu-block-ctools-menu-menu-footer-menu-locations-1 menu-name-menu-menu-footer-menu-locations parent-mlid-0 menu-level-1">
+<ul class="menu nav nav-pills nav-stacked">
+<li class="first leaf menu-mlid-2259 menu-link-nw-portland"><a href="/locations/nw-portland-urgent-care" title="AFC Urgent Care NW Portland">NW Portland</a></li>
+<li class="leaf menu-mlid-2260 menu-link-ne-portland"><a href="/locations/ne-portland-urgent-care" title="AFC Urgent Care NE Portland">NE Portland</a></li>
+<li class="leaf menu-mlid-2261 menu-link-lake-oswego"><a href="/locations/lake-oswego-urgent-care" title="AFC Urgent Care Lake Oswego">Lake Oswego</a></li>
+<li class="leaf menu-mlid-2262 menu-link-beaverton"><a href="/locations/beaverton-urgent-care" title="AFC Urgent Care Beaverton">Beaverton</a></li>
+<li class="last leaf menu-mlid-2805 menu-link-oregon-city"><a href="/locations/oregoncity" title="">Oregon City</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-menu-tree pane-menu-menu-footer-menu-about col-xs-12 col-sm-6 col-md-3 col-lg-3">
+<h2 class="pane-title">
+                                                About </h2>
+<div class="pane-content">
+<div class="menu-block-wrapper menu-block-ctools-menu-menu-footer-menu-about-1 menu-name-menu-menu-footer-menu-about parent-mlid-0 menu-level-1">
+<ul class="menu nav nav-pills nav-stacked">
+<li class="first leaf menu-mlid-2619 menu-link-our-history"><a href="/history" title="AFC Urgent Care History">Our
+                                                            History</a></li>
+<li class="leaf menu-mlid-2612 menu-link-privacy-policy"><a href="/privacy-policy" title="AFC Portland Privacy Policy">Privacy Policy</a>
+</li>
+<li class="last leaf menu-mlid-2610 menu-link-contact-us"><a href="/contact-afc-urgent-care" title="Contact AFC Urgent Care Portland">Contact Us</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-menu-tree pane-menu-menu-footer-menu-resources col-xs-12 col-sm-6 col-md-3 col-lg-3">
+<h2 class="pane-title">
+                                                Resources </h2>
+<div class="pane-content">
+<div class="menu-block-wrapper menu-block-ctools-menu-menu-footer-menu-resources-1 menu-name-menu-menu-footer-menu-resources parent-mlid-0 menu-level-1">
+<ul class="menu nav nav-pills nav-stacked">
+<li class="first leaf menu-mlid-2615 menu-link-pay-your-bill"><a href="/pay-online" title="Pay Your Bill Online">Pay Your
+                                                            Bill</a></li>
+<li class="leaf menu-mlid-2613 menu-link-careers--employment"><a href="/careers" title="Careers &amp; Employment">Careers
+                                                            &amp; Employment</a></li>
+<li class="last leaf menu-mlid-2614 menu-link-news--articles"><a href="/news" title="AFC News &amp; Articles">News &amp;
+                                                            Articles</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-menu-tree pane-menu-menu-footer-menu-services col-xs-12 col-sm-6 col-md-3 col-lg-3">
+<h2 class="pane-title">
+                                                Additional Services </h2>
+<div class="pane-content">
+<div class="menu-block-wrapper menu-block-ctools-menu-menu-footer-menu-services-1 menu-name-menu-menu-footer-menu-services parent-mlid-0 menu-level-1">
+<ul class="menu nav nav-pills nav-stacked">
+<li class="first leaf menu-mlid-2617 menu-link-physician-services">
+<a href="/physician-services" title="Services for Physicians">Physician Services</a>
+</li>
+<li class="last leaf menu-mlid-2616 menu-link-employer-services">
+<a href="/services/occupational-medicine" title="Occ Med Services for Employers">Employer
+                                                                Services</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer--social">
+<ul class="social-links">
+<!--      <li><a id="facebook" href="https://www.facebook.com/AFCUrgentCarePortland/" target="_blank">Facebook</a></li>-->
+<!--      <li><a id="twitter" href="https://twitter.com/AFCpdx" target="_blank">Twitter</a></li>-->
+<!-- -->
+<!--      <li><a id="linkedin" href="https://www.linkedin.com/company/2099201" target="_blank">LinkedIn</a></li>-->
+<li><a class="social-icons social-icons--facebook" href="https://www.facebook.com/AFCUrgentCarePortland/" target="_blank">Facebook</a></li>
+<li><a class="social-icons social-icons--linkedin" href="https://twitter.com/AFCpdx" target="_blank">Twitter</a></li>
+<li><a class="social-icons social-icons--twitter" href="https://www.linkedin.com/company/2099201" target="_blank">LinkedIn</a></li>
+<li><a class="social-icons social-icons--instagram" href="https://www.instagram.com/afcpdx/" target="_blank">Instagram</a></li>
+</ul>
+</div>
+<span class="footer-copyright">Copyright © 2020 AFC Urgent Care Portland. All rights reserved.</span>
+</footer>
+<!--a class="schedule-cta hidden-md hidden-lg" >Virtual Doctor Visit</a -->
+<a class="schedule-cta hidden-md hidden-lg" href="/telemedicine">Virtual Doctor Visit</a>
+<!-- <script type="text/javascript" src="//cdn.callrail.com/companies/242373876/4efbd2efbff6783a5b4c/12/swap.js"></script> -->
+
+<noscript><img height="0" src="//bat.bing.com/action/0?ti=5439392&amp;Ver=2" style="display:none; visibility: hidden;" width="0"/></noscript>
+<!--[if lte IE 9]>
+<script type="text/javascript"
+        src="/sites/default/files/advagg_js/js__9Cx5V9kgfqBOBsVd7ynjlMqo7MQiW51n4JtwKGs0EXw__GFcMVwA_8zYqqv3dYigkNwJmJBQm6DAlc8htDu-dGw4__DrS1FY0tAdsEfJ-uNXuFqvKpG1oNUT8s3rXuBGUPGc0.js#ie9-"
+        onload="if(jQuery.isFunction(jQuery.holdReady)){jQuery.holdReady(true);}"></script>
+<![endif]-->
+<!--[if gt IE 9]>
+<script type="text/javascript"
+        src="/sites/default/files/advagg_js/js__9Cx5V9kgfqBOBsVd7ynjlMqo7MQiW51n4JtwKGs0EXw__GFcMVwA_8zYqqv3dYigkNwJmJBQm6DAlc8htDu-dGw4__DrS1FY0tAdsEfJ-uNXuFqvKpG1oNUT8s3rXuBGUPGc0.js#ie10+"
+        defer="defer" onload="if(jQuery.isFunction(jQuery.holdReady)){jQuery.holdReady(true);}"></script>
+<![endif]-->
+<!--[if !IE]><!-->
+
+<!--<![endif]-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div><div class="html not-front not-logged-in no-sidebars page-clinics region-content panel-layout-radix_boxton panel-region-contentmain">
+<div id="skip-link">
+<a class="element-invisible element-focusable" href="#main">Skip to main content</a>
+</div>
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+<iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-N6998TP" style="display:none;visibility:hidden" width="0"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<header class="header" id="header" role="banner">
+<div class="drxp--announcement-wrapper">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="drxp--announcement">Rapid Travel Testing is currently limited. Please be patient as more
+                        testing supplies arrive.
+                    </div>
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-md-5 col-lg-6">
+<a href="/" rel="home" title="Home">
+<img alt="Home" id="logo" src="https://afcurgentcareportland.com/sites/default/files/afc_logo_-_medium_res_1_0.png"/>
+</a>
+</div>
+<div class="col-md-7 col-lg-6">
+<div class="header--clinics">
+<div id="clinics-toggle">
+<h4>CLINICS</h4>
+</div>
+<div id="clinics">
+<div class="clinic" style="padding:4px;">
+<h5><a href="/locations/nw-portland-urgent-care">NW Portland</a></h5>
+<span style="font-size: 12px;">Mon-Fri: 8am-8pm</span><br/>
+<span style="font-size: 12px;">Sat-Sun: 9am-6pm</span>
+</div>
+<div class="clinic" style="padding:4px;">
+<h5><a href="/locations/ne-portland-urgent-care">NE Portland</a></h5>
+<span style="font-size: 12px;">Mon-Fri: 8am-8pm</span><br/>
+<span style="font-size: 12px;">Sat-Sun: 9am-6pm</span>
+</div>
+<div class="clinic" style="padding:4px;">
+<h5><a href="/locations/lake-oswego-urgent-care">Lake Oswego</a></h5>
+<span style="font-size: 12px;">Mon-Fri: 8am-8pm</span><br/>
+<span style="font-size: 12px;">Sat-Sun: 9am-6pm</span>
+</div>
+<div class="clinic" style="padding:4px;">
+<h5><a href="/locations/beaverton-urgent-care">Beaverton</a></h5>
+<span style="font-size: 12px;">Mon-Fri: 8am-8pm</span><br/>
+<span style="font-size: 12px;">Sat-Sun: 9am-6pm</span>
+</div>
+<div class="clinic" style="padding:4px;">
+<h5><a href="/locations/oregoncity">Oregon City</a></h5>
+<span style="font-size: 12px;">Mon-Fri: 8am-8pm</span><br/>
+<span style="font-size: 12px;">Sat-Sun: 9am-6pm</span>
+</div>
+</div>
+</div>
+<div class="header--info">
+<div class="header--careers-pay">
+<a href="/#cw-scheduler">Schedule Appointment</a>
+</div>
+<div class="header--phone">
+<a href="tel:+15033056262">(503) 305-6262</a>
+</div>
+</div>
+<div class="walk-in-wrapper">
+<!-- <div class="no-appointment">
+                     Telemedicine/Virtual Visit
+                    </div> -->
+<div class="walk-in-status">
+<!-- <span class="status">OPEN</span> -->
+<!-- WALK-IN <span class="status">< ?php //print $walk_in_status; ? ></span-->
+</div>
+</div>
+</div>
+</div>
+</div> <!-- /.container -->
+<div class="nav-wrapper">
+<div class="container">
+<!-- Brand and toggle get grouped for better mobile display -->
+<!-- /.navbar -->
+</div>
+</div>
+</header>
+<div id="main-wrapper">
+<div class="main" id="main">
+<div class="container">
+<div id="page-header">
+<div class="page-header">
+<h1 class="title">Locations</h1>
+</div>
+<ul class="action-links">
+</ul>
+</div>
+</div>
+<div class="container" id="content">
+<div class="region region-content">
+<div class="block block-system" id="block-system-main">
+<div class="content">
+<div class="panel-display boxton clearfix radix-boxton">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12 radix-layouts-content panel-panel">
+<div class="panel-panel-inner">
+<div class="panel-pane pane-views-panes pane-clinic-panel-pane-1">
+<div class="pane-content">
+<div class="view view-clinic view-id-clinic view-display-id-panel_pane_1 view-dom-id-fc1afb2bd2a38471c99b5c74a2864855">
+<div class="view-content">
+<div class="clearfix views-group">
+<div class="views-row views-row-1 views-row-odd views-row-first">
+<div class="node-clinic view-mode-teaser">
+<h2>
+<a href="/locations/oregoncity">Oregon City
+                                                                                Urgent Care</a>
+</h2>
+<div class="panel-flexible panels-flexible-new clearfix">
+<div class="panel-flexible-inside panels-flexible-new-inside">
+<div class="panels-flexible-region panels-flexible-region-new-center panels-flexible-region-first panels-flexible-region-last">
+<div class="inside panels-flexible-region-inside panels-flexible-region-new-center-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+<div class="panel-pane pane-entity-field pane-node-field-featured-image">
+<div class="pane-content">
+<div class="field field-name-field-featured-image field-type-image field-label-hidden">
+<a href="/locations/oregoncity"><img alt="Oregon City Urgent Care" height="2438" src="https://afc-web-production.s3-us-west-2.amazonaws.com/oc_sep_4_1.jpg" title="Oregon City Urgent Care" typeof="foaf:Image" width="4029"/></a>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-body">
+<div class="pane-content">
+<div class="field field-name-body field-type-text-with-summary field-label-hidden">
+<div class="field-items">
+<div class="field-item even" property="content:encoded">
+<h2>
+                                                                                                                Convenient
+                                                                                                                Care in
+                                                                                                                Oregon
+                                                                                                                City</h2>
+<p>AFC
+                                                                                                                Urgent
+                                                                                                                Care in
+                                                                                                                Oregon
+                                                                                                                City
+                                                                                                                offers
+                                                                                                                walk-in
+                                                                                                                urgent
+                                                                                                                care
+                                                                                                                open 7
+                                                                                                                days a
+                                                                                                                week and
+                                                                                                                is
+                                                                                                                operated
+                                                                                                                with
+                                                                                                                board-certified
+                                                                                                                providers
+                                                                                                                and
+                                                                                                                friendly
+                                                                                                                support
+                                                                                                                staff.
+                                                                                                                 Our
+                                                                                                                Oregon
+                                                                                                                City
+                                                                                                                medical
+                                                                                                                clinic
+                                                                                                                has a
+                                                                                                                comfortable
+                                                                                                                waiting
+                                                                                                                area and
+                                                                                                                is
+                                                                                                                always
+                                                                                                                accepting
+                                                                                                                new
+                                                                                                                patients.
+                                                                                                                Enjoy
+                                                                                                                our free
+                                                                                                                Wi-Fi
+                                                                                                                and
+                                                                                                                coffee
+                                                                                                                or tea
+                                                                                                                while
+                                                                                                                you wait
+                                                                                                                for your
+                                                                                                                loved
+                                                                                                                one.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-node-links link-wrapper">
+<div class="pane-content">
+<ul class="links inline">
+<li class="node-readmore first last">
+<a href="/locations/oregoncity" rel="tag" title="Oregon City Urgent Care">Read
+                                                                                                            more<span class="element-invisible"> about Oregon City Urgent Care</span></a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="views-row views-row-2 views-row-even">
+<div class="node-clinic view-mode-teaser">
+<h2>
+<a href="/locations/beaverton-urgent-care">Beaverton
+                                                                                Urgent Care </a>
+</h2>
+<div class="panel-flexible panels-flexible-new clearfix">
+<div class="panel-flexible-inside panels-flexible-new-inside">
+<div class="panels-flexible-region panels-flexible-region-new-center panels-flexible-region-first panels-flexible-region-last">
+<div class="inside panels-flexible-region-inside panels-flexible-region-new-center-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+<div class="panel-pane pane-entity-field pane-node-field-featured-image">
+<div class="pane-content">
+<div class="field field-name-field-featured-image field-type-image field-label-hidden">
+<a href="/locations/beaverton-urgent-care"><img alt="Beaverton AFC Urgent Care Clinic" height="275" src="https://afc-web-production.s3-us-west-2.amazonaws.com/afc-urgent-care-beaverton.jpg" title="AFC Urgent Care Beaverton" typeof="foaf:Image" width="300"/></a>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-body">
+<div class="pane-content">
+<div class="field field-name-body field-type-text-with-summary field-label-hidden">
+<div class="field-items">
+<div class="field-item even" property="content:encoded">
+<h2>Get the
+                                                                                                                care you
+                                                                                                                need
+                                                                                                                right
+                                                                                                                now.</h2>
+<p>Are you
+                                                                                                                in need
+                                                                                                                of
+                                                                                                                prompt
+                                                                                                                medical
+                                                                                                                care?
+                                                                                                                <span>AFC Urgent Care</span> in
+                                                                                                                Beaverton,
+                                                                                                                OR is
+                                                                                                                here to
+                                                                                                                provide
+                                                                                                                skilled
+                                                                                                                and
+                                                                                                                experienced
+                                                                                                                care.
+                                                                                                            </p>
+<p>If you’re
+                                                                                                                looking
+                                                                                                                for
+                                                                                                                a <strong>Beaverton
+                                                                                                                    urgent
+                                                                                                                    care
+                                                                                                                    center</strong>,
+                                                                                                                the
+                                                                                                                professionals
+                                                                                                                at
+                                                                                                                <span>AFC Urgent Care</span> of
+                                                                                                                Portland
+                                                                                                                are
+                                                                                                                ready to
+                                                                                                                see you.
+                                                                                                                You
+                                                                                                                don’t
+                                                                                                                need an
+                                                                                                                appointment;
+                                                                                                                you can
+                                                                                                                come in
+                                                                                                                and a
+                                                                                                                licensed
+                                                                                                                physician
+                                                                                                                will be
+                                                                                                                here to
+                                                                                                                treat
+                                                                                                                your
+                                                                                                                illness
+                                                                                                                or
+                                                                                                                injury.
+                                                                                                            </p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-node-links link-wrapper">
+<div class="pane-content">
+<ul class="links inline">
+<li class="node-readmore first last">
+<a href="/locations/beaverton-urgent-care" rel="tag" title="Beaverton Urgent Care ">Read
+                                                                                                            more<span class="element-invisible"> about Beaverton Urgent Care </span></a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="views-row views-row-3 views-row-odd">
+<div class="node-clinic view-mode-teaser">
+<h2>
+<a href="/locations/ne-portland-urgent-care">NE
+                                                                                Portland Urgent Care</a>
+</h2>
+<div class="panel-flexible panels-flexible-new clearfix">
+<div class="panel-flexible-inside panels-flexible-new-inside">
+<div class="panels-flexible-region panels-flexible-region-new-center panels-flexible-region-first panels-flexible-region-last">
+<div class="inside panels-flexible-region-inside panels-flexible-region-new-center-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+<div class="panel-pane pane-entity-field pane-node-field-featured-image">
+<div class="pane-content">
+<div class="field field-name-field-featured-image field-type-image field-label-hidden">
+<a href="/locations/ne-portland-urgent-care"><img alt="NE Portland AFC Urgent Care Clinic" height="275" src="https://afc-web-production.s3-us-west-2.amazonaws.com/afc-urgent-care-ne-portland.jpg" title="AFC Urgent Care NE Portland" typeof="foaf:Image" width="300"/></a>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-body">
+<div class="pane-content">
+<div class="field field-name-body field-type-text-with-summary field-label-hidden">
+<div class="field-items">
+<div class="field-item even" property="content:encoded">
+<h2>Walk-in
+                                                                                                                Friendly
+                                                                                                                Medical
+                                                                                                                Clinic</h2>
+<p>At AFC
+                                                                                                                Urgent
+                                                                                                                Care -
+                                                                                                                NE
+                                                                                                                Portland,
+                                                                                                                we're
+                                                                                                                open 7
+                                                                                                                days a
+                                                                                                                week
+                                                                                                                with
+                                                                                                                extended
+                                                                                                                hours.
+                                                                                                                 We
+                                                                                                                offer a
+                                                                                                                variety
+                                                                                                                of
+                                                                                                                services,
+                                                                                                                including
+                                                                                                                urgent
+                                                                                                                care,
+                                                                                                                quick
+                                                                                                                visits,
+                                                                                                                travel
+                                                                                                                medicine
+                                                                                                                as well
+                                                                                                                as
+                                                                                                                employer
+                                                                                                                and
+                                                                                                                physician
+                                                                                                                services.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-node-links link-wrapper">
+<div class="pane-content">
+<ul class="links inline">
+<li class="node-readmore first last">
+<a href="/locations/ne-portland-urgent-care" rel="tag" title="NE Portland Urgent Care">Read
+                                                                                                            more<span class="element-invisible"> about NE Portland Urgent Care</span></a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="views-row views-row-4 views-row-even">
+<div class="node-clinic view-mode-teaser">
+<h2>
+<a href="/locations/nw-portland-urgent-care">NW
+                                                                                Portland Urgent Care</a>
+</h2>
+<div class="panel-flexible panels-flexible-new clearfix">
+<div class="panel-flexible-inside panels-flexible-new-inside">
+<div class="panels-flexible-region panels-flexible-region-new-center panels-flexible-region-first panels-flexible-region-last">
+<div class="inside panels-flexible-region-inside panels-flexible-region-new-center-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+<div class="panel-pane pane-entity-field pane-node-field-featured-image">
+<div class="pane-content">
+<div class="field field-name-field-featured-image field-type-image field-label-hidden">
+<a href="/locations/nw-portland-urgent-care"><img alt="NW Portland AFC Urgent Care Clinic" height="275" src="https://afc-web-production.s3-us-west-2.amazonaws.com/afc-urgent-care-nw-portland.jpg" title="AFC Urgent Care NW Portland" typeof="foaf:Image" width="300"/></a>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-body">
+<div class="pane-content">
+<div class="field field-name-body field-type-text-with-summary field-label-hidden">
+<div class="field-items">
+<div class="field-item even" property="content:encoded">
+<h2>Care and
+                                                                                                                Convenience</h2>
+<p></p>
+<p>Our NW
+                                                                                                                Portland
+                                                                                                                urgent
+                                                                                                                care
+                                                                                                                clinic
+                                                                                                                is
+                                                                                                                conveniently
+                                                                                                                located
+                                                                                                                in the
+                                                                                                                Uptown
+                                                                                                                Shopping
+                                                                                                                Center
+                                                                                                                near NW
+                                                                                                                23rd
+                                                                                                                Place
+                                                                                                                and
+                                                                                                                Burnside.
+                                                                                                                 This
+                                                                                                                medical
+                                                                                                                clinic
+                                                                                                                is
+                                                                                                                conveniently
+                                                                                                                open
+                                                                                                                seven
+                                                                                                                days a
+                                                                                                                week to
+                                                                                                                provide
+                                                                                                                treatment
+                                                                                                                for your
+                                                                                                                healthcare
+                                                                                                                needs.
+                                                                                                                 </p>
+<p>We
+                                                                                                                provide
+                                                                                                                two
+                                                                                                                options
+                                                                                                                to be
+                                                                                                                seen. 
+                                                                                                                Simply
+                                                                                                                walk in
+                                                                                                                when you
+                                                                                                                need,
+                                                                                                                and be
+                                                                                                                seen in
+                                                                                                                just a
+                                                                                                                few
+                                                                                                                minutes. 
+                                                                                                                Or set
+                                                                                                                an
+                                                                                                                appointment
+                                                                                                                online
+                                                                                                                to fit
+                                                                                                                your
+                                                                                                                busy
+                                                                                                                schedule. 
+                                                                                                                Our
+                                                                                                                system
+                                                                                                                even
+                                                                                                                allows
+                                                                                                                you to
+                                                                                                                preregister
+                                                                                                                to save
+                                                                                                                you the
+                                                                                                                paperwork
+                                                                                                                while
+                                                                                                                you’re
+                                                                                                                in the
+                                                                                                                waiting
+                                                                                                                room.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-node-links link-wrapper">
+<div class="pane-content">
+<ul class="links inline">
+<li class="node-readmore first last">
+<a href="/locations/nw-portland-urgent-care" rel="tag" title="NW Portland Urgent Care">Read
+                                                                                                            more<span class="element-invisible"> about NW Portland Urgent Care</span></a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="views-row views-row-5 views-row-odd views-row-last">
+<div class="node-clinic view-mode-teaser">
+<h2>
+<a href="/locations/lake-oswego-urgent-care">Lake
+                                                                                Oswego Urgent Care</a>
+</h2>
+<div class="panel-flexible panels-flexible-new clearfix">
+<div class="panel-flexible-inside panels-flexible-new-inside">
+<div class="panels-flexible-region panels-flexible-region-new-center panels-flexible-region-first panels-flexible-region-last">
+<div class="inside panels-flexible-region-inside panels-flexible-region-new-center-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+<div class="panel-pane pane-entity-field pane-node-field-featured-image">
+<div class="pane-content">
+<div class="field field-name-field-featured-image field-type-image field-label-hidden">
+<a href="/locations/lake-oswego-urgent-care"><img alt="Lake Oswego AFC Urgent Care Clinic" height="248" src="https://afc-web-production.s3-us-west-2.amazonaws.com/afc-urgent-care-lake-oswego.jpg" title="AFC Urgent Care Lake Oswego" typeof="foaf:Image" width="300"/></a>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-body">
+<div class="pane-content">
+<div class="field field-name-body field-type-text-with-summary field-label-hidden">
+<div class="field-items">
+<div class="field-item even" property="content:encoded">
+<h2>
+                                                                                                                Convenient
+                                                                                                                Care in
+                                                                                                                Lake
+                                                                                                                Oswego</h2>
+<p>AFC
+                                                                                                                Urgent
+                                                                                                                Care in
+                                                                                                                Lake
+                                                                                                                Oswego
+                                                                                                                offers
+                                                                                                                walk-in
+                                                                                                                urgent
+                                                                                                                care
+                                                                                                                open 7
+                                                                                                                days a
+                                                                                                                week and
+                                                                                                                is
+                                                                                                                operated
+                                                                                                                with
+                                                                                                                board
+                                                                                                                certified
+                                                                                                                providers
+                                                                                                                and
+                                                                                                                friendly
+                                                                                                                support
+                                                                                                                staff.
+                                                                                                                 Our
+                                                                                                                Lake
+                                                                                                                Oswego
+                                                                                                                medical
+                                                                                                                clinic
+                                                                                                                has a
+                                                                                                                comfortable
+                                                                                                                waiting
+                                                                                                                area and
+                                                                                                                is
+                                                                                                                always
+                                                                                                                accepting
+                                                                                                                new
+                                                                                                                patients.
+                                                                                                                Enjoy
+                                                                                                                our free
+                                                                                                                Wi-Fi
+                                                                                                                and
+                                                                                                                coffee
+                                                                                                                or tea
+                                                                                                                while
+                                                                                                                you wait
+                                                                                                                for your
+                                                                                                                loved
+                                                                                                                one.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-node-links link-wrapper">
+<div class="pane-content">
+<ul class="links inline">
+<li class="node-readmore first last">
+<a href="/locations/lake-oswego-urgent-care" rel="tag" title="Lake Oswego Urgent Care">Read
+                                                                                                            more<span class="element-invisible"> about Lake Oswego Urgent Care</span></a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><!-- /.boxton -->
+</div>
+</div>
+</div>
+</div>
+</div> <!-- /#main -->
+</div> <!-- /#main-wrapper -->
+<footer class="footer" id="footer">
+<div class="region region-footer">
+<div class="block block-panels-mini" id="block-panels-mini-footer">
+<div class="content">
+<div class="panel-display drxp-footer clearfix drxp-footer" id="mini-panel-footer">
+<div class="row4">
+<div class="container">
+<div class="row">
+<div class="col-md-12 radix-layouts-row1 panel-panel">
+<div class="panel-panel-inner">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row1">
+<div class="container">
+<div class="row">
+<div class="col-md-12 radix-layouts-row1 panel-panel">
+<div class="panel-panel-inner">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row2">
+<div class="container">
+<div class="row">
+<div class="col-md-12 radix-layouts-row2 panel-panel">
+<div class="panel-panel-inner">
+<div class="panel-pane pane-node">
+<h2 class="pane-title">
+                                                NW Portland Urgent Care </h2>
+<div class="pane-content">
+<div class="node-clinic view-mode-footer">
+<div class="panel-display boxton clearfix radix-boxton">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12 radix-layouts-content panel-panel">
+<div class="panel-panel-inner">
+<div class="panel-pane pane-entity-field pane-node-field-address">
+<div class="pane-content">
+<div class="field field-name-field-address field-type-addressfield field-label-hidden">
+<div class="street-block">
+<div class="thoroughfare">25 NW
+                                                                                            23rd Place
+                                                                                        </div>
+</div>
+<div class="addressfield-container-inline locality-block country-US">
+<span class="locality">Portland</span>,
+                                                                                        <span class="state">OR</span>
+<span class="postal-code">97210</span>
+</div>
+<span class="country">United States</span>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-yelp-link">
+<div class="pane-content">
+<div class="field field-name-field-yelp-link field-type-link-field field-label-hidden">
+<a class="fa fa-yelp" href="http://www.yelp.com/biz/afc-urgent-care-portland" target="_blank">Yelp</a></div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-facebook-link">
+<div class="pane-content">
+<div class="field field-name-field-facebook-link field-type-link-field field-label-hidden">
+<a class="fa fa-facebook-official" href="https://www.facebook.com/afcnwportland/" rel="nofollow" target="_blank">Facebook</a>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-google-link">
+<div class="pane-content">
+<div class="field field-name-field-google-link field-type-link-field field-label-hidden">
+<a class="fa fa-map-marker" href="https://goo.gl/maps/jRuZZnVSRqbazrBV9" rel="nofollow" target="_blank">Google
+                                                                                        Maps</a></div>
+</div>
+</div>
+<div class="panel-pane pane-custom pane-1">
+<div class="pane-content">
+<p style="margin-top:10px"><span>8-8 Mon-Fri | 9-6 Sat/Sun</span>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><!-- /.boxton -->
+</div>
+</div>
+</div>
+<div class="panel-pane pane-node">
+<h2 class="pane-title">
+                                                NE Portland Urgent Care </h2>
+<div class="pane-content">
+<div class="node-clinic view-mode-footer">
+<div class="panel-display boxton clearfix radix-boxton">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12 radix-layouts-content panel-panel">
+<div class="panel-panel-inner">
+<div class="panel-pane pane-entity-field pane-node-field-address">
+<div class="pane-content">
+<div class="field field-name-field-address field-type-addressfield field-label-hidden">
+<div class="street-block">
+<div class="thoroughfare">7033
+                                                                                            NE Sandy Blvd
+                                                                                        </div>
+</div>
+<div class="addressfield-container-inline locality-block country-US">
+<span class="locality">Portland</span>,
+                                                                                        <span class="state">OR</span>
+<span class="postal-code">97213</span>
+</div>
+<span class="country">United States</span>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-yelp-link">
+<div class="pane-content">
+<div class="field field-name-field-yelp-link field-type-link-field field-label-hidden">
+<a class="fa fa-yelp" href="http://www.yelp.com/biz/afc-urgent-care-portland-2" target="_blank">Yelp</a></div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-facebook-link">
+<div class="pane-content">
+<div class="field field-name-field-facebook-link field-type-link-field field-label-hidden">
+<a class="fa fa-facebook-official" href="https://www.facebook.com/afcneportland/" rel="nofollow" target="_blank">Facebook</a>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-google-link">
+<div class="pane-content">
+<div class="field field-name-field-google-link field-type-link-field field-label-hidden">
+<a class="fa fa-map-marker" href="https://goo.gl/maps/J1AMEQoPSZFVttMW9" rel="nofollow" target="_blank">Google
+                                                                                        Maps</a></div>
+</div>
+</div>
+<div class="panel-pane pane-custom pane-2">
+<div class="pane-content">
+<p style="margin-top:10px"><span>8-8 Mon-Fri | 9-6 Sat/Sun</span>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><!-- /.boxton -->
+</div>
+</div>
+</div>
+<div class="panel-pane pane-node">
+<h2 class="pane-title">
+                                                Lake Oswego Urgent Care </h2>
+<div class="pane-content">
+<div class="node-clinic view-mode-footer">
+<div class="panel-display boxton clearfix radix-boxton">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12 radix-layouts-content panel-panel">
+<div class="panel-panel-inner">
+<div class="panel-pane pane-entity-field pane-node-field-address">
+<div class="pane-content">
+<div class="field field-name-field-address field-type-addressfield field-label-hidden">
+<div class="street-block">
+<div class="thoroughfare">17437
+                                                                                            Boones Ferry Rd
+                                                                                        </div>
+</div>
+<div class="addressfield-container-inline locality-block country-US">
+<span class="locality">Lake Oswego</span>,
+                                                                                        <span class="state">OR</span>
+<span class="postal-code">97035</span>
+</div>
+<span class="country">United States</span>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-yelp-link">
+<div class="pane-content">
+<div class="field field-name-field-yelp-link field-type-link-field field-label-hidden">
+<a class="fa fa-yelp" href="http://www.yelp.com/biz/afc-urgent-care-lake-oswego" target="_blank">Yelp</a></div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-facebook-link">
+<div class="pane-content">
+<div class="field field-name-field-facebook-link field-type-link-field field-label-hidden">
+<a class="fa fa-facebook-official" href="https://www.facebook.com/afclakeoswego/" rel="nofollow" target="_blank">Facebook</a>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-google-link">
+<div class="pane-content">
+<div class="field field-name-field-google-link field-type-link-field field-label-hidden">
+<a class="fa fa-map-marker" href="https://goo.gl/maps/Fn9KJMHrYZg7tkaD7" rel="nofollow" target="_blank">Google
+                                                                                        Maps</a></div>
+</div>
+</div>
+<div class="panel-pane pane-custom pane-3">
+<div class="pane-content">
+<p style="margin-top:10px"><span>8-8 Mon-Fri | 9-6 Sat/Sun</span>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><!-- /.boxton -->
+</div>
+</div>
+</div>
+<div class="panel-pane pane-node">
+<h2 class="pane-title">
+                                                Beaverton Urgent Care </h2>
+<div class="pane-content">
+<div class="node-clinic view-mode-footer">
+<div class="panel-display boxton clearfix radix-boxton">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12 radix-layouts-content panel-panel">
+<div class="panel-panel-inner">
+<div class="panel-pane pane-entity-field pane-node-field-address">
+<div class="pane-content">
+<div class="field field-name-field-address field-type-addressfield field-label-hidden">
+<div class="street-block">
+<div class="thoroughfare">14278
+                                                                                            SW Allen Blvd
+                                                                                        </div>
+</div>
+<div class="addressfield-container-inline locality-block country-US">
+<span class="locality">Beaverton</span>,
+                                                                                        <span class="state">OR</span>
+<span class="postal-code">97005</span>
+</div>
+<span class="country">United States</span>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-yelp-link">
+<div class="pane-content">
+<div class="field field-name-field-yelp-link field-type-link-field field-label-hidden">
+<a class="fa fa-yelp" href="http://www.yelp.com/biz/afc-urgent-care-beaverton-beaverton" target="_blank">Yelp</a></div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-facebook-link">
+<div class="pane-content">
+<div class="field field-name-field-facebook-link field-type-link-field field-label-hidden">
+<a class="fa fa-facebook-official" href="https://www.facebook.com/afcbeaverton/" rel="nofollow" target="_blank">Facebook</a>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-google-link">
+<div class="pane-content">
+<div class="field field-name-field-google-link field-type-link-field field-label-hidden">
+<a class="fa fa-map-marker" href="https://goo.gl/maps/QW2HWRFUh5NULBcT8" rel="nofollow" target="_blank">Google
+                                                                                        Maps</a></div>
+</div>
+</div>
+<div class="panel-pane pane-custom pane-4">
+<div class="pane-content">
+<p style="margin-top:10px"><span>8-8 Mon-Fri | 9-6 Sat/Sun</span>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><!-- /.boxton -->
+</div>
+</div>
+</div>
+<div class="panel-pane pane-node">
+<h2 class="pane-title">
+                                                Oregon City Urgent Care </h2>
+<div class="pane-content">
+<div class="node-clinic view-mode-footer">
+<div class="panel-display boxton clearfix radix-boxton">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12 radix-layouts-content panel-panel">
+<div class="panel-panel-inner">
+<div class="panel-pane pane-entity-field pane-node-field-address">
+<div class="pane-content">
+<div class="field field-name-field-address field-type-addressfield field-label-hidden">
+<div class="street-block">
+<div class="thoroughfare">397
+                                                                                            Warner Milne Rd
+                                                                                        </div>
+</div>
+<div class="addressfield-container-inline locality-block country-US">
+<span class="locality">Oregon City</span>,
+                                                                                        <span class="state">OR</span>
+<span class="postal-code">97045</span>
+</div>
+<span class="country">United States</span>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-yelp-link">
+<div class="pane-content">
+<div class="field field-name-field-yelp-link field-type-link-field field-label-hidden">
+<a class="fa fa-yelp" href="https://www.yelp.com/biz/afc-urgent-care-oregon-city-oregon-city?osq=AFC%20urgent%20care%20oregon%20city" target="_blank">Yelp</a></div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-facebook-link">
+<div class="pane-content">
+<div class="field field-name-field-facebook-link field-type-link-field field-label-hidden">
+<a class="fa fa-facebook-official" href="https://www.facebook.com/AFC-Urgent-Care-Oregon-City-476017396487983/" rel="nofollow" target="_blank">Facebook</a>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-entity-field pane-node-field-google-link">
+<div class="pane-content">
+<div class="field field-name-field-google-link field-type-link-field field-label-hidden">
+<a class="fa fa-map-marker" href="https://www.google.com/maps/place/AFC+Urgent+Care+Oregon+City/@45.3368281,-122.593423,17z/data=!3m1!4b1!4m5!3m4!1s0x54957117bf7c8fc3:0xb6e85d9774b6788b!8m2!3d45.3368243!4d-122.5912397" rel="nofollow" target="_blank">Google
+                                                                                        Maps</a></div>
+</div>
+</div>
+<div class="panel-pane pane-custom pane-5">
+<div class="pane-content">
+<p style="margin-top:10px"><span>8-8 Mon-Fri | 9-6 Sat/Sun</span>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><!-- /.boxton -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row3">
+<div class="container">
+<div class="row">
+<div class="col-md-12 radix-layouts-row3 panel-panel">
+<div class="panel-panel-inner">
+<div class="panel-pane pane-menu-tree pane-menu-menu-footer-menu-locations col-xs-12 col-sm-6 col-md-3 col-lg-3">
+<h2 class="pane-title">
+                                                Locations </h2>
+<div class="pane-content">
+<div class="menu-block-wrapper menu-block-ctools-menu-menu-footer-menu-locations-1 menu-name-menu-menu-footer-menu-locations parent-mlid-0 menu-level-1">
+<ul class="menu nav nav-pills nav-stacked">
+<li class="first leaf menu-mlid-2259 menu-link-nw-portland"><a href="/locations/nw-portland-urgent-care" title="AFC Urgent Care NW Portland">NW Portland</a></li>
+<li class="leaf menu-mlid-2260 menu-link-ne-portland"><a href="/locations/ne-portland-urgent-care" title="AFC Urgent Care NE Portland">NE Portland</a></li>
+<li class="leaf menu-mlid-2261 menu-link-lake-oswego"><a href="/locations/lake-oswego-urgent-care" title="AFC Urgent Care Lake Oswego">Lake Oswego</a></li>
+<li class="leaf menu-mlid-2262 menu-link-beaverton"><a href="/locations/beaverton-urgent-care" title="AFC Urgent Care Beaverton">Beaverton</a></li>
+<li class="last leaf menu-mlid-2805 menu-link-oregon-city"><a href="/locations/oregoncity" title="">Oregon City</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-menu-tree pane-menu-menu-footer-menu-about col-xs-12 col-sm-6 col-md-3 col-lg-3">
+<h2 class="pane-title">
+                                                About </h2>
+<div class="pane-content">
+<div class="menu-block-wrapper menu-block-ctools-menu-menu-footer-menu-about-1 menu-name-menu-menu-footer-menu-about parent-mlid-0 menu-level-1">
+<ul class="menu nav nav-pills nav-stacked">
+<li class="first leaf menu-mlid-2619 menu-link-our-history"><a href="/history" title="AFC Urgent Care History">Our
+                                                            History</a></li>
+<li class="leaf menu-mlid-2612 menu-link-privacy-policy"><a href="/privacy-policy" title="AFC Portland Privacy Policy">Privacy Policy</a>
+</li>
+<li class="last leaf menu-mlid-2610 menu-link-contact-us"><a href="/contact-afc-urgent-care" title="Contact AFC Urgent Care Portland">Contact Us</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-menu-tree pane-menu-menu-footer-menu-resources col-xs-12 col-sm-6 col-md-3 col-lg-3">
+<h2 class="pane-title">
+                                                Resources </h2>
+<div class="pane-content">
+<div class="menu-block-wrapper menu-block-ctools-menu-menu-footer-menu-resources-1 menu-name-menu-menu-footer-menu-resources parent-mlid-0 menu-level-1">
+<ul class="menu nav nav-pills nav-stacked">
+<li class="first leaf menu-mlid-2615 menu-link-pay-your-bill"><a href="/pay-online" title="Pay Your Bill Online">Pay Your
+                                                            Bill</a></li>
+<li class="leaf menu-mlid-2613 menu-link-careers--employment"><a href="/careers" title="Careers &amp; Employment">Careers
+                                                            &amp; Employment</a></li>
+<li class="last leaf menu-mlid-2614 menu-link-news--articles"><a href="/news" title="AFC News &amp; Articles">News &amp;
+                                                            Articles</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="panel-pane pane-menu-tree pane-menu-menu-footer-menu-services col-xs-12 col-sm-6 col-md-3 col-lg-3">
+<h2 class="pane-title">
+                                                Additional Services </h2>
+<div class="pane-content">
+<div class="menu-block-wrapper menu-block-ctools-menu-menu-footer-menu-services-1 menu-name-menu-menu-footer-menu-services parent-mlid-0 menu-level-1">
+<ul class="menu nav nav-pills nav-stacked">
+<li class="first leaf menu-mlid-2617 menu-link-physician-services">
+<a href="/physician-services" title="Services for Physicians">Physician Services</a>
+</li>
+<li class="last leaf menu-mlid-2616 menu-link-employer-services">
+<a href="/services/occupational-medicine" title="Occ Med Services for Employers">Employer
+                                                                Services</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer--social">
+<ul class="social-links">
+<!--      <li><a id="facebook" href="https://www.facebook.com/AFCUrgentCarePortland/" target="_blank">Facebook</a></li>-->
+<!--      <li><a id="twitter" href="https://twitter.com/AFCpdx" target="_blank">Twitter</a></li>-->
+<!-- -->
+<!--      <li><a id="linkedin" href="https://www.linkedin.com/company/2099201" target="_blank">LinkedIn</a></li>-->
+<li><a class="social-icons social-icons--facebook" href="https://www.facebook.com/AFCUrgentCarePortland/" target="_blank">Facebook</a></li>
+<li><a class="social-icons social-icons--linkedin" href="https://twitter.com/AFCpdx" target="_blank">Twitter</a></li>
+<li><a class="social-icons social-icons--twitter" href="https://www.linkedin.com/company/2099201" target="_blank">LinkedIn</a></li>
+<li><a class="social-icons social-icons--instagram" href="https://www.instagram.com/afcpdx/" target="_blank">Instagram</a></li>
+</ul>
+</div>
+<span class="footer-copyright">Copyright © 2020 AFC Urgent Care Portland. All rights reserved.</span>
+</footer>
+<!--a class="schedule-cta hidden-md hidden-lg" >Virtual Doctor Visit</a -->
+<a class="schedule-cta hidden-md hidden-lg" href="/telemedicine">Virtual Doctor Visit</a>
+<!-- <script type="text/javascript" src="//cdn.callrail.com/companies/242373876/4efbd2efbff6783a5b4c/12/swap.js"></script> -->
+
+<noscript><img height="0" src="//bat.bing.com/action/0?ti=5439392&amp;Ver=2" style="display:none; visibility: hidden;" width="0"/></noscript>
+<!--[if lte IE 9]>
+<script type="text/javascript"
+        src="/sites/default/files/advagg_js/js__9Cx5V9kgfqBOBsVd7ynjlMqo7MQiW51n4JtwKGs0EXw__GFcMVwA_8zYqqv3dYigkNwJmJBQm6DAlc8htDu-dGw4__DrS1FY0tAdsEfJ-uNXuFqvKpG1oNUT8s3rXuBGUPGc0.js#ie9-"
+        onload="if(jQuery.isFunction(jQuery.holdReady)){jQuery.holdReady(true);}"></script>
+<![endif]-->
+<!--[if gt IE 9]>
+<script type="text/javascript"
+        src="/sites/default/files/advagg_js/js__9Cx5V9kgfqBOBsVd7ynjlMqo7MQiW51n4JtwKGs0EXw__GFcMVwA_8zYqqv3dYigkNwJmJBQm6DAlc8htDu-dGw4__DrS1FY0tAdsEfJ-uNXuFqvKpG1oNUT8s3rXuBGUPGc0.js#ie10+"
+        defer="defer" onload="if(jQuery.isFunction(jQuery.holdReady)){jQuery.holdReady(true);}"></script>
+<![endif]-->
+<!--[if !IE]><!-->
+
+<!--<![endif]-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div></body>
+</html>

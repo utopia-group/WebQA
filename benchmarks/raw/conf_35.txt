@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+<meta content="" name="description"/>
+<meta content="" name="author"/>
+<link href="/assets/images/favicon.ico" rel="shortcut icon"/>
+<link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+<link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|Roboto:400,400i,500,500i,700,700i,900,900i" rel="stylesheet"/>
+<link href="/assets/css/styles.css" rel="stylesheet"/>
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>COLING’2020 | The 28th International Conference on Computational Linguistics in Barcelona (COLING’2020)</title>
+<meta content="Jekyll v3.8.5" name="generator"/>
+<meta content="COLING’2020" property="og:title"/>
+<meta content="en_US" property="og:locale"/>
+<meta content="The 28th International Conference on Computational Linguistics in Barcelona (COLING’2020)" name="description"/>
+<meta content="The 28th International Conference on Computational Linguistics in Barcelona (COLING’2020)" property="og:description"/>
+<link href="https://coling2020.org/" rel="canonical"/>
+<meta content="https://coling2020.org/" property="og:url"/>
+<meta content="COLING’2020" property="og:site_name"/>
+<meta content="summary" name="twitter:card"/>
+<meta content="COLING’2020" property="twitter:title"/>
+<meta content="@coling2020" name="twitter:site"/>
+<script type="application/ld+json">
+{"sameAs":["https://twitter.com/coling2020"],"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://coling2020.org/assets/images/coling2020.png"}},"@type":"WebSite","url":"https://coling2020.org/","name":"COLING’2020","headline":"COLING’2020","description":"The 28th International Conference on Computational Linguistics in Barcelona (COLING’2020)","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+</head>
+<body><!-- Navigation -->
+<nav class="navbar navbar-expand-xl navbar-dark bg-dark fixed-top" id="mainNav">
+<div class="container">
+<a class="navbar-brand js-scroll-trigger" href="/">
+<img id="logo" src="/assets/images/coling2020_white.png"/>
+</a>
+<button aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarResponsive" data-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarResponsive">
+<ul class="navbar-nav ml-auto">
+<li class="nav-item dropdown">
+<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle home_link" data-toggle="dropdown" href="#" role="button">Home</a>
+<div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+<a class="dropdown-item js-scroll-trigger home_section" href="/">Welcome</a>
+<a class="dropdown-item js-scroll-trigger home_section" href="/#follow_us">Follow us</a>
+<a class="dropdown-item js-scroll-trigger home_section" href="/#important_dates">Important dates</a>
+<a class="dropdown-item js-scroll-trigger home_section" href="/#news">News</a>
+<a class="dropdown-item js-scroll-trigger home_section" href="/#faq">FAQ</a>
+<a class="dropdown-item js-scroll-trigger home_section" href="/#location">Location</a>
+<a class="dropdown-item js-scroll-trigger home_section" href="/#anti_harassment">Anti-harassment policy</a>
+</div>
+</li>
+<li class="nav-item dropdown">
+<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button">Calls</a>
+<div class="dropdown-menu">
+<a class="dropdown-item" href="/pages/call_for_papers">Call for Papers</a>
+<a class="dropdown-item" href="/pages/call_for_demos">Call for System Demonstrations</a>
+<!--<a class="dropdown-item" href="/pages/call_for_tutorials">Call for Tutorials</a>-->
+<!--<a class="dropdown-item" href="/pages/call_for_workshops">Call for Workshops</a>-->
+<a class="dropdown-item" href="/pages/call_for_sponsors">Call for Sponsors</a>
+<a class="dropdown-item" href="/pages/industry_track">Call for Industry Track</a>
+<div class="dropdown-divider"></div>
+<a class="dropdown-item" href="/pages/submission">Submission</a>
+</div>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/pages/workshops">Workshops</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/pages/tutorials">Tutorials</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/pages/proceedings">Proceedings</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/pages/registration">Registration</a>
+</li>
+<li class="nav-item dropdown">
+<!--                    <a class="nav-link" href="/pages/programme">Programme</a>-->
+<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button">Programme</a>
+<div class="dropdown-menu">
+<a class="dropdown-item" href="/pages/programme">Main programme</a>
+<a class="dropdown-item" href="/pages/invited-speakers">Invited Speakers</a>
+<!--                        <a class="dropdown-item" href="/pages/demos">Demos</a>-->
+<!--                        <a class="dropdown-item" href="/pages/tutorials">Tutorials</a>-->
+<!--                        <a class="dropdown-item" href="/pages/workshops">Workshops</a>-->
+</div>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/pages/news">News</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/pages/sponsors">Sponsors</a>
+</li>
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link" href="/pages/organization">Organization</a>-->
+<!--                </li>-->
+<li class="nav-item dropdown">
+<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button">Committees</a>
+<div class="dropdown-menu">
+<a class="dropdown-item" href="/pages/organization">Organizing Committee</a>
+<a class="dropdown-item" href="/pages/program-committee">Program Committee</a>
+</div>
+</li>
+<li class="nav-item dropdown">
+<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button">Information</a>
+<div class="dropdown-menu">
+<a class="dropdown-item" href="/pages/bcn"><i class="fas fa-city"></i> Barcelona</a>
+<a class="dropdown-item" href="/pages/hotels"><i class="fas fa-h-square"></i> Accommodation</a>
+<a class="dropdown-item" href="/pages/transportation"><i class="fas fa-bus-alt"></i> Local transportation</a>
+<div class="dropdown-divider"></div>
+<a class="dropdown-item" href="/pages/lifestyle"><i class="fas fa-coffee"></i> Lifestyle</a>
+<div class="dropdown-divider"></div>
+<a class="dropdown-item" href="/pages/anti_harassment_policy">Anti-Harassment Policy</a>
+<div class="dropdown-divider"></div>
+<a class="dropdown-item" href="https://twitter.com/coling2020" target="_blank"><i class="fab fa-twitter-square"></i> @coling2020</a>
+<a class="dropdown-item" href="#"><i class="fab fa-google-play"></i> Google Play (soon)</a>
+<a class="dropdown-item" href="#"><i class="fab fa-app-store-ios"></i> App Store (soon)</a>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</nav><section class="home_top_section banner top_banner banner_carousel">
+<div class="carousel slide" data-ride="carousel" id="carousel_banner">
+<div class="carousel-inner">
+<div class="carousel-item item1 active">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="transparent_banner">
+<h3><i class="fas fa-exclamation-triangle"></i> COLING’2020 and COVID-19: postponement announcement <i class="fas fa-exclamation-triangle"></i></h3>
+<p class="font-weight-bold">In response to the worsening global coronavirus pandemic, and our wish to keep COLING’2020 as an ‘in person' conference in Barcelona, we announce that COLING’2020  is now postponed to December. <span class="highlighted">The new dates are now 8-13th December</span>, with the main conference on the 8-11th and the workshops and tutorials to follow on the 12-13th. We have decided to <span class="highlighted">extend the deadline to July 1st</span>.</p>
+<p><a href="/2020/03/30/covid-19.html"><button class="btn btn-primary" type="button">Read full statement</button></a></p>
+<p class="font-weight-bold">The COLING’2020 organisers<br/>30th March 2020</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--<div class="carousel-item item1 active">-->
+<!--<div class="container">-->
+<!--<div class="row">-->
+<!--<div class="col-md-12">-->
+<!--<div class="transparent_banner">-->
+<!--<h1>COLING 202020</h1>-->
+<!--<h2>September 13-18, 2020, Barcelona</h2>-->
+<!--<div class="countdown" data-date="2020-09-13"></div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="carousel-item item2">-->
+<!--<div class="container">-->
+<!--<div class="row">-->
+<!--<div class="col-md-12">-->
+<!--<div class="transparent_banner">-->
+<!--<div class="container">-->
+<!--<div class="row">-->
+<!--<div class="col-sm-6">-->
+<!--<h1>The conference</h1><br/>-->
+<!--</div>-->
+<!--<div class="col-sm-6">-->
+<!--<br/><br/><br/>-->
+<!--<ul class="color_list">-->
+<!--<li><b>Workshops and tutorials</b>: September 13-14, 2020</li>-->
+<!--<li><b>Main conference</b>: September 15-18, 2020</li>-->
+<!--<li><b>Excursion</b>: September 16, 2020</li>-->
+<!--<li><b>Banquet</b>: September 17, 2020</li>-->
+<!--</ul>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="carousel-item item3">-->
+<!--<div class="container">-->
+<!--<div class="row">-->
+<!--<div class="col-md-12">-->
+<!--<div class="transparent_banner">-->
+<!--<h1>Barcelona</h1>-->
+<!--<h3>Discover the city that has it all</h3>-->
+<!--<h4>Culture, lifestyle, gastronomy ...</h4><br/><br/>-->
+<!--<a class="btn btn-primary btn-lg" href="/pages/bcn" role="button">Discover!</a>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="carousel-item item4">-->
+<!--<div class="container">-->
+<!--<div class="row">-->
+<!--<div class="col-md-12">-->
+<!--<div class="transparent_banner">-->
+<!--<h1>Curious about the logo?</h1>-->
+<!--<h3>The Flower of Barcelona</h3>-->
+<!--<blockquote class="blockquote">-->
+<!--<p class="mb-0">The <i>panot de flor</i>, also called Flower of Barcelona, is a type of tile designed by Josep Puig i Cadafalch. Originaly designed for Ametller house, it was later used to pave many streets of Barcelona, specially in the Eixample district. Although it may go unnoticed by many, it is one of the most representative symbols of the city.</p>-->
+<!--</blockquote>-->
+<!--<a class="btn btn-primary btn-lg" href="https://es.wikipedia.org/wiki/Flor_de_Barcelona" target="_blank" role="button">Learn more!</a>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="carousel-item item5">-->
+<!--<div class="container">-->
+<!--<div class="row">-->
+<!--<div class="col-md-12">-->
+<!--<div class="transparent_banner">-->
+<!--<h1>Barcelona lifestyle</h1>-->
+<!--<h3>Coffee survival guide, meal times, local food ...</h3>-->
+<!--<h4>Get in touch with the local culture!</h4><br/><br/>-->
+<!--<a class="btn btn-primary btn-lg" href="/pages/lifestyle" role="button">Discover!</a>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+</div>
+<a class="carousel-control-prev" data-slide="prev" href="#carousel_banner" role="button">
+<span aria-hidden="true" class="carousel-control-prev-icon"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" data-slide="next" href="#carousel_banner" role="button">
+<span aria-hidden="true" class="carousel-control-next-icon"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</section><section class="about1" id="about">
+<div class="container">
+<div class="row">
+<div class="col-sm-8">
+<div class="row">
+<div class="col-sm-7">
+<div class="lightgrey_highlight rounded">
+<h3 id="important_dates">Important dates</h3>
+<ul class="list-arrow-right"><li><b>Workshops and tutorials</b>: December 12-13, 2020</li>
+<li>
+<b>Main conference</b>: December 8-11, 2020
+    <br/><br/>
+<ul class="normal_list"><li><del>8 March 2020</del> <span class="text-danger">1 June 2020</span>: <b>Anonymity period starts</b></li>
+<li><del>8 April 2020</del> <span class="text-danger">1 July 2020</span>: <b>Final submissions due</b></li>
+<li><del>10 June 2020</del> <span class="text-danger">1 October 2020</span>: <b>Notifications</b></li>
+<li><del>30 June 2020</del> <span class="text-danger">1 November 2020</span>: <b>Camera-ready (PDF) due</b></li>
+<li><del>13-14 September 2020</del> <span class="text-danger">12-13 December 2020</span>: <b>Tutorials &amp; Workshops Post-Conference</b></li>
+<li><del>15-18 September 2020</del> <span class="text-danger">8-11 December 2020</span>: <b>Main Conference</b></li>
+</ul>
+<br/>
+</li>
+<!--<li><b>Excursion</b>: September 16, 2020</li>-->
+<!--<li><b>Banquet</b>: September 17, 2020</li>--></ul>
+</div>
+</div>
+<div class="col-sm-5" id="follow_us">
+<h3>INSTRUCTIONS FOR SUBMISSION</h3>
+                        Guidelines and style files (LATEX and Microsoft Word): <a href="/pages/submission">submission details</a>.
+                        <br/><br/>
+<h3>Follow us</h3><ul class="list-arrow-right">
+<li><b>Twitter</b>: <a href="https://twitter.com/coling2020" target="_blank"><i class="fab fa-twitter-square"></i></a> <a href="https://twitter.com/coling2020" target="_blank">@coling2020</a> <a href="https://twitter.com/search?q=%23coling2020&amp;src=typd" target="_blank">#coling2020</a></li>
+<li><b>Google Play</b>: <i class="fab fa-google-play"></i> (available soon)</li>
+<li><b>App Store</b>: <i class="fab fa-app-store-ios"></i> (available soon)</li>
+</ul></div>
+</div>
+</div>
+<div class="col-sm-4 text-right">
+<a class="twitter-timeline" data-height="500" data-lang="en" data-theme="light" data-width="300" href="https://twitter.com/coling2020">Tweets by coling2020</a> <script async="" charset="utf-8" src="https://platform.twitter.com/widgets.js"></script>
+</div>
+</div>
+</div>
+</section><!--<section class="banner banner1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="transparent_banner">
+                    <h1>DEMO <span>workshop 2019</span></h1>
+                    <h3>May 30, 2019</h3>
+                    <h4>University Name, Location</h4>
+                    <div class="countdown" data-date="2019-05-30"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>--><section class="banner banner2">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="orange-banner text-center rounded">
+<h1>COLING’2020 SPONSORSHIP</h1>
+<h3 id="call_for_sponsors">Do you want to become Sponsor of COLING 202020?</h3>
+<h4>Have a look at the different <a href="/pages/call_for_sponsors">sponsorship levels</a>.</h4>
+</div>
+</div>
+</div>
+</div>
+</section><section class="bg-dark" id="news">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<h3 class="section-title">Latest news</h3>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<div class="row"><div class="col-md-4 col-sm-6 col-xs-6 fw-600">
+<div class="new">
+<h4>COLING’2020 postponement announcement</h4>
+<p class="text-muted"><i class="far fa-newspaper"></i> Mar 30, 2020
+                                </p>
+<button class="btn btn-primary" data-target="#modal-/2020/03/30/covid-19" data-toggle="modal" type="button">Read more</button>
+</div>
+</div>
+<!-- Modal -->
+<div aria-hidden="true" class="modal fade" id="modal-/2020/03/30/covid-19" role="dialog" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="close-modal" data-dismiss="modal">
+<div class="lr">
+<div class="rl"></div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-lg-9 mx-auto">
+<div class="modal-body">
+<h2 class="text-uppercase">COLING’2020 postponement announcement</h2>
+<p class="text-muted"><i class="far fa-newspaper"></i> Mar 30, 2020
+                                                    </p>
+<p></p><p>In response to the worsening global coronavirus pandemic, and our wish to keep COLING’2020 as an ‘in person’ conference in Barcelona, we announce that <strong>COLING’2020  is now postponed to December</strong>.  The new dates are now 8-13th December, with the main conference on the 8-11th and the workshops and tutorials to follow on the 12-13th.</p>
+<p>Owing to the large number of requests to extend the submission deadline because of the difficult working conditions that confinement represents for many of our authors, we have decided to <strong>extend the deadline to July 1st</strong>. Those that have already uploaded a paper are allowed to withdraw it or to upload a newer version whenever they wish before the new deadline.</p>
+<p>To those of you who have generously agreed to be part of our Programme Committee, we will be sending you detailed instructions very soon.</p>
+<p>We greatly look forward to seeing you in Barcelona and once again enjoying the personal interactions amongst colleagues that are so characteristic of COLING meetings. Until then, stay safe and healthy!</p>
+<p>The COLING’2020 organisers<br/>30th March 2020</p>
+<button class="btn btn-primary" data-dismiss="modal" type="button">
+<i class="fas fa-times"></i> Close
+                                                    </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="col-md-4 col-sm-6 col-xs-6 fw-600">
+<div class="new">
+<h4>COLING’2020 and COVID-19</h4>
+<p class="text-muted"><i class="far fa-newspaper"></i> Mar 12, 2020
+                                </p>
+<button class="btn btn-primary" data-target="#modal-/2020/03/12/covid-19" data-toggle="modal" type="button">Read more</button>
+</div>
+</div>
+<!-- Modal -->
+<div aria-hidden="true" class="modal fade" id="modal-/2020/03/12/covid-19" role="dialog" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="close-modal" data-dismiss="modal">
+<div class="lr">
+<div class="rl"></div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-lg-9 mx-auto">
+<div class="modal-body">
+<h2 class="text-uppercase">COLING’2020 and COVID-19</h2>
+<p class="text-muted"><i class="far fa-newspaper"></i> Mar 12, 2020
+                                                    </p>
+<p></p><p>We remain optimistic that COLING’2020 will proceed as planned in Barcelona in mid September.  However, given the current fluidity of the situation with COVID-19, we clearly cannot predict what September will bring and so we want to assure you that we are planning for every eventuality and will keep you informed of any changes if and as soon as they occur.</p>
+<p>We look forward to your submissions over the next few weeks.</p>
+<p>The COLING’2020 organisation team, 12th March.</p>
+<button class="btn btn-primary" data-dismiss="modal" type="button">
+<i class="fas fa-times"></i> Close
+                                                    </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="col-md-4 col-sm-6 col-xs-6 fw-600">
+<div class="new">
+<h4>Invited Speakers announced!</h4>
+<p class="text-muted"><i class="far fa-newspaper"></i> Jan 28, 2020
+                                </p>
+<button class="btn btn-primary" data-target="#modal-/2020/01/28/invited-speakers" data-toggle="modal" type="button">Read more</button>
+</div>
+</div>
+<!-- Modal -->
+<div aria-hidden="true" class="modal fade" id="modal-/2020/01/28/invited-speakers" role="dialog" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="close-modal" data-dismiss="modal">
+<div class="lr">
+<div class="rl"></div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-lg-9 mx-auto">
+<div class="modal-body">
+<h2 class="text-uppercase">Invited Speakers announced!</h2>
+<p class="text-muted"><i class="far fa-newspaper"></i> Jan 28, 2020
+                                                    </p>
+<p></p><p>Have a look at the list of invited speakers <a href="https://coling2020.org/pages/invited-speakers">here</a>!</p>
+<button class="btn btn-primary" data-dismiss="modal" type="button">
+<i class="fas fa-times"></i> Close
+                                                    </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+<div class="row text-right">
+<div class="col-md-12">
+<p class="rss-subscribe">subscribe <a href="/feed.xml"><i class="fas fa-rss-square"></i></a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><!--<section id="cfp">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Call for Papers</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis eros velit, malesuada euismod mauris sodales non. Nam rhoncus arcu suscipit ipsum congue, in gravida turpis faucibus. Donec dolor lectus, feugiat et leo a, gravida viverra tortor. Vivamus pellentesque malesuada libero id consectetur. Suspendisse dignissim sem a blandit rutrum. Morbi lacinia neque ex, ac blandit nunc faucibus eu. Nam quis ligula eget sem pellentesque eleifend auctor non diam. Suspendisse molestie porta nibh, eget ultrices neque. Vestibulum luctus eros id lacus fringilla rhoncus.</p>
+                <p>Aenean ac magna vitae enim euismod tincidunt. Quisque at eleifend mi. Morbi congue dolor id ex feugiat, vel condimentum lorem dapibus. Nunc dictum risus a turpis hendrerit sollicitudin. Morbi et enim non ex bibendum porta quis ut metus. Vivamus imperdiet dolor odio, non sagittis nibh suscipit eget. Praesent a nisl diam.</p>
+                <p>Aenean varius ante a nisi ullamcorper finibus. Proin nunc mauris, sagittis at mi volutpat, sollicitudin commodo dui. Fusce pharetra quis lorem id convallis. Nullam a elementum elit, eu dictum ante. Donec et aliquet arcu. In hac habitasse platea dictumst. Ut ac rhoncus arcu, ac lobortis lacus. Nam eget condimentum mi. Praesent eget sapien a elit fermentum interdum. Pellentesque ut hendrerit lectus, non dignissim erat. In varius consectetur leo. Aliquam ornare dapibus elit. Pellentesque hendrerit, massa et fermentum sollicitudin, eros ante luctus magna, fermentum condimentum nunc erat lacinia nisi. Donec lacinia eu mi a sollicitudin. Fusce mollis sodales urna facilisis ultricies. Ut placerat lectus sit amet lectus ultrices sagittis at sit amet felis.</p>
+                <p>Proin eu nisi sit amet sem facilisis maximus ac vel ligula. Suspendisse vel arcu orci. Cras in interdum tellus. Pellentesque consequat, elit sit amet consectetur varius, ante mauris posuere quam, id vestibulum felis risus id est. Donec in consectetur nunc. Vivamus rhoncus sem id ultrices ornare. Morbi nec aliquam ex. Proin vestibulum, arcu a vulputate aliquam, magna nunc viverra magna, quis pharetra nunc nisi ut massa. Nulla nec ex feugiat, volutpat libero in, maximus nunc. Duis auctor dolor vitae sapien tincidunt porta. Quisque ultricies nunc a odio aliquet, quis dapibus lectus pulvinar. Fusce sollicitudin ante eu ipsum porta, eget mattis felis euismod.</p>
+                <p>Etiam ultricies dui lectus, nec tempus diam aliquet vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus suscipit turpis id lacinia facilisis. Suspendisse vulputate aliquam accumsan. Aenean tincidunt est nunc, eu vehicula nisi fringilla et. Integer sit amet lacus id augue aliquet feugiat a a nunc. Nullam a orci a purus aliquet ultrices. Fusce sapien lacus, venenatis at urna et, dapibus consequat odio. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur diam ipsum, accumsan a orci in, consectetur maximus ex. Sed aliquam venenatis ipsum eget venenatis. Donec tincidunt pharetra nisi. Aliquam finibus orci ut ligula dapibus cursus. Nunc pulvinar sem elit. Morbi sit amet sollicitudin mauris, vel finibus tellus. Cras ut lorem et magna tincidunt tempor nec quis nunc. The topics of interest include, but are not limited to:
+                    <ul>
+                        <li> Linearization in NLG </li>
+                        <li> Multilingual approaches to surface realization </li>
+                        <li> Function word generation </li>
+                        <li> Inflection in NLG </li>
+                        <li> Joint generation from abstract representations </li>
+                        <li> Surface-oriented text simplification </li>
+                        <li> Surface-oriented spoken language generation </li>
+                        <li> Application of surface realization for grammatical error correction </li>
+                        <li> NLG in surface-oriented paraphrasing </li>
+                        <li> Deep learning approaches to NLG </li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+-->
+<!--<section id="programme" class="about1">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+
+                <h3>Programme</h3>
+
+                <p class="lead">The workshop will consist of technical presentations, a poster session with WS papers and ST systems, the presentation of the shared task results, a round table and an invited talk.</p>
+                <p class="lead"><b>Invited talk:</b> John Smith – Generation and Dialog Specialist at Company, Head of NLG, dialog and summarization groups at Company.</p>
+
+            </div>
+
+            <div class="col-sm-6">
+
+                <h3>Programme Committee</h3>
+
+                <ul class="list-arrow-right">
+                    <li>Name Surname, Company, Location</li>
+                    <li>Name Surname, Company, Location</li>
+                    <li>Name Surname, Company, Location</li>
+                    <li>Name Surname, Company, Location</li>
+                    <li>Name Surname, Company, Location</li>
+                    <li>Name Surname, Company, Location</li>
+                    <li>Name Surname, Company, Location</li>
+                    <li>Name Surname, Company, Location</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</section>--><section class="faq" id="faq">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<h3 class="section-title">FAQ</h3>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<div aria-multiselectable="true" class="panel-group" id="accordion" role="tablist">
+<div class="card">
+<div class="card-header rounded-0">
+<a aria-controls="collapse2" aria-expanded="false" class="collapsed" data-toggle="collapse" href="#collapse2" role="button">
+                                How can I follow COLING 202020 on social media?
+                          </a>
+</div>
+<div class="collapse" id="collapse2">
+<div class="card-body">
+<p class="card-text"></p><ul class="list-arrow-right">
+<li><b>Twitter</b>: <a href="https://twitter.com/coling2020" target="_blank"><i class="fab fa-twitter-square"></i></a> <a href="https://twitter.com/coling2020" target="_blank">@coling2020</a> <a href="https://twitter.com/search?q=%23coling2020&amp;src=typd" target="_blank">#coling2020</a></li>
+<li><b>Google Play</b>: <i class="fab fa-google-play"></i> (available soon)</li>
+<li><b>App Store</b>: <i class="fab fa-app-store-ios"></i> (available soon)</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="card">
+<div class="card-header rounded-0">
+<a aria-controls="collapse2" aria-expanded="false" class="collapsed" data-toggle="collapse" href="#collapse_flor" role="button">
+                                Nice logo! Where does the flower come frome?
+                          </a>
+</div>
+<div class="collapse" id="collapse_flor">
+<div class="card-body">
+<p class="card-text">
+                                    The <i>panot de flor</i>, also called Flower of Barcelona, is a type of tile designed by Josep Puig i Cadafalch. Originaly designed for Ametller house, it was later used to pave many streets of Barcelona, specially in the Eixample district. Although it may go unnoticed by many, it is one of the most representative symbols of the city.
+                                    <br/><a class="btn btn-primary" href="https://es.wikipedia.org/wiki/Flor_de_Barcelona" target="_blank">Learn more!</a>
+</p>
+</div>
+</div>
+</div>
+<div class="card">
+<div class="card-header rounded-0">
+<a aria-controls="collapse3" aria-expanded="false" class="collapsed" data-toggle="collapse" href="#collapse3" role="button">
+                                Who is organizing this event?
+                          </a>
+</div>
+<div class="collapse" id="collapse3">
+<div class="card-body">
+<h5 class="card-title">The organizing committee</h5>
+<p class="card-text">You can find a complete list of the organizing committee in the <a href="/pages/organization">organization section</a>, including the general chair, program chairs, local organization chairs, etc. </p>
+</div>
+</div>
+</div>
+<div class="card">
+<div class="card-header rounded-0">
+<a aria-controls="collapse4" aria-expanded="false" class="collapsed" data-toggle="collapse" href="#collapse4" role="button">
+                                How can I book a hotel nearby?
+                          </a>
+</div>
+<div class="collapse" id="collapse4">
+<div class="card-body">
+<p class="card-text">You can find all the information in the <a href="/pages/accommodation">accommodation section</a>.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--<section id="contact" class="bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h2>Contact us</h2>
+                <p class="lead">Please contact us at <a href="mailto:info@mail.com">info@mail.com</a> if you have any question. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+            </div>
+        </div>
+    </div>
+</section>--><section class="bg-light" id="anti_harassment">
+<div class="container">
+<div class="row">
+<h3>COLING 202020 Anti-Harassment Policy</h3>
+<p>COLING 202020 adheres to a strong <a href="/pages/anti_harassment_policy">Anti-Harassment Policy</a>. Any participant who experiences harassment or hostile behavior may contact any current member of the Local Organization Committee. Please be assured that your concerns will be kept in strict confidence, and we will consult with you on any actions taken.</p>
+</div>
+</div>
+</section><!-- Footer -->
+<footer class="py-5">
+<p class="container">
+<!--<p class="m-0 text-center text-white">Please contact us at <a href="mailto:"></a> if you have any question.</p>-->
+</p><p class="m-0 text-center text-white">
+            COLING 202020
+            <img class="flor_de_bcn_icon" src="/assets/images/flor_de_bcn.png"/>
+            The 28th International Conference on Computational Linguistics
+            <img class="flor_de_bcn_icon" src="/assets/images/flor_de_bcn.png"/>
+            Follow us on <a href="https://twitter.com/coling2020" target="_blank">Twitter</a> <a href="https://twitter.com/coling2020" target="_blank"><i class="fab fa-twitter"></i></a>
+</p>
+</footer></div>
+<!-- Bootstrap core JavaScript -->
+<script src="/assets/vendor/jquery/jquery.min.js" type="text/javascript"></script>
+<script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+<!-- Plugin JavaScript -->
+<script src="/assets/vendor/jquery-easing/jquery.easing.min.js" type="text/javascript"></script>
+<!-- Scrolling nav JavaScript -->
+<script src="/assets/js/scrolling-nav.js" type="text/javascript"></script>
+<!-- countdown -->
+<script src="/assets/js/countdown.js" type="text/javascript"></script>
+<!-- navbar -->
+<script src="/assets/js/navbar.js" type="text/javascript"></script>
+<!-- i18next for multilanguage support -->
+<script src="/assets/js/i18next-1.7.7.min.js" type="text/javascript"></script>
+<script src="/assets/js/languages.js" type="text/javascript"></script>
+</section><div><!-- Navigation -->
+<section id="main_content">
+<div class="container">
+<div class="row">
+<div class="col">
+<h1 class="bd-title mt-0">COLING’2020 <span class="text-danger">UPDATED 30-3-2020 <del>SECOND</del> NEW DATES</span> CALL FOR PAPERS (Main Conference)</h1>
+<p>The 28th International Conference on Computational Linguistics (COLING) will be held in Barcelona, Spain, <del>from 13 to 18 September 2020</del> <span class="text-danger">from 8 to 13 December</span> 2020. We invite the submission of papers on original and unpublished research on all aspects of computational linguistics.</p>
+<p>The first COLING was held in New York in 1965, with the last iteration in Santa Fe, USA, in 2018. Throughout its history, COLING has brought together researchers from across the field of Computational Linguistics. COLING’2020 continues this tradition and thus welcomes papers on all topics related to both natural language and computation, with the expectation that all papers will include linguistic insight.</p>
+<h2>Important Dates:</h2>
+<ul><li><span class="text-danger">1 June 2020</span>: <b>Anonymity period starts</b></li>
+<li><span class="text-danger">1 July 2020</span>: <b>Final submissions due</b></li>
+<li><span class="text-danger">1 October 2020</span>: <b>Notifications</b></li>
+<li><span class="text-danger">1 November 2020</span>: <b>Camera-ready (PDF) due</b></li>
+<li><span class="text-danger">12-13 December 2020</span>: <b>Tutorials &amp; Workshops Post-Conference</b></li>
+<li><span class="text-danger">8-11 December 2020</span>: <b>Main Conference</b></li>
+</ul>
+
+                Note: All deadlines are: 11:59 PM UTC-12:00.<br/><br/>
+<h2>Invited speakers:</h2>
+<ul>
+<li>Harald Baayen, Eberhard Karls University, Tübingen.</li>
+<li>Monica Lam, Stanford University</li>
+<li>Tal Linzen, John Hopkins University</li>
+<li>Margaret Mitchell, Google</li>
+<li>Amanda Stent, Bloomberg</li>
+</ul>
+<h2>Submissions:</h2>
+<p>COLING’2020 invites the submission of long and short papers on original and unpublished research covering all aspects of natural language and computation. Relevant topics for the conference include, but are not limited to, the following (in alphabetical order):</p>
+<ul>
+<li>Applications (including BioNLP and eHealth, NLP for legal purposes, NLP for Social Media and Journalism, among others)</li>
+<li>Dialogue and Interactive Systems</li>
+<li>Discourse and Pragmatics</li>
+<li>Document classification, topic modelling, information retrieval and crosslingual retrieval</li>
+<li>Language Generation</li>
+<li>Language Modelling</li>
+<li>Information Extraction and Text Mining, and Knowledge Graph</li>
+<li>Language Resources and Evaluation</li>
+<li>CL/NLP and Linguistic Theories, Cognitive Modeling and Psycholinguistics</li>
+<li>Machine Learning for CL/NLP</li>
+<li>Multilingual processing, Machine Translation and translation aids</li>
+<li>Morphology and Word Segmentation</li>
+<li>Semantics (of words, sentences, ontologies and lexical semantics)</li>
+<li>Sentiment Analysis, Opinion and Argument Mining</li>
+<li>Speech recognition, text-to-speech and spoken language understanding</li>
+<li>Summarization and Simplification</li>
+<li>Tagging, Chunking, Syntax and Parsing</li>
+<li>Textual Inference and Question Answering</li>
+<li>Vision, Robotics, Multimodal and Grounded Language Acquisition</li>
+</ul>
+<p>Papers in all these areas describing NLP engineering experiments or computationally-aided linguistic analysis as well as survey papers are welcome. In all relevant areas, we encourage authors to include a detailed description of the methodology, the analysis of the contribution of the proposal and in technologically-oriented papers, we encourage in-depth error analysis linked to linguistic information.</p>
+<h2>Submission Instructions:</h2>
+<p>We invite submissions of up to nine (9) pages maximum, plus bibliography for long papers and four (4) pages, plus bibliography, for short papers. The COLING’2020 templates must be used; these are provided in LaTeX and also Microsoft Word format. Submissions will only be accepted in PDF format. Deviations from the provided templates will result in rejections without review. Submit papers by the end of the deadline day (timezone is UTC-12) via our Softconf Submission Site: <a href="https://www.softconf.com/coling2020/papers/" target="_blank">https://www.softconf.com/coling2020/papers/</a></p>
+<p>Download the MS Word and LaTeX templates here: <a href="/coling2020.zip">https://coling2020.org/coling2020.zip</a></p>
+<h2>Author Responsibilities:</h2>
+<p>Papers must be of original, previously-unpublished work. Papers must be anonymized to support double-blind reviewing. If the paper is available as a preprint, this must be indicated on the submission form but not in the paper itself. In addition, COLING’2020 will follow <a href="https://www.aclweb.org/adminwiki/index.php?title=ACL_Policies_for_Submission,_Review_and_Citation" target="_blank">the same policy</a> as ACL 202018 establishing an anonymity period (from <span class="text-danger"><del>March 8th</del>  June 1st</span> to author notification) during which non-anonymous posting of preprints is not allowed. Also included in that policy are instructions to reviewers to not rate papers down for not citing recent preprints. Authors are asked to cite published versions of papers instead of preprint version when possible.</p>
+<p>Papers that have been or will be under consideration for other venues at the same time must be declared at submission time. If a paper is accepted for publication at COLING, it must be immediately withdrawn from other venues. If a paper under review at COLING is accepted elsewhere and authors intend to proceed there, the COLING committee must be notified immediately.</p>
+<h2>Program Committee Chairs:</h2>
+<ul>
+<li>Núria Bel, IULA Institute of Applied Linguistics, Department of Translation and Language Sciences, Universitat Pompeu Fabra (Barcelona)</li>
+<li>Chengqing Zong, Institute of Automation, Chinese Academy of Sciences</li>
+</ul>
+<p>
+                    Contact us at <a href="mailto:coling2020pc@gmail.com" target="_blank">coling2020pc@gmail.com</a><br/>
+                    More information about the event in <a href="http://www.coling2020.org" target="_blank">http://www.coling2020.org</a>
+</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="py-5">
+<p class="container">
+<!--<p class="m-0 text-center text-white">Please contact us at <a href="mailto:"></a> if you have any question.</p>-->
+</p><p class="m-0 text-center text-white">
+            COLING 202020
+            <img class="flor_de_bcn_icon" src="/assets/images/flor_de_bcn.png"/>
+            The 28th International Conference on Computational Linguistics
+            <img class="flor_de_bcn_icon" src="/assets/images/flor_de_bcn.png"/>
+            Follow us on <a href="https://twitter.com/coling2020" target="_blank">Twitter</a> <a href="https://twitter.com/coling2020" target="_blank"><i class="fab fa-twitter"></i></a>
+</p>
+</footer>
+<!-- Bootstrap core JavaScript -->
+
+
+<!-- Plugin JavaScript -->
+
+<!-- Scrolling nav JavaScript -->
+
+<!-- countdown -->
+
+<!-- navbar -->
+
+<!-- i18next for multilanguage support -->
+
+
+</div><div><!-- Navigation -->
+<section id="main_content">
+<div class="container senior-program">
+<div class="row">
+<h1>Program Committee</h1>
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+<h2>Program Chairs</h2>
+<hr/>
+<ul>
+<li><a href="https://www.upf.edu/web/nuria-bel" target="_blank">Nuria Bel</a></li>
+<li><a href="http://www.nlpr.ia.ac.cn/cip/english/zong.htm" target="_blank">Chengqing Zong</a></li>
+</ul><br/>
+<h2>Area Chairs</h2>
+<hr/>
+<h3>Applications (including BioNLP and eHealth, NLP for legal purposes, NLP for Social Media and Journalism, among others)</h3>
+<ul>
+<li><a href="https://www.research.manchester.ac.uk/portal/sophia.ananiadou.html" target="_blank">Sophia Ananiadou</a></li>
+<li><a href="http://www.rbanchs.com/" target="_blank">Rafael Banchs</a></li>
+</ul>
+<h3>CL/NLP and Linguistic Theories, Cognitive Modeling and Psycholinguistics</h3>
+<ul>
+<li>Simonetta Montemagni</li>
+<li><a href="https://people.unipi.it/alessandro_lenci/" target="_blank">Alessandro Lenci</a></li>
+</ul>
+<h3>Dialogue and Interactive Systems</h3>
+<ul>
+<li><a href="https://people.eng.unimelb.edu.au/tbaldwin/" target="_blank">Tim Baldwin</a></li>
+<li><a href="http://ir.hit.edu.cn/~car/" target="_blank">Wanxiang Che</a></li>
+<li><a href="https://users.soe.ucsc.edu/~maw/" target="_blank">Marilyn Walker</a></li>
+</ul>
+<h3>Discourse and Pragmatics</h3>
+<ul>
+<li><a href="https://www.cs.brandeis.edu/~xuen/" target="_blank">Nianwen Xue</a></li>
+<li><a href="https://www.h-its.org/people/prof-dr-michael-strube/" target="_blank">Michael Strube</a></li>
+</ul>
+<h3>Document classification, topic modelling, information retrieval and crosslingual retrieval</h3>
+<ul>
+<li><a href="http://rali.iro.umontreal.ca/nie/jian-yun-nie-en/" target="_blank">Jian-Yun Nie</a></li>
+<li><a href="https://uk.linkedin.com/in/jinhua-du-98291215" target="_blank">Jinhua Du</a></li>
+</ul>
+<h3>Information Extraction, Text Mining and Knowledge Graph</h3>
+<ul>
+<li><a href="https://www.iis.sinica.edu.tw/pages/lwku/index_en.html" target="_blank">Lun-Wei Ku</a></li>
+<li><a href="http://www4.comp.polyu.edu.hk/~cswjli/" target="_blank">Wenjie Li</a></li>
+<li><a href="http://nlp.csai.tsinghua.edu.cn/~lzy/" target="_blank">Zhiyuan Liu</a></li>
+</ul>
+<h3>Language Generation</h3>
+<ul>
+<li><a href="http://statnlp.org/" target="_blank">Wei Lu</a></li>
+<li><a href="https://u.osu.edu/mwhite/" target="_blank">Michael White</a></li>
+</ul>
+<h3>Language Modelling</h3>
+<ul>
+<li><a href="https://sites.google.com/view/fei-huang" target="_blank">Fei Huang</a></li>
+<li><a href="https://ruder.io/" target="_blank">Sebastian Ruder</a></li>
+</ul>
+<h3>Language Resources and Evaluation</h3>
+<ul>
+<li><a href="http://faculty.washington.edu/fxia/" target="_blank">Fei Xia</a></li>
+<li><a href="http://bultreebank.org/en/our-team/petya-osenova/" target="_blank">Petya Osenova</a></li>
+<li><a href="http://elra.info/en/about/association/elra-board/biographies/nicoletta-calzolari/" target="_blank">Nicoletta Calzolari</a></li>
+</ul>
+<h3>Machine Learning for CL/NLP</h3>
+<ul>
+<li><a href="https://europe.naverlabs.com/people_user/Matthias-Galle/" target="_blank">Matthias Gallé</a></li>
+<li><a href="http://nlp.kaist.ac.kr/~park" target="_blank">Jong C.  Park</a></li>
+</ul>
+<h3>Morphology and Word Segmentation</h3>
+<ul>
+<li>Vito Pirelli</li>
+<li><a href="https://scholar.google.com/citations?user=2HhiGzcAAAAJ" target="_blank">Qun Liu</a></li>
+</ul>
+<h3>Multilingual processing, Machine Translation and Translation Aids</h3>
+<ul>
+<li><a href="http://www.nlpr.ia.ac.cn/cip/jjzhang.htm" target="_blank">Jiajun Zhang</a></li>
+<li><a href="https://antoniotor.al/" target="_blank">Antonio Toral</a></li>
+<li><a href="https://cl.uzh.ch/sennrich" target="_blank">Rico Sennrich</a></li>
+</ul>
+<h3>Semantics (of words, sentences, ontologies and lexical semantics)</h3>
+<ul>
+<li><a href="http://cwn.ling.sinica.edu.tw/huang/huang.htm" target="_blank">Chu-Ren Huang</a></li>
+<li><a href="https://www.uni-mannheim.de/dws/people/professors/prof-dr-goran-glavas/" target="_blank">Goran Glavaš</a></li>
+<li><a href="https://www.esantus.com" target="_blank">Enrico Santus</a></li>
+</ul>
+<h3>Sentiment Analysis, Opinion and Argument Mining</h3>
+<ul>
+<li><a href="http://www.nustm.cn/member/rxia/index.html" target="_blank">Rui Xia</a></li>
+<li><a href="https://www.cs.uic.edu/~liub/" target="_blank">Bing Liu</a></li>
+</ul>
+<h3>Speech recognition, text-to-speech and spoken language understanding</h3>
+<ul>
+<li><a href="https://perso.limsi.fr/wiki/doku.php/gadda/start" target="_blank">Gilles Adda</a></li>
+<li><a href="https://sites.google.com/site/dongyu888/" target="_blank">Dong Yu</a></li>
+</ul>
+<h3>Summarization and Simplification</h3>
+<ul>
+<li><a href="https://www.cs.mcgill.ca/~jcheung/" target="_blank">Jackie Chi Kit Cheung</a></li>
+<li><a href="https://www.upf.edu/web/horacio-saggion" target="_blank">Horacio Saggion</a></li>
+</ul>
+<h3>Tagging, Chunking, Syntax and Parsing</h3>
+<ul>
+<li><a href="https://lipn.fr/~leroux/" target="_blank">Joseph Le Roux</a></li>
+<li><a href="http://miguelballesteros.com" target="_blank">Miguel Ballesteros</a></li>
+</ul>
+<h3>Textual Inference and Question Answering</h3>
+<ul>
+<li><a href="http://nlp.ist.i.kyoto-u.ac.jp/member/kuro/" target="_blank">Sadao Kurohashi</a></li>
+<li><a href="https://zhangminsuda.github.io/" target="_blank">Min Zhang</a></li>
+</ul>
+<h3>Vision, Robotics, Multimodal, Grounded language learning</h3>
+<ul>
+<li><a href="http://www.se.cuhk.edu.hk/people/academic-staff/prof-meng-mei-ling-helen/" target="_blank">Mei Ling Helen Meng</a></li>
+<li><a href="http://www.cl.ecei.tohoku.ac.jp/~inui/" target="_blank">Kentaro Inui</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="py-5">
+<p class="container">
+<!--<p class="m-0 text-center text-white">Please contact us at <a href="mailto:"></a> if you have any question.</p>-->
+</p><p class="m-0 text-center text-white">
+            COLING 202020
+            <img class="flor_de_bcn_icon" src="/assets/images/flor_de_bcn.png"/>
+            The 28th International Conference on Computational Linguistics
+            <img class="flor_de_bcn_icon" src="/assets/images/flor_de_bcn.png"/>
+            Follow us on <a href="https://twitter.com/coling2020" target="_blank">Twitter</a> <a href="https://twitter.com/coling2020" target="_blank"><i class="fab fa-twitter"></i></a>
+</p>
+</footer>
+    <!-- Bootstrap core JavaScript -->
+
+
+    <!-- Plugin JavaScript -->
+
+    <!-- Scrolling nav JavaScript -->
+
+    <!-- countdown -->
+
+    <!-- navbar -->
+
+    <!-- i18next for multilanguage support -->
+
+
+</div>
+<div><!-- Navigation -->
+    <section id="main_content">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="bd-title mt-0">COLING’2020 SPONSORSHIP</h1>
+                    <p>If you want to become Sponsor of COLING 202020, please, have a look at the <a
+                            href="/COLING2020_sponsorship-brochure.pdf">COLING 202020 Sponsorship brochure</a> and get
+                        in touch with one of our <a href="/pages/organization">Sponsorship Chairs</a>. We gratefully
+                        acknowledge the support provided by the following sponsors for the COLING 202020 conference:</p>
+                    <div class="container objects_grid" id="sponsors_grid">
+                        <div class="row justify-content-md-center level" id="level_diamond">
+                            <div class="col-md-12 level_name">
+                                <h2>Diamond</h2>
+                            </div>
+                            <div class="col-md-6 sponsor my-auto">
+                                <a href="https://www.lenovo.com">
+                                    <img alt="Lenovo" class="img-fluid img-logo"
+                                         src="/assets/images/sponsors/lenovo.png"/>
+                                </a>
+                            </div>
+                            <div class="col-md-6 sponsor my-auto">
+                                <a href="https://www.sap.com">
+                                    <img alt="SAP" class="img-fluid img-logo" src="/assets/images/sponsors/sap.png"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row justify-content-md-center level" id="level_platinum">
+                            <div class="col-md-12 level_name">
+                                <h2>Platinum</h2>
+                            </div>
+                            <div class="col-md-4 sponsor my-auto">
+                                <a href="http://www.baidu.com">
+                                    <img alt="Baidu" class="img-fluid img-logo"
+                                         src="/assets/images/sponsors/baidu.png"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row justify-content-md-center level" id="level_gold">
+                            <div class="col-md-12 level_name">
+                                <h2>Gold</h2>
+                            </div>
+                            <div class="col-md-4 sponsor my-auto">
+                                <a href="https://www.bloomberg.com/">
+                                    <img alt="Bloomberg" class="img-fluid img-logo"
+                                         src="/assets/images/sponsors/bloomberg.png"/>
+                                </a>
+                            </div>
+                            <div class="col-md-4 sponsor my-auto">
+                                <a href="http://www.zalando.com">
+                                    <img alt="Zalando" class="img-fluid img-logo"
+                                         src="/assets/images/sponsors/zalando.jpg"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row justify-content-md-center level" id="level_silver">
+                            <div class="col-md-12 level_name">
+                                <h2>Silver</h2>
+                            </div>
+                            <div class="col-md-3 sponsor my-auto">
+                                <a href="https://expertsystem.com">
+                                    <img alt="Expert Systems" class="img-fluid img-logo"
+                                         src="/assets/images/sponsors/expert_system.png"/>
+                                </a>
+                            </div>
+                            <div class="col-md-3 sponsor my-auto">
+                                <a href="https://amazon.com">
+                                    <img alt="Amazon" class="img-fluid img-logo"
+                                         src="/assets/images/sponsors/amazon.png"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row justify-content-md-center level" id="level_bronze">
+                            <div class="col-md-12 level_name">
+                                <h2>Bronze</h2>
+                            </div>
+                            <div class="col-md-3 sponsor my-auto">
+                                <a href="https://www.grammarly.com/">
+                                    <img alt="Grammarly" class="img-fluid img-logo"
+                                         src="/assets/images/sponsors/grammarly.png"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row justify-content-md-center level" id="level_supporters">
+                            <div class="col-md-12 level_name">
+                                <h2>Supporters</h2>
+                            </div>
+                            <div class="col-md-4 sponsor my-auto">
+                                <a href="https://www.upf.edu/web/universitat/-/departament-de-tecnologies-de-la-informacio-i-les-comunicacions">
+                                    <img alt="DTIC UPF" class="img-fluid img-logo"
+                                         src="/assets/images/sponsors/upf_dtic.png"/>
+                                </a>
+                            </div>
+                            <div class="col-md-4 sponsor my-auto">
+                                <a href="https://www.upf.edu/web/traduccio">
+                                    <img alt="Translation and Language Sciences UPF" class="img-fluid img-logo"
+                                         src="/assets/images/sponsors/upf_traduccio.png"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="py-5">
+        <p class="container">
+            <!--<p class="m-0 text-center text-white">Please contact us at <a href="mailto:"></a> if you have any question.</p>-->
+        </p>
+        <p class="m-0 text-center text-white">
+            COLING 202020
+            <img class="flor_de_bcn_icon" src="/assets/images/flor_de_bcn.png"/>
+            The 28th International Conference on Computational Linguistics
+            <img class="flor_de_bcn_icon" src="/assets/images/flor_de_bcn.png"/>
+            Follow us on <a href="https://twitter.com/coling2020" target="_blank">Twitter</a> <a
+                href="https://twitter.com/coling2020" target="_blank"><i class="fab fa-twitter"></i></a>
+        </p>
+    </footer>
+    <!-- Bootstrap core JavaScript -->
+
+
+    <!-- Plugin JavaScript -->
+
+    <!-- Scrolling nav JavaScript -->
+
+    <!-- countdown -->
+
+    <!-- navbar -->
+
+    <!-- i18next for multilanguage support -->
+
+
+</div>
+</body>
+</html>

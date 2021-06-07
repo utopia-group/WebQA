@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xml:lang="en" xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<title>15-312/15-652 Foundations of Programming Languages</title>
+<meta content="Carnegie Mellon University Foundations of
+    Programming Languages Course" name="description"/>
+<meta content="Carnegie Mellon University Foundations of
+        Programming Languages Course" name="keywords"/>
+<link href="ppl.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="header">
+<div id="menu">
+<a href="index.html">Home</a>
+<a href="phil.html">Overview</a>
+<a href="schedule.html">Schedule</a>
+<a href="hws.html">Assignments</a>
+<a href="https://www.cs.cmu.edu/~rwh/pfpl/index.html">Textbook</a>
+<a href="https://piazza.com/cmu/Spring2020/15312">Piazza</a>
+<a href="https://autolab.andrew.cmu.edu/courses/15312-s20/">Autolab</a>
+</div>
+</div>
+<div id="content">
+<h1>15-312/15-652 Foundations of Programming Languages</h1>
+<hr/>
+<div id="info">
+<h2>Course information</h2>
+<h3>Class</h3>
+<table class="disp">
+<tr>
+<td> Lectures: </td>
+<td> Tue/Thu 13:30-14:50 </td>
+<td> Zoom (see Piazza) </td>
+<td> Jan Hoffmann</td>
+</tr>
+<tr>
+<td> Section A: </td>
+<td> Wed 12:30-13:20 </td>
+<td> Zoom (see Piazza) </td>
+<td> Junqing (Jacky) Zhou </td>
+</tr>
+<tr>
+<td> Section B: </td>
+<td> Wed 13:30-14:20 </td>
+<td> Zoom (see Piazza) </td>
+<td> Yinglan Chen </td>
+</tr>
+<tr>
+<td> Section C: </td>
+<td> Wed 14:30-15:20 </td>
+<td> Zoom (see Piazza) </td>
+<td> Erin Zhang </td>
+</tr>
+<tr>
+<td> Midterm Exam:</td>
+<td> Thu, March 5, 13:30-14:50 </td>
+<td> GHC 4307  </td>
+<td> In class, open book </td>
+</tr>
+<tr>
+<td> Final Exam: </td>
+<td> TBD </td>
+<td> TBD </td>
+<td> Three hours, open book </td>
+</tr>
+</table>
+<h3>Course Staff and Office Hours</h3>
+<table class="disp">
+<tr>
+<td> Instructor: </td>
+<td> <a href="mailto:jhoffmann@cmu.edu">Jan Hoffmann</a> </td>
+<td> Thu 15:00-16:00 </td>
+<td> Zoom (see Piazza) </td>
+</tr>
+<tr>
+<td> Teaching Assistant: </td>
+<td> <a href="mailto:yinglanc@andrew.cmu.edu">Yinglan Chen</a> </td>
+<td> Tue 16:00-18:00 </td>
+<td> Zoom (see Piazza) </td>
+</tr>
+<tr>
+<td> Teaching Assistant: </td>
+<td> <a href="mailto:xiaoyuz1@andrew.cmu.edu">Erin Zhang</a> </td>
+<td> Mon 16:00-18:00 </td>
+<td> Zoom (see Piazza) </td>
+</tr>
+<tr>
+<td> Teaching Assistant: </td>
+<td> <a href="mailto:junqingz@andrew.cmu.edu">Junqing (Jacky) Zhou</a></td>
+<td> Wed 17:00-19:00 </td>
+<td> Zoom (see Piazza) </td>
+</tr>
+<tr>
+<td> Administrator: </td>
+<td> <a href="mailto:ahornick@andrew.cmu.edu">Amanda Hornick</a> </td>
+<td> (no hours) </td>
+<td> GHC 7025 </td>
+<td> </td>
+</tr>
+</table>
+</div>
+<div id="prereq">
+<h2>Pre-Requisites</h2>
+<p>
+     The pre-requisites for this course are 15-210 or 15-251.  The course
+     emphasizes both principles and practice.  Accordingly, proficiency with Standard ML is
+     required, as is experience with writing proofs.  Master's students wishing to enrol must obtain
+     permission of the instructor prior to doing so.
+     </p>
+</div>
+<div id="desc">
+<h2>Description</h2>
+<p>
+        This course introduces the fundamental principles of programming
+        language design, semantics, and implementation.  For more information
+        on the course philosophy, read <a href="phil.html">Why Study
+        Programming Languages?</a>.
+      </p>
+<p>
+      After completing this course you will have acquired the
+      following knowledge and skills:
+      </p>
+<ol>
+<li>Understanding of a broad range of programming
+        language concepts, including those found in most popular
+        programming languages, all in a single mathematical framework.</li>
+<li>Understanding of the concepts of abstract syntax, and the
+        binding and scope of identifiers in a program.  Be able to
+        prove properties of languages by structural induction,
+        respecting renaming of bound identifiers.</li>
+<li>Ability to give a mathematically precise definition
+        of the statics (type system) and dynamics (execution behavior)
+        of a programming language.</li>
+<li>Mastery of the concept of safety for a programming
+        language, be able to prove that a language is safe, or
+        derive a counterexample to its safety.</li>
+<li>Ability to implement an interpreter for a broad range of
+        programming languages that is derived directly from its
+        defined syntax, statics, and semantics.</li>
+<li>Understanding of how to integrate multiple features in a
+        language and ensure that the combination is sensible.</li>
+</ol>
+<p>
+      It is <em>not</em> a goal of this course to provide a survey of
+      popular languages, as doing so has no enduring educational
+      value, and would only reinforce oft-repeated mistakes in
+      language design.
+      </p>
+</div>
+<div id="schedule">
+<h2>Lecture and recitation</h2>
+<p>
+        Please see the <a href="schedule.html">schedule of lectures</a> for the
+        lecture topics and links to the readings and assignments.
+      </p>
+<p>
+        Lecture is a primary source of information in this course, with
+        recitation serving to amplify and reinforce the main concepts in the
+        course. You are strongly urged to attend lecture and
+        recitation every week, and are in any case responsible for the
+        material presented therein.
+      </p>
+<p> Recitations are held weekly on Wednesdays.  Attendance at
+        recitation will be recorded, and, from time to time, quizzes
+        with recorded grades may be given in recitation.  See <a href="#grading">Grading</a> for how recitation counts towards
+        your grade.  </p>
+</div>
+<div id="participation">
+<h2>Homework</h2>
+<p>
+        Please see the <a href="hws.html">homework assignments</a> page
+        for more information on submitting homework and for the current assignments.
+      </p>
+<p> Homework will account for 50% of your grade in this course.  </p>
+<p>
+        This semester homework will be submitted in two places. Written homework
+        will be submitted to Gradescope. Code solutions will be uploaded to
+        Autolab in the form of a tar file. In order to create the tar file we
+        will be providing a makefile. Autolab will also validate that
+        submissions contain all the relevant files and compile successfully.
+        All grades will be released on Autolab.
+      </p>
+<p>
+        Proofs in this class are expected to follow a particularly rigorous,
+        formal style. This will likely be unfamiliar to you compared proofs
+        you've written in other classes. See
+        <a href="handouts/312-proofs.pdf">this handout</a> for more
+        information.
+      </p>
+<h2>Examinations</h2>
+<h3><a name="midterm"></a>Midterm</h3> <p> There will be a 1hr 20min, in-class, open-book
+      midterm examination on <strong>Thu, March 5, 13:30-14:50</strong> that will account for 20% of
+      your grade. </p>
+<h3>Final</h3> <p> There will be a three-hour, open-book final examination during the
+	finals week that will account for 30% of your grade. </p>
+<h2><a name="grading"></a>Grading</h2> <p> Homework will account for 50%
+      of your grade, the midterm 20%, and the final 30%.  Your letter
+      grade will be determined in part based on your performance relative to the
+      rest of the class, though we have no pre-determined distribution in mind.
+      We will also consider extra credit on the assignments and participation in
+      recitation and lecture when determining letter grades. Extra credit and
+      participation do not count towards your numeric average, but, for example,
+      they might cause a student on the border to receive an A instead of a B
+      (or vice versa!).  </p>
+</div>
+<div id="text">
+<h2>Textbook</h2>
+<p>
+      Robert Harper,
+      <a href="https://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/practical-foundations-programming-languages-2nd-edition?format=HB">
+<cite>Practical Foundations for Programming Languages (Second Edition)</cite></a>.
+      Cambridge University Press, 2016.
+      </p>
+<p>
+      Please see the <a href="https://www.cs.cmu.edu/~rwh/pfpl/index.html">PFPL Home page</a> for <strong>Supplementary
+      Notes</strong> to the text that will be used in this class.
+      </p>
+</div>
+<div id="software">
+<h2>Software</h2>
+<p>
+        The programming language for this course is Standard ML, using the <a href="https://www.smlnj.org">Standard ML of New Jersey (SML/NJ)</a>
+        implementation.
+      </p>
+<p>
+        Please see <a href="software.html">course software</a> for further
+        information on programming with Standard ML and on using LaTeX
+        for document preparation.
+      </p>
+<p>
+        Some useful LaTeX style files and samples may be found in the
+        <a href="tex">tex</a> directory.
+      </p>
+</div>
+<div id="help">
+<h2>Getting help</h2>
+<p>
+       The <a href="https://piazza.com/cmu/Spring2020/15312/home">Discussion Group</a> is
+       the first place to look for answers to your questions, and to post
+       questions of your own.  Piazza allows questions to be posted to the
+       instructors only, if you wish, but you may also post a question publicly
+       so that everyone can see it, and see the answers that are posted.
+       </p>
+<p>
+      The second place to look for help is in your recitation section.  One
+      purpose of recitation is to clarify the course material presented in
+      lecture and in readings.  You should attend your section regularly, and
+      feel free to ask questions!
+      </p>
+<p>
+      The third place to look for help is to visit your teaching assistant or
+      the professor during office hours.  The course staff are available during
+      these times to help you with homework and answer any questions you may
+      have about the course material.
+      </p>
+<p> If all else fails, then you may make a private appointment with either
+      the TA's or the professor simply by sending email and suggesting times to
+      meet.  </p>
+<h2>Your well-being</h2>
+<p>
+      Donât forget that this is just a course. You can contact the instructor or your undergrad adviser with any
+      concerns or issues.
+      </p>
+<p>
+      Take care of yourself. Do your best to maintain a healthy lifestyle this semester by eating well, exercising,
+      avoiding drugs and alcohol, getting enough sleep and taking some time to relax. This will help you achieve your
+      goals and cope with stress.
+      </p>
+<p>
+      All of us benefit from support during times of struggle. You are not alone. There are many helpful resources
+      available on campus and an important part of the college experience is learning how to ask for help. Asking for
+      support sooner rather than later is often helpful.
+      </p>
+<p> If you or anyone you know experiences any academic stress, difficult life events, or feelings like anxiety or
+      depression, we strongly encourage you to seek support. Counseling and Psychological Services (CaPS) is here to
+      help: call 412-268-2922 and visit <a href="https://www.cmu.edu/counseling/">their website</a>.  Consider reaching
+      out to a friend, faculty or family member you trust for help getting connected to the support that can help.
+      </p>
+<p>
+      If you or someone you know is feeling suicidal or in danger of self-harm, call someone immediately, day or night:
+      </p>
+<ul>
+<li>CaPS: 412-268-2922</li>
+<li>Re:solve Crisis Network: 888-796-8226</li>
+<li>If the situation is life threatening, call the police:
+        <ul>
+<li>On campus: CMU Police: 412-268-2323</li>
+<li> Off campus: 911</li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="policies">
+<h2><a name="integrity"></a>Academic integrity</h2>
+<p>
+        As a condition for taking this course, you are responsible for
+        compliance with the <a href="https://www.cmu.edu/policies/documents/Cheating.html">University
+        Policy on Academic Integrity and Plagiarism</a>.
+      </p>
+<p>
+      In this course, you are authorized to use the books and notes linked
+      from this web site, as well as any other sources specifically allowed by
+      the course staff. Any other source, including assignment solutions from
+      past semesters, is unauthorized.
+      </p>
+<p> You are allowed to discuss homework assignments with other students.
+      However, in order to ensure that the work you submit is still your own, we
+      insist that you adhere to a <em>whiteboard policy</em> regarding these
+      discussions: you are not allowed to take any notes, files, or other
+      records away from the discussion.  For example, you may work on the
+      homework at the whiteboard with another student, but then you must erase
+      the whiteboard, go home, and write up your solution individually.  We take
+      your ability to recreate the solution independently as proof that you
+      understand the work that you submit.
+      </p>
+<p> This policy is our attempt to balance the tension between the benefits
+      of group work and the benefits of individual work.  We ask that you obey
+      the spirit of the policy, as well as the letter: ensure that all work you
+      submit is your own and that you fully understand the solution.  This is in
+      your best interest: the exams constitute a significant part of your letter
+      grade, they will be timed, and they will draw heavily on the terminology,
+      concepts, and techniques that are exercised in in the homework.  It is
+      unlikely that you will be able to do well on the exams if you do not take
+      full advantage of the learning opportunity afforded by the homework
+      assignments.
+      </p>
+<h2>No recording permitted</h2>
+<p> No student may record or tape any classroom activity without the
+      express written consent of the instructor.  If a student believes
+      that he/she is disabled and needs to record or tape classroom activities,
+      he/she should contact the
+      <a href="https://www.cmu.edu/disability-resources/">Office of
+      Disability Resources</a> to request an appropriate accommodation.</p>
+</div>
+<hr/>
+<div id="modified">
+<address>Author: <a href="mailto:rwh@cs.cmu.edu">Robert Harper</a></address>
+<!-- hhmts start -->Last modified: Thu Dec  5 16:28:29 EST 2019 <!-- hhmts end -->
+</div>
+</div>
+<div>
+<div id="header">
+<div id="menu">
+<a href="index.html">Home</a>
+<a href="phil.html">Overview</a>
+<a href="schedule.html">Schedule</a>
+<a href="hws.html">Assignments</a>
+<a href="https://www.cs.cmu.edu/~rwh/pfpl/index.html">Textbook</a>
+<a href="https://piazza.com/cmu/Spring2020/15312">Piazza</a>
+<a href="https://autolab.andrew.cmu.edu/courses/15312-s20/">Autolab</a>
+</div>
+</div>
+<div id="content">
+<h1>15-312 Foundations of Programming Languages</h1>
+<hr/>
+<div id="name">
+<h2>
+          Homework Assignments
+        </h2>
+<p>
+          The programming and written assignments count for half of
+          your final grade.  Much of what you learn in this course
+          will be through completing these assignments.  Your final
+          homework grade is the average of your grades on the seven
+          assignments.
+        </p>
+<table class="disp" id="assignments" rules="groups">
+<tr>
+<th> </th>
+<th>Out</th>
+<th>Assignment</th>
+<th>Due</th>
+</tr>
+<tr>
+<td>0</td>
+<td>Jan 15</td>
+<td>Church's Î»-Calculus</td>
+<td>Jan 22</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Jan 22</td>
+<td>Syntax, Statics, Dynamics</td>
+<td>Feb 5</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Feb 5</td>
+<td>System T</td>
+<td>Feb 19</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Feb 19</td>
+<td>System F and PCF</td>
+<td>Mar 4</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Mar 18</td>
+<td>Dynamic Typing</td>
+<td>Apr 1</td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>Apr 1</td>
+<td>Parallelism</td>
+<td>Apr 15</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Apr 15</td>
+<td>Concurrent Algol</td>
+<td>Apr 29</td>
+</tr>
+</table>
+<h3>Handout and Handin</h3>
+<p>
+
+        Assignments will be made available on Autolab, and
+        solutions are to be submitted via Autolab (programming) and <a href="https://www.gradescope.com/courses/80542">Gradescope</a>
+        (theory). To submit a homework to Autolab, run <tt>make handin.tar</tt>
+        in the root directory of the assignment.
+        This will generate <tt>handin.tar</tt> which may then be uploaded
+        to Autolab. You may make as many submissions as you like
+        before the due date, only the latest will be graded.
+
+        </p>
+<p>
+        Remember that written assignments must be submitted to Gradescope
+        (not Autolab). You will not receive credit for the written portion
+        unless it is successfully submitted to Gradescope.
+        </p>
+<p>
+
+        In general, for programming assignments we ask that you submit your code
+        and inline comments in each file detailing anything you think we need to
+        know to understand your submission. The written assignments are to be
+        typeset in <a href="https://www.latex-project.org">LaTeX</a> and
+        submitted in PDF format. Please use the provided assignment handout
+        source as a reference to typeset your solutions.
+
+        </p>
+<h3>Late Policy</h3>
+<p>
+
+        Every student has <em>up to 3</em> late days for use on any assignment
+        throughout the semester, but no homework may be more than two days late.
+        For example, a student may hand in Assignment 1 one day late and
+        Assignment 4 two days late, but then all remaining assignments must be
+        handed in by the deadline.  By <em>one day late</em> we mean
+        <em>24 hours late</em>. Late homework should be submitted as usual on
+        Autolab and Gradescope.
+
+        Both portions of the homework are considered <em>together</em> for the
+        purposes of late days. That is, if the written, programming, or both
+        parts of the homework are late by one day, then the entire assignment is
+        considered to use one late day.
+
+        </p>
+<p>
+
+        No homework assignment will be accepted more than <strong>two days</strong>
+        after the due date.  Once you used your budget of three late days for the
+        semester, each late day will be assessed a 25% on your grade for that
+        assignment.  So, if you are two days late and over budget, you can earn at most
+        50% credit for an assignment.
+
+        </p>
+<h3>Extra Credit</h3>
+<p>
+
+          Some assignments will have extra credit questions.  The intent
+          is for such questions to be interesting, although some may be
+          very hard.  Partial answers and half-baked ideas are welcome
+          and will receive some credit as long as it is clear you have
+          seriously considered the question.  See the <a href="index.html#grading">home page</a> for how extra credit will
+          count towards your grade.
+
+       </p>
+<h3>Advice on Programming Assignments</h3>
+<ul>
+<li> Grading criteria: </li>
+</ul><ol>
+<li> Correctness: does the program compile and run as prescribed? </li>
+<li> Functionality: which of the specified features have been implemented? </li>
+<li> Documentation: are there sufficient comments to understand the implementations? </li>
+</ol>
+<li> Criteria <strong>not</strong> applied unless explicitly specified: </li>
+<ol>
+<li> Efficiency: choose clarity over efficiency in your code. </li>
+</ol>
+<li> Some advice: </li>
+<ol>
+<li> Start your assignments early. </li>
+<li> Design your program from simple to more complex features. </li>
+<li> Finish implementations of the simpler specifications before moving on to more complex ones. </li>
+<li> Submit early and submit often. This will protect you against losing work or being caught out by autolab. </li>
+</ol>
+<h3>Advice on Written Assignments</h3>
+<ul>
+<li> Grading criteria: </li>
+</ul><ol>
+<li> Correctness and clarity for mathematical questions. </li>
+<li> Clarity and thoroughness for design or essay questions. </li>
+</ol>
+<li> Some advice: </li>
+<ol>
+<li> Start your assignments early. </li>
+<li> Don't wait until the last minute to type up your solutions:
+            ideas that seem to work on paper will often break as you write
+            them up carefully!</li>
+</ol>
+</div>
+<hr/>
+<div id="modified">
+<address>Author: <a href="mailto:rwh@cs.cmu.edu">Robert Harper</a></address>
+<!-- hhmts start -->Last modified: Tue Jul 31 22:17:23 EDT 2018 <!-- hhmts end -->
+</div>
+</div>
+</div></body>
+</html>

@@ -1,0 +1,1494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="ie=edge" http-equiv="x-ua-compatible"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>46th International Conference on Very Large Data Bases - VLDB2020 Tokyo</title>
+<link crossorigin="anonymous" href="//use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" rel="stylesheet"/>
+<link href="//use.typekit.net/swd6kdu.css" rel="stylesheet"/>
+<link href="/assets/vldb2020.less" rel="stylesheet/less" type="text/css"/>
+<!-- link rel="stylesheet/less" type="text/css" href="/assets/fluidable.less" -->
+<script src="//cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
+<script defer="" src="/assets/vldb2020.js"></script>
+<!-- link rel="icon" href="images/favicon.png"-->
+<link href="https://vldb2020.org/" rel="canonical"/>
+<meta content="46th International Conference on Very Large Data Bases - VLDB2020 Tokyo" property="og:title"/>
+<meta content="website" property="og:type"/>
+<meta content="https://vldb2020.org/" property="og:url"/>
+<meta content="/assets/media/ogp-photo.jpg" property="og:image"/>
+<meta content="image/jpeg" property="og:image:type"/>
+<meta content="1600" property="og:image:width"/>
+<meta content="960" property="og:image:height"/>
+<meta content="VLDB is a premier annual international forum for data management. VLDB 2020 will take place in Tokyo, Japan, from August 30th to September 4th, 2020." property="og:description"/>
+</head>
+<body>
+<input id="toppage-toggle" style="display:none;" type="checkbox"/>
+<input class="submenu-active" id="submenu-conference" name="submenu-active" style="display:none;" type="radio" value="conference"/>
+<input class="submenu-active" id="submenu-contributions" name="submenu-active" style="display:none;" type="radio" value="contributions"/>
+<input class="submenu-active" id="submenu-sponsorship" name="submenu-active" style="display:none;" type="radio" value="sponsorship"/>
+<input class="submenu-active" id="submenu-information" name="submenu-active" style="display:none;" type="radio" value="information"/>
+<input class="submenu-active" id="submenu-forauthors" name="submenu-active" style="display:none;" type="radio" value="forauthors"/>
+<input class="submenu-active" id="submenu-forparticipants" name="submenu-active" style="display:none;" type="radio" value="forparticipants"/>
+<div class="container" id="left-menu-bar">
+<div class="col-group">
+<div class="col-mb-4">
+<input checked="" class="category-active" id="category-conference" name="category-active" style="display:none;" type="radio" value="conference"/>
+<label class="menu-item submenu-toggle" x-category="conference">
+<a href="./">
+<div class="col-mb-12" id="menu-top">
+<i class="fas fa-university"></i><span class="hide-phone logo-font"> VLDB2020</span>
+</div>
+</a>
+</label>
+<div class="col-mb-12 menu-line bgcol-conference"></div>
+</div>
+<div class="col-mb-4">
+<input class="category-active" id="category-contributions" name="category-active" style="display:none;" type="radio" value="contributions"/>
+<label class="menu-item submenu-toggle" x-category="contributions">
+<div class="col-mb-12">
+<i class="fas fa-bullhorn"></i><span class="hide-phone"> Contributions</span>
+</div>
+</label>
+<div class="col-mb-12 menu-line bgcol-contributions"></div>
+</div>
+<div class="col-mb-4">
+<input class="category-active" id="category-sponsorship" name="category-active" style="display:none;" type="radio" value="sponsorship"/>
+<label class="menu-item submenu-toggle" x-category="sponsorship">
+<div class="col-mb-12">
+<i class="fas far fa-handshake"></i><span class="hide-phone"> Sponsorship</span>
+</div>
+</label>
+<div class="col-mb-12 menu-line bgcol-sponsorship"></div>
+</div>
+</div>
+</div>
+<div id="right-menu-bar">
+<div class="col-group">
+<div class="col-mb-4">
+<input class="category-active" id="category-information" name="category-active" style="display:none;" type="radio" value="information"/>
+<label class="menu-item submenu-toggle" x-category="information">
+<div class="col-mb-12">
+<i class="fas fa-info"></i><span class="hide-phone"> Information</span>
+</div>
+</label>
+<div class="col-mb-12 menu-line bgcol-information"></div>
+</div>
+<div class="col-mb-4">
+<input class="category-active" id="category-forauthors" name="category-active" style="display:none;" type="radio" value="forauthors"/>
+<label class="menu-item submenu-toggle" x-category="forauthors">
+<div class="col-mb-12">
+<i class="fas fa-pen-fancy"></i><span class="hide-phone"> for Authors</span>
+</div>
+</label>
+<div class="col-mb-12 menu-line bgcol-forauthors"></div>
+</div>
+<div class="col-mb-4">
+<input class="category-avtive" id="category-forparticipants" name="category-active" style="display:none;" type="radio" value="forparticipants"/>
+<label class="menu-item submenu-toggle" x-category="forparticipants">
+<div class="col-mb-12">
+<i class="fas fas fas fa-plane-arrival"></i><span class="hide-phone"> for Participants</span>
+</div>
+</label>
+<div class="col-mb-12 menu-line bgcol-forparticipants"></div>
+</div>
+</div>
+</div>
+<div class="submenu-panel contributions left-submenu-panel bgcol-contributions-dark" id="submenu-panel-contributions">
+<div>
+<div class="submenu-close submenu-toggle" x-category="contributions">
+<svg class="scroll-btn" height="100%" preserveaspectratio="xMidYMid slice" viewbox="0 0 1000 1200" width="100%" xmlns="http://www.w3.org/2000/svg">
+<polyline points="200 700 500 1100 800 700"></polyline>
+<circle cx="500" cy="400" id="dot1" r="50"></circle>
+<circle cx="500" cy="640" id="dot2" r="50"></circle>
+<circle cx="500" cy="880" id="dot3" r="50"></circle>
+</svg>
+</div>
+</div>
+<a href="/research-track.html">
+<div class="submenu-item">Research Track</div>
+</a>
+<a href="/industrial-track.html">
+<div class="submenu-item">Industrial Track <span class="badge">Extended!</span></div>
+</a>
+<a href="/phd-workshop.html">
+<div class="submenu-item">PhD Workshop <span class="badge">Extended!</span></div>
+</a>
+<hr/>
+<a href="/call4panel.html">
+<div class="submenu-item">Call for Panel Proposals</div>
+</a>
+<a href="/call4demo.html">
+<div class="submenu-item">Call for Demonstration Proposals <span class="badge">Extended!</span></div>
+</a>
+<a href="/call4tutorials.html">
+<div class="submenu-item">Call for Tutorials <span class="badge">Extended!</span></div>
+</a>
+<a href="/call4workshops.html">
+<div class="submenu-item">Call for Workshop Proposals</div>
+</a>
+</div>
+<div class="submenu-panel sponsorship left-submenu-panel bgcol-sponsorship-dark" id="submenu-panel-sponsorship">
+<div>
+<div class="submenu-close submenu-toggle" x-category="sponsorship">
+<svg class="scroll-btn" height="100%" preserveaspectratio="xMidYMid slice" viewbox="0 0 1000 1200" width="100%" xmlns="http://www.w3.org/2000/svg">
+<polyline points="200 700 500 1100 800 700"></polyline>
+<circle cx="500" cy="400" id="dot1" r="50"></circle>
+<circle cx="500" cy="640" id="dot2" r="50"></circle>
+<circle cx="500" cy="880" id="dot3" r="50"></circle>
+</svg>
+</div>
+</div>
+<a href="/sponsorship.html">
+<div class="submenu-item">Sponsorship Opportunities</div>
+</a>
+<hr/>
+<a href="/sponsor.html">
+<div class="submenu-item">Our Sponsors</div>
+</a>
+</div>
+<div class="submenu-panel information right-submenu-panel bgcol-information-dark" id="submenu-panel-information">
+<div>
+<div class="submenu-close submenu-toggle" x-category="information">
+<svg class="scroll-btn" height="100%" preserveaspectratio="xMidYMid slice" viewbox="0 0 1000 1200" width="100%" xmlns="http://www.w3.org/2000/svg">
+<polyline points="200 700 500 1100 800 700"></polyline>
+<circle cx="500" cy="400" id="dot1" r="50"></circle>
+<circle cx="500" cy="640" id="dot2" r="50"></circle>
+<circle cx="500" cy="880" id="dot3" r="50"></circle>
+</svg>
+</div>
+</div>
+<a href="/overview.html">
+<div class="submenu-item">Conference Overview</div>
+</a>
+<a href="/officers.html">
+<div class="submenu-item">Conference Officers</div>
+</a>
+<a href="/pvldb.html">
+<div class="submenu-item">PVLDB Review Board</div>
+</a>
+<a href="/contacts.html">
+<div class="submenu-item">Contacts</div>
+</a>
+<hr/>
+<a href="/program_workshops.html">
+<div class="submenu-item">Workshops</div>
+</a>
+</div>
+<div class="submenu-panel forauthors right-submenu-panel bgcol-forauthors-dark" id="submenu-panel-forauthors">
+<div>
+<div class="submenu-close submenu-toggle" x-category="forauthors">
+<svg class="scroll-btn" height="100%" preserveaspectratio="xMidYMid slice" viewbox="0 0 1000 1200" width="100%" xmlns="http://www.w3.org/2000/svg">
+<polyline points="200 700 500 1100 800 700"></polyline>
+<circle cx="500" cy="400" id="dot1" r="50"></circle>
+<circle cx="500" cy="640" id="dot2" r="50"></circle>
+<circle cx="500" cy="880" id="dot3" r="50"></circle>
+</svg>
+</div>
+</div>
+<a href="/important-dates.html">
+<div class="submenu-item">Important Dates</div>
+</a>
+<hr/>
+<a href="/formatting-guidelines.html">
+<div class="submenu-item">Formatting Guidelines</div>
+</a>
+<a href="/submission-guidelines.html">
+<div class="submenu-item">Submission Guidelines</div>
+</a>
+</div>
+<div class="submenu-panel forparticipants right-submenu-panel bgcol-forparticipants-dark" id="submenu-panel-forparticipants">
+<div>
+<div class="submenu-close submenu-toggle" x-category="forparticipants">
+<svg class="scroll-btn" height="100%" preserveaspectratio="xMidYMid slice" viewbox="0 0 1000 1200" width="100%" xmlns="http://www.w3.org/2000/svg">
+<polyline points="200 700 500 1100 800 700"></polyline>
+<circle cx="500" cy="400" id="dot1" r="50"></circle>
+<circle cx="500" cy="640" id="dot2" r="50"></circle>
+<circle cx="500" cy="880" id="dot3" r="50"></circle>
+</svg>
+</div>
+</div>
+<div class="submenu-item link-disable">Registration</div>
+<div class="submenu-item link-disable">Conference Venue</div>
+<div class="submenu-item link-disable">Lodging</div>
+<div class="submenu-item link-disable">Travel Fellowship</div>
+<div class="submenu-item link-disable">Visa Information</div>
+<div class="submenu-item link-disable">Public Transport</div>
+<div class="submenu-item link-disable">Local Attractions</div>
+<div class="submenu-item link-disable">Public Safety</div>
+</div>
+<div class="submenu-mask" id="submenu-mask"></div>
+<svg class="toppage-wrap" height="100vh" preserveaspectratio="xMidYMid slice" viewbox="0 0 1080 1080" width="100vw" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<text id="textVLDB" x="580" y="420">VLDB</text>
+<text id="text2020" x="540" y="570">2020</text>
+<text id="textTokyo" x="490" y="720">Tokyo</text>
+<mask height="1080" id="mask" width="1080" x="0" y="0">
+<rect height="1080" width="1080" x="0" y="0"></rect>
+<use href="#textVLDB" xlink:=""></use>
+<use href="#text2020" xlink:=""></use>
+<use href="#textTokyo" xlink:=""></use>
+</mask>
+</defs>
+<rect height="1080" width="1080" x="0" y="0"></rect>
+<use class="textoutline" href="#textVLDB" xlink:=""></use>
+<use class="textoutline" href="#text2020" xlink:=""></use>
+<use class="textoutline" href="#textTokyo" xlink:=""></use>
+<text class="smalltext" id="textC" x="480" y="750">46th International Conference on Very Large Data Bases</text>
+</svg>
+<video autoplay="" id="toppage-video" loop="" muted="" poster="/assets/media/toppage-background.jpg" preload="auto">
+<source src="/assets/media/toppage-background.webm" type="video/webm">
+<source src="/assets/media/toppage-background.mp4" type="video/mp4">
+</source></source></video>
+<div class="conference" id="toppage-cnt">
+<label class="menu-btn" for="toppage-toggle">
+<div class="scroll-cnt">
+<svg class="scroll-btn" height="100%" preserveaspectratio="xMidYMid slice" viewbox="0 0 1000 1200" width="100%" xmlns="http://www.w3.org/2000/svg">
+<rect height="1200" width="1000" x="0" y="0"></rect>
+<polyline points="200 700 500 1100 800 700"></polyline>
+<circle cx="500" cy="400" id="dot1" r="50"></circle>
+<circle cx="500" cy="640" id="dot2" r="50"></circle>
+<circle cx="500" cy="880" id="dot3" r="50"></circle>
+</svg>
+</div>
+</label>
+<div id="contents-body">
+<header class="contents-header">
+<input id="social-toggle" name="social-toggle" style="display:none;" type="checkbox" value="on"/>
+<label for="social-toggle">
+<i class="fas fa-share-alt-square social-share" for="social-toggle"></i>
+</label>
+<a class="social-facebook social-icon" href="#" x-href="https://www.facebook.com/sharer.php?u={url}"><i class="fab fa-facebook-square"></i></a>
+<a class="social-twitter social-icon" href="#" x-href="https://twitter.com/intent/tweet?url={url}&amp;hashtags=#VLDB2020"><i class="fab fa-twitter-square"></i></a>
+<a class="social-linkedin social-icon" href="#" x-href="https://www.linkedin.com/shareArticle?mini=true&amp;url={url}"><i class="fab fa-linkedin"></i></a>
+<a class="social-reddit social-icon" href="#" x-href="https://reddit.com/submit?url={url}"><i class="fab fa-reddit-square"></i></a>
+<a class="social-tumblr social-icon" href="#" x-href="https://www.tumblr.com/widgets/share/tool?canonicalUrl={url}"><i class="fab fa-tumblr-square"></i></a>
+<a class="social-line social-icon" href="#" x-href="https://lineit.line.me/share/ui?url={url}"><i class="fab fa-line"></i></a>
+<a class="social-xing social-icon" href="#" x-href="https://www.xing.com/spi/shares/new?url={url}"><i class="fab fa-xing-square"></i></a>
+<a class="social-pinterest social-icon" href="#" x-href="http://pinterest.com/pin/create/link/?url={url}"><i class="fab fa-pinterest-square"></i></a>
+</header>
+<main id="barba-wrapper">
+<div class="barba-container" x-category="conference">
+<article>
+<p><img src="assets/media/vldb2020-banner.svg" width="100%"/></p>
+<ul class="fa-ul">
+<li><span class="fa-li"><i class="fas fa-globe-asia"></i></span>Tokyo Japan</li>
+<li><span class="fa-li"><i class="far fa-calendar-alt"></i></span>Monday, August 31 <i class="fas fa-arrow-right"></i>Friday, September 4, 2020</li>
+</ul>
+<p>VLDB is a premier annual international forum for data management and database researchers, vendors, practitioners, application developers, and users. The VLDB 2020 conference will feature research talks, tutorials, demonstrations, and workshops. It will cover issues in data management,  database and information systems research, since they are the technological cornerstones of the emerging applications of the 21st century.</p>
+<h2 id="vldb2020-venue">VLDB2020 Venue</h2>
+<ul class="fa-ul">
+<li><span class="fa-li"><i class="fas fa-hotel"></i></span><strong>Keio Plaza Hotel
+            Tokyo</strong></li>
+<li><span class="fa-li"><i class="fas fa-map"></i></span>2-2-1 Nishi-Shinjuku,
+        Shinjuku-Ku,
+        Tokyo
+        160-8330 Japan</li>
+<li><span class="fa-li"><i class="fas fa-phone"></i></span>+81 3 3344 0111</li>
+</ul>
+</article>
+</div>
+</main>
+<footer class="contents-footer">
+<div class="col-group">
+<div class="col-6" id="footer-left">
+        46th International Conference on Very Large Data Bases<br/>
+        Tokyo, Japan, Mon. Aug. 31<i class="fas fa-arrow-right"></i> Fri. Sep. 4, 2020.
+    </div>
+<div class="col-6" id="footer-right">
+<a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license"><i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by"></i><i class="fab fa-creative-commons-sa"></i></a>
+<i class="fab fa-twitter"></i>
+<i class="fab fa-facebook-f"></i>
+<i class="fab fa-instagram"></i>
+<a href="https://github.com/VLDB2020/VLDB2020.github.io"><i class="fab fa-github"></i></a>
+</div>
+</div>
+</footer>
+</div>
+</div>
+<div>
+<input id="toppage-toggle" style="display:none;" type="checkbox"/>
+<input class="submenu-active" id="submenu-conference" name="submenu-active" style="display:none;" type="radio" value="conference"/>
+<input class="submenu-active" id="submenu-contributions" name="submenu-active" style="display:none;" type="radio" value="contributions"/>
+<input class="submenu-active" id="submenu-sponsorship" name="submenu-active" style="display:none;" type="radio" value="sponsorship"/>
+<input class="submenu-active" id="submenu-information" name="submenu-active" style="display:none;" type="radio" value="information"/>
+<input class="submenu-active" id="submenu-forauthors" name="submenu-active" style="display:none;" type="radio" value="forauthors"/>
+<input class="submenu-active" id="submenu-forparticipants" name="submenu-active" style="display:none;" type="radio" value="forparticipants"/>
+<div class="container" id="left-menu-bar">
+<div class="col-group">
+<div class="col-mb-4">
+<input class="category-active" id="category-conference" name="category-active" style="display:none;" type="radio" value="conference"/>
+<label class="menu-item submenu-toggle" x-category="conference">
+<a href="./">
+<div class="col-mb-12" id="menu-top">
+<i class="fas fa-university"></i><span class="hide-phone logo-font"> VLDB2020</span>
+</div>
+</a>
+</label>
+<div class="col-mb-12 menu-line bgcol-conference"></div>
+</div>
+<div class="col-mb-4">
+<input checked="" class="category-active" id="category-contributions" name="category-active" style="display:none;" type="radio" value="contributions"/>
+<label class="menu-item submenu-toggle" x-category="contributions">
+<div class="col-mb-12">
+<i class="fas fa-bullhorn"></i><span class="hide-phone"> Contributions</span>
+</div>
+</label>
+<div class="col-mb-12 menu-line bgcol-contributions"></div>
+</div>
+<div class="col-mb-4">
+<input class="category-active" id="category-sponsorship" name="category-active" style="display:none;" type="radio" value="sponsorship"/>
+<label class="menu-item submenu-toggle" x-category="sponsorship">
+<div class="col-mb-12">
+<i class="fas far fa-handshake"></i><span class="hide-phone"> Sponsorship</span>
+</div>
+</label>
+<div class="col-mb-12 menu-line bgcol-sponsorship"></div>
+</div>
+</div>
+</div>
+<div id="right-menu-bar">
+<div class="col-group">
+<div class="col-mb-4">
+<input class="category-active" id="category-information" name="category-active" style="display:none;" type="radio" value="information"/>
+<label class="menu-item submenu-toggle" x-category="information">
+<div class="col-mb-12">
+<i class="fas fa-info"></i><span class="hide-phone"> Information</span>
+</div>
+</label>
+<div class="col-mb-12 menu-line bgcol-information"></div>
+</div>
+<div class="col-mb-4">
+<input class="category-active" id="category-forauthors" name="category-active" style="display:none;" type="radio" value="forauthors"/>
+<label class="menu-item submenu-toggle" x-category="forauthors">
+<div class="col-mb-12">
+<i class="fas fa-pen-fancy"></i><span class="hide-phone"> for Authors</span>
+</div>
+</label>
+<div class="col-mb-12 menu-line bgcol-forauthors"></div>
+</div>
+<div class="col-mb-4">
+<input class="category-avtive" id="category-forparticipants" name="category-active" style="display:none;" type="radio" value="forparticipants"/>
+<label class="menu-item submenu-toggle" x-category="forparticipants">
+<div class="col-mb-12">
+<i class="fas fas fas fa-plane-arrival"></i><span class="hide-phone"> for Participants</span>
+</div>
+</label>
+<div class="col-mb-12 menu-line bgcol-forparticipants"></div>
+</div>
+</div>
+</div>
+<div class="submenu-panel contributions left-submenu-panel bgcol-contributions-dark" id="submenu-panel-contributions">
+<div>
+<div class="submenu-close submenu-toggle" x-category="contributions">
+<svg class="scroll-btn" height="100%" preserveaspectratio="xMidYMid slice" viewbox="0 0 1000 1200" width="100%" xmlns="http://www.w3.org/2000/svg">
+<polyline points="200 700 500 1100 800 700"></polyline>
+<circle cx="500" cy="400" id="dot1" r="50"></circle>
+<circle cx="500" cy="640" id="dot2" r="50"></circle>
+<circle cx="500" cy="880" id="dot3" r="50"></circle>
+</svg>
+</div>
+</div>
+<a href="/research-track.html">
+<div class="submenu-item">Research Track</div>
+</a>
+<a href="/industrial-track.html">
+<div class="submenu-item">Industrial Track <span class="badge">Extended!</span></div>
+</a>
+<a href="/phd-workshop.html">
+<div class="submenu-item">PhD Workshop <span class="badge">Extended!</span></div>
+</a>
+<hr/>
+<a href="/call4panel.html">
+<div class="submenu-item">Call for Panel Proposals</div>
+</a>
+<a href="/call4demo.html">
+<div class="submenu-item">Call for Demonstration Proposals <span class="badge">Extended!</span></div>
+</a>
+<a href="/call4tutorials.html">
+<div class="submenu-item">Call for Tutorials <span class="badge">Extended!</span></div>
+</a>
+<a href="/call4workshops.html">
+<div class="submenu-item">Call for Workshop Proposals</div>
+</a>
+</div>
+<div class="submenu-panel sponsorship left-submenu-panel bgcol-sponsorship-dark" id="submenu-panel-sponsorship">
+<div>
+<div class="submenu-close submenu-toggle" x-category="sponsorship">
+<svg class="scroll-btn" height="100%" preserveaspectratio="xMidYMid slice" viewbox="0 0 1000 1200" width="100%" xmlns="http://www.w3.org/2000/svg">
+<polyline points="200 700 500 1100 800 700"></polyline>
+<circle cx="500" cy="400" id="dot1" r="50"></circle>
+<circle cx="500" cy="640" id="dot2" r="50"></circle>
+<circle cx="500" cy="880" id="dot3" r="50"></circle>
+</svg>
+</div>
+</div>
+<a href="/sponsorship.html">
+<div class="submenu-item">Sponsorship Opportunities</div>
+</a>
+<hr/>
+<a href="/sponsor.html">
+<div class="submenu-item">Our Sponsors</div>
+</a>
+</div>
+<div class="submenu-panel information right-submenu-panel bgcol-information-dark" id="submenu-panel-information">
+<div>
+<div class="submenu-close submenu-toggle" x-category="information">
+<svg class="scroll-btn" height="100%" preserveaspectratio="xMidYMid slice" viewbox="0 0 1000 1200" width="100%" xmlns="http://www.w3.org/2000/svg">
+<polyline points="200 700 500 1100 800 700"></polyline>
+<circle cx="500" cy="400" id="dot1" r="50"></circle>
+<circle cx="500" cy="640" id="dot2" r="50"></circle>
+<circle cx="500" cy="880" id="dot3" r="50"></circle>
+</svg>
+</div>
+</div>
+<a href="/overview.html">
+<div class="submenu-item">Conference Overview</div>
+</a>
+<a href="/officers.html">
+<div class="submenu-item">Conference Officers</div>
+</a>
+<a href="/pvldb.html">
+<div class="submenu-item">PVLDB Review Board</div>
+</a>
+<a href="/contacts.html">
+<div class="submenu-item">Contacts</div>
+</a>
+<hr/>
+<a href="/program_workshops.html">
+<div class="submenu-item">Workshops</div>
+</a>
+</div>
+<div class="submenu-panel forauthors right-submenu-panel bgcol-forauthors-dark" id="submenu-panel-forauthors">
+<div>
+<div class="submenu-close submenu-toggle" x-category="forauthors">
+<svg class="scroll-btn" height="100%" preserveaspectratio="xMidYMid slice" viewbox="0 0 1000 1200" width="100%" xmlns="http://www.w3.org/2000/svg">
+<polyline points="200 700 500 1100 800 700"></polyline>
+<circle cx="500" cy="400" id="dot1" r="50"></circle>
+<circle cx="500" cy="640" id="dot2" r="50"></circle>
+<circle cx="500" cy="880" id="dot3" r="50"></circle>
+</svg>
+</div>
+</div>
+<a href="/important-dates.html">
+<div class="submenu-item">Important Dates</div>
+</a>
+<hr/>
+<a href="/formatting-guidelines.html">
+<div class="submenu-item">Formatting Guidelines</div>
+</a>
+<a href="/submission-guidelines.html">
+<div class="submenu-item">Submission Guidelines</div>
+</a>
+</div>
+<div class="submenu-panel forparticipants right-submenu-panel bgcol-forparticipants-dark" id="submenu-panel-forparticipants">
+<div>
+<div class="submenu-close submenu-toggle" x-category="forparticipants">
+<svg class="scroll-btn" height="100%" preserveaspectratio="xMidYMid slice" viewbox="0 0 1000 1200" width="100%" xmlns="http://www.w3.org/2000/svg">
+<polyline points="200 700 500 1100 800 700"></polyline>
+<circle cx="500" cy="400" id="dot1" r="50"></circle>
+<circle cx="500" cy="640" id="dot2" r="50"></circle>
+<circle cx="500" cy="880" id="dot3" r="50"></circle>
+</svg>
+</div>
+</div>
+<div class="submenu-item link-disable">Registration</div>
+<div class="submenu-item link-disable">Conference Venue</div>
+<div class="submenu-item link-disable">Lodging</div>
+<div class="submenu-item link-disable">Travel Fellowship</div>
+<div class="submenu-item link-disable">Visa Information</div>
+<div class="submenu-item link-disable">Public Transport</div>
+<div class="submenu-item link-disable">Local Attractions</div>
+<div class="submenu-item link-disable">Public Safety</div>
+</div>
+<div class="submenu-mask" id="submenu-mask"></div>
+<svg class="toppage-wrap" height="100vh" preserveaspectratio="xMidYMid slice" viewbox="0 0 1080 1080" width="100vw" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<text id="textVLDB" x="580" y="420">VLDB</text>
+<text id="text2020" x="540" y="570">2020</text>
+<text id="textTokyo" x="490" y="720">Tokyo</text>
+<mask height="1080" id="mask" width="1080" x="0" y="0">
+<rect height="1080" width="1080" x="0" y="0"></rect>
+<use href="#textVLDB" xlink:=""></use>
+<use href="#text2020" xlink:=""></use>
+<use href="#textTokyo" xlink:=""></use>
+</mask>
+</defs>
+<rect height="1080" width="1080" x="0" y="0"></rect>
+<use class="textoutline" href="#textVLDB" xlink:=""></use>
+<use class="textoutline" href="#text2020" xlink:=""></use>
+<use class="textoutline" href="#textTokyo" xlink:=""></use>
+<text class="smalltext" id="textC" x="480" y="750">46th International Conference on Very Large Data Bases</text>
+</svg>
+<video autoplay="" id="toppage-video" loop="" muted="" poster="/assets/media/toppage-background.jpg" preload="auto">
+<source src="/assets/media/toppage-background.webm" type="video/webm">
+<source src="/assets/media/toppage-background.mp4" type="video/mp4">
+</source></source></video>
+<div class="contributions" id="toppage-cnt">
+<label class="menu-btn" for="toppage-toggle">
+<div class="scroll-cnt">
+<svg class="scroll-btn" height="100%" preserveaspectratio="xMidYMid slice" viewbox="0 0 1000 1200" width="100%" xmlns="http://www.w3.org/2000/svg">
+<rect height="1200" width="1000" x="0" y="0"></rect>
+<polyline points="200 700 500 1100 800 700"></polyline>
+<circle cx="500" cy="400" id="dot1" r="50"></circle>
+<circle cx="500" cy="640" id="dot2" r="50"></circle>
+<circle cx="500" cy="880" id="dot3" r="50"></circle>
+</svg>
+</div>
+</label>
+<div id="contents-body">
+<header class="contents-header">
+<input id="social-toggle" name="social-toggle" style="display:none;" type="checkbox" value="on"/>
+<label for="social-toggle">
+<i class="fas fa-share-alt-square social-share" for="social-toggle"></i>
+</label>
+<a class="social-facebook social-icon" href="#" x-href="https://www.facebook.com/sharer.php?u={url}"><i class="fab fa-facebook-square"></i></a>
+<a class="social-twitter social-icon" href="#" x-href="https://twitter.com/intent/tweet?url={url}&amp;hashtags=#VLDB2020"><i class="fab fa-twitter-square"></i></a>
+<a class="social-linkedin social-icon" href="#" x-href="https://www.linkedin.com/shareArticle?mini=true&amp;url={url}"><i class="fab fa-linkedin"></i></a>
+<a class="social-reddit social-icon" href="#" x-href="https://reddit.com/submit?url={url}"><i class="fab fa-reddit-square"></i></a>
+<a class="social-tumblr social-icon" href="#" x-href="https://www.tumblr.com/widgets/share/tool?canonicalUrl={url}"><i class="fab fa-tumblr-square"></i></a>
+<a class="social-line social-icon" href="#" x-href="https://lineit.line.me/share/ui?url={url}"><i class="fab fa-line"></i></a>
+<a class="social-xing social-icon" href="#" x-href="https://www.xing.com/spi/shares/new?url={url}"><i class="fab fa-xing-square"></i></a>
+<a class="social-pinterest social-icon" href="#" x-href="http://pinterest.com/pin/create/link/?url={url}"><i class="fab fa-pinterest-square"></i></a>
+</header>
+<main id="barba-wrapper">
+<div class="barba-container" x-category="contributions">
+<article>
+<h1 id="vldb2020-call-for-contributions">VLDB2020: Call for Contributions</h1>
+<h2 id="research-track">Research Track</h2>
+<h3 id="1-overview">1. Overview</h3>
+<p>VLDB 2020 invites submissions of original research papers to Volume 13 of the Proceedings of the VLDB Endowment (PVLDB). Papers accepted by June 15, 2020 will form the Research Track of the 2020 VLDB conference, together with any rollover papers from Volume 12. Papers accepted to Volume 13 after June 15, 2020 will be rolled over to the 2021 VLDB conference.</p>
+<p>The annual VLDB conference is a premier annual international forum for database researchers, vendors, practitioners, application developers, and users. PVLDB, established in 2008, is a scholarly journal for short and timely research papers, with a journal-style review and quality assurance process. PVLDB is distinguished by a monthly submission process with rapid reviews. PVLDB issues are published regularly throughout the year. Your paper will appear in PVLDB soon after acceptance, and possibly in advance of the VLDB conference. All papers accepted in time will be published in PVLDB Vol. 13 and also presented at the VLDB 2020 conference. At least one author of every accepted paper is expected to attend the VLDB 2020 conference.</p>
+<p>PVLDB is the only submission channel for research papers to appear in the VLDB 2020 conference. Please see the submission guidelines for paper submission instructions. The submission process for other VLDB 2020 tracks is different, and is described in their respective calls for papers.</p>
+<h3 id="2-topics-of-interest">2. Topics of Interest</h3>
+<p>PVLDB welcomes original research papers on a broad range of topics related to all aspects of data management. The themes and topics listed below are intended to serve primarily as indicators of the kinds of data-centric subjects that are of interest to PVLDB –they do not represent an exhaustive list.</p>
+<ul>
+<li>Access Methods, Concurrency Control, Recovery, Transactions, Indexing and Search, In-memory Data Management, Hardware Accelerators, Query Processing and Optimization, Storage Management.</li>
+<li>Privacy and Security in Data Management.</li>
+<li>Graph Data Management, Social Networks, Recommendation Systems.</li>
+<li>Data Mining and Analytics, Warehousing.</li>
+<li>Crowdsourcing, Embedded and Mobile Databases, Real-time Databases, Sensors and IoT, Stream Databases.</li>
+<li>Data Models and Query Languages, Schema Management and Design, Database Usability, User Interfaces and Visualization.</li>
+<li>Tuning, Benchmarking, Performance Measurement, Database Administration and Manageability.</li>
+<li>Distributed Database Systems, Cloud Data Management, NoSQL, Scalable Analytics, Distributed Transactions, Consistency, P2P and Networked Data Management, Database-as-a-Service, Content Delivery Networks.</li>
+<li>Provenance and Workflows, Spatial, Temporal, and Multimedia Databases, Scientific and Medical Data Management, Profile-based or Context-Aware Data Management.</li>
+<li>Data Cleaning, Information Filtering and Dissemination, Information Integration, Metadata Management, Data Discovery, Web Data Management, Semantic Web, Heterogeneous and Federated Database Systems.</li>
+<li>Fuzzy, Probabilistic and Approximate Databases, Information Retrieval, Text in Databases.</li>
+</ul>
+<h3 id="3-major-revisions-from-pvldb-vol-12">3. Major Revisions from PVLDB Vol. 12</h3>
+<p>We made the following major revisions:</p>
+<ul>
+<li>Among the types of papers, we abolished Innovative Systems and Application Papers.</li>
+<li>The suggested limit for vision papers is 6 pages but longer vision papers will also be accepted (up to the strict limit of 12 pages + references).</li>
+<li>For Regular Research Papers, we explicitly distinguish four paper flavors (Foundations Papers, Algorithms Papers, System Papers, and Information System Architecture Papers).</li>
+</ul>
+<h3 id="4-three-categories-of-papers">4. Three Categories of Papers</h3>
+<p>There are three categories of papers in the research track.</p>
+<ul>
+<li><strong><em>Regular Research Papers</em></strong> (12 pages excluding references)</li>
+<li><strong><em>Experiment and Analysis Papers</em></strong> (12 pages excluding references)</li>
+<li><strong><em>Vision Papers</em></strong> (6 to 12 pages excluding references, shorter papers encouraged)</li>
+</ul>
+<p>For Experiment and Analysis Papers and Vision Papers, you need to append the category tag as a suffix to the title of the paper such as “Data Management in the Year 3000 [Vision]”. The details of Experiment and Analysis Papers and Vision Papers are given below.</p>
+<h4 id="41-experiment-and-analysis-papers">4.1 Experiment and Analysis Papers</h4>
+<p>These papers focus on the evaluation of existing algorithms, data structures, and systems that are of wide interest. The scientific contribution of an E&amp;A track paper lies in providing new insights into the strengths and weaknesses of existing methods rather than providing new methods. Some examples of types of papers suitable for the Experiment and Analysis category are:</p>
+<ul>
+<li>Experimental surveys that compare existing solutions to a problem and, through extensive experiments, provide a comprehensive perspective on their strengths and weaknesses, or</li>
+<li>papers that verify or refute results published in the past and that, through a renewed performance evaluation, help to advance the state of the art, or</li>
+<li>papers that discuss the development or use of open resources (including data or metadata, benchmarks, evaluation tools, or other resources) that benefit the research community or evaluation of research ideas, or</li>
+<li>papers that focus on relevant problems or phenomena and through analysis and/or experimentation provide insights on the nature or characteristics of these phenomena.</li>
+</ul>
+<p>We encourage authors of accepted E&amp;A papers, at the time of the publication, to make available all the experimental data and, whenever possible, the related software. For papers that identify negative or contradictory results for published results by third parties, the Program Committee may ask the third party to comment on the submission and even request a short rebuttal/explanation to be published along with the submission in the event of acceptance. In order to be finally accepted with the E&amp;A category of the research track, a successful participation at the reproducibility mechanism provided by PVLDB is mandatory.</p>
+<h4 id="42-vision-papers">4.2 Vision Papers</h4>
+<p>Vision papers outline futuristic information systems and architectures or anticipate new challenges. Submissions would describe novel projects that are in an early stage but hold out the strong promise of eventual high impact. The focus should be on the key insight behind the project (e.g., a new set of ground rules or a novel technology), as well as explaining how the key insight can be leveraged in building a system. The paper must describe what the success criteria are for the vision project. The length of a submission within the Vision Papers category is 6 to 12 pages excluding references (see submission guidelines for details).</p>
+<h3 id="5-four-flavors-of-regular-research-papers">5. Four Flavors of Regular Research Papers</h3>
+<p>PVLDB recognizes that research papers come in different flavors. These flavors impact how a paper should be evaluated. In particular, we recognize the following paper categories:</p>
+<ul>
+<li><strong><em>Foundations Papers and Algorithms Papers:</em></strong> The primary contribution of papers that focus on foundations and algorithms lies in their formal underpinnings expressed through precise pseudocode or theoretical formalism. These papers include a prototype implementation and evaluation, including comparisons with alternate approaches, but these are typically limited to demonstrating the conceptual ideas.</li>
+<li><strong><em>Systems Papers:</em></strong> The primary contribution of systems papers lies in the development of novel and practical approaches. Systems papers will typically have no proofs and no theoretical formalism, but will include a solid prototype implementation and empirical evaluation, typically in a working system.</li>
+<li><strong><em>Information System Architectures Papers:</em></strong> The key contribution of those papers lies in an innovative architecture for a new type of data management system. These papers include an initial prototype implementation and evaluation, but their main contribution lies in the breadth and impact of the overall vision. The details of design goals (e.g., the class of workload to be supported), systems architecture, new abstractions, and design justifications are expected.</li>
+</ul>
+<p>A paper may, of course, have qualities from more than one of the above categories. That is a plus for the paper, but not a requirement. This year, we seek to bring attention to those differences during the review process. When you submit the paper, you will have the opportunity to indicate which flavor or flavors best describe your paper. Please note that you do not need to add a suffix to the title.</p>
+</article>
+</div>
+</main>
+<footer class="contents-footer">
+<div class="col-group">
+<div class="col-6" id="footer-left">
+        46th International Conference on Very Large Data Bases<br/>
+        Tokyo, Japan, Mon. Aug. 31<i class="fas fa-arrow-right"></i> Fri. Sep. 4, 2020.
+    </div>
+<div class="col-6" id="footer-right">
+<a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license"><i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by"></i><i class="fab fa-creative-commons-sa"></i></a>
+<i class="fab fa-twitter"></i>
+<i class="fab fa-facebook-f"></i>
+<i class="fab fa-instagram"></i>
+<a href="https://github.com/VLDB2020/VLDB2020.github.io"><i class="fab fa-github"></i></a>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</div><div>
+<input id="toppage-toggle" style="display:none;" type="checkbox"/>
+<input class="submenu-active" id="submenu-conference" name="submenu-active" style="display:none;" type="radio" value="conference"/>
+<input class="submenu-active" id="submenu-contributions" name="submenu-active" style="display:none;" type="radio" value="contributions"/>
+<input class="submenu-active" id="submenu-sponsorship" name="submenu-active" style="display:none;" type="radio" value="sponsorship"/>
+<input class="submenu-active" id="submenu-information" name="submenu-active" style="display:none;" type="radio" value="information"/>
+<input class="submenu-active" id="submenu-forauthors" name="submenu-active" style="display:none;" type="radio" value="forauthors"/>
+<input class="submenu-active" id="submenu-forparticipants" name="submenu-active" style="display:none;" type="radio" value="forparticipants"/>
+<div class="container" id="left-menu-bar">
+<div class="col-group">
+<div class="col-mb-4">
+<input class="category-active" id="category-conference" name="category-active" style="display:none;" type="radio" value="conference"/>
+<label class="menu-item submenu-toggle" x-category="conference">
+<a href="./">
+<div class="col-mb-12" id="menu-top">
+<i class="fas fa-university"></i><span class="hide-phone logo-font"> VLDB2020</span>
+</div>
+</a>
+</label>
+<div class="col-mb-12 menu-line bgcol-conference"></div>
+</div>
+<div class="col-mb-4">
+<input class="category-active" id="category-contributions" name="category-active" style="display:none;" type="radio" value="contributions"/>
+<label class="menu-item submenu-toggle" x-category="contributions">
+<div class="col-mb-12">
+<i class="fas fa-bullhorn"></i><span class="hide-phone"> Contributions</span>
+</div>
+</label>
+<div class="col-mb-12 menu-line bgcol-contributions"></div>
+</div>
+<div class="col-mb-4">
+<input class="category-active" id="category-sponsorship" name="category-active" style="display:none;" type="radio" value="sponsorship"/>
+<label class="menu-item submenu-toggle" x-category="sponsorship">
+<div class="col-mb-12">
+<i class="fas far fa-handshake"></i><span class="hide-phone"> Sponsorship</span>
+</div>
+</label>
+<div class="col-mb-12 menu-line bgcol-sponsorship"></div>
+</div>
+</div>
+</div>
+<div id="right-menu-bar">
+<div class="col-group">
+<div class="col-mb-4">
+<input checked="" class="category-active" id="category-information" name="category-active" style="display:none;" type="radio" value="information"/>
+<label class="menu-item submenu-toggle" x-category="information">
+<div class="col-mb-12">
+<i class="fas fa-info"></i><span class="hide-phone"> Information</span>
+</div>
+</label>
+<div class="col-mb-12 menu-line bgcol-information"></div>
+</div>
+<div class="col-mb-4">
+<input class="category-active" id="category-forauthors" name="category-active" style="display:none;" type="radio" value="forauthors"/>
+<label class="menu-item submenu-toggle" x-category="forauthors">
+<div class="col-mb-12">
+<i class="fas fa-pen-fancy"></i><span class="hide-phone"> for Authors</span>
+</div>
+</label>
+<div class="col-mb-12 menu-line bgcol-forauthors"></div>
+</div>
+<div class="col-mb-4">
+<input class="category-avtive" id="category-forparticipants" name="category-active" style="display:none;" type="radio" value="forparticipants"/>
+<label class="menu-item submenu-toggle" x-category="forparticipants">
+<div class="col-mb-12">
+<i class="fas fas fas fa-plane-arrival"></i><span class="hide-phone"> for Participants</span>
+</div>
+</label>
+<div class="col-mb-12 menu-line bgcol-forparticipants"></div>
+</div>
+</div>
+</div>
+<div class="submenu-panel contributions left-submenu-panel bgcol-contributions-dark" id="submenu-panel-contributions">
+<div>
+<div class="submenu-close submenu-toggle" x-category="contributions">
+<svg class="scroll-btn" height="100%" preserveaspectratio="xMidYMid slice" viewbox="0 0 1000 1200" width="100%" xmlns="http://www.w3.org/2000/svg">
+<polyline points="200 700 500 1100 800 700"></polyline>
+<circle cx="500" cy="400" id="dot1" r="50"></circle>
+<circle cx="500" cy="640" id="dot2" r="50"></circle>
+<circle cx="500" cy="880" id="dot3" r="50"></circle>
+</svg>
+</div>
+</div>
+<a href="/research-track.html">
+<div class="submenu-item">Research Track</div>
+</a>
+<a href="/industrial-track.html">
+<div class="submenu-item">Industrial Track <span class="badge">Extended!</span></div>
+</a>
+<a href="/phd-workshop.html">
+<div class="submenu-item">PhD Workshop <span class="badge">Extended!</span></div>
+</a>
+<hr/>
+<a href="/call4panel.html">
+<div class="submenu-item">Call for Panel Proposals</div>
+</a>
+<a href="/call4demo.html">
+<div class="submenu-item">Call for Demonstration Proposals <span class="badge">Extended!</span></div>
+</a>
+<a href="/call4tutorials.html">
+<div class="submenu-item">Call for Tutorials <span class="badge">Extended!</span></div>
+</a>
+<a href="/call4workshops.html">
+<div class="submenu-item">Call for Workshop Proposals</div>
+</a>
+</div>
+<div class="submenu-panel sponsorship left-submenu-panel bgcol-sponsorship-dark" id="submenu-panel-sponsorship">
+<div>
+<div class="submenu-close submenu-toggle" x-category="sponsorship">
+<svg class="scroll-btn" height="100%" preserveaspectratio="xMidYMid slice" viewbox="0 0 1000 1200" width="100%" xmlns="http://www.w3.org/2000/svg">
+<polyline points="200 700 500 1100 800 700"></polyline>
+<circle cx="500" cy="400" id="dot1" r="50"></circle>
+<circle cx="500" cy="640" id="dot2" r="50"></circle>
+<circle cx="500" cy="880" id="dot3" r="50"></circle>
+</svg>
+</div>
+</div>
+<a href="/sponsorship.html">
+<div class="submenu-item">Sponsorship Opportunities</div>
+</a>
+<hr/>
+<a href="/sponsor.html">
+<div class="submenu-item">Our Sponsors</div>
+</a>
+</div>
+<div class="submenu-panel information right-submenu-panel bgcol-information-dark" id="submenu-panel-information">
+<div>
+<div class="submenu-close submenu-toggle" x-category="information">
+<svg class="scroll-btn" height="100%" preserveaspectratio="xMidYMid slice" viewbox="0 0 1000 1200" width="100%" xmlns="http://www.w3.org/2000/svg">
+<polyline points="200 700 500 1100 800 700"></polyline>
+<circle cx="500" cy="400" id="dot1" r="50"></circle>
+<circle cx="500" cy="640" id="dot2" r="50"></circle>
+<circle cx="500" cy="880" id="dot3" r="50"></circle>
+</svg>
+</div>
+</div>
+<a href="/overview.html">
+<div class="submenu-item">Conference Overview</div>
+</a>
+<a href="/officers.html">
+<div class="submenu-item">Conference Officers</div>
+</a>
+<a href="/pvldb.html">
+<div class="submenu-item">PVLDB Review Board</div>
+</a>
+<a href="/contacts.html">
+<div class="submenu-item">Contacts</div>
+</a>
+<hr/>
+<a href="/program_workshops.html">
+<div class="submenu-item">Workshops</div>
+</a>
+</div>
+<div class="submenu-panel forauthors right-submenu-panel bgcol-forauthors-dark" id="submenu-panel-forauthors">
+<div>
+<div class="submenu-close submenu-toggle" x-category="forauthors">
+<svg class="scroll-btn" height="100%" preserveaspectratio="xMidYMid slice" viewbox="0 0 1000 1200" width="100%" xmlns="http://www.w3.org/2000/svg">
+<polyline points="200 700 500 1100 800 700"></polyline>
+<circle cx="500" cy="400" id="dot1" r="50"></circle>
+<circle cx="500" cy="640" id="dot2" r="50"></circle>
+<circle cx="500" cy="880" id="dot3" r="50"></circle>
+</svg>
+</div>
+</div>
+<a href="/important-dates.html">
+<div class="submenu-item">Important Dates</div>
+</a>
+<hr/>
+<a href="/formatting-guidelines.html">
+<div class="submenu-item">Formatting Guidelines</div>
+</a>
+<a href="/submission-guidelines.html">
+<div class="submenu-item">Submission Guidelines</div>
+</a>
+</div>
+<div class="submenu-panel forparticipants right-submenu-panel bgcol-forparticipants-dark" id="submenu-panel-forparticipants">
+<div>
+<div class="submenu-close submenu-toggle" x-category="forparticipants">
+<svg class="scroll-btn" height="100%" preserveaspectratio="xMidYMid slice" viewbox="0 0 1000 1200" width="100%" xmlns="http://www.w3.org/2000/svg">
+<polyline points="200 700 500 1100 800 700"></polyline>
+<circle cx="500" cy="400" id="dot1" r="50"></circle>
+<circle cx="500" cy="640" id="dot2" r="50"></circle>
+<circle cx="500" cy="880" id="dot3" r="50"></circle>
+</svg>
+</div>
+</div>
+<div class="submenu-item link-disable">Registration</div>
+<div class="submenu-item link-disable">Conference Venue</div>
+<div class="submenu-item link-disable">Lodging</div>
+<div class="submenu-item link-disable">Travel Fellowship</div>
+<div class="submenu-item link-disable">Visa Information</div>
+<div class="submenu-item link-disable">Public Transport</div>
+<div class="submenu-item link-disable">Local Attractions</div>
+<div class="submenu-item link-disable">Public Safety</div>
+</div>
+<div class="submenu-mask" id="submenu-mask"></div>
+<svg class="toppage-wrap" height="100vh" preserveaspectratio="xMidYMid slice" viewbox="0 0 1080 1080" width="100vw" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<text id="textVLDB" x="580" y="420">VLDB</text>
+<text id="text2020" x="540" y="570">2020</text>
+<text id="textTokyo" x="490" y="720">Tokyo</text>
+<mask height="1080" id="mask" width="1080" x="0" y="0">
+<rect height="1080" width="1080" x="0" y="0"></rect>
+<use href="#textVLDB" xlink:=""></use>
+<use href="#text2020" xlink:=""></use>
+<use href="#textTokyo" xlink:=""></use>
+</mask>
+</defs>
+<rect height="1080" width="1080" x="0" y="0"></rect>
+<use class="textoutline" href="#textVLDB" xlink:=""></use>
+<use class="textoutline" href="#text2020" xlink:=""></use>
+<use class="textoutline" href="#textTokyo" xlink:=""></use>
+<text class="smalltext" id="textC" x="480" y="750">46th International Conference on Very Large Data Bases</text>
+</svg>
+<video autoplay="" id="toppage-video" loop="" muted="" poster="/assets/media/toppage-background.jpg" preload="auto">
+<source src="/assets/media/toppage-background.webm" type="video/webm">
+<source src="/assets/media/toppage-background.mp4" type="video/mp4">
+</source></source></video>
+<div class="information" id="toppage-cnt">
+<label class="menu-btn" for="toppage-toggle">
+<div class="scroll-cnt">
+<svg class="scroll-btn" height="100%" preserveaspectratio="xMidYMid slice" viewbox="0 0 1000 1200" width="100%" xmlns="http://www.w3.org/2000/svg">
+<rect height="1200" width="1000" x="0" y="0"></rect>
+<polyline points="200 700 500 1100 800 700"></polyline>
+<circle cx="500" cy="400" id="dot1" r="50"></circle>
+<circle cx="500" cy="640" id="dot2" r="50"></circle>
+<circle cx="500" cy="880" id="dot3" r="50"></circle>
+</svg>
+</div>
+</label>
+<div id="contents-body">
+<header class="contents-header">
+<input id="social-toggle" name="social-toggle" style="display:none;" type="checkbox" value="on"/>
+<label for="social-toggle">
+<i class="fas fa-share-alt-square social-share" for="social-toggle"></i>
+</label>
+<a class="social-facebook social-icon" href="#" x-href="https://www.facebook.com/sharer.php?u={url}"><i class="fab fa-facebook-square"></i></a>
+<a class="social-twitter social-icon" href="#" x-href="https://twitter.com/intent/tweet?url={url}&amp;hashtags=#VLDB2020"><i class="fab fa-twitter-square"></i></a>
+<a class="social-linkedin social-icon" href="#" x-href="https://www.linkedin.com/shareArticle?mini=true&amp;url={url}"><i class="fab fa-linkedin"></i></a>
+<a class="social-reddit social-icon" href="#" x-href="https://reddit.com/submit?url={url}"><i class="fab fa-reddit-square"></i></a>
+<a class="social-tumblr social-icon" href="#" x-href="https://www.tumblr.com/widgets/share/tool?canonicalUrl={url}"><i class="fab fa-tumblr-square"></i></a>
+<a class="social-line social-icon" href="#" x-href="https://lineit.line.me/share/ui?url={url}"><i class="fab fa-line"></i></a>
+<a class="social-xing social-icon" href="#" x-href="https://www.xing.com/spi/shares/new?url={url}"><i class="fab fa-xing-square"></i></a>
+<a class="social-pinterest social-icon" href="#" x-href="http://pinterest.com/pin/create/link/?url={url}"><i class="fab fa-pinterest-square"></i></a>
+</header>
+<main id="barba-wrapper">
+<div class="barba-container" x-category="information">
+<article>
+<h1 id="vldb2020-pvldb-review-board">VLDB2020: PVLDB Review Board</h1>
+<h2 id="research-track-program-committee">Research Track Program Committee</h2>
+<ul>
+<li>Ziawasch Abedjan (TU Berlin)</li>
+<li>Ashraf Aboulnaga (Qatar Computing Research Institute)</li>
+<li>Pelin Angın (Middle East Technical University)</li>
+<li>Arvind Arasu (Microsoft Research)</li>
+<li>Joy Arulraj (Georgia Tech)</li>
+<li>Manos Athanassoulis (Boston University)</li>
+<li>Zhifeng Bao (RMIT University)</li>
+<li>Ilaria Bartolini (University of Bologna)</li>
+<li>Leilani Battle (University of Maryland)</li>
+<li>Kaustubh Beedkar (TU Berlin)</li>
+<li>Arnab Bhattacharya (IIT Kanpur)</li>
+<li>Sourav S Bhowmick (Nanyang Technological University)</li>
+<li>Carsten Binnig (TU Darmstadt)</li>
+<li>Spyros Blanas (The Ohio State University)</li>
+<li>Matthias Boehm (Graz University of Technology)</li>
+<li>Alexander Böhm (SAP SE)</li>
+<li>Michael Böhlen (University of Zürich)</li>
+<li>Peter Boncz (Centrum Wiskunde &amp; Informatica)</li>
+<li>Angela Bonifati (Lyon 1 University)</li>
+<li>Philippe Bonnet (IT University of Copenhagen)</li>
+<li>Renata Borovica-Gajic (University of Melbourne)</li>
+<li>Huiping Cao (New Mexico State University)</li>
+<li>Lei Cao (MIT)</li>
+<li>Lijun Chang (The University of Sydney)</li>
+<li>Surajit Chaudhuri (Microsoft Research)</li>
+<li>Lei Chen (Hong Kong University of Science and Technology)</li>
+<li>Hong Cheng (The Chinese University of Hong Kong)</li>
+<li>Reynold Cheng (The University of Hong Kong)</li>
+<li>Fei Chiang (McMaster University)</li>
+<li>Xu Chu (Georgia Tech)</li>
+<li>Bobbie Cochrane (IBM)</li>
+<li>Gao Cong (Nanyang Technological University)</li>
+<li>Brian Cooper (Google)</li>
+<li>Natacha Crooks (University of Texas at Austin)</li>
+<li>Andrew Crotty (Brown University)</li>
+<li>Bin Cui (Peking University)</li>
+<li>Sudipto Das (Microsoft Research)</li>
+<li>Akash Das Sarma (Facebook)</li>
+<li>Khuzaima Daudjee (University of Waterloo)</li>
+<li>Niv Dayan (Harvard University)</li>
+<li>Dong Deng (Rutgers University)</li>
+<li>Bailu Ding (Microsoft Research)</li>
+<li>Bolin Ding (Alibaba Group)</li>
+<li>Jens Dittrich (Saarland University)</li>
+<li>Harish Doraiswamy (New York University)</li>
+<li>Eduard C. Dragut (Temple University)</li>
+<li>Curtis Dyreson (Utah State University)</li>
+<li>Mohamed Y. Eltabakh (Teradata Labs)</li>
+<li>Jose M. Faleiro (University of California, Berkeley)</li>
+<li>Ju Fan (Renmin University of China)</li>
+<li>Raul Castro Fernandez (MIT)</li>
+<li>Avrilia Floratou (Microsoft Research)</li>
+<li>Avigdor Gal (Technion)</li>
+<li>Alex Galakatos (Brown University)</li>
+<li>Johann Gamper (Free University of Bozen-Bolzano)</li>
+<li>Jing Gao (University at Buffalo)</li>
+<li>Yunjun Gao (Zhejiang University)</li>
+<li>Tingjian Ge (University of Massachusetts, Lowell)</li>
+<li>Floris Geerts (University of Antwerp)</li>
+<li>Johannes Gehrke (Microsoft Research)</li>
+<li>Jonathan Goldstein (Microsoft Research)</li>
+<li>Torsten Grust (University of Tübingen)</li>
+<li>Wook-Shin Han (POSTECH)</li>
+<li>Takahiro Hara (Osaka University)</li>
+<li>Oktie Hassanzadeh (IBM Research)</li>
+<li>Michael Hay (Colgate University)</li>
+<li>Xi He (University of Waterloo)</li>
+<li>Melanie Herschel (University of Stuttgart)</li>
+<li>Katja Hose (Aalborg University)</li>
+<li>Wen Hua (The University of Queensland)</li>
+<li>Xin Huang (Hong Kong Baptist University)</li>
+<li>Yan Huang (University of North Texas)</li>
+<li>Seung-won Hwang (Yonsei University)</li>
+<li>Christopher Jermaine (Rice University)</li>
+<li>Ruoming Jin (Kent State University)</li>
+<li>Eser Kandogan (IBM Research - Almaden)</li>
+<li>Murat Kantarcioglu (University of Texas at Dallas)</li>
+<li>Verena Kantere (University of Ottawa)</li>
+<li>Pinar Karagoz (Middle East Technical University)</li>
+<li>Manos Karpathiotakis (Facebook)</li>
+<li>Batya Kenig (University of Washington)</li>
+<li>Oliver Kennedy (University at Buffalo)</li>
+<li>Arijit Khan (Nanyang Technological University)</li>
+<li>Daniel Kifer (Pennsylvania State University)</li>
+<li>Hideaki Kimura (Oracle)</li>
+<li>Sanjay Krishnan (University of Chicago)</li>
+<li>Arun Kumar (University of California, San Diego)</li>
+<li>Chuan Lei (IBM Research - Almaden)</li>
+<li>Viktor Leis (Technical University of Munich)</li>
+<li>Ulf Leser (Humboldt-Universität zu Berlin)</li>
+<li>Chengkai Li (The University of Texas at Arlington)</li>
+<li>Feifei Li (University of Utah)</li>
+<li>Rong-Hua Li (Beijing Institute of Technology)</li>
+<li>Sebastian Link (The University of Auckland)</li>
+<li>Chengfei Liu (Swinburne University of Technology)</li>
+<li>Hua Lu (Aalborg University)</li>
+<li>Jiaheng Lu (University of Helsinki)</li>
+<li>Wei Lu (Renmin University of China)</li>
+<li>Shuai Ma (Beihang University)</li>
+<li>Nikos Mamoulis (University of Ioannina)</li>
+<li>Ioana Manolescu (INRIA)</li>
+<li>Essam Mansour (Concordia University, Canada)</li>
+<li>Ryan Marcus (Brandeis University)</li>
+<li>Sergey Melnik (Google)</li>
+<li>Mohamed Mokbel (Qatar Computing Research Institute)</li>
+<li>Mirella Moura Moro (Universidade Federal de Minas Gerais)</li>
+<li>Davide Mottin (Aarhus University)</li>
+<li>Parth Nagarkar (New Mexico State University)</li>
+<li>Faisal Nawab (University of California, Santa Cruz)</li>
+<li>Thomas Neumann (Technical University of Munich)</li>
+<li>Milos Nikolic (The University of Edinburgh)</li>
+<li>Beng Chin Ooi (National University of Singapore)</li>
+<li>Ismail Oukid (SAP SE)</li>
+<li>Mourad Ouzzani (Qatar Computing Research Institute)</li>
+<li>Themis Palpanas (Paris Descartes University)</li>
+<li>George Papadakis (University of Athens)</li>
+<li>Olga Papaemmanouil (Brandeis University)</li>
+<li>Thorsten Papenbrock (Hasso Plattner Institute)</li>
+<li>Paolo Papotti (EURECOM)</li>
+<li>Stefano Paraboschi (Universita’ degli Studi di Bergamo)</li>
+<li>Yongjoo Park (University of Michigan)</li>
+<li>Jignesh M. Patel (University of Wisconsin-Madison)</li>
+<li>Peter Pietzuch (Imperial College London)</li>
+<li>Holger Pirk (Imperial College London)</li>
+<li>Fábio Porto (National Laboratory for Scientific Computing (LNCC), Brazil)</li>
+<li>Dan R. K. Ports (Microsoft Research)</li>
+<li>Lu Qin (University of Technology Sydney)</li>
+<li>Abdul H. Quamar (IBM Research - Almaden)</li>
+<li>Tilmann Rabl (TU Berlin)</li>
+<li>Karthik Ramachandra (Microsoft Research)</li>
+<li>Maya Ramanath (IIT Delhi)</li>
+<li>Berthold Reinwald (IBM Research)</li>
+<li>Theodoros Rekatsinas (University of Wisconsin-Madison)</li>
+<li>Uwe Roehm (The University of Sydney)</li>
+<li>Jennie Rogers (Northwestern University)</li>
+<li>Florin Rusu (University of California, Merced)</li>
+<li>Diptikalyan Saha (IBM Research AI India)</li>
+<li>Ken Salem (University of Waterloo)</li>
+<li>Semih Salihoglu (University of Waterloo)</li>
+<li>Maria Luisa Sapino (University of Torino)</li>
+<li>A. Erdem Sariyuce (University at Buffalo)</li>
+<li>Mohamed Sarwat (Arizona State University)</li>
+<li>Maximilian Schleich (University of Oxford)</li>
+<li>Mohamed Sharaf (United Arab Emirates University)</li>
+<li>Yanyan Shen (Shanghai Jiao Tong University)</li>
+<li>Kyuseok Shim (Seoul National University)</li>
+<li>Prashant Shiralkar (Amazon)</li>
+<li>Alkis Simitsis (Hewlett Packard Enterprise)</li>
+<li>Kostas Stefanidis (Tampere University)</li>
+<li>Rebecca Taft (Cockroach Labs)</li>
+<li>Nan Tang (Qatar Computing Research Institute)</li>
+<li>Yufei Tao (The Chinese University of Hong Kong)</li>
+<li>Jens Teubner (TU Dortmund)</li>
+<li>Andreas Thor (University of Applied Sciences for Telecommunications Leipzig)</li>
+<li>Yongxin Tong (Beihang University)</li>
+<li>Anthony K. H. Tung (National University of Singapore)</li>
+<li>Yannis Velegrakis (Utrecht University)</li>
+<li>Stratis Viglas (University of Edinburgh)</li>
+<li>Daisy Zhe Wang (University of Florida)</li>
+<li>Guoren Wang (Beijing Institute of Technology)</li>
+<li>Jiannan Wang (Simon Fraser University)</li>
+<li>Junhu Wang (Griffith University)</li>
+<li>Sibo Wang (The Chinese University of Hong Kong)</li>
+<li>Eugene Wu (Columbia University)</li>
+<li>Yingjun Wu (IBM Research - Almaden)</li>
+<li>Yinglong Xia (Huawei Research America)</li>
+<li>Chuan Xiao (Osaka University)</li>
+<li>Yanghua Xiao (Fudan University)</li>
+<li>Li Xiong (Emory University)</li>
+<li>Jianliang Xu (Hong Kong Baptist University)</li>
+<li>Xiaochun Yang (Northeastern University, China)</li>
+<li>Junjie Yao (East China Normal University)</li>
+<li>Hongzhi Yin (The University of Queensland)</li>
+<li>Man Lung Yiu (Hong Kong Polytechnic University)</li>
+<li>Haruo Yokota (Tokyo Institute of Technology)</li>
+<li>Masatoshi Yoshikawa (Kyoto University)</li>
+<li>Xiangyao Yu (MIT)</li>
+<li>Demetrios Zeinalipour-Yazti (University of Cyprus Cyprus)</li>
+<li>Baihua Zheng (Singapore Management University)</li>
+<li>Rui Zhang (University of Melbourne)</li>
+<li>Wenjie Zhang (University of New South Wales)</li>
+<li>Xiaofei Zhang (The University of Memphis)</li>
+<li>Ying Zhang (University of Technology Sydney)</li>
+<li>Yuanyuan Zhu (Wuhan University)</li>
+<li>Lei Zou (Peking University)</li>
+<li>Kostas Zoumpatianos (Harvard University)</li>
+</ul>
+<h2 id="industrial-track-program-committee">Industrial Track Program Committee</h2>
+<ul>
+<li>(TBD )</li>
+</ul>
+<h2 id="demonstration-track-program-committee">Demonstration Track Program Committee</h2>
+<ul>
+<li>(TBD )</li>
+</ul>
+</article>
+</div>
+</main>
+<footer class="contents-footer">
+<div class="col-group">
+<div class="col-6" id="footer-left">
+        46th International Conference on Very Large Data Bases<br/>
+        Tokyo, Japan, Mon. Aug. 31<i class="fas fa-arrow-right"></i> Fri. Sep. 4, 2020.
+    </div>
+<div class="col-6" id="footer-right">
+<a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license"><i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by"></i><i class="fab fa-creative-commons-sa"></i></a>
+<i class="fab fa-twitter"></i>
+<i class="fab fa-facebook-f"></i>
+<i class="fab fa-instagram"></i>
+<a href="https://github.com/VLDB2020/VLDB2020.github.io"><i class="fab fa-github"></i></a>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</div><div>
+<input id="toppage-toggle" style="display:none;" type="checkbox"/>
+<input class="submenu-active" id="submenu-conference" name="submenu-active" style="display:none;" type="radio" value="conference"/>
+<input class="submenu-active" id="submenu-contributions" name="submenu-active" style="display:none;" type="radio" value="contributions"/>
+<input class="submenu-active" id="submenu-sponsorship" name="submenu-active" style="display:none;" type="radio" value="sponsorship"/>
+<input class="submenu-active" id="submenu-information" name="submenu-active" style="display:none;" type="radio" value="information"/>
+<input class="submenu-active" id="submenu-forauthors" name="submenu-active" style="display:none;" type="radio" value="forauthors"/>
+<input class="submenu-active" id="submenu-forparticipants" name="submenu-active" style="display:none;" type="radio" value="forparticipants"/>
+<div class="container" id="left-menu-bar">
+<div class="col-group">
+<div class="col-mb-4">
+<input class="category-active" id="category-conference" name="category-active" style="display:none;" type="radio" value="conference"/>
+<label class="menu-item submenu-toggle" x-category="conference">
+<a href="./">
+<div class="col-mb-12" id="menu-top">
+<i class="fas fa-university"></i><span class="hide-phone logo-font"> VLDB2020</span>
+</div>
+</a>
+</label>
+<div class="col-mb-12 menu-line bgcol-conference"></div>
+</div>
+<div class="col-mb-4">
+<input class="category-active" id="category-contributions" name="category-active" style="display:none;" type="radio" value="contributions"/>
+<label class="menu-item submenu-toggle" x-category="contributions">
+<div class="col-mb-12">
+<i class="fas fa-bullhorn"></i><span class="hide-phone"> Contributions</span>
+</div>
+</label>
+<div class="col-mb-12 menu-line bgcol-contributions"></div>
+</div>
+<div class="col-mb-4">
+<input class="category-active" id="category-sponsorship" name="category-active" style="display:none;" type="radio" value="sponsorship"/>
+<label class="menu-item submenu-toggle" x-category="sponsorship">
+<div class="col-mb-12">
+<i class="fas far fa-handshake"></i><span class="hide-phone"> Sponsorship</span>
+</div>
+</label>
+<div class="col-mb-12 menu-line bgcol-sponsorship"></div>
+</div>
+</div>
+</div>
+<div id="right-menu-bar">
+<div class="col-group">
+<div class="col-mb-4">
+<input checked="" class="category-active" id="category-information" name="category-active" style="display:none;" type="radio" value="information"/>
+<label class="menu-item submenu-toggle" x-category="information">
+<div class="col-mb-12">
+<i class="fas fa-info"></i><span class="hide-phone"> Information</span>
+</div>
+</label>
+<div class="col-mb-12 menu-line bgcol-information"></div>
+</div>
+<div class="col-mb-4">
+<input class="category-active" id="category-forauthors" name="category-active" style="display:none;" type="radio" value="forauthors"/>
+<label class="menu-item submenu-toggle" x-category="forauthors">
+<div class="col-mb-12">
+<i class="fas fa-pen-fancy"></i><span class="hide-phone"> for Authors</span>
+</div>
+</label>
+<div class="col-mb-12 menu-line bgcol-forauthors"></div>
+</div>
+<div class="col-mb-4">
+<input class="category-avtive" id="category-forparticipants" name="category-active" style="display:none;" type="radio" value="forparticipants"/>
+<label class="menu-item submenu-toggle" x-category="forparticipants">
+<div class="col-mb-12">
+<i class="fas fas fas fa-plane-arrival"></i><span class="hide-phone"> for Participants</span>
+</div>
+</label>
+<div class="col-mb-12 menu-line bgcol-forparticipants"></div>
+</div>
+</div>
+</div>
+<div class="submenu-panel contributions left-submenu-panel bgcol-contributions-dark" id="submenu-panel-contributions">
+<div>
+<div class="submenu-close submenu-toggle" x-category="contributions">
+<svg class="scroll-btn" height="100%" preserveaspectratio="xMidYMid slice" viewbox="0 0 1000 1200" width="100%" xmlns="http://www.w3.org/2000/svg">
+<polyline points="200 700 500 1100 800 700"></polyline>
+<circle cx="500" cy="400" id="dot1" r="50"></circle>
+<circle cx="500" cy="640" id="dot2" r="50"></circle>
+<circle cx="500" cy="880" id="dot3" r="50"></circle>
+</svg>
+</div>
+</div>
+<a href="/research-track.html">
+<div class="submenu-item">Research Track</div>
+</a>
+<a href="/industrial-track.html">
+<div class="submenu-item">Industrial Track <span class="badge">Extended!</span></div>
+</a>
+<a href="/phd-workshop.html">
+<div class="submenu-item">PhD Workshop <span class="badge">Extended!</span></div>
+</a>
+<hr/>
+<a href="/call4panel.html">
+<div class="submenu-item">Call for Panel Proposals</div>
+</a>
+<a href="/call4demo.html">
+<div class="submenu-item">Call for Demonstration Proposals <span class="badge">Extended!</span></div>
+</a>
+<a href="/call4tutorials.html">
+<div class="submenu-item">Call for Tutorials <span class="badge">Extended!</span></div>
+</a>
+<a href="/call4workshops.html">
+<div class="submenu-item">Call for Workshop Proposals</div>
+</a>
+</div>
+<div class="submenu-panel sponsorship left-submenu-panel bgcol-sponsorship-dark" id="submenu-panel-sponsorship">
+<div>
+<div class="submenu-close submenu-toggle" x-category="sponsorship">
+<svg class="scroll-btn" height="100%" preserveaspectratio="xMidYMid slice" viewbox="0 0 1000 1200" width="100%" xmlns="http://www.w3.org/2000/svg">
+<polyline points="200 700 500 1100 800 700"></polyline>
+<circle cx="500" cy="400" id="dot1" r="50"></circle>
+<circle cx="500" cy="640" id="dot2" r="50"></circle>
+<circle cx="500" cy="880" id="dot3" r="50"></circle>
+</svg>
+</div>
+</div>
+<a href="/sponsorship.html">
+<div class="submenu-item">Sponsorship Opportunities</div>
+</a>
+<hr/>
+<a href="/sponsor.html">
+<div class="submenu-item">Our Sponsors</div>
+</a>
+</div>
+<div class="submenu-panel information right-submenu-panel bgcol-information-dark" id="submenu-panel-information">
+<div>
+<div class="submenu-close submenu-toggle" x-category="information">
+<svg class="scroll-btn" height="100%" preserveaspectratio="xMidYMid slice" viewbox="0 0 1000 1200" width="100%" xmlns="http://www.w3.org/2000/svg">
+<polyline points="200 700 500 1100 800 700"></polyline>
+<circle cx="500" cy="400" id="dot1" r="50"></circle>
+<circle cx="500" cy="640" id="dot2" r="50"></circle>
+<circle cx="500" cy="880" id="dot3" r="50"></circle>
+</svg>
+</div>
+</div>
+<a href="/overview.html">
+<div class="submenu-item">Conference Overview</div>
+</a>
+<a href="/officers.html">
+<div class="submenu-item">Conference Officers</div>
+</a>
+<a href="/pvldb.html">
+<div class="submenu-item">PVLDB Review Board</div>
+</a>
+<a href="/contacts.html">
+<div class="submenu-item">Contacts</div>
+</a>
+<hr/>
+<a href="/program_workshops.html">
+<div class="submenu-item">Workshops</div>
+</a>
+</div>
+<div class="submenu-panel forauthors right-submenu-panel bgcol-forauthors-dark" id="submenu-panel-forauthors">
+<div>
+<div class="submenu-close submenu-toggle" x-category="forauthors">
+<svg class="scroll-btn" height="100%" preserveaspectratio="xMidYMid slice" viewbox="0 0 1000 1200" width="100%" xmlns="http://www.w3.org/2000/svg">
+<polyline points="200 700 500 1100 800 700"></polyline>
+<circle cx="500" cy="400" id="dot1" r="50"></circle>
+<circle cx="500" cy="640" id="dot2" r="50"></circle>
+<circle cx="500" cy="880" id="dot3" r="50"></circle>
+</svg>
+</div>
+</div>
+<a href="/important-dates.html">
+<div class="submenu-item">Important Dates</div>
+</a>
+<hr/>
+<a href="/formatting-guidelines.html">
+<div class="submenu-item">Formatting Guidelines</div>
+</a>
+<a href="/submission-guidelines.html">
+<div class="submenu-item">Submission Guidelines</div>
+</a>
+</div>
+<div class="submenu-panel forparticipants right-submenu-panel bgcol-forparticipants-dark" id="submenu-panel-forparticipants">
+<div>
+<div class="submenu-close submenu-toggle" x-category="forparticipants">
+<svg class="scroll-btn" height="100%" preserveaspectratio="xMidYMid slice" viewbox="0 0 1000 1200" width="100%" xmlns="http://www.w3.org/2000/svg">
+<polyline points="200 700 500 1100 800 700"></polyline>
+<circle cx="500" cy="400" id="dot1" r="50"></circle>
+<circle cx="500" cy="640" id="dot2" r="50"></circle>
+<circle cx="500" cy="880" id="dot3" r="50"></circle>
+</svg>
+</div>
+</div>
+<div class="submenu-item link-disable">Registration</div>
+<div class="submenu-item link-disable">Conference Venue</div>
+<div class="submenu-item link-disable">Lodging</div>
+<div class="submenu-item link-disable">Travel Fellowship</div>
+<div class="submenu-item link-disable">Visa Information</div>
+<div class="submenu-item link-disable">Public Transport</div>
+<div class="submenu-item link-disable">Local Attractions</div>
+<div class="submenu-item link-disable">Public Safety</div>
+</div>
+<div class="submenu-mask" id="submenu-mask"></div>
+<svg class="toppage-wrap" height="100vh" preserveaspectratio="xMidYMid slice" viewbox="0 0 1080 1080" width="100vw" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<text id="textVLDB" x="580" y="420">VLDB</text>
+<text id="text2020" x="540" y="570">2020</text>
+<text id="textTokyo" x="490" y="720">Tokyo</text>
+<mask height="1080" id="mask" width="1080" x="0" y="0">
+<rect height="1080" width="1080" x="0" y="0"></rect>
+<use href="#textVLDB" xlink:=""></use>
+<use href="#text2020" xlink:=""></use>
+<use href="#textTokyo" xlink:=""></use>
+</mask>
+</defs>
+<rect height="1080" width="1080" x="0" y="0"></rect>
+<use class="textoutline" href="#textVLDB" xlink:=""></use>
+<use class="textoutline" href="#text2020" xlink:=""></use>
+<use class="textoutline" href="#textTokyo" xlink:=""></use>
+<text class="smalltext" id="textC" x="480" y="750">46th International Conference on Very Large Data Bases</text>
+</svg>
+<video autoplay="" id="toppage-video" loop="" muted="" poster="/assets/media/toppage-background.jpg" preload="auto">
+<source src="/assets/media/toppage-background.webm" type="video/webm">
+<source src="/assets/media/toppage-background.mp4" type="video/mp4">
+</source></source></video>
+<div class="information" id="toppage-cnt">
+<label class="menu-btn" for="toppage-toggle">
+<div class="scroll-cnt">
+<svg class="scroll-btn" height="100%" preserveaspectratio="xMidYMid slice" viewbox="0 0 1000 1200" width="100%" xmlns="http://www.w3.org/2000/svg">
+<rect height="1200" width="1000" x="0" y="0"></rect>
+<polyline points="200 700 500 1100 800 700"></polyline>
+<circle cx="500" cy="400" id="dot1" r="50"></circle>
+<circle cx="500" cy="640" id="dot2" r="50"></circle>
+<circle cx="500" cy="880" id="dot3" r="50"></circle>
+</svg>
+</div>
+</label>
+<div id="contents-body">
+<header class="contents-header">
+<input id="social-toggle" name="social-toggle" style="display:none;" type="checkbox" value="on"/>
+<label for="social-toggle">
+<i class="fas fa-share-alt-square social-share" for="social-toggle"></i>
+</label>
+<a class="social-facebook social-icon" href="#" x-href="https://www.facebook.com/sharer.php?u={url}"><i class="fab fa-facebook-square"></i></a>
+<a class="social-twitter social-icon" href="#" x-href="https://twitter.com/intent/tweet?url={url}&amp;hashtags=#VLDB2020"><i class="fab fa-twitter-square"></i></a>
+<a class="social-linkedin social-icon" href="#" x-href="https://www.linkedin.com/shareArticle?mini=true&amp;url={url}"><i class="fab fa-linkedin"></i></a>
+<a class="social-reddit social-icon" href="#" x-href="https://reddit.com/submit?url={url}"><i class="fab fa-reddit-square"></i></a>
+<a class="social-tumblr social-icon" href="#" x-href="https://www.tumblr.com/widgets/share/tool?canonicalUrl={url}"><i class="fab fa-tumblr-square"></i></a>
+<a class="social-line social-icon" href="#" x-href="https://lineit.line.me/share/ui?url={url}"><i class="fab fa-line"></i></a>
+<a class="social-xing social-icon" href="#" x-href="https://www.xing.com/spi/shares/new?url={url}"><i class="fab fa-xing-square"></i></a>
+<a class="social-pinterest social-icon" href="#" x-href="http://pinterest.com/pin/create/link/?url={url}"><i class="fab fa-pinterest-square"></i></a>
+</header>
+<main id="barba-wrapper">
+<div class="barba-container" x-category="information">
+<article>
+<h1 id="vldb2020-conference-officers">VLDB2020: Conference Officers</h1>
+<h2 id="honorary-chair">Honorary Chair</h2>
+<ul>
+<li>Masaru Kitsuregawa (University of Tokyo)</li>
+</ul>
+<h2 id="organizing-committee-chair">Organizing Committee Chair</h2>
+<ul>
+<li>Hiroyuki Kitagawa (University of Tsukuba)</li>
+</ul>
+<h2 id="vldb-endowment-representative">VLDB Endowment Representative</h2>
+<ul>
+<li>Sharad Mehrotra (University of California, Irvine)</li>
+</ul>
+<h2 id="general-chairs">General Chairs</h2>
+<ul>
+<li>Yoshiharu Ishikawa (Nagoya University)</li>
+<li>Christian S. Jensen (Aalborg University)</li>
+</ul>
+<h2 id="program-committee-chairs">Program Committee Chairs</h2>
+<ul>
+<li>Magdalena Balazinska (University of Washington)</li>
+<li>Xiaofang Zhou (University of Queensland)</li>
+</ul>
+<h2 id="associate-editors">Associate Editors</h2>
+<ul>
+<li>Azza Abouzied (New York University Abu Dhabi)</li>
+<li>Amr El Abbadi (University of California, Santa Barbara)</li>
+<li>Phil Bernstein (Microsoft Research)</li>
+<li>Xin Luna Dong (Amazon)</li>
+<li>Zi (Helen) Huang (University of Queensland)</li>
+<li>Nick Koudas (University of Toronto)</li>
+<li>Georgia Koutrika (Athena Research Center)</li>
+<li>Guoliang Li (Tsinghua University)</li>
+<li>Alexandra Meliou (University of Massachusetts, Amherst)</li>
+<li>Felix Naumann (Hasso Plattner Institute, University of Potsdam)</li>
+<li>Dan Olteanu (University of Oxford)</li>
+<li>M. Tamer Özsu (University of Waterloo)</li>
+<li>Aditya Parameswaran (University of California, Berkeley)</li>
+<li>Andy Pavlo (Carnegie Mellon University)</li>
+<li>Xiaokui Xiao (National University of Singapore)</li>
+<li>Jeffrey Xu Yu (The Chinese University of Hong Kong)</li>
+<li>Meihui Zhang (Beijing Institute of Technology)</li>
+<li>Jingren Zhou (Alibaba Group)</li>
+</ul>
+<h2 id="tutorial-chairs">Tutorial Chairs</h2>
+<ul>
+<li>Michael J. Carey (University of California, Irvine)</li>
+<li>Renée J. Miller (Northeastern University)</li>
+</ul>
+<h2 id="industrial-chairs">Industrial Chairs</h2>
+<ul>
+<li>Tiziana Catarci (Sapienza Università di Roma)</li>
+<li>Carlo Curino (Microsoft)</li>
+<li>Divesh Srivastava (AT&amp;T Labs)</li>
+</ul>
+<h2 id="demo-chairs">Demo Chairs</h2>
+<ul>
+<li>Yasuhiro Fujiwara (NTT Communication Science Laboratories)</li>
+<li>Ioana Manolescu (INRIA)</li>
+<li>Ying Zhang (University of Technology, Sydney)</li>
+</ul>
+<h2 id="panel-chairs">Panel Chairs</h2>
+<ul>
+<li>Anastasia Ailamaki (EPFL)</li>
+<li>Surajit Chaudhuri (Microsoft)</li>
+</ul>
+<h2 id="workshop-chairs">Workshop Chairs</h2>
+<ul>
+<li>Wook-Shin Han (POSTECH)</li>
+<li>Makoto Onizuka (Osaka University)</li>
+<li>Nesime Tatbul (MIT / Intel Labs)</li>
+</ul>
+<h2 id="phd-workshop-chairs">PhD Workshop Chairs</h2>
+<ul>
+<li>Ziawasch Abedjan (TU Berlin)</li>
+<li>Katja Hose (Aalborg University)</li>
+</ul>
+<h2 id="sponsorship-committee-chairs">Sponsorship Committee Chairs</h2>
+<ul>
+<li>Xiaoyong Du (Renmin University)</li>
+<li>Mohamed Mokbel (Qatar Computing Research Institute)</li>
+<li>Vasilis Vassalos (Athens University of Economics and Business)</li>
+</ul>
+<h2 id="publicity-committee-chair">Publicity Committee Chair</h2>
+<ul>
+<li>Hideaki Kimura (Oracle)</li>
+</ul>
+<h2 id="proceedings-chairs">Proceedings Chairs</h2>
+<ul>
+<li>Hiroaki Shiokawa (University of Tsukuba)</li>
+<li>Sen Wang (University of Queensland)</li>
+</ul>
+<h2 id="treasury-committee">Treasury Committee</h2>
+<ul>
+<li>Toshiyuki Amagasa (University of Tsukuba): <span class="h-font">Chair</span></li>
+<li>Atsuyuki Morishima (University of Tsukuba)</li>
+<li>Nobutaka Suzuki (University of Tsukuba)</li>
+</ul>
+<h2 id="web-and-sns-committee">Web and SNS Committee</h2>
+<ul>
+<li>Shohei Yokoyama (Tokyo Metropolitan University): <span class="h-font">Chair</span></li>
+<li>Kyoung-Sook Kim (National Institute of Advanced Industrial Science and Technology)</li>
+<li>Steven Lynden (National Institute of Advanced Industrial Science and Technology)</li>
+<li>Akiyoshi Matono (National Institute of Advanced Industrial Science and Technology)</li>
+</ul>
+<h2 id="local-arrangement-committee">Local Arrangement Committee</h2>
+<ul>
+<li>Jun Miyazaki (Tokyo Institute of Technology): <span class="h-font">Chair</span></li>
+<li>Masato Oguchi (Ochanomizu University)</li>
+<li>Masashi Toyoda (University of Tokyo)</li>
+<li>Saneyasu Yamaguchi (Kogakuin University)</li>
+<li>Chiemi Watanabe (Tsukuba University of Technology)</li>
+</ul>
+<h2 id="registration-chairs">Registration Chairs</h2>
+<ul>
+<li>Kaoru Katayama (Tokyo Metropolitan University)</li>
+<li>Takashi Tomii (Yokohama National University)</li>
+</ul>
+<h2 id="domestic-advisory-board">Domestic Advisory Board</h2>
+<ul>
+<li>Miyuki Nakano (Tsuda University)</li>
+<li>Haruo Yokota (Tokyo Institute of Technology)</li>
+<li>Masatoshi Yoshikawa (Kyoto University)</li>
+</ul>
+</article>
+</div>
+</main>
+<footer class="contents-footer">
+<div class="col-group">
+<div class="col-6" id="footer-left">
+        46th International Conference on Very Large Data Bases<br/>
+        Tokyo, Japan, Mon. Aug. 31<i class="fas fa-arrow-right"></i> Fri. Sep. 4, 2020.
+    </div>
+<div class="col-6" id="footer-right">
+<a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license"><i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by"></i><i class="fab fa-creative-commons-sa"></i></a>
+<i class="fab fa-twitter"></i>
+<i class="fab fa-facebook-f"></i>
+<i class="fab fa-instagram"></i>
+<a href="https://github.com/VLDB2020/VLDB2020.github.io"><i class="fab fa-github"></i></a>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</div></body>
+</html>

@@ -1,0 +1,658 @@
+{
+    "id": 0,
+    "content": "CIS 341 Spring 2020",
+    "children": [
+        {
+            "id": 1,
+            "content": "CIS 341 - Compilers  Spring 2020",
+            "key": 1,
+            "children": [
+                {
+                    "id": 2,
+                    "content": "",
+                    "isList": true,
+                    "key": 1,
+                    "children": [
+                        {
+                            "id": 3,
+                            "content": "Topics",
+                            "key": 1
+                        },
+                        {
+                            "id": 4,
+                            "content": "Reading",
+                            "key": 2
+                        },
+                        {
+                            "id": 5,
+                            "content": "Projects",
+                            "key": 3
+                        },
+                        {
+                            "id": 6,
+                            "content": "Submit",
+                            "key": 4
+                        },
+                        {
+                            "id": 7,
+                            "content": "Grading",
+                            "key": 5
+                        },
+                        {
+                            "id": 8,
+                            "content": "Schedule",
+                            "key": 6
+                        },
+                        {
+                            "id": 9,
+                            "content": "Policies",
+                            "key": 7
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "content": "Instructor",
+                    "key": 2,
+                    "children": [
+                        {
+                          "id": 11,
+                          "content": "Steve Zdancewic   office hours: Wednesday 2:00 - 3:00pm (and by appointment) Levine 511",
+                          "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 12,
+                    "content": "Teaching Assistants",
+                    "key": 3,
+                    "children": [
+                      {
+                        "id": 13,
+                        "content": "Calvin Beck   office hours: Monday 15:30 - 16:30 Levine 5th floor bump space",
+                        "key": 1
+                      },
+                      {
+                        "id": 14,
+                        "content": "Paul He   office hours: Tuesday 9:30 - 10:30am Levine 5th floor bump space",
+                        "key": 2
+                      },
+                      {
+                        "id": 15,
+                        "content": "Nick Rioux   office hours: Monday 13:00 - 14:00 GRW 5th floor bump space (\"Levine North\")",
+                        "key": 3
+                      }
+                    ]
+                },
+                {
+                    "id": 16,
+                    "content": "Course information:",
+                    "key": 4,
+                    "children": [
+                      {
+                        "id": 17,
+                        "content": "time:",
+                        "key": 1,
+                        "children": [
+                          {
+                            "id": 18,
+                            "content": "Thursday 10:30am - noon   room: Towne 313   piazza: cis341   email: cis341@seas.upenn.edu",
+                            "key": 1
+                          }
+                        ]
+                      }
+                    ]
+                },
+              {
+                "id": 19,
+                "content": "Prerequisites:",
+                "key": 5,
+                "children": [
+                  {
+                    "id": 20,
+                    "content": "CIS 121 and CIS 240",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 21,
+                "content": "Topics:",
+                "isList": true,
+                "key": 6,
+                "children": [
+                  {
+                    "id": 22,
+                    "content": "Lexing/Parsing",
+                    "key": 1
+                  },
+                  {
+                    "id": 23,
+                    "content": "Code generation",
+                    "key": 2,
+                    "children": [
+                      {
+                        "id": 24,
+                        "content": "Semantic analysis",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 25,
+                    "content": "Optimization",
+                    "key": 3,
+                    "children": [
+                      {
+                        "id": 26,
+                        "content": "Run-time support",
+                        "key": 1
+                      }
+                    ]
+                  }
+                ]
+                },
+                {
+                    "id": 27,
+                    "content": "Reading and References",
+                    "key": 7,
+                    "children": [
+                        {
+                            "id": 28,
+                            "content": "The following books contain useful course material, and much of the lecture content is derived from them (and other sources).",
+                            "key": 1
+                        },
+                        {
+                            "id": 29,
+                            "content": "",
+                            "isList": true,
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 30,
+                                    "content": "Compilers (2nd edition) by Aho, Lam, Sethi, and Ullman",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 31,
+                                    "content": "Advanced Compiler Design and Implementation by Muchnick",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 32,
+                                    "content": "Modern Compiler Implementation in ML by Appel",
+                                    "key": 3
+                                }
+                            ]
+                        },
+                        {
+                            "id": 33,
+                            "content": "In addition, the following papers and web sites provide supplementary material. Reading selections from these sources will be announced in class.",
+                            "key": 3
+                        },
+                        {
+                            "id": 34,
+                            "content": "",
+                            "isList": true,
+                            "key": 4,
+                            "children": [
+                                {
+                                    "id": 35,
+                                    "content": "llvm.org",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 36,
+                                    "content": "Real World OCaml",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 37,
+                                    "content": "OCaml Programming Style Guide",
+                                    "key": 3
+                                },
+                                {
+                                    "id": 38,
+                                    "content": "The Caml Web Site, particularly the documentation and users' manual and the standard libraries",
+                                    "key": 4
+                                },
+                                {
+                                    "id": 39,
+                                    "content": "OCaml.org",
+                                    "key": 5
+                                },
+                                {
+                                    "id": 40,
+                                    "content": "Developing Applications with Objective Caml by Emmanuel Chailloux, Pascal Manoury and Bruno Pagano",
+                                    "key": 6
+                                },
+                                {
+                                    "id": 41,
+                                    "content": "Introduction to Objective Caml by Jason Hickey",
+                                    "key": 7
+                                }
+                            ]
+                        }
+                    ]
+                },
+              {
+                "id": 42,
+                "content": "Projects: Building a Compiler",
+                "key": 8,
+                "children": [
+                  {
+                    "id": 43,
+                    "content": "There are several homework projects. Homework 1 is an individual assignment. The rest of the projects are pair-programming projects -- students are strongly encouraged to work in pairs, but may ask permission to work alone on them.",
+                    "key": 1
+                  },
+                  {
+                    "id": 44,
+                    "content": "Submit",
+                    "key": 2
+                  },
+                  {
+                    "id": 45,
+                    "content": "CIS 341 Toolchain",
+                    "key": 3
+                  },
+                  {
+                    "id": 46,
+                    "content": "",
+                    "isList": true,
+                    "key": 4,
+                    "children": [
+                      {
+                        "id": 47,
+                        "content": "- instructions for getting access to the tools you need to complete course assignments.",
+                        "key": 1
+                      },
+                      {
+                        "id": 48,
+                        "content": "Homework 1: Hellocaml   Due: Wednesday, January 29th at 11:59pm",
+                        "key": 2
+                      },
+                      {
+                        "id": 49,
+                        "content": "Homework 2: X86lite   Due: Wednesday, February 12th at 11:59pm",
+                        "key": 3
+                      },
+                      {
+                        "id": 50,
+                        "content": "Homework 3: Compiling LLVMlite   Due: Wednesday, March 4th at 11:59pm",
+                        "key": 4
+                      },
+                      {
+                        "id": 51,
+                        "content": "Homework 4: Compiling Oat v.1   Due: Monday, March 30th at 11:59pm",
+                        "key": 5
+                      },
+                      {
+                        "id": 52,
+                        "content": "Homework 5: Full Oat   Due:Friday, April 17 at 11:59pm",
+                        "key": 6
+                      },
+                      {
+                        "id": 53,
+                        "content": "Homework 6: Dataflow Analysis and Register Allocation   (Tentatively) Due: Wednesday, April 29 at 11:59pm",
+                        "key": 7
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 54,
+                "content": "Grading Criteria",
+                "key": 9,
+                "children": [
+                  {
+                    "id": 55,
+                    "content": "",
+                    "isList": true,
+                    "key": 1,
+                    "children": [
+                      {
+                        "id": 56,
+                        "content": "12% Midterm - Date: Thursday, March 5 in class",
+                        "key": 1
+                      },
+                      {
+                        "id": 57,
+                        "content": "Midterm 2020 and Solutions 2020",
+                        "key": 2
+                      },
+                      {
+                        "id": 58,
+                        "content": "Midterm 2018 and Solutions 2018",
+                        "key": 3
+                      },
+                      {
+                        "id": 59,
+                        "content": "Midterm 2017 and Solutions 2017",
+                        "key": 4
+                      },
+                      {
+                        "id": 60,
+                        "content": "Midterm 2015 and Solutions 2015",
+                        "key": 5
+                      },
+                      {
+                        "id": 61,
+                        "content": "",
+                        "key": 6,
+                        "children": [
+                          {
+                            "id": 62,
+                            "content": "18% Final exam - Date: May 4, 2018.",
+                            "key": 1
+                          },
+                          {
+                            "id": 63,
+                            "content": "",
+                            "isList": true,
+                            "key": 2,
+                            "children": [
+                              {
+                                "id": 64,
+                                "content": "Final Exam 2018 and Solutions 2018",
+                                "key": 1
+                              },
+                              {
+                                "id": 65,
+                                "content": "Final Exam 2017 and Solutions 2017",
+                                "key": 2
+                              }
+                                            ]
+                                        }
+                                    ]
+                                },
+                      {
+                        "id": 66,
+                        "content": "70% Course projects",
+                        "key": 7
+                      }
+                            ]
+                        },
+                  {
+                    "id": 67,
+                    "content": "Check your current scores.",
+                    "key": 2
+                  }
+                    ]
+                },
+              {
+                "id": 68,
+                "content": "Lecture Slides and Notes",
+                "key": 10,
+                "children": [
+                  {
+                    "id": 69,
+                    "content": "Recorded Zoom sessions starting from Lecture 15 (3/24/20) are available at Penn's PanOpto Site .",
+                    "key": 1
+                  },
+                  {
+                    "id": 70,
+                    "content": "*Prof. Zdancewic will be absent.",
+                    "key": 2
+                  },
+                  {
+                    "id": 71,
+                    "content": "Some of the slides in these lectures have been adapted (with permission) from course materials by Andrew Myers at Cornell University and Greg Morrisett at Harvard University.",
+                    "key": 3
+                  }
+                    ]
+                },
+              {
+                "id": 72,
+                "content": "Course Policies",
+                "key": 11,
+                "children": [
+                  {
+                    "id": 73,
+                    "content": "General Project Guidelines",
+                    "isList": true,
+                    "key": 1,
+                    "children": [
+                      {
+                        "id": 74,
+                        "content": "Groups:",
+                        "key": 1,
+                        "children": [
+                          {
+                            "id": 75,
+                            "content": "Teams for group projects will consist of two students.",
+                            "key": 1
+                          }
+                        ]
+                      },
+                      {
+                        "id": 76,
+                        "content": "Difficulty:",
+                        "key": 2,
+                        "children": [
+                          {
+                            "id": 77,
+                            "content": "The course projects are challenging and time consuming. They may require significant effort to understand the implementation details and concepts: Start Early!",
+                            "key": 1
+                          }
+                        ]
+                      },
+                      {
+                        "id": 78,
+                        "content": "",
+                        "key": 3,
+                        "children": [
+                          {
+                            "id": 79,
+                            "content": "Late Projects:",
+                            "key": 1,
+                            "children": [
+                              {
+                                "id": 80,
+                                "content": "All projects are due at 11:59pm on the due date.",
+                                "key": 1
+                              }
+                            ]
+                          },
+                          {
+                            "id": 81,
+                            "content": "",
+                            "isList": true,
+                            "key": 2,
+                            "children": [
+                              {
+                                "id": 82,
+                                "content": "Projects submitted late, but within 24 hours of the deadline are subject to a 10 point penalty.",
+                                "key": 1
+                              },
+                              {
+                                "id": 83,
+                                "content": "Projects submitted late, but between 24 and 48 hours of the deadline are subject to a 20 point penalty.",
+                                "key": 2
+                              }
+                            ]
+                          },
+                          {
+                            "id": 84,
+                            "content": "If you have an extremely unusual circumstance, such as a serious and extended illness, contact the course instructor for special consideration.",
+                            "key": 3
+                          },
+                          {
+                            "id": 85,
+                            "content": "If, for some reason, you have an extension of less than 48 hours on the homework, the extension only overrides the associated late penalty -- it does not extend the late period!",
+                            "isList": true,
+                            "key": 4
+                          }
+                        ]
+                      },
+                      {
+                        "id": 86,
+                        "content": "Regrade Policy:",
+                        "key": 4,
+                        "children": [
+                          {
+                            "id": 87,
+                            "content": "Regrade requests should be sent to the TA. Only reasonable requests will be considered. The entire project or exam will be regraded. Note that this means that the score on a regraded project might decrease.",
+                            "key": 1
+                          }
+                        ]
+                      }
+                    ]
+                        },
+                  {
+                    "id": 88,
+                    "content": "Submission Policy",
+                    "isList": true,
+                    "key": 2,
+                    "children": [
+                      {
+                        "id": 89,
+                        "content": "Projects that do not compile will get no credit.",
+                        "key": 1
+                      },
+                      {
+                        "id": 90,
+                        "content": "Projects that compile will receive partial credit according to the grading guidelines provided in the project description.",
+                        "key": 2
+                      }
+                            ]
+                        },
+                  {
+                    "id": 91,
+                    "content": "Academic Integrity",
+                    "key": 3,
+                    "children": [
+                      {
+                        "id": 92,
+                        "content": "This course will abide by the University's Code of Academic Integrity. In particular, for individual projects and group projects, the following guidelines should be followed:",
+                        "key": 1
+                      },
+                      {
+                        "id": 93,
+                        "content": "",
+                        "isList": true,
+                        "key": 2,
+                        "children": [
+                          {
+                            "id": 94,
+                            "content": "",
+                            "key": 1,
+                            "children": [
+                              {
+                                "id": 95,
+                                "content": "For individual projects, you must type in and edit your own code, documentation, and any other materials submitted for grading.",
+                                "key": 1
+                              },
+                              {
+                                "id": 96,
+                                "content": "",
+                                "isList": true,
+                                "key": 2,
+                                "children": [
+                                  {
+                                    "id": 97,
+                                    "content": "Copying someone else's file is not allowed.",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 98,
+                                    "content": "Allowing someone else to copy a file of yours, either explicitly or implicitly by leaving your code unprotected, is not allowed.",
+                                    "key": 2
+                                  },
+                                  {
+                                    "id": 99,
+                                    "content": "Editing each other's files is not allowed",
+                                    "key": 3
+                                  }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                          {
+                            "id": 100,
+                            "content": "Regarding the ethics of what you may or may not discuss with others:",
+                            "isList": true,
+                            "key": 2,
+                            "children": [
+                              {
+                                "id": 101,
+                                "content": "\"High level\" discussions are fine.:",
+                                "key": 1,
+                                "children": [
+                                  {
+                                    "id": 102,
+                                    "content": "For example, discussions about the problem statement.",
+                                    "key": 1
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 103,
+                                "content": "\"Low level\" discussions are fine.:",
+                                "key": 2,
+                                "children": [
+                                  {
+                                    "id": 104,
+                                    "content": "For example, discussions about OCaml syntax or using omake, understanding compiler error messages, understanding the mechanics of the tools and libraries used for the projects.",
+                                    "key": 1
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 105,
+                                "content": "",
+                                "key": 3,
+                                "children": [
+                                  {
+                                    "id": 106,
+                                    "content": "\"Mid level\" discussions require discretion. In this CIS course, discussions at this level must be limited. Unless explicitly stated otherwise, you may not collaborate significantly with classmates (except group project members) at this level. If you have minor discussions with others at this level or get help from outside resources (tutors, web sites, etc), you must cite in the readme of the submitted projects the names of the people or websites who helped you and how they did. For example:",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 107,
+                                    "content": "Name:",
+                                    "key": 2,
+                                    "children": [
+                                      {
+                                        "id": 108,
+                                        "content": "Chris Brown  Email: ***@seas.upenn.edu  I received tips from Jo Johnson on the i/o and example.com/mem.htm on memory  ...",
+                                        "key": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": 109,
+                            "content": "If there is any doubt about the use of external sources or collaboration, please ask for clarification by the course staff.",
+                            "key": 3
+                          }
+                        ]
+                      },
+                      {
+                        "id": 110,
+                        "content": "Although we encourage you to use version control software (e.g. git) for the course projects, please do not distribute the solutions.",
+                        "key": 3
+                      },
+                      {
+                        "id": 111,
+                        "content": "Last modified:",
+                        "key": 4,
+                        "children": [
+                          {
+                            "id": 112,
+                            "content": "Thursday Apr 9 09:51:26 EDT 2020",
+                            "key": 1
+                          }
+                        ]
+                      }
+                    ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

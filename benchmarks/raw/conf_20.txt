@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" dir="ltr"> <![endif]--><!--[if gt IE 8]><!--><html class="no-js" dir="ltr" lang="en"> <!--<![endif]-->
+<head>
+<meta charset="utf-8"/><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"d823139095",applicationID:"509444"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(6),c=e(7),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(8);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(5),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],4:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],5:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],6:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],7:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],8:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function n(n,r,i,o){if(!p.aborted||o){e&&e(n,r,i);for(var a=t(i),c=v(n),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[n]];return d&&d.push([b,n,r,a]),a}}function l(e,t){h[e]=v(e).concat(t)}function m(e,t){var n=h[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(n)}function y(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(6),s={},d={},p=t.exports=i();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=b.info=NREUM.info,t=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=e(2),c=e("handle"),f=e(6),u=e("ee"),s=e(4),d=window,p=d.document,l="addEventListener",m="attachEvent",v=d.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:v,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},w=v&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:w,userAgent:s};e(1),e(3),p[l]?(p[l]("DOMContentLoaded",o,!1),d[l]("load",r,!1)):(p[m]("onreadystatechange",i),d[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0},{}],"wrap-function":[function(e,t,n){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(7),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;t.exports=function(e,t){function n(e,t,n,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(u){p([u,"",[r,a,i],c])}s(t+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(t+"err",[r,a,d],c),d}finally{s(t+"end",[r,a,f],c)}}return r(e)?e:(t||(t=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,t,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<t.length;f++)c=t[f],a=e[c],r(a)||(e[c]=n(a,u?c+i:i,o,c))}function s(n,r,i){if(!f||t){var o=f;f=!0;try{e.emit(n,r,i,t)}catch(a){p([a,n,r,i])}f=o}}function d(e,t){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(e);return n.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(r){p([r])}for(var i in e)c.call(e,i)&&(t[i]=e[i]);return t}function p(t){try{e.emit("internal-error",t)}catch(n){}}return e||(e=i),n.inPlace=u,n.flag=a,n}},{}]},{},["loader"]);</script>
+<link href="https://www.usenix.org/sites/default/files/waves_favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="general" name="rating"/>
+<meta content="Drupal 7 (http://drupal.org)" name="generator"/>
+<link href="https://www.usenix.org/conference/usenixsecurity19/call-for-papers" rel="canonical"/>
+<link href="https://www.usenix.org/node/224063" rel="shortlink"/>
+<meta content="USENIX" property="og:site_name"/>
+<meta content="article" property="og:type"/>
+<meta content="USENIX Security  2019 Call for Papers" property="og:title"/>
+<meta content="https://www.usenix.org/conference/usenixsecurity19/call-for-papers" property="og:url"/>
+<meta content="2019-07-01T08:41:58-07:00" property="og:updated_time"/>
+<meta content="https://www.usenix.org/sites/default/files/sec19_banner_social_share_1200x630.png" property="og:image"/>
+<meta content="https://www.usenix.org/sites/default/files/sec19_banner_social_share_1200x630.png" property="og:image:url"/>
+<meta content="https://www.usenix.org/sites/default/files/sec19_banner_social_share_1200x630.png" property="og:image:secure_url"/>
+<meta content="image/png" property="og:image:type"/>
+<meta content="2018-09-10T17:34:00-07:00" property="article:published_time"/>
+<meta content="2019-07-01T08:41:58-07:00" property="article:modified_time"/>
+<title>USENIX Security  2019 Call for Papers | USENIX</title>
+<link href="https://www.usenix.org/sites/default/files/css/css_ywqYrtSodM0qVMzAkOSnqZ_iBnAVpkSeD_yPtUN9tBk.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://www.usenix.org/sites/default/files/css/css_wn5vXo8qkBPuGeIEQvsbl2FYLhNAL-hadBx5xI5frRA.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://www.usenix.org/sites/default/files/css/css_fie1FTfhqzQzqQgTa3efy5dIrK4YpjbsVN5badjjFOo.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://www.usenix.org/sites/default/files/css/css_AfquJS1-BTsmdAOxyqrcwTQdz4fht_UaY4626OnVIkA.css" media="all" rel="stylesheet" type="text/css"/>
+<style media="all" type="text/css">
+<!--/*--><![CDATA[/*><!--*/
+#sliding-popup.sliding-popup-top,#sliding-popup.sliding-popup-top .eu-cookie-withdraw-banner,.eu-cookie-withdraw-tab{background:#0779bf;}#sliding-popup.sliding-popup-top.eu-cookie-withdraw-wrapper{background:transparent}#sliding-popup .popup-content #popup-text h1,#sliding-popup .popup-content #popup-text h2,#sliding-popup .popup-content #popup-text h3,#sliding-popup .popup-content #popup-text p,.eu-cookie-compliance-secondary-button,.eu-cookie-withdraw-tab{color:#fff !important;}.eu-cookie-withdraw-tab{border-color:#fff;}.eu-cookie-compliance-more-button{color:#fff !important;}#sliding-popup.sliding-popup-top{position:fixed;}
+
+/*]]>*/-->
+</style>
+<link href="https://www.usenix.org/sites/default/files/css/css_Pen3ncMGQyB3Q2LWoTho2yu6X-D2T6zOqWITJ4iG9A8.css" media="all" rel="stylesheet" type="text/css"/>
+<script src="https://www.usenix.org/sites/default/files/js/js_fyV0VVkC6Q3xduxGurKMTFIU2dMmArUrbAdZORL-9WQ.js" type="text/javascript"></script>
+<script src="https://www.usenix.org/sites/default/files/js/js_aX7yRJ6konHrJvWI9p8DYMZjzXuDWoFTSzXiLL4uZWU.js" type="text/javascript"></script>
+<script src="https://www.usenix.org/sites/default/files/js/js_PV_aNkPxIlLyZ1F-ZjJTzlSwwaaHK2fsTz0qyH_VGsg.js" type="text/javascript"></script>
+<script src="https://www.usenix.org/sites/default/files/js/js_l3lGSHpmjPG_uzcz3Shpsi9Iwu4IaSB7us0ldgM0q7g.js" type="text/javascript"></script>
+<script src="https://www.usenix.org/sites/default/files/js/js_nKHPel07iQ7X6ouVrkRIeMs9JzgU_FAp9nBhDfrhyQc.js" type="text/javascript"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"neat_conference","theme_token":"cq530jtvMudCicYM6bsureE2O8n1GKDP4inBUTFWb1A","js":{"0":1,"1":1,"sites\/all\/modules\/eu_cookie_compliance\/js\/eu_cookie_compliance.js":1,"https:\/\/www.usenix.org\/sites\/default\/files\/google_tag\/usenix\/google_tag.script.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/beautytips\/js\/jquery.bt.min.js":1,"sites\/all\/modules\/beautytips\/js\/beautytips.min.js":1,"sites\/all\/modules\/eu_cookie_compliance\/js\/jquery.cookie-1.4.1.min.js":1,"sites\/all\/modules\/behavior_weights\/behavior_weights.js":1,"sites\/all\/modules\/tb_megamenu\/js\/tb-megamenu-frontend.js":1,"sites\/all\/modules\/tb_megamenu\/js\/tb-megamenu-touch.js":1,"sites\/all\/modules\/field_group\/field_group.js":1,"sites\/all\/themes\/custom\/neat_conference\/js\/bibtex.js":1,"sites\/all\/themes\/custom\/neat_conference\/js\/mobile.js":1,"sites\/all\/themes\/custom\/neat_conference\/js\/jquery.slicknav.min.js":1,"sites\/all\/themes\/custom\/neat_conference\/js\/tech-schedule.js":1,"sites\/all\/themes\/custom\/neat_conference\/js\/training-program.js":1,"sites\/all\/themes\/custom\/neat_conference\/js\/organizers.js":1,"sites\/all\/themes\/custom\/neat_conference\/js\/protected-files.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/poll\/poll.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/biblio\/biblio.css":1,"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/font-awesome\/4.4.0\/css\/font-awesome.min.css":1,"sites\/all\/modules\/tb_megamenu\/css\/bootstrap.css":1,"sites\/all\/modules\/tb_megamenu\/css\/base.css":1,"sites\/all\/modules\/tb_megamenu\/css\/default.css":1,"sites\/all\/modules\/tb_megamenu\/css\/compatibility.css":1,"sites\/all\/modules\/eu_cookie_compliance\/css\/eu_cookie_compliance.css":1,"0":1,"sites\/all\/themes\/custom\/neat_conference\/css\/neat.css":1,"sites\/all\/themes\/custom\/neat_conference\/css\/schemes\/scheme-atc.css":1,"sites\/all\/themes\/custom\/neat_conference\/css\/schemes\/scheme-atc_colo.css":1,"sites\/all\/themes\/custom\/neat_conference\/css\/schemes\/scheme-atc_colo_dark.css":1,"sites\/all\/themes\/custom\/neat_conference\/css\/schemes\/scheme-enigma.css":1,"sites\/all\/themes\/custom\/neat_conference\/css\/schemes\/scheme-enigma_temp.css":1,"sites\/all\/themes\/custom\/neat_conference\/css\/schemes\/scheme-fast.css":1,"sites\/all\/themes\/custom\/neat_conference\/css\/schemes\/scheme-lisa_lean.css":1,"sites\/all\/themes\/custom\/neat_conference\/css\/schemes\/scheme-lisa.css":1,"sites\/all\/themes\/custom\/neat_conference\/css\/schemes\/scheme-lisa_blue.css":1,"sites\/all\/themes\/custom\/neat_conference\/css\/schemes\/scheme-lisa_red.css":1,"sites\/all\/themes\/custom\/neat_conference\/css\/schemes\/scheme-lisa_green.css":1,"sites\/all\/themes\/custom\/neat_conference\/css\/schemes\/scheme-nsdi.css":1,"sites\/all\/themes\/custom\/neat_conference\/css\/schemes\/scheme-osdi.css":1,"sites\/all\/themes\/custom\/neat_conference\/css\/schemes\/scheme-security.css":1,"sites\/all\/themes\/custom\/neat_conference\/css\/schemes\/scheme-security_colo.css":1,"sites\/all\/themes\/custom\/neat_conference\/css\/schemes\/scheme-soups.css":1,"sites\/all\/themes\/custom\/neat_conference\/css\/schemes\/scheme-srecon.css":1}},"beautytipStyles":{"default":{"fill":"#F4F4F4","strokeStyle":"#666666","spikeLength":20,"spikeGirth":10,"width":350,"overlap":0,"centerPointY":1,"cornerRadius":0,"cssStyles":{"fontFamily":"\u0026quot;Lucida Grande\u0026quot;,Helvetica,Arial,Verdana,sans-serif","fontSize":"12px","padding":"10px 14px"},"shadow":"1","shadowColor":"rgba(0,0,0,.5)","shadowBlur":8,"shadowOffsetX":4,"shadowOffsetY":4},"plain":[],"netflix":{"positions":["right","left"],"fill":"#FFF","padding":5,"shadow":true,"shadowBlur":12,"strokeStyle":"#B9090B","spikeLength":50,"spikeGirth":60,"cornerRadius":10,"centerPointY":0.1,"overlap":-8,"cssStyles":{"fontSize":"12px","fontFamily":"arial,helvetica,sans-serif"}},"facebook":{"fill":"#F7F7F7","padding":8,"strokeStyle":"#B7B7B7","cornerRadius":0,"cssStyles":{"fontFamily":"\u0022lucida grande\u0022,tahoma,verdana,arial,sans-serif","fontSize":"11px"}},"transparent":{"fill":"rgba(0, 0, 0, .8)","padding":20,"strokeStyle":"#CC0","strokeWidth":3,"spikeLength":40,"spikeGirth":40,"cornerRadius":40,"cssStyles":{"color":"#FFF","fontWeight":"bold"}},"big-green":{"fill":"#00FF4E","padding":20,"strokeWidth":0,"spikeLength":40,"spikeGirth":40,"cornerRadius":15,"cssStyles":{"fontFamily":"\u0022lucida grande\u0022,tahoma,verdana,arial,sans-serif","fontSize":"14px"}},"google-maps":{"positions":["top","bottom"],"fill":"#FFF","padding":15,"strokeStyle":"#ABABAB","strokeWidth":1,"spikeLength":65,"spikeGirth":40,"cornerRadius":25,"centerPointX":0.9,"cssStyles":[]},"hulu":{"fill":"#F4F4F4","strokeStyle":"#666666","spikeLength":20,"spikeGirth":10,"width":350,"overlap":0,"centerPointY":1,"cornerRadius":0,"cssStyles":{"fontFamily":"\u0022Lucida Grande\u0022,Helvetica,Arial,Verdana,sans-serif","fontSize":"12px","padding":"10px 14px"},"shadow":true,"shadowColor":"rgba(0,0,0,.5)","shadowBlur":8,"shadowOffsetX":4,"shadowOffsetY":4}},"beautytips":{".beautytips":{"cssSelect":".beautytips","style":"default"}},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"eu_cookie_compliance":{"popup_enabled":1,"popup_agreed_enabled":0,"popup_hide_agreed":0,"popup_clicking_confirmation":0,"popup_scrolling_confirmation":0,"popup_html_info":"\u003Cdiv\u003E\n  \u003Cdiv class=\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Ch2\u003EThis site uses cookies\u003C\/h2\u003E\u003Cp\u003EIf you use this site, cookies will be stored on your device. Please see our cookie statement for more information.\u003C\/p\u003E              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button\u0022\u003EView Cookie Statement\u003C\/button\u003E\n          \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-default-button\u0022\u003EGot it\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","use_mobile_message":false,"mobile_popup_html_info":"\u003Cdiv\u003E\n  \u003Cdiv class=\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n                    \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button\u0022\u003EView Cookie Statement\u003C\/button\u003E\n          \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-default-button\u0022\u003EGot it\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n","mobile_breakpoint":"768","popup_html_agreed":"\u003Cdiv\u003E\n  \u003Cdiv class=\u0022popup-content agreed\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Ch2\u003EThank you for accepting cookies\u003C\/h2\u003E\u003Cp\u003EYou can now hide this message or find out more about cookies.\u003C\/p\u003E    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022hide-popup-button eu-cookie-compliance-hide-button\u0022\u003EHide\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button-thank-you\u0022 \u003EMore info\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","popup_use_bare_css":false,"popup_height":"auto","popup_width":"100%","popup_delay":1000,"popup_link":"\/cookies","popup_link_new_window":1,"popup_position":true,"popup_language":"en","store_consent":false,"better_support_for_screen_readers":0,"reload_page":0,"domain":"","popup_eu_only_js":0,"cookie_lifetime":"365","cookie_session":false,"disagree_do_not_show_popup":0,"method":"default","whitelisted_cookies":"","withdraw_markup":"\u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-tab\u0022\u003EPrivacy settings\u003C\/button\u003E\n\u003Cdiv class=\u0022eu-cookie-withdraw-banner\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Cp\u003EWe use cookies on this site to enhance your user experience\n\u003C\/p\u003E\u003Cp\u003EYou have given your consent for us to set cookies.\u003C\/p\u003E\n    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-button\u0022\u003EWithdraw consent\u003C\/button\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n","withdraw_enabled":false},"ogContext":{"groupType":"node","gid":"207815"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-224063 node-type-call-for-papers context-conference context-conference og-context og-context-node og-context-node-207815 scheme-security user-is-non-member">
+<noscript aria-hidden="true"><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-WQSPGJT" style="display:none;visibility:hidden" width="0"></iframe></noscript>
+<div class="page" role="document">
+<header class="site-header" id="site-header">
+<div class="usenix-login-bar">
+<section class="block block-usenix-login-bar usenix-login-bar-block">
+<div class="block-content"> <a class="site-logo" href="/" id="site-logo"><svg class="back-to-usenix" data-name="Layer 1" id="back-to-usenix" viewbox="0 0 162.57 52.34" xmlns="http://www.w3.org/2000/svg"><title>usenix_logo_notag_white</title><path class="cls-1" d="M51,5.76h2.15V18.7h-1.5l-.46-1.09A9.63,9.63,0,0,1,46.58,19a4.7,4.7,0,0,1-1.85-.33,3.26,3.26,0,0,1-1.22-.83,3.75,3.75,0,0,1-.69-1.26,6.54,6.54,0,0,1-.34-1.46c0-.46-.07-1-.07-1.59V5.76h2.15v7.88q0,3.39,2.95,3.39A7.67,7.67,0,0,0,51,16Z" transform="translate(-3.49 -4.33)"></path><path class="cls-1" d="M68.56,5.51h.52l.47,0,.39,0,.38.05.31.06.33.08.28.07.31.09.29.09L71.3,7.68a11.79,11.79,0,0,0-3.09-.48,5.5,5.5,0,0,0-1.37.16,3,3,0,0,0-.92.38,2,2,0,0,0-.52.52,1.7,1.7,0,0,0-.26.52,1.73,1.73,0,0,0-.06.43,1.19,1.19,0,0,0,.56,1,4.59,4.59,0,0,0,1.39.68q.83.26,1.8.62t1.8.76A3.81,3.81,0,0,1,72,13.33,2.65,2.65,0,0,1,72.57,15a4,4,0,0,1-.14,1,3.47,3.47,0,0,1-.52,1.05,3.69,3.69,0,0,1-1,1,5.5,5.5,0,0,1-1.63.66,9.47,9.47,0,0,1-2.34.26,11.68,11.68,0,0,1-4.4-1l.6-1.62a21.61,21.61,0,0,0,2.21.71,7.12,7.12,0,0,0,1.68.21q3.2,0,3.19-2a1.13,1.13,0,0,0-.31-.79,2.3,2.3,0,0,0-.84-.55c-.35-.14-.74-.29-1.18-.45S67,13.16,66.54,13a8.33,8.33,0,0,1-1.35-.52A7.73,7.73,0,0,1,64,11.81a2.83,2.83,0,0,1-.84-1,3,3,0,0,1-.31-1.39,3.22,3.22,0,0,1,.15-1,3.45,3.45,0,0,1,.56-1,4.28,4.28,0,0,1,1-1,5.38,5.38,0,0,1,1.64-.68A9.19,9.19,0,0,1,68.56,5.51Z" transform="translate(-3.49 -4.33)"></path><path class="cls-1" d="M87.43,5.51a5.79,5.79,0,0,1,1.7.23,4.37,4.37,0,0,1,1.25.58,3.19,3.19,0,0,1,.86.92,5.56,5.56,0,0,1,.55,1.1,6.45,6.45,0,0,1,.29,1.28c.07.5.12.93.13,1.3s0,.8,0,1.3v1H83.34a3.35,3.35,0,0,0,.32,1.41,4.2,4.2,0,0,0,2.44,2.23,5.77,5.77,0,0,0,2.1.37,10.37,10.37,0,0,0,2.95-.47l.38,1.47a12.71,12.71,0,0,1-4.14.72,7.83,7.83,0,0,1-2.53-.38,5.19,5.19,0,0,1-1.78-1A5,5,0,0,1,82,16.14a6.46,6.46,0,0,1-.6-1.7,9.39,9.39,0,0,1-.16-1.79A9.42,9.42,0,0,1,81.56,10a6.44,6.44,0,0,1,1-2,6.13,6.13,0,0,1,1.41-1.38,5.66,5.66,0,0,1,1.69-.82A6.53,6.53,0,0,1,87.43,5.51ZM87,7.37A3.18,3.18,0,0,0,85,8a3.67,3.67,0,0,0-1.21,1.58,5.34,5.34,0,0,0-.38,2h6.76Q90.15,7.37,87,7.37Z" transform="translate(-3.49 -4.33)"></path><path class="cls-1" d="M101.66,5.76h1.51l.47,1.1a9.71,9.71,0,0,1,4.56-1.36,4.68,4.68,0,0,1,1.85.34,3.2,3.2,0,0,1,1.22.84,3.7,3.7,0,0,1,.69,1.27,6.78,6.78,0,0,1,.33,1.46,15,15,0,0,1,.07,1.58V18.7H110.2V10.84q0-3.4-2.93-3.4a7.66,7.66,0,0,0-3.46,1V18.7h-2.15Z" transform="translate(-3.49 -4.33)"></path><path class="cls-1" d="M122.42,5.76h2.15V18.7h-2.15Z" transform="translate(-3.49 -4.33)"></path><path class="cls-1" d="M133.14,5.76h2.49l3.65,5.13,3.52-5.13h2.29l-4.77,6.6,4.52,6.34h-2.49l-3.47-4.86-3.3,4.86H133.3l4.53-6.35Z" transform="translate(-3.49 -4.33)"></path><path class="cls-2" d="M69.67,37.24c-.15-.39-.29-.77-.42-1.15l-.4-1.15H64.77L64,37.24H62.64q.52-1.43,1-2.64t.89-2.31q.44-1.09.86-2.08t.9-2h1.16q.47,1,.9,2t.86,2.08q.44,1.09.89,2.31t1,2.64ZM68.49,33.9q-.42-1.13-.83-2.19t-.85-2q-.45,1-.86,2t-.81,2.19Z" transform="translate(-3.49 -4.33)"></path><path class="cls-2" d="M76.78,36.35q2,0,2-1.35a1.36,1.36,0,0,0-.18-.71,1.72,1.72,0,0,0-.47-.51,3.31,3.31,0,0,0-.68-.37l-.81-.31a8.43,8.43,0,0,1-.94-.38,3.31,3.31,0,0,1-.77-.51,2.13,2.13,0,0,1-.51-.7A2.55,2.55,0,0,1,75,28.69,3.4,3.4,0,0,1,77.24,28a5.86,5.86,0,0,1,1.49.18,3.38,3.38,0,0,1,1,.38l-.4,1a3.57,3.57,0,0,0-.81-.33,4.4,4.4,0,0,0-1.25-.16,2.8,2.8,0,0,0-.68.08,1.74,1.74,0,0,0-.55.23,1.16,1.16,0,0,0-.37.4,1.12,1.12,0,0,0-.14.57,1.2,1.2,0,0,0,.14.61,1.4,1.4,0,0,0,.4.44,3.48,3.48,0,0,0,.6.34q.34.16.76.31.58.23,1.07.47a3.5,3.5,0,0,1,.85.56,2.24,2.24,0,0,1,.55.77,2.71,2.71,0,0,1,.2,1.09,2.12,2.12,0,0,1-.86,1.82,4.05,4.05,0,0,1-2.44.64,6.11,6.11,0,0,1-1-.07,7.26,7.26,0,0,1-.8-.17,4.42,4.42,0,0,1-.6-.21L74,36.8l.38-1a5.45,5.45,0,0,0,.91.38A4.62,4.62,0,0,0,76.78,36.35Z" transform="translate(-3.49 -4.33)"></path><path class="cls-2" d="M85.91,36.35q2,0,2-1.35a1.36,1.36,0,0,0-.17-.71,1.73,1.73,0,0,0-.47-.51,3.36,3.36,0,0,0-.68-.37l-.81-.31a8.37,8.37,0,0,1-.94-.38,3.29,3.29,0,0,1-.77-.51,2.14,2.14,0,0,1-.51-.7,2.55,2.55,0,0,1,.62-2.82A3.4,3.4,0,0,1,86.37,28a5.86,5.86,0,0,1,1.49.18,3.36,3.36,0,0,1,1,.38l-.4,1a3.59,3.59,0,0,0-.81-.33,4.41,4.41,0,0,0-1.25-.16,2.79,2.79,0,0,0-.68.08,1.75,1.75,0,0,0-.55.23,1.18,1.18,0,0,0-.37.4,1.13,1.13,0,0,0-.14.57,1.2,1.2,0,0,0,.14.61,1.39,1.39,0,0,0,.4.44,3.47,3.47,0,0,0,.6.34l.76.31q.58.23,1.07.47a3.52,3.52,0,0,1,.84.56,2.22,2.22,0,0,1,.55.77,2.72,2.72,0,0,1,.2,1.09,2.12,2.12,0,0,1-.87,1.82,4.05,4.05,0,0,1-2.44.64,6.1,6.1,0,0,1-1-.07,7.19,7.19,0,0,1-.8-.17,4.47,4.47,0,0,1-.6-.21l-.4-.19.38-1a5.48,5.48,0,0,0,.91.38A4.63,4.63,0,0,0,85.91,36.35Z" transform="translate(-3.49 -4.33)"></path><path class="cls-2" d="M92.58,32.73a5.58,5.58,0,0,1,.34-2,4.23,4.23,0,0,1,.94-1.48,3.87,3.87,0,0,1,1.38-.89,4.66,4.66,0,0,1,1.67-.3,4.52,4.52,0,0,1,1.64.3,3.83,3.83,0,0,1,1.36.89,4.29,4.29,0,0,1,.93,1.48,6.25,6.25,0,0,1,0,4.08,4.3,4.3,0,0,1-.93,1.47,3.83,3.83,0,0,1-1.36.89,4.53,4.53,0,0,1-1.64.3,4.66,4.66,0,0,1-1.67-.3,3.87,3.87,0,0,1-1.38-.89,4.24,4.24,0,0,1-.94-1.47A5.58,5.58,0,0,1,92.58,32.73Zm1.33,0a5,5,0,0,0,.21,1.49,3.32,3.32,0,0,0,.59,1.14,2.59,2.59,0,0,0,.94.72,3,3,0,0,0,1.24.25,2.92,2.92,0,0,0,1.24-.25,2.61,2.61,0,0,0,.93-.72,3.36,3.36,0,0,0,.59-1.14,5.43,5.43,0,0,0,0-3A3.34,3.34,0,0,0,99,30.11a2.6,2.6,0,0,0-.93-.72,2.91,2.91,0,0,0-1.24-.25,2.94,2.94,0,0,0-1.24.25,2.57,2.57,0,0,0-.94.72,3.31,3.31,0,0,0-.59,1.14A5,5,0,0,0,93.9,32.73Z" transform="translate(-3.49 -4.33)"></path><path class="cls-2" d="M109.14,37.44a4.59,4.59,0,0,1-1.73-.31,3.65,3.65,0,0,1-1.34-.91,4.13,4.13,0,0,1-.86-1.47,6.08,6.08,0,0,1-.3-2,5.47,5.47,0,0,1,.34-2,4.38,4.38,0,0,1,.93-1.48,3.94,3.94,0,0,1,1.37-.91,4.44,4.44,0,0,1,1.66-.31,5.82,5.82,0,0,1,1,.08,6.12,6.12,0,0,1,.78.18,3.76,3.76,0,0,1,.54.21l.29.16-.36,1a2,2,0,0,0-.34-.17l-.5-.18a4.53,4.53,0,0,0-.61-.15,3.82,3.82,0,0,0-.67-.06,3.22,3.22,0,0,0-1.29.25,2.65,2.65,0,0,0-1,.71,3.23,3.23,0,0,0-.62,1.14,4.87,4.87,0,0,0-.21,1.5,5.4,5.4,0,0,0,.19,1.47,3.24,3.24,0,0,0,.57,1.14,2.54,2.54,0,0,0,.94.73,3.13,3.13,0,0,0,1.32.26,4.84,4.84,0,0,0,1.44-.18,6.24,6.24,0,0,0,.86-.32l.33,1a1.81,1.81,0,0,1-.33.16,4.21,4.21,0,0,1-.58.19,7.28,7.28,0,0,1-.82.16A7.45,7.45,0,0,1,109.14,37.44Z" transform="translate(-3.49 -4.33)"></path><path class="cls-2" d="M115.54,28.24h1.26v9h-1.26Z" transform="translate(-3.49 -4.33)"></path><path class="cls-2" d="M127.26,37.24c-.15-.39-.29-.77-.42-1.15l-.4-1.15h-4.08l-.82,2.3h-1.31q.52-1.43,1-2.64t.89-2.31c.29-.73.58-1.42.86-2.08s.59-1.32.9-2H125q.47,1,.9,2t.87,2.08q.44,1.09.89,2.31t1,2.64Zm-1.18-3.34q-.41-1.13-.83-2.19t-.85-2q-.45,1-.87,2t-.81,2.19Z" transform="translate(-3.49 -4.33)"></path><path class="cls-2" d="M137.26,28.24v1.09h-2.83v7.92h-1.26V29.33h-2.83V28.24Z" transform="translate(-3.49 -4.33)"></path><path class="cls-2" d="M140.8,28.24h1.26v9H140.8Z" transform="translate(-3.49 -4.33)"></path><path class="cls-2" d="M146.14,32.73a5.6,5.6,0,0,1,.34-2,4.21,4.21,0,0,1,.94-1.48,3.86,3.86,0,0,1,1.38-.89,4.66,4.66,0,0,1,1.67-.3,4.53,4.53,0,0,1,1.65.3,3.84,3.84,0,0,1,1.36.89,4.26,4.26,0,0,1,.93,1.48,6.21,6.21,0,0,1,0,4.08,4.27,4.27,0,0,1-.93,1.47,3.85,3.85,0,0,1-1.36.89,4.53,4.53,0,0,1-1.65.3,4.67,4.67,0,0,1-1.67-.3,3.86,3.86,0,0,1-1.38-.89,4.22,4.22,0,0,1-.94-1.47A5.6,5.6,0,0,1,146.14,32.73Zm1.33,0a5,5,0,0,0,.21,1.49,3.37,3.37,0,0,0,.59,1.14,2.62,2.62,0,0,0,.94.72,3,3,0,0,0,1.24.25,2.91,2.91,0,0,0,1.23-.25,2.6,2.6,0,0,0,.93-.72,3.32,3.32,0,0,0,.59-1.14,5.43,5.43,0,0,0,0-3,3.31,3.31,0,0,0-.59-1.14,2.58,2.58,0,0,0-.93-.72,2.9,2.9,0,0,0-1.23-.25,3,3,0,0,0-1.24.25,2.61,2.61,0,0,0-.94.72,3.36,3.36,0,0,0-.59,1.14A5,5,0,0,0,147.47,32.73Z" transform="translate(-3.49 -4.33)"></path><path class="cls-2" d="M165,37.24l-.66-1.08q-.37-.6-.8-1.24l-.89-1.31c-.31-.44-.61-.87-.92-1.28s-.6-.8-.88-1.16-.55-.68-.79-1v7h-1.24v-9h1q.61.65,1.31,1.51t1.38,1.78q.68.92,1.29,1.8t1,1.57V28.24h1.24v9Z" transform="translate(-3.49 -4.33)"></path><g class="cls-3"><g class="cls-3"><path class="cls-2" d="M13.17,36.8a48.25,48.25,0,0,0,4.95,2.13,32.82,32.82,0,0,1,1.2-4.83c-2.27-1-2.67-1.25-4.88-2.42A35.56,35.56,0,0,0,13.17,36.8ZM32.35,8A29.28,29.28,0,0,0,27,4.33a36.84,36.84,0,0,0-4.35,3A41.79,41.79,0,0,1,28,11,36.51,36.51,0,0,1,32.35,8ZM23.71,15c-.82-.59-1.93-1.36-2.77-1.93A49.91,49.91,0,0,0,17,18L14.4,16.29a43.54,43.54,0,0,1,8.23-9,20.77,20.77,0,0,0-4.54-1.88,42.13,42.13,0,0,0-4,3.79c.58.25,1.33.6,1.89.87a47.94,47.94,0,0,0-3.8,4.74l-1.73-1.08C7.95,17.43.19,30.2,5.07,41.21l0,0h0l.13.23c2.24,3.88,5.84,5.09,9.65,4.82l.32,0a27,27,0,0,1-.1-7.92,38.56,38.56,0,0,1-4.15-2.1,38.28,38.28,0,0,1,1.64-6.54,47,47,0,0,1-4-2.76c.38-1,.93-2.37,1.35-3.38,1.68,1.22,2.08,1.48,4,2.73-.43,1-1,2.38-1.36,3.41,1.56.94,1.85,1.1,4.1,2.3a46.4,46.4,0,0,1,2.93-6.54c-1.67-1-1.89-1.16-4-2.51.56-1,1.34-2.26,1.94-3.21l3.95,2.6a43,43,0,0,1,8.65-9.65c-.62-.53-1.48-1.23-2.12-1.75A45.3,45.3,0,0,0,23.71,15Z" transform="translate(-3.49 -4.33)"></path><path class="cls-2" d="M50.57,32.9s-2.4-2.08-9.83-5.94c-2.38-.92-3.08.42-4.47,3.07C29.22,43.56,10.85,54.52,4.06,42.1c.49.88,1.16,2,1.7,2.89a33.94,33.94,0,0,0,4.86,5.07c1,.85,2.45,1.94,3.55,2.71A27.08,27.08,0,0,0,18.31,55c1.17.46,2.75,1,4,1.39,9.72,2,21.13-6.1,28.39-20,.82-2,.21-3.08-.09-3.44" transform="translate(-3.49 -4.33)"></path></g></g></svg>
+</a><div class="item-list"><ul class="usenix-login-bar-links" id="usenix-login-bar-links"><li class="login first"><a href="/user?destination=conference/usenixsecurity19/call-for-papers">Sign In</a></li>
+<li class="conference last"><a href="/conferences">Conferences</a></li>
+</ul></div></div>
+</section> </div>
+<div class="outer-wrapper">
+<div class="header-col2-wrapper">
+</div>
+<div class="header-col1-wrapper">
+<section class="block block-usenix-og-auto-menu usenix-og-auto-header-menu-logo">
+<div class="block-content"> <a class="header-menu-logo-link" href="/conference/usenixsecurity19"><img alt="" class="header-menu-logo" height="42" src="https://www.usenix.org/sites/default/files/styles/neat_conference_menu_logo/public/sec19_wordmark_stacked_456x186.png?itok=50hWtIV1" width="103"/></a></div>
+</section> <section class="block block-usenix-og-auto-menu usenix-og-auto-header-menu">
+<div class="block-content"> <div class="tb-megamenu tb-megamenu-menu-og-207815">
+<button class="btn btn-navbar tb-megamenu-button" data-target=".nav-collapse" data-toggle="collapse" type="button">
+<i class="fa fa-reorder"></i>
+</button>
+<div class="nav-collapse always-show">
+<ul class="tb-megamenu-nav nav level-0 items-5">
+<li class="tb-megamenu-item level-1 mega dropdown" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="39722" data-level="1" data-type="menu_item" data-xicon="">
+<a class="dropdown-toggle" href="/conference/usenixsecurity19#registration">
+        
+    Attend          </a>
+<div class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child" data-class="" data-width="">
+<div class="mega-dropdown-inner">
+<div class="tb-megamenu-row row-fluid">
+<div class="tb-megamenu-column span4 mega-col-nav" data-class="" data-hidewcol="0" data-width="4" id="tb-megamenu-column-1">
+<div class="tb-megamenu-column-inner mega-inner clearfix">
+<ul class="tb-megamenu-subnav mega-nav level-1 items-2">
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="39853" data-level="2" data-type="menu_item" data-xicon="">
+<a href="/conference/usenixsecurity19/registration-information">
+        
+    Registration Information          </a>
+</li>
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="39855" data-level="2" data-type="menu_item" data-xicon="">
+<a href="/conference/usenixsecurity19/registration-discounts">
+        
+    Registration Discounts          </a>
+</li>
+</ul>
+</div>
+</div>
+<div class="tb-megamenu-column span4 mega-col-nav" data-class="" data-hidewcol="" data-width="4" id="tb-megamenu-column-2">
+<div class="tb-megamenu-column-inner mega-inner clearfix">
+<ul class="tb-megamenu-subnav mega-nav level-1 items-3">
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="39856" data-level="2" data-type="menu_item" data-xicon="">
+<a href="/grant-program-overview">
+        
+    Grant Overview          </a>
+</li>
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="39857" data-level="2" data-type="menu_item" data-xicon="">
+<a href="/conference/usenixsecurity19/student-grant-application">
+        
+    Student Grant Application          </a>
+</li>
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="39858" data-level="2" data-type="menu_item" data-xicon="">
+<a href="/conference/usenixsecurity19/diversity-grant-application">
+        
+    Diversity Grant Application          </a>
+</li>
+</ul>
+</div>
+</div>
+<div class="tb-megamenu-column span4 mega-col-nav" data-class="" data-hidewcol="" data-width="4" id="tb-megamenu-column-3">
+<div class="tb-megamenu-column-inner mega-inner clearfix">
+<ul class="tb-megamenu-subnav mega-nav level-1 items-2">
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="38418" data-level="2" data-type="menu_item" data-xicon="">
+<a href="/conference/usenixsecurity19#venue">
+        
+    Venue, Hotel, and Travel          </a>
+</li>
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="39861" data-level="2" data-type="menu_item" data-xicon="">
+<a href="/conference/usenixsecurity19/services">
+        
+    Services          </a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="tb-megamenu-item level-1 mega dropdown" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="39822" data-level="1" data-type="menu_item" data-xicon="">
+<a class="dropdown-toggle" href="/conference/usenixsecurity19/glance">
+        
+    Program          </a>
+<div class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child" data-class="" data-width="">
+<div class="mega-dropdown-inner">
+<div class="tb-megamenu-row row-fluid">
+<div class="tb-megamenu-column span12 mega-col-nav" data-class="" data-hidewcol="0" data-width="12" id="tb-megamenu-column-4">
+<div class="tb-megamenu-column-inner mega-inner clearfix">
+<ul class="tb-megamenu-subnav mega-nav level-1 items-3">
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="39868" data-level="2" data-type="menu_item" data-xicon="">
+<a href="/conference/usenixsecurity19/glance">
+        
+    Program at a Glance          </a>
+</li>
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="39862" data-level="2" data-type="menu_item" data-xicon="">
+<a href="/conference/usenixsecurity19/technical-sessions">
+        
+    Technical Sessions          </a>
+</li>
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="39823" data-level="2" data-type="menu_item" data-xicon="">
+<a href="/conference/usenixsecurity19/Fall-accepted-papers">
+        
+    Fall Accepted Papers          </a>
+</li>
+</ul>
+</div>
+</div>
+<div class="tb-megamenu-column span6 mega-col-nav" data-class="" data-hidewcol="" data-width="6" id="tb-megamenu-column-5">
+<div class="tb-megamenu-column-inner mega-inner clearfix">
+<ul class="tb-megamenu-subnav mega-nav level-1 items-3">
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="39863" data-level="2" data-type="menu_item" data-xicon="">
+<a href="/conference/usenixsecurity19/activities">
+        
+    Activities          </a>
+</li>
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="39864" data-level="2" data-type="menu_item" data-xicon="">
+<a href="/conference/usenixsecurity19/bofs">
+        
+    Birds-of-a-Feather Sessions          </a>
+</li>
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="39978" data-level="2" data-type="menu_item" data-xicon="">
+<a href="/conference/usenixsecurity19/poster-session">
+        
+    Poster Session and Happy Hour          </a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="tb-megamenu-item level-1 mega dropdown active active-trail" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="38464" data-level="1" data-type="menu_item" data-xicon="">
+<a class="dropdown-toggle" href="/conference/usenixsecurity19/call-for-papers">
+        
+    Participate          </a>
+<div class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child" data-class="" data-width="">
+<div class="mega-dropdown-inner">
+<div class="tb-megamenu-row row-fluid">
+<div class="tb-megamenu-column span6 mega-col-nav" data-class="" data-hidewcol="0" data-width="6" id="tb-megamenu-column-6">
+<div class="tb-megamenu-column-inner mega-inner clearfix">
+<ul class="tb-megamenu-subnav mega-nav level-1 items-2">
+<li class="tb-megamenu-item level-2 mega active active-trail" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="38465" data-level="2" data-type="menu_item" data-xicon="">
+<a href="/conference/usenixsecurity19/call-for-papers">
+        
+    Call for Papers          </a>
+</li>
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="38466" data-level="2" data-type="menu_item" data-xicon="">
+<a href="/conference/usenixsecurity19/submission-policies-instructions">
+        
+    Submission Policies and Instructions          </a>
+</li>
+</ul>
+</div>
+</div>
+<div class="tb-megamenu-column span6 mega-col-nav" data-class="" data-hidewcol="" data-width="6" id="tb-megamenu-column-7">
+<div class="tb-megamenu-column-inner mega-inner clearfix">
+<ul class="tb-megamenu-subnav mega-nav level-1 items-1">
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="39151" data-level="2" data-type="menu_item" data-xicon="">
+<a href="/conference/usenixsecurity19/instructions-presenters">
+        
+    Instructions for Presenters          </a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="tb-megamenu-item level-1 mega dropdown" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="38421" data-level="1" data-type="menu_item" data-xicon="">
+<a class="dropdown-toggle" href="/conference/usenixsecurity19#sponsorship">
+        
+    Sponsors          </a>
+<div class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child" data-class="" data-width="">
+<div class="mega-dropdown-inner">
+<div class="tb-megamenu-row row-fluid">
+<div class="tb-megamenu-column span12 mega-col-nav" data-class="" data-hidewcol="0" data-width="12" id="tb-megamenu-column-8">
+<div class="tb-megamenu-column-inner mega-inner clearfix">
+<ul class="tb-megamenu-subnav mega-nav level-1 items-1">
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="39952" data-level="2" data-type="menu_item" data-xicon="">
+<a href="/conference/usenixsecurity19/exhibitor-services">
+        
+    Exhibitor Services          </a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="tb-megamenu-item level-1 mega dropdown" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="38419" data-level="1" data-type="menu_item" data-xicon="">
+<a class="dropdown-toggle" href="/conference/usenixsecurity19#marquee">
+        
+    About          </a>
+<div class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child" data-class="" data-width="">
+<div class="mega-dropdown-inner">
+<div class="tb-megamenu-row row-fluid">
+<div class="tb-megamenu-column span6 mega-col-nav" data-class="" data-hidewcol="0" data-width="6" id="tb-megamenu-column-9">
+<div class="tb-megamenu-column-inner mega-inner clearfix">
+<ul class="tb-megamenu-subnav mega-nav level-1 items-3">
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="38420" data-level="2" data-type="menu_item" data-xicon="">
+<a href="/conference/usenixsecurity19#organizers">
+        
+    Symposium Organizers          </a>
+</li>
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="39773" data-level="2" data-type="menu_item" data-xicon="">
+<a href="/conference/usenixsecurity19#questions">
+        
+    Questions          </a>
+</li>
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="38467" data-level="2" data-type="menu_item" data-xicon="">
+<a href="https://www.usenix.org/conferences/byname/108">
+        
+    Past Symposia          </a>
+</li>
+</ul>
+</div>
+</div>
+<div class="tb-megamenu-column span6 mega-col-nav" data-class="" data-hidewcol="" data-width="6" id="tb-megamenu-column-10">
+<div class="tb-megamenu-column-inner mega-inner clearfix">
+<ul class="tb-megamenu-subnav mega-nav level-1 items-2">
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="38468" data-level="2" data-type="menu_item" data-xicon="">
+<a href="https://www.usenix.org/conference-policies">
+        
+    Conference Policies          </a>
+</li>
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="38469" data-level="2" data-type="menu_item" data-xicon="">
+<a href="https://www.usenix.org/conferences/coc">
+        
+    Code of Conduct          </a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section> </div>
+</div>
+</header>
+<main role="main">
+<section id="content">
+<div class="outer-wrapper">
+<h1 id="page-title">USENIX Security  2019 Call for Papers</h1>
+</div>
+<div class="outer-wrapper">
+</div>
+<section class="block block-block 152">
+<div class="block-content"> <div style="padding: 2em 2em; background-color: #eeeeee; margin: 3em 0 1em;">
+<div style="margin: 0 auto; max-width: 1200px;">
+<p style="text-align: center;">We at USENIX assert that Black lives matter: Read the <a href="/blog/usenix-statement-racism-and-black-african-american-and-african-diaspora-inclusion ">USENIX Statement on Racism and Black, African-American, and African Diaspora Inclusion</a>.</p>
+</div>
+</div></div>
+</section>
+<div class="block-content"> <article class="node node-call-for-papers view-mode-full" id="node-224063">
+<div class="content">
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item odd"><!--
+<style>
+     .view-conference-organizers .view-content { column-count: 1; }
+</style>
+-->
+<h2>Symposium Overview</h2>
+<p>The USENIX Security Symposium brings together researchers, practitioners, system administrators, system programmers, and others interested in the latest advances in the security and privacy of computer systems and networks. The 28th USENIX Security Symposium will be held August 14–16, 2019, in Santa Clara, CA.</p>
+<p><em><strong>Important:</strong> The USENIX Security Symposium is moving to multiple submission deadlines for USENIX Security  2019. This change includes changes to the review process and submission policies. Detailed information is available at <a href="/conference/usenixsecurity19/publication-model-change">USENIX Security Publication Model Changes</a>.</em></p>
+<p>All researchers are encouraged to submit papers covering novel and scientifically significant practical works in computer security. There will be two quarterly submission deadlines for USENIX Security ’19. The Fall quarter submissions deadline is <strong>Thursday, November 15, 2018, 5:00 pm PST</strong>. The Winter quarter submissions deadline is <strong>Friday, February 15, 2019, 5:00 pm PST</strong>.  The Symposium will span three days with a technical program including refereed papers, invited talks, posters, panel discussions, and Birds-of-a-Feather sessions. Co-located events will precede the Symposium on August 12 and 13.</p>
+<h2>Important Dates</h2>
+<h3>Fall Quarter Deadline</h3>
+<ul>
+<li><a href="#papers">Refereed paper</a> submissions due: <strong>Thursday, November 15, 2018, 5:00 pm PST</strong></li>
+<li>Early reject notification: <strong>Friday, December 14, 2018</strong></li>
+<li>Author responses due: <strong>Tuesday, December 18, 2018</strong></li>
+<li>Notification to authors: <strong>Friday, January 18, 2019</strong></li>
+<li>Final papers due: <strong>Monday, February 18, 2019, 9:00 pm PST</strong></li>
+</ul>
+<h3>Winter Quarter Deadline</h3>
+<ul>
+<li><a href="#papers">Refereed paper</a> submission due: <strong>Friday, February 15, 2019, 5:00 pm PST</strong></li>
+<li>Early reject notification: <strong>Thursday, March 21, 2019</strong></li>
+<li>Author responses due: <strong>Tuesday March 26, 2019</strong></li>
+<li>Notification to authors: <strong>Wednesday, May 1, 2019</strong></li>
+<li>Final papers due: <strong>Saturday, June 1, 2019, 9:00 pm PDT</strong></li>
+</ul>
+<hr/>
+<ul>
+<li><a href="#it">Invited talk and panel</a> proposals due: <strong>Friday, February 15, 2019, 5:00 pm PST</strong></li>
+<li><a href="#poster">Poster</a> proposals due: <strong>Tuesday, July 9, 2019, 9:00 pm PDT</strong></li>
+<li>Notification to poster presenters: <strong>Tuesday, July 16, 2019</strong></li>
+<!--<li>Lightning Talks submission deadline for awards consideration: <strong>Saturday, July 27, 2019</strong></li>-->
+<li><a href="#lightning">Lightning Talks</a> submissions due: <strong>Wednesday, August 14, 2019, 12:00 pm PDT</strong></li>
+</ul>
+<div class="field field-name-field-action-link field-type-link-field field-label-hidden" style="padding-top:2em;">
+<a href="/sites/default/files/sec19_cfp_062419.pdf" style="border: 2px solid black; color: black; text-transform: initial; letter-spacing: 0;">Download Call for Papers PDF</a>
+</div>
+<h2 style="padding-top: 1em;">Symposium Organizers</h2></div></div></div><div class="field field-name-field-conference-organizers field-type-viewfield field-label-hidden"><div class="field-items"><div class="field-item odd"><div class="view view-conference-organizers view-id-conference_organizers view-display-id-default view-dom-id-dc405e96c8d7e469b4caad5b532c7c8a">
+<div class="view-content">
+<h3 class="grouping-field-heading"><span>Program Co-Chairs</span></h3>
+<div class="views-row views-row-1 views-row-odd views-row-first">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Nadia Heninger, <em>University of California, San Diego</em></div> </div> </div>
+<div class="views-row views-row-2 views-row-even views-row-last">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Patrick Traynor, <em>University of Florida</em></div> </div> </div>
+<h3 class="grouping-field-heading"><span>Program Committee</span></h3>
+<div class="views-row views-row-1 views-row-odd views-row-first">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Yasemin Acar, <em>Leibniz University Hannover</em></div> </div> </div>
+<div class="views-row views-row-2 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Sadia Afroz, <em>University of California, Berkeley/International Computer Science Institute</em></div> </div> </div>
+<div class="views-row views-row-3 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Devdatta Akhawe, <em>Dropbox</em></div> </div> </div>
+<div class="views-row views-row-4 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Johanna Amann, <em>International Computer Science Institute</em></div> </div> </div>
+<div class="views-row views-row-5 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Adam Aviv, <em>United States Naval Academy</em></div> </div> </div>
+<div class="views-row views-row-6 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Michael Bailey, <em>University of Illinois at Urbana–Champaign</em></div> </div> </div>
+<div class="views-row views-row-7 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Adam Bates, <em>University of Illinois at Urbana–Champaign</em></div> </div> </div>
+<div class="views-row views-row-8 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Vincent Bindschaedler, <em>University of Florida</em></div> </div> </div>
+<div class="views-row views-row-9 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Joseph Bonneau, <em>New York University</em></div> </div> </div>
+<div class="views-row views-row-10 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Nikita Borisov, <em>University of Illinois at Urbana–Champaign</em></div> </div> </div>
+<div class="views-row views-row-11 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Sven Bugiel, <em>CISPA Helmholtz Center i.G.</em></div> </div> </div>
+<div class="views-row views-row-12 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Kevin Butler, <em>University of Florida</em></div> </div> </div>
+<div class="views-row views-row-13 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Joe Calandrino, <em>Federal Trade Commission</em></div> </div> </div>
+<div class="views-row views-row-14 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Stefano Calzavara, <em>Università Ca' Foscari Venezia</em></div> </div> </div>
+<div class="views-row views-row-15 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Yinzhi Cao, <em>Johns Hopkins University</em></div> </div> </div>
+<div class="views-row views-row-16 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Srdjan Capkun, <em>ETH Zurich</em></div> </div> </div>
+<div class="views-row views-row-17 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Lorenzo Cavallaro, <em>King's College London</em></div> </div> </div>
+<div class="views-row views-row-18 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Stephen Checkoway, <em>Oberlin College</em></div> </div> </div>
+<div class="views-row views-row-19 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Bill Cheswick, <em>AT&amp;T Labs—Research</em></div> </div> </div>
+<div class="views-row views-row-20 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Marshini Chetty, <em>Princeton University</em></div> </div> </div>
+<div class="views-row views-row-21 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Mihai Christodorescu, <em>VISA Research</em></div> </div> </div>
+<div class="views-row views-row-22 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Erinn Clark, <em>First Look Media</em></div> </div> </div>
+<div class="views-row views-row-23 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">George Danezis, <em>University College London</em></div> </div> </div>
+<div class="views-row views-row-24 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Nathan Dautenhahn, <em>Rice University</em></div> </div> </div>
+<div class="views-row views-row-25 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Roger Dingledine, <em>The Tor Project</em></div> </div> </div>
+<div class="views-row views-row-26 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Adam Doupe, <em>Arizona State University</em></div> </div> </div>
+<div class="views-row views-row-27 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Thomas Dullien, <em>Google</em></div> </div> </div>
+<div class="views-row views-row-28 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Zakir Durumeric, <em>Stanford University</em></div> </div> </div>
+<div class="views-row views-row-29 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Manuel Egele, <em>Boston University</em></div> </div> </div>
+<div class="views-row views-row-30 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">William Enck, <em>North Carolina State University</em></div> </div> </div>
+<div class="views-row views-row-31 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Roya Ensafi, <em>University of Michigan</em></div> </div> </div>
+<div class="views-row views-row-32 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">David Evans, <em>University of Virginia</em></div> </div> </div>
+<div class="views-row views-row-33 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Sascha Fahl, <em>Leibniz University Hannover</em></div> </div> </div>
+<div class="views-row views-row-34 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Giulia Fanti, <em>Carnegie Mellon University</em></div> </div> </div>
+<div class="views-row views-row-35 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Nick Feamster, <em>University of Chicago</em></div> </div> </div>
+<div class="views-row views-row-36 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Adrienne Porter Felt, <em>Google</em></div> </div> </div>
+<div class="views-row views-row-37 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Earlence Fernandes, <em>University of Washington</em></div> </div> </div>
+<div class="views-row views-row-38 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">David Freeman, <em>Facebook</em></div> </div> </div>
+<div class="views-row views-row-39 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Daniel Genkin, <em>University of Michigan</em></div> </div> </div>
+<div class="views-row views-row-40 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Neil Gong, <em>Iowa State University</em></div> </div> </div>
+<div class="views-row views-row-41 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Matthew Green, <em>Johns Hopkins Information Security Institute</em></div> </div> </div>
+<div class="views-row views-row-42 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Rachel Greenstadt, <em>Drexel University</em></div> </div> </div>
+<div class="views-row views-row-43 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Daniel Gruss, <em>Graz University of Technology</em></div> </div> </div>
+<div class="views-row views-row-44 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Joseph Lorenzo Hall, <em>Center for Democracy &amp; Technology</em></div> </div> </div>
+<div class="views-row views-row-45 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Xiali (Sharon) Hei, <em>University of Louisiana at Lafayette</em></div> </div> </div>
+<div class="views-row views-row-46 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Thorsten Holz, <em>Ruhr-University Bochum</em></div> </div> </div>
+<div class="views-row views-row-47 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Trent Jaeger, <em>The Pennsylvania State University</em></div> </div> </div>
+<div class="views-row views-row-48 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Rob Jansen, <em>U.S. Naval Research Laboratory</em></div> </div> </div>
+<div class="views-row views-row-49 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Mobin Javed, <em>Lahore University of Management Sciences</em></div> </div> </div>
+<div class="views-row views-row-50 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Chris Kanich, <em>University of Illinois at Chicago</em></div> </div> </div>
+<div class="views-row views-row-51 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Vasileios Kemerlis, <em>Brown University</em></div> </div> </div>
+<div class="views-row views-row-52 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Yongdae Kim, <em>Korea Advanced Institute of Science and Technology (KAIST)</em></div> </div> </div>
+<div class="views-row views-row-53 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Lea Kissner, <em>Humu</em></div> </div> </div>
+<div class="views-row views-row-54 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Yoshi Kohno, <em>University of Washington</em></div> </div> </div>
+<div class="views-row views-row-55 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Farinaz Koushanfar, <em>University of California, San Diego</em></div> </div> </div>
+<div class="views-row views-row-56 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Katharina Krombholz, <em>CISPA Helmholtz Center i.G.</em></div> </div> </div>
+<div class="views-row views-row-57 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Ben Laurie, <em>Google</em></div> </div> </div>
+<div class="views-row views-row-58 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Tancrède Lepoint, <em>Google</em></div> </div> </div>
+<div class="views-row views-row-59 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Martina Lindorfer, <em>Technische Universität Wien</em></div> </div> </div>
+<div class="views-row views-row-60 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Allison Mankin, <em>Salesforce</em></div> </div> </div>
+<div class="views-row views-row-61 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Ivan Martinovic, <em>Oxford University</em></div> </div> </div>
+<div class="views-row views-row-62 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Stephen McCamant, <em>University of Minnesota</em></div> </div> </div>
+<div class="views-row views-row-63 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Jon McCune, <em>Google</em></div> </div> </div>
+<div class="views-row views-row-64 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Patrick McDaniel, <em>The Pennsylvania State University</em></div> </div> </div>
+<div class="views-row views-row-65 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Sarah Meiklejohn, <em>University College London</em></div> </div> </div>
+<div class="views-row views-row-66 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Jelena Mirkovic, <em>USC/Information Sciences Institute</em></div> </div> </div>
+<div class="views-row views-row-67 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Prateek Mittal, <em>Princeton University</em></div> </div> </div>
+<div class="views-row views-row-68 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Veelasha Moonsamy, <em>Utrecht University</em></div> </div> </div>
+<div class="views-row views-row-69 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Adwait Nadkarni, <em>College of William &amp; Mary</em></div> </div> </div>
+<div class="views-row views-row-70 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Yossi Oren, <em>Ben-Gurion University of the Negev</em></div> </div> </div>
+<div class="views-row views-row-71 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Nicolas Papernot, <em>The Pennsylvania State University</em></div> </div> </div>
+<div class="views-row views-row-72 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Kenny Paterson, <em>Royal Holloway</em></div> </div> </div>
+<div class="views-row views-row-73 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Mathias Payer, <em>École Polytechnique Fédérale de Lausanne (EPFL)</em></div> </div> </div>
+<div class="views-row views-row-74 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Giancarlo Pellegrino, <em>Stanford University</em></div> </div> </div>
+<div class="views-row views-row-75 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Christina Pöpper, <em>New York University Abu Dhabi</em></div> </div> </div>
+<div class="views-row views-row-76 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Brad Reaves, <em>North Carolina State University</em></div> </div> </div>
+<div class="views-row views-row-77 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Elissa Redmiles, <em>Microsoft Research and Princeton University</em></div> </div> </div>
+<div class="views-row views-row-78 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Konrad Rieck, <em>Technische Universität Braunschweig</em></div> </div> </div>
+<div class="views-row views-row-79 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Tom Ristenpart, <em>Cornell Tech</em></div> </div> </div>
+<div class="views-row views-row-80 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Tom Ritter, <em>Mozilla</em></div> </div> </div>
+<div class="views-row views-row-81 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Franziska Roesner, <em>University of Washington</em></div> </div> </div>
+<div class="views-row views-row-82 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Ahmad-Reza Sadeghi, <em>Technische Universität Darmstadt</em></div> </div> </div>
+<div class="views-row views-row-83 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Prateek Saxena, <em>National University of Singapore</em></div> </div> </div>
+<div class="views-row views-row-84 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Nolen Scaife, <em>University of Florida</em></div> </div> </div>
+<div class="views-row views-row-85 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Wendy Seltzer, <em>W3C/Massachusetts Institute of Technology</em></div> </div> </div>
+<div class="views-row views-row-86 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Micah Sherr, <em>Georgetown University</em></div> </div> </div>
+<div class="views-row views-row-87 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Deian Stefan, <em>University of California, San Diego</em></div> </div> </div>
+<div class="views-row views-row-88 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Ben Stock, <em>CISPA Helmholtz Center i.G.</em></div> </div> </div>
+<div class="views-row views-row-89 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Gianluca Stringhini, <em>Boston University</em></div> </div> </div>
+<div class="views-row views-row-90 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Dave 'Jing' Tian, <em>University of Florida</em></div> </div> </div>
+<div class="views-row views-row-91 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Luke Valenta, <em>University of Pennsylvania</em></div> </div> </div>
+<div class="views-row views-row-92 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Ingrid Verbauwhede, <em>Katholieke Universiteit Leuven</em></div> </div> </div>
+<div class="views-row views-row-93 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">David Wagner, <em>University of California, Berkeley</em></div> </div> </div>
+<div class="views-row views-row-94 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Byron Williams, <em>University of Florida</em></div> </div> </div>
+<div class="views-row views-row-95 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Eric Wustrow, <em>University of Colorado Boulder</em></div> </div> </div>
+<div class="views-row views-row-96 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Wenyuan Xu, <em>Zhejiang University</em></div> </div> </div>
+<div class="views-row views-row-97 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Yuval Yarom, <em>University of Adelaide and Data61</em></div> </div> </div>
+<div class="views-row views-row-98 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Tuba Yavuz, <em>University of Florida</em></div> </div> </div>
+<div class="views-row views-row-99 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Daniel Zappala, <em>Brigham Young University</em></div> </div> </div>
+<div class="views-row views-row-100 views-row-even views-row-last">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Mary Ellen Zurko, <em>MIT Lincoln Laboratory</em></div> </div> </div>
+<h3 class="grouping-field-heading"><span>Invited Talks Chair</span></h3>
+<div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Devdatta Akhawe, <em>Dropbox</em></div> </div> </div>
+<h3 class="grouping-field-heading"><span>Invited Talks Committee</span></h3>
+<div class="views-row views-row-1 views-row-odd views-row-first">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Alex Gantman, <em>Qualcomm</em></div> </div> </div>
+<div class="views-row views-row-2 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Giancarlo Pellegrino, <em>Stanford University</em></div> </div> </div>
+<div class="views-row views-row-3 views-row-odd views-row-last">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Elissa Redmiles, <em>Microsoft Research and Princeton University</em></div> </div> </div>
+<h3 class="grouping-field-heading"><span>Lightning Talks Chair</span></h3>
+<div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Christina Garman, <em>Purdue University</em></div> </div> </div>
+<h3 class="grouping-field-heading"><span>Poster Session Chair</span></h3>
+<div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Brad Reaves, <em>North Carolina State University</em></div> </div> </div>
+<h3 class="grouping-field-heading"><span>Test of Time Awards Committee</span></h3>
+<div class="views-row views-row-1 views-row-odd views-row-first">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Matt Blaze, <em>University of Pennsylvania</em></div> </div> </div>
+<div class="views-row views-row-2 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Dan Boneh, <em>Stanford University</em></div> </div> </div>
+<div class="views-row views-row-3 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Kevin Fu, <em>University of Michigan</em></div> </div> </div>
+<div class="views-row views-row-4 views-row-even views-row-last">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Fabian Monrose, <em>The University of North Carolina at Chapel Hill</em></div> </div> </div>
+<h3 class="grouping-field-heading"><span>Steering Committee</span></h3>
+<div class="views-row views-row-1 views-row-odd views-row-first">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Matt Blaze, <em>University of Pennsylvania</em></div> </div> </div>
+<div class="views-row views-row-2 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Dan Boneh, <em>Stanford University</em></div> </div> </div>
+<div class="views-row views-row-3 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">William Enck, <em>North Carolina State University</em></div> </div> </div>
+<div class="views-row views-row-4 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Kevin Fu, <em>University of Michigan</em></div> </div> </div>
+<div class="views-row views-row-5 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Casey Henderson, <em>USENIX Association</em></div> </div> </div>
+<div class="views-row views-row-6 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Thorsten Holz, <em>Ruhr-Universität Bochum</em></div> </div> </div>
+<div class="views-row views-row-7 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Jaeyeon Jung, <em>Samsung Electronics</em></div> </div> </div>
+<div class="views-row views-row-8 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Engin Kirda, <em>Northeastern University</em></div> </div> </div>
+<div class="views-row views-row-9 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Tadayoshi Kohno, <em>University of Washington</em></div> </div> </div>
+<div class="views-row views-row-10 views-row-even">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Adrienne Porter Felt, <em>Google</em></div> </div> </div>
+<div class="views-row views-row-11 views-row-odd">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">Thomas Ristenpart, <em>Cornell Tech</em></div> </div> </div>
+<div class="views-row views-row-12 views-row-even views-row-last">
+<div class="views-field views-field-field-speakers-institution"> <div class="field-content">David Wagner, <em>University of California, Berkeley</em></div> </div> </div>
+</div>
+</div></div></div></div><div class="field field-name-field-additional-text field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item odd"><h2>Symposium Topics</h2>
+<p>Refereed paper submissions are solicited in all areas relating to systems research in security and privacy, including but not limited to:</p>
+<ul>
+<li>System security
+		<ul>
+<li>Operating systems security</li>
+<li>Web security</li>
+<li>Mobile systems security</li>
+<li>Distributed systems security</li>
+<li>Cloud computing security</li>
+</ul>
+</li>
+<li>Network security
+		<ul>
+<li>Intrusion and anomaly detection and prevention</li>
+<li>Network infrastructure security</li>
+<li>Denial-of-service attacks and countermeasures</li>
+<li>Wireless security</li>
+</ul>
+</li>
+<li>Security analysis
+		<ul>
+<li>Malware analysis</li>
+<li>Analysis of network and security protocols</li>
+<li>Attacks with novel insights, techniques, or results</li>
+<li>Forensics and diagnostics for security</li>
+<li>Automated security analysis of hardware designs and implementation</li>
+<li>Automated security analysis of source code and binaries</li>
+<li>Program analysis</li>
+</ul>
+</li>
+<li>Data-driven security and measurement studies
+		<ul>
+<li>Measurements of fraud, malware, spam</li>
+<li>Measurements of human behavior and security</li>
+</ul>
+</li>
+<li>Privacy-enhancing technologies and anonymity</li>
+<li>Usable security and privacy</li>
+<li>Language-based security</li>
+<li>Hardware security
+		<ul>
+<li>Secure computer architectures</li>
+<li>Embedded systems security</li>
+<li>Methods for detection of malicious or counterfeit hardware</li>
+<li>Side channels</li>
+</ul>
+</li>
+<li>Research on surveillance and censorship</li>
+<li>Social issues and security
+		<ul>
+<li>Research on computer security law and policy</li>
+<li>Ethics of computer security research</li>
+<li>Research on security education and training</li>
+</ul>
+</li>
+<li>Applications of cryptography
+		<ul>
+<li>Analysis of deployed cryptography and cryptographic protocols</li>
+<li>Cryptographic implementation analysis</li>
+<li>New cryptographic protocols with real-world applications</li>
+</ul>
+</li>
+</ul>
+<p>This topic list is not meant to be exhaustive; USENIX Security is interested in all aspects of computing systems security and privacy. Papers without a clear application to security or privacy, however, will be considered out of scope and may be rejected without full review.</p>
+<a class="anchor" name="papers"></a>
+<h2>Refereed Papers</h2>
+<p>Papers that have been formally reviewed and accepted will be presented during the Symposium and published in the Symposium Proceedings. By submitting a paper, you agree that at least one of the authors will attend the conference to present it. If the conference registration fee will pose a hardship for the presenter of the accepted paper, please contact <a href="mailto:conference@usenix.org">conference@usenix.org</a>. </p>
+<p>A major mission of the USENIX Association is to provide for the creation and dissemination of new knowledge. In keeping with this and as part of USENIX’s open access policy, the Proceedings will be available online for registered attendees before the Symposium and for everyone starting on the opening day of the technical sessions. USENIX also allows authors to retain ownership of the copyright in their works, requesting only that USENIX be granted the right to be the first publisher of that work. See our <a href="/sites/default/files/2019_sample_consent_conference.pdf">sample consent form</a> for the complete terms of publication.</p>
+<p>Go to <a href="/conference/usenixsecurity19/submission-policies-instructions">Paper Submission Policies and Instructions</a> page for more information.</p>
+<h2>Symposium Activities</h2>
+<p style="font-weight: 600;">Invited Talks, Panels, Poster Session, and BoFs</p>
+<p>In addition to the refereed papers and the keynote presentation, the technical program will include invited talks, panel discussions, a poster session, and Birds-of-a-Feather sessions (BoFs). You are invited to make suggestions regarding topics or speakers in any of these sessions via email to the contacts listed below or to the program co-chairs at <a href="mailto:sec19chairs@usenix.org">sec19chairs@usenix.org</a>.</p>
+<a class="anchor" name="it"></a>
+<h3>Invited Talks and Panel Discussions</h3>
+<p>Invited talks and panel discussions will be held in parallel with the refereed paper sessions. Please submit topic suggestions and talk and panel proposals via email to <a href="mailto:sec19it@usenix.org">sec19it@usenix.org</a> by Friday, February 15, 2019, 5:00 pm PST.</p>
+<a class="anchor" name="poster"></a>
+<h3>Poster Session</h3>
+<p>Would you like to share a provocative opinion, an interesting preliminary work, or a cool idea that will spark discussion at this year’s USENIX Security Symposium? The poster session is the perfect venue to introduce such new or ongoing work. Poster presenters will have the entirety of the evening reception to discuss their work, get exposure, and receive feedback from attendees.</p>
+<p>To submit a poster, please submit a draft of your poster, in PDF (maximum size 36" by 48"), or a one-page abstract via the <a href="https://sec19posters.usenix.hotcrp.com" target="_blank">poster session submission form</a>, by Tuesday, July 9, 2019, 9:00 pm PDT. Decisions will be made by Tuesday, July 16, 2019. Posters will not be included in the proceedings but may be made available online if circumstances permit. Poster submissions must include the authors’ names, affiliations, and contact information. At least one author of each accepted poster must register for and attend the Symposium to present the poster.</p>
+<p>Poster authors are optionally encouraged to prepare their posters using the Better Posters template by Mike Morrison, available at <a href="https://osf.io/ef53g/" target="_blank">https://osf.io/ef53g/</a>. This initiative was recently featured by National Public Radio (<a href="https://www.npr.org/sections/health-shots/2019/06/11/729314248/to-save-the-science-poster-researchers-want-to-kill-it-and-start-over" target="_blank">https://www.npr.org/sections/health-shots/2019/06/11/729314248/to-save-the-science-poster-researchers-want-to-kill-it-and-start-over</a>), and more information is also available here: <a href="https://www.youtube.com/watch?v=1RwJbhkCA58" target="_blank">https://www.youtube.com/watch?v=1RwJbhkCA58</a>.</p>
+<!--<p>The HotCRP submission system will be ready soon.</p>-->
+<a class="anchor" name="lightning"></a>
+<h3>Lightning Talks</h3>
+<p>We will host a Lightning Talks session (also previously known as Work-in-Progress/Rump session) on the evening of Wednesday, August 14, 2019. This is intended as an informal session for short and engaging presentations on recent unpublished results, work in progress, or other topics of interest to the USENIX Security attendees. As in the past, talks do not always need to be serious and funny talks are encouraged! This year, USENIX will generously sponsor awards for the most engaging talks. Bragging rights and small cash prizes can be yours for a great talk! For full consideration, submit your lightning talk via the <a href="https://sec19lightning.usenix.hotcrp.com/" target="_blank">lighting talk submission form</a> through July 27, 2019. Only talks submitted by this deadline will be considered for the awards. You can continue submitting talks through HotCRP, or by emailing <a href="mailto:sec19lightning@usenix.org">sec19lightning@usenix.org</a> until Wednesday, August 14, 2019, 12:00 pm PDT.</p>
+<h3>Birds-of-a-Feather Sessions (BoFs)</h3>
+<p>Birds-of-a-Feather sessions (BoFs) will be held Tuesday, Wednesday, and Thursday evenings. Birds-of-a-Feather sessions are informal gatherings of persons interested in a particular topic. BoFs often feature a presentation or a demonstration followed by discussion, announcements, and the sharing of strategies. BoFs can be scheduled on site or in advance. To schedule a BoF, please send email to the USENIX Conference Department at <a href="mailto:bofs@usenix.org">bofs@usenix.org</a> with the title and a brief description of the BoF; the name, title, affiliation, and email address of the facilitator; and your preference of date and time.</p>
+<p style="padding-top: 1em;">Go to <a href="/conference/usenixsecurity19/submission-policies-instructions">Paper Submission Policies and Instructions</a></p></div></div></div> </div>
+</article>
+</div>
+</section>
+</main>
+<footer class="site-footer" id="site-footer" role="contentinfo">
+<section class="footer-top">
+<section class="block block-usenix-og-auto-menu usenix-og-auto-footer-menu">
+<div class="block-content"> <ul class="menu"><li class="first expanded"><a href="/conference/usenixsecurity19#registration">Attend</a><ul class="menu"><li class="first leaf"><a href="/conference/usenixsecurity19/registration-information">Registration Information</a></li>
+<li class="leaf"><a href="/conference/usenixsecurity19/registration-discounts">Registration Discounts</a></li>
+<li class="leaf"><a href="/grant-program-overview">Grant Overview</a></li>
+<li class="leaf"><a href="/conference/usenixsecurity19/student-grant-application">Student Grant Application</a></li>
+<li class="leaf"><a href="/conference/usenixsecurity19/diversity-grant-application">Diversity Grant Application</a></li>
+<li class="leaf"><a href="/conference/usenixsecurity19#venue">Venue, Hotel, and Travel</a></li>
+<li class="last leaf"><a href="/conference/usenixsecurity19/services">Services</a></li>
+</ul></li>
+<li class="expanded"><a href="/conference/usenixsecurity19/glance">Program</a><ul class="menu"><li class="first leaf"><a href="/conference/usenixsecurity19/glance">Program at a Glance</a></li>
+<li class="leaf"><a href="/conference/usenixsecurity19/technical-sessions">Technical Sessions</a></li>
+<li class="leaf"><a href="/conference/usenixsecurity19/Fall-accepted-papers">Fall Accepted Papers</a></li>
+<li class="leaf"><a href="/conference/usenixsecurity19/activities">Activities</a></li>
+<li class="leaf"><a href="/conference/usenixsecurity19/bofs">Birds-of-a-Feather Sessions</a></li>
+<li class="last leaf"><a href="/conference/usenixsecurity19/poster-session">Poster Session and Happy Hour</a></li>
+</ul></li>
+<li class="expanded"><a class="active" href="/conference/usenixsecurity19/call-for-papers">Participate</a><ul class="menu"><li class="first leaf"><a class="active" href="/conference/usenixsecurity19/call-for-papers">Call for Papers</a></li>
+<li class="leaf"><a href="/conference/usenixsecurity19/submission-policies-instructions">Submission Policies and Instructions</a></li>
+<li class="last leaf"><a href="/conference/usenixsecurity19/instructions-presenters">Instructions for Presenters</a></li>
+</ul></li>
+<li class="expanded"><a href="/conference/usenixsecurity19#sponsorship">Sponsors</a><ul class="menu"><li class="first last leaf"><a href="/conference/usenixsecurity19/exhibitor-services">Exhibitor Services</a></li>
+</ul></li>
+<li class="last expanded"><a href="/conference/usenixsecurity19#marquee">About</a><ul class="menu"><li class="first leaf"><a href="/conference/usenixsecurity19#organizers">Symposium Organizers</a></li>
+<li class="leaf"><a href="/conference/usenixsecurity19#questions">Questions</a></li>
+<li class="leaf"><a href="https://www.usenix.org/conferences/byname/108">Past Symposia</a></li>
+<li class="leaf"><a href="https://www.usenix.org/conference-policies">Conference Policies</a></li>
+<li class="last leaf"><a href="https://www.usenix.org/conferences/coc">Code of Conduct</a></li>
+</ul></li>
+</ul></div>
+</section> </section>
+<section class="footer-bottom">
+<section class="block block-usenix-conference og-conference-social-icon">
+<div class="block-content"> <article class="node node-conference view-mode-social-icon" id="node-207815">
+<div class="content">
+<a href="http://twitter.com/usenixsecurity" target="_blank"><span class="icon socicon-twitter"></span><span class="offscreen">Twitter</span></a><a href="https://www.facebook.com/USENIX-Security-Symposium-13544602263" target="_blank"><span class="icon socicon-facebook"></span><span class="offscreen">Facebook</span></a><a href="http://www.youtube.com/user/USENIXAssociation" target="_blank"><span class="icon socicon-youtube"></span><span class="offscreen">Youtube</span></a> </div>
+</article>
+</div>
+</section> <section class="block block-menu menu-footer">
+<div class="block-content"> <ul class="menu"><li class="first leaf"><a href="/privacy-policy">Privacy Policy</a></li>
+<li class="leaf"><a href="/policies">Conference Policies</a></li>
+<li class="last leaf"><a href="/contact">Contact Us</a></li>
+</ul></div>
+</section> <section class="block block-block 27">
+<div class="block-content"> <div style="padding-top: .25em;">
+<p style="color: #acadae;">© USENIX <script>new Date().getFullYear()>document.write(new Date().getFullYear());</script></p>
+</div></div>
+</section> </section>
+</footer>
+</div>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function euCookieComplianceLoadScripts() {}
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var eu_cookie_compliance_cookie_name = "";
+//--><!]]>
+</script>
+<script src="https://www.usenix.org/sites/default/files/js/js_2lJC5gTZ8B3-P19n2LPEd0viiCEmLJ5gcIAFYex1r0U.js" type="text/javascript"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"d823139095","applicationID":"509444","transactionName":"YVJVZksCXkEEVhIMWFgYYkBQTBodDFsCAE8YR19C","queueTime":0,"applicationTime":23,"atts":"TRVWEAMYTU8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

@@ -1,0 +1,4598 @@
+{
+    "id": 0,
+    "content": "PLDI 2020 - PLDI Research Papers - PLDI 2020",
+    "children": [
+        {
+            "id": 1,
+            "content": "PLDI 2020",
+            "key": 1
+        },
+        {
+          "id": 2,
+          "content": "Monday 15 - Sat 20 June 2020",
+          "key": 2
+        },
+        {
+            "id": 3,
+            "content": "PLDI 2020 (series) /",
+            "key": 3
+        },
+        {
+            "id": 4,
+            "content": "PLDI Research Papers",
+            "key": 4,
+            "children": [
+                {
+                    "id": 5,
+                    "content": "PLDI is a premier forum for programming language research, broadly construed, including design, implementation, theory, applications, and performance. PLDI seeks outstanding research that extends and/or applies programming-language concepts to advance the field of computing. Novel system designs, thorough empirical work, well-motivated theoretical results, and new application areas are all welcome emphases in strong PLDI submissions.",
+                    "key": 1
+                },
+                {
+                    "id": 6,
+                    "content": "The main PLDI conference will take place in London, UK, Wednesday, 17 June through Friday, 19 June 2020.",
+                    "key": 2
+                },
+                {
+                    "id": 7,
+                    "content": "Call for Papers",
+                    "key": 3,
+                    "children": [
+                        {
+                            "id": 8,
+                            "content": "PLDI is a premier forum for programming language research, broadly construed, including design, implementation, theory, applications, and performance. PLDI seeks outstanding research that extends and/or applies programming-language concepts to advance the field of computing. Novel system designs, thorough empirical work, well-motivated theoretical results, and new application areas are all welcome emphases in strong PLDI submissions.",
+                            "key": 1
+                        },
+                        {
+                            "id": 9,
+                            "content": "Authors of empirical papers are encouraged to consider the seven categories of the SIGPLAN Empirical Evaluation Guidelines when preparing their submissions.",
+                            "key": 2
+                        },
+                        {
+                            "id": 10,
+                            "content": "Evaluation Criteria and Process",
+                            "key": 3,
+                            "children": [
+                                {
+                                    "id": 11,
+                                    "content": "Reviewers will evaluate each contribution for its accuracy, significance, originality, and clarity. Submissions should be organized to communicate clearly to a broad programming-language audience as well as to experts on the paper’s topics. Papers should identify what has been accomplished and how it relates to previous work.",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 12,
+                                    "content": "Deadlines and formatting requirements, detailed below, will be strictly enforced, with extremely rare extenuating circumstances considered at the discretion of the Program Chair.",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 13,
+                                    "content": "In almost all cases, reviews will be performed by a subset of the Program Committee (PC), the External Program Committee (EPC), and the External Review Committee (ERC). Authors will have the opportunity to respond to initial reviews to correct and clarify technical concerns. The PC will make final accept/reject decisions except for papers with PC authors—such papers will have no PC reviewers and the EPC will make final decisions.",
+                                    "key": 3
+                                },
+                                {
+                                    "id": 14,
+                                    "content": "Authors may contact only the Program Chair about submitted papers during and after the review process. Contacting PC, EPC, or ERC members about submitted paper(s) is an ethical violation and may be grounds for summary rejection.",
+                                    "key": 4
+                                }
+                            ]
+                        },
+                        {
+                            "id": 15,
+                            "content": "Double-Blind Reviewing",
+                            "key": 4,
+                            "children": [
+                                {
+                                    "id": 16,
+                                    "content": "PLDI uses double-blind reviewing. This means that author names and affiliations must be omitted from the submission. Additionally, if the submission refers to prior work done by the authors, that reference should be made in third person. These are firm submission requirements. Any supplementary material must also be anonymized.",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 17,
+                                    "content": "The FAQ on Double-Blind Reviewing clarifies the policy for the most common scenarios. But there are many gray areas and trade-offs. If you have any doubts about how to interpret the double blind rules, please contact the Program Chair. Overestimate the need to contact the Program Chair for complex cases that are not fully covered by the FAQ.",
+                                    "key": 2
+                                }
+                            ]
+                        },
+                        {
+                            "id": 18,
+                            "content": "Submission Site Information",
+                            "key": 5,
+                            "children": [
+                                {
+                                    "id": 19,
+                                    "content": "The submission site is https://pldi2020.hotcrp.com.",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 20,
+                                    "content": "Authors can submit multiple times prior to the (firm!) deadline. Only the last submission will be reviewed. There is no abstract deadline. The submission site requires entering author names and affiliations, relevant topics, and potential conflicts. Addition or removal of authors after the submission deadline will need to be approved by the Program Chair (as this kind of change potentially undermines the goal of eliminating conflicts during paper assignment).",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 21,
+                                    "content": "The submission deadline is 11:59PM November 22, 2019 anywhere on earth: https://en.wikipedia.org/wiki/Anywhere_on_Earth",
+                                    "key": 3
+                                }
+                            ]
+                        },
+                        {
+                            "id": 22,
+                            "content": "Declaring Conflicts",
+                            "key": 6,
+                            "children": [
+                                {
+                                    "id": 23,
+                                    "content": "When submitting the paper, you will need to declare potential conflicts. Conflicts should be declared between an adviser and an advisee (e.g., PhD, post-doc). Other conflicts include institutional conflicts, financial conflicts of interest, friends or relatives, or any recent co-authors on papers and proposals (last 2 years).",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 24,
+                                    "content": "Please do not declare spurious conflicts: such incorrect conflicts are especially harmful if the aim is to exclude potential reviewers, so spurious conflicts can be grounds for rejection. If you are unsure about a conflict, please consult the Program Chair.",
+                                    "key": 2
+                                }
+                            ]
+                        },
+                        {
+                            "id": 25,
+                            "content": "Formatting Requirements",
+                            "key": 7,
+                            "children": [
+                              {
+                                "id": 26,
+                                "content": "Papers should be formatted according to the two-column ACM proceedings format. Each paper should have no more than 12 pages, excluding bibliography, in 10pt font . There is no limit on the page count for references. Each reference must list all authors of the paper (do not use et al). The citations should be in numeric style, e.g., [52]. Submissions should be in PDF format and printable on US Letter and A4 sized paper. These requirements are all the same as in the previous year.",
+                                "key": 1
+                              },
+                              {
+                                "id": 27,
+                                "content": "Papers that exceed the length requirement or deviate from the expected format will be rejected.",
+                                "key": 2
+                              },
+                              {
+                                "id": 28,
+                                "content": "Make sure that figures and tables are legible, even after the paper is printed in gray-scale.",
+                                "key": 3
+                              },
+                              {
+                                "id": 29,
+                                "content": "Appendices should not be part of the paper, but should be submitted as supplementary material. Supplementary material should also be anonymized, as described below. These requirements are also the same as last year.",
+                                "key": 4
+                              },
+                              {
+                                "id": 30,
+                                "content": "As explained in more detail at http://www.sigplan.org/Resources/Author, LaTeX users should use the sigplan subformat of the acmart format by downloading acmart-sigplanproc.zip . Word users should use the acmart template for Word. These are the same files as last year . Please note the following:",
+                                "key": 5
+                              },
+                              {
+                                "id": 31,
+                                "content": "",
+                                "isList": true,
+                                "key": 6,
+                                "children": [
+                                  {
+                                    "id": 32,
+                                    "content": "`acmart-sigplanproc-template.tex` has the correct defaults for PLDI 2020 submissions. Specifically, the first line should be `\\documentclass[sigplan,10pt,review,anonymous]{acmart}\\settopmatter{printfolios=true,printccs=false,printacmref=false}`. The default citation style is numeric.",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 33,
+                                    "content": "Do not mess with the class file or settings to try to sneak in additional space. (Conversely, you may toggle the `printccs` and `printacmref` flags if you wish, but these changes will consume space.)",
+                                    "key": 2
+                                  },
+                                  {
+                                    "id": 34,
+                                    "content": "Do not use the PACMPL files or format; PLDI is not using them. However, the template files were designed to make migrating a paper from one format to the other as simple as possible.",
+                                    "key": 3
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 35,
+                            "content": "Supplementary Material",
+                            "key": 8,
+                            "children": [
+                                {
+                                    "id": 36,
+                                    "content": "Authors are free to provide supplementary material if that material supports the claims in the paper. Such material may include proofs, experimental results, and/or data sets. This material should be uploaded at the same time as the submission. Reviewers are not required to examine the supplementary material but may refer to it if they would like to find further evidence supporting the claims in the paper.",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 37,
+                            "content": "Plagiarism and Concurrent Work",
+                            "key": 9,
+                            "children": [
+                                {
+                                    "id": 38,
+                                    "content": "Papers must describe unpublished work that is not currently submitted for publication elsewhere as described by the SIGPLAN Republication Policy: http://www.sigplan.org/Resources/Policies/Republication/. Authors should also be aware of the ACM Policy on Plagiarism: https://www.acm.org/publications/policies/plagiarism-overview. Concurrent submissions to other conferences, workshops, journals, or similar venues of publication are disallowed. Prior work must, as always, be cited and referred to in the third person even if it is the authors’ work, so as to preserve author anonymity. If you have further questions, contact the Program Chair.",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 39,
+                            "content": "Artifact Evaluation for Accepted Papers",
+                            "key": 10,
+                            "children": [
+                                {
+                                    "id": 40,
+                                    "content": "The authors of accepted PLDI papers will be invited to submit supporting materials to the Artifact Evaluation process. Artifact Evaluation is run by a separate committee whose task is to assess how well the artifacts support the work described in the papers. This submission is voluntary but encouraged and will not influence the final decision regarding the papers. Papers that go through the Artifact Evaluation process successfully will receive a badge printed on the papers themselves. Authors of accepted papers are encouraged to make these materials publicly available upon publication of the proceedings, by including them as “source materials” in the ACM Digital Library.",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 41,
+                            "content": "Accepted Papers",
+                            "key": 11,
+                            "children": [
+                                {
+                                    "id": 42,
+                                    "content": "Accepted papers will be made available (once the conference starts and for one month following) via 1-click download from the ACM Digital Library.",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 43,
+                                    "content": "PLDI welcomes all authors, regardless of nationality. If authors are unable despite reasonable effort to obtain visas to travel to the conference, we will make arrangements to enable remote participation or presentation by another attendee on behalf of the authors.",
+                                    "key": 2
+                                }
+                            ]
+                        },
+                        {
+                            "id": 44,
+                            "content": "Publication Date",
+                            "key": 12,
+                            "children": [
+                              {
+                                "id": 45,
+                                "content": "AUTHORS TAKE NOTE:",
+                                "key": 1,
+                                "children": [
+                                  {
+                                    "id": 46,
+                                    "content": "The official publication date is the date the proceedings are made available in the ACM Digital Library. This date may be up to two weeks prior to the first day of your conference. The official publication date affects the deadline for any patent filings related to published work. (For those rare conferences whose proceedings are published in the ACM Digital Library after the conference is over, the official publication date remains the first day of the conference.)",
+                                    "key": 1
+                                  }
+                                ]
+                              }
+                            ]
+                        },
+                        {
+                            "id": 47,
+                            "content": "Acknowledgments",
+                            "key": 13,
+                            "children": [
+                                {
+                                    "id": 48,
+                                    "content": "This call-for-papers is an adaptation and evolution of content from previous instances of PLDI. We are grateful to prior organizers for their work, which is reused here.",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 49,
+                            "content": "Accepted Papers",
+                            "isList": true,
+                            "key": 14,
+                            "children": [
+                              {
+                                "id": 50,
+                                "content": "Title",
+                                "isList": true,
+                                "key": 1
+                              },
+                              {
+                                "id": 51,
+                                "content": "",
+                                "isList": true,
+                                "key": 2,
+                                "children": [
+                                  {
+                                    "id": 52,
+                                    "content": "A Marriage of Pointer- and Epoch-Based Reclamation",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 53,
+                                    "content": "Jeehoon Kang, Jaehwang Jung",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 54,
+                                "content": "",
+                                "isList": true,
+                                "key": 3,
+                                "children": [
+                                  {
+                                    "id": 55,
+                                    "content": "A Study of the Learnability of Relational Properties",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 56,
+                                    "content": "Muhammad Usman, Wenxi Wang, Marko Vasic, Kaiyuan Wang, Haris Vikalo, Sarfraz Khurshid",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 57,
+                                "content": "",
+                                "isList": true,
+                                "key": 4,
+                                "children": [
+                                  {
+                                    "id": 58,
+                                    "content": "Adaptive Low-Overhead Scheduling for Periodic and Reactive Intermittent Execution",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 59,
+                                    "content": "Kiwan Maeng, Brandon Lucia",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 60,
+                                "content": "",
+                                "isList": true,
+                                "key": 5,
+                                "children": [
+                                  {
+                                    "id": 61,
+                                    "content": "Automatic Generation of Efficient Sparse Tensor Format Conversion Routines",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 62,
+                                    "content": "Stephen Chou, Fredrik Kjolstad, Saman Amarsinghe",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 63,
+                                "content": "",
+                                "isList": true,
+                                "key": 6,
+                                "children": [
+                                  {
+                                    "id": 64,
+                                    "content": "Automatic I/O Complexity Analysis for Affine Programs",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 65,
+                                    "content": "Auguste Olivry, Julien Langou, Louis-Noel Pouchet, P. Sadayappan, Fabrice Rastello",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 66,
+                                "content": "",
+                                "isList": true,
+                                "key": 7,
+                                "children": [
+                                  {
+                                    "id": 67,
+                                    "content": "Behavioral Simulation for Smart Contracts",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 68,
+                                    "content": "Sidi Mohamed Beillahi, Gabriela Ciocarlie, Michael Emmi, Constantin Enea",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 69,
+                                "content": "",
+                                "isList": true,
+                                "key": 8,
+                                "children": [
+                                  {
+                                    "id": 70,
+                                    "content": "Binary Rewriting without Control Flow Recovery",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 71,
+                                    "content": "Gregory J. Duck, Xiang Gao, Abhik Roychoudhury",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 72,
+                                "content": "",
+                                "isList": true,
+                                "key": 9,
+                                "children": [
+                                  {
+                                    "id": 73,
+                                    "content": "BlankIt Library Debloating:",
+                                    "key": 1,
+                                    "children": [
+                                      {
+                                        "id": 74,
+                                        "content": "Getting What You Want Instead of Cutting What You Don’t",
+                                        "key": 1
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": 75,
+                                    "content": "Chris Porter, Girish Mururu, Prithayan Barua, Santosh Pande",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 76,
+                                "content": "",
+                                "isList": true,
+                                "key": 10,
+                                "children": [
+                                  {
+                                    "id": 77,
+                                    "content": "Blended, Precise Semantic Program Embeddings",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 78,
+                                    "content": "Ke Wang, Zhendong Su",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 79,
+                                "content": "",
+                                "isList": true,
+                                "key": 11,
+                                "children": [
+                                  {
+                                    "id": 80,
+                                    "content": "CARAT:",
+                                    "key": 1,
+                                    "children": [
+                                      {
+                                        "id": 81,
+                                        "content": "A Case for Virtual Memory through Compiler- and Runtime-Based Address Translation",
+                                        "key": 1
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": 82,
+                                    "content": "Brian Suchy, Simone Campanoni, Nikos Hardavellas, Peter Dinda",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 83,
+                                "content": "",
+                                "isList": true,
+                                "key": 12,
+                                "children": [
+                                  {
+                                    "id": 84,
+                                    "content": "CacheQuery: Learning Replacement Policies from Hardware Caches",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 85,
+                                    "content": "Pepe Vila, Pierre Ganty, Marco Guarnieri, Boris Köpf",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 86,
+                                "content": "",
+                                "isList": true,
+                                "key": 13,
+                                "children": [
+                                  {
+                                    "id": 87,
+                                    "content": "Compiler and Runtime Support for Continuation Marks",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 88,
+                                    "content": "Matthew Flatt, R. Kent Dybvig",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 89,
+                                "content": "",
+                                "isList": true,
+                                "key": 14,
+                                "children": [
+                                  {
+                                    "id": 90,
+                                    "content": "Compiler-Directed Soft Error Resilience for Lightweight GPU Register File Protection",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 91,
+                                    "content": "Hongjune Kim, Jianping Zeng, Qingrui Liu, Mohammad Rajab Abdel-Majeed, Jaejin Lee, Changhee Jung",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 92,
+                                "content": "",
+                                "isList": true,
+                                "key": 15,
+                                "children": [
+                                  {
+                                    "id": 93,
+                                    "content": "Constant-Time Foundations for the New Spectre Era",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 94,
+                                    "content": "Sunjay Cauligi, Craig Disselkoen, Klaus v. Gleissenthall, Dean Tullsen, Deian Stefan, Tamara Rezk, Gilles Barthe",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 95,
+                                "content": "",
+                                "isList": true,
+                                "key": 16,
+                                "children": [
+                                  {
+                                    "id": 96,
+                                    "content": "Crafty:",
+                                    "key": 1,
+                                    "children": [
+                                      {
+                                        "id": 97,
+                                        "content": "Efficient, HTM-Compatible Persistent Transactions",
+                                        "key": 1
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": 98,
+                                    "content": "Kaan Genç, Michael Bond, Harry Xu",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 99,
+                                "content": "",
+                                "isList": true,
+                                "key": 17,
+                                "children": [
+                                  {
+                                    "id": 100,
+                                    "content": "Data-Driven Inference of Representation Invariants",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 101,
+                                    "content": "Anders Miltner, Saswat Padhi, Todd Millstein, David Walker",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 102,
+                                "content": "",
+                                "isList": true,
+                                "key": 18,
+                                "children": [
+                                  {
+                                    "id": 103,
+                                    "content": "Debug Information Validation for Optimized Code",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 104,
+                                    "content": "Yuanbo Li, Shuo Ding, Qirun Zhang, Davide Italiano",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 105,
+                                "content": "",
+                                "isList": true,
+                                "key": 19,
+                                "children": [
+                                  {
+                                    "id": 106,
+                                    "content": "Debugging and Detecting Numerical Errors in Computation with Posits",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 107,
+                                    "content": "Sangeeta Chowdhary, Jay P. Lim, Santosh Nagarakatte",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 108,
+                                "content": "",
+                                "isList": true,
+                                "key": 20,
+                                "children": [
+                                  {
+                                    "id": 109,
+                                    "content": "Decidable Verification under a Causally Consistent Shared Memory",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 110,
+                                    "content": "Ori Lahav, Udi Boker",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 111,
+                                "content": "",
+                                "isList": true,
+                                "key": 21,
+                                "children": [
+                                  {
+                                    "id": 112,
+                                    "content": "Detecting Network Load Violations for Distributed Control Planes",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 113,
+                                    "content": "Kausik Subramanian, Anubhavnidhi Abhashkumar, Loris D'Antoni, Aditya Akella",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 114,
+                                "content": "",
+                                "isList": true,
+                                "key": 22,
+                                "children": [
+                                  {
+                                    "id": 115,
+                                    "content": "EVA:",
+                                    "key": 1,
+                                    "children": [
+                                      {
+                                        "id": 116,
+                                        "content": "An Encrypted Vector Arithmetic Language and Compiler for Efficient Homomorphic Computation",
+                                        "key": 1
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": 117,
+                                    "content": "Roshan Dathathri, Blagovesta Kostova, Olli Saarikivi, Wei Dai, Kim Laine, Madan Musuvathi",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 118,
+                                "content": "",
+                                "isList": true,
+                                "key": 23,
+                                "children": [
+                                  {
+                                    "id": 119,
+                                    "content": "Effective Function Merging in the SSA Form",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 120,
+                                    "content": "Rodrigo Rocha, Pavlos Petoumenos, Zheng Wang, Murray Cole, Hugh Leather",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 121,
+                                "content": "",
+                                "isList": true,
+                                "key": 24,
+                                "children": [
+                                  {
+                                    "id": 122,
+                                    "content": "Efficient Handling of String-Number Conversion",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 123,
+                                    "content": "Parosh Aziz Abdulla, Mohamed Faouzi Atig, Yu-Fang Chen, Phi-Diep Bui, Julian Dolby, Petr Janku, Hsin-Hung Lin, Lukas Holik, Wei-Cheng Wu",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 124,
+                                "content": "",
+                                "isList": true,
+                                "key": 25,
+                                "children": [
+                                  {
+                                    "id": 125,
+                                    "content": "Efficient Predictive Race Detection",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 126,
+                                    "content": "Jake Roemer, Kaan Genç, Michael Bond",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 127,
+                                "content": "",
+                                "isList": true,
+                                "key": 26,
+                                "children": [
+                                  {
+                                    "id": 128,
+                                    "content": "Ethainter: A Smart Contract Security Analyzer for Composite Vulnerabilities",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 129,
+                                    "content": "Lexi Brent, Neville Grech, Sifis Lagouvardos, Bernhard Scholz, Yannis Smaragdakis",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 130,
+                                "content": "",
+                                "isList": true,
+                                "key": 27,
+                                "children": [
+                                  {
+                                    "id": 131,
+                                    "content": "Exact and Approximate Methods for Proving Unrealizability of Syntax-Guided Synthesis Problems",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 132,
+                                    "content": "Qinheping Hu, John Cyphert, Loris D'Antoni, Thomas Reps",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 133,
+                                "content": "",
+                                "isList": true,
+                                "key": 28,
+                                "children": [
+                                  {
+                                    "id": 134,
+                                    "content": "Fast Graph Simplification for Interleaved Dyck-Reachability",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 135,
+                                    "content": "Yuanbo Li, Qirun Zhang, Thomas Reps",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 136,
+                                "content": "",
+                                "isList": true,
+                                "key": 29,
+                                "children": [
+                                  {
+                                    "id": 137,
+                                    "content": "Faster General Parsing through Context-Free Memoization",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 138,
+                                    "content": "Grzegorz Herman",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 139,
+                                "content": "",
+                                "isList": true,
+                                "key": 30,
+                                "children": [
+                                  {
+                                    "id": 140,
+                                    "content": "First-Order Quantified Separators",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 141,
+                                    "content": "Jason R. Koenig, Oded Padon, Neil Immerman, Alex Aiken",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 142,
+                                "content": "",
+                                "isList": true,
+                                "key": 31,
+                                "children": [
+                                  {
+                                    "id": 143,
+                                    "content": "FreezeML: Complete and Easy Type Inference for First-Class Polymorphism",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 144,
+                                    "content": "Frank Emrich, Sam Lindley, Jan Stolarek, James Cheney, Jonathan Coates",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 145,
+                                "content": "",
+                                "isList": true,
+                                "key": 32,
+                                "children": [
+                                  {
+                                    "id": 146,
+                                    "content": "From Folklore to Fact:",
+                                    "key": 1,
+                                    "children": [
+                                      {
+                                        "id": 147,
+                                        "content": "Comparing Implementations of Stacks and Continuations",
+                                        "key": 1
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": 148,
+                                    "content": "Kavon Farvardin, John Reppy",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 149,
+                                "content": "",
+                                "isList": true,
+                                "key": 33,
+                                "children": [
+                                  {
+                                    "id": 150,
+                                    "content": "Gillian:",
+                                    "key": 1,
+                                    "children": [
+                                      {
+                                        "id": 151,
+                                        "content": "Parametric Symbolic Execution for All",
+                                        "key": 1
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": 152,
+                                    "content": "José Fragoso Santos, Petar Maksimović, Sacha-Elie Ayoun, Philippa Gardner",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 153,
+                                "content": "",
+                                "isList": true,
+                                "key": 34,
+                                "children": [
+                                  {
+                                    "id": 154,
+                                    "content": "HipHop.js: (A)Synchronous Reactive Web Programming",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 155,
+                                    "content": "Manuel Serrano, Gérard Berry",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 156,
+                                "content": "",
+                                "isList": true,
+                                "key": 35,
+                                "children": [
+                                  {
+                                    "id": 157,
+                                    "content": "Improving Program Locality in the GC using Hotness",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 158,
+                                    "content": "Albert Mingkun Yang, Erik Österlund, Tobias Wrigstad",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 159,
+                                "content": "",
+                                "isList": true,
+                                "key": 36,
+                                "children": [
+                                  {
+                                    "id": 160,
+                                    "content": "Inductive Sequentialization of Asynchronous Programs",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 161,
+                                    "content": "Bernhard Kragl, Constantin Enea, Thomas A. Henzinger, Suha Orhun Mutluergil, Shaz Qadeer",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 162,
+                                "content": "",
+                                "isList": true,
+                                "key": 37,
+                                "children": [
+                                  {
+                                    "id": 163,
+                                    "content": "LLHD: A Multi-Level Intermediate Representation for Hardware Description Languages",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 164,
+                                    "content": "Fabian Schuiki, Andreas Kurth, Tobias Grosser, Luca Benini",
+                                    "key": 2
+                                  },
+                                  {
+                                    "id": 165,
+                                    "content": "Link to publication Pre-print",
+                                    "key": 3
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 166,
+                                "content": "",
+                                "isList": true,
+                                "key": 38,
+                                "children": [
+                                  {
+                                    "id": 167,
+                                    "content": "Learning Fast and Precise Numerical Analysis",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 168,
+                                    "content": "Jingxuan He, Gagandeep Singh, Markus Püschel, Martin Vechev",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 169,
+                                "content": "",
+                                "isList": true,
+                                "key": 39,
+                                "children": [
+                                  {
+                                    "id": 170,
+                                    "content": "Learning Nonlinear Loop Invariants with Gated Continuous Logic Networks",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 171,
+                                    "content": "Jianan Yao, Gabriel Ryan, Justin Wong, Suman Jana, Ronghui Gu",
+                                    "key": 2
+                                  }
+                                ]
+                                },
+                                {
+                                    "id": 172,
+                                    "content": "",
+                                    "isList": true,
+                                    "key": 40,
+                                    "children": [
+                                      {
+                                        "id": 173,
+                                        "content": "Low-Effort Verification of High-Performance Concurrent Programs",
+                                        "key": 1
+                                      },
+                                      {
+                                        "id": 174,
+                                        "content": "Jacob R. Lorch, Yixuan Chen, Manos Kapritsos, Bryan Parno, Shaz Qadeer, Upamanyu Sharma, James R. Wilcox, Xueyuan Zhao",
+                                        "key": 2
+                                      }
+                                    ]
+                                },
+                              {
+                                "id": 175,
+                                "content": "",
+                                "isList": true,
+                                "key": 41,
+                                "children": [
+                                  {
+                                    "id": 176,
+                                    "content": "Multi-modal Synthesis of Regular Expressions",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 177,
+                                    "content": "Qiaochu Chen, Xinyu Wang, Xi Ye, Greg Durrett, Isil Dillig",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 178,
+                                "content": "",
+                                "isList": true,
+                                "key": 42,
+                                "children": [
+                                  {
+                                    "id": 179,
+                                    "content": "NV:",
+                                    "key": 1,
+                                    "children": [
+                                      {
+                                        "id": 180,
+                                        "content": "An Intermediate Language for Verification of Network Control Planes",
+                                        "key": 1
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": 181,
+                                    "content": "Nick Giannarakis, Devon Loehr, Ryan Beckett, David Walker",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 182,
+                                "content": "",
+                                "isList": true,
+                                "key": 43,
+                                "children": [
+                                  {
+                                    "id": 183,
+                                    "content": "NVTraverse: In NVRAM Data Structures, the Destination Is More Important Than the Journey",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 184,
+                                    "content": "Naama Ben-David, Guy E. Blelloch, Michal Friedman, Erez Petrank, Yuanhao Wei",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 185,
+                                "content": "",
+                                "isList": true,
+                                "key": 44,
+                                "children": [
+                                  {
+                                    "id": 186,
+                                    "content": "Neural Type Hints",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 187,
+                                    "content": "Miltiadis Allamanis, Earl Barr, Soline Ducousso, Zheng Gao",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 188,
+                                "content": "",
+                                "isList": true,
+                                "key": 45,
+                                "children": [
+                                  {
+                                    "id": 189,
+                                    "content": "OOElala: Order-of-Evaluation Based Alias Analysis for Compiler Optimization",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 190,
+                                    "content": "Ankush Phulia, Vaibhav Bhagee, Sorav Bansal",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 191,
+                                "content": "",
+                                "isList": true,
+                                "key": 46,
+                                "children": [
+                                  {
+                                    "id": 192,
+                                    "content": "On the Principles of Differential Quantum Programming Languages",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 193,
+                                    "content": "Shaopeng Zhu, Shih-Han Hung, Shouvanik Chakrabarti, Xiaodi Wu",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 194,
+                                "content": "",
+                                "isList": true,
+                                "key": 47,
+                                "children": [
+                                  {
+                                    "id": 195,
+                                    "content": "Optimizing Homomorphic Evaluation Circuits by Program Synthesis and Term Rewriting",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 196,
+                                    "content": "DongKwon Lee, Woosuk Lee, Hakjoo Oh, Kwangkeun Yi",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 197,
+                                "content": "",
+                                "isList": true,
+                                "key": 48,
+                                "children": [
+                                  {
+                                    "id": 198,
+                                    "content": "PMEvo: Portable Inference of Port Mappings for Out-of-Order Processors by Evolutionary Optimization",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 199,
+                                    "content": "Fabian Ritter, Sebastian Hack",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 200,
+                                "content": "",
+                                "isList": true,
+                                "key": 49,
+                                "children": [
+                                  {
+                                    "id": 201,
+                                    "content": "PMThreads: Persistent Memory Threads Harnessing Versioned Shadow Copies",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 202,
+                                    "content": "Zhenwei Wu, Kai Lu, Andy Nisbet, Wenzhe Zhang, Mikel Lujan",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 203,
+                                "content": "",
+                                "isList": true,
+                                "key": 50,
+                                "children": [
+                                  {
+                                    "id": 204,
+                                    "content": "Polynomial Invariant Generation for Non-deterministic Recursive Programs",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 205,
+                                    "content": "Krishnendu Chatterjee, Hongfei Fu, Amir Kafshdar Goharshady, Ehsan Kafshdar Goharshady",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 206,
+                                "content": "",
+                                "isList": true,
+                                "key": 51,
+                                "children": [
+                                  {
+                                    "id": 207,
+                                    "content": "Predictable Accelerator Design with Time-Sensitive Affine Types",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 208,
+                                    "content": "Rachit Nigam, Sachille Atapattu, Samuel Thomas, Theodore Bauer, Apurva Koti, Zhijing Li, Yuwei Ye, Adrian Sampson, Zhiru Zhang",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 209,
+                                "content": "",
+                                "isList": true,
+                                "key": 52,
+                                "children": [
+                                  {
+                                    "id": 210,
+                                    "content": "Promising 2.0: Global Optimizations in Relaxed Memory Concurrency",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 211,
+                                    "content": "Sung-Hwan Lee, Minki Cho, Anton Podkopaev, Soham Chakraborty, Chung-Kil Hur, Ori Lahav, Viktor Vafeiadis",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 212,
+                                "content": "",
+                                "isList": true,
+                                "key": 53,
+                                "children": [
+                                  {
+                                    "id": 213,
+                                    "content": "Proving Almost-Sure Termination by Omega-Regular Decomposition",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 214,
+                                    "content": "Chen Jianhui, Fei He",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 215,
+                                "content": "",
+                                "isList": true,
+                                "key": 54,
+                                "children": [
+                                  {
+                                    "id": 216,
+                                    "content": "Proving Data-Poisoning Robustness in Decision Trees",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 217,
+                                    "content": "Samuel Drews, Aws Albarghouthi, Loris D'Antoni",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 218,
+                                "content": "",
+                                "isList": true,
+                                "key": 55,
+                                "children": [
+                                  {
+                                    "id": 219,
+                                    "content": "Question Selection for Interactive Program Synthesis",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 220,
+                                    "content": "Ruyi Ji, Jingjing Liang, Yingfei Xiong, Lu Zhang, Zhenjiang Hu",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 221,
+                                "content": "",
+                                "isList": true,
+                                "key": 56,
+                                "children": [
+                                  {
+                                    "id": 222,
+                                    "content": "Reactive Probabilistic Programming",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 223,
+                                    "content": "Guillaume Baudart, Louis Mandel, Eric Atkinson, Benjamin Sherman, Marc Pouzet, Michael Carbin",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 224,
+                                "content": "",
+                                "isList": true,
+                                "key": 57,
+                                "children": [
+                                  {
+                                    "id": 225,
+                                    "content": "Reconciling Enumerative and Deductive Program Synthesis",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 226,
+                                    "content": "Kangjing Huang, Xiaokang Qiu, Peiyuan Shen, Yanjun Wang",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 227,
+                                "content": "",
+                                "isList": true,
+                                "key": 58,
+                                "children": [
+                                  {
+                                    "id": 228,
+                                    "content": "Repairing and Mechanising the JavaScript Relaxed Memory Model",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 229,
+                                    "content": "Conrad Watt, Christopher Pulte, Anton Podkopaev, Guillaume Barbier, Stephen Dolan, Shaked Flur, Jean Pichon-Pharabod, Shu-yu Guo",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 230,
+                                "content": "",
+                                "isList": true,
+                                "key": 59,
+                                "children": [
+                                  {
+                                    "id": 231,
+                                    "content": "Responsive Parallelism with Futures and State",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 232,
+                                    "content": "Stefan Muller, Kyle Singer, Noah Goldstein, Umut Acar, Kunal Agrawal, I-Ting Angelina Lee",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 233,
+                                "content": "",
+                                "isList": true,
+                                "key": 60,
+                                "children": [
+                                  {
+                                    "id": 234,
+                                    "content": "SCAF: A Speculation-Aware Collaborative Dependence Analysis Framework",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 235,
+                                    "content": "Sotiris Apostolakis, Ziyang Xu, Zujun Tan, Greg Chan, Simone Campanoni, David I. August",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 236,
+                                "content": "",
+                                "isList": true,
+                                "key": 61,
+                                "children": [
+                                  {
+                                    "id": 237,
+                                    "content": "Scalable Validation of Binary Lifters",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 238,
+                                    "content": "Sandeep Dasgupta, Sushant Dinesh, Vikram Adve, Christopher Fletcher, Deepan Venkatesh",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 239,
+                                "content": "",
+                                "isList": true,
+                                "key": 62,
+                                "children": [
+                                  {
+                                    "id": 240,
+                                    "content": "Securing Smart Contract with Runtime Validation",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 241,
+                                    "content": "Ao Li, Jemin Andrew Choi, Fan Long",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 242,
+                                "content": "",
+                                "isList": true,
+                                "key": 63,
+                                "children": [
+                                  {
+                                    "id": 243,
+                                    "content": "Semantic Code Search via Equational Reasoning",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 244,
+                                    "content": "Varot Premtoon, James Koppel, Armando Solar-Lezama",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 245,
+                                "content": "",
+                                "isList": true,
+                                "key": 64,
+                                "children": [
+                                  {
+                                    "id": 246,
+                                    "content": "Silq: A High-Level Quantum Language with Safe Uncomputation and Intuitive Semantics",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 247,
+                                    "content": "Benjamin Bichsel, Maximilian Baader, Timon Gehr, Martin Vechev",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 248,
+                                "content": "",
+                                "isList": true,
+                                "key": 65,
+                                "children": [
+                                  {
+                                    "id": 249,
+                                    "content": "Static Analysis of Enterprise Applications: Haven't We Solved This Problem Yet?",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 250,
+                                    "content": "Anastasios Antoniadis, Nikos Filippakis, Paddy Krishnan, Raghavendra Ramesh, Nicholas Allen, Yannis Smaragdakis",
+                                    "key": 2
+                                  },
+                                  {
+                                    "id": 251,
+                                    "content": "DOI",
+                                    "key": 3
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 252,
+                                "content": "",
+                                "isList": true,
+                                "key": 66,
+                                "children": [
+                                  {
+                                    "id": 253,
+                                    "content": "SympleGraph: Distributed Graph Processing with Precise Loop-Carried Dependency Guarantee",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 254,
+                                    "content": "Youwei Zhuo, Jingji Chen, Qinyi Luo, Yanzhi Wang, Hailong Yang, Depei Qian, Xuehai Qian",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 255,
+                                "content": "",
+                                "isList": true,
+                                "key": 67,
+                                "children": [
+                                  {
+                                    "id": 256,
+                                    "content": "Synthesizing Structured CAD Models with Equality Saturation and Inverse Transformations",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 257,
+                                    "content": "Chandrakana Nandi, Max Willsey, Adam Anderson, James R. Wilcox, Eva Darulova, Dan Grossman, Zachary Tatlock",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 258,
+                                "content": "",
+                                "isList": true,
+                                "key": 68,
+                                "children": [
+                                  {
+                                    "id": 259,
+                                    "content": "Templates and Recurrences:",
+                                    "key": 1,
+                                    "children": [
+                                      {
+                                        "id": 260,
+                                        "content": "Better Together",
+                                        "key": 1
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": 261,
+                                    "content": "Jason Breck, John Cyphert, Zachary Kincaid, Thomas Reps",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 262,
+                                "content": "",
+                                "isList": true,
+                                "key": 69,
+                                "children": [
+                                  {
+                                    "id": 263,
+                                    "content": "The Essence of Bluespec:",
+                                    "key": 1,
+                                    "children": [
+                                      {
+                                        "id": 264,
+                                        "content": "A Core Language for Rule-Based Hardware Design",
+                                        "key": 1
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": 265,
+                                    "content": "Thomas Bourgeat, Clément Pit-Claudel, Adam Chlipala, Arvind",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 266,
+                                "content": "",
+                                "isList": true,
+                                "key": 70,
+                                "children": [
+                                  {
+                                    "id": 267,
+                                    "content": "Towards a Verified Range Analysis for JavaScript JITs",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 268,
+                                    "content": "Fraser Brown, John Renner, Andres Noetzli, Sorin Lerner, Hovav Shacham, Deian Stefan",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 269,
+                                "content": "",
+                                "isList": true,
+                                "key": 71,
+                                "children": [
+                                  {
+                                    "id": 270,
+                                    "content": "Towards an API for the Real Numbers",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 271,
+                                    "content": "Hans-J. Boehm",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 272,
+                                "content": "",
+                                "isList": true,
+                                "key": 72,
+                                "children": [
+                                  {
+                                    "id": 273,
+                                    "content": "Type Error Feedback via Analytic Program Repair",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 274,
+                                    "content": "Georgios Sakkas, Madeline Endres, Benjamin Cosman, Westley Weimer, Ranjit Jhala",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 275,
+                                "content": "",
+                                "isList": true,
+                                "key": 73,
+                                "children": [
+                                  {
+                                    "id": 276,
+                                    "content": "Type-Directed Scheduling of Streaming Accelerators",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 277,
+                                    "content": "David Durst, Matthew Feldman, Dillon Huff, David Akeley, Ross Daly, Gilbert Louis Bernstein, Marco Patrignani, Kayvon Fatahalian, Pat Hanrahan",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 278,
+                                "content": "",
+                                "isList": true,
+                                "key": 74,
+                                "children": [
+                                  {
+                                    "id": 279,
+                                    "content": "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 280,
+                                    "content": "Boqin Qin, Yilun Chen, Zeming Yu, Linhai Song, Yiying Zhang",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 281,
+                                "content": "",
+                                "isList": true,
+                                "key": 75,
+                                "children": [
+                                  {
+                                    "id": 282,
+                                    "content": "Validating SMT Solvers via Semantic Fusion",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 283,
+                                    "content": "Dominik Winterer, Chengyu Zhang, Zhendong Su",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 284,
+                                "content": "",
+                                "isList": true,
+                                "key": 76,
+                                "children": [
+                                  {
+                                    "id": 285,
+                                    "content": "Verifying Concurrent Search Structure Templates",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 286,
+                                    "content": "Siddharth Krishna, Nisarg Patel, Dennis Shasha, Thomas Wies",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 287,
+                                "content": "",
+                                "isList": true,
+                                "key": 77,
+                                "children": [
+                                  {
+                                    "id": 288,
+                                    "content": "Zippy LL(1) Parsing with Derivatives",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 289,
+                                    "content": "Romain Edelmann, Jad Hamza, Viktor Kunčak",
+                                    "key": 2
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 290,
+                                "content": "",
+                                "isList": true,
+                                "key": 78,
+                                "children": [
+                                  {
+                                    "id": 291,
+                                    "content": "λESI: Exact Inference for Higher-Order Probabilistic Programs",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 292,
+                                    "content": "Timon Gehr, Samuel Steffen, Martin Vechev",
+                                    "key": 2
+                                  }
+                                ]
+                              }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+      {
+        "id": 293,
+        "content": "FAQ on Double-Blind Reviewing",
+        "key": 5,
+        "children": [
+          {
+            "id": 294,
+            "content": "General",
+            "key": 1,
+            "children": [
+              {
+                "id": 295,
+                "content": "Q:",
+                "key": 1,
+                "children": [
+                  {
+                    "id": 296,
+                    "content": "Why are you using double-blind reviewing?",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 297,
+                "content": "A:",
+                "key": 2,
+                "children": [
+                  {
+                    "id": 298,
+                    "content": "Studies have shown that a reviewer’s attitude toward a submission may be affected, even unconsciously, by the identity of the authors. We want reviewers to be able to approach each submission without any such, possibly involuntary, pre-judgment. Many computer science conferences have embraced double-blind reviewing. PLDI has used it for several years now and doing so is stipulated in the Practices of PLDI.",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 299,
+                "content": "Q:",
+                "key": 3,
+                "children": [
+                  {
+                    "id": 300,
+                    "content": "Do you really think blinding actually works? I suspect reviewers can often guess who the authors are anyway.",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 301,
+                "content": "A:",
+                "key": 4,
+                "children": [
+                  {
+                    "id": 302,
+                    "content": "It is rare for authorship to be guessed correctly, even by expert reviewers, as detailed in this study.",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 303,
+                "content": "Q:",
+                "key": 5,
+                "children": [
+                  {
+                    "id": 304,
+                    "content": "Couldn’t blind submission create an injustice where a paper is inappropriately rejected based upon supposedly-prior work which was actually by the same authors and not previously published?",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 305,
+                "content": "A:",
+                "key": 6,
+                "children": [
+                  {
+                    "id": 306,
+                    "content": "Reviewers are held accountable for their positions and are required to identify any supposed prior work that they believe undermines the novelty of the paper. Any assertion that “this has been done before” by reviewers should be supported with concrete information. The author response mechanism exists in part to hold reviewers accountable for claims that may be incorrect.",
+                    "key": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 307,
+            "content": "For authors",
+            "key": 2,
+            "children": [
+              {
+                "id": 308,
+                "content": "Q:",
+                "key": 1,
+                "children": [
+                  {
+                    "id": 309,
+                    "content": "What exactly do I have to do to anonymize my paper?",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 310,
+                "content": "A:",
+                "key": 2,
+                "children": [
+                  {
+                    "id": 311,
+                    "content": "Use common sense. Your job is not to make your identity undiscoverable but simply to make it possible for reviewers to evaluate your submission without having to know who you are. The specific guidelines stated in the call for papers are simple: omit authors’ names from your title page, and when you cite your own work, refer to it in the third person. For example, if your name is Smith and you have worked on amphibious type systems, instead of saying “We extend our earlier work on statically typed toads [Smith 2004],” you might say “We extend Smith’s [2004] earlier work on statically typed toads.” Also, be sure not to include any acknowledgements that would give away your identity. In general, you should aim to reduce the risk of accidental unblinding. For example, if your paper is the first to describe a system with a well-known name or codename, or you use a personally-identifiable naming convention for your work, then use a different name for your submission (which you may indicate has been changed for the purposes of double-blind reviewing). You should also avoid revealing the institutional affiliation of authors or at which the work was performed.",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 312,
+                "content": "Q:",
+                "key": 3,
+                "children": [
+                  {
+                    "id": 313,
+                    "content": "I would like to provide supplementary material for consideration, e.g., the code of my implementation or proofs of theorems. How do I do this?",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 314,
+                "content": "A (and also see the next question): On the submission site there will be an option to submit supplementary material along with your main paper. This supplementary material should also be anonymized—it may be viewed by reviewers during the review period, so it should adhere to the same double-blind guidelines.",
+                "key": 4
+              },
+              {
+                "id": 315,
+                "content": "Q:",
+                "key": 5,
+                "children": [
+                  {
+                    "id": 316,
+                    "content": "My submission is based on code available in a public repository. How do I deal with this?",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 317,
+                "content": "A:",
+                "key": 6,
+                "children": [
+                  {
+                    "id": 318,
+                    "content": "Making your code publicly available is not incompatible with double-blind reviewing. You should do the following. First, cite the code in your paper, but remove the actual URL and, instead say “link to repository removed for double blind review” or similar. Second, if, when writing your author response, you believe reviewer access to your code would help, say so in your author response (without providing the URL), and send the URL to the Program Chair.",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 319,
+                "content": "Q:",
+                "key": 7,
+                "children": [
+                  {
+                    "id": 320,
+                    "content": "I am building on my own past work on the WizWoz system. Do I need to rename this system in my paper for purposes of anonymity, so as to remove the implied connection between my authorship of past work on this system and my present submission?",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 321,
+                "content": "A:",
+                "key": 8,
+                "children": [
+                  {
+                    "id": 322,
+                    "content": "Maybe. The core question is really whether the system is one that, once identified, automatically identifies the author(s) and/or the institution. If the system is widely available, and especially if it has a substantial body of contributors and has been out for a while, then these conditions may not hold (e.g., LLVM or HotSpot), because there would be considerable doubt about authorship. By contrast, a paper on a modification to a proprietary system (e.g., Visual C++, or a research project that has not open-sourced its code) implicitly reveals the identity of the authors or their institution. If naming your system essentially reveals your identity (or institution), then anonymize it. In your submission, point out that the system name has been anonymized. If you have any doubts, please contact the Program Chair.",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 323,
+                "content": "Q:",
+                "key": 9,
+                "children": [
+                  {
+                    "id": 324,
+                    "content": "I am submitting a paper that extends my own work that previously appeared at a workshop. Should I anonymize any reference to that prior work?",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 325,
+                "content": "A:",
+                "key": 10,
+                "children": [
+                  {
+                    "id": 326,
+                    "content": "No. But we recommend you do not use the same title for your PLDI submission, so that it is clearly distinguished from the prior paper. In general, there is rarely a good reason to anonymize a citation. One possibility is for work that is tightly related to the present submission and is also under review. When in doubt, contact the Program Chair.",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 327,
+                "content": "Q:",
+                "key": 11,
+                "children": [
+                  {
+                    "id": 328,
+                    "content": "Am I allowed to post my (non-blinded) paper on my web page? Can I advertise the unblinded version of my paper on mailing lists or send it to colleagues? Can I give a talk about my work while it is under review? How do I handle social media? What about ArXiV?",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 329,
+                "content": "A:",
+                "key": 12,
+                "children": [
+                  {
+                    "id": 330,
+                    "content": "We have developed guidelines, described here, to help everyone navigate in the same way the tension between the normal communication of scientific results, which double-blind reviewing should not impede, and actions that essentially force potential reviewers to learn the identity of the authors for a submission. Roughly speaking, you may (of course!) discuss work under submission, but you should not broadly advertise your work through media that is likely to reach your reviewers. We acknowledge there are gray areas and trade-offs; we cannot describe every possible scenario.",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 331,
+                "content": "Things you may do:",
+                "key": 13,
+                "children": [
+                  {
+                    "id": 332,
+                    "content": "",
+                    "isList": true,
+                    "key": 1,
+                    "children": [
+                      {
+                        "id": 333,
+                        "content": "Put your submission on your home page.",
+                        "key": 1
+                      },
+                      {
+                        "id": 334,
+                        "content": "Discuss your work with anyone who is not on the review committees, or with people on the committees with whom you already have a conflict.",
+                        "key": 2
+                      },
+                      {
+                        "id": 335,
+                        "content": "Present your work at professional meetings, job interviews, etc.",
+                        "key": 3
+                      },
+                      {
+                        "id": 336,
+                        "content": "Submit work previously discussed at an informal workshop, previously posted on ArXiV or a similar site, previously submitted to a conference not using double-blind reviewing, etc.",
+                        "key": 4
+                      }
+                    ]
+                  },
+                  {
+                    "id": 337,
+                    "content": "Things you should not do:",
+                    "key": 2
+                  },
+                  {
+                    "id": 338,
+                    "content": "",
+                    "isList": true,
+                    "key": 3,
+                    "children": [
+                      {
+                        "id": 339,
+                        "content": "Contact members of the review committees about your work, or deliberately present your work where you expect them to be.",
+                        "key": 1
+                      },
+                      {
+                        "id": 340,
+                        "content": "Publicize your work on major mailing lists used by the community (because potential reviewers likely read these lists).",
+                        "key": 2
+                      },
+                      {
+                        "id": 341,
+                        "content": "Publicize your work on social media if wide public [re-]propagation is common (e.g., Twitter) and therefore likely to reach potential reviewers. For example, on Facebook, a post with a broad privacy setting (public or all friends) saying, “Whew, PLDI paper in, time to sleep” is okay, but one describing the work or giving its title is not appropriate. Alternately, a post to a group including only the colleagues at your institution is fine.",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 342,
+                    "content": "Reviewers will not be asked to recuse themselves from reviewing your paper unless they feel you have gone out of your way to advertise your authorship information to them. If you are unsure about what constitutes “going out of your way”, please contact the Program Chair.",
+                    "key": 4
+                  },
+                  {
+                    "id": 343,
+                    "content": "Q:",
+                    "key": 5,
+                    "children": [
+                      {
+                        "id": 344,
+                        "content": "Will the fact that PLDI is double-blind have an impact on handling conflicts-of interest?",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 345,
+                    "content": "A:",
+                    "key": 6,
+                    "children": [
+                      {
+                        "id": 346,
+                        "content": "Double-blind reviewing does not change the principle that reviewers should not review papers with which they have a conflict of interest, even if they do not immediately know who the authors are. Authors declare conflicts-of-interest when submitting their papers using the guidelines in the call-for-papers. Papers will not be assigned to reviewers who have a conflict.",
+                        "key": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 347,
+            "content": "For reviewers",
+            "key": 3,
+            "children": [
+              {
+                "id": 348,
+                "content": "Q:",
+                "key": 1,
+                "children": [
+                  {
+                    "id": 349,
+                    "content": "What should I do if I if I learn the authors’ identity? What should I do if a prospective PLDI author contacts me and asks to visit my institution?",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 350,
+                "content": "A:",
+                "key": 2,
+                "children": [
+                  {
+                    "id": 351,
+                    "content": "If you feel that the authors’ actions are largely aimed at ensuring that potential reviewers know their identity, contact the Program Chair. Otherwise you should not treat double-blind reviewing differently from other reviewing. In particular, refrain from seeking out information on the authors’ identity, but if you discover it accidentally this will not automatically disqualify you as a reviewer. Use your best judgment.",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 352,
+                "content": "Q:",
+                "key": 3,
+                "children": [
+                  {
+                    "id": 353,
+                    "content": "The authors have provided a URL to supplemental material. I would like to see the material but I worry they will snoop my IP address and learn my identity. What should I do?",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 354,
+                "content": "A:",
+                "key": 4,
+                "children": [
+                  {
+                    "id": 355,
+                    "content": "Contact the Program Chair, who will download the material on your behalf and make it available to you.",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 356,
+                "content": "Q:",
+                "key": 5,
+                "children": [
+                  {
+                    "id": 357,
+                    "content": "If I am assigned a paper for which I feel I am not an expert, how do I seek an outside review?",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 358,
+                "content": "A:",
+                "key": 6,
+                "children": [
+                  {
+                    "id": 359,
+                    "content": "PC and ERC members should do their own reviews, not delegate them to someone else. If doing so is problematic for some papers, e.g., you don’t feel completely qualified, then consider the following options. First, submit a review for your paper that is as careful as possible, outlining areas where you think your knowledge is lacking. Assuming we have sufficient expert reviews, that could be the end of it: non-expert reviews are valuable too, since conference attendees are by-and-large not experts for any given paper. Second, the review form provides a mechanism for suggesting additional expert reviewers to the PC Chair, who may contact them if additional expertise is needed. Please do not contact outside reviewers yourself. As a last resort, if you feel like your review would be extremely uninformed and you’d rather not even submit a first cut, contact the Program Chair.",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 360,
+                "content": "Q:",
+                "key": 7,
+                "children": [
+                  {
+                    "id": 361,
+                    "content": "How do we handle potential conflicts of interest since I cannot see the author names?",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 362,
+                "content": "A:",
+                "key": 8,
+                "children": [
+                  {
+                    "id": 363,
+                    "content": "The conference review system will ask that you identify conflicts of interest when you get an account on the submission system. Feel free to also identify additional authors whose papers you feel you could not review fairly for reasons other than those given (e.g., strong personal friendship).",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 364,
+                "content": "Q:",
+                "key": 9,
+                "children": [
+                  {
+                    "id": 365,
+                    "content": "How should I avoid learning the authors’ identity if I am using web-search in the process of performing my review?",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 366,
+                "content": "A:",
+                "key": 10,
+                "children": [
+                  {
+                    "id": 367,
+                    "content": "You should make a good-faith effort not to find the authors’ identity during the review period, but if you inadvertently do so, this does not disqualify you from reviewing the paper. As part of the good-faith effort, do not use search engines with terms like the paper’s title or the name of a new system being discussed. If you need to search for related work you believe exists, do so after completing a preliminary review of the paper.",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 368,
+                "content": "These guidelines are an evolution of guidelines originally created by Michael Hicks for POPL 2012, slightly modified for PLDI 2012 by Frank Tip, shortened by Keshav Pingali for PLDI 2014, modified slightly by Steve Blackburn for PLDI 2015, and then edited by Emery Berger for PLDI 2016, Dan Grossman for PLDI 2018, Kathleen Fisher for PLDI 2019, and finally by Emina Torlak for PLDI 2020.",
+                "key": 11
+              },
+              {
+                "id": 369,
+                "content": "Important Dates AoE (UTC-12h)",
+                "isList": true,
+                "key": 12,
+                "children": [
+                  {
+                    "id": 370,
+                    "content": "Monday 6 Apr 2020   PLDI Papers Camera - Ready Deadline",
+                    "key": 1
+                  },
+                  {
+                    "id": 371,
+                    "content": "Friday 21 Feb 2020   Author Notification",
+                    "key": 2
+                  },
+                  {
+                    "id": 372,
+                    "content": "Monday 3 - Wednesday 5 Feb 2020   Author - Response Period",
+                    "key": 3
+                  },
+                  {
+                    "id": 373,
+                    "content": "Friday 22 Nov 2019   Submission Deadline",
+                    "key": 4
+                  }
+                ]
+              },
+              {
+                "id": 374,
+                "content": "Submission Link",
+                "key": 13,
+                "children": [
+                  {
+                    "id": 375,
+                    "content": "https://pldi2020.hotcrp.com",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 376,
+                "content": "Program Committee",
+                "isList": true,
+                "key": 14,
+                "children": [
+                  {
+                    "id": 377,
+                    "content": "",
+                    "key": 1,
+                    "children": [
+                      {
+                        "id": 378,
+                        "content": "Emina Torlak Program Chair",
+                        "key": 1
+                      },
+                      {
+                        "id": 379,
+                        "content": "University of Washington",
+                        "key": 2
+                      },
+                      {
+                        "id": 380,
+                        "content": "United States",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 381,
+                    "content": "",
+                    "key": 2,
+                    "children": [
+                      {
+                        "id": 382,
+                        "content": "Aws Albarghouthi",
+                        "key": 1
+                      },
+                      {
+                        "id": 383,
+                        "content": "University of Wisconsin-Madison",
+                        "key": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": 384,
+                    "content": "",
+                    "key": 3,
+                    "children": [
+                      {
+                        "id": 385,
+                        "content": "Dan Barowy",
+                        "key": 1
+                      },
+                      {
+                        "id": 386,
+                        "content": "Williams College",
+                        "key": 2
+                      },
+                      {
+                        "id": 387,
+                        "content": "United States",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 388,
+                    "content": "",
+                    "key": 4,
+                    "children": [
+                      {
+                        "id": 389,
+                        "content": "Michael Bond",
+                        "key": 1
+                      },
+                      {
+                        "id": 390,
+                        "content": "Ohio State University",
+                        "key": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": 391,
+                    "content": "",
+                    "key": 5,
+                    "children": [
+                      {
+                        "id": 392,
+                        "content": "James Bornholt",
+                        "key": 1
+                      },
+                      {
+                        "id": 393,
+                        "content": "University of Texas at Austin",
+                        "key": 2
+                      },
+                      {
+                        "id": 394,
+                        "content": "United States",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 395,
+                    "content": "",
+                    "key": 6,
+                    "children": [
+                      {
+                        "id": 396,
+                        "content": "Sebastian Burckhardt",
+                        "key": 1
+                      },
+                      {
+                        "id": 397,
+                        "content": "Microsoft Research",
+                        "key": 2
+                      },
+                      {
+                        "id": 398,
+                        "content": "Switzerland",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 399,
+                    "content": "",
+                    "key": 7,
+                    "children": [
+                      {
+                        "id": 400,
+                        "content": "Michael Carbin",
+                        "key": 1
+                      },
+                      {
+                        "id": 401,
+                        "content": "Massachusetts Institute of Technology",
+                        "key": 2
+                      },
+                      {
+                        "id": 402,
+                        "content": "United States",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 403,
+                    "content": "",
+                    "key": 8,
+                    "children": [
+                      {
+                        "id": 404,
+                        "content": "Satish Chandra",
+                        "key": 1
+                      },
+                      {
+                        "id": 405,
+                        "content": "Facebook",
+                        "key": 2
+                      },
+                      {
+                        "id": 406,
+                        "content": "United States",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 407,
+                    "content": "",
+                    "key": 9,
+                    "children": [
+                      {
+                        "id": 408,
+                        "content": "Alvin Cheung",
+                        "key": 1
+                      },
+                      {
+                        "id": 409,
+                        "content": "University of California, Berkeley",
+                        "key": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": 410,
+                    "content": "",
+                    "key": 10,
+                    "children": [
+                      {
+                        "id": 411,
+                        "content": "Isil Dillig",
+                        "key": 1
+                      },
+                      {
+                        "id": 412,
+                        "content": "University of Texas Austin",
+                        "key": 2
+                      },
+                      {
+                        "id": 413,
+                        "content": "United States",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 414,
+                    "content": "",
+                    "key": 11,
+                    "children": [
+                      {
+                        "id": 415,
+                        "content": "Yufei Ding",
+                        "key": 1
+                      },
+                      {
+                        "id": 416,
+                        "content": "UCSB",
+                        "key": 2
+                      },
+                      {
+                        "id": 417,
+                        "content": "China",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 418,
+                    "content": "",
+                    "key": 12,
+                    "children": [
+                      {
+                        "id": 419,
+                        "content": "Cezara Drăgoi",
+                        "key": 1
+                      },
+                      {
+                        "id": 420,
+                        "content": "INRIA, ENS, CNRS",
+                        "key": 2
+                      },
+                      {
+                        "id": 421,
+                        "content": "France",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 422,
+                    "content": "",
+                    "key": 13,
+                    "children": [
+                      {
+                        "id": 423,
+                        "content": "Stephen Freund",
+                        "key": 1
+                      },
+                      {
+                        "id": 424,
+                        "content": "Williams College",
+                        "key": 2
+                      },
+                      {
+                        "id": 425,
+                        "content": "United States",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 426,
+                    "content": "",
+                    "key": 14,
+                    "children": [
+                      {
+                        "id": 427,
+                        "content": "Patrice Godefroid",
+                        "key": 1
+                      },
+                      {
+                        "id": 428,
+                        "content": "Microsoft Research",
+                        "key": 2
+                      },
+                      {
+                        "id": 429,
+                        "content": "United States",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 430,
+                    "content": "",
+                    "key": 15,
+                    "children": [
+                      {
+                        "id": 431,
+                        "content": "Ronghui Gu",
+                        "key": 1
+                      },
+                      {
+                        "id": 432,
+                        "content": "Columbia University",
+                        "key": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": 433,
+                    "content": "",
+                    "key": 16,
+                    "children": [
+                      {
+                        "id": 434,
+                        "content": "Arjun Guha",
+                        "key": 1
+                      },
+                      {
+                        "id": 435,
+                        "content": "University of Massachusetts Amherst",
+                        "key": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": 436,
+                    "content": "",
+                    "key": 17,
+                    "children": [
+                      {
+                        "id": 437,
+                        "content": "Sam Guyer",
+                        "key": 1
+                      },
+                      {
+                        "id": 438,
+                        "content": "Tufts University",
+                        "key": 2
+                      },
+                      {
+                        "id": 439,
+                        "content": "United States",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 440,
+                    "content": "",
+                    "key": 18,
+                    "children": [
+                      {
+                        "id": 441,
+                        "content": "Peter Hawkins",
+                        "key": 1
+                      },
+                      {
+                        "id": 442,
+                        "content": "Google",
+                        "key": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": 443,
+                    "content": "",
+                    "key": 19,
+                    "children": [
+                      {
+                        "id": 444,
+                        "content": "Shachar Itzhaky",
+                        "key": 1
+                      },
+                      {
+                        "id": 445,
+                        "content": "Technion, Israel",
+                        "key": 2
+                      },
+                      {
+                        "id": 446,
+                        "content": "Israel",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 447,
+                    "content": "",
+                    "key": 20,
+                    "children": [
+                      {
+                        "id": 448,
+                        "content": "Alexandra Jimborean",
+                        "key": 1
+                      },
+                      {
+                        "id": 449,
+                        "content": "Uppsala University",
+                        "key": 2
+                      },
+                      {
+                        "id": 450,
+                        "content": "Sweden",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 451,
+                    "content": "",
+                    "key": 21,
+                    "children": [
+                      {
+                        "id": 452,
+                        "content": "Shoaib Kamil",
+                        "key": 1
+                      },
+                      {
+                        "id": 453,
+                        "content": "Adobe",
+                        "key": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": 454,
+                    "content": "",
+                    "key": 22,
+                    "children": [
+                      {
+                        "id": 455,
+                        "content": "Sriram Krishnamoorthy",
+                        "key": 1
+                      },
+                      {
+                        "id": 456,
+                        "content": "Pacific Northwest National Laboratories",
+                        "key": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": 457,
+                    "content": "",
+                    "key": 23,
+                    "children": [
+                      {
+                        "id": 458,
+                        "content": "Akash Lal",
+                        "key": 1
+                      },
+                      {
+                        "id": 459,
+                        "content": "Microsoft Research India",
+                        "key": 2
+                      },
+                      {
+                        "id": 460,
+                        "content": "India",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 461,
+                    "content": "",
+                    "key": 24,
+                    "children": [
+                      {
+                        "id": 462,
+                        "content": "Fan Long",
+                        "key": 1
+                      },
+                      {
+                        "id": 463,
+                        "content": "University of Toronto",
+                        "key": 2
+                      },
+                      {
+                        "id": 464,
+                        "content": "Canada",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 465,
+                    "content": "",
+                    "key": 25,
+                    "children": [
+                      {
+                        "id": 466,
+                        "content": "Santosh Nagarakatte",
+                        "key": 1
+                      },
+                      {
+                        "id": 467,
+                        "content": "Rutgers University, USA",
+                        "key": 2
+                      },
+                      {
+                        "id": 468,
+                        "content": "United States",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 469,
+                    "content": "",
+                    "key": 26,
+                    "children": [
+                      {
+                        "id": 470,
+                        "content": "Klaus Ostermann",
+                        "key": 1
+                      },
+                      {
+                        "id": 471,
+                        "content": "University of Tübingen, Germany",
+                        "key": 2
+                      },
+                      {
+                        "id": 472,
+                        "content": "Germany",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 473,
+                    "content": "",
+                    "key": 27,
+                    "children": [
+                      {
+                        "id": 474,
+                        "content": "Corina S. Pasareanu",
+                        "key": 1
+                      },
+                      {
+                        "id": 475,
+                        "content": "Carnegie Mellon University Silicon Valley, NASA Ames Research Center",
+                        "key": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": 476,
+                    "content": "",
+                    "key": 28,
+                    "children": [
+                      {
+                        "id": 477,
+                        "content": "Phitchaya Mangpo Phothilimthana",
+                        "key": 1
+                      },
+                      {
+                        "id": 478,
+                        "content": "Google",
+                        "key": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": 479,
+                    "content": "",
+                    "key": 29,
+                    "children": [
+                      {
+                        "id": 480,
+                        "content": "Ruzica Piskac",
+                        "key": 1
+                      },
+                      {
+                        "id": 481,
+                        "content": "Yale University, USA",
+                        "key": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": 482,
+                    "content": "",
+                    "key": 30,
+                    "children": [
+                      {
+                        "id": 483,
+                        "content": "Mukund Raghotaman",
+                        "key": 1
+                      },
+                      {
+                        "id": 484,
+                        "content": "University of Southern California",
+                        "key": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": 485,
+                    "content": "",
+                    "key": 31,
+                    "children": [
+                      {
+                        "id": 486,
+                        "content": "Veselin Raychev",
+                        "key": 1
+                      },
+                      {
+                        "id": 487,
+                        "content": "DeepCode AG",
+                        "key": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": 488,
+                    "content": "",
+                    "key": 32,
+                    "children": [
+                      {
+                        "id": 489,
+                        "content": "John Regehr",
+                        "key": 1
+                      },
+                      {
+                        "id": 490,
+                        "content": "University of Utah",
+                        "key": 2
+                      },
+                      {
+                        "id": 491,
+                        "content": "United States",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 492,
+                    "content": "",
+                    "key": 33,
+                    "children": [
+                      {
+                        "id": 493,
+                        "content": "Adrian Sampson",
+                        "key": 1
+                      },
+                      {
+                        "id": 494,
+                        "content": "Cornell University",
+                        "key": 2
+                      },
+                      {
+                        "id": 495,
+                        "content": "United States",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 496,
+                    "content": "",
+                    "key": 34,
+                    "children": [
+                      {
+                        "id": 497,
+                        "content": "Chris Seaton",
+                        "key": 1
+                      },
+                      {
+                        "id": 498,
+                        "content": "Shopify",
+                        "key": 2
+                      },
+                      {
+                        "id": 499,
+                        "content": "United Kingdom",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 500,
+                    "content": "",
+                    "key": 35,
+                    "children": [
+                      {
+                        "id": 501,
+                        "content": "Tyler Sorensen",
+                        "key": 1
+                      },
+                      {
+                        "id": 502,
+                        "content": "Princeton University",
+                        "key": 2
+                      },
+                      {
+                        "id": 503,
+                        "content": "United States",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 504,
+                    "content": "",
+                    "key": 36,
+                    "children": [
+                      {
+                        "id": 505,
+                        "content": "Michelle Strout",
+                        "key": 1
+                      },
+                      {
+                        "id": 506,
+                        "content": "University of Arizona",
+                        "key": 2
+                      },
+                      {
+                        "id": 507,
+                        "content": "United States",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 508,
+                    "content": "",
+                    "key": 37,
+                    "children": [
+                      {
+                        "id": 509,
+                        "content": "Petar Tsankov",
+                        "key": 1
+                      },
+                      {
+                        "id": 510,
+                        "content": "ETH Zurich / ChainSecurity",
+                        "key": 2
+                      },
+                      {
+                        "id": 511,
+                        "content": "Switzerland",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 512,
+                    "content": "",
+                    "key": 38,
+                    "children": [
+                      {
+                        "id": 513,
+                        "content": "Mandana Vaziri",
+                        "key": 1
+                      },
+                      {
+                        "id": 514,
+                        "content": "IBM Research",
+                        "key": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": 515,
+                    "content": "",
+                    "key": 39,
+                    "children": [
+                      {
+                        "id": 516,
+                        "content": "John Vilk",
+                        "key": 1
+                      },
+                      {
+                        "id": 517,
+                        "content": "Stripe",
+                        "key": 2
+                      },
+                      {
+                        "id": 518,
+                        "content": "United States",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 519,
+                    "content": "",
+                    "key": 40,
+                    "children": [
+                      {
+                        "id": 520,
+                        "content": "Dimitrios Vytiniotis",
+                        "key": 1
+                      },
+                      {
+                        "id": 521,
+                        "content": "DeepMind",
+                        "key": 2
+                      },
+                      {
+                        "id": 522,
+                        "content": "United Kingdom",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 523,
+                    "content": "",
+                    "key": 41,
+                    "children": [
+                      {
+                        "id": 524,
+                        "content": "Ke Wang",
+                        "key": 1
+                      },
+                      {
+                        "id": 525,
+                        "content": "Visa Research",
+                        "key": 2
+                      },
+                      {
+                        "id": 526,
+                        "content": "United States",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 527,
+                    "content": "",
+                    "key": 42,
+                    "children": [
+                      {
+                        "id": 528,
+                        "content": "Eran Yahav",
+                        "key": 1
+                      },
+                      {
+                        "id": 529,
+                        "content": "Technion",
+                        "key": 2
+                      },
+                      {
+                        "id": 530,
+                        "content": "Israel",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 531,
+                    "content": "",
+                    "key": 43,
+                    "children": [
+                      {
+                        "id": 532,
+                        "content": "Qirun Zhang",
+                        "key": 1
+                      },
+                      {
+                        "id": 533,
+                        "content": "Georgia Institute of Technology",
+                        "key": 2
+                      },
+                      {
+                        "id": 534,
+                        "content": "United States",
+                        "key": 3
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 535,
+                "content": "External Program Committee",
+                "isList": true,
+                "key": 15,
+                "children": [
+                  {
+                    "id": 536,
+                    "content": "",
+                    "key": 1,
+                    "children": [
+                      {
+                        "id": 537,
+                        "content": "Amal Ahmed",
+                        "key": 1
+                      },
+                      {
+                        "id": 538,
+                        "content": "Northeastern University, USA",
+                        "key": 2
+                      },
+                      {
+                        "id": 539,
+                        "content": "United States",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 540,
+                    "content": "",
+                    "key": 2,
+                    "children": [
+                      {
+                        "id": 541,
+                        "content": "June Andronick",
+                        "key": 1
+                      },
+                      {
+                        "id": 542,
+                        "content": "CSIRO's Data61 and UNSW",
+                        "key": 2
+                      },
+                      {
+                        "id": 543,
+                        "content": "Australia",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 544,
+                    "content": "",
+                    "key": 3,
+                    "children": [
+                      {
+                        "id": 545,
+                        "content": "Sara Baghsorkhi",
+                        "key": 1
+                      },
+                      {
+                        "id": 546,
+                        "content": "Intel Labs",
+                        "key": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": 547,
+                    "content": "",
+                    "key": 4,
+                    "children": [
+                      {
+                        "id": 548,
+                        "content": "Hans-J. Boehm",
+                        "key": 1
+                      },
+                      {
+                        "id": 549,
+                        "content": "Google",
+                        "key": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": 550,
+                    "content": "",
+                    "key": 5,
+                    "children": [
+                      {
+                        "id": 551,
+                        "content": "Julian Dolby",
+                        "key": 1
+                      },
+                      {
+                        "id": 552,
+                        "content": "IBM Research",
+                        "key": 2
+                      },
+                      {
+                        "id": 553,
+                        "content": "United States",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 554,
+                    "content": "",
+                    "key": 6,
+                    "children": [
+                      {
+                        "id": 555,
+                        "content": "Nate Foster",
+                        "key": 1
+                      },
+                      {
+                        "id": 556,
+                        "content": "Cornell University",
+                        "key": 2
+                      },
+                      {
+                        "id": 557,
+                        "content": "United States",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 558,
+                    "content": "",
+                    "key": 7,
+                    "children": [
+                      {
+                        "id": 559,
+                        "content": "Tony Hosking",
+                        "key": 1
+                      },
+                      {
+                        "id": 560,
+                        "content": "Australian National University / Data61",
+                        "key": 2
+                      },
+                      {
+                        "id": 561,
+                        "content": "Australia",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 562,
+                    "content": "",
+                    "key": 8,
+                    "children": [
+                      {
+                        "id": 563,
+                        "content": "Aditya Kanade",
+                        "key": 1
+                      },
+                      {
+                        "id": 564,
+                        "content": "Indian Institute of Science, Bangalore",
+                        "key": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": 565,
+                    "content": "",
+                    "key": 9,
+                    "children": [
+                      {
+                        "id": 566,
+                        "content": "Viktor Kunčak",
+                        "key": 1
+                      },
+                      {
+                        "id": 567,
+                        "content": "EPFL, Switzerland",
+                        "key": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": 568,
+                    "content": "",
+                    "key": 10,
+                    "children": [
+                      {
+                        "id": 569,
+                        "content": "Sorin Lerner",
+                        "key": 1
+                      },
+                      {
+                        "id": 570,
+                        "content": "University of California, San Diego",
+                        "key": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": 571,
+                    "content": "",
+                    "key": 11,
+                    "children": [
+                      {
+                        "id": 572,
+                        "content": "Ondřej Lhoták",
+                        "key": 1
+                      },
+                      {
+                        "id": 573,
+                        "content": "University of Waterloo",
+                        "key": 2
+                      },
+                      {
+                        "id": 574,
+                        "content": "Canada",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 575,
+                    "content": "",
+                    "key": 12,
+                    "children": [
+                      {
+                        "id": 576,
+                        "content": "Madan Musuvathi",
+                        "key": 1
+                      },
+                      {
+                        "id": 577,
+                        "content": "Microsoft Research",
+                        "key": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": 578,
+                    "content": "",
+                    "key": 13,
+                    "children": [
+                      {
+                        "id": 579,
+                        "content": "Guilherme Ottoni",
+                        "key": 1
+                      },
+                      {
+                        "id": 580,
+                        "content": "Facebook",
+                        "key": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": 581,
+                    "content": "",
+                    "key": 14,
+                    "children": [
+                      {
+                        "id": 582,
+                        "content": "Erez Petrank",
+                        "key": 1
+                      },
+                      {
+                        "id": 583,
+                        "content": "Technion - Israel",
+                        "key": 2
+                      },
+                      {
+                        "id": 584,
+                        "content": "Israel",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 585,
+                    "content": "",
+                    "key": 15,
+                    "children": [
+                      {
+                        "id": 586,
+                        "content": "Grigore Rosu",
+                        "key": 1
+                      },
+                      {
+                        "id": 587,
+                        "content": "University of Illinois at Urbana-Champaign",
+                        "key": 2
+                      },
+                      {
+                        "id": 588,
+                        "content": "United States",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 589,
+                    "content": "",
+                    "key": 16,
+                    "children": [
+                      {
+                        "id": 590,
+                        "content": "Ilya Sergey",
+                        "key": 1
+                      },
+                      {
+                        "id": 591,
+                        "content": "Yale-NUS College and National University of Singapore",
+                        "key": 2
+                      },
+                      {
+                        "id": 592,
+                        "content": "Singapore",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 593,
+                    "content": "",
+                    "key": 17,
+                    "children": [
+                      {
+                        "id": 594,
+                        "content": "Armando Solar-Lezama",
+                        "key": 1
+                      },
+                      {
+                        "id": 595,
+                        "content": "Massachusetts Institute of Technology",
+                        "key": 2
+                      },
+                      {
+                        "id": 596,
+                        "content": "United States",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 597,
+                    "content": "",
+                    "key": 18,
+                    "children": [
+                      {
+                        "id": 598,
+                        "content": "Manu Sridharan",
+                        "key": 1
+                      },
+                      {
+                        "id": 599,
+                        "content": "University of California Riverside",
+                        "key": 2
+                      },
+                      {
+                        "id": 600,
+                        "content": "United States",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 601,
+                    "content": "",
+                    "key": 19,
+                    "children": [
+                      {
+                        "id": 602,
+                        "content": "Zachary Tatlock",
+                        "key": 1
+                      },
+                      {
+                        "id": 603,
+                        "content": "University of Washington",
+                        "key": 2
+                      },
+                      {
+                        "id": 604,
+                        "content": "United States",
+                        "key": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 605,
+                    "content": "",
+                    "key": 20,
+                    "children": [
+                      {
+                        "id": 606,
+                        "content": "Martin Vechev",
+                        "key": 1
+                      },
+                      {
+                        "id": 607,
+                        "content": "ETH Zürich",
+                        "key": 2
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 608,
+                "content": "External Review Committee",
+                "key": 16,
+                "children": [
+                  {
+                    "id": 609,
+                    "content": "",
+                    "isList": true,
+                    "key": 1,
+                    "children": [
+                      {
+                        "id": 610,
+                        "content": "",
+                        "key": 1,
+                        "children": [
+                          {
+                            "id": 611,
+                            "content": "Sara Achour",
+                            "key": 1
+                          },
+                          {
+                            "id": 612,
+                            "content": "MIT",
+                            "key": 2
+                          },
+                          {
+                            "id": 613,
+                            "content": "United States",
+                            "key": 3
+                          }
+                        ]
+                      },
+                      {
+                        "id": 614,
+                        "content": "",
+                        "key": 2,
+                        "children": [
+                          {
+                            "id": 615,
+                            "content": "Pavol Bielik",
+                            "key": 1
+                          },
+                          {
+                            "id": 616,
+                            "content": "ETH Zürich",
+                            "key": 2
+                          },
+                          {
+                            "id": 617,
+                            "content": "Switzerland",
+                            "key": 3
+                          }
+                        ]
+                      },
+                      {
+                        "id": 618,
+                        "content": "",
+                        "key": 3,
+                        "children": [
+                          {
+                            "id": 619,
+                            "content": "Ting Cao",
+                            "key": 1
+                          },
+                          {
+                            "id": 620,
+                            "content": "Microsoft Research",
+                            "key": 2
+                          },
+                          {
+                            "id": 621,
+                            "content": "China",
+                            "key": 3
+                          }
+                        ]
+                      },
+                      {
+                        "id": 622,
+                        "content": "",
+                        "key": 4,
+                        "children": [
+                          {
+                            "id": 623,
+                            "content": "Brad Chamberlain",
+                            "key": 1
+                          },
+                          {
+                            "id": 624,
+                            "content": "Cray, a Hewlett Packard Enterprise company",
+                            "key": 2
+                          },
+                          {
+                            "id": 625,
+                            "content": "United States",
+                            "key": 3
+                          }
+                        ]
+                      },
+                      {
+                        "id": 626,
+                        "content": "",
+                        "key": 5,
+                        "children": [
+                          {
+                            "id": 627,
+                            "content": "Bor-Yuh Evan Chang",
+                            "key": 1
+                          },
+                          {
+                            "id": 628,
+                            "content": "University of Colorado Boulder | Amazon",
+                            "key": 2
+                          }
+                        ]
+                      },
+                      {
+                        "id": 629,
+                        "content": "",
+                        "key": 6,
+                        "children": [
+                          {
+                            "id": 630,
+                            "content": "Sarah Chasins",
+                            "key": 1
+                          },
+                          {
+                            "id": 631,
+                            "content": "University of California, Berkeley",
+                            "key": 2
+                          }
+                        ]
+                      },
+                      {
+                        "id": 632,
+                        "content": "",
+                        "key": 7,
+                        "children": [
+                          {
+                            "id": 633,
+                            "content": "Nathan Chong",
+                            "key": 1
+                          },
+                          {
+                            "id": 634,
+                            "content": "Amazon",
+                            "key": 2
+                          },
+                          {
+                            "id": 635,
+                            "content": "United States",
+                            "key": 3
+                          }
+                        ]
+                      },
+                      {
+                        "id": 636,
+                        "content": "",
+                        "key": 8,
+                        "children": [
+                          {
+                            "id": 637,
+                            "content": "Vijay D'Silva",
+                            "key": 1
+                          },
+                          {
+                            "id": 638,
+                            "content": "Google Inc.",
+                            "key": 2
+                          }
+                        ]
+                      },
+                      {
+                        "id": 639,
+                        "content": "",
+                        "key": 9,
+                        "children": [
+                          {
+                            "id": 640,
+                            "content": "David Darais",
+                            "key": 1
+                          },
+                          {
+                            "id": 641,
+                            "content": "University of Vermont",
+                            "key": 2
+                          },
+                          {
+                            "id": 642,
+                            "content": "United States",
+                            "key": 3
+                          }
+                        ]
+                      },
+                      {
+                        "id": 643,
+                        "content": "",
+                        "key": 10,
+                        "children": [
+                          {
+                            "id": 644,
+                            "content": "Eva Darulova",
+                            "key": 1
+                          },
+                          {
+                            "id": 645,
+                            "content": "MPI-SWS",
+                            "key": 2
+                          },
+                          {
+                            "id": 646,
+                            "content": "Germany",
+                            "key": 3
+                          }
+                        ]
+                      },
+                      {
+                        "id": 647,
+                        "content": "",
+                        "key": 11,
+                        "children": [
+                          {
+                            "id": 648,
+                            "content": "Zachary DeVito",
+                            "key": 1
+                          },
+                          {
+                            "id": 649,
+                            "content": "Stanford, USA",
+                            "key": 2
+                          }
+                        ]
+                      },
+                      {
+                        "id": 650,
+                        "content": "",
+                        "key": 12,
+                        "children": [
+                          {
+                            "id": 651,
+                            "content": "Mike Dodds",
+                            "key": 1
+                          },
+                          {
+                            "id": 652,
+                            "content": "Galois, Inc.",
+                            "key": 2
+                          }
+                        ]
+                      },
+                      {
+                        "id": 653,
+                        "content": "",
+                        "key": 13,
+                        "children": [
+                          {
+                            "id": 654,
+                            "content": "Azadeh Farzan",
+                            "key": 1
+                          },
+                          {
+                            "id": 655,
+                            "content": "University of Toronto",
+                            "key": 2
+                          },
+                          {
+                            "id": 656,
+                            "content": "Canada",
+                            "key": 3
+                          }
+                        ]
+                      },
+                      {
+                        "id": 657,
+                        "content": "",
+                        "key": 14,
+                        "children": [
+                          {
+                            "id": 658,
+                            "content": "Yu Feng",
+                            "key": 1
+                          },
+                          {
+                            "id": 659,
+                            "content": "University of California, Santa Barbara",
+                            "key": 2
+                          },
+                          {
+                            "id": 660,
+                            "content": "China",
+                            "key": 3
+                          }
+                        ]
+                      },
+                      {
+                        "id": 661,
+                        "content": "",
+                        "key": 15,
+                        "children": [
+                          {
+                            "id": 662,
+                            "content": "Matthew Flatt",
+                            "key": 1
+                          },
+                          {
+                            "id": 663,
+                            "content": "University of Utah",
+                            "key": 2
+                          },
+                          {
+                            "id": 664,
+                            "content": "United States",
+                            "key": 3
+                          }
+                        ]
+                      },
+                      {
+                        "id": 665,
+                        "content": "",
+                        "key": 16,
+                        "children": [
+                          {
+                            "id": 666,
+                            "content": "José Fragoso Santos",
+                            "key": 1
+                          },
+                          {
+                            "id": 667,
+                            "content": "Instituto Superior Técnico, U. Lisboa & INESC-ID",
+                            "key": 2
+                          },
+                          {
+                            "id": 668,
+                            "content": "Portugal",
+                            "key": 3
+                          }
+                        ]
+                      },
+                      {
+                        "id": 669,
+                        "content": "",
+                        "key": 17,
+                        "children": [
+                          {
+                            "id": 670,
+                            "content": "Ronald Garcia",
+                            "key": 1
+                          },
+                          {
+                            "id": 671,
+                            "content": "University of British Columbia",
+                            "key": 2
+                          }
+                        ]
+                      },
+                      {
+                        "id": 672,
+                        "content": "",
+                        "key": 18,
+                        "children": [
+                          {
+                            "id": 673,
+                            "content": "Timon Gehr",
+                            "key": 1
+                          },
+                          {
+                            "id": 674,
+                            "content": "ETH Zürich",
+                            "key": 2
+                          },
+                          {
+                            "id": 675,
+                            "content": "Switzerland",
+                            "key": 3
+                          }
+                        ]
+                      },
+                      {
+                        "id": 676,
+                        "content": "Pritam Gharat",
+                        "key": 19
+                      },
+                      {
+                        "id": 677,
+                        "content": "",
+                        "key": 20,
+                        "children": [
+                          {
+                            "id": 678,
+                            "content": "Aarti Gupta",
+                            "key": 1
+                          },
+                          {
+                            "id": 679,
+                            "content": "Princeton University",
+                            "key": 2
+                          }
+                        ]
+                      },
+                      {
+                        "id": 680,
+                        "content": "",
+                        "key": 21,
+                        "children": [
+                          {
+                            "id": 681,
+                            "content": "Matthias Hauswirth",
+                            "key": 1
+                          },
+                          {
+                            "id": 682,
+                            "content": "Università della Svizzera italiana",
+                            "key": 2
+                          },
+                          {
+                            "id": 683,
+                            "content": "Switzerland",
+                            "key": 3
+                          }
+                        ]
+                      },
+                      {
+                        "id": 684,
+                        "content": "",
+                        "key": 22,
+                        "children": [
+                          {
+                            "id": 685,
+                            "content": "Michael Hicks",
+                            "key": 1
+                          },
+                          {
+                            "id": 686,
+                            "content": "University of Maryland",
+                            "key": 2
+                          },
+                          {
+                            "id": 687,
+                            "content": "United States",
+                            "key": 3
+                          }
+                        ]
+                      },
+                      {
+                        "id": 688,
+                        "content": "",
+                        "key": 23,
+                        "children": [
+                          {
+                            "id": 689,
+                            "content": "Gail Kaiser",
+                            "key": 1
+                          },
+                          {
+                            "id": 690,
+                            "content": "Columbia University",
+                            "key": 2
+                          },
+                          {
+                            "id": 691,
+                            "content": "United States",
+                            "key": 3
+                          }
+                        ]
+                      },
+                      {
+                        "id": 692,
+                        "content": "",
+                        "key": 24,
+                        "children": [
+                          {
+                            "id": 693,
+                            "content": "Stephen Kell",
+                            "key": 1
+                          },
+                          {
+                            "id": 694,
+                            "content": "University of Kent",
+                            "key": 2
+                          }
+                        ]
+                      },
+                      {
+                        "id": 695,
+                        "content": "",
+                        "key": 25,
+                        "children": [
+                          {
+                            "id": 696,
+                            "content": "Sarfraz Khurshid",
+                            "key": 1
+                          },
+                          {
+                            "id": 697,
+                            "content": "University of Texas at Austin",
+                            "key": 2
+                          },
+                          {
+                            "id": 698,
+                            "content": "United States",
+                            "key": 3
+                          }
+                        ]
+                      },
+                      {
+                        "id": 699,
+                        "content": "",
+                        "key": 26,
+                        "children": [
+                          {
+                            "id": 700,
+                            "content": "Zachary Kincaid",
+                            "key": 1
+                          },
+                          {
+                            "id": 701,
+                            "content": "Princeton University",
+                            "key": 2
+                          },
+                          {
+                            "id": 702,
+                            "content": "United States",
+                            "key": 3
+                          }
+                        ]
+                      },
+                      {
+                        "id": 703,
+                        "content": "",
+                        "key": 27,
+                        "children": [
+                          {
+                            "id": 704,
+                            "content": "Fredrik Kjolstad",
+                            "key": 1
+                          },
+                          {
+                            "id": 705,
+                            "content": "Stanford University",
+                            "key": 2
+                          }
+                        ]
+                      },
+                      {
+                        "id": 706,
+                        "content": "",
+                        "key": 28,
+                        "children": [
+                          {
+                            "id": 707,
+                            "content": "Milind Kulkarni",
+                            "key": 1
+                          },
+                          {
+                            "id": 708,
+                            "content": "Purdue University",
+                            "key": 2
+                          },
+                          {
+                            "id": 709,
+                            "content": "United States",
+                            "key": 3
+                          }
+                        ]
+                      },
+                      {
+                        "id": 710,
+                        "content": "",
+                        "key": 29,
+                        "children": [
+                          {
+                            "id": 711,
+                            "content": "Lindsey Kuper",
+                            "key": 1
+                          },
+                          {
+                            "id": 712,
+                            "content": "University of California, Santa Cruz",
+                            "key": 2
+                          }
+                        ]
+                      },
+                      {
+                        "id": 713,
+                        "content": "",
+                        "key": 30,
+                        "children": [
+                          {
+                            "id": 714,
+                            "content": "Anil Madhavapeddy",
+                            "key": 1
+                          },
+                          {
+                            "id": 715,
+                            "content": "OCaml Labs",
+                            "key": 2
+                          },
+                          {
+                            "id": 716,
+                            "content": "United Kingdom",
+                            "key": 3
+                          }
+                        ]
+                      },
+                      {
+                        "id": 717,
+                        "content": "",
+                        "key": 31,
+                        "children": [
+                          {
+                            "id": 718,
+                            "content": "Na Meng",
+                            "key": 1
+                          },
+                          {
+                            "id": 719,
+                            "content": "Virginia Tech",
+                            "key": 2
+                          },
+                          {
+                            "id": 720,
+                            "content": "United States",
+                            "key": 3
+                          }
+                        ]
+                      },
+                      {
+                        "id": 721,
+                        "content": "",
+                        "key": 32,
+                        "children": [
+                          {
+                            "id": 722,
+                            "content": "Heather Miller",
+                            "key": 1
+                          },
+                          {
+                            "id": 723,
+                            "content": "Carnegie Mellon University",
+                            "key": 2
+                          }
+                        ]
+                      },
+                      {
+                        "id": 724,
+                        "content": "",
+                        "key": 33,
+                        "children": [
+                          {
+                            "id": 725,
+                            "content": "Sasa Misailovic",
+                            "key": 1
+                          },
+                          {
+                            "id": 726,
+                            "content": "University of Illinois at Urbana-Champaign",
+                            "key": 2
+                          },
+                          {
+                            "id": 727,
+                            "content": "United States",
+                            "key": 3
+                          }
+                        ]
+                      },
+                      {
+                        "id": 728,
+                        "content": "",
+                        "key": 34,
+                        "children": [
+                          {
+                            "id": 729,
+                            "content": "Saurav Muralidharan",
+                            "key": 1
+                          },
+                          {
+                            "id": 730,
+                            "content": "NVIDIA",
+                            "key": 2
+                          }
+                        ]
+                      },
+                      {
+                        "id": 731,
+                        "content": "",
+                        "key": 35,
+                        "children": [
+                          {
+                            "id": 732,
+                            "content": "Toby Murray",
+                            "key": 1
+                          },
+                          {
+                            "id": 733,
+                            "content": "University of Melbourne, Australia",
+                            "key": 2
+                          },
+                          {
+                            "id": 734,
+                            "content": "Australia",
+                            "key": 3
+                          }
+                        ]
+                      },
+                      {
+                        "id": 735,
+                        "content": "",
+                        "key": 36,
+                        "children": [
+                          {
+                            "id": 736,
+                            "content": "Ryan R. Newton",
+                            "key": 1
+                          },
+                          {
+                            "id": 737,
+                            "content": "Indiana University",
+                            "key": 2
+                          },
+                          {
+                            "id": 738,
+                            "content": "United States",
+                            "key": 3
+                          }
+                        ]
+                      },
+                      {
+                        "id": 739,
+                        "content": "",
+                        "key": 37,
+                        "children": [
+                          {
+                            "id": 740,
+                            "content": "Michael O'Boyle",
+                            "key": 1
+                          },
+                          {
+                            "id": 741,
+                            "content": "University of Edinburgh",
+                            "key": 2
+                          }
+                        ]
+                      },
+                      {
+                        "id": 742,
+                        "content": "",
+                        "key": 38,
+                        "children": [
+                          {
+                            "id": 743,
+                            "content": "Saswat Padhi",
+                            "key": 1
+                          },
+                          {
+                            "id": 744,
+                            "content": "University of California, Los Angeles",
+                            "key": 2
+                          },
+                          {
+                            "id": 745,
+                            "content": "United States",
+                            "key": 3
+                          }
+                        ]
+                      },
+                      {
+                        "id": 746,
+                        "content": "",
+                        "key": 39,
+                        "children": [
+                          {
+                            "id": 747,
+                            "content": "Pavel Panchekha",
+                            "key": 1
+                          },
+                          {
+                            "id": 748,
+                            "content": "University of Utah",
+                            "key": 2
+                          },
+                          {
+                            "id": 749,
+                            "content": "United States",
+                            "key": 3
+                          }
+                        ]
+                      },
+                      {
+                        "id": 750,
+                        "content": "",
+                        "key": 40,
+                        "children": [
+                          {
+                            "id": 751,
+                            "content": "Bryan Parno",
+                            "key": 1
+                          },
+                          {
+                            "id": 752,
+                            "content": "Carnegie Mellon University",
+                            "key": 2
+                          },
+                          {
+                            "id": 753,
+                            "content": "United States",
+                            "key": 3
+                          }
+                        ]
+                      },
+                      {
+                        "id": 754,
+                        "content": "",
+                        "key": 41,
+                        "children": [
+                          {
+                            "id": 755,
+                            "content": "Azalea Raad",
+                            "key": 1
+                          },
+                          {
+                            "id": 756,
+                            "content": "MPI-SWS, Germany",
+                            "key": 2
+                          },
+                          {
+                            "id": 757,
+                            "content": "United Kingdom",
+                            "key": 3
+                          }
+                        ]
+                      },
+                      {
+                        "id": 758,
+                        "content": "",
+                        "key": 42,
+                        "children": [
+                          {
+                            "id": 759,
+                            "content": "Tahina Ramananandro",
+                            "key": 1
+                          },
+                          {
+                            "id": 760,
+                            "content": "Microsoft Research, n.n.",
+                            "key": 2
+                          },
+                          {
+                            "id": 761,
+                            "content": "United States",
+                            "key": 3
+                          }
+                        ]
+                      },
+                      {
+                        "id": 762,
+                        "content": "",
+                        "key": 43,
+                        "children": [
+                          {
+                            "id": 763,
+                            "content": "Aseem Rastogi",
+                            "key": 1
+                          },
+                          {
+                            "id": 764,
+                            "content": "Microsoft Research",
+                            "key": 2
+                          },
+                          {
+                            "id": 765,
+                            "content": "India",
+                            "key": 3
+                          }
+                        ]
+                      },
+                      {
+                        "id": 766,
+                        "content": "",
+                        "key": 44,
+                        "children": [
+                          {
+                            "id": 767,
+                            "content": "Tiark Rompf",
+                            "key": 1
+                          },
+                          {
+                            "id": 768,
+                            "content": "Purdue University",
+                            "key": 2
+                          },
+                          {
+                            "id": 769,
+                            "content": "United States",
+                            "key": 3
+                          }
+                        ]
+                      },
+                      {
+                        "id": 770,
+                        "content": "",
+                        "key": 45,
+                        "children": [
+                          {
+                            "id": 771,
+                            "content": "Andreas Rossberg",
+                            "key": 1
+                          },
+                          {
+                            "id": 772,
+                            "content": "Dfinity Stiftung",
+                            "key": 2
+                          },
+                          {
+                            "id": 773,
+                            "content": "Germany",
+                            "key": 3
+                          }
+                        ]
+                      },
+                      {
+                        "id": 774,
+                        "content": "",
+                        "key": 46,
+                        "children": [
+                          {
+                            "id": 775,
+                            "content": "Julian Shun",
+                            "key": 1
+                          },
+                          {
+                            "id": 776,
+                            "content": "MIT",
+                            "key": 2
+                          }
+                        ]
+                      },
+                      {
+                        "id": 777,
+                        "content": "",
+                        "key": 47,
+                        "children": [
+                          {
+                            "id": 778,
+                            "content": "Steffen Smolka",
+                            "key": 1
+                          },
+                          {
+                            "id": 779,
+                            "content": "Cornell University",
+                            "key": 2
+                          }
+                        ]
+                      },
+                      {
+                        "id": 780,
+                        "content": "",
+                        "key": 48,
+                        "children": [
+                          {
+                            "id": 781,
+                            "content": "Ross Tate",
+                            "key": 1
+                          },
+                          {
+                            "id": 782,
+                            "content": "Cornell University",
+                            "key": 2
+                          },
+                          {
+                            "id": 783,
+                            "content": "United States",
+                            "key": 3
+                          }
+                        ]
+                      },
+                      {
+                        "id": 784,
+                        "content": "",
+                        "key": 49,
+                        "children": [
+                          {
+                            "id": 785,
+                            "content": "Xi Wang",
+                            "key": 1
+                          },
+                          {
+                            "id": 786,
+                            "content": "University of Washington",
+                            "key": 2
+                          }
+                        ]
+                      },
+                      {
+                        "id": 787,
+                        "content": "",
+                        "key": 50,
+                        "children": [
+                          {
+                            "id": 788,
+                            "content": "Thomas Wuerthinger",
+                            "key": 1
+                          },
+                          {
+                            "id": 789,
+                            "content": "Oracle Labs",
+                            "key": 2
+                          }
+                        ]
+                      },
+                      {
+                        "id": 790,
+                        "content": "",
+                        "key": 51,
+                        "children": [
+                          {
+                            "id": 791,
+                            "content": "Harry Xu",
+                            "key": 1
+                          },
+                          {
+                            "id": 792,
+                            "content": "UCLA",
+                            "key": 2
+                          },
+                          {
+                            "id": 793,
+                            "content": "United States",
+                            "key": 3
+                          }
+                        ]
+                      },
+                      {
+                        "id": 794,
+                        "content": "",
+                        "key": 52,
+                        "children": [
+                          {
+                            "id": 795,
+                            "content": "Xin Zhang",
+                            "key": 1
+                          },
+                          {
+                            "id": 796,
+                            "content": "Massachusetts Institute of Technology",
+                            "key": 2
+                          },
+                          {
+                            "id": 797,
+                            "content": "United States",
+                            "key": 3
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": 798,
+                    "content": "x Tuesday 14 Apr 05:45",
+                    "key": 2
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

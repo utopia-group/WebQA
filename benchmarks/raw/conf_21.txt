@@ -1,0 +1,2358 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="http://gmpg.org/xfn/11" rel="profile"/>
+<title>Papers – CSCW 2020</title>
+<link href="//fonts.googleapis.com" rel="dns-prefetch"/>
+<link href="//s.w.org" rel="dns-prefetch"/>
+<link href="https://cscw.acm.org/2020/index.php/feed/" rel="alternate" title="CSCW 2020 » Feed" type="application/rss+xml"/>
+<link href="https://cscw.acm.org/2020/index.php/comments/feed/" rel="alternate" title="CSCW 2020 » Comments Feed" type="application/rss+xml"/>
+<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/cscw.acm.org\/2020\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4-alpha-47225"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link href="https://cscw.acm.org/2020/wp-content/plugins/colibri-page-builder/extend-builder/assets/static/css/theme.css?ver=1.0.165" id="extend-builder-css-css" media="all" rel="stylesheet" type="text/css"/>
+<style id="extend-builder-css-inline-css" type="text/css">
+/* page css */
+/* part css : theme */
+
+.h-y-container > *:not(:last-child), .h-x-container-inner > * {
+  margin-bottom: 20px;
+}
+.h-x-container-inner, .h-column__content > .h-x-container > *:last-child {
+  margin-bottom: -20px;
+}
+.h-x-container-inner > * {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.h-x-container-inner {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+[class*=style-], [class*=local-style-], .h-global-transition, .h-global-transition-all, .h-global-transition-all * {
+  transition-duration: 0.5s;
+}
+.wp-block-button .wp-block-button__link:not(.has-background),.wp-block-file .wp-block-file__button {
+  background-color: #03a9f4;
+  background-image: none;
+}
+.wp-block-button .wp-block-button__link:not(.has-background):hover,.wp-block-button .wp-block-button__link:not(.has-background):focus,.wp-block-button .wp-block-button__link:not(.has-background):active,.wp-block-file .wp-block-file__button:hover,.wp-block-file .wp-block-file__button:focus,.wp-block-file .wp-block-file__button:active {
+  background-color: rgb(2, 110, 159);
+  background-image: none;
+}
+.wp-block-button.is-style-outline .wp-block-button__link:not(.has-background) {
+  color: #03a9f4;
+  background-color: transparent;
+  background-image: none;
+  border-top-width: 2px;
+  border-top-color: #03a9f4;
+  border-top-style: solid;
+  border-right-width: 2px;
+  border-right-color: #03a9f4;
+  border-right-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #03a9f4;
+  border-bottom-style: solid;
+  border-left-width: 2px;
+  border-left-color: #03a9f4;
+  border-left-style: solid;
+}
+.wp-block-button.is-style-outline .wp-block-button__link:not(.has-background):hover,.wp-block-button.is-style-outline .wp-block-button__link:not(.has-background):focus,.wp-block-button.is-style-outline .wp-block-button__link:not(.has-background):active {
+  color: #fff;
+  background-color: #03a9f4;
+  background-image: none;
+}
+.has-background-color,*[class^="wp-block-"].is-style-solid-color {
+  background-color: #03a9f4;
+  background-image: none;
+}
+.has-colibri-color-1-background-color {
+  background-color: #03a9f4;
+  background-image: none;
+}
+.wp-block-button .wp-block-button__link.has-colibri-color-1-background-color {
+  background-color: #03a9f4;
+  background-image: none;
+}
+.wp-block-button .wp-block-button__link.has-colibri-color-1-background-color:hover,.wp-block-button .wp-block-button__link.has-colibri-color-1-background-color:focus,.wp-block-button .wp-block-button__link.has-colibri-color-1-background-color:active {
+  background-color: rgb(2, 110, 159);
+  background-image: none;
+}
+.wp-block-button.is-style-outline .wp-block-button__link.has-colibri-color-1-background-color {
+  color: #03a9f4;
+  background-color: transparent;
+  background-image: none;
+  border-top-width: 2px;
+  border-top-color: #03a9f4;
+  border-top-style: solid;
+  border-right-width: 2px;
+  border-right-color: #03a9f4;
+  border-right-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #03a9f4;
+  border-bottom-style: solid;
+  border-left-width: 2px;
+  border-left-color: #03a9f4;
+  border-left-style: solid;
+}
+.wp-block-button.is-style-outline .wp-block-button__link.has-colibri-color-1-background-color:hover,.wp-block-button.is-style-outline .wp-block-button__link.has-colibri-color-1-background-color:focus,.wp-block-button.is-style-outline .wp-block-button__link.has-colibri-color-1-background-color:active {
+  color: #fff;
+  background-color: #03a9f4;
+  background-image: none;
+}
+*[class^="wp-block-"].has-colibri-color-1-background-color,*[class^="wp-block-"] .has-colibri-color-1-background-color,*[class^="wp-block-"].is-style-solid-color.has-colibri-color-1-color,*[class^="wp-block-"].is-style-solid-color blockquote.has-colibri-color-1-color,*[class^="wp-block-"].is-style-solid-color blockquote.has-colibri-color-1-color p {
+  background-color: #03a9f4;
+  background-image: none;
+}
+.has-colibri-color-1-color {
+  color: #03a9f4;
+}
+.has-colibri-color-2-background-color {
+  background-color: #f79007;
+  background-image: none;
+}
+.wp-block-button .wp-block-button__link.has-colibri-color-2-background-color {
+  background-color: #f79007;
+  background-image: none;
+}
+.wp-block-button .wp-block-button__link.has-colibri-color-2-background-color:hover,.wp-block-button .wp-block-button__link.has-colibri-color-2-background-color:focus,.wp-block-button .wp-block-button__link.has-colibri-color-2-background-color:active {
+  background-color: rgb(162, 94, 5);
+  background-image: none;
+}
+.wp-block-button.is-style-outline .wp-block-button__link.has-colibri-color-2-background-color {
+  color: #f79007;
+  background-color: transparent;
+  background-image: none;
+  border-top-width: 2px;
+  border-top-color: #f79007;
+  border-top-style: solid;
+  border-right-width: 2px;
+  border-right-color: #f79007;
+  border-right-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #f79007;
+  border-bottom-style: solid;
+  border-left-width: 2px;
+  border-left-color: #f79007;
+  border-left-style: solid;
+}
+.wp-block-button.is-style-outline .wp-block-button__link.has-colibri-color-2-background-color:hover,.wp-block-button.is-style-outline .wp-block-button__link.has-colibri-color-2-background-color:focus,.wp-block-button.is-style-outline .wp-block-button__link.has-colibri-color-2-background-color:active {
+  color: #fff;
+  background-color: #f79007;
+  background-image: none;
+}
+*[class^="wp-block-"].has-colibri-color-2-background-color,*[class^="wp-block-"] .has-colibri-color-2-background-color,*[class^="wp-block-"].is-style-solid-color.has-colibri-color-2-color,*[class^="wp-block-"].is-style-solid-color blockquote.has-colibri-color-2-color,*[class^="wp-block-"].is-style-solid-color blockquote.has-colibri-color-2-color p {
+  background-color: #f79007;
+  background-image: none;
+}
+.has-colibri-color-2-color {
+  color: #f79007;
+}
+.has-colibri-color-3-background-color {
+  background-color: #00bf87;
+  background-image: none;
+}
+.wp-block-button .wp-block-button__link.has-colibri-color-3-background-color {
+  background-color: #00bf87;
+  background-image: none;
+}
+.wp-block-button .wp-block-button__link.has-colibri-color-3-background-color:hover,.wp-block-button .wp-block-button__link.has-colibri-color-3-background-color:focus,.wp-block-button .wp-block-button__link.has-colibri-color-3-background-color:active {
+  background-color: rgb(0, 106, 75);
+  background-image: none;
+}
+.wp-block-button.is-style-outline .wp-block-button__link.has-colibri-color-3-background-color {
+  color: #00bf87;
+  background-color: transparent;
+  background-image: none;
+  border-top-width: 2px;
+  border-top-color: #00bf87;
+  border-top-style: solid;
+  border-right-width: 2px;
+  border-right-color: #00bf87;
+  border-right-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #00bf87;
+  border-bottom-style: solid;
+  border-left-width: 2px;
+  border-left-color: #00bf87;
+  border-left-style: solid;
+}
+.wp-block-button.is-style-outline .wp-block-button__link.has-colibri-color-3-background-color:hover,.wp-block-button.is-style-outline .wp-block-button__link.has-colibri-color-3-background-color:focus,.wp-block-button.is-style-outline .wp-block-button__link.has-colibri-color-3-background-color:active {
+  color: #fff;
+  background-color: #00bf87;
+  background-image: none;
+}
+*[class^="wp-block-"].has-colibri-color-3-background-color,*[class^="wp-block-"] .has-colibri-color-3-background-color,*[class^="wp-block-"].is-style-solid-color.has-colibri-color-3-color,*[class^="wp-block-"].is-style-solid-color blockquote.has-colibri-color-3-color,*[class^="wp-block-"].is-style-solid-color blockquote.has-colibri-color-3-color p {
+  background-color: #00bf87;
+  background-image: none;
+}
+.has-colibri-color-3-color {
+  color: #00bf87;
+}
+.has-colibri-color-4-background-color {
+  background-color: #6632ff;
+  background-image: none;
+}
+.wp-block-button .wp-block-button__link.has-colibri-color-4-background-color {
+  background-color: #6632ff;
+  background-image: none;
+}
+.wp-block-button .wp-block-button__link.has-colibri-color-4-background-color:hover,.wp-block-button .wp-block-button__link.has-colibri-color-4-background-color:focus,.wp-block-button .wp-block-button__link.has-colibri-color-4-background-color:active {
+  background-color: rgb(68, 33, 170);
+  background-image: none;
+}
+.wp-block-button.is-style-outline .wp-block-button__link.has-colibri-color-4-background-color {
+  color: #6632ff;
+  background-color: transparent;
+  background-image: none;
+  border-top-width: 2px;
+  border-top-color: #6632ff;
+  border-top-style: solid;
+  border-right-width: 2px;
+  border-right-color: #6632ff;
+  border-right-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #6632ff;
+  border-bottom-style: solid;
+  border-left-width: 2px;
+  border-left-color: #6632ff;
+  border-left-style: solid;
+}
+.wp-block-button.is-style-outline .wp-block-button__link.has-colibri-color-4-background-color:hover,.wp-block-button.is-style-outline .wp-block-button__link.has-colibri-color-4-background-color:focus,.wp-block-button.is-style-outline .wp-block-button__link.has-colibri-color-4-background-color:active {
+  color: #fff;
+  background-color: #6632ff;
+  background-image: none;
+}
+*[class^="wp-block-"].has-colibri-color-4-background-color,*[class^="wp-block-"] .has-colibri-color-4-background-color,*[class^="wp-block-"].is-style-solid-color.has-colibri-color-4-color,*[class^="wp-block-"].is-style-solid-color blockquote.has-colibri-color-4-color,*[class^="wp-block-"].is-style-solid-color blockquote.has-colibri-color-4-color p {
+  background-color: #6632ff;
+  background-image: none;
+}
+.has-colibri-color-4-color {
+  color: #6632ff;
+}
+.has-colibri-color-5-background-color {
+  background-color: #FFFFFF;
+  background-image: none;
+}
+.wp-block-button .wp-block-button__link.has-colibri-color-5-background-color {
+  background-color: #FFFFFF;
+  background-image: none;
+}
+.wp-block-button .wp-block-button__link.has-colibri-color-5-background-color:hover,.wp-block-button .wp-block-button__link.has-colibri-color-5-background-color:focus,.wp-block-button .wp-block-button__link.has-colibri-color-5-background-color:active {
+  background-color: rgb(102, 102, 102);
+  background-image: none;
+}
+.wp-block-button.is-style-outline .wp-block-button__link.has-colibri-color-5-background-color {
+  color: #FFFFFF;
+  background-color: transparent;
+  background-image: none;
+  border-top-width: 2px;
+  border-top-color: #FFFFFF;
+  border-top-style: solid;
+  border-right-width: 2px;
+  border-right-color: #FFFFFF;
+  border-right-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-style: solid;
+  border-left-width: 2px;
+  border-left-color: #FFFFFF;
+  border-left-style: solid;
+}
+.wp-block-button.is-style-outline .wp-block-button__link.has-colibri-color-5-background-color:hover,.wp-block-button.is-style-outline .wp-block-button__link.has-colibri-color-5-background-color:focus,.wp-block-button.is-style-outline .wp-block-button__link.has-colibri-color-5-background-color:active {
+  color: #fff;
+  background-color: #FFFFFF;
+  background-image: none;
+}
+*[class^="wp-block-"].has-colibri-color-5-background-color,*[class^="wp-block-"] .has-colibri-color-5-background-color,*[class^="wp-block-"].is-style-solid-color.has-colibri-color-5-color,*[class^="wp-block-"].is-style-solid-color blockquote.has-colibri-color-5-color,*[class^="wp-block-"].is-style-solid-color blockquote.has-colibri-color-5-color p {
+  background-color: #FFFFFF;
+  background-image: none;
+}
+.has-colibri-color-5-color {
+  color: #FFFFFF;
+}
+.has-colibri-color-6-background-color {
+  background-color: #17252a;
+  background-image: none;
+}
+.wp-block-button .wp-block-button__link.has-colibri-color-6-background-color {
+  background-color: #17252a;
+  background-image: none;
+}
+.wp-block-button .wp-block-button__link.has-colibri-color-6-background-color:hover,.wp-block-button .wp-block-button__link.has-colibri-color-6-background-color:focus,.wp-block-button .wp-block-button__link.has-colibri-color-6-background-color:active {
+  background-color: rgb(23, 37, 42);
+  background-image: none;
+}
+.wp-block-button.is-style-outline .wp-block-button__link.has-colibri-color-6-background-color {
+  color: #17252a;
+  background-color: transparent;
+  background-image: none;
+  border-top-width: 2px;
+  border-top-color: #17252a;
+  border-top-style: solid;
+  border-right-width: 2px;
+  border-right-color: #17252a;
+  border-right-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #17252a;
+  border-bottom-style: solid;
+  border-left-width: 2px;
+  border-left-color: #17252a;
+  border-left-style: solid;
+}
+.wp-block-button.is-style-outline .wp-block-button__link.has-colibri-color-6-background-color:hover,.wp-block-button.is-style-outline .wp-block-button__link.has-colibri-color-6-background-color:focus,.wp-block-button.is-style-outline .wp-block-button__link.has-colibri-color-6-background-color:active {
+  color: #fff;
+  background-color: #17252a;
+  background-image: none;
+}
+*[class^="wp-block-"].has-colibri-color-6-background-color,*[class^="wp-block-"] .has-colibri-color-6-background-color,*[class^="wp-block-"].is-style-solid-color.has-colibri-color-6-color,*[class^="wp-block-"].is-style-solid-color blockquote.has-colibri-color-6-color,*[class^="wp-block-"].is-style-solid-color blockquote.has-colibri-color-6-color p {
+  background-color: #17252a;
+  background-image: none;
+}
+.has-colibri-color-6-color {
+  color: #17252a;
+}
+.h-section-global-spacing {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+body {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: rgb(70, 112, 127);
+}
+body a {
+  font-family: Open Sans;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 1em;
+  line-height: 1.5;
+  color: #03a9f4;
+}
+body p {
+  margin-bottom: 16px;
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: rgb(70, 112, 127);
+}
+body .h-lead p {
+  margin-bottom: 16px;
+  font-family: Open Sans;
+  font-weight: 300;
+  font-size: 1.25em;
+  line-height: 1.5;
+  color: rgb(37, 41, 42);
+}
+body blockquote p {
+  margin-bottom: 16px;
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: rgb(70, 112, 127);
+}
+body h1 {
+  margin-bottom: 16px;
+  font-family: Open Sans;
+  font-weight: 300;
+  font-size: 3.375em;
+  line-height: 1.26;
+  color: rgb(23, 37, 42);
+}
+body h2 {
+  margin-bottom: 16px;
+  font-family: Open Sans;
+  font-weight: 300;
+  font-size: 2.625em;
+  line-height: 1.143;
+  color: rgb(23, 37, 42);
+}
+body h3 {
+  margin-bottom: 16px;
+  font-family: Open Sans;
+  font-weight: 300;
+  font-size: 2.25em;
+  line-height: 1.25;
+  color: rgb(23, 37, 42);
+}
+body h4 {
+  margin-bottom: 16px;
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 1.25em;
+  line-height: 1.6;
+  color: rgb(23, 37, 42);
+}
+body h5 {
+  margin-bottom: 16px;
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 1.125em;
+  line-height: 1.55;
+  color: rgb(23, 37, 42);
+}
+body h6 {
+  margin-bottom: 16px;
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 1.6;
+  color: rgb(23, 37, 42);
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px){
+.h-section-global-spacing {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+}
+
+@media (max-width: 767px){
+.h-section-global-spacing {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+}
+/* part css : page */
+#colibri .style-2 {
+  animation-duration: 0.5s;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#colibri .h-navigation_sticky .style-2,#colibri .h-navigation_sticky.style-2 {
+  background-color: #ffffff;
+  background-image: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.5) ;
+}
+#colibri .style-4 {
+  text-align: center;
+  height: auto;
+  min-height: unset;
+}
+#colibri .style-5-image {
+  max-height: 70px;
+}
+#colibri .style-5 a,#colibri .style-5  .logo-text {
+  color: #ffffff;
+  text-decoration: none;
+}
+#colibri .h-navigation_sticky .style-5-image,#colibri .h-navigation_sticky.style-5-image {
+  max-height: 70px;
+}
+#colibri .h-navigation_sticky .style-5 a,#colibri .h-navigation_sticky .style-5  .logo-text,#colibri .h-navigation_sticky.style-5 a,#colibri .h-navigation_sticky.style-5  .logo-text {
+  color: #000000;
+  text-decoration: none;
+}
+#colibri .style-6 {
+  text-align: center;
+  height: auto;
+  min-height: unset;
+}
+#colibri .style-7 {
+  height: 50px;
+}
+#colibri .style-8 {
+  text-align: center;
+  height: auto;
+  min-height: unset;
+}
+#colibri .style-9 >  div > .colibri-menu-container > ul.colibri-menu {
+  justify-content: flex-end;
+}
+#colibri .style-9 >  div > .colibri-menu-container > ul.colibri-menu > li {
+  margin-top: 0px;
+  margin-right: 20px;
+  margin-bottom: 0px;
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+}
+#colibri .style-9 >  div > .colibri-menu-container > ul.colibri-menu > li.current_page_item,#colibri .style-9  >  div > .colibri-menu-container > ul.colibri-menu > li.current_page_item:hover {
+  margin-top: 0px;
+  margin-right: 20px;
+  margin-bottom: 0px;
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+}
+#colibri .style-9 >  div > .colibri-menu-container > ul.colibri-menu > li > a {
+  font-family: Open Sans;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.5em;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+#colibri .style-9  >  div > .colibri-menu-container > ul.colibri-menu > li.hover  > a {
+  color: rgb(166, 220, 244);
+}
+#colibri .style-9  >  div > .colibri-menu-container > ul.colibri-menu > li:hover > a,#colibri .style-9  >  div > .colibri-menu-container > ul.colibri-menu > li.hover  > a {
+  color: rgb(166, 220, 244);
+}
+#colibri .style-9  >  div > .colibri-menu-container > ul.colibri-menu > li.current_page_item > a,#colibri .style-9  >  div > .colibri-menu-container > ul.colibri-menu > li.current_page_item > a:hover {
+  font-family: Open Sans;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.5em;
+  letter-spacing: 0px;
+  color: rgb(166, 220, 244);
+}
+#colibri .style-9 >  div > .colibri-menu-container > ul.colibri-menu li > ul {
+  background-color: #ffffff;
+  background-image: none;
+  margin-right: 5px;
+  margin-left: 5px;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.04) ;
+}
+#colibri .style-9 >  div > .colibri-menu-container > ul.colibri-menu li > ul  li {
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  border-top-width: 0px;
+  border-top-style: none;
+  border-right-width: 0px;
+  border-right-style: none;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(128,128,128,.2);
+  border-bottom-style: solid;
+  border-left-width: 0px;
+  border-left-style: none;
+  background-color: rgb(255, 255, 255);
+  background-image: none;
+}
+#colibri .style-9  >  div > .colibri-menu-container > ul.colibri-menu li > ul > li.hover {
+  background-color: #03a9f4;
+}
+#colibri .style-9  >  div > .colibri-menu-container > ul.colibri-menu li > ul > li:hover,#colibri .style-9  >  div > .colibri-menu-container > ul.colibri-menu li > ul > li.hover {
+  background-color: #03a9f4;
+}
+#colibri .style-9 >  div > .colibri-menu-container > ul.colibri-menu li > ul li.current_page_item,#colibri .style-9  >  div > .colibri-menu-container > ul.colibri-menu li > ul > li.current_page_item:hover {
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  border-top-width: 0px;
+  border-top-style: none;
+  border-right-width: 0px;
+  border-right-style: none;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(128,128,128,.2);
+  border-bottom-style: solid;
+  border-left-width: 0px;
+  border-left-style: none;
+  background-color: #03a9f4;
+  background-image: none;
+}
+#colibri .style-9 >  div > .colibri-menu-container > ul.colibri-menu li > ul > li > a {
+  font-size: 14px;
+  color: rgb(37, 41, 42);
+}
+#colibri .style-9  >  div > .colibri-menu-container > ul.colibri-menu li > ul > li.hover  > a {
+  color: rgb(255, 255, 255);
+}
+#colibri .style-9  >  div > .colibri-menu-container > ul.colibri-menu li > ul > li:hover > a,#colibri .style-9  >  div > .colibri-menu-container > ul.colibri-menu li > ul > li.hover  > a {
+  color: rgb(255, 255, 255);
+}
+#colibri .style-9 >  div > .colibri-menu-container > ul.colibri-menu li > ul > li.current_page_item > a,#colibri .style-9  >  div > .colibri-menu-container > ul.colibri-menu li > ul > li.current_page_item > a:hover {
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+}
+#colibri .style-9 >  div > .colibri-menu-container > ul.colibri-menu.bordered-active-item > li::after,#colibri .style-9 
+      ul.colibri-menu.bordered-active-item > li::before {
+  background-color: rgb(166, 220, 244);
+  background-image: none;
+  height: 3px;
+}
+#colibri .style-9 >  div > .colibri-menu-container > ul.colibri-menu.solid-active-item > li::after,#colibri .style-9 
+      ul.colibri-menu.solid-active-item > li::before {
+  background-color: white;
+  background-image: none;
+  border-top-width: 0px;
+  border-top-style: none;
+  border-top-left-radius: 0%;
+  border-top-right-radius: 0%;
+  border-right-width: 0px;
+  border-right-style: none;
+  border-bottom-width: 0px;
+  border-bottom-style: none;
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+  border-left-width: 0px;
+  border-left-style: none;
+}
+#colibri .style-9 >  div > .colibri-menu-container > ul.colibri-menu > li > ul {
+  margin-top: 0px;
+}
+#colibri .style-9 >  div > .colibri-menu-container > ul.colibri-menu > li > ul::before {
+  height: 0px;
+  width: 100% ;
+}
+#colibri .style-9 >  div > .colibri-menu-container > ul.colibri-menu  li > a > svg,#colibri .style-9 >  div > .colibri-menu-container > ul.colibri-menu  li > a >  .arrow-wrapper {
+  padding-right: 5px;
+  padding-left: 5px;
+  color: black;
+}
+#colibri .style-9 >  div > .colibri-menu-container > ul.colibri-menu li.current_page_item > a > svg,#colibri .style-9 >  div > .colibri-menu-container > ul.colibri-menu > li.current_page_item:hover > a > svg,#colibri .style-9 >  div > .colibri-menu-container > ul.colibri-menu li.current_page_item > a > .arrow-wrapper,#colibri .style-9 >  div > .colibri-menu-container > ul.colibri-menu > li.current_page_item:hover > a > .arrow-wrapper {
+  padding-right: 5px;
+  padding-left: 5px;
+  color: black;
+}
+#colibri .style-9 >  div > .colibri-menu-container > ul.colibri-menu li > ul  li > a > svg,#colibri .style-9 >  div > .colibri-menu-container > ul.colibri-menu li > ul  li > a >  .arrow-wrapper {
+  color: rgb(255, 255, 255);
+}
+#colibri .style-9 >  div > .colibri-menu-container > ul.colibri-menu li > ul li.current_page_item > a > svg,#colibri .style-9 >  div > .colibri-menu-container > ul.colibri-menu li > ul > li.current_page_item:hover > a > svg,#colibri .style-9 >  div > .colibri-menu-container > ul.colibri-menu li > ul li.current_page_item > a > .arrow-wrapper,#colibri .style-9 >  div > .colibri-menu-container > ul.colibri-menu li > ul > li.current_page_item:hover > a > .arrow-wrapper {
+  color: rgb(255, 255, 255);
+}
+#colibri .h-navigation_sticky .style-9 >  div > .colibri-menu-container > ul.colibri-menu > li > a,#colibri .h-navigation_sticky.style-9 >  div > .colibri-menu-container > ul.colibri-menu > li > a {
+  color: rgb(2, 110, 159);
+}
+#colibri .h-navigation_sticky .style-9  >  div > .colibri-menu-container > ul.colibri-menu > li.hover  > a,#colibri .h-navigation_sticky.style-9  >  div > .colibri-menu-container > ul.colibri-menu > li.hover  > a {
+  color: #03a9f4;
+}
+#colibri .h-navigation_sticky .style-9  >  div > .colibri-menu-container > ul.colibri-menu > li:hover > a,#colibri .h-navigation_sticky .style-9  >  div > .colibri-menu-container > ul.colibri-menu > li.hover  > a,#colibri .h-navigation_sticky.style-9  >  div > .colibri-menu-container > ul.colibri-menu > li:hover > a,#colibri .h-navigation_sticky.style-9  >  div > .colibri-menu-container > ul.colibri-menu > li.hover  > a {
+  color: #03a9f4;
+}
+#colibri .h-navigation_sticky .style-9  >  div > .colibri-menu-container > ul.colibri-menu > li.current_page_item > a,#colibri .h-navigation_sticky .style-9  >  div > .colibri-menu-container > ul.colibri-menu > li.current_page_item > a:hover,#colibri .h-navigation_sticky.style-9  >  div > .colibri-menu-container > ul.colibri-menu > li.current_page_item > a,#colibri .h-navigation_sticky.style-9  >  div > .colibri-menu-container > ul.colibri-menu > li.current_page_item > a:hover {
+  color: #03a9f4;
+}
+#colibri .h-navigation_sticky .style-9 >  div > .colibri-menu-container > ul.colibri-menu.bordered-active-item > li::after,#colibri .h-navigation_sticky .style-9 
+      ul.colibri-menu.bordered-active-item > li::before,#colibri .h-navigation_sticky.style-9 >  div > .colibri-menu-container > ul.colibri-menu.bordered-active-item > li::after,#colibri .h-navigation_sticky.style-9 
+      ul.colibri-menu.bordered-active-item > li::before {
+  background-color: #03a9f4;
+  background-image: none;
+}
+#colibri .style-10-offscreen {
+  background-color: #222B34;
+  background-image: none;
+  width: 300px !important;
+}
+#colibri .style-10-offscreenOverlay {
+  background-color: rgba(0,0,0,0.5);
+  background-image: none;
+}
+#colibri .style-10  .h-hamburger-icon {
+  background-color: rgba(0, 0, 0, 0.1);
+  background-image: none;
+  border-top-width: 0px;
+  border-top-color: black;
+  border-top-style: solid;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  border-right-width: 0px;
+  border-right-color: black;
+  border-right-style: solid;
+  border-bottom-width: 0px;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  border-left-width: 0px;
+  border-left-color: black;
+  border-left-style: solid;
+  fill: white;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  width: 24px;
+  height: 24px;
+}
+#colibri .style-13 {
+  text-align: center;
+  height: auto;
+  min-height: unset;
+}
+#colibri .style-14-image {
+  max-height: 70px;
+}
+#colibri .style-14 a,#colibri .style-14  .logo-text {
+  color: #ffffff;
+  text-decoration: none;
+}
+#colibri .h-navigation_sticky .style-14-image,#colibri .h-navigation_sticky.style-14-image {
+  max-height: 70px;
+}
+#colibri .h-navigation_sticky .style-14 a,#colibri .h-navigation_sticky .style-14  .logo-text,#colibri .h-navigation_sticky.style-14 a,#colibri .h-navigation_sticky.style-14  .logo-text {
+  color: #000000;
+  text-decoration: none;
+}
+#colibri .style-16 {
+  text-align: center;
+  height: auto;
+  min-height: unset;
+}
+#colibri .style-18 >  div > .colibri-menu-container > ul.colibri-menu > li > a {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 40px;
+  border-top-width: 0px;
+  border-top-color: #808080;
+  border-top-style: solid;
+  border-right-width: 0px;
+  border-right-color: #808080;
+  border-right-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #808080;
+  border-bottom-style: solid;
+  border-left-width: 0px;
+  border-left-color: #808080;
+  border-left-style: solid;
+  font-size: 14px;
+  color: white;
+}
+#colibri .style-18  >  div > .colibri-menu-container > ul.colibri-menu > li.current_page_item > a,#colibri .style-18  >  div > .colibri-menu-container > ul.colibri-menu > li.current_page_item > a:hover {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 40px;
+  border-top-width: 0px;
+  border-top-color: #808080;
+  border-top-style: solid;
+  border-right-width: 0px;
+  border-right-color: #808080;
+  border-right-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #808080;
+  border-bottom-style: solid;
+  border-left-width: 0px;
+  border-left-color: #808080;
+  border-left-style: solid;
+  font-size: 14px;
+  color: white;
+}
+#colibri .style-18 >  div > .colibri-menu-container > ul.colibri-menu li > ul > li > a {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 40px;
+  border-top-width: 0px;
+  border-top-color: #808080;
+  border-top-style: solid;
+  border-right-width: 0px;
+  border-right-color: #808080;
+  border-right-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #808080;
+  border-bottom-style: solid;
+  border-left-width: 0px;
+  border-left-color: #808080;
+  border-left-style: solid;
+  font-size: 14px;
+  color: white;
+}
+#colibri .style-18 >  div > .colibri-menu-container > ul.colibri-menu li > ul > li.current_page_item > a,#colibri .style-18  >  div > .colibri-menu-container > ul.colibri-menu li > ul > li.current_page_item > a:hover {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 40px;
+  border-top-width: 0px;
+  border-top-color: #808080;
+  border-top-style: solid;
+  border-right-width: 0px;
+  border-right-color: #808080;
+  border-right-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #808080;
+  border-bottom-style: solid;
+  border-left-width: 0px;
+  border-left-color: #808080;
+  border-left-style: solid;
+  font-size: 14px;
+  color: white;
+}
+#colibri .style-18 >  div > .colibri-menu-container > ul.colibri-menu  li > a > svg,#colibri .style-18 >  div > .colibri-menu-container > ul.colibri-menu  li > a >  .arrow-wrapper {
+  padding-right: 20px;
+  padding-left: 20px;
+  color: black;
+}
+#colibri .style-18 >  div > .colibri-menu-container > ul.colibri-menu li.current_page_item > a > svg,#colibri .style-18 >  div > .colibri-menu-container > ul.colibri-menu > li.current_page_item:hover > a > svg,#colibri .style-18 >  div > .colibri-menu-container > ul.colibri-menu li.current_page_item > a > .arrow-wrapper,#colibri .style-18 >  div > .colibri-menu-container > ul.colibri-menu > li.current_page_item:hover > a > .arrow-wrapper {
+  padding-right: 20px;
+  padding-left: 20px;
+  color: black;
+}
+#colibri .style-18 >  div > .colibri-menu-container > ul.colibri-menu li > ul  li > a > svg,#colibri .style-18 >  div > .colibri-menu-container > ul.colibri-menu li > ul  li > a >  .arrow-wrapper {
+  color: white;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+#colibri .style-18 >  div > .colibri-menu-container > ul.colibri-menu li > ul li.current_page_item > a > svg,#colibri .style-18 >  div > .colibri-menu-container > ul.colibri-menu li > ul > li.current_page_item:hover > a > svg,#colibri .style-18 >  div > .colibri-menu-container > ul.colibri-menu li > ul li.current_page_item > a > .arrow-wrapper,#colibri .style-18 >  div > .colibri-menu-container > ul.colibri-menu li > ul > li.current_page_item:hover > a > .arrow-wrapper {
+  color: white;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+#colibri .style-25 {
+  min-height: 274px;
+  color: #FFFFFF;
+  padding-top: 63px;
+  padding-bottom: 119px;
+}
+#colibri .style-25 h1 {
+  color: #FFFFFF;
+}
+#colibri .style-25 h2 {
+  color: #FFFFFF;
+}
+#colibri .style-25 h3 {
+  color: #FFFFFF;
+}
+#colibri .style-25 h4 {
+  color: #FFFFFF;
+}
+#colibri .style-25 h5 {
+  color: #FFFFFF;
+}
+#colibri .style-25 h6 {
+  color: #FFFFFF;
+}
+#colibri .style-25 p {
+  color: #FFFFFF;
+}
+#colibri .style-27 {
+  text-align: center;
+  height: auto;
+  min-height: unset;
+  border-top-width: 0px;
+  border-top-style: solid;
+  border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-right-width: 0px;
+    border-right-style: solid;
+    border-bottom-width: 0px;
+    border-bottom-style: solid;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    border-left-width: 0px;
+    border-left-style: solid;
+}
+
+#colibri .style-28 p, #colibri .style-28 h1, #colibri .style-28 h2, #colibri .style-28 h3, #colibri .style-28 h4, #colibri .style-28 h5, #colibri .style-28 h6 {
+    font-weight: 600;
+    text-align: center;
+}
+
+#colibri .style-28 .text-wrapper-fancy svg path {
+    stroke: #000000;
+    stroke-linejoin: initial;
+    stroke-linecap: initial;
+    stroke-width: 8px;
+}
+
+#colibri .style-317 .text-wrapper-fancy svg path {
+    stroke: #000000;
+    stroke-linejoin: initial;
+    stroke-linecap: initial;
+    stroke-width: 8px;
+}
+
+#colibri .style-local-5-h4-outer {
+    flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    width: auto;
+    max-width: 100%;
+}
+
+#colibri .h-navigation_sticky .style-local-5-h4-outer, #colibri .h-navigation_sticky.style-local-5-h4-outer {
+    flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    width: auto;
+    max-width: 100%;
+}
+
+#colibri .style-local-5-h6-outer {
+    flex: 1 1 0;
+    -ms-flex: 1 1 0%;
+    max-width: 100%;
+}
+
+#colibri .style-local-5-h8-outer {
+    flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    width: auto;
+    max-width: 100%;
+}
+
+#colibri .h-navigation_sticky .style-local-5-h8-outer, #colibri .h-navigation_sticky.style-local-5-h8-outer {
+    flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    width: auto;
+    max-width: 100%;
+}
+
+#colibri .style-local-5-h27-outer {
+    width: 80%;
+    flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+}
+
+.style-64 > .h-y-container > *:not(:last-child) {
+    margin-bottom: 0px;
+}
+
+@media (max-width: 767px) {
+    #colibri .style-2 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    #colibri .h-navigation_sticky .style-2, #colibri .h-navigation_sticky.style-2 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    #colibri .style-local-5-h4-outer {
+        flex: 1 1 0;
+        -ms-flex: 1 1 0%;
+    }
+
+    #colibri .h-navigation_sticky .style-local-5-h4-outer, #colibri .h-navigation_sticky.style-local-5-h4-outer {
+        flex: 1 1 0;
+        -ms-flex: 1 1 0%;
+    }
+
+    #colibri .style-local-5-h14-outer {
+        width: 100%;
+        flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+    }
+
+    #colibri .style-local-5-h17-outer {
+        width: 100%;
+        flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+    }
+
+    #colibri .style-local-5-h27-outer {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+}
+
+</style>
+<link href="https://cscw.acm.org/2020/wp-content/plugins/colibri-page-builder/extend-builder/assets/static/fancybox/jquery.fancybox.min.css?ver=1.0.165" id="fancybox-css" media="all" rel="stylesheet" type="text/css"/>
+    <link href="https://cscw.acm.org/2020/wp-content/plugins/team-members-for-elementor/assets/css/team-members-for-elementor.min.css?ver=21"
+          id="team-members-for-elementor-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://cscw.acm.org/2020/wp-includes/css/dist/block-library/style.min.css?ver=5.4-alpha-47225" id="wp-block-library-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://cscw.acm.org/2020/wp-content/plugins/card-elements-for-elementor/assets/css/common-card-style.css?ver=5.4-alpha-47225" id="common-card-style-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://cscw.acm.org/2020/wp-content/plugins/card-elements-for-elementor/assets/css/profile-card-style.css?ver=5.4-alpha-47225" id="profile-card-style-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://cscw.acm.org/2020/wp-content/plugins/card-elements-for-elementor/assets/css/testimonial-card-style.css?ver=5.4-alpha-47225" id="testimonial-card-style-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://cscw.acm.org/2020/wp-content/plugins/card-elements-for-elementor/assets/css/post-card-style.css?ver=5.4-alpha-47225" id="post-card-style-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://fonts.googleapis.com/css?family=Muli%3A200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7COpen+Sans%3A300%2C300italic%2C400%2C400italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%7CPlayfair+Display%3A400%2C400italic%2C700%2C700italic%2C900%2C900italic&amp;subset=latin%2Clatin-ext" id="extend_builder_-fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://cscw.acm.org/2020/wp-content/plugins/exclusive-team-for-elementor/assets/css/exad-style.css?ver=5.4-alpha-47225" id="exad-main-style-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://cscw.acm.org/2020/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.2.2" id="hfe-style-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://cscw.acm.org/2020/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.5.0" id="elementor-icons-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://cscw.acm.org/2020/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=2.8.5" id="elementor-animations-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://cscw.acm.org/2020/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=2.8.5" id="elementor-frontend-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://cscw.acm.org/2020/wp-content/uploads/elementor/css/global.css?ver=1581635546" id="elementor-global-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://cscw.acm.org/2020/wp-content/plugins/cherry-team-members/public/assets/css/cherry-team.css?ver=1.4.6" id="cherry-team-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://cscw.acm.org/2020/wp-content/plugins/cherry-team-members/public/assets/css/cherry-team-grid.css?ver=1.4.6" id="cherry-team-grid-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://cscw.acm.org/2020/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0" id="font-awesome-css" media="all" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;ver=5.4-alpha-47225"
+          id="google-fonts-1-css" media="all" rel="stylesheet" type="text/css"/>
+    <script src="https://cscw.acm.org/2020/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp"
+            type="text/javascript"></script>
+    <script src="https://cscw.acm.org/2020/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1"
+            type="text/javascript"></script>
+    <script src="https://cscw.acm.org/2020/wp-includes/js/imagesloaded.min.js?ver=3.2.0"
+            type="text/javascript"></script>
+    <script src="https://cscw.acm.org/2020/wp-includes/js/masonry.min.js?ver=3.3.2" type="text/javascript"></script>
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var colibriData = {
+            "5-h2": {
+                "data": {
+                    "sticky": {
+                        "className": "h-navigation_sticky animated",
+                        "topSpacing": 0,
+                        "top": 0,
+                        "stickyOnMobile": true,
+                        "stickyOnTablet": true,
+                        "startAfterNode": {"enabled": false, "selector": ".header, .page-header"},
+                        "animations": {
+                            "enabled": false,
+                            "currentInAnimationClass": "slideInDown",
+                            "currentOutAnimationClass": "slideOutDownNavigation",
+                            "allInAnimationsClasses": "slideInDown fadeIn h-global-transition-disable",
+                            "allOutAnimationsClasses": "slideOutDownNavigation fadeOut h-global-transition-disable",
+                            "duration": 500
+                        }
+                    }, "overlap": true
+                }
+            }, "5-h9": {"data": {"type": "horizontal"}}, "5-h12": {"data": []}
+        };
+        /* ]]> */
+    </script>
+    <script src="https://cscw.acm.org/2020/wp-content/plugins/colibri-page-builder/extend-builder/assets/static/colibri.js?ver=1.0.165"
+            type="text/javascript"></script>
+    <script src="https://cscw.acm.org/2020/wp-content/plugins/colibri-page-builder/extend-builder/assets/static/typed.js?ver=1.0.165"
+            type="text/javascript"></script>
+    <script src="https://cscw.acm.org/2020/wp-content/plugins/colibri-page-builder/extend-builder/assets/static/fancybox/jquery.fancybox.min.js?ver=1.0.165"
+            type="text/javascript"></script>
+    <script src="https://cscw.acm.org/2020/wp-content/plugins/colibri-page-builder/extend-builder/assets/static/js/theme.js?ver=1.0.165"
+            type="text/javascript"></script>
+    <link href="https://cscw.acm.org/2020/index.php/wp-json/" rel="https://api.w.org/"/>
+    <link href="https://cscw.acm.org/2020/xmlrpc.php?rsd" rel="EditURI" title="RSD" type="application/rsd+xml"/>
+    <link href="https://cscw.acm.org/2020/wp-includes/wlwmanifest.xml" rel="wlwmanifest"
+          type="application/wlwmanifest+xml"/>
+    <meta content="WordPress 5.4-alpha-47225" name="generator"/>
+    <link href="https://cscw.acm.org/2020/" rel="canonical"/>
+    <link href="https://cscw.acm.org/2020/" rel="shortlink"/>
+    <link href="https://cscw.acm.org/2020/index.php/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcscw.acm.org%2F2020%2F"
+          rel="alternate" type="application/json+oembed"/>
+    <link href="https://cscw.acm.org/2020/index.php/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcscw.acm.org%2F2020%2F&amp;format=xml"
+          rel="alternate" type="text/xml+oembed"/>
+    <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" rel="stylesheet"/>
+    <style>
+        #wpadminbar ul li#wp-admin-bar-colibri_top_bar_menu {
+            background-color: rgba(3, 169, 244, 0.3);
+            padding-left: 8px;
+            padding-right: 8px;
+            margin: 0px 16px;
+        }
+
+        #wpadminbar ul li#wp-admin-bar-colibri_top_bar_menu > a {
+            background-color: transparent;
+            color: #fff;
+        }
+
+
+        #wpadminbar ul li#wp-admin-bar-colibri_top_bar_menu > a img {
+            max-height: 24px;
+            margin-top: -4px;
+                        margin-right: 6px;
+                    }
+
+                    #wpadminbar ul li#wp-admin-bar-colibri_top_bar_menu > .ab-sub-wrapper {
+                        margin-left: -8px;
+                    }
+
+
+    </style>
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style> </head>
+<body class="home page-template page-template-page-templates page-template-homepage page-template-page-templateshomepage-php page page-id-29 exclusive-addons-elementor ehf-footer ehf-template-colibri-wp ehf-stylesheet-colibri-wp elementor-default elementor-page elementor-page-29"
+      id="colibri">
+<div class="site" id="page-top">
+    <script>
+        /(trident|msie)/i.test(navigator.userAgent) && document.getElementById && window.addEventListener && window.addEventListener("hashchange", function () {
+            var t, e = location.hash.substring(1);
+            /^[A-z0-9_-]+$/.test(e) && (t = document.getElementById(e)) && (/^(?:a|select|input|button|textarea)$/i.test(t.tagName) || (t.tabIndex = -1), t.focus())
+        }, !1);
+    </script>
+    <a class="skip-link screen-reader-text" href="#content">
+        Skip to content </a>
+    <!-- dynamic header start -->
+    <div class="page-header style-1 style-local-5-h1 position-relative" data-colibri-id="5-h1">
+        <!-- -->
+        <div class="h-navigation_outer h-navigation_overlap style-2-outer style-local-5-h2-outer"
+             data-colibri-navigation-overlap="true" role="banner">
+            <!-- -->
+            <div class="h-section h-navigation h-navigation d-flex style-2 style-local-5-h2"
+                 data-colibri-component="navigation" data-colibri-id="5-h2" id="navigation">
+                <!-- -->
+                <div class="h-section-grid-container h-section-fluid-container">
+                    <div data-nav-normal="">
+                        <div class="h-row-container h-section-boxed-container gutters-row-lg-0 gutters-row-md-0 gutters-row-2 gutters-row-v-lg-0 gutters-row-v-md-0 gutters-row-v-2 style-3 style-local-5-h3 position-relative"
+                             data-colibri-id="5-h3">
+                            <!-- -->
+                            <div class="h-row justify-content-lg-center justify-content-md-center justify-content-center align-items-lg-stretch align-items-md-stretch align-items-stretch gutters-col-lg-0 gutters-col-md-0 gutters-col-2 gutters-col-v-lg-0 gutters-col-v-md-0 gutters-col-v-2">
+                                <!-- -->
+                                <div class="h-column h-column-container d-flex h-col-none style-4-outer style-local-5-h4-outer">
+                                    <div class="d-flex h-flex-basis h-column__inner h-px-lg-2 h-px-md-2 h-px-2 v-inner-lg-0 v-inner-md-0 v-inner-0 style-4 style-local-5-h4 position-relative"
+                                         data-colibri-id="5-h4" data-placeholder-provider="navigation-logo">
+                                        <!-- -->
+                                        <!-- -->
+                                        <div class="w-100 h-y-container h-column__content h-column__v-align flex-basis-auto align-self-lg-center align-self-md-center align-self-center">
+                                            <!-- -->
+                                            <div class="d-flex align-items-center text-lg-left text-md-left text-left justify-content-lg-start justify-content-md-start justify-content-start style-5 style-local-5-h5 position-relative h-element"
+                                                 data-colibri-id="5-h5">
+                                                <!-- -->
+                                                <a class="d-flex align-items-center" h-use-smooth-scroll="true"
+                                                   href="https://cscw.acm.org/2020/" rel="home"><span
+                                                        class="h-logo__text h-logo__text_h logo-text d-inline-block style-5-text style-local-5-h5-text">CSCW 2020</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="h-column h-column-container d-flex h-col-none style-6-outer style-local-5-h6-outer h-hide-sm">
+                                    <div class="d-flex h-flex-basis h-column__inner h-px-lg-0 h-px-md-0 h-px-0 v-inner-lg-0 v-inner-md-0 v-inner-0 style-6 style-local-5-h6 h-hide-sm position-relative"
+                                         data-colibri-id="5-h6" data-placeholder-provider="navigation-spacing">
+                                        <!-- -->
+                                        <!-- -->
+                                        <div class="w-100 h-y-container h-column__content h-column__v-align flex-basis-100 align-self-lg-center align-self-md-center align-self-center">
+                                            <!-- -->
+                                            <div class="style-7 style-local-5-h7 position-relative h-element"
+                                                 data-colibri-id="5-h7">
+                                                <!-- -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="h-column h-column-container d-flex h-col-none style-8-outer style-local-5-h8-outer">
+                                    <div class="d-flex h-flex-basis h-column__inner h-px-lg-0 h-px-md-0 h-px-2 v-inner-lg-0 v-inner-md-0 v-inner-2 style-8 style-local-5-h8 position-relative"
+                                         data-colibri-id="5-h8" data-placeholder-provider="navigation-menu">
+                                        <!-- -->
+                                        <!-- -->
+                                        <div class="w-100 h-y-container h-column__content h-column__v-align flex-basis-auto align-self-lg-center align-self-md-center align-self-center">
+                                            <!-- -->
+                                            <div class="h-menu h-global-transition-all h-ignore-global-body-typography has-offcanvas-mobile h-menu-horizontal h-dropdown-menu style-9 style-local-5-h9 position-relative h-element"
+                                                 data-colibri-component="dropdown-menu" data-colibri-id="5-h9"
+                                                 h-use-smooth-scroll-all="true" role="navigation">
+                                                <!-- -->
+                                                <div class="h-global-transition-all h-main-menu">
+                                                    <div class="colibri-menu-container">
+                                                        <ul class="colibri-menu bordered-active-item bordered-active-item--bottom effect-borders-grow grow-from-left"
+                                                            id="menu-short">
+                                                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-228"
+                                                                id="menu-item-228"><a href="#">Submit
+                                                                <svg aria-hidden="true"
+                                                                     class="svg-inline--fa fa-angle-down fa-w-10"
+                                                                     data-icon="angle-down" data-prefix="fas" role="img"
+                                                                     viewbox="0 0 320 512"
+                                                                     xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"
+                                                                          fill="currentColor"></path>
+                                                                </svg>
+                                                                <svg aria-hidden="true"
+                                                                     class="svg-inline--fa fa-angle-right fa-w-8"
+                                                                     data-icon="angle-right" data-prefix="fas"
+                                                                     role="img" viewbox="0 0 256 512"
+                                                                     xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+                                                                          fill="currentColor"></path>
+                                                                </svg>
+                                                            </a>
+                                                                <ul class="sub-menu">
+                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-229"
+                                                                        id="menu-item-229"><a
+                                                                            href="https://cscw.acm.org/2020/index.php/papers/">Papers</a>
+                                                                    </li>
+                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-290"
+                                                                        id="menu-item-290"><a
+                                                                            href="https://cscw.acm.org/2020/index.php/doctoral-consortium/">Doctoral
+                                                                        Consortium</a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-231"
+                                                                id="menu-item-231"><a
+                                                                    href="https://cscw.acm.org/2020/index.php/committee/">Organizing
+                                                                Committee</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="h-mobile-menu h-global-transition-disable style-10 style-local-5-h10 position-relative h-element"
+                                                     data-colibri-id="5-h10">
+                                                    <!-- -->
+                                                    <a class="h-hamburger-button" data-click-outside="true"
+                                                       data-colibri-component="offcanvas" data-direction="right"
+                                                       data-offcanvas-overlay-id="offcanvas-overlay-5-h10"
+                                                       data-push="false" data-target="#offcanvas-wrapper-5-h10"
+                                                       data-target-id="offcanvas-wrapper-5-h10" href="#" title="Menu">
+                                                        <div class="icon-container h-hamburger-icon">
+                                                            <div class="h-icon-svg" style="width: 100%; height: 100%;">
+                                                                <!--Icon by Font Awesome (https://fontawesome.com)-->
+                                                                <svg id="bars" version="1.1" viewbox="0 0 1536 1896.08"
+                                                                     xmlns="http://www.w3.org/2000/svg"
+                                                                     xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                                    <path d="M 1536 1344 v 128 q 0 26 -19 45 t -45 19 H 64 q -26 0 -45 -19 t -19 -45 v -128 q 0 -26 19 -45 t 45 -19 h 1408 q 26 0 45 19 t 19 45 Z m 0 -512 v 128 q 0 26 -19 45 t -45 19 H 64 q -26 0 -45 -19 T 0 960 V 832 q 0 -26 19 -45 t 45 -19 h 1408 q 26 0 45 19 t 19 45 Z m 0 -512 v 128 q 0 26 -19 45 t -45 19 H 64 q -26 0 -45 -19 T 0 448 V 320 q 0 -26 19 -45 t 45 -19 h 1408 q 26 0 45 19 t 19 45 Z"></path>
+                                                                </svg>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                    <div class="h-offcanvas-panel offcanvas offcanvas-right hide force-hide style-10-offscreen style-local-5-h10-offscreen"
+                                                         id="offcanvas-wrapper-5-h10">
+                                                        <div class="d-flex flex-column h-offscreen-panel style-11 style-local-5-h11 position-relative h-element"
+                                                             data-colibri-id="5-h11">
+                                                            <!-- -->
+                                                            <div class="offscreen-header h-ui-empty-state-container">
+                                                                <div class="h-row-container gutters-row-lg-2 gutters-row-md-2 gutters-row-0 gutters-row-v-lg-2 gutters-row-v-md-2 gutters-row-v-2 style-12 style-local-5-h13 position-relative"
+                                                                     data-colibri-id="5-h13">
+                                                                    <!-- -->
+                                                                    <div class="h-row justify-content-lg-center justify-content-md-center justify-content-center align-items-lg-stretch align-items-md-stretch align-items-stretch gutters-col-lg-2 gutters-col-md-2 gutters-col-0 gutters-col-v-lg-2 gutters-col-v-md-2 gutters-col-v-2">
+                                                                        <!-- -->
+                                                                        <div class="h-column h-column-container d-flex h-col-lg-6 h-col-md-6 h-col-12 style-13-outer style-local-5-h14-outer">
+                                                                            <div class="d-flex h-flex-basis h-column__inner h-px-lg-2 h-px-md-2 h-px-2 v-inner-lg-2 v-inner-md-2 v-inner-2 style-13 style-local-5-h14 position-relative"
+                                                                                 data-colibri-id="5-h14">
+                                                                                <!-- -->
+                                                                                <!-- -->
+                                                                                <div class="w-100 h-y-container h-column__content h-column__v-align flex-basis-100 align-self-lg-start align-self-md-start align-self-start">
+                                                                                    <!-- -->
+                                                                                    <div class="d-flex align-items-center text-lg-center text-md-center text-center justify-content-lg-center justify-content-md-center justify-content-center style-14 style-local-5-h15 position-relative h-element"
+                                                                                         data-colibri-id="5-h15">
+                                                                                        <!-- -->
+                                                                                        <a class="d-flex align-items-center"
+                                                                                           h-use-smooth-scroll="true"
+                                                                                           href="https://cscw.acm.org/2020/"
+                                                                                           rel="home">
+                                                                                            <img class="h-logo__image h-logo__image_h logo-image style-14-image style-local-5-h15-image"
+                                                                                                 src="data:image/png;base64,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"/>
+                                                                                            <img class="h-logo__alt-image h-logo__alt-image_h logo-alt-image style-14-image style-local-5-h15-image"
+                                                                                                 src="data:image/png;base64,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"/>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="offscreen-content">
+                                                                <!-- -->
+                                                                <div class="h-menu h-global-transition-all h-ignore-global-body-typography h-mobile-menu h-menu-accordion style-18 style-local-5-h12 position-relative h-element"
+                                                                     data-colibri-component="accordion-menu"
+                                                                     data-colibri-id="5-h12"
+                                                                     h-use-smooth-scroll-all="true" role="navigation">
+                                                                    <!-- -->
+                                                                    <div class="h-global-transition-all h-mobile-menu">
+                                                                        <div class="colibri-menu-container">
+                                                                            <ul class="colibri-menu none"
+                                                                                id="menu-short-1">
+                                                                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-228">
+                                                                                    <a href="#">Submit
+                                                                                        <svg aria-hidden="true"
+                                                                                             class="svg-inline--fa fa-angle-down fa-w-10"
+                                                                                             data-icon="angle-down"
+                                                                                             data-prefix="fas"
+                                                                                             role="img"
+                                                                                             viewbox="0 0 320 512"
+                                                                                             xmlns="http://www.w3.org/2000/svg">
+                                                                                            <path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"
+                                                                                                  fill="currentColor"></path>
+                                                                                        </svg>
+                                                                                        <svg aria-hidden="true"
+                                                                                             class="svg-inline--fa fa-angle-right fa-w-8"
+                                                                                             data-icon="angle-right"
+                                                                                             data-prefix="fas"
+                                                                                             role="img"
+                                                                                             viewbox="0 0 256 512"
+                                                                                             xmlns="http://www.w3.org/2000/svg">
+                                                                                            <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+                                                                                                  fill="currentColor"></path>
+                                                                                        </svg>
+                                                                                        <svg aria-hidden="true"
+                                                                                             class="svg-inline--fa fa-angle-down fa-w-10"
+                                                                                             data-icon="angle-down"
+                                                                                             data-prefix="fas"
+                                                                                             role="img"
+                                                                                             viewbox="0 0 320 512"
+                                                                                             xmlns="http://www.w3.org/2000/svg">
+                                                                                            <path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"
+                                                                                                  fill="currentColor"></path>
+                                                                                        </svg>
+                                                                                        <svg aria-hidden="true"
+                                                                                             class="svg-inline--fa fa-angle-right fa-w-8"
+                                                                                             data-icon="angle-right"
+                                                                                             data-prefix="fas"
+                                                                                             role="img"
+                                                                                             viewbox="0 0 256 512"
+                                                                                             xmlns="http://www.w3.org/2000/svg">
+                                                                                            <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+                                                                                                  fill="currentColor"></path>
+                                                                                        </svg>
+                                                                                    </a>
+                                                                                    <ul class="sub-menu">
+                                                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-229">
+                                                                                            <a href="https://cscw.acm.org/2020/index.php/papers/">Papers</a>
+                                                                                        </li>
+                                                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-290">
+                                                                                            <a href="https://cscw.acm.org/2020/index.php/doctoral-consortium/">Doctoral
+                                                                                                Consortium</a></li>
+                                                                                    </ul>
+                                                                                </li>
+                                                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-231">
+                                                                                    <a href="https://cscw.acm.org/2020/index.php/committee/">Organizing
+                                                                                        Committee</a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="offscreen-footer h-ui-empty-state-container">
+                                                                <div class="h-row-container gutters-row-lg-2 gutters-row-md-2 gutters-row-0 gutters-row-v-lg-2 gutters-row-v-md-2 gutters-row-v-2 style-15 style-local-5-h16 position-relative"
+                                                                     data-colibri-id="5-h16">
+                                                                    <!-- -->
+                                                                    <div class="h-row justify-content-lg-center justify-content-md-center justify-content-center align-items-lg-stretch align-items-md-stretch align-items-stretch gutters-col-lg-2 gutters-col-md-2 gutters-col-0 gutters-col-v-lg-2 gutters-col-v-md-2 gutters-col-v-2">
+                                                                        <!-- -->
+                                                                        <div class="h-column h-column-container d-flex h-col-lg-6 h-col-md-6 h-col-12 style-16-outer style-local-5-h17-outer">
+                                                                            <div class="d-flex h-flex-basis h-column__inner h-px-lg-2 h-px-md-2 h-px-2 v-inner-lg-2 v-inner-md-2 v-inner-2 style-16 style-local-5-h17 position-relative"
+                                                                                 data-colibri-id="5-h17">
+                                                                                <!-- -->
+                                                                                <!-- -->
+                                                                                <div class="w-100 h-y-container h-column__content h-column__v-align flex-basis-100 align-self-lg-start align-self-md-start align-self-start">
+                                                                                    <!-- -->
+                                                                                    <div class="h-text h-text-component style-17 style-local-5-h18 position-relative h-element"
+                                                                                         data-colibri-id="5-h18">
+                                                                                        <!-- -->
+                                                                                        <!-- -->
+                                                                                        <div>
+                                                                                            <p>© 2019</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="offscreen-overlay style-10-offscreenOverlay style-local-5-h10-offscreenOverlay"
+                                                         id="offcanvas-overlay-5-h10"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-nav-sticky="" style="display: none;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="h-section h-hero d-flex align-items-lg-center align-items-md-center align-items-center style-25 style-local-5-h25 position-relative"
+             data-colibri-id="5-h25" id="hero">
+            <div class="background-wrapper">
+                <div class="background-layer background-layer-media-container-lg">
+                    <div class="background-layer colibri-slideshow" data-colibri-component="slideshow"
+                         data-slide-duration="5000" data-slide-speed="1000" media="desktop" model-id="5-h25">
+                        <div class="slideshow-image current"
+                             style='transition:opacity 1000ms; background-image: url("https://cscw.acm.org/2020/wp-content/uploads/2020/02/cropped-splash02-scaled-1.jpg"); visibility: visible; z-index: 3; opacity: 0;'></div>
+                        <div class="slideshow-image next"
+                             style='background-image: url("https://cscw.acm.org/2020/wp-content/uploads/2020/02/cropped-splash03-scaled-1.jpg"); z-index: 2;'></div>
+                        <div class="slideshow-image"
+                             style='background-image: url("https://cscw.acm.org/2020/wp-content/uploads/2020/02/cropped-splash01-scaled-1.jpg");'></div>
+                    </div>
+                    <div class="overlay-layer">
+                        <div class="overlay-image-layer"
+                             style="opacity: 0.5; background-color: rgba(0, 0, 0, 1);"></div>
+                        <div class="shape-layer"
+                             style="background-position: center; background-image: none; background-repeat: no-repeat; filter: invert(0%); background-size: cover;"></div>
+                    </div>
+                </div>
+                <div class="background-layer background-layer-media-container-md">
+                    <div class="background-layer colibri-slideshow" data-colibri-component="slideshow"
+                         data-slide-duration="5000" data-slide-speed="1000" media="tablet" model-id="5-h25">
+                        <div class="slideshow-image current"
+                             style='transition:opacity 1000ms; background-image: url("https://cscw.acm.org/2020/wp-content/uploads/2020/02/cropped-splash02-scaled-1.jpg"); visibility: visible; z-index: 3; opacity: 0;'></div>
+                        <div class="slideshow-image next"
+                             style='background-image: url("https://cscw.acm.org/2020/wp-content/uploads/2020/02/cropped-splash03-scaled-1.jpg"); z-index: 2;'></div>
+                        <div class="slideshow-image"
+                             style='background-image: url("https://cscw.acm.org/2020/wp-content/uploads/2020/02/cropped-splash01-scaled-1.jpg");'></div>
+                    </div>
+                    <div class="overlay-layer">
+                        <div class="overlay-image-layer"
+                             style="opacity: 0.5; background-color: rgba(0, 0, 0, 1);"></div>
+                        <div class="shape-layer"
+                             style="background-position: center; background-image: none; background-repeat: no-repeat; filter: invert(0%); background-size: cover;"></div>
+                    </div>
+                </div>
+                <div class="background-layer background-layer-media-container">
+                    <div class="background-layer colibri-slideshow" data-colibri-component="slideshow"
+                         data-slide-duration="5000" data-slide-speed="1000" media="mobile" model-id="5-h25">
+                        <div class="slideshow-image current"
+                             style='transition:opacity 1000ms; background-image: url("https://cscw.acm.org/2020/wp-content/uploads/2020/02/cropped-splash02-scaled-1.jpg"); visibility: visible; z-index: 3; opacity: 0;'></div>
+                        <div class="slideshow-image next"
+                             style='background-image: url("https://cscw.acm.org/2020/wp-content/uploads/2020/02/cropped-splash03-scaled-1.jpg"); z-index: 2;'></div>
+                        <div class="slideshow-image"
+                             style='background-image: url("https://cscw.acm.org/2020/wp-content/uploads/2020/02/cropped-splash01-scaled-1.jpg");'></div>
+                    </div>
+                    <div class="overlay-layer">
+                        <div class="overlay-image-layer"
+                             style="opacity: 0.5; background-color: rgba(0, 0, 0, 1);"></div>
+                        <div class="shape-layer"
+                             style="background-position: center; background-image: none; background-repeat: no-repeat; filter: invert(0%); background-size: cover;"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- -->
+            <div class="h-section-grid-container h-navigation-padding h-section-fluid-container">
+                <!-- -->
+                <div class="h-row-container gutters-row-lg-0 gutters-row-md-0 gutters-row-0 gutters-row-v-lg-0 gutters-row-v-md-0 gutters-row-v-0 style-26 style-local-5-h26 position-relative"
+                     data-colibri-id="5-h26">
+                    <!-- -->
+                    <div class="h-row justify-content-lg-center justify-content-md-center justify-content-center align-items-lg-stretch align-items-md-stretch align-items-stretch gutters-col-lg-0 gutters-col-md-0 gutters-col-0 gutters-col-v-lg-0 gutters-col-v-md-0 gutters-col-v-0">
+                        <!-- -->
+                        <div class="h-column h-column-container d-flex h-col-lg-auto h-col-md-auto h-col-auto style-27-outer style-local-5-h27-outer">
+                            <div class="d-flex h-flex-basis h-column__inner h-px-lg-2 h-px-md-2 h-px-2 v-inner-lg-2 v-inner-md-2 v-inner-2 style-27 style-local-5-h27 position-relative"
+                                 data-colibri-id="5-h27">
+                                <!-- -->
+                                <!-- -->
+                                <div class="w-100 h-y-container h-column__content h-column__v-align flex-basis-100 align-self-lg-center align-self-md-center align-self-center">
+                                    <!-- -->
+                                    <div class="h-global-transition-all h-heading style-28 style-local-5-h28 position-relative h-element"
+                                         data-colibri-id="5-h28">
+                                        <!-- -->
+                                        <!-- -->
+                                        <h4>The 23rd ACM Conference on Computer-Supported Cooperative Work and Social
+                                            Computing</h4>
+                                    </div>
+                                    <div class="h-global-transition-all h-heading style-317 style-local-5-h29 position-relative h-element"
+                                         data-colibri-id="5-h29">
+                                        <!-- -->
+                                        <!-- -->
+                                        <h6>October 17 - October 21, 2020 (Virtually Co-located with UIST)</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        (function () {
+            function setHeaderTopSpacing() {
+
+                // forEach polyfill
+                if (!NodeList.prototype.forEach) {
+                    NodeList.prototype.forEach = function (callback) {
+                        for (var i = 0; i < this.length; i++) {
+                            callback.call(this, this.item(i));
+                        }
+                    }
+                }
+
+                // '[data-colibri-component="navigation"][data-overlap="true"]' selector is backward compatibility
+                var navigation = document.querySelector('[data-colibri-navigation-overlap="true"], [data-colibri-component="navigation"][data-overlap="true"]')
+                if (navigation) {
+                    var els = document
+                        .querySelectorAll('.h-navigation-padding');
+                    if (els.length) {
+                        els.forEach(function (item) {
+                            item.style.paddingTop = navigation.offsetHeight + "px";
+                        });
+                    }
+                }
+            }
+
+            setHeaderTopSpacing();
+        })();
+    </script>
+    <!-- dynamic header end -->
+    <div class="page-content">
+        <div class="content" id="content">
+            <div class="elementor elementor-29" data-elementor-id="29" data-elementor-settings="[]"
+                 data-elementor-type="wp-page">
+                <div class="elementor-inner">
+                    <div class="elementor-section-wrap">
+                        <section
+                                class="elementor-element elementor-element-2658332 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section"
+                                data-element_type="section" data-id="2658332">
+                            <div class="elementor-container elementor-column-gap-default">
+                                <div class="elementor-row">
+                                    <div class="elementor-element elementor-element-94a6782 elementor-column elementor-col-100 elementor-top-column"
+                                         data-element_type="column" data-id="94a6782">
+                                        <div class="elementor-column-wrap elementor-element-populated">
+                                            <div class="elementor-widget-wrap">
+                                                <div class="elementor-element elementor-element-e0814ea elementor-widget elementor-widget-alert"
+                                                     data-element_type="widget" data-id="e0814ea"
+                                                     data-widget_type="alert.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="elementor-alert elementor-alert-info" role="alert">
+                                                            <span class="elementor-alert-title">CSCW 2020 IS GOING VIRTUAL</span>
+                                                            <span class="elementor-alert-description">CSCW 2020 will be a virtual conference. In light of current uncertainty about SARS-CoV-2 and COVID-19, and in consultation with our Organizing Committee, the CSCW Steering Committee, SIGCHI, ACM, and the UIST chairs, we have come to the conclusion that the best course of action is to transition from the physically co-located conference to a completely virtual format for CSCW 2020. By making this decision now, we will have the opportunity to redirect our organizing activities toward producing an outstanding conference experience. <a
+                                                                    href="https://medium.com/@matthewjbietz/cscw-2020-is-going-virtual-137f30c1a17e">Read the blog post for more information</a>.</span>
+                                                            <button class="elementor-alert-dismiss" type="button">
+                                                                <span aria-hidden="true">×</span>
+                                                                <span class="elementor-screen-only">Dismiss alert</span>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section
+                                class="elementor-element elementor-element-fe28e40 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section"
+                                data-element_type="section" data-id="fe28e40">
+                            <div class="elementor-container elementor-column-gap-default">
+                                <div class="elementor-row">
+                                    <div class="elementor-element elementor-element-7235695 elementor-column elementor-col-100 elementor-top-column"
+                                         data-element_type="column" data-id="7235695">
+                                        <div class="elementor-column-wrap elementor-element-populated">
+                                            <div class="elementor-widget-wrap">
+                                                <div class="elementor-element elementor-element-a76ba25 elementor-widget elementor-widget-alert"
+                                                     data-element_type="widget" data-id="a76ba25"
+                                                     data-widget_type="alert.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="elementor-alert elementor-alert-info" role="alert">
+                                                            <span class="elementor-alert-title">REVISED DEADLINES IN RESPONSE TO COVID-19</span>
+                                                            <span class="elementor-alert-description">Due to COVID-19, we have changed the upcoming deadlines for CSCW. Please <a
+                                                                    href="https://cscw.acm.org/2020/index.php/papers/">visit the Papers section to read more.</a></span>
+                                                            <button class="elementor-alert-dismiss" type="button">
+                                                                <span aria-hidden="true">×</span>
+                                                                <span class="elementor-screen-only">Dismiss alert</span>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section
+                                class="elementor-element elementor-element-5f8062f elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section"
+                                data-element_type="section" data-id="5f8062f">
+                            <div class="elementor-container elementor-column-gap-default">
+                                <div class="elementor-row">
+                                    <div class="elementor-element elementor-element-940a37e elementor-column elementor-col-25 elementor-top-column"
+                                         data-element_type="column" data-id="940a37e">
+                                        <div class="elementor-column-wrap">
+                                            <div class="elementor-widget-wrap">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-15060fb elementor-column elementor-col-50 elementor-top-column"
+                                         data-element_type="column" data-id="15060fb">
+                                        <div class="elementor-column-wrap elementor-element-populated">
+                                            <div class="elementor-widget-wrap">
+                                                <div class="elementor-element elementor-element-0f4a4f8 elementor-widget elementor-widget-text-editor"
+                                                     data-element_type="widget" data-id="0f4a4f8"
+                                                     data-widget_type="text-editor.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="elementor-text-editor elementor-clearfix"><h5
+                                                                class="mt-4 mb-5">CSCW is the premier venue for research
+                                                            in the design and use of technologies that affect groups,
+                                                            organizations, communities, and networks. Bringing together
+                                                            top researchers and practitioners, CSCW explores the
+                                                            technical, social, material, and theoretical challenges of
+                                                            designing technology to support collaborative work and life
+                                                            activities. Join us as we explore how technologies can
+                                                            enable new ways of living and working together.</h5></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-d8364ab elementor-column elementor-col-25 elementor-top-column"
+                                         data-element_type="column" data-id="d8364ab">
+                                        <div class="elementor-column-wrap">
+                                            <div class="elementor-widget-wrap">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section
+                                class="elementor-element elementor-element-40bcd1f elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section"
+                                data-element_type="section" data-id="40bcd1f">
+                            <div class="elementor-container elementor-column-gap-default">
+                                <div class="elementor-row">
+                                    <div class="elementor-element elementor-element-87b3fc0 elementor-column elementor-col-100 elementor-top-column"
+                                         data-element_type="column" data-id="87b3fc0">
+                                        <div class="elementor-column-wrap elementor-element-populated">
+                                            <div class="elementor-widget-wrap">
+                                                <div class="elementor-element elementor-element-f90ee07 elementor-widget elementor-widget-text-editor"
+                                                     data-element_type="widget" data-id="f90ee07"
+                                                     data-widget_type="text-editor.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="elementor-text-editor elementor-clearfix">
+                                                            <div class="call-box-3 text-center text-md-left">
+                                                                <h6 class="mb-3">CSCW 2020 HAS MOVED TO QUARTERLY
+                                                                    DEADLINES!</h6>
+                                                                <p class="mb-0">CSCW has changed! We are moving paper
+                                                                    submissions away from a yearly model to a quarterly
+                                                                    model. While many factors were considered in making
+                                                                    this decision, our overarching goal is to better
+                                                                    recognize that scholarship happens throughout the
+                                                                    year, not just once a year.</p>
+                                                            </div>
+                                                            <div class="call-box-3 text-center text-md-left">
+                                                                <p class="mb-0">CSCW deadlines will occur 4 times per
+                                                                    year: <strong>Jan 15, Jun 1, and Oct 15.</strong>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="colophon" itemscope="itemscope" itemtype="https://schema.org/WPFooter" role="contentinfo">
+        <div class="footer-width-fixer">
+            <div class="elementor elementor-112" data-elementor-id="112" data-elementor-settings="[]"
+                 data-elementor-type="wp-post">
+                <div class="elementor-inner">
+                    <div class="elementor-section-wrap">
+                        <section
+                                class="elementor-element elementor-element-bf9ca9c elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section"
+                                data-element_type="section" data-id="bf9ca9c">
+                            <div class="elementor-container elementor-column-gap-default">
+                                <div class="elementor-row">
+                                    <div class="elementor-element elementor-element-387a4ff elementor-column elementor-col-33 elementor-top-column"
+                                         data-element_type="column" data-id="387a4ff">
+                                        <div class="elementor-column-wrap">
+                                            <div class="elementor-widget-wrap">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-5d3c85b elementor-column elementor-col-33 elementor-top-column"
+                                         data-element_type="column" data-id="5d3c85b">
+                                        <div class="elementor-column-wrap elementor-element-populated">
+                                            <div class="elementor-widget-wrap">
+                                                <div class="elementor-element elementor-element-83215c4 elementor-widget elementor-widget-image"
+                                                     data-element_type="widget" data-id="83215c4"
+                                                     data-widget_type="image.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="elementor-image">
+                                                            <img alt="" class="attachment-large size-large" height="72"
+                                                                 src="https://cscw.acm.org/2020/wp-content/uploads/2020/02/SIGCHI-logo.gif"
+                                                                 width="312"/></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-f933f33 elementor-column elementor-col-33 elementor-top-column"
+                                         data-element_type="column" data-id="f933f33">
+                                        <div class="elementor-column-wrap">
+                                            <div class="elementor-widget-wrap">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section
+                                class="elementor-element elementor-element-9525b3e elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section"
+                                data-element_type="section" data-id="9525b3e">
+                            <div class="elementor-container elementor-column-gap-default">
+                                <div class="elementor-row">
+                                    <div class="elementor-element elementor-element-c62c41a elementor-column elementor-col-33 elementor-top-column"
+                                         data-element_type="column" data-id="c62c41a">
+                                        <div class="elementor-column-wrap">
+                                            <div class="elementor-widget-wrap">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-23600b0 elementor-column elementor-col-33 elementor-top-column"
+                                         data-element_type="column" data-id="23600b0">
+                                        <div class="elementor-column-wrap elementor-element-populated">
+                                            <div class="elementor-widget-wrap">
+                                                <div class="elementor-element elementor-element-6440d50 elementor-widget elementor-widget-text-editor"
+                                                     data-element_type="widget" data-id="6440d50"
+                                                     data-widget_type="text-editor.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="elementor-text-editor elementor-clearfix"><p
+                                                                style="text-align: center;">CSCW 2020 | ©2016</p></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-31805fd elementor-column elementor-col-33 elementor-top-column"
+                                         data-element_type="column" data-id="31805fd">
+                                        <div class="elementor-column-wrap">
+                                            <div class="elementor-widget-wrap">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script data-name="colibri-frontend-data">window.colibriFrontendData = [];</script>
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var wp_load_style = ["extend-builder-css.css", "fancybox.css", "team-members-for-elementor.css", "wp-block-library.css", "common-card-style.css", "profile-card-style.css", "testimonial-card-style.css", "post-card-style.css", "extend_builder_-fonts.css", "exad-main-style.css", "hfe-style.css", "elementor-icons.css", "elementor-animations.css", "elementor-frontend.css", "elementor-global.css", "cherry-team.css", "cherry-team-grid.css", "font-awesome.css", "google-fonts-1.css"];
+        var wp_load_script = ["colibri.js", "typed.js", "fancybox.js", "extend-builder-js.js", "cherry-js-core.js", "exad-main-script.js"];
+        var cherry_ajax = "fb92a7c464";
+        var ui_init_object = {"auto_init": "false", "targets": []};
+        /* ]]> */
+    </script>
+    <script src="https://cscw.acm.org/2020/wp-content/plugins/cherry-team-members/cherry-framework/modules/cherry-js-core/assets/js/min/cherry-js-core.min.js?ver=1.5.11"
+            type="text/javascript"></script>
+    <script src="https://cscw.acm.org/2020/wp-content/plugins/exclusive-team-for-elementor/assets/js/exad-script.js?ver=5.4-alpha-47225"
+            type="text/javascript"></script>
+    <script src="https://cscw.acm.org/2020/wp-includes/js/wp-embed.min.js?ver=5.4-alpha-47225"
+            type="text/javascript"></script>
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var cherryTeam = {
+            "ajaxurl": "https:\/\/cscw.acm.org\/2020\/wp-admin\/admin-ajax.php",
+            "loader": "<div class=\"cherry-spinner cherry-spinner-double-bounce\"><div class=\"cherry-double-bounce1\"><\/div><div class=\"cherry-double-bounce2\"><\/div><\/div>"
+        };
+        /* ]]> */
+    </script>
+    <script src="https://cscw.acm.org/2020/wp-content/plugins/cherry-team-members/public/assets/js/cherry-team.js?ver=1.4.6"
+            type="text/javascript"></script>
+    <script src="https://cscw.acm.org/2020/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=2.8.5"
+            type="text/javascript"></script>
+    <script src="https://cscw.acm.org/2020/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4"
+            type="text/javascript"></script>
+    <script src="https://cscw.acm.org/2020/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.7.3"
+            type="text/javascript"></script>
+    <script src="https://cscw.acm.org/2020/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
+            type="text/javascript"></script>
+    <script src="https://cscw.acm.org/2020/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=4.4.6"
+            type="text/javascript"></script>
+    <script type="text/javascript">
+        var elementorFrontendConfig = {
+            "environmentMode": {"edit": false, "wpPreview": false},
+            "is_rtl": false,
+            "breakpoints": {"xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600},
+            "version": "2.8.5",
+            "urls": {"assets": "https:\/\/cscw.acm.org\/2020\/wp-content\/plugins\/elementor\/assets\/"},
+            "settings": {"page": [], "general": {"elementor_global_image_lightbox": "yes"}, "editorPreferences": []},
+            "post": {"id": 29, "title": "Front Page", "excerpt": ""}
+        };
+    </script>
+    <script src="https://cscw.acm.org/2020/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=2.8.5"
+            type="text/javascript"></script>
+</div>
+<div class="page-template-default page page-id-120 exclusive-addons-elementor ehf-footer ehf-template-colibri-wp ehf-stylesheet-colibri-wp elementor-default elementor-page elementor-page-120"
+     id="colibri">
+    <div class="site" id="page-top">
+
+        <a class="skip-link screen-reader-text" href="#content">
+            Skip to content </a>
+        <!-- dynamic header start -->
+        <div class="page-header style-32 style-local-8-h1 position-relative" data-colibri-id="8-h1">
+            <!-- -->
+            <div class="h-navigation_outer h-navigation_overlap style-33-outer style-local-8-h2-outer"
+                 data-colibri-navigation-overlap="true" role="banner">
+                <!-- -->
+                <div class="h-section h-navigation h-navigation d-flex style-33 style-local-8-h2"
+                     data-colibri-component="navigation" data-colibri-id="8-h2" id="navigation">
+                    <!-- -->
+                    <div class="h-section-grid-container h-section-fluid-container">
+                        <div data-nav-normal="">
+                            <div class="h-row-container h-section-boxed-container gutters-row-lg-0 gutters-row-md-0 gutters-row-2 gutters-row-v-lg-0 gutters-row-v-md-0 gutters-row-v-2 style-34 style-local-8-h3 position-relative"
+                                 data-colibri-id="8-h3">
+                                <!-- -->
+                                <div class="h-row justify-content-lg-center justify-content-md-center justify-content-center align-items-lg-stretch align-items-md-stretch align-items-stretch gutters-col-lg-0 gutters-col-md-0 gutters-col-2 gutters-col-v-lg-0 gutters-col-v-md-0 gutters-col-v-2">
+<!-- -->
+<div class="h-column h-column-container d-flex h-col-none style-35-outer style-local-8-h4-outer">
+<div class="d-flex h-flex-basis h-column__inner h-px-lg-0 h-px-md-0 h-px-0 v-inner-lg-0 v-inner-md-0 v-inner-0 style-35 style-local-8-h4 position-relative" data-colibri-id="8-h4" data-placeholder-provider="navigation-logo">
+<!-- -->
+<!-- -->
+<div class="w-100 h-y-container h-column__content h-column__v-align flex-basis-auto align-self-lg-center align-self-md-center align-self-center">
+<!-- -->
+<div class="d-flex align-items-center text-lg-left text-md-left text-left justify-content-lg-start justify-content-md-start justify-content-start style-36 style-local-8-h5 position-relative h-element" data-colibri-id="8-h5">
+<!-- -->
+<a class="d-flex align-items-center" h-use-smooth-scroll="true" href="https://cscw.acm.org/2020/" rel="home"><span class="h-logo__text h-logo__text_h logo-text d-inline-block style-36-text style-local-8-h5-text">CSCW 2020</span></a>
+</div>
+</div>
+</div>
+</div>
+<div class="h-column h-column-container d-flex h-col-none style-37-outer style-local-8-h6-outer h-hide-sm">
+<div class="d-flex h-flex-basis h-column__inner h-px-lg-0 h-px-md-0 h-px-0 v-inner-lg-0 v-inner-md-0 v-inner-0 style-37 style-local-8-h6 h-hide-sm position-relative" data-colibri-id="8-h6" data-placeholder-provider="navigation-spacing">
+<!-- -->
+<!-- -->
+<div class="w-100 h-y-container h-column__content h-column__v-align flex-basis-100 align-self-lg-center align-self-md-center align-self-center">
+<!-- -->
+<div class="style-38 style-local-8-h7 position-relative h-element" data-colibri-id="8-h7">
+<!-- -->
+</div>
+</div>
+</div>
+</div>
+<div class="h-column h-column-container d-flex h-col-none style-39-outer style-local-8-h8-outer">
+<div class="d-flex h-flex-basis h-column__inner h-px-lg-0 h-px-md-0 h-px-0 v-inner-lg-0 v-inner-md-0 v-inner-0 style-39 style-local-8-h8 position-relative" data-colibri-id="8-h8" data-placeholder-provider="navigation-menu">
+<!-- -->
+<!-- -->
+<div class="w-100 h-y-container h-column__content h-column__v-align flex-basis-auto align-self-lg-center align-self-md-center align-self-center">
+<!-- -->
+<div class="h-menu h-global-transition-all h-ignore-global-body-typography has-offcanvas-tablet h-menu-horizontal h-dropdown-menu style-40 style-local-8-h9 position-relative h-element" data-colibri-component="dropdown-menu" data-colibri-id="8-h9" h-use-smooth-scroll-all="true" role="navigation">
+<!-- -->
+<div class="h-global-transition-all h-main-menu"><div class="colibri-menu-container"><ul class="colibri-menu bordered-active-item bordered-active-item--bottom effect-borders-grow grow-from-center" id="menu-short"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-228" id="menu-item-228"><a href="#">Submit<svg aria-hidden="true" class="svg-inline--fa fa-angle-down fa-w-10" data-icon="angle-down" data-prefix="fas" role="img" viewbox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z" fill="currentColor"></path></svg><svg aria-hidden="true" class="svg-inline--fa fa-angle-right fa-w-8" data-icon="angle-right" data-prefix="fas" role="img" viewbox="0 0 256 512" xmlns="http://www.w3.org/2000/svg"><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" fill="currentColor"></path></svg></a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-120 current_page_item menu-item-229" id="menu-item-229"><a aria-current="page" href="https://cscw.acm.org/2020/index.php/papers/">Papers</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-290" id="menu-item-290"><a href="https://cscw.acm.org/2020/index.php/doctoral-consortium/">Doctoral Consortium</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-231" id="menu-item-231"><a href="https://cscw.acm.org/2020/index.php/committee/">Organizing Committee</a></li>
+</ul></div></div>
+<div class="h-mobile-menu h-global-transition-disable style-41 style-local-8-h10 position-relative h-element" data-colibri-id="8-h10">
+<!-- -->
+<a class="h-hamburger-button" data-click-outside="true" data-colibri-component="offcanvas" data-direction="right" data-offcanvas-overlay-id="offcanvas-overlay-8-h10" data-push="false" data-target="#offcanvas-wrapper-8-h10" data-target-id="offcanvas-wrapper-8-h10" href="#" title="Menu">
+<div class="icon-container h-hamburger-icon">
+<div class="h-icon-svg" style="width: 100%; height: 100%;">
+<!--Icon by Font Awesome (https://fontawesome.com)-->
+<svg id="bars" version="1.1" viewbox="0 0 1536 1896.0833" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M1536 1344v128q0 26-19 45t-45 19H64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19H64q-26 0-45-19T0 960V832q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19H64q-26 0-45-19T0 448V320q0-26 19-45t45-19h1408q26 0 45 19t19 45z"></path>
+</svg>
+</div>
+</div>
+</a>
+<div class="h-offcanvas-panel offcanvas offcanvas-right hide force-hide style-41-offscreen style-local-8-h10-offscreen" id="offcanvas-wrapper-8-h10">
+<div class="d-flex flex-column h-offscreen-panel style-42 style-local-8-h11 position-relative h-element" data-colibri-id="8-h11">
+<!-- -->
+<div class="offscreen-header h-ui-empty-state-container">
+<div class="h-row-container gutters-row-lg-2 gutters-row-md-2 gutters-row-0 gutters-row-v-lg-2 gutters-row-v-md-2 gutters-row-v-2 style-43 style-local-8-h13 position-relative" data-colibri-id="8-h13">
+<!-- -->
+<div class="h-row justify-content-lg-center justify-content-md-center justify-content-center align-items-lg-stretch align-items-md-stretch align-items-stretch gutters-col-lg-2 gutters-col-md-2 gutters-col-0 gutters-col-v-lg-2 gutters-col-v-md-2 gutters-col-v-2">
+<!-- -->
+<div class="h-column h-column-container d-flex h-col-lg-6 h-col-md-6 h-col-12 style-44-outer style-local-8-h14-outer">
+<div class="d-flex h-flex-basis h-column__inner h-px-lg-2 h-px-md-2 h-px-2 v-inner-lg-2 v-inner-md-2 v-inner-2 style-44 style-local-8-h14 position-relative" data-colibri-id="8-h14">
+<!-- -->
+<!-- -->
+<div class="w-100 h-y-container h-column__content h-column__v-align flex-basis-100 align-self-lg-start align-self-md-start align-self-start">
+<!-- -->
+<div class="d-flex align-items-center text-lg-center text-md-center text-center justify-content-lg-center justify-content-md-center justify-content-center style-45 style-local-8-h15 position-relative h-element" data-colibri-id="8-h15">
+<!-- -->
+<a class="d-flex align-items-center" h-use-smooth-scroll="true" href="https://cscw.acm.org/2020/" rel="home"><span class="h-logo__text h-logo__text_h logo-text d-inline-block style-45-text style-local-8-h15-text">CSCW 2020</span></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="offscreen-content">
+<!-- -->
+<div class="h-menu h-global-transition-all h-ignore-global-body-typography h-mobile-menu h-menu-accordion style-49 style-local-8-h12 position-relative h-element" data-colibri-component="accordion-menu" data-colibri-id="8-h12" h-use-smooth-scroll-all="true" role="navigation">
+<!-- -->
+<div class="h-global-transition-all h-mobile-menu"><div class="colibri-menu-container"><ul class="colibri-menu none" id="menu-short-1"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-228"><a href="#">Submit<svg aria-hidden="true" class="svg-inline--fa fa-angle-down fa-w-10" data-icon="angle-down" data-prefix="fas" role="img" viewbox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z" fill="currentColor"></path></svg><svg aria-hidden="true" class="svg-inline--fa fa-angle-right fa-w-8" data-icon="angle-right" data-prefix="fas" role="img" viewbox="0 0 256 512" xmlns="http://www.w3.org/2000/svg"><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" fill="currentColor"></path></svg><svg aria-hidden="true" class="svg-inline--fa fa-angle-down fa-w-10" data-icon="angle-down" data-prefix="fas" role="img" viewbox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z" fill="currentColor"></path></svg><svg aria-hidden="true" class="svg-inline--fa fa-angle-right fa-w-8" data-icon="angle-right" data-prefix="fas" role="img" viewbox="0 0 256 512" xmlns="http://www.w3.org/2000/svg"><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" fill="currentColor"></path></svg></a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-120 current_page_item menu-item-229"><a aria-current="page" href="https://cscw.acm.org/2020/index.php/papers/">Papers</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-290"><a href="https://cscw.acm.org/2020/index.php/doctoral-consortium/">Doctoral Consortium</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-231"><a href="https://cscw.acm.org/2020/index.php/committee/">Organizing Committee</a></li>
+</ul></div></div>
+</div>
+</div>
+<div class="offscreen-footer h-ui-empty-state-container">
+<div class="h-row-container gutters-row-lg-2 gutters-row-md-2 gutters-row-0 gutters-row-v-lg-2 gutters-row-v-md-2 gutters-row-v-2 style-46 style-local-8-h16 position-relative" data-colibri-id="8-h16">
+<!-- -->
+<div class="h-row justify-content-lg-center justify-content-md-center justify-content-center align-items-lg-stretch align-items-md-stretch align-items-stretch gutters-col-lg-2 gutters-col-md-2 gutters-col-0 gutters-col-v-lg-2 gutters-col-v-md-2 gutters-col-v-2">
+<!-- -->
+<div class="h-column h-column-container d-flex h-col-lg-6 h-col-md-6 h-col-12 style-47-outer style-local-8-h17-outer">
+<div class="d-flex h-flex-basis h-column__inner h-px-lg-2 h-px-md-2 h-px-2 v-inner-lg-2 v-inner-md-2 v-inner-2 style-47 style-local-8-h17 position-relative" data-colibri-id="8-h17">
+<!-- -->
+<!-- -->
+<div class="w-100 h-y-container h-column__content h-column__v-align flex-basis-100 align-self-lg-start align-self-md-start align-self-start">
+<!-- -->
+<div class="h-text h-text-component style-48 style-local-8-h18 position-relative h-element" data-colibri-id="8-h18">
+<!-- -->
+<!-- -->
+<div class="">
+<p>© 2019</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="offscreen-overlay style-41-offscreenOverlay style-local-8-h10-offscreenOverlay" id="offcanvas-overlay-8-h10"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div data-nav-sticky="" style="display: none;"></div>
+</div>
+</div>
+</div>
+<div class="h-section h-hero d-flex align-items-lg-center align-items-md-center align-items-center style-56 style-local-8-h25 position-relative" data-colibri-id="8-h25" id="hero">
+<div class="background-wrapper">
+<div class="background-layer background-layer-media-container-lg">
+<div class="background-layer colibri-slideshow" data-colibri-component="slideshow" data-slide-duration="1500" data-slide-speed="500" media="desktop" model-id="8-h25">
+<div class="slideshow-image" style='background-image: url("https://cscw.acm.org/2020/wp-content/uploads/2020/02/cropped-splash02-scaled-1.jpg"); visibility: visible; z-index: 3; opacity: 0; transition: opacity 500ms ease calc(1000ms);'></div>
+<div class="slideshow-image" style='background-image: url("https://cscw.acm.org/2020/wp-content/uploads/2020/02/cropped-splash03-scaled-1.jpg"); z-index: 2;'></div>
+<div class="slideshow-image" style='background-image: url("https://cscw.acm.org/2020/wp-content/uploads/2020/02/cropped-splash01-scaled-1.jpg");'></div>
+</div>
+<div class="overlay-layer">
+<div class="overlay-image-layer" style="background-color: rgba(0, 0, 0, 0.7); opacity: 70;"></div>
+<div class="shape-layer" style='background-image: url(""); background-position: center center; background-size: cover; background-repeat: no-repeat;'></div>
+</div>
+</div>
+<div class="background-layer background-layer-media-container-md">
+<div class="background-layer colibri-slideshow" data-colibri-component="slideshow" data-slide-duration="1500" data-slide-speed="500" media="tablet" model-id="8-h25">
+<div class="slideshow-image" style='background-image: url("https://cscw.acm.org/2020/wp-content/uploads/2020/02/cropped-splash02-scaled-1.jpg"); visibility: visible; z-index: 3; opacity: 0; transition: opacity 500ms ease calc(1000ms);'></div>
+<div class="slideshow-image" style='background-image: url("https://cscw.acm.org/2020/wp-content/uploads/2020/02/cropped-splash03-scaled-1.jpg"); z-index: 2;'></div>
+<div class="slideshow-image" style='background-image: url("https://cscw.acm.org/2020/wp-content/uploads/2020/02/cropped-splash01-scaled-1.jpg");'></div>
+</div>
+<div class="overlay-layer">
+<div class="overlay-image-layer" style="background-color: rgba(0, 0, 0, 0.7); opacity: 70;"></div>
+<div class="shape-layer" style='background-image: url(""); background-position: center center; background-size: cover; background-repeat: no-repeat;'></div>
+</div>
+</div>
+<div class="background-layer background-layer-media-container">
+<div class="background-layer colibri-slideshow" data-colibri-component="slideshow" data-slide-duration="1500" data-slide-speed="500" media="mobile" model-id="8-h25">
+<div class="slideshow-image" style='background-image: url("https://cscw.acm.org/2020/wp-content/uploads/2020/02/cropped-splash02-scaled-1.jpg"); visibility: visible; z-index: 3; opacity: 0; transition: opacity 500ms ease calc(1000ms);'></div>
+<div class="slideshow-image" style='background-image: url("https://cscw.acm.org/2020/wp-content/uploads/2020/02/cropped-splash03-scaled-1.jpg"); z-index: 2;'></div>
+<div class="slideshow-image" style='background-image: url("https://cscw.acm.org/2020/wp-content/uploads/2020/02/cropped-splash01-scaled-1.jpg");'></div>
+</div>
+<div class="overlay-layer">
+<div class="overlay-image-layer" style="background-color: rgba(0, 0, 0, 0.7); opacity: 70;"></div>
+<div class="shape-layer" style='background-image: url(""); background-position: center center; background-size: cover; background-repeat: no-repeat;'></div>
+</div>
+</div>
+</div>
+<!-- -->
+<div class="h-section-grid-container h-navigation-padding h-section-boxed-container">
+<!-- -->
+<div class="h-row-container gutters-row-lg-2 gutters-row-md-2 gutters-row-0 gutters-row-v-lg-2 gutters-row-v-md-2 gutters-row-v-2 style-57 style-local-8-h26 position-relative" data-colibri-id="8-h26">
+<!-- -->
+<div class="h-row justify-content-lg-center justify-content-md-center justify-content-center align-items-lg-stretch align-items-md-stretch align-items-stretch gutters-col-lg-2 gutters-col-md-2 gutters-col-0 gutters-col-v-lg-2 gutters-col-v-md-2 gutters-col-v-2">
+<!-- -->
+<div class="h-column h-column-container d-flex h-col-lg-auto h-col-md-auto h-col-auto style-58-outer style-local-8-h27-outer">
+<div class="d-flex h-flex-basis h-column__inner h-px-lg-2 h-px-md-2 h-px-2 v-inner-lg-2 v-inner-md-2 v-inner-2 style-58 style-local-8-h27 position-relative" data-colibri-id="8-h27">
+<!-- -->
+<!-- -->
+<div class="w-100 h-y-container h-column__content h-column__v-align flex-basis-100 align-self-lg-start align-self-md-start align-self-start">
+<!-- -->
+<div class="page-title style-59 style-local-8-h28 position-relative h-element" data-colibri-id="8-h28">
+<!-- -->
+    <div class="h-global-transition-all"><span><h1 style="margin-bottom:0">Papers</h1></span></div>
+</div>
+</div>
+</div>
+</div>
+    <!-- -->
+</div>
+</div>
+</div>
+</div>
+        </div>
+        <!-- dynamic header end -->
+        <!-- Content:start -->
+        <div class="content position-relative page-content colibri-page-content"><!-- Section:start -->
+            <div class="d-flex h-section h-section-global-spacing position-relative">
+                <div class="h-section-grid-container h-section-boxed-container"><!-- Row:start -->
+                    <div class="h-row-container">
+                        <div class="h-row"><!-- Column:start -->
+                            <div class="h-col">
+                                <div class="post-120 page type-page status-publish hentry" id="post-120">
+                                    <div>
+                                        <div class="elementor elementor-120" data-elementor-id="120"
+                                             data-elementor-settings="[]" data-elementor-type="wp-page">
+                                            <div class="elementor-inner">
+                                                <div class="elementor-section-wrap">
+                                                    <section
+                                                            class="elementor-element elementor-element-8a325b8 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section"
+                                                            data-element_type="section" data-id="8a325b8">
+                                                        <div class="elementor-container elementor-column-gap-default">
+                                                            <div class="elementor-row">
+                                                                <div class="elementor-element elementor-element-7b8a35b elementor-column elementor-col-100 elementor-top-column"
+                                                                     data-element_type="column" data-id="7b8a35b">
+                                                                    <div class="elementor-column-wrap elementor-element-populated">
+                                                                        <div class="elementor-widget-wrap">
+                                                                            <div class="elementor-element elementor-element-38cbff9 elementor-widget elementor-widget-text-editor"
+                                                                                 data-element_type="widget"
+                                                                                 data-id="38cbff9"
+                                                                                 data-widget_type="text-editor.default">
+                                                                                <div class="elementor-widget-container">
+                                                                                    <div class="elementor-text-editor elementor-clearfix">
+                                                                                        <div>
+                                                                                            <div>
+<div>
+<div>
+<div data-scroll-reveal="enter bottom move 60px over 0.7s after 0.1s" data-scroll-reveal-complete="true" data-scroll-reveal-id="1" data-scroll-reveal-initialized="true">
+<div>
+<div>
+<h6>Some dates have been updated, please read our <a href="https://medium.com/@ACM_CSCW/revised-deadlines-in-response-to-covid-19-27b940ca12ab">COVID-19 announcement</a> to understand the implications of these changes.</h6>
+<h6><span style="font-size: 1em;">UPDATES FOR JAN 2020</span></h6>
+<ul>
+<li><strong>Short papers with valuable but concise contributions are encouraged. See a note under <a href="#formatting">“Formatting and Length”</a>.</strong></li>
+<li><strong>Submissions not attempting to follow the ACM-Small template may be Desk Rejected. See a note under <a href="#formatting">“Formatting and Length”</a>.</strong></li>
+<li><strong>Criteria for the “Reject” decision have been updated. See a note under <a href="#revision">“Revision Cycle and Decisions”</a>.</strong></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<div>
+<div>
+<div>
+<div data-scroll-reveal="enter bottom move 60px over 0.7s after 0.1s" data-scroll-reveal-complete="true" data-scroll-reveal-id="2" data-scroll-reveal-initialized="true">
+<div>
+<div>
+<h6>IMPORTANT CHANGES</h6>
+<p><span style="color: #000000;">CSCW is introducing a new quarterly submission model, with paper deadlines on Jan 15, June 1, and Oct 15. The first quarterly deadline is Oct 15, 2019.</span></p>
+<p><span style="color: #000000;">Papers accepted in the following submission cycles will be invited to present at CSCW 2020:</span></p>
+<ul>
+<li><strong>Oct 15, 2019</strong></li>
+<li><strong>Jan 15, 2020</strong></li>
+<li><strong>June 1, 2020</strong></li>
+</ul>
+<p><span style="color: #000000;">Papers accepted in the following submission cycles will be invited to present at CSCW 2021:</span></p>
+<ul>
+<li><strong>Oct 15, 2020</strong></li>
+<li><strong>Jan 15, 2021</strong></li>
+<li><strong>April 15, 2021</strong></li>
+</ul>
+<p><span style="color: #000000;">In 2017, CSCW moved all publications to the Proceedings of the ACM on Human Computer Interaction (PACM HCI). Papers accepted to CSCW under the new model will continue to be published in PACM HCI. Publication timelines are being negotiated; papers are expected to be published on a quarterly basis.</span></p>
+<p><span style="color: #000000;">While the papers process will be handled by Papers Co-chairs as before, CSCW has newly created the Editor role and formed a team of Editors who will manage the review process. The Editors will assign two Associate Chairs to each submission (i.e., 1AC and 2AC).</span></p>
+<p><span style="color: #000000;">There is no separate abstract deadline. Authors need to submit their abstracts plus full papers by the deadline.</span></p>
+<p><span style="color: #000000;">More information about the new process is described in</span> <a href="https://cscw.acm.org/2020b/CSCW%202020%20Changes.html">CSCW 2020 Changes</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<h6>IMPORTANT DATES</h6>
+<ul>
+<li><strong>October 15, 2019</strong> : Paper submissions due 23:59 <a href="https://www.timeanddate.com/time/zones/aoe">Anywhere on Earth (AoE) time</a>. Accepted papers are invited to present at CSCW 2020.</li>
+<li><strong>January 15, 2020</strong>:Paper submissions due 23:59 AoE. Accepted papers are invited to present at CSCW 2020. Submissions with Major Revision from the Oct cycle should be submitted by January 30, 2020</li>
+<li><strong>June 1, 2020</strong>: Paper submissions due 23:59 AoE. Accepted papers are invited to present at CSCW 2020.Submissions with Major Revision from the Jan cycle should be submitted by June 1, 2020</li>
+<li><strong>Oct 15, 2020</strong>:Paper submissions due 23:59 AoE. Accepted papers are invited to present at CSCW 2021.Submissions with Major Revision from the Jul cycle should be submitted by October 15, 2020</li>
+</ul>
+<p>Paper reviews will be sent to authors within 8-10 weeks after the deadline.</p>
+<p>The submission site will open 2 weeks before each deadline. There is no deadline extension.</p>
+<h6>CALL FOR PAPERS</h6>
+<p><span style="color: #000000;">CSCW is an international and interdisciplinary peer reviewed conference seeking the best research on all topics relevant to collaborative and social computing. We invite authors to submit papers that inform the design or deployment of collaborative or social systems; introduce novel systems, interaction techniques, or algorithms; or study existing collaborative or social practices. The scope of CSCW 2020 includes social computing and social media, crowdsourcing, open collaboration, technologically-enabled or enhanced communication, work practices, CSCL, MOOCs, and related educational technologies, multi-user input technologies, collaboration, awareness, information sharing, and coordination. This scope spans socio-technical domains of work, home, education, healthcare, the arts, sociality, entertainment, and ethics. Papers can report on novel research results, designs, systems, or new ways of thinking about, studying, or supporting shared activities.</span></p>
+<p><span style="color: #000000;">CSCW encourages papers that make a contribution to building CSCW systems including (but not limited to) technical enablers for CSCW applications, methods and techniques for new CSCW services and applications, and evaluation of fully-built CSCW systems and lab and field settings.</span></p>
+<p><span style="color: #000000;">To support diverse and high-quality contributions, CSCW employs a two-phase review process and does not impose an arbitrary length limit on submissions. Accepted papers will be published in the journal Proceedings of the ACM: Human Computer Interaction (PACM HCI).</span></p>
+<p><span style="color: #000000;">Contributions to CSCW across a variety of research techniques, approaches, and domains, including:</span></p>
+<ul>
+<li><strong>Social and crowd computing.</strong> Studies, theories, designs, mechanisms, systems, and/or infrastructures addressing social media, social networking, wikis, blogs, online gaming, crowdsourcing, collective intelligence, virtual worlds or collaborative information behaviors.</li>
+<li><strong>System design.</strong> Hardware, architectures, infrastructures, interaction design, technical foundations, algorithms, and/or toolkits that enable the building of new social and collaborative systems and experiences.</li>
+<li><strong>Theories.</strong> Critical analysis or theory with clear relevance to the design or study of social and collaborative systems, within and beyond work settings.</li>
+<li><strong>Empirical investigations.</strong> Findings, guidelines, and/or studies on practices, communication, collaboration, or use as related to collaborative technologies. CSCW 2020 welcomes diverse methods and approaches.</li>
+<li><strong>Mining and modeling.</strong> Studies, analyses and infrastructures for making use of large- and small-scale data.</li>
+<li><strong>Methodologies and tools.</strong> Novel methods or combinations of approaches and tools used in building systems or studying their use.</li>
+<li><strong>Domain-specific social and collaborative applications.</strong> Including applications to healthcare, transportation, gaming, ICT4D, sustainability, education, accessibility, global collaboration, or other domains.</li>
+<li><strong>Collaboration systems based on emerging technologies.</strong> Mobile and ubiquitous computing, game engines, virtual worlds, multi-touch, novel display technologies, vision and gesture recognition, big data, MOOCs, crowd labor markets, SNSs, or sensing systems.</li>
+<li><strong>Ethics and policy implications.</strong> Analysis of the implications of socio-technical systems and the algorithms that shape them.</li>
+<li><strong>Crossing boundaries.</strong> Studies, prototypes, or other investigations that explore interactions across disciplines, distance, languages, generations, and cultures, to help better understand how to transcend social, temporal, and/or spatial boundaries.</li>
+</ul>
+<p><span style="color: #000000;">Send queries about paper submissions to</span> <a href="mailto:papers2020@cscw.acm.org">papers2020@cscw.acm.org</a></p>
+<h6>SUBMISSION PROCESS DETAILS</h6>
+<p><span style="color: #000000;">CSCW 2020 is using the new version of Precision Conference System (PCS 2.0)</span>: <a href="https://new.precisionconference.com/">https://new.precisionconference.com/</a></p>
+<p><span style="color: #000000;">Authors submitting papers for peer-review to ACM publications must comply with </span><a href="https://sigchi.org/about/sigchi-policies/conference-policies/submission-and-review/">the SIGCHI Submission and Review Policy</a> <span style="color: #000000;">including, but not limited to:</span></p>
+<ul>
+<li><span style="color: #000000;">That the paper submitted is original, that the listed authors are the creators of the work, that each author is aware of the submission and that they are listed as an author, and that the paper is an honest representation of the underlying work.</span></li>
+<li><span style="color: #000000;">That the work submitted is not currently under review at any other publication venue, and that it will not be submitted to another venue unless it has been rejected or withdrawn from this venue.</span></li>
+</ul>
+<p><span style="color: #000000;">Regarding the re-publication in English of work previously published in another language, please refer to section 1.5.4 of</span> <a href="https://sigchi.org/about/sigchi-policies/conference-policies/specialized-conferences/">the ACM SIGCHI policy</a>:</p>
+<p><span style="color: #000000;">Confidentiality of submitted material will be maintained. Upon acceptance, the titles, authorship, and abstracts of papers will be used in the Advance Program. Submissions should contain no information or material that will be proprietary or confidential at the time of publication, and should cite no publication that will be proprietary or confidential at that time. Final versions of accepted papers must be formatted according to detailed instructions provided by the publisher. Copyright release forms must be signed for inclusion in the proceedings and the ACM Digital Library.</span></p>
+<p><a></a><span style="color: #000000; font-size: 1em; font-weight: 600;">FORMATTING AND LENGTH</span></p>
+<p><span style="color: #000000;">Papers accepted to CSCW 2020 will be published in the Proceedings of the ACM: Human Computer Interaction (PACM HCI) journal. The journal uses <strong>the single-column ACM Small</strong> article template.</span></p>
+<p><span style="color: #000000;">The ACM Small template is available for download as part of</span> <a href="https://www.acm.org/publications/authors/submissions">the ACM Master Template</a>. <span style="color: #000000;">Please use the most recent version of the master template, even if you have previously downloaded it. Word users: if the typefaces are not showing up correctly, be sure you have installed the fonts included in the ACM template download. Authors using the Overleaf platform can use the templates provided within Overleaf. Papers should be converted to PDF before submission.</span></p>
+<p><span style="color: #000000;">*Note:* In preparing initial submissions, authors should make their best effort at matching the ACM-Small template styles and conventions. While minor formatting issues can be addressed during the revision cycle, submissions not attempting to use the official template may be desk rejected.</span></p>
+<p><span style="color: #000000;">There is no minimum or maximum length imposed on papers. Rather, reviewers will be instructed to weigh the contribution of a paper relative to its length. Typical papers are under 10,000 words.</span></p>
+<p><span style="color: #000000;">*Note:* Valuable but concise contributions are welcome as short papers. Shorter, more focused papers will be reviewed with the expectation of a small, focused contribution. Papers whose length is incommensurate with their contribution will be rejected.</span></p>
+<p></p>
+<h6><span style="color: #000000;">ANONYMOUS REVIEW POLICY</span></h6>
+<p><span style="color: #000000;">Papers are subject to anonymous reviewing. Your submission must have authors’ names and affiliations removed, and avoid obvious identifying statements. Any grant information that immediately identifies the author and their institution should be removed as well. Papers that violate this policy will be desk rejected. Please check in particular the front page, headers and footers, and the Acknowledgement section.</span></p>
+<p><span style="color: #000000;">Citations to your own relevant work should not be anonymous, but rather should be done without identifying yourself as the author. For example, say “Prior work by [authors]” instead of “In our prior work.”</span></p>
+<p><span style="color: #000000;">CSCW does not have a policy against uploading preprints to SSRN or arXiv before they are submitted for review at the conference.</span><br/><a></a></p>
+<p></p>
+<h6><span style="color: #000000;">REVISION CYCLE AND DECISIONS</span></h6>
+<p><span style="color: #000000;">With the new quarterly submission model, CSCW is introducing major changes to how the revision cycle works. Please read this section carefully.</span></p>
+<p><span style="color: #000000;">Upon submission, a paper will receive one of the following decisions along with the reviews, within 8-10 weeks:</span></p>
+<ul>
+<li><span style="color: #000000;"><strong>Minor revision</strong>: This is equivalent to conditional accept. Authors should address the points raised by reviewers within a timeline provided by the Papers Chairs and submit the revised version for final approval.</span></li>
+<li><span style="color: #000000;"><strong>Major revision</strong>: This is equivalent to the current “Revise &amp; Resubmit (R&amp;R)”. Authors submit a revised paper in the subsequent deadline (e.g., Oct with major revision needs to be resubmitted in the Jan deadline). This gives authors about four weeks to revise their paper in response to the reviewers’ comments. Authors need to allocate time for a possible revision cycle. The revision cycle enables authors to address issues raised by reviewers that may have been a cause for rejection under prior conference reviewing schemes, such as the need to improve readability/grammar, discuss missing citations, redo some analyses, adopt terminology familiar to the field, and/or reframe ideas more clearly. When submitting the revised paper, authors are asked to provide a letter explaining how they approached the comments by the reviewers and incorporated the changes in the revision. This is not an invitation to submit extended abstracts or incomplete papers; please submit only completed work of publishable quality. Incomplete or otherwise inappropriate submissions will be desk rejected without review.</span></li>
+<li><span style="color: #000000;"><strong>Reject</strong>: While authors may submit their revised paper in any subsequent deadlines, authors should describe all or any part of the paper’s submission history. Papers submitted with no or marginal changes can be desk rejected without review. Further, the Editors may Desk Reject any submission that they believe has little chance of being accepted if it goes through the peer review process.</span></li>
+</ul>
+<h6><span style="color: #000000;">REVIEW CRITERIA</span></h6>
+<p><span style="color: #000000;">Authors will be able to indicate the primary methodological orientation of their paper, when they upload the paper to the PCS reviewing system:</span></p>
+<ul>
+<li><span style="color: #000000;">Technical/Systems, e.g., building novel systems, algorithms, implementing novel features in existing systems, etc.</span></li>
+<li><span style="color: #000000;">Empirical-Qualitative, e.g., ethnography, workplace studies, qualitative user studies, etc.</span></li>
+<li><span style="color: #000000;">Empirical-Quantitative, e.g., “big data,” quantitative user studies, statistical methods, etc.</span></li>
+<li><span style="color: #000000;">Design, e.g., design implications, guidelines, methods, techniques, etc.</span></li>
+<li><span style="color: #000000;">Mixed Methods, e.g., combined qualitative and quantitative empirical research, design explorations combined with technical feature development.</span></li>
+<li><span style="color: #000000;">Theoretical, e.g., conceptual frameworks, theory underpinning CSCW studies/domains, theoretical analysis, and essays.</span></li>
+</ul>
+<h6><span style="color: #000000;">OPEN AND TRANSPARENT SCIENCE</span></h6>
+<p><span style="color: #000000;">Authors are encouraged to submit supplementary material when possible and aligned with their methods. Authors are encouraged to submit links to pre-registrations when appropriate for their work. Authors are encouraged to use open access repositories and make their data and other material</span> <a href="https://www.force11.org/group/fairgroup/fairprinciples">FAIR</a> <span style="color: #000000;">when appropriate for their work. Authors are encouraged to describe efforts to make their work more reproducible. Reviewers are encouraged to support evolving approaches to supporting open and transparent research practices.</span></p>
+<h6><span style="color: #000000;">VIDEO FIGURES</span></h6>
+<p><span style="color: #000000;">Consider submitting a video that illustrates your work, either as a video figure judged as part of your submission (no more than three minutes long). Videos are not required for paper submissions, but are strongly encouraged, particularly for papers contributing novel systems or interaction techniques.</span></p>
+<h6><span style="color: #000000;">PRESENTING AT THE CONFERENCE</span></h6>
+<p><span style="color: #000000;">Accepted papers are invited to present at the corresponding conference for that cycle. Authors who wish to present at the conference but are unable to are encouraged to discuss alternative options with the Papers Chairs. Presenting at the conference is strongly recommended but not required.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<h6><span style="color: #000000;">EDITORS</span></h6>
+<ul>
+<li><span style="color: #000000;">Morgan Ames (UC Berkeley)</span></li>
+<li><span style="color: #000000;">Andrea Forte (Drexel University)</span></li>
+<li><span style="color: #000000;">Susan R. Fussell (Cornell University)</span></li>
+<li><span style="color: #000000;">Uichin Lee (KAIST)</span></li>
+<li><span style="color: #000000;">Andrés Monroy-Hernández (Snap Research)</span></li>
+<li><span style="color: #000000;">Sean Munson (University of Washington)</span></li>
+</ul>
+<p><a href="mailto:editors@cscw.acm.org">editors@cscw.acm.org</a></p>
+<p><span style="color: #000000;"><strong>Note:</strong> Questions about any part of the submissions and review process should go to the Papers Co-Chairs not the Editors.</span></p>
+<h6><span style="color: #000000;">PAPERS CO-CHAIRS</span></h6>
+<ul>
+<li><span style="color: #000000;">Juho Kim (KAIST)</span></li>
+<li><span style="color: #000000;">Siân Lindley (Microsoft Research)</span></li>
+<li><span style="color: #000000;">Sarita Schoenebeck (University of Michigan)</span></li>
+</ul>
+<p><a href="mailto:papers2020@cscw.acm.org">papers2020@cscw.acm.org</a></p>
+<h5>Program Committee Members</h5>
+<ul>
+<li>Syed Ishtiaque Ahmed, University of Toronto</li>
+<li>Nazanin Andalibi, University of Michigan</li>
+<li>Alberto Bacchelli, University of Zurich</li>
+<li>Eric Baumer, Lehigh University</li>
+<li>Natalie Bazarova, Cornell University</li>
+<li>Michael Bernstein, Stanford University</li>
+<li>Andrew Berry, Kaiser Permanente Washington Health Research Institute</li>
+<li>Jacob Biehl, University of Pittsburgh</li>
+<li>Robin Brewer, University of Michigan</li>
+<li>Jed Brubaker, University of Colorado Boulder</li>
+<li>Kapil Chalil Madathil, Clemson University</li>
+<li>Joel Chan, University of Maryland</li>
+<li>Yunan Chen, University of California Irvine</li>
+<li>Shiwei Cheng, Zhejiang University of Technology</li>
+<li>Marshini Chetty, University of Chicago</li>
+<li>Kenny Choo, Singapore University of Technology and Design</li>
+<li>Rumi Chunara, New York University</li>
+<li>Adrian Clear, Northumbria University</li>
+<li>Kevin Crowston, Syracuse University</li>
+<li>Nicola Dell, Cornell Tech</li>
+<li>Nicholas Diakopoulos, Northwestern University</li>
+<li>Dominic DiFranzo, Lehigh University</li>
+<li>Daniel Epstein, University of California Irvine</li>
+<li>Jordan Eschler, Facebook</li>
+<li>Guo Freeman, Clemson University</li>
+<li>Ge Gao, University of Maryland</li>
+<li>Radhika Garg, Syracuse University</li>
+<li>Elena Glassman, Harvard University</li>
+<li>Tesh Goyal, Jigsaw, Google</li>
+<li>Colin Gray, Purdue University</li>
+<li>Shion Guha, Marquette University</li>
+<li>Xinning Gui, Pennsylvania State University</li>
+<li>Francisco J. Gutierrez, University of Chile</li>
+<li>Ido Guy, eBay Research Israel</li>
+<li>Oliver Haimson, University of Michigan</li>
+<li>Kyungsik Han, Ajou University</li>
+<li>Benjamin Mako Hill, University of Washington</li>
+<li>Sungsoo (Ray) Hong, New York University</li>
+<li>Simo Hosio, University of Oulu</li>
+<li>Youyang Hou, Google</li>
+<li>Roberto Hoyle, Oberlin College</li>
+<li>Malte Jung, Cornell University</li>
+<li>Brian Keegan, University of Colorado Boulder</li>
+<li>Nam Wook Kim, Boston College</li>
+<li>Funda Kivran-Swaine, Facebook</li>
+<li>Marina Kogan, University of Utah</li>
+<li>Nicolas LaLone, University of Nebraska Omaha</li>
+<li>Alex Leavitt, Facebook</li>
+<li>Sung-Ju Lee, KAIST</li>
+<li>Gilly Leshed, Cornell University</li>
+<li>Tun LU, Fudan University</li>
+<li>Kurt Luther, Virginia Tech</li>
+<li>Gabi Marcu, University of Michigan</li>
+<li>David McDonald, University of Washington</li>
+<li>Tanushree Mitra , Virginia Tech</li><li>Jonathan Morgan, Wikimedia</li>
+<li>Matti Nelimarkka, University of Helsinki / Aalto University</li>
+<li>Thomas Olsson, Tampere University</li>
+<li>Xinru Page, Bentley University</li>
+<li>Drew Paine, Lawrence Berkeley National Laboratory</li>
+<li>Nadia Pantidi, University College Cork</li>
+<li>Andrea Parker, Northeastern University</li>
+<li>Jessica Pater, Parkview Research Center</li>
+<li>Sameer Patil, Indiana University Bloomington and New York University</li><li>Nat Poor, Independent</li>
+<li>Martin Porcheron, University of Nottingham, UK</li>
+<li>Marlen Promann, Purdue University</li>
+<li>Amon Rapp, University of Torino, Computer Science Department</li>
+<li>Elissa Redmiles, Microsoft Research / Princeton University</li>
+<li>Katharina Reinecke, University of Washington</li>
+<li>Christian Remy, Aarhus University</li>
+<li>Daniel Romero, University of Michigan</li>
+<li>Niloufar Salehi, University of California Berkeley</li>
+<li>Nithya Sambasivan, Google</li>
+<li>Saiph Savage, WVU and National Autonomous University of Mexico (UNAM)</li>
+<li>Toxtli Carlos, West Virginia University</li>
+<li>Patrick Shih, Indiana University Bloomington</li>
+<li>Vivek Singh, Rutgers University</li>
+<li>Robert Soden, Columbia University</li>
+<li>Ozge Subasi, Koc University</li>
+<li>Bongwon Suh, Seoul National University</li>
+<li>Mia Suh, University of Washington</li>
+<li>Na Sun, Pennsylvania State University</li>
+<li>John Tang, Microsoft Research</li>
+<li>Yuan-Chi Tseng, National Tsing Hua University</li>
+<li>Aditya Vashistha, Cornell University</li>
+<li>Morgan Vigil-Hayes, Northern Arizona Universityv</li>
+<li>Rojin Vishkaie, Ball State University</li>
+<li>Dhaval Vyas, University of Queensland</li>
+<li>Dakuo Wang, IBM Research</li>
+<li>Rick Wash, Michigan State University</li>
+<li>Nicholas Weber, University of Washington</li>
+<li>Mark Whiting, Stanford University</li>
+<li>Susan Wyche, Michigan State University</li>
+<li>Diyi Yang, Georgia Tech</li>
+<li>Dongwook Yoon, University of British Columbia</li>
+<li>Tina Yuan, National Taiwan Normal University</li>
+<li>Alexey Zagalsky, Tel Aviv University, Coller School of Management</li>
+<li>Amy Zhang, MIT CSAIL</li>
+<li>Qian Zhao, Bloomberg</li>
+<li>Haiyi Zhu, Carnegie Mellon University</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Column:end --></div></div>
+<!-- Row:end --></div></div>
+<!-- Section:end --></div>
+<!-- Content:end -->
+<footer id="colophon" itemscope="itemscope" itemtype="https://schema.org/WPFooter" role="contentinfo">
+<div class="footer-width-fixer"> <div class="elementor elementor-112" data-elementor-id="112" data-elementor-settings="[]" data-elementor-type="wp-post">
+<div class="elementor-inner">
+<div class="elementor-section-wrap">
+<section class="elementor-element elementor-element-bf9ca9c elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-element_type="section" data-id="bf9ca9c">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-row">
+<div class="elementor-element elementor-element-387a4ff elementor-column elementor-col-33 elementor-top-column" data-element_type="column" data-id="387a4ff">
+<div class="elementor-column-wrap">
+<div class="elementor-widget-wrap">
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-5d3c85b elementor-column elementor-col-33 elementor-top-column" data-element_type="column" data-id="5d3c85b">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-83215c4 elementor-widget elementor-widget-image" data-element_type="widget" data-id="83215c4" data-widget_type="image.default">
+<div class="elementor-widget-container">
+<div class="elementor-image">
+<img alt="" class="attachment-large size-large" height="72" src="https://cscw.acm.org/2020/wp-content/uploads/2020/02/SIGCHI-logo.gif" width="312"/> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-f933f33 elementor-column elementor-col-33 elementor-top-column" data-element_type="column" data-id="f933f33">
+<div class="elementor-column-wrap">
+<div class="elementor-widget-wrap">
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="elementor-element elementor-element-9525b3e elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-element_type="section" data-id="9525b3e">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-row">
+<div class="elementor-element elementor-element-c62c41a elementor-column elementor-col-33 elementor-top-column" data-element_type="column" data-id="c62c41a">
+<div class="elementor-column-wrap">
+<div class="elementor-widget-wrap">
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-23600b0 elementor-column elementor-col-33 elementor-top-column" data-element_type="column" data-id="23600b0">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-6440d50 elementor-widget elementor-widget-text-editor" data-element_type="widget" data-id="6440d50" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<div class="elementor-text-editor elementor-clearfix"><p style="text-align: center;">CSCW 2020 | ©2016</p></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-31805fd elementor-column elementor-col-33 elementor-top-column" data-element_type="column" data-id="31805fd">
+<div class="elementor-column-wrap">
+    <div class="elementor-widget-wrap">
+    </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+
+    </div>
+</div>
+</body>
+</html>

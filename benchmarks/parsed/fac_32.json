@@ -1,0 +1,1222 @@
+{
+    "id": 0,
+    "content": "Steve Zdancewic",
+    "isList": true,
+    "children": [
+        {
+            "id": 1,
+            "content": "Steve Zdancewic",
+            "key": 1
+        },
+        {
+            "id": 2,
+            "content": "Professor",
+            "key": 2
+        },
+        {
+            "id": 3,
+            "content": "Department of Computer and Information Science",
+            "key": 3
+        },
+        {
+            "id": 4,
+            "content": "University of Pennsylvania",
+            "key": 4
+        },
+        {
+            "id": 5,
+            "content": "e-mail: stevez (at) cis.upenn.edu",
+            "key": 5
+        },
+        {
+            "id": 6,
+            "content": "phone:",
+            "key": 6,
+            "children": [
+                {
+                    "id": 7,
+                    "content": "215-898-2661",
+                    "key": 1
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "content": "office:",
+            "key": 7,
+            "children": [
+                {
+                    "id": 9,
+                    "content": "511 Levine Hall",
+                    "key": 1
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "content": "office hours:",
+            "key": 8,
+            "children": [
+                {
+                    "id": 11,
+                    "content": "Monday 3:30 - 5:00pm & by appointment",
+                    "key": 1
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "content": "[Curiculum Vitae] [Publications] [Teaching] [Students]",
+            "key": 9
+        },
+        {
+            "id": 13,
+            "content": "",
+            "key": 10,
+            "children": [
+                {
+                    "id": 14,
+                    "content": "Research Interests",
+                    "key": 1,
+                    "children": [
+                        {
+                            "id": 15,
+                            "content": "I study programming languages and computer security. I have wide-ranging interests, and some of my most recent work touches on: Coq verification of LLVM program transformations and quantum circuits, type-directed program synthesis, linear types and verified web server implementations. I have also spent a lot of time thinking about language-based enforcement of information-flow policies, low-level code memory safety, understanding dynamic security policies, and authorization logic. I am interested in secure concurrent and distributed computing, functional programming languages, type theory, linear and modal logics, theorem proving and mechanized metatheory. More information about my research can be found in this (out of date) research statement.",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 16,
+                    "content": "Current Research Projects and Activities",
+                    "isList": true,
+                    "key": 2,
+                    "children": [
+                        {
+                            "id": 17,
+                            "content": "PL Club",
+                            "isList": true,
+                            "key": 1,
+                            "children": [
+                                {
+                                    "id": 18,
+                                    "content": "Penn's programming languages research group, run jointly with Benjamin Pierce and Stephanie Weirich. We meet weekly with students and post-docs to discuss current research topics.",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 19,
+                            "content": "",
+                            "isList": true,
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 20,
+                                    "content": "NSF Expedition on the Science of Deep Specification",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 21,
+                                    "content": "The DeepSpec project focuses on the specification and verification of full functional correctness of software and hardware. We are bringing Coq formalization to bear on systems-level programs such as compilers, operating systems, and databases.",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 22,
+                                    "content": "Interaction Trees Coq development",
+                                    "key": 3
+                                }
+                            ]
+                        },
+                        {
+                            "id": 23,
+                            "content": "",
+                            "isList": true,
+                            "key": 3,
+                            "children": [
+                                {
+                                    "id": 24,
+                                    "content": "Vellvm",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 25,
+                                    "content": "The verified LLVM project is developing operational semantics for the LLVM intermediate representation using the interactive theorem prover Coq. The resulting tools let us create highly-reliable program transformation passes and optimizations.",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 26,
+                                    "content": "Vellvm Coq development",
+                                    "key": 3
+                                }
+                            ]
+                        },
+                        {
+                            "id": 27,
+                            "content": "",
+                            "isList": true,
+                            "key": 4,
+                            "children": [
+                                {
+                                    "id": 28,
+                                    "content": "Semantics, Formal Reasoning, and Tools for Quantum Programming",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 29,
+                                    "content": "Quantum algorithms are complex, and quantum computers explore alternative computation branches in superposition, so programming mistakes in even minor parts of the code can alter the quantum state and invalidate the final result. The goal of this project is to devise novel methods for ensuring that quantum programs are correct.",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 30,
+                                    "content": "QWIRE Coq development",
+                                    "key": 3
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 31,
+                    "content": "Previous Research Projects and Activities",
+                    "isList": true,
+                    "key": 3,
+                    "children": [
+                        {
+                            "id": 32,
+                            "content": "",
+                            "isList": true,
+                            "key": 1,
+                            "children": [
+                                {
+                                    "id": 33,
+                                    "content": "ExCAPE",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 34,
+                                    "content": "This NSF Expedition on Computer-Augmented Program Engineering seeks to transform the way that programmers develop software by advancing the theory and practice of software synthesis.",
+                                    "key": 2
+                                }
+                            ]
+                        },
+                        {
+                            "id": 35,
+                            "content": "",
+                            "isList": true,
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 36,
+                                    "content": "SoftBound + CETS",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 37,
+                                    "content": "This project is developing software instrumentation techniques to achieve complete memory safety for C programs, while requiring minimal changes to the source programs.",
+                                    "key": 2
+                                }
+                            ]
+                        },
+                        {
+                            "id": 38,
+                            "content": "Security-Oriented Languages",
+                            "isList": true,
+                            "key": 3,
+                            "children": [
+                                {
+                                    "id": 39,
+                                    "content": "This research seeks to develop programming language abstractions and analyses that let developers create programs that are secure by construction.",
+                                    "key": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 40,
+                    "content": "Recent Publications (Complete List)",
+                    "isList": true,
+                    "key": 4,
+                    "children": [
+                        {
+                            "id": 41,
+                            "content": "Interaction Trees: Representing Recursive and Impure Programs in Coq [POPL20] (distinguished paper)",
+                            "key": 1
+                        },
+                        {
+                            "id": 42,
+                            "content": "An Equational Theory for Weak Bisimulation via Generalized Parameterized Coinduction [CPP20]",
+                            "key": 2
+                        },
+                        {
+                            "id": 43,
+                            "content": "Synthesizing Symmetric Lenses [ICFP2019]",
+                            "key": 3
+                        },
+                        {
+                            "id": 44,
+                            "content": "SoK: General Purpose Compilers for Secure Multi-Party Computation [Oakland19]",
+                            "key": 4
+                        },
+                        {
+                            "id": 45,
+                            "content": "«more»",
+                            "key": 5
+                        }
+                    ]
+                },
+                {
+                    "id": 46,
+                    "content": "Teaching (Summary)",
+                    "isList": true,
+                    "key": 5,
+                    "children": [
+                        {
+                            "id": 47,
+                            "content": "Programming Languages and Techniques I (CIS 120)   2019, 2017, 2016, 2014, 2012, 2011, 2010",
+                            "key": 1
+                        },
+                        {
+                            "id": 48,
+                            "content": "Compilers (CIS 341)   2020 , 2018,2017,2015, 2013, 2011, 2008",
+                            "key": 2
+                        },
+                        {
+                            "id": 49,
+                            "content": "Software Foundations (CIS 500)   2016, 2013",
+                            "key": 3
+                        },
+                        {
+                            "id": 50,
+                            "content": "Software and Compiler Verification (CIS 700)   2005",
+                            "key": 4
+                        },
+                        {
+                            "id": 51,
+                            "content": "Computer and Network Security (CIS 551)   2012 , 2009 , 2008 , 2007 , 2006 , 2005",
+                            "key": 5
+                        },
+                        {
+                            "id": 52,
+                            "content": "Introduction to Networks and Security (CSE 331)   2006 , 2004 , 2003 , 2002",
+                            "key": 6
+                        },
+                        {
+                            "id": 53,
+                            "content": "π-Calculus and Foundations of Concurrent Systems (CIS 700)   2004",
+                            "key": 7
+                        },
+                        {
+                            "id": 54,
+                            "content": "Advanced Topics in PL:",
+                            "key": 8,
+                            "children": [
+                                {
+                                    "id": 55,
+                                    "content": "Safety and Security (CIS 670)   2003",
+                                    "key": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 56,
+                    "content": "Advising",
+                    "key": 6,
+                    "children": [
+                        {
+                            "id": 57,
+                            "content": "Post Docs",
+                            "key": 1,
+                            "children": [
+                                {
+                                    "id": 58,
+                                    "content": "Yannick Zackowski (post doc 2018 - )",
+                                    "isList": true,
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 59,
+                            "content": "Current PhD Students",
+                            "isList": true,
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 60,
+                                    "content": "Calvin Beck (Coadvised with Benjamin Pierce)",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 61,
+                                    "content": "Paul He",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 62,
+                                    "content": "Yishuai Li (Coadvised with Benjamin Pierce)",
+                                    "key": 3
+                                },
+                                {
+                                    "id": 63,
+                                    "content": "Solomon Maina",
+                                    "key": 4
+                                },
+                                {
+                                    "id": 64,
+                                    "content": "Nick Rioux",
+                                    "key": 5
+                                },
+                                {
+                                    "id": 65,
+                                    "content": "Li-yao Xia (Coadvised with Benjamin Pierce)",
+                                    "key": 6
+                                }
+                            ]
+                        },
+                        {
+                          "id": 66,
+                          "content": "Former Students and Post Docs",
+                          "isList": true,
+                          "key": 3,
+                          "children": [
+                            {
+                              "id": 67,
+                              "content": "Nicolas Koh (2015-2019, Coadvised with Benjamin Pierce)",
+                              "key": 1
+                            },
+                            {
+                              "id": 68,
+                              "content": "Christine Rizkallah (post doc 2016-2018, now a UNSW)",
+                              "key": 2
+                            },
+                            {
+                              "id": 69,
+                              "content": "Robert Rand (PhD 2018, now at UMD)",
+                              "key": 3
+                            },
+                            {
+                              "id": 70,
+                              "content": "Jennifer Paykin (PhD 2018, now at Galois)",
+                              "key": 4
+                            },
+                            {
+                              "id": 71,
+                              "content": "Dmitri Garbuzov (Masters 2016)",
+                              "key": 5
+                            },
+                            {
+                              "id": 72,
+                              "content": "William Mansky (post doc 2015-2016, now at UIC)",
+                              "key": 6
+                            },
+                            {
+                              "id": 73,
+                              "content": "Peter-Michael Osera (PhD 2015, now at Grinnell College)",
+                              "key": 7
+                            },
+                            {
+                              "id": 74,
+                              "content": "Benoît Valiron (post doc 2012-2013)",
+                              "key": 8
+                            },
+                            {
+                              "id": 75,
+                              "content": "Hongbo (Bob) Zhang (Masters 2013, now at Bloomberg)",
+                              "key": 9
+                            },
+                            {
+                              "id": 76,
+                              "content": "Jianzhou Zhao (PhD 2013, now at Facebook)",
+                              "key": 10
+                            },
+                            {
+                              "id": 77,
+                              "content": "Karl Mazurak (PhD 2013, now at Google)",
+                              "key": 11
+                            },
+                            {
+                              "id": 78,
+                              "content": "Jeff Vaughan (PhD 2009, now at LogicBlox)",
+                              "key": 12
+                            },
+                            {
+                              "id": 79,
+                              "content": "Limin Jia, PhD (post doc 2007-2009, now at CMU)",
+                              "key": 13
+                            },
+                            {
+                              "id": 80,
+                              "content": "Peng Li (PhD 2008, now at Google)",
+                              "key": 14
+                            },
+                            {
+                              "id": 81,
+                              "content": "Stephen Tse (PhD 2007, now at a startup)",
+                              "key": 15
+                            }
+                            ]
+                        }
+                    ]
+                },
+              {
+                "id": 82,
+                "content": "Awards and Honors",
+                "isList": true,
+                "key": 7,
+                "children": [
+                  {
+                    "id": 83,
+                    "content": "IEEE MICRO \"top picks\", 2013",
+                    "key": 1
+                  },
+                  {
+                    "id": 84,
+                    "content": "Alfred P. Sloan Fellow, 2009-2010",
+                    "key": 2
+                  },
+                  {
+                    "id": 85,
+                    "content": "NSF CAREER award, 2004",
+                    "key": 3
+                  },
+                  {
+                    "id": 86,
+                    "content": "Best Paper award at SOSP, 2001",
+                    "key": 4
+                  },
+                  {
+                    "id": 87,
+                    "content": "Intel Foundation Graduate Fellowship, 2001",
+                    "key": 5
+                  },
+                  {
+                    "id": 88,
+                    "content": "Best Paper award at ICFP, 1999",
+                    "key": 6
+                  },
+                  {
+                    "id": 89,
+                    "content": "NSF Graduate Student Fellowship, 1996",
+                    "key": 7
+                  }
+                    ]
+                }
+            ]
+        },
+      {
+        "id": 90,
+        "content": "Miscellany",
+        "isList": true,
+        "key": 11,
+        "children": [
+          {
+            "id": 91,
+            "content": "My wife, Stephanie Weirich, is also on the Computer and Information Science Faculty at Penn.",
+            "key": 1
+          },
+          {
+            "id": 92,
+            "content": "Some of my old talks are available.",
+            "key": 2
+          },
+          {
+            "id": 93,
+            "content": "At some point I wrote up some writing tips for PhD students.",
+            "key": 3
+          }
+            ]
+        },
+      {
+        "id": 94,
+        "content": "Last modified:",
+        "key": 12,
+        "children": [
+          {
+            "id": 95,
+            "content": "Thursday Jan 16 13:42:34 EST 2020",
+            "key": 1
+          }
+        ]
+      },
+      {
+        "id": 96,
+        "content": "Steve Zdancewic's Publications   Copyright Information",
+        "key": 13
+      },
+      {
+        "id": 97,
+        "content": "Journal Articles:",
+        "isList": true,
+        "key": 14,
+        "children": [
+          {
+            "id": 98,
+            "content": "[1] ,Li yao Xia, Yannick Zakowski, Paul He, Chung-Kil Hur, Gregory Malecha, Benjamin C. Pierce, and Steve Zdancewic. Interaction Trees . Proceedings of the ACM on Programming Languages , 4(POPL), January 2020. [ PDF Abstract ]",
+            "isList": true,
+            "key": 1
+          },
+          {
+            "id": 99,
+            "content": "[2] ,Anders Miltner, Solomon Maina, Kathleen Fisher, Benjamin C. Pierce, David Walker, and Steve Zdancewic. Synthesizing Symmetric Lenses . Proceedings of the ACM on Programming Languages , (ICFP), 2019. [ PDF Abstract ]",
+            "isList": true,
+            "key": 2
+          },
+          {
+            "id": 100,
+            "content": "[3] ,Anders Miltner, Kathleen Fisher, Benjamin C. Pierce, David Walker, and Steve Zdancewic. Synthesizing Bijective Lenses . Proceedings of the ACM on Programming Languages , 2(POPL), January 2018. [ PDF Abstract ]",
+            "isList": true,
+            "key": 3
+          },
+          {
+            "id": 101,
+            "content": "[4] ,Solomon Maina, Anders Miltner, Kathleen Fisher, Benjamin C. Pierce, David Walker, and Steve Zdancewic. Synthesizing Quotient Lenses . Proceedings of the ACM on Programming Languages , 2(ICFP), 2018. [ PDF Abstract ]",
+            "isList": true,
+            "key": 4
+          },
+          {
+            "id": 102,
+            "content": "[5] ,Andrew W. Appel, Lennart Beringer, Adam Chlipala, Benjamin C. Pierce, Zhong Shao, Stephanie Weirich, and Steve Zdancewic. Position paper: the science of deep specification . Philosophical Transactions of the Royal Society of London A: Mathematical, Physical and Engineering Sciences , 375(2104), 2017. [ DOI http Abstract ]",
+            "isList": true,
+            "key": 5
+          },
+          {
+            "id": 103,
+            "content": "[6] ,B. Valiron and S. Zdancewic. Modeling Simply-Typed Lambda Calculi in the Category of Finite Vector Spaces . Scientific Annals of Computer Science , 24(2):325--368, 2014. [ DOI PDF Abstract ]",
+            "isList": true,
+            "key": 6
+          },
+          {
+            "id": 104,
+            "content": "[7] ,Peng Li and Steve Zdancewic. Arrows for Secure Information Flow . Theoretical Computer Science , 411(19):1974--1994, 2010. [ PDF Abstract ]",
+            "isList": true,
+            "key": 7
+          },
+          {
+            "id": 105,
+            "content": "[8] ,Stephen Tse and Steve Zdancewic. Run-time principals in information-flow type systems . Transactions on Programming Languages and Systems , 30(1):6, 2008. [ PDF Abstract ]",
+            "isList": true,
+            "key": 8
+          },
+          {
+            "id": 106,
+            "content": "[9] ,Andrew C. Myers, Andrei Sabelfeld, and Steve Zdancewic. Enforcing Robust Declassification and Qualified Robustness . Journal of Computer Security , 14(2):157--196, 2006. [ PDF Abstract ]",
+            "isList": true,
+            "key": 9
+          },
+          {
+            "id": 107,
+            "content": "[10] ,Jay Ligatti, David Walker, and Steve Zdancewic. A Type-theoretic Interpretation of Pointcuts and Advice . Science of Computer Programming: Special Issue on Foundations of Aspect-Oriented Programming , pages 240--266, 2006. [ PDF Abstract ]",
+            "isList": true,
+            "key": 10
+          },
+          {
+            "id": 108,
+            "content": "[11] ,Steve Zdancewic, Lantian Zheng, Nathaniel Nystrom, and Andrew C. Myers. Secure Program Partitioning . Transactions on Computer Systems , 20(3):283--328, 2002. [ PDF PS Abstract ]",
+            "isList": true,
+            "key": 11
+          },
+          {
+            "id": 109,
+            "content": "[12] ,Steve Zdancewic and Andrew C. Myers. Secure Information Flow via Linear Continuations . Higher Order and Symbolic Computation , 15(2/3):209--234, 2002. [ PDF PS Abstract ]",
+            "isList": true,
+            "key": 12
+          },
+          {
+            "id": 110,
+            "content": "[13] ,Dan Grossman, Greg Morrisett, and Steve Zdancewic. Syntactic Type Abstraction . Transactions on Programming Languages and Systems , 22(6):1037--1080, November 2000. [ PDF PS Abstract ]",
+            "isList": true,
+            "key": 13
+          }
+            ]
+        },
+      {
+        "id": 111,
+        "content": "Invited Papers:",
+        "isList": true,
+        "key": 15,
+        "children": [
+          {
+            "id": 112,
+            "content": "[1] ,Steve Zdancewic. Challenges for Information-flow Security . In Proceedings of the 1st International Workshop on the Programming Language Interference and Dependence (PLID 2004) , 2004. (5 pages). [ PDF ]",
+            "isList": true,
+            "key": 1
+          },
+          {
+            "id": 113,
+            "content": "[2] ,Steve Zdancewic. A Type System for Robust Declassification . In Proceedings of the Nineteenth Conference on the Mathematical Foundations of Programming Semantics (MFPS) . Electronic Notes in Theoretical Computer Science, March 2003. (16 pages). [ PDF PS Abstract ]",
+            "isList": true,
+            "key": 2
+          }
+            ]
+        },
+      {
+        "id": 114,
+        "content": "Conference and Selective Workshop Papers:",
+        "isList": true,
+        "key": 16,
+        "children": [
+          {
+            "id": 115,
+            "content": "[1] ,Yannick Zakowski, Paul He, Chung-Kil Hur, and Steve Zdancewic. An Equational Theory for Weak Bisimulation via Generalized Parameterized Coinduction . In Proceedings of the 9th ACM SIGPLAN International Conference on Certified Programs and Proofs (CPP) , January 2020. [ PDF Abstract ]",
+            "isList": true,
+            "key": 1
+          },
+          {
+            "id": 116,
+            "content": "[2] ,Nicolas Koh, Yao Li, Yishuai Li, Li yao Xia, Lennart Beringer, Wolf Honoré, William Mansky, Benjamin C. Pierce, and Steve Zdancewic. From C to Interaction Trees: Specifying, Verifying, and Testing a Networked Server . In Proceedings of the 8th ACM SIGPLAN International Conference on Certified Programs and Proofs (CPP) , January 2019. [ PDF Abstract ]",
+            "isList": true,
+            "key": 2
+          },
+          {
+            "id": 117,
+            "content": "[3] ,Marcella Hastings, Brett Hemenway, Daniel Noble, and Steve Zdancewic. SoK: General Purpose Compilers for Secure Multi-Party Computation . In IEEE 2019 Symposium on Security and Privacy (Oakland) , 2019. [ PDF Abstract ]",
+            "isList": true,
+            "key": 3
+          },
+          {
+            "id": 118,
+            "content": "[4] ,Jennifer Paykin and Steve Zdancewic. A HoTT Quantum Equational Theory . In The 16th International Conference on Quantum Physics and Logic (QPL) , 2019. extended version available on arXiv. [ http Abstract ]",
+            "isList": true,
+            "key": 4
+          },
+          {
+            "id": 119,
+            "content": "[5] ,Christine Rizkallah, Dmitri Garbuzov, and Steve Zdancewic. A Formal Equational Theory for Call-By-Push-Value . In 9th International Conference on Interactive Theorem Proving (ITP) , 2018. [ PDF Abstract ]",
+            "isList": true,
+            "key": 5
+          },
+          {
+            "id": 120,
+            "content": "[6] ,Robert Rand, Jennifer Paykin, Dong-Ho Lee, and Steve Zdancewic. REQUIRE: Reasoning about Reversible Quantum Circuits . In The 15th International Conference on Quantum Physics and Logic (QPL) , 2018. [ PDF ]",
+            "isList": true,
+            "key": 6
+          },
+          {
+            "id": 121,
+            "content": "[7] ,Jennifer Paykin, Robert Rand, and Steve Zdancewic. QWire: A Core Language for Quantum Circuits . In Proc. of the ACM Symposium on Principles of Programming Languages (POPL) , 2017. [ PDF Abstract ]",
+            "isList": true,
+            "key": 7
+          },
+          {
+            "id": 122,
+            "content": "[8] ,William Mansky, Yuanfeng Peng, Steve Zdancewic, and Joseph Devietti. Verifying Dynamic Race Detection . In The 6th ACM SIGPLAN Conference on Certified Programs and Proofs (CPP 2017) , 2017. [ PDF Abstract ]",
+            "isList": true,
+            "key": 8
+          },
+          {
+            "id": 123,
+            "content": "[9] ,Robert Rand, Jennifer Paykin, and Steve Zdancewic. Q wire Practice: Formal Verification of Quantum Circuits in Coq. In The 14th International Conference on Quantum Physics and Logic (QPL) , 2017. [ PDF Abstract ]",
+            "isList": true,
+            "key": 9
+          },
+          {
+            "id": 124,
+            "content": "[10] ,Jennifer Paykin and Steve Zdancewic. The Linearity Monad . In Proceedings of the 10th ACM SIGPLAN International Haskell Symposium , 2017. [ PDF Abstract ]",
+            "isList": true,
+            "key": 10
+          },
+          {
+            "id": 125,
+            "content": "[11] ,Jonathan Frankle, Peter-Michael Osera, David Walker, and Steve Zdancewic. Example-Directed Synthesis: A Type-Theoretic Interpretation . In Proc. of the ACM Symposium on Principles of Programming Languages (POPL) , 2016. [ PDF Abstract ]",
+            "isList": true,
+            "key": 11
+          },
+          {
+            "id": 126,
+            "content": "[12] ,Jennifer Paykin and Steve Zdancewic. Linear λμ is CP (more or less) . In A List of Successes to Change the World (Wadlerfest) , 2016. [ PDF Abstract ]",
+            "isList": true,
+            "key": 12
+          },
+          {
+            "id": 127,
+            "content": "[13] ,Peter-Michael Osera and Steve Zdancewic. Type-and-Example-Directed Program Synthesis . In Proc. 2015 ACM SIGPLAN Conference on Programming Languages Design and Implementation (PLDI) , 2015. [ PDF Abstract ]",
+            "isList": true,
+            "key": 13
+          },
+          {
+            "id": 128,
+            "content": "[14] ,Jeehoon Kang, Chung-Kil Hur, William Mansky, Dmitri Garbuzov, Steve Zdancewic, and Viktor Vafeiadis. A Formal C Memory Model Supporting Integer-Pointer Casts . In Proc. 2015 ACM SIGPLAN Conference on Programming Languages Design and Implementation (PLDI) , 2015. [ PDF Abstract ]",
+            "isList": true,
+            "key": 14
+          },
+          {
+            "id": 129,
+            "content": "[15] ,William Mansky, Dmitri Garbuzov, and Steve Zdancewic. An Axiomatic Specification for Sequential Memory Models . In Computer Aided Verification - 27th International Conference, CAV 2015 , 2015. [ PDF Abstract ]",
+            "isList": true,
+            "key": 15
+          },
+          {
+            "id": 130,
+            "content": "[16] ,Santosh Nagarakatte, Milo M. K. Martin, and Steve Zdancewic. Everything You Want to Know About Pointer-Based Checking . In 1st Summit on Advances in Programming Languages, SNAPL 2015, May 3-6, 2015, Asilomar, California, USA , pages 190--208, 2015. [ DOI PDF http Abstract ]",
+            "isList": true,
+            "key": 16
+          },
+          {
+            "id": 131,
+            "content": "[17] ,Robert Rand and Steve Zdancewic. VPHL: A Verified Partial-Correctness Logic for Probabilistic Programs . In Mathematical Foundations of Program Semantics (MFPS) , 2015. [ PDF Abstract ]",
+            "isList": true,
+            "key": 17
+          },
+          {
+            "id": 132,
+            "content": "[18] ,Santosh Nagarakatte, Milo M. K. Martin, and Steve Zdancewic. WatchdogLite: Hardware-Accelerated Compiler-Based Pointer Checking . In Proceedings of Annual IEEE/ACM International Symposium on Code Generation and Optimization , CGO 2014, pages 175:175--175:184. ACM, 2014. [ DOI PDF http Abstract ]",
+            "isList": true,
+            "key": 18
+          },
+          {
+            "id": 133,
+            "content": "[19] ,Aloïs Brunel, Marco Gaboardi, Damiano Mazza, and Steve Zdancewic. A Core Quantitative Coeffect Calculus . In Proc. of the 23rd European Symposium on Programming (ESOP) , volume 8410, pages 351--370, 2014. [ PDF Abstract ]",
+            "isList": true,
+            "key": 19
+          },
+          {
+            "id": 134,
+            "content": "[20] ,Benoît Valiron and Steve Zdancewic. Finite vector spaces as model of simply-typed lambda-calculi . In Proceedings of the 11th International Colloquium on Theoretical Aspects of Computing (ICTAC 14) , 2014. [ PDF Abstract ]",
+            "isList": true,
+            "key": 20
+          },
+          {
+            "id": 135,
+            "content": "[21] ,Santosh Nagarakatte, Milo M K Martin, and Steve Zdancewic. Hardware-enforced Comprehensive Memory Safety . IEEE MICRO's \"Top Picks of Architecture Conferences of 2012\" Issue (Micro Top Picks 202013) , May/June 2013. [ PDF Abstract ]",
+            "isList": true,
+            "key": 21
+          },
+          {
+            "id": 136,
+            "content": "[22] ,Jianzhou Zhao, Santosh Nagarakatte, Milo M. K. Martin, and Steve Zdancewic. Formal Verification of SSA-Based Optimizations for LLVM . In Proc. 2013 ACM SIGPLAN Conference on Programming Languages Design and Implementation (PLDI) , 2013. [ PDF Abstract ]",
+            "isList": true,
+            "key": 22
+          },
+          {
+            "id": 137,
+            "content": "[23] ,Christian DeLozier, Richard Eisenberg, Santosh Nagarakatte, Peter-Michael Osera, Milo M. K. Martin, and Steve Zdancewic. Ironclad C++: A Library-Augmented Type-Safe Subset of C++ . In Proceedings of the 28th Annual ACM SIGPLAN Conference on Object-Oriented Programming, Systems, Languages, and Applications, (OOPSLA) , 2013. [ PDF Abstract ]",
+            "isList": true,
+            "key": 23
+          },
+          {
+            "id": 138,
+            "content": "[24] ,Santosh Nagarakatte, Milo M. K. Martin, and Steve Zdancewic. Watchdog: Hardware for Safe and Secure Manual Memory Management and Full Memory Safety . In Proceedings of the 39th International Symposium on Computer Architecture (ISCA) , June 2012. [ PDF Abstract ]",
+            "isList": true,
+            "key": 24
+          },
+          {
+            "id": 139,
+            "content": "[25] ,Jianzhou Zhao, Santosh Nagarakatte, Milo M. K. Martin, and Steve Zdancewic. Formalizing the LLVM Intermediate Representation for Verified Program Transformations . In Proc. of the ACM Symposium on Principles of Programming Languages (POPL) , 2012. [ PDF Abstract ]",
+            "isList": true,
+            "key": 25
+          },
+          {
+            "id": 140,
+            "content": "[26] ,Jianzhou Zhao and Steve Zdancewic. Mechanized Verification of Computing Dominators for Formalizing Compilers . In The Second International Conference on Certified Programs and Proofs (CPP) , Lecture Notes in Computer Science, pages 27--42, 2012. [ PDF Abstract ]",
+            "isList": true,
+            "key": 26
+          },
+          {
+            "id": 141,
+            "content": "[27] ,Stephanie Weirich, Dimitrios Vytiniotis, Simon Peyton Jones, and Steve Zdancewic. Generative Type Abstraction and Type-level Computation . In Proc. of the ACM Symposium on Principles of Programming Languages (POPL) , 2011. [ PDF Abstract ]",
+            "isList": true,
+            "key": 27
+          },
+          {
+            "id": 142,
+            "content": "[28] ,Karl Mazurak and Steve Zdancewic. Lolliproc: to Concurrency from Classical Linear Logic via Curry-Howard and Control . In Proc. of the 15th ACM SIGPLAN International Conference on Functional Programming (ICFP) , 2010. [ PDF Abstract ]",
+            "isList": true,
+            "key": 28
+          },
+          {
+            "id": 143,
+            "content": "[29] ,Santosh Nagarakatte, Jianzhou Zhao, Milo M. K. Martin, and Steve Zdancewic. CETS: Compiler-Enforced Temporal Safety for C . In Proceedings of the ACM International Symposium on Memory Management (ISMM) , 2010. [ PDF Abstract ]",
+            "isList": true,
+            "key": 29
+          },
+          {
+            "id": 144,
+            "content": "[30] ,Jianzhou Zhao, Qi Zhang, and Steve Zdancewic. Relational Parametricity for Polymorphic Linear Lambda Calculus . In Proceedings of the Eighth ASIAN Symposium on Programming Languages and Systems (APLAS) , 2010. [ PDF Abstract ]",
+            "isList": true,
+            "key": 30
+          },
+          {
+            "id": 145,
+            "content": "[31] ,Santosh Nagarakatte, Jianzhou Zhao, Milo M. K. Martin, and Steve Zdancewic. SoftBound: Highly Compatible and Complete Spatial Memory Safety for C . In Proc. 2009 ACM SIGPLAN Conference on Programming Languages Design and Implementation (PLDI) , 2009. [ PDF Abstract ]",
+            "isList": true,
+            "key": 31
+          },
+          {
+            "id": 146,
+            "content": "[32] ,J. Nathan Foster, Benjamin C. Pierce, and Steve Zdancewic. Updatable Security Views . In Proc. of 22nd IEEE Computer Security Foundations Symposium (CSF) , 2009. [ PDF Abstract ]",
+            "isList": true,
+            "key": 32
+          },
+          {
+            "id": 147,
+            "content": "[33] ,Aaron Bohannon, Benjamin C. Pierce, Vilhelm Sjöberg, Stephanie Weirich, and Steve Zdancewic. Reactive Noninterference . In ACM Computer and Communications Security Conference (CCS) , 2009. [ PDF Abstract ]",
+            "isList": true,
+            "key": 33
+          },
+          {
+            "id": 148,
+            "content": "[34] ,Limin Jia, Jeffrey A. Vaughan, Karl Mazurak, Jianzhou Zhao, Luke Zarko, Joseph Schorr, and Steve Zdancewic. AURA: A Programming Language for Authorization and Audit . In Proc. of the 13th ACM SIGPLAN International Conference on Functional Programming (ICFP) , Victoria, British Columbia, Canada, September 2008. [ PDF Abstract ]",
+            "isList": true,
+            "key": 34
+          },
+          {
+            "id": 149,
+            "content": "[35] ,Joe Devietti, Colin Blundell, Milo M.K. Martin, and Steve Zdancewic. HardBound: Architectural Support for Spatial Safety of the C Programming Language . In International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS) , March 2008. [ PDF Abstract ]",
+            "isList": true,
+            "key": 35
+          },
+          {
+            "id": 150,
+            "content": "[36] ,Jeffrey A. Vaughan, Limin Jia, Karl Mazurak, and Steve Zdancewic. Evidence-based Audit . In Proc. of 21st IEEE Computer Security Foundations Symposium (CSF) , pages 177--191. IEEE Computer Society Press, 2008. [ PDF Abstract ]",
+            "isList": true,
+            "key": 36
+          },
+          {
+            "id": 151,
+            "content": "[37] ,Peng Li and Steve Zdancewic. Combining Events And Threads For Scalable Network Services . In Proc. 2007 ACM SIGPLAN Conference on Programming Languages Design and Implementation (PLDI) , pages 189--199, 2007. [ PS Abstract ]",
+            "isList": true,
+            "key": 37
+          },
+          {
+            "id": 152,
+            "content": "[38] ,Jeffrey A. Vaughan and Steve Zdancewic. A Cryptographic Decentralized Label Model . In IEEE 2007 Symposium on Security and Privacy (Oakland) , pages 192--206, 2007. [ PDF PS Abstract ]",
+            "isList": true,
+            "key": 38
+          },
+          {
+            "id": 153,
+            "content": "[39] ,Nikhil Swamy, Michael Hicks, Stephen Tse, and Steve Zdancewic. Managing Policy Updates in Security-Typed Languages . In Proc. of 19th IEEE Computer Security Foundations Workshop (CSFW) , pages 202--216. IEEE Computer Society Press, 2006. [ PDF Abstract ]",
+            "isList": true,
+            "key": 39
+          },
+          {
+            "id": 154,
+            "content": "[40] ,Peng Li and Steve Zdancewic. Encoding Information Flow in Haskell . In Proc. of 19th IEEE Computer Security Foundations Workshop (CSFW) , pages 16--27. IEEE Computer Society Press, 2006. [ PDF Abstract ]",
+            "isList": true,
+            "key": 40
+          },
+          {
+            "id": 155,
+            "content": "[41] ,Rajeev Alur, Pavol Černý, and Steve Zdancewic. Preserving Secrecy under Refinement . In Proc. of 33rd International Colloquium on Automata, Languages and Programming (ICALP) , pages 107--118, 2006. [ PDF Abstract ]",
+            "isList": true,
+            "key": 41
+          },
+          {
+            "id": 156,
+            "content": "[42] ,Peng Li and Steve Zdancewic. Downgrading Policies and Relaxed Noninterference . In Proc. 32nd ACM Symp. on Principles of Programming Languages (POPL) , pages 158--170, January 2005. [ PDF Abstract ]",
+            "isList": true,
+            "key": 42
+          },
+          {
+            "id": 157,
+            "content": "[43] ,Peng Li and Steve Zdancewic. Practical Information-flow Control in Web-based Information Systems . In Proc. of 18th IEEE Computer Security Foundations Workshop (CSFW) , pages 2--15, 2005. [ PDF Abstract ]",
+            "isList": true,
+            "key": 43
+          },
+          {
+            "id": 158,
+            "content": "[44] ,Stephen Tse and Steve Zdancewic. Designing a Security-typed Language with Certificate-based Declassification . In Proc. of the 14th European Symposium on Programming (ESOP) , volume 3444, pages 279--294, 2005. [ PDF Abstract ]",
+            "isList": true,
+            "key": 44
+          },
+          {
+            "id": 159,
+            "content": "[45] ,Brian E. Aydemir, Aaron Bohannon, Matthew Fairbairn, J. Nathan Foster, Benjamin C. Pierce, Peter Sewell, Dimitrios Vytiniotis, Geoffrey Washburn, Stephanie Weirich, and Steve Zdancewic. Mechanized Metatheory for the Masses: The POPLMark Challenge . In International Conference on Theorem Proving in Higher Order Logics (TPHOLs) , pages 50--65, 2005. [ PDF Abstract ]",
+            "isList": true,
+            "key": 45
+          },
+          {
+            "id": 160,
+            "content": "[46] ,Peng Li and Steve Zdancewic. Advanced Control Flow in Java Card Programming . In Proceedings of the 2004 ACM SIGPLAN/SIGBED Conference on Languages, Compilers, and Tools for Embedded Systems (LCTES) , pages 165--174, June 2004. [ PDF Abstract ]",
+            "isList": true,
+            "key": 46
+          },
+          {
+            "id": 161,
+            "content": "[47] ,Stephen Tse and Steve Zdancewic. Run-time Principals in Information-flow Type Systems . In IEEE 2004 Symposium on Security and Privacy (Oakland) , pages 179--193. IEEE Computer Society Press, May 2004. [ PDF PS Abstract ]",
+            "isList": true,
+            "key": 47
+          },
+          {
+            "id": 162,
+            "content": "[48] ,Andrew C. Myers, Andrei Sabelfeld, and Steve Zdancewic. Enforcing Robust Declassification . In Proc. of 17th IEEE Computer Security Foundations Workshop (CSFW) , pages 172--186, 2004. [ PDF Abstract ]",
+            "isList": true,
+            "key": 48
+          },
+          {
+            "id": 163,
+            "content": "[49] ,David Walker, Steve Zdancewic, and Jay Ligatti. A Theory of Aspects . In Proc. of the 8th ACM SIGPLAN International Conference on Functional Programming (ICFP) , pages 127--139, Upsala, Sweden, August 2003. [ PDF PS Abstract ]",
+            "isList": true,
+            "key": 49
+          },
+          {
+            "id": 164,
+            "content": "[50] ,Steve Zdancewic and Andrew C. Myers. Observational Determinism for Concurrent Program Security . In Proc. of 16th IEEE Computer Security Foundations Workshop (CSFW) , pages 29--45, Asilomar, CA, July 2003. [ PDF PS Abstract ]",
+            "isList": true,
+            "key": 50
+          },
+          {
+            "id": 165,
+            "content": "[51] ,Lantian Zheng, Stephen Chong, Steve Zdancewic, and Andrew C. Myers. Building Secure Distributed Systems Using Replication and Partitioning . In IEEE 2003 Symposium on Security and Privacy (Oakland) , pages 236--250. IEEE Computer Society Press, 2003. [ PDF PS Abstract ]",
+            "isList": true,
+            "key": 51
+          },
+          {
+            "id": 166,
+            "content": "[52] ,Steve Zdancewic, Lantian Zheng, Nathaniel Nystrom, and Andrew C. Myers. Untrusted Hosts and Confidentiality: Secure Program Partitioning . In Proc. 18th ACM Symp. on Operating System Principles (SOSP) , volume 35(5) of Operating Systems Review , pages 1--14, Banff, Canada, October 2001. [ PDF PS Abstract ]",
+            "isList": true,
+            "key": 52
+          },
+          {
+            "id": 167,
+            "content": "[53] ,Steve Zdancewic and Andrew C. Myers. Robust Declassification . In Proc. of 14th IEEE Computer Security Foundations Workshop (CSFW) , pages 15--23, Cape Breton, Canada, June 2001. [ PDF PS Abstract ]",
+            "isList": true,
+            "key": 53
+          },
+          {
+            "id": 168,
+            "content": "[54] ,Steve Zdancewic and Andrew C. Myers. Secure Information Flow and CPS . In Proc. of the 10th European Symposium on Programming (ESOP) , volume 2028 of Lecture Notes in Computer Science , pages 46--61, April 2001. [ PDF PS Abstract ]",
+            "isList": true,
+            "key": 54
+          },
+          {
+            "id": 169,
+            "content": "[55] ,Steve Zdancewic, Dan Grossman, and Greg Morrisett. Principals in Programming Languages: A Syntactic Proof Technique . In Proc. of the 4th ACM SIGPLAN International Conference on Functional Programming (ICFP) , pages 197--207, Paris, France, September 1999. [ PDF PS Abstract ]",
+            "isList": true,
+            "key": 55
+          }
+            ]
+        },
+      {
+        "id": 170,
+        "content": "Workshop Papers:",
+        "isList": true,
+        "key": 17,
+        "children": [
+          {
+            "id": 171,
+            "content": "[1] ,Neelakantan R. Krishnaswami, Jennifer Paykin, and Steve Zdancewic. Curry-Howard for GUIs . In POPL Off the Beaten Track (OBT) , 2015. [ PDF ]",
+            "isList": true,
+            "key": 1
+          },
+          {
+            "id": 172,
+            "content": "[2] ,Jennifer Paykin and Steve Zdancewic. A Linear/Producer/Consumer model of Classical Linear Logic (extended abstract) . In Third International Workshop on Linearity , LINEARITY, 2014. [ PDF Abstract ]",
+            "isList": true,
+            "key": 2
+          },
+          {
+            "id": 173,
+            "content": "[3] ,Peter-Michael Osera, Vilhelm Sjöberg, and Steve Zdancewic. Dependent Ineroperability . In The Sixth ACM SIGPLAN Workshop on Programming Languages meets Program Verification (PLPV) , 2012. [ PDF Abstract ]",
+            "isList": true,
+            "key": 3
+          },
+          {
+            "id": 174,
+            "content": "[4] ,Karl Mazurak, Jianzhou Zhao, and Steve Zdancewic. Lightweight linear types in System Fo. In ACM SIGPLAN International Workshop on Types in Languages Design and Implementation (TLDI) , pages 77--88, 2010. [ PDF Abstract ]",
+            "isList": true,
+            "key": 4
+          },
+          {
+            "id": 175,
+            "content": "[5] ,Limin Jia and Steve Zdancewic. Encoding information flow in Aura . In Proceedings of the 2009 Workshop on Programming Languages and Analysis for Security (PLAS) , pages 17--29, 2009. [ PDF Abstract ]",
+            "isList": true,
+            "key": 5
+          },
+          {
+            "id": 176,
+            "content": "[6] ,Michael J. May, Carl A. Gunter, Insup Lee, and Steve Zdancewic. Strong and Weak Policy Relations . In POLICY 2009, IEEE International Symposium on Policies for Distributed Systems and Networks , pages 33--36, 2009.",
+            "isList": true,
+            "key": 6
+          },
+          {
+            "id": 177,
+            "content": "[7] ,Karl Mazurak and Steve Zdancewic. ABash: Finding Bugs in Bash Scripts . In ACM SIGPLAN Workshop on Programming Languages and Analysis for Security (PLAS) , June 2007. [ PDF Abstract ]",
+            "isList": true,
+            "key": 7
+          },
+          {
+            "id": 178,
+            "content": "[8] ,Peng Li and Steve Zdancewic. Unifying Confidentiality and Integrity in Downgrading Policies . In Proc. of Foundations of Computer Security Workshop (FCS) , 2005. [ PDF Abstract ]",
+            "isList": true,
+            "key": 8
+          },
+          {
+            "id": 179,
+            "content": "[9] ,Michael Hicks, Stephen Tse, Boniface Hicks, and Steve Zdancewic. Dynamic updating of information-flow policies . In Proc. of Foundations of Computer Security Workshop (FCS) , 2005. [ PDF Abstract ]",
+            "isList": true,
+            "key": 9
+          },
+          {
+            "id": 180,
+            "content": "[10] ,Peng Li, Yun Mao, and Steve Zdancewic. Information Integrity Policies . In Proceedings of the Workshop on Formal Aspects in Security & Trust (FAST) , September 2003. [ PDF PS Abstract ]",
+            "isList": true,
+            "key": 10
+          },
+          {
+            "id": 181,
+            "content": "[11] ,Usa Sammapun, Raman Sharykin, Margaret Delap, Myong Kim, and Steve Zdancewic. Formalizing Java-MaC . In Proceedings of the Third Runtime Verification Workshop , pages 171--190. Electronic Notes in Theoretical Computer Science, July 2003. [ PDF PS Abstract ]",
+            "isList": true,
+            "key": 11
+          },
+          {
+            "id": 182,
+            "content": "[12] ,Michael Greenwald, Carl A. Gunter, Björn Knutsson, Andre Scedrov, Jonathan M. Smith, and Steve Zdancewic. Computer Security is Not a Science (but it should be) . In Proceedings of the Large-Scale Network Security Workshop , March 2003. [ PDF PS ]",
+            "isList": true,
+            "key": 12
+          },
+          {
+            "id": 183,
+            "content": "[13] ,Greg Morrisett, Karl Crary, Neal Glew, Dan Grossman, Richard Samuels, Frederick Smith, David Walker, Stephanie Weirich, and Steve Zdancewic. TALx86: A Realistic Typed Assembly Language . In 2nd ACM SIGPLAN Workshop on Compiler Support for System Software , pages 25--35, 1999. [ PDF PS Abstract ]",
+            "isList": true,
+            "key": 13
+          }
+            ]
+        },
+      {
+        "id": 184,
+        "content": "Edited Volumes:",
+        "isList": true,
+        "key": 18,
+        "children": [
+          {
+            "id": 185,
+            "content": "[1] ,Pierpaolo Degano, Ralf Küsters, Luca Viganò, and Steve Zdancewic, editors. Joint workshop on foundations of computer security and automated reasoning for security protocol analysis (FCS-ARSPA 2006) , volume 206 of Information and Computation . Elsevier, 2008.",
+            "isList": true,
+            "key": 1
+          },
+          {
+            "id": 186,
+            "content": "[2] ,Vugranam C. Shreedhar and Steve Zdancewic, editors. Proceedings of the 2006 Workshop on Programming Languages and Analysis for Security (PLAS) . ACM, 2006.",
+            "isList": true,
+            "key": 2
+          }
+            ]
+        },
+      {
+        "id": 187,
+        "content": "",
+        "key": 19,
+        "children": [
+          {
+            "id": 188,
+            "content": "Technical Reports, Work in Progress, and Unpublished Papers",
+            "key": 1
+          },
+          {
+            "id": 189,
+            "content": "",
+            "isList": true,
+            "key": 2,
+            "children": [
+              {
+                "id": 190,
+                "content": "[1] ,Jennifer Paykin and Steve Zdancewic. A HoTT Quantum Equational Theory (Extended Version) . available on arXiv, 2019. [ http Abstract ]",
+                "isList": true,
+                "key": 1
+              },
+              {
+                "id": 191,
+                "content": "[2] ,Jennifer Paykin and Steve Zdancewic. A Linear/Producer/Consumer model of Classical Linear Logic . Technical report, University of Pennsylvania, 2014. [ PDF Abstract ]",
+                "isList": true,
+                "key": 2
+              },
+              {
+                "id": 192,
+                "content": "[3] ,Christian DeLozier, Richard Eisenberg, Santosh Nagarakatte, Peter-Michael Osera, Milo M.K. Martin, and Steve Zdancewic. Ironclad C++: A library-Augmented Type-Safe Subset of C++ . Technical Report MS-CIS-13-05, University of Pennsylvania, March 2013. [ PDF ]",
+                "isList": true,
+                "key": 3
+              },
+              {
+                "id": 193,
+                "content": "[4] ,Jianzhou Zhao, Qi Zhang, and Steve Zdancewic. Relational Parametricity for Polymorphic Linear Lambda Calculus (Extended TR) . 2010. [ PDF Abstract ]",
+                "isList": true,
+                "key": 4
+              },
+              {
+                "id": 194,
+                "content": "[5] ,Jeffrey C. Vaughan, Limin Jia, Karl Mazurak, and Steve Zdancewic. Evidence-based Audit, Technical Appendix . Technical Report MS-CIS-08-09, University of Pennsylvania, 2008. [ PDF ]",
+                "isList": true,
+                "key": 5
+              },
+              {
+                "id": 195,
+                "content": "[6] ,Limin Jia, Jeffrey A. Vaughan, Karl Mazurak, Jianzhou Zhao, Luke Zarko, Joseph Schorr, and Steve Zdancewic. AURA:Preliminary Technical Results . Technical Report MS-CIS-08-10, University of Pennsylvania, 2008. [ PDF ]",
+                "isList": true,
+                "key": 6
+              },
+              {
+                "id": 196,
+                "content": "[7] ,Stephen Tse and Steve Zdancewic. Concise Concrete Syntax . Technical Report MS-CIS-08-11, University of Pennsylvania, 2008. [ PDF ]",
+                "isList": true,
+                "key": 7
+              },
+              {
+                "id": 197,
+                "content": "[8] ,Brian Aydemir, Stephanie Weirich, and Steve Zdancewic. Abstracting Syntax . (15 pages), 2008.",
+                "isList": true,
+                "key": 8
+              },
+              {
+                "id": 198,
+                "content": "[9] ,Stephen Tse and Steve Zdancewic. Translating Dependency into Parametricity . (33 pages) Accepted to Journal of Functional Programming , pending revisions, 2006.",
+                "isList": true,
+                "key": 9
+              },
+              {
+                "id": 199,
+                "content": "[10] ,Stephen Tse and Steve Zdancewic. Translating Dependency into Parametricity . Technical Report MIS-CIS-04-01, University of Pennsylvania, 2004. [ PDF Abstract ]",
+                "isList": true,
+                "key": 10
+              },
+              {
+                "id": 200,
+                "content": "[11] ,Stephen Tse and Steve Zdancewic. Designing a Security-typed Language with Certificate-based Declassification . Technical Report MIS-CIS-04-16, University of Pennsylvania, 2004. [ PDF Abstract ]",
+                "isList": true,
+                "key": 11
+              },
+              {
+                "id": 201,
+                "content": "[12] ,Stephen Tse and Steve Zdancewic. Run-time Principals in Information-flow Type Systems . Technical Report MS-CIS-03-39, University of Pennsylvania, 2003. The conference version appears in IEEE Security and Privacy 2004. [ PDF PS Abstract ]",
+                "isList": true,
+                "key": 12
+              },
+              {
+                "id": 202,
+                "content": "[13] ,Stephan A. Zdancewic. Programming Languages for Information Security . PhD thesis, Cornell University, August 2002. [ PDF PS Abstract ]",
+                "isList": true,
+                "key": 13
+              },
+              {
+                "id": 203,
+                "content": "[14] ,Steve Zdancewic, Lantian Zheng, Nathaniel Nystrom, and Andrew C. Myers. Secure Program Partitioning . Technical Report 2001-1846, Computer Science Dept., Cornell University, 2001. [ PDF PS Abstract ]",
+                "isList": true,
+                "key": 14
+              },
+              {
+                "id": 204,
+                "content": "[15] ,Steve Zdancewic and Andrew C. Myers. Confidentiality and Integrity with Untrusted Hosts . Technical Report 2000-1810, Computer Science Dept., Cornell University, 2000. [ PDF PS Abstract ]",
+                "isList": true,
+                "key": 15
+              },
+              {
+                "id": 205,
+                "content": "[16] ,Steve Zdancewic and Dan Grossman. Principals in Programming Languages: Technical Results . Technical Report TR99-1752, Computer Science Dept., Cornell University, June 1999. [ PDF PS Abstract ]",
+                "isList": true,
+                "key": 16
+              }
+                    ]
+                }
+            ]
+        },
+      {
+        "id": 206,
+        "content": "Copyright Information   The documents contained in these directories are included by the contributing authors as a means to ensure timely dissemination of scholarly and technical work on a non-commercial basis. Copyright and all rights therein are maintained by the authors or by other copyright holders, notwithstanding that they have offered their works here electronically. It is understood that all persons copying this information will adhere to the terms and constraints invoked by each author's copyright. These works may not be reposted without the explicit permission of the copyright holder.",
+        "key": 20
+      }
+    ]
+}

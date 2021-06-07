@@ -1,0 +1,1581 @@
+<!DOCTYPE html>
+<html>
+<head><title>Beverly Hills - Primary &amp; Specialty Care</title>
+<base href="https://www.uclahealth.org/beverly-hills/"/>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="" name="description"/>
+<meta content="" name="keywords"/>
+<meta content="Web Pages" name="modulename"/>
+<meta content="Thu, 29 Oct 2020 21:47:24 GMT" name="LastModifiedDate"/>
+<meta content="1" name="siteParentID"/>
+<meta content="0" name="siteParentMobile"/>
+<link href="favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
+<link href="//www.uclahealth.org/beverly-hills/" rel="canonical"/>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="//az-ucla-web-1a.influencehealth.com/libraries/bootstrap/bootstrap.influencehealth.css" rel="stylesheet"/>
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+<link href="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/smoothness/jquery-ui.css" rel="Stylesheet" type="text/css"/>
+<link href="bootstrap-theme.css" rel="stylesheet" type="text/css"/>
+<link href="youtubeplaylist.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<style type="text/css">.ui-autocomplete {
+        z-index: 1500 !important
+    }</style>
+<script>(function (b, m, h, a, g) {
+        b[a] = b[a] || [];
+        b[a].push({"gtm.start": new Date().getTime(), event: "gtm.js"});
+        var k = m.getElementsByTagName(h)[0], e = m.createElement(h), c = a != "dataLayer" ? "&l=" + a : "";
+        e.async = true;
+        e.src = "https://www.googletagmanager.com/gtm.js?id=" + g + c;
+        k.parentNode.insertBefore(e, k)
+    })(window, document, "script", "dataLayer", "GTM-NSK4WRJ");</script>
+<script src="dynamicfiles/publicGeneral.js" type="text/javascript"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js" type="text/javascript"></script>
+<script src="https://az-ucla-web-1a.influencehealth.com/libraries/jquery/jqueryplugin/jquery.objectAJAX.js" type="text/javascript"></script>
+<script src="jquery.youtubeplaylist-min.js"></script>
+<script src="youtube-modal.js"></script>
+<script src="videoplayer.js"></script>
+<script src="youplay.js"></script>
+<script type="text/javascript">if (typeof ccPublic != "undefined") {
+        ccPublic.bolEnableSubmitDisable = true
+    }
+    if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+        var msViewportStyle = document.createElement("style");
+        msViewportStyle.appendChild(document.createTextNode("@-ms-viewport{width:auto!important}"));
+        document.querySelector("head").appendChild(msViewportStyle)
+    }
+    $(document).ready(function () {
+        var b = ["publications", "primary", "Pham", "parking", "pain", "osteoporosis", "quest", "research", "request", "rez", "Resident", "samras", "Gold", "Gobind", "gi", "general", "Endocrinologist", "lab", "Jacob", "hepatology", "mist", "ob", "nephrologist", "Mridula", "motility", "monica", "Monar", "medicare", "Medi", "management", "mail", "location", "appointment", "App", "cal", "burbank", "colorectal", "Clinic", "Cheng", "Carol", "bokhoor", "blvd", "billing", "ali", "accepted", "accept", "fax", "gastro", "front", "desk", "santa", "sh", "solomon", "std", "TEST", "training", "Vascular", "watt", "westwood", "Women", "Davis", "Da", "allergy", "8641", "CARE", "lisa", "Lio", "lin", "Immunology", "HIV", "internal", "Gupta", "rheumatology", "Residency", "radiology", "Pulmonary", "puneky", "Orthopaedic", "sharma", "sports", "Tripathi", "UCLA", "wilshire", "Yi", "pediatrics", "Pediatric", "pulmonology", "gastroenterologist", "John", "Jien", "bone", "flu", "find", "dougherty", "doctor", "director", "shahabi", "shim", "dermatologist", "ERIN"];
+        $("#searchkeyword1").autocomplete({source: b, minLength: 2});
+        $.ui.autocomplete.prototype._renderItem = function (a, d) {
+            return $("<li></li>").data("item.autocomplete", d).append($("<a></a>").html(d.label)).appendTo(a)
+        }
+    });</script>
+<!--[if lt IE 9]>
+    <script src="html5shiv.js"></script>
+    <script src="respond.min.js"></script><![endif]-->
+<!--
+    Build Date: 10/20/2017 11:08:42 PM
+    Convert On Demand Release:COD9.4
+    (c) since 1999 Influence Health, Inc. All rights reserved.
+     -->
+<script src="dynamicfiles/publicGeneral.js" type="text/javascript"></script>
+<script type="text/javascript">if (typeof ccPublic != 'undefined') ccPublic.bolEnableSubmitDisable = true;</script>
+</head>
+<body class="layout-default">
+<script>$(document).ready(function () {
+    $("<link>").appendTo("head").attr({
+        type: "text/css",
+        rel: "stylesheet",
+        href: "https://www.uclahealth.org/alertmsg.css"
+    });
+    $(".alertmsg").html('<button id="btnClose" title="Close">X</button><div align="center">See latest <a href="https://www.uclahealth.org/coronavirus">COVID-19 coronavirus updates</a> and <a href="https://www.uclahealth.org/covid-19-faqs">FAQs</a>.<br>Learn about <a href="https://www.uclahealth.org/video-visits">video visits</a> and get <a href="https://www.uclahealth.org/covid-19-visitor-restrictions">visitor information</a>.</div>');
+    $("#btnClose").click(function () {
+        $(".alertmsg").fadeOut(500)
+    })
+});</script>
+<div class="alertmsg"></div>
+<noscript>
+<iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-NSK4WRJ" style="display:none;visibility:hidden" width="0"></iframe>
+</noscript>
+<noscript>
+<iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-NSK4WRJ" style="display:none;visibility:hidden" width="0"></iframe>
+</noscript>
+<div class="hidden-xs hidden-print" id="container-utility">
+<div class="container">
+<div class="row">
+<div class="col-md-9 col-sm-8 navigation">
+<ul class="nav nav-pills">
+<li class="pills_1_14"><a href="https://www.uclahealth.org">UCLA Health</a></li>
+<li class="pills_1_13"><a href="http://uclahealth.org" target="_blank">myUCLAhealth</a></li>
+<li class="pills_1_12"><a href="http://medschool.ucla.edu" target="_blank">School of Medicine</a>
+</li>
+<li>
+<div id="google_translate_element"></div>
+</li>
+</ul>
+</div>
+<div class="col-md-3 col-sm-4 form">
+<form action="body.cfm?id=25&amp;action=list&amp;parentid=1" class="form-inline" id="frmSiteSearchTeaser" method="POST" name="frmSiteSearchTeaser" onsubmit="return checkform(this,'keywords',true);" role="form"><input name="search_areas_id" type="hidden" value=""/> <input name="includewhat" type="hidden" value=""/> <input name="keywords_required" type="Hidden" value="You must enter at least one keyword."/> <input name="bolMobileSearch" type="hidden" value="0"/>
+<div class="form-group"><input class="form-control" id="searchkeyword1" name="keywords" placeholder="Search this site..." type="text"/></div>
+<div class="form-group">
+<button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="hidden-xs" id="container-header">
+<div class="container">
+<div class="row">
+<div class="col-sm-5 col-xs-6 logo"><a href="/"> <img alt="Beverly Hills - Primary &amp; Specialty Care" class="img-responsive" src="images/logo.png" title="Beverly Hills - Primary &amp; Specialty Care"/>
+</a></div>
+<div class="col-sm-7 col-xs-6 static"><h3 class="pull-right"><a href="default.cfm">Beverly Hills - Primary
+                &amp; Specialty Care</a></h3></div>
+</div>
+</div>
+</div>
+<div class="hidden-print" id="container-navigation">
+<div class="container">
+<div class="row">
+<div class="col-sm-12 navigation ribbon">
+<nav class="navbar navbar-default" role="navigation">
+<div class="navbar-header">
+<button class="navbar-toggle" data-target="#bs-navbar-collapse-1-39e2636707" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+<a class="navbar-brand" href="/"><img alt="Beverly Hills - Primary &amp; Specialty Care" class="img-responsive" src="images/logo.png" title="Beverly Hills - Primary &amp; Specialty Care"/></a>
+</div>
+<div class="collapse navbar-collapse" id="bs-navbar-collapse-1-39e2636707">
+<ul class="nav navbar-nav">
+<li class="visible-xs">
+<form action="body.cfm?id=25&amp;action=list&amp;parentid=1" class="form-inline" id="frmSiteSearchTeaser" method="POST" name="frmSiteSearchTeaser" onsubmit="return checkform(this,'keywords',true);" role="form"><input name="search_areas_id" type="hidden" value=""/> <input name="includewhat" type="hidden" value=""/> <input name="keywords_required" type="Hidden" value="You must enter at least one keyword."/>
+<input name="bolMobileSearch" type="hidden" value="0"/>
+<div class="form-group"><input class="form-control" id="searchkeyword1" name="keywords" placeholder="Search this site..." type="text"/></div>
+<div class="form-group">
+<button class="btn btn-default" type="submit"><i class="fa fa-search"></i>
+</button>
+</div>
+</form>
+</li>
+<li class="navbar_1_23"><a data-href="about-us" href="about-us">About Us</a></li>
+<li class="navbar_1_22"><a data-href="our-physicians" href="our-physicians">Our
+                                Physicians</a></li>
+<li class="navbar_1_21"><a data-href="for-patients" href="for-patients">For Patients</a>
+</li>
+<li class="navbar_1_20"><a data-href="billing" href="billing">Billing Information</a></li>
+<li class="navbar_1_19"><a data-href="resources-links" href="resources-links">Resources &amp;
+                                Links</a></li>
+<li class="navbar_1_18"><a data-href="maps-directions" href="maps-directions">Maps &amp;
+                                Directions</a></li>
+<li class="navbar_1_17"><a data-href="contact-us" href="contact-us">Contact Us</a></li>
+</ul>
+<ul class="nav navbar-nav visible-xs">
+<li class="pills_1_14"><a href="https://www.uclahealth.org">UCLA Health</a></li>
+<li class="pills_1_13"><a href="http://uclahealth.org" target="_blank">myUCLAhealth</a></li>
+<li class="pills_1_12"><a href="http://medschool.ucla.edu" target="_blank">School of
+                                Medicine</a></li>
+</ul>
+</div>
+</nav>
+</div>
+</div>
+</div>
+</div>
+<div id="container-utility-static-include">
+<div class="container visible-xs">
+<div class="row">
+<div class="col-xs-12"><h3 class="pull-right"><a href="default.cfm">Beverly Hills - Primary &amp; Specialty
+                Care</a></h3></div>
+</div>
+</div>
+</div>
+<div id="container-carousel">
+<div class="container">
+<div class="row">
+<div class="col-sm-12">
+<div class="carousel slide" data-interval="6000" data-pause="hover" data-ride="carousel" data-wrap="true" id="carousel_container_main">
+<ol class="carousel-indicators">
+<li class="active" data-slide-to="0" data-target="#carousel_container_main"></li>
+<li data-slide-to="1" data-target="#carousel_container_main"></li>
+<li data-slide-to="2" data-target="#carousel_container_main"></li>
+<li data-slide-to="3" data-target="#carousel_container_main"></li>
+</ol>
+<div class="carousel-inner">
+<div class="item active" title="Beverly Hills Primary &amp; Specialty Care"><img alt="Beverly Hills Primary &amp; Specialty Care" src="images/carousel/beverly-hills-banner-1.jpg"/>
+<div class="container">
+<div class="carousel-caption version1" id="carousel_caption1"></div>
+</div>
+</div>
+<div class="item" title="Beverly Hills Primary &amp; Specialty Care"><img alt="Beverly Hills Primary &amp; Specialty Care" src="images/carousel/beverly-hills-banner-2.jpg"/>
+<div class="container">
+<div class="carousel-caption version1" id="carousel_caption2"></div>
+</div>
+</div>
+<div class="item" title="Beverly Hills Primary &amp; Specialty Care"><img alt="Beverly Hills Primary &amp; Specialty Care" src="images/carousel/beverly-hills-banner-3.jpg"/>
+<div class="container">
+<div class="carousel-caption version1" id="carousel_caption3"></div>
+</div>
+</div>
+<div class="item" title="Beverly Hills Primary and Specialty Care - Reception and waiting room">
+<img alt="Beverly Hills Primary and Specialty Care - Reception and waiting room" src="images/carousel/beverly-hills-banner-4.jpg"/>
+<div class="container">
+<div class="carousel-caption version1" id="carousel_caption5"></div>
+</div>
+</div>
+</div>
+<a class="left carousel-control version1" data-slide="prev" href="#carousel_container_main"> <span class="glyphicon glyphicon-chevron-left"></span> </a> <a class="right carousel-control version1" data-slide="next" href="#carousel_container_main"> <span class="glyphicon glyphicon-chevron-right"></span> </a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="withCarousel" id="carousel-offset">
+<div id="container-content">
+<div class="container">
+<div class="spacer">
+<div class="container-spacer-home">
+<div class="row">
+<div class="col-sm-12 content">
+<div class="row">
+<div class="col-sm-4"><h2>Our Locations</h2>
+<p><strong>Primary &amp; Specialty Care</strong><br/>9675 Brighton Way, Suite
+                                        100<br/> Beverly Hills, CA 90210<br/><a href="tel:13102057310" title="Phone">(310)
+                                            205-7310</a> Phone<br/>(310) 205-7319 Fax<br/><a href="tel:13107940198" title="Phone">(310)
+                                            794-0198</a> Head &amp; Neck only<br/><a href="https://www.uclahealth.org/beverly-hills" title="Beverly Hills - Primary &amp; Specialty Care">uclahealth.org/beverly-hills</a>
+</p>
+<p><strong>Hours:</strong> 8 am to 5 pm, Monday to Friday</p>
+<p><strong>Parking Information:</strong> Public Parking is located at 461 N. Bedford
+                                        Dr. - first 2 hours free</p>
+<hr/>
+<p><strong><span style="color: #ff0000;">Please note</span>:</strong> Due to
+                                        COVID-19 screening procedures, all patients must check in for screening at suite
+                                        102 before proceeding to their appointment in Suite 115 or Suite 210.</p>
+<p><strong>Primary &amp; Specialty Care</strong><br/> 8641 Wilshire Blvd.,<br/>
+                                        Beverly Hills, CA 90211</p>
+<p><strong>Primary Care - Suite 210</strong><br/><a href="tel:13108557002" title="Phone">(310) 855-7002</a>
+                                        Phone<br/>(310) 855-7003 Fax</p>
+<p><strong>Specialty Suites - 115 &amp; 210</strong><br/><a href="tel:13108557002" title="Phone">(310)
+                                        855-7002</a> Phone<br/>(310) 855-7003 Fax</p>
+<p><strong>Cardiology - Suite 102</strong><br/> <a href="tel:13108557004" title="Phone">(310) 855-7004</a>
+                                        Phone</p>
+<p><strong>Hours:</strong> 8 am to 5 pm, Monday to Friday</p>
+<p><strong>Parking Information:</strong> $6 - $16 Cash Only. Street &amp; meter
+                                        parking are also available.</p>
+<hr/>
+<p><strong>Cancer Care</strong><br/> 120 S. Spalding Dr., Suite 401<br/> Beverly
+                                        Hills, CA 90212<br/><a href="tel:13102050771" title="Phone">(310) 205-0771</a>
+                                        Phone<br/>(310) 205-0801 Fax<br/> <a href="https://www.uclahealth.org/community-cancercare/beverly-hills" title="uclahealth.org/community-cancercare/beverly-hills">uclahealth.org/community-cancercare/beverly-hills</a>
+</p>
+<p><strong>Hours:</strong> 8 am to 5 pm, Monday to Friday</p>
+<hr/>
+<h2>Request an Appointment</h2>
+<p><a class="btn btn-md btn-action" href="https://myforms.uclahealth.org/s3/appointment-request/?o=bhpsc" target="_blank" title="Request an Appointment - UCLA Health office in Beverly Hills">Request
+                                        an Appointment</a></p>
+<div> </div>
+</div>
+<div class="col-sm-4"><h2>Our Specialties</h2>
+<ul>
+<li>Internal Medicine</li>
+<li>Pediatrics</li>
+<li>Allergy &amp; Immunology</li>
+<li>Cardiology</li>
+<li>Cardiac Imaging</li>
+<li><span>Cosmetic Dermatology</span></li>
+<li>Dermatology (Adult &amp; Pediatric)</li>
+<li>Digestive Diseases</li>
+<li>Endocrinology</li>
+<li><a href="https://www.uclahealth.org/head-neck-surgery/beverly-hills" title="Head and Neck">Head and Neck</a></li>
+<li><a href="https://www.uclahealth.org/community-cancercare/beverly-hills" title="Hematology-Oncology">Hematology-Oncology</a></li>
+<li>Infectious Diseases</li>
+<li>MOHS</li>
+<li>Nephrology</li>
+<li><a href="https://www.uclahealth.org/radiology/beverly-hills" title="On-site Radiology">On-site Radiology</a></li>
+<li><a href="https://www.uclahealth.org/plasticsurgery/" title="Plastic Surgery">Plastic Surgery</a></li>
+<li>Pulmonary</li>
+<li>Rheumatology</li>
+<li>Sleep Medicine</li>
+<li>Sports Medicine</li>
+<li>Voice Clinic</li>
+</ul>
+</div>
+<div class="col-sm-4"><h2>Patient's Corner</h2>
+<p><a href="our-physicians" title="Meet Our Doctors">Meet Our Doctors &gt;</a></p>
+<p><a href="for-patients" title="For Patients">For Patients &gt;</a></p>
+<p><a href="http://healthinfo.uclahealth.org/" target="_blank" title="Health Library">Health Library &gt;</a></p>
+<p><a href="billing" title="Billing Information">Billing Information &gt;</a></p>
+<p><a href="https://www.uclahealth.org/medical-records" title="Request Medical Records">Request Medical Records &gt;</a></p>
+<hr/>
+<h2>Appointment Reminders by Text</h2> Skip the phone calls and receive your
+                                    appointment reminders by text.<br/><a href="https://www.uclahealth.org/Appointments-Call-Click-Come-in#text-messaging" title="Learn how to sign up">Learn how to sign up &gt;</a>
+<hr/>
+<h2>Offering myUCLAhealth</h2>
+<p><a href="http://myuclahealth.org/" target="_blank" title="Register for myUCLAhealth to get access to your health information."></a>Get
+                                        instant 24/7 access to your health information with <em>myUCLAhealth</em>. Ask
+                                        about <a href="https://www.uclahealth.org/myuclahealth" title="registration for myUCLAhealth">registration for
+                                            myUCLAhealth</a> during your next office visit.</p></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer-offset">
+<div class="visible-xs" id="stay-connected-footer"><a class="facebook" href="https://www.facebook.com/uclahealth" target="_blank" title="Like us on Facebook">Like
+        Us on Facebook</a> <a class="twitter" href="https://www.twitter.com/uclahealth" target="_blank" title="Follow us on Twitter">Follow Us on Twitter</a> <a class="youtube" href="https://www.youtube.com/uclahealth" target="_blank" title="Subscribe to Our Videos on YouTube">Subscribe to Our Videos on
+        YouTube</a> <a class="instagram" href="https://www.instagram.com/uclahealth/" target="_blank" title="Follow us on Instagram">Follow us on Instagram</a> <a class="linkedin" href="https://www.linkedin.com/company/ucla-health" target="_blank" title="Connect with Us on LinkedIn">Connect with Us on LinkedIn</a> <a class="pinterest" href="https://www.pinterest.com/UCLAHealth" target="_blank" title="Follow us on Pinterest">Follow us on Pinterest</a></div>
+<div id="container-footer">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="row">
+<div class="col-md-12">
+<div class="col-md-2 col-sm-12 text-center"><a href="https://www.uclahealth.org/best-hospitals"> <img alt="UCLA Health hospitals ranked best hospitals by U.S. News &amp; World Report" border="0" src="https://www.uclahealth.org/images/shared/best-hospitals.png"/></a></div>
+<div class="col-md-10 col-sm-12">
+<div class="row">
+<div class="col-md-3 col-sm-6">
+<ul>
+<li><a href="https://www.uclahealth.org">UCLA Health</a></li>
+<li><a href="https://www.uclahealth.org/providers">Find a Doctor</a></li>
+<li><a href="http://medschool.ucla.edu" target="_blank">School of
+                                                Medicine</a></li>
+<li><a href="http://nursing.ucla.edu" target="_blank">School of Nursing</a>
+</li>
+<li><a href="http://www.ucla.edu">UCLA Campus</a></li>
+<li><a href="http://www.directory.ucla.edu" target="_blank">Directory</a>
+</li>
+</ul>
+</div>
+<div class="col-md-3 col-sm-6">
+<ul>
+<li><a href="https://www.uclahealth.org/newsroom">Newsroom</a></li>
+<li><a href="https://www.uclahealth.org/subscribe">Subscribe</a></li>
+<li><a href="https://connect.uclahealth.org/" target="_blank">Patient
+                                                Stories</a></li>
+<li><a href="https://www.uclahealth.org/giving">Giving</a></li>
+<li><a href="http://www.uclahealthcareers.org">Careers</a></li>
+<li><a href="https://www.uclahealth.org/volunteer">Volunteer</a></li>
+<li><a href="https://www.uclahealth.org/international-services">International
+                                                Services</a> <span aria-hidden="true" class="glyphicon glyphicon-globe" style="color: #006699;"></span></li>
+</ul>
+</div>
+<div class="col-md-3 col-sm-6">
+<ul>
+<li><a href="https://www.uclahealth.org/privacy">Privacy Practices</a></li>
+<li>
+<a href="https://www.uclahealth.org/nondiscrimination">Nondiscrimination</a>
+</li>
+<li><a href="https://www.uclahealth.org/billing">Billing</a></li>
+<li><a href="https://www.uclahealth.org/health-plans">Health Plans</a></li>
+<li><a href="https://www.uclahealth.org/emergency">Emergency</a></li>
+<li><a href="https://myforms.uclahealth.org/s3/Broken-Links-Submission" target="_blank">Report Broken Links</a></li>
+<li><a href="http://www.ucla.edu/terms-of-use">Terms of Use</a></li>
+</ul>
+</div>
+<div class="col-md-3 col-sm-6">
+<ul>
+<li><a href="tel:13108252631">1-310-825-2631</a></li>
+<li><a href="maps-directions">Maps &amp; Directions</a></li>
+<li><a href="contact-us">Contact Us</a></li>
+<li><a href="https://www.uclahealth.org/feedback">Your Feedback</a></li>
+<li><a href="https://www.uclahealth.org/reporting-misconduct">Report
+                                                Misconduct</a></li>
+<li><a href="https://www.uclahealth.org/social-media">Get Social</a></li>
+<li><a href="sitemap" title="Sitemap">Sitemap</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="container-copyright">
+<div class="container">
+<div class="row">
+<div class="col-md-5">
+<div class="pull-center-sm pull-center-xs"></div>
+</div>
+<div class="col-md-4"></div>
+<div class="col-md-3">
+<div class="pull-right-lg pull-right-md pull-center-sm pull-center-xs"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="hidden-xs" id="stay-connected"><a class="facebook" href="https://www.facebook.com/uclahealth" target="_blank" title="Like us on Facebook">Like Us on
+    Facebook</a> <a class="twitter" href="https://www.twitter.com/uclahealth" target="_blank" title="Follow us on Twitter">Follow Us on Twitter</a> <a class="youtube" href="https://www.youtube.com/uclahealth" target="_blank" title="Subscribe to Our Videos on YouTube">Subscribe to Our Videos on YouTube</a>
+<a class="instagram" href="https://www.instagram.com/uclahealth/" target="_blank" title="Follow us on Instagram">Follow
+        us on Instagram</a> <a class="linkedin" href="https://www.linkedin.com/company/ucla-health" target="_blank" title="Connect with Us on LinkedIn">Connect with Us on
+        LinkedIn</a> <a class="pinterest" href="https://www.pinterest.com/UCLAHealth" target="_blank" title="Follow us on Pinterest">Follow us on Pinterest</a></div>
+<script type="text/javascript">var modalLinkFilter = "myUCLAhealth";</script>
+<div aria-labelledby="modalLinkModalLabel" class="modal fade" id="modalLinkModal" role="dialog" tabindex="-1">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span>
+</button>
+<h4 class="modal-title" id="modalLinkModalLabel">Sign in to myUCLAhealth</h4></div>
+<div class="modal-body">
+<p>
+<iframe frameborder="0" height="400" name="myUCLAHealth login" scrolling="no" src="https://www.uclahealth.org/sitepages/mychart-login.html" width="100%"></iframe>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script src="smt_JQueryLoad.js"></script>
+<script type="text/javascript">(function () {
+    var b = document.createElement("script");
+    b.type = "text/javascript";
+    b.async = true;
+    b.src = "//us1.siteimprove.com/js/siteanalyze_66755.js";
+    var a = document.getElementsByTagName("script")[0];
+    a.parentNode.insertBefore(b, a)
+})();</script>
+<script type="text/javascript">var addthis_config = {ui_508_compliant: true, data_track_addressbar: false};</script>
+<script src="//s7.addthis.com/js/300/addthis_widget.js##pubid=xa-515aec7610a2bb06" type="text/javascript"></script>
+<style>#google_translate_element .goog-te-gadget-simple {
+    display: none !important
+}
+
+#google_translate_element .dropdown {
+    position: absolute;
+    padding-left: 35px;
+    width: max-content;
+    width: -moz-max-content
+}
+
+#google_translate_element .dropdown-menu {
+    left: 35px !important;
+    padding-left: 5px !important;
+    font-size: inherit !important
+}
+
+#google_translate_element .dropdown-menu a:hover, #google_translate_element .dropdown-menu a {
+    color: #3284be !important
+}
+
+#google_translate_element .dropdown-menu div.lang {
+    clear: both;
+    padding: 3px !important
+}</style>
+<script type="text/javascript">function googleTranslateElementInit() {
+    new google.translate.TranslateElement({
+        pageLanguage: "en",
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+        autoDisplay: false
+    }, "google_translate_element")
+};</script>
+<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript"></script>
+<script>function translateLanguage(b) {
+    var a = $(".goog-te-menu-frame:first");
+    if (!a.size()) {
+        alert("Error: Could not find Google translate frame.");
+        return false
+    }
+    a.contents().find(".goog-te-menu2-item span.text:contains(" + b + ")").get(0).click();
+    return false
+}
+
+var strDropdownLanguage = '<div class="dropdown show" id="googletranslate"><span class="glyphicon glyphicon-globe" aria-hidden="true" style="float:left!important;color:#0072bc;padding-right:5px;margin-top:3px;"></span>  <a class="dropdown-toggle notranslate" href="##" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Translate</a><div class="dropdown-menu" aria-labelledby="dropdownMenuLink"><div class="lang"><span class="notranslate"><strong>Select a language</strong></span></div><div class="lang"><a href="javascript:;" id="English" onclick="translateLanguage(this.id);"><span class="notranslate">English</span></a></div><div class="lang notranslate"><a href="javascript:;" id="Arabic" onclick="translateLanguage(this.id);"><img src="//www.uclahealth.org/images/site/lang-arabic.png" border="0" alt="Arabic"></a></div><div class="lang notranslate"><a href="javascript:;" id="Chinese" onclick="translateLanguage(this.id);"><img src="//www.uclahealth.org/images/site/lang-Chinese.png" border="0" alt="Chinese"></div><div class="lang notranslate"><a href="javascript:;" id="Italian" onclick="translateLanguage(this.id);"><img src="//www.uclahealth.org/images/site/lang-italian.png" border="0" alt="italian"></a></div><div class="lang notranslate"><a href="javascript:;" id="Japanese" onclick="translateLanguage(this.id);"><img src="//www.uclahealth.org/images/site/lang-Japanese.png" border="0" alt="Japanese"></a></div><div class="lang notranslate"><a href="javascript:;" id="Korean" onclick="translateLanguage(this.id);"><img src="//www.uclahealth.org/images/site/lang-Korean.png" border="0" alt="Korean"></a></div><div class="lang notranslate"><a href="javascript:;" id="Persian" onclick="translateLanguage(this.id);"><img src="//www.uclahealth.org/images/site/lang-Persian.png" border="0" alt="Persian"></a></div><div class="lang notranslate"><a href="javascript:;" id="Russian" onclick="translateLanguage(this.id);"><img src="//www.uclahealth.org/images/site/lang-Russian.png" border="0" alt="Russian"></a></div><div class="lang notranslate"><a href="javascript:;" id="Spanish" onclick="translateLanguage(this.id);"><img src="//www.uclahealth.org/images/site/lang-Spanish.png" border="0" alt="Spanish"></a></div><div class="lang notranslate"><a href="javascript:;" id="Vietnamese" onclick="translateLanguage(this.id);"><img src="//www.uclahealth.org/images/site/lang-Vietnamese.png" border="0" alt="Vietnamese"></a></div></div></div>';
+$("#google_translate_element").html(strDropdownLanguage);</script>
+<script src="https://www.uclahealth.org/beverly-hills/?smAjax=true&amp;RenderJS=E1BF264FD2F05D6EE3D5F61B33CA25A2" type="text/javascript"></script>
+<div class="layout-body">
+<!--googleoff: index-->
+
+<div class="alertmsg"></div><!-- Google Tag Manager (noscript) -->
+<noscript>
+<iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-NSK4WRJ" style="display:none;visibility:hidden" width="0"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) --><!-- Google Tag Manager (noscript) -->
+<noscript>
+<iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-NSK4WRJ" style="display:none;visibility:hidden" width="0"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) --><!--googleon: index-->
+<div class="hidden-xs hidden-print" id="container-utility">
+<div class="container">
+<div class="row">
+<div class="col-md-9 col-sm-8 navigation">
+<!--googleoff: index-->
+<ul class="nav nav-pills">
+<li class="pills_1_14"><a href="https://www.uclahealth.org">UCLA Health</a></li>
+<li class="pills_1_13"><a href="http://uclahealth.org" target="_blank">myUCLAhealth</a></li>
+<li class="pills_1_12"><a href="http://medschool.ucla.edu" target="_blank">School of Medicine</a>
+</li>
+<li>
+<div id="google_translate_element"></div>
+</li>
+</ul><!--googleon: index-->
+</div>
+<div class="col-md-3 col-sm-4 form">
+<!--googleoff: index-->
+<form action="body.cfm?id=25&amp;action=list&amp;parentid=1" class="form-inline" id="frmSiteSearchTeaser" method="POST" name="frmSiteSearchTeaser" onsubmit="return checkform(this,'keywords',true);" role="form">
+<input name="search_areas_id" type="hidden" value=""/>
+<input name="includewhat" type="hidden" value=""/>
+<input name="keywords_required" type="Hidden" value="You must enter at least one keyword."/>
+<input name="bolMobileSearch" type="hidden" value="0"/>
+<div class="form-group">
+<input class="form-control" id="searchkeyword1" name="keywords" placeholder="Search this site..." type="text"/>
+</div>
+<div class="form-group">
+<button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+</div>
+</form>
+<!--googleon: index-->
+</div>
+</div>
+</div>
+</div>
+<div class="hidden-xs" id="container-header">
+<div class="container">
+<div class="row">
+<div class="col-sm-5 col-xs-6 logo">
+<a href="/">
+<img alt="Beverly Hills - Primary &amp; Specialty Care" class="img-responsive" src="images/logo.png" title="Beverly Hills - Primary &amp; Specialty Care"/>
+</a>
+</div>
+<div class="col-sm-7 col-xs-6 static">
+<h3 class="pull-right"><a href="default.cfm">Beverly Hills - Primary &amp; Specialty Care</a></h3>
+</div>
+</div>
+</div>
+</div>
+<div class="hidden-print" id="container-navigation">
+<div class="container">
+<div class="row">
+<div class="col-sm-12 navigation ribbon">
+<!--googleoff: index-->
+<!--googleon: index-->
+</div>
+</div>
+</div>
+</div>
+<div id="container-utility-static-include">
+<div class="container visible-xs">
+<div class="row">
+<div class="col-xs-12">
+<h3 class="pull-right"><a href="default.cfm">Beverly Hills - Primary &amp; Specialty Care</a></h3>
+</div>
+</div>
+</div>
+</div>
+<div class="asPageTitle" id="container-carousel">
+<div class="container">
+<div class="row">
+<div class="col-sm-12">
+<h2>Our Physicians</h2>
+</div>
+</div>
+</div>
+</div>
+<div class="withCarousel" id="carousel-offset">
+<div id="container-content">
+<div class="container">
+<div class="spacer">
+<div class="row">
+<div class="col-sm-12 column-content">
+<div class="container-spacer">
+<div class="row">
+<div class="col-sm-12 breadcrumb">
+<ol class="breadcrumb">
+<li class="root">
+<a href="https://www.uclahealth.org/beverly-hills/default.cfm?id=1">Home</a>
+</li>
+<li class="active">
+                                            Our Physicians
+                                        </li>
+</ol>
+</div>
+</div>
+<div class="row title">
+<div class="col-sm-8">
+<h1 class="title">Our Physicians</h1>
+</div>
+<div class="col-sm-4">
+<div class="pull-right social-media">
+<h5>Share this</h5>
+<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+<a class="addthis_button_facebook"></a>
+<a class="addthis_button_twitter"></a>
+<a class="addthis_button_linkedin"></a>
+<a class="addthis_button_email"></a>
+<a class="addthis_button_print"></a>
+</div>
+</div>
+</div>
+</div>
+<p><strong>Jump to: </strong><a href="our-physicians#primary"><strong>9675 Brighton Way
+                                Providers</strong></a> | <strong><a href="our-physicians#specialty">8641 Wilshire Blvd.
+                                Providers</a></strong> | <strong><a href="our-physicians#hematology">Cancer Care
+                                Providers</a></strong></p>
+<hr/>
+<p><a name="primary"></a></p>
+<h2>Primary &amp; Specialty Care - 9675 Brighton Way, Suite 100 &amp; 102</h2>
+<div class="row">
+<div class="col-sm-2"><a href="https://www.uclahealth.org/dinesh-khatri-chhetri" title="Dinesh K. Chhetri"><img alt="Dinesh K. Chhetri, MD" border="0" class="img-responsive" height="200" src="https://www.uclahealth.org/pictures/PNRS/Dinesh-Chhetri.jpg" width="200"/></a></div>
+<div class="col-sm-10">
+<p><a href="https://www.uclahealth.org/dinesh-khatri-chhetri" title="Link to profile"><strong>Dinesh K.
+                                        Chhetri, MD</strong></a></p>
+<p><em>Head &amp; Neck Surgery</em></p>
+<p>Dr. Dinesh Chhetri is Professor of Head and Neck Surgery and a Laryngologist, a
+                                        specialist in voice disorders, swallowing disorders, and airway (breathing)
+                                        disorders. He graduated magna cum laude from Brown University with a degree in
+                                        Biochemistry, then obtained his MD from UCLA School of Medicine, where he
+                                        graduated with distinction for his thesis on vocal fold paralysis and laryngeal
+                                        reinnervation. He remained at UCLA for his residency training in
+                                        Otolaryngology-Head and Neck Surgery and Fellowship in Laryngology. <a href="https://www.uclahealth.org/dinesh-khatri-chhetri" title="More">More
+                                            &gt;</a></p>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-sm-2"><a href="https://www.uclahealth.org/clare-coda" title="Clare Coda, MD"><img alt="Clare Coda, MD" border="0" class="img-responsive" height="200" src="https://www.uclahealth.org/pictures/PNRS/Clare-Coda.jpg" width="200"/></a></div>
+<div class="col-sm-10">
+<p><a href="https://www.uclahealth.org/clare-coda" title="Link to profile"><strong>Clare
+                                        Coda, MD</strong></a></p>
+<p><em>Internal Medicine &amp; Pediatrics</em></p>
+<p>Dr. Clare L. Coda is a board-certified physician in both Internal Medicine and
+                                        Pediatrics who practices in Beverly Hills. She provides comprehensive primary
+                                        and preventative care for newborns through geriatric patients, and believes in a
+                                        strong partnership between patients and their physicians. <a href="https://www.uclahealth.org/clare-coda" title="More">More &gt;</a>
+</p>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-sm-2"><a href="https://www.uclahealth.org/andrew-da-lio" title="Andrew Da Lio, MD"><img alt="Andrew Da Lio, MD" border="0" class="img-responsive" height="200" src="https://www.uclahealth.org/pictures/PNRS/Andrew-Da-Lio.jpg" width="200"/></a></div>
+<div class="col-sm-10">
+<p><a href="https://www.uclahealth.org/andrew-da-lio" title="Link to profile"><strong>Andrew Da Lio,
+                                        MD</strong></a></p>
+<p><em>Plastic Surgery</em></p>
+<p>Andrew Louis Da Lio, MD, is the Clinical Professor and Chief in the Division of
+                                        Plastic Surgery at UCLA David Geffen School of Medicine and specializes in
+                                        cosmetic surgery and microsurgical breast reconstruction. Dr. Da Lio joined the
+                                        faculty of the UCLA Division of Plastic &amp; Reconstructive Surgery as an
+                                        Assistant Professor in 1997. Dr. Da Lio led the division's quality assurance
+                                        committee, overhauled the resident curriculum, and served as the Director of
+                                        Microsurgery. In August 2011, he was named Chief of the UCLA Division of Plastic
+                                        and Reconstructive Surgery. <a href="https://www.uclahealth.org/andrew-da-lio" title="More">More &gt;</a></p>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-sm-2"><a href="https://www.uclahealth.org/daniela-delgado" title="Daniela Delgado, MD"><img alt="Daniela Delgado, MD" border="0" class="img-responsive" height="200" src="https://www.uclahealth.org/pictures/PNRS/Daniela-Delgado.jpg" width="200"/></a></div>
+<div class="col-sm-10">
+<p><a href="https://www.uclahealth.org/daniela-delgado" title="Link to profile"><strong>Daniela Delgado,
+                                        MD</strong></a></p>
+<p><em>Family Medicine</em></p>
+<p>Dr. Delgado received her medical degree from Harvard Medical School and completed
+                                        a residency in Family Medicine at Harbor-UCLA Medical Center. As a
+                                        board-certified family medicine physician, she sees pediatric and adult
+                                        patients. She has a special interest in academic medicine, adolescent health,
+                                        gynecological care, and LGBTQ health. Dr. Delgado enjoys partnering with
+                                        patients to build a comprehensive medical plan. <a href="https://www.uclahealth.org/daniela-delgado" title="More">More
+                                            &gt;</a></p>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-sm-2"><a href="https://www.uclahealth.org/jacob-gold" title="Jacob Gold, MD"><img alt="Jacob Gold, MD" border="0" class="img-responsive" height="200" src="https://www.uclahealth.org/pictures/PNRS/Jacob-Gold.jpg" width="200"/></a></div>
+<div class="col-sm-10">
+<p><a href="https://www.uclahealth.org/jacob-gold" title="Link to profile"><strong>Jacob
+                                        Gold, MD</strong></a></p>
+<p><em>Internal Medicine</em></p>
+<p>Dr. Jacob Gold is a primary care physician who practices in Beverly Hills. He is
+                                        board certified in internal medicine, and is passionate about patient-centered
+                                        care and evidence-based, preventive medicine. <a href="https://www.uclahealth.org/jacob-gold" title="More">More &gt;</a>
+</p>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-sm-2"><a href="https://www.uclahealth.org/aurelia-nattiv" title="Aurelia Nattiv, MD"><img alt="Aurelia Nattiv, MD" border="0" class="img-responsive" height="200" src="https://www.uclahealth.org/pictures/PNRS/Aurelia-Nattiv.jpg" width="200"/></a></div>
+<div class="col-sm-10">
+<p><strong><a href="https://www.uclahealth.org/aurelia-nattiv" title="Link to profile">Aurelia Nattiv,
+                                        MD</a></strong></p>
+<p><em>Sports Medicine/Bone Health/Family Medicine</em></p>
+<p>Dr. Aurelia Nattiv is a family medicine and sports medicine physician with a
+                                        clinical interest in osteoporosis, women's sports medicine, and stress fracture
+                                        risk factors and prevention. She received her medical degree at Washington
+                                        University School of Medicine and completed her residency in Family Medicine at
+                                        the Sonoma County Community Hospital in Santa Rosa, California. She received her
+                                        sports medicine fellowship training at the UCLA Primary Care Sports Medicine
+                                        Fellowship Program. <a href="https://www.uclahealth.org/aurelia-nattiv" title="More">More &gt;</a></p>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-sm-2"><a href="https://www.uclahealth.org/erin-noren" title="Erin Noren, MD"><img alt="Erin Noren, MD" border="0" class="img-responsive" height="200" src="https://www.uclahealth.org/pictures/PNRS/erin-noren.jpg" width="200"/></a></div>
+<div class="col-sm-10">
+<p><a href="https://www.uclahealth.org/erin-noren" title="Link to profile"><strong>Erin
+                                        Noren, MD</strong></a></p>
+<p><em>Internal Medicine</em></p>
+<p>Dr. Erin M. Noren is a primary care physician who practices in Beverly Hills and
+                                        Santa Monica. She provides comprehensive primary care for adults, and believes
+                                        in building therapeutic patient-provider partnerships. <a href="https://www.uclahealth.org/erin-noren" title="More">More &gt;</a>
+</p>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-sm-2"><a href="https://www.uclahealth.org/jason-roostaeian" title="Jason Roostaeian, MD"><img alt="Jason Roostaeian, MD" border="0" class="img-responsive" height="200" src="https://www.uclahealth.org/pictures/PNRS/Jason-Roostaeian.jpg" width="200"/></a></div>
+<div class="col-sm-10">
+<p><a href="https://www.uclahealth.org/jason-roostaeian" title="Link to profile"><strong>Jason Roostaeian,
+                                        MD</strong></a></p>
+<p><em>Plastic Surgery</em></p>
+<p>Jason Roostaeian, MD, is an Associate Clinical Professor in the Division of
+                                        Plastic Surgery at UCLA David Geffen School of Medicine. Dr. Roostaeian, a Los
+                                        Angeles native, obtained his undergraduate degree at UCLA with summa cum laude
+                                        and Phi Beta Kappa honors. He then continued at UCLA for medical school where he
+                                        earned the prestigious UC Regents Scholarship, "the UC's highest recognition of
+                                        academic excellence." In medical school he received Alpha Omega Alpha honors, as
+                                        well as the Longmire Medial which is awarded to the top graduating student in
+                                        surgery. <a href="https://www.uclahealth.org/jason-roostaeian" title="More">More
+                                            &gt;</a></p>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-sm-2"><a href="https://www.uclahealth.org/nathan-samras" title="Nathan Samras, MD, MPH"><img alt="Nathan Samras, MD, MPH" border="0" class="img-responsive" height="200" src="https://www.uclahealth.org/pictures/PNRS/Nathan-Samras.jpg" width="200"/></a></div>
+<div class="col-sm-10">
+<p><a href="https://www.uclahealth.org/nathan-samras" title="Link to profile"><strong>Nathan Samras, MD,
+                                        MPH</strong></a><br/><em>Internal Medicine &amp; Pediatrics</em></p>
+<p>Dr. Nathan Samras is primary care physician who practices in Beverly Hills. He is
+                                        board-certified in both pediatrics and internal medicine, and sees patients of
+                                        all ages. His clinical interests include supporting parents with young children;
+                                        improving the quality of care for pediatrics; tracking developmental issues in
+                                        infants and toddlers; and transitioning children with special healthcare needs
+                                        into adult care. <a href="https://www.uclahealth.org/nathan-samras" title="More">More &gt;</a></p>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-sm-2"><a href="https://www.uclahealth.org/maie-st-john" title="Maie St. John, MD, PhD"><img alt="Maie St. John, MD, PhD" border="0" class="img-responsive" height="200" src="https://www.uclahealth.org/pictures/PNRS/Maie-St-John.jpg" width="200"/></a></div>
+<div class="col-sm-10">
+<p><a href="https://www.uclahealth.org/maie-st-john" title="Link to profile"><strong>Maie St. John, MD,
+                                        PhD</strong></a><br/><em>Head and Neck Surgery</em></p>
+<p><a href="https://www.uclahealth.org/maie-st-john" title="More">More &gt;</a></p>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-sm-2"><a href="https://www.uclahealth.org/mridula-bagrodia-watt" title="Mridula Watt, MD"><img alt="Mridula Watt, MD" border="0" class="img-responsive" height="200" src="https://www.uclahealth.org/pictures/PNRS/Mridula-Watt.jpg" width="200"/></a></div>
+<div class="col-sm-10">
+<p><a href="https://www.uclahealth.org/mridula-bagrodia-watt" title="Profile Page"><strong>Mridula Watt,
+                                        MD</strong></a><br/><em>Internal Medicine &amp; Pediatrics</em></p>
+<p>Dr. Mridula Watt is a primary care physician who practices in Beverly Hills. She
+                                        is board certified in both internal medicine and pediatrics, and sees patients
+                                        of all ages. She is interested in partnering with her patients and their
+                                        families to support their individual paths to wellness. <a href="https://www.uclahealth.org/mridula-bagrodia-watt" title="More">More
+                                            &gt;</a></p>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-sm-2"><a href="https://www.uclahealth.org/pauline-yi" title="Pauline Yi, MD"><img alt="Pauline Yi, MD" border="0" class="img-responsive" height="200" src="https://www.uclahealth.org/pictures/PNRS/Pauline-Yi.jpg" width="200"/></a></div>
+<div class="col-sm-10">
+<p><strong><a href="https://www.uclahealth.org/pauline-yi" title="Link to profile">Pauline
+                                        Yi, MD</a></strong><br/><em>Internal Medicine &amp; Pediatrics </em></p>
+<p>Dr. Pauline Yi is a board-certified physician and clinical instructor for the
+                                        UCLA Department of Internal Medicine and Pediatrics. She practices in Beverly
+                                        Hills and provides comprehensive care for both children and adults. Her clinical
+                                        interests include preventive health, arthritis and joint pain, and
+                                        adolescent/young adult medicine. She is fluent in Korean. <a href="https://www.uclahealth.org/pauline-yi" title="More">More &gt;</a>
+</p>
+</div>
+</div>
+<hr class="uc-gold"/>
+<p><a name="specialty"></a></p>
+<h2>Primary &amp; Specialty Care - 8641 Wilshire Blvd, Suites 102, 115 &amp; 210</h2>
+<div class="row">
+<div class="col-sm-2"><a href="https://www.uclahealth.org/sheila-haji-ali-ahmadi" title="Sheila Ahmadi, MD"><img alt="Sheila Ahmadi, MD" border="0" class="img-responsive" height="200" src="https://www.uclahealth.org/pictures/PNRS/Sheila-Ahmadi.jpg" width="200"/></a></div>
+<div class="col-sm-10">
+<p><strong><a href="https://www.uclahealth.org/sheila-haji-ali-ahmadi" title="Link to profile">Sheila
+                                        Ahmadi, MD</a><br/></strong><em>Endocrinology - Suite 210</em></p>
+<p><a href="https://www.uclahealth.org/sheila-haji-ali-ahmadi" title="More">More
+                                        &gt;</a></p>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-sm-2"><a href="https://www.uclahealth.org/pooya-bokhoor" title="Pooya Bokhoor, MD"><img alt="Pooya Bokhoor, MD" border="0" class="img-responsive" height="200" src="https://www.uclahealth.org/pictures/PNRS/Pooya-Bokhoor.jpg" width="200"/></a></div>
+<div class="col-sm-10">
+<p><a href="https://www.uclahealth.org/pooya-bokhoor" title="Link to profile"><strong>Pooya Bokhoor,
+                                        MD</strong></a><br/><em>Cardiology - Suite 102</em></p>
+<p>Dr. Pooya Bokhoor is a general and interventional cardiologist who practices in
+                                        Santa Monica and Beverly Hills. He is board certified in internal medicine,
+                                        cardiovascular disease, interventional cardiology and nuclear cardiology, and
+                                        sees patients in both the clinic and the hospital. <a href="https://www.uclahealth.org/pooya-bokhoor" title="More">More
+                                            &gt;</a></p>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-sm-2"><a href="https://www.uclahealth.org/carol-cheng" title="Carol Cheng, MD"><img alt="Carol Cheng, MD" border="0" class="img-responsive" height="200" src="https://www.uclahealth.org/pictures/PNRS/Carol-Cheng.jpg" width="200"/></a></div>
+<div class="col-sm-10">
+<p><a href="https://www.uclahealth.org/carol-cheng" title="Link to profile"><strong>
+                                        Carol Cheng, MD</strong></a><br/><em>Dermatology - Suite 115</em></p>
+<p>Dr. Carol Cheng is dermatologist who practices in Santa Monica and Beverly Hills.
+                                        She is board certified in dermatology and fellowship-trained in pediatric
+                                        dermatology, and sees both adult and pediatric patients. <a href="https://www.uclahealth.org/carol-cheng" title="More">More &gt;</a>
+</p>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-sm-2"><a href="https://www.uclahealth.org/jeremy-davis" title="Jeremy Davis, MD"><img alt="Jeremy Davis, MD" border="0" class="img-responsive" height="200" src="https://www.uclahealth.org/pictures/PNRS/Jeremy-Davis.jpg" width="200"/></a></div>
+<div class="col-sm-10">
+<p><strong><a href="https://www.uclahealth.org/jeremy-davis" title="Link to profile">Jeremy Davis,
+                                        MD</a></strong><br/><em>Dermatology - Suite 115</em></p>
+<p>Dr. Davis received his medical degree from Drexel University in Philadelphia, and
+                                        completed his internal medicine internship at the Carilion Clinic-Virginia Tech
+                                        Carillion School of Medicine. He then trained in dermatology at the Case Western
+                                        Reserve University School of Medicine in Cleveland, Ohio, where he served as
+                                        chief resident. He earned his bachelor's and master's degrees from the
+                                        University of California, Santa Barbara. <a href="https://www.uclahealth.org/jeremy-davis" title="More">More
+                                            &gt;</a></p>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-sm-2"><a href="https://www.uclahealth.org/ray-reza-goshtaseb" title="Ray Reza Goshtaseb, MD"><img alt="Ray Reza Goshtaseb, MD" border="0" class="img-responsive" height="200" src="https://www.uclahealth.org/pictures/PNRS/Ray-Reza-Goshteseb.jpg" width="200"/></a></div>
+<div class="col-sm-10">
+<p><strong><a href="https://www.uclahealth.org/ray-reza-goshtaseb" title="Link to profile">Ray Reza
+                                        Goshtaseb, MD</a> </strong></p>
+<p><em>Nephrology - Suite 210</em></p>
+<p>Dr. Ray Reza Goshtaseb is a nephrologist who practices in Santa Monica, Westwood
+                                        and Beverly Hills. He diagnoses and treats patients with kidney disease,
+                                        including polycystic kidney disease, diabetes with kidney disease, and anemia in
+                                        kidney disease; kidney stones, kidney infections, hypertension, electrolyte
+                                        abnormalities, and glomerulonephritis, among other conditions. He also helps
+                                        manage the care of patients undergoing hemodialysis or peritoneal dialysis. <a href="https://www.uclahealth.org/Ray-Reza-Goshtaseb" title="More">More
+                                            &gt;</a></p>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-sm-2"><a href="https://www.uclahealth.org/john-fernandez" title="John D. Fernandez, MD"><img alt="John D. Fernandez, MD" border="0" class="img-responsive" height="200" src="https://www.uclahealth.org/pictures/PNRS/John-Fernandez.jpg" width="200"/></a></div>
+<div class="col-sm-10">
+<p><strong><a href="https://www.uclahealth.org/john-fernandez" title="Link to profile">John D. Fernandez,
+                                        MD</a></strong><br/><em>Internal Medicine - Suite 210</em></p>
+<p>Dr. John David (JD) Fernandez is a primary care physician who practices in
+                                        Beverly Hills. His clinical interests include primary care for transgender and
+                                        gender-diverse patients, the initiation and management of gender-affirming
+                                        hormone treatment, transition of care for young adults into adult primary care,
+                                        and adult primary care. <a href="https://www.uclahealth.org/john-fernandez" title="More">More &gt;</a></p>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-sm-2"><a href="https://www.uclahealth.org/susie-fong" title="Susie Fong, MD"><img alt="Susie Fong, MD" border="0" class="img-responsive" height="200" src="https://www.uclahealth.org/pictures/PNRS/Susie-Fong.jpg" width="200"/></a></div>
+<div class="col-sm-10">
+<p><strong><a href="https://www.uclahealth.org/susie-fong" title="Link to profile">Susie
+                                        Fong, MD</a></strong><br/><em>Sleep Medicine - Suite 210</em></p>
+<p>Dr. Susie Fong is a sleep medicine physician who practices in Encino and Beverly
+                                        Hills. She treats the full spectrum of sleep disorders, including sleep related
+                                        breathing disorders, central disorders of hypersomnolence, circadian rhythm
+                                        sleep-wake disorders, sleep related movement disorders and insomnia. <a href="https://www.uclahealth.org/susie-fong" title="More">More &gt;</a>
+</p>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-sm-2"><a href="https://www.uclahealth.org/pritha-gupta" title="Pritha Gupta, MD"><img alt="Pritha Gupta, MD" border="0" class="img-responsive" height="200" src="https://www.uclahealth.org/pictures/PNRS/Pritha-Gupta.jpg" width="200"/></a></div>
+<div class="col-sm-10">
+<p><strong><a href="https://www.uclahealth.org/pritha-gupta" title="Link to profile">Pritha Gupta,
+                                        MD</a></strong><br/><em>Cardiology - Suite 102</em></p>
+<p>Dr. Pritha Gupta is a cardiologist who practices in Beverly Hills. She also sees
+                                        patients in the UCLA Cardiovascular Genetics Clinic in Westwood. Dr. Gupta is
+                                        board certified in internal medicine, cardiovascular disease, echocardiography
+                                        and cardiac CT. Her clinic interests include women's health, cardiovascular
+                                        genetics, precision medicine and preventive medicine. <a href="https://www.uclahealth.org/pritha-gupta" title="More">More
+                                            &gt;</a></p>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-sm-2"><a href="https://www.uclahealth.org/lillian-hsu" title="Lillian Hsu, MD"><img alt="Lillian Hsu, MD" border="0" class="img-responsive" height="200" src="https://www.uclahealth.org/pictures/PNRS/Lillian-Hsu.jpg" width="200"/></a></div>
+<div class="col-sm-10">
+<p><strong><a href="https://www.uclahealth.org/lillian-hsu" title="Link to profile">Lillian
+                                        Hsu, MD</a></strong><br/><em>Pulmonary &amp; Critical Care Medicine - Suite
+                                        210</em></p>
+<p>Dr. Lillian Hsu is a pulmonologist who practices in Beverly Hills. She is board
+                                        certified in internal medicine, pulmonary disease and critical care medicine.
+                                        Her clinical interests include asthma, COPD, pulmonary nodules and interstitial
+                                        lung diseases. <a href="https://www.uclahealth.org/lillian-hsu" title="More">More
+                                            &gt;</a></p>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-sm-2"><a href="https://www.uclahealth.org/lisa-lin" title="Lisa Lin, MD"><img alt="Lisa Lin, MD" border="0" class="img-responsive" height="200" src="https://www.uclahealth.org/pictures/PNRS/Lisa-Lin.jpg" width="200"/></a>
+</div>
+<div class="col-sm-10">
+<p><strong><a href="https://www.uclahealth.org/lisa-lin" title="Link to profile">Lisa
+                                        Lin, MD</a></strong><br/><em>Digestive Diseases - Suite 210</em></p>
+<p>Dr. Lin practices general gastroenterology, including esophageal disorders,
+                                        inflammatory bowel disease and colon cancer screening. She has particular
+                                        interests in gastrointestinal motility, functional gastrointestinal disorders
+                                        (including irritable bowel syndrome, chronic constipation and functional
+                                        dyspepsia) and fecal material transplantation. She speaks both English and
+                                        Mandarin. She is a member of the American Gastroenterological Association and
+                                        the American College of Gastroenterology. <a href="https://www.uclahealth.org/lisa-lin" title="More">More &gt;</a>
+</p>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-sm-2"><a href="https://www.uclahealth.org/robert-mocharla"><img alt="Robert Mocharla, MD" border="0" class="img-responsive" height="200" src="https://www.uclahealth.org/pictures/PNRS/Robert-Mocharla.jpg" width="200"/></a></div>
+<div class="col-sm-10">
+<p><strong><a href="https://www.uclahealth.org/robert-mocharla" title="Link to profile">Robert Mocharla,
+                                        MD</a></strong><br/><em>Digestive Diseases - Suite 210</em></p>
+<p>Dr. Mocharla practices general gastroenterology and hepatology with a special
+                                        interest in inflammatory bowel disease, colorectal cancer screening and medical
+                                        education. He is a member of the American College of Gastroenterology, American
+                                        Gastroenterological Association and the Crohn's and Colitis Foundation. <a href="https://www.uclahealth.org/robert-mocharla" title="More">More
+                                            &gt;</a></p>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-sm-2"><a href="https://www.uclahealth.org/andrew-pham" title="Andrew Pham, MD"><img alt="Andrew Pham, MD" border="0" class="img-responsive" height="200" src="https://www.uclahealth.org/pictures/PNRS/Andrew-Pham.jpg" width="200"/></a></div>
+<div class="col-sm-10">
+<p><a href="https://www.uclahealth.org/andrew-pham" title="Link to profile"><strong>Andrew
+                                        Pham, MD</strong></a><br/><em>Allergy &amp; Immunology - Suite 115</em></p>
+<p><a href="https://www.uclahealth.org/andrew-pham" title="More">More &gt;</a></p>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-sm-2"><a href="https://www.uclahealth.org/daniel-puneky" title="Daniel Puneky, MD"><img alt="Daniel Puneky, MD" border="0" class="img-responsive" height="200" src="https://www.uclahealth.org/pictures/PNRS/Daniel-Puneky.jpg" width="200"/></a></div>
+<div class="col-sm-10">
+<p><strong><a href="https://www.uclahealth.org/daniel-puneky" title="Link to profile">Daniel Puneky, MD</a></strong><br/><em>Internal
+                                        Medicine - Suite 210</em></p>
+<p>Dr. Daniel Puneky is a Clinical Instructor in the UCLA Department of Medicine,
+                                        and an adult primary care physician in Beverly Hills. He is board certified in
+                                        Internal Medicine and certified as an HIV Specialist by the American Academy of
+                                        HIV Medicine. His clinical interests include care of members of the LGBTQ
+                                        community, HIV primary care and prevention including PrEP and PEP, as well as
+                                        preventative medicine. <a href="https://www.uclahealth.org/daniel-puneky" title="More">More &gt;</a></p>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-sm-2"><a href="https://www.uclahealth.org/ladan-shahabi" title="Ladan Shahabi, MD"><img alt="Ladan Shahabi, MD" border="0" class="img-responsive" height="200" src="images/ProviderPlaceholder200c.png" width="200"/></a></div>
+<div class="col-sm-10">
+<p><strong><a href="https://www.uclahealth.org/ladan-shahabi" title="Link to profile">Ladan Shahabi, MD</a></strong><br/><em>Dermatology
+                                        - Suite 115</em></p>
+<p><a href="https://www.uclahealth.org/ladan-shahabi" title="More">More &gt;</a></p>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-10"></div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-sm-2"><a href="https://www.uclahealth.org/pictures/PNRS/Jien-Shim.jpg" title="Jien Shim, MD"><img alt="Jien Shim, MD" class="img-responsive" height="200" src="https://www.uclahealth.org/pictures/PNRS/Jien-Shim.jpg" width="200"/></a></div>
+<div class="col-sm-10">
+<p><strong><a href="https://www.uclahealth.org/jien-shim" title="Link to profile">Jien
+                                        Shim, MD</a></strong><br/><em>Endocrinology - Suite 210</em></p>
+<p>Dr. Jien Shim specializes in general endocrinology. Her clinical interests
+                                        include thyroid, parathyroid, adrenal and pituitary disorders; diabetes
+                                        mellitus; transgender medicine; and obesity. She received her medical degree
+                                        from Icahn School of Medicine at Mount Sinai, where she also completed internal
+                                        medicine residency training, and completed her endocrinology fellowship at UCLA. <a href="https://www.uclahealth.org/jien-shim" title="More">More &gt;</a>
+</p>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-10"></div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-sm-2"></div>
+</div>
+<div class="row">
+<div class="col-sm-2"><a href="https://www.uclahealth.org/priyam-tripathi" title="Priyam Tripathi, MD"><img alt="Priyam Tripathi, MD" border="0" class="img-responsive" height="200" src="https://www.uclahealth.org/pictures/PNRS/Priyam-Tripathi.jpg" width="200"/></a></div>
+<div class="col-sm-10">
+<p><a href="https://www.uclahealth.org/priyam-tripathi" title="Link to profile"><strong>Priyam Tripathi,
+                                        MD</strong></a><br/><em>Digestive Diseases - Suite 210</em></p>
+<p>Dr. Tripathi specializes in general gastroenterology with clinical interests
+                                        including colon cancer screening and polypectomy, esophageal disorders including
+                                        Barrett's esophagus and eosinophilic esophagitis, GERD, inflammatory bowel
+                                        disease, celiac disease, hepatology, and pancreatic disease. <a href="https://www.uclahealth.org/priyam-tripathi" title="More">More
+                                            &gt;</a></p>
+</div>
+</div>
+<hr class="uc-gold"/>
+<h2><a id="hematology"></a><a href="https://www.uclahealth.org/community-cancercare/beverly-hills">Hematology-Oncology
+                                - 120 S. Spalding Drive, Suite 401</a></h2>
+<div class="row">
+<div class="col-sm-2"><a href="https://www.uclahealth.org/jennifer-baker" title="Jennifer Baker, MD"><img alt="Jennifer Baker, MD" border="0" class="img-responsive" height="200" src="https://www.uclahealth.org/pictures/PNRS/Jennifer-Baker.jpg" width="200"/></a></div>
+<div class="col-sm-10">
+<p><strong><a href="https://www.uclahealth.org/jennifer-baker" title="Link to profile">Jennifer Baker,
+                                        MD</a><br/></strong><em>Breast Surgery</em></p>
+<p>Jennifer Baker, MD, is a board-certified general surgeon. Dr. Baker completed her
+                                        fellowship in breast surgical oncology at Memorial Sloan Kettering Cancer Center
+                                        in New York City. Dr. Baker's clinical specialties include breast cancer and
+                                        breast surgical oncology; oncoplastic breast surgery; skin and nipple sparing
+                                        mastectomy; sentinel lymph node biopsy and mapping; axillary lymph node
+                                        dissection; locally advanced breast cancer; inflammatory breast cancer; high
+                                        risk patients; BRCA mutation carriers; breast cancer in young women; male breast
+                                        cancer; and benign breast conditions. <a href="https://www.uclahealth.org/jennifer-baker" title="More">More
+                                            &gt;</a></p>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-sm-2"><a href="https://www.uclahealth.org/solomon-hamburg" title="Solomon Hamburg, MD, PhD"><img alt="Solomon Hamburg, MD, PhD" border="0" class="img-responsive" height="200" src="https://www.uclahealth.org/pictures/PNRS/Solomon-Hamburg.jpg" width="200"/></a></div>
+<div class="col-sm-10">
+<p><strong><a href="https://www.uclahealth.org/solomon-hamburg" title="Link to profile">Solomon Hamburg, MD,
+                                        PhD</a><br/></strong><em>Hematology-Oncology</em></p>
+<p>Dr. Solomon Hamburg is a general hematologist and medical oncologist who
+                                        practices in Beverly Hills and Encino. He has been treating cancer patients for
+                                        more than 40 years, and sees himself as a physician advisor, supporting each
+                                        patient throughout their serious illness.</p>
+<p>Dr. Hamburg cares for patients will all types of cancer, but has particular
+                                        interest in gastrointestinal malignancies, including liver cancer; blood cancers
+                                        called myeloproliferative neoplasms; and coagulation disorders. He has expertise
+                                        in stem cell transplant, and is board certified in internal medicine, hematology
+                                        and medical oncology. <a href="https://www.uclahealth.org/solomon-hamburg" title="More">More &gt;</a></p>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-sm-2"><a href="https://www.uclahealth.org/aashini-master" title="Aashini Master, DO"><img alt="Aashini Master, DO" border="0" class="img-responsive" height="200" src="https://www.uclahealth.org/pictures/PNRS/Aashini-Master.jpg" width="200"/></a></div>
+<div class="col-sm-10">
+<p><strong><a href="https://www.uclahealth.org/aashini-master" title="Link to profile">Aashini Master,
+                                        DO</a><br/></strong><em>Hematology-Oncology</em></p>
+<p>Dr. Aashini Master is a hematologist oncologist who practices in Beverly Hills.
+                                        She is active in the breast cancer treatment program, and is the primary
+                                        physician seeing patients in the High Risk Breast Program in Santa Monica. <a href="https://www.uclahealth.org/aashini-master" title="More">More
+                                            &gt;</a></p>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-sm-2"><a href="https://www.uclahealth.org/nicholas-mcandrew" title="Nicholas McAndrew, MD"><img alt="Nicholas-McAndrew.jpg" border="0" class="img-responsive" height="200" src="https://www.uclahealth.org/pictures/PNRS/Nicholas-McAndrew.jpg" width="200"/></a></div>
+<div class="col-sm-10">
+<p><strong><a href="https://www.uclahealth.org/nicholas-mcandrew" title="Link to profile">Nicholas McAndrew,
+                                        MD</a><br/></strong><em>Hematology-Oncology</em></p>
+<p>Dr. Nicholas McAndrew is a hematologist oncologist who practices in Beverly Hills
+                                        and Santa Monica. His primary clinical and research interests are in breast
+                                        cancer. He is board certified in internal medicine and board eligible in medical
+                                        oncology and hematology. <a href="https://www.uclahealth.org/nicholas-mcandrew" title="More">More &gt;</a></p>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-sm-2"><a href="https://www.uclahealth.org/kelly-mccann"><img alt="Kelly McCann, MD, PhD" border="0" class="img-responsive" height="200" src="https://www.uclahealth.org/pictures/PNRS/Kelly-McCann.jpg" width="200"/></a>
+</div>
+<div class="col-sm-10">
+<p><strong><a href="https://www.uclahealth.org/kelly-mccann" title="Link to profile">Kelly McCann, MD,
+                                        PhD</a><br/></strong><em>Hematology-Oncology</em></p>
+<p>Dr. Kelly McCann is a hematologist oncologist who practices in Santa Monica and
+                                        Beverly Hills. She is board certified in internal medicine, hematology and
+                                        medical oncology. Her clinical interests include breast cancer, gynecologic
+                                        malignancies and palliative care. <a href="https://www.uclahealth.org/kelly-mccann" title="More">More
+                                            &gt;</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer-offset">
+<div class="visible-xs" id="stay-connected-footer">
+<!--googleoff: index--><a class="facebook" href="https://www.facebook.com/uclahealth" target="_blank" title="Like us on Facebook">Like Us on Facebook</a>
+<a class="twitter" href="https://www.twitter.com/uclahealth" target="_blank" title="Follow us on Twitter">Follow
+            Us on Twitter</a>
+<a class="youtube" href="https://www.youtube.com/uclahealth" target="_blank" title="Subscribe to Our Videos on YouTube">Subscribe to Our Videos on YouTube</a>
+<a class="instagram" href="https://www.instagram.com/uclahealth/" target="_blank" title="Follow us on Instagram">Follow us on Instagram</a>
+<a class="linkedin" href="https://www.linkedin.com/company/ucla-health" target="_blank" title="Connect with Us on LinkedIn">Connect with Us on LinkedIn</a>
+<a class="pinterest" href="https://www.pinterest.com/UCLAHealth" target="_blank" title="Follow us on Pinterest">Follow
+            us on Pinterest</a>
+<!--googleon: index-->
+</div>
+<div id="container-footer">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="row">
+<div class="col-md-12">
+<div class="col-md-2 col-sm-12 text-center"><a href="https://www.uclahealth.org/best-hospitals"> <img alt="UCLA Health hospitals ranked best hospitals by U.S. News &amp; World Report" border="0" src="https://www.uclahealth.org/images/shared/best-hospitals.png"/></a></div>
+<div class="col-md-10 col-sm-12">
+<div class="row">
+<div class="col-md-3 col-sm-6">
+<ul>
+<li><a href="https://www.uclahealth.org">UCLA Health</a></li>
+<li><a href="https://www.uclahealth.org/providers">Find a Doctor</a></li>
+<li><a href="http://medschool.ucla.edu" target="_blank">School of
+                                                Medicine</a></li>
+<li><a href="http://nursing.ucla.edu" target="_blank">School of Nursing</a>
+</li>
+<li><a href="http://www.ucla.edu">UCLA Campus</a></li>
+<li><a href="http://www.directory.ucla.edu" target="_blank">Directory</a>
+</li>
+</ul>
+</div>
+<div class="col-md-3 col-sm-6">
+<ul>
+<li><a href="https://www.uclahealth.org/newsroom">Newsroom</a></li>
+<li><a href="https://www.uclahealth.org/subscribe">Subscribe</a></li>
+<li><a href="https://connect.uclahealth.org/" target="_blank">Patient
+                                                Stories</a></li>
+<li><a href="https://www.uclahealth.org/giving">Giving</a></li>
+<li><a href="http://www.uclahealthcareers.org">Careers</a></li>
+<li><a href="https://www.uclahealth.org/volunteer">Volunteer</a></li>
+<li><a href="https://www.uclahealth.org/international-services">International
+                                                Services</a> <span aria-hidden="true" class="glyphicon glyphicon-globe" style="color: #006699;"></span></li>
+</ul>
+</div>
+<div class="col-md-3 col-sm-6">
+<ul>
+<li><a href="https://www.uclahealth.org/privacy">Privacy Practices</a></li>
+<li>
+<a href="https://www.uclahealth.org/nondiscrimination">Nondiscrimination</a>
+</li>
+<li><a href="https://www.uclahealth.org/billing">Billing</a></li>
+<li><a href="https://www.uclahealth.org/health-plans">Health Plans</a></li>
+<li><a href="https://www.uclahealth.org/emergency">Emergency</a></li>
+<li><a href="https://myforms.uclahealth.org/s3/Broken-Links-Submission" target="_blank">Report Broken Links</a></li>
+<li><a href="http://www.ucla.edu/terms-of-use">Terms of Use</a></li>
+</ul>
+</div>
+<div class="col-md-3 col-sm-6">
+<ul>
+<li><a href="tel:13108252631">1-310-825-2631</a></li>
+<li><a href="maps-directions">Maps &amp; Directions</a></li>
+<li><a href="contact-us">Contact Us</a></li>
+<li><a href="https://www.uclahealth.org/feedback">Your Feedback</a></li>
+<li><a href="https://www.uclahealth.org/reporting-misconduct">Report
+                                                Misconduct</a></li>
+<li><a href="https://www.uclahealth.org/social-media">Get Social</a></li>
+<li><a href="sitemap" title="Sitemap">Sitemap</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="container-copyright">
+<div class="container">
+<div class="row">
+<div class="col-md-5">
+<div class="pull-center-sm pull-center-xs">
+</div>
+</div>
+<div class="col-md-4">
+</div>
+<div class="col-md-3">
+<div class="pull-right-lg pull-right-md pull-center-sm pull-center-xs">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="hidden-xs" id="stay-connected">
+<!--googleoff: index--><a class="facebook" href="https://www.facebook.com/uclahealth" target="_blank" title="Like us on Facebook">Like Us on Facebook</a>
+<a class="twitter" href="https://www.twitter.com/uclahealth" target="_blank" title="Follow us on Twitter">Follow Us
+        on Twitter</a>
+<a class="youtube" href="https://www.youtube.com/uclahealth" target="_blank" title="Subscribe to Our Videos on YouTube">Subscribe to Our Videos on YouTube</a>
+<a class="instagram" href="https://www.instagram.com/uclahealth/" target="_blank" title="Follow us on Instagram">Follow
+        us on Instagram</a>
+<a class="linkedin" href="https://www.linkedin.com/company/ucla-health" target="_blank" title="Connect with Us on LinkedIn">Connect with Us on LinkedIn</a>
+<a class="pinterest" href="https://www.pinterest.com/UCLAHealth" target="_blank" title="Follow us on Pinterest">Follow
+        us on Pinterest</a>
+<!--googleon: index-->
+</div>
+
+<div aria-labelledby="modalLinkModalLabel" class="modal fade" id="modalLinkModal" role="dialog" tabindex="-1">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<button aria-label="Close" class="close" data-dismiss="modal" type="button">
+<span aria-hidden="true">×</span>
+</button>
+<h4 class="modal-title" id="modalLinkModalLabel">Sign in to myUCLAhealth</h4>
+</div>
+<div class="modal-body">
+<p>
+<iframe frameborder="0" height="400" name="myUCLAHealth login" scrolling="no" src="https://www.uclahealth.org/sitepages/mychart-login.html" width="100%"></iframe>
+</p>
+</div>
+</div>
+</div>
+</div>
+ <!--googleoff: index-->
+
+
+
+<style>
+    #google_translate_element .goog-te-gadget-simple {
+        display: none !important;
+    }
+
+    #google_translate_element .dropdown {
+        position: absolute;
+        padding-left: 35px;
+        width: max-content;
+        width: -moz-max-content;
+    }
+
+    #google_translate_element .dropdown-menu {
+        left: 35px !important;
+        padding-left: 5px !important;
+        font-size: inherit !important;
+    }
+
+    #google_translate_element .dropdown-menu a:hover, #google_translate_element .dropdown-menu a {
+        color: #3284be !important;
+    }
+
+    #google_translate_element .dropdown-menu div.lang {
+        clear: both;
+        padding: 3px !important;
+    }
+</style>
+
+
+<!--googleon: index-->
+
+</div><div class="layout-body">
+<!--googleoff: index-->
+
+<div class="alertmsg"></div><!-- Google Tag Manager (noscript) -->
+<noscript>
+<iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-NSK4WRJ" style="display:none;visibility:hidden" width="0"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) --><!-- Google Tag Manager (noscript) -->
+<noscript>
+<iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-NSK4WRJ" style="display:none;visibility:hidden" width="0"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) --><!--googleon: index-->
+<div class="hidden-xs hidden-print" id="container-utility">
+<div class="container">
+<div class="row">
+<div class="col-md-9 col-sm-8 navigation">
+<!--googleoff: index-->
+<ul class="nav nav-pills">
+<li class="pills_1_14"><a href="https://www.uclahealth.org">UCLA Health</a></li>
+<li class="pills_1_13"><a href="http://uclahealth.org" target="_blank">myUCLAhealth</a></li>
+<li class="pills_1_12"><a href="http://medschool.ucla.edu" target="_blank">School of Medicine</a>
+</li>
+<li>
+<div id="google_translate_element"></div>
+</li>
+</ul><!--googleon: index-->
+</div>
+<div class="col-md-3 col-sm-4 form">
+<!--googleoff: index-->
+<form action="body.cfm?id=25&amp;action=list&amp;parentid=1" class="form-inline" id="frmSiteSearchTeaser" method="POST" name="frmSiteSearchTeaser" onsubmit="return checkform(this,'keywords',true);" role="form">
+<input name="search_areas_id" type="hidden" value=""/>
+<input name="includewhat" type="hidden" value=""/>
+<input name="keywords_required" type="Hidden" value="You must enter at least one keyword."/>
+<input name="bolMobileSearch" type="hidden" value="0"/>
+<div class="form-group">
+<input class="form-control" id="searchkeyword1" name="keywords" placeholder="Search this site..." type="text"/>
+</div>
+<div class="form-group">
+<button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+</div>
+</form>
+<!--googleon: index-->
+</div>
+</div>
+</div>
+</div>
+<div class="hidden-xs" id="container-header">
+<div class="container">
+<div class="row">
+<div class="col-sm-5 col-xs-6 logo">
+<a href="/">
+<img alt="Beverly Hills - Primary &amp; Specialty Care" class="img-responsive" src="images/logo.png" title="Beverly Hills - Primary &amp; Specialty Care"/>
+</a>
+</div>
+<div class="col-sm-7 col-xs-6 static">
+<h3 class="pull-right"><a href="default.cfm">Beverly Hills - Primary &amp; Specialty Care</a></h3>
+</div>
+</div>
+</div>
+</div>
+<div class="hidden-print" id="container-navigation">
+<div class="container">
+<div class="row">
+<div class="col-sm-12 navigation ribbon">
+<!--googleoff: index-->
+<!--googleon: index-->
+</div>
+</div>
+</div>
+</div>
+<div id="container-utility-static-include">
+<div class="container visible-xs">
+<div class="row">
+<div class="col-xs-12">
+<h3 class="pull-right"><a href="default.cfm">Beverly Hills - Primary &amp; Specialty Care</a></h3>
+</div>
+</div>
+</div>
+</div>
+<div class="asPageTitle" id="container-carousel">
+<div class="container">
+<div class="row">
+<div class="col-sm-12">
+<h2>About Us</h2>
+</div>
+</div>
+</div>
+</div>
+<div class="withCarousel" id="carousel-offset">
+<div id="container-content">
+<div class="container">
+<div class="spacer">
+<div class="row">
+<div class="col-sm-12 column-content">
+<div class="container-spacer">
+<div class="row">
+<div class="col-sm-12 breadcrumb">
+<ol class="breadcrumb">
+<li class="root">
+<a href="https://www.uclahealth.org/beverly-hills/default.cfm?id=1">Home</a>
+</li>
+<li class="active">
+                                            About Us
+                                        </li>
+</ol>
+</div>
+</div>
+<div class="row title">
+<div class="col-sm-8">
+<h1 class="title">About Us</h1>
+</div>
+<div class="col-sm-4">
+<div class="pull-right social-media">
+<h5>Share this</h5>
+<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+<a class="addthis_button_facebook"></a>
+<a class="addthis_button_twitter"></a>
+<a class="addthis_button_linkedin"></a>
+<a class="addthis_button_email"></a>
+<a class="addthis_button_print"></a>
+</div>
+</div>
+</div>
+</div>
+<p>UCLA Health is proud to serve Beverly Hills and the surrounding communities.  Our
+                                Beverly Hills office on Wilshire Blvd. is a multi-specialty office consisting of general
+                                Internal Medicine and Pediatrics, as well as specialists in the following disciplines:
+                                Allergy &amp; Immunology, Cardiology, Cardiac Imaging, Dermatology, Endocrinology,
+                                Pulmonology and Rheumatology. All of the physicians in the group are board
+                                certified in their fields. </p>
+<p>All are UCLA Medical Group members accepting most insurances and hold faculty teaching
+                                appointments in the David Geffen School of Medicine and are on staff at <a href="https://www.uclahealth.org/Santa-Monica">UCLA Health - Santa Monica
+                                    Medical Center</a> and <a href="https://www.uclahealth.org/Reagan">Ronald
+                                    Reagan UCLA Medical Center</a>.</p>
+<p>We offer exemplary medical care, delivered with outstanding customer service throughout
+                                each visit, starting at the front desk. We are available to see our patients for same
+                                day appointments for illnesses.</p>
+<h2>Services at a glance</h2>
+<ul>
+<li>Well Care for Adults</li>
+<li>Well Woman Care</li>
+<li>Pediatric care (newborn to adolescent)</li>
+<li>Same Day Sick Appointments</li>
+<li>Care of the hospitalized patient</li>
+<li>Coordination of care for patients with chronic medical conditions and/or multiple
+                                    specialist physicians
+                                </li>
+</ul>
+<h2></h2>
+<h2>Specialties</h2>
+<ul>
+<li>Allergy &amp; Immunology</li>
+<li>Internal Medicine</li>
+<li>Internal Medicine &amp; Pediatrics</li>
+<li>Cardiology</li>
+<li>Cardiac Imaging</li>
+<li><span>Cosmetic Dermatology</span></li>
+<li>Dermatology</li>
+<li>Endocrinology</li>
+<li><a href="https://www.uclahealth.org/radiology/beverly-hills">On-site Radiology</a>
+</li>
+<li>Pulmonary &amp; Critical Care Medicine</li>
+<li>Rheumatology</li>
+<li>Sleep Medicine</li>
+<li>Sports Medicine</li>
+</ul>
+<h2></h2>
+<h2>Quick Links</h2>
+<ul>
+<li><a href="our-physicians">Our Doctors</a></li>
+<li><a href="for-patients">Request an Appointment</a></li>
+<li><a href="maps-directions">Maps &amp; Directions</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer-offset">
+<div class="visible-xs" id="stay-connected-footer">
+<!--googleoff: index--><a class="facebook" href="https://www.facebook.com/uclahealth" target="_blank" title="Like us on Facebook">Like Us on Facebook</a>
+<a class="twitter" href="https://www.twitter.com/uclahealth" target="_blank" title="Follow us on Twitter">Follow
+            Us on Twitter</a>
+<a class="youtube" href="https://www.youtube.com/uclahealth" target="_blank" title="Subscribe to Our Videos on YouTube">Subscribe to Our Videos on YouTube</a>
+<a class="instagram" href="https://www.instagram.com/uclahealth/" target="_blank" title="Follow us on Instagram">Follow us on Instagram</a>
+<a class="linkedin" href="https://www.linkedin.com/company/ucla-health" target="_blank" title="Connect with Us on LinkedIn">Connect with Us on LinkedIn</a>
+<a class="pinterest" href="https://www.pinterest.com/UCLAHealth" target="_blank" title="Follow us on Pinterest">Follow
+            us on Pinterest</a>
+<!--googleon: index-->
+</div>
+<div id="container-footer">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="row">
+<div class="col-md-12">
+<div class="col-md-2 col-sm-12 text-center"><a href="https://www.uclahealth.org/best-hospitals"> <img alt="UCLA Health hospitals ranked best hospitals by U.S. News &amp; World Report" border="0" src="https://www.uclahealth.org/images/shared/best-hospitals.png"/></a></div>
+<div class="col-md-10 col-sm-12">
+<div class="row">
+<div class="col-md-3 col-sm-6">
+<ul>
+<li><a href="https://www.uclahealth.org">UCLA Health</a></li>
+<li><a href="https://www.uclahealth.org/providers">Find a Doctor</a></li>
+<li><a href="http://medschool.ucla.edu" target="_blank">School of
+                                                Medicine</a></li>
+<li><a href="http://nursing.ucla.edu" target="_blank">School of Nursing</a>
+</li>
+<li><a href="http://www.ucla.edu">UCLA Campus</a></li>
+<li><a href="http://www.directory.ucla.edu" target="_blank">Directory</a>
+</li>
+</ul>
+</div>
+<div class="col-md-3 col-sm-6">
+<ul>
+<li><a href="https://www.uclahealth.org/newsroom">Newsroom</a></li>
+<li><a href="https://www.uclahealth.org/subscribe">Subscribe</a></li>
+<li><a href="https://connect.uclahealth.org/" target="_blank">Patient
+                                                Stories</a></li>
+<li><a href="https://www.uclahealth.org/giving">Giving</a></li>
+<li><a href="http://www.uclahealthcareers.org">Careers</a></li>
+<li><a href="https://www.uclahealth.org/volunteer">Volunteer</a></li>
+<li><a href="https://www.uclahealth.org/international-services">International
+                                                Services</a> <span aria-hidden="true" class="glyphicon glyphicon-globe" style="color: #006699;"></span></li>
+</ul>
+</div>
+<div class="col-md-3 col-sm-6">
+<ul>
+<li><a href="https://www.uclahealth.org/privacy">Privacy Practices</a></li>
+<li>
+<a href="https://www.uclahealth.org/nondiscrimination">Nondiscrimination</a>
+</li>
+<li><a href="https://www.uclahealth.org/billing">Billing</a></li>
+<li><a href="https://www.uclahealth.org/health-plans">Health Plans</a></li>
+<li><a href="https://www.uclahealth.org/emergency">Emergency</a></li>
+<li><a href="https://myforms.uclahealth.org/s3/Broken-Links-Submission" target="_blank">Report Broken Links</a></li>
+<li><a href="http://www.ucla.edu/terms-of-use">Terms of Use</a></li>
+</ul>
+</div>
+<div class="col-md-3 col-sm-6">
+<ul>
+<li><a href="tel:13108252631">1-310-825-2631</a></li>
+<li><a href="maps-directions">Maps &amp; Directions</a></li>
+<li><a href="contact-us">Contact Us</a></li>
+<li><a href="https://www.uclahealth.org/feedback">Your Feedback</a></li>
+<li><a href="https://www.uclahealth.org/reporting-misconduct">Report
+                                                Misconduct</a></li>
+<li><a href="https://www.uclahealth.org/social-media">Get Social</a></li>
+<li><a href="sitemap" title="Sitemap">Sitemap</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="container-copyright">
+<div class="container">
+<div class="row">
+<div class="col-md-5">
+<div class="pull-center-sm pull-center-xs">
+</div>
+</div>
+<div class="col-md-4">
+</div>
+<div class="col-md-3">
+<div class="pull-right-lg pull-right-md pull-center-sm pull-center-xs">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="hidden-xs" id="stay-connected">
+<!--googleoff: index--><a class="facebook" href="https://www.facebook.com/uclahealth" target="_blank" title="Like us on Facebook">Like Us on Facebook</a>
+<a class="twitter" href="https://www.twitter.com/uclahealth" target="_blank" title="Follow us on Twitter">Follow Us
+        on Twitter</a>
+<a class="youtube" href="https://www.youtube.com/uclahealth" target="_blank" title="Subscribe to Our Videos on YouTube">Subscribe to Our Videos on YouTube</a>
+<a class="instagram" href="https://www.instagram.com/uclahealth/" target="_blank" title="Follow us on Instagram">Follow
+        us on Instagram</a>
+<a class="linkedin" href="https://www.linkedin.com/company/ucla-health" target="_blank" title="Connect with Us on LinkedIn">Connect with Us on LinkedIn</a>
+<a class="pinterest" href="https://www.pinterest.com/UCLAHealth" target="_blank" title="Follow us on Pinterest">Follow
+        us on Pinterest</a>
+<!--googleon: index-->
+</div>
+
+<div aria-labelledby="modalLinkModalLabel" class="modal fade" id="modalLinkModal" role="dialog" tabindex="-1">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<button aria-label="Close" class="close" data-dismiss="modal" type="button">
+<span aria-hidden="true">×</span>
+</button>
+<h4 class="modal-title" id="modalLinkModalLabel">Sign in to myUCLAhealth</h4>
+</div>
+<div class="modal-body">
+<p>
+<iframe frameborder="0" height="400" name="myUCLAHealth login" scrolling="no" src="https://www.uclahealth.org/sitepages/mychart-login.html" width="100%"></iframe>
+</p>
+</div>
+</div>
+</div>
+</div>
+ <!--googleoff: index-->
+
+
+
+<style>
+    #google_translate_element .goog-te-gadget-simple {
+        display: none !important;
+    }
+
+    #google_translate_element .dropdown {
+        position: absolute;
+        padding-left: 35px;
+        width: max-content;
+        width: -moz-max-content;
+    }
+
+    #google_translate_element .dropdown-menu {
+        left: 35px !important;
+        padding-left: 5px !important;
+        font-size: inherit !important;
+    }
+
+    #google_translate_element .dropdown-menu a:hover, #google_translate_element .dropdown-menu a {
+        color: #3284be !important;
+    }
+
+    #google_translate_element .dropdown-menu div.lang {
+        clear: both;
+        padding: 3px !important;
+    }
+</style>
+
+
+<!--googleon: index-->
+
+</div></body>
+</html>

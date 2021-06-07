@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>ECS 240, Winter 2017</title>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<link href="style.css" rel="stylesheet" type="text/css"/></head><body>
+<table cellpadding="8" cellspacing="0" width="100%">
+<tbody><tr>
+<td valign="top" width="15%">
+<table border="0" cellpadding="2" cellspacing="2" class="menu" width="100%">
+<tbody>
+<tr><td><a href="http://www.cs.ucdavis.edu/~su/teaching/ecs240-w17/index.html">Home</a></td></tr>
+<tr><td><a href="http://www.cs.ucdavis.edu/~su/teaching/ecs240-w17/lectures.html">Lectures</a></td></tr>
+</tbody>
+</table>
+</td><td valign="top" width="85%">
+<div class="header">
+<center>
+<h2>ECS 240, Winter 2017</h2>
+<h3>Formal Semantics of Programming Languages</h3>
+</center>
+</div>
+<p>
+</p><div class="announce">
+<ul>
+<li><i>01/10/2017</i>: welcome to ECS 240! </li>
+</ul>
+</div>
+<p>
+</p><table bgcolor="#acdcee" class="info" width="75%">
+<tbody>
+<tr><th>Time</th>
+<td>TuTh 4:40-6:00 PM</td>
+</tr>
+<tr><th>Location</th>
+<td>118 Olson</td>
+</tr>
+<tr><th>Instructor</th>
+<td><a href="http://web.cs.ucdavis.edu/~su/">Zhendong Su</a>, 
+        3011 Kemper Hall, 
+        OH: Th 1-2 PM
+    </td>
+</tr>
+<tr><th>TA</th>
+<td>Nima Johari (johari AT ucdavis DOT edu), 
+	OH: Tu 11-12:30 PM (3106 Kemper), W 11-noon (3106 Kemper), F 1-2:30 PM (53 Kemper)
+    </td>
+</tr>
+</tbody>
+</table>
+<h2>Course Description</h2>
+
+The goal of this course is to introduce students to fundamental ideas
+behind the design and analysis of modern programming languages.  In
+the first part, we focus on the study of different approaches for
+specifying the semantics of programming languages.  We will study
+operational semantics for specifying <i>how</i> programs compute and
+axiomatic semantics for verifying programs.  We will apply these
+techniques to imperative, functional and object-oriented languages.  A
+good reference for this part of the course is Glynn Winskel's book on
+<i>The Formal Semantics of Programming Languages</i>.
+
+<p>
+
+In the second part, we focus on the basic techniques used in the study
+of type systems for programming languages. We will start with the simply
+typed lambda calculus and then move on to more advanced features such as
+types for imperative features and exceptions, parametric polymorphism,
+existential types for use in abstraction and module systems, and
+dependent types. Good references for this part of the course are
+Benjamin Pierce's <i>Types and Programming Languages</i> (more
+accessible) and John Mitchell's <i>Foundations for Programming
+Languages</i>.
+
+</p><p>
+
+We will also cover additional special topics drawn from recent
+research in abstract interpretation, program analysis and
+verification, and novel applications of ideas from language semantics
+to system reliability and security.  In addition to the topics covered
+in the lectures, students will have the opportunity to consider other
+related topics of interest in the form of a course project, most often
+in the form of a survey of recent research on a topic of interest.
+
+</p><h3>Prerequisites</h3>
+
+The prerequisites for this course are programming and mathematical
+experience. The ideal programming experience is practical exposure to
+several different programming languages, such as C, ML, Prolog and Java
+(eg, ECS 140A).  The ideal mathematical experience is knowledge of
+mathematical logic and ability to construct rigorous proofs (in
+particular by structural induction). None of these prerequisites are
+strictly necessary, and your desire to be exposed to this material is
+very important.
+
+<h3>Textbook</h3>
+
+The lectures will be supplemented with selected classical and recent
+research papers.
+
+We do not have any required textbook for the course. The following
+books are useful references:
+<ul>
+<li>Glynn Winskel, <i>The Formal Semantics of Programming Languages: An
+Introduction</i>, MIT Pres, 1993.</li>
+<li>John C. Mitchell, <i>Foundations for Programming Languages</i>, MIT
+Press, 1996.</li>
+<li>Benjamin Pierce, <i>Types and Programming Languages</i>, MIT Press,
+2002.</li>
+</ul>
+<p>
+
+Useful: <a href="http://www.cs.uu.nl/wiki/Techno/ProgrammingLanguageTheoryTextsOnline">Programming
+language theory texts online</a>.
+
+
+</p><h3>Homework Assignments</h3>
+
+There will be three to four homework assignments, mostly mathematical in
+nature.
+
+<h3>Exam</h3>
+
+There will be a take-home final toward the end of the quarter (most
+likely during the last week of classes) to evaluate each student's
+understanding of the course material. More details to be announced later
+in the course.
+
+<h3>Project</h3>
+
+A major component of this course is a class project.  All students are
+expected to select and complete a course project (more information
+later).  Ideally, the project is original research related in a broad
+sense to programming semantics or logic.  I will suggest some potential
+topics later in the course.
+
+<p>
+
+You must select a project and write a one or two pages proposal
+describing why what you propose to do is interesting and giving a work
+schedule.  You will also write a final report describing your project
+and prepare a 15-20 minute presentation at the end of the course. The
+due dates for the project proposal, final report, and project
+presentation will be announced later.
+
+
+</p><h3>Grading (tentative)</h3>
+<ol>
+<li>research project (~40%)</li>
+<li>homework (~30%)</li>
+<li>take-home final (~20%)</li>
+<li>class participation (~10%)</li>
+</ol>
+<p><a href="http://validator.w3.org/check/referer"><img align="right" alt="Valid HTML 4.01!" border="0" height="31" src="valid-html401.png" width="88"/></a></p>
+</td></tr></tbody></table></body></html>

@@ -1,0 +1,908 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<title>Zak Kincaid</title>
+<link href="http://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet" type="text/css"/>
+<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet"/>
+<link href="http://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css"/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div class="main">
+<table style="margin-left:auto; margin-right:auto">
+<tr>
+<td><img alt="Zachary Kincaid" src="img/zak.jpg" width="250"/></td>
+<td style="padding-left:30px">
+<span class="name">Zak Kincaid</span>
+<br/><br/>
+      I'm an assistant professor at <a href="http://www.cs.princeton.edu/">Princeton University</a>.<br/>
+      My main research interests are in program analysis and programming languages.<br/>
+      Email: <a href="mailto:zkincaid@cs.princeton.edu">zkincaid@cs.princeton.edu</a><br/>
+      Office: Computer Science Building, Room 219<br/>
+      Address: 35 Olden Street, Princeton, NJ 08540<br/><br/>
+<b>Office hours</b>: Tuesday 4-5pm.
+     </td>
+</tr>
+</table>
+<div class="nav">
+<a class="nav" href="#publications">publications</a> |
+     <a class="nav" href="#teaching">teaching</a> |
+     <a class="nav" href="#students">students</a> |
+     <a class="nav" href="#activities">activities</a> |
+     <a class="nav" href="#misc">etc</a> |
+     <a class="nav" href="https://github.com/zkincaid">github</a>
+     | <a class="nav" href="http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/k/Kincaid:Zachary.html">dblp</a>
+</div>
+<h1>news</h1>
+<ul>
+<li>
+       4/15: <i>Loop Summarization with Rational Vector Addition Systems</i>, with <a href="http://www.cs.princeton.edu/~jakers/">Jake Silverman</a> to appear at <a href="http://i-cav.org/2019/">CAV 2019</a>.
+     </li>
+<li>
+       2/4: I'll be teaching <a href="http://www.cs.princeton.edu/courses/archive/Spring19/cos320/">COS 320: Compiling Techniques</a> this Spring.
+     </li>
+<li>
+       11/18: <i>A Practical Algorithm for Structure Embedding</i>, with <a href="http://www.cs.princeton.edu/~tcm3/">Charlie Murphy</a> to appear at <a href="https://popl19.sigplan.org/track/VMCAI-2019">VMCAI 2019</a>.
+     </li>
+<li>
+       10/9: Two papers with Jason Breck, <a href="https://pages.cs.wisc.edu/~jcyphert/">John Cyphert</a>, and <a href="http://pages.cs.wisc.edu/~reps/">Tom Reps</a> to appear at <a href="https://popl19.sigplan.org/">POPL 2019</a>:
+       <ul>
+<li><i>Closed Forms for Numerical Loops</i></li>
+<li><i>Refinement of Path Expressions for Static Analysis</i></li>
+</ul>
+</li>
+<li>
+       9/7: I'll be teaching <a href="courses/Fall18/">COS 516: Automated Reasoning about Software</a> this Fall.
+     </li>
+<li>
+       3/28: I'll be co-chairing colocated events for POPL 2019 with <a href="http://www.acsu.buffalo.edu/~gaboardi/">Marco Gaboardi</a>.
+     </li>
+<li>
+       2/3: I'll be speaking at <a href="http://staticanalysis.org/sas2018/sas2018.html">SAS 2018</a> on numerical invariant generation.
+     </li>
+</ul>
+<h1><a name="publications">selected publications</a> (full list at <a href="http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/k/Kincaid:Zachary.html">dblp</a>)</h1>
+<table class="paper">
+<tr>
+<td style="width:100%">
+<span class="title">Loop Summarization with Rational Vector Addition Systems</span>
+      with <a href="http://www.cs.princeton.edu/~jakers/">Jake Silverman</a>. CAV 2019.
+      <div class="blurb">
+	This paper presents a technique for computing numerical loop
+	summaries. The method synthesizes a rational vector addition
+	system with resets (Q-VASR) that simulates the action of an
+	input loop, and then uses the reachability relation of that
+	Q-VASR to over-approximate the behavior of the loop. The key
+	technical problem solved in this paper is to automatically
+	synthesize a Q-VASR that is a best abstraction of a given loop
+	in the sense that (1) it simulates the loop and (2) it is
+	simulated by any other Q-VASR that simulates the loop. Since
+	our loop summarization scheme is based on computing the exact
+	reachability relation of a best abstraction of a loop, we can
+	make theoretical guarantees about its behavior. Moreover, we
+	show experimentally that the technique is precise and
+	performant in practice.
+     </div>
+</td>
+<td align="center">
+<a href="pub/cav19.pdf">
+<img alt="CAV19 PDF" src="img/cav19.png"/><br/>
+      PDF
+     </a>
+</td>
+</tr>
+</table>
+<br/>
+<table class="paper">
+<tr>
+<td style="width:100%">
+<span class="title">A Practical Algorithm for Structure
+	Embedding</span>
+      with <a href="http://www.cs.princeton.edu/~tcm3/">Charlie
+	Murphy</a>. VMCAI 2019.
+      <div class="blurb">
+	This paper presents an algorithm for the <i>structure
+	embedding problem</i>: given two finite first-order structures
+	over a common relational vocabulary, does there exist an
+	injective homomorphism from one to the other? The structure
+	embedding problem is NP-complete in the general case, but for
+	monadic structures (each predicate has arity at most 1) we
+	observe that it can be solved in polytime by reduction to
+	bipartite graph matching. Our algorithm, MatchEmbeds, extends
+	the bipartite matching approach to the general case by using
+	it as the foundation of a backtracking search procedure. We
+	show that MatchEmbeds outper- forms state-of-the-art SAT, CSP,
+	and subgraph isomorphism solvers on difficult random instances
+	and significantly improves the performance of a client model
+	checker for multi-threaded programs.
+     </div>
+</td>
+<td align="center">
+<a href="pub/vmcai19.pdf">
+<img alt="VMCAI19 PDF" src="img/vmcai19.png"/><br/>
+      PDF
+     </a>
+</td>
+</tr>
+</table>
+<br/>
+<table class="paper">
+<tr>
+<td style="width:100%">
+<span class="title">Closed Forms for Numerical Loops</span>
+     with Jason Breck, <a href="https://pages.cs.wisc.edu/~jcyphert/">John Cyphert</a>, and <a href="http://pages.cs.wisc.edu/~reps/">Tom Reps</a>. POPL 2019.
+      <div class="blurb">
+	This paper investigates the problem of reasoning about
+	non-linear behavior of simple numerical loops. Our approach
+	builds on classical techniques for analyzing the behavior of
+	linear dynamical systems. It is well-known that a closed-form
+	representation of the behavior of a linear dynamical system
+	can always be expressed using algebraic numbers, but this
+	approach can create formulas that present an obstacle for
+	automated-reasoning tools. This paper characterizes when
+	linear loops have closed forms in simpler theories that are
+	more amenable to automated reasoning. The algorithms for
+	computing closed forms described in the paper avoid the use of
+	algebraic numbers, and produce closed forms expressed using
+	polynomials and exponentials over rational numbers. We show
+	that the logic for expressing closed forms is decidable,
+	yielding decision procedures for verifying safety and
+	termination of a class of numerical loops over rational
+	numbers. We also show that the procedure for computing closed
+	forms for this class of numerical loops can be usedxc to
+	over-approximate the behavior of arbitrary numerical programs
+	(with unrestricted control flow, non-deterministic
+	assignments, and recursive procedures).
+     </div>
+</td>
+<td align="center">
+<a href="pub/popl19a.pdf">
+<img alt="POPL19a PDF" src="img/popl19a.png"/><br/>
+      PDF
+     </a>
+</td>
+<td align="center">
+<a href="pub/popl19a-slides.pdf">
+<img alt="POPL19a Slides" src="img/popl19a-slides.png"/><br/>
+      Slides
+     </a>
+</td>
+</tr>
+</table>
+<br/>
+<table class="paper">
+<tr>
+<td style="width:100%">
+<span class="title">Refinement of Path Expressions for Static Analysis</span>
+     with <a href="https://pages.cs.wisc.edu/~jcyphert/">John Cyphert</a>, Jason Breck, and <a href="http://pages.cs.wisc.edu/~reps/">Tom Reps</a>. POPL 2019.
+      <div class="blurb">
+	Algebraic program analyses compute information about a
+	program's behavior by first (a) computing a valid path
+	expression and then (b) interpreting the path expression in a
+	semantic algebra that defines the analysis. There are an
+	infinite number of different regular expressions that qualify
+	as valid path expressions, which raises the question: <em>which
+	one should we choose?</em> While any choice yields a sound result,
+	for many analyses the choice can have a drastic effect on the
+	precision of the results obtained. 
+	In this paper, we develop an algorithm that takes as input a
+	valid path expression E, and returns a valid path expression E'
+	that is guaranteed to yield analysis results that are at
+	least as good as those obtained using E. 
+     </div>
+</td>
+<td align="center">
+<a href="pub/popl19b.pdf">
+<img alt="POPL19b PDF" src="img/popl19b.png"/><br/>
+      PDF
+     </a>
+</td>
+</tr>
+</table>
+<br/>
+<table class="paper">
+<tr>
+<td style="width:100%">
+<span class="title">Numerical Invariants via Abstract Machines</span>.  Invited talk at SAS 2018.
+      <div class="blurb">
+	This talk presents an overview of a line of recent work on
+	generating non-linear numerical invariants for loops and
+	recursive procedures. The method is compositional in the sense
+	that it operates by breaking the program into parts, analyzing
+	each part independently, and then combining the results. The
+	fundamental challenge is to devise an effective method for
+	analyzing the behavior of a loop given the results of
+	analyzing its body. The key idea is to separate the problem
+	into two: first we approximate the loop dynamics by an
+	abstract machine, and then symbolically compute the
+	reachability relation of the abstract machine.
+     </div>
+</td>
+<td align="center">
+<a href="pub/sas18.pdf">
+<img alt="SAS18 PDF" src="img/sas18.png"/><br/>
+      PDF
+     </a>
+</td>
+<td align="center">
+<a href="pub/sas18-slides.pdf">
+<img alt="SAS18 Slides" src="img/sas18-slides.png"/><br/>
+      Slides
+     </a>
+</td>
+</tr>
+</table>
+<br/>
+<table class="paper">
+<tr>
+<td style="width:100%">
+<span class="title">Non-Linear Reasoning For Invariant Synthesis</span>
+     with Jason Breck, <a href="https://pages.cs.wisc.edu/~jcyphert/">John Cyphert</a>, and <a href="http://pages.cs.wisc.edu/~reps/">Tom Reps</a>. POPL 2018.
+      <div class="blurb">
+	An appealing approach to non-linear invariant generation is to exploit
+	the powerful recurrence-solving techniques that have been developed in
+	the field of computer algebra.  However, there is a gap between the
+	capabilities of recurrence solvers and the needs of program analysis:
+	(1) loop bodies are not merely systems of recurrence relations---they
+	may contain conditional branches, nested loops, non-deterministic
+	assignments, etc., and (2) a client program analyzer must be able to
+	reason about the closed-form solutions produced by a recurrence solver
+	(e.g., to prove assertions).  This paper presents a method for
+	generating non-linear invariants for general loops by analyzing
+	recurrence relations.  The key components are an abstract domain for
+	reasoning about non-linear arithmetic, a semantics-based method for
+	extracting recurrence relations from loop bodies, and a recurrence
+	solver that avoids closed forms that involve complex or irrational
+	numbers.
+     </div>
+</td>
+<td align="center">
+<a href="pub/popl18a.pdf">
+<img alt="POPL18a PDF" src="img/popl18a.png"/><br/>
+      PDF
+     </a>
+</td>
+<td align="center">
+<a href="pub/popl18a-slides.pdf">
+<img alt="POPL18a Slides" src="img/popl18a-slides.png"/><br/>
+      Slides
+     </a>
+</td>
+</tr>
+</table>
+<br/>
+<table class="paper">
+<tr>
+<td style="width:100%">
+<span class="title">Strategy Synthesis for Linear Arithmetic Games</span>
+     with <a href="http://www.cs.toronto.edu/~azadeh">Azadeh Farzan</a>.  POPL 2018.
+      <div class="blurb">
+	This paper studies the strategy synthesis problem for games defined
+	within the theory of linear rational arithmetic.  Two types of games
+	are considered.  A <i>satisfiability game</i>, described by a
+	quantified formula, is played by two players that take turns
+	instantiating quantifiers. The objective of each player is to prove
+	(or disprove) satisfiability of the formula.  A <i>reachability
+	game</i>, described by a pair of formulas defining the legal moves of
+	each player, is played by two players that take turns choosing
+	positions---rational vectors of some fixed dimension.  The objective
+	of each player is to reach a position where the opposing player has no
+	legal moves (or to play the game forever).  We give a complete
+	algorithm for synthesizing winning strategies for satisfiability games
+	and a semi-algorithm for synthesizing winning strategies for
+	reachability games.
+     </div>
+</td>
+<td align="center">
+<a href="pub/popl18b.pdf">
+<img alt="POPL18b PDF" src="img/popl18b.png"/><br/>
+      PDF
+     </a>
+</td>
+<td align="center">
+<a href="pub/popl18b-slides.pdf">
+<img alt="POPL18b Slides" src="img/popl18b-slides.png"/><br/>
+      Slides
+     </a>
+</td>
+</tr>
+</table>
+<br/>
+<table class="paper">
+<tr>
+<td style="width:100%">
+<span class="title">A Symbolic Decision Procedure for Symbolic Alternating Automata</span>
+     with <a href="http://pages.cs.wisc.edu/~loris/">Loris D'Antoni</a>, and Fang Wang.  MFPS 2017.
+      <div class="blurb">
+	We introduce Symbolic Alternating Finite Automata (s-AFA) as a
+	succinct and decidable model for describing sets of finite sequences
+	over arbitrary alphabets. Boolean operations over s-AFAs have linear
+	complexity, which contrasts the quadratic cost of intersection and
+	union for non-alternating symbolic automata. Due to this succinctness,
+	emptiness and equivalence checking are PSpace-hard. We introduce an
+	algorithm for checking the equivalence of two s-AFAs based on
+	bisimulation up to congruence. This algorithm exploits the power of
+	SAT solvers to efficiently search the state space of the s-AFAs.
+     </div>
+</td>
+<td align="center">
+<a href="pub/mfps17.pdf">
+<img alt="MFPS17 PDF" src="img/mfps17.png"/><br/>
+      PDF
+     </a>
+</td>
+</tr>
+</table>
+<br/>
+<table class="paper">
+<tr>
+<td style="width:100%">
+<span class="title">Compositional Recurrence Analysis Revisited</span>
+     with Jason Breck, Ashkan Boroujeni, and <a href="http://pages.cs.wisc.edu/~reps/">Tom Reps</a>.  PLDI 2017.
+      <div class="blurb">
+	Compositional recurrence analysis (CRA) is a static-analysis method
+	based on a combination of symbolic analysis and abstract
+	interpretation.  CRA computes the meaning of a procedure following
+	Tarjan’s path-expression method: first compute a regular expression
+	recognizing a set of paths through the procedure, then interpret that
+	regular expression within a suitable semantic algebra.  This paper
+	introduces ICRA, an extension of CRA to recursive procedures.  ICRA
+	overcomes the “impedance mismatch” between CRA, which relies on
+	representing program paths with regular languages, and the
+	context-free-language underpinnings of context-sensitive analysis.
+     </div>
+</td>
+<td align="center">
+<a href="pub/pldi17.pdf">
+<img alt="PLDI17 PDF" src="img/pldi17.png"/><br/>
+      PDF
+     </a>
+</td>
+<td align="center">
+<a href="pub/pldi17-slides.pdf">
+<img alt="PLDI17 Slides" src="img/pldi17-slides.png"/><br/>
+      Slides
+     </a>
+</td>
+</tr>
+</table>
+<br/>
+<table class="paper">
+<tr>
+<td style="width:100%">
+<span class="title">Linear Arithmetic Satisfiability via Strategy Improvement</span>
+     with <a href="http://www.cs.toronto.edu/~azadeh">Azadeh Farzan</a>.  IJCAI 2016.
+      <div class="blurb">
+	This article presents a decision procedure for the theory of linear
+	rational arithmetic (and linear integer arithmetic), including
+	quantifiers.  The algorithm is based on synthesizing winning
+	strategies for quantified formulas (interpreted as satisfiability
+	games) by mutual strategy improvement.
+     </div>
+</td>
+<td align="center">
+<a href="pub/ijcai16.pdf">
+<img alt="IJCAI16 PDF" src="img/ijcai16.png"/><br/>
+      PDF
+     </a>
+</td>
+<td align="center">
+<a href="pub/ijcai16-slides.pdf">
+<img alt="IJCAI16 Slides" src="img/ijcai16-slides.png"/><br/>
+      Slides
+     </a>
+</td>
+</tr>
+</table>
+<br/>
+<table class="paper">
+<tr>
+<td style="width:100%">
+<span class="title">Proving Liveness of Parameterized Programs </span>
+     with <a href="http://www.cs.toronto.edu/~azadeh">Azadeh Farzan</a> and <a href="http://swt.informatik.uni-freiburg.de/staff/podelski">Andreas Podelski</a>.
+     LICS 2016.
+      <div class="blurb">
+	Correctness of multi-threaded programs typically requires that they
+	satisfy liveness properties. For example, a program may require that
+	no thread is starved of a shared resource, or that all threads
+	eventually agree on a single value. This paper presents a method for
+	proving that such liveness properties hold. Two particular challenges
+	addressed in this work are that (1) the correctness argument may rely
+	on global behaviour of the system (e.g., the correctness argument may
+	require that all threads collectively progress towards "the good
+	thing" rather than one thread progressing while the others do not
+	interfere), and (2) such programs are often designed to be executed by
+	any number of threads, and the desired liveness properties must hold
+	regardless of the number of threads that are active in the program.
+     </div>
+</td>
+<td align="center">
+<a href="pub/lics16.pdf">
+<img alt="LICS16 PDF" src="img/lics16.png"/><br/>
+      PDF
+     </a>
+</td>
+<td align="center">
+<a href="pub/lics16-slides.pdf">
+<img alt="LICS16 Slides" src="img/lics16-slides.png"/><br/>
+      Slides
+     </a>
+</td>
+</tr>
+</table>
+<br/>
+<table class="paper">
+<tr>
+<td style="width:100%">
+<span class="title">Compositional Recurrence Analysis</span>
+     with <a href="http://www.cs.toronto.edu/~azadeh">Azadeh Farzan</a>.  FMCAD 2015.
+      <div class="blurb">
+	This paper presents a new method for automatically generating
+	numerical invariants for imperative programs. The procedure computes a
+	transition formula which over-approximates the behaviour of a given
+	input program.  It is compositional in the sense that it operates by
+	decomposing the program into parts, computing a transition formula for
+	each part, and then composing them.  Transition formulas for loops are
+	computed by extracting recurrence relations from a transition formula
+	for the loop body and then computing their closed forms.
+	Experimentation demonstrates that this method is competitive with
+	leading verification techniques.
+     </div>
+</td>
+<td align="center">
+<a href="pub/fmcad15.pdf">
+<img alt="FMCAD15 PDF" src="img/fmcad15.png"/><br/>
+      PDF
+     </a>
+</td>
+<td align="center">
+<a href="pub/fmcad15-slides.pdf">
+<img alt="FMCAD15 Slides" src="img/fmcad15-slides.png"/>
+<br/>Slides
+     </a>
+</td>
+</tr>
+</table>
+<br/>
+<table class="paper">
+<tr>
+<td style="width:100%">
+<span class="title">Spatial Interpolants</span>
+      with <a href="http://pages.cs.wisc.edu/~aws">Aws Albarghouthi</a>,
+       <a href="http://research.microsoft.com/en-us/people/jjb">Josh Berdine</a>, and
+       <a href="http://www0.cs.ucl.ac.uk/staff/b.cook/">Byron Cook</a>.
+       ESOP 2015.
+     <div class="blurb">
+       We propose SplInter, a new technique for proving properties of
+       heap-manipulating programs that marries (1) a new <i>separation
+       logic-based</i> analysis for heap reasoning with (2) an
+       <i>interpolation-based</i> technique for refining heap-shape invariants
+       with data invariants.  SplInter is <i>property
+       directed</i>, <i>precise</i>, and produces counterexample traces when a
+       property does not hold.  Using the novel notion of <i>spatial
+       interpolants modulo theories</i>, SplInter can infer complex invariants
+       over general recursive predicates, e.g., of the form "all elements in
+       a linked list are even" or "a binary tree is sorted."
+     </div>
+</td>
+<td align="center">
+<a href="pub/esop15.pdf">
+<img alt="ESOP15 PDF" src="img/esop15.png"/><br/>
+      PDF
+     </a>
+</td>
+</tr>
+</table>
+<br/>
+<table class="paper">
+<tr>
+<td style="width:100%">
+<span class="title">Proof Spaces for Unbounded Parallelism</span>
+     with <a href="http://www.cs.toronto.edu/~azadeh">Azadeh Farzan</a> and <a href="http://swt.informatik.uni-freiburg.de/staff/podelski">Andreas Podelski</a>.
+     POPL 2015.
+     <div class="blurb">
+       In this paper, we describe proof spaces, a proof system for verifying
+       safety properties for multi-threaded programs in which the number of
+       executing threads is not statically bounded.  Our development of this
+       proof system is motivated by the question of how to generalize a proof
+       of correctness (perhaps obtained from a verifier for sequential
+       programs) of a some finite set of example traces so that the
+       correctness argument applies to all traces of the program.  We show
+       that proof spaces are complete relative to the inductive assertion
+       method, and give algorithms for automating them.
+     </div>
+</td>
+<td align="center">
+<a href="pub/popl15.pdf">
+<img alt="POPL15 PDF" src="img/popl15.png"/><br/>
+      PDF
+     </a>
+</td>
+<td align="center">
+<a href="pub/popl15-slides.pdf">
+<img alt="POPL15 Slides" src="img/popl15-slides.png"/>
+<br/>Slides
+     </a>
+</td>
+</tr>
+</table>
+<br/>
+<table class="paper">
+<tr>
+<td style="width:100%">
+<span class="title">Consistency Analysis of Decision-Making Programs</span>
+     with <a href="http://www.cs.rice.edu/~sc40/">Swarat Chaudhuri</a>
+      and <a href="http://www.cs.toronto.edu/~azadeh">Azadeh Farzan</a>.
+     POPL 2014.
+     <div class="blurb">
+       Applications in many areas of computing make discrete decisions under
+       <i>uncertainty</i>; for example, the application may rely on limited
+       numerical precision in input, or on input or sensory data.  While an
+       application executing under uncertainty cannot be relied upon to make
+       decisions which are correct with respect to a given world, it is
+       desirable that their decisions are at least <i>consistent</i> (i.e.,
+       correct with respect to <i>some</i> possible world).  This paper
+       presents a sound, automatic program analysis for verifying program
+       consistency.
+     </div>
+</td>
+<td align="center">
+<a href="pub/popl14a.pdf">
+<img alt="POPL14a PDF" src="img/popl14a.png"/><br/>
+      PDF
+     </a>
+</td>
+</tr>
+</table>
+<br/>
+<table class="paper">
+<tr>
+<td style="width:100%">
+<span class="title">Proofs that count</span>
+     with <a href="http://www.cs.toronto.edu/~azadeh">Azadeh Farzan</a> and <a href="http://swt.informatik.uni-freiburg.de/staff/podelski">Andreas Podelski</a>.
+     POPL 2014.
+     <div class="blurb">
+       Counting arguments are among the most basic methods of proof in
+       mathematics.  Within the field of formal verification, they are useful
+       for reasoning about programs with <i>infinite control</i>, such as
+       programs with an unbounded number of threads, or (concurrent) programs
+       with recursive procedures.  While counting arguments are common in
+       informal, hand-written proofs of such programs, there are no fully
+       <i>automated</i> techniques to construct counting arguments.  The key
+       questions involved in automating counting arguments are: <i>how to
+       decide what should be counted?</i>, and <i>how to decide when a
+       counting argument is valid?</i>  In this paper, we present a technique
+       for automatically constructing and checking counting arguments, which
+       includes novel solutions to these questions.
+     </div>
+</td>
+<td align="center">
+<a href="pub/popl14b.pdf">
+<img alt="POPL14b PDF" src="img/popl14b.png"/><br/>
+      PDF
+     </a>
+</td>
+<td align="center">
+<a href="pub/popl14b-slides.pdf">
+<img alt="POPL14b Slides" src="img/popl14b-slides.png"/>
+<br/>Slides
+     </a>
+</td>
+</tr>
+</table>
+<br/>
+<table class="paper">
+<tr>
+<td style="width:100%">
+<span class="title">Symbolic Optimization with SMT solvers</span>
+     with 
+      <a href="http://www.cs.toronto.edu/~liyi/host/Home.html">Yi Li</a>,
+      <a href="http://pages.cs.wisc.edu/~aws">Aws Albarghouthi</a>,
+      <a href="http://www.sei.cmu.edu/about/people/profile.cfm?id=gurfinkel_14336">Arie Gurfinkel</a>
+      and <a href="http://www.cs.toronto.edu/~chechik/">Marsha Chechik</a>.
+     POPL 2014.
+     <div class="blurb">
+       The rise in efficiency of Satisfiability Modulo Theories (SMT) solvers
+       has created numerous uses for them in programming languages: software
+       verification, program synthesis, functional programming, refinement
+       types, etc.  SMT solvers are effective at finding arbitrary satisfying
+       assignments for formulae, but for some applications it is necessary to
+       find an assignment that optimizes (minimizes/maximizes) certain
+       criteria.  We present an efficient SMT-based optimization algorithm for
+       objective functions in the theory of linear real arithmetic.
+     </div>
+</td>
+<td align="center">
+<a href="pub/popl14c.pdf">
+<img alt="POPL14c PDF" src="img/popl14c.png"/><br/>
+      PDF
+     </a>
+</td>
+</tr>
+</table>
+<br/>
+<table class="paper">
+<tr>
+<td style="width:100%">
+<span class="title">Duet: static analysis for unbounded parallelism</span>
+     with <a href="http://www.cs.toronto.edu/~azadeh">Azadeh Farzan</a>.
+     CAV 2013.
+     <div class="blurb">
+<a href="http://duet.cs.toronto.edu">Duet</a> is a static analysis tool
+       for concurrent programs in which the number of executing threads is not
+       statically bounded.  It has a modular architecture, which is based on
+       separating the invariant synthesis problem in two subtasks: (1) data
+       dependence analysis, which is used to construct a data flow model of
+       the program, and (2) interpretation of the data flow model over a
+       (possibly infinite) abstract domain, which generates invariants.  This
+       separation of concerns allows researchers working on data dependence
+       analysis and abstract domains to combine their efforts toward solving
+       the challenging problem of static analysis for unbounded concurrency.
+     </div>
+</td>
+<td align="center">
+<a href="pub/cav13b.pdf">
+<img alt="CAV13b PDF" src="img/cav13b.png"/><br/>
+      PDF
+     </a>
+</td>
+</tr>
+</table>
+<br/>
+<table class="paper">
+<tr>
+<td style="width:100%">
+<span class="title">Recursive program synthesis</span>
+     with <a href="http://pages.cs.wisc.edu/~aws">Aws Albargouthi</a> and <a href="http://research.microsoft.com/en-us/um/people/sumitg">Sumit Gulwani</a>.
+     CAV 2013.
+     <div class="blurb">
+       Program synthesis from input-output examples has the power of extending
+       the range of computational tasks achievable by end-users who have no
+       programming knowledge, but can articulate their desired computations by
+       describing input-output behaviour.  In this paper we present Escher, an
+       algorithm that interacts with the user via input-output examples to
+       synthesize recursive programs.  Escher is parameterized by the
+       components that can be used in the program, thus providing a generic
+       synthesis algorithm that can be instantiated to suit different domains.
+       Escher adopts a novel search strategy through the space of programs
+       that utilizes special datastructures for inferring conditionals and
+       synthesizing recursive procedures.
+     </div>
+</td>
+<td align="center">
+<a href="pub/cav13a.pdf">
+<img alt="CAV2013a PDF" src="img/cav13a.png"/><br/>
+      PDF
+     </a>
+</td>
+</tr>
+</table>
+<br/>
+<table class="paper">
+<tr>
+<td style="width:100%">
+<span class="title">Inductive data flow graphs</span>
+     with <a href="http://www.cs.toronto.edu/~azadeh">Azadeh Farzan</a> and <a href="http://swt.informatik.uni-freiburg.de/staff/podelski">Andreas Podelski</a>.
+     POPL 2013.
+     <div class="blurb">
+       We propose inductive data flow graphs, data flow graphs with
+       incorporated inductive assertions, as the basis of an approach to
+       verifying concurrent programs. An inductive data flow graph accounts
+       for a set of dependencies between program events, and therefore stands
+       as a representation for the set of executions which give rise to these
+       dependencies.  By representing information about dependencies rather
+       than control flow, inductive data flow graphs can yield very succinct
+       proofs.  Our strategy for verifying concurrent programs defers
+       reasoning about control to the proof checking step, a purely
+       combinatorial problem, thus avoiding the need to reason about data and
+       control simultaneously.
+     </div>
+</td>
+<td align="center">
+<a href="pub/popl13.pdf">
+<img alt="POPL13 PDF" src="img/popl13.png"/><br/>
+      PDF
+     </a>
+</td>
+<td align="center">
+<a href="pub/popl13-slides.pdf">
+<img alt="POPL13 Slides" src="img/popl13-slides.png"/>
+<br/>Slides
+     </a>
+</td>
+</tr>
+</table>
+<br/>
+<table class="paper">
+<tr>
+<td style="width:100%">
+<span class="title">Verification of parameterized concurrent programs by modular reasoning about data and control</span>
+     with <a href="http://www.cs.toronto.edu/~azadeh">Azadeh Farzan</a>.
+     POPL 2012.
+     <div class="blurb">
+       We consider the problem of verifying thread-state properties of
+       multithreaded programs in which the number of active threads cannot be
+       statically bounded.  Our approach is based on decomposing the task into
+       two modules, where one reasons about data and the other reasons about
+       control.  The two modules are incorporated into a feedback loop, so
+       that the abstractions of data and control are iteratively coarsened as
+       the algorithm progresses (that is, they become weaker) until a fixed
+       point is reached.<br/>
+<span style="color:#005090">This version fixes some typographical
+       errors that appeared in the printed version - thanks to Chinmay
+       Narayan, Suvam Mukherjee, and Deepak D'Souza for finding them.</span>
+</div>
+</td>
+<td align="center">
+<a href="pub/popl12.pdf">
+<img alt="POPL12 PDF" src="img/popl12.png"/><br/>
+      PDF
+     </a>
+</td>
+<td align="center">
+<a href="pub/popl12-slides.pdf">
+<img alt="POPL12 Slides" src="img/popl12-slides.png"/>
+<br/>Slides
+     </a>
+</td>
+</tr>
+</table>
+<br/>
+<table class="paper">
+<tr>
+<td style="width:100%">
+<span class="title">Compositional bitvector analysis for concurrent programs with nested locks</span><br/>
+     with <a href="http://www.cs.toronto.edu/~azadeh">Azadeh Farzan</a>.
+     SAS 2010.
+     <div class="blurb">
+       We propose a new technique for bitvector data flow analysis for
+       concurrent programs. Our algorithm works for concurrent programs that
+       synchronize via nested locks.  We give a compositional algorithm that
+       first computes thread summaries and then efficiently combines them to
+       solve the dataflow analysis problem.  We show that this algorithm
+       computes precise solutions (meet over all paths) to bitvector problems.
+     </div>
+</td>
+<td align="center">
+<a href="pub/sas10.pdf">
+<img alt="SAS10 PDF" src="img/sas10.png"/><br/>
+      PDF
+     </a>
+</td>
+<td align="center">
+<a href="pub/sas10-slides.pdf">
+<img alt="SAS10 Slides" src="img/sas10-slides.png"/>
+<br/>Slides
+     </a>
+</td>
+</tr>
+</table>
+<!--   
+   <br />
+   <table class="paper">
+    <tr>
+    <td style="width:100%">
+      <span class="title">Duplication in DNA sequences</span>
+     with Masami Ito, <a href="http://www.cs.uwo.ca/~lila">Lila Kari</a>, and <a href="http://kjk.office.uec.ac.jp/Profiles/69/0006845/prof_e.html">Shinnosuke Seki</a>.
+     DLT 2008.
+     <div class="blurb">
+       The duplication and repeat-deletion operations are the basis of a
+       formal language theoretic model of errors that can occur during DNA
+       replication. During DNA replication, subsequences of a strand of DNA
+       may be copied several times (resulting in duplications) or skipped
+       (resulting in repeat-deletions). In this paper, we investigate several
+       properties of these operations, including closure properties of
+       language families in the Chomsky hierarchy, equations involving these
+       operations, and steps towards a characterization of regular duplication
+       languages, i.e. languages that are the result of the duplication
+       operation applied to a given set.
+     </div>
+    </td>
+    <td align="center">
+     <a href="pub/dlt08.pdf">
+      <img src="img/dlt08.png" alt="DLT2008 PDF"/><br />
+      PDF
+     </a>
+    </td>
+    </tr>
+   </table>
+-->
+<h1><a name="teaching">teaching</a></h1>
+Spring 2019 - <a href="http://www.cs.princeton.edu/courses/archive/Spring19/cos320/">COS 320: Compiling techniques</a>
+<br/>
+Past:
+<ul>
+<li>
+    Fall 2018 - <a href="courses/Fall18/">COS 516 / ELE 516: Automated Reasoning about Software</a>
+</li>
+<li>
+    Spring 2018 - <a href="courses/Spring18/iw06">COS IW 06: Little
+    Languages</a> and
+    <a href="courses/Spring18/iw07">COS IW 07: Practical Solutions to Intractable Problems</a>
+</li>
+<li>
+    Spring 2017 - <a href="http://www.cs.princeton.edu/courses/archive/Spring17/cosIW08/">COS IW 08: Practical solutions to intractable problems</a>.
+  </li>
+<li>
+    Fall 2016 - <a href="courses/Fall16/">COS 597D: Reasoning about concurrent systems</a>.
+  </li>
+</ul>
+<h1><a name="students">students</a></h1>
+<ul>
+<li>
+<a href="http://www.cs.princeton.edu/~tcm3/">Charlie Murphy</a>
+</li>
+<li>
+<a href="https://www.cs.princeton.edu/~jakers/">Jake Silverman</a>
+</li>
+<li>
+<a href="https://www.cs.princeton.edu/~shaoweiz/">Shaowei Zhu</a>
+</li>
+</ul>
+<h1><a name="activities">activities</a></h1>
+<ul>
+<li>
+       CAV 2020: Program Committee.
+     </li>
+<li>
+       PLDI 2020: External Review Committee.
+     </li>
+<li>
+       POPL 2019-2020:  Workshop co-chair.
+     </li>
+<li>
+       OBT 2018:  Program Committee.
+     </li>
+<li>
+       CAV 2018:  Program Committee.
+     </li>
+<li>
+       VSTTE 2017:  Program Committee.
+     </li>
+<li>
+       CAV 2017:  Program Committee.
+     </li>
+<li>
+       PLDI 2017:  Program Committee.
+     </li>
+<li>
+       POPL 2017:  Program Committee.
+     </li>
+<li>
+       CAV 2016:  Workshop chair/Program Committee.
+     </li>
+<li>
+       PLDI 2016: External Review Committee.
+     </li>
+<li>
+       TACAS 2016: Program Committee.
+     </li>
+<li>
+       SSS 2015: Program Committee
+     </li>
+<li>
+       Tiny Transactions on Computer Science vol. 3.:  Program Committee
+     </li>
+<li>
+       PLDI 2014: Artifact Evaluation Committee
+     </li>
+</ul>
+<h1><a name="misc">the rest</a></h1>
+<ul>
+<li> Slides for POPL 2018 tutorial on algebraic program analysis:<br/>
+<a href="popl18-tutorial/background.pdf">background</a> |
+       <a href="popl18-tutorial/intraproc.pdf">intraprocedural analysis</a> |
+       <a href="http://www.cs.wisc.edu/wpis/talks/POPL18Tutorial-InterproceduralAnalysis.pptx">interprocedural analysis</a> |
+       <a href="popl18-tutorial/NPATPGJ.pdf">iteration domains</a>
+</li>
+<li> I received my PhD from the <a href="http://web.cs.toronto.edu/">University of Toronto</a>.  My adviser was <a href="http://www.cs.toronto.edu/~azadeh/">Azadeh Farzan</a>. </li>
+<li> Some of my work is implemented in the <a href="http://duet.cs.toronto.edu">Duet</a> program analyzer. </li>
+<li>My <a href="http://en.wikipedia.org/wiki/Erd%C5%91s_number">Erdős number</a> is <a href="http://www.ams.org/mathscinet/collaborationDistance.html?AuthorSourceName=Kincaid,%20Zachary&amp;AuthorTargetName=Erdos,%20Paul%201">3</a>.</li>
+<li><a href="http://www.cse.iitd.ernet.in/~chinmay/">Chinmay Narayan</a>
+    has typeset a <a href="pub/popl12faq.pdf">FAQ</a> for our POPL12
+    paper.</li>
+</ul>
+</div>
+</body>
+</html>

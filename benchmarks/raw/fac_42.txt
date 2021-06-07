@@ -1,0 +1,557 @@
+<!-- TODO:
+  -- - class for the title
+  -- - teaching
+  -- - CV
+  -- - PhD and HDR
+  --><html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Xavier Rival" name="keywords"/>
+<title>Xavier Rival</title>
+<link href="styles.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="main">
+<div id="head">
+<div id="menu">
+<div id="menu-top">Xavier Rival</div>
+<div style="line-height: 0.4em;"> </div>
+<a class="menu-font" href="index.html#home">Home</a>
+<div style="line-height: 0.4em;"> </div>
+<a class="menu-font" href="index.html#research">Research interests</a>
+<div style="line-height: 0.4em;"> </div>
+<a class="menu-font" href="publis.html">Publications</a>
+<div style="line-height: 0.4em;"> </div>
+<a class="menu-font" href="index.html#soft">Software</a>
+<div style="line-height: 0.4em;"> </div>
+<a class="menu-font" href="index.html#projects">Projects</a>
+<div style="line-height: 0.4em;"> </div>
+<a class="menu-font" href="index.html#phdcur">Current students</a>
+<div style="line-height: 0.4em;"> </div>
+<a class="menu-font" href="index.html#phdpast">Past students</a>
+<div style="line-height: 0.4em;"> </div>
+<a class="menu-font" href="index.html#teach">Teaching</a>
+<div style="line-height: 0.4em;"> </div>
+<a class="menu-font" href="index.html#contact">Contact</a>
+<div style="line-height: 0.4em;"> </div>
+<a class="menu-font" href="#more">More</a>
+</div>
+</div> <!-- head -->
+<div id="body">
+<div style="max-width: 180ex;">
+<!-- TODO: add class title -->
+<div>
+<a href="img/xr-small.jpg">
+<img align="right" alt="" src="img/xr-small.jpg"/></a>
+<br/>
+<center>
+<a name="home"><h1> <em>Xavier Rival</em> </h1></a>
+<h2> Research Director at
+		<a href="http://www.inria.fr/rocquencourt">INRIA
+                  Paris-Rocquencourt</a> (Directeur de Recherche, DR 2) </h2>
+<h2> Head of the
+                <a href="http://www.di.ens.fr/AntiqueTeam.html.en">ANTIQUE</a>
+		(ANalyste staTIQUE) Project-Team </h2>
+	      (formerly Abstraction Project-Team)
+	    </center>
+</div>
+</div>
+<h2 class="header">Recent and upcoming events</h2>
+<ul>
+<li> <a href="papers/popl17.pdf">Semantic-Directed Clumping of
+              Disjunctive Abstract States</a>, ACM Symposium on Principles
+            of Programming Languages (POPL 2017), 2017
+            (<a href="papers/vm-popl17.ova">VM</a>).
+          </li><li> <a href="http://staticanalysis.org/sas2016/index.html">SAS
+              2016</a>, Edinburgh, September 2016 (PC Chair) </li>
+<li> <a href="http://pl.postech.ac.kr/aplas2015/">APLAS 2015</a>,
+	    Pohang, South Korea, December 2015 (Program Committee) </li>
+<li> <a href="http://cs.uni-muenster.de/sev/sas14/">SAS 2014</a>,
+            Münich, Germany, September 2014 (Program Committee) </li>
+<li> <a href="http://vmcai2014.di.ens.fr/">VMCAI 2014</a>,
+            San Diego, USA, January 2014 (Program Committe Co-Chair) </li>
+<li> <a href="http://popl.mpi-sws.org/2014/">POPL 2014</a>,
+            San Diego, USA, January 2014 (Program Committee) </li>
+</ul>
+<h2 class="header"><a name="research">Research interests</a></h2>
+<p>
+	  I am working on static analysis for the verification of semantic
+          properties of programs.
+	  My main focus is on abstract interpretation and more specifically
+          on symbolic abstractions:
+	</p>
+<ul>
+<li> Static Analysis of embedded, safety critical software<br/>
+<a href="http://www.astree.ens.fr/">the Astrée project</a>:
+            static analysis,
+            for proving the absence of runtime errors in safety critical
+            embedded software. <br/>
+            Commercial support by <a href="http://www.absint.com/">AbsInt</a>
+            (see <a href="http://www.absint.com/astree/">here</a> for more
+            info).
+	  </li>
+<li> Shape analysis <br/>
+<ul>
+<li> <a href="memcad.html">MemCAD ERC Project</a> </li>
+<li> <a href="http://xisa.cs.colorado.edu/">the Xisa
+                  analyzer</a> </li>
+</ul>
+</li>
+<li> Certified Compilation <br/>
+<a href="lcertify.html">the Lcertify translation validator</a>
+</li>
+<li> Abstract Interpretation
+	  </li>
+<li> Slicing, dependence semantics
+	  </li>
+<li> Verification of Spreadsheet Applications </li>
+<li> Static Analysis of JavaScript Software </li>
+</ul>
+<h2 class="header"><a name="soft">Software</a></h2>
+<a href="img/xr-small.jpg">
+<img align="right" alt="" src="img/erc.png"/></a>
+<ul>
+<li> <a href="memcad.html">MemCAD static analyzer</a>, as part of the
+	    <a href="memcad.html">MemCAD ERC Project</a>. </li>
+<li> <a href="http://www.astree.ens.fr">Astrée static
+              analyzer</a>. </li>
+<li> <a href="lcertify.html">LCertify translation validator
+              library</a>. </li>
+</ul>
+<h2 class="header"><a name="projects">Projects</a></h2>
+<ul>
+<li> <a href="memcad.html">MemCAD ERC Project</a>
+            (ERC Starting Grant). </li>
+<li> <a href="http://www.mbat-artemis.eu/home/">MBAT</a>. </li>
+<li> <a href="http://www.astree.ens.fr">Astrée</a>. </li>
+<li> <a href="http://www.astreea.ens.fr">AstréeA</a>. </li>
+<li> ANR <a href="http://www.systematic-paris-region.org/fr/projets/verasco">VerAsCo</a>. </li>
+<li> ANR <a href="http://www.di.ens.fr/~feret/anastasec/">AnaStaSec</a>. </li>
+</ul>
+<h2 class="header"><a name="phdcur">Current PhD students</a></h2>
+<ul>
+<li> <a href="">Hugo Illous</a>,
+            PhD Student at CEA and ENS Paris, co-supervised with Matthieu
+            Lemerre.
+          </li>
+</ul>
+<h2 class="header"><a name="phdpast">Past PhD students</a></h2>
+<ul>
+<li> <a href="http://www.di.ens.fr/~chengtie">Tie Cheng</a>,
+	    PhD at ENS Paris, graduated in September 2015.
+            Founder and CEO of MatrixLead.
+	  </li>
+<li> <a href="http://eces.colorado.edu/~coxaj/">Arlen Cox</a>,
+	    PhD at University of Colorado at Boulder and ENS Paris,
+	    co-advised with <a href="http://www.cs.colorado.edu/~bec/">Bor-Yuh
+              Evan Chang</a>, graduated in November 2014.
+            Researcher in Formal Methods.
+	  </li>
+<li> <a href="http://www.di.ens.fr/~huisong/">Huisong Li</a>,
+	    PhD at ENS Paris, graduated in March 2018.
+            Developer at TrustInSoft.
+	  </li>
+<li> <a href="">Jiangchao Liu</a>,
+	    PhD at ENS Paris, graduated in February 2018.
+            Assistant Professor at NUDT.
+	  </li>
+</ul>
+<h2 class="header"><a name="teach">Teaching</a></h2>
+<ul>
+<li>
+	    I teach a part of the <a href="semverif-2017">Semantics and
+              application to verification</a>
+	    Course, in the first year of the
+            <a href="http://diplome.di.ens.fr/">Computer Science
+	      Curriculum</a> at <a href="http://www.ens.fr">ENS of Paris</a>.
+	  </li>
+<li>
+	    I teach a part of the
+            <a href="http://www.di.ens.fr/~mine/enseignement/mpri/2014-2015/">Abstract
+	      Interpretation course</a>, at the
+	    <a href="https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=cours:c-2-6">Master Parisien de
+	      Recherche en Informatique (MPRI)</a> Master.
+	  </li>
+<li>
+	    I teach a part of the
+            <a href="https://moodle.polytechnique.fr/course/view.php?id=2702">Protocol
+              Safety and Verification</a>, at the Advanced Computer Network Master
+	  </li>
+<li>
+	    I teach a part of the
+            <a href="https://moodle.polytechnique.fr/course/view.php?id=2652">Program
+              Verification</a>, Experimental Course in the third year of the
+            École Polytechnique
+	  </li>
+<li>
+            I teach the lecture on
+            <a href="https://www.enseignement.polytechnique.fr/informatique/INF441">"Programmation
+              Avancée"</a> (Advanced Programming)
+            in the second year of the École Polytechnique
+          </li>
+</ul>
+<h2 class="header"><a name="contact">Address and contact
+            information</a></h2>
+<address>
+	  DI - Ecole Normale Supérieure <br/>
+	  45, rue d'Ulm <br/>
+	  75230 Paris Cedex 05 - France
+	</address>
+<blockquote>
+<address>
+<b>E-mail:</b> rival A T di.ens.fr <br/>
+<b>Bureau:</b> 2nd étage, "escalier de la direction", see the
+	    <a href="http://www.di.ens.fr/AccesDI.html"> map </a> <br/>
+<b>Phone:</b> +33 1 44 32 21 50 <br/>
+<b>Fax:</b> +33 1 44 32 20 80 <br/>
+</address>
+</blockquote>
+<h2 class="header"><a name="more">More information about me</a></h2>
+<ul>
+<li> <a href="http://rivalxavier.smugmug.com">Photography</a> </li>
+</ul>
+</div>
+</div>
+<div>
+<div id="main">
+<div id="head">
+<div id="menu">
+<div id="menu-top">Xavier Rival</div>
+<div style="line-height: 0.4em;"> </div>
+<a class="menu-font" href="index.html#home">Home</a>
+<div style="line-height: 0.4em;"> </div>
+<a class="menu-font" href="index.html#research">Research interests</a>
+<div style="line-height: 0.4em;"> </div>
+<a class="menu-font" href="publis.html">Publications</a>
+<div style="line-height: 0.4em;"> </div>
+<a class="menu-font" href="index.html#soft">Software</a>
+<div style="line-height: 0.4em;"> </div>
+<a class="menu-font" href="index.html#projects">Projects</a>
+<div style="line-height: 0.4em;"> </div>
+<a class="menu-font" href="index.html#phdcur">Current students</a>
+<div style="line-height: 0.4em;"> </div>
+<a class="menu-font" href="index.html#phdpast">Past students</a>
+<div style="line-height: 0.4em;"> </div>
+<a class="menu-font" href="index.html#contact">Contact</a>
+<div style="line-height: 0.4em;"> </div>
+<a class="menu-font" href="index.html#more">More</a>
+</div>
+</div> <!-- head -->
+<div id="body">
+<div style="max-width: 180ex;">
+<!-- TODO: add class title -->
+<div>
+<br/>
+<center>
+<h1> <em>Xavier Rival's publications</em> </h1>
+</center>
+</div>
+</div>
+<h2 class="header">2017</h2>
+<ul>
+<li> <a href="papers/nfm17.pdf">A Relational Shape Abstract Domain</a>.
+            Hugo Illous, Matthieu Lemerre and Xavier Rival.
+            In <cite>Nasa Formal Methods Symposium (NFM 2017)</cite>.
+          </li>
+<li> <a href="papers/popl17.pdf">Semantic-Directed Clumping of
+              Disjunctive Abstract States</a>, ACM Symposium on Principles
+            of Programming Languages (POPL 2017), 2017
+            Huisong Li, Francois Berenger, Bor-Yuh Evan Chang
+            and Xavier Rival.
+	    In <cite>Principles Of Programming Languages 2017 (POPL 2017),
+              Paris, Jan. 2017</cite>.
+            (<a href="papers/vm-popl17.ova">VM</a>).
+          </li>
+</ul>
+<h2 class="header">2016</h2>
+<ul>
+<li> <a href="http://www.Springer.com/us/book/9783662534120">Proceedings
+              of the Static Analysis Symposium</a> (SAS 2016).
+            Xavier Rival.
+            September 2016. Srpinger.
+          </li>
+<li> <a href="papers/comlan16.pdf">An array content static analysis
+              based on non-contiguous partitions</a>.
+            Jiangchao Liu and Xavier Rival.
+            In <cite>Computers, Languages, Systems and Structures</cite>,
+            January 2016, Elsevier.
+            <a href="papers/comlan16.pdf">[.pdf]</a> </li>
+<li> <a href="https://www.conference-publishing.com/list.php?Event=PLDIWS16SOAP&amp;Full=&amp;Toc=">Proceedings
+              of the Workshop on the State Of the Art in Program Analysis (SOAP 2016)</a>
+            Charles Zhang and Xavier Rival.
+            June 2016. ACM Sigplan.
+          </li>
+</ul>
+<h2 class="header">2015</h2>
+<ul>
+<li> <a href="papers/aplas15.pdf">Abstraction of Optional
+              Numerical Values</a>.
+            Jiangchao Liu and Xavier Rival.
+            In <cite>Asian Conference on Programming Languages And
+              Software (APLAS 2015)</cite>,
+            Pohang (South Korea), December 2015, Lecture Notes in
+            Computer Science 9458,
+            pages 146--166, Springer.
+            <a href="papers/aplas15.pdf">[.pdf]</a> </li>
+<li> <a href="papers/lpar15.pdf">Abstract Domains and Solvers for Sets
+              Reasoning</a>.
+            Arlen Cox, Bor-Yuh Evan Chang, Huisong Li and Xavier Rival.
+            In <cite>Logic for Programming, Artificial Intelligence, and Reasoning
+              (LPAR 2015)</cite>, Suva (Fidji), December 2015,
+            Lecture Notes in Computer Science 9450, pages 356--371, Springer.
+            <a href="papers/lpar15.pdf">[.pdf]</a> </li>
+<li> <a href="papers/sas15.pdf">Shape Analysis for Unstructured Sharing</a>.
+            Huisong Li, Xavier Rival, Bor-Yuh Evan Chang.
+            In <cite>Static Analysis Symposium (SAS 2015)</cite>, Saint-Malo (France), September 2015,
+            Lecture Notes in Computer Science 9291, pages 90--108, Springer.
+            <a href="papers/sas15.pdf">[.pdf]</a> </li>
+<li> <a href="papers/esop15-js.pdf">Desynchronized Multi-State Abstractions for Open Programs
+	      in Dynamic Languages</a>.
+	    Arlen Cox, Bor-Yuh Evan Chang and Xavier Rival.
+	    In <cite>European Symposium On Programming (ESOP 2015)</cite>, London (UK), April 2015.
+	    <a href="papers/esop15-js.pdf">[.pdf]</a> (to appear). </li>
+<li> <a href="papers/esop15-spreadsheet.pdf">Static Analysis of Spreadsheet Applications for
+	      the Detection of Type Unsafe Operations</a>.
+	      Tie Cheng and Xavier Rival,
+	      In <cite>European Symposium On Programming (ESOP 2015)</cite>, London (UK), April 2015.
+	      <a href="papers/esop15-spreadsheet.pdf">[.pdf]</a> (to appear). </li>
+<li> <a href="papers/vmcai15.pdf">Abstraction of Arrays Based on Non-Contiguous Partitions</a>.
+	    Jiangchao Liu and Xavier Rival,
+	    In <cite>Conference on Verification, Model Checking and Abstract Interpretation (VMCAI 2015)</cite>,
+	    Mumbai (India), January 2015, Lecture Notes in Computer Science 8931, pages 375--395, Springer.
+	    <a href="papers/vmcai15.pdf">[.pdf]</a>. </li>
+</ul>
+<h2 class="header">2014</h2>
+<ul>
+<li> <a href="papers/isola14.pdf">Construction of Abstract Domains for Heterogeneous Properties</a>.
+	    Antoine Toubhans, Bor-Yuh Evan Chang and Xavier Rival,
+	    In <cite>International Symposium On Leveraging Applications of Formal Methods, Verification and
+	      Validation (ISOLA 2014)</cite>,
+	    Corfu (Greece), October 2014, Lecture Notes in Computer Science 8803, pages 489--492, Springer.
+	    <a href="papers/isola14.pdf">[.pdf]</a>. </li>
+<li> <a href="papers/sas14-js.pdf">Automatic Analysis of Open Objects in Dynamic Language
+	      Programs</a>.
+	    Arlen Cox, Bor-Yuh Evan Chang and Xavier Rival,
+	    In <cite>Static Analysis Symposium (SAS 2014)</cite>, Muenchen (Germany), September 2014,
+	    Lecture Notes in Computer Science
+	    8723, pages 285--301, Springer.
+	    <a href="papers/sas14-js.pdf">[.pdf]</a>. </li>
+<li> <a href="papers/sas14-lsep.pdf">An Abstract Domain Combinator for Separately Conjoining Memory
+	      Abstractions</a>.
+	    Antoine Toubhans, Bor-Yuh Evan Chang and Xavier Rival,
+	    In <cite>Static Analysis Symposium (SAS 2014)</cite>, Muenchen (Germany), September 2014,
+	    Lecture Notes in Computer Science 8723, pages 285--301, Springer.
+	    <a href="papers/sas14-lsep.pdf">[.pdf]</a>. </li>
+</ul>
+<h2 class="header">2013</h2>
+<ul>
+<li> <a href="papers/eptcs13.pdf">Modular Construction of Shape-Numeric Analyzers</a>.
+	    Bor-Yuh Evan Chang and Xavier Rival,
+	    In <cite>Festschrift for Dave Schmidt, Manhattan (Kansas, USA)</cite>, September 2013,
+	    Electronic Proceedings in Theoretical Computer Science 129, pages 161--185, EPTCS.
+	    <a href="papers/eptcs13.pdf">[.pdf]</a>. </li>
+<li> <a href="papers/vmcai13.pdf">Reduced Product Combination of Abstract Domains for Shapes</a>.
+	    Antoine Toubhans, Bor-Yuh Evan Chang and Xavier Rival.
+	    In <cite>Verification, Model Checking and Abstract Interpretation 2013
+	      (VMCAI 2013)</cite>.
+	    <a href="papers/vmcai13.pdf">[.pdf]</a> </li>
+</ul>
+<h2 class="header">2012</h2>
+<ul>
+<li> <a href="papers/aplas12.pdf">Hierarchical Abstraction of Dynamic Structures</a>.
+	    Pascal Sotin and Xavier Rival.
+	    In <cite>Asian Conference on Programming Languages And Software 2012</cite>.
+	    <a href="papers/aplas12.pdf">[.pdf]</a> </li>
+<li> <a href="papers/sas12.pdf">An Abstract Domain to Infer Types over Zones in Spreadsheets</a>.
+	    Tie Cheng and Xavier Rival.
+	    In <cite>Static Analysis Symposium (SAS 2012)</cite>.
+	    <a href="papers/sas12.pdf">[.pdf]</a> </li>
+</ul>
+<h2 class="header">2011</h2>
+<ul>
+<li> <a href="papers/hdr.pdf"> Abstract Domains for the Analysis of Programs Manipulating Complex
+	    Data-Structures.</a>
+	    Xavier Rival.
+	    <cite>Habilitation Thesis</cite>.
+	    <a href="papers/hdr.pdf">[.pdf]</a> </li>
+<li> <a href="papers/popl11.pdf">Abstracting Calling Contexts with Shapes</a>.
+	    Xavier Rival and Bor-Yuh Evan Chang.
+	    In <cite>Principles Of Programming Languages 2011 (POPL 2011)</cite>.
+	    <a href="papers/popl11.pdf">[.pdf]</a> </li>
+</ul>
+<h2 class="header">2010</h2>
+<ul>
+<li> <a href="papers/umlfm10.pdf">Static Analysis by Abstract Interpretation of Embedded
+	      Critical Software</a>.
+	    Julien Bertrane, Patrick Cousot, Radhia Cousot, Jéròme Feret,
+	    Laurent Mauborgne, Antoine Miné, and Xavier Rival.
+	    In Third IEEE International workshop UML and Formal Methods, 16 November 2010, Shanghai, China
+	    <a href="papers/umlfm10.pdf">[.pdf]</a> </li>
+<li> <a href="papers/nsad10.pdf">Concrete Memory Models for Shape Analysis</a>.
+	    Pascal Sotin, Bertrand Jeannet, and Xavier Rival.
+	    In <cite>The Second International Workshop on Numerical and Symbolic
+	      Abstract Domains (NSAD 2010), ENTCS.</cite>
+	    September 2010.
+	    <a href="papers/nsad10.pdf">[.pdf]</a> </li>
+<li> <a href="papers/erts10.pdf">Astrée: Proving the Absence of Runtime Errors</a>.
+	    Daniel Kaestner, Stephan Wilhelm, Stefana Nenova, Patrick Cousot,
+	    Radhia Cousot, Jérôme Feret, Laurent Mauborgne,
+	    Antoine Miné and Xavier Rival.    
+	    In <cite>Embedded Real Time Software and Systems (ERTS 2010)</cite>.
+	    <a href="papers/erts10.pdf">[.pdf]</a></li>
+<li> <a href="papers/aiaa10.pdf">Static Analysis and Verification of Aerospace Software
+	      by Abstract Interpretation</a>.
+	    Julien Bertrane, Patrick Cousot, Radhia Cousot, Jérôme Feret,
+	    Laurent Mauborgne, Antoine Min&amp;eacute and Xavier Rival.
+	    In <cite>American Institute of Aeronautics and Astronautics</cite> (AIAA 2010).
+	    Copyright AIAA.
+	    <a href="papers/aiaa10.pdf">[.pdf]</a></li>
+<li> <a href="papers/tsi10.pdf">Analyse Statique par Interprétation Abstraite</a>.
+	    Xavier Rival.
+	    In <cite>Technique des Sciences Informatiques</cite>.
+	    <a href="papers/tsi10.pdf">[.pdf]</a></li>
+<li> <a href="papers/esop10.pdf">Separating Shape Graphs</a>.
+	    Vincent Laviron, Bor-Yuh Evan Chang and Xavier Rival.
+	    In <cite>European Symposium On Programming 2010 (ESOP 2010)</cite>.
+	    <a href="papers/esop10.pdf">[.pdf]</a></li>
+</ul>
+<h2 class="header">2009</h2>
+<ul>
+<li> <a href="papers/fmsd09.pdf">Why does Astrée scale up?</a>
+	    Patrick Cousot, Radhia Cousot, Jérôme Feret, 
+	    Laurent Mauborgne, Antoine Miné and Xavier Rival.
+	    In <cite>Formal Methods in System Design (FMSD), volume 35(3), pages 229-264, 2009.
+	    <a href="papers/fmsd09.pdf"> [.pdf] </a></cite></li>
+<li> <a href="papers/dasia09.pdf">Space Software Validation using Abstract Interpretation</a>.
+	    Olivier Bouissou, Eric Conquet, Patrick Cousot, Radhia Cousot,
+	    Jérôme Feret, Khalil Ghorbal, Eric Goubault,
+	    David Lesens, Laurent Mauborgne, Antoine Miné, Sylvie Putot,
+	    Xavier Rival and Michel Turin.
+	    In <cite>DAta System In Aerospace (DASIA 2009)</cite>. ESA 2009.
+	    <a href="papers/dasia09.pdf">[.pdf]</a></li>
+</ul>
+<h2 class="header">2008</h2>
+<ul>
+<li> <a href="papers/popl08.pdf">Relational Inductive Shape Analysis</a>.
+	    Bor-Yuh Evan Chang and Xavier Rival.
+	    In <cite>Principles Of Programming Languages 2008 (POPL 2008)</cite>.
+	    <a href="papers/popl08.pdf">[.pdf]</a></li>
+</ul>
+<h2 class="header">2007</h2>
+<ul>
+<li> <a href="papers/toplas07.pdf">
+	      Trace Partitioning in Abstract Interpretation Based Static Analyzers</a>.
+	    Xavier Rival and Laurent Mauborgne.
+	    In <cite>ACM Transactions On Programming Languages And Software (TOPLAS)</cite>.
+	    July 2007.
+	    <a href="papers/toplas07.pdf">[.pdf]</a></li>
+<li> <a href="papers/sas07.pdf">Shape Analysis with Structural Invariant Checkers</a>.
+	    Bor-Yuh Evan Chang, Xavier Rival and George Necula.
+	    In <cite>Static Analysis Symposium 2007 (SAS 2007)</cite>.
+	    <a href="papers/sas07.pdf">[.pdf]</a></li>
+<li> <a href="papers/tase07.pdf">Varieties of Static Analyzers: A Comparison with Astrée</a>.
+	    Patrick Cousot, Radhia Cousot, Jérôme Feret, Laurent Mauborgne,
+	    Antoine Miné, David Monniaux, and Xavier Rival.
+	    In <cite>IFIP International Symposium on Theoretical Aspects of
+	      Software Engineering 2007 (TASE 2007)</cite>.
+	    <a href="papers/tase07.pdf">[.pdf]</a></li>
+</ul>
+<h2 class="header">2006</h2>
+<ul>
+<li> <a href="papers/asian06.pdf">
+	      Combination of Abstractions in the Astrée static analyzer.</a>
+	    Patrick Cousot, Radhia Cousot, Jérôme Feret, Laurent Mauborgne,
+	    Antoine Miné, David Monniaux, and Xavier Rival.
+	    In the <cite>11th Annual Asian Comuting Science Conference (ASIAN 2006)</cite>.
+	    <a href="papers/asian06.pdf">[.pdf]</a></li>
+</ul>
+<h2 class="header">2005</h2>
+<ul>
+<li><a href="papers/aplas05.pdf">Abstract Dependences for Alarm Diagnosis</a>.
+	    Xavier Rival.
+	    In <cite> Asian Conference on Programming Languages And Software 2005 (APLAS 2005).</cite>
+	    Lecture Notes in Computer Science.
+	    <a href="papers/aplas05.pdf">[.pdf]</a></li>
+<li><a href="papers/phd.pdf">Traces Abstractions in Static Analysis and Program Transformations</a>.
+	    Xavier Rival.
+	    <cite>PhD Thesis</cite>.
+	    <a href="papers/phd.pdf">[.pdf]</a>.
+	  </li><li><a href="papers/sas05.pdf">Understanding the Origin of Alarms in Astrée</a>
+	    Xavier Rival.
+	    In <cite> Static Analysis Symposium (SAS) 2005</cite>
+	    Lecture Notes in Computer Science.
+	    <a href="papers/sas05.pdf">[.pdf]</a></li>
+<li><a href="papers/esop05_partitioning.pdf">
+	      Trace Partitioning in Abstract Interpretation Based Static Analyzers.</a>
+	    Laurent Mauborgne and Xavier Rival.
+	    In <cite>European Symposium On Programming (ESOP) 2005</cite>
+	    Lecture Notes in Computer Science.
+	    <a href="papers/esop05_partitioning.pdf"> [.pdf] </a></li>
+<li><a href="papers/esop05_astree.pdf">The Astrée Analyzer.</a>
+	    Patrick Cousot, Radhia Cousot, Jérôme Feret,
+	    Laurent Mauborgne, Antoine Miné, David Monniaux, Xavier Rival.
+	    In <cite>European Symposium On Programming (ESOP) 2005</cite>
+	    Lecture Notes in Computer Science.
+	    <a href="papers/esop05_astree.pdf">[.pdf]</a></li>
+</ul>
+<h2 class="header">2004</h2>
+<ul>
+<li><a href="papers/sttt04.pdf">
+	      Invariant Translation-Based Certification of Assembly Code.</a>
+	    Xavier Rival.
+	    In <cite>International Journal on Software and Tools for Technology Transfer</cite>
+	    Springer Verlag, 2004.
+	    <a href="papers/sttt04.pdf"> [.pdf] </a></li>
+<li><a href="papers/popl04.pdf">Symbolic Transfer Functions-based Approaches
+	      to Certified Compilation.</a>
+	    Xavier Rival.
+	    In <cite> 31st Symposium on Principles of Programming Languages (POPL 202004),
+	      Venice, Jan. 2004</cite> ACM.
+	    <a href="papers/popl04.pdf"> [.pdf] </a></li>
+</ul>
+<h2 class="header">2003</h2>
+<ul>
+<li> <a href="papers/pldi03.pdf">
+	      A Static Analyzer for Large Safety-Critical Software</a>.
+	    Bruno Blanchet, Patrick Cousot, Radhia Cousot, Jérôme Feret,
+	    Laurent Mauborgne, Antoine Miné, David Monniaux &amp; Xavier Rival.
+	    In <cite>ACM Programming Language Design and Implementation (PLDI 2003)</cite>.
+	    <a href="papers/pldi03.pdf"> [.pdf] </a></li>
+<li> <a href="papers/vmcai03.pdf">Abstract Interpretation Based Certification
+	      of Assembly Code</a>,
+	    Xavier Rival.
+	    <cite>In Proc. 4th International Conference on Verification, Model Checking
+	      and Abstract Interpretation (VMCAI 202003)</cite>, New York, Jan. 2003
+	    Lecture Notes in Computer Science.
+	    <a href="papers/vmcai03.pdf"> [.pdf] </a></li>
+</ul>
+<h2 class="header">2002</h2>
+<ul>
+<li><a href="papers/njones02.pdf">Design and Implementation of a Special-Purpose Static
+	      Program Analyzer for Safety-Critical Real-Time Embedded Software</a>, invited chapter.
+	    Bruno Blanchet, Patrick Cousot, Radhia Cousot, Jérôme
+	    Feret, Laurent Mauborgne, Antoine Miné, David Monniaux
+	    and Xavier Rival.
+	    In <cite>The Essence of Computation: Complexity, Analysis, Transformation.
+	      Essays Dedicated to Neil D. Jones</cite>,
+	    T. Mogensen and D.A. Schmidt and I.H. Sudborough (Editors). Lecture Notes in Computer
+	    Science 2566, Springer.
+	    <a href="papers/njones02.pdf"> [.pdf] </a></li>
+<li><a href="papers/csl02.pdf">Proofnets and Context Semantics for the Additives</a>.
+	    Harry Mairson and Xavier Rival.
+	    In <cite>Proc. Computer Science Logic (CSL 2002)</cite>,
+	    Edinburgh, Scotland, Sep. 2002, Lecture Notes in Computer Science. Springer, 2002.
+	    <a href="papers/csl02.pdf"> [.pdf] </a></li>
+</ul>
+<h2 class="header">2001</h2>
+<ul>
+<li><a href="papers/tphol01.pdf">Experiments with finite tree automata in Coq</a>.
+	    Xavier Rival and Jean Goubault-Larrecq.
+	    In <cite>Proc. 14th Int. Conf. Theorem Proving in Higher Order Logics (TPHOL 2001)</cite>,
+	    Edinburgh, Scotland, Sep. 2001, Lecture Notes in Computer Science. Springer, 2001.
+	    <a href="papers/tphol01.pdf"> [.pdf] </a></li>
+</ul>
+</div>
+</div>
+</div></body>
+</html>

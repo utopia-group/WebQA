@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="" name="description"/>
+<meta content="" name="author"/>
+<title>CSE 130-230</title>
+<!-- Bootstrap core CSS -->
+<link href="bootstrap.min.css" rel="stylesheet"/>
+<!-- <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.css"> -->
+<style>
+      .nav { font-size: 18px; }
+    </style>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="container">
+<!-- Static navbar -->
+<div class="navbar navbar-default">
+<div class="navbar-header">
+<button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="index.html">CSE 130-230</a>
+</div>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li><a href="contact.html">Contact</a></li>
+<li><a href="grading.html">Grading</a></li>
+<li><a href="assignments.html">Assignments</a></li>
+<li><a href="lectures.html">Lectures</a></li>
+<li><a href="section.html">Section</a></li>
+<li><a href="reading.html">Resources</a></li>
+</ul>
+<form class="navbar-form navbar-right">
+<a class="btn btn-primary" href="https://piazza.com/ucsd/Fall2018/cse130230">Piazza</a>
+</form>
+</div>
+</div>
+<div class="jumbotron">
+<h1>CSE 130-230:<br/>Programming Languages</h1>
+</div>
+<p class="lead">Programming Languages are the duct tape, bricks,
+        mortar and steel of the information age. Over the last thirty
+        years, a variety of languages with diverse features have been
+        developed, expressive radically different perspectives of the
+        idea of computation. CSE 130 and CSE 230 are an introduction
+        to these different perspectives, the fundamental concepts of
+        languages, and how modern language techniques and idioms can
+        be used to engineer software systems. For this purpose, we
+        shall focus on three different paradigms -- functional,
+        object-oriented and logic programming as embodied in OCaml,
+        Python and Prolog. CSE 230 will in addition cover advanced
+        topics such a the Curry-Howard Isomorphism, Program
+        verification, and Type systems.</p>
+</div> <!-- /container -->
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="jquery.js"></script>
+<script src="bootstrap.min.js"></script>
+<!-- <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script> -->
+<div>
+<div class="container">
+<!-- Static navbar -->
+<div class="navbar navbar-default">
+<div class="navbar-header">
+<button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="index.html">CSE 130-230</a>
+</div>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li><a href="contact.html">Contact</a></li>
+<li class="active"><a href="grading.html">Grading</a></li>
+<li><a href="assignments.html">Assignments</a></li>
+<li><a href="lectures.html">Lectures</a></li>
+<li><a href="section.html">Section</a></li>
+<li><a href="reading.html">Resources</a></li>
+</ul>
+<form class="navbar-form navbar-right">
+<a class="btn btn-primary" href="https://piazza.com/ucsd/Fall2018/cse130230">Piazza</a>
+</form>
+</div>
+</div>
+<div class="page-header">
+<h1>Grading</h1>
+</div>
+<div class="lead">
+<div class="panel panel-primary">
+<div class="panel-heading">
+            Programming Assignments (7): 30%
+          </div>
+<div class="panel-body">
+<strong>Programming assignments</strong> will be assigned
+            regularly. You have a total of <strong>four</strong> late
+            days that you can use throughout the quarter (where a late
+            day means anything between 1 second and 23 hours 59
+            minutes and 59 seconds past a deadline). After that, we
+            take 15% off a given assignment for each additional late
+            day.
+          </div>
+</div>
+<div class="panel panel-primary">
+<div class="panel-heading">
+            Midterm (Closed Book): 35%
+          </div>
+<div class="panel-body">
+<strong>Midterm exam</strong> will be held
+            on <strong>Sun 11/04/2018, 10:30am-11:50am</strong>. Closed book, but you will be allowed one cheat-sheet.
+          </div>
+</div>
+<div class="panel panel-primary">
+<div class="panel-heading">
+            Final (Closed Book): 35%
+          </div>
+<div class="panel-body">
+<strong>Final examination must</strong> be taken at the
+            time and place scheduled by the registrar. It is currently scheduled for <strong>Tue 12/11/2018, 7:00pm-9:59pm</strong>. You <strong>must</strong>
+            present a valid UCSD ID. Closed book, but you will be allowed one cheat-sheet.
+          </div>
+</div>
+</div>
+<div class="page-header">
+<h1>Academic Integrity</h1>
+</div>
+<ul class="lead">
+<li>Cheating WILL be taken seriously. It is not fair toward honest
+          students to take cheating lightly, nor is it fair to the
+          cheater to let him/her go on thinking that cheating is a
+          reasonable alternative in life.</li>
+<li>The following is not considered cheating:
+       <ul>
+<li>
+         discussing broad ideas about programming assignments in groups, without being at a computer (with code-writing and debugging done individually, later).
+        </li>
+</ul>
+</li>
+<li>The following is considered cheating:
+       <ul>
+<li>discussing programming assignments with someone who has already completed the problem, or looking at their completed solution.</li>
+<li>looking at anyone else’s solution</li>
+<li>looking at solutions from the web, previous versions of the class, or anywhere else.</li>
+<li>leaving your code (for example in an online repository) visible to others, leading others to look at your solution.</li>
+<li>receiving, providing, or soliciting assistance from unauthorized sources during a test.</li>
+</ul>
+</li>
+<li> Programming assignments are not intended to be grade-makers,
+           but to prepare you for the tests, which are the
+           grade-makers. Cheating on the programming assignment is not
+           only unethical, but shows a fundamental misunderstanding of
+           the purpose of these assignments.</li>
+<li>Penalties: If the teaching staff become aware of any violations of these
+          rules by a student I will initiate the actions described in
+          the <a href="https://academicintegrity.ucsd.edu/">Policy on
+          Academic Integrity</a>. If found responsible, the academic sanctions may result in a
+          zero for the assignment, a zero for that portion of your
+          grade, an “F” in the course, among others.</li>
+</ul>
+<!-- <ul> -->
+<!--   <li><b>Midterm exam</b> will be held sometime in the middle of the -->
+<!--   quarter. It will be open book, which means you can bring any -->
+<!--   documentation with you (including class notes). -->
+<!--   <li><b>Programming assignments</b> will be assigned approximately every one -->
+<!--   or two weeks, -->
+<!--   and instructions on turning them in will be posted with each assignment. -->
+<!--   You have a total of <b>four</b> late days that you can use throughout the -->
+<!--   quarter as you need them, where a late day means anything between 1 second and  -->
+<!--   23 hours 59 minutes and 59 seconds past a deadline.</li> -->
+<!--   <li><b>Final examination must</b> be taken at the scheduled time and -->
+<!--   location.In order to turn in your completed final examination, you <b> -->
+<!--   must</b> present a valid UCSD ID at the time the examination papers are handed  -->
+<!--   to the instructor or TA.&nbsp; The name and student number on the ID card <b> -->
+<!--   must</b> match those on the examination papers.&nbsp; Examination papers not  -->
+<!--   accompanied by a valid UCSD ID will <b>not</b> be accepted and will <b>not</b>  -->
+<!--   be graded. The final is also <b>closed book</b>, but you may use a  -->
+<!--   <b>single "cheat sheet"</b>.</li> -->
+<!--   <li><b>In class assignments</b> will occur approximately once a week, and -->
+<!--   may either be individual or group work. They will typically be pencil-and-paper -->
+<!--   exercises that must be completed without the use of a computer.</li> -->
+<!-- </li> -->
+</div> <!-- /container -->
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+
+
+<!-- <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script> -->
+</div><div>
+<div class="container">
+<!-- Static navbar -->
+<div class="navbar navbar-default">
+<div class="navbar-header">
+<button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="index.html">CSE 130-230</a>
+</div>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li><a href="contact.html">Contact</a></li>
+<li><a href="grading.html">Grading</a></li>
+<li class="active"><a href="assignments.html">Assignments</a></li>
+<li><a href="lectures.html">Lectures</a></li>
+<li><a href="section.html">Section</a></li>
+<li><a href="reading.html">Resources</a></li>
+</ul>
+<form class="navbar-form navbar-right">
+<a class="btn btn-primary" href="https://piazza.com/ucsd/Fall2018/cse130230">Piazza</a>
+</form>
+</div>
+</div>
+<!-- a1: week 1 Fr Oct 5 -->
+<!-- a2: week 3 tue Oct 16 -->
+<!-- a3: week 4 fr Oct 26 -->
+<!-- a4: week 6 fr Nov 9 -->
+<!-- a5: week 8 sat Nov 17 -->
+<!-- a6: week 9 Nov 25 -->
+<!-- a7: week 10 Dec 5 -->
+<div class="page-header">
+<h1>Programming Assignments (130 and 230)</h1>
+</div>
+<p class="lead">Your assignments must all work and be turned in on
+      ieng6.ucsd.edu. If you don't know your username can can find it using the
+      <a href="http://sdacs.ucsd.edu/~icc/">Account Lookup
+      Tool</a>. There will be a link to set a password before the
+      account can be used for the first time.</p>
+<div class="lead">
+<div class="panel panel-info">
+<div class="panel-heading">
+<a href="pa1/pa1.html">Programming Assignment #1</a>
+</div>
+<div class="panel-body">
+<p><strong>Due Oct 5 before 11:59PM</strong></p>
+</div>
+</div>
+<div class="lead">
+<div class="panel panel-info">
+<div class="panel-heading">
+<a href="pa2/pa2.html">Programming Assignment #2</a>
+</div>
+<div class="panel-body">
+<p><strong>Due Oct <s>16</s> 17 before 11:59PM</strong></p>
+<p><a href="pa2/tailrecursion.txt">Notes</a> on tail recursion</p>
+</div>
+</div>
+<div class="lead">
+<div class="panel panel-info">
+<div class="panel-heading">
+<a href="pa3/pa3.html">Programming Assignment #3</a>
+</div>
+<div class="panel-body">
+<p><strong>Due Oct 26 before 11:59PM</strong></p>
+</div>
+</div>
+<div class="lead">
+<div class="panel panel-info">
+<div class="panel-heading">
+<a href="pa4/pa4.html">Programming Assignment #4</a>
+</div>
+<div class="panel-body">
+<p><strong>Due Nov 9 before 11:59PM</strong></p>
+</div>
+</div>
+<div class="lead">
+<div class="panel panel-info">
+<div class="panel-heading">
+<a href="pa5/pa5.html">Programming Assignment #5</a>
+</div>
+<div class="panel-body">
+<p><strong>Due Nov 17 before 11:59PM</strong></p>
+</div>
+</div>
+<div class="lead">
+<div class="panel panel-info">
+<div class="panel-heading">
+<a href="pa6/pa6.html">Programming Assignment #6</a>
+</div>
+<div class="panel-body">
+<p><strong>Due Nov <s>25</s> 28 before 11:59PM</strong></p>
+</div>
+</div>
+<div class="lead">
+<div class="panel panel-info">
+<div class="panel-heading">
+<a href="pa7/pa7.html">Programming Assignment #7</a>
+</div>
+<div class="panel-body">
+<p><strong>Due Dec 8 before 11:59PM</strong></p>
+</div>
+</div>
+<div class="page-header">
+<h1>Reading Assignments (230 only)</h1>
+</div>
+<div class="container lead">
+<p> 10/12: <a href="papers/ADT-vs-Objects.pdf">On Understanding Data Abstraction, Revisited</a> (OOPSLA 2009) </p>
+<p> 10/24: <a href="papers/demillo-social-processes.pdf">Social Processes and Proofs of Theorems and Programs</a> (1979) </p>
+<p> 11/16: <a href="papers/leroy-compcert.pdf">Formal Certification of a Compiler Back-en</a> (POPL 2006) </p>
+<p> 11/26: <a href="https://web.stanford.edu/~engler/mc-osdi.pdf">Checking system rules using system-specific, programmer-written compiler extensions</a> (OSDI 2000)</p>
+<p> 12/03: <a href="https://web.stanford.edu/~engler/BLOC-coverity.pdf">A few billion lines of code later: using static analysis to find bugs in the real world</a> (Communications of the ACM 2010)</p>
+</div>
+</div> <!-- /container -->
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+
+
+<!-- <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script> -->
+</div></div></div></div></div></div></div></div></body>
+</html>

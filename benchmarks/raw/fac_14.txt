@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>James A. Jones, PhD</title>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="Jim Jones's Professional Site" name="description"/>
+<meta content="Jim Jones" name="author"/>
+<link href="/css/bootstrap.css" media="screen" rel="stylesheet"/>
+<link href="/css/docs.css" rel="stylesheet"/>
+<link href="/css/jamesajonescom.css" rel="stylesheet"/>
+<!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+<script type="text/javascript">
+      function printExternal() {
+        var printWindow = window.open( '/', 'Print', 'left=200, top=200, width=950, height=500, toolbar=0, resizable=0');
+        printWindow.addEventListener('load', function() {
+          printWindow.print();
+          printWindow.close();
+        }, true);
+      }
+    </script>
+<script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-9247756-1']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+</head>
+<body>
+<header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav hidden-print" role="banner">
+<div class="container">
+<div class="navbar-header">
+<button class="navbar-toggle" data-target=".bs-navbar-collapse" data-toggle="collapse" type="button">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="/">James A. Jones</a>
+</div>
+<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+<ul class="nav navbar-nav">
+<!--             <li>
+              <a href="/ResearchTopics">Research Topics</a>
+            </li>
+            <li>
+              <a href="/CurrentCourses">Current Courses</a>
+            </li>
+            <li>
+              <a href="http://www.ics.uci.edu/~jajones/Extras.html">Extras</a>
+            </li> -->
+</ul>
+</nav>
+</div>
+</header>
+<div class="bs-header" id="content">
+<div class="container">
+<div class="col-xs-9">
+<h1><a href="/">James A. Jones</a></h1>
+          PhD, Computer Science<br/>
+<a data-content="An occasional, bold student will ask me &quot;What is an associate professor&quot; or &quot;Is an associate professor a real professor?&quot;
+
+          The answer to the latter question is that, yes, it is a real professor &lt;smile&gt;. The answer to the former requires a little explanation. A tenure-tracked professorship requires a PhD and is typically given to people who do research, invent new theories and techniques, are considered leaders in their field, and mentor PhD students. Such a position has three main phases after PhD: &quot;Assistant&quot;, which is the first phase prior to earning tenure; &quot;Associate&quot;, which is the second phase, generally after tenure has been earned; and &quot;Full&quot;, which, at most schools is the highest rank of professor and is often achieved relatively late in one's career." data-placement="bottom" data-toggle="popover" href="#" title='What is an "Associate Professor"?'>Associate Professor</a><br/>
+<div class="jajtiny">
+<a href="http://informatics.ics.uci.edu/">Department of Informatics</a><br/>
+<a href="http://www.ics.uci.edu/">Bren School of Information and Computer Sciences</a><br/>
+<a href="http://uci.edu/">University of California, Irvine</a><br/><br/>
+</div>
+<div class="jajtiny hidden-print">
+<!-- <a href="javascript:printExternal();" class="hidden-print">Print Curriculum Vit&aelig;</a> -->
+<a href="/cv.pdf">Download Curriculum Vitæ</a><br/> <br/>
+<!-- <a href="http://se.ics.uci.edu" alt="Applying to Graduate School in Software Engineering?"><img src="/images/se_apply_banner.png" width="192"></a> -->
+<!-- <a href="http://2016.icse-conferences.org" target="_blank" alt="ICSE 2016, May 14-22, Austin TX, USA"><img src="http://2016.icse-conferences.org/static/images/downloads/banners/banner_728x90_v1.jpg" width="100%" /></a> -->
+</div>
+</div>
+<div class="col-xs-3">
+<img class="img-responsive img-rounded hidden-print" src="/images/james_a_jones.jpg"/>
+</div>
+</div>
+</div>
+<div class="container bs-docs-container">
+<div class="col-sm-3">
+<div class="bs-sidebar hidden-print" role="complementary">
+<ul class="nav bs-sidenav hidden-print">
+<li><a href="#Bio">Bio &amp; Contact</a>
+<ul class="nav">
+<li><a href="#Bio-Highlights">Bio Highlights</a></li>
+<li><a href="#Bio-Contact">Contact Info</a></li>
+<li><a href="#Bio-Education">Education</a></li>
+<li><a href="#Bio-Employment">Employment</a></li>
+</ul></li>
+<li><a href="#Research">Research</a>
+<ul class="nav">
+<li><a href="#Research-Overview">Overview</a></li>
+<li><a href="#Research-Impact">Impact</a></li>
+<li><a href="#Research-Topics">Research Topics</a></li>
+<li><a href="#Research-Publications">Publications</a></li>
+<li><a href="#Research-Funding">Funding</a></li>
+<li><a href="#Research-Talks">Talks</a></li>
+<li><a href="#Research-Honors">Awards</a></li>
+</ul></li>
+<li><a href="#Teaching">Teaching &amp; Mentoring</a>
+<ul class="nav">
+<li><a href="#Teaching-Highlights">Highlights</a></li>
+<li><a href="#Teaching-CoursesTaught">Courses Taught</a></li>
+<li><a href="#Teaching-Mentoring">Mentoring</a></li>
+<li><a href="#Teaching-StudentCommittees">Student Committees</a></li>
+</ul></li>
+<li><a href="#Service">Leadership &amp; Service</a>
+<ul class="nav">
+<li><a href="#Service-Highlights">Highlights</a></li>
+<li><a href="#Service-International">International</a></li>
+<li><a href="#Service-Campus">Campus</a></li>
+<li><a href="#Service-Department">Department</a></li>
+<li><a href="#Service-Reviewer">Reviewer</a></li>
+<li><a href="#Service-Memberships">Professional Memberships</a></li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div class="col-sm-9" role="main">
+              
+        <div class="bs-docs-section">
+<div class="panel panel-h1">
+<div class="panel-heading">
+<h1 id="Bio">Bio &amp; Contact Info</h1>
+</div>
+<div class="panel-body">
+<h2 id="Bio-Highlights">Bio Highlights</h2>
+<p></p><p>Professor Jones is perhaps best known for the creation of the influential <em>Tarantula</em> technique that spawned a new field of “spectra-based” fault  localization. For this work, he was awarded the prestigious ACM SIGSOFT Award in 2015. Also, he is a recipient of the prestigious <em>National Science Foundation Faculty Early Career Development (CAREER) Award</em>, which recognizes outstanding research and excellent education.  Jones’s research contributions span the duration of his undergrad, professional, graduate, and professorial career. Throughout this time, Jones created tools and techniques for software analysis (static and dynamic), techniques to help manage test suites for safety-critical software systems, techniques to support several aspects of software debugging and comprehension, and has studied the ways that software behaves in order to better model and predict it. Jones received the PhD in Computer Science at Georgia Tech, advised by Professor Mary Jean Harrold. At UC Irvine, Jones leads the <a href="http://spideruci.org"><em>Spider Lab</em></a> and advises PhD, Masters, and undergraduate students to study and improve software development and maintenance processes. Jones is a regular author and reviewer for top-tier research conferences (e.g., ICSE, FSE, ISSTA, ASE) and has co-organized events such as the 1st Working Conference on Software Visualization (VISSOFT) and the 10th Workshop on Dynamic Analysis (WODA).</p>
+<h2 id="Bio-Contact">Contact Information</h2>
+<div>
+<div class="col-md-3">
+<b>Affiliations:</b>
+</div>
+<div class="col-md-9">
+                  University of California, Irvine<br/>
+                  Bren School of Information and Computer Sciences<br/>
+                  Department of Informatics<br/>
+                  Institute for Software Research<br/>
+<a href="http://spideruci.org">Spider Lab Research Group</a><br/>
+</div>
+</div>
+<div>
+<div class="col-md-3">
+<b>Address:</b>
+</div>
+<div class="col-md-9">
+                  5214 Bren Hall, Irvine, CA 92697-3440
+                </div>
+</div>
+<div>
+<div class="col-md-3">
+<b>Phone:</b>
+</div>
+<div class="col-md-9">
+                  +1 (949) 824-0942<br/>
+</div>
+</div>
+<div>
+<div class="col-md-3">
+<b>Fax:</b>
+</div>
+<div class="col-md-9">
+                  +1 (949) 824-4056<br/>
+</div>
+</div>
+<div>
+<div class="col-md-3">
+<b>Email:</b>
+</div>
+<div class="col-md-9">
+                  jajones@uci.edu<br/>
+</div>
+</div>
+<div>
+<div class="col-md-3">
+<b>Web:</b>
+</div>
+<div class="col-md-9">
+<a href="http://jamesajones.com">http://jamesajones.com</a><br/>
+<a href="http://spideruci.org">http://spideruci.org</a><br/>
+</div>
+</div>
+<h2 id="Bio-Education">Education</h2>
+<ul>
+<li>PhD, Computer Science, April 2008,<br/>
+                  Georgia Institute of Technology, Atlanta, Georgia, USA</li>
+<li>B.S., Computer Science, <i><b>Summa Cum Laude</b></i>, December 1996,<br/>
+                  The Ohio State University, Columbus, Ohio, USA</li>
+</ul>
+<h2 id="Bio-Employment">Employment</h2>
+<ul>
+<li><b>Associate Professor</b>, Department of Informatics, Bren School of Information and Computer Sciences, Irvine, California, USA. 2015–present</li>
+<li><b>Assistant Professor</b>, Department of Informatics, Bren School of Information and Computer Sciences, Irvine, California, USA. 2008–2015</li>
+<li><b>Graduate Research Assistant</b>, College of Computing, Georgia Institute of Technology, Atlanta, Georgia, USA. 2000–2008</li>
+<li><b>Systems Engineer/Developer</b>, Department of Computer and Information Sciences, College of Engineering, The Ohio State University, Columbus, Ohio, USA. 1997–2000</li>
+<li><b>Software Developer</b>, Unisys Corporation, Paoli, Pennsylvania, USA. January 1995–September 1995</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="bs-docs-section">
+<div class="panel panel-h1">
+<div class="panel-heading">
+<h1 id="Research">Research</h1>
+</div>
+<div class="panel-body">
+<h2 id="Research-Overview">Overview</h2>
+<p>The overall goal of my research is to provide practical, automatic techniques and tools that can improve the effectiveness and efficiency of software development and maintenance. In particular, my research to date has employed research areas of program-analysis-based software engineering, testing, machine learning, and information visualization to aid in the processes of testing and debugging.</p>
+<p>My research addresses the problems of <em>software debugging</em> and <em>maintenance</em>.  Software developers commonly face difficulties in understanding, diagnosing, and fixing bugs in software.  Whereas many software-engineering researchers typically attempt to create techniques to provide fully automatic identification and location of bugs, my approach to such research takes a different tack:  My research addresses the large class of bugs that are caused by logical inconsistencies — an incongruence between the developers’ expectation of how the program should behave and the way it actually does.  Such common logical inconsistencies typically require developer attention and comprehension, and usually are not amenable to fully algorithmic location and repair.</p>
+<p>As such, my goal is to assist software developers performing software maintenance and debugging tasks by facilitating their <em>comprehension</em> of the software and its behavior.  In my research, I place a strong emphasis on practicality and efficiency — preferring potential real-world impact over expensive technical wizardry or inflexible, prescriptive workflow.  I work to enable efficient and effective software engineering by assisting developers and researchers in their cognition of software behavior, with the ultimate goal of equipping them to produce higher quality software, more economically, and with less frustration.</p>
+<p>Fundamentally, the challenges of software maintenance and debugging are primarily challenges of human comprehension, e.g., understanding:</p>
+<ul>
+<li><em>where</em> the bugs reside in the codebase,</li>
+<li><em>why</em> the code behaves incorrectly,</li>
+<li><em>who</em> are the developers best equipped to understand and fix problems, and</li>
+<li><em>when</em> were the changes made that introduced bugs (and <em>why</em> were they).</li>
+</ul>
+<h2 id="Research-Impact">Impact Highlights</h2>
+<b>Academic Publication Metrics:</b>
+<ul>
+<li><b>H-Index</b>. 21 (<a href="http://scholar.google.com/citations?user=3lB8Y8kAAAAJ">Google Scholar</a>) </li>
+<li><b>i10-Index</b>. 35 (<a href="http://scholar.google.com/citations?user=3lB8Y8kAAAAJ">Google Scholar</a>) </li>
+<li><b>Citation Count</b>. 4254 (<a href="http://scholar.google.com/citations?user=3lB8Y8kAAAAJ">Google Scholar</a>) </li>
+<li><b>2nd-Most Cited Paper of All Time in the International Conference on Automated Software Engineering (ASE) as of October 7, 2014</b> (<a href="http://dl.acm.org/event.cfm?id=RE381">ACM Portal for ASE</a>) (<a href="http://jamesajones.com/images/acm-ase-most-cited-2014-10-07.jpg">Screenshot of ACM Portal on October 7, 2014</a>) </li>
+<li><b>10th-Most Cited Paper of All Time in the International Conference on Software Engineering (ICSE) as of October 7, 2014</b> (<a href="http://dl.acm.org/event.cfm?id=RE228">ACM Portal for ICSE</a>) (<a href="http://jamesajones.com/images/acm-icse-most-cited-2014-10-07.jpg">Screenshot of ACM Portal on October 7, 2014</a>) </li>
+<li><b>ICSE 2002 paper cited 645 times as of December 11, 2014</b> (<a href="http://scholar.google.com/citations?user=3lB8Y8kAAAAJ">Google Scholar</a>) </li>
+<li><b>ASE 2005 paper cited 565 times as of December 11, 2014</b> (<a href="http://scholar.google.com/citations?user=3lB8Y8kAAAAJ">Google Scholar</a>) </li>
+<li><b>Tarantula computation source code downloaded more than 600 times by over 450 unique visitors.</b> (<a href="http://www.ics.uci.edu/~jajones/Extras.html">Tarantula Suspiciousness Computation Code</a>) </li>
+</ul>
+<b>University Courses that Cover Jones's Work:</b>
+<ul>
+<li>University of Massachusetts, Amherst<br/>
+Lori Clarke<br/>
+Computer Science 521/621<br/>
+Fall 2010<br/>
+<a href="http://laser.cs.umass.edu/courses/cs521-621.Fall10/index.html">Course Link</a><br/></li>
+<li>Carnegie Melon University<br/>
+Brad Myers, Thomas LaToza<br/>
+Human Aspects of Software Development 05-899D<br/>
+Spring 2011<br/>
+<a href="http://www.cs.cmu.edu/~bam/uicourse/2011hasd/lecture07-Debugging.pdf">Course Link</a><br/><a href="https://docs.google.com/document/pub?id=1jHrF42YuL7Vy8YArJ48NU8bLCN1jJqXSWvHWTQwoAfg">Course Link</a><br/></li>
+<li>Saarland University<br/>
+Andreas Zeller, Gordon Fraser<br/>
+Testing and Debugging<br/>
+Summer 2010<br/>
+<a href="http://www.st.cs.uni-saarland.de/edu/testingdebugging10/">Course Link</a><br/></li>
+<li>Carnegie Melon University<br/>
+Alex Groce<br/>
+CS119: Reliable Software Testing and Monitoring<br/>
+Spring 2009<br/>
+<a href="http://www.cs.cmu.edu/~agroce/CS119/">Course Link</a><br/></li>
+<li>Purdue University<br/>
+Xiangyu Zhang<br/>
+CS 590Z Software Defect Analysis<br/>
+Fall 2007<br/>
+<a href="http://www.cs.purdue.edu/homes/xyzhang/Fall07/">Course Link</a><br/><a href="http://www.cs.purdue.edu/homes/xyzhang/Fall07/reading.html">Course Link</a><br/></li>
+<li>Purdue University<br/>
+Xiangyu Zhang<br/>
+CS 590F: Software Reliability<br/>
+Spring 2007<br/>
+<a href="http://www.cs.purdue.edu/homes/xyzhang/Spring07/">Course Link</a><br/><a href="http://www.cs.purdue.edu/homes/xyzhang/Spring07/reading.html">Course Link</a><br/></li>
+<li>Georgia Institute of Technology<br/>
+Mary Jean Harrold<br/>
+CS 6340: Software Analysis and Testing<br/>
+Fall 2009<br/>
+<a href="http://www.cc.gatech.edu/~harrold/6340/cs6340_Fall2009/Schedule/index.html">Course Link</a><br/></li>
+<li>University of Virginia<br/>
+Wesley Weimer<br/>
+CS 8561: Topics in Programming Languages<br/>
+Spring 2010<br/>
+<a href="http://www.cs.virginia.edu/~weimer/2010-seminar/">Course Link</a><br/></li>
+<li>University of California, Riverside<br/>
+Rajiv Gupta<br/>
+CS 206: Testing and Verification Techniques in Software Engineering<br/>
+Fall 2009<br/>
+<a href="http://www.cs.ucr.edu/~gupta/teaching/206-09/">Course Link</a><br/><a href="http://www.cs.ucr.edu/~gupta/teaching/206-09/206-talks.txt">Course Link</a><br/></li>
+<li>University of Pennsylvania<br/>
+Chris Murphy<br/>
+CIS 573: Software Engineering<br/>
+Fall 2012<br/>
+<a href="http://www.seas.upenn.edu/~cdmurphy/cis573/schedule.shtml">Course Link</a><br/></li>
+<li>University of Illinois<br/>
+Darko Marinov<br/>
+CS527: Topics in Software Engineering<br/>
+Fall 2010<br/>
+<a href="https://agora.cs.illinois.edu/display/cs527fa10/Home">Course Link</a><br/></li>
+</ul>
+<b>PhD Qualifying Exams and Research Topic Reading Lists that Include Jones's Work:</b>
+<ul>
+<li>Georgia Institute of Technology, Computer Science<br/><a href="http://www.cc.gatech.edu/current/doctoral/phdcs-qualifier/software">Reading List Link</a><br/></li>
+<li>University of California, Irvine, Software Engineering<br/><a href="http://www.isr.uci.edu/Software/phaseII_reading_list.html">Reading List Link</a><br/></li>
+<li>North Carolina State University<br/><a href="http://people.engr.ncsu.edu/txie/testingreadings.html">Reading List Link</a><br/></li>
+<li>University of Virginia<br/><a href="http://www.cs.virginia.edu/~jx9n/research/regressiontesting.htm">Reading List Link</a><br/></li>
+</ul>
+<b>Literature Surveys that Include Jones's Work:</b>
+<ul>
+<li><b>Book: </b> "Why Programs Fail: A Guide to Systematic Debugging"<br/>Andreas Zeller<br/><a href="http://www.whyprogramsfail.com/book.php">Book Link</a><br/></li>
+<li><b>Book: </b> "Introduction to Software Testing"<br/>Paul Ammann<br/>Jeff Offutt<br/><a href="http://cs.gmu.edu/~offutt/softwaretest/">Book Link</a><br/></li>
+<li><b>Article: </b> "A Survey of Software Fault Localization"<br/>Eric Wong<br/><a href="http://www.utdallas.edu/~ewong/fault-localization-survey.pdf">Survey Link</a><br/></li>
+<li><b>Article: </b> "Automated Fault Localization Techniques: A Survey"<br/>Amin Alipour<br/><a href="http://web.engr.oregonstate.edu/~alipour/pub/flsurvey.pdf">Survey Link</a><br/><a href="http://blogs.oregonstate.edu/amin/publications/">Survey Link</a><br/></li>
+</ul>
+<h2 class="hidden-print" id="Research-Topics">Research Topics</h2>
+<ul class="hidden-print">
+<li><i><b>Fault Comprehension</b></i> (<a href="/ResearchTopics/#fault-comprehension">More details here.</a>)</li>
+<li><i><b>Software History Mining</b></i> (<a href="/ResearchTopics/#software-history-mining">More details here.</a>)</li>
+<li><i><b>Software Fault Analysis</b></i> (<a href="/ResearchTopics/#software-fault-analysis">More details here.</a>)</li>
+<li><i><b>Collaboration for Software Development and Maintenance </b></i> (<a href="/ResearchTopics/#collaboration-for-software-development-and-maintenance">More details here.</a>)</li>
+<li><i><b>Failure Clustering</b></i> (<a href="/ResearchTopics/#failure-clustering">More details here.</a>)</li>
+<li><i><b>Test-Suite Maintenance</b></i> (<a href="/ResearchTopics/#test-suite-maintenance">More details here.</a>)</li>
+<li><i><b>Software Visualization</b></i> (<a href="/ResearchTopics/#software-visualization">More details here.</a>)</li>
+<li><i><b>Fault Localization</b></i> (<a href="/ResearchTopics/#fault-localization">More details here.</a>)</li>
+<li><i><b>Program Analysis</b></i> (<a href="/ResearchTopics/#program-analysis">More details here.</a>)</li>
+</ul>
+<h2 id="Research-Publications">Publications</h2>
+<ul class="nav nav-tabs hidden-print" id="pubTabs">
+<li class="active"><a data-toggle="tab" href="#PubByYear">Chronologically</a></li>
+<li><a data-toggle="tab" href="#PubByCategory">Categorically</a></li>
+</ul>
+<div class="tab-content" id="pubTabsContent">
+<div class="tab-pane fade in active hidden-print" id="PubByYear">
+<dl class="dl-horizontal hidden-print">
+<dt class="jajoffset" id="P47"><b><i>P47.</i></b> <i>(<span style="font-weight:normal"><i>CR34</i></span>)</i></dt> <dd>Yang Feng, Kaj Dreef, James A. Jones, and Arie van Deursen. Hierarchical Abstraction of Execution Traces for Program Comprehension. Proceedings of the 26th Conference on Program Comprehension (ICPC), Gothenburg, Sweden, May 2018. pp. 86–96. </dd>
+<dt class="jajoffset" id="P46"><b><i>P46.</i></b> <i>(<span style="font-weight:normal"><i>CR33</i></span>)</i></dt> <dd>Yang Feng, James A. Jones, Zhenyu Chen, and Chunrong Fang. An Empirical Study on Software Failure Classification with Multi-label and Problem-Transformation Techniques. Proceedings of the IEEE 11th International Conference on Software Testing, Verification and Validation (ICST), VÃ¤sterÃ¥s, Sweden, April 2018. pp. 320–330. </dd>
+<dt class="jajoffset" id="P45"><b><i>P45.</i></b> <i>(<span style="font-weight:normal"><i>CR32</i></span>)</i></dt> <dd>Di Liu, Xiaofang Zhang, Yang Feng, and James A. Jones. Generating Descriptions for Screenshots to Assist Crowdsourced Testing. Proceedings of the IEEE 25th International Conference on Software Analysis, Evolution and Reengineering (SANER), Campobasso, Italy, March 2018. pp. 492–496. </dd>
+<dt class="jajoffset" id="P44"><b><i>P44.</i></b> <i>(<span style="font-weight:normal"><i>CR31</i></span>)</i></dt> <dd>Francisco Servant and James A. Jones. Fuzzy Fine-grained Code-history Analysis. Proceedings of the IEEE/ACM 39th International Conference on Software Engineering (ICSE), Buenos Aires, Argentina, May 2017. pp. 746–757. </dd>
+<dt class="jajoffset" id="P43"><b><i>P43.</i></b> <i>(<span style="font-weight:normal"><i>JR5</i></span>)</i></dt> <dd>Vijay Krishna Palepu, Guoqing Xu, and James A. Jones. Dynamic Dependence Summaries. ACM Transactions on Software Engineering and Methodology (TOSEM), May 2017. pp. 1–41. </dd>
+<dt class="jajoffset" id="P42"><b><i>P42.</i></b> <i>(<span style="font-weight:normal"><i>CR30</i></span>)</i></dt> <dd>Yang Feng, James A. Jones, Zhenyu Chen, and Chunrong Fang. Multi-objective Test Report Prioritization using Image Understanding. Proceedings of the 31st IEEE/ACM International Conference on Automated Software Engineering (ASE), Singapore, September 2016. pp. 202–213. </dd>
+<dt class="jajoffset" id="P41"><b><i>P41.</i></b> <i>(<span style="font-weight:normal"><i>CR29</i></span>)</i></dt> <dd>Vijay Krishna Palepu and James A. Jones. Revealing Runtime Features and Constituent Behaviors within Software. Proceedings of the IEEE Working Conference on Software Visualization (VISSOFT), Bremen, Germany, September 2015. pp. 1–10. </dd>
+<dt class="jajoffset" id="P40"><b><i>P40.</i></b> <i>(<span style="font-weight:normal"><i>CR28</i></span>)</i></dt> <dd>Nishaanth H. Reddy, Junghun Kim, Vijay Krishna Palepu, and James A. Jones. Spider SENSE: Software-Engineering, Networked, System Evaluation. Proceedings of the IEEE Working Conference on Software Visualization, Tool Track (VISSOFT-Tool), Bremen, Germany, September 2015. pp. 1–5. </dd>
+<dt class="jajoffset" id="P39"><b><i>P39.</i></b> <i>(<span style="font-weight:normal"><i>CR27</i></span>)</i></dt> <dd>Yang Feng, Zhenyu Chen, James A. Jones, Chunrong Fang, and Baowen Xu. Test Report Prioritization to Assist Crowdsourced Testing. Proceedings of the 10th Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software (ESEC/FSE), Bergamo, Italy, September 2015. pp. 1–11. </dd>
+<dt class="jajoffset" id="P38"><b><i>P38.</i></b> <i>(<span style="font-weight:normal"><i>CR26</i></span>)</i></dt> <dd>Vijay Krishna Palepu and James A. Jones. Discriminating Influences among Instructions in a Dynamic Slice. Proceedings of the International Conference on Automated Software Engineering, New Idea Track (ASE-NIER), Vasteras, Sweden, September 2014. <br/><b>Acceptance rate: 24%</b>. </dd>
+<dt class="jajoffset" id="P37"><b><i>P37.</i></b> <i>(<span style="font-weight:normal"><i>JR4</i></span>)</i></dt> <dd>Nicholas DiGiuseppe and James A. Jones. Fault Density, Fault Types, and Spectra-based Fault Localization. Empirical Software Engineering (ESE), March 2014. pp. 1–40. </dd>
+<dt class="jajoffset" id="P36"><b><i>P36.</i></b> <i>(<span style="font-weight:normal"><i>CR25</i></span>)</i></dt> <dd>Vijay Krishna Palepu, Guoqing Xu, and James A. Jones. Improving Efficiency of Dynamic Analysis with Dynamic Dependence Summaries. Proceedings of the International Conference on Automated Software Engineering (ASE), Palo Alto, California, USA, November 2013. pp. 59–69. <br/><b>Acceptance rate: 17%</b>. </dd>
+<dt class="jajoffset" id="P35"><b><i>P35.</i></b> <i>(<span style="font-weight:normal"><i>CR24</i></span>)</i></dt> <dd>Vijay Krishna Palepu and James A. Jones. Visualizing Constituent Behaviors within Executions. 1st IEEE Working Conference on Software Visualization, New Ideas and Emerging Results Track (VISSOFT-NIER), Eindhoven, Netherlands, September 2013. pp. 1–4. </dd>
+<dt class="jajoffset" id="P34"><b><i>P34.</i></b> <i>(<span style="font-weight:normal"><i>CR23</i></span>)</i></dt> <dd>Francisco Servant and James A. Jones. Chronos: Visualizing Slices of Source-Code History. 1st IEEE Working Conference on Software Visualization, Tool Track (VISSOFT-Tool), Eindhoven, Netherlands, September 2013. pp. 1–4. </dd>
+<dt class="jajoffset" id="P33"><b><i>P33.</i></b> <i>(<span style="font-weight:normal"><i>CR22</i></span>)</i></dt> <dd>Francisco Servant and James A. Jones. History Slicing: Assisting Code-Evolution Tasks. 20th International Symposium on the Foundations of Software Engineering (FSE), Cary, North Carolina, USA, November 2012. pp. 43:1–43:11. <br/><b>Acceptance rate: 16.9%</b>. </dd>
+<dt class="jajoffset" id="P32"><b><i>P32.</i></b> <i>(<span style="font-weight:normal"><i>CR21</i></span>)</i></dt> <dd>Nicholas DiGiuseppe and James A. Jones. Concept-Based Failure Clustering. 20th International Symposium on the Foundations of Software Engineering, New Ideas Track (FSE-NIER), Cary, North Carolina, USA, November 2012. pp. 29:1–29:4. </dd>
+<dt class="jajoffset" id="P31"><b><i>P31.</i></b> <i>(<span style="font-weight:normal"><i>CR20</i></span>)</i></dt> <dd>Nicholas DiGiuseppe and James A. Jones. Semantic Fault Diagnosis: Automatic Natural-Language Fault Descriptions. 20th International Symposium on the Foundations of Software Engineering, New Ideas Track (FSE-NIER), Cary, North Carolina, USA, November 2012. pp. 23:1–23:4. <br/><b>Best New-Ideas-and-Emerging-Results Presentation and Poster</b>. </dd>
+<dt class="jajoffset" id="P30"><b><i>P30.</i></b> <i>(<span style="font-weight:normal"><i>CR19</i></span>)</i></dt> <dd>Francisco Servant and James A. Jones. WhoseFault: Automatic Developer-to-Fault Assignment Through Fault Localization. 34th International Conference on Software Engineering (ICSE), Zurich, Switzerland, June 2012. pp. 36–46. <br/><b>Acceptance rate: 21%</b>. </dd>
+<dt class="jajoffset" id="P29"><b><i>P29.</i></b> <i>(<span style="font-weight:normal"><i>CR18</i></span>)</i></dt> <dd>Fang Deng and James A. Jones. Weighted System Dependence Graph. Fifth International Conference on Software Testing, Verification and Validation (ICST), Montreal, Quebec, Canada, April 2012. pp. 380–389. <br/><b>Best of Conference Research Paper Presentation</b>. <br/><b>Acceptance rate: 27%</b>. </dd>
+<dt class="jajoffset" id="P28"><b><i>P28.</i></b> <i>(<span style="font-weight:normal"><i>CR17</i></span>)</i></dt> <dd>Nicholas DiGiuseppe and James A. Jones. Software Behavior and Failure Clustering: An Empirical Study of Fault Causality. Fifth International Conference on Software Testing, Verification and Validation (ICST), Montreal, Quebec, Canada, April 2012. pp. 191–200. <br/><b>Acceptance rate: 27%</b>. </dd>
+<dt class="jajoffset" id="P27"><b><i>P27.</i></b> <i>(<span style="font-weight:normal"><i>CR16</i></span>)</i></dt> <dd>Sarah Clark, Jake Cobb, Gregory M. Kapfhammer, James A. Jones, and Mary Jean Harrold. Localizing SQL Faults in Database Applications. Proceedings of the 26th IEEE/ACM International Conference on Automated Software Engineering (ASE), Lawrence, Kansas, USA, November 2011. pp. 213–222. <br/><b>Acceptance rate: 15%</b>. </dd>
+<dt class="jajoffset" id="P26"><b><i>P26.</i></b> <i>(<span style="font-weight:normal"><i>CR15</i></span>)</i></dt> <dd>Fang Deng and James A. Jones. Inferred Dependence Coverage to Support Fault Contextualization. Proceedings of the 26th IEEE/ACM International Conference on Automated Software Engineering, Short paper track (ASE-Short), Lawrence, Kansas, USA, November 2011. pp. 512–515. <br/><b>Acceptance rate: 37%</b>. </dd>
+<dt class="jajoffset" id="P25"><b><i>P25.</i></b> <i>(<span style="font-weight:normal"><i>CR14</i></span>)</i></dt> <dd>Francisco Servant and James A. Jones. History Slicing. Proceedings of the 26th IEEE/ACM International Conference on Automated Software Engineering, Short paper track (ASE-Short), Lawrence, Kansas, USA, November 2011. pp. 452–455. <br/><b>Acceptance rate: 37%</b>. </dd>
+<dt class="jajoffset" id="P24"><b><i>P24.</i></b> <i>(<span style="font-weight:normal"><i>WR6</i></span>)</i></dt> <dd>Fang Deng, Nicholas DiGiuseppe, and James A. Jones. Constellation Visualization: Augmenting Program Dependence with Dynamic Information. Proceedings of the 6th IEEE International Workshop on Visualizing Software for Understanding and Analysis (VISSOFT), Williamsburg, Virginia, USA, September 2011. pp. 1–8. <br/><b>Acceptance rate: 42%</b>. </dd>
+<dt class="jajoffset" id="P23"><b><i>P23.</i></b> <i>(<span style="font-weight:normal"><i>CR13</i></span>)</i></dt> <dd>Nicholas DiGiuseppe and James A. Jones. Fault Interaction and its Repercussions. Proceedings of the 27th IEEE International Conference on Software Maintenance (ICSM), Williamsburg, Virginia, USA, September 2011. pp. 3–12. <br/><b>Acceptance rate: 28%</b>. </dd>
+<dt class="jajoffset" id="P22"><b><i>P22.</i></b> <i>(<span style="font-weight:normal"><i>WR5</i></span>)</i></dt> <dd>Jake Cobb, Gregory M. Kapfhammer, James A. Jones, and Mary Jean Harrold. Dynamic Invariant Detection for Relational Databases. Proceedings of the Ninth International Workshop on Dynamic Analysis (WODA), Toronto, Ontario, Canada, July 2011. pp. 12–17. </dd>
+<dt class="jajoffset" id="P21"><b><i>P21.</i></b> <i>(<span style="font-weight:normal"><i>CR12</i></span>)</i></dt> <dd>Nicholas DiGiuseppe and James A. Jones. On the Influence of Multiple Faults on Coverage-Based Fault Localization. Proceedings of the 2011 International Symposium on Software Testing and Analysis (ISSTA), Toronto, Ontario, Canada, July 2011. pp. 210–220. <br/><b>Acceptance rate: 28.9%</b>. </dd>
+<dt class="jajoffset" id="P20"><b><i>P20.</i></b> <i>(<span style="font-weight:normal"><i>WR4</i></span>)</i></dt> <dd>Mark Grechanik, James A. Jones, Alessandro Orso, and Andre van der Hoek. Bridging Gaps between Developers and Testers in Globally-distributed Software Development. Proceedings of the 2010 FSE/SDP Future of Software Engineering Research (FoSE), Santa Fe, New Mexico, USA, November 2010. pp. 149–154. </dd>
+<dt class="jajoffset" id="P19"><b><i>P19.</i></b> <i>(<span style="font-weight:normal"><i>WR3</i></span>)</i></dt> <dd>Francisco Servant, James A. Jones, and Andre van der Hoek. CASI: Preventing Indirect Conflicts through a Live Visualization. Proceedings of the 2010 ICSE Workshop on Cooperative and Human Aspects on Software Engineering (CHASE), Cape Town, South Africa, May 2010. pp. 39–46. </dd>
+<dt class="jajoffset" id="P18"><b><i>P18.</i></b> <i>(<span style="font-weight:normal"><i>WR2</i></span>)</i></dt> <dd>James A. Jones, Mark Grechanik, and Andre van der Hoek. Enabling and Enhancing Collaborations between Software Development Organizations and Independent Test Agencies. Proceedings of the 2009 ICSE Workshop on Cooperative and Human Aspects on Software Engineering (CHASE), Vancouver, British Columbia, Canada, May 2009. pp. 56–59. </dd>
+<dt class="jajoffset" id="P17"><b><i>P17.</i></b> <i>(<span style="font-weight:normal"><i>CR11</i></span>)</i></dt> <dd>Raul Santelices, James A. Jones, Yanbing Yu, and Mary Jean Harrold. Lightweight Fault-Localization Using Multiple Coverage Types. Proceedings of the 31st International Conference on Software Engineering (ICSE), Vancouver, British Columbia, Canada, May 2009. pp. 56–66. <br/><b>Acceptance rate: 12%</b>. </dd>
+<dt class="jajoffset" id="P16"><b><i>P16.</i></b> <i>(<span style="font-weight:normal"><i>CR10</i></span>)</i></dt> <dd>Hwa-You Hsu, James A. Jones, and Alessandro Orso. Rapid: Identifying Bug Signatures to Support Debugging Activities. Proceedings of the 23rd IEEE/ACM International Conference on Automated Software Engineering, Short paper track (ASE-Short), L’Aquila, Italy, September 2008. pp. 439–442. </dd>
+<dt class="jajoffset" id="P15"><b><i>P15.</i></b> <i>(<span style="font-weight:normal"><i>CR9</i></span>)</i></dt> <dd>Yanbing Yu, James A. Jones, and Mary Jean Harrold. An Empirical Study of the Effects of Test-Suite Reduction on Fault Localization. International Conference on Software Engineering (ICSE), Leipzig, Germany, May 2008. pp. 201–210. <br/><b>Acceptance rate: 15%</b>. </dd>
+<dt class="jajoffset" id="P14"><b><i>P14.</i></b> <i>(<span style="font-weight:normal"><i>O1</i></span>)</i></dt> <dd>James A. Jones. Semi-Automatic Fault Localization. PhD Dissertation. Georgia Institute of Technology, Atlanta, Georgia, USA. April 2008. </dd>
+<dt class="jajoffset" id="P13"><b><i>P13.</i></b> <i>(<span style="font-weight:normal"><i>CR8</i></span>)</i></dt> <dd>James A. Jones, James F. Bowring, and Mary Jean Harrold. Debugging in Parallel. International Symposium on Software Testing and Analysis (ISSTA), London, United Kingdom, July 2007. pp. 16–26. <br/><b>Acceptance rate: 21%</b>. </dd>
+<dt class="jajoffset" id="P12"><b><i>P12.</i></b> <i>(<span style="font-weight:normal"><i>CR7</i></span>)</i></dt> <dd>James A. Jones and Mary Jean Harrold. Empirical Evaluation of the Tarantula Automatic Fault-Localization Technique. Proceedings of the 20th IEEE/ACM International Conference on Automated Software Engineering (ASE), Long Beach, California, USA, November 2005. pp. 273–282. <br/><b>Acceptance rate: 10% (28/291)</b>. </dd>
+<dt class="jajoffset" id="P11"><b><i>P11.</i></b> <i>(<span style="font-weight:normal"><i>JR3</i></span>)</i></dt> <dd>James A. Jones, Alessandro Orso, and Mary Jean Harrold. Gammatella: Visualizing Program-Execution Data for Deployed Software. Palgrave Macmillan Information Visualization Journal, Volume 3,  Number 3, September 2004. pp. 173–188. </dd>
+<dt class="jajoffset" id="P10"><b><i>P10.</i></b> <i>(<span style="font-weight:normal"><i>CR6</i></span>)</i></dt> <dd>Alessandro Orso, James A. Jones, Mary Jean Harrold, and John Stasko. Gammatella: Visualization of Program-Execution Data for Deployed Software. Proceedings of the 26th International Conference on Software Engineering, Formal Tool Demonstration (ICSE), Edinburgh, Scotland, United Kingdom, May 2004. pp. 699–700. </dd>
+<dt class="jajoffset" id="P9"><b><i>P9.</i></b> <i>(<span style="font-weight:normal"><i>SR1</i></span>)</i></dt> <dd><i>P9</i>. James A. Jones. Fault Localization Using Visualization of Test Information. Proceedings of the Doctoral Symposium at the 26th International Conference on Software Engineering (ICSE-DocSymp), Edinburgh, Scotland, United Kingdom, May 2004. pp. 54–56. </dd>
+<dt class="jajoffset" id="P8"><b><i>P8.</i></b> <i>(<span style="font-weight:normal"><i>CR5</i></span>)</i></dt> <dd>Alessandro Orso, James A. Jones, and Mary Jean Harrold. Visualization of Program-Execution Data for Deployed Software. Proceedings of the ACM Symposium on Software Visualization (SoftVis), San Diego, California, USA, June 2003. pp. 67–76. <br/><b>Acceptance rate: 31% (20/65)</b>. <br/><b>Recipient of the ACM Distinguished Paper Award</b>. </dd>
+<dt class="jajoffset" id="P7"><b><i>P7.</i></b> <i>(<span style="font-weight:normal"><i>JR2</i></span>)</i></dt> <dd>James A. Jones and Mary Jean Harrold. Test-Suite Reduction and Prioritization for Modified Condition/Decision Coverage. IEEE Transactions on Software Engineering Journal (TSE), Volume 29,  Number 3, March 2003. pp. 195–209. </dd>
+<dt class="jajoffset" id="P6"><b><i>P6.</i></b> <i>(<span style="font-weight:normal"><i>CR4</i></span>)</i></dt> <dd>James A. Jones, Mary Jean Harrold, and John Stasko. Visualization of Test Information to Assist Fault Localization. Proceedings of the 24th International Conference on Software Engineering (ICSE), Orlando, Florida, USA, May 2002. pp. 467–477. <br/><b>Acceptance rate: 15% (48/303)</b>. </dd>
+<dt class="jajoffset" id="P5"><b><i>P5.</i></b> <i>(<span style="font-weight:normal"><i>CR3</i></span>)</i></dt> <dd>James A. Jones and Mary Jean Harrold. Test-Suite Reduction and Prioritization for Modified Condition/Decision Coverage. Proceedings of the International Conference on Software Maintenance (ICSM), Florence, Italy, November 2001. pp. 92–101. </dd>
+<dt class="jajoffset" id="P4"><b><i>P4.</i></b> <i>(<span style="font-weight:normal"><i>CR2</i></span>)</i></dt> <dd>James Eagan, Mary Jean Harrold, James A. Jones, and John Stasko. Technical Note: Visually Encoding Program Test Information to Find Faults in Software. Proceedings of IEEE Information Visualization (InfoVis), San Diego, California, USA, October 2001. pp. 33–36. <br/><b>Acceptance rate: 35%</b>. </dd>
+<dt class="jajoffset" id="P3"><b><i>P3.</i></b> <i>(<span style="font-weight:normal"><i>CR1</i></span>)</i></dt> <dd>Mary Jean Harrold, James A. Jones, Tongyu Li, Donglin Liang, Alessandro Orso, Maikel Pennings, Saurabh Sinha, S. Alexander Spoon, and Ashish Gujarathi. Regression Test Selection for Java Software. Proceedings of the ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA), Tampa Bay, Florida, USA, October 2001. pp. 312–326. <br/><b>Acceptance rate: 18% (27/145)</b>. </dd>
+<dt class="jajoffset" id="P2"><b><i>P2.</i></b> <i>(<span style="font-weight:normal"><i>WR1</i></span>)</i></dt> <dd>James A. Jones, Mary Jean Harrold, and John T. Stasko. Visualization for Fault Localization. Proceedings of the Workshop on Software Visualization, 23rd International Conference on Software Engineering (SoftVis), Toronto, Ontario, Canada, May 2001. pp. 71–75. </dd>
+<dt class="jajoffset" id="P1"><b><i>P1.</i></b> <i>(<span style="font-weight:normal"><i>JR1</i></span>)</i></dt> <dd>Mary Jean Harrold, James A. Jones, and Gregg Rothermel. Empirical Studies of Program Dependence Graph Size for C Programs. Empirical Software Engineering Journal, Volume 3,  Number 2, March 1998. pp. 203–211. </dd>
+</dl>
+</div>
+<div class="tab-pane fade in" id="PubByCategory">
+<ul>
+<li><b>Journal Articles, Peer Reviewed</b>
+<dl class="dl-horizontal">
+<dt class="jajoffset" id="P43"><i><b>JR5.</b> <span style="font-weight:normal">(P43)</span></i></dt> <dd>Vijay Krishna Palepu, Guoqing Xu, and James A. Jones. Dynamic Dependence Summaries. ACM Transactions on Software Engineering and Methodology (TOSEM), May 2017. pp. 1–41. </dd>
+<dt class="jajoffset" id="P37"><i><b>JR4.</b> <span style="font-weight:normal">(P37)</span></i></dt> <dd>Nicholas DiGiuseppe and James A. Jones. Fault Density, Fault Types, and Spectra-based Fault Localization. Empirical Software Engineering (ESE), March 2014. pp. 1–40. </dd>
+<dt class="jajoffset" id="P11"><i><b>JR3.</b> <span style="font-weight:normal">(P11)</span></i></dt> <dd>James A. Jones, Alessandro Orso, and Mary Jean Harrold. Gammatella: Visualizing Program-Execution Data for Deployed Software. Palgrave Macmillan Information Visualization Journal, Volume 3,  Number 3, September 2004. pp. 173–188. </dd>
+<dt class="jajoffset" id="P7"><i><b>JR2.</b> <span style="font-weight:normal">(P7)</span></i></dt> <dd>James A. Jones and Mary Jean Harrold. Test-Suite Reduction and Prioritization for Modified Condition/Decision Coverage. IEEE Transactions on Software Engineering Journal (TSE), Volume 29,  Number 3, March 2003. pp. 195–209. </dd>
+<dt class="jajoffset" id="P1"><i><b>JR1.</b> <span style="font-weight:normal">(P1)</span></i></dt> <dd>Mary Jean Harrold, James A. Jones, and Gregg Rothermel. Empirical Studies of Program Dependence Graph Size for C Programs. Empirical Software Engineering Journal, Volume 3,  Number 2, March 1998. pp. 203–211. </dd>
+</dl></li>
+<li><b>Conference Papers, Peer Reviewed</b>
+<dl class="dl-horizontal">
+<dt class="jajoffset" id="P47"><i><b>CR34.</b> <span style="font-weight:normal">(P47)</span></i></dt> <dd>Yang Feng, Kaj Dreef, James A. Jones, and Arie van Deursen. Hierarchical Abstraction of Execution Traces for Program Comprehension. Proceedings of the 26th Conference on Program Comprehension (ICPC), Gothenburg, Sweden, May 2018. pp. 86–96. </dd>
+<dt class="jajoffset" id="P46"><i><b>CR33.</b> <span style="font-weight:normal">(P46)</span></i></dt> <dd>Yang Feng, James A. Jones, Zhenyu Chen, and Chunrong Fang. An Empirical Study on Software Failure Classification with Multi-label and Problem-Transformation Techniques. Proceedings of the IEEE 11th International Conference on Software Testing, Verification and Validation (ICST), VÃ¤sterÃ¥s, Sweden, April 2018. pp. 320–330. </dd>
+<dt class="jajoffset" id="P45"><i><b>CR32.</b> <span style="font-weight:normal">(P45)</span></i></dt> <dd>Di Liu, Xiaofang Zhang, Yang Feng, and James A. Jones. Generating Descriptions for Screenshots to Assist Crowdsourced Testing. Proceedings of the IEEE 25th International Conference on Software Analysis, Evolution and Reengineering (SANER), Campobasso, Italy, March 2018. pp. 492–496. </dd>
+<dt class="jajoffset" id="P44"><i><b>CR31.</b> <span style="font-weight:normal">(P44)</span></i></dt> <dd>Francisco Servant and James A. Jones. Fuzzy Fine-grained Code-history Analysis. Proceedings of the IEEE/ACM 39th International Conference on Software Engineering (ICSE), Buenos Aires, Argentina, May 2017. pp. 746–757. </dd>
+<dt class="jajoffset" id="P42"><i><b>CR30.</b> <span style="font-weight:normal">(P42)</span></i></dt> <dd>Yang Feng, James A. Jones, Zhenyu Chen, and Chunrong Fang. Multi-objective Test Report Prioritization using Image Understanding. Proceedings of the 31st IEEE/ACM International Conference on Automated Software Engineering (ASE), Singapore, September 2016. pp. 202–213. </dd>
+<dt class="jajoffset" id="P41"><i><b>CR29.</b> <span style="font-weight:normal">(P41)</span></i></dt> <dd>Vijay Krishna Palepu and James A. Jones. Revealing Runtime Features and Constituent Behaviors within Software. Proceedings of the IEEE Working Conference on Software Visualization (VISSOFT), Bremen, Germany, September 2015. pp. 1–10. </dd>
+<dt class="jajoffset" id="P40"><i><b>CR28.</b> <span style="font-weight:normal">(P40)</span></i></dt> <dd>Nishaanth H. Reddy, Junghun Kim, Vijay Krishna Palepu, and James A. Jones. Spider SENSE: Software-Engineering, Networked, System Evaluation. Proceedings of the IEEE Working Conference on Software Visualization, Tool Track (VISSOFT-Tool), Bremen, Germany, September 2015. pp. 1–5. </dd>
+<dt class="jajoffset" id="P39"><i><b>CR27.</b> <span style="font-weight:normal">(P39)</span></i></dt> <dd>Yang Feng, Zhenyu Chen, James A. Jones, Chunrong Fang, and Baowen Xu. Test Report Prioritization to Assist Crowdsourced Testing. Proceedings of the 10th Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software (ESEC/FSE), Bergamo, Italy, September 2015. pp. 1–11. </dd>
+<dt class="jajoffset" id="P38"><i><b>CR26.</b> <span style="font-weight:normal">(P38)</span></i></dt> <dd>Vijay Krishna Palepu and James A. Jones. Discriminating Influences among Instructions in a Dynamic Slice. Proceedings of the International Conference on Automated Software Engineering, New Idea Track (ASE-NIER), Vasteras, Sweden, September 2014. <br/><b>Acceptance rate: 24%</b>. </dd>
+<dt class="jajoffset" id="P36"><i><b>CR25.</b> <span style="font-weight:normal">(P36)</span></i></dt> <dd>Vijay Krishna Palepu, Guoqing Xu, and James A. Jones. Improving Efficiency of Dynamic Analysis with Dynamic Dependence Summaries. Proceedings of the International Conference on Automated Software Engineering (ASE), Palo Alto, California, USA, November 2013. pp. 59–69. <br/><b>Acceptance rate: 17%</b>. </dd>
+<dt class="jajoffset" id="P35"><i><b>CR24.</b> <span style="font-weight:normal">(P35)</span></i></dt> <dd>Vijay Krishna Palepu and James A. Jones. Visualizing Constituent Behaviors within Executions. 1st IEEE Working Conference on Software Visualization, New Ideas and Emerging Results Track (VISSOFT-NIER), Eindhoven, Netherlands, September 2013. pp. 1–4. </dd>
+<dt class="jajoffset" id="P34"><i><b>CR23.</b> <span style="font-weight:normal">(P34)</span></i></dt> <dd>Francisco Servant and James A. Jones. Chronos: Visualizing Slices of Source-Code History. 1st IEEE Working Conference on Software Visualization, Tool Track (VISSOFT-Tool), Eindhoven, Netherlands, September 2013. pp. 1–4. </dd>
+<dt class="jajoffset" id="P33"><i><b>CR22.</b> <span style="font-weight:normal">(P33)</span></i></dt> <dd>Francisco Servant and James A. Jones. History Slicing: Assisting Code-Evolution Tasks. 20th International Symposium on the Foundations of Software Engineering (FSE), Cary, North Carolina, USA, November 2012. pp. 43:1–43:11. <br/><b>Acceptance rate: 16.9%</b>. </dd>
+<dt class="jajoffset" id="P32"><i><b>CR21.</b> <span style="font-weight:normal">(P32)</span></i></dt> <dd>Nicholas DiGiuseppe and James A. Jones. Concept-Based Failure Clustering. 20th International Symposium on the Foundations of Software Engineering, New Ideas Track (FSE-NIER), Cary, North Carolina, USA, November 2012. pp. 29:1–29:4. </dd>
+<dt class="jajoffset" id="P31"><i><b>CR20.</b> <span style="font-weight:normal">(P31)</span></i></dt> <dd>Nicholas DiGiuseppe and James A. Jones. Semantic Fault Diagnosis: Automatic Natural-Language Fault Descriptions. 20th International Symposium on the Foundations of Software Engineering, New Ideas Track (FSE-NIER), Cary, North Carolina, USA, November 2012. pp. 23:1–23:4. <br/><b>Best New-Ideas-and-Emerging-Results Presentation and Poster</b>. </dd>
+<dt class="jajoffset" id="P30"><i><b>CR19.</b> <span style="font-weight:normal">(P30)</span></i></dt> <dd>Francisco Servant and James A. Jones. WhoseFault: Automatic Developer-to-Fault Assignment Through Fault Localization. 34th International Conference on Software Engineering (ICSE), Zurich, Switzerland, June 2012. pp. 36–46. <br/><b>Acceptance rate: 21%</b>. </dd>
+<dt class="jajoffset" id="P29"><i><b>CR18.</b> <span style="font-weight:normal">(P29)</span></i></dt> <dd>Fang Deng and James A. Jones. Weighted System Dependence Graph. Fifth International Conference on Software Testing, Verification and Validation (ICST), Montreal, Quebec, Canada, April 2012. pp. 380–389. <br/><b>Best of Conference Research Paper Presentation</b>. <br/><b>Acceptance rate: 27%</b>. </dd>
+<dt class="jajoffset" id="P28"><i><b>CR17.</b> <span style="font-weight:normal">(P28)</span></i></dt> <dd>Nicholas DiGiuseppe and James A. Jones. Software Behavior and Failure Clustering: An Empirical Study of Fault Causality. Fifth International Conference on Software Testing, Verification and Validation (ICST), Montreal, Quebec, Canada, April 2012. pp. 191–200. <br/><b>Acceptance rate: 27%</b>. </dd>
+<dt class="jajoffset" id="P27"><i><b>CR16.</b> <span style="font-weight:normal">(P27)</span></i></dt> <dd>Sarah Clark, Jake Cobb, Gregory M. Kapfhammer, James A. Jones, and Mary Jean Harrold. Localizing SQL Faults in Database Applications. Proceedings of the 26th IEEE/ACM International Conference on Automated Software Engineering (ASE), Lawrence, Kansas, USA, November 2011. pp. 213–222. <br/><b>Acceptance rate: 15%</b>. </dd>
+<dt class="jajoffset" id="P26"><i><b>CR15.</b> <span style="font-weight:normal">(P26)</span></i></dt> <dd>Fang Deng and James A. Jones. Inferred Dependence Coverage to Support Fault Contextualization. Proceedings of the 26th IEEE/ACM International Conference on Automated Software Engineering, Short paper track (ASE-Short), Lawrence, Kansas, USA, November 2011. pp. 512–515. <br/><b>Acceptance rate: 37%</b>. </dd>
+<dt class="jajoffset" id="P25"><i><b>CR14.</b> <span style="font-weight:normal">(P25)</span></i></dt> <dd>Francisco Servant and James A. Jones. History Slicing. Proceedings of the 26th IEEE/ACM International Conference on Automated Software Engineering, Short paper track (ASE-Short), Lawrence, Kansas, USA, November 2011. pp. 452–455. <br/><b>Acceptance rate: 37%</b>. </dd>
+<dt class="jajoffset" id="P23"><i><b>CR13.</b> <span style="font-weight:normal">(P23)</span></i></dt> <dd>Nicholas DiGiuseppe and James A. Jones. Fault Interaction and its Repercussions. Proceedings of the 27th IEEE International Conference on Software Maintenance (ICSM), Williamsburg, Virginia, USA, September 2011. pp. 3–12. <br/><b>Acceptance rate: 28%</b>. </dd>
+<dt class="jajoffset" id="P21"><i><b>CR12.</b> <span style="font-weight:normal">(P21)</span></i></dt> <dd>Nicholas DiGiuseppe and James A. Jones. On the Influence of Multiple Faults on Coverage-Based Fault Localization. Proceedings of the 2011 International Symposium on Software Testing and Analysis (ISSTA), Toronto, Ontario, Canada, July 2011. pp. 210–220. <br/><b>Acceptance rate: 28.9%</b>. </dd>
+<dt class="jajoffset" id="P17"><i><b>CR11.</b> <span style="font-weight:normal">(P17)</span></i></dt> <dd>Raul Santelices, James A. Jones, Yanbing Yu, and Mary Jean Harrold. Lightweight Fault-Localization Using Multiple Coverage Types. Proceedings of the 31st International Conference on Software Engineering (ICSE), Vancouver, British Columbia, Canada, May 2009. pp. 56–66. <br/><b>Acceptance rate: 12%</b>. </dd>
+<dt class="jajoffset" id="P16"><i><b>CR10.</b> <span style="font-weight:normal">(P16)</span></i></dt> <dd>Hwa-You Hsu, James A. Jones, and Alessandro Orso. Rapid: Identifying Bug Signatures to Support Debugging Activities. Proceedings of the 23rd IEEE/ACM International Conference on Automated Software Engineering, Short paper track (ASE-Short), L’Aquila, Italy, September 2008. pp. 439–442. </dd>
+<dt class="jajoffset" id="P15"><i><b>CR9.</b> <span style="font-weight:normal">(P15)</span></i></dt> <dd>Yanbing Yu, James A. Jones, and Mary Jean Harrold. An Empirical Study of the Effects of Test-Suite Reduction on Fault Localization. International Conference on Software Engineering (ICSE), Leipzig, Germany, May 2008. pp. 201–210. <br/><b>Acceptance rate: 15%</b>. </dd>
+<dt class="jajoffset" id="P13"><i><b>CR8.</b> <span style="font-weight:normal">(P13)</span></i></dt> <dd>James A. Jones, James F. Bowring, and Mary Jean Harrold. Debugging in Parallel. International Symposium on Software Testing and Analysis (ISSTA), London, United Kingdom, July 2007. pp. 16–26. <br/><b>Acceptance rate: 21%</b>. </dd>
+<dt class="jajoffset" id="P12"><i><b>CR7.</b> <span style="font-weight:normal">(P12)</span></i></dt> <dd>James A. Jones and Mary Jean Harrold. Empirical Evaluation of the Tarantula Automatic Fault-Localization Technique. Proceedings of the 20th IEEE/ACM International Conference on Automated Software Engineering (ASE), Long Beach, California, USA, November 2005. pp. 273–282. <br/><b>Acceptance rate: 10% (28/291)</b>. </dd>
+<dt class="jajoffset" id="P10"><i><b>CR6.</b> <span style="font-weight:normal">(P10)</span></i></dt> <dd>Alessandro Orso, James A. Jones, Mary Jean Harrold, and John Stasko. Gammatella: Visualization of Program-Execution Data for Deployed Software. Proceedings of the 26th International Conference on Software Engineering, Formal Tool Demonstration (ICSE), Edinburgh, Scotland, United Kingdom, May 2004. pp. 699–700. </dd>
+<dt class="jajoffset" id="P8"><i><b>CR5.</b> <span style="font-weight:normal">(P8)</span></i></dt> <dd>Alessandro Orso, James A. Jones, and Mary Jean Harrold. Visualization of Program-Execution Data for Deployed Software. Proceedings of the ACM Symposium on Software Visualization (SoftVis), San Diego, California, USA, June 2003. pp. 67–76. <br/><b>Acceptance rate: 31% (20/65)</b>. <br/><b>Recipient of the ACM Distinguished Paper Award</b>. </dd>
+<dt class="jajoffset" id="P6"><i><b>CR4.</b> <span style="font-weight:normal">(P6)</span></i></dt> <dd>James A. Jones, Mary Jean Harrold, and John Stasko. Visualization of Test Information to Assist Fault Localization. Proceedings of the 24th International Conference on Software Engineering (ICSE), Orlando, Florida, USA, May 2002. pp. 467–477. <br/><b>Acceptance rate: 15% (48/303)</b>. </dd>
+<dt class="jajoffset" id="P5"><i><b>CR3.</b> <span style="font-weight:normal">(P5)</span></i></dt> <dd>James A. Jones and Mary Jean Harrold. Test-Suite Reduction and Prioritization for Modified Condition/Decision Coverage. Proceedings of the International Conference on Software Maintenance (ICSM), Florence, Italy, November 2001. pp. 92–101. </dd>
+<dt class="jajoffset" id="P4"><i><b>CR2.</b> <span style="font-weight:normal">(P4)</span></i></dt> <dd>James Eagan, Mary Jean Harrold, James A. Jones, and John Stasko. Technical Note: Visually Encoding Program Test Information to Find Faults in Software. Proceedings of IEEE Information Visualization (InfoVis), San Diego, California, USA, October 2001. pp. 33–36. <br/><b>Acceptance rate: 35%</b>. </dd>
+<dt class="jajoffset" id="P3"><i><b>CR1.</b> <span style="font-weight:normal">(P3)</span></i></dt> <dd>Mary Jean Harrold, James A. Jones, Tongyu Li, Donglin Liang, Alessandro Orso, Maikel Pennings, Saurabh Sinha, S. Alexander Spoon, and Ashish Gujarathi. Regression Test Selection for Java Software. Proceedings of the ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA), Tampa Bay, Florida, USA, October 2001. pp. 312–326. <br/><b>Acceptance rate: 18% (27/145)</b>. </dd>
+</dl></li>
+<li><b>Workshop Papers, Peer Reviewed</b>
+<dl class="dl-horizontal">
+<dt class="jajoffset" id="P24"><i><b>WR6.</b> <span style="font-weight:normal">(P24)</span></i></dt> <dd>Fang Deng, Nicholas DiGiuseppe, and James A. Jones. Constellation Visualization: Augmenting Program Dependence with Dynamic Information. Proceedings of the 6th IEEE International Workshop on Visualizing Software for Understanding and Analysis (VISSOFT), Williamsburg, Virginia, USA, September 2011. pp. 1–8. <br/><b>Acceptance rate: 42%</b>. </dd>
+<dt class="jajoffset" id="P22"><i><b>WR5.</b> <span style="font-weight:normal">(P22)</span></i></dt> <dd>Jake Cobb, Gregory M. Kapfhammer, James A. Jones, and Mary Jean Harrold. Dynamic Invariant Detection for Relational Databases. Proceedings of the Ninth International Workshop on Dynamic Analysis (WODA), Toronto, Ontario, Canada, July 2011. pp. 12–17. </dd>
+<dt class="jajoffset" id="P20"><i><b>WR4.</b> <span style="font-weight:normal">(P20)</span></i></dt> <dd>Mark Grechanik, James A. Jones, Alessandro Orso, and Andre van der Hoek. Bridging Gaps between Developers and Testers in Globally-distributed Software Development. Proceedings of the 2010 FSE/SDP Future of Software Engineering Research (FoSE), Santa Fe, New Mexico, USA, November 2010. pp. 149–154. </dd>
+<dt class="jajoffset" id="P19"><i><b>WR3.</b> <span style="font-weight:normal">(P19)</span></i></dt> <dd>Francisco Servant, James A. Jones, and Andre van der Hoek. CASI: Preventing Indirect Conflicts through a Live Visualization. Proceedings of the 2010 ICSE Workshop on Cooperative and Human Aspects on Software Engineering (CHASE), Cape Town, South Africa, May 2010. pp. 39–46. </dd>
+<dt class="jajoffset" id="P18"><i><b>WR2.</b> <span style="font-weight:normal">(P18)</span></i></dt> <dd>James A. Jones, Mark Grechanik, and Andre van der Hoek. Enabling and Enhancing Collaborations between Software Development Organizations and Independent Test Agencies. Proceedings of the 2009 ICSE Workshop on Cooperative and Human Aspects on Software Engineering (CHASE), Vancouver, British Columbia, Canada, May 2009. pp. 56–59. </dd>
+<dt class="jajoffset" id="P2"><i><b>WR1.</b> <span style="font-weight:normal">(P2)</span></i></dt> <dd>James A. Jones, Mary Jean Harrold, and John T. Stasko. Visualization for Fault Localization. Proceedings of the Workshop on Software Visualization, 23rd International Conference on Software Engineering (SoftVis), Toronto, Ontario, Canada, May 2001. pp. 71–75. </dd>
+</dl></li>
+<li><b>Symposium Papers, Peer Reviewed</b>
+<dl class="dl-horizontal">
+<dt class="jajoffset" id="P9"><i><b>SR1.</b> <span style="font-weight:normal">(P9)</span></i></dt> <dd>James A. Jones. Fault Localization Using Visualization of Test Information. Proceedings of the Doctoral Symposium at the 26th International Conference on Software Engineering (ICSE-DocSymp), Edinburgh, Scotland, United Kingdom, May 2004. pp. 54–56. </dd>
+</dl></li>
+<li><b>Other Publications</b>
+<dl class="dl-horizontal">
+<dt class="jajoffset" id="P14"><i><b>O1.</b> <span style="font-weight:normal">(P14)</span></i></dt> <dd> James A. Jones. Semi-Automatic Fault Localization. PhD Dissertation. Georgia Institute of Technology, Atlanta, Georgia, USA. April 2008. </dd>
+</dl></li>
+</ul>
+</div>
+</div>
+<h2 id="Research-Funding">Funding</h2>
+<ul>
+<li><i><b>NSF CAREER: Aiding Comprehension of Complex Software Dynamics to Support High-Quality Software Development</b></i><br/>
+                  National Science Foundation (NSF). Award CCF-1350837.<br/>
+<b>Sole Principal Investigator.</b><br/>
+                  $499010.<br/>
+                  July 2014–June 2019. <i>Funded.</i></li>
+<li><i><b>Collaborative Software Debugging and Maintenance</b></i><br/>
+                  Council on Research, Computing and Library Resources (CORCLR), University of California, Irvine.<br/>
+                  
+                  $5000.<br/>
+                  February 2012–February 2013. <i>Funded.</i></li>
+<li><i><b>Promoting Efficient Debugging and High-Quality Software through Contextual Understanding of Faults</b></i><br/>
+                  National Science Foundation (NSF). Award CCF-1116943.<br/>
+<b>Sole Principal Investigator.</b><br/>
+                  $499600.<br/>
+                  August 2011–July 2014. <i>Funded.</i></li>
+<li><i><b>Bug Comprehension Techniques to Assist Software Debugging</b></i><br/>
+                  Google Inc..<br/>
+<b>Sole Principle Investigator.</b><br/>
+                  $58000.<br/>
+                  January 2011–December 2011. <i>Funded.</i></li>
+<li><i><b>Statistical Bug Localization</b></i><br/>
+                  Council on Research, Computing and Library Resources (CORCLR), University of California, Irvine.<br/>
+                  
+                  $3000.<br/>
+                  December 2010–June 2011. <i>Funded.</i></li>
+<li><i><b>Execution Trace Compression</b></i><br/>
+                  Council on Research, Computing and Library Resources (CORCLR), University of California, Irvine.<br/>
+                  
+                  $4000.<br/>
+                  January 2009–June 2009. <i>Funded.</i></li>
+</ul>
+<h2 id="Research-Talks">Public Research Talks &amp; Presentations</h2>
+<b>External Invited Talks</b>
+<ul>
+<li><i><b>Along Came a Spider: Tarantula in Regression and Progression</b></i><br/>Keynote talk at the 2nd International Workshop on Regression Testing (Regression 2012), Montreal, Canada. April 2012</li>
+<li><i><b>Who, What, Where, Why, and Which: Automating Software Debugging Activities</b></i><br/>Aerospace Corporation, El Segundo, California, USA. March 2011</li>
+<li><i><b>Improved Debugging Using Fault-Localization Techniques</b></i><br/>Plenary keynote talk at Tata Consultancy Services (TCS) Architects Conference, Dallas, Texas, USA. October 2006</li>
+</ul>
+<b>Conference Talks</b>
+<ul>
+<li><i><b>Diagnosing the Root of Software Problems through Automated Cause-and-Effect Sequence Analysis</b></i><br/>Institute for Software Research Forum, Irvine, California. May 2014. </li>
+<li><i><b>Visualizing Constituent Behaviors within Executions</b></i><br/>1st IEEE Working Conference on Software Visualization, NIER Track (VISSOFT-NIER), Eindhoven, Netherlands. September 2013. </li>
+<li><i><b>What is Your Code's Behavior Telling You? Using Evidence to Automate Software Maintenance</b></i><br/>Institute for Software Research Forum, Irvine, California. May 2013. </li>
+<li><i><b>Semantic Fault Diagnosis: Automatic Natural-Language Fault Descriptions</b></i><br/>Conference poster at the International Symposium on the Foundations of Software Engineering (FSE) 2012, Cary, North Carolina, USA. <i></i><p>“Best New and Emerging Idea Presentation and Poster Award” for the conference</p></li>
+<li><i><b>Weighted System Dependence Graph</b></i><br/>Conference presentation at the International Conference on Software Testing, Verification and Validation (ICST) 2012, Montreal, Canada. <i></i><p>“Best Presentation Award” for the conference</p></li>
+<li><i><b>Constellation Visualization: Augmenting Program Dependence with Dynamic Information</b></i><br/>Conference Workshop presentation at the International Workshop on Visualizing Software for Understanding and Analysis (VISSOFT) 2011, Williamsburg, Virginia, USA. </li>
+<li><i><b>On the Influence of Multiple Faults on Coverage-Based Fault Localization</b></i><br/>Conference presentation at the International Symposium on Software Testing and Analysis (ISSTA) 2011, Toronto, Canada. </li>
+<li><i><b>Bridging Gaps between Developers and Testers in Globally-distributed Software Development</b></i><br/>Conference Workshop presentation at the Futures of Software Engineering Research (FoSER) 2010, Santa Fe, New Mexico, USA. </li>
+<li><i><b>Enabling and Enhancing Collaborations between Software Development Organizations and Independent Test Agencies</b></i><br/>Conference Workshop presentation at the Workshop for Cooperative and Human Aspects of Software Engineering (CHASE) 2009, Vancouver, Canada. </li>
+<li><i><b>An Empirical Study of the Effects of Test-Suite Reduction on Fault Localization</b></i><br/>Conference presentation at the International Conference on Software Engineering (ICSE) 2008, Leipzig, Germany. </li>
+<li><i><b>Debugging in Parallel</b></i><br/>Conference presentation at International Symposium on Software Testing and Analysis (ISSTA) 2007, London, England. </li>
+<li><i><b>Empirical Evaluation of the Tarantula Automatic Fault-Localization Technique</b></i><br/>Conference presentation at the International Conference on Automated Software Engineering (ASE) 2005, Long Beach, California, USA. </li>
+<li><i><b>GAMMATELLA: Visualization of Program-Execution Data for Deployed Software</b></i><br/>Formal demonstration and talk at the International Conference on Software Engineering (ICSE) 2004, Edinburgh, Scotland, United Kingdom. </li>
+<li><i><b>Visualization of Test Information to Assist Fault Localization</b></i><br/>Doctoral symposium presentation at the International Conference on Software Engineering (ICSE) 2004, Edinburgh, Scotland, United Kingdom. </li>
+<li><i><b>Visualization of Program-Execution Data for Deployed Software</b></i><br/>Conference presentation at the ACM Symposium on Software Visualization (SoftVis) 2003, San Diego, California, USA. </li>
+<li><i><b>Visualization of Test Information to Assist Fault Localization</b></i><br/>Conference presentation at International Conference on Software Engineering (ICSE) 2002, Orlando, Florida, USA. </li>
+<li><i><b>Test-Suite Reduction and Prioritization for Modified Condition/Decision Coverage</b></i><br/>Conference presentation at the International Conference on Software Maintenance (ICSM) 2001, Florence, Italy. </li>
+<li><i><b>Visualization for Fault Localization</b></i><br/>Workshop presentation at the International Conference on Software Engineering (ICSE) 2001 Workshop on Software Visualization, Toronto, Ontario, Canada. </li>
+</ul>
+<h2 id="Research-Honors">Honors and Awards</h2>
+<ul>
+<li><i><b>ACM SIGSOFT Impact Award.</b></i><br/>Association for Computing Machinery (ACM), Special Interest Group on Software Engineering (SIGSOFT).<br/>September 2015.<br/><i>Recognizes research that has had extraordinary impact and is granted to only one research paper per year that was published at least ten years prior.</i><br/><i>The awarded paper is titled “Visualization of Test Information to Assist Fault Localization” from ICSE 2002.</i><br/><i><a href="http://www.sigsoft.org/awards/impactPaperAward.html">ACM SIGSOFT Impact Award</a></i><br/></li>
+<li><i><b>National Science Foundation CAREER Award.</b></i><br/>National Science Foundation (NSF).<br/>July 2014.<br/><i>Recognizes early-career faculty whose activities form a firm foundation for a lifetime of leadership in integrating education and research.</i><br/><i>“National Science Foundation’s most prestigious awards in support of junior faculty who exemplify the role of teacher-scholars through outstanding research, excellent education and the integration of education and research within the context of the mission of their organizations.” —<a href="http://www.nsf.gov/career">NSF CAREER Website</a></i><br/></li>
+<li><i><b>Best New and Emerging Research Presentation and Poster Award.</b></i><br/>International Symposium on the Foundations of Software Engineering (FSE).<br/>November 2012.<br/><i>Earned jointly with PhD student, Nicholas DiGiuseppe, who is under Jones’s advisement</i><br/></li>
+<li><i><b>Best of Conference Research Presentation.</b></i><br/>International Conference on Software Testing, Verification and Validation (ICST).<br/>April 2012.<br/></li>
+<li><i><b>ACM Distinguished Paper Award.</b></i><br/>ACM Symposium on Software Visualization.<br/>June 2003.<br/></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="bs-docs-section">
+<div class="panel panel-h1">
+<div class="panel-heading">
+<h1 id="Teaching">Teaching &amp; Mentoring</h1>
+</div>
+<div class="panel-body">
+<h2 id="Teaching-Highlights">Highlights</h2>
+<p>Jones regularly teaches both undergraduate and graduate courses — currently teaching <em>four</em> lecture courses per year as sole instructor. These courses typically focus on the fields  to which he has devoted his career: software engineering, software development, maintenance, testing, and debugging. Jones has revamped and taught a number courses, including Informatics 115 (Software Testing and Quality Assurance), and Informatics 215 (Software Analysis and Testing).</p>
+<p>Jones’s student evaluations are near-universally positive, with median scores for the question “what overall evaluation would you give this instructor?” of between 8 and 9 (on a 9-point scale). Qualitative feedback on student evaluations include: “the instructor creates a wonderful learning environment and facilitates discussion,” “he provides assignments that prepare you very well for exams … is very straight forward in lectures … excellent at communicating with students,” “teacher is very approachable and willing to help you think critically until you find the answer,” “[incorporating] activities into the lecture helped to reinforce my understanding of the material,” “interesting and helpful lectures,” “energetic,” “very clear, good attitude.” Jones takes pride in his teaching and connection with the students.</p>
+<p>Also, Jones currently advises three PhD students (as sole research advisor). One of these PhD students is the recipient of a NSF Graduate Fellowship; two of these PhD students are already advanced to candidacy and expected to graduate in the 2014–2015 academic year; one of these is expected to advance to candidacy during the Fall-2014 quarter. Jones advised and graduated a Masters student who wrote and defended her research thesis. Additionally, Jones has advised a number of undergraduate and graduate students, multiple of whom produced Honors Research Theses.  Jones is also a member of several PhD and M.S. committees.</p>
+<h2 id="Teaching-CoursesTaught">Courses Taught</h2>
+<b>Graduate Courses</b>
+<ul>
+<li><i><b>Informatics 291S, </b>Literature Survey in Software Engineering</i>. Fall 2016</li>
+<li><i><b>Informatics 215, </b>Software Analysis and Testing</i>. Spring 2016</li>
+<li><i><b>Informatics 211, </b>Introduction to Software Engineering</i>. Fall 2015</li>
+<li><i><b>Informatics 215, </b>Software Analysis and Testing</i>. Spring 2015</li>
+<li><i><b>Informatics 211, </b>Introduction to Software Engineering</i>. Fall 2014</li>
+<li><i><b>Informatics 215, </b>Software Analysis and Testing</i>. Spring 2014</li>
+<li><i><b>Informatics 211, </b>Introduction to Software Engineering</i>. Fall 2013</li>
+<li><i><b>Informatics 215, </b>Software Analysis and Testing</i>. Spring 2013</li>
+<li><i><b>Informatics 211, </b>Introduction to Software Engineering</i>. Fall 2012</li>
+<li><i><b>Informatics 211, </b>Introduction to Software Engineering</i>. Fall 2011</li>
+<li><i><b>Informatics 215, </b>Software Analysis and Testing</i>. Spring 2011</li>
+<li><i><b>Informatics 211, </b>Introduction to Software Engineering</i>. Fall 2010</li>
+<li><i><b>Informatics 295, </b>Software Testing and Debugging</i>. Winter 2010</li>
+<li><i><b>Informatics 211, </b>Introduction to Software Engineering</i>. Fall 2009</li>
+<li><i><b>Informatics 211, </b>Introduction to Software Engineering</i>. Fall 2008</li>
+</ul>
+<b>Undergraduate Courses</b>
+<ul>
+<li><i><b>Informatics 115, </b>Software Testing, Analysis, and Quality Assurance</i>. Fall 2016</li>
+<li><i><b>Informatics 115, </b>Software Testing, Analysis, and Quality Assurance</i>. Fall 2015</li>
+<li><i><b>Informatics 295, </b>Perception and Cognition of Software Computation and Evolution</i>. Spring 2015</li>
+<li><i><b>Informatics 115, </b>Software Testing, Analysis, and Quality Assurance</i>. Fall 2014</li>
+<li><i><b>Informatics 117, </b>Project in Software System Design</i>. Winter 2014</li>
+<li><i><b>Informatics 115, </b>Software Testing, Analysis, and Quality Assurance</i>. Fall 2013</li>
+<li><i><b>Informatics 115, </b>Software Testing, Analysis, and Quality Assurance</i>. Spring 2013</li>
+<li><i><b>Informatics 115, </b>Software Testing, Analysis, and Quality Assurance</i>. Spring 2012</li>
+<li><i><b>Informatics 44, </b>Informatics Research Topics</i>. Spring 2012</li>
+<li><i><b>Informatics 115, </b>Software Testing and Quality Assurance</i>. Spring 2011</li>
+<li><i><b>Informatics 115, </b>Software Testing and Quality Assurance</i>. Spring 2010</li>
+<li><i><b>Informatics 115, </b>Software Specifications and Quality Engineering</i>. Spring 2009</li>
+<li><i><b>Informatics 199, </b>Independent Study</i>. Spring 2009</li>
+<li><i><b>Informatics H198, </b>Honors Research</i>. Winter 2008</li>
+</ul>
+<h2 id="Teaching-Mentoring">Mentoring</h2>
+<b>PhD Students</b>
+<ul>
+<li><i><b>Jordan Rickman</b></i> (2015–present) <i>Interim PhD Advisor</i>. </li>
+<li><i><b>Yang Feng</b></i> (2014–present) <i>Interim PhD Advisor</i>. </li>
+<li><i><b>Vijay Krishna Palepu</b></i> (2012–present) <i>PhD Candidate</i>. <i>Primary PhD Advisor</i>. </li>
+<li><i><b>Nicholas DiGiuseppe</b></i> (2010–2015) <i>Graduated</i>. <i>PhD</i>. <i>NSF Graduate Research Fellowship recipient</i>. <i>Primary PhD Advisor</i>. </li>
+<li><i><b>Francisco Servant</b></i> (2009–2015) <i>Graduated</i>. <i>PhD</i>. <i>Primary PhD Advisor</i>. </li>
+</ul>
+<b>Masters Students</b>
+<ul>
+<li><i><b>Christina Rall</b></i> (2013–2014) <i>Graduated</i>. <i>Research Thesis Advisor</i>. </li>
+<li><i><b>Fang Deng</b></i> (2010–2013) <i>Graduated</i>. <i>Research Thesis Advisor</i>. </li>
+<li><i><b>Alex Marshall</b></i> (2009–2010) <i>Graduated</i>. <i>Research Advisor</i>. </li>
+</ul><b>Undergraduate Students</b>
+<ul>
+<li><i><b>Lawrence Lu</b></i> (2013–2014) <i>Graduated</i>. <i>Honors Research Thesis Advisor</i>. </li>
+<li><i><b>Ethan Wessel</b></i> (2012–2014) <i>Graduated</i>. <i>Research and Academic Advisor</i>. </li>
+<li><i><b>Theodore Suzukawa</b></i> (2011–2012) <i>Graduated</i>. <i>Research Advisor</i>. </li>
+<li><i><b>Jordaniel Wolk</b></i> (2009–2010) <i>Graduated</i>. <i>Research Advisor</i>. </li>
+<li><i><b>Donald Stern</b></i> (2009–2010) <i>Graduated</i>. <i>Research Advisor</i>. </li>
+<li><i><b>C. Albert Thompson</b></i> (2009–2010) <i>Graduated</i>. <i>Currently PhD student at Univerity of British Columbia</i>. <i>Research Advisor</i>. </li>
+<li><i><b>Carter Jones</b></i> (2009–2010) <i>Graduated</i>. <i>Research Advisor</i>. </li>
+<li><i><b>Francis Morales</b></i> (2009–2010) <i>Graduated</i>. <i>Research Advisor</i>. </li>
+<li><i><b>Sam Kaufman</b></i> (2009–2010) <i>Graduated</i>. <i>Honors Research Thesis Advisor</i>. </li>
+<li><i><b>Hong Fue Hsieh</b></i> (2009–2009) <i>Graduated</i>. <i>Research Advisor</i>. </li>
+<li><i><b>Sean Tsusaki</b></i> (2009–2009) <i>Graduated</i>. <i>Research Advisor</i>. </li>
+<li><i><b>Simon Huynh</b></i> (2009–2009) <i>Graduated</i>. <i>Research Advisor</i>. </li>
+<li><i><b>Hiroe Ono</b></i> (2009–2009) <i>Graduated</i>. <i>Research Advisor</i>. </li>
+</ul>
+<h2 id="Teaching-StudentCommittees">Student Committees</h2>
+<b>Committees Chaired</b>
+<ul>
+<li><i><b>Vijay Krishna Palepu</b></i> (PhD)<br/>
+                  Dates served: September 2012–present<br/>
+                  Role: Chair, PhD Advisor<br/>Status: <i>PhD Candidate, Advanced December 2014</i></li>
+<li><i><b>Francisco Servant</b></i> (PhD)<br/>
+                  Dates served: September 2009–June 2015<br/>
+                  Role: Chair, PhD Advisor<br/>Status: <i>Graduated, PhD, Advanced July 2012, Graduated June 2015</i></li>
+<li><i><b>Nicholas DiGiuseppe</b></i> (PhD)<br/>
+                  Dates served: September 2010–April 2015<br/>
+                  Role: Chair, PhD Advisor<br/>Status: <i>Graduated, PhD, Advanced December 2013, Graduated April 2015</i></li>
+<li><i><b>Christina Rall</b></i> (M.S.)<br/>
+                  Dates served: September 2013–December 2014<br/>
+                  Role: Chair, Thesis Advisor<br/>Status: <i>Graduated, Defended Thesis December 2014, Graduated June 2015</i></li>
+<li><i><b>Fang Deng</b></i> (M.S.)<br/>
+                  Dates served: September 2010–December 2012<br/>
+                  Role: Chair, Thesis Advisor<br/>Status: <i>Graduated, Defended Thesis December 2012, Graduated June 2013</i></li>
+</ul>
+<b>Committees Served as Member</b>
+<ul>
+<li><i><b>Gerald Bortis</b></i> (PhD)<br/>
+                  Dates served: September 2008–present<br/>
+                  Role: PhD Committee Member <br/>Status: <i>PhD Candidate, Advanced July 2009</i></li>
+<li><i><b>Michael Gorlick</b></i> (PhD)<br/>
+                  Dates served: September 2008–present<br/>
+                  Role: PhD Committee Member <br/>Status: <i>PhD Candidate, Advanced April 2013</i></li>
+<li><i><b>Hitesh Sajnani</b></i> (PhD)<br/>
+                  Dates served: September 2010–present<br/>
+                  Role: PhD Committee Member <br/>Status: <i>PhD Candidate, Advanced March 2013</i></li>
+<li><i><b>Leyna Cotran Zimdars</b></i> (PhD)<br/>
+                  Dates served: Completed June 2013<br/>
+                  Role: PhD Committee Member <br/>Status: <i>Graduated June 2013</i></li>
+<li><i><b>Joel Ossher</b></i> (PhD)<br/>
+                  Dates served: Completed June 2013<br/>
+                  Role: PhD Committee Member <br/>Status: <i>Graduated June 2013</i></li>
+<li><i><b>Erik Trainer</b></i> (PhD)<br/>
+                  Dates served: Completed December 2012<br/>
+                  Role: PhD Committee Member <br/>Status: <i>Graduated December 2012</i></li>
+<li><i><b>Ankita Raturi</b></i> (M.S.)<br/>
+                  Dates served: Completed August 2012<br/>
+                  Role: M.S. Thesis Committee Member <br/>Status: <i>Graduated August 2012, now PhD student</i></li>
+<li><i><b>Rosalva Gallardo</b></i> (PhD)<br/>
+                  Dates served: Completed June 2012<br/>
+                  Role: PhD Committee Member <br/>Status: <i>Graduated June 2012</i></li>
+<li><i><b>Yongjie Zheng</b></i> (PhD)<br/>
+                  Dates served: Completed June 2012<br/>
+                  Role: PhD Committee Member <br/>Status: <i>Graduated June 2012</i></li>
+<li><i><b>Yasser Ganjisaffer</b></i> (PhD)<br/>
+                  Dates served: Completed August 2011<br/>
+                  Role: Qualifying Exam Committee Member <br/>Status: <i>Graduated August 2011</i></li>
+<li><i><b>Nazia Chorwadwala</b></i> (M.S.)<br/>
+                  Dates served: Completed June 2010<br/>
+                  Role: M.S. Thesis Committee Member <br/>Status: <i>Graduated June 2010</i></li>
+<li><i><b>Sukanya Ratanotayanon</b></i> (PhD)<br/>
+                  Dates served: Completed March 2010<br/>
+                  Role: PhD Committee Member <br/>Status: <i>Graduated March 2010</i></li>
+<li><i><b>Francisco Servant</b></i> (M.S.)<br/>
+                  Dates served: Completed August 2009<br/>
+                  Role: M.S. Thesis Committee Member <br/>Status: <i>Graduated August 2009, now PhD student under my advisement</i></li>
+<li><i><b>Jahnavi Kondragunta</b></i> (M.S.)<br/>
+                  Dates served: Completed June 2009<br/>
+                  Role: M.S. Thesis Committee Member <br/>Status: <i>Graduated, June 2009</i></li>
+<li><i><b>Wiwat Ruengmee</b></i> (PhD)<br/>
+                  Dates served: Completed June 2009<br/>
+                  Role: PhD Committee Member <br/>Status: <i>Graduated June 2009</i></li>
+<li><i><b>Nobuyuki Takeo</b></i> (M.S.)<br/>
+                  Dates served: Completed June 2009<br/>
+                  Role: M.S. Thesis Committee Member <br/>Status: <i>Graduated, June 2009</i></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="bs-docs-section">
+<div class="panel panel-h1">
+<div class="panel-heading">
+<h1 id="Service">Leadership &amp; Service</h1>
+</div>
+<div class="panel-body">
+<h2 id="Service-Highlights">Highlights</h2>
+<p>Jones contributes leadership and service toward his various professional communities, from the departmental-level to the international research community. At a local level, Jones visited local-area high schools to advise students on their university options in computer-science and software-related fields. At a department level, Jones led the departmental admissions process for all graduate students in 2011–2012, served on this committee for four consecutive years, and also served on several other department committees. At the campus level, Jones was elected to serve as the Campus Faculty Senate Assembly Representative for the School of ICS. At the international professional level, Jones helped to organize various conferences; for example, he served as track program chair for the 1st Working Conference on Software Visualization (VISSOFT) in 2013, and he co-organized (serving the roles of general and program co-chair) the Workshop on Dynamic Analysis (WODA) in 2010. Also, Jones is repeatedly invited to serve on and reviews for program committees of several of the most-respected, top-tier international research conferences and journals for software engineering.</p>
+<h2 id="Service-International">International</h2>
+<ul>
+<li><strong><em>Doctoral Symposium Co-Chair</em></strong> for International Conference on Software Engineering (ICSE) 2016. </li>
+<li>Program Committee member for International Symposium on the Foundations of Software Engineering (FSE) 2014. </li>
+<li>Program Committee member for International Symposium on Software Testing and Analysis (ISSTA) 2014. </li>
+<li>Program Committee member for International Conference on Software Engineering (ICSE) 2014. </li>
+<li><strong><em>Program Chair</em></strong> for the New Ideas and Emerging Results Track and for the Formal Tool Demonstration Track at the Working Conference on Software Visualization (VISSOFT) 2013. </li>
+<li>Program Committee member for the main track of the Working Conference on Software Visualization (VISSOFT) 2013. </li>
+<li><strong><em>Publicity Chair</em></strong> and member of the <strong><em>Organization Committee</em></strong> for the International Conference on Software Testing, Verification and Validation (ICST) 2013. </li>
+<li>Review Panelist for the National Science Foundation (NSF) 2012. </li>
+<li>Steering Committee member for International Workshop on Dynamic Analysis (WODA) 2012–current. </li>
+<li>Steering Committee member for International Workshop on Program Debugging (IWPD) 2012–current. </li>
+<li>Program Committee member for International Conference on Software Engineering (ICSE) 2012. </li>
+<li>Program Committee member for International Symposium on Software Testing and Analysis (ISSTA) 2011. </li>
+<li>Program Committee member for International Conference on Software Maintenance (ICSM) Industrial Track 2011. </li>
+<li>Program Committee member for the International Workshop on Dynamic Analysis (WODA) 2011. </li>
+<li>Program Committee member for International Workshop on Testing and Debugging (TeBug) 2011. </li>
+<li><strong><em>Co-Chair</em></strong> for Workshop on Dynamic Analysis (WODA) 2010. </li>
+<li>Program Committee member for International Symposium on the Foundations of Software Engineering (FSE) 2010. </li>
+<li>Program Committee member for International Symposium on Software Testing and Analysis (ISSTA) 2010. </li>
+<li>Program Committee member for Testing: Academic and Industrial Conference — Practice and Research Techniques (TAIC-PART) 2009. </li>
+<li>Program Committee member for International Symposium on Software Reliability Engineering (ISSRE) 2009. </li>
+<li>Program Committee member for International Conference on Software Maintenance (ICSM) Tool Track 2009. </li>
+<li>Program Committee member for International Conference on Automated Software Engineering (ASE) Demo Track 2009. </li>
+<li>Program Committee member for International Conference on Software Testing (ICST) Student Track 2008. </li>
+<li><strong><em>Local Arrangements Chair</em></strong> for International Symposium on the Foundations of Software Engineering (FSE) 2008. </li>
+</ul>
+<h2 id="Service-Campus">Campus</h2>
+<ul>
+<li><strong><em>Elected Faculty Senate Assembly Representative</em></strong> for the UC Irvine Bren School of Information and Computer Sciences 2013–2015. </li>
+</ul>
+<h2 id="Service-Department">Department and School</h2>
+<ul>
+<li>Vice Chair for Undergraduate Affairs 2015–. </li>
+<li>Member of the Faculty Recruiting Committee 2014–2015. </li>
+<li>Member of Department Chair Advisory Committee 2012–2014. </li>
+<li>Member of Department Online Presence Committee 2012–2013. </li>
+<li><strong><em>Chair</em></strong> of the Graduate Admissions Committee 2011–2012. </li>
+<li>Member of the School Computing Committee 2011-2012. </li>
+<li>Departmental Liaison to the UC Irvine Extensions program. </li>
+<li>Member of the Reviewing Committee for the Graduate Dean Dissertation Fellowship (GDDF) 2012. </li>
+<li>Member of the Graduate Recruiting Committee 2011–2012. </li>
+<li>Webmaster of Software Engineering Website 2009–present. </li>
+<li>Member of the Software Engineering Curriculum Committee 2011–2012. </li>
+<li>Member of the Graduate Recruiting Committee 2010–2011. </li>
+<li>Member of the Graduate Admissions Committee 2010–2011. </li>
+<li>Member of the Undergraduate Curriculum Committee 2010. </li>
+<li>Member of the Software Engineering Phase II Examination Committee Spring 2010. </li>
+<li>Member of the Department Chair Search Committee 2009–2010. </li>
+<li>Member of the Graduate Recruiting Committee 2009–2010. </li>
+<li>Member of the Graduate Admissions Committee 2009–2010. </li>
+<li><strong><em>Chair</em></strong> of the Software Engineering Phase II Examination Committee Spring 2009. </li>
+<li>Member of the Graduate Admissions Committee 2008–2009. </li>
+<li>Liaison to the Diversity Fellowship Program  2009. </li>
+<li>Member of the Software Engineering Phase II Examination Committee Fall 2008. </li>
+</ul>
+<h2 id="Service-Reviewer">Reviewer</h2>
+<ul>
+<li>International Symposium on the Foundations of Software Engineering (FSE) 2014. </li>
+<li>International Symposium on Software Testing and Analysis (ISSTA) 2014. </li>
+<li>International Conference on Software Engineering (ICSE) 2014. </li>
+<li>ACM Transactions on Software Engineering and Methodology Journal (TOSEM) 2013. </li>
+<li>IEEE Transactions on Software Engineering Journal (TSE) 2013. </li>
+<li>International Conference on Software Engineering (ICSE) 2012. </li>
+<li>ACM Transactions on Software Engineering and Methodology Journal (TOSEM) 2011. </li>
+<li>IEEE Transactions on Software Engineering Journal (TSE) 2011. </li>
+<li>Wiley Software Testing, Verification and Reliability Journal (STVR) 2011. </li>
+<li>Journal of Systems and Software (JSS) 2011. </li>
+<li>International Symposium on Software Testing and Analysis (ISSTA) 2011. </li>
+<li>International Conference on Software Maintenance (ICSM) Industrial Track 2011. </li>
+<li>International Workshop on Dynamic Analysis (WODA) 2011. </li>
+<li>International Workshop on Testing and Debugging (TeBug) 2011. </li>
+<li>IEEE Transactions on Software Engineering Journal (TSE) 2010. </li>
+<li>International Symposium on the Foundations of Software Engineering (FSE) 2010. </li>
+<li>International Symposium on Software Testing and Analysis (ISSTA) 2010. </li>
+<li>ACM Transactions on Software Engineering and Methodology (TOSEM) 2009. </li>
+<li>Testing: Academic and Industrial Conference — Practice and Research Techniques (TAIC-PART) 2009. </li>
+<li>International Symposium on Software Reliability Engineering (ISSRE) 2009. </li>
+<li>International Conference on Software Maintenance (ICSM) Tool Track 2009. </li>
+<li>International Conference on Automated Software Engineering (ASE) Demo Track 2009. </li>
+<li>International Conference on Automated Software Engineering (ASE) 2009. </li>
+<li>IEEE Transactions on Software Engineering Journal (TSE) 2008. </li>
+<li>International Conference On Software Testing, Verification And Validation (ICST) Student Track 2008. </li>
+<li>IEEE Transactions on Software Engineering Journal (TSE) 2007. </li>
+<li>International Symposium on Software Testing and Analysis (ISSTA) 2007. <i>External Reviewer</i>.</li>
+<li>Automated Software Engineering Journal (ASE Journal) 2007. <i>External Reviewer</i>.</li>
+<li>IEEE Transactions on Software Engineering Journal (TSE) 2006. <i>External Reviewer</i>.</li>
+<li>International Conference on Software Engineering (ICSE) 2006. <i>External Reviewer</i>.</li>
+<li>International Symposium on Software Testing and Analysis (ISSTA) 2006. <i>External Reviewer</i>.</li>
+<li>International Symposium on the Foundations of Software Engineering (FSE) 2006. <i>External Reviewer</i>.</li>
+<li>International Conference on Automated Software Engineering (ASE) 2005. <i>External Reviewer</i>.</li>
+<li>International Symposium on the Foundations of Software Engineering (FSE) 2005. <i>External Reviewer</i>.</li>
+<li>International Symposium on the Foundations of Software Engineering (FSE) 2004. <i>External Reviewer</i>.</li>
+<li>International Conference on Software Engineering (ICSE) 2002. <i>External Reviewer</i>.</li>
+</ul>
+<h2 id="Service-Memberships">Professional Memberships</h2>
+<ul>
+<li>ACM Special Interest Group on Software Engineering (SIGSOFT).</li>
+<li>Association for Computing Machinery (ACM).</li>
+<li>IEEE Computer Society.</li>
+<li>Institute for Software Research (ISR).</li>
+<li>Institute for Electrical and Electronics Engineers, Inc. (IEEE).</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="bs-footer" role="contentinfo"></footer>
+<script src="/js/jquery-1.11.1.min.js"></script>
+<script src="/js/transition.js"></script>
+<script src="/js/affix.js"></script>
+<script src="/js/bootstrap.js"></script>
+<script src="/js/application.js"></script>
+<script src="/js/button.js"></script>
+<script src="/js/tooltip.js"></script>
+<script src="/js/tab.js"></script>
+</body>
+</html>

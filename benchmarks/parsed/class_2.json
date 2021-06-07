@@ -1,0 +1,705 @@
+{
+    "id": 0,
+    "content": "CS 313E: Elements of Software Design (Fall 2019)",
+    "children": [
+        {
+            "id": 1,
+            "content": "Department of Computer Sciences",
+            "key": 1,
+            "children": [
+                {
+                    "id": 2,
+                    "content": "University of Texas at Austin",
+                    "key": 1
+                },
+                {
+                    "id": 3,
+                    "content": "CS 313E - Elements of Software Design (Fall 2019)",
+                    "key": 2,
+                    "children": [
+                        {
+                            "id": 4,
+                            "content": "Section:",
+                            "key": 1,
+                            "children": [
+                                {
+                                    "id": 5,
+                                    "content": "50205, Monday Wednesday Friday 11:00AM - 12:00PM, RLP 0.130   Section: 50210, Monday Wednesday Friday 1:00PM - 2:00PM, JGB 2.216",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 6,
+                            "content": "Instructor:",
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 7,
+                                    "content": "Dr. Shyamal Mitra   Office Hours: Monday Wednesday Friday 3:00PM - 4:00PM   Location: GDC 6.320   E - mail: mitra@cs.utexas.edu   Do not send mail on Canvas.",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 8,
+                            "content": "Student Assistant:",
+                            "key": 3,
+                            "children": [
+                                {
+                                    "id": 9,
+                                    "content": "Saad Ahmad   E - mail: saad_ahmad@utexas.edu   Office Hours: Monday Wednesday 4:00pm - 6:00pm   Location: GDC 4.304",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 10,
+                            "content": "Student Assistant:",
+                            "key": 4,
+                            "children": [
+                                {
+                                    "id": 11,
+                                    "content": "Joshua Cook   E-mail: joshuacook06@yahoo.com   Office Hours: TTH 5:00pm - 6:00pm, F 4:00pm - 6:00pm   Location: GDC 4.304",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 12,
+                            "content": "Student Assistant:",
+                            "key": 5,
+                            "children": [
+                                {
+                                    "id": 13,
+                                    "content": "Mahaa Noorani   E - mail: mahaanoorani@gmail.com   Office Hours: Monday Wednesday 4:00PM - 6:00PM   Location: GDC 4.304",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 14,
+                            "content": "Student Assistant:",
+                            "key": 6,
+                            "children": [
+                                {
+                                    "id": 15,
+                                    "content": "Wei Sun   E-mail: wsun@utexas.edu   Office Hours: TTH 4:00pm - 5:00pm, F 4:00pm - 6:00pm   Location: GDC 4.304",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 16,
+                            "content": "Required Text:",
+                            "key": 7,
+                            "children": [
+                                {
+                                    "id": 17,
+                                    "content": "Python 3 and Data Structures   Authors: Bailey, Lysecky, Vahid   Publisher: Zyante",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 18,
+                            "content": "",
+                            "isList": true,
+                            "key": 8,
+                            "children": [
+                                {
+                                    "id": 19,
+                                    "content": "Sign in or create an account at learn.zybooks.com",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 20,
+                                    "content": "Enter the correct zyBook code listed below",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 21,
+                                    "content": "Subscribe",
+                                    "key": 3
+                                }
+                            ]
+                        },
+                        {
+                            "id": 22,
+                            "content": "Section 50205   zyBook Code: UTEXASCS313E50205MitraFall2019   ISBN: 978-1-5418-7488-6",
+                            "key": 9
+                        },
+                        {
+                            "id": 23,
+                            "content": "Section 50210   zyBook Code: UTEXASCS313E50210MitraFall2019   ISBN: 978-1-5418-7493-0",
+                            "key": 10
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "content": "Scope of the Course",
+            "key": 2,
+            "children": [
+                {
+                    "id": 25,
+                    "content": "This is the second course in the Elements of Software series. I assume that you know a programming language (C / Java / Python) at the level taught in CS 303E. The emphasis of this course will be on software development using object-oriented methodology.",
+                    "key": 1
+                },
+                {
+                    "id": 26,
+                    "content": "We will learn how to analyze and design software. We will learn how to create reusable software components and to compose programs from already available components. We will learn about some basic data structures and algorithms and how to match the data structures and algorithms to problems. We will test and evaluate programs for their functionality and their performance.",
+                    "key": 2
+                },
+                {
+                    "id": 27,
+                    "content": "We will be following the required text book closely. I will provide notes in class that will be posted on the web for topics that are not covered in the book. Unlike the traditional lecture format, our classes will be a venue for solving problems, writing programs, and exchanging, ideas. Attendance to the lectures is mandatory. If you are not there for any lecture you need to send me an e-mail explaining why.",
+                    "key": 3
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "content": "Assignments",
+            "key": 3,
+            "children": [
+                {
+                    "id": 29,
+                    "content": "There will be programming assignments that you can complete in the CS Lab. You may choose to use your own computer to work on these assignments. If you work on your home computer, you will have to download and install Python 3. There is a graphical development environment (IDLE) that comes with Python that you can also install.",
+                    "key": 1
+                },
+                {
+                    "id": 30,
+                    "content": "The only way to learn programming is to program. Doing the programming assignments is crucial to performing well in class. There will be on the average two assignments every week. The assignments will be due Monday and Friday. Each assignment will have a clearly stated due date and time. Assignments start out being easy but get harder over the semester. If you are having considerable difficulty with Assignments 2 and/or 3, please see the Instructor immediately.",
+                    "key": 2
+                },
+                {
+                    "id": 31,
+                    "content": "The assignments will require a substantial time commitment over several days (an average of 10 to 12 hours per week should be expected). Be sure to budget sufficient time to complete assignments before the deadline.",
+                    "key": 3
+                },
+                {
+                    "id": 32,
+                    "content": "Turn in your assignments on time. This permits grading to start promptly after the submission deadline so that assignments maybe returned promptly. If you do not finish an assignment by the deadline you have a maximum of two days to turn your assignment in. However, there is a penalty of 10 points (out of a 100 points) per day. Your assignment is one day late until the midnight of the day after it is due, two days late from then until midnight of the second day. We will accept your assignment after two days if there is a compelling reason.",
+                    "key": 4
+                },
+                {
+                    "id": 33,
+                    "content": "Specific grading criteria vary on each assignment. However, in general, programs that do not compile correctly on the CS Lab configuration will receive no more than 80% of the possible points. Other point deductions are given for such things as: incorrect results, missing features, bad solution logic, no documentation etc. No matter what configuration of software that you have on your home computer, the assignment that is turned in must run successfully on the CS Lab configuration in order to be graded. Here is the general grading criteria for programming assignments.",
+                    "key": 5
+                },
+                {
+                    "id": 34,
+                    "content": "All assignments must be submitted using the web based Canvas program. You must always make a backup copy of the Python source code (i.e. the .py file) on your removable secondary storage device (e.g. flash drive). This will be necessary in cases where your program gets lost, is corrupted, or if there is some dispute over what was turned in when.",
+                    "key": 6
+                },
+                {
+                    "id": 35,
+                    "content": "For assigned programs, the source code (.py file) must be turned in. The source code must be a text file that can be run through a Python 3 interpreter. Word processing files (those created with Microsoft Word, for example, and ending with .doc extension ) will not be accepted.",
+                    "key": 7
+                },
+                {
+                    "id": 36,
+                    "content": "If you want us to debug your program, come to us during our office hours with your laptop and we will go through the program with you. Do NOT just e-mail the program to us for debugging. We will not respond to e-mails that have full length programs that have to be debugged.",
+                    "key": 8
+                },
+                {
+                    "id": 37,
+                    "content": "Grade Dispute:",
+                    "key": 9,
+                    "children": [
+                        {
+                            "id": 38,
+                            "content": "Scores for assignments will be posted on Canvas. You have one week from the date the assignment grade is posted to dispute your grade. The student assistants will be grading the assignments. Visit the TAs and see if you can resolve your differences. If you cannot resolve your differences, you may visit me to explain the situation. We will not entertain any grade disputes after one week.",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 39,
+                    "content": "Assignment Identification:",
+                    "key": 10,
+                    "children": [
+                        {
+                            "id": 40,
+                            "content": "All assignments must be submitted with the proper header, containing your name (as registered), your unique section number, and the assignment number at the top of the assignment. The format for the header will be specified in the assignment. That specification will over ride any other header specification.",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 41,
+                    "content": "In addition, because assignments are submitted as files on Canvas, they must have the correct file name, which will be specified in the assignment handout. You must also ensure that you turn in the assignment to the correct unique section folder - that is, the section you are currently registered in. Lost assignments are typically caused by turning in an incorrect file name and/or turning a file into the wrong section folder. Assignments, which omit the header or are incorrect in any one or more of these requirements, will have the grade reduced by 5% of the maximum grade.",
+                    "key": 11
+                }
+            ]
+        },
+        {
+            "id": 42,
+            "content": "Exercises",
+            "key": 4,
+            "children": [
+                {
+                    "id": 43,
+                    "content": "There will be assigned readings from the text and exercises that follow the readings. You must do the readings and exercises by the due date and time. There are no extensions to the reading assignments.",
+                    "key": 1
+                }
+            ]
+        },
+        {
+            "id": 44,
+            "content": "Quizzes",
+            "key": 5,
+            "children": [
+                {
+                    "id": 45,
+                    "content": "There will be in class quiz every day. There will be one or two questions in a given quiz. The questions will be from the reading assignments or the material discussed in class the previous day. The quizzes will be hosted on Canvas. You will need a smart phone or laptop to answer the questions. There are no makeup quizzes. I will drop the lowest of your three quiz grades. This number (three quizzes) is non-negotiable. This drop will take care of any absences that you may have or any electronic mishaps that you may have with your smart phone or laptop.",
+                    "key": 1
+                }
+            ]
+        },
+        {
+            "id": 46,
+            "content": "Tests",
+            "key": 6,
+            "children": [
+                {
+                    "id": 47,
+                    "content": "There will be three tests and no final examination. All three tests will be on Friday from 6:00pm to 8:00pm. There will be makeup tests Monday from 6:00pm to 8:00pm. You need to give me documented evidence that you cannot take the test on Friday to be allowed to take the makeup tests.",
+                    "key": 1
+                },
+                {
+                    "id": 48,
+                    "content": "",
+                    "isList": true,
+                    "key": 2,
+                    "children": [
+                        {
+                            "id": 49,
+                            "content": "Test",
+                            "isList": true,
+                            "key": 1,
+                            "children": [
+                                {
+                                    "id": 50,
+                                    "content": ",Date,Time,Room,Section",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 51,
+                            "content": "Test 1,Fri, 11 Oct,6:00PM - 8:00PM,RLP 0.130 RLP 0.126,50205 50210",
+                            "isList": true,
+                            "key": 2
+                        },
+                        {
+                            "id": 52,
+                            "content": "Makeup 1,Monday  14 Oct,6:00PM - 8:00PM,UTC 4.110,50205 / 50210",
+                            "isList": true,
+                            "key": 3
+                        },
+                        {
+                            "id": 53,
+                            "content": "Test 2,Fri, 08 Nov,6:00PM - 8:00PM,RLP 0.130 RLP 0.126,50205 50210",
+                            "isList": true,
+                            "key": 4
+                        },
+                        {
+                            "id": 54,
+                            "content": "Makeup 2,Monday  11 Nov,6:00PM - 8:00PM,UTC 4.110,50205 / 50210",
+                            "isList": true,
+                            "key": 5
+                        },
+                        {
+                            "id": 55,
+                            "content": "Test 3,Fri, 06 Dec,6:00PM - 8:00PM,RLP 0.130 RLP 0.126,50205 50210",
+                            "isList": true,
+                            "key": 6
+                        },
+                        {
+                            "id": 56,
+                            "content": "Makeup 3,Monday  09 Dec,6:00PM - 8:00PM,UTC 4.110,50205 / 50210",
+                            "isList": true,
+                            "key": 7
+                        }
+                    ]
+                },
+                {
+                    "id": 57,
+                    "content": "Make-up tests will be given only for the following reasons. In all cases you must provide some form of documentation.",
+                    "key": 3
+                },
+                {
+                    "id": 58,
+                    "content": "",
+                    "isList": true,
+                    "key": 4,
+                    "children": [
+                        {
+                            "id": 59,
+                            "content": "Ill health",
+                            "key": 1
+                        },
+                        {
+                            "id": 60,
+                            "content": "Family emergency",
+                            "key": 2
+                        },
+                        {
+                            "id": 61,
+                            "content": "Official UT conflict",
+                            "key": 3
+                        }
+                    ]
+                },
+                {
+                    "id": 62,
+                    "content": "Having three tests on the same day is not official UT conflict! For each test you may bring a non-programmable calculator and a single 8 1/2 x 11 sheet with handwritten notes (no photo reduction) on both sides of the paper.",
+                    "key": 5
+                },
+                {
+                    "id": 63,
+                    "content": "Questions concerning test grades should be given to me in writing along with your test within the next class day that the test is handed back. We will not entertain any disputes after that time.",
+                    "key": 6
+                }
+            ]
+        },
+        {
+            "id": 64,
+            "content": "Grades",
+            "key": 7,
+            "children": [
+                {
+                    "id": 65,
+                    "content": "Your performance in this class will be evaluated using your scores for quizzes, reading exercises, programming assignments, and three tests. The weights of each of these components are listed below. There are no extra credit projects or assignments to improve your grade. We do not drop any of the assignment scores nor do we drop any of the reading exercises scores. We only drop the lowest three quiz scores.",
+                    "key": 1
+                },
+                {
+                    "id": 66,
+                    "content": "",
+                    "isList": true,
+                    "key": 2,
+                    "children": [
+                        {
+                            "id": 67,
+                            "content": "Quizzes:",
+                            "key": 1,
+                            "children": [
+                                {
+                                    "id": 68,
+                                    "content": "10%",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 69,
+                            "content": "Exercises:",
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 70,
+                                    "content": "15%",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 71,
+                            "content": "Programming Assignments:",
+                            "key": 3,
+                            "children": [
+                                {
+                                    "id": 72,
+                                    "content": "30%",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 73,
+                            "content": "Three Tests (15% each): 45%",
+                            "key": 4
+                        }
+                    ]
+                },
+                {
+                    "id": 74,
+                    "content": "All scores will be entered on Canvas. Check your scores regularly on Canvas to make sure that we have entered them correctly. Remember the average score as shown on Canvas is not correct . It does not weight the average with weights as shown above. Your final grade will be assigned after we obtain the weighted average according to the weights as given above. Your grade will be based on the traditional scheme:",
+                    "key": 3
+                },
+                {
+                    "id": 75,
+                    "content": "",
+                    "isList": true,
+                    "key": 4,
+                    "children": [
+                        {
+                            "id": 76,
+                            "content": "A:",
+                            "key": 1,
+                            "children": [
+                                {
+                                    "id": 77,
+                                    "content": "90 - 100",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 78,
+                            "content": "B:",
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 79,
+                                    "content": "80 - 89",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 80,
+                            "content": "C:",
+                            "key": 3,
+                            "children": [
+                                {
+                                    "id": 81,
+                                    "content": "70 - 79",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 82,
+                            "content": "D:",
+                            "key": 4,
+                            "children": [
+                                {
+                                    "id": 83,
+                                    "content": "60 - 69",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 84,
+                            "content": "F:",
+                            "key": 5,
+                            "children": [
+                                {
+                                    "id": 85,
+                                    "content": "0 - 59",
+                                    "key": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 86,
+                    "content": "We do assign grades on the +/- system. But those finer cutoffs will be determined at the very end after the weighted average and standard deviation of the class are computed.",
+                    "key": 5
+                },
+                {
+                    "id": 87,
+                    "content": "You can earn 5 points extra credit on the total sum of the three tests for filling out the electronic evaluation for the class. To obtain those extra credit points you must take a screen shot of the fact that you completed the survey and then upload the screen shot to the appropriate slot in Canvas.",
+                    "key": 6
+                }
+            ]
+        },
+        {
+            "id": 88,
+            "content": "Study Groups",
+            "key": 8,
+            "children": [
+                {
+                    "id": 89,
+                    "content": "Please organize yourselves into study groups of ~5 students who will meet once a week or more to discuss the course. Typically, you will review the lectures, do the reading, and attempt the homework independently before your weekly meeting with your study group. Studying for tests together is permitted and encouraged. If you are unsure about how to work together with your friend in a legal, helpful manner, do come and talk with us. Remember, it is always ok to \"work together\" with your professor or TA!",
+                    "key": 1
+                },
+                {
+                    "id": 90,
+                    "content": "We will be using Piazza for general discussion of class related questions rather than the discussion board on Canvas. Please do not post solutions or code to any home work assignment problems on Piazza.",
+                    "key": 2
+                }
+            ]
+        },
+        {
+            "id": 91,
+            "content": "Academic Misconduct Policy",
+            "key": 9,
+            "children": [
+                {
+                    "id": 92,
+                    "content": "While you are free to discuss the course material with your classmates and are encouraged to form study groups for the exams, collaboration on homework or programming assignments is not permitted.",
+                    "key": 1
+                },
+                {
+                    "id": 93,
+                    "content": "Helping a friend understand the intent of a homework or programming assignment specification is permitted. Students who work together too closely (e.g. design their solution together) should be aware that this is a form of cheating called COLLUSION and is subject to academic penalties. Penalties for academic misconduct include a failing grade in this course.",
+                    "key": 2
+                },
+                {
+                    "id": 94,
+                    "content": "The homework, programs, and exams must be the work of students turning them in. University policy (see Dean of Students' policies on academic integrity) will be followed strictly. We will be running a sophisticated program on all submitted assignments to detect plagiarism. If we do detect any cases of academic dishonesty, we will assign a grade of F to all students involved and refer the cases to the Dean of Students.",
+                    "key": 3
+                },
+                {
+                    "id": 95,
+                    "content": "Acts that exceed the bounds defined by the approved collaboration practices will be considered cheating. Such acts include:",
+                    "key": 4
+                },
+                {
+                    "id": 96,
+                    "content": "",
+                    "isList": true,
+                    "key": 5,
+                    "children": [
+                        {
+                            "id": 97,
+                            "content": "Copying solutions, code, or programs from someone else or giving someone else your solutions, code, or programs",
+                            "key": 1
+                        },
+                        {
+                            "id": 98,
+                            "content": "Participation in a discussion group that develops a solution that everyone copies",
+                            "key": 2
+                        },
+                        {
+                            "id": 99,
+                            "content": "Posting your code to homework problems on Piazza or Facebook.",
+                            "key": 3
+                        },
+                        {
+                            "id": 100,
+                            "content": "Copying code from the internet (e.g. from Piazza or Facebook or other internet sites)",
+                            "key": 4
+                        },
+                        {
+                            "id": 101,
+                            "content": "Employing someone to write the solutions for you on homework assignment problems.",
+                            "key": 5
+                        }
+                    ]
+                },
+                {
+                    "id": 102,
+                    "content": "We urge everyone in the class to take appropriate measures for protecting one's work. You should protect your files, homework solution sheets, etc. as deemed reasonable. The only exception that we will make to these guidelines is if you are involved in pair programming with a friend.",
+                    "key": 6
+                }
+            ]
+        },
+        {
+            "id": 103,
+            "content": "Your Responsibilities in This Class",
+            "isList": true,
+            "key": 10,
+            "children": [
+                {
+                    "id": 104,
+                    "content": "Your performance in this class will be determined by you! It will require a strong dedication to learning the material and will require a substantial time commitment to complete the programming assignments.",
+                    "key": 1
+                },
+                {
+                    "id": 105,
+                    "content": "You are expected to show up on time for class and stay for the whole lecture.",
+                    "key": 2
+                },
+                {
+                    "id": 106,
+                    "content": "You are required to have your cell phones off at all times during the lecture. You may not make or receive calls on your cell phone or send or receive text messages during lectures.",
+                    "key": 3
+                },
+                {
+                    "id": 107,
+                    "content": "You may not use a laptop in class unless you are asked to do so.",
+                    "key": 4
+                },
+                {
+                    "id": 108,
+                    "content": "You are responsible for all material posted to the web site and sent as email. Ignorance of such material is no excuse.",
+                    "key": 5
+                },
+                {
+                    "id": 109,
+                    "content": "You are responsible for all material presented in the lectures. Note that lectures will include some material that is not available elsewhere.",
+                    "key": 6
+                },
+                {
+                    "id": 110,
+                    "content": "You are responsible for turning in your own work on all assignments. Unauthorized collusion is not allowed and constitutes a violation of the university's policies on academic integrity. See above guidelines for more information on what is or is not allowed.",
+                    "key": 7
+                },
+                {
+                    "id": 111,
+                    "content": "You are responsible for protecting your work from being copied by others.",
+                    "key": 8
+                },
+                {
+                    "id": 112,
+                    "content": "Your conduct in class should be conducive towards a positive learning environment for your class mates as well as your self.",
+                    "key": 9
+                }
+            ]
+        },
+        {
+            "id": 113,
+            "content": "University Time Table",
+            "isList": true,
+            "key": 11,
+            "children": [
+                {
+                    "id": 114,
+                    "content": "28 Aug 2019: Classes begin",
+                    "key": 1
+                },
+                {
+                    "id": 115,
+                    "content": "03 Sep 2019: Last day of official add / drop",
+                    "key": 2
+                },
+                {
+                    "id": 116,
+                    "content": "13 Sep 2019: 12th class day, official enrollment count is taken",
+                    "key": 3
+                },
+                {
+                    "id": 117,
+                    "content": "31 Oct 2019: Last day to drop (with dean's approval) except for urgent and substantiated, non-academic reasons or to change to or from pass/fail basis.",
+                    "key": 4
+                },
+                {
+                    "id": 118,
+                    "content": "27 - 30 Nov 2019: No class. Thanksgiving break.",
+                    "key": 5
+                },
+                {
+                    "id": 119,
+                    "content": "09 Dec 2019: Classes end",
+                    "key": 6
+                }
+            ]
+        },
+        {
+            "id": 120,
+            "content": "General Policies",
+            "key": 12,
+            "children": [
+                {
+                    "id": 121,
+                    "content": "If you are absent from class or examination for the observance of a religious holy day you may turn in your assignment or take the examination on an alternate date provided you have given me written notice fourteen days prior to the class absence. For religious holy days that Fall within the first two weeks of class notice must be given on the first class day.",
+                    "key": 1
+                },
+                {
+                    "id": 122,
+                    "content": "Students with disabilities who need special accommodations should contact the Services for Students with Disabilities (SSD) Office (471-6259 or 471-4641 TTY).",
+                    "key": 2
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,381 @@
+<html>
+<head>
+<link href="mycse.css" rel="stylesheet" type="text/css"/>
+<title>Toby Murray</title>
+</head>
+<body>
+<div class="businesscard">
+<table align="center" cellpadding="10px" cellspacing="0" class="menu" width="750px">
+<tr>
+<td width="50%">
+<div align="center">
+<img alt="Toby Murray" src="TobyMurray.jpg" width="175px"/>
+<br/><br/>
+<a name="contact"></a>toby.murray@unimelb.edu.au<br/>
+Office 8.17, <a href="http://maps.unimelb.edu.au/parkville/building/168#.UkpqWIZBN8E">Doug McDonell Building</a><br/><br/>
+Twitter: <a href="http://www.twitter.com/tobycmurray">@tobycmurray</a><br/>
+<a href="http://ssrg.nicta.com.au/people/?cn=Toby+Murray">My Data61 page</a><br/>
+<br/>
+<a href="http://verse.systems/blog/">My Blog</a>
+</div>
+</td>
+<td>
+<div align="center">
+<h1>Toby Murray</h1>
+<p>Senior Lecturer
+  (<a href="https://en.wikipedia.org/wiki/Academic_ranks_(Australia_and_New_Zealand)">roughly</a> US Associate Professor)
+  <br/> Coordinator for <a href="https://handbook.unimelb.edu.au/components/mc-it-spec-6">Master of IT Cyber Security</a>
+<br/> <a href="https://staff.unimelb.edu.au/research/ethics-integrity/research-integrity/contacts/research-integrity-advisors">Research Integrity Advisor</a>
+<br/>
+<br/> <a href="http://cis.unimelb.edu.au">School of Computing and Information Systems</a>,
+  <br/> <a href="http://www.unimelb.edu.au">University of Melbourne</a><br/>
+<br/>
+Senior Researcher,<br/>
+<a href="http://ssrg.nicta.com.au/projects/TS/">Trustworthy Systems Group</a>, <a href="http://data61.csiro.au">Data61</a><br/><br/>
+</p></div>
+<ul>
+<li><a href="#news">News</a></li>
+<li><a href="#about">About Me</a></li>
+<li><a href="#research">Research &amp; Collaborations</a></li>
+<li><a href="#workwithme">Working with Me</a></li>
+<li><a href="#publications">Publications</a></li>
+<li><a href="#teaching">Teaching</a></li>
+<li><a href="#students">Students</a></li>
+<li><a href="#service">Service</a></li>
+</ul>
+</td>
+</tr>
+</table>
+<a name="news"></a>
+<div class="mainpage-section">
+<h2>News</h2>
+<p>(<a href="newsarchive.html">archive</a>)</p>
+<p><i>Last Updated: March 2020</i></p>
+<h3>Welcome Mukesh Tiwari</h3>
+<table cellpadding="10px"><tr>
+<td>
+<p>I'm very pleased to announce that <a href="https://scholar.google.com.au/citations?user=o8zCZV4AAAAJ&amp;hl=en">Mukesh Tiwari</a> has joined us as a postdoc, to continue our work on <a href="papers/cav2019.pdf">Security Concurrent Separation Logic (SecCSL)<img alt="pdf" src="pdf.png" width="22px"/></a>, for formally reasoning about <a href="http://covern.org">information flow for concurrent programs</a>. Mukesh joins us after a PhD at ANU, where he researched how to apply formal methods to make electronic voting more secure.</p>
+</td>
+<td>
+<img alt="Mukesh Tiwari" src="Mukesh.jpeg" width="125px"/></td>
+</tr></table>
+<h3>I'm Hiring: 2-year postdoc position on verified timing-channel security for seL4</h3>
+<p>Timing channels plague modern systems, undermining their security.
+Yet no operating system provides provable protection against them.
+We believe that <a href="http://sel4.systems">seL4</a> can be the first kernel to meet this challenge,
+building on its world-first proof of confidentiality enforcement
+  and its unique mechanisms for implementing time protection.</p>
+<p>I'm seeking a postdoc researcher to work with me, <a href="https://www.cse.unsw.edu.au/~kleing/about.html">Gerwin Klein</a>,
+    <a href="https://www.cse.unsw.edu.au/~gernot/">Gernot Heiser</a>,
+    and the <a href="http://trustworthy.systems">seL4 team</a>,
+    to make this vision a reality.
+    Further details about the project and the approach we are taking
+    can be found in our <a href="https://arxiv.org/abs/1901.08338">position paper</a>, which appeared
+    at HotOS 2019.</p>
+<p>To apply, or fore more information, visit:
+      <a href="http://jobs.unimelb.edu.au/caw/en/job/900474/research-fellow-in-verified-operating-system-security">http://jobs.unimelb.edu.au/caw/en/job/900474/research-fellow-in-verified-operating-system-security</a>.    
+ <b>Applications close: <span style="color: #ff0000;">February 25, 09:00am Australian Eastern Daylight Time (GMT +11)</span></b>.
+</p>
+<h3>COVERN Compiler and ITP 2019 Paper</h3>
+<p>Congratulations to my outstanding PhD student <a href="https://ts.data61.csiro.au/people/?cn=Robert+Sison">Rob Sison</a> who just presented his first
+    <a href="papers/itp2019.pdf">first-author paper
+      <img alt="pdf" src="pdf.png" width="22px"/></a>
+    at the International Conference on Interactive Theorem Proving (ITP) 2019.
+    The paper presents the verification of the COVERN Compiler, a proof
+    of concept compiler from a simple While language to a simple RISC
+    assembly language that, unlike every other compiler on earth, supports
+    compilation of shared-memory concurrent programs while provably preserving
+    information flow security. The compiler artifact is
+    <a href="http://covern.org/itp19.html">freely available</a> and its
+    verification rests on a new technique for decomposing proofs of
+    concurrent value-dependent noninterference into a set of simpler proof
+    obligations (see the paper for further details).</p>
+<p>This work is part of the <a href="http://covern.org">COVERN project</a>,
+    which is investigating methods for proving that concurrent programs
+    do not leak sensitive information.</p>
+<h3><a href="http://covern.org/secc/">SecC</a> Initial Release</h3>
+<p><a href="https://www.sosy-lab.org/people/ernst/">Gidon Ernst</a> and I are
+    thrilled to announce the initial release of the <a href="http://covern.org/secc/">SecC automatic program
+      verifier</a>. SecC is the first program verifier to support automatically
+    proving expressive information flow security for concurrent programs.
+    SecC supports a (growing) subset of the C programming language.
+    Its code is <a href="https://bitbucket.org/covern/secc">open source</a>
+    and we are using it as the foundation for a number
+    of ongoing research activities.
+  </p>
+<p>SecC is powered by a new program logic for concurrent information
+    flow security: security concurrent separation logic.
+    Check out our <a href="papers/cav2019.pdf">CAV 2019 paper <img alt="pdf" src="pdf.png" width="22px"/></a> for the technical details.
+  </p>
+</div>
+<a name="about"></a>
+<div class="mainpage-section">
+<h2>About Me</h2>
+<p>I am a Senior Lecturer in the School of <a href="http://cis.unimelb.edu.au">Computing and Information Systems</a> of the <a href="http://www.unimelb.edu.au">University of Melbourne</a>. Prior to joining Melbourne in May 2016,
+I was employed in the <a href="http://ssrg.nicta.com.au">Software Systems
+Research Group</a> of <a href="http://www.nicta.com.au">NICTA</a> (now <a href="data61.csiro.au">Data61</a>), and was a Conjoint Senior Lecturer in the school of 
+<a href="http://www.cse.unsw.edu.au">Computer Science and Engineering</a> of
+<a href="http://www.unsw.edu.au">UNSW</a>. I joined NICTA and UNSW in 2010 from
+<a href="http://www.ox.ac.uk">Oxford</a>, where I completed a D.Phil. (PhD) in Computer Science, awarded in 2011.
+Before moving to Oxford, I worked for the <a href="http://www.dsto.defence.gov.au">
+Defence Science and Technology Organisation</a> after my undergraduate study
+at the <a href="http://www.adelaide.edu.au">University of Adelaide</a>.</p>
+<p>I live in Melbourne with my wife and two children, enjoy (and sometimes write and
+<a href="http://www.soundcloud.com/tobycmurray">record</a>) alternative music,
+and spend too much time on <a href="http://www.twitter.com/tobycmurray">Twitter</a>
+engaging a hot-cold obsession with Australian politics, security and privacy.
+I love great ales, informed by my days in Oxford, and rich reds, like any Adelaide
+native.</p>
+</div>
+<a name="research"></a>
+<div class="mainpage-section">
+<h2>Research and Collaborations</h2>
+<p><i><b>Note:</b> the following is a historical snapshot of my research. See the
+    <a href="newsarchive.html">News Archive</a> page for a more up-to-date
+    picture.</i></p>
+<p>My research is focused on the problem of how to build highly secure computing
+systems cost-effectively. As part of this, 
+I lead Data61's work on proving computer software and
+systems secure, and am leading or otherwise involved in a number of projects as part of 
+Data61's <a href="http://ssrg.nicta.com.au/projects/TS/">Trustworthy Systems</a> 
+activity, as detailed on my <a href="http://www.nicta.com.au/people/tmurray">Data61 page</a>. Below are listed my current active areas of research and collaboration.
+My interest in security, and belief about the best ways to build secure systems
+more effectively, is very broad. Thus
+I tend to collaborate across various
+disciplines including Software Engineering, Systems, Hardware Security,
+Formal Methods,
+Programming Languages and Human Factors. 
+</p>
+<p><a name="infoflow"></a><b>Information Flow</b>   One of the biggest challenges faced in security today
+is how to ensure that computer systems can keep their secrets from well-motivated
+adversaries — just think of how many news stories you've read about personal
+information having been stolen and publicised by attackers. For this reason,
+a large part of my research has investigated how to guarantee the absence of unwanted
+information leaks in computer software and systems. I led the team that completed
+the world's first proof [<a href="http://ssrg.nicta.com.au/publications/nictaabstracts/6464.pdf">IEEE Symposium on Security and Privacy ("Oakland" S&amp;P) 2013 <img alt="pdf" src="pdf.png" width="22px"/></a>]
+ of information flow security for a general-purpose operating
+system kernel, <a href="http://sel4.systems">seL4</a>, which you can read more about on the
+<a href="http://ssrg.nicta.com.au/projects/TS/infoflow.pml">Information Flow</a>
+project page. This proof, along with subsequent work, guarantees that seL4 will
+prevent all unwanted information leaks up to timing channels, i.e. that it is
+free of unwanted storage channels.</p>
+<p>My current work in this space aims to understand how to verify information
+flow security for concurrent programs (like those that run on top of seL4),
+and how to compile such programs while making sure they still preserve their
+  security guarantees. This work is being carried out under the banner of the
+open-source <a href="http://covern.org">COVERN project</a> [<a href="papers/eurosp2018.pdf">IEEE European Symposium on Security and Privacy (EuroS&amp;P) 2018 <img src="pdf.png" width="22px"/></a>], which builds on
+  our earlier work for exploring these questions [<a href="http://ssrg.nicta.com.au/publications/nictaabstracts/9213.pdf">IEEE Computer Security Foundations Symposium (CSF) 2016 <img src="pdf.png" width="22px"/></a>].</p>
+<p>Alongisde this work, I've also been exploring how to build program logics for proving information flow
+  security of low-level C code. A recent short paper [<a href="papers/plas2017.pdf">Workshop on Programming Languages and Analysis for Security (PLAS) 2017 <img alt="pdf" src="pdf.png" width="22px"/></a>] describes the main ideas, developed in
+  collaboration with <a href="https://www.csail.mit.edu/person/samuel-gruetter">Samuel Gruetter (MIT)</a>.</p>
+<p><a name="timingchannels"></a><b>Timing Channels</b>   Timing channels
+leak information (whether intentionally or not) to an adversary who can
+observe differences in the relative timing of different events. 
+Unlike for storage channels, we are not yet
+able to <a href="#infoflow">prove</a> the absence of timing channels in systems, largely because many
+timing channels exploit the timing properties of hardware microarchitectural
+features, like caches, which are not even documented, so are very difficult
+to reason about formally. For this reason, these channels must be dealt with <i>empirically</i>.
+I have been involved in NICTA's <a href="http://ssrg.nicta.com.au/projects/TS/timingchannels.pml">Timing and Side Channels</a> activity, where we pioneered new techniques for
+empirically measuring the effectiveness of various timing channel mitigation 
+techniques for seL4 [<a href="http://ssrg.nicta.com.au/publications/nictaabstracts/8295.pdf">ACM Conference on Computer and Communications Security (CCS) 2014 <img alt="pdf" src="pdf.png" width="22px"/></a>]. </p>
+<p><a name="fs"></a><b>Cost-Effective Verified Systems via Verifying DSLs</b>   While security proofs, like 
+<a href="http://ssrg.nicta.com.au/projects/TS/infoflow.pml">those</a>
+for seL4 that I have led, can give extremely high levels of assurance for 
+security-critical systems, they remain relatively expensive to perform. Much of
+my recent research has therefore focused on how to reduce the cost of verifying
+properties of systems software. One technique I have explored, in collaboration with
+Programming Languages researchers from UNSW (notably <a href="http://www.cse.unsw.edu.au/~keller/">Gabi Keller</a>) via NICTA's
+<a href="http://ssrg.nicta.com.au/projects/TS/cogent.pml">Cogent</a> project, has been to write verified systems software in a Domain
+Specific Language (DSL). Cogent [<a href="https://ts.data61.csiro.au/publications/nictaabstracts/9425.pdf">International Conference on Functional Programming (ICFP) 2016 <img alt="pdf" src="pdf.png" width="22px"/></a>] is a programming language that is carefully designed to enable systems written in it to be
+cheaply proved correct. It is coupled with a verifying compiler [<a href="https://ts.data61.csiro.au/publications/nictaabstracts/9273.pdf">International Conference on Interactive Theorem Proving (ITP) 2016 <img alt="pdf" src="pdf.png" width="22px"/></a>] that automatically 
+proves that the compiled code implements the Cogent source semantics. 
+In conjunction with my PhD students <a href="http://ssrg.nicta.com.au/people/?cn=Sidney+Amani">Sidney Amani</a> and <a href="http://liamoc.net/">Liam O'Connor</a>
+(co-supervised with Gabi Keller), my undergraduate thesis student
+<a href="https://ssrg.nicta.com.au/people/?cn=Japheth+Lim">Japheth Lim</a>, and the rest of the <a href="http://ssrg.nicta.com.au/projects/TS/cogent.pml">Cogent</a> team,
+we have used this technique to
+build and (partially) formally verify correct Linux file systems far more cheaply
+than e.g. the verification for the seL4 kernel [<a href="http://www.nicta.com.au/publications/research-publications/?pid=8956">International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2016 <img alt="html" src="html.png" width="22px"/></a>].</p>
+<p><a name="pme"></a><b>Proof Cost Estimation</b>   The effort required to verify software
+as being secure is an obvious barrier to its wide adoption. But just as
+important is the inability of software engineering managers to be able to 
+<i>predict</i> the costs (and associated benefits) of proving their software
+correct. Another of my recent research activities has been to investigate this
+question in the context of NICTA's <a href="http://ssrg.nicta.com.au/projects/TS/pme.pml">Proof, Measurement and Estimation</a> (PME) project. As part of this work,
+my PhD student <a href="http://ssrg.nicta.com.au/people/?cn=Daniel+Matichuk">Daniel Matichuk</a> and I, in collaboration with Empirical Software Engineering researchers
+and NICTA's PME team, explored the relationship between the size of a statement to
+be proved about a piece of software, and the amount of effort required to prove
+the statement (using as a proxy the number of lines required to write the proof,
+which we had already established [<a href="http://ssrg.nicta.com.au/publications/nictaabstracts/8105.pdf">ACM/IEEE Symposium on Empirical Software Engineering and Measurement (ESEM) 2014 <img alt="pdf" src="pdf.png" width="22px"/></a>]
+ is strongly linearly related).
+To do so, we crunched historical data
+about the various <a href="http://www.github.com/seL4/l4v">seL4 proofs</a> as well 
+as some other large, <a href="http://afp.sf.net">publicly available</a> software proofs. We
+established empirically for the first time [<a href="http://ssrg.nicta.com.au/publications/nictaabstracts/8318.pdf">International Conference on Software Engineering (ICSE) 2015 <img alt="pdf" src="pdf.png" width="22px"/></a>] that a consistent relationship exists here
+and that it is in fact quadratic. This work is the first step towards building
+a predictive model for estimating the level of effort required to verify a piece of
+software.</p>
+<p><a name="eisbach"></a><b>Proof Automation</b>   Besides <a href="#fs">writing verified software in custom DSLs
+leveraging verifying compilation</a> to dramatically ease the cost of formally verifying
+secure systems, another more direct approach I have investigated with my PhD
+student <a href="http://ssrg.nicta.com.au/people/?cn=Daniel+Matichuk">Daniel Matichuk</a> has been to develop languages in which custom, automatic proof tactics can be written for the <a href="https://www.cl.cam.ac.uk/research/hvg/Isabelle/">Isabelle</a> proof assistant. Daniel designed and developed Eisbach [<a href="http://ssrg.nicta.com.au/publications/nictaabstracts/7847.pdf">International Conference on Interactive Theorem Proving (ITP) 2014 <img alt="pdf" src="pdf.png" width="22px"/></a>, Journal of Automated Reasoning (to appear)] the first such language that integrates with Isabelle's high-level
+notation for writing (structured) proofs, and so requires no knowledge of Isabelle's
+internals, making it usable by relative novices.</p>
+<p><a name="cddc"></a><b>Highly-Secure and Usable, Verified Cross Domain Systems</b>   All of
+the above research is aimed towards being able to build extremely secure
+systems — and to demonstrate via rigorous evidence that they are indeed
+so — at reasonable cost. I am currently leading, alongside <a href="http://cgi.cse.unsw.edu.au/~kevine/">Kevin Elphinstone</a>, a collaboration with the
+<a href="http://www.dsto.defence.gov.au">Defence Science and Technology Group (DST Group)</a>, in which we are building and formally verifying as secure a 
+clever
+<a href="https://en.wikipedia.org/wiki/Cross-domain_solution">Cross-Domain</a>
+device called the Cross Domain Desktop Compositor (CDDC)
+[<a href="papers/cddc-acsac2016.pdf">Annual Computer Security Applications Conference (ACSAC) 2016 <img alt="pdf" src="pdf.png" width="22px"/></a>].
+The CDDC allows users to interact with both highly-classified and lower-classification networks from a single display (monitor), keyboard and mouse. 
+Its design makes it far more secure than existing solutions 
+while also offering much greater usability, showing that with clever design
+usability and security need not be in conflict. We are currently working on
+building and verifying an seL4-based implementation of the device,
+leveraging our current work on verified
+<a href="#infoflow">information flow security</a>.</p>
+<p><a name="psych"></a><b>Usable Security</b>   As part of my work on <a href="#cddc">building and verifying
+cross domain systems</a>, I am
+also investigating how issues of usability and security, including human cognition
+  and perception, interact with the process of formally proving a system secure.
+  This work is still in its very early stages
+  [<a href="papers/ozchi2018.pdf">Australian Computer Human Interaction Conference
+    (OzCHI) 2018 <img alt="pdf" src="pdf.png" width="22px"/></a>], and there
+  remains much more to be done.</p>
+<p><a name="caps"></a><b>Reasoning about Capability-Based Software</b>   
+Continuing the work I began during my D.Phil. (PhD), where I investigated
+[<a href="http://ssrg.nicta.com.au/publications/papers/Murray:phd.pdf">thesis <img alt="pdf" src="pdf.png" width="22px"/></a>] techniques
+to formally reason about the security of <a href="https://en.wikipedia.org/wiki/Capability-based_security">capability-based</a> security-enforcing software abstractions,
+I am currently collaborating with
+researchers from <a href="http://www.ic.ac.uk">Imperial College London</a>, <a href="http://www.victoria.ac.nz">Victoria University Wellington</a> and <a href="http://www.google.com">Google</a> on techniques for formally reasoning about risk and trust (including the absence of such) for capability-based
+software.</p>
+</div>
+<a name="workwithme"></a>
+<div class="mainpage-section">
+<h2>Working with Me</h2>
+
+I'm always looking for motivated students to work with. Check out my page for
+<a href="potentialstudents.html">prospective research students</a>.
+</div>
+<a name="publications"></a>
+<div class="mainpage-section">
+<h2>Publications</h2>
+<a href="https://scholar.google.com/citations?user=Bd8pZGgAAAAJ">Google Scholar</a>
+has a fairly complete list of my publications. You can also try my entry on
+<a href="http://dblp.uni-trier.de/pers/hd/m/Murray:Toby_C=">DBLP</a>, which may not
+be quite so complete.
+</div>
+<a name="teaching"></a>
+<div class="mainpage-section">
+<h2>Teaching</h2>
+<p>In 2020, I am teaching:</p>
+<ul>
+<li><a href="http://handbook.unimelb.edu.au/view/2020/SWEN90010">SWEN90010 -  High Integrity Systems Engineering</a> (Semester 1)</li>
+<li><a href="https://handbook.unimelb.edu.au/view/2020/SWEN90006">SWEN90006 - Software Security &amp; Testing</a> (Semester 2)</li>
+<li><a href="http://handbook.unimelb.edu.au/view/2020/COMP90038">COMP90038 - Algorithms and Complexity</a> (Semester 2)</li>
+</ul>
+<p>At UNSW, I taught:</p>
+<ul>
+<li>COMP4161 - Advanced Topics in Software Verification (<a href="http://www.cse.unsw.edu.au/~cs4161/10s2/">2010</a>, <a href="http://www.cse.unsw.edu.au/~cs4161/11s2/">2011</a>, <a href="http://www.cse.unsw.edu.au/~cs4161/12s2/">2012</a>, <a href="http://www.cse.unsw.edu.au/~cs4161/13s2/">2013</a>, <a href="http://www.cse.unsw.edu.au/~cs4161/14s2/">2014</a> as Lecturer in Charge, <a href="http://www.cse.unsw.edu.au/~cs4161/15s2/">2015</a>)
+  </li>
+<li>COMP9241 - Advanced Operating Systems (Guest lecturer in Operating Systems Security, <a href="http://www.cse.unsw.edu.au/~cs9242/11">2011</a>,  <a href="http://www.cse.unsw.edu.au/~cs9242/12">2012</a>,  <a href="http://www.cse.unsw.edu.au/~cs9242/13">2013</a>,  <a href="http://www.cse.unsw.edu.au/~cs9242/14">2014</a>, <a href="http://www.cse.unsw.edu.au/~cs9242/15">2015</a>)</li>
+</ul>
+<p>I have also taught half-day courses to industry on topics including:
+</p><ul>
+<li>Separation Logic</li>
+<li>Software Model Checking for C code using
+<a href="http://www.cprover.org/cbmc/">CBMC</a></li>
+</ul>
+If your company develops
+software and would like to know how you can more easily detect and remove bugs
+during development, and would like to know more, please get in touch.
+
+</div>
+<a name="students"></a>
+<div class="mainpage-section">
+<h2>Students</h2>
+<p>Current PhD students:</p>
+<ul>
+<li><a href="https://cis.unimelb.edu.au/people/research-students/#HoangNguyen">Hoang Nguyen</a>, University of Melbourne</li>
+<li><a href="https://cis.unimelb.edu.au/people/research-students/#DucThanNguyen">NGUYEN Duc Than</a>, University of Melbourne</li>
+<li><a href="http://www.cis.unimelb.edu.au/people/research-students#DonggeLiu">Dongge Liu</a>, University of Melbourne</li>
+<li><a href="https://renlord.com/">Renlord Yang</a>, University of Melbourne</li>
+<li><a href="http://ssrg.nicta.com.au/people/?cn=Robert+Sison">Robert Sison</a>, UNSW</li>
+</ul>
+<p>Previous research students:</p>
+<ul>
+<li><a href="http://ssrg.nicta.com.au/people/?cn=Daniel+Matichuk">Daniel Matichuk</a>, UNSW (PhD thesis:
+  <i><a href="http://unsworks.unsw.edu.au/fapi/datastream/unsworks:51703/SOURCE2">Automation for Proof Engineering:
+      Machine-Checked Proofs At Scale  <img alt="pdf" src="pdf.png" width="22px"/></a></i>; co-supervised with <a href="http://www.cse.unsw.edu.au/~kleing/">Gerwin Klein</a>)</li>
+<li><a href="http://www.cis.unimelb.edu.au/people/research-students#Clarke">David (Knobby) Clarke</a>, University of Melbourne (PhD thesis: <i>Analyses
+  of Java Programs over Weak Memory</i>; co-supervised with <a href="people.eng.unimelb.edu.au/tmiller/">Tim Miller</a> and <a href="https://cis.unimelb.edu.au/people/staff.php?person_ID=6868">Antonette Mendoza</a>)</li>
+<li><a href="http://www.cis.unimelb.edu.au/people/research-students#Lin">Yude Lin</a>, University of Melbourne (PhD thesis: <i><a href="https://minerva-access.unimelb.edu.au/handle/11343/197985">Symbolic Execution with Over-Approximation</a></i>; co-supervised with <a href="people.eng.unimelb.edu.au/tmiller/">Tim Miller</a> and <a href="people.eng.unimelb.edu.au/harald/">Harald Sondergaard</a>)</li>
+<li><a href="http://ssrg.nicta.com.au/people/?cn=Sidney+Amani">Sidney Amani</a>, UNSW (PhD thesis: <i><a href="https://ts.data61.csiro.au/publications/nictaabstracts/9502.pdf">A Methodology
+        for Trustworthy File Systems <img alt="pdf" src="pdf.png" width="22px"/></a></i>)</li>
+<li><a href="https://ssrg.nicta.com.au/people/?cn=Japheth+Lim">Japheth Lim</a>, UNSW (Honours thesis: <i>Automatically Proving the Correctness of C Code Generation</i>)</li>
+<li>Sudeep Kanav (Masters student from <a href="http://www.tum.de/">TU Munich</a>, thesis: <i>Compiler Verification for a Data Format DSL</i>)</li>
+</ul>
+</div>
+<a name="service"></a>
+<div class="mainpage-section">
+<h2>Service</h2>
+<p>I am the coordinator for the <a href="https://handbook.unimelb.edu.au/components/mc-it-spec-6">Master of IT Cyber Security</a> degree specialisation
+    and am a
+    <a href="https://staff.unimelb.edu.au/research/ethics-integrity/research-integrity/contacts/research-integrity-advisors">Research Integrity Advisor</a>.</p>
+<p>I serve, and have served, on a range of Program Committees, listed below.
+  I am a member of <a href="http://www.dsi.unive.it/IFIPWG1_7/">IFIP WG 1.7 on Theoretical Foundations of Security
+    Analysis and Design</a>.
+
+</p><h3>Steering Committees</h3>
+<ul>
+<li>ACM Workshop on Programming Languages and Analysis for Security (PLAS)</li>
+</ul>
+<h3>Edited Books</h3>
+<ul>
+<li><a href="https://content.iospress.com/journals/journal-of-computer-security/25/4-5">Journal of Computer Security, Special Issue on Verified Information Flow Security - Volume 25, Issue 4-5, 2017</a></li>
+<li><a href="https://dl.acm.org/citation.cfm?id=2993600">Proceedings of the 2016 ACM Workshop on Programming Languages and Analysis for Security (PLAS)</a></li>
+</ul>
+<h3>Program Committees</h3>
+<ul>
+<li>CSF 2021</li>
+<li><a href="https://ieeesecdev.staging.wpengine.com/2020/Home">SecDev 2020</a></li>
+<li><a href="https://conf.researchr.org/home/pldi-2020">PLDI 2020</a> (ERC)</li>
+<li><a href="https://www.ieee-security.org/TC/CSF2020/">CSF 2020</a></li>
+<li><span style="text-decoration: line-through">POST 2020</span></li>
+<li><a href="https://www.etaps.org/2020/esop">ESOP 2020</a></li>
+<li><a href="https://isrdc.iitb.ac.in/iciss2020/">ICISS 2020</a></li>
+<li><a href="https://2019.ecoop.org/home/FTfJP-2019">FTfJP 2019</a> (Co-Chair)</li>
+<li><a href="https://secdev.ieee.org/2019/Home/">SecDev 2019</a></li>
+<li><a href="https://entropy2019.sciencesconf.org/">ENTROPY 2019</a></li>
+<li><a href="https://di.ku.dk/fct2019/">FCT 2019</a></li>
+<li><a href="https://popl19.sigplan.org/track/CPP-2019">CPP 2019</a></li>
+<li><a href="http://www.formal-analysis.com/icfem/2018/">ICFEM 2018 Doctoral Symposium</a></li>
+<li><a href="https://2018.splashcon.org/track/ocap-2018-papers">OCAP 2018</a></li>
+<li><a href="https://secdev.ieee.org/2018/home">IEEE SecDev 2018</a></li>
+<li><a href="https://ifm2018.cs.nuim.ie/">iFM 2018</a></li>
+<li><a href="https://secdev.ieee.org/2017/home/">IEEE SecDev 2017</a></li>
+<li><a href="http://conf.researchr.org/track/ocap-2017/ocap-2017-papers">OCAP 2017</a></li>
+<li><a href="http://csf2017.tecnico.ulisboa.pt/">CSF 2017</a></li>
+<li><a href="https://cs.au.dk/~askarov/events/fcs2017/">FCS 2017</a></li>
+<li>TMPA 2017</li>
+<li> <a href="http://www.ieee-security.org/TC/EuroSP2017/">EuroS&amp;P 2017</a></li>
+<li> <a href="http://www.mrtc.mdh.se/CRTS2016/">CRTS 2016</a> </li>
+<li> <a href="http://plas2016.programming.systems">PLAS 2016</a> (Co-Chair) </li>
+<li> <a href="http://www.mrtc.mdh.se/CRTS2015/">CRTS 2015</a> </li>
+<li> <a href="http://www.ssv-conference.org">SSV 2015</a> (Co-Chair) </li>
+<li> <a href="http://www.cs.cornell.edu/conferences/plas2015/">PLAS 2015</a> </li>
+<li> <a href="http://popl.mpi-sws.org/2015/">POPL 2015</a> (External Review Committee) </li>
+<li> <a href="http://www.ssv-conference.org/ssv-2014/">SSV 2014</a> </li>
+<li> <a href="http://cpp2013.forge.nicta.com.au/">CPP 2013</a> </li>
+<li> <a href="http://www.ssv-conference.org/ssv2012/">SSV 2012</a> </li>
+<li> <a href="http://soft.vub.ac.be/events/dcdp/">DCDP 2010</a> </li>
+</ul>
+</div>
+</div>
+</body>
+</html>
+<!--  LocalWords:  tobycmurray ICECCS RTSS CCS PME ESEM ICSE ITP DBLP Smyth
+ -->

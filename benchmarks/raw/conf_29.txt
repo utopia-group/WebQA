@@ -1,0 +1,1230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>MobiCom 2020: The 26th Annual International Conference on Mobile Computing and Networking</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="The 26th Annual International Conference on
+Mobile Computing and Networking. ACM MobiCom 2020, the Annual International Conference
+on Mobile Computing and Networking, is the twenty sixth in a series of annual conferences
+sponsored by ACM SIGMOBILE dedicated to addressing the challenges in the areas of mobile
+computing and wireless and mobile networking. The MobiCom conference series serves as a
+highly selective, premier international forum addressing networks, systems, algorithms,
+and applications that support mobile computers and wireless networks. In addition to the
+regular conference program, MobiCom 2020 will include a set of workshops, panels, research
+demonstrations, a poster session that includes the ACM Student Research Competition, a mobile app competition and a session
+of invited industry presentations. The conference will be held in London, United Kingdom." name="description"/>
+<meta content="MobiCom, SIGMOBILE, ACM, mobile, computing, networking,
+mobile computing, mobile networking, wireless, communications, conference, research,
+mobile technology, wireless technology, applications, middleware,
+distributed systems, ad hoc, sensor, multimedia, Ubiquitous, Pervasive, Mobile Apps" name="keywords"/>
+<meta content="#166792" name="theme-color"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="yes" name="mobile-web-app-capable"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+<meta content="MobiCom 2020" name="apple-mobile-web-app-title"/>
+<link href="images/small.png" rel="apple-touch-icon"/>
+<meta content="MobiCom 2020" name="application-name"/>
+<meta content="MobiCom 2020" name="apple-mobile-web-app-title"/>
+<meta content="images/small.png" name="msapplication-TileImage"/>
+<meta content="#166792" name="msapplication-TileColor"/>
+<meta content="no-cache, no-store, must-revalidate" http-equiv="Cache-Control"/>
+<meta content="no-cache" http-equiv="Pragma"/>
+<meta content="0" http-equiv="Expires"/>
+<link href="images/favicon.ico" rel="SHORTCUT ICON"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
+<script crossorigin="anonymous" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="js/nav.js?ver=1562746907" type="text/javascript"></script>
+<script crossorigin="anonymous" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+<link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" rel="stylesheet"/>
+<!--<link rel="stylesheet" type="text/css" href="css/fixedcolumns.css?ver=">-->
+<link href="css/filt.css?ver=1562746892" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<center>
+<nav class="navbar navbar-dark navbar-expand-lg" style="background-color: #373f49;">
+<a class="navbar-brand" href="./">MobiCom 2020</a>
+<button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<div class="navbar-push">
+</div>
+<ul class="navbar-nav mr-auto nav center-nav">
+<li class="nav-item">
+<a class="nav-link" href="./">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="about.php">About</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="committee.php">Committees</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="program.php">Program</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="workshops.php">Workshops &amp; Tutorials</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="accepted.php">Accepted Papers</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="camera.php">Camera-Ready</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="travel.php">Travel</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="location.php">Location &amp; Activities</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="venue.php">Venue</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="registration.php">Registration &amp; Hotel Reservations</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="mobijob.php">MobiJob</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="poster-demo.php">Posters &amp; Demos</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="src.php">SRC</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="cfp.php">CFP</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="n2women.php">N2Women</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="travelgrant.php">Travel Grant</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="sponsorships.php">Sponsorships</a>
+</li>
+</ul>
+</div>
+</nav>
+<div class="masthead">
+<div class="gradient">
+<div class="logos">
+<img class="img-responsive" src="./images/acm.png?ver=1562746877" width="100px"/>
+<img class="img-responsive" src="./images/sigmobile.png?ver=1562746887" width="100px"/>
+</div>
+<div class="bigbannert1 text-center">
+MobiCom 2020
+</div>
+<div class="bigbannert2 text-center">
+The 26th Annual International Conference on<br/>Mobile Computing and Networking
+</div>
+<div class="bigbannert3 text-center">
+21-25 Sep, London, United Kingdom
+</div>
+<div class="bannerbottom"></div>
+</div>
+</div>
+<div class="container bigc">
+<div class="spacing"></div>
+<main>
+<!--<h2 class="text-center">Call for Papers</h2>-->
+<style type="text/css">
+ span.bold-red {
+    color: red;
+    font-weight: bold;
+    font-size: large;
+}
+</style>
+<!--<span class="bold-red">Due to Coronavirus outbreak, submission deadline has been extended to March 21st for abstracts submissions and March 25th for papers submissions.</span>-->
+<span class="bold-red">Dear SIGMOBILE community, there are currently significant statutory lockdowns/travel restrictions in-place in many parts of the world. It is unclear when the situation will return back to normal. We are closely monitoring the situation, and take everyone’s health and safety very seriously. Please do not make any non-refundable travel plans to attend the conference. We will provide updates on MOBICOM 2020 in the coming months. Stay safe and healthy!</span>
+<p>
+ACM MobiCom 2020 is the twenty-sixth in a series
+of annual conferences sponsored by <a href="http://www.sigmobile.org/" rel="noopener" target="_blank">ACM
+SIGMOBILE</a> dedicated to addressing the challenges in the areas
+of mobile computing and wireless and mobile networking. The
+MobiCom conference series serves as a highly selective,
+premier international forum addressing networks, systems,
+algorithms, and applications that support mobile computers and
+wireless networks. In addition to the regular conference
+program, MobiCom 2020 will include a set of workshops,
+research demonstrations, and a poster session that includes
+the ACM Student Research Competition.
+</p>
+<!--<h5><b><a href="workshops.php">Workshop</a> submission deadlines:</b></h5>
+<a href="https://meteor.ame.asu.edu/mavrix/">MAVRIX</a>: June 30th, 2019<br/>
+<a href="http://mobiqoe.ait.ac.at/internet-qoe-2019/">Internet-QoE</a>: June 21, 2019<br/>
+<a href="https://aka.ms/hotedgevideo19">HotEdgeVideo</a>:  July 9, 2019 (11:59PM AoE)<br/>
+<a href="https://s32019.blogs.rice.edu/">S3</a>: June 30th, 2019<br/>
+<a href="https://sites.google.com/view/smas-2019/">SMAS</a>: June 20th, 2019 <br/>
+<a href="https://nss.cs.nctu.edu.tw/wintech2019">WiNTECH</a>: June 21, 2019, 5pm EST<br/>
+<a href="https://mmnets.cs.gmu.edu/">mmNets</a>: June 28th, 2019 (11:59 PM EST)<br/>
+<a href="http://conferences.ece.unm.edu/chants2019/">CHANTS</a>: June 21, 2019
+</li>
+
+<br/><br/>
+
+<h5><b><a href="poster-demo.php">Poster and demo</a> deadlines</b></h5>
+<div class="table-responsive">
+<table class="table table-striped table-sm">
+<tr>
+<th>Deadlines</th>
+<th>Dates</th>
+</tr>
+<tr>
+<td>Submission</td>
+<td>June 15, 2019 11:59 PM</td>
+</tr>
+<tr>
+<td>Notification of acceptance</td>
+<td>June 24, 2019 11:59 PM</td>
+<tr>
+<td>Camera-ready</td>
+<td>July 1, 2019</td>
+</tr>
+</table>
+</div>
+
+<h5><b><a href="travelgrant.php">Student travel grant</a> deadlines</b></h5>
+<div class="table-responsive">
+<table class="table table-striped table-sm">
+<tr>
+<th>Deadlines</th>
+<th>Dates</th>
+</tr>
+<tr>
+<td>Travel Grant Application Submission Deadline</td>
+<td>July 1, 2019 (23:59 EST) </td>
+</tr>
+<tr>
+<td>Travel Grant Award Notification</td>
+<td>July 5, 2019</td>
+<tr>
+<td>Deadline to Accept/Decline Travel Grant Award</td>
+<td>July 8, 2019</td>
+</tr>
+</table>
+</div>
+
+<h5><b><a href="registration.php">Registration</a> deadlines</b></h5>
+Early-Bird (Ends Sept 1st)<br/>
+Late (Ends Oct 20th)<br/>
+On-Site (Begins Oct 21st)<br/><br/>
+
+<h5><b>Travel info</b></h5>
+<p>We have posted the <a href="program.php">schedule outline</a>, <a href="travel.php">airport transfer info</a>, <a href="location.php">activities</a>. Book your flights, transfer, and activities! Registration and room reservation coming soon!</p>
+-->
+<h5><b>News</b></h5>
+<div id="news">
+<ul>
+<!--li><b>June 2019</b> - <a href="registration.php">Registration and Hotel Reservations</a>, <a href="program.php">Program</a>, <a href="location.php">Location & Activities</a>, <a href="venue.php">Venue</a>, <a href="mobijob.php">MobiJob</a>, <a href="n2women.php">N2Women</a> and <a href="travelgrant.php">Student travel grant</a> are up.<br/>
+<li><b>May 2019</b> - <a href="workshops.php">Workshops CFPs</a> are up.<br/>
+<li><b>April 2019</b> - <a href="workshops.php">Workshops and tutorials</a> are up. <a href="poster-demo.php">Call for posters and demos</a> are up. <a href="travel.php">Travel information</a> is up.</li>
+<li><b>February 2019</b> - <a href="workshops-call.php">Call for workshops</a> is up.</li>
+<li><b>January 2019</b> - Dates, location, & organizing committee have been announced.</li>
+<li><b>December 2018</b> - First round of accepted papers announced.</li>
+<li><b>July 2018</b> - <a href="https://mobicom19.hotcrp.com/" target="_blank" rel="noopener">Submission website</a> is online. <a href="cfp.php">Call for papers</a> is up. MobiCom 2019 webpage is live. </li>
+-->
+<li><b>January 2020</b> - <a href="workshops-call.php">Call for workshops</a> is up.</li>
+<li><b>January 2020</b> - First round of <a href="accepted.php">accepted papers</a> announced.</li>
+<li><b>March 2020</b> - Submission deadline extended to March 21st for abstracts and March 25th for papers.</li>
+<li><b>March 2020</b> - <a href="workshops.php">Workshops &amp; Tutorials </a> announced.</li>
+</ul>
+</div>
+<!-- <div class="paragraphTitle">SIG Sponsor</div>
+<div class="spacing"></div>
+<a href="https://www.sigmobile.org/" target=_blank><img src="images/sponsors/sigmobile.jpg" alt="SIGMobile" height="100"></a>
+<div class="spacing"></div>
+
+<div class="paragraphTitle">Student Travel Grants</div>
+<div class="spacing"></div>
+<a href="http://www.nsf.gov" target=_blank><img src="images/sponsors/nsf.jpg" alt="NSF" height="100"></a>
+<div class="spacing"></div>
+
+<div class="paragraphTitle">Gold Sponsor</div>
+<div class="spacing"></div>
+<a href="https://www.infosys.com/" target=_blank><img src="images/sponsors/infosys.jpg" border=0 alt="Infosys" height="75"></a>
+<div class="spacing"></div>
+
+<div class="paragraphTitle">Silver Sponsor</div>
+<table class='sponsor'>
+<tr>
+<td width="200" align=center>
+    <a href="https://www.cisco.com/c/en_in/index.html" target=_blank><img src="images/sponsors/cisco_logo.jpg" alt="Cisco" height="90"></a>
+</td>
+<td width="200" align=center>
+    <a href="https://www.microsoft.com" target=_blank><img src="images/sponsors/microsoft.png" alt="Microsoft" height="50"></a>
+</td>
+<td width="200" align=center>
+    <a href="http://www.google.com/" target=_blank><img src="images/sponsors/google_logo.png" alt="Google" height="100"></a>
+</td>
+</tr>
+</table>
+
+<div class="paragraphTitle"> Bronze Sponsors</div>
+<div class="spacing"></div>
+<a href="https://www.comsnets.org/index.html" target=_blank><img src="images/sponsors/comsnets.png" alt="COMSNETS" height="100"></a>
+<div class="spacing"></div>
+
+<div class="paragraphTitle">Conference WiFi Partner</div>
+<div class="spacing"></div>
+<a href="https://www.mojonetworks.com/" target=_blank><img src="images/sponsors/mojo.png" alt="Mojo Networks" height="35"></a>
+<div class="spacing"></div>
+ -->
+    <h2 class="text-center">Call for Papers</h2>
+
+    The ACM MobiCom conference seeks papers describing significant research contributions in the field of wireless
+    networking and mobile computing. MobiCom solicits papers that address important research challenges, including but
+    not limited to communication networks, energy, computing, security and user experience. Successful papers should
+    propose novel ideas to attack such problems through rigorous analysis, system design, and/or real-world measurement
+    and deployment of mobile networks, systems and applications.
+    <br/><br/>
+
+    We want MobiCom’20 to be daring and emphasize novelty and creativity. The more novel the concept, the harder it can
+    be to fully develop or evaluate all aspects, and the review process will take this into account. We encourage
+    authors to discuss not only the significance but also the limitations of their ideas. We strongly encourage authors
+    to describe how they will provide access to well-documented datasets, modeling and/or simulation tools, and
+    codebases to support the reproducibility of their methods. MobiCom continues the two-deadline model and the
+    reviewing process with one-shot revision piloted last year to improve the quality and timeliness of publications.
+    <br/><br/>
+
+    We invite submissions on a wide range of mobile computing and wireless networking research, including but not
+    limited to:
+    <ul style="text-align:left">
+        <li>Applications of machine learning to mobile/wireless research</li>
+<li>Backscatter communication and wireless power</li>
+<li>Edge computing</li>
+<li>Embedded and energy-harvesting systems</li>
+<li>Experimental platforms and infrastructures for wireless/mobile research</li>
+<li>Implanted and wearable computing</li>
+<li>Intersection between mobile/wireless research, cloud computing, and software-defined networking</li>
+<li>Long-range/Low-power wide-area wireless networking</li>
+<li>Low-latency networking</li>
+<li>Machine-to-machine communications</li>
+<li>Millimeter wave and terahertz communications</li>
+<li>Mobile data science &amp; analysis</li>
+<li>Mobile health</li>
+<li>Mobile web, video, virtual reality, and other applications</li>
+<li>Next-generation 5G mobile networks</li>
+<li>Novel applications of wireless signals</li>
+<li>Robotic and drone-based networking</li>
+<li>Security and privacy issues/solutions for mobile/wireless systems</li>
+<li>Sensing with radio, light, sound, and acoustics</li>
+<li>Ubiquitous computing and mobile human computer interaction</li>
+<li>Visible light communications</li>
+<li>Wireless localization and tracking</li>
+</ul>
+
+In addition to full research papers as described above, MobiCom also invites submission in the following three categories:<br/><br/>
+<b>Challenge Papers</b> <br/>
+The conference invites submissions of short papers (limited to eight pages excluding references) that present revolutionary new ideas or that challenge existing assumptions prevalent among the wireless research community. These "challenge papers" should provide stimulating ideas or visions that may open up exciting avenues and/or influence the direction of future research. Descriptions of new products or evolution of existing work are not appropriate topics for papers in this category. While an exhaustive evaluation of the proposed ideas is not necessary, insight and in-depth understanding of the issues is expected. Challenge papers will be reviewed by the program committee and if selected, become part of the conference technical program and be published in the conference proceedings. Challenge papers should be submitted using the same submission procedure adopted for the full papers. The title of these papers must bear a "Challenge:" prefix.
+<br/><br/>
+<b>Experience Papers</b> <br/>
+The conference invites submission of short papers (limited to eight pages excluding references) that present extensive experiences with implementation, deployment, and operations of mobile systems and wireless networks. Desirable papers are expected to contain real data as well as descriptions of the practical lessons learned. The experience papers will be evaluated by the program committee, primarily for (i) richness of their data or experiences, (ii) inferences drawn or lessons learned, (iii) discovery of new problems, and (iv) their impact/potential impact on current and future mobile systems and wireless networks, as well as on society. Note that a paper that builds a system and presents a limited experimental evaluation is NOT suitable as an experience paper. Selected experience papers will become a part of the conference technical program and will be published in the conference proceedings. Experience papers should be submitted according to the same submission procedure as full papers, and their title must bear an "Experience:" prefix.
+<br/><br/>
+<b>Verification Papers</b> <br/>
+MobiCom welcomes contributions that seek to verify and/or characterize recent breakthrough results in mobile computing using rigorous experimental methodologies with the goal of extensively and thoroughly characterizing the operating parameters under which these results can be reproduced. Such submissions should be short papers (limited to eight pages excluding references) with "Verification:" as a prefix in the title. Selected verification papers will become a part of the conference technical program and will be published in the conference proceedings. Verification papers should be submitted according to the same submission procedure as full papers.
+<br/><br/>
+<h5><b>Two Deadlines and Reviewing Process with One-shot Revision</b></h5>
+MobiCom’20 offers authors the options of two deadlines and adds a one-shot revision process to enhance the timeliness and quality of the scientific results from the research community. Each paper will go through the same rigorous reviewing process as in previous MobiCom conferences. The review decisions will be one of the following:
+<br/><br/>
+<ul style="text-align:left">
+<li>Accept: Accepted papers will be presented at the MobiCom conference and appear as part of the proceedings. In the meantime, authors are permitted to talk about these upcoming publications, e.g., listing them on CVs. The publications will also be put on the MobiCom website.</li>
+<li>Reject: Rejected papers cannot be resubmitted until 11 months have passed since the last MobiCom deadline they were submitted to. We strongly encourage the authors to consider the feedback they got before submitting the paper to MobiCom 2020.</li>
+<li>One-Shot-Revision: Papers where a revision is required will be given specific action points and can be resubmitted for the next deadline. For such papers, the reviewers will be required to articulate a maximum of three changes/clarifications that they would like to see. After the resubmission, the same reviewers will evaluate the paper based on whether the authors have properly addressed the reviewers’ requests. Unlike in the shepherding process, the requested action points may include running additional experiments that obtain specific results. During this revision period, the paper is still considered under review to MobiCom and therefore cannot be submitted to other conferences unless the authors first withdraw it from consideration. We expect the one-shot revision to be used only for a small fraction of the papers.</li>
+</ul>
+In case of any similarity between a current submission and a submission that has been previously rejected at Mobicom less than 11 months ago, please email a detailed list of differences and if possible a copy of a previous submission to the chairs.
+<br/><br/>
+<br/>
+<h5><b>Paper Submission Instructions</b></h5>
+All paper submissions will be handled electronically at the <a href="https://mobicom20.hotcrp.com/">MobiCom’20 paper submission website</a>. Authors should prepare a PDF version of their full paper.
+<br/><br/>
+Before final submission, you are expected to make sure that your paper complies with the following requirements. You are strongly discouraged from violating these requirements with the aim of including additional material: submissions that violate the formatting requirements may not be reviewed. You can visually inspect a page-by-page report of your paper format using the same tool as the submission system via a separate <a href="https://www.sysnet.ucsd.edu/sigops/banal/index.php">online form</a>. After the submission deadline, we will use the same tool to check the conformance of papers. The format checking tool uses heuristics and can make mistakes. The PC chairs will manually inspect and possibly reject those papers with evident format violations. However, no paper will be rejected due to format violations without first being checked by hand.
+<br/><br/>
+Any papers that do not adhere to the following guidelines may be immediately rejected:
+<br/><br/>
+<ul style="text-align:left">
+<li>Full papers: Contain no more than twelve (12) single-spaced and numbered pages, including figures, tables, any appendices, and any other material, followed by as many pages as necessary for bibliographic references. Papers whose non-bibliographic content is longer than 12 pages will not be reviewed.</li>
+<li>Experience/Verification/Challenge Papers: Contain no more than eight (8) single-spaced and numbered pages, including figures, tables, any appendices, and any other material, followed by as many pages as necessary for bibliographic references. Papers whose non-bibliographic content is longer than eight pages will not be reviewed.</li>
+<li>Font size no smaller than 10 points.</li>
+<li>Double column format with each column having dimensions 9.25 inches x 3.33 inches, a space of 0.33 inches between the two columns, and with no more than 55 lines of text per column.</li>
+<li>Submissions must be in PDF (Portable Document Format) authors should ensure that they are compatible with Adobe Acrobat (English version). Any other formats, including Postscript and MS-Word, will not be accepted.</li>
+<li>Fit properly on US letter-sized paper (8.5 inches by 11 inches).</li>
+<li>Authors' names must not appear anywhere in the paper or in the PDF file. The PDF file must also not contain any embedded hyperlinks, as these may compromise reviewer anonymity.</li>
+<li>Limit the file size to less than 15 MB: contact the PC chairs if you have a file larger than this limit.</li>
+</ul>
+<br/><br/>
+
+You may find these <a href="https://www.acm.org/publications/proceedings-template">templates</a> useful in complying with the above requirements, but as an author you bear the final responsibility to verify (manually or through the above online paper checker) that your submission is format-compliant. <br/><br/>
+
+All submitted papers will be evaluated through a double-blind reviewing process, with the identities of the authors withheld from the reviewers. Please direct any questions about the paper submission process to the Program Co-Chairs Bozidar Radunovic and Qian Zhang at mobicom20-pc-chairs __at__ acm.org.
+<br/><br/>
+<h5><b>Awards</b></h5>
+All accepted regular papers will be considered for the <b>Best Paper Awards</b>. We will also have a <b>Best Community Paper Award</b>. Among all accepted papers, the program committee will select one that contributes the most to the broader research community in terms of real data, or new software, hardware or other artifacts.
+<br/><br/>
+<h5><b>Video Presentation</b></h5>
+The authors of each accepted paper will be asked to submit a one-minute video to introduce the research presented in their paper to the general public. These videos will be placed on the conference website up to two weeks before the conference, and will be played during the conference. A selected set will be featured by the social media channels related to the conference.
+<br/><br/>
+<h5><b>Important Dates</b></h5>
+<div class="table-responsive">
+<table class="table table-striped table-sm datetable">
+<tr>
+<th>Deadlines</th>
+<th style="white-space: nowrap;">Winter<br/>UTC</th>
+<th>Summer<br/>UTC</th>
+</tr>
+<tr>
+<td>Abstract and title registration</td>
+<td>March 21, 2020</td>
+<td>August 14, 2019 9:59 PM</td>
+</tr>
+<tr>
+<td>Paper submission</td>
+<td>March 25, 2020</td>
+<td>August 18, 2019 9:59 PM</td>
+</tr>
+<tr>
+<td>Notification of acceptance</td>
+<td>June 5, 2020</td>
+<td>October 23, 2019</td>
+</tr><tr>
+<td>Reviews available to authors</td>
+<td>June 10, 2020</td>
+<td>October 27, 2019</td>
+</tr>
+<!--<tr>
+<td>Camera-ready</td>
+<td>TBD, 2020</td>
+<td>TBD, 2019</td>
+</tr>-->
+</table>
+</div>
+<h5><b>Important Notes</b></h5>
+All submissions must describe original research not published or currently under review for another conference or journal. It is ACM policy (<a href="http://www.acm.org/publications/policies/copyright_policy">ACM Author Rights and Publishing Policy</a>, <a href="https://www.acm.org/publications/policies/simultaneous-submissions"> Prior Publication and Simultaneous Submissions</a>) not to allow double submissions, where the same paper is submitted to more than one conference/journal concurrently. Any double submissions detected will be immediately rejected from all conferences/journals involved.
+<br/><br/>
+Submissions will be kept confidential until accepted. Rejected submissions will be kept confidential permanently.
+<br/><br/>
+In case of any similarity between a current Mobicom submission and another ongoing submission on a different conference, please email a detailed list of differences and if possible a copy of a previous submission to the chairs.
+<br/><br/>
+</main>
+<footer>
+<div class="container footc">
+<div class="row">
+<div class="col-md-12">
+<div class="text-center icons" style="padding-top:15px">
+<a href="https://twitter.com/ACMMobiCom" rel="noopener" target="_blank">
+<img alt="logo_t" src="images/twitter.jpg" width="30px"/>
+</a>
+<a href="https://www.facebook.com/ACMMobiCom" rel="noopener" target="_blank">
+<img alt="logo_f" src="images/facebook.jpg" width="30px"/>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="text-center copyright" style="padding-bottom:15px; padding-top:15px">
+  Copyright © 2020, ACM Annual International Conference on Mobile Computing and Networking
+</div>
+</footer>
+</div></center><div>
+<center>
+
+<div class="masthead">
+<div class="gradient">
+<div class="logos">
+<img class="img-responsive" src="./images/acm.png?ver=1562746877" width="100px"/>
+<img class="img-responsive" src="./images/sigmobile.png?ver=1562746887" width="100px"/>
+</div>
+<div class="bigbannert1 text-center">
+MobiCom 2020
+</div>
+<div class="bigbannert2 text-center">
+The 26th Annual International Conference on<br/>Mobile Computing and Networking
+</div>
+<div class="bigbannert3 text-center">
+21-25 Sep, London, United Kingdom
+</div>
+<div class="bannerbottom"></div>
+</div>
+</div>
+<div class="container bigc">
+<div class="spacing"></div>
+<main>
+<!--<h2 class="text-center">Call for Papers</h2>-->
+<style type="text/css">
+ span.bold-red {
+    color: red;
+    font-weight: bold;
+    font-size: large;
+}
+</style>
+<!--<span class="bold-red">Due to Coronavirus outbreak, submission deadline has been extended to March 21st for abstracts submissions and March 25th for papers submissions.</span>-->
+<span class="bold-red">Dear SIGMOBILE community, there are currently significant statutory lockdowns/travel restrictions in-place in many parts of the world. It is unclear when the situation will return back to normal. We are closely monitoring the situation, and take everyone’s health and safety very seriously. Please do not make any non-refundable travel plans to attend the conference. We will provide updates on MOBICOM 2020 in the coming months. Stay safe and healthy!</span>
+<p>
+ACM MobiCom 2020 is the twenty-sixth in a series
+of annual conferences sponsored by <a href="http://www.sigmobile.org/" rel="noopener" target="_blank">ACM
+SIGMOBILE</a> dedicated to addressing the challenges in the areas
+of mobile computing and wireless and mobile networking. The
+MobiCom conference series serves as a highly selective,
+premier international forum addressing networks, systems,
+algorithms, and applications that support mobile computers and
+wireless networks. In addition to the regular conference
+program, MobiCom 2020 will include a set of workshops,
+research demonstrations, and a poster session that includes
+the ACM Student Research Competition.
+</p>
+<!--<h5><b><a href="workshops.php">Workshop</a> submission deadlines:</b></h5>
+<a href="https://meteor.ame.asu.edu/mavrix/">MAVRIX</a>: June 30th, 2019<br/>
+<a href="http://mobiqoe.ait.ac.at/internet-qoe-2019/">Internet-QoE</a>: June 21, 2019<br/>
+<a href="https://aka.ms/hotedgevideo19">HotEdgeVideo</a>:  July 9, 2019 (11:59PM AoE)<br/>
+<a href="https://s32019.blogs.rice.edu/">S3</a>: June 30th, 2019<br/>
+<a href="https://sites.google.com/view/smas-2019/">SMAS</a>: June 20th, 2019 <br/>
+<a href="https://nss.cs.nctu.edu.tw/wintech2019">WiNTECH</a>: June 21, 2019, 5pm EST<br/>
+<a href="https://mmnets.cs.gmu.edu/">mmNets</a>: June 28th, 2019 (11:59 PM EST)<br/>
+<a href="http://conferences.ece.unm.edu/chants2019/">CHANTS</a>: June 21, 2019
+</li>
+
+<br/><br/>
+
+<h5><b><a href="poster-demo.php">Poster and demo</a> deadlines</b></h5>
+<div class="table-responsive">
+<table class="table table-striped table-sm">
+<tr>
+<th>Deadlines</th>
+<th>Dates</th>
+</tr>
+<tr>
+<td>Submission</td>
+<td>June 15, 2019 11:59 PM</td>
+</tr>
+<tr>
+<td>Notification of acceptance</td>
+<td>June 24, 2019 11:59 PM</td>
+<tr>
+<td>Camera-ready</td>
+<td>July 1, 2019</td>
+</tr>
+</table>
+</div>
+
+<h5><b><a href="travelgrant.php">Student travel grant</a> deadlines</b></h5>
+<div class="table-responsive">
+<table class="table table-striped table-sm">
+<tr>
+<th>Deadlines</th>
+<th>Dates</th>
+</tr>
+<tr>
+<td>Travel Grant Application Submission Deadline</td>
+<td>July 1, 2019 (23:59 EST) </td>
+</tr>
+<tr>
+<td>Travel Grant Award Notification</td>
+<td>July 5, 2019</td>
+<tr>
+<td>Deadline to Accept/Decline Travel Grant Award</td>
+<td>July 8, 2019</td>
+</tr>
+</table>
+</div>
+
+<h5><b><a href="registration.php">Registration</a> deadlines</b></h5>
+Early-Bird (Ends Sept 1st)<br/>
+Late (Ends Oct 20th)<br/>
+On-Site (Begins Oct 21st)<br/><br/>
+
+<h5><b>Travel info</b></h5>
+<p>We have posted the <a href="program.php">schedule outline</a>, <a href="travel.php">airport transfer info</a>, <a href="location.php">activities</a>. Book your flights, transfer, and activities! Registration and room reservation coming soon!</p>
+-->
+<h5><b>News</b></h5>
+<div id="news">
+<ul>
+<!--li><b>June 2019</b> - <a href="registration.php">Registration and Hotel Reservations</a>, <a href="program.php">Program</a>, <a href="location.php">Location & Activities</a>, <a href="venue.php">Venue</a>, <a href="mobijob.php">MobiJob</a>, <a href="n2women.php">N2Women</a> and <a href="travelgrant.php">Student travel grant</a> are up.<br/>
+<li><b>May 2019</b> - <a href="workshops.php">Workshops CFPs</a> are up.<br/>
+<li><b>April 2019</b> - <a href="workshops.php">Workshops and tutorials</a> are up. <a href="poster-demo.php">Call for posters and demos</a> are up. <a href="travel.php">Travel information</a> is up.</li>
+<li><b>February 2019</b> - <a href="workshops-call.php">Call for workshops</a> is up.</li>
+<li><b>January 2019</b> - Dates, location, & organizing committee have been announced.</li>
+<li><b>December 2018</b> - First round of accepted papers announced.</li>
+<li><b>July 2018</b> - <a href="https://mobicom19.hotcrp.com/" target="_blank" rel="noopener">Submission website</a> is online. <a href="cfp.php">Call for papers</a> is up. MobiCom 2019 webpage is live. </li>
+-->
+<li><b>January 2020</b> - <a href="workshops-call.php">Call for workshops</a> is up.</li>
+<li><b>January 2020</b> - First round of <a href="accepted.php">accepted papers</a> announced.</li>
+<li><b>March 2020</b> - Submission deadline extended to March 21st for abstracts and March 25th for papers.</li>
+<li><b>March 2020</b> - <a href="workshops.php">Workshops &amp; Tutorials </a> announced.</li>
+</ul>
+</div>
+    <div class="paragraphTitle">SIG Sponsor</div>
+<div class="spacing"></div>
+    <a href="https://www.sigmobile.org/" target="_blank"><img alt="SIGMobile" height="100"
+                                                              src="images/sponsors/sigmobile.jpg"/></a>
+<div class="spacing"></div>
+<div class="paragraphTitle">Student Travel Grants</div>
+<div class="spacing"></div>
+    <a href="http://www.nsf.gov" target="_blank"><img alt="NSF" height="100" src="images/sponsors/nsf.jpg"/></a>
+<div class="spacing"></div>
+<div class="paragraphTitle">Gold Sponsor</div>
+<div class="spacing"></div>
+    <a href="https://www.infosys.com/" target="_blank"><img alt="Infosys" border="0" height="75"
+                                                            src="images/sponsors/infosys.jpg"/></a>
+<div class="spacing"></div>
+<div class="paragraphTitle">Silver Sponsor</div>
+    <table class="sponsor">
+        <tr>
+            <td align="center" width="200">
+                <a href="https://www.cisco.com/c/en_in/index.html" target="_blank"><img alt="Cisco" height="90"
+                                                                                        src="images/sponsors/cisco_logo.jpg"/></a>
+            </td>
+            <td align="center" width="200">
+                <a href="https://www.microsoft.com" target="_blank"><img alt="Microsoft" height="50"
+                                                                         src="images/sponsors/microsoft.png"/></a>
+            </td>
+            <td align="center" width="200">
+                <a href="http://www.google.com/" target="_blank"><img alt="Google" height="100"
+                                                                      src="images/sponsors/google_logo.png"/></a>
+            </td>
+</tr>
+</table>
+<div class="paragraphTitle"> Bronze Sponsors</div>
+<div class="spacing"></div>
+    <a href="https://www.comsnets.org/index.html" target="_blank"><img alt="COMSNETS" height="100"
+                                                                       src="images/sponsors/comsnets.png"/></a>
+<div class="spacing"></div>
+<div class="paragraphTitle">Conference WiFi Partner</div>
+<div class="spacing"></div>
+    <a href="https://www.mojonetworks.com/" target="_blank"><img alt="Mojo Networks" height="35"
+                                                                 src="images/sponsors/mojo.png"/></a>
+<div class="spacing"></div>
+<h2 class="text-center">Call for Papers</h2>
+
+The ACM MobiCom conference seeks papers describing significant research contributions in the field of wireless networking and mobile computing. MobiCom solicits papers that address important research challenges, including but not limited to communication networks, energy, computing, security and user experience. Successful papers should propose novel ideas to attack such problems through rigorous analysis, system design, and/or real-world measurement and deployment of mobile networks, systems and applications.
+<br/><br/>
+
+We want MobiCom’20 to be daring and emphasize novelty and creativity. The more novel the concept, the harder it can be to fully develop or evaluate all aspects, and the review process will take this into account. We encourage authors to discuss not only the significance but also the limitations of their ideas. We strongly encourage authors to describe how they will provide access to well-documented datasets, modeling and/or simulation tools, and codebases to support the reproducibility of their methods. MobiCom continues the two-deadline model and the reviewing process with one-shot revision piloted last year to improve the quality and timeliness of publications.
+<br/><br/>
+
+We invite submissions on a wide range of mobile computing and wireless networking research, including but not limited to:
+<ul style="text-align:left">
+<li>Applications of machine learning to mobile/wireless research</li>
+<li>Backscatter communication and wireless power</li>
+<li>Edge computing</li>
+<li>Embedded and energy-harvesting systems</li>
+<li>Experimental platforms and infrastructures for wireless/mobile research</li>
+<li>Implanted and wearable computing</li>
+<li>Intersection between mobile/wireless research, cloud computing, and software-defined networking</li>
+<li>Long-range/Low-power wide-area wireless networking</li>
+<li>Low-latency networking</li>
+<li>Machine-to-machine communications</li>
+<li>Millimeter wave and terahertz communications</li>
+<li>Mobile data science &amp; analysis</li>
+<li>Mobile health</li>
+<li>Mobile web, video, virtual reality, and other applications</li>
+<li>Next-generation 5G mobile networks</li>
+<li>Novel applications of wireless signals</li>
+<li>Robotic and drone-based networking</li>
+<li>Security and privacy issues/solutions for mobile/wireless systems</li>
+<li>Sensing with radio, light, sound, and acoustics</li>
+<li>Ubiquitous computing and mobile human computer interaction</li>
+<li>Visible light communications</li>
+<li>Wireless localization and tracking</li>
+</ul>
+
+In addition to full research papers as described above, MobiCom also invites submission in the following three categories:<br/><br/>
+<b>Challenge Papers</b> <br/>
+The conference invites submissions of short papers (limited to eight pages excluding references) that present revolutionary new ideas or that challenge existing assumptions prevalent among the wireless research community. These "challenge papers" should provide stimulating ideas or visions that may open up exciting avenues and/or influence the direction of future research. Descriptions of new products or evolution of existing work are not appropriate topics for papers in this category. While an exhaustive evaluation of the proposed ideas is not necessary, insight and in-depth understanding of the issues is expected. Challenge papers will be reviewed by the program committee and if selected, become part of the conference technical program and be published in the conference proceedings. Challenge papers should be submitted using the same submission procedure adopted for the full papers. The title of these papers must bear a "Challenge:" prefix.
+<br/><br/>
+<b>Experience Papers</b> <br/>
+The conference invites submission of short papers (limited to eight pages excluding references) that present extensive experiences with implementation, deployment, and operations of mobile systems and wireless networks. Desirable papers are expected to contain real data as well as descriptions of the practical lessons learned. The experience papers will be evaluated by the program committee, primarily for (i) richness of their data or experiences, (ii) inferences drawn or lessons learned, (iii) discovery of new problems, and (iv) their impact/potential impact on current and future mobile systems and wireless networks, as well as on society. Note that a paper that builds a system and presents a limited experimental evaluation is NOT suitable as an experience paper. Selected experience papers will become a part of the conference technical program and will be published in the conference proceedings. Experience papers should be submitted according to the same submission procedure as full papers, and their title must bear an "Experience:" prefix.
+<br/><br/>
+<b>Verification Papers</b> <br/>
+MobiCom welcomes contributions that seek to verify and/or characterize recent breakthrough results in mobile computing using rigorous experimental methodologies with the goal of extensively and thoroughly characterizing the operating parameters under which these results can be reproduced. Such submissions should be short papers (limited to eight pages excluding references) with "Verification:" as a prefix in the title. Selected verification papers will become a part of the conference technical program and will be published in the conference proceedings. Verification papers should be submitted according to the same submission procedure as full papers.
+<br/><br/>
+<h5><b>Two Deadlines and Reviewing Process with One-shot Revision</b></h5>
+MobiCom’20 offers authors the options of two deadlines and adds a one-shot revision process to enhance the timeliness and quality of the scientific results from the research community. Each paper will go through the same rigorous reviewing process as in previous MobiCom conferences. The review decisions will be one of the following:
+<br/><br/>
+<ul style="text-align:left">
+<li>Accept: Accepted papers will be presented at the MobiCom conference and appear as part of the proceedings. In the meantime, authors are permitted to talk about these upcoming publications, e.g., listing them on CVs. The publications will also be put on the MobiCom website.</li>
+<li>Reject: Rejected papers cannot be resubmitted until 11 months have passed since the last MobiCom deadline they were submitted to. We strongly encourage the authors to consider the feedback they got before submitting the paper to MobiCom 2020.</li>
+<li>One-Shot-Revision: Papers where a revision is required will be given specific action points and can be resubmitted for the next deadline. For such papers, the reviewers will be required to articulate a maximum of three changes/clarifications that they would like to see. After the resubmission, the same reviewers will evaluate the paper based on whether the authors have properly addressed the reviewers’ requests. Unlike in the shepherding process, the requested action points may include running additional experiments that obtain specific results. During this revision period, the paper is still considered under review to MobiCom and therefore cannot be submitted to other conferences unless the authors first withdraw it from consideration. We expect the one-shot revision to be used only for a small fraction of the papers.</li>
+</ul>
+In case of any similarity between a current submission and a submission that has been previously rejected at Mobicom less than 11 months ago, please email a detailed list of differences and if possible a copy of a previous submission to the chairs.
+<br/><br/>
+<br/>
+<h5><b>Paper Submission Instructions</b></h5>
+All paper submissions will be handled electronically at the <a href="https://mobicom20.hotcrp.com/">MobiCom’20 paper submission website</a>. Authors should prepare a PDF version of their full paper.
+<br/><br/>
+Before final submission, you are expected to make sure that your paper complies with the following requirements. You are strongly discouraged from violating these requirements with the aim of including additional material: submissions that violate the formatting requirements may not be reviewed. You can visually inspect a page-by-page report of your paper format using the same tool as the submission system via a separate <a href="https://www.sysnet.ucsd.edu/sigops/banal/index.php">online form</a>. After the submission deadline, we will use the same tool to check the conformance of papers. The format checking tool uses heuristics and can make mistakes. The PC chairs will manually inspect and possibly reject those papers with evident format violations. However, no paper will be rejected due to format violations without first being checked by hand.
+<br/><br/>
+Any papers that do not adhere to the following guidelines may be immediately rejected:
+<br/><br/>
+<ul style="text-align:left">
+<li>Full papers: Contain no more than twelve (12) single-spaced and numbered pages, including figures, tables, any appendices, and any other material, followed by as many pages as necessary for bibliographic references. Papers whose non-bibliographic content is longer than 12 pages will not be reviewed.</li>
+<li>Experience/Verification/Challenge Papers: Contain no more than eight (8) single-spaced and numbered pages, including figures, tables, any appendices, and any other material, followed by as many pages as necessary for bibliographic references. Papers whose non-bibliographic content is longer than eight pages will not be reviewed.</li>
+<li>Font size no smaller than 10 points.</li>
+<li>Double column format with each column having dimensions 9.25 inches x 3.33 inches, a space of 0.33 inches between the two columns, and with no more than 55 lines of text per column.</li>
+<li>Submissions must be in PDF (Portable Document Format) authors should ensure that they are compatible with Adobe Acrobat (English version). Any other formats, including Postscript and MS-Word, will not be accepted.</li>
+<li>Fit properly on US letter-sized paper (8.5 inches by 11 inches).</li>
+<li>Authors' names must not appear anywhere in the paper or in the PDF file. The PDF file must also not contain any embedded hyperlinks, as these may compromise reviewer anonymity.</li>
+<li>Limit the file size to less than 15 MB: contact the PC chairs if you have a file larger than this limit.</li>
+</ul>
+<br/><br/>
+
+You may find these <a href="https://www.acm.org/publications/proceedings-template">templates</a> useful in complying with the above requirements, but as an author you bear the final responsibility to verify (manually or through the above online paper checker) that your submission is format-compliant. <br/><br/>
+
+All submitted papers will be evaluated through a double-blind reviewing process, with the identities of the authors withheld from the reviewers. Please direct any questions about the paper submission process to the Program Co-Chairs Bozidar Radunovic and Qian Zhang at mobicom20-pc-chairs __at__ acm.org.
+<br/><br/>
+<h5><b>Awards</b></h5>
+All accepted regular papers will be considered for the <b>Best Paper Awards</b>. We will also have a <b>Best Community Paper Award</b>. Among all accepted papers, the program committee will select one that contributes the most to the broader research community in terms of real data, or new software, hardware or other artifacts.
+<br/><br/>
+<h5><b>Video Presentation</b></h5>
+The authors of each accepted paper will be asked to submit a one-minute video to introduce the research presented in their paper to the general public. These videos will be placed on the conference website up to two weeks before the conference, and will be played during the conference. A selected set will be featured by the social media channels related to the conference.
+<br/><br/>
+<h5><b>Important Dates</b></h5>
+<div class="table-responsive">
+<table class="table table-striped table-sm datetable">
+<tr>
+<th>Deadlines</th>
+<th style="white-space: nowrap;">Winter<br/>UTC</th>
+<th>Summer<br/>UTC</th>
+</tr>
+<tr>
+<td>Abstract and title registration</td>
+<td>March 21, 2020</td>
+<td>August 14, 2019 9:59 PM</td>
+</tr>
+<tr>
+<td>Paper submission</td>
+<td>March 25, 2020</td>
+<td>August 18, 2019 9:59 PM</td>
+</tr>
+<tr>
+<td>Notification of acceptance</td>
+<td>June 5, 2020</td>
+<td>October 23, 2019</td>
+</tr><tr>
+<td>Reviews available to authors</td>
+<td>June 10, 2020</td>
+<td>October 27, 2019</td>
+</tr>
+<!--<tr>
+<td>Camera-ready</td>
+<td>TBD, 2020</td>
+<td>TBD, 2019</td>
+</tr>-->
+</table>
+</div>
+<h5><b>Important Notes</b></h5>
+All submissions must describe original research not published or currently under review for another conference or journal. It is ACM policy (<a href="http://www.acm.org/publications/policies/copyright_policy">ACM Author Rights and Publishing Policy</a>, <a href="https://www.acm.org/publications/policies/simultaneous-submissions"> Prior Publication and Simultaneous Submissions</a>) not to allow double submissions, where the same paper is submitted to more than one conference/journal concurrently. Any double submissions detected will be immediately rejected from all conferences/journals involved.
+<br/><br/>
+Submissions will be kept confidential until accepted. Rejected submissions will be kept confidential permanently.
+<br/><br/>
+In case of any similarity between a current Mobicom submission and another ongoing submission on a different conference, please email a detailed list of differences and if possible a copy of a previous submission to the chairs.
+<br/><br/>
+</main>
+<footer>
+<div class="container footc">
+<div class="row">
+<div class="col-md-12">
+<div class="text-center icons" style="padding-top:15px">
+<a href="https://twitter.com/ACMMobiCom" rel="noopener" target="_blank">
+<img alt="logo_t" src="images/twitter.jpg" width="30px"/>
+</a>
+<a href="https://www.facebook.com/ACMMobiCom" rel="noopener" target="_blank">
+<img alt="logo_f" src="images/facebook.jpg" width="30px"/>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="text-center copyright" style="padding-bottom:15px; padding-top:15px">
+  Copyright © 2020, ACM Annual International Conference on Mobile Computing and Networking
+</div>
+</footer>
+</div></center></div><div>
+<center>
+
+<div class="mastheadsmall">
+<div class="gradient">
+<!-- <p style="text-align: center;">
+<span class="smallbannert1">
+MobiCom 2019
+</span>
+</p> -->
+<p style="text-align: center;padding-top:0px">
+<span class="smallbannert2">
+MobiCom 2020
+</span>
+</p>
+<p style="text-align: center;">
+<span class="smallbannert2">
+21-25 Sep, London, United Kingdom
+</span>
+</p>
+</div>
+</div>
+<div class="container bigc">
+<div class="spacing"></div>
+<main>
+<h2 class="text-center">Organizing Committee</h2>
+<table class="table table-borderless table-sm octable">
+<tr class="stripe">
+<td class="ocTableTitle" rowspan="2"><b>General Co-Chairs</b></td>
+<td class="ocTablePerson"><a href="https://www.cl.cam.ac.uk/~jac22/">Jon Crowcroft</a> - University of Cambridge</td>
+</tr>
+<tr class="stripe">
+<td class="ocTablePerson"><a href="https://www.imperial.ac.uk/people/h.haddadi">Hamed Haddadi</a> - Imperial College London</td>
+</tr>
+<tr>
+<td class="ocTableTitle" rowspan="2"><b>Vice General Chair</b></td>
+<td class="ocTablePerson"><a href="http://users.ics.forth.gr/~mgp/">Maria Papadopouli</a> - University of Crete/ FORTH</td>
+</tr>
+<tr>
+<td class="ocTablePerson"><a href="https://leontiadis.net/">Ilias Leontiadis</a> - Samsung AI</td>
+</tr>
+<tr class="stripe">
+<td class="ocTableTitle" rowspan="2"><b>Technical Program Co-Chairs</b></td>
+<td class="ocTablePerson"><a href="https://www.cse.ust.hk/~qianzh/">Qian Zhang</a> - HKUST</td>
+</tr>
+<tr class="stripe">
+<td class="ocTablePerson"><a href="https://www.microsoft.com/en-us/research/people/bozidar/">Bozidar Radunovic</a> - Microsoft</td>
+</tr>
+<tr>
+<td class="ocTableTitle" rowspan="3"><b>Local Arrangements Co-Chairs</b></td>
+<td class="ocTablePerson"><a href="https://www.imperial.ac.uk/people/roman.kolcun">Roman Kolcun</a> - Imperial College London</td>
+</tr>
+<tr>
+<td class="ocTablePerson"><a href="https://www.imperial.ac.uk/people/david.boyle">David Boyle</a> - Imperial College London</td>
+</tr>
+<td class="ocTablePerson"><a href="https://www.imperial.ac.uk/people/yuchen.zhao19">Yuchen Zhao </a> - Imperial College London</td>
+<tr class="stripe">
+<td class="ocTableTitle" rowspan="2"><b>Demo Co-Chairs</b></td>
+<td class="ocTablePerson"><a href="https://people.networks.imdea.org/~narseo_vallina/">Narseo Vallina-Rodriguez</a> - IMDEA Networks</td>
+</tr>
+<tr class="stripe">
+<td class="ocTablePerson"><a href="http://www.diegoperino.com/index.html">Diego Perino</a> - Telefonica</td>
+</tr>
+<tr>
+<td class="ocTableTitle" rowspan="2"><b>Poster/SRC Co-Chairs</b></td>
+<td class="ocTablePerson"><a href="https://www.lip6.fr/actualite/personnes-fiche.php?nom=Pau">Giovanni Pau</a> - UPMC-LIP6</td>
+</tr>
+<tr>
+<td class="ocTablePerson"><a href="https://andralutu.com/">Andra Lutu</a> - Telefonica</td>
+</tr>
+<tr class="stripe">
+<td class="ocTableTitle" rowspan="2"><b>Workshop Co-Chairs</b></td>
+<td class="ocTablePerson"><a href="https://ozgualay.com/">Özgü Alay</a> - Simula</td>
+</tr>
+<tr class="stripe">
+<td class="ocTablePerson"><a href="https://www.memphis.edu/cs/people/faculty_pages/lan-wang.php">Lan Wang</a> - University of Memphis</td>
+</tr>
+<tr>
+<td class="ocTableTitle" rowspan="2"><b>Finance Co-Chairs</b></td>
+<td class="ocTablePerson"><a href="https://www.imperial.ac.uk/people/s.demetriou">Soteris Demetriou</a> - Imperial College London</td>
+</tr>
+<tr>
+<td class="ocTablePerson"><a href="https://www.ee.ucl.ac.uk/~ipsaras/">Ioannis Psaras</a> - University College of London</td>
+</tr>
+<tr class="stripe">
+<td class="ocTableTitle" rowspan="2"><b>Sponsorship Co-Chairs</b></td>
+<td class="ocTablePerson"><a href="https://nms.kcl.ac.uk/nishanth.sastry/">Nishanth Sastry</a> - King’s College London</td>
+</tr>
+<tr class="stripe">
+<td class="ocTablePerson"><a href="https://www.cse.ust.hk/~panhui/">Pan Hui</a> - HKUST/ Uni Helsinki</td>
+</tr>
+<tr>
+<td class="ocTableTitle" rowspan="2"><b>N2 Women Co-Chairs</b></td>
+<td class="ocTablePerson"><a href="https://www.linkedin.com/in/cigdemsengul/?originalSubdomain=uk">Cigdem Sengul</a> - Nominet</td>
+</tr>
+<tr>
+<td class="ocTablePerson"><a href="https://www.doc.ic.ac.uk/~dtuncer/">Daphne Tuncer</a> - Imperial College London</td>
+</tr>
+<tr class="stripe">
+<td class="ocTableTitle" rowspan="2"><b>Publicity Co-Chairs</b></td>
+<td class="ocTablePerson"><a href="https://www.imperial.ac.uk/people/anna-maria.mandalari">Anna Maria Mandalari</a> - Imperial College London</td>
+</tr>
+<tr class="stripe">
+<td class="ocTablePerson"><a href="https://home.cs.dartmouth.edu/~xia/">Xia Zhou</a> - Dartmouth College</td>
+</tr>
+<tr>
+<td class="ocTableTitle" rowspan="1"><b>Web Chair</b></td>
+<td class="ocTablePerson"><a href="https://www.linkedin.com/in/srenevic/">Sergi Rene</a> - University College London</td>
+</tr>
+<tr class="stripe">
+<td class="ocTableTitle" rowspan="3"><b>Student Travel Grant Co-Chairs</b></td>
+<td class="ocTablePerson"><a href="https://www.cse.ust.hk/~dcab/">Dimitris Chatzopoulos</a> - HKUST</td>
+</tr>
+<tr class="stripe">
+<td class="ocTablePerson"><a href="http://homepage.tudelft.nl/8e79t/">Aaron Yi Ding</a> - TU Delft</td>
+</tr>
+<tr class="stripe">
+<td class="ocTablePerson"><a href="https://web.fe.up.pt/~anaa/">Ana Aguiar</a> - University of Porto</td>
+</tr>
+<tr>
+<td class="ocTableTitle" rowspan="2"><b>Publications Co-Chairs</b></td>
+<td class="ocTablePerson"><a href="https://iris.ucl.ac.uk/iris/browse/profile?upi=MOASC58">Onur Ascigil</a> - University College London</td>
+</tr>
+<tr>
+<td class="ocTablePerson"><a href="https://sites.google.com/view/jagmohan-chauhan">Jagmohan Chauhan</a> - University of Cambridge</td>
+</tr>
+<tr class="stripe">
+<td class="ocTableTitle" rowspan="2"><b>Registration Co-Chairs</b></td>
+<td class="ocTablePerson"><a href="https://www.linkedin.com/in/sourav-bhattacharya-3b163218/?originalSubdomain=uk">Sourav Bhattacharya</a> - Samsung AI</td>
+</tr>
+<tr class="stripe">
+<td class="ocTablePerson"><a href="https://minoskt.github.io/">Kleomenis Katevas</a> - Imperial College London</td>
+</tr>
+<tr>
+<td class="ocTableTitle" rowspan="7"><b>Steering Comittee</b></td>
+<td class="ocTablePerson"><a href="https://www.microsoft.com/en-us/research/people/bahl/">Victor Bahl (Chair)</a> - Microsoft</td>
+</tr>
+<tr>
+<td class="ocTablePerson"><a href="http://pages.cs.wisc.edu/~suman/">Suman Banerjee</a> - University of Wisconsin-Madison</td>
+</tr><tr>
+<td class="ocTablePerson"><a href="https://viterbi.usc.edu/directory/faculty/Govindan/Ramesh">Ramesh Govindan</a> - University of Southern California</td>
+</tr><tr>
+<td class="ocTablePerson"><a href="https://www.cs.rice.edu/~dbj/">David B. Johnson</a> - Rice University</td>
+</tr><tr>
+<td class="ocTablePerson"><a href="http://web.eecs.umich.edu/~kgshin/">Kang Shin</a> - University of Michigan</td>
+</tr><tr>
+<td class="ocTablePerson"><a href="http://people.cs.uchicago.edu/~htzheng/">Heather Zheng</a> - University of Chicago</td>
+</tr>
+<tr>
+<td class="ocTablePerson"><a href="https://homes.cs.washington.edu/~gshyam/">Shyam Gollakota</a> - University of Washington</td>
+</tr>
+</table>
+<br/>
+<h2 class="text-center">Technical Program Committee</h2>
+<table class="table-striped table-sm table-responsive pctable">
+<tr>
+<td align="left" width="30%"><a href="">Aakanksha Chowdhery</a></td>
+<td align="left" width="50%">Google Brain</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Akane Sano</a></td>
+<td align="left" width="50%">Rice University</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Anthony Rowe</a></td>
+<td align="left" width="50%">Carnegie Mellon University</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Ardalan Amiri Sani</a></td>
+<td align="left" width="50%">University of California Irvine</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Aruna Balasubramanian</a></td>
+<td align="left" width="50%">Stony Brook University</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Bhaskar Krishnamachari</a></td>
+<td align="left" width="50%">University of Southern California</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Bo Chen</a></td>
+<td align="left" width="50%">Meraki</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Brad Campbell</a></td>
+<td align="left" width="50%">University of Virginia</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Chen Qian</a></td>
+<td align="left" width="50%">University of California Santa Cruz</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Chunyi Peng</a></td>
+<td align="left" width="50%">Purdue University</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">David Chu</a></td>
+<td align="left" width="50%">Google</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Dinesh Bharadia</a></td>
+<td align="left" width="50%">University of California San Diego</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Domenico Giustiniano</a></td>
+<td align="left" width="50%">IMDEA Networks</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Ehsan Aryafar</a></td>
+<td align="left" width="50%">Portland State University</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Eric Rozner</a></td>
+<td align="left" width="50%">University of Colorado Boulder</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Fadel Adib</a></td>
+<td align="left" width="50%">MIT</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Guoliang Xing</a></td>
+<td align="left" width="50%">The Chinese University of Hong Kong</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Hamed Haddadi</a></td>
+<td align="left" width="50%">Imperial College London</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Haitham Hassanieh</a></td>
+<td align="left" width="50%">University of Illinois at Urbana-Champaign</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Heather Zheng</a></td>
+<td align="left" width="50%">University of Chicago</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Hun Seok Kim</a></td>
+<td align="left" width="50%">University of Michigan</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Ilias Leontiadis</a></td>
+<td align="left" width="50%">Samsung AI</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Jiansong Han</a></td>
+<td align="left" width="50%">Zhejiang University</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Jie Gao</a></td>
+<td align="left" width="50%">Stony Brook University</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Jie Xiong</a></td>
+<td align="left" width="50%">UMass Amherst</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Joerg Widmer</a></td>
+<td align="left" width="50%">IMDEA Networks</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Joshua Smith</a></td>
+<td align="left" width="50%">University of Washington</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Kannan Srinivasan</a></td>
+<td align="left" width="50%">Ohio State University</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Karthik Dantu</a></td>
+<td align="left" width="50%">University of Buffalo</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Karthik Sundaresan</a></td>
+<td align="left" width="50%">NEC Labs</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Kassem Fawaz</a></td>
+<td align="left" width="50%">University of Wisconsin-Madison</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Kate Ching-Ju Lin</a></td>
+<td align="left" width="50%">National Chiao Tung University</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Kaushik Chowdhury</a></td>
+<td align="left" width="50%">Northeastern University</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Krishna Chintalapudi</a></td>
+<td align="left" width="50%">Microsoft</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Kyle Jamieson</a></td>
+<td align="left" width="50%">Princeton</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Lili Qiu</a></td>
+<td align="left" width="50%">University of Texas at Austin</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Longfei Shangguan</a></td>
+<td align="left" width="50%">Microsoft</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Lu Su</a></td>
+<td align="left" width="50%">University of Buffalo</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Luca Mottola</a></td>
+<td align="left" width="50%">Politecnico di Milano</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Mahesh K. Marina</a></td>
+<td align="left" width="50%">University of Edinburgh</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Mahanth Gowda</a></td>
+<td align="left" width="50%">Penn State</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Matthai Philipose</a></td>
+<td align="left" width="50%">Microsoft</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Mayank Goel</a></td>
+<td align="left" width="50%">Carnegie Mellon University</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Mo Li</a></td>
+<td align="left" width="50%">Nanyang Technological University</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Morley Mao</a></td>
+<td align="left" width="50%">University of Michigan</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Mythili Vutukuru</a></td>
+<td align="left" width="50%">IIT Bombay</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Neal Patwari</a></td>
+<td align="left" width="50%">Washington University - St. Louis</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Nigel Davies</a></td>
+<td align="left" width="50%">Lancaster University</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Nilanjan Banerjee</a></td>
+<td align="left" width="50%">University of Maryland</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Nirupam Roy</a></td>
+<td align="left" width="50%">UMD College Park</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Omid Abari</a></td>
+<td align="left" width="50%">University of Waterloo</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Pengyu Zhang</a></td>
+<td align="left" width="50%">Alibaba</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Peter Steenkiste</a></td>
+<td align="left" width="50%">Carnegie Mellon University</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Rajalakshmi Nandakumar</a></td>
+<td align="left" width="50%">University of Washington</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Ranveer Chandra</a></td>
+<td align="left" width="50%">Microsoft</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Riku Jantti</a></td>
+<td align="left" width="50%">Aalto University</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Robert LiKamWa</a></td>
+<td align="left" width="50%">Arizona State University</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Robin Kravets</a></td>
+<td align="left" width="50%">University of Illinois at Urbana-Champaign</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Romit Roy Choudhury</a></td>
+<td align="left" width="50%">University of Illinois at Urbana-Champaign</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Shyam Gollakota</a></td>
+<td align="left" width="50%">University of Washington</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Suman Banerjee</a></td>
+<td align="left" width="50%">University of Wisconsin-Madison</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Sung-Ju Lee</a></td>
+<td align="left" width="50%">Korea Advanced Institute of Science and Technology</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Swarun Kumar</a></td>
+<td align="left" width="50%">Carnegie Mellon University</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Tam Vu</a></td>
+<td align="left" width="50%">University of Colorado Boulder</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Tommaso Melodia</a></td>
+<td align="left" width="50%">Northeastern University</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Victor Bahl</a></td>
+<td align="left" width="50%">Microsoft</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Wenjun Hu</a></td>
+<td align="left" width="50%">Yale University</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Xenofon Foukas</a></td>
+<td align="left" width="50%">Microsoft</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Xinbing Wang</a></td>
+<td align="left" width="50%">Shanghai Jiao Tong University</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Xinyu Zhang</a></td>
+<td align="left" width="50%">University of California San Diego</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Y. Charlie Hu</a></td>
+<td align="left" width="50%">Purdue University</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Yasamin Mostofi</a></td>
+<td align="left" width="50%">University of California Santa Barbara</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Yingyan Lin</a></td>
+<td align="left" width="50%">Rice University</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Yingying (Jennifer) Chen</a></td>
+<td align="left" width="50%">Rutgers University</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Yuanjie Li</a></td>
+<td align="left" width="50%">HP Labs</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Yunhao Liu</a></td>
+<td align="left" width="50%">Tsinghua University</td>
+</tr>
+<tr>
+<td align="left" width="30%"><a href="">Yunxin Liu</a></td>
+<td align="left" width="50%">Microsoft</td>
+</tr>
+<tr>
+</tr>
+</table>
+</main>
+<footer>
+<div class="container footc">
+<div class="row">
+<div class="col-md-12">
+<div class="text-center icons" style="padding-top:15px">
+<a href="https://twitter.com/ACMMobiCom" rel="noopener" target="_blank">
+<img alt="logo_t" src="images/twitter.jpg" width="30px"/>
+</a>
+<a href="https://www.facebook.com/ACMMobiCom" rel="noopener" target="_blank">
+<img alt="logo_f" src="images/facebook.jpg" width="30px"/>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="text-center copyright" style="padding-bottom:15px; padding-top:15px">
+  Copyright © 2020, ACM Annual International Conference on Mobile Computing and Networking
+</div>
+</footer>
+</div></center></div></body>
+</html>

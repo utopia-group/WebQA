@@ -1,0 +1,416 @@
+{
+    "id": 0,
+    "content": "COS 516/ELE 516: Automated Reasoning about Software",
+    "children": [
+        {
+            "id": 1,
+            "content": "COS 516/ELE 516: Automated Reasoning about Software, Fall 2018",
+            "key": 1
+        },
+        {
+            "id": 2,
+            "content": "Course information",
+            "key": 2,
+            "children": [
+                {
+                  "id": 3,
+                  "content": "Semester:",
+                  "key": 1,
+                  "children": [
+                    {
+                      "id": 4,
+                      "content": "Fall 2018   Lectures: Monday Wednesday 1:30 - 2:50pm   Location: CS 301   Instructor: Zak Kincaid, zkincaid@cs.princeton.edu. Office hours : Tuesday 4 - 5pm in COS 219, or by appointment   Teaching assistant: Jake Silverman, jakers@cs.princeton.edu. Office hours : Monday 3:30 - 4:30pm and Thursday 2 - 3pm, both in Friend 010.   Links: Piazza, Calculus of Computation",
+                      "key": 1
+                    }
+                  ]
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "content": "Description",
+            "key": 3,
+            "children": [
+                {
+                    "id": 6,
+                    "content": "An introduction to algorithmic techniques for reasoning about software. Basic concepts in logic-based techniques including model checking, invariant generation, symbolic execution, and syntax-guided synthesis; automatic decision procedures in modern solvers for Boolean Satisfiability (SAT) and Satisfiability Modulo Theory (SMT); and their applications in automated verification, analysis, and synthesis of software. Emphasis on algorithms and automatic tools.",
+                    "key": 1
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "content": "Schedule",
+            "key": 4,
+            "children": [
+                {
+                    "id": 8,
+                    "content": "This is a tentative schedule that will be changed during the course.",
+                    "key": 1
+                },
+                {
+                    "id": 9,
+                    "content": "",
+                    "isList": true,
+                    "key": 2,
+                    "children": [
+                      {
+                        "id": 10,
+                        "content": "Date,Topics,Readings,Assignments",
+                        "isList": true,
+                        "key": 1
+                      },
+                      {
+                        "id": 11,
+                        "content": "Sept 12,Introduction",
+                        "isList": true,
+                        "key": 2
+                      },
+                      {
+                        "id": 12,
+                        "content": "Sept 17,19,Propositional logic and SAT.,Bradley/Manna Ch 1,PS1 posted",
+                        "isList": true,
+                        "key": 3
+                      },
+                      {
+                        "id": 13,
+                        "content": "Sept 24,SAT solving.,[R1]",
+                        "isList": true,
+                        "key": 4
+                      },
+                      {
+                        "id": 14,
+                        "content": "Sept 26,Finite transition systems.",
+                        "isList": true,
+                        "key": 5
+                      },
+                      {
+                        "id": 15,
+                        "content": "Oct 1,First-order logic.,Bradley/Manna Ch 2,PS2 posted",
+                        "isList": true,
+                        "key": 6
+                      },
+                      {
+                        "id": 16,
+                        "content": "Oct 3,Satisfiability modulo theories.,Bradley/Manna Ch 3",
+                        "isList": true,
+                        "key": 7
+                      },
+                      {
+                        "id": 17,
+                        "content": "Oct 8,Reasoning about quantifiers.,Bradley/Manna Ch 7",
+                        "isList": true,
+                        "key": 8
+                      },
+                      {
+                        "id": 18,
+                        "content": "Oct 10,Programs, operational semantics.,PS3 posted",
+                        "isList": true,
+                        "key": 9
+                      },
+                      {
+                        "id": 19,
+                        "content": "Oct 15,Reasoning about program behavior.,Bradley/Manna Ch 4-6",
+                        "isList": true,
+                        "key": 10
+                      },
+                      {
+                        "id": 20,
+                        "content": "Oct 17,Reasoning about program behavior cont'd.",
+                        "isList": true,
+                        "key": 11
+                      },
+                      {
+                        "id": 21,
+                        "content": "",
+                        "isList": true,
+                        "key": 12,
+                        "children": [
+                          {
+                            "id": 22,
+                            "content": "Oct 22",
+                            "key": 1
+                          },
+                          {
+                            "id": 23,
+                            "content": "Invariant inference.",
+                            "key": 2
+                          },
+                          {
+                            "id": 24,
+                            "content": "Bradley/Manna Ch 12",
+                            "key": 3
+                          },
+                          {
+                            "id": 25,
+                            "content": "Project outline due.",
+                            "key": 4
+                          }
+                        ]
+                      },
+                      {
+                        "id": 26,
+                        "content": "Oct 24,Midterm exam.",
+                        "isList": true,
+                        "key": 13
+                      },
+                      {
+                        "id": 27,
+                        "content": "",
+                        "isList": true,
+                        "key": 14,
+                        "children": [
+                          {
+                            "id": 28,
+                            "content": "Oct 29,31",
+                            "key": 1
+                          },
+                          {
+                            "id": 29,
+                            "content": "Fall break",
+                            "key": 2
+                          }
+                        ]
+                      },
+                      {
+                        "id": 30,
+                        "content": "Nov 5,7,Software model checking.,PS4 posted.",
+                        "isList": true,
+                        "key": 15
+                      },
+                      {
+                        "id": 31,
+                        "content": "Nov 12,Proving termination.",
+                        "isList": true,
+                        "key": 16
+                      },
+                      {
+                        "id": 32,
+                        "content": "Nov 14,Program synthesis.",
+                        "isList": true,
+                        "key": 17
+                      },
+                      {
+                        "id": 33,
+                        "content": "Nov 19,Meta-theory of first-order logic.,Project Interim Report due",
+                        "isList": true,
+                        "key": 18
+                      },
+                      {
+                        "id": 34,
+                        "content": "Nov 26,Separation logic.,PS5 posted",
+                        "isList": true,
+                        "key": 19
+                      },
+                      {
+                        "id": 35,
+                        "content": "Nov 28,Temporal logic.",
+                        "isList": true,
+                        "key": 20
+                      },
+                      {
+                        "id": 36,
+                        "content": "Dec 3,5,Project presentations",
+                        "isList": true,
+                        "key": 21
+                      },
+                      {
+                        "id": 37,
+                        "content": "Dec 10,12,Project presentations",
+                        "isList": true,
+                        "key": 22
+                      }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 38,
+            "content": "Grading policies",
+            "key": 5,
+            "children": [
+                {
+                    "id": 39,
+                    "content": "Your final grade will be weighted as follows:",
+                    "key": 1
+                },
+                {
+                    "id": 40,
+                    "content": "",
+                    "isList": true,
+                    "key": 2,
+                    "children": [
+                      {
+                        "id": 41,
+                        "content": "",
+                        "isList": true,
+                        "key": 1,
+                        "children": [
+                          {
+                            "id": 42,
+                            "content": "Component",
+                            "key": 1,
+                            "children": [
+                              {
+                                "id": 43,
+                                "content": "Homework and Assignments",
+                                "key": 1
+                              }
+                            ]
+                          },
+                          {
+                            "id": 44,
+                            "content": "Weight",
+                            "key": 2,
+                            "children": [
+                              {
+                                "id": 45,
+                                "content": "40%",
+                                "key": 1
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": 46,
+                        "content": "",
+                        "isList": true,
+                        "key": 2,
+                        "children": [
+                          {
+                            "id": 47,
+                            "content": "Component",
+                            "key": 1,
+                            "children": [
+                              {
+                                "id": 48,
+                                "content": "Class Project",
+                                "key": 1
+                              }
+                            ]
+                          },
+                          {
+                            "id": 49,
+                            "content": "Weight",
+                            "key": 2,
+                            "children": [
+                              {
+                                "id": 50,
+                                "content": "30%",
+                                "key": 1
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": 51,
+                        "content": "",
+                        "isList": true,
+                        "key": 3,
+                        "children": [
+                          {
+                            "id": 52,
+                            "content": "Component",
+                            "key": 1,
+                            "children": [
+                              {
+                                "id": 53,
+                                "content": "Midterm Exam",
+                                "key": 1
+                              }
+                            ]
+                          },
+                          {
+                            "id": 54,
+                            "content": "Weight",
+                            "key": 2,
+                            "children": [
+                              {
+                                "id": 55,
+                                "content": "25%",
+                                "key": 1
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": 56,
+                        "content": "",
+                        "isList": true,
+                        "key": 4,
+                        "children": [
+                          {
+                            "id": 57,
+                            "content": "Component",
+                            "key": 1,
+                            "children": [
+                              {
+                                "id": 58,
+                                "content": "Participation",
+                                "key": 1
+                              }
+                            ]
+                          },
+                          {
+                            "id": 59,
+                            "content": "Weight",
+                            "key": 2,
+                            "children": [
+                              {
+                                "id": 60,
+                                "content": "5%",
+                                "key": 1
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                },
+              {
+                "id": 61,
+                "content": "We encourage you to attend the lectures and to participate actively in the course. These will be components of your Participation grade.",
+                "key": 3
+              },
+              {
+                "id": 62,
+                "content": "Late policy",
+                "isList": true,
+                "key": 4,
+                "children": [
+                  {
+                    "id": 63,
+                    "content": "Late assignments will be penalized 1% per hour past the deadline.",
+                    "key": 1
+                  },
+                  {
+                    "id": 64,
+                    "content": "You have one \"late pass\" that allows you to submit any one homework or assignment up to three days late without penalty. You can apply your late pass to at most one homework or assignment; you cannot split your late pass across multiple homeworks or assignments.",
+                    "key": 2
+                  },
+                  {
+                    "id": 65,
+                    "content": "In case of special circumstances (e.g., illness, religious holidays, etc.), please write to the Professor if you need an extension.",
+                    "key": 3
+                  }
+                ]
+              },
+              {
+                "id": 66,
+                "content": "Conduct",
+                "key": 5,
+                "children": [
+                  {
+                    "id": 67,
+                    "content": "For homework and assignments, discussions with others are permitted, where the goal is to aid your understanding. However, the submitted work/code should be entirely your own.   For code submissions, please also submit a README file where you should name the individuals that you received help from or provided help to. Also briefly mention the nature of the help you received or provided.   For the class project, you can work in teams of two. Discussions with your team-mate and with others are permitted.   For any of these (homework, assignments, and class project), please DO NOT copy or get solutions from resources outside the course.   If you have any questions or concerns, please discuss these policies with the instructors.   Conduct during in-class exams is covered by the University Honor Code.",
+                    "key": 1
+                  }
+                ]
+              }
+            ]
+        }
+    ]
+}

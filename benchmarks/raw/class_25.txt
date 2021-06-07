@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>COMS Winter 194115 Programming Languages and Translators</title>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<link href="assets/css/style.css" rel="stylesheet"/>
+<link href="assets/css/pilcrow.css" rel="stylesheet"/>
+<link href="assets/css/hljs-github.min.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="wrapper">
+<div id="header">
+</div>
+<div class="clear"></div>
+<div id="main">
+<div class="post" id="content"><p class="img-container"><img height="90" src="https://www.laurenillumination.com/wp-content/uploads/2017/10/logo-columbia.png" style="float:right; margin: -5px -100px 0px -100px;" width="180"/></p>
+<h1 id="coms-w4115-programming-languages-and-translators"><a class="header-link" href="#coms-w4115-programming-languages-and-translators"></a>COMS Winter 194115 Programming Languages and Translators</h1>
+<h3 id="Spring-2019"><a class="header-link" href="#Spring-2019"></a>Spring 2019</h3>
+<h2 id="general-information"><a class="header-link" href="#general-information"></a>General Information</h2>
+<p>Instructor: <a href="https://www.cs.columbia.edu/~rgu/">Prof. Ronghui Gu</a><br/>Lectures: Mudd 833, Mon &amp; Wed, 2:40pm ~ 3:55pm  </p>
+<p><strong>Staff</strong> </p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Email</th>
+<th>Office hours</th>
+<th>Location</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Prof. Ronghui Gu</td>
+<td><a href="mailto:ronghui.gu@columbia.edu">ronghui.gu@columbia.edu</a></td>
+<td>Th (1-2)</td>
+<td>515 CSB</td>
+</tr>
+<tr>
+<td>Justin Wong (<strong>lead</strong>)</td>
+<td><a href="mailto:jw3354@columbia.edu">jw3354@columbia.edu</a></td>
+<td>M (7-8) &amp; T (2-3)</td>
+<td>486 CSB (<a href="https://www.cs.columbia.edu/clic/">Clic Lab</a>)</td>
+</tr>
+<tr>
+<td>Ryan Bernstein (<strong>lead</strong>)</td>
+<td><a href="mailto:rb3234@columbia.edu">rb3234@columbia.edu</a></td>
+<td>W &amp; F (11-12)</td>
+<td>486 CSB (<a href="https://www.cs.columbia.edu/clic/">Clic Lab</a>)</td>
+</tr>
+<tr>
+<td>Lauren Bree Arnett</td>
+<td><a href="mailto:lba2138@columbia.edu">lba2138@columbia.edu</a></td>
+<td>Th (3-4)</td>
+<td>486 CSB (<a href="https://www.cs.columbia.edu/clic/">Clic Lab</a>)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Note</strong>: For any general questions related to assignments and projects,
+please send emails to the following
+TA mailing list using your Columbia email address:</p>
+<p><a href="mailto:4115Spring2019ta@lists.cs.columbia.edu">4115Spring2019ta@lists.cs.columbia.edu</a></p>
+<h3 id="overview"><a class="header-link" href="#overview"></a>Overview</h3>
+<p>The goal of PLT is to teach you both about the structure of computer programming languages and the basics of implementing compilers for such languages.</p>
+<p>The course will focus mostly on traditional imperative and object-oriented languages, but will also cover functional and logic programming, concurrency issues, and some aspects of scripting languages. Homework and tests will cover language issues. You will design and implement a language of your own design in a semester-long team project.</p>
+<p>While few of you will ever implement a full commercial compiler professionally, the concepts, techniques, and tools you will learn have broad application.</p>
+<h3 id="prerequisites"><a class="header-link" href="#prerequisites"></a>Prerequisites</h3>
+<p><strong>COMS Winter 193157 Advanced Programming</strong>: You will be dividing into teams to build a compiler, so you need to have some idea how to keep this under control. <em>Quick test</em>: you need to know about Makefiles and source code control systems.</p>
+<p><strong>COMS Winter 193261 Computability and Models of Computation</strong>: You will need an understanding of formal languages and grammar to build the parser and lexical analyzer. <em>Quick test</em>: you must know about regular expressions, context-free grammars, and NFAs.</p>
+<h3 id="suggested-text"><a class="header-link" href="#suggested-text"></a>Suggested Text</h3>
+<p>You don't need to buy textbooks since all the materials will be covered by the lecture notes.</p>
+<ul class="list">
+<li><p><a href="https://www.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811">Compilers: Principles, Techniques, and Tools</a>
+by Alfred V. Aho, Monica Lam, Ravi Sethi, and Jeffrey D. Ullman (Second Edition).</p>
+</li>
+<li><p><a href="http://www.cs.princeton.edu/~appel/modern/ml/">Modern Compiler Implementation in ML</a>
+by Andrew W. Appel.</p>
+</li>
+</ul>
+<h3 id="grades"><a class="header-link" href="#grades"></a>Grades</h3>
+<ul class="list">
+<li>40%: Team Programming Project</li>
+<li>20%: Midterm Exam</li>
+<li>20%: Final Exam (cumulative)</li>
+<li>20%: Three individual homework assignments</li>
+</ul>
+<h3 id="tentative-syllabus-(subject-to-change!)"><a class="header-link" href="#tentative-syllabus-(subject-to-change!)"></a>TENTATIVE Syllabus (Subject to change!)</h3>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Session</th>
+<th>Lecture</th>
+<th>Due</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Wed Jan 23</td>
+<td>1</td>
+<td><a href="./lectures/intro.pdf">Intro</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Mon Jan 28</td>
+<td>2</td>
+<td><a href="./lectures/translators.pdf">Language Translators</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Wed Jan 30</td>
+<td>3</td>
+<td><a href="./lectures/languages.pdf">Basic Elements of PL</a></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="./lectures/projects.pdf">Some Outstanding Projects</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Mon Feb 4</td>
+<td>4</td>
+<td><a href="./lectures/ocaml.pdf">Programming in OCaml</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Wed Feb 6</td>
+<td>5</td>
+<td>"</td>
+<td></td>
+</tr>
+<tr>
+<td>Mon Feb 11</td>
+<td>6</td>
+<td>"</td>
+<td></td>
+</tr>
+<tr>
+<td>Wed Feb 13</td>
+<td>7</td>
+<td>"</td>
+<td><a href="./assignments/proposal.html">Proposal</a></td>
+</tr>
+<tr>
+<td>Mon Feb 18</td>
+<td>8</td>
+<td><a href="./lectures/scanner.pdf">Scanning</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Wed Feb 20</td>
+<td>9</td>
+<td>"</td>
+<td><a href="./assignments/hw1.html">HW1</a></td>
+</tr>
+<tr>
+<td>Mon Feb 25</td>
+<td>10</td>
+<td><a href="./lectures/syntax.pdf">Parsing</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Wed Feb 27</td>
+<td>11</td>
+<td>"</td>
+<td></td>
+</tr>
+<tr>
+<td>Mon Mar 4</td>
+<td>12</td>
+<td>"</td>
+<td></td>
+</tr>
+<tr>
+<td>Wed Mar 6</td>
+<td>13</td>
+<td><a href="./lectures/semantics.pdf">Types and Static Semantics</a></td>
+<td><a href="./assignments/lrm.html">LRM</a></td>
+</tr>
+<tr>
+<td>Mon Mar 11</td>
+<td>14</td>
+<td>"</td>
+<td><a href="./assignments/hw2.pdf">HW2</a></td>
+</tr>
+<tr>
+<td><strong>Wed Mar 13</strong></td>
+<td></td>
+<td><strong>Midterm Exam</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Mar 18 - 22</strong></td>
+<td></td>
+<td><strong>Spring Break</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Mon Mar 25</td>
+<td>15</td>
+<td><a href="./lectures/ir.pdf">Intermediate Code Generation</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Wed Mar 27</td>
+<td>16</td>
+<td><a href="./lectures/runtime1.pdf">Runtime Environments I</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Mon Apr 1</td>
+<td>17</td>
+<td>The NanoC Compiler (<a href="./nanoc.zip">zip</a>)</td>
+<td></td>
+</tr>
+<tr>
+<td>Wed Apr 3</td>
+<td>18</td>
+<td>"</td>
+<td></td>
+</tr>
+<tr>
+<td>Mon Apr 8</td>
+<td>19</td>
+<td>"</td>
+<td>Hello World</td>
+</tr>
+<tr>
+<td>Wed Apr 10</td>
+<td>20</td>
+<td>The MicroC Compiler (<a href="./microc.zip">zip</a>)</td>
+<td></td>
+</tr>
+<tr>
+<td>Mon Apr 15</td>
+<td>21</td>
+<td>"</td>
+<td></td>
+</tr>
+<tr>
+<td>Wed Apr 17</td>
+<td>22</td>
+<td><a href="./lectures/runtime2.pdf">Runtime Environments II</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Mon Apr 22</td>
+<td>23</td>
+<td><a href="./lectures/optimization.pdf">IR Optimization</a></td>
+<td><a href="./assignments/hw3.pdf">HW3</a></td>
+</tr>
+<tr>
+<td>Wed Apr 24</td>
+<td>24</td>
+<td>"</td>
+<td></td>
+</tr>
+<tr>
+<td>Mon Apr 29</td>
+<td>25</td>
+<td>Code Generation</td>
+<td></td>
+</tr>
+<tr>
+<td>Wed May 1</td>
+<td>26</td>
+<td>Compiler Optimization</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Mon May 6</strong></td>
+<td></td>
+<td><strong>Final Exam</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Wed May 15</strong></td>
+<td></td>
+<td><strong>Project Presentation</strong></td>
+<td><a href="./assignments/project.html">Project Reports</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="sample-proposals"><a class="header-link" href="#sample-proposals"></a>Sample Proposals</h3>
+<ul class="list">
+<li><a href="http://www.cs.columbia.edu/~sedwards/classes/2017/4115-Spring/proposals/GRAIL.pdf">GRAIL: A Graph-Construction Language</a></li>
+<li><a href="http://www.cs.columbia.edu/~sedwards/classes/2014/w4115-Fall/proposals/FRY.pdf">FRY - A Flat File Data Processing Language</a></li>
+<li><a href="http://www.cs.columbia.edu/~sedwards/classes/2016/4115-Spring/proposals/Fly.pdf">Fly Language</a></li>
+<li><a href="http://www.cs.columbia.edu/~sedwards/classes/2017/4115-Spring/proposals/SetC.pdf">SetC: A Concise Set Language</a></li>
+<li><a href="http://www.cs.columbia.edu/~sedwards/classes/2018/4115-Fall/proposals/Coral.pdf">Coral Programming Language Proposal</a></li>
+</ul>
+</div>
+</div>
+<div class="clear">
+</div>
+<div id="footer">
+</div>
+</div>
+</body>
+</html>

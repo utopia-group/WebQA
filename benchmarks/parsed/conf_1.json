@@ -1,0 +1,670 @@
+{
+    "id": 0,
+    "content": "OSDI 2020 Call for Papers | USENIX",
+    "children": [
+        {
+            "id": 1,
+            "content": "OSDI 2020 Call for Papers",
+            "key": 1,
+            "children": [
+                {
+                    "id": 2,
+                    "content": "The 14th USENIX Symposium on Operating Systems Design and Implementation (OSDI 2020) will take place November 4–6, 2020, at the Fairmont Banff Springs in Banff, Albert, Canada.",
+                    "key": 1
+                },
+                {
+                    "id": 3,
+                    "content": "We have updated the OSDI 2020 schedule as outlined below.",
+                    "key": 2
+                },
+                {
+                    "id": 4,
+                    "content": "Important Dates",
+                    "key": 3,
+                    "children": [
+                        {
+                            "id": 5,
+                            "content": "",
+                            "isList": true,
+                            "key": 1,
+                            "children": [
+                                {
+                                  "id": 6,
+                                  "content": "Abstract registrations due:",
+                                  "key": 1,
+                                  "children": [
+                                    {
+                                      "id": 7,
+                                      "content": "Tuesday, May 5, 2020, 3:00pm PDT",
+                                      "key": 1
+                                    }
+                                  ]
+                                },
+                              {
+                                "id": 8,
+                                "content": "Complete paper submissions due:",
+                                "key": 2,
+                                "children": [
+                                  {
+                                    "id": 9,
+                                    "content": "Tuesday, May 12, 2020, 3:00pm PDT",
+                                    "key": 1
+                                  }
+                                ]
+                              }
+                            ]
+                        },
+                        {
+                            "id": 10,
+                            "content": "Author response period:",
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 11,
+                                    "content": "",
+                                    "isList": true,
+                                    "key": 1,
+                                    "children": [
+                                      {
+                                        "id": 12,
+                                        "content": "Reviews available:",
+                                        "key": 1,
+                                        "children": [
+                                          {
+                                            "id": 13,
+                                            "content": "Tuesday, July 21, 2020",
+                                            "key": 1
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": 14,
+                                        "content": "Author responses due:",
+                                        "key": 2,
+                                        "children": [
+                                          {
+                                            "id": 15,
+                                            "content": "Friday, July 24, 2020",
+                                            "key": 1
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": 16,
+                                        "content": "Notification to authors:",
+                                        "key": 3,
+                                        "children": [
+                                          {
+                                            "id": 17,
+                                            "content": "Tuesday, August 4, 2020",
+                                            "key": 1
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": 18,
+                                        "content": "Final paper files due:",
+                                        "key": 4,
+                                        "children": [
+                                          {
+                                            "id": 19,
+                                            "content": "Thursday, October 1, 2020",
+                                            "key": 1
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                },
+                                {
+                                    "id": 20,
+                                    "content": "Download the Call for Papers PDF",
+                                    "key": 2
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 21,
+                    "content": "Conference Organizers",
+                    "key": 4,
+                    "children": [
+                        {
+                            "id": 22,
+                            "content": "Program Co-Chairs",
+                            "key": 1,
+                            "children": [
+                              {
+                                "id": 23,
+                                "content": "Jon Howell, VMware Research",
+                                "key": 1
+                              },
+                              {
+                                "id": 24,
+                                "content": "Shan Lu, University of Chicago",
+                                "key": 2
+                              }
+                            ]
+                        },
+                        {
+                            "id": 25,
+                            "content": "Program Committee",
+                            "key": 2,
+                            "children": [
+                              {
+                                "id": 26,
+                                "content": "Rachit Agarwal, Cornell University",
+                                "key": 1
+                              },
+                              {
+                                "id": 27,
+                                "content": "Lorenzo Alvisi, Cornell University",
+                                "key": 2
+                              },
+                              {
+                                "id": 28,
+                                "content": "Tom Anderson, University of Washington",
+                                "key": 3
+                              },
+                              {
+                                "id": 29,
+                                "content": "Andrea Arpaci-Dusseau, University of Wisconsin—Madison",
+                                "key": 4
+                              },
+                              {
+                                "id": 30,
+                                "content": "Andrew Baumann, Microsoft Research",
+                                "key": 5
+                              },
+                              {
+                                "id": 31,
+                                "content": "Irina Calciu, VMware Research",
+                                "key": 6
+                              },
+                              {
+                                "id": 32,
+                                "content": "George Candea, École Polytechnique Fédérale de Lausanne (EPFL)",
+                                "key": 7
+                              },
+                              {
+                                "id": 33,
+                                "content": "Rong Chen, Shanghai Jiao Tong University",
+                                "key": 8
+                              },
+                              {
+                                "id": 34,
+                                "content": "Wenguang Chen, Tsinghua University",
+                                "key": 9
+                              },
+                              {
+                                "id": 35,
+                                "content": "Vijay Chidambaram, The University of Texas at Austin and VMware Research",
+                                "key": 10
+                              },
+                              {
+                                "id": 36,
+                                "content": "Byung-Gon Chun, Seoul National University",
+                                "key": 11
+                              },
+                              {
+                                "id": 37,
+                                "content": "Natacha Crooks, Cornell University and University of California, Berkeley",
+                                "key": 12
+                              },
+                              {
+                                "id": 38,
+                                "content": "Alexandra Fedorova, University of British Columbia",
+                                "key": 13
+                              },
+                              {
+                                "id": 39,
+                                "content": "Jason Flinn, Facebook",
+                                "key": 14
+                              },
+                              {
+                                "id": 40,
+                                "content": "Roxana Geambasu, Columbia University",
+                                "key": 15
+                              },
+                              {
+                                "id": 41,
+                                "content": "Yossi Gilad, Hebrew University of Jerusalem",
+                                "key": 16
+                              },
+                              {
+                                "id": 42,
+                                "content": "Haryadi Gunawi, University of Chicago",
+                                "key": 17
+                              },
+                              {
+                                "id": 43,
+                                "content": "Tim Harris, Amazon",
+                                "key": 18
+                              },
+                              {
+                                "id": 44,
+                                "content": "Gernot Heiser, University of New South Wales and CSIRO’s Data61",
+                                "key": 19
+                              },
+                              {
+                                "id": 45,
+                                "content": "Ryan Huang, John Hopkins University",
+                                "key": 20
+                              },
+                              {
+                                "id": 46,
+                                "content": "Rebecca Isaacs, Twitter",
+                                "key": 21
+                              },
+                              {
+                                "id": 47,
+                                "content": "Frans Kaashoek, Massachusetts Institute of Technology",
+                                "key": 22
+                              },
+                              {
+                                "id": 48,
+                                "content": "Baris Kasikci, University of Michigan",
+                                "key": 23
+                              },
+                              {
+                                "id": 49,
+                                "content": "Kimberly Keeton, HP Labs",
+                                "key": 24
+                              },
+                              {
+                                "id": 50,
+                                "content": "Anne-Marie Kermarrec, École Polytechnique Fédérale de Lausanne (EPFL)",
+                                "key": 25
+                              },
+                              {
+                                "id": 51,
+                                "content": "Jinyang Li, New York University",
+                                "key": 26
+                              },
+                              {
+                                "id": 52,
+                                "content": "Wyatt Lloyd, Princeton University",
+                                "key": 27
+                              },
+                              {
+                                "id": 53,
+                                "content": "Jay Lorch, Microsoft Research",
+                                "key": 28
+                              },
+                              {
+                                "id": 54,
+                                "content": "Kathryn S. McKinley, Google",
+                                "key": 29
+                              },
+                              {
+                                "id": 55,
+                                "content": "James Mickens, Harvard University",
+                                "key": 30
+                              },
+                              {
+                                "id": 56,
+                                "content": "Derek Murray, Google",
+                                "key": 31
+                              },
+                              {
+                                "id": 57,
+                                "content": "Madan Musuvathi, Microsoft Research",
+                                "key": 32
+                              },
+                              {
+                                "id": 58,
+                                "content": "Bryan Parno, Carnegie Mellon University",
+                                "key": 33
+                              },
+                              {
+                                "id": 59,
+                                "content": "Simon Peter, The University of Texas at Austin",
+                                "key": 34
+                              },
+                              {
+                                "id": 60,
+                                "content": "Dan Ports, Microsoft Research",
+                                "key": 35
+                              },
+                              {
+                                "id": 61,
+                                "content": "Costin Raiciu, University Politehnica of Bucharest",
+                                "key": 36
+                              },
+                              {
+                                "id": 62,
+                                "content": "Ryan Stutsman, University of Utah",
+                                "key": 37
+                              },
+                              {
+                                "id": 63,
+                                "content": "Michael Swift, University of Wisconsin—Madison",
+                                "key": 38
+                              },
+                              {
+                                "id": 64,
+                                "content": "Kaushik Verraraghavan, Facebook",
+                                "key": 39
+                              },
+                              {
+                                "id": 65,
+                                "content": "Rashmi Vinayak, Carnegie Mellon University",
+                                "key": 40
+                              },
+                              {
+                                "id": 66,
+                                "content": "Xi Wang, University of Washington",
+                                "key": 41
+                              },
+                              {
+                                "id": 67,
+                                "content": "Yang Wang, The Ohio State University",
+                                "key": 42
+                              },
+                              {
+                                "id": 68,
+                                "content": "John Wilkes, Google",
+                                "key": 43
+                              },
+                              {
+                                "id": 69,
+                                "content": "Emmett Witchel, The University of Texas at Austin",
+                                "key": 44
+                              },
+                              {
+                                "id": 70,
+                                "content": "Harry Xu, University of California, Los Angeles",
+                                "key": 45
+                              },
+                              {
+                                "id": 71,
+                                "content": "Junfeng Yang, Columbia University",
+                                "key": 46
+                              },
+                              {
+                                "id": 72,
+                                "content": "Ding Yuan, University of Toronto",
+                                "key": 47
+                              },
+                              {
+                                "id": 73,
+                                "content": "Nickolai Zeldovich, Massachusetts Institute of Technology",
+                                "key": 48
+                              },
+                              {
+                                "id": 74,
+                                "content": "Irene Zhang, Microsoft Research",
+                                "key": 49
+                              },
+                              {
+                                "id": 75,
+                                "content": "Yiying Zhang, University of California, San Diego",
+                                "key": 50
+                              },
+                              {
+                                "id": 76,
+                                "content": "Lidong Zhou, Microsoft Research",
+                                "key": 51
+                              },
+                              {
+                                "id": 77,
+                                "content": "Yuanyuan Zhou, University of California, San Diego",
+                                "key": 52
+                              }
+                            ]
+                        },
+                        {
+                            "id": 78,
+                            "content": "Steering Committee",
+                            "key": 3,
+                            "children": [
+                              {
+                                "id": 79,
+                                "content": "Andrea Arpaci-Dusseau, University of Wisconsin—Madison",
+                                "key": 1
+                              },
+                              {
+                                "id": 80,
+                                "content": "Jason Flinn, Facebook",
+                                "key": 2
+                              },
+                              {
+                                "id": 81,
+                                "content": "Casey Henderson, USENIX Association",
+                                "key": 3
+                              },
+                              {
+                                "id": 82,
+                                "content": "Kimberly Keeton, HP Labs",
+                                "key": 4
+                              },
+                              {
+                                "id": 83,
+                                "content": "Hank Levy, University of Washington",
+                                "key": 5
+                              },
+                              {
+                                "id": 84,
+                                "content": "James Mickens, Harvard University",
+                                "key": 6
+                              },
+                              {
+                                "id": 85,
+                                "content": "Brian Noble, University of Michigan",
+                                "key": 7
+                              },
+                              {
+                                "id": 86,
+                                "content": "Timothy Roscoe, ETH Zurich",
+                                "key": 8
+                              },
+                              {
+                                "id": 87,
+                                "content": "Margo Seltzer, University of British Columbia",
+                                "key": 9
+                              },
+                              {
+                                "id": 88,
+                                "content": "Geoff Voelker, University of California, San Diego",
+                                "key": 10
+                              }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 89,
+                    "content": "Overview",
+                    "key": 5,
+                    "children": [
+                        {
+                            "id": 90,
+                            "content": "The 14th USENIX Symposium on Operating Systems Design and Implementation seeks to present innovative, exciting research in computer systems. OSDI brings together professionals from academic and industrial backgrounds in a premier forum for discussing the design, implementation, and implications of systems software. The OSDI Symposium emphasizes innovative research as well as quantified or insightful experiences in systems design and implementation.",
+                            "key": 1
+                        },
+                        {
+                            "id": 91,
+                            "content": "OSDI takes a broad view of the systems area and solicits contributions from many fields of systems practice, including, but not limited to, operating systems, file and storage systems, distributed systems, cloud computing, mobile systems, secure and reliable systems, systems aspects of big data, embedded systems, virtualization, networking as it relates to operating systems, and management and troubleshooting of complex systems. We also welcome work that explores the interface to related areas such as computer architecture, networking, programming languages, analytics, and databases. We particularly encourage contributions containing highly original ideas, new approaches, and/or groundbreaking results.",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 92,
+                    "content": "Submitting a Paper",
+                    "key": 6,
+                    "children": [
+                        {
+                            "id": 93,
+                            "content": "Submissions will be judged on novelty, significance, interest, clarity, relevance, and correctness. All accepted papers will be shepherded through an editorial review process by a member of the program committee.",
+                            "key": 1
+                        },
+                        {
+                            "id": 94,
+                            "content": "A good paper will:",
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 95,
+                                    "content": "",
+                                    "isList": true,
+                                    "key": 1,
+                                    "children": [
+                                        {
+                                            "id": 96,
+                                            "content": "Motivate a significant problem",
+                                            "key": 1
+                                        },
+                                        {
+                                            "id": 97,
+                                            "content": "Propose an interesting, compelling solution",
+                                            "key": 2
+                                        },
+                                        {
+                                            "id": 98,
+                                            "content": "Demonstrate the practicality and benefits of the solution",
+                                            "key": 3
+                                        },
+                                        {
+                                            "id": 99,
+                                            "content": "Draw appropriate conclusions",
+                                            "key": 4
+                                        },
+                                        {
+                                            "id": 100,
+                                            "content": "Clearly describe the paper's contributions",
+                                            "key": 5
+                                        },
+                                        {
+                                            "id": 101,
+                                            "content": "Clearly articulate the advances beyond previous work",
+                                            "key": 6
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 102,
+                                    "content": "All papers will be available online to registered attendees before the conference. If your accepted paper should not be published prior to the event, please notify production@usenix.org. The papers will be available online to everyone beginning on the first day of the conference, November 4, 2020.",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 103,
+                                    "content": "Papers accompanied by nondisclosure agreement forms will not be considered. All submissions will be treated as confidential prior to publication on the USENIX OSDI ’20 website; rejected submissions will be permanently treated as confidential.",
+                                    "key": 3
+                                },
+                                {
+                                    "id": 104,
+                                    "content": "Simultaneous submission of the same work to multiple venues, submission of previously published work, or plagiarism constitutes dishonesty or fraud. USENIX, like other scientific and technical conferences and journals, prohibits these practices and may, on the recommendation of a program chair, take action against authors who have committed them. See the USENIX Conference Submissions Policy for details.",
+                                    "key": 4
+                                },
+                                {
+                                    "id": 105,
+                                    "content": "Prior workshop publication does not preclude publishing a related paper in OSDI. Authors should email the program co-chairs, osdi20chairs@usenix.org, a copy of the related workshop paper and a short explanation of the new material in the conference paper beyond that published in the workshop version.",
+                                    "key": 5
+                                },
+                                {
+                                    "id": 106,
+                                    "content": "Questions? Contact your program co-chairs, osdi20chairs@usenix.org, or the USENIX office, submissionspolicy@usenix.org.",
+                                    "key": 6
+                                },
+                                {
+                                    "id": 107,
+                                    "content": "By submitting a paper, you agree that at least one of the authors will attend the conference to present it. If the conference registration fee will pose a hardship for the presenter of the accepted paper, please contact conference@usenix.org.",
+                                    "key": 7
+                                },
+                                {
+                                    "id": 108,
+                                    "content": "If your paper is accepted and you need an invitation letter to apply for a visa to attend the conference, please contact conference@usenix.org as soon as possible. (Visa applications can take at least 30 working days to process.) Please identify yourself as a presenter and include your mailing address in your email.",
+                                    "key": 8
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 109,
+                    "content": "Deadline and Submission Instructions",
+                    "key": 7,
+                    "children": [
+                        {
+                            "id": 110,
+                            "content": "Authors are required to register abstracts by 3:00 p.m. PDT on May 20, 2020, and to submit full papers by 3:00 p.m. PDT on May 27, 2020. These are hard deadlines, and no extensions will be given. Submitted papers must be no longer than 12 single-spaced 8.5” x 11” pages, including figures and tables, plus as many pages as needed for references, using 10-point type on 12-point (single-spaced) leading, two-column format, Times Roman or a similar font, within a text block 7” wide x 9” deep. Submissions may include as many additional pages as needed for references and for supplementary material in appendices. The paper should stand alone without the supplementary material, but authors may use this space for content that may be of interest to some readers but is peripheral to the main technical contributions of the paper. Note that members of the program committee are free to not read this material when reviewing the paper. Accepted papers will be allowed 14 pages in the proceedings, plus references. Papers not meeting these criteria will be rejected without review, and no deadline extensions will be granted for reformatting. Pages should be numbered, and figures and tables should be legible in black and white, without requiring magnification. Papers so short as to be considered “extended abstracts” will not receive full consideration.",
+                            "key": 1
+                        },
+                        {
+                            "id": 111,
+                            "content": "The paper review process is double-blind. Authors must make a good faith effort to anonymize their submissions, and they should not identify themselves either explicitly or by implication (e.g., through the references or acknowledgments). Submissions violating the detailed formatting and anonymization rules will not be considered for review. If you are uncertain about how to anonymize your submission, please contact the program co-chairs, osdi20chairs@usenix.org, well in advance of the submission deadline.",
+                            "key": 2
+                        },
+                        {
+                            "id": 112,
+                            "content": "When registering and submitting your paper, you will need to provide information about conflicts with PC members. Use the following guidelines to determine conflicts:",
+                            "key": 3
+                        },
+                        {
+                            "id": 113,
+                            "content": "Institution:",
+                            "key": 4,
+                            "children": [
+                                {
+                                    "id": 114,
+                                    "content": "You are currently employed at the same institution, have been previously employed at the same institution within the past two years, or are going to begin employment at the same institution.",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 115,
+                            "content": "Advisor or Collaboration:",
+                            "key": 5,
+                            "children": [
+                                {
+                                    "id": 116,
+                                    "content": "You have a past or present association as thesis advisor or advisee, or you have a collaboration on a project, publication, grant proposal, or editorship within the past two years (2018 or later).",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 117,
+                                    "content": "The PC will review paper conflicts to ensure the integrity of the reviewing process, adding conflicts if necessary. Similarly, if there is no basis for conflicts provided by authors, such conflicts will be removed (e.g., do not improperly identify PC members as a conflict in an attempt to avoid having an individual review your paper). If you have any questions about conflicts, please contact the program co-chairs.",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 118,
+                                    "content": "Authors are also encouraged to contact the program co-chairs, osdi20chairs@usenix.org, if needed to relate their OSDI submissions to relevant submissions of their own that are simultaneously under review or awaiting publication at other venues. The program co-chairs will use this information at their discretion to preserve the anonymity of the review process without jeopardizing the outcome of the current OSDI submission.",
+                                    "key": 3
+                                },
+                                {
+                                    "id": 119,
+                                    "content": "Papers must be in PDF format and must be submitted via the submission form. For more details on the submission process, and for templates to use with LaTeX, Word, etc., authors should consult the detailed submission requirements.",
+                                    "key": 4
+                                },
+                                {
+                                    "id": 120,
+                                    "content": "SUBMIT YOUR WORK",
+                                    "key": 5
+                                }
+                            ]
+                        },
+                        {
+                            "id": 121,
+                            "content": "Author Response Period",
+                            "key": 6,
+                            "children": [
+                              {
+                                "id": 122,
+                                "content": "OSDI will provide an opportunity for authors to respond to reviews prior to final consideration of the papers at the program committee meeting. Authors must limit their responses to (a) correcting factual errors in the reviews or (b) directly addressing questions posed by reviewers. Responses should be limited to clarifying the submitted work. In particular, responses must not include new experiments or data, describe additional work completed since submission, or promise additional work to follow.",
+                                "key": 1
+                              },
+                              {
+                                "id": 123,
+                                "content": "Submission of a response is optional. There is no explicit limit to the response, but authors are strongly encouraged to keep it under 500 words; reviewers are neither required nor expected to read excessively long rebuttals. Reviews will be available for response Tuesday, July 21, 2020. Authors may submit a response to those reviews until Friday, July 24, 2020.",
+                                "key": 2
+                              }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

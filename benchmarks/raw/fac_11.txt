@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<meta content="Fan Long's Homepage" name="description"/>
+<meta content="Fan Long" name="author"/>
+<title>Fan Long's Homepage</title>
+<!-- Bootstrap core CSS -->
+<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+<!-- Bootstrap theme -->
+<link href="assets/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet"/>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+<!-- Custom styles for this template -->
+<link href="theme.css" rel="stylesheet"/>
+<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+<!--<script src="../../assets/js/ie-emulation-modes-warning.js"></script> -->
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+</head>
+<body>
+<!-- Fixed navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+<div class="container">
+<div class="navbar-header">
+<button aria-controls="navbar" aria-expanded="false" class="navbar-toggle collapsed" data-target="#navbar" data-toggle="collapse" type="button">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="#home">Fan Long</a>
+</div>
+<div class="navbar-collapse collapse" id="navbar">
+<ul class="nav navbar-nav">
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#news">News</a></li>
+<li><a href="#research">Research</a></li>
+<li><a href="#media">Media Coverage</a></li>
+<li><a href="#publications">Publications</a></li>
+</ul>
+</div><!--/.nav-collapse -->
+</div>
+</nav>
+<div class="container theme-showcase" id="home" role="main">
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+<div class="row">
+<div class="col-md-3">
+<div class="thumbnail">
+<img alt="A wise and handsome guy." src="pics/me.jpeg"/>
+</div>
+</div>
+<div class="col-md-9">
+<h2>Fan Long</h2>
+<h4>Assistant Professor</h4>
+<p><a href="http://www.cs.toronto.edu/">Department of Computer Science, University of Toronto</a>
+                      Bahen Centre for Information Technology, BA3250 <br/>
+                      416-978-6055 <br/>
+</p>
+<p>
+                  fanl <b>at</b> cs dot toronto dot edu
+                  </p>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6" id="about">
+<h2> About </h2>
+<p> My research interests are programming language, software
+                  engineering, systems security, and blockchain. I am involved
+                  in the <a href="https://www.conflux-chain.org/">Conflux</a>
+              project for building the next generation blockchain platform.</p>
+<p>
+<b>Useful Links</b>: 
+              <a href="https://scholar.google.com/citations?user=j6XdtXwAAAAJ&amp;hl=en">Google Scholar</a> page, and <a href="http://groups.csail.mit.edu/pac/patchgen/">Automatic Patch Generation</a> project website.
+              </p>
+</div>
+<div class="col-md-6" id="news">
+<h2> News </h2>
+<ul> <li>
+<p>
+              I moved <a href="http://www.cs.toronto.edu/~fanl/program_repair/patchgen/index.html">replication packages and experimental data</a> to U of T server for 
+              for automatic patch generation via
+              learning (Genesis, Prophet, and SPR).
+              </p>
+</li> </ul>
+<ul> <li>
+<p><b>
+              Welcome to my new homepage! My <a href="http://people.csail.mit.edu/fanl">old homepage</a> at MIT CSAIL is no longer maintained.
+              </b></p>
+</li> </ul>
+</div>
+</div>
+<div class="row" id="research">
+<div class="col-md-12">
+<h2> Research Projects</h2>
+<hr/>
+<h4> Blockchain Scalability </h4>
+<div class="research">
+<img alt="Conflux DAG" height="200" src="pics/conflux-dag.png" width="320"/>
+<p>Following the success of the cryptocurrencies, blockchain
+                      has recently evolved into a technology platform that
+                      powers secure, decentralized, and consistent transaction
+                      ledgers at Internet-scale.  However, the performance
+                      bottleneck remains one of the most critical challenges of
+                      current blockchains. In the standard Nakamoto consensus,
+                      the performance is bottlenecked by the facts 1) that only
+                      one participant can win the competition and contribute to
+                      the blockchain, i.e., concurrent blocks are discarded as
+                      forks, and 2) that the slowness is essential to defend
+                      against adversaries. For example, Bitcoin generates one
+                      1MB block every 10 minutes and can therefore only process
+                      7 transactions per second.  The insufficient throughput
+                      and long confirmation delay severely limit the adoptions
+                      of blockchain techniques, causing poor user experience,
+                      congested network, and skyrocketing transaction fees.
+                  </p>
+<p>
+<b>Conflux</b>: <a href="https://arxiv.org/pdf/1805.03870.pdf">Conflux</a>
+                  is a new fast, scalable, and decentralized blockchain system
+                  that can process thousands of transactions per second while
+                  confirming each transaction in minutes. Conflux records
+                  additional informations between blocks and organizes
+                  generated blocks into direct acyclic graphs.  The core of
+                  Conflux is its consensus protocol that allows multiple
+                  participants to contribute to the Conflux blockchain
+                  concurrently (i.e., processing transactions in all concurrent
+                  blocks) while still being provably safe. See  <a href="https://www.conflux-chain.org/">the Conflux project</a>
+              website for more information.
+                  </p>
+</div> <br/>
+<h4> Automatic Patch Generation </h4>
+<div class="research">
+<img alt="Patch Generation" height="150" src="pics/patch_generation.jpg" width="200"/>
+<p>
+                  Software defects are pervasive in software systems and can cause
+                  undesirable user experience, denial of service, or even security
+                  exploitation. Generating a patch for a defect is a tedious,
+                  time-consuming, and often repetitive process. Automatic patch generation
+                  techniques holds out the promise of automatically
+                  correcting software defects without the need for human developers
+                  to diagnose, understand, and correct these defects. To learn more, 
+                  please visit our <a href="http://groups.csail.mit.edu/pac/patchgen/">project website</a>!
+                  </p>
+<p>
+<b>Prophet</b>: <a href="papers/prophet-popl16.pdf">Prophet</a> is the state-of-art generate-and-validate
+                  patch generation system for C programs. It is the first system
+                  that uses machine learning techniques to learn from past
+                  successful human patches to recognize and predict correct patches
+                  for new errors. 
+                  </p>
+<p>
+<b>SPR</b>: <a href="papers/spr-fse15.pdf">SPR</a> is the baseline system on which Prophet is built.
+                  It uses the condition synthesis technique to explore its search space
+                  up to two magnitude faster.
+                  </p>
+<p>
+<b>CodePhage</b>: <a href="papers/codephage-pldi2015.pdf">CodePhage</a> systematically transfers useful
+                  security checks from a donor application to eliminate bugs and
+                  security vulnerabilities in a recipient application. It is the
+                  first system that transfers useful code across applications. It
+                  does not even require the source code of the donor application!
+                  </p>
+</div> <br/>
+<h4> Input Filtering and Rectification </h4>
+<div class="research">
+<img alt="Input Filter and Rectification" height="150" src="pics/input_filter.png" width="200"/>
+<p>
+                  What if we cannot change the source code of an application? Let's
+                  look at the inputs of the application. We can make sure that
+                  malicious input cannot reach the application, i.e., filter them
+                  or rectify them.
+                  </p>
+<p>
+<b>SIFT</b>: <a href="papers/sift-popl14.pdf">SIFT</a> is a sound input filter system with
+                  sophisticated program analysis techniques. It guarantees to
+                  filter out all malicious inputs that trigger critical integer
+                  overflow errors. In practice, it also has zero to negligible
+                  false positives.
+                  </p>
+<p>
+<b>SOAP</b>: <a href="papers/soap-icse2012.pdf">SOAP</a> is the first automatic input rectification
+                  system. It enforces a set of inferred invariants on the inputs so
+                  that potentially malicious inputs are transformed to benign
+                  inputs. 
+                  </p>
+</div> <br/>
+<h4> Program Recovery </h4>
+<div class="research">
+<img alt="Program Recovery" height="150" src="pics/program_recovery.jpg" width="200"/>
+<p>
+                  What if an application crashes during its execution and we only
+                  have its binary? We can use our recovery shepherding technique to
+                  enable the application to survive the error triggering input unit
+                  and recovers its execution. 
+                  </p>
+<p>
+<b>RCV</b>: <a href="papers/rcv-pldi14.pdf">RCV</a> is a lightweight program recovery tool with
+                  negligible overhead during normal execution. When a crash error
+                  (null-dereference and/or divide-by-zero) occurs, it
+                  systematically guides the application execution to survive the
+                  error triggering input unit. It also tracks how the error
+                  propagates in the application and waits until the error is
+                  flushed away after the program moves to the next input unit.
+                  Instead of crash and getting nothing, you can get part or all of
+                  your desired results.
+                  </p>
+</div>
+</div>
+</div>
+<div class="row" id="media">
+<div class="col-md-12">
+<h2> Media Coverage</h2>
+<p><b> Press on Conflux </b>
+</p><ol>
+<li><a href="http://fortune.com/2018/12/04/conflux-blockchain/">Fortune</a></li>
+<li><a href="https://www.forbes.com/sites/darrynpollock/2018/12/04/notable-investors-pursuing-dapp-protocol-conflux-despite-market-concern/#6f473daa1a2c">Forbes</a></li>
+</ol>
+<p><b> Press on Prophet </b>
+</p><ol>
+<li><a href="http://www.pcworld.com/article/3029202/turns-out-machine-learning-is-a-champ-at-fixing-buggy-code.html">PCWorld</a></li>
+<li><a href="http://news.mit.edu/2016/faster-automatic-bug-repair-code-errors-0129">MITNews</a></li>
+</ol>
+<p><b>Press on CodePhage</b>
+</p><ol>
+<li><a href="http://fortune.com/2015/06/30/mit-software-skin-grafts-bugs/">Fortune</a></li>
+<li><a href="https://it.slashdot.org/story/15/06/29/1533204/mit-system-fixes-software-bugs-without-access-to-source-code">SlashDot</a></li>
+<li><a href="http://news.mit.edu/2015/automatic-code-bug-repair-0629">MITNews</a></li>
+</ol>
+<p><b>Press on DIODE</b>
+</p><ol>
+<li><a href="http://news.mit.edu/2015/integer-overflow-debugger-outperforms-predecessors-0324">MITNews</a></li>
+</ol>
+<p><b> Press on NL2P</b>
+</p><ol>
+<li><a href="http://news.mit.edu/2013/writing-programs-using-ordinary-language-0711">MITNews</a></li>
+<li><a href="http://upstart.bizjournals.com/news/technology/2013/07/12/mit-writes-programs-in-everyday-language.html">Upstart Business Journal</a></li>
+</ol>
+</div>
+</div>
+<div class="row" id="publications">
+<div class="col-md-12">
+<h2> Publications </h2>
+<hr/>
+<ol>
+<h4> 2017 </h4>
+<li><p>
+<i>Automatic Patch Generation via Learning from Successful Human Patches</i> [<a href="papers/thesis.pdf">pdf</a>] <br/>
+<span> <b>Fan Long</b></span> <br/>
+<a href="https://dspace.mit.edu/handle/1721.1/115774">PhD Thesis</a>
+</p></li>
+<li><p>
+<i>Automatic Inference of Code Transforms for Patch Generation</i> [<a href="papers/genesis-fse17.pdf">pdf</a> <a href="papers/genesis-fse17.pptx">slides</a> <a href="http://groups.csail.mit.edu/pac/patchgen/">artifact</a>] <br/>
+<span> <b>Fan Long</b>, Peter Amidon, and Martin Rinard</span> <br/>
+<a href="http://esec-fse17.uni-paderborn.de/">FSE 2017</a>
+</p></li>
+<li><p>
+<i>CodeCarbonCopy</i> [<a href="papers/ccc-fse17.pdf">pdf</a>] <br/>
+<span> Stelios Sidiroglou-Douskos, Eric Lahtinen, Anthony Eden, <b>Fan Long</b>, and Martin Rinard</span> <br/>
+<a href="http://esec-fse17.uni-paderborn.de/">FSE 2017</a>
+</p></li>
+<br/>
+<h4> 2016 </h4>
+<li><p>
+<i>An Analysis of the Search Spaces for Generate and Validate Patch Generation Systems</i> [<a href="papers/space-icse16.pdf">pdf</a> <a href="papers/searchspace-icse16.pptx">slides</a> <a href="http://rhino.csail.mit.edu/icse16-artifact/">artifact</a>] <br/>
+<span> <b>Fan Long</b> and Martin Rinard</span> <br/>
+<a href="http://2016.icse.cs.txstate.edu/">ICSE 2016</a>
+</p></li>
+<li><p>
+<i>Automatic Patch Generation by Learning Correct Code</i> [<a href="papers/prophet-popl16.pdf">pdf</a> <a href="papers/prophet-popl16.key">slides</a> <a href="http://groups.csail.mit.edu/pac/prophet">artifact</a>] <br/>
+<span> <b>Fan Long</b> and Martin Rinard</span> <br/>
+<a href="http://conf.researchr.org/home/POPL-2016">POPL 2016</a>
+</p></li>
+<br/>
+<h4> 2015 </h4>
+<li><p>
+<i>Control Jujutsu: On the Weaknesses of Fine-Grained Control Flow Integrity</i> [<a href="papers/jujutsu-ccs15.pdf">pdf</a> <a href="papers/jujutsu-ccs15.key">slides</a>] <br/>
+<span> Isaac Evans, <b>Fan Long</b>, Ulziibayar Otgonbaatar, Howard Shrobe, Martin Rinard, Hamed Okhravi, and Stelios Sidiroglou-Douskos </span> <br/>
+<a href="http://www.sigsac.org/ccs/CCS2015/">CCS 2015</a>
+</p></li>
+<li><p>
+<i>Staged Program Repair with Condition Synthesis</i> [<a href="papers/spr-fse15.pdf">pdf</a> <a href="papers/spr-fse15.key">slides</a> <a href="http://groups.csail.mit.edu/pac/spr">artifact</a>] <br/>
+<span> <b>Fan Long</b> and Martin Rinard</span> <br/>
+<a href="http://esec-fse15.dei.polimi.it/">ESEC-FSE 2015</a>
+</p></li>
+<li><p>
+<i>An Analysis of Patch Plausibility and Correctness for Generate-And-Validate Patch Generation Systems</i> [<a href="papers/kali-issta2015.pdf">pdf</a> <a href="http://groups.csail.mit.edu/pac/kali/">artifact</a>]  <br/>
+<span> Zichao Qi, <b>Fan Long</b>, Sara Achour, and Martin Rinard</span> <br/>
+<a href="http://issta2015.cs.uoregon.edu/">ISSTA 2015</a>
+</p></li>
+<li><p>
+<i>Automatic Error Elimination by Multi-Application Code Transfer</i> [<a href="papers/codephage-pldi2015.pdf">pdf</a>] <br/>
+<span> Stelios Sidiroglou, Eric Lahtinen, <b>Fan Long</b>, and Martin Rinard</span> <br/>
+<a href="http://conf.researchr.org/home/pldi2015">PLDI 2015</a>
+</p></li>
+<li><p>
+<i>Automatic Integer Overflow Discovery Using Goal-Directed Conditional Branch Enforcement</i> [<a href="papers/diode-asplos2015.pdf">pdf</a>] <br/>
+<span> Stelios Sidiroglou, Eric Lahtinen, Nathan Rittenhouse, Paolo Piselli, <b>Fan Long</b>, Doekhwan Kim, and Martin Rinard</span> <br/>
+<a href="http://asplos15.bilkent.edu.tr/">ASPLOS 2015</a>
+</p></li>
+<li><p>
+<i>Principled Sampling for Anomaly Detection</i> [<a href="papers/fortuna-ndss2015.pdf">pdf</a>] <br/>
+<span> Brendan Juba, Christopher Musco, <b>Fan Long</b>, Stelios Sidiroglou, and Martin Rinard</span> <br/>
+<a href="http://www.internetsociety.org/events/ndss-symposium-2015/">NDSS 2015</a>
+</p></li>
+<br/>
+<h4> 2014 </h4>
+<li><p>
+<i>Automatic Runtime Error Repair and Containment via Recovery Shepherding</i>  [ <a href="papers/rcv-pldi14.pdf">pdf</a> ] [<a href="papers/rcv.pptx">slides</a>] <br/>
+<span> <b>Fan Long</b>, Stelios Sidiroglou, and Martin Rinard.</span><br/>
+<a href="http://conferences.inf.ed.ac.uk/pldi2014/">PLDI 2014</a>
+</p></li>
+<li><p>
+<i>Sound Input Filter Generation for Integer Overflow Errors</i>  [ <a href="papers/sift-popl14.pdf">pdf</a> <a href="papers/sift-popl14.key.tar.gz">slides</a>] <br/>
+<span> <b>Fan Long</b>, Stelios Sidiroglou, Deokhwan Kim, and Martin Rinard.</span><br/>
+<a href="http://popl.mpi-sws.org/2014/">POPL 2014</a>
+</p></li>
+<br/>
+<h4> 2013 </h4>
+<li><p>
+<i>From Natural Language Specifications to Program Input Parsers</i>  [ <a href="papers/acl2013.pdf">pdf</a> ] <br/>
+<span>Tao Lei, <b>Fan Long</b>, Regina Barzilay, and Martin Rinard.</span><br/>
+<a href="http://www.acl2013.org/">ACL 2013</a>
+</p></li>
+<br/>
+<h4> 2012 </h4>
+<li><p>
+<i>Automatic Input Rectification</i>  [ <a href="papers/soap-icse2012.pdf">pdf</a> ] <br/>
+<span><b>Fan Long</b>, Vijay Ganesh, Michael Carbin, Stelios Sidiroglou, and Martin Rinard.</span><br/>
+<a href="http://www.ifi.uzh.ch/icse2012/">ICSE 2012</a>
+</p></li>
+<br/>
+<h4> 2011 - 2009 </h4>
+<li><p>
+<i>G2: A Graph Processing System for Diagnosing Distributed Systems.</i>  [ <a href="papers/g2-atc11.pdf">pdf</a> ] <br/>
+<span>Zhenyu Guo, Dong Zhou, Haoxiang Lin, Mao Yang, <b>Fan Long</b>, Chaoqiang Deng, Changshu Liu, and Lidong Zhou.</span><br/>
+<a href="http://www.usenix.org/event/atc11/">USENIX ATC 2011</a>
+</p></li>
+<li><p>
+<i>Language-based Replay via Data Flow Cut.</i>  [ <a href="papers/itarget-fse10.pdf">pdf</a> | <a href="papers/itarget-fse10-slides.pptx">slides</a> ] <br/>
+<span>Ming Wu, <b>Fan Long</b>, Xi Wang, Zhilei Xu, Haoxiang Lin, Xuezheng Liu, Zhenyu Guo, Huayang Guo, Lidong Zhou, and Zheng Zhang.</span><br/>
+<a href="http://fse18.cse.wustl.edu/">FSE 2010</a>
+</p></li>
+<li><p>
+<i>API Hyperlinking via Structural Overlap.</i>  [ <a href="papers/altair-fse09.pdf">pdf</a> | <a href="papers/altair-fse09-slides.pptx">slides</a> ] <br/>
+<span><b>Fan Long</b>, Xi Wang, and Yang Cai.</span><br/>
+<a href="http://www.esec-fse-2009.ewi.tudelft.nl/">ESEC-FSE 2009</a>
+</p></li>
+<li><p>
+<i>MODIST: Transparent Model Checking of Unmodified Distributed Systems.</i>  [ <a href="papers/modist-nsdi09.pdf">pdf</a> ] <br/>
+<span>Junfeng Yang, Tisheng Chen, Ming Wu, Zhilei Xu, Xuezheng Liu, Haoxiang Lin, Mao Yang, <b>Fan Long</b>, Lintao Zhang, and Lidong Zhou</span><br/>
+<a href="http://www.usenix.org/events/nsdi09/nsdi09.html">NSDI 2009</a>
+</p></li>
+</ol>
+</div>
+</div>
+</div> <!-- /container -->
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/js/docs.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+<script src="scroll.js"></script>
+<script src="ganalytic.js"></script>
+</body>
+</html>

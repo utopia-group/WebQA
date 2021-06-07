@@ -1,0 +1,1156 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width,
+                                   initial-scale=1" name="viewport"/>
+<meta content="7 days" name="revisit-after"/>
+<meta content="en" name="language"/>
+<meta content="index, follow" name="Robots"/>
+<meta content="Thomas Wies" name="author"/>
+<title>Thomas Wies: Homepage</title>
+<!-- Bootstrap -->
+<link href="assets/css/bootstrap.css" rel="stylesheet"/>
+<!--<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">-->
+<!-- Optional theme -->
+<!--<link rel="stylesheet" href="assets/css/bootstrap-theme.css">-->
+<!-- Font Awesome -->
+<!--<link href="assets/fontawesome/css/fontawesome.min.css" rel="stylesheet">-->
+<link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" rel="stylesheet"/>
+<link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js does not work if you view the page via file:// -->
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+<div class="container">
+<nav class="navbar navbar-default">
+<div class="container-fluid">
+<!-- Brand and toggle get grouped for better mobile display -->
+<div class="navbar-header">
+<button class="navbar-toggle collapsed" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<span class="navbar-brand">Thomas Wies
+      	  </span></div>
+<div class="collapse navbar-collapse">
+<ul class="nav navbar-nav navbar-right hidden-md hidden-lg">
+<li><a href="#">Home</a></li>
+<li><a href="#Research">Research</a></li>
+<li><a href="#Teaching">Teaching</a></li>
+<li><a href="#Activities">Professional Activities</a></li>
+<li><a href="#Publications">Publications</a></li>
+</ul>
+</div>
+</div><!-- /.container-fluid -->
+</nav>
+<div class="bs-docs-header hidden-xs" id="content" tabindex="-1">
+<div class="container">
+<div class="hidden-xs banner">
+<a class="logo" href="http://www.nyu.edu" style="float:left">New York
+              University</a>
+<div class="links"><a href="http://cims.nyu.edu">COURANT</a>
+              - <a href="http://cs.nyu.edu">Computer Science</a>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<!--Side Content -->
+<div class="col-xs-12 col-sm-12 col-md-10">
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+<div class="row">
+<div class="col-sm-12 col-md-11 col-lg-11">
+<div class="row">
+<div class="col-xs-4 col-sm-12">
+<img alt="Thomas Wies" class="img-thumbnail" id="portrait" src="assets/img/thwies.jpg"/>
+</div>
+<div class="col-xs-8 col-sm-0 hidden-sm hidden-md hidden-lg" style="font-size:medium">
+                I am an Associate Professor in
+	        the <a href="http://cs.nyu.edu">NYU Computer Science
+	          Department</a> and a member of
+	        the <a href="http://cs.nyu.edu/acsys">Analysis of Computer
+	          Systems Group</a> in
+	        the <a href="http://cims.nyu.edu">Courant
+	        Institute</a>. See my <a href="cv_wies.pdf">curriculum
+	        vitae</a> for further details.
+
+                <p>
+                  Our group is looking for new PhD students. Consider
+                  applying to <a href="http://cs.nyu.edu/home/phd/">our PhD program</a>.
+                </p>
+</div>
+</div>
+<h3>Contact</h3>
+<table class="table table-hover">
+<tbody>
+<tr>
+<td> wies at cs.nyu.edu <span aria-hidden="true" class="fas fa-envelope" style="float:right;font-size:medium"></span></td>
+</tr>
+<tr>
+<td> +1 (212) 998 3293  <span aria-hidden="true" class="fas fa-phone" style="float:right;font-size:medium"></span></td>
+</tr>
+<tr>
+<td> 60 Fifth Avenue
+                   <span aria-hidden="true" class="fas fa-home" style="float:right;font-size:medium"></span><br/>
+                    Room 403<br/>
+                    New York, NY 10011
+                  </td>
+</tr>
+</tbody>
+</table>
+<h3>Group Members</h3>
+<table class="table">
+<tbody>
+<tr>
+<td style="padding:0px 8px 0px 0px">
+<h4>Postdocs <span aria-hidden="true" class="fas fa-user-graduate" style="float:right;font-size:medium"><!--<span class="glyphicon glyphicon-education" aria-hidden="true" style="float:right;font-size:medium">--></span></h4>
+</td>
+</tr>
+<tr>
+<td>
+<a href="http://cs.nyu.edu/~yansh">Yan Shvartzshnaider</a>
+</td>
+</tr>
+<tr>
+<td style="padding:0px 8px 0px 0px">
+<h4>PhD Students <span aria-hidden="true" class="fas fa-child" style="float:right;font-size:medium"><!--<span class="glyphicon glyphicon-baby-formula" aria-hidden="true" style="float:right;font-size:medium">--></span></h4>
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://cims.nyu.edu/~mg3479/">Mark Goldstein</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://cs.nyu.edu/~nrp364/">Nisarg Patel</a>
+</td>
+</tr>
+<tr>
+<td style="padding:0px 8px 0px 0px">
+<h4>Group Alumni <span aria-hidden="true" class="fas fa-award" style="float:right;font-size:medium"><!--<span class="glyphicon glyphicon-education" aria-hidden="true" style="float:right;font-size:medium">--></span></h4>
+</td>
+</tr><tr>
+<td>
+<a href="http://cs.nyu.edu/~kshitij">Kshitij Bansal (co-advisor)</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="http://cs.nyu.edu/~siddharth">Siddharth Krishna</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="http://cs.nyu.edu/~chanseok">Chanseok Oh</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="http://cs.nyu.edu/~zvonimir">Zvonimir Pavlinovic</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://sites.google.com/site/danielschwartznarbonne/">Daniel
+		      Schwartz-Narbonne</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="http://cs.nyu.edu/~wwang1109">Wei Wang (co-advisor)</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div></div>
+</div>
+<!--Main Content -->
+<div class="col-xs-12 col-sm-8 col-lg-9">
+<section class="hidden-xs" id="Home">
+<div id="About">
+<p>
+            I am an Associate Professor in
+	    the <a href="http://cs.nyu.edu">NYU Computer Science
+	      Department</a> and a member of
+	    the <a href="http://cs.nyu.edu/acsys">Analysis of Computer
+	      Systems Group</a> in
+	    the <a href="http://cims.nyu.edu">Courant Institute</a>.
+            See
+	    my <a href="cv_wies.pdf">curriculum vitae</a> for further details.
+            
+	    <!--I received my doctorate in Computer Science from
+	    the <a href="http://www.informatik.uni-freiburg.de/welcome-en/view?set_language=en">University
+	      of Freiburg</a>, Germany (2009). Before joining NYU, I held
+	    post-doctoral positions
+	    at <a href="http://www.epfl.ch">École Polytechnique Fédérale
+	      de Lausanne</a>, Switzerland and at
+	    the <a href="http://www.ist.ac.at">Institute of Science and
+	      Technology Austria</a>.<br/><br/>  See also
+	    my <a href="cv_wies.pdf">curriculum vitae</a>-->
+</p>
+<p>
+              Our group is looking for new PhD students. Consider
+              applying to <a href="http://cs.nyu.edu/home/phd/">our PhD program</a>.
+            </p>
+</div>
+</section>
+<section id="Research">
+<h2>Research <i aria-hidden="true" class="fas fa-lightbulb" style="float:right;padding-top:4px"></i></h2>
+<p>
+	    My research focuses on program analysis and verification,
+	    automated deduction, concurrent software, and software
+	    productivity.
+	  </p>
+<div id="RecentPubs">
+<h3>Selected Publications</h3>
+<ul class="list-group">
+<li class="list-group-item">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/templates-pldi20.pdf">Verifying Concurrent Search Structure Templates</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/templates-pldi20.pdf">pdf</a></span>
+</h4>
+S. Krishna, N. Patel, D. Shasha, and T. Wies<br/>
+To appear in 
+<i>PACMPL, 
+ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)()</i>,
+2020                </div>
+</li>
+<li class="list-group-item">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/foundational-flows-esop2020.pdf">Local Reasoning for Global Graph Properties</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/foundational-flows-esop2020.pdf">pdf</a></span>
+</h4>
+S. Krishna, A.J. Summers, and T. Wies<br/>
+In Proceedings of <i>European Symposium on Programming (ESOP)</i>, 2020                                </div>
+</li>
+<li class="list-group-item">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/crashsim-issre2019.pdf">Charting a Course Through Uncertain Environments: SEA Uses Past Problems to Avoid Future Failures</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/crashsim-issre2019.pdf">pdf</a></span>
+<span class="label label-success">Best Paper Award</span>
+</h4>
+P. Moore, J. Cappos, P. Frankl, and T. Wies<br/>
+In Proceedings of <i>International Symposium on Software Reliability Engineering (ISSRE)</i>, 2019                                </div>
+</li>
+<li class="list-group-item">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/clock_bound_repair-cav2019.pdf">Clock Bound Repair for Timed Systems</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/clock_bound_repair-cav2019.pdf">pdf</a></span>
+</h4>
+M. Kölbl, S. Leue, and T. Wies<br/>
+In Proceedings of <i>Computer Aided Verification (CAV)</i>, 2019                                </div>
+</li>
+<li class="list-group-item">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/vaccine.pdf">VACCINE: Using Contextual Integrity for Data Leakage Detection</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/vaccine.pdf">pdf</a></span>
+</h4>
+Y. Shvartzshnaider, Z. Pavlinovic, A. Balashankar, T. Wies, L. Subramanian, H. Nissenbaum, and P. Mittal<br/>
+In Proceedings of <i>World Wide Web Conference (WWW)</i>, 2019                                </div>
+</li>
+<li class="list-group-item">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/flow-interfaces-popl18.pdf">Go with the Flow: Compositional Abstractions for Concurrent Data Structures</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/flow-interfaces-popl18.pdf">pdf</a></span>
+</h4>
+S. Krishna, D. Shasha, and T. Wies<br/>
+<i>PACMPL, 
+2(ACM Symposium on the Principles of Programming Languages (POPL))</i>,
+2018                </div>
+</li>
+<li class="list-group-item">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/giraffe-ccs17.pdf">Full accounting for verifiable outsourcing</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/giraffe-ccs17.pdf">pdf</a></span>
+</h4>
+R. Wahby, Y. Ji, A.J. Blumberg, a. shelat, J. Thaler, M. Walfish, and T. Wies<br/>
+In Proceedings of <i>ACM Conference on Computer and Communications Security (CCS)</i>, 2017                                </div>
+</li>
+<li class="list-group-item">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/finding_minimum_type_error_sources.pdf">Finding Minimum Type Error Sources</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/finding_minimum_type_error_sources.pdf">pdf</a></span>
+<span class="label label-success">Best Paper Award</span>
+</h4>
+Z. Pavlinovic, T. King, and T. Wies<br/>
+In Proceedings of <i>ACM SIGPLAN International Conference on Object Oriented Programming Systems, Languages, and Applications (OOPSLA)</i>, 2014                                </div>
+</li>
+<li class="list-group-item">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/automating_separation_logic_using_smt.pdf">Automating Separation Logic using SMT</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/automating_separation_logic_using_smt.pdf">pdf</a></span>
+</h4>
+R. Piskac, T. Wies, and D. Zufferey<br/>
+In Proceedings of <i>Computer Aided Verification (CAV)</i>, 2013                                </div>
+</li>
+</ul>
+<p><a href="#Publications">Complete list of publications</a></p>
+</div>
+<div id="RecentTalks">
+<h3>Selected Invited Talks and Lectures</h3>
+<ul>
+<li><a href="http://www.lorentzcenter.nl/lc/web/2019/1115/info.php3?wsid=1115&amp;venue=Snellius">Effective Verification: Static Analysis Meets Program Logics</a>, Leiden, Netherlands, May 2019.</li>
+<li><a href="http://smt-workshop.cs.uiowa.edu/2018/">16th
+              International Workshop on Satisfiability Modulo
+              Theories</a>, Oxford, UK, July 2018.</li>
+<li><a href="http://resources.mpi-inf.mpg.de/departments/rg1/conferences/vtsa17/">
+		Summer School on Verification Technology, Systems,
+		&amp; Applications</a>,
+		Saarbrücken, Germany, July-August 2017.
+	      </li>
+<li><a href="http://ssa-school-2016.it.uu.se/">International Summer School on Satisfiability, Satisfiability Modulo Theories, and Automated Reasoning</a>,
+		Lisbon, Portugal, June 2016.
+	      </li>
+<li><a href="http://user.it.uu.se/~aiscy966/Infinity2015/main.html">International
+		  Workshop on Verification of Infinite-State Systems</a>,
+		Bangalore, India, December 2014.
+	      </li>
+<li><a href="http://vmcai2014.di.ens.fr/">International
+                  Conference on Verification, Model Checking, and Abstract
+                  Interpretation</a>,
+                San Diego, CA, USA, January 2014.</li>
+<li><a href="https://sites.google.com/site/futdeb2013/">International
+                  Workshop on the Future of Debugging</a>, Lugano,
+                Switzerland, July 2013.</li>
+</ul>
+</div>
+<div id="Tools">
+<h3>Tools</h3>
+<p class="bodytext">
+	      As a byproduct of my research, I have developed and
+	      contributed to a number of tools.
+	    </p>
+<ul class="list-group">
+<li class="list-group-item">
+<div class="content">
+<h4><a href="software/grasshopper">GRASShopper</a></h4>
+                  A verification tool that checks functional correctness of
+                  programs manipulating heap-allocated data
+                  structures.
+                </div>
+</li>
+<li class="list-group-item">
+<div class="content">
+<h4><a href="software/vermeer">Vermeer</a></h4>
+                  An automated debugging tool that traces and explains
+                  faults in C programs.
+                </div>
+</li>
+<li class="list-group-item">
+<div class="content">
+<h4><a href="http://pub.ist.ac.at/~zufferey/picasso">Picasso</a></h4>
+	          A static analyzer for depth-bounded concurrent
+	          systems. It has been used to verify properties of
+	          non-blocking concurrent data structures and distributed
+	          message passing algorithms with an unbounded number of
+	          threads and messages.
+                </div>
+</li>
+<li class="list-group-item">
+<div class="content">
+<h4><a href="http://lara.epfl.ch/dokuwiki/doku.php?id=jahob_system">Jahob</a></h4>
+                  A verification
+	          system for programs written in a subset of Java. Using
+	          Jahob, developers can statically prove that methods satisfy
+	          their contracts in all possible executions, as well as that
+	          they preserve essential structural invariants and design
+	          constraints.
+                </div>
+</li>
+<li class="list-group-item">
+<div class="content">
+<h4><a href="http://swt.informatik.uni-freiburg.de/tool/bohne">Bohne</a></h4>
+                  A symbolic shape analysis
+	          tool. It infers loop invariants of programs manipulating
+	          heap-allocated data structures. Bohne is integrated into
+	          the <a href="http://lara.epfl.ch/dokuwiki/doku.php?id=jahob_system">Jahob</a>
+                  verification system.
+                </div>
+</li>
+<li class="list-group-item">
+<div class="content">
+<h4><a href="http://research.microsoft.com/SLAyer">SLAyer</a></h4>
+	          A tool for automatic formal verification of industrial low-level
+	          software components. SLAyer is being developed at
+                  <a href="research.microsoft.com/en-us/labs/cambridge/default.aspx">Microsoft
+	            Research Cambridge</a>.
+                </div>
+</li>
+<li class="list-group-item">
+<div class="content">
+<h4><a href="http://research.microsoft.com/projects/HAVOC/">HAVOC</a></h4>
+                  A tool for specifying and
+	          checking properties of systems software written in C, in the
+	          presence of pointer manipulations, unsafe casts and dynamic
+	          memory allocation. HAVOC is being developed
+	          at <a href="research.microsoft.com/en-us/labs/redmond/default.aspx">Microsoft
+	            Research Redmond</a>.
+                </div>
+</li>
+</ul>
+</div>
+</section>
+<section id="Teaching">
+<h2>Teaching <span aria-hidden="true" class="fas fa-chalkboard-teacher" style="float:right;padding-top:4px"></span></h2>
+<ul class="list-group">
+<li class="list-group-item">
+<div class="content">
+<h4>Computer Systems Organization (undergraduate)</h4>
+<div aria-label="..." class="btn-group" role="group">
+<a class="btn btn-default" href="teaching/cso-fa19/">Fall 2019</a>
+</div>
+</div>
+</li>
+<li class="list-group-item">
+<div class="content">
+<h4>Programming Languages (graduate)</h4>
+<div aria-label="..." class="btn-group" role="group">
+<a class="btn btn-default" href="teaching/pl-sp19/">Spring 2019</a>
+<a class="btn btn-default" href="teaching/pl-fa18/">Fall 2018</a>
+<a class="btn btn-default" href="teaching/pl-12/">Fall 2012</a>
+</div>
+</div>
+</li>
+<li class="list-group-item">
+<div class="content">
+<h4>Object-Oriented Programming (graduate)</h4>
+<div aria-label="..." class="btn-group" role="group">
+<a class="btn btn-default" href="teaching/oop-sp18/">Spring 2018</a>
+</div>
+<h4>Object-Oriented Programming (undergraduate)</h4>
+<div aria-label="..." class="btn-group" role="group">
+<a class="btn btn-default" href="teaching/oop-fa17/">Fall 2017</a>
+<a class="btn btn-default" href="teaching/oop-sp17/">Spring 2017</a>
+<a class="btn btn-default" href="teaching/oop-13/">Fall 2013</a>
+</div>
+</div>
+</li>
+<li class="list-group-item">
+<div class="content">
+<h4>Principles of Programming Languages
+                  (undergraduate)</h4>
+<div aria-label="..." class="btn-group" role="group">
+<a class="btn btn-default" href="teaching/popl-fa16/">Fall 2016</a>
+<a class="btn btn-default" href="teaching/popl-fa15/">Fall 2015</a>
+<a class="btn btn-default" href="teaching/popl-15/">Spring 2015</a>
+</div>
+</div>
+</li>
+<li class="list-group-item">
+<div class="content">
+<h4>Rigorous Software Development (graduate)</h4>
+<div aria-label="..." class="btn-group" role="group">
+<a class="btn btn-default" href="teaching/rsd-sp16/">Spring 2016</a>
+<a class="btn btn-default" href="teaching/rsd-13/">Spring 2013</a>
+<a class="btn btn-default" href="teaching/rsd-12/">Spring 2012</a>
+</div>
+</div>
+</li>
+<li class="list-group-item">
+<div class="content">
+<h4>Programming Paradigms for Concurrency (graduate)</h4>
+<div aria-label="..." class="btn-group" role="group">
+<a class="btn btn-default" href="teaching/ppc-14/">Spring 2014</a>
+</div>
+</div>
+</li>
+</ul>
+</section>
+<section id="Activities">
+<h2>Professional Activities <span aria-hidden="true" class="fas fa-cog" style="float:right;padding-top:4px"></span></h2>
+<div id="Organizer">
+<h3>Organizer</h3>
+<ul>
+<li>Program co-chair of VDS 2020</li>
+<li>Fellowship chair of <a href="http://i-cav.org/">CAV 2020</a></li>
+<li>Program co-chair of <a href="http://cs.nyu.edu/acsys/synt2019">SYNT 2019</a></li>
+<li>Fellowship chair of <a href="http://i-cav.org/">CAV 2019</a></li>
+<li>Program co-chair of <a href="https://vstte17.lri.fr/">VSTTE 2017</a></li>
+<li>Program chair of <a href="http://cs.nyu.edu/acsys/tapas2017">TAPAS 2017</a></li>
+<li>Program co-chair of <a href="http://cs.nyu.edu/acsys/wing2012/">WING 2012</a></li>
+</ul>
+</div>
+<div id="PCs">
+<h3>Program Committee Member</h3>
+<ul>
+<li>
+<a href="https://popl20.sigplan.org/">POPL 2020</a>,
+                <a href="https://popl20.sigplan.org/home/VMCAI-2020">VMCAI 2020</a>,
+                <a href="https://popl20.sigplan.org/home/adsl-2020">ADSL 2020</a>,
+                <a href="http://netys.net/">NETYS 2020</a>,
+                VSTTE 2020, VDS 2020 (co-chair)
+              </li>
+<li>
+<a href="https://conf.researchr.org/track/etaps-2019/tacas-2019-papers">TACAS 2019</a>, SYNT 2019 (co-chair)
+              </li>
+<li>
+<a href="http://cavconference.org/2018/">CAV 2018</a>,
+                <a href="http://www.etaps.org/index.php/2018/tacas">TACAS 2018</a>,                  
+                <a href="https://conf.researchr.org/track/VMCAI-2018/VMCAI-2018">VMCAI 2018</a>,
+                <a href="http://vstte18.it.uu.se/">VSTTE 2018</a>,
+                <a href="http://adsl.univ-grenoble-alpes.fr/">ADSL 2018</a>
+</li>
+<li><a href="http://conf.researchr.org/home/pldi-ecoop-2017">ECOOP 2017</a>,
+                  <a href="http://www.etaps.org/index.php/2017/tacas">TACAS 2017</a>,
+                  <a href="http://www.tmpaconf.org">TMPA 2017</a>,
+                  <a href="https://vstte17.lri.fr/">VSTTE 2017 (co-chair)</a>,
+                  <a href="http://se.uni-konstanz.de/crest2017/">CREST 2017</a>,
+                  <a href="https://www.concur2017.tu-berlin.de">CONCUR 2017</a>,
+                  <a href="http://conf.researchr.org/home/onward-2017">Onward! 2017</a>,
+                  <a href="http://cs.nyu.edu/acsys/tapas2017">TAPAS 2017 (chair)</a>
+</li>
+<li>
+<a href="http://popl.mpi-sws.org/2016/">POPL 2016
+	        (ERC)</a>, <a href="http://conf.researchr.org/home/VMCAI-2016">VMCAI 2016</a>,
+                <a href="http://i-cav.org/2016/">CAV 2016</a>
+</li>
+<li>
+<a href="http://research.microsoft.com/en-us/events/vmcai2015/">VMCAI 2015</a>
+</li>
+<li>
+<a href="http://popl.mpi-sws.org/2014/">POPL 2014</a>,
+                <a href="http://www.smt-workshop.org/">SMT 2014</a>,
+                <a href="http://2014.splashcon.org/track/fool2014">FOOL 2014</a>
+</li>
+<li>
+<a href="https://sites.google.com/site/vstte2013/">VSTTE 2013</a>
+</li>
+<li>
+<a href="http://cs.nyu.edu/acsys/wing2012/">WING 2012</a>
+	        (co-chair), 
+	        <a href="http://www.zvonimir.info/boogie2012/">BOOGIE 2012</a>, 
+	        <a href="http://www.comp.nus.edu.sg/~ftfjp/">FTfJP 2012</a>, 
+	        <a href="http://www.sas2012.ens.fr">SAS 2012</a>, 
+	        <a href="http://sites.google.com/site/vstte2012/">VSTTE 2012</a>
+</li>
+<li><a href="http://research.microsoft.com/en-us/events/wing2010/default.aspx">WING 2010</a></li>
+<li><a href="http://mtc.epfl.ch/events/WING09/">WING 2009</a></li>
+</ul>
+</div>
+</section>
+<section id="Publications">
+<h2>Publications <span aria-hidden="true" class="fas fa-book" style="float:right;padding-top:4px"></span></h2>
+<p>See also my <a href="http://www.informatik.uni-trier.de/~ley/pers/hd/w/Wies:Thomas.html">DBLP
+              entry</a> for a complete list of my publications.</p>
+<div id="Conferences">
+<h3>In Conferences</h3>
+<ol class="list-group numbered">
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/foundational-flows-esop2020.pdf">Local Reasoning for Global Graph Properties</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/foundational-flows-esop2020.pdf">pdf</a></span>
+</h4>
+S. Krishna, A.J. Summers, and T. Wies<br/>
+In Proceedings of <i>European Symposium on Programming (ESOP)</i>, 2020                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/crashsim-issre2019.pdf">Charting a Course Through Uncertain Environments: SEA Uses Past Problems to Avoid Future Failures</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/crashsim-issre2019.pdf">pdf</a></span>
+<span class="label label-success">Best Paper Award</span>
+</h4>
+P. Moore, J. Cappos, P. Frankl, and T. Wies<br/>
+In Proceedings of <i>International Symposium on Software Reliability Engineering (ISSRE)</i>, 2019                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/clock_bound_repair-cav2019.pdf">Clock Bound Repair for Timed Systems</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/clock_bound_repair-cav2019.pdf">pdf</a></span>
+</h4>
+M. Kölbl, S. Leue, and T. Wies<br/>
+In Proceedings of <i>Computer Aided Verification (CAV)</i>, 2019                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/vaccine.pdf">VACCINE: Using Contextual Integrity for Data Leakage Detection</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/vaccine.pdf">pdf</a></span>
+</h4>
+Y. Shvartzshnaider, Z. Pavlinovic, A. Balashankar, T. Wies, L. Subramanian, H. Nissenbaum, and P. Mittal<br/>
+In Proceedings of <i>World Wide Web Conference (WWW)</i>, 2019                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/giraffe-ccs17.pdf">Full accounting for verifiable outsourcing</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/giraffe-ccs17.pdf">pdf</a></span>
+</h4>
+R. Wahby, Y. Ji, A.J. Blumberg, a. shelat, J. Thaler, M. Walfish, and T. Wies<br/>
+In Proceedings of <i>ACM Conference on Computer and Communications Security (CCS)</i>, 2017                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/vmcai2017.pdf">Partitioned Memory Models for Program Analysis</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/vmcai2017.pdf">pdf</a></span>
+</h4>
+W. Wang, C. Barrett, and T. Wies<br/>
+In Proceedings of <i>Verification, Model Checking, and Abstract Interpretation (VMCAI)</i>, 2017                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/error_invariants_for_concurrent_traces.pdf">Error Invariants for Concurrent Traces</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/error_invariants_for_concurrent_traces.pdf">pdf</a></span>
+</h4>
+A. Holzer, D. Schwartz-Narbonne, M. Tabaei, G. Weissenbacher, and T. Wies<br/>
+In Proceedings of <i>International Symposium on Formal Methods (FM)</i>, 2016                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/hcomp16.pdf">Learning Privacy Expectations by Crowdsourcing Contextual Informational Norms</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/hcomp16.pdf">pdf</a></span>
+</h4>
+Y. Shvartzshnaider, S. Tong, T. Wies, P. Kift, H. Nissenbaum, L. Subramanian, and P. Mittal<br/>
+In Proceedings of <i>AAAI Conference on Human Computation and Crowdsourcing (HCOMP)</i>, 2016                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/classifying_bugs_with_interpolants.pdf">Classifying Bugs with Interpolants</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/classifying_bugs_with_interpolants.pdf">pdf</a></span>
+</h4>
+A. Podelski, M. Schäf, and T. Wies<br/>
+In Proceedings of <i>Tests and Proofs (TAP)</i>, 2016                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/practical_smt-based_type_error_localization.pdf">Practical SMT-Based Type Error Localization</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/practical_smt-based_type_error_localization.pdf">pdf</a></span>
+</h4>
+Z. Pavlinovic, T. King, and T. Wies<br/>
+In Proceedings of <i>ACM SIGPLAN International Conference on Functional Programming (ICFP)</i>, 2015                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/deciding_local_theory_extensions_via_ematching.pdf">Deciding Local Theory Extensions via E-Matching</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/deciding_local_theory_extensions_via_ematching.pdf">pdf</a></span>
+</h4>
+K. Bansal, T. King, A. Reynolds, C. Barrett, and T. Wies<br/>
+In Proceedings of <i>Computer Aided Verification (CAV)</i>, 2015                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/vermeer.pdf">VERMEER: A Tool for Tracing and Explaining Faulty C Programs</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/vermeer.pdf">pdf</a></span>
+</h4>
+D. Schwartz-Narbonne, C. Oh, M. Schäf, and T. Wies<br/>
+In Proceedings of <i>International Conference on Software Engineering (ICSE), Demonstrations Track</i>, 2015                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/conflict_directed_graph_coverage.pdf">Conflict-Directed Graph Coverage</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/conflict_directed_graph_coverage.pdf">pdf</a></span>
+</h4>
+D. Schwartz-Narbonne, M. Schäf, D. Jovanovi&amp;cacute;, P. Rümmer, and T. Wies<br/>
+In Proceedings of <i>NASA Formal Methods (NFM)</i>, 2015                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/finding_minimum_type_error_sources.pdf">Finding Minimum Type Error Sources</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/finding_minimum_type_error_sources.pdf">pdf</a></span>
+<span class="label label-success">Best Paper Award</span>
+</h4>
+Z. Pavlinovic, T. King, and T. Wies<br/>
+In Proceedings of <i>ACM SIGPLAN International Conference on Object Oriented Programming Systems, Languages, and Applications (OOPSLA)</i>, 2014                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/concolic_fault_abstraction.pdf">Concolic Fault Abstraction</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/concolic_fault_abstraction.pdf">pdf</a></span>
+</h4>
+C. Oh, M. Schäf, D. Schwartz-Narbonne, and T. Wies<br/>
+In Proceedings of <i>IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM)</i>, 2014                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/automating_separation_logic_with_trees_and_data.pdf">Automating Separation Logic with Trees and Data</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/automating_separation_logic_with_trees_and_data.pdf">pdf</a></span>
+</h4>
+R. Piskac, T. Wies, and D. Zufferey<br/>
+In Proceedings of <i>Computer Aided Verification (CAV)</i>, 2014                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/grasshopper.pdf">GRASShopper: Complete Heap Verification with Mixed Specifications</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/grasshopper.pdf">pdf</a></span>
+</h4>
+R. Piskac, T. Wies, and D. Zufferey<br/>
+In Proceedings of <i>Tools and Algorithms for the Construction and Analysis of Systems (TACAS)</i>, 2014                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/fase14.pdf">Dynamic Package Interfaces</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/fase14.pdf">pdf</a></span>
+</h4>
+S. Esmaeilsabzali, R. Majumdar, T. Wies, and D. Zufferey<br/>
+In Proceedings of <i>Fundamental Approaches to Software Engineering (FASE)</i>, 2014                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/vmcai2014.pdf">Cascade 2.0</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/vmcai2014.pdf">pdf</a></span>
+</h4>
+W. Wang, C. Barrett, and T. Wies<br/>
+In Proceedings of <i>VMCAI</i>, 2014                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/fse2013.pdf">Explaining Inconsistent Code</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/fse2013.pdf">pdf</a></span>
+</h4>
+M. Schäf, T. Wies, and D. Schwartz-Narbonne<br/>
+In Proceedings of <i>ACM SIGSOFT Symposium on the Foundations of Software Engineering (ESEC/FSE)</i>, 2013                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/automating_separation_logic_using_smt.pdf">Automating Separation Logic using SMT</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/automating_separation_logic_using_smt.pdf">pdf</a></span>
+</h4>
+R. Piskac, T. Wies, and D. Zufferey<br/>
+In Proceedings of <i>Computer Aided Verification (CAV)</i>, 2013                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/structural_counter_abstraction.pdf">Structural Counter Abstraction</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/structural_counter_abstraction.pdf">pdf</a></span>
+</h4>
+K. Bansal, E. Koskinen, T. Wies, and D. Zufferey<br/>
+In Proceedings of <i>TACAS</i>, 2013                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/flow-sensitive_fault_localization.pdf">Flow-Sensitive Fault Localization</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/flow-sensitive_fault_localization.pdf">pdf</a></span>
+</h4>
+J. Christ, E. Ermis, M. Schäf, and T. Wies<br/>
+In Proceedings of <i>Verification, Model Checking, and Abstract Interpretation (VMCAI)</i>, 2013                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/complete-interpolation.pdf">Complete Instantiation-Based Interpolation</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/complete-interpolation.pdf">pdf</a></span>
+</h4>
+N. Totla and T. Wies<br/>
+In Proceedings of <i>ACM Symposium on the Principles of Programming Languages (POPL)</i>, 2013                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/error_invariants.pdf">Error Invariants</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/error_invariants.pdf">pdf</a></span>
+</h4>
+E. Ermis, M. Schäf, and T. Wies<br/>
+In Proceedings of <i>Formal Methods (FM)</i>, 2012                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/deciding_functional_lists_with_sublist_sets.pdf">Deciding Functional Lists with Sublist Sets</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/deciding_functional_lists_with_sublist_sets.pdf">pdf</a></span>
+</h4>
+T. Wies, M. Muñiz, and V. Kuncak<br/>
+In Proceedings of <i>Verified Software: Theories, Tools, Experiments (VSTTE)</i>, 2012                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/ideal_abstractions_for_well-structured_transition_systems.pdf">Ideal Abstractions for Well-Structured Transition Systems</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/ideal_abstractions_for_well-structured_transition_systems.pdf">pdf</a></span>
+</h4>
+D. Zufferey, T. Wies, and T.A. Henzinger<br/>
+In Proceedings of <i>Verification, Model Checking, and Abstract Interpretation (VMCAI)</i>, 2012                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/an_efficient_decision_procedure_for_imperative_tree_data_structures.pdf">An Efficient Decision Procedure for Imperative Tree Data Structures</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/an_efficient_decision_procedure_for_imperative_tree_data_structures.pdf">pdf</a></span>
+</h4>
+T. Wies, M. Muñiz, and V. Kuncak<br/>
+In Proceedings of <i>Conference on Automated Deduction (CADE-23)</i>, 2011                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/scheduling_large_jobs_by_abstraction_refinement.pdf">Scheduling Large Jobs by Abstraction Refinement</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/scheduling_large_jobs_by_abstraction_refinement.pdf">pdf</a></span>
+</h4>
+T.A. Henzinger, V. Singh, T. Wies, and D. Zufferey<br/>
+In Proceedings of <i>European Conference on Computer Systems (EuroSys)</i>, 2011                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/decision_procedures_for_automating_termination_proofs.pdf">Decision Procedures for Automating Termination Proofs</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/decision_procedures_for_automating_termination_proofs.pdf">pdf</a></span>
+</h4>
+R. Piskac and T. Wies<br/>
+In Proceedings of <i>Verification, Model Checking, and Abstract Interpretation (VMCAI)</i>, 2011                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/a_marketplace_for_cloud_resources.pdf">A Marketplace for Cloud Computing</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/a_marketplace_for_cloud_resources.pdf">pdf</a></span>
+</h4>
+T.A. Henzinger, V. Singh, A. Tomar, T. Wies, and D. Zufferey<br/>
+In Proceedings of <i>International Conference on Embedded Systems (EMSOFT)</i>, 2010                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/flexprice_flexible_provisioning_of_resources_in_a_cloud_environment.pdf">FlexPRICE: Flexible Provisioning of Resources in a Cloud Environment</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/flexprice_flexible_provisioning_of_resources_in_a_cloud_environment.pdf">pdf</a></span>
+</h4>
+T.A. Henzinger, V. Singh, A. Tomar, T. Wies, and D. Zufferey<br/>
+In Proceedings of <i>IEEE International Conference on Cloud Computing (IEEE CLOUD)</i>, 2010                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/forward_analysis_of_depth-bounded_processes.pdf">Forward Analysis of Depth-Bounded Processes</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/forward_analysis_of_depth-bounded_processes.pdf">pdf</a></span>
+</h4>
+T. Wies, D. Zufferey, and T.A. Henzinger<br/>
+In Proceedings of <i>Foundations of Software Science and Computation Structures (FoSSaCS)</i>, 2010                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/building_a_calculus_of_data_structures.pdf">Building a Calculus of Data Structures</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/building_a_calculus_of_data_structures.pdf">pdf</a></span>
+</h4>
+V. Kuncak, R. Piskac, P. Suter, and T. Wies<br/>
+In Proceedings of <i>Verification, Model Checking, and Abstract Interpretation (VMCAI)</i>, 2010                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/counterexample-guided_focus.pdf">Counterexample-guided focus</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/counterexample-guided_focus.pdf">pdf</a></span>
+<span class="label label-warning"><a href="http://cs.nyu.edu/wies/talks/popl2010.ppt">slides</a></span>
+</h4>
+A. Podelski and T. Wies<br/>
+In Proceedings of <i>ACM Symposium on the Principles of Programming Languages (POPL)</i>, 2010                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/combining_theories_with_shared_set_operations.pdf">Combining Theories with Shared Set Operations</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/combining_theories_with_shared_set_operations.pdf">pdf</a></span>
+<span class="label label-warning"><a href="http://cs.nyu.edu/wies/talks/set-blast.ppt">slides</a></span>
+</h4>
+T. Wies, R. Piskac, and V. Kuncak<br/>
+In Proceedings of <i>Symposium on Frontiers of Combining Systems (FroCoS)</i>, 2009                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/abstraction_refinement_for_quantified_array_assertions.pdf">Abstraction Refinement for Quantified Array Assertions</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/abstraction_refinement_for_quantified_array_assertions.pdf">pdf</a></span>
+</h4>
+M.N. Seghir, A. Podelski, and T. Wies<br/>
+In Proceedings of <i>Static Analysis Symposium (SAS)</i>, 2009                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/doomed_program_points.pdf">It's Doomed; We Can Prove It</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/doomed_program_points.pdf">pdf</a></span>
+</h4>
+J. Hoenicke, K.R.M. Leino, A. Podelski, M. Schäf, and T. Wies<br/>
+In Proceedings of <i>Formal Methods (FM)</i>, 2009                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/intra-module_inference.pdf">Intra-module Inference</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/intra-module_inference.pdf">pdf</a></span>
+</h4>
+S.K. Lahiri, S. Qadeer, J.P. Galeotti, J.W. Voung, and T. Wies<br/>
+In Proceedings of <i>Computer Aided Verification (CAV)</i>, 2009                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/heap_assumptions_on_demand.pdf">Heap Assumptions on Demand</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/heap_assumptions_on_demand.pdf">pdf</a></span>
+</h4>
+A. Podelski, A. Rybalchenko, and T. Wies<br/>
+In Proceedings of <i>Computer Aided Verification (CAV)</i>, 2008                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/shape_analysis_for_composite_data_structures.pdf">Shape Analysis for Composite Data Structures</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/shape_analysis_for_composite_data_structures.pdf">pdf</a></span>
+</h4>
+J. Berdine, C. Calcagno, B. Cook, D. Distefano, P.W. O'Hearn, T. Wies, and H. Yang<br/>
+In Proceedings of <i>Computer Aided Verification (CAV)</i>, 2007                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/pupl/using_first-order_theorem_provers_in_the_jahob_data_structure_verification_system.pdf">Using First-Order Theorem Provers in the Jahob Data Structure Verification System</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/pupl/using_first-order_theorem_provers_in_the_jahob_data_structure_verification_system.pdf">pdf</a></span>
+</h4>
+C. Bouillaguet, V. Kuncak, T. Wies, K. Zee, and M.C. Rinard<br/>
+In Proceedings of <i>Verification, Model Checking, and Abstract Interpretation (VMCAI)</i>, 2007                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/field_constraint_analysis.pdf">Field Constraint Analysis</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/field_constraint_analysis.pdf">pdf</a></span>
+</h4>
+T. Wies, V. Kuncak, P. Lam, A. Podelski, and M. Rinard<br/>
+In Proceedings of <i>Verification, Model Checking, and Abstract Interpretation (VMCAI)</i>, 2006                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/boolean_heaps.pdf">Boolean Heaps</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/boolean_heaps.pdf">pdf</a></span>
+</h4>
+A. Podelski and T. Wies<br/>
+In Proceedings of <i>Static Analysis Symposium (SAS)</i>, 2005                </div>
+</li>
+</ol>
+</div>
+<div id="Journals">
+<h3>In Journals</h3>
+<ol class="list-group numbered" start="45">
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/templates-pldi20.pdf">Verifying Concurrent Search Structure Templates</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/templates-pldi20.pdf">pdf</a></span>
+</h4>
+S. Krishna, N. Patel, D. Shasha, and T. Wies<br/>
+To appear in 
+<i>PACMPL, 
+ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)()</i>,
+2020                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/flow-interfaces-popl18.pdf">Go with the Flow: Compositional Abstractions for Concurrent Data Structures</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/flow-interfaces-popl18.pdf">pdf</a></span>
+</h4>
+S. Krishna, D. Shasha, and T. Wies<br/>
+<i>PACMPL, 
+2(ACM Symposium on the Principles of Programming Languages (POPL))</i>,
+2018                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://dx.doi.org/10.1007/s10817-016-9371-7">Complete Instantiation-Based Interpolation</a> <span class="label label-info"><a href="http://dx.doi.org/10.1007/s10817-016-9371-7">pdf</a></span>
+</h4>
+N. Totla and T. Wies<br/>
+<i>Journal of Automated Reasoning, 
+57(1)</i>,
+2016                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://dx.doi.org/10.1016/j.scico.2014.05.010">Preface - Invariant Generation</a> <span class="label label-info"><a href="http://dx.doi.org/10.1016/j.scico.2014.05.010">pdf</a></span>
+</h4>
+G. Grov and T. Wies<br/>
+<i>Science of Computer Programming (SCICO), 
+93</i>,
+2014                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://www.Springerlink.com/content/56274l8m53807017/">Doomed Program Points</a> <span class="label label-info"><a href="http://www.Springerlink.com/content/56274l8m53807017/">pdf</a></span>
+</h4>
+J. Hoenicke, K.R.M. Leino, A. Podelski, M. Schäf, and T. Wies<br/>
+<i>Formal Methods in System Design (FMSD), 
+37(2-3)</i>,
+2010                </div>
+</li>
+</ol>
+</div>
+<div id="Workshops">
+<h3>In Workshops</h3>
+<ol class="list-group numbered" start="50">
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="https://aclanthology.info/papers/Winter 2018-2608/w18-2608">RECIPE: Applying Open Domain Question Answering to Privacy Policies</a> <span class="label label-info"><a href="https://aclanthology.info/papers/Winter 2018-2608/w18-2608">pdf</a></span>
+</h4>
+Y. Shvartzshanider, A. Balashankar, T. Wies, and L. Subramanian<br/>
+In Proceedings of <i>Workshop on Machine Reading for Question Answering@ACL</i>, 2018                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/EC^2_in_EC2.pdf">(EC)^2 in EC2</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/EC^2_in_EC2.pdf">pdf</a></span>
+</h4>
+T.A. Henzinger, A.V. Singh, V. Singh, T. Wies, and D. Zufferey<br/>
+In Proceedings of <i>Workshop on Exploiting Concurrency Efficiently and Correctly (EC^2)</i>, 2011                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/static_scheduling_in_clouds.pdf">Static Scheduling in Clouds</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/static_scheduling_in_clouds.pdf">pdf</a></span>
+</h4>
+T.A. Henzinger, A.V. Singh, V. Singh, T. Wies, and D. Zufferey<br/>
+In Proceedings of <i>USENIX Workshop on Hot Topics in Cloud Computing (HotCloud)</i>, 2011                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/verifying_complex_properties_using_symbolic_shape_analysis.pdf">Verifying Complex Properties using Symbolic Shape Analysis</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/verifying_complex_properties_using_symbolic_shape_analysis.pdf">pdf</a></span>
+</h4>
+T. Wies, V. Kuncak, K. Zee, A. Podelski, and M. Rinard<br/>
+In Proceedings of <i>Workshop on Heap Analysis and Verification (HAV)</i>, 2007                </div>
+</li>
+</ol>
+</div>
+<div id="Thesis">
+<h3>Thesis</h3>
+<ol class="list-group numbered" start="54">
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/wies09phdthesis.pdf">Symbolic Shape Analysis</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/wies09phdthesis.pdf">pdf</a></span>
+</h4>
+T. Wies<br/>
+University of Freiburg, Freiburg, Germany,
+2009                </div>
+</li>
+</ol>
+</div>
+<div id="TechReports">
+<h3>Technical Reports</h3>
+<ol class="list-group numbered" start="55">
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://arxiv.org/abs/1911.08632">Local Reasoning for Global Graph Properties</a> <span class="label label-info"><a href="http://arxiv.org/abs/1911.08632">pdf</a></span>
+</h4>
+S. Krishna, A.J. Summers, and T. Wies<br/>
+arXiv Technical Report, arXiv:1911.086322019                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="https://arxiv.org/abs/1711.03272">Go with the Flow: Compositional Abstractions for Concurrent Data Structures (Extended Version)</a> <span class="label label-info"><a href="https://arxiv.org/abs/1711.03272">pdf</a></span>
+</h4>
+S. Krishna, D. Shasha, and T. Wies<br/>
+arXiv Technical Report, arXiv:1711.032722017                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/tr-fair-term-dbs.pdf">On Structural Counter Abstraction</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/tr-fair-term-dbs.pdf">pdf</a></span>
+</h4>
+K. Bansal, E. Koskinen, T. Wies, and D. Zufferey<br/>
+NYU Technical Report, TR2012-9472013                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/tr_automating_separation_logic_using_smt.pdf">Automating Separation Logic Using SMT</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/tr_automating_separation_logic_using_smt.pdf">pdf</a></span>
+</h4>
+R. Piskac, T. Wies, and D. Zufferey<br/>
+NYU Technical Report, TR2013-9542013                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/tr-complete-interpolation.pdf">Complete Instantiation-Based Interpolation</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/tr-complete-interpolation.pdf">pdf</a></span>
+</h4>
+N. Totla and T. Wies<br/>
+NYU Technical Report, TR2012-9502012                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/on_an_efficient_decision_procedure_for_imperative_tree_data_structures.pdf">On An Efficient Decision Procedure for Imperative Tree Data Structures</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/on_an_efficient_decision_procedure_for_imperative_tree_data_structures.pdf">pdf</a></span>
+</h4>
+T. Wies, M. Muñiz, and V. Kuncak<br/>
+IST Technical Report, IST-2011-00052011                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/on_deciding_functional_lists_with_sublist_sets.pdf">On Deciding Functional Lists with Sublist Sets</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/on_deciding_functional_lists_with_sublist_sets.pdf">pdf</a></span>
+</h4>
+T. Wies, M. Mu\~n, and V. Kuncak<br/>
+EPFL Technical Report, EPFL-REPORT-1483612010                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/on_combining_theories_with_shared_set_operations.pdf">On Combining Theories with Shared Set Operations</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/on_combining_theories_with_shared_set_operations.pdf">pdf</a></span>
+</h4>
+T. Wies, R. Piskac, and V. Kuncak<br/>
+EPFL Technical Report, LARA-REPORT-2009-0022009                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/set-Driven_combination_of_logics_and_verifiers.pdf">On Set-Driven Combination of Logics and Verifiers</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/set-Driven_combination_of_logics_and_verifiers.pdf">pdf</a></span>
+</h4>
+T. Wies and V. Kuncak<br/>
+EPFL Technical Report, LARA-REPORT-2009-0012009                </div>
+</li>
+<li class="list-group-item numbered">
+<div class="content">
+<h4>
+<a href="http://cs.nyu.edu/wies/publ/on_field_constraint_analysis.pdf">On Field Constraint Analysis</a> <span class="label label-info"><a href="http://cs.nyu.edu/wies/publ/on_field_constraint_analysis.pdf">pdf</a></span>
+</h4>
+T. Wies, V. Kuncak, P. Lam, A. Podelski, and M. Rinard<br/>
+MIT CSAIL Technical Report, MIT-CSAIL-TR-2005-072, MIT-LCS-TR-10102005                </div>
+</li>
+</ol>
+</div>
+</section>
+</div></div></div>
+<!--Nav Bar -->
+<nav class="col-sm-0 col-md-2 bs-docs-sidebar hidden-tablet">
+<ul class="nav nav-stacked" id="sidebar">
+<li>
+<a href="#Home">Home</a>
+</li>
+<li>
+<a href="#Research">Research</a>
+<ul class="nav nav-stacked">
+<li><a href="#RecentPubs">Selected Publications</a></li>
+<li><a href="#RecentTalks">Selected Invited Talks</a></li>
+<li><a href="#Tools">Tools</a></li>
+</ul>
+</li>
+<li>
+<a href="#Teaching">Teaching</a>
+</li>
+<li>
+<a href="#Activities">Professional Activities</a>
+<ul class="nav nav-stacked">
+<li><a href="#Organizer">Organizer</a></li>
+<li><a href="#PCs">Program Committee Member</a></li>
+</ul>
+</li>
+<li>
+<a href="#Publications">Publications</a>
+<ul class="nav nav-stacked">
+<li><a href="#Conferences">Conferences</a></li>
+<li><a href="#Journals">Journals</a></li>
+<li><a href="#Workshops">Workshops</a></li>
+<li><a href="#Thesis">Thesis</a></li>
+<li><a href="#TechReports">Techical Reports</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="assets/js/jquery.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="assets/js/bootstrap.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+<script>
+      $('body').scrollspy({
+        target: '.bs-docs-sidebar',
+        offset: 80
+      });
+      $("#sidebar").affix({
+        offset: {
+          top: 115
+        }
+      });
+    </script>
+</div>
+</body>
+</html>

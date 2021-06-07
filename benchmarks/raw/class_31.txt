@@ -1,0 +1,485 @@
+<html><head>
+<link href="index_files/UC-Seal.jpg" rel="shortcut icon"/>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="shanlu" name="Author"/>
+<meta content="CMSC 22001: Software Construction" name="Description"/><title>CMSC 22001: Software Construction</title></head><body alink="#ff0000" bgcolor="#ffffff" link="black" text="#000000" vlink="black">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td valign="top" width="150">
+<center><a href="http://www.cs.uchicago.edu/"><img align="center" border="0" height="120" src="index_files/UC-Seal.jpg"/></a>
+<p>
+</p></center></td>
+<td bgcolor="maroon">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td width="1100">
+<ul>
+<font color="white">
+<br/><font size="-2">  
+<br/><font size="+2"><b>CMSC 22001: Software Construction</b></font>
+</font></font><p><font color="white"><font size="-2"><font size="+1"> University of Chicago 
+<br/> Computer Science Department
+<br/> Fall 2019
+<br/><font size="-2">  
+<br/>
+</font>
+</font>
+</font></font></p></ul>
+</td><td width="10">
+ 
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td bgcolor="maroon" valign="top" width="150">
+<p><br/><br/>      <a href="#info" style="color: white;">Basic Information</a>
+<br/>      <a href="#announcement" style="color: white;">Announcement</a>
+<br/>      <a href="#overview" style="color: white;">Overview</a>
+<br/>      <a href="#readings" style="color: white;">Readings</a>
+<br/>      <a href="#project" style="color: white;">Project</a>
+<br/>      <a href="#exams" style="color: white;">Exam</a>
+<br/>      <a href="#grading" style="color: white;">Grading</a>
+<br/>      <a href="#mailing" style="color: white;">Mailing List</a>
+<br/>      <a href="#schedule" style="color: white;">Schedule</a>
+<br/><br/>
+</p></td>
+<td valign="top">
+<ul>
+<br/>
+<p>
+<font color="maroon"><a name="info"><b>Basic Information</b></a></font>
+</p>
+<ul><font color="maroon">When</font>
+<ul>
+<li>
+	9:30--10:50pm Tu/Th
+</li></ul>
+<font color="maroon">Where</font>
+<ul>
+<li>
+Ryerson 251
+</li></ul>
+<font color="maroon">Instructor:</font> Professor <a href="http://cs.uchicago.edu/~shanlu/">Shan Lu</a> (shanlu@uch...); Crerar 343; office hour: Tu/Th 10:50--11:50am.
+<br/>
+<font color="maroon">TA:</font>
+<ul>
+<li>Yuxi Chen (chenyuxi@uch...) office hour: Fr 4--6pm @ CSIL 5 (Linux Lab). 
+</li><li>Chi Li (lichi@uch...) office hour: Tu 3--5pm @ CSIL1(Mac Lab). 
+</li></ul>
+</ul>
+<p>
+<font color="maroon"><a name="announcement"><b>Announcement</b></a></font>
+</p>
+<ul>
+<p><b>12/04 4:00pm </b> Project milestone 5 due. </p>
+<p><b>12/09 11:59pm </b> Project milestone 6 due. </p>
+<p><b>12/10 10:30 -- 12:30</b> Final exam @ Ryerson 251.</p>
+<!--
+<p><b>12/09 08:00am--10:00am, 10:30am--12:30pm</b> Final exam @ Ry 251. Pick
+one time slot that works for you. Please contact me ASAP, if neither slots
+work for you.  
+<p><b>12/7 11:59pm</b>: Project milestone 6 due. See detailed instructions on piazza.
+
+<p><b>10/09 11:59pm</b>: Mini project 1 deadline. <br>The project specification is <a href="minip/Spec.pdf">here</a>; the <a href="minip/InstallationGuide.pdf">installation guide </a> and related <a href="minip/UserGuide.pdf">user guide</a> for the Eclipse IDE (<b>required</b>) and testing tools (<b>required</b>) are also posted. <br>You can finish this mini project <b> with one partner</b>, but you and your partner should work on the project together in person. <br>Submit your code, including the completed source code and unit tests through SVN. If you work with a partner, you only need to submit one copy, but you need to specify the group members in your submission.
+
+<p>The three books mentioned in our first lecture, including the two mentioned below in the Material section, are reserved in library. The status of the books can be tracked <a href="https://www.library.wisc.edu/course-pages/viewer/show/23243">here</a>.</p>
+-->
+<!--
+<p><b>02/17 6:00pm</b>  UPL 1 or 2-hour tutorial on C programming. It'll be held in room 1221 CS. </p>
+<p><b>02/08</b> Programs that we discussed (or planned to discuss) in the discussion session: <a href="code/fork.c">fork.c</a>, <a href="code/strtok.c">strtok.c</a></p>
+
+<p><b>02/26</b> A dummy implementation 
+of project 3 discussed in our discussion session: <a href="code/discussion_p3.tar">p3.tar</a> (use `tar -xvf p3.tar' to untar it) </p>
+
+<p><b>03/05</b> The deadline for <a href="projects/p3.html">
+project 3.</a> Please start early. The test cases are available now at
+~cs537-2/testing/p3/. </p>
+
+<p><b>03/01</b> You can see a partial impelmentation of the project3 data structure ({size, prev, next} for each memory region) that we discussed in the discussion session here: <a href="code/disc_6.tar">disc_6.tar</a> (use `tar -xvf disc_6.tar' to unzip it) </p>
+
+
+
+<p> The test cases are at ~cs537-2/testing/p6
+</p>
+
+<p><b><a href="projects/p6.html">Project 6</a></b> is posted. The deadline is 
+May 8th, 6pm. Again, you can have a partner in Project 6.
+</p>
+
+<p>A <a href="code/gdb.pdf"> short gdb command reference</a> is posted.
+</p>
+<p>
+<b>The optional final exam</b> will be held on May 10th (Monday) 12:25pm--2:25pm at computer science building Room 1221.
+</p>
+
+
+-->
+<!--
+<p><b>02/01 4:30pm</b> Quiz 1</p>
+<p><b>02/02 11:00pm</b> P0 due</p>
+-->
+</ul>
+<p>
+<font color="maroon"><a name="stats"><b>Stats, Notes, Useful Info.</b></a></font>
+</p>
+<ul>
+<ul>
+<b>Stats</b>: 
+Midterm, median 90.75, average 88.75;
+Quiz 1, median 9.75, average 9.1;
+Quiz 2, median 9, average 8.1;
+Quiz 3, median 7, average 7.1.
+
+</ul>
+<ul>
+<!--
+<b>Answers</b>: Quiz 2 <a href="http://www.piazza.com/class_profile/get_resource/jc0xd67dk7ct/jckwkzjry9d1gi">activity diagram</a>
+and <a href="http://www.piazza.com/class_profile/get_resource/jc0xd67dk7ct/jckwkzn26yv1gl">class diagram</a> answers; Quiz 3 question 3 
+<a href="notes/quiz3_answer3.pdf">answer</a>;
+Quiz 5 answers are posted on Piazza.
+-->
+</ul>
+<!--
+<ul> <b>Stats</b>: Midterm Avg 92, Median 91.5.
+<li>Session 1: Final Exam Avg 86.4; Quiz-7 Avg 8.3; Quiz-6 Avg 7.5; Quiz-5 Avg 6.45; Midterm Avg 89; Quiz-4 Avg 8; Quiz-3 Avg 7.4; Quiz-2 Avg 8.6; Quiz-1 Avg 9.9
+</ul><br>
+<ul> <b>Quiz Answers</b>: 
+<li> The answer for quiz 1 is <a href="notes/quiz1_a.pdf">here</a>
+<li> The answer for quiz 2 is <a href="notes/quiz2_a.pdf">here</a>
+<li> The sequence diagram answer for quiz 3 is <a href="notes/quiz3_answer.jpg">here</a>
+<li> The answer for quiz 4 is <a href="notes/quiz4_a.pdf">here</a>
+<li> The answer for quiz 5 is <a href="notes/quiz5_a.pdf">here</a>
+<li> The answer for quiz 6 is <a href="notes/quiz6_a.pdf">here</a>
+
+-->
+<!--
+<li>Quiz-7 <a href="notes/quiz7_answer.pdf">answer</a>.
+<li> Quiz-6 Question 1 and 2 
+<a href="notes/quiz6_diagram.png">class diagram</a>.
+<li> Quiz-5 
+<a href="notes/quiz5_q1_diagram.png">Question 1</a>, 
+<a href="notes/quiz5_q2a_diagram.png">Question 2a</a>. 
+and 
+<a href="notes/quiz5_q2b_diagram.png">Question 2b</a>.
+<li>Quiz-4 <a href="notes/quiz4_answer.pdf">answer</a>
+<li>Quiz-3 <a href="notes/quiz3_answer.pdf">answer</a>
+<li>Quiz-2 <a href="notes/quiz2_answer.pdf">answer</a>
+<li>Quiz-1 <a href="notes/quiz1_answer.pdf">answer</a>
+-->
+</ul>
+<!--
+<li> <b>Useful debugging tools</b>: <a href="http://www.cs.cmu.edu/~gilpin/tutorial/">GDB</a>, <a href="http://www.valgrind.org">Valgrind</a>.
+-->
+<!---
+<li><b><a href="http://valgrind.org">Valgrind</a> </b>is a very useful tool that helps detect memory bugs
+in your C programs. A very simple README is <a href="http://valgrind.org/docs/manual/quick-start.html#quick-start.mcrun">here</a>. Basically: step 1, gcc -g reverse.c -o reverse; step 2, valgrind --leak-check=yes ./reverse in.txt out.txt. step 3: sit back and wait for the bug report.
+-->
+<p><br/><font color="maroon"><a name="overview"><b>Overview</b></a></font>
+</p><ul>
+<p>Welcome to Software Construction! 
+In this course, we will study a number of interesting topics including
+software processes, requirement engineering, software architecture and 
+component design, software testing, debugging, and
+software maintenance.
+<br/><br/>
+This course assumes familiarity with basic programming skills
+and data structures. 
+Some background in object-oriented programming (e.g., C++ or Java) is
+not required, but would be good to have.
+You will need to program in a 8 people team. 
+</p>
+</ul>
+<p><br/><font color="maroon"><a name="schedule"><b>Schedule</b></a></font>
+</p><ul> This is a <b>tentative</b> schedule.
+</ul>
+<br/>
+<ul>
+<table border="0" cellpadding="1" valign="center">
+<tr>
+<td><b>10/01 </b></td>
+<td> Introduction, Software Processes 
+	[<a href="notes/Lec1.pdf">notes</a>]
+	</td>
+<td></td><td></td>
+<td><b>10/03 </b></td>
+<td>
+Agile, Extreme Programming 
+	[<a href="notes/Lec2.pdf">notes</a>]
+        </td>
+</tr>
+<tr>
+<td><b>10/08 </b></td>
+<td> Project Discussion, Requirement Engineering &amp; System Modeling I 
+	[<a href="notes/Lec3.pdf">notes</a>]
+	</td>
+<td></td><td></td>
+<td><b>10/10 </b></td>
+<td> Architectural Design 
+	[<a href="notes/Lec4.pdf">notes</a>]
+        </td>
+</tr>
+<tr>
+<td><b>10/15 </b></td>
+<td> System Modeling II  
+	[<a href="notes/lec5.pdf">notes</a>][video
+	<a href="notes/OOPrinciple.mov">1</a>,
+	<a href="notes/ClassDiagram_1.mov">2</a>, <a href="notes/ClassDiagram_2.mov">3</a>,<a href="notes/ClassDiagram_3.mov">4</a>, <a href="notes/ClassDiagram_4.mov">5</a>]
+        </td>
+<td></td><td></td>
+<td><b>10/17 </b></td>
+<td>  System Modeling III
+        [<a href="notes/lec6.pptx">notes</a>]
+	[<a href="notes/SequenceDiagram.mov">video</a>]
+        [video clips embedded in notes slides:
+          <a href="notes/emp1.mp4">1</a>,
+          <a href="notes/emp2.mp4">2</a>]
+        </td>
+</tr>
+<tr>
+<td><b>10/22 </b></td>
+<td> 
+        Testing 1
+        [<a href="notes/Lec7_8.pdf">notes</a>] 
+</td>
+<td></td><td></td>
+<td><b>10/24 </b></td>
+<td> 
+   	Testing 2 
+[<a href="notes/Lec7_8.pdf">notes</a>]
+</td>
+</tr>
+<tr>
+<td><b>10/29 </b></td>
+<td> <b>Midterm </b></td>
+<td></td><td></td>
+<td><b>10/31 </b></td>
+<td> 
+Code Smell
+[<a href="notes/lec9_codesmell.pdf">notes</a>] 
+        </td>
+</tr>
+<tr>
+<td><b>11/05 </b></td>
+<td> 
+	Refactoring 
+[<a href="notes/lec10_refactor.pdf">notes</a>] (Quiz1)
+	</td><td></td><td></td>
+<td><b>11/07 </b></td>
+<td> Software Maintenance
+and Design Patterns I (Observer)
+        [<a href="notes/lec11.pdf">notes </a>]
+</td>
+</tr>
+<tr>
+<td><b>11/12 </b></td>
+<td> 
+Design Patterns II (Composite, Interpreter)
+        [<a href="notes/lec12.pdf">notes </a>] (Quiz2)
+</td>
+<td></td><td></td>
+<td><b>11/14 </b></td>
+<td> Design Patterns III (Strategy, Template, Visitor)
+        [<a href="notes/Lec13.pdf">notes </a>]</td>
+</tr>
+<tr>
+<td><b>11/19 </b></td>
+<td> 
+	Design Patterns IV (Factory, Abstract Factory)
+[<a href="notes/Lec14.pdf">notes</a>] (Quiz3)
+</td>
+<td></td><td></td>
+<td><b>11/21 </b></td>
+<td>
+<!--Bugs and Bug Detection-->
+Parallel Software Construction
+[<a href="notes/Lec14.pdf">notes </a>]
+</td>
+</tr>
+<tr>
+<td><b>11/26 </b></td>
+<td> 
+No Class (Happy Thanksgiving)!
+</td>
+<td></td><td></td>
+<td><b>11/28 </b></td>
+<td> 
+No Class (Happy Thanksgiving)!
+</td>
+</tr>
+<tr>
+<td><b>12/03 </b></td>
+<td> <b>Project Presentation</b>
+</td>
+<td></td><td></td>
+<td><b>12/05 </b></td>
+<td> No Class (Reading Period)</td>
+</tr>
+</table>
+</ul>
+<p><br/><font color="maroon"><a name="readings"><b>Materials</b></a></font>
+</p><ul>
+<p>There is no required textbook for this course. </p>
+
+We recommend the following books for your reference:
+<p>
+<a href="http://www.amazon.com/gp/product/0078022126/ref=pd_lpo_sbs_dp_ss_3?pf_rd_p=1535523722"><b>Software Engineering: A Practitioner's Approach (8th edition)</b></a><br/>
+Roger Pressman and Bruce Maxim.<br/>
+ISBN-10:0078022126<br/>
+McGraw-Hill<br/>
+</p>
+<!--
+<p><a href="http://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670"><b>Code Complete: A Practical Handbook of Software Construction (2nd Edition)</b></a><br>
+Steve McConnell<br>
+ISBN-10: 0735619670<br>
+Microsoft Press<br></p>
+-->
+</ul>
+<ul>
+<p>
+<a href="http://www.amazon.com/Software-Engineering-9th-Edition-Sommerville/dp/0137035152"><b>Software Engineering</b></a><br/>
+Ian Sommerville.<br/>
+ISBN-10:0137035152<br/>
+Addison Wesley<br/>
+</p>
+</ul>
+<ul>
+<p>
+<a href="http://www.amazon.com/UML-Distilled-Standard-Modeling-Language/dp/0321193687"><b>UML Distilled: A Brief Guide to the Standard Object Modeling Language (3rd Edition) </b></a><br/>
+Martin Fowler and Kendall Scott.<br/>
+ISBN-10:0321193687<br/>
+Addison Wesley<br/>
+</p>
+</ul>
+<ul>
+<p>
+<a href="http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/ref=tmm_hrd_title_0"><b>Design Patterns: Elements of Reusable Object-Oriented Software</b></a><br/>
+Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.<br/>
+ISBN-10:0201633612<br/>
+Addison Wesley<br/>
+</p>
+</ul>
+<p><br/><font color="maroon"><a name="project"><b>Projects</b></a></font>
+</p><ul>
+<p>This is a <b>tentative</b> version.</p>
+<p>
+You will do a warm-up project in a group of two with the due day on <b>10/14</b>. 
+More information about this
+warm-up project will be posted before the second lecture of the class.
+</p>
+<p>
+You will propose a project and develop it following the process learned 
+in the class with your teammates.<br/>
+Your project will go through the following milestones, with every milestone being graded.<br/>
+More details will be announced later.<br/>
+<!--
+<p> In this course, you will be doing projects. <b>Projects are worth 50% of your final grade.</b></p> 
+<p> You can program on your own Linux machines or machines in CSL labs. 
+Information about CSL's instructional computing labs is
+<a href="http://www.cs.wisc.edu/twiki/bin/view/CSDocs/InstructionalFacilitiesInfo">here</a>. If you have never used Unix/Linux before, you should attend
+CSL's orientation or at least read the 
+<a href="http://www.cs.wisc.edu/csl/cs1000/">CS 1000</a> overview online.</p>
+<p>All the projects have to be finished in C <b>not</b> Java. Please start early. <b>No</b> late submission is allowed.</p>
+<p>It is ok to discuss the project in general terms, or help others debug
+their code. It is <font color="red"><b>NOT</b></font> OK to share your code
+directly with other people/groups. Please refer to Prof. Remzi A.-D.'s 
+<a href="http://pages.cs.wisc.edu/~remzi/Classes/537/Spring2010/dontcheat.html">note on academic misconduct.</a>
+-->
+</p><ul>
+<li>Milestone 1 (10/17): proposing a project, with requirement details and user stories written down (group of 2--3 people);
+</li><li>Milestone 2 (10/31): requirement validation and project planning, with development team and plans set up (group of 8 people);
+</li><li>Milestone 3 (11/06, 11/13): 1st development iteration, with unit test cases to show progress (group of 8 people);
+</li><li>Milestone 4 (11/20, 11/27): 2nd development iteration, with unit test cases to show progress (group of 8 people);
+</li><li>Milestone 5 (12/04): system testing and documentation (group of 8 people);
+</li><li>Milestone 6 (12/09): acceptance testing (groups testing each other's projects).
+</li></ul>
+</ul>
+<p><br/><font color="maroon"><a name="exams"><b>Exam</b></a></font>
+</p>
+<ul> There will be an in-lecture mid-term exam and a final exam.
+</ul>
+<p><br/><font color="maroon"><a name="grading"><b>Grading</b></a></font>
+</p>
+<ul>
+This is a <b>tentative</b> scheme.
+<p>
+</p><table align="left" cellpadding="5">
+<tbody>
+<tr>
+<td>Warm-Up Project</td>
+<td> 8%</td>
+</tr>
+<tr>
+<td>Project </td>
+<td> 41%</td>
+</tr>
+<tr>
+<td>Quizzes</td>
+<td> 6%</td>
+</tr>
+<tr>
+<td>Mid-Term exam </td>
+<td> 20% </td>
+</tr>
+<tr>
+<td>Final exam  </td>
+<td> 25% </td>
+</tr>
+</tbody>
+</table>
+</ul>
+<br/><br/><br/><br/><br/><br/><br/><br/>
+<p><br/><font color="maroon"><a name="mailing"><b>Mailing List</b></a></font>
+</p><ul> We will use Piazza.
+</ul>
+<br/><br/><br/><br/><br/><br/>
+</ul>
+</td>
+</tr>
+</tbody></table>
+<hr width="100%"/>
+<font color="gray"><font size="-2">
+<script language="JavaScript">
+<!-- Begin
+var days = new Array(8);
+days[1] = "Sun";
+days[2] = "Mon";
+days[3] = "Tue";
+days[4] = "Wed";
+days[5] = "Thu";
+days[6] = "Fri";
+days[7] = "Sat";
+var months = new Array(13);
+months[1] = "Jan";
+months[2] = "Feb";
+months[3] = "Mar";
+months[4] = "Apr";
+months[5] = "May";
+months[6] = "Jun";
+months[7] = "Jul";
+months[8] = "Aug";
+months[9] = "Sep";
+months[10] = "Oct";
+months[11] = "Nov";
+months[12] = "Dec";
+var dateObj = new Date(document.lastModified)
+var wday = days[dateObj.getDay() + 1]
+var lmonth = months[dateObj.getMonth() + 1]
+var date = dateObj.getDate()
+var fyear = dateObj.getYear()
+if (fyear < 2000)
+fyear = fyear + 1900
+document.write("Last modified: " + wday + " " + lmonth + " " + date + " " + fyear)
+// End -->
+</script>
+<noscript>Your browser does not support JavaScript!</noscript>
+</font></font>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-2967223-2");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body></html>

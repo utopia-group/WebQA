@@ -1,0 +1,560 @@
+<html><body><p>ï»¿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+</p>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<title>Danfeng Zhang</title>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<!--<link type="text/css" rel="stylesheet" href="http://sites.psu.edu/sherrloc/wp-content/themes/genesis-psu/style.css?ver=1.0"/>-->
+<div id="canvas">
+<header class="site-header" itemscope="" itemtype="http://schema.org/WPHeader"><div class="wrap">
+<div id="mark">
+<img alt="Danfeng Zhang" src="pic/photo.jpg"/>
+</div>
+<div class="title-area"><h1 class="site-title">Danfeng Zhang</h1>
+<p> </p>
+Assistant Professor <br/>
+<a href="http://www.eecs.psu.edu/">Dept. of Computer Science and Engineering</a><br/>
+<a href="http://www.engr.psu.edu/">College of Engineering</a><br/>
+<a href="http://www.psu.edu/">Pennsylvania State University</a></div>
+<div class="address-area"> Winter 19369 Westgate Building<br/>
+University Park, PA 16802<br/>
+Phone: (1) 814-863-7323<br/>
+E-mail: zhang (domain: cse.psu.edu)</div>
+<!--
+<div id="menu"> 
+<ul>
+<li><a href="#background">Background</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#publication">Publications</a></li>
+<li><a href="#more">Experience</a></li>
+<li><a href="#material">Application Materials</a></li>
+</ul>
+</div>
+-->
+<div class="hideable">
+<p>Danfeng Zhang is an Assistant Professor at Penn State University. He
+received his B.S. and M.S. in Computer Science from Peking University, and his
+PhD in Computer Science from Cornell University.</p>
+<!--<p>His research focuses on computer security and programming languages. His recent
+work is on sound and practical methods for full-system mitigation of timing
+channels and a general approach of diagnosing errors detected by static program
+analyses, such as information-flow analyses and ML type inference.</p>-->
+<!-- <p><font color="red">
+I'm looking for a full-time postdoctoral researcher in Programming
+Languages and Machine Learning: <a
+href="https://psu.jobs/job/77194">details</a>.
+
+I'm looking for highly-motivated and outstanding PhD applicants who are
+interested in security and programming languages.
+
+Research opportunities are also available for Penn State undergraduates.
+Please send me an email if you're interested.
+</font></p>-->
+<h1><a name="projects"></a>Research Statement</h1>
+
+Software plays a crucial rule in the digital age. Yet, it is still very
+challenging to develop correct and secure software, even for veteran software
+developers. The goal of my research is to <font color="red">prove the absence
+of software errors</font>, and further, <font color="red">generate fixes when
+things go wrong</font>. My research currently includes
+<b>security</b>, <b>privacy</b>, <b>type safety</b> and <b>software
+correctness</b>.  
+
+<ul class="itemize">
+<li class="li-itemize"><b>Information flow security</b>: 
+Information flow security constrains the flow of information in a computer
+system to preserve the confidently and integrity of data. We explore proving
+the absence of information flow errors [<a href="pub/csf17.pdf">CSF 2017</a>,<a href="pub/oopsla18.pdf">OOPSLA 2018</a>],
+including those via subtle timing channels [<a href="pub/ccs10.pdf">CCS 2010</a>,
+<a href="pub/ccs11.pdf">CCS 2011</a>, <a href="pub/pltiming-pldi12.pdf">PLDI 2012</a>, <a href="pub/asplos15.pdf">ASPLOS 2015</a>, <a href="pub/hpca16.pdf">HPCA 2016</a>, <a href="pub/asplos17.pdf">ASPLOS 2017</a>, 
+<a href="pub/usenix17.pdf">Security 2017</a>,
+<a href="pub/hpca18.pdf">HPCA 2018</a>,<a href="pub/oakland19.pdf">SP 2019</a>,
+<a href="pub/usenix19.pdf">Security 2019</a>]..
+
+</li><li class="li-itemize">
+<b>Differential privacy</b>: Differential privacy provides a mathematical
+definition for the privacy loss to individuals when aggregated data is
+released. Unfortunately, the growing popularity of differential privacy is
+accompanied by an increase in the development of incorrect algorithms. We
+explore type systems to prove differential privacy for sophisticated algorithms
+[<a href="pub/popl17.pdf">POPL 2017</a>,<a href="pub/pldi19.pdf">PLDI 2019</a>], as well as methods for generating
+counterexamples when the proof fails [<a href="pub/ccs18.pdf">CCS 2018</a>].
+
+</li><li class="li-itemize">
+<b>Type errors and dynamic errors</b>: Localizing program errors (both static and
+and dynamic errors) is still an extremely time consuming task. We look for general and
+precise methods for localizing errors based Bayesian reasoning [<a href="pub/diagnostic-popl14.pdf">POPL 2014</a>, <a href="pub/pldi15.pdf">PLDI 2015</a>, TOPLAS].
+<!--Try our demo for OCaml: <a href="http://apl.cs.cornell.edu/~zhangdf/diagnostic">Diagnosis of OCaml Type Inferrence Errors</a>. <BR>
+Try our demo for Haskell: <a href="http://apl.cs.cornell.edu/~zhangdf/haskelldiagnostic">Diagnosis of Haskell Type Inferrence Errors</a>. <BR>
+<a href="http://www.cs.cornell.edu/projects/sherrloc">SHErrLoc</a>,
+Static Holistic Error Locator, is released.
+</p>-->
+</li></ul>
+<h1><a name="publication"></a>Selected Recent Publications</h1> 
+[<a href="http://scholar.google.com/citations?user=rUZN-zQAAAAJ&amp;hl=en">Google scholar</a>]
+[<a href="publication.html">Complete List</a>]
+
+<div class="bib">
+[PVLDB 2020]
+<h1> Free Gap Information from the Differentially Private Sparse Vector and Noisy Max Mechanisms. </h1> with
+Zeyu Ding, Yuxin Wang and Daniel Kifer.<br/>
+</div>
+<div class="bib">
+[Security 2019]
+<h1>Identifying Cache-Based Side Channels through Secret-Augmented Abstract Interpretation.</h1>
+Shuai Wang, Yuyan Bao, Xiao Liu, Pei Wang, Dinghao Wu.<br/>
+</div>
+<div class="bib">
+[PLDI 2019]
+<h1>Proving Differential Privacy via Shadow Execution.</h1>
+with Yuxin Wang, Zeyu Ding, Guanhong Wang and Daniel Kifer.<br/>
+</div>
+<div class="bib">
+[S&amp;P 2019]
+<h1> CaSym: Cache Aware Symbolic Execution for Side Channel Detection and
+Mitigation. </h1> with 
+Robert Brotzman-Smith, Shen Liu, Gang Tan and Mahmut Kandemir.<br/>
+</div>
+<div class="bib">
+[CCS 2018 <font color="red"><b>Outstanding paper award</b></font>]
+<h1> Detecting Violations of Differential Privacy. </h1> with
+Zeyu Ding, Yuxin Wang, Guanhong Wang and Daniel Kifer.<br/>
+</div>
+<div class="bib">
+[OOPSLA 2018]  
+<h1> A Derivation Framework for Dependent Security Label Inference.</h1> with
+with Peixuan Li.<br/>
+</div>
+<div class="bib">
+[HPCA 2018]  
+<h1>RCoal: Mitigating GPU Timing Attack via Subwarp-based Randomized Coalescing Technique.</h1> with
+Gurunath Kadam and Adwait Jog.<br/>
+</div>
+<div class="bib">
+[TOPLAS]
+<h1>SHErrLoc: a Static Holistic Error Locator.</h1> with
+Andrew C. Myers, Dimitrios Vytiniotis and Simon PeytonâJones.<br/>
+</div>
+<div class="bib">
+[Security 2017]  
+<h1>CacheD: Identifying Cache-Based Timing Channels in Production
+             Software.</h1> with
+Shuai Wang, Pei Wang, Xiao Liu, Dinghao Wu.<br/>
+</div>
+<div class="bib">
+[CSF 2017]  
+<h1>Towards a Flow- and Path-Sensitive Information Flow Analysis.</h1> with
+Peixuan Li.<br/>
+</div>
+<!--<div class="bib">
+<div class="bib">
+[ASPLOS 2017]  
+<h1>Verification of a Practical Hardware Security Architecture
+           Through Static Information Flow Analysis.</h1> with
+Andrew Ferraiuolo, Rui Xu, Andrew C. Myers and G. Edward Suh.<br>
+</div>
+-->
+<div class="bib">
+[POPL 2017]  
+<h1>LightDP: Towards Automating Differential Privacy Proofs.</h1> with
+Daniel Kifer.<br/>
+</div>
+<!--<div class="bib">
+[HPCA 2016]  
+<h1>Lattice Priority Scheduling: Low-Overhead Timing Channel Protection for a Shared Memory Controller.</h1> with
+Andrew Ferraiuolo, Yao Wang, Andrew C. Myers and G. Edward Suh.<br>
+
+<div class="bib">
+[PLDI 2015 <font color="red"><B>Distinguished paper award</B></font>]
+<h1>Diagnosing Type Errors with Class.</h1> with Andrew C. Myers, Dimitrios Vytiniotis and Simon PeytonâJones.<br>
+</div>
+
+<div class="bib">
+[ASPLOS 2015]
+<h1>A Hardware Design Language for Timing-Sensitive Information-Flow Security.</h1> 
+with Yao Wang, G. Edward Suh and Andrew C. Myers.<br>
+</div>
+
+<div class="bib">
+[OSDI 2014]
+<h1>Ironclad Apps: End-to-End Security via Automated Full-System Verification.</h1> 
+with Chris Hawblitzel, Jon Howell, Jacob R. Lorch, Arjun Narayan, Bryan Parno, and Brian Zill.<br>
+</div>
+
+<div class="bib">
+[POPL 2014]
+<h1>Toward General Diagnosis of Static Errors.</h1> 
+with Andrew C. Myers.<br>
+</div>
+
+<div class="bib">
+[PLDI 2012]
+<h1>Language-based Control and Mitigation of Timing Channels.</h1> 
+with Aslan Askarov and Andrew C. Myers.<br>
+</div>
+
+<div class="bib">
+[CCS 2011]
+<h1>Predictive Mitigation of Timing Channels in Interactive Systems.</h1> 
+with Aslan Askarov and Andrew C. Myers.<br>
+</div>
+
+<div class="bib">
+[CCS 2010]
+<h1>Predictive Black-box Mitigation of Timing Channels.</h1>
+with Aslan Askarov, and Andrew C. Myers.<br>
+</div>-->
+<!-- <h1>Patents</h1>
+<div class="bib">
+<h1>Server-centric high performance network architecture for modular data centers.</h1><br>
+Pending US patent, January, 2009.
+</div>
+ 
+<h1><a name="more"></a>Industrial Experience</h1>
+<UL CLASS="itemize">
+  <LI CLASS="li-itemize">Research Intern, Microsoft Research Redmond. 2013 
+    Summer.</LI>
+  <LI CLASS="li-itemize">Research Intern, Microsoft Research Asia. 2008 
+    Summer.</LI>
+  <LI CLASS="li-itemize">Software Engineer Intern, IBM China Research Laboratory. 2007 Summer. </LI>
+</UL>-->
+<h1>Teaching</h1>
+<ul class="itemize">
+<li class="li-itemize">CMPSC 461: Programming Languages Concepts, Penn State Univ. Falls of 2015, 2016, 2017, 2018, 2019.</li>
+<li class="li-itemize">CSE 597: Language-Based Security, Penn State Univ. Spring 2016, Spring 2019, 
+<a href="http://www.cse.psu.edu/~dbz5017/cse597sp20">Spring 2020</a>.</li>
+<!-- <LI CLASS="li-itemize">TA for CS 2112: Object-Oriented Design and Data Structures â Honors, Cornell Univ. Spring 2014.</LI>
+%  <LI CLASS="li-itemize">Instructor for CS 1130: Transition to Object-Oriented Programming, Cornell Univ. Spring 2010.</LI>
+  <LI CLASS="li-itemize">TA for Operating Systems, Peking Univ. Fall, 2007.</LI>
+  <LI CLASS="li-itemize">TA for Lab. on Operating System, Peking Univ. Spring, 2007.</LI>-->
+</ul>
+<h1>Students</h1>
+<ul class="itemize">
+<li class="li-itemize">PhD</li>
+<ul class="itemize">
+<li class="li-itemize">Quan Zhou (since Fall 2019)</li>
+<li class="li-itemize">Yingtai Xiao (co-advised with Dan Kifer, since Fall 2019)</li>
+<li class="li-itemize">Yu-Tse Lin (since Fall 2017)</li>
+<li class="li-itemize">Zeyu Ding (co-advised with Dan Kifer, since Fall 2017)</li>
+<li class="li-itemize">Yuxin Wang (co-advised with Dan Kifer, since Fall 2017)</li>
+<li class="li-itemize"><a href="https://personal.psu.edu/pzl129">Peixuan Li</a> (since Fall 2016)</li>
+<li class="li-itemize"> Robert Brotzman Smith (co-advised with Gang Tan, since Fall 2016)</li>
+</ul>
+<li class="li-itemize">Masters</li>
+<ul class="itemize">
+<li class="li-itemize"> Adam Mohammed (2017) </li> <!-- Anindita Bandyopadhyay (2017), -->
+</ul>
+<li class="li-itemize">Undergraduates</li>
+<ul class="itemize">
+<li class="li-itemize">Xiang Li (2016), Yu-Tse Lin (2016), Haojun Sui (Schreyer
+Scholar, 2017), Zichao Zhang (Schreyer Scholar, 2018), Ernest DeFoy (2019),
+<a href="https://personal.psu.edu/yqz5714">Tesla Zhang</a> (2019), Jianyu Mao
+(Schreyer Scholar, 2020)
+ </li>
+</ul>
+</ul>
+<h1>Professional Activities</h1>
+<ul class="itemize">
+<li class="li-itemize">Program Committee: 
+<a href="https://www.sigsac.org/ccs/CCS2020">CCS 2020</a>, FCS 2020,
+<!--<a href= "https://web.stevens.edu/csf2019">FCS 2020</a>, -->
+<a href="http://spw20.langsec.org">LangSec 2020</a>
+</li>
+<li class="li-itemize">Past activities</li>
+<ul class="itemize">
+<li class="li-itemize">Program Committee: 
+CSF 2019, CCS 2019, TPDP 2019, POPL 2018, CCS 2018, APLAS 2018, SATE 2018, PASS 2018, SecDev 2018, APLAS 2017,
+PLAS 2017, SecDev 2017, SecDev 2016
+</li>
+<li class="li-itemize">Reviewer: Oakland 2011&amp; 2012&amp; 2015, CCS 2013&amp; 2014&amp;17, POPL 2016,
+ASPLOS 2013&amp; 2014, ICFP 2015, PLAS 2013, POST 2014.</li>
+</ul>
+</ul>
+<h1>Grants</h1>
+My research is currently supported by NSF grants <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1816282">1816282</a> and 
+<a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1702760">1702760</a>.
+<!-- and 
+<a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1566411">1566411</a>.-->
+<!--
+<UL CLASS="itemize">
+
+<LI CLASS="li-itemize">NSF SaTC: <a
+href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1816282">Information
+Flow Control Infrastructure for Single-Use Service Platforms</a>, 2018 to
+2021.</LI>
+
+<LI CLASS="li-itemize">NSF SaTC: <a
+href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1702760">Developing
+for Differential Privacy with Formal Methods and Counterexamples</a>, 2017 to 2021.</LI>
+
+<LI CLASS="li-itemize">NSF CRII: <a
+href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1566411">General,
+Precise and Accurate Fault Localization</a>, 2016 to 2018.</LI>
+</UL>-->
+<!--<h1>Honors and Awards</h1><UL CLASS="itemize">
+  <LI CLASS="li-itemize"> PLDI 2015 Distinguished Paper Award: Diagnosing Type Errors with Class, 2015.  </LI>
+  <LI CLASS="li-itemize">McMullen Fellowship, 2009.  </LI>
+  <LI CLASS="li-itemize">Hewlett-Packard Scholarship, 2008.</LI>
+  <LI CLASS="li-itemize">INTEL Fellowship, 2007.  </LI>
+</UL>-->
+<!-- <h1>Professional Service</h1>
+<UL CLASS="itemize">
+  <LI CLASS="li-itemize">Reviewer: Oakland 2011& 2012& 2015, CCS 2013& 2014, ASPLOS 2013& 2014, PLAS 2013, POST 2014.</LI>
+</UL> -->
+</div>
+</div></header></div><div><p>ï»¿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+</p>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<title>Danfeng Zhang's Publications</title>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<link href="http://www.cornell.edu/favicon.ico" rel="shortcut icon"/>
+<div id="canvas">
+<header class="site-header" itemscope="" itemtype="http://schema.org/WPHeader"><div class="wrap">
+<h1 class="page-title">Danfeng Zhang's Publications</h1>
+<div class="hideable">
+<h1><a name="peer"></a>Peer-reviewed publications</h1>
+<div class="bib">
+[HPCA 2020]  
+<h1>BCoal: Bucketing-based Memory Coalescing for Efficient and Secure GPUs.</h1>[<a href="pub/hpca20.pdf">PDF</a>]<br/>
+Gurunath Kadam, Danfeng Zhang and Adwait Jog.<br/>
+Proc. of the 26th International Symposium on High-Performance Computer Architecture, 2020, accepted.<br/>
+</div>
+<div class="bib">
+[PVLDB 2020]
+<h1>Free Gap Information from the Differentially Private Sparse Vector and Noisy Max Mechanisms.</h1>
+[<a href="pub/vldb20.pdf">PDF</a>]<br/>
+Zeyu Ding, Yuxin Wang, Danfeng Zhang and Daniel Kifer.<br/>
+Proc. of 46th International Conference on Very Large Data Bases, 2020, accepted.<br/>
+</div>
+<div class="bib">
+[Security 2019]
+<h1>Identifying Cache-Based Side Channels through Secret-Augmented
+Abstract Interpretation.</h1>
+[<a href="pub/usenix19.pdf">PDF</a>]
+<br/>
+Shuai Wang, Yuyan Bao, Xiao Liu, Pei Wang, Danfeng Zhang, Dinghao Wu.<br/>
+The 28th USENIX Security Symposium, 2019, pp. 657-674.
+</div>
+<div class="bib">
+[PLDI 2019]
+<h1>Proving Differential Privacy via Shadow Execution.</h1>
+[<a href="pub/pldi19.pdf">PDF</a>]
+<br/>
+Yuxin Wang, Zeyu Ding, Guanhong Wang, Daniel Kifer and Danfeng Zhang.<br/>
+The 40th ACM SIGPLAN Conference on Programming Language Design and
+Implementation, 2019, pp. 655-669.
+</div>
+<div class="bib">
+[S&amp;P 2019]
+<h1>CaSym: Cache Aware Symbolic Execution for Side Channel Detection and
+Mitigation.</h1>
+[<a href="pub/oakland19.pdf">PDF</a>]
+<br/>
+Robert Brotzman-Smith, Shen Liu, Danfeng Zhang, Gang Tan, Mahmut Kandemir.<br/>
+The 40th IEEE Symposium on Security and Privacy, 2019, 505-521.<br/>
+</div>
+<div class="bib">
+[CCS 2018, Outstanding paper award]
+<h1>Detecting Violations of Differential Privacy.</h1>
+[<a href="pub/ccs18.pdf">PDF</a>]<br/>
+Zeyu Ding, Yuxin Wang, Guanhong Wang, Danfeng Zhang and Daniel Kifer.<br/>
+Proc. of ACM Conference on Computer and Communications Security, 2018, pp. 475-489.<br/>
+</div>
+<div class="bib">
+[OOPSLA 2018]  
+<h1> A Derivation Framework for Dependent Security Label Inference.</h1>
+[<a href="pub/oopsla18.pdf">PDF</a>] [<a href="pub/oopsla18-poster.pdf">Poster</a>] 
+<br/>
+Peixuan Li and Danfeng Zhang.<br/>
+Object-Oriented Programming, Systems, Languages &amp; Applications Conference, 2018, Article No. 11.
+</div>
+<div class="bib">
+[HPCA 2018]  
+<h1>RCoal: Mitigating GPU Timing Attack via Subwarp-based Randomized Coalescing Technique.</h1>[<a href="pub/hpca18.pdf">PDF</a>]<br/>
+Gurunath Kadam, Danfeng Zhang and Adwait Jog.<br/>
+Proc. of the 24th International Symposium on High-Performance Computer Architecture, 2018, pp. 156-167.<br/>
+</div>
+<div class="bib">
+[TOPLAS] 
+<h1>SHErrLoc: a static holistic error locator.</h1>
+[<a href="http://dl.acm.org/citation.cfm?id=3121137">ACM</a>]<br/>
+Danfeng Zhang, Andrew C. Myers, Dimitrios Vytiniotis and Simon PeytonâJones.<br/>
+ACM Transactions on Programming Languages and Systems, 2017, Volume 39 Issue 4, Article No. 18.<br/>
+</div>
+<div class="bib">
+[USENIX Security 2017]  
+<h1>CacheD: Identifying Cache-Based Timing Channels in Production Software.</h1>
+[<a href="pub/usenix17.pdf">PDF</a>]<br/>
+Shuai Wang, Pei Wang, Xiao Liu, Danfeng Zhang and Dinghao Wu.<br/>
+Proc. of the 26th USENIX Security Symposium, 2017, pp. 235-252.<br/>
+</div>
+<div class="bib">
+[CSF 2017]  
+<h1>Towards a Flow- and Path-Sensitive Information Flow Analysis.</h1>
+[<a href="pub/csf17.pdf">PDF</a>]
+[<a href="pub/csf17-slides.pdf">Slides</a>]
+<br/>
+Peixuan Li and Danfeng Zhang.<br/>
+Proc. of the 30th IEEE Computer Security Foundations Symposium, 2017, pp. 53-67.
+</div>
+<div class="bib">
+[ASPLOS 2017]
+<h1>Verification of a Practical Hardware Security Architecture Through Static Information Flow Analysis.</h1>
+[<a href="pub/asplos17.pdf">PDF</a>]<br/>
+Andrew Ferraiuolo, Rui Xu, Danfeng Zhang, Andrew C. Myers and G. Edward Suh.<br/>
+Proc. of the 22nd International Conference on Architectural Support for Programming Languages and Operating Systems, 2017, pp. 555-568.<br/>
+</div>
+<div class="bib">
+[POPL 2017]  
+<h1>LightDP: Towards Automating Differential Privacy Proofs.</h1>
+[<a href="pub/popl17.pdf">PDF</a>]
+[<a href="pub/popl17-slides.pdf">Slides</a>]<br/>
+Danfeng Zhang and Daniel Kifer.<br/>
+Proc. of the 44th ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages, 2017, pp. 888-901.<br/>
+</div>
+<div class="bib">
+[DAC 2016]
+<h1>SecDCP: Secure Dynamic Cache Partitioning for Efficient Timing Channel Protection</h1>
+[<a href="pub/dac16.pdf">PDF</a>]<br/>
+Yao Wang, Andrew Ferraiuolo, Danfeng Zhang, Andrew C. Myers, and G. Edward Suh.<br/>
+Proceedings of the the 53rd Design Automation Conference (DAC), June 2016, Article No. 74.<br/>
+</div>
+<div class="bib">
+[HPCA 2016]  
+<h1>Lattice Priority Scheduling: Low-Overhead Timing Channel Protection for a Shared Memory Controller.</h1>
+<a href="pub/hpca16.pdf">[PDF]</a><br/>
+Andrew Ferraiuolo, Yao Wang, Danfeng Zhang, Andrew C. Myers and G. Edward Suh.<br/>
+Proceedings of the 22nd International Symposium on High-Performance Computer Architecture (HPCA), 2016, pp. 382-393.<br/>
+</div>
+<div class="bib">
+[PLDI 2015, Distinguished paper award] 
+<h1>Diagnosing Type Errors with Class.</h1> [<a href="pub/pldi15.pdf">PDF</a>] [<a href="pub/pldi15-slides.pdf">Slides</a>] [<a href="pub/pldi15-poster.pdf">Poster</a>] [<a href="http://apl.cs.cornell.edu/~zhangdf/haskelldiagnostic">Demo</a>]<br/>
+
+Danfeng Zhang, Andrew C. Myers, Dimitrios Vytiniotis and Simon PeytonâJones.<br/>
+Proc. of the 36th ACM SIGPLAN conference on Programming Language Design and Implementation, 2015, pp. 12â21.<br/>
+</div>
+<div class="bib">
+[ASPLOS 2015]
+<h1>A Hardware Design Language for Timing-Sensitive Information-Flow Security.</h1> 
+[<a href="pub/asplos15.pdf">PDF</a>] [<a href="pub/hwtiming-slides.pdf">Slides</a>] [<a href="http://www.cs.cornell.edu/projects/secverilog">Release</a>] 
+<br/>
+Danfeng Zhang, Yao Wang, G. Edward Suh and Andrew C. Myers.<br/>
+Proc. of the 20th International Conference on Architectural Support for Programming Languages and Operating Systems, 2015, pp. 503â516.<br/>
+</div>
+<div class="bib">
+[OSDI 2014]
+<h1>Ironclad Apps: End-to-End Security via Automated Full-System Verification.</h1> <br/>
+Chris Hawblitzel, Jon Howell, Jacob R. Lorch, Arjun Narayan, Bryan Parno, Danfeng Zhang and Brian Zill.<br/>
+Proc. of the 11th USENIX Symposium on Operating Systems Design and Implementation, 2014, pp. 165-181.<br/>
+</div>
+<div class="bib">
+[POPL 2014]
+<h1>Toward General Diagnosis of Static Errors.</h1> [<a href="pub/diagnostic-popl14.pdf">PDF</a>] [<a href="pub/popl14-slides.pdf">Slides</a>] [<a href="pub/popl14-poster.pdf">Poster</a>] [<a href="http://apl.cs.cornell.edu/~zhangdf/diagnostic">Demo</a>] [<a href="http://www.cs.cornell.edu/projects/sherrloc">Release</a>] <br/>
+Danfeng Zhang and Andrew C. Myers.<br/>
+Proc. of the 41st ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages, 2014, pp. 569-581.<br/>
+</div>
+<div class="bib">
+[PLDI 2012]
+<h1>Language-based Control and Mitigation of Timing Channels.</h1> [<a href="pub/pltiming-pldi12.pdf">PDF</a>] [<a href="pub/pltiming-slides.pdf">Slides</a>] [<a href="pub/pldi12-poster.pdf">Poster</a>] <br/>
+Danfeng Zhang, Aslan Askarov and Andrew C. Myers.<br/>
+Proc. of the 33rd ACM SIGPLAN conference on Programming Language Design and Implementation, 2012, pp. 99-110.<br/>
+</div>
+<div class="bib">
+[CCS 2011]
+<h1>Predictive Mitigation of Timing Channels in Interactive Systems.</h1> [<a href="pub/ccs11.pdf">PDF</a>]
+[<a href="pub/ccs11-slides.pdf">Slides</a>] [<a href="pub/sp11-poster.pdf">Poster</a>] <br/>
+Danfeng Zhang, Aslan Askarov and Andrew C. Myers.<br/>
+Proc. of the 18th ACM Conference on Computer and Communications Security, 2011, pp. 563-574.<br/>
+</div>
+<div class="bib">
+[CCS 2010]
+<h1>Predictive Black-box Mitigation of Timing Channels.</h1> [<a href="pub/ccs10.pdf">PDF</a>] <br/>
+Aslan Askarov, Danfeng Zhang and Andrew C. Myers.<br/>
+ Proc. of the 17th ACM Conference on Computer and Communications Security, 2010, pp. 297-307.
+</div>
+<div class="bib">
+[ASE 2008]
+<h1>Automated Aspect Recommendation through Clustering-Based Fan-in Analysis.</h1> [<a href="pub/ase08-final.pdf">PDF</a>] [<a href="pub/ase08-slides.pdf">Slides</a>] <br/>
+Danfeng Zhang, Yao Guo and Xiangqun Chen.<br/>
+ Proc. of the 23rd IEEE/ACM International Conference on Automated Software Engineering, 2008, pp. 278-287.
+</div>
+<div class="bib">
+[APSEC 2007]
+<h1>Toward Efficient Aspect Mining for Linux.</h1> [<a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=4425854">IEEE</a>] [<a href="pub/apsec07-slides.pdf">Slides</a>] <br/>
+Danfeng Zhang, Yao Guo, Yue Wang and Xiangqun Chen.<br/>
+ Proc. of the 14th Asia-Pacific Software Engineering Conference, 2007, pp. 191-198.
+</div>
+<h1>Non-peer-reviewed papers, reports</h1>
+<div class="bib">
+<h1>Identifying Cache-Based Side Channels through Secret-Augmented Abstract Interpretation.</h1>
+[<a href="http://arxiv.org/abs/1905.13332">arXiv</a>]<br/>
+Shuai Wang, Yuyan Bao, Xiao Liu, Pei Wang, Danfeng Zhang, Dinghao Wu.<br/>
+arXiv:1905.13332 [cs.CR], May 2019.
+</div>
+<div class="bib">
+<h1>Proving Differential Privacy with Shadow Execution.</h1>
+[<a href="http://arxiv.org/abs/1903.12254">arXiv</a>]<br/>
+Yuxin Wang, Ding Ding, Guanhong Wang, Daniel Kifer and Danfeng Zhang.<br/>
+arXiv:1903.12254 [cs.PL], March 2019.
+</div>
+<div class="bib">
+<h1>Towards a Flow- and Path-Sensitive Information Flow Analysis: Technical Report.</h1>
+[<a href="https://arxiv.org/abs/1706.01407">arXiv</a>]<br/>
+Peixuan Li and Danfeng Zhang.<br/>
+arXiv:1706.01407 [cs.PL], June 2017.
+</div>
+<div class="bib">
+<h1>LightDP: Towards Automating Differential Privacy Proofs.</h1> 
+[<a href="https://arxiv.org/abs/1607.08228">arXiv</a>]<br/>
+Danfeng Zhang and Daniel Kifer.<br/>
+arXiv:1607.08228 [cs.PL], July 2016.
+</div>
+<div class="bib">
+<h1> Full-processor timing channel protection with applications to secure
+hardware compartments.</h1> [<a href="http://hdl.handle.net/1813/41218">PDF</a>]<br/>
+Andrew Ferraiuolo, Yao Wang, Rui Xu, Danfeng Zhang, Andrew C. Myers, and G. Edward Suh.<br/>  
+Computing and Information Science Technical Report, Cornell University, November 2015.
+</div>
+<div class="bib">
+<h1>Sound and practical methods for full-system timing channel control.</h1> [<a href="pub/zhangdf-thesis.pdf">PDF</a>]<br/>
+Danfeng Zhang.<br/>
+PhD dissertation, Cornell University Department of Computer Science, August 2015.
+</div>
+<div class="bib">
+<h1>Diagnosing Haskell Type Errors.</h1> [<a href="http://hdl.handle.net/1813/39907">PDF</a>]<br/>
+Danfeng Zhang, Andrew C. Myers, Dimitrios Vytiniotis and Simon Peyton-Jones.<br/>
+Computing and Information Science Technical Report, Cornell University, April 2015.
+</div>
+<div class="bib">
+<h1>A Hardware Design Language for Efficient Control of Timing Channels.</h1> [<a href="http://hdl.handle.net/1813/36274">PDF</a>]<br/>
+Danfeng Zhang, Yao Wang, G. Edward Suh and Andrew C. Myers.<br/>
+Computing and Information Science Technical Report, Cornell University, April 2014.
+</div>
+<div class="bib">
+<h1>Toward General Diagnosis of Static Errors: Technical Report.</h1> [<a href="http://hdl.handle.net/1813/33742">PDF</a>]<br/>
+Danfeng Zhang and Andrew C. Myers.
+Computing and Information Science Technical Report, Cornell University, August 2013.
+</div>
+<div class="bib">
+<h1>Language Mechanisms for Controlling and Mitigating Timing Channels.</h1> [<a href="http://hdl.handle.net/1813/28635">PDF</a>]<br/>
+Danfeng Zhang, Aslan Askarov and Andrew C. Myers.<br/>
+Computing and Information Science Technical Report, , Cornell University, March 2012.
+</div>
+<div class="bib">
+<h1>AspectC2C: a Symmetric Aspect Extension to the C Language.</h1> [<a href="http://dl.acm.org/citation.cfm?doid=1361213.1361217">ACM</a>]<br/>
+Danfeng Zhang, Yao Guo and Xiangqun Chen.<br/>
+ACM SIGPLAN Notices, Vol 43, Issue 2, 2008, pp. 25-32.
+</div>
+<h1>Distributing papers</h1>
+<div class="note">
+The papers available here have been provided as a means to ensure timely
+dissemination of scholarly and technical work on a non-commercial basis.
+Copyright and all rights therein are maintained by the authors or by other
+copyright holders, notwithstanding that they have offered their works here
+electronically. It is understood that all persons copying this information will
+adhere to the terms and constraints invoked by each author's copyright. These
+works may not be reposted without the explicit permission of the copyright
+holder.  
+</div>
+</div></div></header></div></div></body></html>

@@ -1,0 +1,1980 @@
+<html>
+<head>
+<title> Steve Zdancewic </title>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+<!-- <body " link="#800000" vlink="#800000" alink="#800000"> -->
+<body alink="#005566" link="#005566" vlink="#005566">
+<div align="center">
+<table border="0" cellpadding="10" cellspacing="1" width="1000">
+<tr>
+<td align="left" class="aqua">
+<img align="left" border="0" src="images/steve2017.jpg" width="200"/>
+<!-- </td> -->
+<!-- <td class="yellow"> -->
+<div style="position:relative;left:60px;top:20px">
+<font size="6"> Steve Zdancewic </font> <br/>
+<font size="3">
+Professor <br/>
+<a href="http://www.cis.upenn.edu">Department of Computer and Information Science</a> <br/>
+<a href="http://www.upenn.edu">University of Pennsylvania </a><br/>
+<br/>
+<b> e-mail: </b> stevez (at) cis.upenn.edu <br/>
+<b> phone: </b> 215-898-2661             <br/>
+<b> office: </b> 511 Levine Hall         <br/>
+<b> office hours: </b> Monday 3:30-5:00pm &amp; by appointment  <br/>
+</font>
+</div>
+</td>
+</tr></table>
+<table border="0" cellpadding="3" cellspacing="1" width="1000">
+<tr>
+<td align="center" class="yellow">
+<div style="font-size:0.875em">
+<a href="cv.pdf">
+   [Curiculum Vitae]
+</a> &amp;nbsp &amp;nbsp &amp;nbsp &amp;nbsp &amp;nbsp &amp;nbsp
+<a href="papers/publications.html">
+   [Publications]
+</a> &amp;nbsp &amp;nbsp &amp;nbsp &amp;nbsp &amp;nbsp &amp;nbsp
+<a href="#teaching">
+   [Teaching]
+</a> &amp;nbsp &amp;nbsp &amp;nbsp &amp;nbsp &amp;nbsp &amp;nbsp
+<a href="#students">
+   [Students]
+</a>
+</div>
+</td>
+</tr>
+<tr>
+<td class="lightaqua">
+<font size="3">
+<h3>Research Interests</h3>
+<p style="margin-left: 20">
+
+  I study programming languages and computer security. I have
+  wide-ranging interests, and some of my most recent work touches on:
+  Coq verification of LLVM program transformations and quantum
+  circuits, type-directed program synthesis, linear types and
+  verified web server implementations.  I have also spent a lot of time thinking about
+  language-based enforcement of information-flow policies, low-level
+  code memory safety, understanding dynamic security policies, and authorization
+  logic.  I am interested in secure concurrent and
+  distributed computing, functional programming languages, type
+  theory, linear and modal logics, theorem proving and mechanized
+  metatheory.  More information about my research can be found in this
+  (out of date) <a href="zdancewic-research.pdf">research
+  statement</a>.
+
+  </p>
+<hr/>
+<h3>Current Research Projects and Activities</h3>
+<p style="margin-left:20">
+</p><table border="0" cellpadding="5" cellspacing="20" width="100%">
+<tr>
+<td align="center" style="height:100;border-width:1;padding:5;border-style:solid;border-color:#e3e7ef;background-color:white">
+<img border="0" height="100" src="images/plclub-logo-small.png"/>
+</td>
+<td valign="top">
+<span style="font-size:125%"><b><a href="http://www.cis.upenn.edu/~plclub/">PL Club</a> </b>
+</span>
+<p style="margin-top:0">
+  Penn's programming languages research group, run jointly with <a href="http://www.cis.upenn.edu/~bcpierce">Benjamin Pierce</a> and <a href="http://www.cis.upenn.edu/~sweirich">Stephanie Weirich</a>.  We
+  meet weekly with students and post-docs to discuss current research topics.
+  </p>
+</td>
+</tr>
+<tr>
+<td align="center" style="height:100;border-width:1;padding:5;border-style:solid;border-color:#e3e7ef;background-color:white">
+<img border="0" height="100" src="http://deepspec.org/img/deepspec-logo-300dpi.png"/>
+</td>
+<td valign="top">
+<span style="font-size:125%"><b><a href="http://deepspec.org">NSF
+  Expedition on the Science of Deep Specification</a> </b> </span>
+<p style="margin-top:0">
+  The <i>DeepSpec</i> project focuses on the specification and
+  verification of full functional correctness of software and
+  hardware.  We are bringing Coq formalization to bear on
+  systems-level programs such as compilers, operating systems, and
+  databases. 
+  </p>
+<p>
+<img border="0" src="images/git-icon.svg" width="15"/>
+<a href="https://github.com/DeepSpec/InteractionTrees">Interaction Trees Coq development</a>
+</p>
+</td>
+</tr>
+<tr>
+<td style="width:100;border-width:1;padding:5;border-style:solid;border-color:#e3e7ef;background-color:white">
+<img align="top" border="0" src="images/vellvm-logo.png" width="100"/>
+</td>
+<td valign="top">
+<span style="font-size:125%"><b><a href="http://www.cis.upenn.edu/~stevez/vellvm/">Vellvm</a> </b> </span>
+<p style="margin-top:0">
+  The <i>verified LLVM</i> project is developing operational semantics
+  for the <a href="http://llvm.org/">LLVM</a> intermediate
+  representation using the interactive theorem prover <a href="http://coq.inria.fr/">Coq</a>.  The resulting tools let us
+  create highly-reliable program transformation passes and optimizations.
+  </p>
+<p>
+<img border="0" src="images/git-icon.svg" width="15"/>
+<a href="https://github.com/vellvm/vellvm">Vellvm Coq development</a>
+</p>
+</td>
+</tr>
+<tr>
+<td style="width:100;border-width:1;padding:5;border-style:solid;border-color:#e3e7ef;background-color:white">
+<img align="top" border="0" src="images/quantum-logo.png" width="100"/>
+</td>
+<td valign="top">
+<span style="font-size:125%"><b><a href="http://cs.tulane.edu/quantum/team.html">Semantics, Formal Reasoning, and
+  Tools for Quantum Programming</a> </b> </span>
+<p style="margin-top:0">
+  Quantum algorithms are complex, and quantum computers explore alternative
+  computation branches in superposition, so programming mistakes in even minor
+  parts of the code can alter the quantum state and invalidate the final
+  result. The goal of this project is to devise novel methods for ensuring that
+  quantum programs are correct.
+    </p>
+<p>
+<img border="0" src="images/git-icon.svg" width="15"/>
+<a href="https://github.com/inQWIRE/QWIRE">QWIRE Coq development</a>
+</p>
+</td>
+</tr>
+</table>
+<h3>Previous Research Projects and Activities</h3>
+<p style="margin-left:20">
+</p><table border="0" cellpadding="5" cellspacing="3" width="100%">
+<tr>
+<td style="width:100;border-width:1;padding:5;border-style:solid;border-color:#e3e7ef;background-color:white">
+<img align="top" border="0" src="images/excape-logo.png" width="100"/>
+</td>
+<td valign="top">
+<span style="font-size:125%"><b><a href="https://excape.cis.upenn.edu/">ExCAPE</a> </b> </span>
+<p style="margin-top:0">
+  This NSF Expedition on <i>Computer-Augmented Program Engineering</i>
+  seeks to transform the way that programmers develop software by
+  advancing the theory and practice of software synthesis.
+  </p>
+</td>
+</tr>
+<tr>
+<td style="width:100;border-width:1;padding:5;border-style:solid;border-color:#e3e7ef;background-color:white">
+<img align="top" border="0" src="images/softbound.png" width="100"/>
+</td>
+<td valign="top">
+<span style="font-size:125%"><b><a href="http://www.cis.upenn.edu/acg/softbound/">SoftBound + CETS</a>
+</b> </span>
+<p style="margin-top:0">
+    This project is developing software instrumentation techniques to
+  achieve complete memory safety for C programs, while requiring
+  minimal changes to the source programs.
+  </p>
+</td>
+</tr>
+<tr>
+<td style="width:100;border-width:1;padding:5;border-style:solid;border-color:#e3e7ef;background-color:white">
+<img align="top" border="0" src="images/sol-thumbnail.jpg" width="100"/>
+</td>
+<td valign="top">
+<span style="font-size:125%"><b><a href="http://www.cis.upenn.edu/%7Estevez/sol/">Security-Oriented
+  Languages</a> </b> </span>
+<p style="margin-top:0">
+    This research seeks to develop programming language abstractions
+  and analyses that let developers create programs that are secure by
+  construction.  
+  </p>
+</td>
+</tr>
+</table>
+<hr/>
+<h3>Recent Publications (<a href="papers/publications.html">Complete List</a>)</h3>
+<ul style="list-style-type:square;margin-top:0">
+<li>
+<a href="http://www.cis.upenn.edu/~stevez/papers/XZHH+20.pdf">Interaction
+  Trees: Representing Recursive and Impure Programs in Coq</a>
+  [POPL20] (<b><i>distinguished paper</i></b>)
+  </li>
+<li>
+<a href="http://www.cis.upenn.edu/~stevez/papers/ZHHZ20.pdf">An Equational Theory for Weak Bisimulation via Generalized Parameterized Coinduction</a> [CPP20]
+  </li>
+<li>
+<a href="http://www.cis.upenn.edu/~stevez/MM+19.pdf">Synthesizing Symmetric
+  Lenses</a> [ICFP2019]
+  </li>
+<li>
+<a href="http://www.cis.upenn.edu/~stevez/papers/HHNZ19.pdf">SoK: General
+  Purpose Compilers for Secure Multi-Party Computation</a> [Oakland19]
+  </li>
+<li>
+<a href="papers/publications.html">«more»</a>
+</li>
+</ul>
+<hr/>
+<h3> <a name="teaching">Teaching (</a><a href="zdancewic-teaching.pdf">Summary</a>)</h3>
+<ul style="list-style-type:square;margin-top:0">
+<li> <i>Programming Languages and Techniques I</i> (CIS 120)<br/>
+<span style="margin-left:20">
+<a href="http://www.cis.upenn.edu/~cis120/archive/19fa">2019</a>,
+  2017, 2016, 2014, 2012, 2011, <a href="http://www.seas.upenn.edu/~cis120e">
+  2010
+  </a></span></li>
+<li> <i>Compilers</i> (CIS 341) <br/>
+<span style="margin-left:20"><a href="http://www.seas.upenn.edu/~cis341/index.html">
+  2020
+  </a>, 2018,2017,2015, 2013, 2011, 2008</span></li>
+<li>Software Foundations (CIS 500) <br/>
+<span style="margin-left:20">2016, <a href="http://www.seas.upenn.edu/~cis500/cis500-f13/index.html">2013
+  </a></span></li>
+<li> <i>Software and Compiler Verification</i> (CIS 700)<br/>
+<span style="margin-left:20"><a href="http://www.cis.upenn.edu/~stevez/CIS700-05.html">
+  2005
+  </a></span></li>
+<li> <i>Computer and Network Security</i> (CIS 551)<br/>
+<span style="margin-left:20"><a href="http://www.cis.upenn.edu/~cis551/index.html">
+  2012
+  </a>,
+
+  <a href="cis551/2009/web/index.html">
+  2009
+  </a>,
+
+  <a href="cis551/2008/web/index.html">
+  2008
+  </a>,
+
+  <a href="cis551/2007/web/index.html">
+  2007
+  </a>,
+
+  <a href="cis551/2006/web/index.html">
+  2006
+  </a>,
+
+  <a href="cis551/2005/web/index.html">
+  2005
+  </a>
+</span>
+</li>
+<li> <i>Introduction to Networks and Security</i> (CSE 331)<br/>
+<span style="margin-left:20">
+<a href="http://www.cis.upenn.edu/~cse331">
+  2006
+  </a>,
+
+  <a href="http://www.cis.upenn.edu/~cse331/Fall04/index.html">
+  2004
+  </a>,
+
+  <a href="http://www.cis.upenn.edu/~cse331/Fall03/index.html">
+  2003
+  </a>,
+
+  <a href="http://www.cis.upenn.edu/~cse331/Fall02/index.html">
+  2002
+  </a>
+</span>
+</li>
+<li> <i>π-Calculus and Foundations of
+  Concurrent Systems</i> (CIS 700)<br/>
+<span style="margin-left:20">
+<a href="http://www.cis.upenn.edu/~stevez/CIS700-04.html">
+  2004
+  </a>
+</span>
+</li>
+<li> <i>Advanced Topics in PL: Safety and Security</i> (CIS 670)<br/>
+<span style="margin-left:20">
+<a href="http://www.seas.upenn.edu/~cis670/Spring2003/">
+  2003
+  </a>
+</span>
+</li>
+</ul>
+<hr/>
+<h3>Advising</h3>
+<p style="margin-left:20;margin-bottom:0;padding:0">
+<b><a name="students">Post Docs</a></b>
+</p><ul style="list-style-type:square;margin-top:0">
+<li> <a href="http://www.irisa.fr/celtique/zakowski/">Yannick Zackowski</a> (post doc 2018 - ) </li>
+</ul>
+<p style="margin-left:20;margin-bottom:0;padding:0">
+<b><a name="students">Current PhD Students</a></b>
+</p><ul style="list-style-type:square;margin-top:0">
+<li> <a href="https://github.com/Chobbes">Calvin Beck</a> (Coadvised with Benjamin Pierce)</li>
+<li> <a href="https://paulhe.com/">Paul He</a></li>
+<li> <a href="https://www.cis.upenn.edu/~yishuai/">Yishuai Li</a> (Coadvised with Benjamin Pierce)</li>
+<li> <a href="">Solomon Maina</a></li>
+<li> <a href="https://scholar.google.com/citations?user=hrtzZP0AAAAJ&amp;hl=en">Nick Rioux</a></li>
+<li> <a href="https://poisson.chat/">Li-yao Xia</a>  (Coadvised with Benjamin Pierce)</li>
+</ul>
+<p style="margin-left:20;margin-bottom:0;padding:0">
+<b>Former Students and Post Docs</b>
+</p><ul style="list-style-type:square;margin-top:0">
+<li> <a href="">Nicolas Koh</a> (2015-2019, Coadvised with Benjamin Pierce)</li>
+<li> <a href="http://www.cse.unsw.edu.au/~crizkallah/">Christine Rizkallah</a>
+  (post doc 2016-2018, now a UNSW)</li>
+<li> <a href="https://www.cs.umd.edu/~rrand/">Robert Rand</a> (PhD 2018, now
+  at UMD)</li>
+<li> <a href="https://jpaykin.github.io/">Jennifer Paykin</a> (PhD 2018, now
+  at Galois)</li>
+<li> Dmitri Garbuzov (Masters 2016) </li>
+<li> <a href="https://www.cs.uic.edu/~mansky/">William Mansky</a>
+  (post doc 2015-2016, now at UIC)</li>
+<li> <a href="https://iampmo.com/">Peter-Michael Osera
+  </a> (PhD 2015, now at Grinnell College)</li>
+<li> <a href="http://www.monoidal.net/">Benoît Valiron</a>
+  (post doc 2012-2013)
+  </li>
+<li> <a href="http://www.linkedin.com/pub/hongbo-zhang/57/741/a85">Hongbo (Bob) Zhang</a>
+  (Masters 2013, now at Bloomberg)
+  </li>
+<li> Jianzhou Zhao
+  (PhD 2013, now at Facebook)
+  </li>
+<li>
+<a href="http://www.linkedin.com/in/karlmazurak">Karl Mazurak</a>
+  (PhD 2013, now at Google)
+  </li>
+<li>
+<a href="http://www.jeffvaughan.net/">Jeff Vaughan</a>
+  (PhD 2009, now at LogicBlox) </li>
+<li>
+<a href="http://www.andrew.cmu.edu/user/liminjia/">
+  Limin Jia, PhD
+  </a>
+  (post doc 2007-2009, now at CMU)
+</li>
+<li>
+ Peng Li
+ (PhD 2008, now at Google)
+</li>
+<li>
+  Stephen Tse
+  (PhD 2007, now at a startup) </li>
+</ul>
+<hr/>
+<h3> Awards and Honors </h3>
+<ul style="margin:0;list-style-type:square">
+<li> IEEE MICRO <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6487479">"top picks"</a>, 2013</li>
+<li> Alfred P. Sloan Fellow, 2009-2010 </li>
+<li> NSF CAREER award, 2004 </li>
+<li> Best Paper award at SOSP, 2001 </li>
+<li> Intel Foundation Graduate Fellowship, 2001 </li>
+<li> Best Paper award at ICFP, 1999 </li>
+<li> NSF Graduate Student Fellowship, 1996 </li>
+</ul>
+<br/>
+<hr/>
+<!-- <h3> Funding </h3> -->
+<!-- <p style="margin-left:20;margin-bottom:0;margin-top:0"> -->
+<!-- My research has been supported in part by the following grants.  Any -->
+<!-- opinions, findings, and conclusions or recommendations expressed in -->
+<!-- this material are those of the author(s) and do not necessarily -->
+<!-- reflect the views of the National Science Foundation. -->
+<!-- <ul style="list-style-type:square"> -->
+<!--   <li> NSF: <i>Dynamic Security Policies</i> </li> -->
+<!--   <li> NSF: <i>CAREER: Language-based Distributed -->
+<!--   System Security</i> </li> -->
+<!--   <li> ONR:  <a href="http://www.cis.upenn.edu/group/spyce/timedc/">TIME-DC</a></li> -->
+<!--   <li> NSF: <i>Resource-guided Implementation -->
+<!--   of Secure Embedded Software</i></li> -->
+<!--   <li> NSF:  -->
+<!--   <i>Flexible, Decentralized Infomation-flow Control -->
+<!--   for Dynamic Environments</i> </li> -->
+<!--   <li> NSF CRI: <i> Machine Assistance for -->
+<!--   Programming Language Research</i> </li> -->
+<!--   <li> NSF CCF: <i>Unifying Events and Threads: -->
+<!--   Language Support for Network Services</i></li> -->
+<!--   <li> NSF CT-T: <i>Collaborative Research: Manifest -->
+<!--   Security</i></li> -->
+<!--   <li> DARPA: <i>Machine-checked Metatheory for Security-oriented Languages</i></li> -->
+<!--   <li> ONR: <i> Networks Opposing Botnets</i></li> -->
+<!--   <li> NSF SHF: <i>Practical Linear Types for Safe Protocols</i></li> -->
+<!--   <li> NSF CCF: <i>Validating Program Transformations in a Mechanized -->
+<!--   LLVM</i></li> -->
+<!--   <li> ONR: <i> Ironclad C/C++: Enforcing Memory Safety to Prevent -->
+<!--   Low-level Security Vulnerabilities</i></li> -->
+<!--   <li> NSF TC: <i>WATCHDOG: Hardware-Assisted Prevention of All Use-After-Free Security Vulnerabilities</i> -->
+<!-- </ul> -->
+<!-- </p> -->
+</font>
+</td>
+</tr>
+<tr>
+<td align="left" class="aqua">
+<h3> Miscellany </h3>
+<p style="margin-left:20">
+</p><ul style="list-style-type:square">
+<li> My wife, <a href="http://www.cis.upenn.edu/~sweirich">Stephanie
+Weirich</a>, is also on the Computer and Information Science Faculty at
+Penn. </li>
+<li> Some of my old <a href="talks.html">talks</a> are available.
+</li><li> At some point I wrote up some   <a href="writing-tips.html">writing tips</a> for PhD students.
+
+</li></ul>
+</td>
+</tr>
+<tr>
+<td align="right" class="yellow">
+<font size="1">
+<!-- hhmts start -->Last modified: Thu Jan 16 13:42:34 EST 2020 <!-- hhmts end -->
+</font>
+</td>
+</tr>
+</table>
+</div>
+<div alink="#005566" link="#005566" vlink="#005566">
+<center>
+<table border="0" cellpadding="3" cellspacing="3" width="800">
+<tr>
+<td align="left" class="yellow" valign="middle" width="100%">
+<font size="5">
+Steve Zdancewic's Publications
+</font><br/>
+<a href="#COPY">Copyright Information</a>
+</td>
+</tr>
+<tr><td align="left" class="lightaqua" valign="middle" width="100%">
+<font size="4">Journal Articles</font>
+<!-- This document was automatically generated with bibtex2html 1.99
+     (see http://www.lri.fr/~filliatr/bibtex2html/),
+     with the following command:
+     bibtex2html -o hjournal -citefile hjournal.keys -nodoc -d -r -both -nobibsource -nf ps PS -nf pdf PDF -s ./bold-title.bst zdancewic.bib  -->
+<table>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="XZHH+20">1</a>]
+</td>
+<td class="bibtexitem">
+Li yao Xia, Yannick Zakowski, Paul He, Chung-Kil Hur, Gregory Malecha,
+  Benjamin C. Pierce, and Steve Zdancewic.
+ <b>Interaction Trees</b>.
+ <em>Proceedings of the ACM on Programming Languages</em>, 4(POPL),
+  January 2020.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/XZHH+20.pdf">PDF</a>  
+<a href="abstracts.html#XZHH+20">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="MM+19">2</a>]
+</td>
+<td class="bibtexitem">
+Anders Miltner, Solomon Maina, Kathleen Fisher, Benjamin C. Pierce, David
+  Walker, and Steve Zdancewic.
+ <b>Synthesizing Symmetric Lenses</b>.
+ <em>Proceedings of the ACM on Programming Languages</em>, (ICFP), 2019.
+[ <a href="http://www.cis.upenn.edu/~stevez/MM+19.pdf">PDF</a>  
+<a href="abstracts.html#MM+19">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="MFP+17">3</a>]
+</td>
+<td class="bibtexitem">
+Anders Miltner, Kathleen Fisher, Benjamin C. Pierce, David Walker, and Steve
+  Zdancewic.
+ <b>Synthesizing Bijective Lenses</b>.
+ <em>Proceedings of the ACM on Programming Languages</em>, 2(POPL),
+  January 2018.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/MFP+17.pdf">PDF</a>  
+<a href="abstracts.html#MFP+17">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="MMF+18">4</a>]
+</td>
+<td class="bibtexitem">
+Solomon Maina, Anders Miltner, Kathleen Fisher, Benjamin C. Pierce, David
+  Walker, and Steve Zdancewic.
+ <b>Synthesizing Quotient Lenses</b>.
+ <em>Proceedings of the ACM on Programming Languages</em>, 2(ICFP), 2018.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/MMF+18.pdf">PDF</a>  
+<a href="abstracts.html#MMF+18">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="ABCP+17">5</a>]
+</td>
+<td class="bibtexitem">
+Andrew W. Appel, Lennart Beringer, Adam Chlipala, Benjamin C. Pierce, Zhong
+  Shao, Stephanie Weirich, and Steve Zdancewic.
+ <b>Position paper: the science of deep specification</b>.
+ <em>Philosophical Transactions of the Royal Society of London A:
+  Mathematical, Physical and Engineering Sciences</em>, 375(2104), 2017.
+[ <a href="https://doi.org/10.1098/rsta.2016.0331">DOI</a>  
+<a href="http://rsta.royalsocietypublishing.org/content/375/2104/20160331">http</a>  
+<a href="abstracts.html#ABCP+17">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="VZ14a">6</a>]
+</td>
+<td class="bibtexitem">
+B. Valiron and S. Zdancewic.
+ <b>Modeling Simply-Typed Lambda Calculi in the Category of Finite
+  Vector Spaces</b>.
+ <em>Scientific Annals of Computer Science</em>, 24(2):325--368, 2014.
+[ <a href="https://doi.org/10.7561/SACS.2014.2.325">DOI</a>  
+<a href="http://www.infoiasi.ro/bin/download/Annals/XXIV2/XXIV2_5.pdf">PDF</a>  
+<a href="abstracts.html#VZ14a">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="LZ10">7</a>]
+</td>
+<td class="bibtexitem">
+Peng Li and Steve Zdancewic.
+ <b>Arrows for Secure Information Flow</b>.
+ <em>Theoretical Computer Science</em>, 411(19):1974--1994, 2010.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/LZ10.pdf">PDF</a>  
+<a href="abstracts.html#LZ10">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="TZ08">8</a>]
+</td>
+<td class="bibtexitem">
+Stephen Tse and Steve Zdancewic.
+ <b>Run-time principals in information-flow type systems</b>.
+ <em>Transactions on Programming Languages and Systems</em>, 30(1):6,
+  2008.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/TZ08.pdf">PDF</a>  
+<a href="abstracts.html#TZ08">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="MSZ06">9</a>]
+</td>
+<td class="bibtexitem">
+Andrew C. Myers, Andrei Sabelfeld, and Steve Zdancewic.
+ <b>Enforcing Robust Declassification and Qualified Robustness</b>.
+ <em>Journal of Computer Security</em>, 14(2):157--196, 2006.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/MSZ06.pdf">PDF</a>  
+<a href="abstracts.html#MSZ06">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="LWZ06">10</a>]
+</td>
+<td class="bibtexitem">
+Jay Ligatti, David Walker, and Steve Zdancewic.
+ <b>A Type-theoretic Interpretation of Pointcuts and Advice</b>.
+ <em>Science of Computer Programming: Special Issue on Foundations of
+  Aspect-Oriented Programming</em>, pages 240--266, 2006.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/LWZ06.pdf">PDF</a>  
+<a href="abstracts.html#LWZ06">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="ZZNM02">11</a>]
+</td>
+<td class="bibtexitem">
+Steve Zdancewic, Lantian Zheng, Nathaniel Nystrom, and Andrew C. Myers.
+ <b>Secure Program Partitioning</b>.
+ <em>Transactions on Computer Systems</em>, 20(3):283--328, 2002.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/ZZNM02.pdf">PDF</a>  
+<a href="http://www.cis.upenn.edu/~stevez/papers/ZZNM02.ps">PS</a>  
+<a href="abstracts.html#ZZNM02">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="ZM02">12</a>]
+</td>
+<td class="bibtexitem">
+Steve Zdancewic and Andrew C. Myers.
+ <b>Secure Information Flow via Linear Continuations</b>.
+ <em>Higher Order and Symbolic Computation</em>, 15(2/3):209--234, 2002.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/ZM02.pdf">PDF</a>  
+<a href="http://www.cis.upenn.edu/~stevez/papers/ZM02.ps">PS</a>  
+<a href="abstracts.html#ZM02">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="GMZ00">13</a>]
+</td>
+<td class="bibtexitem">
+Dan Grossman, Greg Morrisett, and Steve Zdancewic.
+ <b>Syntactic Type Abstraction</b>.
+ <em>Transactions on Programming Languages and Systems</em>,
+  22(6):1037--1080, November 2000.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/GMZ00.pdf">PDF</a>  
+<a href="http://www.cis.upenn.edu/~stevez/papers/GMZ00.ps">PS</a>  
+<a href="abstracts.html#GMZ00">Abstract</a> ]
+
+</td>
+</tr>
+</table>
+</td></tr>
+<tr><td align="left" class="lightaqua" valign="middle" width="100%">
+<font size="4">Invited Papers</font>
+<!-- This document was automatically generated with bibtex2html 1.99
+     (see http://www.lri.fr/~filliatr/bibtex2html/),
+     with the following command:
+     bibtex2html -o hinvited -citefile hinvited.keys -nodoc -d -r -both -nobibsource -nf ps PS -nf pdf PDF -s ./bold-title.bst zdancewic.bib  -->
+<table>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="Zda04">1</a>]
+</td>
+<td class="bibtexitem">
+Steve Zdancewic.
+ <b>Challenges for Information-flow Security</b>.
+ In <em>Proceedings of the 1st International Workshop on the
+  Programming Language Interference and Dependence (PLID 2004)</em>, 2004.
+ (5 pages).
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/Zda04.pdf">PDF</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="Zda03">2</a>]
+</td>
+<td class="bibtexitem">
+Steve Zdancewic.
+ <b>A Type System for Robust Declassification</b>.
+ In <em>Proceedings of the Nineteenth Conference on the Mathematical
+  Foundations of Programming Semantics (MFPS)</em>. Electronic Notes in Theoretical
+  Computer Science, March 2003.
+ (16 pages).
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/Zda03.pdf">PDF</a>  
+<a href="http://www.cis.upenn.edu/~stevez/papers/Zda03.ps">PS</a>  
+<a href="abstracts.html#Zda03">Abstract</a> ]
+
+</td>
+</tr>
+</table>
+</td></tr>
+<tr><td align="left" class="lightaqua" valign="middle" width="100%">
+<font size="4">Conference and Selective Workshop Papers</font>
+<!-- This document was automatically generated with bibtex2html 1.99
+     (see http://www.lri.fr/~filliatr/bibtex2html/),
+     with the following command:
+     bibtex2html -o hsconf -citefile hsconf.keys -nodoc -d -r -both -nobibsource -nf ps PS -nf pdf PDF -s ./bold-title.bst zdancewic.bib  -->
+<table>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="ZHHZ20">1</a>]
+</td>
+<td class="bibtexitem">
+Yannick Zakowski, Paul He, Chung-Kil Hur, and Steve Zdancewic.
+ <b>An Equational Theory for Weak Bisimulation via Generalized
+  Parameterized Coinduction</b>.
+ In <em>Proceedings of the 9th ACM SIGPLAN International Conference
+  on Certified Programs and Proofs (CPP)</em>, January 2020.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/ZHHZ20.pdf">PDF</a>  
+<a href="abstracts.html#ZHHZ20">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="KLL+19">2</a>]
+</td>
+<td class="bibtexitem">
+Nicolas Koh, Yao Li, Yishuai Li, Li yao Xia, Lennart Beringer, Wolf Honoré,
+  William Mansky, Benjamin C. Pierce, and Steve Zdancewic.
+ <b>From C to Interaction Trees: Specifying, Verifying, and Testing
+  a Networked Server</b>.
+ In <em>Proceedings of the 8th ACM SIGPLAN International Conference
+  on Certified Programs and Proofs (CPP)</em>, January 2019.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/KLL+19.pdf">PDF</a>  
+<a href="abstracts.html#KLL+19">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="HHNZ19">3</a>]
+</td>
+<td class="bibtexitem">
+Marcella Hastings, Brett Hemenway, Daniel Noble, and Steve Zdancewic.
+ <b>SoK: General Purpose Compilers for Secure Multi-Party
+  Computation</b>.
+ In <em>IEEE 2019 Symposium on Security and Privacy (Oakland)</em>,
+  2019.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/HHNZ19.pdf">PDF</a>  
+<a href="abstracts.html#HHNZ19">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="PZ19a">4</a>]
+</td>
+<td class="bibtexitem">
+Jennifer Paykin and Steve Zdancewic.
+ <b>A HoTT Quantum Equational Theory</b>.
+ In <em>The 16th International Conference on Quantum Physics and
+  Logic (QPL)</em>, 2019.
+ extended version available on arXiv.
+[ <a href="https://arxiv.org/abs/1904.04371">http</a>  
+<a href="abstracts.html#PZ19a">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="RGZ18">5</a>]
+</td>
+<td class="bibtexitem">
+Christine Rizkallah, Dmitri Garbuzov, and Steve Zdancewic.
+ <b>A Formal Equational Theory for Call-By-Push-Value</b>.
+ In <em>9th International Conference on Interactive Theorem Proving
+  (ITP)</em>, 2018.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/RGZ18.pdf">PDF</a>  
+<a href="abstracts.html#RGZ18">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="RPLZ18">6</a>]
+</td>
+<td class="bibtexitem">
+Robert Rand, Jennifer Paykin, Dong-Ho Lee, and Steve Zdancewic.
+ <b>REQUIRE: Reasoning about Reversible Quantum Circuits</b>.
+ In <em>The 15th International Conference on Quantum Physics and
+  Logic (QPL)</em>, 2018.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/RPLZ18.pdf">PDF</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="PRZ17">7</a>]
+</td>
+<td class="bibtexitem">
+Jennifer Paykin, Robert Rand, and Steve Zdancewic.
+ <b>QWire: A Core Language for Quantum Circuits</b>.
+ In <em>Proc. of the ACM Symposium on Principles of Programming
+  Languages (POPL)</em>, 2017.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/PRZ17.pdf">PDF</a>  
+<a href="abstracts.html#PRZ17">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="MPZD17">8</a>]
+</td>
+<td class="bibtexitem">
+William Mansky, Yuanfeng Peng, Steve Zdancewic, and Joseph Devietti.
+ <b>Verifying Dynamic Race Detection</b>.
+ In <em>The 6th ACM SIGPLAN Conference on Certified Programs and
+  Proofs (CPP 2017)</em>, 2017.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/MPZD17.pdf">PDF</a>  
+<a href="abstracts.html#MPZD17">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="RPZ17">9</a>]
+</td>
+<td class="bibtexitem">
+Robert Rand, Jennifer Paykin, and Steve Zdancewic.
+ <b><em>Q</em>wire Practice: Formal Verification of
+  Quantum Circuits in Coq</b>.
+ In <em>The 14th International Conference on Quantum Physics and
+  Logic (QPL)</em>, 2017.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/RPZ17.pdf">PDF</a>  
+<a href="abstracts.html#RPZ17">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="PZ17">10</a>]
+</td>
+<td class="bibtexitem">
+Jennifer Paykin and Steve Zdancewic.
+ <b>The Linearity Monad</b>.
+ In <em>Proceedings of the 10th ACM SIGPLAN International Haskell
+  Symposium</em>, 2017.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/PZ17.pdf">PDF</a>  
+<a href="abstracts.html#PZ17">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="FOWZ16">11</a>]
+</td>
+<td class="bibtexitem">
+Jonathan Frankle, Peter-Michael Osera, David Walker, and Steve Zdancewic.
+ <b>Example-Directed Synthesis: A Type-Theoretic Interpretation</b>.
+ In <em>Proc. of the ACM Symposium on Principles of Programming
+  Languages (POPL)</em>, 2016.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/FOWZ16.pdf">PDF</a>  
+<a href="abstracts.html#FOWZ16">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="PZ16">12</a>]
+</td>
+<td class="bibtexitem">
+Jennifer Paykin and Steve Zdancewic.
+ <b>Linear λμ is CP (more or less)</b>.
+ In <em>A List of Successes to Change the World (Wadlerfest)</em>, 2016.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/PZ16.pdf">PDF</a>  
+<a href="abstracts.html#PZ16">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="OZ15">13</a>]
+</td>
+<td class="bibtexitem">
+Peter-Michael Osera and Steve Zdancewic.
+ <b>Type-and-Example-Directed Program Synthesis</b>.
+ In <em>Proc. 2015 ACM SIGPLAN Conference on Programming Languages
+  Design and Implementation (PLDI)</em>, 2015.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/OZ15.pdf">PDF</a>  
+<a href="abstracts.html#OZ15">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="KHM+15">14</a>]
+</td>
+<td class="bibtexitem">
+Jeehoon Kang, Chung-Kil Hur, William Mansky, Dmitri Garbuzov, Steve Zdancewic,
+  and Viktor Vafeiadis.
+ <b>A Formal C Memory Model Supporting Integer-Pointer Casts</b>.
+ In <em>Proc. 2015 ACM SIGPLAN Conference on Programming Languages
+  Design and Implementation (PLDI)</em>, 2015.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/KHM+15.pdf">PDF</a>  
+<a href="abstracts.html#KHM+15">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="MGZ15">15</a>]
+</td>
+<td class="bibtexitem">
+William Mansky, Dmitri Garbuzov, and Steve Zdancewic.
+ <b>An Axiomatic Specification for Sequential Memory Models</b>.
+ In <em>Computer Aided Verification - 27th International Conference,
+  CAV 2015</em>, 2015.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/MGZ15.pdf">PDF</a>  
+<a href="abstracts.html#MGZ15">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="NMZ15">16</a>]
+</td>
+<td class="bibtexitem">
+Santosh Nagarakatte, Milo M. K. Martin, and Steve Zdancewic.
+ <b>Everything You Want to Know About Pointer-Based Checking</b>.
+ In <em>1st Summit on Advances in Programming Languages, SNAPL
+  2015, May 3-6, 2015, Asilomar, California, USA</em>, pages 190--208, 2015.
+[ <a href="https://doi.org/10.4230/LIPIcs.SNAPL.2015.190">DOI</a>  
+<a href="http://www.cis.upenn.edu/~stevez/papers/NMZ15.pdf">PDF</a>  
+<a href="http://dx.doi.org/10.4230/LIPIcs.SNAPL.2015.190">http</a>  
+<a href="abstracts.html#NMZ15">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="RZ15">17</a>]
+</td>
+<td class="bibtexitem">
+Robert Rand and Steve Zdancewic.
+ <b>VPHL: A Verified Partial-Correctness Logic for Probabilistic
+  Programs</b>.
+ In <em>Mathematical Foundations of Program Semantics (MFPS)</em>, 2015.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/RZ15.pdf">PDF</a>  
+<a href="abstracts.html#RZ15">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="NMZ14">18</a>]
+</td>
+<td class="bibtexitem">
+Santosh Nagarakatte, Milo M. K. Martin, and Steve Zdancewic.
+ <b>WatchdogLite: Hardware-Accelerated Compiler-Based Pointer
+  Checking</b>.
+ In <em>Proceedings of Annual IEEE/ACM International Symposium on
+  Code Generation and Optimization</em>, CGO  2014, pages 175:175--175:184. ACM,
+  2014.
+[ <a href="https://doi.org/10.1145/2544137.2544147">DOI</a>  
+<a href="http://www.cis.upenn.edu/~stevez/papers/NMZ14.pdf">PDF</a>  
+<a href="http://doi.acm.org/10.1145/2544137.2544147">http</a>  
+<a href="abstracts.html#NMZ14">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="BGMZ14">19</a>]
+</td>
+<td class="bibtexitem">
+Aloïs Brunel, Marco Gaboardi, Damiano Mazza, and Steve Zdancewic.
+ <b>A Core Quantitative Coeffect Calculus</b>.
+ In <em>Proc. of the 23rd European Symposium on Programming (ESOP)</em>,
+  volume 8410, pages 351--370, 2014.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/BGMZ14.pdf">PDF</a>  
+<a href="abstracts.html#BGMZ14">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="VZ14">20</a>]
+</td>
+<td class="bibtexitem">
+Benoît Valiron and Steve Zdancewic.
+ <b>Finite vector spaces as model of simply-typed lambda-calculi</b>.
+ In <em>Proceedings of the 11th International Colloquium on
+  Theoretical Aspects of Computing (ICTAC 14)</em>, 2014.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/VZ14.pdf">PDF</a>  
+<a href="abstracts.html#VZ14">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="NMZ13">21</a>]
+</td>
+<td class="bibtexitem">
+Santosh Nagarakatte, Milo M K Martin, and Steve Zdancewic.
+ <b>Hardware-enforced Comprehensive Memory Safety</b>.
+ <em>IEEE MICRO's "Top Picks of Architecture Conferences of 2012"
+  Issue (Micro Top Picks 202013)</em>, May/June 2013.
+[ <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6487479">PDF</a>  
+<a href="abstracts.html#NMZ13">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="ZNMZ13">22</a>]
+</td>
+<td class="bibtexitem">
+Jianzhou Zhao, Santosh Nagarakatte, Milo M. K. Martin, and Steve Zdancewic.
+ <b>Formal Verification of SSA-Based Optimizations for LLVM</b>.
+ In <em>Proc. 2013 ACM SIGPLAN Conference on Programming Languages
+  Design and Implementation (PLDI)</em>, 2013.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/ZNMZ13.pdf">PDF</a>  
+<a href="abstracts.html#ZNMZ13">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="DENO+13">23</a>]
+</td>
+<td class="bibtexitem">
+Christian DeLozier, Richard Eisenberg, Santosh Nagarakatte, Peter-Michael
+  Osera, Milo M. K. Martin, and Steve Zdancewic.
+ <b>Ironclad C++: A Library-Augmented Type-Safe Subset of C++</b>.
+ In <em>Proceedings of the 28th Annual ACM SIGPLAN Conference on
+  Object-Oriented Programming, Systems, Languages, and Applications, (OOPSLA)</em>,
+  2013.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/DENO+13.pdf">PDF</a>  
+<a href="abstracts.html#DENO+13">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="NMZ12">24</a>]
+</td>
+<td class="bibtexitem">
+Santosh Nagarakatte, Milo M. K. Martin, and Steve Zdancewic.
+ <b>Watchdog: Hardware for Safe and Secure Manual Memory Management
+  and Full Memory Safety</b>.
+ In <em>Proceedings of the 39th International Symposium on Computer
+  Architecture (ISCA)</em>, June 2012.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/NMZ12.pdf">PDF</a>  
+<a href="abstracts.html#NMZ12">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="ZNMZ12">25</a>]
+</td>
+<td class="bibtexitem">
+Jianzhou Zhao, Santosh Nagarakatte, Milo M. K. Martin, and Steve Zdancewic.
+ <b>Formalizing the LLVM Intermediate Representation for Verified
+  Program Transformations</b>.
+ In <em>Proc. of the ACM Symposium on Principles of Programming
+  Languages (POPL)</em>, 2012.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/ZNMZ12.pdf">PDF</a>  
+<a href="abstracts.html#ZNMZ12">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="ZZ12">26</a>]
+</td>
+<td class="bibtexitem">
+Jianzhou Zhao and Steve Zdancewic.
+ <b>Mechanized Verification of Computing Dominators for Formalizing
+  Compilers</b>.
+ In <em>The Second International Conference on Certified Programs and
+  Proofs (CPP)</em>, Lecture Notes in Computer Science, pages 27--42, 2012.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/ZZ12.pdf">PDF</a>  
+<a href="abstracts.html#ZZ12">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="WVPJZ11">27</a>]
+</td>
+<td class="bibtexitem">
+Stephanie Weirich, Dimitrios Vytiniotis, Simon Peyton Jones, and Steve
+  Zdancewic.
+ <b>Generative Type Abstraction and Type-level Computation</b>.
+ In <em>Proc. of the ACM Symposium on Principles of Programming
+  Languages (POPL)</em>, 2011.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/WVPJZ11.pdf">PDF</a>  
+<a href="abstracts.html#WVPJZ11">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="MZ10">28</a>]
+</td>
+<td class="bibtexitem">
+Karl Mazurak and Steve Zdancewic.
+ <b>Lolliproc: to Concurrency from Classical Linear Logic via
+  Curry-Howard and Control</b>.
+ In <em>Proc. of the 15th ACM SIGPLAN International Conference on
+  Functional Programming (ICFP)</em>, 2010.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/MZ10.pdf">PDF</a>  
+<a href="abstracts.html#MZ10">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="NZMZ10">29</a>]
+</td>
+<td class="bibtexitem">
+Santosh Nagarakatte, Jianzhou Zhao, Milo M. K. Martin, and Steve Zdancewic.
+ <b>CETS: Compiler-Enforced Temporal Safety for C</b>.
+ In <em>Proceedings of the ACM International Symposium on Memory
+  Management (ISMM)</em>, 2010.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/NZMZ10.pdf">PDF</a>  
+<a href="abstracts.html#NZMZ10">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="ZZZ10">30</a>]
+</td>
+<td class="bibtexitem">
+Jianzhou Zhao, Qi Zhang, and Steve Zdancewic.
+ <b>Relational Parametricity for Polymorphic Linear Lambda
+  Calculus</b>.
+ In <em>Proceedings of the Eighth ASIAN Symposium on Programming
+  Languages and Systems (APLAS)</em>, 2010.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/ZZZ10.pdf">PDF</a>  
+<a href="abstracts.html#ZZZ10">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="NZMZ09">31</a>]
+</td>
+<td class="bibtexitem">
+Santosh Nagarakatte, Jianzhou Zhao, Milo M. K. Martin, and Steve Zdancewic.
+ <b>SoftBound: Highly Compatible and Complete Spatial Memory
+  Safety for C</b>.
+ In <em>Proc. 2009 ACM SIGPLAN Conference on Programming Languages
+  Design and Implementation (PLDI)</em>, 2009.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/NZMZ09.pdf">PDF</a>  
+<a href="abstracts.html#NZMZ09">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="FPZ09">32</a>]
+</td>
+<td class="bibtexitem">
+J. Nathan Foster, Benjamin C. Pierce, and Steve Zdancewic.
+ <b>Updatable Security Views</b>.
+ In <em>Proc. of 22nd IEEE Computer Security Foundations Symposium
+  (CSF)</em>, 2009.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/FPZ09.pdf">PDF</a>  
+<a href="abstracts.html#FPZ09">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="BPSW+09">33</a>]
+</td>
+<td class="bibtexitem">
+Aaron Bohannon, Benjamin C. Pierce, Vilhelm Sjöberg, Stephanie Weirich, and
+  Steve Zdancewic.
+ <b>Reactive Noninterference</b>.
+ In <em>ACM Computer and Communications Security Conference (CCS)</em>,
+  2009.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/BPSW+09.pdf">PDF</a>  
+<a href="abstracts.html#BPSW+09">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="JVMZ+08">34</a>]
+</td>
+<td class="bibtexitem">
+Limin Jia, Jeffrey A. Vaughan, Karl Mazurak, Jianzhou Zhao, Luke Zarko, Joseph
+  Schorr, and Steve Zdancewic.
+ <b>AURA: A Programming Language for Authorization and Audit</b>.
+ In <em>Proc. of the 13th ACM SIGPLAN International Conference on
+  Functional Programming (ICFP)</em>, Victoria, British Columbia, Canada, September
+  2008.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/JVMZ08.pdf">PDF</a>  
+<a href="abstracts.html#JVMZ+08">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="DBMZ08">35</a>]
+</td>
+<td class="bibtexitem">
+Joe Devietti, Colin Blundell, Milo M.K. Martin, and Steve Zdancewic.
+ <b>HardBound: Architectural Support for Spatial Safety of the C
+  Programming Language</b>.
+ In <em>International Conference on Architectural Support for
+  Programming Languages and Operating Systems (ASPLOS)</em>, March 2008.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/DBMZ08.pdf">PDF</a>  
+<a href="abstracts.html#DBMZ08">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="VJMZ08">36</a>]
+</td>
+<td class="bibtexitem">
+Jeffrey A. Vaughan, Limin Jia, Karl Mazurak, and Steve Zdancewic.
+ <b>Evidence-based Audit</b>.
+ In <em>Proc. of 21st IEEE Computer Security Foundations Symposium
+  (CSF)</em>, pages 177--191. IEEE Computer Society Press, 2008.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/VJMZ08.pdf">PDF</a>  
+<a href="abstracts.html#VJMZ08">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="LZ07">37</a>]
+</td>
+<td class="bibtexitem">
+Peng Li and Steve Zdancewic.
+ <b>Combining Events And Threads For Scalable Network Services</b>.
+ In <em>Proc. 2007 ACM SIGPLAN Conference on Programming Languages
+  Design and Implementation (PLDI)</em>, pages 189--199, 2007.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/LZ07.ps">PS</a>  
+<a href="abstracts.html#LZ07">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="VZ07">38</a>]
+</td>
+<td class="bibtexitem">
+Jeffrey A. Vaughan and Steve Zdancewic.
+ <b>A Cryptographic Decentralized Label Model</b>.
+ In <em>IEEE 2007 Symposium on Security and Privacy (Oakland)</em>,
+  pages 192--206, 2007.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/VZ07.pdf">PDF</a>  
+<a href="http://www.cis.upenn.edu/~stevez/papers/VZ07.ps">PS</a>  
+<a href="abstracts.html#VZ07">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="SHTZ06">39</a>]
+</td>
+<td class="bibtexitem">
+Nikhil Swamy, Michael Hicks, Stephen Tse, and Steve Zdancewic.
+ <b>Managing Policy Updates in Security-Typed Languages</b>.
+ In <em>Proc. of 19th IEEE Computer Security Foundations Workshop
+  (CSFW)</em>, pages 202--216. IEEE Computer Society Press, 2006.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/SHTZ06.pdf">PDF</a>  
+<a href="abstracts.html#SHTZ06">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="LZ06a">40</a>]
+</td>
+<td class="bibtexitem">
+Peng Li and Steve Zdancewic.
+ <b>Encoding Information Flow in Haskell</b>.
+ In <em>Proc. of 19th IEEE Computer Security Foundations Workshop
+  (CSFW)</em>, pages 16--27. IEEE Computer Society Press, 2006.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/LZ06a.pdf">PDF</a>  
+<a href="abstracts.html#LZ06a">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="ACZ06">41</a>]
+</td>
+<td class="bibtexitem">
+Rajeev Alur, Pavol Černý, and Steve Zdancewic.
+ <b>Preserving Secrecy under Refinement</b>.
+ In <em>Proc. of 33rd International Colloquium on Automata, Languages
+  and Programming (ICALP)</em>, pages 107--118, 2006.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/ACZ06.pdf">PDF</a>  
+<a href="abstracts.html#ACZ06">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="LZ05">42</a>]
+</td>
+<td class="bibtexitem">
+Peng Li and Steve Zdancewic.
+ <b>Downgrading Policies and Relaxed Noninterference</b>.
+ In <em>Proc. 32nd ACM Symp. on Principles of Programming Languages
+  (POPL)</em>, pages 158--170, January 2005.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/LZ05a.pdf">PDF</a>  
+<a href="abstracts.html#LZ05">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="LZ05b">43</a>]
+</td>
+<td class="bibtexitem">
+Peng Li and Steve Zdancewic.
+ <b>Practical Information-flow Control in Web-based Information
+  Systems</b>.
+ In <em>Proc. of 18th IEEE Computer Security Foundations Workshop
+  (CSFW)</em>, pages 2--15, 2005.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/LZ05b.pdf">PDF</a>  
+<a href="abstracts.html#LZ05b">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="TZ05a">44</a>]
+</td>
+<td class="bibtexitem">
+Stephen Tse and Steve Zdancewic.
+ <b>Designing a Security-typed Language with Certificate-based
+  Declassification</b>.
+ In <em>Proc. of the 14th European Symposium on Programming (ESOP)</em>,
+  volume 3444, pages 279--294, 2005.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/TZ05a.pdf">PDF</a>  
+<a href="abstracts.html#TZ05a">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="ABFF05">45</a>]
+</td>
+<td class="bibtexitem">
+Brian E. Aydemir, Aaron Bohannon, Matthew Fairbairn, J. Nathan Foster,
+  Benjamin C. Pierce, Peter Sewell, Dimitrios Vytiniotis, Geoffrey Washburn,
+  Stephanie Weirich, and Steve Zdancewic.
+ <b>Mechanized Metatheory for the Masses: The POPLMark Challenge</b>.
+ In <em>International Conference on Theorem Proving in Higher Order
+  Logics (TPHOLs)</em>, pages 50--65, 2005.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/ABFF05.pdf">PDF</a>  
+<a href="abstracts.html#ABFF05">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="LZ04a">46</a>]
+</td>
+<td class="bibtexitem">
+Peng Li and Steve Zdancewic.
+ <b>Advanced Control Flow in Java Card Programming</b>.
+ In <em>Proceedings of the 2004 ACM SIGPLAN/SIGBED Conference on
+  Languages, Compilers, and Tools for Embedded Systems (LCTES)</em>, pages
+  165--174, June 2004.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/LZ04a.pdf">PDF</a>  
+<a href="abstracts.html#LZ04a">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="TZ04a">47</a>]
+</td>
+<td class="bibtexitem">
+Stephen Tse and Steve Zdancewic.
+ <b>Run-time Principals in Information-flow Type Systems</b>.
+ In <em>IEEE 2004 Symposium on Security and Privacy (Oakland)</em>, pages
+  179--193. IEEE Computer Society Press, May 2004.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/TZ04a.pdf">PDF</a>  
+<a href="http://www.cis.upenn.edu/~stevez/papers/TZ04a.ps">PS</a>  
+<a href="abstracts.html#TZ04a">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="MSZ04">48</a>]
+</td>
+<td class="bibtexitem">
+Andrew C. Myers, Andrei Sabelfeld, and Steve Zdancewic.
+ <b>Enforcing Robust Declassification</b>.
+ In <em>Proc. of 17th IEEE Computer Security Foundations Workshop
+  (CSFW)</em>, pages 172--186, 2004.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/MSZ04.pdf">PDF</a>  
+<a href="abstracts.html#MSZ04">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="WZL03">49</a>]
+</td>
+<td class="bibtexitem">
+David Walker, Steve Zdancewic, and Jay Ligatti.
+ <b>A Theory of Aspects</b>.
+ In <em>Proc. of the 8th ACM SIGPLAN International Conference on
+  Functional Programming (ICFP)</em>, pages 127--139, Upsala, Sweden, August 2003.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/WZL03.pdf">PDF</a>  
+<a href="http://www.cis.upenn.edu/~stevez/papers/WZL03.ps">PS</a>  
+<a href="abstracts.html#WZL03">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="ZM03">50</a>]
+</td>
+<td class="bibtexitem">
+Steve Zdancewic and Andrew C. Myers.
+ <b>Observational Determinism for Concurrent Program Security</b>.
+ In <em>Proc. of 16th IEEE Computer Security Foundations Workshop
+  (CSFW)</em>, pages 29--45, Asilomar, CA, July 2003.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/ZM03.pdf">PDF</a>  
+<a href="http://www.cis.upenn.edu/~stevez/papers/ZM03.ps">PS</a>  
+<a href="abstracts.html#ZM03">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="ZCZM03">51</a>]
+</td>
+<td class="bibtexitem">
+Lantian Zheng, Stephen Chong, Steve Zdancewic, and Andrew C. Myers.
+ <b>Building Secure Distributed Systems Using Replication and
+  Partitioning</b>.
+ In <em>IEEE 2003 Symposium on Security and Privacy (Oakland)</em>,
+  pages 236--250. IEEE Computer Society Press, 2003.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/ZCZM03.pdf">PDF</a>  
+<a href="http://www.cis.upenn.edu/~stevez/papers/ZCZM03.ps">PS</a>  
+<a href="abstracts.html#ZCZM03">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="ZZNM01">52</a>]
+</td>
+<td class="bibtexitem">
+Steve Zdancewic, Lantian Zheng, Nathaniel Nystrom, and Andrew C. Myers.
+ <b>Untrusted Hosts and Confidentiality: Secure Program
+  Partitioning</b>.
+ In <em>Proc. 18th ACM Symp. on Operating System Principles
+  (SOSP)</em>, volume 35(5) of <em>Operating Systems Review</em>, pages 1--14, Banff,
+  Canada, October 2001.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/ZZNM01.pdf">PDF</a>  
+<a href="http://www.cis.upenn.edu/~stevez/papers/ZZNM01.ps">PS</a>  
+<a href="abstracts.html#ZZNM01">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="ZM01b">53</a>]
+</td>
+<td class="bibtexitem">
+Steve Zdancewic and Andrew C. Myers.
+ <b>Robust Declassification</b>.
+ In <em>Proc. of 14th IEEE Computer Security Foundations Workshop
+  (CSFW)</em>, pages 15--23, Cape Breton, Canada, June 2001.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/ZM01b.pdf">PDF</a>  
+<a href="http://www.cis.upenn.edu/~stevez/papers/ZM01b.ps">PS</a>  
+<a href="abstracts.html#ZM01b">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="ZM01">54</a>]
+</td>
+<td class="bibtexitem">
+Steve Zdancewic and Andrew C. Myers.
+ <b>Secure Information Flow and CPS</b>.
+ In <em>Proc. of the 10th European Symposium on Programming (ESOP)</em>,
+  volume 2028 of <em>Lecture Notes in Computer Science</em>, pages 46--61, April
+  2001.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/ZM01.pdf">PDF</a>  
+<a href="http://www.cis.upenn.edu/~stevez/papers/ZM01.ps">PS</a>  
+<a href="abstracts.html#ZM01">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="ZGM99">55</a>]
+</td>
+<td class="bibtexitem">
+Steve Zdancewic, Dan Grossman, and Greg Morrisett.
+ <b>Principals in Programming Languages: A Syntactic Proof
+  Technique</b>.
+ In <em>Proc. of the 4th ACM SIGPLAN International Conference on
+  Functional Programming (ICFP)</em>, pages 197--207, Paris, France, September
+  1999.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/ZGM99.pdf">PDF</a>  
+<a href="http://www.cis.upenn.edu/~stevez/papers/ZGM99.ps">PS</a>  
+<a href="abstracts.html#ZGM99">Abstract</a> ]
+
+</td>
+</tr>
+</table>
+</td></tr>
+<tr><td align="left" class="lightaqua" valign="middle" width="100%">
+<font size="4">Workshop Papers</font>
+<!-- This document was automatically generated with bibtex2html 1.99
+     (see http://www.lri.fr/~filliatr/bibtex2html/),
+     with the following command:
+     bibtex2html -o hconf -citefile hconf.keys -nodoc -d -r -both -nobibsource -nf ps PS -nf pdf PDF -s ./bold-title.bst zdancewic.bib  -->
+<table>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="KPZ15">1</a>]
+</td>
+<td class="bibtexitem">
+Neelakantan R. Krishnaswami, Jennifer Paykin, and Steve Zdancewic.
+ <b>Curry-Howard for GUIs</b>.
+ In <em>POPL Off the Beaten Track (OBT)</em>, 2015.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/KPZ15.pdf">PDF</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="PZ14">2</a>]
+</td>
+<td class="bibtexitem">
+Jennifer Paykin and Steve Zdancewic.
+ <b>A Linear/Producer/Consumer model of Classical Linear Logic
+  (extended abstract)</b>.
+ In <em>Third International Workshop on Linearity</em>, LINEARITY, 2014.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/PZ14.pdf">PDF</a>  
+<a href="abstracts.html#PZ14">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="OSZ12">3</a>]
+</td>
+<td class="bibtexitem">
+Peter-Michael Osera, Vilhelm Sjöberg, and Steve Zdancewic.
+ <b>Dependent Ineroperability</b>.
+ In <em>The Sixth ACM SIGPLAN Workshop on Programming Languages meets
+  Program Verification (PLPV)</em>, 2012.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/OSZ12.pdf">PDF</a>  
+<a href="abstracts.html#OSZ12">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="MZZ10">4</a>]
+</td>
+<td class="bibtexitem">
+Karl Mazurak, Jianzhou Zhao, and Steve Zdancewic.
+ <b>Lightweight linear types in System F<sup>o</sup></b>.
+ In <em>ACM SIGPLAN International Workshop on Types in Languages
+  Design and Implementation (TLDI)</em>, pages 77--88, 2010.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/MZZ10.pdf">PDF</a>  
+<a href="abstracts.html#MZZ10">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="JZ09">5</a>]
+</td>
+<td class="bibtexitem">
+Limin Jia and Steve Zdancewic.
+ <b>Encoding information flow in Aura</b>.
+ In <em>Proceedings of the 2009 Workshop on Programming Languages and
+  Analysis for Security (PLAS)</em>, pages 17--29, 2009.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/JZ09.pdf">PDF</a>  
+<a href="abstracts.html#JZ09">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="MGLZ09">6</a>]
+</td>
+<td class="bibtexitem">
+Michael J. May, Carl A. Gunter, Insup Lee, and Steve Zdancewic.
+ <b>Strong and Weak Policy Relations</b>.
+ In <em>POLICY 2009, IEEE International Symposium on Policies for
+  Distributed Systems and Networks</em>, pages 33--36, 2009.
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="MZ07">7</a>]
+</td>
+<td class="bibtexitem">
+Karl Mazurak and Steve Zdancewic.
+ <b>ABash: Finding Bugs in Bash Scripts</b>.
+ In <em>ACM SIGPLAN Workshop on Programming Languages and Analysis
+  for Security (PLAS)</em>, June 2007.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/MZ07.pdf">PDF</a>  
+<a href="abstracts.html#MZ07">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="LZ05c">8</a>]
+</td>
+<td class="bibtexitem">
+Peng Li and Steve Zdancewic.
+ <b>Unifying Confidentiality and Integrity in Downgrading
+  Policies</b>.
+ In <em>Proc. of Foundations of Computer Security Workshop (FCS)</em>,
+  2005.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/LZ05c.pdf">PDF</a>  
+<a href="abstracts.html#LZ05c">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="HTHZ05">9</a>]
+</td>
+<td class="bibtexitem">
+Michael Hicks, Stephen Tse, Boniface Hicks, and Steve Zdancewic.
+ <b>Dynamic updating of information-flow policies</b>.
+ In <em>Proc. of Foundations of Computer Security Workshop (FCS)</em>,
+  2005.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/HTHZ05.pdf">PDF</a>  
+<a href="abstracts.html#HTHZ05">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="LMZ03">10</a>]
+</td>
+<td class="bibtexitem">
+Peng Li, Yun Mao, and Steve Zdancewic.
+ <b>Information Integrity Policies</b>.
+ In <em>Proceedings of the Workshop on Formal Aspects in Security &amp;
+  Trust (FAST)</em>, September 2003.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/LMZ03.pdf">PDF</a>  
+<a href="http://www.cis.upenn.edu/~stevez/papers/LMZ03.ps">PS</a>  
+<a href="abstracts.html#LMZ03">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="SSDK03">11</a>]
+</td>
+<td class="bibtexitem">
+Usa Sammapun, Raman Sharykin, Margaret Delap, Myong Kim, and Steve Zdancewic.
+ <b>Formalizing Java-MaC</b>.
+ In <em>Proceedings of the Third Runtime Verification Workshop</em>,
+  pages 171--190. Electronic Notes in Theoretical Computer Science, July 2003.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/SSDK03.pdf">PDF</a>  
+<a href="http://www.cis.upenn.edu/~stevez/papers/SSDK03.ps">PS</a>  
+<a href="abstracts.html#SSDK03">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="GGKS03">12</a>]
+</td>
+<td class="bibtexitem">
+Michael Greenwald, Carl A. Gunter, Björn Knutsson, Andre Scedrov,
+  Jonathan M. Smith, and Steve Zdancewic.
+ <b>Computer Security is Not a Science (but it should be)</b>.
+ In <em>Proceedings of the Large-Scale Network Security Workshop</em>,
+  March 2003.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/GGKS03.pdf">PDF</a>  
+<a href="http://www.cis.upenn.edu/~stevez/papers/GGKS03.ps">PS</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="MCGG99">13</a>]
+</td>
+<td class="bibtexitem">
+Greg Morrisett, Karl Crary, Neal Glew, Dan Grossman, Richard Samuels, Frederick
+  Smith, David Walker, Stephanie Weirich, and Steve Zdancewic.
+ <b>TALx86: A Realistic Typed Assembly Language</b>.
+ In <em>2nd ACM SIGPLAN Workshop on Compiler Support for System
+  Software</em>, pages 25--35, 1999.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/MCGG99.pdf">PDF</a>  
+<a href="http://www.cis.upenn.edu/~stevez/papers/MCGG99.ps">PS</a>  
+<a href="abstracts.html#MCGG99">Abstract</a> ]
+
+</td>
+</tr>
+</table>
+</td></tr>
+<tr><td align="left" class="lightaqua" valign="middle" width="100%">
+<font size="4">Edited Volumes</font>
+<!-- This document was automatically generated with bibtex2html 1.99
+     (see http://www.lri.fr/~filliatr/bibtex2html/),
+     with the following command:
+     bibtex2html -o hedit -citefile hedit.keys -nodoc -d -r -both -nobibsource -nf ps PS -nf pdf PDF -s ./bold-title.bst zdancewic.bib  -->
+<table>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="DKVZ08">1</a>]
+</td>
+<td class="bibtexitem">
+Pierpaolo Degano, Ralf Küsters, Luca Viganò, and Steve Zdancewic,
+  editors.
+ <b>Joint workshop on foundations of computer security and automated
+  reasoning for security protocol analysis (FCS-ARSPA  2006)</b>, volume 206 of <em>
+  Information and Computation</em>.
+ Elsevier, 2008.
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="SZ06">2</a>]
+</td>
+<td class="bibtexitem">
+Vugranam C. Shreedhar and Steve Zdancewic, editors.
+ <b>Proceedings of the 2006 Workshop on Programming Languages and
+  Analysis for Security (PLAS)</b>.
+ ACM, 2006.
+
+</td>
+</tr>
+</table>
+</td></tr>
+<tr><td align="left" class="lightaqua" valign="middle" width="100%">
+<font size="4">Technical Reports, Work in Progress, and Unpublished Papers</font>
+<!-- This document was automatically generated with bibtex2html 1.99
+     (see http://www.lri.fr/~filliatr/bibtex2html/),
+     with the following command:
+     bibtex2html -o htr -citefile htr.keys -nodoc -d -r -both -nobibsource -nf ps PS -nf pdf PDF -s ./bold-title.bst zdancewic.bib  -->
+<table>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="PZ19">1</a>]
+</td>
+<td class="bibtexitem">
+Jennifer Paykin and Steve Zdancewic.
+ <b>A HoTT Quantum Equational Theory (Extended Version)</b>.
+ available on arXiv, 2019.
+[ <a href="https://arxiv.org/abs/1904.04371">http</a>  
+<a href="abstracts.html#PZ19">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="PZ14tr">2</a>]
+</td>
+<td class="bibtexitem">
+Jennifer Paykin and Steve Zdancewic.
+ <b>A Linear/Producer/Consumer model of Classical Linear Logic</b>.
+ Technical report, University of Pennsylvania, 2014.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/PZ14tr.pdf">PDF</a>  
+<a href="abstracts.html#PZ14tr">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="DEN+13">3</a>]
+</td>
+<td class="bibtexitem">
+Christian DeLozier, Richard Eisenberg, Santosh Nagarakatte, Peter-Michael
+  Osera, Milo M.K. Martin, and Steve Zdancewic.
+ <b>Ironclad C++: A library-Augmented Type-Safe Subset of C++</b>.
+ Technical Report MS-CIS-13-05, University of Pennsylvania, March
+  2013.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/DEN+13.pdf">PDF</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="ZZZ10tr">4</a>]
+</td>
+<td class="bibtexitem">
+Jianzhou Zhao, Qi Zhang, and Steve Zdancewic.
+ <b>Relational Parametricity for Polymorphic Linear Lambda Calculus
+  (Extended TR)</b>.
+ 2010.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/ZZZ10tr.pdf">PDF</a>  
+<a href="abstracts.html#ZZZ10tr">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="VJMZ08tr">5</a>]
+</td>
+<td class="bibtexitem">
+Jeffrey C. Vaughan, Limin Jia, Karl Mazurak, and Steve Zdancewic.
+ <b>Evidence-based Audit, Technical Appendix</b>.
+ Technical Report MS-CIS-08-09, University of Pennsylvania, 2008.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/VJMZ08tr.pdf">PDF</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="JVMZ+08tr">6</a>]
+</td>
+<td class="bibtexitem">
+Limin Jia, Jeffrey A. Vaughan, Karl Mazurak, Jianzhou Zhao, Luke Zarko, Joseph
+  Schorr, and Steve Zdancewic.
+ <b>AURA:Preliminary Technical Results</b>.
+ Technical Report MS-CIS-08-10, University of Pennsylvania, 2008.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/JVMZ08tr.pdf">PDF</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="TZ08tr">7</a>]
+</td>
+<td class="bibtexitem">
+Stephen Tse and Steve Zdancewic.
+ <b>Concise Concrete Syntax</b>.
+ Technical Report MS-CIS-08-11, University of Pennsylvania, 2008.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/TZ08tr.pdf">PDF</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="AWZ08">8</a>]
+</td>
+<td class="bibtexitem">
+Brian Aydemir, Stephanie Weirich, and Steve Zdancewic.
+ <b>Abstracting Syntax</b>.
+ (15 pages), 2008.
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="TZ06a">9</a>]
+</td>
+<td class="bibtexitem">
+Stephen Tse and Steve Zdancewic.
+ <b>Translating Dependency into Parametricity</b>.
+ (33 pages) Accepted to <em>Journal of Functional Programming</em>,
+  pending revisions, 2006.
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="TZ04c">10</a>]
+</td>
+<td class="bibtexitem">
+Stephen Tse and Steve Zdancewic.
+ <b>Translating Dependency into Parametricity</b>.
+ Technical Report MIS-CIS-04-01, University of Pennsylvania, 2004.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/TZ04btr.pdf">PDF</a>  
+<a href="abstracts.html#TZ04c">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="TZ05atr">11</a>]
+</td>
+<td class="bibtexitem">
+Stephen Tse and Steve Zdancewic.
+ <b>Designing a Security-typed Language with Certificate-based
+  Declassification</b>.
+ Technical Report MIS-CIS-04-16, University of Pennsylvania, 2004.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/TZ05atr.pdf">PDF</a>  
+<a href="abstracts.html#TZ05atr">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="TZ03">12</a>]
+</td>
+<td class="bibtexitem">
+Stephen Tse and Steve Zdancewic.
+ <b>Run-time Principals in Information-flow Type Systems</b>.
+ Technical Report MS-CIS-03-39, University of Pennsylvania, 2003.
+ The conference version appears in IEEE Security and Privacy 2004.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/TZ03.pdf">PDF</a>  
+<a href="http://www.cis.upenn.edu/~stevez/papers/TZ03.ps">PS</a>  
+<a href="abstracts.html#TZ03">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="Zda02">13</a>]
+</td>
+<td class="bibtexitem">
+Stephan A. Zdancewic.
+ <b>Programming Languages for Information Security</b>.
+ PhD thesis, Cornell University, August 2002.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/Zda02.pdf">PDF</a>  
+<a href="http://www.cis.upenn.edu/~stevez/papers/Zda02.ps">PS</a>  
+<a href="abstracts.html#Zda02">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="ZZNM01b">14</a>]
+</td>
+<td class="bibtexitem">
+Steve Zdancewic, Lantian Zheng, Nathaniel Nystrom, and Andrew C. Myers.
+ <b>Secure Program Partitioning</b>.
+ Technical Report 2001-1846, Computer Science Dept., Cornell
+  University, 2001.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/ZZNM01b.pdf">PDF</a>  
+<a href="http://www.cis.upenn.edu/~stevez/papers/ZZNM01b.ps">PS</a>  
+<a href="abstracts.html#ZZNM01b">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="ZM00">15</a>]
+</td>
+<td class="bibtexitem">
+Steve Zdancewic and Andrew C. Myers.
+ <b>Confidentiality and Integrity with Untrusted Hosts</b>.
+ Technical Report 2000-1810, Computer Science Dept., Cornell
+  University, 2000.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/ZM00.pdf">PDF</a>  
+<a href="http://www.cis.upenn.edu/~stevez/papers/ZM00.ps">PS</a>  
+<a href="abstracts.html#ZM00">Abstract</a> ]
+
+</td>
+</tr>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="ZG99">16</a>]
+</td>
+<td class="bibtexitem">
+Steve Zdancewic and Dan Grossman.
+ <b>Principals in Programming Languages: Technical Results</b>.
+ Technical Report TR99-1752, Computer Science Dept., Cornell
+  University, June 1999.
+[ <a href="http://www.cis.upenn.edu/~stevez/papers/ZG99.pdf">PDF</a>  
+<a href="http://www.cis.upenn.edu/~stevez/papers/ZG99.ps">PS</a>  
+<a href="abstracts.html#ZG99">Abstract</a> ]
+
+</td>
+</tr>
+</table>
+</td></tr>
+<!-- This file contains the footer for the publications list -->
+<tr><td align="left" class="lightaqua" valign="middle" width="100%">
+<a name="COPY"></a>
+<font size="3">Copyright Information</font><br/>
+<font size="2">
+The documents contained in these directories are included by the
+contributing authors as a means to ensure timely dissemination of
+scholarly and technical work on a non-commercial basis. Copyright and
+all rights therein are maintained by the authors or by other copyright
+holders, notwithstanding that they have offered their works here
+electronically. It is understood that all persons copying this
+information will adhere to the terms and constraints invoked by each
+author's copyright. These works may not be reposted without the
+explicit permission of the copyright holder.
+</font>
+</td></tr>
+<td align="center" class="yellow" valign="middle" width="100%">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td align="left" width="50%">
+<font size="1">
+Parts of this page were generated by
+<a href="http://www.lri.fr/~filliatr/bibtex2html/">bibtex2html</a>
+</font>
+</td>
+<td align="right" width="50%">
+<font size="1">
+
+Last modified: 
+Thu Jan 16 13:33:33 EST 2020
+</font></td></tr></table></td></table></center></div></body>
+</html>

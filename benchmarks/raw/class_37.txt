@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-154896071-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-154896071-1');
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MNRQRLX');</script>
+<!-- End Google Tag Manager -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script>
+    function showhide(id) {
+      var e = document.getElementById(id);
+      e.style.display = (e.style.display == 'block') ? 'none' : 'block';
+    }
+  </script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet"/>
+<link href="./onepager.css" rel="stylesheet"/>
+<title>CS 839: Verified DL</title>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-MNRQRLX" style="display:none;visibility:hidden" width="0"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="container-fluid">
+<b>Verified Deep Learning </b> [CS 839 / Spring 2020]
+    <br/>
+<a href="http://cs.wisc.edu/~aws">Aws Albarghouthi</a>
+<br/>
+    Office hrs: Tue, 1300-1415, CS 6363
+    <br/>
+    TA: Swati Anand, sanand24@wisc.edu
+    <br/>
+<p> <img align="left" onclick="diffImage(this)" src="logo.svg" style="margin-right:10px; width:12.2%"/>
+      Deep neural networks are
+      fragile and their behaviors are often surprising. In many settings, we need to provide formal guarantees on the
+      safety, security, correctness, or robustness of neural networks. This course covers foundational ideas from
+      <b>formal verification</b> and their application to <b>deep learning</b>.
+    </p>
+<hr/>
+<p>
+<i>
+    The couse is based on chapters from the instructor's <a href="../index.html">ongoing book</a> on the subject and research papers from  machine learning and verification.
+    </i>
+</p>
+<p>
+<par>1.20 </par> <b>Overview of verified deep learning</b>
+<br/>
+<i>Tue</i>  <a href="../ch1.pdf">chapter 1</a> / <a href="https://docs.google.com/presentation/d/1zZL522oMyBHvhICldUgtAIfRyKWixjNxswkRCREiPzM/edit?usp=sharing">slides</a>
+<br/>
+<i>Thu</i>  <a href="../ch2.pdf">chapter 2</a>
+</p>
+<p>
+<par>1.27 </par> <b>Correctness properties of neural networks</b>
+<br/>
+<i>Tue</i>  <a href="../ch3.pdf">chapter 3</a> / <a href="https://www.cs.cmu.edu/~crary/819-f09/Hoare69.pdf">Hoare's classic paper</a> / <a href="http://www.cs.tau.ac.il/~nachumd/term/FloydMeaning.pdf">Floyd's paper</a> / <a href="http://www.turingarchive.org/browse.php/b/8">Turing's obscure paper</a>
+<br/>
+<i>Thu</i>  <a href="../ch4.pdf">chapter 4</a> / see also slides from <a href="http://www.cs.utexas.edu/~isil/cs389L/lecture1-6up.pdf"> Dillig's course</a>
+</p>
+<p>
+<par>2.3 </par> <b>Logical encodings of neural networks</b>
+<br/>
+<i>Tue</i>  <a href="../ch5.pdf">chapter 5</a> / see also <a href="https://github.com/barghouthi/cs704/blob/master/notes/transRelEnc.pdf">encodings of traditional programs</a>
+<br/>
+<i>Thu</i>  cancelled
+    </p>
+<p>
+<par>2.10 </par> <b>Encodings and decision procedures</b>
+<br/>
+<i>Tue</i>  <a href="../ch5.pdf">chapter 5</a>, continued / see <a href="https://ericpony.github.io/z3py-tutorial/guide-examples.htm">Z3 tutorial</a>
+<br/>
+<i>Thu</i>  chapter 6 / see abstract DPPL <a href="http://web.stanford.edu/class/cs357/NOT04.pdf">paper</a>
+</p>
+<p>
+<par>2.17 </par> <b>SMT solving</b>
+<br/>
+<i>Tue</i>      ✈️ <i>Aws out of town for a PC meeting on Tuesday</i>
+<br/>
+<i>Thu</i>  chapter 6 / see abstract DPPL <a href="http://web.stanford.edu/class/cs357/NOT04.pdf">paper</a>
+</p>
+<p>
+<par>2.25 </par> <b>Neural-network specialized theory solvers</b>
+<br/>
+<i>Tue</i>  <a href="../ch7.pdf">chapter 7</a> /  see paper from <a href="http://dx.doi.org/10.1007/11817963_11">Dutertre &amp; de Moura</a>
+<br/>
+<i>Thu</i>  <a href="../ch7.pdf">chapter 7</a> / see <a href="https://arxiv.org/abs/1702.01135">Reluplex</a> paper 
+    </p>
+<p>
+<par>3.2 </par> <b>A taste of abstract interpretation</b>
+<br/>
+<i>Tue</i>  <a href="../ch8.pdf">chapter 8</a> / Lifting neural networks to operate on sets 
+    <br/>
+<i>Thu</i>  <a href="../ch8.pdf">chapter 8</a> / Interval abstraction of neural operations 
+    <br/>
+</p><p>
+<par>3.9 </par> <b>Advanced abstract domains for neural networks</b>
+<br/>
+<i>Tue</i>  chapter 9 / Zonotope abstraction / see  <a href="https://files.sri.inf.ethz.ch/website/papers/DeepZ.pdf">DeepZ</a> paper
+    <br/>
+<i>Thu</i>  chapter 9 / Polyhedra abstraction / see <a href="http://www.taylortjohnson.com/research/tran2019fm.pdf">Stars</a> and <a href="https://www.sri.inf.ethz.ch/publications/singh2019domain">DeepPoly</a> papers
+    <br/>
+</p>
+<p>
+<par>3.16 </par> 🌷<i>Spring break</i>
+</p>
+<p>
+<par>3.23 </par> <b>More on abstraction</b>
+<br/>
+<i>Tue</i>  tuning virtual lectures + asn 2 preview
+    <br/>
+<i>Thu</i>  Joint abstraction / see <a href="https://files.sri.inf.ethz.ch/website/papers/neurips19_krelu.pdf">k-ReLU</a> paper
+    </p>
+<p>
+<par>3.30 </par> <b>Abstract training  </b>
+<br/>
+<i>Tue</i>  Abstract training / see <a href="http://proceedings.mlr.press/v80/mirman18b/mirman18b.pdf">DiffAI</a> and <a href="https://arxiv.org/abs/1810.12715">IBP</a> papers (IBP is an easier read)
+    <br/>
+<i>Thu</i>  Randomized smoothing + NLP / see <a href="https://arxiv.org/abs/1902.02918">Cohen et al.</a> and <a href="https://arxiv.org/pdf/1909.01492">Huang et al.</a>
+</p>
+<p>
+<par>4.6 </par> <b>Verified RL</b>
+<br/>
+<i>Tue</i>  Invariants and NNs / see <a href="https://herowanzhu.github.io/herowanzhu.github.io/pldi2019.pdf">Zhu et al.</a>
+<br/>
+<i>Thu</i>  MDPs and verification / see <a href="https://herowanzhu.github.io/herowanzhu.github.io/pldi2019.pdf">Zhu et al.</a>
+</p>
+<p>
+<par>4.13 </par> TBD
+    <br/>
+<i>Tue</i>  
+    <br/>
+<i>Thu</i>      
+    </p>
+<p>
+<par>4.20 </par> Project presentations
+    <br/>
+<i>Tue</i>  presentations
+    <br/>
+<i>Thu</i>  presentations
+    </p>
+<p>
+<par>4.27 </par> Project presentations
+    <br/>
+<i>Tue</i>  presentations
+    <br/>
+<i>Thu</i>  presentations + farewell    
+    </p>
+<hr/>
+<br/>
+<par>Grade distribution</par>
+<br/>
+    75% project (mid March review 15%, mid April review 15%, paper 30%, 15% presentation)
+    <br/>
+    25% assignments (5% participation + 3 assignments)
+    
+    
+    <br/><br/>
+<par>Project details</par>
+<br/>
+    Find project partner and choose project<br/>
+    Create GitHub repository in CS839 organization<br/>
+    Weekly update README.md with new developments, problems, etc.<br/>
+</div>
+</body>
+</html>

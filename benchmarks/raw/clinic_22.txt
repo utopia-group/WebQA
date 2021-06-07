@@ -1,0 +1,4295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Primary Care Services | UI Health</title>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="Primary care physicians (PCP) at UI Health, located in Chicago Il., provide the care every member of your family needs at each stage of life. Partnering with a UI Health PCP is one of the most important things you can do for your health. Find a primary care physician near you." name="description"/>
+<!-- Twitter Card data -->
+<meta name="twitter:card" value="summary"/>
+<meta name="twitter:site" value=""/>
+<meta name="twitter:title" value="Primary Care Services"/>
+<meta name="twitter:description" value="Primary care physicians (PCP) at UI Health, located in Chicago Il., provide the care every member of your family needs at each stage of life. Partnering with a UI Health PCP is one of the most important things you can do for your health. Find a primary care physician near you."/>
+<meta content="" name="twitter:image"/>
+<meta name="twitter:creator" value=""/>
+<!-- Open Graph data start -->
+<meta content="Primary Care Services" property="og:title"/>
+<meta content="" property="og:type"/>
+<meta content="//hospital.uillinois.edu/primary-and-specialty-care/primary-care-services" property="og:url"/>
+<meta content="" property="og:image"/>
+<meta content="Primary care physicians (PCP) at UI Health, located in Chicago Il., provide the care every member of your family needs at each stage of life. Partnering with a UI Health PCP is one of the most important things you can do for your health. Find a primary care physician near you." property="og:description"/>
+<!-- Open Graph data end -->
+<meta content="5Nms1UiP28a_8aQdvH4acboVcMX70MhkpbmWsfkrFVU" name="google-site-verification"/>
+<meta content="" name="keywords"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="" name="robots"/>
+<link href="/es/primary-and-specialty-care/servicios-de-cuidado-primario" hreflang="es" rel="alternate"/>
+<link href="/assets/SiteControl/favicon.ico" rel="shortcut icon"/>
+<base href="https://hospital.uillinois.edu/"/>
+<link href="//cloud.typography.com/7249754/715926/css/fonts.css" rel="stylesheet" type="text/css"/>
+<link href="/assets/prebuilt/css/screen.css" rel="stylesheet" type="text/css"/>
+<script src="/assets/prebuilt/js/jquery.js"></script>
+<!-- Google Tag Manager -->
+<script>(function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-N3MSSM4');</script>
+<!-- End Google Tag Manager -->
+<!--Remove Empty H2 Tags -->
+<script>
+        $(document).ready(function () {
+            $("div h2:empty").remove();
+            $("div h3:empty").remove();
+
+        });
+    </script>
+<script type="text/javascript">
+        (function () {
+
+            // store the slider in a local variable
+            var $window = $(window),
+                flexslider;
+
+
+            // tiny helper function to add breakpoints
+            function getGridSize() {
+                return (window.innerWidth < 768) ? 2 :
+                    (window.innerWidth < 992) ? 3 : 4;
+            }
+
+            $window.load(function () {
+                $('.flexslider.flex-1').flexslider({
+                    animation: "slide",
+                    animationLoop: false,
+                    controlNav: false,
+                    itemWidth: 220,
+                    itemMargin: 0,
+                    prevText: " ",
+                    nextText: " ",
+                    minItems: getGridSize(),
+                    maxItems: getGridSize(),
+                    start: function (slider) {
+                        $('body').removeClass('loading');
+                        flexslider = slider;
+                    },
+                    slideshow: false
+                });
+            });
+
+            // check grid size on resize event
+            $window.resize(function () {
+                var gridSize = getGridSize();
+
+                flexslider.vars.minItems = gridSize;
+                flexslider.vars.maxItems = gridSize;
+            });
+
+        }());
+
+        /*(function () {
+
+            // store the slider in a local variable
+            var $window = $(window),
+            flexslider;
+
+
+            // tiny helper function to add breakpoints
+            function getGridSize() {
+                return (window.innerWidth < 400) ? 1 :
+                        (window.innerWidth < 768) ? 2 :
+                        (window.innerWidth < 1200) ? 3 : 4;
+            }
+
+            $window.load(function () {
+                $('.flexslider.flex-2').flexslider({
+                    animation: "slide",
+                    animationLoop: false,
+                    controlNav: false,
+                    itemWidth: 220,
+                    itemMargin: 0,
+                    prevText: " ",
+                    nextText: " ",
+                    minItems: getGridSize(),
+                    maxItems: getGridSize(),
+                    start: function (slider) {
+                        $('body').removeClass('loading');
+                        flexslider = slider;
+                    }
+                });
+            });
+
+            // check grid size on resize event
+            $window.resize(function () {
+                var gridSize = getGridSize();
+
+                flexslider.vars.minItems = gridSize;
+                flexslider.vars.maxItems = gridSize;
+            });
+
+        }());*/
+    </script>
+</head>
+<body>
+<style>
+    /* The alert message box */
+    .alert {
+        padding: 20px;
+        background-color: #E91B0C; /* Red */
+        color: white !important;
+        margin-bottom: 0px;
+        font-family: arial;
+    }
+
+    .alert a {
+        color: white !important;
+        text-decoration: underline;
+    }
+
+    /* The close button */
+    .closebtn {
+        margin-left: 15px;
+        color: white;
+        font-weight: bold;
+        float: right;
+        font-size: 22px;
+        line-height: 20px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    /* When moving the mouse over the close button */
+    .closebtn:hover {
+        color: black;
+    }
+</style>
+<div class="alert">
+<span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
+<strong>COVID-19 Updates: </strong> <a href="/primary-and-specialty-care/infectious-diseases/covid-19-coronavirus">
+    View the latest information from UI Health.</a>
+</div>
+<div id="page">
+<div id="header">
+<div class="container">
+<a class="logo" href="/">
+<img alt="UI Health: University of Illinois Hospital and Health Sciences System" src="/assets/images/SiteControl/UIHealthUICLogo.gif"/>
+</a>
+</div>
+</div><!-- #header -->
+<div id="mobile-nav">
+<p class="align-center"><strong><a href="tel:8666002273">Call Us 866.600.CARE</a></strong></p>
+<form action="/search-results" class="search" method="get">
+<input name="term" placeholder="How may we help you?" type="text"/>
+<input type="submit" value=" "/>
+</form>
+<ul class="gray">
+<li><a href="/primary-and-specialty-care" title="Primary &amp; Specialty Care">
+                Primary &amp; Specialty Care</a>
+</li>
+<li><a href="/patients-and-visitors" title="Patients &amp; Visitors">
+                Patients &amp; Visitors</a>
+</li>
+<li><a href="/referring-physicians" title="Referring Physicians">
+                Referring Physicians</a>
+</li>
+<li><a href="/about-ui-health" title="About UI Health">
+                About UI Health</a>
+</li>
+</ul>
+<hr/>
+<!-- TODO: where do these come from -->
+<ul>
+<li><a href="/find-a-doctor" title="Find a Doctor">
+                Find a Doctor</a>
+</li>
+<li><a href="/request-an-appointment" title="Request an Appointment">
+                Request an Appointment</a>
+</li>
+<li><a href="/patients-and-visitors/locations-and-directions" title="Maps &amp; Directions">
+                Maps &amp; Directions</a>
+</li>
+<li><a href="/patients-and-visitors/patient-information/mychart" title="MyChart">
+                MyChart</a>
+</li>
+<li><a href="/patients-and-visitors/patient-information/billing-and-pricing" title="Pay A Bill">
+                Pay A Bill</a>
+</li>
+<li><a href="/contact-us" title="Contact Us">
+                Contact Us</a>
+</li>
+</ul>
+</div><!-- #mobile-nav -->
+<div class="push-wrap">
+<div class="mobile-hide" id="nav">
+<div class="container">
+<div class="row">
+<div class="col-md-8">
+<ul class="main">
+<li>
+<a href="/primary-and-specialty-care" title="Primary &amp; Specialty Care">
+                                    Primary &amp; Specialty Care</a>
+<div class="mega">
+<div class="mega-padding">
+<div class="row">
+<div class="col-md-3">
+<p><a href="/primary-and-specialty-care"><img alt="Primary Care" height="195" src="Images/SiteControl/family.jpg" width="260"/></a></p>
+<p>At UI Health, our foundation in academic excellence leads to new
+                                                    possibilities in healthcare. We take pride in serving Chicago and
+                                                    are committed to keeping your family healthy.</p>
+<!--<p><a href="/primary-and-specialty-care/primary-care-services#test" >Read More <em class="fa fa-angle-double-right"></em></a></p>
+                                                --></div>
+<div class="col-md-9">
+<div class="row">
+<div class="col-md-3">
+<ul>
+<li>
+<a href="/primary-and-specialty-care/primary-care-services">PRIMARY
+                                                                    CARE</a></li>
+<li><a href="/primary-and-specialty-care/internal-medicine">Internal
+                                                                Medicine</a></li>
+<li><a href="/primary-and-specialty-care/family-medicine">Family
+                                                                Medicine</a></li>
+<li>
+<a href="/patients-and-visitors/mile-square-federally-qualified-health-center">Mile
+                                                                    Square Health Center</a></li>
+<li>
+<a href="/primary-and-specialty-care/pediatrics/childrens-hospital">Pediatrics</a>
+</li>
+</ul>
+<ul>
+<li><a href="/primary-and-specialty-care">SPECIALTY CARE</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/surgical-services/craniofacial-center">Craniofacial
+                                                                    Center</a></li>
+<li><a href="/primary-and-specialty-care/dermatology">Dermatology </a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/diabetes-and-endocrinology">Diabetes
+                                                                    &amp; Endocrinology</a></li>
+<li><a href="/primary-and-specialty-care/gastroenterology">Gastroenterology
+                                                                (GI)</a></li>
+<li>
+<a href="/primary-and-specialty-care/hepatology-liver-disease">Liver
+                                                                    Disease</a></li>
+<li class="on"><a href="/primary-and-specialty-care/ophthalmology">Ophthalmology</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/cancer-services-at-ui-health/cancer-programs/prostate-cancer">Prostate</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/psychiatry-services">Psychiatry</a>
+</li>
+<li><a href="/primary-and-specialty-care/radiology">Radiology</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/rehabilitation-services">Rehabilitation</a>
+</li>
+<li><a href="/primary-and-specialty-care/sickle-cell">Sickle
+                                                                Cell</a></li>
+</ul>
+</div>
+<div class="col-md-3">
+<ul>
+<li><a href="/primary-and-specialty-care/womens-health">WOMEN'S
+                                                                HEALTH</a></li>
+<li>
+<a href="/primary-and-specialty-care/obstetrics-and-gynecology">OB/GYN</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/surgical-services/breast-care">Breast
+                                                                    Care</a></li>
+<li>
+<a href="/primary-and-specialty-care/family-birth-place">Labor
+                                                                    &amp; Delivery</a></li>
+</ul>
+<ul>
+<li>
+<a href="/primary-and-specialty-care/neurology-and-neurosurgery">NEUROLOGY
+                                                                    &amp; NEUROSURGERY</a></li>
+<li>
+<a href="/primary-and-specialty-care/neurology-and-neurosurgery/neurological-conditions-we-treat/brain-aneurysm">Brain
+                                                                    Aneurysm</a></li>
+<li>
+<a href="/primary-and-specialty-care/ui-health-stroke-institute">Stroke</a>
+</li>
+<li><a href="/primary-and-specialty-care/pain-management">Pain
+                                                                Management</a></li>
+</ul>
+<ul>
+<li><a href="/primary-and-specialty-care/weight-management">WEIGHT
+                                                                MANAGEMENT</a></li>
+<li>
+<a href="/primary-and-specialty-care/surgical-services/bariatric-surgery-program">Bariatric
+                                                                    Surgery</a></li>
+<li>
+<a href="/primary-and-specialty-care/weight-management/nonsurgical-weight-loss-programs">Non-Surgical
+                                                                    Weight Loss</a></li>
+</ul>
+</div>
+<div class="col-md-3">
+<ul>
+<li>
+<a href="/primary-and-specialty-care/cancer-services-at-ui-health">CANCER
+                                                                    SERVICES</a></li>
+<li>
+<a href="/primary-and-specialty-care/surgical-services/breast-care">Breast
+                                                                    Cancer</a></li>
+<li>
+<a href="/primary-and-specialty-care/cancer-services-at-ui-health/cancer-programs/colon-and-rectal-cancer">Colon
+                                                                    Cancer</a></li>
+<li>
+<a href="/primary-and-specialty-care/obstetrics-and-gynecology/our-obgyn-services/gynecologic-oncology">Gynecologic
+                                                                    Oncology</a></li>
+<li>
+<a href="/primary-and-specialty-care/cancer-services-at-ui-health/cancer-programs/lung-cancer">Lung
+                                                                    Cancer</a></li>
+<li>
+<a href="/primary-and-specialty-care/urology/urologic-cancer-program">Urologic
+                                                                    Cancers</a></li>
+</ul>
+<ul>
+<li><a href="/primary-and-specialty-care/otolaryngology">EAR,
+                                                                NOSE, &amp; THROAT</a></li>
+<li><a href="/primary-and-specialty-care/otolaryngology">Otolaryngology</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/otolaryngology/audiology">Audiology</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/otolaryngology/head-and-neck-cancer-surgery">Head
+                                                                    and Neck Cancer</a></li>
+</ul>
+<ul>
+<li><a href="/primary-and-specialty-care/pulmonary">LUNG
+                                                                HEALTH</a></li>
+<li>
+<a href="/primary-and-specialty-care/pulmonary/our-areas-of-expertise/allergy">Allergy</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/pulmonary/our-areas-of-expertise/asthma">Asthma</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/rheumatology/sarcoidosis">Sarcoidosis</a>
+</li>
+</ul>
+</div>
+<div class="col-md-3">
+<ul>
+<li>
+<a href="/primary-and-specialty-care/pediatrics/childrens-hospital">PEDIATRICS</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/pediatrics/childrens-hospital">Children's
+                                                                    Hospital</a></li>
+</ul>
+<ul>
+<li><a href="/primary-and-specialty-care/surgical-services">SURGERY</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/surgical-services/bariatric-surgery-program">Bariatric
+                                                                    Surgery</a></li>
+<li>
+<a href="/primary-and-specialty-care/surgical-services/robotic-surgery-program">Robotic
+                                                                    Surgery</a></li>
+<li>
+<a href="/primary-and-specialty-care/surgical-services/vascular-surgery-at-ui-health">Vascular
+                                                                    Surgery</a></li>
+</ul>
+<ul>
+<li><a class="extLink" href="https://dentistry.uic.edu/patients" target="_blank">DENTISTRY</a></li>
+<li>
+<a href="/patients-and-visitors/mile-square-federally-qualified-health-center/dental-care-south-shore">South
+                                                                    Shore Dental</a></li>
+</ul>
+<ul>
+<li><a href="/primary-and-specialty-care/transplant">TRANSPLANT</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/transplant/blood-and-marrow-transplant-program">Blood
+                                                                    and Marrow</a></li>
+<li>
+<a href="/primary-and-specialty-care/transplant/kidney-transplantation">Kidney</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/transplant/liver-transplantation">Liver</a>
+</li>
+</ul>
+<p><a href="/primary-and-specialty-care">See More Services <em class="fa fa-angle-double-right"></em></a></p>
+</div>
+</div>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-md-6">
+<div class="foot-links">
+<a href="/find-a-doctor" title="Find a Doctor">
+                                                        Find a Doctor</a>
+<a href="/request-an-appointment" title="Request an Appointment">
+                                                        Request an Appointment</a>
+<a href="/patients-and-visitors/locations-and-directions" title="Maps &amp; Directions">
+                                                        Locations &amp; Directions</a>
+</div>
+</div>
+<div class="col-md-4">
+<div class="foot-links">
+<a href="/patients-and-visitors/patient-information/mychart" title="MyChart">
+                                                        MyChart</a>
+<a href="/patients-and-visitors/patient-information/billing-and-pricing" title="Pay A Bill">
+                                                        Pay A Bill</a>
+<a href="/contact-us" title="Contact Us">
+                                                        Contact Us</a>
+</div>
+</div>
+<div class="col-md-2">
+<div class="foot-links align-left">
+                                                    Call Us <a class="phone" href="tel:8666002273">866.600.CARE</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<a href="/patients-and-visitors" title="Patients &amp; Visitors">
+                                    For Patients &amp; Visitors</a>
+<div class="mega">
+<div class="mega-padding">
+<div class="row">
+<div class="col-md-3">
+<p><a href="/primary-and-specialty-care/primary-care-services#"><img alt="Maps Locations and Directions" height="195" src="Images/SiteControl/PAndVDropDown.jpg" width="260"/></a></p>
+<p>A visit to the hospital can be overwhelming. At UI Health, we strive
+                                                    to make the patient and visitor experience as stress-free and
+                                                    comfortable as possible.</p>
+</div>
+<div class="col-md-9">
+<div class="row">
+<div class="col-md-3">
+<ul>
+<li><a href="/patients-and-visitors/patient-information">PATIENT
+                                                                INFORMATION</a></li>
+<li>
+<a href="/patients-and-visitors/patient-information/mychart">MyChart
+                                                                    (was Patient Portal)</a><a href="/primary-and-specialty-care/primary-care-services#"></a>
+</li>
+<li><a href="/patients-and-visitors/financial-assistance">Financial
+                                                                Assistance</a></li>
+<li>
+<a href="/patients-and-visitors/patient-information/billing-and-pricing">Billing
+                                                                    and Pricing</a></li>
+</ul>
+<ul>
+<li><a href="/patients-and-visitors/visiting-a-patient">VISITING
+                                                                A PATIENT</a></li>
+<li>
+<a href="/patients-and-visitors/visiting-a-patient/accommodations">Accommodations</a>
+</li>
+<li class="on"><a href="/patients-and-visitors/visiting-a-patient/dining">Dining</a>
+</li>
+<li>
+<a href="/patients-and-visitors/visiting-a-patient/gift-shop">Gift
+                                                                    Shop</a></li>
+</ul>
+<ul>
+<li><a href="/patient-stories">PATIENT STORIES</a></li>
+</ul>
+</div>
+<div class="col-md-3">
+<ul>
+<li>
+<a href="/patients-and-visitors/health-insurance-information">HEALTH
+                                                                    INSURANCE</a></li>
+<li>
+<a href="/patients-and-visitors/health-insurance-information/accepted-insurance-plans">Accepted
+                                                                    Insurance Plans</a></li>
+<li>
+<a href="/patients-and-visitors/health-insurance-information/ui-health-plus">UI
+                                                                    Health Plus</a></li>
+<li>
+<a href="/patients-and-visitors/health-insurance-information/contact-a-certified-application-counselor">Certified
+                                                                    Application Counselor</a></li>
+</ul>
+<ul>
+<li><a href="/primary-and-specialty-care/pharmacy">UI HEALTH
+                                                                PHARMACIES</a></li>
+<li>
+<a href="/primary-and-specialty-care/pharmacy/locations-hours-and-contact-info">Locations</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/pharmacy/prescription-services">Prescription
+                                                                    Services</a></li>
+<li>
+<a href="/primary-and-specialty-care/pharmacy/uic-student-services">Student
+                                                                    Services</a></li>
+</ul>
+</div>
+<div class="col-md-3">
+<ul>
+<li><a href="/patients-and-visitors/helpful-numbers">HELPFUL
+                                                                NUMBERS</a></li>
+<li>
+<a href="/patients-and-visitors/patient-safety-and-policies">Patient
+                                                                    Safety &amp; Policies</a></li>
+<li>
+<a href="/patients-and-visitors/financial-assistance/health-social-workers">Health
+                                                                    Social Workers</a></li>
+<li>
+<a href="/patients-and-visitors/international-medicine-unpub/volunteer-services">Volunteer
+                                                                    Services</a></li>
+</ul>
+</div>
+<div class="col-md-3">
+<ul>
+<li>
+<a href="/patients-and-visitors/locations-and-directions">LOCATIONS
+                                                                    &amp; MAPS</a></li>
+<li>
+<a href="/patients-and-visitors/locations-and-directions/hospital">Hospital</a>
+</li>
+<li>
+<a href="/patients-and-visitors/mile-square-federally-qualified-health-center">Mile
+                                                                    Square Health Center</a></li>
+<li>
+<a href="/patients-and-visitors/locations-and-directions/outpatient-care-center">Outpatient
+                                                                    Care Center</a><a href="/primary-and-specialty-care/primary-care-services#"></a>
+</li>
+<li>
+<a href="/patients-and-visitors/locations-and-directions/university-village-clinic-maxwell-street">University
+                                                                    Village Clinic</a></li>
+<li><a href="/primary-and-specialty-care/urgent-care">Urgent
+                                                                Care</a></li>
+<li><a href="/primary-and-specialty-care/pharmacy">Pharmacies</a>
+</li>
+<li>
+<a href="/patients-and-visitors/locations-and-directions/family-medicine-pilsen">Pilsen,
+                                                                    Lower West</a></li>
+</ul>
+<p><a href="/patients-and-visitors">See More Patients <br/> &amp;
+                                                            Visitors <em class="fa fa-angle-double-right"></em></a></p>
+</div>
+</div>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-md-6">
+<div class="foot-links">
+<a href="/find-a-doctor" title="Find a Doctor">
+                                                        Find a Doctor</a>
+<a href="/request-an-appointment" title="Request an Appointment">
+                                                        Request an Appointment</a>
+<a href="/patients-and-visitors/locations-and-directions" title="Maps &amp; Directions">
+                                                        Locations &amp; Directions</a>
+</div>
+</div>
+<div class="col-md-4">
+<div class="foot-links">
+<a href="/patients-and-visitors/patient-information/mychart" title="MyChart">
+                                                        MyChart</a>
+<a href="/patients-and-visitors/patient-information/billing-and-pricing" title="Pay A Bill">
+                                                        Pay A Bill</a>
+<a href="/contact-us" title="Contact Us">
+                                                        Contact Us</a>
+</div>
+</div>
+<div class="col-md-2">
+<div class="foot-links align-left">
+                                                    Call Us <a class="phone" href="tel:8666002273">866.600.CARE</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<a href="/referring-physicians" title="Referring Physicians">
+                                    For Referring Physicians</a>
+</li>
+<li>
+<a href="/about-ui-health" title="About UI Health">
+                                    About UI Health</a>
+<div class="mega">
+<div class="mega-padding">
+<div class="row">
+<div class="col-md-3">
+<p>The University of Illinois Hospital and Clinics is a patient centered
+                                                    organization. Providing safe, high-quality and cost-effective care
+                                                    for our patients is our foremost responsibility. The care of our
+                                                    patients and their families will always be at the heart of our
+                                                    mission.</p>
+<p><a href="/about-ui-health/mission-vision-and-values">Our Mission<em class="fa fa-angle-double-right"></em></a></p>
+</div>
+<div class="col-md-9">
+<div class="row">
+<div class="col-md-3">
+<ul>
+<li><a href="/about-ui-health/mission-vision-and-values">Mission,
+                                                                Vision, and Values</a></li>
+<li><a href="/about-ui-health/ui-health-leadership">UI
+                                                                Health Leadership</a></li>
+<li><a href="/about-ui-health/points-of-pride">Points of
+                                                                Pride</a></li>
+</ul>
+<ul>
+<li><a href="/about-ui-health/community-commitment">Community
+                                                                Commitment</a></li>
+<li>
+<a href="/about-ui-health/community-commitment/annual-events">Annual
+                                                                    Events</a></li>
+<li class="on"><a href="/about-ui-health/community-commitment/better-health-through-housing">Better
+                                                                Health through Housing</a></li>
+</ul>
+</div>
+<!--<div class="col-md-3">
+                                                    <ul>
+                                                    <li><a href="/x3939.xml" >Vice President for Health Affairs</a></li>
+                                                    <li><a href="/x3941.xml" >Leadership Team</a></li>
+                                                    <li><a href="/x3948.xml" >Population Health Sciences</a></li>
+                                                    <li><a href="/x3966.xml" >Quality and Patient Safety </a></li>
+                                                    </ul>
+                                                    </div>-->
+<div class="col-md-3">
+<ul>
+<li><a href="/about-ui-health/employee-pride">Employee
+                                                                Pride</a></li>
+<li>
+<a href="/about-ui-health/employee-pride/employee-recognition">Recognition</a>
+</li>
+<li>
+<a href="/about-ui-health/employee-pride/award-for-extraordinary-nurses">Extraordinary
+                                                                    Nurses</a></li>
+</ul>
+</div>
+<div class="col-md-3">
+<ul>
+<li><a href="/about-ui-health/career-opportunities">Career
+                                                                Opportunities</a></li>
+<li><a class="extLink" href="https://jobs.uic.edu/UI_health" target="_blank">UI Health Jobs</a></li>
+<li>
+<a href="/about-ui-health/career-opportunities/admin-fellowship">Admin
+                                                                    Fellowship</a></li>
+<li>
+<a href="/patients-and-visitors/international-medicine-unpub/volunteer-services">Volunteering</a>
+</li>
+</ul>
+</div>
+<div class="col-md-3">
+<ul>
+<li><a href="/about-ui-health/connect-with-us">Connect With
+                                                                Us</a></li>
+<li><a href="/about-ui-health/giving">Giving</a></li>
+</ul>
+<ul>
+<li><a href="http://uic.edu">UIC.edu</a></li>
+</ul>
+<p><a href="/about-ui-health">See More About UI Health <em class="fa fa-angle-double-right"></em></a></p>
+</div>
+</div>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-md-6">
+<div class="foot-links">
+<a href="/find-a-doctor" title="Find a Doctor">
+                                                        Find a Doctor</a>
+<a href="/request-an-appointment" title="Request an Appointment">
+                                                        Request an Appointment</a>
+<a href="/patients-and-visitors/locations-and-directions" title="Maps &amp; Directions">
+                                                        Locations &amp; Directions</a>
+</div>
+</div>
+<div class="col-md-4">
+<div class="foot-links">
+<a href="/patients-and-visitors/patient-information/mychart" title="MyChart">
+                                                        MyChart</a>
+<a href="/patients-and-visitors/patient-information/billing-and-pricing" title="Pay A Bill">
+                                                        Pay A Bill</a>
+<a href="/contact-us" title="Contact Us">
+                                                        Contact Us</a>
+</div>
+</div>
+<div class="col-md-2">
+<div class="foot-links align-left">
+                                                    Call Us <a class="phone" href="tel:8666002273">866.600.CARE</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div>
+<div class="col-md-4">
+<form action="/search-results" class="search" method="get">
+<input name="term" placeholder="How may we help you?" type="text"/>
+<input type="submit" value=" "/>
+</form>
+</div>
+</div>
+</div>
+</div><!-- #nav -->
+<div id="sub-nav">
+<div class="container">
+<div class="mobile-only">
+<span class="spanish-link"> <a class="active" href="/es/primary-and-specialty-care/servicios-de-cuidado-primario" title="Servicios de Cuidado Primario">
+		Español</a>
+</span>
+<strong><i class="fa fa-phone"></i> <a href="tel:8666002273">866.600.CARE</a></strong>
+<span class="menu-toggle">
+<span class="open">
+<i class="fa fa-bars"></i>
+</span>
+<span class="close">
+<i class="fa fa-times"></i>
+</span>
+</span>
+</div>
+<div class="row mobile-hide">
+<div class="col-md-5">
+<ul>
+<li><a href="/find-a-doctor" title="Find a Doctor">
+                                Find a Doctor</a>
+</li>
+<li><a href="/request-an-appointment" title="Request an Appointment">
+                                Request an Appointment</a>
+</li>
+<li><a href="/patients-and-visitors/locations-and-directions" title="Maps &amp; Directions">
+                                Maps &amp; Directions</a>
+</li>
+</ul>
+</div>
+<div class="col-md-7">
+<ul>
+<li><a href="/patients-and-visitors/patient-information/mychart" title="MyChart">
+                                MyChart</a>
+</li>
+<li><a href="/patients-and-visitors/patient-information/billing-and-pricing" title="Pay A Bill">
+                                Pay A Bill</a>
+</li>
+<li><a href="/contact-us" title="Contact Us">
+                                Contact Us</a>
+</li>
+<li class="spanish-link"><a class="active" href="/es/primary-and-specialty-care/servicios-de-cuidado-primario" title="Servicios de Cuidado Primario">
+                                Español</a>
+</li>
+<li><i class="fa fa-phone"></i> <a href="tel:8666002273">866.600.CARE</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div><!-- #sub-nav -->
+<div id="banner" style="background-image:url('images/Section Control/healthcareinthearts.jpg');">
+<div class="container">
+<h1>Primary Care Services</h1>
+</div>
+</div><!-- #banner -->
+<div id="crumbs">
+<div class="container">
+<span class="side-nav-toggle">
+<span class="open">
+<i class="fa fa-bars"></i>
+</span>
+<span class="close">
+<i class="fa fa-times"></i>
+</span>
+<span class="xs-hide">Additional</span> Navigation
+			</span>
+<div class="row">
+<div class="col-sm-8">
+<div class="crumbs">
+<a href="/" title="Home">
+                                Home</a>
+<span>/</span>
+<a href="/primary-and-specialty-care" title="Primary &amp; Specialty Care">
+                                Primary &amp; Specialty Care</a>
+<span>/</span>
+<a href="/primary-and-specialty-care/primary-care-services" title="Primary Care Services">
+                                Primary Care Services</a>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="utilities">
+<a class="print" href="#" onclick="window.print(); return false;">Print</a>
+<a class="addthis_button btn_ShareThisPage">Share</a>
+<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-515c8e950495da55" tabindex="1000" type="text/javascript"></script>
+</div>
+</div>
+</div>
+</div>
+</div><!-- #crumbs -->
+<div id="main">
+<div class="container">
+<div class="row">
+<div class="col-md-3 border-right">
+<div class="side-nav">
+<h4><a href="/primary-and-specialty-care/primary-care-services">Primary Care Services</a>
+</h4>
+<h5 class="">
+<a href="primary-and-specialty-care/internal-medicine" target="">Internal Medicine</a>
+</h5>
+<h5 class="">
+<a href="primary-and-specialty-care/family-medicine" target="">Family Medicine</a>
+</h5>
+<h5 class="">
+<a href="primary-and-specialty-care/pediatrics/childrens-hospital" target="">Pediatrics</a>
+</h5>
+<h5 class="">
+<a href="primary-and-specialty-care/geriatrics" target="">Geriatrics</a>
+</h5>
+<h5 class="">
+<a href="primary-and-specialty-care/obstetrics-and-gynecology" target="">OB/GYN</a>
+</h5>
+<h5 class="">
+<a href="/primary-and-specialty-care/primary-care-services/our-locations" target="">Our
+                                    Locations</a>
+</h5>
+<h5 class="">
+<a href="/primary-and-specialty-care/primary-care-services/our-services" target="">Our
+                                    Services</a>
+</h5>
+<div class="spacer"></div>
+<h4>Related Links</h4>
+<ul>
+<li><a href="/primary-and-specialty-care/urgent-care" title="Urgent Care">
+                                    Urgent Care</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="col-md-9 border-left">
+<div class="main-area" id="editable">
+<h2 class=""><strong>Primary Care Services</strong></h2>
+<div class="row">
+<div class="col-sm-8">
+<p><strong></strong>Primary care physicians (PCP) at UI Health provide the care
+                                        every member of your family needs at each stage of life.<br/><br/>Our primary care
+                                        doctors perform routine health exams, such as physical exams, <a href="/primary-and-specialty-care/pediatrics/childrens-hospital/our-services/pediatric-primary-care">well-child
+                                            visits</a>, and <a href="/primary-and-specialty-care/obstetrics-and-gynecology/our-obgyn-services/general-obstetrics-and-gynecology">well-woman
+                                            visits</a>; help you prevent or manage of chronic conditions like <a href="/primary-and-specialty-care/pediatrics/childrens-hospital/our-services/pediatric-endocrinology/for-patients/diabetes">diabetes</a>,
+                                        <a href="/primary-and-specialty-care/cardiology">high blood pressure</a>, and <a href="/primary-and-specialty-care/pulmonary/our-areas-of-expertise/asthma">asthma</a>;
+                                        and provide education about exercising, eating healthy, and other important
+                                        steps you can take to be your healthiest self.<br/><br/>Partnering with a UI
+                                        Health PCP is one of the most important things you can do for your health.
+                                        <br/><br/></p>
+</div>
+<div class="col-sm-4">
+<div class="request-button animate darkgrey"><span> REQUEST AN <br/>APPOINTMENT <br/> <br/> </span>
+<div class="phoneicon"><img alt="Request An Appointment Phone Icon" height="30" src="Images/requestappointment/phoneicon.png" width="30"/> 866.600.CARE
+                                        </div>
+<div class="formicon"><img alt="Request an Appointment Form Icon" height="29" src="Images/requestappointment/onlineform.png"/><a href="/request-an-appointment">Request Online</a></div>
+<div class="referringphysician"><a href="/referring-physicians/physician-referral-form">Referring
+                                            Physicians Click Here</a></div>
+</div>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-sm-6">
+<iframe frameborder="0" height="220" src="https://www.youtube.com/embed/Zn49jHOcXWA?rel=0" width="100%"></iframe>
+</div>
+<div class="col-sm-6">
+<h3>The Care You Need in a Way That Works for You</h3>
+<p>With <a href="/patients-and-visitors/patient-information/mychart/virtual-visits-with-mychart">virtual
+                                        visits</a>, seeing your UI Health provider is as simple as clicking a link in a
+                                        text message. It’s never been more convenient to get the care you need to
+                                        stay healthy.</p>
+</div>
+</div>
+<hr/>
+<div>
+<h3>Preventative Care for the Whole Family</h3>
+                                At UI Health, we believe in preventive care for the whole family, from children to older
+                                adults. <br/>Find the PCP that’s right for you.<br/><br/>
+<div class="row">
+<div class="col-xs-6 col-md-4">
+<h4><a href="/primary-and-specialty-care/internal-medicine">Internal
+                                            Medicine</a></h4>
+                                        Internal medicine physicians specialize in the prevention, diagnosis, and
+                                        treatment of health issues that impact adults.
+                                    </div>
+<div class="col-xs-6 col-md-4">
+<h4><a href="/primary-and-specialty-care/family-medicine">Family Medicine</a>
+</h4>
+                                        Family medicine doctors diagnose, treat, and help prevent disease for patients
+                                        of all ages, from children to older adults.
+                                    </div>
+<div class="col-xs-6 col-md-4">
+<h4><a href="/primary-and-specialty-care/pediatrics/childrens-hospital">Pediatrics</a>
+</h4>
+                                        Our general pediatricians provide preventative care that ensures children grow
+                                        up healthy and develop properly.
+                                    </div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-xs-6 col-md-4">
+<h4><a href="/primary-and-specialty-care/obstetrics-and-gynecology">OB/GYN</a>
+</h4>
+                                        Our team provides a variety of services for obstetric and gynecologic
+                                        healthcare, including well-woman exams, family planning advice, prenatal care, and
+                                        more.
+                                    </div>
+<div class="col-xs-6 col-md-4">
+<h4>Two-Generation Clinic</h4>
+                                        The Two-Generation Clinic at UI Health allows women and children to receive all
+                                        of the primary care services they need at the same place and time.
+                                    </div>
+<div class="col-xs-6 col-md-4">
+<h4><a href="/primary-and-specialty-care/geriatrics">Geriatric Medicine</a></h4>
+                                        Our comprehensive team ensures older adults and their families have the
+                                        education, support, and guidance they need to develop personalized care plans.
+                                    </div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-xs-6 col-md-4"></div>
+</div>
+</div>
+<!-- commented out 9/15/2015 -->
+<!-- </div>
+                            <div class="main-area"> -->
+<div class="spacer"></div> <!-- This is what I added 9/15/20015 -->
+<div class="pageBuilderLayout" id="page-builder">
+<div class="row" id="IGXPresentationRow_c4b490ef4c66823391e6acdf25384661">
+<div class="col-sm-12 pagePresentationLayoutColumn" gridwidth="12" id="IGXPresentationColumn_1e6c98de3e42032ecf81f30af7dd1971">
+<div>
+<div class="row">
+<div class="col-sm-9">
+<h2>Our Primary Care Specialists</h2>
+</div>
+<div class="col-sm-3 mobile-hide">
+<p>
+</p></div>
+</div>
+<div class="flexslider flex-1">
+<ul class="slides">
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/pranshu-adavadkar">
+<img alt="Pranshu Adavadkar - Pediatrics" src="/assets/images/clinicians/pranshu.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/pranshu-adavadkar">View Profile</a>
+<a href="/request-an-appointment?doctor=Pranshu Adavadkar" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/pranshu-adavadkar">Pranshu
+                                                                    Adavadkar, MD</a>
+<br/>
+                                                                Pediatric Primary Care
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/aneet-y-ahluwalia">
+<img alt="Aneet Y. Ahluwalia - Primary Care" src="/assets/images/clinicians/aahluw1.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/aneet-y-ahluwalia">View Profile</a>
+<a href="/request-an-appointment?doctor=Aneet Ahluwalia" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/aneet-y-ahluwalia">Aneet
+                                                                    Ahluwalia, MD</a>
+<br/>
+                                                                Internal Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/maria-t-albright">
+<img alt="Maria Albright, Physician, Family Medicine" src="/assets/images/clinicians/albright.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/maria-t-albright">View Profile</a>
+<a href="/request-an-appointment?doctor=Maria Albright" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/maria-t-albright">Maria
+                                                                    Albright, MD</a>
+<br/>
+                                                                Family Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/tamika-alexander">
+<img alt="Tamika Alexander, Obstetrics &amp; Gynecology, Mile Square" src="/assets/images/clinicians/talexa1.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/tamika-alexander">View Profile</a>
+<a href="/request-an-appointment?doctor=Tamika Alexander" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/tamika-alexander">Tamika
+                                                                    Alexander, MD</a>
+<br/>
+                                                                Obstetrics &amp; Gynecology
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/liliana-alvarez">
+<img alt="Liliana Alvarez, Family Nurse Practitioner, Family Medicine" src="/assets/images/clinicians/lalvar6.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/liliana-alvarez">View Profile</a>
+<a href="/request-an-appointment?doctor=Liliana Alvarez" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/liliana-alvarez">Liliana
+                                                                    Alvarez, MSN, FNP-BC</a>
+<br/>
+                                                                Family Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/maria-isabel-angulo">
+<img alt="Maria Isabel Angulo, Physician, Internal Medicine" src="/assets/images/clinicians/angulo.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/maria-isabel-angulo">View Profile</a>
+<a href="/request-an-appointment?doctor=Maria Isabel  Angulo" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/maria-isabel-angulo">Maria
+                                                                    Isabel Angulo, MD</a>
+<br/>
+                                                                Internal Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/ashish-ansal">
+<img alt="Ashish Ansal, Family Medicine Mile Square" src="/assets/images/clinicians/averma2.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/ashish-ansal">View Profile</a>
+<a href="/request-an-appointment?doctor=Ashish Ansal" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/ashish-ansal">Ashish Ansal,
+                                                                    MD</a>
+<br/>
+                                                                Family Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/kelsie-avants">
+<img alt="Kelsie Avants, pediatrician and internal medicine physician, Internal Medicine " src="/assets/images/clinicians/kavants.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/kelsie-avants">View Profile</a>
+<a href="/request-an-appointment?doctor=Kelsie Avants" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/kelsie-avants">Kelsie Avants,
+                                                                    DO</a>
+<br/>
+                                                                Internal Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/michelle-m-barnes">
+<img alt="Michelle M Barnes - Pediatric General" src="/assets/images/clinicians/mbarnes.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/michelle-m-barnes">View Profile</a>
+<a href="/request-an-appointment?doctor=Michelle Barnes" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/michelle-m-barnes">Michelle
+                                                                    Barnes, MD</a>
+<br/>
+                                                                Pediatric Primary Care
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/christine-bobek">
+<img alt="Christine Bobek, Nurse Practitioner, Family Medicine" src="/assets/images/clinicians/cbobek.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/christine-bobek">View Profile</a>
+<a href="/request-an-appointment?doctor=Christine Bobek" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/christine-bobek">Christine
+                                                                    Bobek, RN, MSN</a>
+<br/>
+                                                                Family Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/ryan-bolton">
+<img alt="Ryan Bolton, Internal Medicine" src="/assets/images/clinicians/bolton.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/ryan-bolton">View Profile</a>
+<a href="/request-an-appointment?doctor=Ryan Bolton" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/ryan-bolton">Ryan Bolton, MD</a>
+<br/>
+                                                                Internal Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/shane-borkowsky">
+<img alt="Shane Borkowsky, Internal Medicine " src="/assets/images/clinicians/shaneb.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/shane-borkowsky">View Profile</a>
+<a href="/request-an-appointment?doctor=Shane Borkowsky" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/shane-borkowsky">Shane
+                                                                    Borkowsky, MD</a>
+<br/>
+                                                                Internal Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/maddalena-buscemi">
+<img alt="Maddalena Buscemi, Certified Nurse Midwife, OB/GYN" src="/assets/images/clinicians/Mbusce2.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/maddalena-buscemi">View Profile</a>
+<a href="/request-an-appointment?doctor=Maddalena Buscemi" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/maddalena-buscemi">Maddalena
+                                                                    Buscemi, DNP, CNM, APRN</a>
+<br/>
+                                                                Obstetrics &amp; Gynecology
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/michael-charles">
+<img alt="Michael Charles, Physician and Pediatrician, Internal Medicine" src="/assets/images/clinicians/mcharle2.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/michael-charles">View Profile</a>
+<a href="/request-an-appointment?doctor=Michael Charles" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/michael-charles">Michael
+                                                                    Charles, MD</a>
+<br/>
+                                                                Internal Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/euna-chi">
+<img alt="Euna Chi, Physician, Internal Medicine" src="/assets/images/clinitians/echi3.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/euna-chi">View Profile</a>
+<a href="/request-an-appointment?doctor=Euna Chi" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/euna-chi">Euna Chi, MD</a>
+<br/>
+                                                                Internal Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/karen-cotler">
+<img alt="Karen Cotler, Clinical Nurse Practitioner, Primary Care" src="/assets/images/clinicians/kcotler.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/karen-cotler">View Profile</a>
+<a href="/request-an-appointment?doctor=Karen Cotler" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/karen-cotler">Karen Cotler,
+                                                                    DNP-FNP-BC</a>
+<br/>
+                                                                Primary Care
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/brian-j-dudkiewicz">
+<img alt="Brian J. Dudkiewicz, Family Medicine" src="/assets/images/clinicians/bdudki1.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/brian-j-dudkiewicz">View Profile</a>
+<a href="/request-an-appointment?doctor=Brian Dudkiewicz" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/brian-j-dudkiewicz">Brian
+                                                                    Dudkiewicz, MD</a>
+<br/>
+                                                                Family Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/jon-andrew-dykens">
+<img alt="Jon Andrew Dykens" src="/assets/images/clinicians/jdykens.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/jon-andrew-dykens">View Profile</a>
+<a href="/request-an-appointment?doctor=Jon Dykens" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/jon-andrew-dykens">Jon Dykens,
+                                                                    MD</a>
+<br/>
+                                                                Family Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/gillian-eastman">
+<img alt="Gillian Eastman, Primary Care Doctor, Family Medicine" src="/assets/images/clinicians/geastman.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/gillian-eastman">View Profile</a>
+<a href="/request-an-appointment?doctor=Gillian Eastman" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/gillian-eastman">Gillian
+                                                                    Eastman, MS, MD</a>
+<br/>
+                                                                Family Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/gloria-l-elam">
+<img alt="Gloria L. Elam, gynecologist, Obstetrics and Gynecology" src="/assets/images/clinicians/gelam.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/gloria-l-elam">View Profile</a>
+<a href="/request-an-appointment?doctor=Gloria Elam" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/gloria-l-elam">Gloria Elam, MD,
+                                                                    MPH</a>
+<br/>
+                                                                Obstetrics &amp; Gynecology
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/evelyn-figueroa">
+<img alt="Evelyn Figueroa" src="/assets/images/clinicians/efigue.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/evelyn-figueroa">View Profile</a>
+<a href="/request-an-appointment?doctor=Evelyn Figueroa" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/evelyn-figueroa">Evelyn
+                                                                    Figueroa, MD</a>
+<br/>
+                                                                Family Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/william-l-galanter">
+<img alt="William L. Galanter" src="/assets/images/clinicians/billg.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/william-l-galanter">View Profile</a>
+<a href="/request-an-appointment?doctor=William Galanter" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/william-l-galanter">William
+                                                                    Galanter, MD, PhD</a>
+<br/>
+                                                                Internal Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/ananya-gangopadhyaya">
+<img alt="Ananya  Gangopadhyaya, internal medicine and women's health" src="/assets/images/clinicians/agango1.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/ananya-gangopadhyaya">View Profile</a>
+<a href="/request-an-appointment?doctor=Ananya Gangopadhyaya" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/ananya-gangopadhyaya">Ananya
+                                                                    Gangopadhyaya, MD</a>
+<br/>
+                                                                Internal Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/olga-garcia-bedoya">
+<img alt="Olga  Garcia-Bedoya" src="/assets/images/clinicians/ogarciab.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/olga-garcia-bedoya">View Profile</a>
+<a href="/request-an-appointment?doctor=Olga Garcia-Bedoya" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/olga-garcia-bedoya">Olga
+                                                                    Garcia-Bedoya, MD</a>
+<br/>
+                                                                Internal Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/katie-gebhardt">
+<img alt="Katie Gebhardt, Pediatric Nurse Practitioner, Pediatric Primary Care" src="/assets/images/clinicians/Mackowi1.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/katie-gebhardt">View Profile</a>
+<a href="/request-an-appointment?doctor=Katie Gebhardt" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/katie-gebhardt">Katie Gebhardt,
+                                                                    APRN, CPNP</a>
+<br/>
+                                                                Pediatric Primary Care
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/colin-goodman">
+<img alt="Colin Goodman - Internal Medicine Physician" src="/assets/images/clinicians/cgoodm6.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/colin-goodman">View Profile</a>
+<a href="/request-an-appointment?doctor=Colin Goodman" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/colin-goodman">Colin Goodman,
+                                                                    MD</a>
+<br/>
+                                                                Internal Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/anna-maria-gramelspacher">
+<img alt="Anna Maria Gramelspacher, Internal Medicine" src="/assets/images/clinicians/annamg.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/anna-maria-gramelspacher">View Profile</a>
+<a href="/request-an-appointment?doctor=Anna Maria Gramelspacher" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/anna-maria-gramelspacher">Anna
+                                                                    Maria Gramelspacher, MA, MD</a>
+<br/>
+                                                                Internal Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/emily-r-hall">
+<img alt="Emily R. Hall, Family Medicine" src="/assets/images/clinicians/ehall5.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/emily-r-hall">View Profile</a>
+<a href="/request-an-appointment?doctor=Emily Hall" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/emily-r-hall">Emily Hall, MD</a>
+<br/>
+                                                                Family Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/sagina-hanjrah">
+<img alt="Sagina Hanjrah, Family Medicine Physician" src="/assets/images/clinicians/hanjrah.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/sagina-hanjrah">View Profile</a>
+<a href="/request-an-appointment?doctor=Sagina Hanjrah" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/sagina-hanjrah">Sagina Hanjrah,
+                                                                    MD</a>
+<br/>
+                                                                Family Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/bhrandon-harris">
+<img alt="Bhrandon Harris - Family Medicine" src="/assets/images/clinicians/bharri35.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/bhrandon-harris">View Profile</a>
+<a href="/request-an-appointment?doctor=Bhrandon Harris" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/bhrandon-harris">Bhrandon
+                                                                    Harris, MD</a>
+<br/>
+                                                                Family Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/keia-hobbs">
+<img alt="Keia  Hobbs" src="/assets/images/clinicians/khobbs.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/keia-hobbs">View Profile</a>
+<a href="/request-an-appointment?doctor=Keia Hobbs" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/keia-hobbs">Keia Hobbs, MD</a>
+<br/>
+                                                                Family Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/matthew-t-johnson">
+<img alt="Matthew T Johnson - Family Medicine" src="/assets/images/clinicians/mtjohn.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/matthew-t-johnson">View Profile</a>
+<a href="/request-an-appointment?doctor=Matthew Johnson" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/matthew-t-johnson">Matthew
+                                                                    Johnson, MD</a>
+<br/>
+                                                                Family Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/gina-juliano">
+<img alt="Gina Juliano, Pediatric Nurse Practitioner, Primary Care" src="/assets/images/clinicians/Gjulia2.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/gina-juliano">View Profile</a>
+<a href="/request-an-appointment?doctor=Gina Juliano" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/gina-juliano">Gina Juliano, DNP,
+                                                                    APRN, CPNP, IBCLC </a>
+<br/>
+                                                                Primary Care
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/karl-m-kochendorfer">
+<img alt="Karl M Kochendorfer, Family Medicine" src="/assets/images/clinicians/kkoche1.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/karl-m-kochendorfer">View Profile</a>
+<a href="/request-an-appointment?doctor=Karl Kochendorfer" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/karl-m-kochendorfer">Karl
+                                                                    Kochendorfer, MD, FAAFP</a>
+<br/>
+                                                                Family Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/janey-jubas">
+<img alt="Janey Jubas Kottler, Family Nurse Practitioner, Mile Square Humboldt Park " src="/assets/images/clinicians/jjubas2.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/janey-jubas">View Profile</a>
+<a href="/request-an-appointment?doctor=Janey Kottler" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/janey-jubas">Janey Kottler, DNP,
+                                                                    FNP-BC</a>
+<br/>
+                                                                Family Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/mark-s-kushner">
+<img alt="Mark S Kushner Internal Medicine" src="/assets/images/clinicians/mskushne.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/mark-s-kushner">View Profile</a>
+<a href="/request-an-appointment?doctor=Mark Kushner" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/mark-s-kushner">Mark Kushner,
+                                                                    MD</a>
+<br/>
+                                                                Internal Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/stacy-laurent">
+<img alt="Stacy Laurent, Pediatrician, Pediatric Primary Care" src="/assets/images/clinicians/sthomps2.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/stacy-laurent">View Profile</a>
+<a href="/request-an-appointment?doctor=Stacy Laurent" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/stacy-laurent">Stacy Laurent,
+                                                                    DO</a>
+<br/>
+                                                                Pediatric Primary Care
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/ariel-leifer">
+<img alt="Ariel Leifer Family Medicine" src="/assets/images/clinicians/aleifer.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/ariel-leifer">View Profile</a>
+<a href="/request-an-appointment?doctor=Ariel Leifer" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/ariel-leifer">Ariel Leifer,
+                                                                    MD</a>
+<br/>
+                                                                Family Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/vania-leung">
+<img alt="Vania Leung, Geriatrics, Physician" src="/assets/images/clinicians/vleung3.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/vania-leung">View Profile</a>
+<a href="/request-an-appointment?doctor=Vania Leung" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/vania-leung">Vania Leung,
+                                                                    MD </a>
+<br/>
+                                                                Geriatrics
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/geraldine-luna">
+<img alt="Geraldine Luna, Geriatrics" src="/assets/images/clinicians/gluna.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/geraldine-luna">View Profile</a>
+<a href="/request-an-appointment?doctor=Geraldine Luna" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/geraldine-luna">Geraldine Luna,
+                                                                    MD, MPH </a>
+<br/>
+                                                                Geriatrics
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/bernice-man">
+<img alt="Bernice Man, Internist, Internal Medicine" src="/assets/images/clinicians/bernicem.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/bernice-man">View Profile</a>
+<a href="/request-an-appointment?doctor=Bernice Man" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/bernice-man">Bernice Man, MD</a>
+<br/>
+                                                                Internal Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/nancy-miranda">
+<img alt="Nancy Miranda Family Medicine" src="/assets/images/clinicians/namirand.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/nancy-miranda">View Profile</a>
+<a href="/request-an-appointment?doctor=Nancy Miranda" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/nancy-miranda">Nancy Miranda,
+                                                                    MD</a>
+<br/>
+                                                                Family Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/amanda-d-osta">
+<img alt="Amanda D Osta, Pediatrician, Pediatric Primary Care" src="/assets/images/clinicians/osta1.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/amanda-d-osta">View Profile</a>
+<a href="/request-an-appointment?doctor=Amanda Osta" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/amanda-d-osta">Amanda Osta,
+                                                                    MD</a>
+<br/>
+                                                                Pediatric Primary Care
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/l-amanda-perry">
+<img alt="L. Amanda Perry, Family Practice Physician, Family Medicine" src="/assets/images/clinitians/cbridg4.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/l-amanda-perry">View Profile</a>
+<a href="/request-an-appointment?doctor=L. Amanda  Perry " title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/l-amanda-perry">L. Amanda Perry
+                                                                    , MD</a>
+<br/>
+                                                                Family Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/anne-polick">
+<img alt="Anne Polick, Physician, Internal Medicine" src="/assets/images/clinicians/apollc1.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/anne-polick">View Profile</a>
+<a href="/request-an-appointment?doctor=Anne Polick" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/anne-polick">Anne Polick, MD</a>
+<br/>
+                                                                Internal Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/mark-potter">
+<img alt="Mark Potter - Family Medicine" src="/assets/images/clinicians/MCPotter.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/mark-potter">View Profile</a>
+<a href="/request-an-appointment?doctor=Mark Potter" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/mark-potter">Mark Potter, MD</a>
+<br/>
+                                                                Family Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/jonathan-m-radosta">
+<img alt="Jonathan M. Radosta, Internist, Internal Medicine" src="/assets/images/clinicians/jrados1.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/jonathan-m-radosta">View Profile</a>
+<a href="/request-an-appointment?doctor=Jonathan Radosta" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/jonathan-m-radosta">Jonathan
+                                                                    Radosta, MD, FACP</a>
+<br/>
+                                                                Internal Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/esther-rhee-x17015">
+<img alt="Esther Rhee, Primary Care Physician, Internal Medicine" src="/assets/images/clinicians/esrhee.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/esther-rhee-x17015">View Profile</a>
+<a href="/request-an-appointment?doctor=Esther Rhee" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/esther-rhee-x17015">Esther Rhee,
+                                                                    DO</a>
+<br/>
+                                                                Internal Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/glenda-rios">
+<img alt="Glenda  Rios Family Medicine" src="/assets/images/clinicians/griosmd.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/glenda-rios">View Profile</a>
+<a href="/request-an-appointment?doctor=Glenda Rios" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/glenda-rios">Glenda Rios, MD</a>
+<br/>
+                                                                Family Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/robert-t-rosman">
+<img alt="Robert Rosman, Internist, Internal Medicine " src="/assets/images/clinicians/RTRosman.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/robert-t-rosman">View Profile</a>
+<a href="/request-an-appointment?doctor=Robert Rosman" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/robert-t-rosman">Robert Rosman,
+                                                                    MD</a>
+<br/>
+                                                                Internal Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/jaye-schreier">
+<img alt="Jaye Schreier, Pediatrician, Pediatric Primary Care" src="/assets/images/clinicians/schrejr.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/jaye-schreier">View Profile</a>
+<a href="/request-an-appointment?doctor=Jaye Schreier" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/jaye-schreier">Jaye Schreier,
+                                                                    MD</a>
+<br/>
+                                                                Pediatrics
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/augustine-j-sohn">
+<img alt="Augustine J. Sohn, Family Physician, Family Medicine" src="/assets/images/clinicians/ajsohn.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/augustine-j-sohn">View Profile</a>
+<a href="/request-an-appointment?doctor=Augustine Sohn" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/augustine-j-sohn">Augustine
+                                                                    Sohn, MD</a>
+<br/>
+                                                                Family Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/radhika-sreedhar">
+<img alt="Radhika Sreedhar, Internist,  Internal Medicine" src="/assets/images/clinicians/Sreedhar.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/radhika-sreedhar">View Profile</a>
+<a href="/request-an-appointment?doctor=Radhika Sreedhar" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/radhika-sreedhar">Radhika
+                                                                    Sreedhar, MD, MS</a>
+<br/>
+                                                                Internal Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/pavan-srivastava">
+<img alt="Pavan Srivastava - Internal Medicine" src="/assets/images/clinicians/psriva1.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/pavan-srivastava">View Profile</a>
+<a href="/request-an-appointment?doctor=Pavan Srivastava" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/pavan-srivastava">Pavan
+                                                                    Srivastava, MD</a>
+<br/>
+                                                                Internal Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/maura-a-woznica">
+<img alt="Maura A Stefko - Family Medicine" src="/assets/images/clinicians/woznica.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/maura-a-woznica">View Profile</a>
+<a href="/request-an-appointment?doctor=Maura Stefko" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/maura-a-woznica">Maura Stefko,
+                                                                    MD</a>
+<br/>
+                                                                Family Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/shirley-stephenson">
+<img alt="Shirley Stephenson, Family Nurse Practitioner, Mile Square Humboldt Park " src="/assets/images/clinicians/ssteph5.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/shirley-stephenson">View Profile</a>
+<a href="/request-an-appointment?doctor=Shirley Stephenson" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/shirley-stephenson">Shirley
+                                                                    Stephenson, FNP-BC</a>
+<br/>
+                                                                Family Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/richard-stringham">
+<img alt="Richard Stringham Family Medicine" src="/assets/images/clinicians/rstring.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/richard-stringham">View Profile</a>
+<a href="/request-an-appointment?doctor=Richard Stringham" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/richard-stringham">Richard
+                                                                    Stringham, MD</a>
+<br/>
+                                                                Family Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/claire-thesing">
+<img alt="Claire Thesing, Physician, Family Medicine" src="/assets/images/clinicians/cthesing.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/claire-thesing">View Profile</a>
+<a href="/request-an-appointment?doctor=Claire Thesing" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/claire-thesing">Claire Thesing,
+                                                                    MD</a>
+<br/>
+                                                                Family Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/john-tulley">
+<img alt="John Tulley, Internist, Internal Medicine " src="/assets/images/clinicians/jetulley.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/john-tulley">View Profile</a>
+<a href="/request-an-appointment?doctor=John Tulley" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/john-tulley">John Tulley, MD</a>
+<br/>
+                                                                Internal Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/kelly-vaez">
+<img alt="Kelly Vaez, Physician, Primary care" src="/assets/images/clinicians/kvaez1.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/kelly-vaez">View Profile</a>
+<a href="/request-an-appointment?doctor=Kelly Vaez" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/kelly-vaez">Kelly Vaez, APN,
+                                                                    FNP-BC</a>
+<br/>
+                                                                Primary Care Services
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/saul-j-weiner">
+<img alt="Saul J. Weiner, Physician Pediatrician, Internal Medicine" src="/assets/images/clinicians/sweiner.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/saul-j-weiner">View Profile</a>
+<a href="/request-an-appointment?doctor=Saul Weiner" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/saul-j-weiner">Saul Weiner,
+                                                                    MD</a>
+<br/>
+                                                                Internal Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/christina-wells">
+<img alt="Christina  Wells, family physician, Family Medicine" src="/assets/images/clinicians/cwells2.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/christina-wells">View Profile</a>
+<a href="/request-an-appointment?doctor=Christina Wells" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/christina-wells">Christina
+                                                                    Wells, MD</a>
+<br/>
+                                                                Family Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/matthew-witthaus">
+<img alt="Matthew Witthaus, Physician, Family Medicine" src="/assets/images/clinicians/witthaus.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/matthew-witthaus">View Profile</a>
+<a href="/request-an-appointment?doctor=Matthew Witthaus" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/matthew-witthaus">Matthew
+                                                                    Witthaus, MD</a>
+<br/>
+                                                                Family Medicine
+
+
+                                                            </p>
+</div>
+</li>
+<li>
+<div class="specialist">
+<div class="profile">
+<a href="/find-a-doctor/kathy-wollner">
+<img alt="Kathy Wollner, Physician, Family Medicine" src="/assets/images/clinicians/wollner2.jpg"/>
+</a>
+<span class="over">
+<a href="/find-a-doctor/kathy-wollner">View Profile</a>
+<a href="/request-an-appointment?doctor=Kathy Wollner" title="Request an Appointment">
+		Request an Appointment</a>
+</span>
+</div>
+<p>
+<a href="/find-a-doctor/kathy-wollner">Kathy Wollner,
+                                                                    MD</a>
+<br/>
+                                                                Family Medicine
+
+
+                                                            </p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div>
+<hr/>
+<h3>Our Locations</h3>
+<p>
+</p><div itemscope="" itemtype="http://schema.org/MedicalOrganization"><span itemprop="address"><a href="/patients-and-visitors/locations-and-directions/outpatient-care-center">Outpatient Care Center</a><br/>1801 W. Taylor St.<br/>Chicago, IL 60612</span>
+<br/> <a href="https://goo.gl/maps/SQEFCRmd5FV1w6q16"><em class="fa fa-map-marker"></em> Directions</a> <br/><br/> <span itemprop="address"><a href="/patients-and-visitors/mile-square-federally-qualified-health-center/locations/main-location">Mile Square Health Center–Main</a><br/>1220 S. Wood St.<br/>Chicago, IL 60608</span><br/>
+<a href="https://goo.gl/maps/aLRZuPqRMdQvsxCq7"><em class="fa fa-map-marker"></em> Directions</a> <br/><br/><span><a href="/patients-and-visitors/locations-and-directions/university-village-clinic-maxwell-street">Family Medicine Center at University Village</a><br/>722 W. Maxwell St.<br/>Chicago, IL 60607</span>
+<br/> <a href="https://goo.gl/maps/q9X532rarnuKCTRv7"><em class="fa fa-map-marker"></em> Directions</a> <br/><br/> <span itemprop="address"><a href="/patients-and-visitors/locations-and-directions/family-medicine-pilsen">Pilsen Family Health Center Lower West</a><br/>1713 S. Ashland Ave.<br/>Chicago, IL 60608</span>
+<br/> <a href="https://goo.gl/maps/jxhQuA1K8De7eLZ2A"><em class="fa fa-map-marker"></em> Directions</a></div>
+</div>
+<p>
+</p></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><!-- #main -->
+<div id="footer">
+<div class="container">
+<div class="row">
+<div class="col-sm-12 col-md-2">
+<p>
+<a href="/"> <img alt="UI Health | UIC Logo" class="logo" src="/assets/images/SiteControl/UIH_UIC_bug150w.png"/>
+</a>
+</p>
+</div>
+<div class="col-sm-8 col-md-7">
+<div class="row">
+<div class="col-sm-4">
+<ul>
+<li><a href="/find-a-doctor" title="Find a Doctor">
+                                        Find a Doctor</a>
+</li>
+<li><a href="/request-an-appointment" title="Request an Appointment">
+                                        Request an Appointment</a>
+</li>
+<li><a href="/patients-and-visitors/locations-and-directions" title="Locations &amp; Directions">
+                                        Locations &amp; Directions</a>
+</li>
+<li><a href="/contact-us" title="Contact Us">
+                                        Contact Us</a>
+</li>
+<li><a href="http://uic.edu/" title="UIC.edu">
+                                        UIC.edu</a>
+</li>
+</ul>
+</div>
+<div class="col-sm-4">
+<ul>
+<li><a href="/patients-and-visitors/patient-information/mychart" title="MyChart (Patient Portal)">
+                                        MyChart (Patient Portal)</a>
+</li>
+<li>
+<a href="/patients-and-visitors/health-insurance-information/accepted-insurance-plans" title="Accepted Insurance Plans">
+                                            Accepted Insurance Plans</a>
+</li>
+<li><a href="/patients-and-visitors/patient-information/billing-and-pricing" title="Pay a Bill">
+                                        Pay a Bill</a>
+</li>
+<li><a href="/about-ui-health/giving" title="Give a Gift">
+                                        Give a Gift</a>
+</li>
+<li><a href="/about-ui-health/career-opportunities" title="Career Opportunities">
+                                        Career Opportunities</a>
+</li>
+</ul>
+</div>
+<div class="col-sm-4">
+<ul>
+<li><a href="https://employee.hospital.uic.edu/" title="Employee Intranet">
+                                        Employee Intranet</a>
+</li>
+<li><a href="/marketing" title="Marketing Toolkit">
+                                        Marketing Toolkit</a>
+</li>
+<li><a href="https://www.vpaa.uillinois.edu/resources/web_privacy" target="_blank" title="Privacy Policy">
+                                        Privacy Policy</a>
+</li>
+<li><a href="/marketing/marketing-tool-kit/website-feedback" title="[+] Website Feedback">
+                                        [+] Website Feedback</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-sm-4 col-md-3">
+<p class="bold">GENERAL INFORMATION<br/><a href="tel:8666002273">866.600.CARE</a></p>
+<div class="social"><a href="https://www.facebook.com/UIHealth"><em class="fa fa-facebook"><span style="display: none;"> </span></em></a> <a href="https://twitter.com/UIHealth"><em class="fa fa-twitter"><span style="display: none;"> </span></em></a> <a href="http://www.linkedin.com/company/uihealth"><em class="fa fa-linkedin"><span style="display: none;"> </span></em></a> <a href="http://www.youtube.com/user/UIHospital"><em class="fa fa-youtube"><span style="display: none;"> </span></em></a> <a href="/patients-and-visitors/patient-information/mychart/download-the-app"><em class="fa fa-mobile"><span style="display: none;"> </span></em></a></div>
+<p>University of Illinois Hospital<br/>1740 West Taylor Street<br/>Chicago, IL 60612</p>
+</div>
+</div>
+</div>
+<div class="copyright">
+<div class="container">
+<div class="align-center">
+                        © 2020 University of Illinois Hospital &amp; Health Sciences System
+                    </div>
+</div>
+</div>
+</div><!-- #footer -->
+</div>
+</div>
+<script src="/assets/prebuilt/js/jquery-scripts.js"></script>
+<script src="/assets/prebuilt/js/flexslider.js"></script>
+<script async="" src="//www.google-analytics.com/analytics.js"></script>
+<script src="//www.youtube.com/iframe_api" type="text/javascript"></script>
+<script src="prebuilt/js/analyticstracking.js" type="text/javascript"></script>
+<div>
+<style>
+    /* The alert message box */
+    .alert {
+        padding: 20px;
+        background-color: #E91B0C; /* Red */
+        color: white !important;
+        margin-bottom: 0px;
+        font-family: arial;
+    }
+
+    .alert a {
+        color: white !important;
+        text-decoration: underline;
+    }
+
+    /* The close button */
+    .closebtn {
+        margin-left: 15px;
+        color: white;
+        font-weight: bold;
+        float: right;
+        font-size: 22px;
+        line-height: 20px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    /* When moving the mouse over the close button */
+    .closebtn:hover {
+        color: black;
+    }
+</style>
+<div class="alert">
+<span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
+<strong>COVID-19 Updates: </strong> <a href="/primary-and-specialty-care/infectious-diseases/covid-19-coronavirus">
+    View the latest information from UI Health.</a>
+</div>
+<div id="page">
+<div id="header">
+<div class="container">
+<a class="logo" href="/">
+<img alt="UI Health: University of Illinois Hospital and Health Sciences System" src="/assets/images/SiteControl/UIHealthUICLogo.gif"/>
+</a>
+</div>
+</div><!-- #header -->
+<div id="mobile-nav">
+<p class="align-center"><strong><a href="tel:8666002273">Call Us 866.600.CARE</a></strong></p>
+<form action="/search-results" class="search" method="get">
+<input name="term" placeholder="How may we help you?" type="text"/>
+<input type="submit" value=" "/>
+</form>
+<ul class="gray">
+<li><a href="/primary-and-specialty-care" title="Primary &amp; Specialty Care">
+                Primary &amp; Specialty Care</a>
+</li>
+<li><a href="/patients-and-visitors" title="Patients &amp; Visitors">
+                Patients &amp; Visitors</a>
+</li>
+<li><a href="/referring-physicians" title="Referring Physicians">
+                Referring Physicians</a>
+</li>
+<li><a href="/about-ui-health" title="About UI Health">
+                About UI Health</a>
+</li>
+</ul>
+<hr/>
+<!-- TODO: where do these come from -->
+<ul>
+<li><a href="/find-a-doctor" title="Find a Doctor">
+                Find a Doctor</a>
+</li>
+<li><a href="/request-an-appointment" title="Request an Appointment">
+                Request an Appointment</a>
+</li>
+<li><a href="/patients-and-visitors/locations-and-directions" title="Maps &amp; Directions">
+                Maps &amp; Directions</a>
+</li>
+<li><a href="/patients-and-visitors/patient-information/mychart" title="MyChart">
+                MyChart</a>
+</li>
+<li><a href="/patients-and-visitors/patient-information/billing-and-pricing" title="Pay A Bill">
+                Pay A Bill</a>
+</li>
+<li><a href="/contact-us" title="Contact Us">
+                Contact Us</a>
+</li>
+</ul>
+</div><!-- #mobile-nav -->
+<div class="push-wrap">
+<div class="mobile-hide" id="nav">
+<div class="container">
+<div class="row">
+<div class="col-md-8">
+<ul class="main">
+<li>
+<a href="/primary-and-specialty-care" title="Primary &amp; Specialty Care">
+                                    Primary &amp; Specialty Care</a>
+<div class="mega">
+<div class="mega-padding">
+<div class="row">
+<div class="col-md-3">
+<p><a href="/primary-and-specialty-care"><img alt="Primary Care" height="195" src="Images/SiteControl/family.jpg" width="260"/></a></p>
+<p>At UI Health, our foundation in academic excellence leads to new
+                                                    possibilities in healthcare. We take pride in serving Chicago and
+                                                    are committed to keeping your family healthy.</p>
+<!--<p><a href="/primary-and-specialty-care/primary-care-services/our-services#test" >Read More <em class="fa fa-angle-double-right"></em></a></p>
+                                                --></div>
+<div class="col-md-9">
+<div class="row">
+<div class="col-md-3">
+<ul>
+<li>
+<a href="/primary-and-specialty-care/primary-care-services">PRIMARY
+                                                                    CARE</a></li>
+<li><a href="/primary-and-specialty-care/internal-medicine">Internal
+                                                                Medicine</a></li>
+<li><a href="/primary-and-specialty-care/family-medicine">Family
+                                                                Medicine</a></li>
+<li>
+<a href="/patients-and-visitors/mile-square-federally-qualified-health-center">Mile
+                                                                    Square Health Center</a></li>
+<li>
+<a href="/primary-and-specialty-care/pediatrics/childrens-hospital">Pediatrics</a>
+</li>
+</ul>
+<ul>
+<li><a href="/primary-and-specialty-care">SPECIALTY CARE</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/surgical-services/craniofacial-center">Craniofacial
+                                                                    Center</a></li>
+<li><a href="/primary-and-specialty-care/dermatology">Dermatology </a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/diabetes-and-endocrinology">Diabetes
+                                                                    &amp; Endocrinology</a></li>
+<li><a href="/primary-and-specialty-care/gastroenterology">Gastroenterology
+                                                                (GI)</a></li>
+<li>
+<a href="/primary-and-specialty-care/hepatology-liver-disease">Liver
+                                                                    Disease</a></li>
+<li class="on"><a href="/primary-and-specialty-care/ophthalmology">Ophthalmology</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/cancer-services-at-ui-health/cancer-programs/prostate-cancer">Prostate</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/psychiatry-services">Psychiatry</a>
+</li>
+<li><a href="/primary-and-specialty-care/radiology">Radiology</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/rehabilitation-services">Rehabilitation</a>
+</li>
+<li><a href="/primary-and-specialty-care/sickle-cell">Sickle
+                                                                Cell</a></li>
+</ul>
+</div>
+<div class="col-md-3">
+<ul>
+<li><a href="/primary-and-specialty-care/womens-health">WOMEN'S
+                                                                HEALTH</a></li>
+<li>
+<a href="/primary-and-specialty-care/obstetrics-and-gynecology">OB/GYN</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/surgical-services/breast-care">Breast
+                                                                    Care</a></li>
+<li>
+<a href="/primary-and-specialty-care/family-birth-place">Labor
+                                                                    &amp; Delivery</a></li>
+</ul>
+<ul>
+<li>
+<a href="/primary-and-specialty-care/neurology-and-neurosurgery">NEUROLOGY
+                                                                    &amp; NEUROSURGERY</a></li>
+<li>
+<a href="/primary-and-specialty-care/neurology-and-neurosurgery/neurological-conditions-we-treat/brain-aneurysm">Brain
+                                                                    Aneurysm</a></li>
+<li>
+<a href="/primary-and-specialty-care/ui-health-stroke-institute">Stroke</a>
+</li>
+<li><a href="/primary-and-specialty-care/pain-management">Pain
+                                                                Management</a></li>
+</ul>
+<ul>
+<li><a href="/primary-and-specialty-care/weight-management">WEIGHT
+                                                                MANAGEMENT</a></li>
+<li>
+<a href="/primary-and-specialty-care/surgical-services/bariatric-surgery-program">Bariatric
+                                                                    Surgery</a></li>
+<li>
+<a href="/primary-and-specialty-care/weight-management/nonsurgical-weight-loss-programs">Non-Surgical
+                                                                    Weight Loss</a></li>
+</ul>
+</div>
+<div class="col-md-3">
+<ul>
+<li>
+<a href="/primary-and-specialty-care/cancer-services-at-ui-health">CANCER
+                                                                    SERVICES</a></li>
+<li>
+<a href="/primary-and-specialty-care/surgical-services/breast-care">Breast
+                                                                    Cancer</a></li>
+<li>
+<a href="/primary-and-specialty-care/cancer-services-at-ui-health/cancer-programs/colon-and-rectal-cancer">Colon
+                                                                    Cancer</a></li>
+<li>
+<a href="/primary-and-specialty-care/obstetrics-and-gynecology/our-obgyn-services/gynecologic-oncology">Gynecologic
+                                                                    Oncology</a></li>
+<li>
+<a href="/primary-and-specialty-care/cancer-services-at-ui-health/cancer-programs/lung-cancer">Lung
+                                                                    Cancer</a></li>
+<li>
+<a href="/primary-and-specialty-care/urology/urologic-cancer-program">Urologic
+                                                                    Cancers</a></li>
+</ul>
+<ul>
+<li><a href="/primary-and-specialty-care/otolaryngology">EAR,
+                                                                NOSE, &amp; THROAT</a></li>
+<li><a href="/primary-and-specialty-care/otolaryngology">Otolaryngology</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/otolaryngology/audiology">Audiology</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/otolaryngology/head-and-neck-cancer-surgery">Head
+                                                                    and Neck Cancer</a></li>
+</ul>
+<ul>
+<li><a href="/primary-and-specialty-care/pulmonary">LUNG
+                                                                HEALTH</a></li>
+<li>
+<a href="/primary-and-specialty-care/pulmonary/our-areas-of-expertise/allergy">Allergy</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/pulmonary/our-areas-of-expertise/asthma">Asthma</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/rheumatology/sarcoidosis">Sarcoidosis</a>
+</li>
+</ul>
+</div>
+<div class="col-md-3">
+<ul>
+<li>
+<a href="/primary-and-specialty-care/pediatrics/childrens-hospital">PEDIATRICS</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/pediatrics/childrens-hospital">Children's
+                                                                    Hospital</a></li>
+</ul>
+<ul>
+<li><a href="/primary-and-specialty-care/surgical-services">SURGERY</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/surgical-services/bariatric-surgery-program">Bariatric
+                                                                    Surgery</a></li>
+<li>
+<a href="/primary-and-specialty-care/surgical-services/robotic-surgery-program">Robotic
+                                                                    Surgery</a></li>
+<li>
+<a href="/primary-and-specialty-care/surgical-services/vascular-surgery-at-ui-health">Vascular
+                                                                    Surgery</a></li>
+</ul>
+<ul>
+<li><a class="extLink" href="https://dentistry.uic.edu/patients" target="_blank">DENTISTRY</a></li>
+<li>
+<a href="/patients-and-visitors/mile-square-federally-qualified-health-center/dental-care-south-shore">South
+                                                                    Shore Dental</a></li>
+</ul>
+<ul>
+<li><a href="/primary-and-specialty-care/transplant">TRANSPLANT</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/transplant/blood-and-marrow-transplant-program">Blood
+                                                                    and Marrow</a></li>
+<li>
+<a href="/primary-and-specialty-care/transplant/kidney-transplantation">Kidney</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/transplant/liver-transplantation">Liver</a>
+</li>
+</ul>
+<p><a href="/primary-and-specialty-care">See More Services <em class="fa fa-angle-double-right"></em></a></p>
+</div>
+</div>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-md-6">
+<div class="foot-links">
+<a href="/find-a-doctor" title="Find a Doctor">
+                                                        Find a Doctor</a>
+<a href="/request-an-appointment" title="Request an Appointment">
+                                                        Request an Appointment</a>
+<a href="/patients-and-visitors/locations-and-directions" title="Maps &amp; Directions">
+                                                        Locations &amp; Directions</a>
+</div>
+</div>
+<div class="col-md-4">
+<div class="foot-links">
+<a href="/patients-and-visitors/patient-information/mychart" title="MyChart">
+                                                        MyChart</a>
+<a href="/patients-and-visitors/patient-information/billing-and-pricing" title="Pay A Bill">
+                                                        Pay A Bill</a>
+<a href="/contact-us" title="Contact Us">
+                                                        Contact Us</a>
+</div>
+</div>
+<div class="col-md-2">
+<div class="foot-links align-left">
+                                                    Call Us <a class="phone" href="tel:8666002273">866.600.CARE</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<a href="/patients-and-visitors" title="Patients &amp; Visitors">
+                                    For Patients &amp; Visitors</a>
+<div class="mega">
+<div class="mega-padding">
+<div class="row">
+<div class="col-md-3">
+<p>
+<a href="/primary-and-specialty-care/primary-care-services/our-services#"><img alt="Maps Locations and Directions" height="195" src="Images/SiteControl/PAndVDropDown.jpg" width="260"/></a>
+</p>
+<p>A visit to the hospital can be overwhelming. At UI Health, we strive
+                                                    to make the patient and visitor experience as stress-free and
+                                                    comfortable as possible.</p>
+</div>
+<div class="col-md-9">
+<div class="row">
+<div class="col-md-3">
+<ul>
+<li><a href="/patients-and-visitors/patient-information">PATIENT
+                                                                INFORMATION</a></li>
+<li>
+<a href="/patients-and-visitors/patient-information/mychart">MyChart
+                                                                    (was Patient Portal)</a><a href="/primary-and-specialty-care/primary-care-services/our-services#"></a>
+</li>
+<li><a href="/patients-and-visitors/financial-assistance">Financial
+                                                                Assistance</a></li>
+<li>
+<a href="/patients-and-visitors/patient-information/billing-and-pricing">Billing
+                                                                    and Pricing</a></li>
+</ul>
+<ul>
+<li><a href="/patients-and-visitors/visiting-a-patient">VISITING
+                                                                A PATIENT</a></li>
+<li>
+<a href="/patients-and-visitors/visiting-a-patient/accommodations">Accommodations</a>
+</li>
+<li class="on"><a href="/patients-and-visitors/visiting-a-patient/dining">Dining</a>
+</li>
+<li>
+<a href="/patients-and-visitors/visiting-a-patient/gift-shop">Gift
+                                                                    Shop</a></li>
+</ul>
+<ul>
+<li><a href="/patient-stories">PATIENT STORIES</a></li>
+</ul>
+</div>
+<div class="col-md-3">
+<ul>
+<li>
+<a href="/patients-and-visitors/health-insurance-information">HEALTH
+                                                                    INSURANCE</a></li>
+<li>
+<a href="/patients-and-visitors/health-insurance-information/accepted-insurance-plans">Accepted
+                                                                    Insurance Plans</a></li>
+<li>
+<a href="/patients-and-visitors/health-insurance-information/ui-health-plus">UI
+                                                                    Health Plus</a></li>
+<li>
+<a href="/patients-and-visitors/health-insurance-information/contact-a-certified-application-counselor">Certified
+                                                                    Application Counselor</a></li>
+</ul>
+<ul>
+<li><a href="/primary-and-specialty-care/pharmacy">UI HEALTH
+                                                                PHARMACIES</a></li>
+<li>
+<a href="/primary-and-specialty-care/pharmacy/locations-hours-and-contact-info">Locations</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/pharmacy/prescription-services">Prescription
+                                                                    Services</a></li>
+<li>
+<a href="/primary-and-specialty-care/pharmacy/uic-student-services">Student
+                                                                    Services</a></li>
+</ul>
+</div>
+<div class="col-md-3">
+<ul>
+<li><a href="/patients-and-visitors/helpful-numbers">HELPFUL
+                                                                NUMBERS</a></li>
+<li>
+<a href="/patients-and-visitors/patient-safety-and-policies">Patient
+                                                                    Safety &amp; Policies</a></li>
+<li>
+<a href="/patients-and-visitors/financial-assistance/health-social-workers">Health
+                                                                    Social Workers</a></li>
+<li>
+<a href="/patients-and-visitors/international-medicine-unpub/volunteer-services">Volunteer
+                                                                    Services</a></li>
+</ul>
+</div>
+<div class="col-md-3">
+<ul>
+<li>
+<a href="/patients-and-visitors/locations-and-directions">LOCATIONS
+                                                                    &amp; MAPS</a></li>
+<li>
+<a href="/patients-and-visitors/locations-and-directions/hospital">Hospital</a>
+</li>
+<li>
+<a href="/patients-and-visitors/mile-square-federally-qualified-health-center">Mile
+                                                                    Square Health Center</a></li>
+<li>
+<a href="/patients-and-visitors/locations-and-directions/outpatient-care-center">Outpatient
+                                                                    Care Center</a><a href="/primary-and-specialty-care/primary-care-services/our-services#"></a>
+</li>
+<li>
+<a href="/patients-and-visitors/locations-and-directions/university-village-clinic-maxwell-street">University
+                                                                    Village Clinic</a></li>
+<li><a href="/primary-and-specialty-care/urgent-care">Urgent
+                                                                Care</a></li>
+<li><a href="/primary-and-specialty-care/pharmacy">Pharmacies</a>
+</li>
+<li>
+<a href="/patients-and-visitors/locations-and-directions/family-medicine-pilsen">Pilsen,
+                                                                    Lower West</a></li>
+</ul>
+<p><a href="/patients-and-visitors">See More Patients <br/>
+                                                            &amp; Visitors <em class="fa fa-angle-double-right"></em></a></p>
+</div>
+</div>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-md-6">
+<div class="foot-links">
+<a href="/find-a-doctor" title="Find a Doctor">
+                                                        Find a Doctor</a>
+<a href="/request-an-appointment" title="Request an Appointment">
+                                                        Request an Appointment</a>
+<a href="/patients-and-visitors/locations-and-directions" title="Maps &amp; Directions">
+                                                        Locations &amp; Directions</a>
+</div>
+</div>
+<div class="col-md-4">
+<div class="foot-links">
+<a href="/patients-and-visitors/patient-information/mychart" title="MyChart">
+                                                        MyChart</a>
+<a href="/patients-and-visitors/patient-information/billing-and-pricing" title="Pay A Bill">
+                                                        Pay A Bill</a>
+<a href="/contact-us" title="Contact Us">
+                                                        Contact Us</a>
+</div>
+</div>
+<div class="col-md-2">
+<div class="foot-links align-left">
+                                                    Call Us <a class="phone" href="tel:8666002273">866.600.CARE</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<a href="/referring-physicians" title="Referring Physicians">
+                                    For Referring Physicians</a>
+</li>
+<li>
+<a href="/about-ui-health" title="About UI Health">
+                                    About UI Health</a>
+<div class="mega">
+<div class="mega-padding">
+<div class="row">
+<div class="col-md-3">
+<p>The University of Illinois Hospital and Clinics is a patient centered
+                                                    organization. Providing safe, high-quality and cost-effective care
+                                                    for our patients is our foremost responsibility. The care of our
+                                                    patients and their families will always be at the heart of our
+                                                    mission.</p>
+<p><a href="/about-ui-health/mission-vision-and-values">Our Mission<em class="fa fa-angle-double-right"></em></a></p>
+</div>
+<div class="col-md-9">
+<div class="row">
+<div class="col-md-3">
+<ul>
+<li><a href="/about-ui-health/mission-vision-and-values">Mission,
+                                                                Vision, and Values</a></li>
+<li><a href="/about-ui-health/ui-health-leadership">UI
+                                                                Health Leadership</a></li>
+<li><a href="/about-ui-health/points-of-pride">Points of
+                                                                Pride</a></li>
+</ul>
+<ul>
+<li><a href="/about-ui-health/community-commitment">Community
+                                                                Commitment</a></li>
+<li>
+<a href="/about-ui-health/community-commitment/annual-events">Annual
+                                                                    Events</a></li>
+<li class="on"><a href="/about-ui-health/community-commitment/better-health-through-housing">Better
+                                                                Health through Housing</a></li>
+</ul>
+</div>
+<!--<div class="col-md-3">
+                                                    <ul>
+                                                    <li><a href="/x3939.xml" >Vice President for Health Affairs</a></li>
+                                                    <li><a href="/x3941.xml" >Leadership Team</a></li>
+                                                    <li><a href="/x3948.xml" >Population Health Sciences</a></li>
+                                                    <li><a href="/x3966.xml" >Quality and Patient Safety </a></li>
+                                                    </ul>
+                                                    </div>-->
+<div class="col-md-3">
+<ul>
+<li><a href="/about-ui-health/employee-pride">Employee
+                                                                Pride</a></li>
+<li>
+<a href="/about-ui-health/employee-pride/employee-recognition">Recognition</a>
+</li>
+<li>
+<a href="/about-ui-health/employee-pride/award-for-extraordinary-nurses">Extraordinary
+                                                                    Nurses</a></li>
+</ul>
+</div>
+<div class="col-md-3">
+<ul>
+<li><a href="/about-ui-health/career-opportunities">Career
+                                                                Opportunities</a></li>
+<li><a class="extLink" href="https://jobs.uic.edu/UI_health" target="_blank">UI Health Jobs</a></li>
+<li>
+<a href="/about-ui-health/career-opportunities/admin-fellowship">Admin
+                                                                    Fellowship</a></li>
+<li>
+<a href="/patients-and-visitors/international-medicine-unpub/volunteer-services">Volunteering</a>
+</li>
+</ul>
+</div>
+<div class="col-md-3">
+<ul>
+<li><a href="/about-ui-health/connect-with-us">Connect With
+                                                                Us</a></li>
+<li><a href="/about-ui-health/giving">Giving</a></li>
+</ul>
+<ul>
+<li><a href="http://uic.edu">UIC.edu</a></li>
+</ul>
+<p><a href="/about-ui-health">See More About UI Health <em class="fa fa-angle-double-right"></em></a></p>
+</div>
+</div>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-md-6">
+<div class="foot-links">
+<a href="/find-a-doctor" title="Find a Doctor">
+                                                        Find a Doctor</a>
+<a href="/request-an-appointment" title="Request an Appointment">
+                                                        Request an Appointment</a>
+<a href="/patients-and-visitors/locations-and-directions" title="Maps &amp; Directions">
+                                                        Locations &amp; Directions</a>
+</div>
+</div>
+<div class="col-md-4">
+<div class="foot-links">
+<a href="/patients-and-visitors/patient-information/mychart" title="MyChart">
+                                                        MyChart</a>
+<a href="/patients-and-visitors/patient-information/billing-and-pricing" title="Pay A Bill">
+                                                        Pay A Bill</a>
+<a href="/contact-us" title="Contact Us">
+                                                        Contact Us</a>
+</div>
+</div>
+<div class="col-md-2">
+<div class="foot-links align-left">
+                                                    Call Us <a class="phone" href="tel:8666002273">866.600.CARE</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div>
+<div class="col-md-4">
+<form action="/search-results" class="search" method="get">
+<input name="term" placeholder="How may we help you?" type="text"/>
+<input type="submit" value=" "/>
+</form>
+</div>
+</div>
+</div>
+</div><!-- #nav -->
+<div id="sub-nav">
+<div class="container">
+<div class="mobile-only">
+<strong><i class="fa fa-phone"></i> <a href="tel:8666002273">866.600.CARE</a></strong>
+<span class="menu-toggle">
+<span class="open">
+<i class="fa fa-bars"></i>
+</span>
+<span class="close">
+<i class="fa fa-times"></i>
+</span>
+</span>
+</div>
+<div class="row mobile-hide">
+<div class="col-md-5">
+<ul>
+<li><a href="/find-a-doctor" title="Find a Doctor">
+                                Find a Doctor</a>
+</li>
+<li><a href="/request-an-appointment" title="Request an Appointment">
+                                Request an Appointment</a>
+</li>
+<li><a href="/patients-and-visitors/locations-and-directions" title="Maps &amp; Directions">
+                                Maps &amp; Directions</a>
+</li>
+</ul>
+</div>
+<div class="col-md-7">
+<ul>
+<li><a href="/patients-and-visitors/patient-information/mychart" title="MyChart">
+                                MyChart</a>
+</li>
+<li><a href="/patients-and-visitors/patient-information/billing-and-pricing" title="Pay A Bill">
+                                Pay A Bill</a>
+</li>
+<li><a href="/contact-us" title="Contact Us">
+                                Contact Us</a>
+</li>
+<li><i class="fa fa-phone"></i> <a href="tel:8666002273">866.600.CARE</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div><!-- #sub-nav -->
+<div id="banner" style="background-image:url('images/Section Control/healthcareinthearts.jpg');">
+<div class="container">
+<h1>Primary Care Services</h1>
+</div>
+</div><!-- #banner -->
+<div id="crumbs">
+<div class="container">
+<span class="side-nav-toggle">
+<span class="open">
+<i class="fa fa-bars"></i>
+</span>
+<span class="close">
+<i class="fa fa-times"></i>
+</span>
+<span class="xs-hide">Additional</span> Navigation
+			</span>
+<div class="row">
+<div class="col-sm-8">
+<div class="crumbs">
+<a href="/" title="Home">
+                                Home</a>
+<span>/</span>
+<a href="/primary-and-specialty-care" title="Primary &amp; Specialty Care">
+                                Primary &amp; Specialty Care</a>
+<span>/</span>
+<a href="/primary-and-specialty-care/primary-care-services" title="Primary Care Services">
+                                Primary Care Services</a>
+<span>/</span>
+<a href="/primary-and-specialty-care/primary-care-services/our-services" title="Our Services">
+                                Our Services</a>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="utilities">
+<a class="print" href="#" onclick="window.print(); return false;">Print</a>
+<a class="addthis_button btn_ShareThisPage">Share</a>
+
+</div>
+</div>
+</div>
+</div>
+</div><!-- #crumbs -->
+<div id="main">
+<div class="container">
+<div class="row">
+<div class="col-md-3 border-right">
+<div class="side-nav">
+<h4><a href="/primary-and-specialty-care/primary-care-services">Primary Care Services</a>
+</h4>
+<h5 class="">
+<a href="primary-and-specialty-care/internal-medicine" target="">Internal Medicine</a>
+</h5>
+<h5 class="">
+<a href="primary-and-specialty-care/family-medicine" target="">Family Medicine</a>
+</h5>
+<h5 class="">
+<a href="primary-and-specialty-care/pediatrics/childrens-hospital" target="">Pediatrics</a>
+</h5>
+<h5 class="">
+<a href="primary-and-specialty-care/geriatrics" target="">Geriatrics</a>
+</h5>
+<h5 class="">
+<a href="primary-and-specialty-care/obstetrics-and-gynecology" target="">OB/GYN</a>
+</h5>
+<h5 class="">
+<a href="/primary-and-specialty-care/primary-care-services/our-locations" target="">Our
+                                    Locations</a>
+</h5>
+<h5 class="on">
+<a href="/primary-and-specialty-care/primary-care-services/our-services" target="">Our
+                                    Services</a>
+</h5>
+</div>
+</div>
+<div class="col-md-9 border-left">
+<div class="main-area" id="editable">
+<h2 class=""><strong>Our Services</strong></h2>
+<p>Our primary care providers (PCP) act as your personal healthcare provider. Our experts
+                                from Family Medicine, Internal Medicine, Obstetrics &amp; Gynecology, and Pediatrics
+                                treat patients of all ages, and we work together to manage all your family's healthcare
+                                needs, from treating common medical problems to caring for chronic medical
+                                conditions.</p>
+<h3><a href="/primary-and-specialty-care/family-medicine">Family Medicine</a></h3>
+<p>Our family medicine doctors take care of all your medicine needs: We provide a broad
+                                range of primary care services, including women's healthcare, immunizations, physicals,
+                                lab testing, medication refill, follow-up visits, and health counseling and education.
+                                We also have a <a href="/primary-and-specialty-care/family-medicine/physician-home-visits">Home
+                                    Visits Program</a> to provide medical care to patients of all ages without the need
+                                for hospitalization or an emergency visit. </p>
+<h3><a href="/primary-and-specialty-care/internal-medicine">Internal Medicine</a></h3>
+<p>The internal medicine specialists at UI Health are committed to helping you be the
+                                healthiest version of you. Our doctors focus on primary care, health maintenance,
+                                disease prevention and risk factors, and specialty care to provide you a personalized
+                                healthcare plan that fits your needs.</p>
+<h3><a href="/primary-and-specialty-care/obstetrics-and-gynecology">Obstetrics &amp;
+                                Gynecology</a></h3>
+<p>Our board-certified obstetricians and gynecologists focus on providing quality healthcare
+                                to girls, women, and expectant mothers. Whether you need a routine well-woman exam,
+                                family planning advice, or help with a gynecological condition, our OB/GYN team provides
+                                offer quality healthcare for women throughout their reproductive years and beyond.</p>
+<h3><a href="/primary-and-specialty-care/pediatrics/childrens-hospital">Pediatrics</a></h3>
+<p>The Department of Pediatrics delivers compassionate, personalized care to children of all
+                                ages, from infancy into young adulthood. We bring together primary and specialty
+                                pediatric care in one location. From well-child visits and immunizations in our clinics,
+                                to advanced care and emergency services on our designated pediatric hospital floor, we
+                                work with your family to address your medical and emotional concerns while providing the
+                                best care to your child. Our team helps manage chronic medical conditions and diseases
+                                to ensure your child grows up healthy and develops properly.</p>
+<!-- commented out 9/15/2015 -->
+<!-- </div>
+                            <div class="main-area"> -->
+<div class="spacer"></div> <!-- This is what I added 9/15/20015 -->
+<div id="page-builder">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><!-- #main -->
+<div id="footer">
+<div class="container">
+<div class="row">
+<div class="col-sm-12 col-md-2">
+<p>
+<a href="/"> <img alt="UI Health | UIC Logo" class="logo" src="/assets/images/SiteControl/UIH_UIC_bug150w.png"/>
+</a>
+</p>
+</div>
+<div class="col-sm-8 col-md-7">
+<div class="row">
+<div class="col-sm-4">
+<ul>
+<li><a href="/find-a-doctor" title="Find a Doctor">
+                                        Find a Doctor</a>
+</li>
+<li><a href="/request-an-appointment" title="Request an Appointment">
+                                        Request an Appointment</a>
+</li>
+<li><a href="/patients-and-visitors/locations-and-directions" title="Locations &amp; Directions">
+                                        Locations &amp; Directions</a>
+</li>
+<li><a href="/contact-us" title="Contact Us">
+                                        Contact Us</a>
+</li>
+<li><a href="http://uic.edu/" title="UIC.edu">
+                                        UIC.edu</a>
+</li>
+</ul>
+</div>
+<div class="col-sm-4">
+<ul>
+<li><a href="/patients-and-visitors/patient-information/mychart" title="MyChart (Patient Portal)">
+                                        MyChart (Patient Portal)</a>
+</li>
+<li>
+<a href="/patients-and-visitors/health-insurance-information/accepted-insurance-plans" title="Accepted Insurance Plans">
+                                            Accepted Insurance Plans</a>
+</li>
+<li><a href="/patients-and-visitors/patient-information/billing-and-pricing" title="Pay a Bill">
+                                        Pay a Bill</a>
+</li>
+<li><a href="/about-ui-health/giving" title="Give a Gift">
+                                        Give a Gift</a>
+</li>
+<li><a href="/about-ui-health/career-opportunities" title="Career Opportunities">
+                                        Career Opportunities</a>
+</li>
+</ul>
+</div>
+<div class="col-sm-4">
+<ul>
+<li><a href="https://employee.hospital.uic.edu/" title="Employee Intranet">
+                                        Employee Intranet</a>
+</li>
+<li><a href="/marketing" title="Marketing Toolkit">
+                                        Marketing Toolkit</a>
+</li>
+<li><a href="https://www.vpaa.uillinois.edu/resources/web_privacy" target="_blank" title="Privacy Policy">
+                                        Privacy Policy</a>
+</li>
+<li><a href="/marketing/marketing-tool-kit/website-feedback" title="[+] Website Feedback">
+                                        [+] Website Feedback</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-sm-4 col-md-3">
+<p class="bold">GENERAL INFORMATION<br/><a href="tel:8666002273">866.600.CARE</a></p>
+<div class="social"><a href="https://www.facebook.com/UIHealth"><em class="fa fa-facebook"><span style="display: none;"> </span></em></a> <a href="https://twitter.com/UIHealth"><em class="fa fa-twitter"><span style="display: none;"> </span></em></a> <a href="http://www.linkedin.com/company/uihealth"><em class="fa fa-linkedin"><span style="display: none;"> </span></em></a> <a href="http://www.youtube.com/user/UIHospital"><em class="fa fa-youtube"><span style="display: none;"> </span></em></a> <a href="/patients-and-visitors/patient-information/mychart/download-the-app"><em class="fa fa-mobile"><span style="display: none;"> </span></em></a></div>
+<p>University of Illinois Hospital<br/>1740 West Taylor Street<br/>Chicago, IL 60612</p>
+</div>
+</div>
+</div>
+<div class="copyright">
+<div class="container">
+<div class="align-center">
+                        © 2020 University of Illinois Hospital &amp; Health Sciences System
+                    </div>
+</div>
+</div>
+</div><!-- #footer -->
+</div>
+</div>
+
+
+
+
+
+</div><div>
+<style>
+    /* The alert message box */
+    .alert {
+        padding: 20px;
+        background-color: #E91B0C; /* Red */
+        color: white !important;
+        margin-bottom: 0px;
+        font-family: arial;
+    }
+
+    .alert a {
+        color: white !important;
+        text-decoration: underline;
+    }
+
+    /* The close button */
+    .closebtn {
+        margin-left: 15px;
+        color: white;
+        font-weight: bold;
+        float: right;
+        font-size: 22px;
+        line-height: 20px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    /* When moving the mouse over the close button */
+    .closebtn:hover {
+        color: black;
+    }
+</style>
+<div class="alert">
+<span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
+<strong>COVID-19 Updates: </strong> <a href="/primary-and-specialty-care/infectious-diseases/covid-19-coronavirus">
+    View the latest information from UI Health.</a>
+</div>
+<div id="page">
+<div id="header">
+<div class="container">
+<a class="logo" href="/">
+<img alt="UI Health: University of Illinois Hospital and Health Sciences System" src="/assets/images/SiteControl/UIHealthUICLogo.gif"/>
+</a>
+</div>
+</div><!-- #header -->
+<div id="mobile-nav">
+<p class="align-center"><strong><a href="tel:8666002273">Call Us 866.600.CARE</a></strong></p>
+<form action="/search-results" class="search" method="get">
+<input name="term" placeholder="How may we help you?" type="text"/>
+<input type="submit" value=" "/>
+</form>
+<ul class="gray">
+<li><a href="/primary-and-specialty-care" title="Primary &amp; Specialty Care">
+                Primary &amp; Specialty Care</a>
+</li>
+<li><a href="/patients-and-visitors" title="Patients &amp; Visitors">
+                Patients &amp; Visitors</a>
+</li>
+<li><a href="/referring-physicians" title="Referring Physicians">
+                Referring Physicians</a>
+</li>
+<li><a href="/about-ui-health" title="About UI Health">
+                About UI Health</a>
+</li>
+</ul>
+<hr/>
+<!-- TODO: where do these come from -->
+<ul>
+<li><a href="/find-a-doctor" title="Find a Doctor">
+                Find a Doctor</a>
+</li>
+<li><a href="/request-an-appointment" title="Request an Appointment">
+                Request an Appointment</a>
+</li>
+<li><a href="/patients-and-visitors/locations-and-directions" title="Maps &amp; Directions">
+                Maps &amp; Directions</a>
+</li>
+<li><a href="/patients-and-visitors/patient-information/mychart" title="MyChart">
+                MyChart</a>
+</li>
+<li><a href="/patients-and-visitors/patient-information/billing-and-pricing" title="Pay A Bill">
+                Pay A Bill</a>
+</li>
+<li><a href="/contact-us" title="Contact Us">
+                Contact Us</a>
+</li>
+</ul>
+</div><!-- #mobile-nav -->
+<div class="push-wrap">
+<div class="mobile-hide" id="nav">
+<div class="container">
+<div class="row">
+<div class="col-md-8">
+<ul class="main">
+<li>
+<a href="/primary-and-specialty-care" title="Primary &amp; Specialty Care">
+                                    Primary &amp; Specialty Care</a>
+<div class="mega">
+<div class="mega-padding">
+<div class="row">
+<div class="col-md-3">
+<p><a href="/primary-and-specialty-care"><img alt="Primary Care" height="195" src="Images/SiteControl/family.jpg" width="260"/></a></p>
+<p>At UI Health, our foundation in academic excellence leads to new
+                                                    possibilities in healthcare. We take pride in serving Chicago and
+                                                    are committed to keeping your family healthy.</p>
+<!--<p><a href="/patients-and-visitors/health-insurance-information/accepted-insurance-plans#test" >Read More <em class="fa fa-angle-double-right"></em></a></p>
+                                                --></div>
+<div class="col-md-9">
+<div class="row">
+<div class="col-md-3">
+<ul>
+<li>
+<a href="/primary-and-specialty-care/primary-care-services">PRIMARY
+                                                                    CARE</a></li>
+<li><a href="/primary-and-specialty-care/internal-medicine">Internal
+                                                                Medicine</a></li>
+<li><a href="/primary-and-specialty-care/family-medicine">Family
+                                                                Medicine</a></li>
+<li>
+<a href="/patients-and-visitors/mile-square-federally-qualified-health-center">Mile
+                                                                    Square Health Center</a></li>
+<li>
+<a href="/primary-and-specialty-care/pediatrics/childrens-hospital">Pediatrics</a>
+</li>
+</ul>
+<ul>
+<li><a href="/primary-and-specialty-care">SPECIALTY CARE</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/surgical-services/craniofacial-center">Craniofacial
+                                                                    Center</a></li>
+<li><a href="/primary-and-specialty-care/dermatology">Dermatology </a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/diabetes-and-endocrinology">Diabetes
+                                                                    &amp; Endocrinology</a></li>
+<li><a href="/primary-and-specialty-care/gastroenterology">Gastroenterology
+                                                                (GI)</a></li>
+<li>
+<a href="/primary-and-specialty-care/hepatology-liver-disease">Liver
+                                                                    Disease</a></li>
+<li class="on"><a href="/primary-and-specialty-care/ophthalmology">Ophthalmology</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/cancer-services-at-ui-health/cancer-programs/prostate-cancer">Prostate</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/psychiatry-services">Psychiatry</a>
+</li>
+<li><a href="/primary-and-specialty-care/radiology">Radiology</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/rehabilitation-services">Rehabilitation</a>
+</li>
+<li><a href="/primary-and-specialty-care/sickle-cell">Sickle
+                                                                Cell</a></li>
+</ul>
+</div>
+<div class="col-md-3">
+<ul>
+<li><a href="/primary-and-specialty-care/womens-health">WOMEN'S
+                                                                HEALTH</a></li>
+<li>
+<a href="/primary-and-specialty-care/obstetrics-and-gynecology">OB/GYN</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/surgical-services/breast-care">Breast
+                                                                    Care</a></li>
+<li>
+<a href="/primary-and-specialty-care/family-birth-place">Labor
+                                                                    &amp; Delivery</a></li>
+</ul>
+<ul>
+<li>
+<a href="/primary-and-specialty-care/neurology-and-neurosurgery">NEUROLOGY
+                                                                    &amp; NEUROSURGERY</a></li>
+<li>
+<a href="/primary-and-specialty-care/neurology-and-neurosurgery/neurological-conditions-we-treat/brain-aneurysm">Brain
+                                                                    Aneurysm</a></li>
+<li>
+<a href="/primary-and-specialty-care/ui-health-stroke-institute">Stroke</a>
+</li>
+<li><a href="/primary-and-specialty-care/pain-management">Pain
+                                                                Management</a></li>
+</ul>
+<ul>
+<li><a href="/primary-and-specialty-care/weight-management">WEIGHT
+                                                                MANAGEMENT</a></li>
+<li>
+<a href="/primary-and-specialty-care/surgical-services/bariatric-surgery-program">Bariatric
+                                                                    Surgery</a></li>
+<li>
+<a href="/primary-and-specialty-care/weight-management/nonsurgical-weight-loss-programs">Non-Surgical
+                                                                    Weight Loss</a></li>
+</ul>
+</div>
+<div class="col-md-3">
+<ul>
+<li>
+<a href="/primary-and-specialty-care/cancer-services-at-ui-health">CANCER
+                                                                    SERVICES</a></li>
+<li>
+<a href="/primary-and-specialty-care/surgical-services/breast-care">Breast
+                                                                    Cancer</a></li>
+<li>
+<a href="/primary-and-specialty-care/cancer-services-at-ui-health/cancer-programs/colon-and-rectal-cancer">Colon
+                                                                    Cancer</a></li>
+<li>
+<a href="/primary-and-specialty-care/obstetrics-and-gynecology/our-obgyn-services/gynecologic-oncology">Gynecologic
+                                                                    Oncology</a></li>
+<li>
+<a href="/primary-and-specialty-care/cancer-services-at-ui-health/cancer-programs/lung-cancer">Lung
+                                                                    Cancer</a></li>
+<li>
+<a href="/primary-and-specialty-care/urology/urologic-cancer-program">Urologic
+                                                                    Cancers</a></li>
+</ul>
+<ul>
+<li><a href="/primary-and-specialty-care/otolaryngology">EAR,
+                                                                NOSE, &amp; THROAT</a></li>
+<li><a href="/primary-and-specialty-care/otolaryngology">Otolaryngology</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/otolaryngology/audiology">Audiology</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/otolaryngology/head-and-neck-cancer-surgery">Head
+                                                                    and Neck Cancer</a></li>
+</ul>
+<ul>
+<li><a href="/primary-and-specialty-care/pulmonary">LUNG
+                                                                HEALTH</a></li>
+<li>
+<a href="/primary-and-specialty-care/pulmonary/our-areas-of-expertise/allergy">Allergy</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/pulmonary/our-areas-of-expertise/asthma">Asthma</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/rheumatology/sarcoidosis">Sarcoidosis</a>
+</li>
+</ul>
+</div>
+<div class="col-md-3">
+<ul>
+<li>
+<a href="/primary-and-specialty-care/pediatrics/childrens-hospital">PEDIATRICS</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/pediatrics/childrens-hospital">Children's
+                                                                    Hospital</a></li>
+</ul>
+<ul>
+<li><a href="/primary-and-specialty-care/surgical-services">SURGERY</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/surgical-services/bariatric-surgery-program">Bariatric
+                                                                    Surgery</a></li>
+<li>
+<a href="/primary-and-specialty-care/surgical-services/robotic-surgery-program">Robotic
+                                                                    Surgery</a></li>
+<li>
+<a href="/primary-and-specialty-care/surgical-services/vascular-surgery-at-ui-health">Vascular
+                                                                    Surgery</a></li>
+</ul>
+<ul>
+<li><a class="extLink" href="https://dentistry.uic.edu/patients" target="_blank">DENTISTRY</a></li>
+<li>
+<a href="/patients-and-visitors/mile-square-federally-qualified-health-center/dental-care-south-shore">South
+                                                                    Shore Dental</a></li>
+</ul>
+<ul>
+<li><a href="/primary-and-specialty-care/transplant">TRANSPLANT</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/transplant/blood-and-marrow-transplant-program">Blood
+                                                                    and Marrow</a></li>
+<li>
+<a href="/primary-and-specialty-care/transplant/kidney-transplantation">Kidney</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/transplant/liver-transplantation">Liver</a>
+</li>
+</ul>
+<p><a href="/primary-and-specialty-care">See More Services <em class="fa fa-angle-double-right"></em></a></p>
+</div>
+</div>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-md-6">
+<div class="foot-links">
+<a href="/find-a-doctor" title="Find a Doctor">
+                                                        Find a Doctor</a>
+<a href="/request-an-appointment" title="Request an Appointment">
+                                                        Request an Appointment</a>
+<a href="/patients-and-visitors/locations-and-directions" title="Maps &amp; Directions">
+                                                        Locations &amp; Directions</a>
+</div>
+</div>
+<div class="col-md-4">
+<div class="foot-links">
+<a href="/patients-and-visitors/patient-information/mychart" title="MyChart">
+                                                        MyChart</a>
+<a href="/patients-and-visitors/patient-information/billing-and-pricing" title="Pay A Bill">
+                                                        Pay A Bill</a>
+<a href="/contact-us" title="Contact Us">
+                                                        Contact Us</a>
+</div>
+</div>
+<div class="col-md-2">
+<div class="foot-links align-left">
+                                                    Call Us <a class="phone" href="tel:8666002273">866.600.CARE</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<a href="/patients-and-visitors" title="Patients &amp; Visitors">
+                                    For Patients &amp; Visitors</a>
+<div class="mega">
+<div class="mega-padding">
+<div class="row">
+<div class="col-md-3">
+<p>
+<a href="/patients-and-visitors/health-insurance-information/accepted-insurance-plans#"><img alt="Maps Locations and Directions" height="195" src="Images/SiteControl/PAndVDropDown.jpg" width="260"/></a>
+</p>
+<p>A visit to the hospital can be overwhelming. At UI Health, we strive
+                                                    to make the patient and visitor experience as stress-free and
+                                                    comfortable as possible.</p>
+</div>
+<div class="col-md-9">
+<div class="row">
+<div class="col-md-3">
+<ul>
+<li><a href="/patients-and-visitors/patient-information">PATIENT
+                                                                INFORMATION</a></li>
+<li>
+<a href="/patients-and-visitors/patient-information/mychart">MyChart
+                                                                    (was Patient Portal)</a><a href="/patients-and-visitors/health-insurance-information/accepted-insurance-plans#"></a>
+</li>
+<li><a href="/patients-and-visitors/financial-assistance">Financial
+                                                                Assistance</a></li>
+<li>
+<a href="/patients-and-visitors/patient-information/billing-and-pricing">Billing
+                                                                    and Pricing</a></li>
+</ul>
+<ul>
+<li><a href="/patients-and-visitors/visiting-a-patient">VISITING
+                                                                A PATIENT</a></li>
+<li>
+<a href="/patients-and-visitors/visiting-a-patient/accommodations">Accommodations</a>
+</li>
+<li class="on"><a href="/patients-and-visitors/visiting-a-patient/dining">Dining</a>
+</li>
+<li>
+<a href="/patients-and-visitors/visiting-a-patient/gift-shop">Gift
+                                                                    Shop</a></li>
+</ul>
+<ul>
+<li><a href="/patient-stories">PATIENT STORIES</a></li>
+</ul>
+</div>
+<div class="col-md-3">
+<ul>
+<li>
+<a href="/patients-and-visitors/health-insurance-information">HEALTH
+                                                                    INSURANCE</a></li>
+<li>
+<a href="/patients-and-visitors/health-insurance-information/accepted-insurance-plans">Accepted
+                                                                    Insurance Plans</a></li>
+<li>
+<a href="/patients-and-visitors/health-insurance-information/ui-health-plus">UI
+                                                                    Health Plus</a></li>
+<li>
+<a href="/patients-and-visitors/health-insurance-information/contact-a-certified-application-counselor">Certified
+                                                                    Application Counselor</a></li>
+</ul>
+<ul>
+<li><a href="/primary-and-specialty-care/pharmacy">UI HEALTH
+                                                                PHARMACIES</a></li>
+<li>
+<a href="/primary-and-specialty-care/pharmacy/locations-hours-and-contact-info">Locations</a>
+</li>
+<li>
+<a href="/primary-and-specialty-care/pharmacy/prescription-services">Prescription
+                                                                    Services</a></li>
+<li>
+<a href="/primary-and-specialty-care/pharmacy/uic-student-services">Student
+                                                                    Services</a></li>
+</ul>
+</div>
+<div class="col-md-3">
+<ul>
+<li><a href="/patients-and-visitors/helpful-numbers">HELPFUL
+                                                                NUMBERS</a></li>
+<li>
+<a href="/patients-and-visitors/patient-safety-and-policies">Patient
+                                                                    Safety &amp; Policies</a></li>
+<li>
+<a href="/patients-and-visitors/financial-assistance/health-social-workers">Health
+                                                                    Social Workers</a></li>
+<li>
+<a href="/patients-and-visitors/international-medicine-unpub/volunteer-services">Volunteer
+                                                                    Services</a></li>
+</ul>
+</div>
+<div class="col-md-3">
+<ul>
+<li>
+<a href="/patients-and-visitors/locations-and-directions">LOCATIONS
+                                                                    &amp; MAPS</a></li>
+<li>
+<a href="/patients-and-visitors/locations-and-directions/hospital">Hospital</a>
+</li>
+<li>
+<a href="/patients-and-visitors/mile-square-federally-qualified-health-center">Mile
+                                                                    Square Health Center</a></li>
+<li>
+<a href="/patients-and-visitors/locations-and-directions/outpatient-care-center">Outpatient
+                                                                    Care Center</a><a href="/patients-and-visitors/health-insurance-information/accepted-insurance-plans#"></a>
+</li>
+<li>
+<a href="/patients-and-visitors/locations-and-directions/university-village-clinic-maxwell-street">University
+                                                                    Village Clinic</a></li>
+<li><a href="/primary-and-specialty-care/urgent-care">Urgent
+                                                                Care</a></li>
+<li><a href="/primary-and-specialty-care/pharmacy">Pharmacies</a>
+</li>
+<li>
+<a href="/patients-and-visitors/locations-and-directions/family-medicine-pilsen">Pilsen,
+                                                                    Lower West</a></li>
+</ul>
+<p><a href="/patients-and-visitors">See More Patients <br/> &amp;
+                                                            Visitors <em class="fa fa-angle-double-right"></em></a></p>
+</div>
+</div>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-md-6">
+<div class="foot-links">
+<a href="/find-a-doctor" title="Find a Doctor">
+                                                        Find a Doctor</a>
+<a href="/request-an-appointment" title="Request an Appointment">
+                                                        Request an Appointment</a>
+<a href="/patients-and-visitors/locations-and-directions" title="Maps &amp; Directions">
+                                                        Locations &amp; Directions</a>
+</div>
+</div>
+<div class="col-md-4">
+<div class="foot-links">
+<a href="/patients-and-visitors/patient-information/mychart" title="MyChart">
+                                                        MyChart</a>
+<a href="/patients-and-visitors/patient-information/billing-and-pricing" title="Pay A Bill">
+                                                        Pay A Bill</a>
+<a href="/contact-us" title="Contact Us">
+                                                        Contact Us</a>
+</div>
+</div>
+<div class="col-md-2">
+<div class="foot-links align-left">
+                                                    Call Us <a class="phone" href="tel:8666002273">866.600.CARE</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<a href="/referring-physicians" title="Referring Physicians">
+                                    For Referring Physicians</a>
+</li>
+<li>
+<a href="/about-ui-health" title="About UI Health">
+                                    About UI Health</a>
+<div class="mega">
+<div class="mega-padding">
+<div class="row">
+<div class="col-md-3">
+<p>The University of Illinois Hospital and Clinics is a patient centered
+                                                    organization. Providing safe, high-quality and cost-effective care
+                                                    for our patients is our foremost responsibility. The care of our
+                                                    patients and their families will always be at the heart of our
+                                                    mission.</p>
+<p><a href="/about-ui-health/mission-vision-and-values">Our Mission<em class="fa fa-angle-double-right"></em></a></p>
+</div>
+<div class="col-md-9">
+<div class="row">
+<div class="col-md-3">
+<ul>
+<li><a href="/about-ui-health/mission-vision-and-values">Mission,
+                                                                Vision, and Values</a></li>
+<li><a href="/about-ui-health/ui-health-leadership">UI
+                                                                Health Leadership</a></li>
+<li><a href="/about-ui-health/points-of-pride">Points of
+                                                                Pride</a></li>
+</ul>
+<ul>
+<li><a href="/about-ui-health/community-commitment">Community
+                                                                Commitment</a></li>
+<li>
+<a href="/about-ui-health/community-commitment/annual-events">Annual
+                                                                    Events</a></li>
+<li class="on"><a href="/about-ui-health/community-commitment/better-health-through-housing">Better
+                                                                Health through Housing</a></li>
+</ul>
+</div>
+<!--<div class="col-md-3">
+                                                    <ul>
+                                                    <li><a href="/x3939.xml" >Vice President for Health Affairs</a></li>
+                                                    <li><a href="/x3941.xml" >Leadership Team</a></li>
+                                                    <li><a href="/x3948.xml" >Population Health Sciences</a></li>
+                                                    <li><a href="/x3966.xml" >Quality and Patient Safety </a></li>
+                                                    </ul>
+                                                    </div>-->
+<div class="col-md-3">
+<ul>
+<li><a href="/about-ui-health/employee-pride">Employee
+                                                                Pride</a></li>
+<li>
+<a href="/about-ui-health/employee-pride/employee-recognition">Recognition</a>
+</li>
+<li>
+<a href="/about-ui-health/employee-pride/award-for-extraordinary-nurses">Extraordinary
+                                                                    Nurses</a></li>
+</ul>
+</div>
+<div class="col-md-3">
+<ul>
+<li><a href="/about-ui-health/career-opportunities">Career
+                                                                Opportunities</a></li>
+<li><a class="extLink" href="https://jobs.uic.edu/UI_health" target="_blank">UI Health Jobs</a></li>
+<li>
+<a href="/about-ui-health/career-opportunities/admin-fellowship">Admin
+                                                                    Fellowship</a></li>
+<li>
+<a href="/patients-and-visitors/international-medicine-unpub/volunteer-services">Volunteering</a>
+</li>
+</ul>
+</div>
+<div class="col-md-3">
+<ul>
+<li><a href="/about-ui-health/connect-with-us">Connect With
+                                                                Us</a></li>
+<li><a href="/about-ui-health/giving">Giving</a></li>
+</ul>
+<ul>
+<li><a href="http://uic.edu">UIC.edu</a></li>
+</ul>
+<p><a href="/about-ui-health">See More About UI Health <em class="fa fa-angle-double-right"></em></a></p>
+</div>
+</div>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-md-6">
+<div class="foot-links">
+<a href="/find-a-doctor" title="Find a Doctor">
+                                                        Find a Doctor</a>
+<a href="/request-an-appointment" title="Request an Appointment">
+                                                        Request an Appointment</a>
+<a href="/patients-and-visitors/locations-and-directions" title="Maps &amp; Directions">
+                                                        Locations &amp; Directions</a>
+</div>
+</div>
+<div class="col-md-4">
+<div class="foot-links">
+<a href="/patients-and-visitors/patient-information/mychart" title="MyChart">
+                                                        MyChart</a>
+<a href="/patients-and-visitors/patient-information/billing-and-pricing" title="Pay A Bill">
+                                                        Pay A Bill</a>
+<a href="/contact-us" title="Contact Us">
+                                                        Contact Us</a>
+</div>
+</div>
+<div class="col-md-2">
+<div class="foot-links align-left">
+                                                    Call Us <a class="phone" href="tel:8666002273">866.600.CARE</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div>
+<div class="col-md-4">
+<form action="/search-results" class="search" method="get">
+<input name="term" placeholder="How may we help you?" type="text"/>
+<input type="submit" value=" "/>
+</form>
+</div>
+</div>
+</div>
+</div><!-- #nav -->
+<div id="sub-nav">
+<div class="container">
+<div class="mobile-only">
+<span class="spanish-link"> <a class="active" href="/es/pacientes-y-visitantes/obtenga-su-seguro-medico/planes-de-seguro-aceptadas" title="Planes de Seguro Aceptadas">
+		Español</a>
+</span>
+<strong><i class="fa fa-phone"></i> <a href="tel:8666002273">866.600.CARE</a></strong>
+<span class="menu-toggle">
+<span class="open">
+<i class="fa fa-bars"></i>
+</span>
+<span class="close">
+<i class="fa fa-times"></i>
+</span>
+</span>
+</div>
+<div class="row mobile-hide">
+<div class="col-md-5">
+<ul>
+<li><a href="/find-a-doctor" title="Find a Doctor">
+                                Find a Doctor</a>
+</li>
+<li><a href="/request-an-appointment" title="Request an Appointment">
+                                Request an Appointment</a>
+</li>
+<li><a href="/patients-and-visitors/locations-and-directions" title="Maps &amp; Directions">
+                                Maps &amp; Directions</a>
+</li>
+</ul>
+</div>
+<div class="col-md-7">
+<ul>
+<li><a href="/patients-and-visitors/patient-information/mychart" title="MyChart">
+                                MyChart</a>
+</li>
+<li><a href="/patients-and-visitors/patient-information/billing-and-pricing" title="Pay A Bill">
+                                Pay A Bill</a>
+</li>
+<li><a href="/contact-us" title="Contact Us">
+                                Contact Us</a>
+</li>
+<li class="spanish-link"><a class="active" href="/es/pacientes-y-visitantes/obtenga-su-seguro-medico/planes-de-seguro-aceptadas" title="Planes de Seguro Aceptadas">
+                                Español</a>
+</li>
+<li><i class="fa fa-phone"></i> <a href="tel:8666002273">866.600.CARE</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div><!-- #sub-nav -->
+<div id="banner" style="background-image:url('images/Section Control/patientandvisitors.jpg');">
+<div class="container">
+<h1>Patients and Visitors </h1>
+</div>
+</div><!-- #banner -->
+<div id="crumbs">
+<div class="container">
+<span class="side-nav-toggle">
+<span class="open">
+<i class="fa fa-bars"></i>
+</span>
+<span class="close">
+<i class="fa fa-times"></i>
+</span>
+<span class="xs-hide">Additional</span> Navigation
+			</span>
+<div class="row">
+<div class="col-sm-8">
+<div class="crumbs">
+<a href="/" title="Home">
+                                Home</a>
+<span>/</span>
+<a href="/patients-and-visitors" title="Patients &amp; Visitors">
+                                Patients &amp; Visitors</a>
+<span>/</span>
+<a href="/patients-and-visitors/health-insurance-information" title="Health Insurance Information">
+                                Health Insurance Information</a>
+<span>/</span>
+<a href="/patients-and-visitors/health-insurance-information/accepted-insurance-plans" title="Accepted Insurance Plans">
+                                Accepted Insurance Plans</a>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="utilities">
+<a class="print" href="#" onclick="window.print(); return false;">Print</a>
+<a class="addthis_button btn_ShareThisPage">Share</a>
+
+</div>
+</div>
+</div>
+</div>
+</div><!-- #crumbs -->
+<div id="main">
+<div class="container">
+<div class="row">
+<div class="col-md-3 border-right">
+<div class="side-nav">
+<h4><a href="/patients-and-visitors">Patients and Visitors </a></h4>
+<h5 class="">
+<a href="/patients-and-visitors/patient-information" target="">Patient Information</a>
+</h5>
+<h5 class="">
+<a href="/patients-and-visitors/visiting-a-patient" target="">Visiting a Patient</a>
+</h5>
+<h5 class="">
+<a href="/patients-and-visitors/health-insurance-information" target="">Health Insurance
+                                    Information</a>
+</h5>
+<ul>
+<li class="on"><a href="/patients-and-visitors/health-insurance-information/accepted-insurance-plans" target="">Accepted Insurance Plans</a>
+<ul>
+<li class=""><a href="/patients-and-visitors/health-insurance-information/accepted-insurance-plans/medicaid-managed-care-plans" target="">Medicaid Managed Care Plans</a></li>
+<li class=""><a href="/patients-and-visitors/health-insurance-information/accepted-insurance-plans/illinois-marketplace-plans" target="">Illinois Marketplace Plans</a></li>
+<li class=""><a href="/patients-and-visitors/health-insurance-information/accepted-insurance-plans/state-of-illinois-retirees" target="">United Healthcare Medicare Advantage PPO for State of Illinois
+                                            Retirees</a></li>
+</ul>
+</li>
+<li class=""><a href="/patients-and-visitors/health-insurance-information/ui-health-plus" target="">UI Health Plus</a>
+</li>
+<li class=""><a href="/patients-and-visitors/health-insurance-information/health-care-reform" target="">Health Care Reform</a>
+</li>
+<li class=""><a href="/patients-and-visitors/health-insurance-information/contact-a-certified-application-counselor" target="">Contact a Certified Application Counselor (CAC)</a>
+</li>
+</ul>
+<h5 class="">
+<a href="/patients-and-visitors/financial-assistance" target="">Financial Assistance</a>
+</h5>
+<h5 class="">
+<a href="/patients-and-visitors/locations-and-directions" target="">Locations &amp;
+                                    Directions</a>
+</h5>
+<h5 class="">
+<a href="/patients-and-visitors/mile-square-federally-qualified-health-center" target="">Mile Square Health Center (MSHC)</a>
+</h5>
+<h5 class="">
+<a href="/patients-and-visitors/patient-safety-and-policies" target="">Patient Safety
+                                    and Policies</a>
+</h5>
+<h5 class="">
+<a href="/patients-and-visitors/personal-health-care-resources" target="">Personal
+                                    Health Care Resources</a>
+</h5>
+<h5 class="">
+<a href="/patients-and-visitors/vendor-information" target="">Vendor Information</a>
+</h5>
+<h5 class="">
+<a href="/patients-and-visitors/helpful-numbers" target="">Helpful Numbers</a>
+</h5>
+<div class="spacer"></div>
+<h4>Related Links</h4>
+<ul>
+<li><a href="http://chicago.medicine.uic.edu/" title="College of Medicine">
+                                    College of Medicine</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="col-md-9 border-left">
+<div class="main-area" id="editable">
+<h2 class=""><strong>Accepted Insurance Plans</strong></h2>
+<p>UI Health participates in the following health plans and accepts Medicare assignment. Please
+                                check with your healthcare provider for additional program coverage information.</p>
+<ul type="disc">
+<li>Aetna Better Health: MMAI</li>
+<li>Aetna U.S. Healthcare: HMO</li>
+<li>Aetna U.S. Healthcare: PPO</li>
+<li>Aetna U.S. Healthcare: POS</li>
+<li>Aetna U.S. Healthcare: Medicare Advantage</li>
+<li>Aetna U.S. Healthcare: State of Illinois Employees</li>
+<li>Aetna U.S. Healthcare: Transplant</li>
+<li>Alliance (The): PPO</li>
+<li>AXA/HAA Preferred Partners: PPO</li>
+<li>Beech Street: PPO</li>
+<li>Beech Street Workers Compensation </li>
+<li>BlueCross &amp; BlueShield: Blue Advantage HMO</li>
+<li>BlueCross &amp; BlueShield: Blue Precision HMO</li>
+<li>BlueCross &amp; BlueShield: Blue Precision POS</li>
+<li>BlueCross &amp; BlueShield: Blue Cross Community Family Health Plans</li>
+<li>BlueCross &amp; BlueShield: Blue Cross Community MMAI</li>
+<li>BlueCross &amp; BlueShield: Medicare Select</li>
+<li>BlueCross &amp; BlueShield: HMO Illinois</li>
+<li>BlueCross &amp; BlueShield: POS (Blue Choice)</li>
+<li>BlueCross &amp; BlueShield: PPO</li>
+<li>Cigna Healthcare of Illinois: HMO</li>
+<li>Cigna Healthcare of Illinois: PPO</li>
+<li>Cigna Healthcare of Illinois: POS</li>
+<li>Cigna HealthSpring MMAI</li>
+<li>Community Care Alliance of Illinois Medicare Advantage</li>
+<li>CorVel PPO</li>
+<li>CorVel Workers Compensation</li>
+<li>CountyCare Health Plan: Medicaid</li>
+<li>Coventry Health Plan of Illinois: HMO</li>
+<li>Coventry Health Plan of Illinois: PPO</li>
+<li>Coventry Health Plan of Illinois: HMO State of Illinois</li>
+<li>Coventry Health Plan of Illinois: Medicare Advantage HMO</li>
+<li>Coventry Health Plan of Illinois: Medicare Advantage PPO</li>
+<li>Coventry Health Plan of Illinois: Workers Compensation</li>
+<li>Coventry/First Health: PPO</li>
+<li>DHS: HMO</li>
+<li>Equian (FKA Health Systems International): Workers Compensation</li>
+<li>Harken Health (a United Healthcare affiliate): POS *still offered in Employer
+                                    Group
+                                </li>
+<li>Healthlink (Unicare): PPO</li>
+<li>Healthlink (Unicare): HMO</li>
+<li>Humana: HMO</li>
+<li>Humana: PPO</li>
+<li>Humana: POS</li>
+<li>Humana: Transplant</li>
+<li>IlliniCare Health: Medicaid</li>
+<li>IlliniCare Health: MMAI</li>
+<li>Integrated Health Plan: PPO</li>
+<li>Integrated Health Plan: Workers Compensation</li>
+<li>Magellan: Behavioral Health</li>
+<li>Meridian Health Plan: Medicaid</li>
+<li>Meridian Health Plan: MMAI</li>
+<li>Meridian Health Plan: Medicare Advantage</li>
+<li>Molina Healthcare: Medicaid</li>
+<li>Multiplan/PHCS: PPO</li>
+<li>Multiplan/PHCS: Workers Compensation</li>
+<li>NextLevel Health Partners: Medicaid</li>
+<li>Prime Health Services: PPO</li>
+<li>Prime Health Services: Workers Compensation</li>
+<li>Redbridge: PPO</li>
+<li>Three Rivers Provider Network: PPO</li>
+<li>United Behavioral Health</li>
+<li>UnitedHealthcare: HMO</li>
+<li>UnitedHealthcare: PPO </li>
+<li>UnitedHealthcare: POS </li>
+<li>Union Health Services: HMO</li>
+<li>Value Options</li>
+<li>WellCare Medicare Advantage</li>
+<li>WINFertility</li>
+<li>Zelis (FKA HFN): EPO</li>
+<li>Zelis (FKA HFN): PPO</li>
+<li>Zelis: Workers Compensation</li>
+</ul>
+<p><strong>Governmental Programs</strong></p>
+<ul type="disc">
+<li>Medicare</li>
+<li>Illinois Health and Family Services (Medicaid)
+                                    <ul type="circle">
+<li>
+<a href="/patients-and-visitors/health-insurance-information/accepted-insurance-plans/medicaid-managed-care-plans" onclick="openDeviceBrowser('https://hospital.uillinois.edu/patients-and-visitors/health-insurance-information/accepted-insurance-plans/medicaid-managed-care-plans')" target="_blank">Medicaid Managed Care Plans</a></li>
+</ul>
+</li>
+<li>Other State and Federal programs</li>
+</ul>
+<p><strong>Accepted Marketplace Plans</strong><br/><br/> <a href="/patients-and-visitors/health-insurance-information/accepted-insurance-plans/illinois-marketplace-plans">Click
+                                here for Marketplace plans.</a></p>
+<!-- commented out 9/15/2015 -->
+<!-- </div>
+                            <div class="main-area"> -->
+<div class="spacer"></div> <!-- This is what I added 9/15/20015 -->
+<div class="pageBuilderLayout" id="page-builder"></div>
+</div>
+</div>
+</div>
+</div>
+</div><!-- #main -->
+<div id="footer">
+<div class="container">
+<div class="row">
+<div class="col-sm-12 col-md-2">
+<p>
+<a href="/"> <img alt="UI Health | UIC Logo" class="logo" src="/assets/images/SiteControl/UIH_UIC_bug150w.png"/>
+</a>
+</p>
+</div>
+<div class="col-sm-8 col-md-7">
+<div class="row">
+<div class="col-sm-4">
+<ul>
+<li><a href="/find-a-doctor" title="Find a Doctor">
+                                        Find a Doctor</a>
+</li>
+<li><a href="/request-an-appointment" title="Request an Appointment">
+                                        Request an Appointment</a>
+</li>
+<li><a href="/patients-and-visitors/locations-and-directions" title="Locations &amp; Directions">
+                                        Locations &amp; Directions</a>
+</li>
+<li><a href="/contact-us" title="Contact Us">
+                                        Contact Us</a>
+</li>
+<li><a href="http://uic.edu/" title="UIC.edu">
+                                        UIC.edu</a>
+</li>
+</ul>
+</div>
+<div class="col-sm-4">
+<ul>
+<li><a href="/patients-and-visitors/patient-information/mychart" title="MyChart (Patient Portal)">
+                                        MyChart (Patient Portal)</a>
+</li>
+<li>
+<a href="/patients-and-visitors/health-insurance-information/accepted-insurance-plans" title="Accepted Insurance Plans">
+                                            Accepted Insurance Plans</a>
+</li>
+<li><a href="/patients-and-visitors/patient-information/billing-and-pricing" title="Pay a Bill">
+                                        Pay a Bill</a>
+</li>
+<li><a href="/about-ui-health/giving" title="Give a Gift">
+                                        Give a Gift</a>
+</li>
+<li><a href="/about-ui-health/career-opportunities" title="Career Opportunities">
+                                        Career Opportunities</a>
+</li>
+</ul>
+</div>
+<div class="col-sm-4">
+<ul>
+<li><a href="https://employee.hospital.uic.edu/" title="Employee Intranet">
+                                        Employee Intranet</a>
+</li>
+<li><a href="/marketing" title="Marketing Toolkit">
+                                        Marketing Toolkit</a>
+</li>
+<li><a href="https://www.vpaa.uillinois.edu/resources/web_privacy" target="_blank" title="Privacy Policy">
+                                        Privacy Policy</a>
+</li>
+<li><a href="/marketing/marketing-tool-kit/website-feedback" title="[+] Website Feedback">
+                                        [+] Website Feedback</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-sm-4 col-md-3">
+<p class="bold">GENERAL INFORMATION<br/><a href="tel:8666002273">866.600.CARE</a></p>
+<div class="social"><a href="https://www.facebook.com/UIHealth"><em class="fa fa-facebook"><span style="display: none;"> </span></em></a> <a href="https://twitter.com/UIHealth"><em class="fa fa-twitter"><span style="display: none;"> </span></em></a> <a href="http://www.linkedin.com/company/uihealth"><em class="fa fa-linkedin"><span style="display: none;"> </span></em></a> <a href="http://www.youtube.com/user/UIHospital"><em class="fa fa-youtube"><span style="display: none;"> </span></em></a> <a href="/patients-and-visitors/patient-information/mychart/download-the-app"><em class="fa fa-mobile"><span style="display: none;"> </span></em></a></div>
+<p>University of Illinois Hospital<br/>1740 West Taylor Street<br/>Chicago, IL 60612</p>
+</div>
+</div>
+</div>
+<div class="copyright">
+<div class="container">
+<div class="align-center">
+                        © 2020 University of Illinois Hospital &amp; Health Sciences System
+                    </div>
+</div>
+</div>
+</div><!-- #footer -->
+</div>
+</div>
+
+
+
+
+
+</div></body>
+</html>

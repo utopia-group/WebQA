@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.16.4 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+--><html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<!-- begin _includes/seo.html --><title>2020 Annual Conference of the Association for Computational Linguistics - ACL 2020</title>
+<meta content="" name="description"/>
+<meta content="website" property="og:type"/>
+<meta content="en_US" property="og:locale"/>
+<meta content="ACL 2020" property="og:site_name"/>
+<meta content="2020 Annual Conference of the Association for Computational Linguistics" property="og:title"/>
+<meta content="https://acl2020.org/" property="og:url"/>
+<meta content="" property="og:description"/>
+<meta content="https://acl2020.org/assets/images/seattle/unsplash.jpg" property="og:image"/>
+<meta content="@aclmeeting" name="twitter:site"/>
+<meta content="2020 Annual Conference of the Association for Computational Linguistics" name="twitter:title"/>
+<meta content="" name="twitter:description"/>
+<meta content="https://acl2020.org/" name="twitter:url"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="https://acl2020.org/assets/images/seattle/unsplash.jpg" name="twitter:image"/>
+<link href="https://acl2020.org/" rel="canonical"/>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "ACL",
+      "url": "https://acl2020.org",
+      "sameAs": null
+    }
+  </script>
+<!-- end _includes/seo.html -->
+<link href="/feed.xml" rel="alternate" title="ACL 2020 Feed" type="application/atom+xml"/>
+<!-- https://t.co/dKP3o1e -->
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+<!-- For all browsers -->
+<link href="/assets/css/main.css" rel="stylesheet"/>
+<!--[if IE ]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+<!-- start custom head snippets -->
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+<link href="/assets/images/apple-touch-icon-57x57.png" rel="apple-touch-icon" sizes="57x57"/>
+<link href="/assets/images/apple-touch-icon-60x60.png" rel="apple-touch-icon" sizes="60x60"/>
+<link href="/assets/images/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72"/>
+<link href="/assets/images/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76"/>
+<link href="/assets/images/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114"/>
+<link href="/assets/images/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120"/>
+<link href="/assets/images/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144"/>
+<link href="/assets/images/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152"/>
+<link href="/assets/images/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="/assets/images/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="/assets/images/manifest.json" rel="manifest"/>
+<link color="#5bbad5" href="/assets/images/safari-pinned-tab.svg" rel="mask-icon"/>
+<meta content="#2b5797" name="msapplication-TileColor"/>
+<meta content="/assets/images/mstile-144x144.png" name="msapplication-TileImage"/>
+<meta content="#ffffff" name="theme-color"/>
+<!-- end custom head snippets -->
+</head>
+<body class="layout--splash">
+<!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+<div class="masthead">
+<div class="masthead__inner-wrap">
+<div class="masthead__menu">
+<nav class="greedy-nav" id="site-nav">
+<a class="site-logo" href="/"><img alt="" src="/assets/images/logos/acl-logo.png"/></a>
+<a class="site-title" href="/">ACL 2020</a>
+<ul class="visible-links"><li class="masthead__menu-item">
+<a href="/program/tutorials/">Program</a>
+</li><li class="masthead__menu-item">
+<a href="/blog">Blog</a>
+</li><li class="masthead__menu-item">
+<a href="/registration">Registration</a>
+</li><li class="masthead__menu-item">
+<a href="/participants">Participants</a>
+</li><li class="masthead__menu-item">
+<a href="/sponsors/list/">Sponsors</a>
+</li><li class="masthead__menu-item">
+<a href="/calls/papers">Calls</a>
+</li><li class="masthead__menu-item">
+<a href="/authors/camera-ready-instructions">Authors</a>
+</li><li class="masthead__menu-item">
+<a href="/reviewers">Reviewers</a>
+</li><li class="masthead__menu-item">
+<a href="/committees/organization">Committees</a>
+</li></ul>
+<button class="greedy-nav__toggle hidden" type="button">
+<span class="visually-hidden">Toggle menu</span>
+<div class="navicon"></div>
+</button>
+<ul class="hidden-links hidden"></ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="initial-content">
+<div class="page__hero--overlay" style=" background-image: url('/assets/images/seattle/unsplash.jpg');">
+<div class="wrapper">
+<h1 class="page__title" id="page-title" itemprop="headline">
+        
+          2020 Annual Conference of the Association for Computational Linguistics
+
+        
+      </h1>
+<p class="page__lead"><br/><br/>
+</p>
+</div>
+<span class="page__hero-caption">Photo by <a href="https://unsplash.com/@milkovi">Milkovi</a> on <a href="http://www.unsplash.com">Unsplash</a>
+</span>
+</div>
+<div id="main" role="main">
+<article class="splash" itemscope="" itemtype="https://schema.org/CreativeWork">
+<meta content="2020 Annual Conference of the Association for Computational Linguistics" itemprop="headline"/>
+<meta content="" itemprop="description"/>
+<section class="page__content" itemprop="text">
+<h2>News</h2>
+<p class="notice--info"><strong>April 12, 2020</strong>. Authors of accepted papers can find the instructions for camera-ready <a href="/authors/camera-ready-instructions">here</a>.</p>
+<p class="notice--info"><strong>April 4.</strong><br/>
+Dear ACL2020 Community,<br/><br/> 
+We hope you and your families are safe and well.<br/>
+We can now confirm that in response to COVID-19 we will be holding ACL2020 online, on the same July 5-10 dates.<br/>
+We know that many in our community are suffering or may suffer great hardships from this pandemic. We hope that we can work together in this difficult time to build a new kind of ACL meeting this year, one that offers more sustainability, expanded opportunities for exchange of knowledge, and increased inclusion of diverse contributions from around the globe.<br/>
+We will have pre-recorded talks and the full set of tutorials and workshops, and will be planning various live events like Q&amp;A sessions, mentoring, job fairs, and spaces for hallway conversations. This will be challenging but also an opportunity for coming together virtually, and I’m looking forward to working with the entire ACL2020 organizing committee to host an enlightening and meaningful conference. <br/>
+In the near term we are getting advice from other online conference chairs (who have already been enormously helpful), and we will be drawing on all the lessons from our online teaching now and in the past. I’ve been impressed by the resilience, passion, and positive spirit of everyone I see in all our newly online classes and meetings, and the matching spirit of the whole ACL community. I am grateful to be able to work with you all to make ACL2020 happen for all of us! <br/>
+We’ll be posting more details on registration in the next few weeks and more on the mechanics of the virtual conference soon.<br/><br/>
+With warmest wishes for everyone’s health,<br/>
+Dan Jurafsky, General Chair, for the whole ACL2020 Organizing Committee</p>
+<div class="text-center">
+<a href="/archive/" style="font-size: smaller; font-decoration: italic;">Older News</a>
+</div>
+<h2>Welcome!</h2>
+<p>The 58th annual meeting of the Association for Computational Linguistics (ACL) will take place in Seattle, Washington at the Hyatt Regency Seattle in downtown Seattle from <b>July 5th through July 10th, 2020</b>.</p>
+<p>ACL is the premier conference of the field of computational linguistics, covering a broad spectrum of diverse research areas that are concerned with computational approaches to natural language.</p>
+<h2 id="dates">Important Dates</h2>
+<center>
+<table style="width: 90%">
+<tbody>
+<tr>
+<td style="width: 40%;">Completion of START Global Profile</td>
+<td style="width: 30%;">Monday</td>
+<td>December 9, 2019</td>
+</tr>
+<tr>
+<td style="width: 40%;">Completion of ACL2020 Reviewer and Chair/Author Information Form</td>
+<td style="width: 30%;">Monday</td>
+<td>December 9, 2019</td>
+</tr>
+<tr>
+<td style="width: 40%;">Submission deadline<br/>(<i>long &amp; short papers</i>)</td>
+<td style="width: 30%;">Monday</td>
+<td>December 9, 2019</td>
+</tr>
+<tr>
+<td style="width: 40%;">Paper review rebuttal period<br/></td>
+<td style="width: 30%;">Wednesday – Monday</td>
+<td>February 12 – 17, 2020</td>
+</tr>
+<tr>
+<td style="width: 40%;">Student Research Workshop Submission deadline<br/></td>
+<td style="width: 30%;">Friday</td>
+<td>March 6, 2020</td>
+</tr>
+<tr>
+<td>Notification of acceptance<br/>(<i>long &amp; short papers</i>)</td>
+<td>Friday</td>
+<td>April 3, 2020</td>
+</tr>
+<tr>
+<td>Camera-ready papers due<br/>(<i>long &amp; short papers</i>)</td>
+<td>Friday</td>
+<td><strike>April 24</strike> May 1, 2020</td>
+</tr>
+<tr>
+<td>Proceedings publication</td>
+<td>Friday</td>
+<td>June 19, 2020</td>
+</tr>
+<tr>
+<td>Tutorials</td>
+<td>Sunday</td>
+<td>July 5, 2020</td>
+</tr>
+<tr>
+<td>Main conference</td>
+<td>Monday – Wednesday</td>
+<td>July 6 – 8, 2020</td>
+</tr>
+<tr>
+<td>Workshops and Co-located conferences</td>
+<td>Thursday – Friday</td>
+<td>July 9 – 10, 2020</td>
+</tr>
+</tbody>
+</table>
+</center>
+<h5>All deadlines are 11.59 pm <a href="https://www.timeanddate.com/time/zone/timezone/utc-12" target="_blank">UTC -12h</a> ("anywhere on Earth").</h5>
+<h2>ACL 2020 Anti-Harassment Policy</h2>
+<p>ACL2020 adheres to the <a href="https://www.aclweb.org/adminwiki/index.php?title=Anti-Harassment_Policy">ACL Anti-Harassment Policy</a>. Any participant who experiences harassment or hostile behavior may contact any current member of the <a href="https://www.aclweb.org/portal/about">ACL Executive Committee</a> or contact <a href="mailto:acl@aclweb.org">Priscilla Rasmussen</a>, who is usually available at the registration desk of the conference. Please be assured that if you approach us, your concerns will be kept in strict confidence, and we will consult with you on any actions taken.</p>
+</section>
+</article>
+</div>
+</div>
+<div class="page__footer">
+<footer>
+<!-- start custom footer snippets -->
+<!-- end custom footer snippets -->
+<div class="page__footer-follow">
+<ul class="social-icons">
+<li><strong>Follow:</strong></li>
+<li><a href="https://twitter.com/aclmeeting" rel="nofollow noopener noreferrer"><i aria-hidden="true" class="fab fa-fw fa-twitter-square"></i> Twitter</a></li>
+<li><a href="https://github.com/acl-org/acl-2020" rel="nofollow noopener noreferrer"><i aria-hidden="true" class="fab fa-fw fa-github"></i> GitHub</a></li>
+<li><a href="/feed.xml"><i aria-hidden="true" class="fas fa-fw fa-rss-square"></i> Feed</a></li>
+</ul>
+</div>
+<div class="page__footer-copyright">© 2020 ACL. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+</footer>
+</div>
+<script src="/assets/js/main.min.js"></script>
+<script crossorigin="anonymous" defer="" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" src="https://use.fontawesome.com/releases/v5.8.2/js/all.js"></script>
+<div class="layout--single">
+<!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+<div class="masthead">
+<div class="masthead__inner-wrap">
+<div class="masthead__menu">
+
+</div>
+</div>
+</div>
+<div class="initial-content">
+<div id="main" role="main">
+<div class="sidebar sticky">
+
+</div>
+<article class="page" itemscope="" itemtype="https://schema.org/CreativeWork">
+<div class="page__inner-wrap">
+<header>
+</header>
+<section class="page__content" itemprop="text">
+<aside class="sidebar__right sticky">
+
+</aside>
+<p><sub><strong>ACL 2020</strong><br/>
+Seattle, Washington, USA<br/>
+July 5-10, 2020<br/>
+<a href="http://acl2020.org">http://acl2020.org</a></sub></p>
+<p><b>Update on April 12, 2020:</b> Authors of accepted papers can find the instructions for camera-ready <a href="/blog/camera-ready-instructions">here</a></p>
+<p><span style="font-weight: bolder;font-size: larger;">NEW DEVELOPMENTS FOR THE SECOND CFP (ACL2020)</span></p>
+<p>We have several exciting and important developments in the ACL2020 conference that we want to highlight at the top of the second call for papers:</p>
+<ol>
+<li>Reviewer and Author Profile Signup <br/></li>
+<li>Paper Templates <br/></li>
+<li>Theme <br/></li>
+<li>Dual Submission <br/></li>
+<li>Publication Date <br/></li>
+</ol>
+<p><b>1. Special Instructions for Reviewer and Author Signup: </b> <br/></p>
+<p>As our field has grown considerably over the last five years, it is important that our reviewing process scales accordingly.  For the ACL2020 conference, we are creating a new review process with a goal to better manage conflict of interest (COI) and better match submissions with appropriate reviewers.  The big picture is that authors and reviewers must create or update a Global Profile and fill out the ACL2020 Reviewer/Author Information Form.</p>
+<p><b>Global Profile: </b> please fill out this form in order to compute conflicts of interest and better match papers with appropriate reviewers.</p>
+<p><a href="https://www.softconf.com/acl2020/super/scmd.cgi?ucmd=updateProfile">https://www.softconf.com/acl2020/super/scmd.cgi?ucmd=updateProfile</a></p>
+<p><b>ACL2020 Reviewer/Author Information Form: </b>this allows us to better match papers with the best reviewers:</p>
+<p><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=9028kaqAQ0OMdrEjlJf7WV1_1tZ1K-JCmL49YyhKe89UQTczV0xMNVhZSzhaWjVaNzJIS0U2MzNXUy4u">https://forms.office.com/Pages/ResponsePage.aspx?id=9028kaqAQ0OMdrEjlJf7WV1_1tZ1K-JCmL49YyhKe89UQTczV0xMNVhZSzhaWjVaNzJIS0U2MzNXUy4u</a></p>
+<p>A blog post including more detailed instructions and commonly asked questions will be found here: <a href="https://acl2020.org/blog/author-reviewer-profile/">https://acl2020.org/blog/author-reviewer-profile/</a></p>
+<p><b>2. Paper Submission and Templates: </b>Submission is electronic, using the Softconf START conference management system.  The submission site is now available at: <a href="https://www.softconf.com/acl2020/papers/">https://www.softconf.com/acl2020/papers/</a></p>
+<p>Both long and short papers must follow the <a href="https://www.aclweb.org/adminwiki/index.php?title=ACL_Author_Guidelines">ACL Author Guidelines</a></p>
+<p>Style sheets (Latex, Word) are available here: <a href="http://acl2020.org/downloads/acl2020-templates.zip">http://acl2020.org/downloads/acl2020-templates.zip</a></p>
+<p>And the Overleaf template is also available here: <a href="https://www.overleaf.com/latex/templates/acl-2020-proceedings-template/zsrkcwjptpcd">https://www.overleaf.com/latex/templates/acl-2020-proceedings-template/zsrkcwjptpcd</a></p>
+<p><b>3. Theme: </b>As 2020 quickly approaches, we felt this was a great time to reflect on the state of the field of NLP, as well its future, with a special Theme track.  We hope you consider submitting a paper!  You can find details here: <a href="https://acl2020.org/blog/theme/">https://acl2020.org/blog/theme/</a></p>
+<p><b>4. Archival and Dual Submissions </b> an be a bit tricky.  We outline what is acceptable and what isn’t on this blog: <a href="https://acl2020.org/blog/arxiv-papers-double-submissions/">https://acl2020.org/blog/arxiv-papers-double-submissions/</a></p>
+<p><b>5. Publication Date: </b>The official publication date is <b>June 19, 2020</b>, just over two weeks before the conference begins.  On this date the proceedings are made available in the ACL Anthology, and will be indicated as such in the ACL Anthology bibliographic records.  The official publication date may affect the deadline for any patent filings related to published work. (For those rare conferences whose proceedings are published in the ACL Anthology after the conference is over, the official publication date remains the first day of the conference.)</p>
+<p><br/>
+<span style="font-weight: bolder;font-size: larger;">Call For Papers - Main Conference</span></p>
+<p>The 58th Annual Meeting of the Association for Computational Linguistics (ACL 2020) invites the submission of long and short papers on substantial, original, and unpublished research in all aspects of Computational Linguistics and Natural Language Processing. As in recent years, some of the presentations at the conference will be of papers accepted by the Transactions of the ACL (TACL) journal.  This year’s conference will for the first time also feature presentations of papers accepted by the Computational Linguistics (CL) journal.</p>
+<h2 id="dates">Important Dates</h2>
+<center>
+<table style="width: 97%">
+<tbody>
+<tr>
+<td style="width: 40%;">Completion of START Global Profile</td>
+<td style="width: 30%;">Monday</td>
+<td>December 9, 2019</td>
+</tr>
+<tr>
+<td style="width: 40%;">Completion of ACL2020 Reviewer and Chair/Author Information Form</td>
+<td style="width: 30%;">Monday</td>
+<td>December 9, 2019</td>
+</tr>
+<tr>
+<td style="width: 40%;">Submission deadline<br/>(<i>long &amp; short papers</i>)</td>
+<td style="width: 30%;">Monday</td>
+<td>December 9, 2019</td>
+</tr>
+<tr>
+<td style="width: 40%;">Paper review rebuttal period<br/></td>
+<td style="width: 30%;">Wednesday – Monday</td>
+<td>February 12 – 17, 2020</td>
+</tr>
+<tr>
+<td>Notification of acceptance<br/>(<i>long &amp; short papers</i>)</td>
+<td>Friday</td>
+<td>April 3, 2020</td>
+</tr>
+<tr>
+<td>Camera-ready papers due<br/>(<i>long &amp; short papers</i>)</td>
+<td>Friday</td>
+<td><strike>April 24</strike> May 1, 2020</td>
+</tr>
+<tr>
+<td>Proceedings publication</td>
+<td>Friday</td>
+<td>June 19, 2020</td>
+</tr>
+<tr>
+<td>Tutorials</td>
+<td>Sunday</td>
+<td>July 5, 2020</td>
+</tr>
+<tr>
+<td>Main conference</td>
+<td>Monday – Wednesday</td>
+<td>July 6 – 8, 2020</td>
+</tr>
+<tr>
+<td>Workshops and Co-located conferences</td>
+<td>Thursday – Friday</td>
+<td>July 9 – 10, 2020</td>
+</tr>
+</tbody>
+</table>
+</center>
+<h5>All deadlines are 11.59 pm <a href="https://www.timeanddate.com/time/zone/timezone/utc-12" target="_blank">UTC -12h</a> ("anywhere on Earth").</h5>
+<h2 id="acl-2020-theme-taking-stock-of-where-weve-been-and-where-were-going">ACL 2020 Theme: <em>Taking Stock of Where We’ve Been and Where We’re Going</em></h2>
+<p>The last few years have witnessed an unprecedented growth in NLP since the field began over sixty years ago.  The availability of large amounts of data and computing resources have led to new models and representations and exciting results on many NLP benchmark tasks. SOTA systems have approached human performance on several benchmark tasks.  As we embrace these new exciting results and advances, ACL 2020 is particularly interested in papers that can provide insights for the community to assess how much we have accomplished in developing a machine’s ability in understanding and generating human language and how far we are pushing the boundaries as a field given the long history of NLP research.</p>
+<p>Potential submissions of interest include (but not limited to) position papers, empirical/theoretical papers that:</p>
+<ul>
+<li>Reflect on the progress of the field or a sub-topic area from a larger spectrum and make connections and/or comparisons between the past and the present to provide a holistic view on where we stand today with respect to the past;</li>
+<li>Examine, analyze, and interpret SOTA models and results to shed light on limitations as well as key advances that may have lasting impact;</li>
+<li>Bring novel ideas for advancing the field, e.g., to enable and measure a machine’s ability in language processing beyond laboratory benchmarks;</li>
+</ul>
+<p>We anticipate to have a special session for this theme at the conference and a best Thematic Paper Award in addition to the traditional Best Paper Awards.</p>
+<h2 id="submissions">Submissions</h2>
+<p>ACL 2020 has the goal of a broad technical program. Relevant topics for the conference include, but are not limited to, the following areas (in alphabetical order):</p>
+<ul>
+<li>Cognitive Modeling and Psycholinguistics</li>
+<li>Computational Social Science and Social Media</li>
+<li>Dialogue and Interactive Systems</li>
+<li>Discourse and Pragmatics</li>
+<li>Ethics and NLP</li>
+<li>Generation</li>
+<li>Information Extraction</li>
+<li>Information Retrieval and Text Mining</li>
+<li>Interpretability and Analysis of Models for NLP</li>
+<li>Language Grounding to Vision, Robotics and Beyond</li>
+<li>Theory and Formalism in NLP (Linguistic and Mathematical)</li>
+<li>Machine Learning for NLP</li>
+<li>Machine Translation</li>
+<li>NLP Applications</li>
+<li>Phonology, Morphology and Word Segmentation</li>
+<li>Question Answering</li>
+<li>Resources and Evaluation</li>
+<li>Semantics: Lexical</li>
+<li>Semantics: Sentence Level</li>
+<li>Semantics: Textual Inference and Other Areas of Semantics</li>
+<li>Sentiment Analysis, Stylistic Analysis, and Argument Mining</li>
+<li>Speech and Multimodality</li>
+<li>Summarization</li>
+<li>Syntax: Tagging, Chunking and Parsing</li>
+<li>Theme</li>
+</ul>
+<h2 id="paper-submission-information">Paper Submission Information</h2>
+<h3 id="long-papers">Long Papers</h3>
+<p>Long paper submissions must describe substantial, original, completed and unpublished work. Wherever appropriate, concrete evaluation and analysis should be included. Review forms will be made available prior to the deadlines.</p>
+<p>Long papers may consist of up to 8 pages of content, plus unlimited references; final versions of long papers will be given one additional page of content (up to 9 pages) so that reviewers’ comments can be taken into account.</p>
+<p>Long papers will be presented orally or as posters as determined by the program committee. The decisions as to which papers will be presented orally and which as poster presentations will be based on the nature rather than the quality of the work. There will be no distinction in the proceedings between long papers presented orally and as posters.</p>
+<h3 id="short-papers">Short Papers</h3>
+<p>Short paper submissions must describe original and unpublished work. Please note that a short paper is not a shortened long paper. Instead short papers should have a point that can be made in a few pages. Some kinds of short papers are:</p>
+<ul>
+<li>A small, focused contribution</li>
+<li>A negative result</li>
+<li>An opinion piece</li>
+<li>An interesting application nugget</li>
+</ul>
+<p>Short papers may consist of up to 4 pages of content, plus unlimited references. Upon acceptance, short papers will be given 5 content pages in the proceedings. Authors are encouraged to use this additional page to address reviewers’ comments in their final versions.</p>
+<p>Short papers will be presented orally or as posters as determined by the program committee. While short papers will be distinguished from long papers in the proceedings, there will be no distinction in the proceedings between short papers presented orally and as posters.</p>
+<h3 id="important-anonymity-period">IMPORTANT: Anonymity Period</h3>
+<p>The following rules and guidelines are meant to protect the integrity of double-blind review and ensure that submissions are reviewed fairly. The rules make reference to the anonymity period, which runs from 1 month before the submission deadline (starting November 9, 2019 11:59PM UTC-12:00) up to the date when your paper is either accepted, rejected, or withdrawn (April 3, 2020).</p>
+<ul>
+<li>You may not make a non-anonymized version of your paper available online to the general community (for example, via a preprint server) during the anonymity period. By a version of a paper we understand another paper having essentially the same scientific content but possibly differing in minor details (including title and structure) and/or in length (e.g., an abstract is a version of the paper that it summarizes).</li>
+<li>If you have posted a non-anonymized version of your paper online before the start of the anonymity period, you may submit an anonymized version to the conference. The submitted version must not refer to the non-anonymized version, and you must inform the program chair(s) that a non-anonymized version exists.</li>
+<li>You may not update the non-anonymized version during the anonymity period, and we ask you not to advertise it on social media or take other actions that would further compromise double-blind reviewing during the anonymity period.</li>
+<li>Note that, while you are not prohibited from making a non-anonymous version available online before the start of the anonymity period, this does make double-blind reviewing more difficult to maintain, and we therefore encourage you to wait until the end of the anonymity period if possible. Alternatively, you may consider submitting your work to the Computational Linguistics journal, which does not require anonymization and has a track for “short” (i.e., conference-length) papers.</li>
+</ul>
+<h3 id="instructions-for-double-blind-review">Instructions for Double-Blind Review</h3>
+<p>As reviewing will be double blind, papers must not include authors’ names and affiliations. Furthermore, self-references or links (such as github) that reveal the author’s identity, e.g., “We previously showed (Smith, 1991) …” must be avoided. Instead, use citations such as “Smith previously showed (Smith, 1991) …” Papers that do not conform to these requirements will be rejected without review.</p>
+<p>Papers should not refer, for further detail, to documents that are not available to the reviewers. For example, do not omit or redact important citation information to preserve anonymity. Instead, use third person or named reference to this work, as described above (“Smith showed” rather than “we showed”).</p>
+<p>Papers may be accompanied by a resource (software and/or data) described in the paper, but these resources should be anonymized as well.</p>
+<h3 id="authorship">Authorship</h3>
+<p>The author list for submissions should include all (and only) individuals who made substantial contributions to the work presented. Each author listed on a submission to ACL 2020 will be notified of submissions, revisions and the final decision. No changes to the order or composition of authorship may be made to submissions to ACL 2020 after the paper submission deadline.</p>
+<h3 id="citation-and-comparison">Citation and Comparison</h3>
+<p>You are expected to cite all refereed publications relevant to your submission, but you may be excused for not knowing about all unpublished work (especially work that has been recently posted and/or is not widely cited).</p>
+<p>In cases where a preprint has been superseded by a refereed publication, the refereed publication should be cited instead of the preprint version.</p>
+<p>Papers (whether refereed or not) appearing less than 3 months before the submission deadline are considered contemporaneous to your submission, and you are therefore not obliged to make detailed comparisons that require additional experimentation and/or in-depth analysis.</p>
+<p>For more information, see the <a href="https://www.aclweb.org/portal/content/new-policies-submission-review-and-citation">ACL Policies for Submission, Review, and Citation</a></p>
+<h3 id="multiple-submission-policy">Multiple Submission Policy</h3>
+<p>Papers that have been or will be submitted to other meetings or publications must indicate this at submission time in the START submission form, and must be withdrawn from the other venues if accepted by ACL 2020. Authors of papers accepted for presentation at ACL 2020 must notify the program chairs by the camera-ready deadline as to whether the paper will be presented. We will not accept for publication or presentation the papers that overlap significantly in content or results with papers that will be (or have been) published elsewhere.</p>
+<p>Authors submitting more than one paper to ACL 2020 must ensure that submissions do not overlap significantly (&gt;25%) with each other in content or results.</p>
+<h3 id="paper-submission-and-templates">Paper Submission and Templates</h3>
+<p>Submission is electronic, using the Softconf START conference management system.  The submission site is now available at <a href="https://www.softconf.com/acl2020/papers/">https://www.softconf.com/acl2020/papers/</a></p>
+<p>Both long and short papers must follow the <a href="https://www.aclweb.org/adminwiki/index.php?title=ACL_Author_Guidelines">ACL Author Guidelines</a></p>
+<p>Style sheets (Latex, Word) are available here: <a href="http://acl2020.org/downloads/acl2020-templates.zip">http://acl2020.org/downloads/acl2020-templates.zip</a></p>
+<p>The Overleaf template is also available here: <a href="https://www.overleaf.com/latex/templates/acl-2020-proceedings-template/zsrkcwjptpcd">https://www.overleaf.com/latex/templates/acl-2020-proceedings-template/zsrkcwjptpcd</a></p>
+<p>Please do not modify these style files, or use templates designed for other conferences. Submissions that do not conform to the required styles, including paper size, margin width, and font size restrictions, will be rejected without review.</p>
+<h3 id="optional-supplementary-materials-appendices-software-and-data">Optional Supplementary Materials: Appendices, Software and Data</h3>
+<p>Each ACL 2020 submission can be accompanied by a single PDF appendix, one .tgz or .zip archive containing software, and one .tgz or .zip archive containing data. ACL 2020 encourages the submission of these supplementary materials to improve the reproducibility of results, and to enable authors to provide additional information that does not fit in the paper. For example, preprocessing decisions, model parameters, feature templates, lengthy proofs or derivations, pseudocode, sample system inputs/outputs, and other details that are necessary for the exact replication of the work described in the paper can be put into the appendix. However, the paper submissions need to remain fully self-contained, as these supplementary materials are completely optional, and reviewers are not even asked to review or download them. If the pseudo-code or derivations or model specifications are an important part of the contribution, or if they are important for the reviewers to assess the technical correctness of the work, they should be a part of the main paper, and not appear in the appendix. Supplementary materials need to be fully anonymized to preserve the double-blind reviewing policy.</p>
+<h2 id="presentation-requirement">Presentation Requirement</h2>
+<p>All accepted papers must be presented at the conference to appear in the proceedings. Authors of papers accepted for presentation at ACL 2020 must notify the program chairs by the camera-ready deadline if they wish to withdraw the paper.</p>
+<p>Previous presentations of the work (e.g. preprints on arXiv.org) should be indicated in a footnote in the final version of papers appearing in the ACL 2020 proceedings.  Please note that this footnote should not be in the submission version of the paper.</p>
+<p>At least one author of each accepted paper must register for ACL 2020 by the early registration deadline.</p>
+<h2 id="further-information">Further Information</h2>
+<p>The conference website will be continually updated with information on workshops, tutorials, venue, traveling, etc.</p>
+<p>Relevant blogs related to submissions:<br/></p>
+<ol>
+<li><a href="https://acl2020.org/blog/theme/">On the theme</a> <br/></li>
+<li><a href="https://acl2020.org/blog/arxiv-papers-double-submissions/">On the archive papers and double submissions</a></li>
+</ol>
+<h2 id="organizers">Organizers</h2>
+<p><b>General Chair</b><br/>
+Dan Jurafsky (Stanford University, USA)</p>
+<p><b>Program Co-Chairs</b><br/>
+Joyce Chai (University of Michigan, USA)<br/>
+Natalie Schluter (IT University, Copenhagen, Denmark)<br/>
+Joel Tetreault (Dataminr, USA)</p>
+<h2 id="contact-information">Contact Information</h2>
+<ul>
+<li>e-mail: <a href="mailto:ACL2020ProgramChairs@gmail.com">ACL2020ProgramChairs@gmail.com</a></li>
+</ul>
+</section>
+<footer class="page__meta">
+</footer>
+</div>
+</article>
+</div>
+</div>
+<div class="page__footer">
+<footer>
+<!-- start custom footer snippets -->
+<!-- end custom footer snippets -->
+<div class="page__footer-follow">
+<ul class="social-icons">
+<li><strong>Follow:</strong></li>
+<li><a href="https://twitter.com/aclmeeting" rel="nofollow noopener noreferrer"><i aria-hidden="true" class="fab fa-fw fa-twitter-square"></i> Twitter</a></li>
+<li><a href="https://github.com/acl-org/acl-2020" rel="nofollow noopener noreferrer"><i aria-hidden="true" class="fab fa-fw fa-github"></i> GitHub</a></li>
+<li><a href="/feed.xml"><i aria-hidden="true" class="fas fa-fw fa-rss-square"></i> Feed</a></li>
+</ul>
+</div>
+<div class="page__footer-copyright">© 2020 ACL. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+</footer>
+</div>
+
+
+</div><div class="layout--single">
+<!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+<div class="masthead">
+<div class="masthead__inner-wrap">
+<div class="masthead__menu">
+
+</div>
+</div>
+</div>
+<div class="initial-content">
+<div id="main" role="main">
+<div class="sidebar sticky">
+
+</div>
+<article class="page" itemscope="" itemtype="https://schema.org/CreativeWork">
+<meta content="Senior Program Committee" itemprop="headline"/>
+<meta content="ACL 2020 program committee." itemprop="description"/>
+<div class="page__inner-wrap">
+<header>
+<h1 class="page__title" id="page-title" itemprop="headline">Senior Program Committee
+</h1>
+</header>
+<section class="page__content" itemprop="text">
+<h2>Program Chairs</h2>
+<p><a href="http://www.cse.msu.edu/~jchai/">Joyce Chai</a>, University of Michigan<br/>
+<a href="https://natschluter.github.io/">Natalie Schluter</a>, IT University of Copenhagen, Denmark<br/>
+<a href="https://www.cs.rochester.edu/~tetreaul/academic.html">Joel Tetreault</a>, Dataminr, USA</p>
+<h2>Senior Area Chairs (SACs) and Area Chairs (ACs)</h2>
+<p><b>Cognitive Modeling and Psycholinguistics </b><br/>
+SAC: <a href="http://cs.bc.edu/~prudhome/">Emily Prud’hommeaux</a><br/>
+ACs: Cassandra L. Jacobs, Cecilia Ovesdotter Alm, Christos Christodoulopoulos, Masoud Rouhizadeh, Serguei Pakhomov, Yevgeni Berzak</p>
+<p><b>Computational Social Science and Social Media</b><br/>
+SACs: <a href="https://people.eng.unimelb.edu.au/tbaldwin/">Tim Baldwin</a>, <a href="http://www.nikosaletras.com/">Nikolaos Aletras</a><br/>
+ACs: A. Seza Dögruöz, Afshin Rahimi, Alice Oh, Brendan O’Connor, Daniel Preotiuc-Pietro, David Bamman, David Jurgens, David Mimno, Diana Inkpen, Diyi Yang, Eiji Aramaki, Jacob Eisenstein, Jonathan K. Kummerfeld, Kalina Bontcheva</p>
+<p><b>Dialogue and Interactive Systems</b><br/>
+SACs: <a href="https://sites.google.com/view/jasondwilliams">Jason Williams</a>, <a href="https://people.ece.uw.edu/ostendorf/">Mari Ostendorf</a><br/>
+ACs: Alborz Geramifard, Amanda Stent, Asli Celikyilmaz, Casey Kennington, David Traum, Dilek Hakkani-Tur, Gabriel Skantze, Helen Hastie, Heriberto Cuayahuitl, Kai Yu, Kallirroi Georgila, Luciana Benotti, Luis Fernando D’Haro, Nina Dethlefs, Ryuichiro Higashinaka, Stefan Ultes, Sungjin Lee, Tsung-Hsien Wen, Y-Lan Boureau, Yun-Nung Chen, Zhou Yu</p>
+<p><b>Discourse and Pragmatics</b><br/>
+SACs: <a href="mailto:annielouis@google.com">Annie Louis</a> (taking over for <a href="https://people.cs.pitt.edu/~litman/">Diane Litman</a>)<br/>
+ACs: Chloé Braud, Junyi Jessy Li, Manfred Stede, Shafiq Joty, Sujian Li, Yangfeng Ji</p>
+<p><b>Ethics and NLP</b><br/>
+SAC: <a href="https://dirkhovy.com/">Dirk Hovy</a><br/>
+ACs: Alan W Black, Emily M. Bender, Vinodkumar Prabhakaran, Yulia Tsvetkov</p>
+<p><b>Generation</b><br/>
+SACs: <a href="https://cocoxu.github.io/">Wei Xu</a>, <a href="http://rush-nlp.com/">Alexander Rush</a><br/>
+ACs: John Wieting, Laura Perez-Beltrachini, Lu Wang, Miltiadis Allamanis, Mohit Iyyer, Nanyun Peng, Sam Wiseman, Shashi Narayan, Sudha Rao, Tatsunori Hashimoto, Xiaojun Wan, Xipeng Qiu</p>
+<p><b>Information Extraction</b><br/>
+SACs: <a href="https://users.cs.northwestern.edu/~ddowney/">Doug Downey</a>, <a href="https://www.microsoft.com/en-us/research/people/hoifung/">Hoifun Poon</a><br/>
+ACs: Alan Ritter, Chandra Bhagavatula, Gerard de Melo, Kai-Wei Chang, Marius Pasca, Mo Yu, Radu Florian, Ruihong Huang, Sameer Singh, Satoshi Sekine, Snigdha Chaturvedi, Sumithra Velupillai, Timothy Miller, Vivek Srikumar, William Yang Wang, Yunyao Li</p>
+<p><b>Information Retrieval and Text Mining</b><br/>
+SACs: <a href="https://www.microsoft.com/en-us/research/people/cyl/">Chin-Yew Lin</a>, <a href="http://people.cs.georgetown.edu/~nazli/">Nazli Goharian</a><br/>
+ACs: Andrew Yates, Arman Cohan, Bing Qin, Craig Macdonald, Danai Koutra, Elad Yom-Tov, Franco Maria Nardini, Kalliopi Zervanou, Luca Soldaini, Nicola Tonellotto, Pu-Jen Cheng, Seung-won Hwang, Yangqiu Song, Yansong Feng</p>
+<p><b>Interpretability and Analysis of Models for NLP</b><br/>
+SAC: <a href="https://www.cs.bgu.ac.il/~yoavg/uni/">Yoav Goldberg</a><br/>
+ACs: Adina Williams, Afra Alishahi, Douwe Kiela, Grzegorz Chrupała, Marco Baroni, Yonatan Belinkov, Zachary C. Lipton</p>
+<p><b>Language Grounding to Vision, Robotics and Beyond</b><br/>
+SAC: <a href="https://yoavartzi.com/">Yoav Artzi</a><br/>
+ACs: Angeliki Lazaridou, Dan Goldwasser, Jason Baldridge, Jesse Thomason, Lisa Anne Hendricks, Parisa Kordjamshidi, Raffaella Bernardi, Vicente Ordonez, Yonatan Bisk</p>
+<p><b>Machine Learning for NLP</b><br/>
+SACs: <a href="https://andre-martins.github.io/">André Martins</a>, <a href="https://isabelleaugenstein.github.io/">Isabelle Augenstein</a><br/>
+ACs: Ankur Parikh, Anna Rumshisky, Bruno Martins, Caio Corro, Dani Yogatama, Daniel Beck, Dipanjan Das, Edouard Grave, Emma Strubell, Gholamreza Haffari, Ivan Titov, Joseph Le Roux, Jun Suzuki, Kevin Gimpel, Michael Auli, Ming-Wei Chang, Shay B. Cohen, Vlad Niculae, Waleed Ammar, Wilker Aziz, Yejin Choi, Zita Marinho, Zornitsa Kozareva</p>
+<p><b>Machine Translation</b><br/>
+SACs: <a href="https://www.cs.umd.edu/~marine/">Marine Carpuat</a>, <a href="http://homepages.inf.ed.ac.uk/abmayne/">Alexandra Birch</a><br/>
+ACs: Ann Clifton, Antonio Toral, Atsushi Fujita, Boxing Chen, Carolina Scarton, Chi-kiu Lo, Christian Hardmeier, Deyi Xiong, Franois Yvon, George Foster, Jiajun Zhang, Jrg Tiedemann, Maja Popovič, Marcello Federico, Marcin Junczys-Dowmunt, Marco Turchi, Marta R. Costa-jussà, Matt Post, Nadir Durrani, Qun Liu, Rico Sennrich, Taro Watanabe, Yuki Arase, Yvette Graham</p>
+<p><b>Multidisciplinary and Area Chair COI</b><br/>
+SAC: <a href="https://www.h-its.org/people/prof-dr-michael-strube/">Michael Strube</a><br/>
+ACs: Anders Søgaard, David Schlangen, Katrin Erk, Kentaro Inui, Kevin Duh, Massimo Poesio, Mausam, Pascal Denis</p>
+<p><b>NLP Applications</b><br/>
+SACs: <a href="https://www.hbku.edu.qa/en/staff/dr-preslav-nakov">Preslav Nakov</a>, <a href="https://cis.unimelb.edu.au/people/karin-verspoor">Karin Verspoor</a><br/>
+ACs: Alexander Fraser, Antonio Jimeno Yepes, Aoife Cahill, Daniel Cer, Diarmuid Ó Séaghdha, Giovanni Da San Martino, Hassan Sajjad, Kevin Cohen, Marcos Zampieri, Michel Galley, Min Zhang, Pierre Zweigenbaum, Razvan Bunescu, Sara Rosenthal, Tristan Naumann, Vincent Ng, Wei Gao, Wei Lu</p>
+<p><b>Phonology, Morphology and Word Segmentation</b><br/>
+SAC: <a href="https://www.andrew.cmu.edu/user/ko/">Kemal Oflazer</a><br/>
+ACs: Christo Kirov, David R. Mortensen, Kareem Darwish, Reut Tsarfaty, Yue Zhang, Özlem Çetinoğlu</p>
+<p><b>Question Answering</b><br/>
+SACs: <a href="http://www.mathcs.emory.edu/~eugene/">Eugene Agichtein</a>, <a href="http://disi.unitn.it/moschitti/">Alessandro Moschitti</a><br/>
+ACs: Avi Sil, Dina Demner-Fushman, Evangelos Kanoulas, Gerhard Weikum, Idan Szpektor, Jimmy Lin, Oleg Rokhlenko, Sanda Harabagiu, Wen-tau Yih, William Cohen</p>
+<p><b>Resources and Evaluation</b><br/>
+SACs: <a href="http://people.cs.georgetown.edu/nschneid/">Nathan Schneider</a>, <a href="https://bplank.github.io/">Barbara Plank</a><br/>
+ACs: Allyson Ettinger, Annemarie Friedrich, Antonios Anastasopoulos, Arianna Bisazza, Claire Bonial, Daniel Zeman, Emmanuele Chersoni, Ines Rehbein, Lonneke van der Plas, Maria Liakata, Sara Tonelli, Sarvnaz Karimi, Tim Van de Cruys, Vered Shwartz, Walid Magdy, Çağri Çöltekin</p>
+<p><b>Semantics: Lexical </b><br/>
+SACs: <a href="https://www.shutova.org/">Ekaterina Shutova</a>, <a href="https://sites.google.com/view/alinev">Aline Villavicencio</a><br/>
+ACs: Alessandro Lenci, Anna Feldman, Aurélie Herbelot, Beata Beigman Klebanov, Carlos Ramisch, Chris Biemann, Enrico Santus, Fabio Massimo Zanzotto, Helen Yannakoudakis, Ivan Vulič, Jose Camacho-Collados, Marianna Apidianaki, Paul Cook, Saif Mohammad</p>
+<p><b>Semantics: Sentence Level</b><br/>
+SAC: <a href="http://www.cs.unc.edu/~mbansal/">Mohit Bansal</a><br/>
+ACs: Andreas Vlachos, Christopher Potts, Danqi Chen, Eunsol Choi, He He, Jonathan Berant, Kevin Small, Marek Rei, Sebastian Ruder, Siva Reddy, Swabha Swayamdipta, Thomas Wolf, Veselin Stoyanov</p>
+<p><b>Semantics: Textual Inference and Other Areas of Semantics</b><br/>
+SAC: <a href="http://www.nyu.edu/projects/bowman/">Sam Bowman</a><br/>
+ACs: Anette Frank, Eduardo Blanco, Edward Grefenstette, Jacob Andreas, Jonathan May, Kenton Lee, Lasha Abzianidze, Luheng He, Mehrnoosh Sadrzadeh, Rachel Rudinger, Roy Schwartz, Valeria de Paiva</p>
+<p><b>Sentiment Analysis, Stylistic Analysis, and Argument Mining</b><br/>
+SACs: <a href="http://www.cs.columbia.edu/~smara/">Smaranda Muresan</a>, <a href="https://sites.google.com/site/swapnasomasundaran/">Swapna Somasundaran</a><br/>
+ACs: Bing Liu, Claire Cardie, Elena Musi, Iryna Gurevych, Julian Brooke, Lun-Wei Ku, Marie-Francine Moens, Minlie Huang, Paolo Rosso, Roman Klinger, Serena Villata, Soujanya Poria, Thamar Solorio, Yulan He</p>
+<p><b>Speech and Multimodality</b><br/>
+SAC: <a href="http://web.cse.ohio-state.edu/~fosler-lussier.1/">Eric Fosler-Lussier</a><br/>
+ACs: Bhuvana Ramabhadran, Florian Metze, Gerasimos Potamianos, Hamid Palangi, Martha Larson</p>
+<p><b>Summarization</b><br/>
+SAC: <a href="http://www.cs.ucf.edu/~feiliu/">Fei Liu</a><br/>
+ACs: Caiming Xiong, Giuseppe Carenini, Katja Markert, Manabu Okumura, Michael Elhadad, Ramesh Nallapati, Sebastian Gehrmann, Wenjie Li, Xiaodan Zhu, Yang Gao</p>
+<p><b>Syntax: Tagging, Chunking and Parsing</b><br/>
+SAC: <a href="https://www3.nd.edu/~dchiang/">David Chiang</a><br/>
+ACs: Carlos Gómez-Rodríguez, Emily Pitler, Liang Huang, Miguel Ballesteros, Miryam de Lhoneux, Slav Petrov, Stephan Oepen, Weiwei Sun</p>
+<p><b>Theme</b><br/>
+SAC: <a href="https://www.soe.ucsc.edu/people/maw">Marilyn Walker</a> (taking over for <a href="http://www.cs.utah.edu/~riloff/">Ellen Riloff</a>)<br/>
+ACs: Donia Scott, Johan Bos, Luke Zettlemoyer, Philipp Koehn, Raymond Mooney</p>
+<p><b>Theory and Formalism in NLP (Linguistic and Mathematical)</b><br/>
+SAC: <a href="https://www.cs.rochester.edu/u/gildea/">Daniel Gildea</a><br/>
+ACs: Alexander Koller, Laura Kallmeyer, Marco Kuhlmann</p>
+</section>
+<footer class="page__meta">
+</footer>
+</div>
+</article>
+</div>
+</div>
+<div class="page__footer">
+<footer>
+<!-- start custom footer snippets -->
+    <!-- end custom footer snippets -->
+    <div class="page__footer-follow">
+        <ul class="social-icons">
+            <li><strong>Follow:</strong></li>
+            <li><a href="https://twitter.com/aclmeeting" rel="nofollow noopener noreferrer"><i aria-hidden="true"
+                                                                                               class="fab fa-fw fa-twitter-square"></i>
+                Twitter</a></li>
+            <li><a href="https://github.com/acl-org/acl-2020" rel="nofollow noopener noreferrer"><i aria-hidden="true"
+                                                                                                    class="fab fa-fw fa-github"></i>
+                GitHub</a></li>
+            <li><a href="/feed.xml"><i aria-hidden="true" class="fas fa-fw fa-rss-square"></i> Feed</a></li>
+        </ul>
+    </div>
+    <div class="page__footer-copyright">© 2020 ACL. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a>
+        &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.
+    </div>
+</footer>
+</div>
+
+
+</div>
+<div class="layout--single">
+    <!--[if lt IE 9]>
+    <div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser.
+        Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.
+    </div>
+    <![endif]-->
+    <div class="masthead">
+        <div class="masthead__inner-wrap">
+            <div class="masthead__menu">
+
+            </div>
+        </div>
+    </div>
+    <div class="initial-content">
+        <div id="main" role="main">
+            <div class="sidebar sticky">
+
+            </div>
+            <article class="page" itemscope="" itemtype="https://schema.org/CreativeWork">
+                <meta content="List of Sponsors" itemprop="headline"/>
+                <div class="page__inner-wrap">
+                    <header>
+                        <h1 class="page__title" id="page-title" itemprop="headline">List of Sponsors
+                        </h1>
+                    </header>
+                    <section class="page__content" itemprop="text">
+                        <aside class="sidebar__right sticky">
+
+                        </aside>
+                        <p>ACL 2020 is grateful to all its sponsors, who are listed below. We simply couldn’t run the
+                            conference without the help of these generous companies. We thank them sincerely for their
+                            ongoing support of the NLP/CL community.</p>
+                        <p>This year’s sponsor list includes three initiatives. These categories are: Diversity &amp;
+                            Inclusion Champion, Diversity &amp; Inclusion Ally and Diversity and Inclusion Contributor.
+                            These sponsors donated funds specifically to facilitate participation in ACL 2020 by all
+                            researchers in our field. This extra funding is being used to subsidize attendance in
+                            various ways. Updated information will be included here soon. Please watch for further
+                            details.</p>
+                        <h2 id="diamond">Diamond</h2>
+                        <figure class="third fourth">
+                            <a href="https://www.techatbloomberg.com/nlp/" title="Bloomberg">
+                                <img alt="Bloomberg Logo" src="/assets/images/logos/Bloomberg-logo-2019.png"/>
+                            </a>
+                            <a href="https://research.google.com" title="Google">
+                                <img alt="Google Logo" src="/assets/images/logos/Google.png"/>
+                            </a>
+                            <a href="https://www.apple.com" title="Apple">
+                                <img alt="Apple Logo" src="/assets/images/logos/Apple-for-2019-ACLwebsite.jpg"/>
+                            </a>
+                            <a href="https://www.amazon.science" title="Amazon">
+                                <img alt="Amazon Logo" src="/assets/images/logos/amazon-logo.png"/>
+                            </a>
+                            <img alt="" src="/assets/images/logos/blank-logo.png"/>
+                        </figure>
+                        <h2 id="platinum">Platinum</h2>
+                        <figure class="third fourth">
+                            <a href="https://megagon.ai" title="Megagon">
+                                <img alt="Megagon Logo" src="/assets/images/logos/megagon-logo-2019.png"/>
+                            </a>
+                            <a href="https://baidu.com" title="Baidu">
+                                <img alt="Baidu Logo" src="/assets/images/logos/baidu.jpg"/>
+                            </a>
+                            <a href="https://deepmind.com" title="Deepmind">
+                                <img alt="Deepmind Logo" src="/assets/images/logos/deepmind-logo.png"/>
+                            </a>
+                            <a href="https://www.ibm.com" title="IBM">
+                                <img alt="IBM Logo" src="/assets/images/logos/IBM.jpg"/>
+                            </a>
+                            <a href="https://fb.com" title="Facebook">
+                                <img alt="Facebook Logo" src="/assets/images/logos/Facebook-AI2020.png"/>
+                            </a>
+                            <img alt="" src="/assets/images/logos/blank-logo.png"/>
+                            <img alt="" src="/assets/images/logos/blank-logo.png"/>
+                        </figure>
+                        <h2 id="gold">Gold</h2>
+                        <figure class="third fourth">
+                            <a href="https://www.grammarly.com" title="grammarly">
+                                <img alt="grammarly Logo" src="/assets/images/logos/Grammarly-Final2020.png"/>
+                            </a>
+                            <a href="https://www.bytedance.com" title="Bytedance">
+                                <img alt="Bytedance Logo" src="/assets/images/logos/bytedance-logo.png"/>
+                            </a>
+                            <a href="https://www.gresearch.co.uk" title="G-Research">
+                                <img alt="G-Research Logo" src="/assets/images/logos/g-research-logo.png"/>
+                            </a>
+                            <a href="https://www.twosigma.com" title="Two Sigma">
+                                <img alt="Two Sigma Logo" src="/assets/images/logos/twosigma-logo.jpg"/>
+                            </a>
+                            <a href="https://www.alibaba.com" title="Alibaba">
+                                <img alt="Alibaba Logo" src="/assets/images/logos/alibaba.png"/>
+                            </a>
+                            <img alt="" src="/assets/images/logos/blank-logo.png"/>
+                            <img alt="" src="/assets/images/logos/blank-logo.png"/>
+                        </figure>
+                        <h2 id="silver">Silver</h2>
+                        <figure class="third fourth">
+                            <a href="https://www.polyai.com" title="PolyAI">
+                                <img alt="PolyAI Logo" src="/assets/images/logos/polyai-logo-2019.png"/>
+                            </a>
+                            <a href="https://babelscape.com" title="babelscape">
+                                <img alt="babelscape Logo" src="/assets/images/logos/babelscape.jpg"/>
+                            </a>
+                            <a href="https://europe.naverlabs.com" title="Naver">
+                                <img alt="Naver Logo" src="/assets/images/logos/naver.jpg"/>
+                            </a>
+                            <a href="https://www.adobe.com" title="Adobe">
+                                <img alt="Adobe Logo" src="/assets/images/logos/Adobe.png"/>
+                            </a>
+                            <img alt="" src="/assets/images/logos/blank-logo.png"/>
+                            <img alt="" src="/assets/images/logos/blank-logo.png"/>
+                        </figure>
+                        <h2 id="bronze">Bronze</h2>
+                        <figure class="third fourth">
+                            <a href="https://www.isi.edu" title="ISI">
+                                <img alt="ISI Logo" src="/assets/images/logos/isi.jpg"/>
+                            </a>
+                            <img alt="" src="/assets/images/logos/blank-logo.png"/>
+                            <img alt="" src="/assets/images/logos/blank-logo.png"/>
+                        </figure>
+                        <h2 id="supporter">Supporter</h2>
+                        <figure class="fourth">
+                            <a href="https://hltcoe.jhu.edu/opportunities/research-scientists/" title="JHU">
+                                <img alt="JHU Logo" src="/assets/images/logos/jhu.jpg"/>
+                            </a>
+                        </figure>
+                        <h2 id="publisher">Publisher</h2>
+                        <figure class="fourth">
+                            <a href="http://www.cambridge.org/acl2020" title="CUP">
+                                <img alt="CUP Logo" src="/assets/images/logos/CUP-logo.png"/>
+                            </a>
+                        </figure>
+                        <h2 id="diversity--inclusion-champion">Diversity &amp; Inclusion: Champion</h2>
+                        <figure class="third fourth">
+                            <a href="https://deepmind.com" title="Deepmind">
+                                <img alt="Deepmind Logo" src="/assets/images/logos/deepmind-logo.png"/>
+                            </a>
+                            <a href="https://www.microsoft.com" title="Microsoft">
+                                <img alt="Microsoft Logo" src="/assets/images/logos/MSFT.jpg"/>
+                            </a>
+                            <img alt="" src="/assets/images/logos/blank-logo.png"/>
+                            <img alt="" src="/assets/images/logos/blank-logo.png"/>
+                        </figure>
+                        <h2 id="diversity--inclusion-in-kind">Diversity &amp; Inclusion: In-Kind</h2>
+                        <figure class="third fourth">
+                            <a href="https://www.grammarly.com" title="grammarly">
+                                <img alt="grammarly Logo" src="/assets/images/logos/Grammarly-Final2020.png"/>
+                            </a>
+                            <img alt="" src="/assets/images/logos/blank-logo.png"/>
+                            <img alt="" src="/assets/images/logos/blank-logo.png"/>
+                        </figure>
+                        <div class="text-center">
+                            <a href="/sponsors/benefits/">
+                                <button class="btn btn--large btn--inverse">Sponsorship Tiers &amp; Pricing</button>
+                            </a>
+                        </div>
+                        <p><br/></p>
+                    </section>
+                    <footer class="page__meta">
+                    </footer>
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="page__footer">
+        <footer>
+            <!-- start custom footer snippets -->
+            <!-- end custom footer snippets -->
+            <div class="page__footer-follow">
+                <ul class="social-icons">
+                    <li><strong>Follow:</strong></li>
+                    <li><a href="https://twitter.com/aclmeeting" rel="nofollow noopener noreferrer"><i
+                            aria-hidden="true" class="fab fa-fw fa-twitter-square"></i> Twitter</a></li>
+                    <li><a href="https://github.com/acl-org/acl-2020" rel="nofollow noopener noreferrer"><i
+                            aria-hidden="true" class="fab fa-fw fa-github"></i> GitHub</a></li>
+                    <li><a href="/feed.xml"><i aria-hidden="true" class="fas fa-fw fa-rss-square"></i> Feed</a></li>
+                </ul>
+            </div>
+            <div class="page__footer-copyright">© 2020 ACL. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a>
+                &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal
+                    Mistakes</a>.
+            </div>
+        </footer>
+    </div>
+
+
+</div>
+</body>
+</html>

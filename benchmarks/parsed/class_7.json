@@ -1,0 +1,866 @@
+{
+    "id": 0,
+    "content": "CSE 351 Course Website - Spring 2018",
+    "children": [
+        {
+            "id": 1,
+            "content": "CSE 351: The Hardware/Software Interface",
+            "key": 1,
+            "children": [
+                {
+                    "id": 2,
+                    "content": "Spring 2018 Course Website Return home »",
+                    "key": 1
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "content": "CSE 351 Home",
+            "key": 2,
+            "children": [
+              {
+                "id": 4,
+                "content": "Course Staff",
+                "isList": true,
+                "key": 1,
+                "children": [
+                  {
+                    "id": 5,
+                    "content": ",Name,Email,Regular Office Hours (always check schedule)",
+                    "isList": true,
+                    "key": 1
+                  },
+                  {
+                    "id": 6,
+                    "content": "Instructor,Dan Grossman,djg@cs.uw.edu (or djg7@uw.edu),Friday 9:30 - 10:30, CSE574",
+                    "isList": true,
+                    "key": 2
+                  },
+                  {
+                    "id": 7,
+                    "content": "Teaching Assistants,Natalie Andreeva,andren4@uw.edu,Wednesday 2:30 - 3:30, CSE 3rd - floor breakout,Parker DeWilde,pdewilde@uw.edu,Monday Wednesday 1:00 - 2:00, both in CSE 3rd - floor breakout,Ruta Dhaneshwar,rutad@uw.edu,Thursday 1:30 - 2:30, CSE220,Bryan Hanner,bryhan@uw.edu,Tuesday 1:00 - 2:00, CSE 3rd - floor breakout,Britt Henderson,hendeb96@uw.edu,Monday 5:00 - 6:00, CSE 3rd - floor breakout,Travis McGaha,tqmcgaha@uw.edu,Wednesday 9:30 - 10:30, CSE 3rd - floor breakout and Saturdays 12:00 - 2:00, LOW 117,Eric Mullen,eamullen@uw.edu,Tuesday 9:00 - 10:00, CSE220,Sam Wolfson,wolfson@uw.edu,Friday 2:00 - 3:00, CSE021",
+                    "isList": true,
+                    "key": 3
+                  }
+                ]
+              },
+              {
+                "id": 8,
+                "content": "Asking Questions, Getting Assistance, Giving Feedback",
+                "key": 2,
+                "children": [
+                  {
+                    "id": 9,
+                    "content": "Outside of lectures and sections, there are a few ways to ask questions or discuss course issues:",
+                    "key": 1
+                  },
+                  {
+                    "id": 10,
+                    "content": "",
+                    "isList": true,
+                    "key": 2,
+                    "children": [
+                      {
+                        "id": 11,
+                        "content": "Visit office hours! In addition, if you need extra time or need to discuss something in private, feel free to email and make an appointment.",
+                        "key": 1
+                      },
+                      {
+                        "id": 12,
+                        "content": "Post questions about course content to the class discussion board, where they benefit the whole class. If other students can answer your question, you may receive a response more quickly than you would by emailing the course staff. You need to access the board, which is a Google Group, with your UW NetID (UW Google Apps), not your CSE NetID.",
+                        "key": 2
+                      },
+                      {
+                        "id": 13,
+                        "content": "Email the course staff at cse351-staff@cs.uw.edu with any questions or issues you would prefer to discuss privately. While you can email individual course-staff members individually when that makes sense, emailing the whole staff is generally preferred to get a faster response and to let the whole staff see what issues students are having.",
+                        "key": 3
+                      },
+                      {
+                        "id": 14,
+                        "content": "Send anonymous feedback that goes only to the instructor. The instructor will address the issue and share it with others only as appropriate, but will not have a way to reply to you without addressing the whole class.",
+                        "key": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 15,
+                "content": "Mailing List",
+                "key": 3,
+                "children": [
+                  {
+                    "id": 16,
+                    "content": "All students enrolled in the class have already been subscribed to the course mailing list for their lecture section: cse351a_sp18@uw.edu . If you'd like to change your mailing list settings or if you have not been subscribed, visit the mailing list info page. Relevant announcements will be sent to the list and you are responsible for receiving them in a timely manner (within a day). The mailing list is low-traffic and is used to send out important announcements. Discussions should happen on the discussion board.",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 17,
+                "content": "Meeting Times and Locations",
+                "isList": true,
+                "key": 4,
+                "children": [
+                  {
+                    "id": 18,
+                    "content": ",Location,Times,Leaders",
+                    "isList": true,
+                    "key": 1
+                  },
+                  {
+                    "id": 19,
+                    "content": "Lecture,Kane 110,Monday Wednesday Friday 11:30am - 12:20pm,Dan",
+                    "isList": true,
+                    "key": 2
+                  },
+                  {
+                    "id": 20,
+                    "content": "Section AA & AE,Mary Gates 287,Th 8:30am-9:20am,Natalie, Britt",
+                    "isList": true,
+                    "key": 3
+                  },
+                  {
+                    "id": 21,
+                    "content": "Section AB & AF,Savery 136,Th 9:30am-10:20am,Natalie, Eric",
+                    "isList": true,
+                    "key": 4
+                  },
+                  {
+                    "id": 22,
+                    "content": "Section AC & AG,Mary Gates 231,Th 10:30am-11:20am,Parker, Travis",
+                    "isList": true,
+                    "key": 5
+                  },
+                  {
+                    "id": 23,
+                    "content": "Section AD & AH,Mechanical Engineering 103,Th 12:30pm-1:20pm,Ruta, Sam",
+                    "isList": true,
+                    "key": 6
+                  },
+                  {
+                    "id": 24,
+                    "content": "Section AI,Mary Gates 234,Th 11:30am-12:20pm,Bryan, Britt",
+                    "isList": true,
+                    "key": 7
+                  }
+                ]
+              },
+              {
+                "id": 25,
+                "content": "Course Materials",
+                "key": 5,
+                "children": [
+                  {
+                    "id": 26,
+                    "content": "We will assign reading and homework problems from the required textbook, Bryant and O'Hallaron, Computer Systems: A Programmer's Perspective, 3rd edition. See also the errata.",
+                    "key": 1
+                  },
+                  {
+                    "id": 27,
+                    "content": "Additionally, you may find a good C programming language reference quite useful. Examples are Kernighan and Ritchie, The C Programming Language, 2nd edition and Harbison and Steele, C: A Reference Manual, 5th edition. (Your instructor prefers Harbison and Steele.)",
+                    "key": 2
+                  },
+                  {
+                    "id": 28,
+                    "content": "A number of videos on the course content are available thanks to Luis Ceze and Gaetano Borriello, and TAs Katelin Bailey and Rachel Sobel, who ran an online version of this course. Viewing these videos is generally optional. They may be useful for reviewing lecture content or use of important tools for lab. We may occasionally assign some videos to supplement topics that we cover only briefly in lecture.",
+                    "key": 3
+                  }
+                ]
+              }
+            ]
+        },
+      {
+        "id": 29,
+        "content": "CSE 351: The Hardware/Software Interface",
+        "key": 3,
+        "children": [
+          {
+            "id": 30,
+            "content": "Spring 2018 Course Website Return home »",
+            "key": 1
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "content": "Course Policies",
+        "key": 4,
+        "children": [
+          {
+            "id": 32,
+            "content": "Workload",
+            "key": 1,
+            "children": [
+              {
+                "id": 33,
+                "content": "The course consists of the following elements:",
+                "key": 1
+              },
+              {
+                "id": 34,
+                "content": "",
+                "isList": true,
+                "key": 2,
+                "children": [
+                  {
+                    "id": 35,
+                    "content": "Lectures:",
+                    "key": 1,
+                    "children": [
+                      {
+                        "id": 36,
+                        "content": "Attendance and participation is expected.",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 37,
+                    "content": "Online Assignments (Homework):",
+                    "key": 2,
+                    "children": [
+                      {
+                        "id": 38,
+                        "content": "There are 5 homework assignments, due roughly every other week, that will be mostly problems from the text. Homework is done online via Canvas. Students may receive slightly different problems on homework.",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 39,
+                    "content": "Programming Assignments (Labs):",
+                    "key": 3,
+                    "children": [
+                      {
+                        "id": 40,
+                        "content": "There are 6 total labs, due roughly every other week. All the undergraduate lab machines (and the VM) will have access to the necessary tools. We will use these assignments to reinforce key concepts and will strive to have them be as practical as possible.",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 41,
+                    "content": "Reading:",
+                    "key": 4,
+                    "children": [
+                      {
+                        "id": 42,
+                        "content": "We will assign readings from the the course textbook that correspond to lecture topics.",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 43,
+                    "content": "Exams:",
+                    "key": 5,
+                    "children": [
+                      {
+                        "id": 44,
+                        "content": "There will be a midterm and a final — see the Exams Page for more information.",
+                        "key": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 45,
+                "content": "We will try to ensure that the workload is typical for a four-credit course, namely, nine to twelve hours per week outside of the lectures. If we do not succeed, please let us know in whichever way you feel the most comfortable (person-to-person, e-mail, anonymous feedback) and explain which parts of the course are causing you to spend too much time non-productively.",
+                "key": 3
+              },
+              {
+                "id": 46,
+                "content": "We have structured the course so that spending a few hours per day will maximize your efficiency. You will work this way in the real world — you cannot cram a three-month design assignment into the last night — so you may as well work this way now. Plus, you will understand the material better. If you leave the homework for the day before it is due you will not have time to ask questions when the software misbehaves.",
+                "key": 4
+              }
+            ]
+          },
+          {
+            "id": 47,
+            "content": "Inclusiveness",
+            "key": 2,
+            "children": [
+              {
+                "id": 48,
+                "content": "You should expect and demand to be treated by your classmates and the course staff with respect. You belong here, and we are here to help you learn and enjoy a challenging course. If any incident occurs that challenges this commitment to a supportive and inclusive environment, please let the instructor know so the issue can be addressed.",
+                "key": 1
+              }
+            ]
+          },
+          {
+            "id": 49,
+            "content": "Grading",
+            "key": 3,
+            "children": [
+              {
+                "id": 50,
+                "content": "We will compute your course grade as follows:*",
+                "key": 1
+              },
+              {
+                "id": 51,
+                "content": "",
+                "isList": true,
+                "key": 2,
+                "children": [
+                  {
+                    "id": 52,
+                    "content": "20%:",
+                    "key": 1,
+                    "children": [
+                      {
+                        "id": 53,
+                        "content": "written assignments",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 54,
+                    "content": "30%:",
+                    "key": 2,
+                    "children": [
+                      {
+                        "id": 55,
+                        "content": "programming assignments",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 56,
+                    "content": "20%:",
+                    "key": 3,
+                    "children": [
+                      {
+                        "id": 57,
+                        "content": "midterm",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 58,
+                    "content": "30%:",
+                    "key": 4,
+                    "children": [
+                      {
+                        "id": 59,
+                        "content": "final",
+                        "key": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 60,
+                "content": "We will keep track of any extra credit items you attempt on labs and homeworks. You won't see these affecting your grades for individual homeworks and labs, but they will be accumulated over the course and will be used to bump up borderline grades at the end of the quarter.",
+                "key": 3
+              },
+              {
+                "id": 61,
+                "content": "The bottom line is that these will only have a small effect on your overall grade (possibly none if you are not on a borderline) and you want to be sure you have completed the non-extra credit portions of the lab/homework in perfect form before attempting any extra credit. They are meant to be fun extensions to the assignments, so if you complete some extra credit it *may* positively impact your overall grade.",
+                "key": 4
+              },
+              {
+                "id": 62,
+                "content": "*We do not expect to deviate from this, but reserve the right to make small changes, such as an additional piece of work that contributes slightly toward your grade.",
+                "key": 5
+              }
+            ]
+          },
+          {
+            "id": 63,
+            "content": "Assignment Policies",
+            "key": 4,
+            "children": [
+              {
+                "id": 64,
+                "content": "",
+                "isList": true,
+                "key": 1,
+                "children": [
+                  {
+                    "id": 65,
+                    "content": "All assignments are due before 11:59pm (and zero seconds) on the date specified. This means that if your clock reads 11:59, then your assignment is late! In addition, online submission can be fickle, so we highly recommend making partial submissions as you go and not waiting until the last (literal) minute to submit.",
+                    "key": 1
+                  },
+                  {
+                    "id": 66,
+                    "content": "Written assignments (homework):",
+                    "key": 2,
+                    "children": [
+                      {
+                        "id": 67,
+                        "content": "are autograded via Canvas and late submissions are NOT allowed. You are allowed 20 attempts for each quiz and you will receive credit for every question that you answer correctly. As long as you make a submission before the deadline, you will be able to review the homework questions and your responses at any time.",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 68,
+                    "content": "Programming assignments (labs):",
+                    "key": 3,
+                    "children": [
+                      {
+                        "id": 69,
+                        "content": "are submitted by uploading files to Canvas assignments.Late lab submissions are subject to the late day policy described below. Labs are graded by a combination of grading scripts and TAs.",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 70,
+                    "content": "Exams:",
+                    "key": 4,
+                    "children": [
+                      {
+                        "id": 71,
+                        "content": "are on the course calendar and graded by the course staff.",
+                        "key": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 72,
+                "content": "Late-Day Policy (for Labs only):",
+                "isList": true,
+                "key": 2,
+                "children": [
+                  {
+                    "id": 73,
+                    "content": "You are allocated a total of 4 late days for the entirety of the quarter to utilize should the need arise.",
+                    "key": 1
+                  },
+                  {
+                    "id": 74,
+                    "content": "You are not allowed to use more than 2 late days for any given lab.",
+                    "key": 2
+                  },
+                  {
+                    "id": 75,
+                    "content": "An exception is made for weekends, which count as a single late day. That is, if an assignment is due at 11:59pm on Friday, submitting before Sunday at 11:59pm counts as only one day late (submitting by 11:59pm Monday would count as TWO days late).",
+                    "key": 3
+                  },
+                  {
+                    "id": 76,
+                    "content": "If you exceed the late days afforded to you, you will lose 20% of the assignment score for each day an assignment is overdue. Note that all assignment submissions close at most 4 days after the due date.",
+                    "key": 4
+                  },
+                  {
+                    "id": 77,
+                    "content": "There is no bonus for having leftover late days at the end of the quarter.",
+                    "key": 5
+                  }
+                ]
+              },
+              {
+                "id": 78,
+                "content": "Collaboration and Cheating:",
+                "key": 3,
+                "children": [
+                  {
+                    "id": 79,
+                    "content": "In general, we encourage collaboration, but there is a line between collaboration and cheating. We can learn a lot from working with each other and it can make the course more fun, but we also want to ensure that every student can get the maximum benefit from the material this course has to offer and earn a fair grade. Keep in mind that the overall goal is for YOU to learn the material so you will be prepared for the exams and for job interviews, etc. in the future. Cheating turns the assignments into an exercise that is a silly waste of both your time and ours; save us both by not doing it.",
+                    "key": 1
+                  },
+                  {
+                    "id": 80,
+                    "content": "Permitted collaboration:",
+                    "key": 2,
+                    "children": [
+                      {
+                        "id": 81,
+                        "content": "",
+                        "isList": true,
+                        "key": 1,
+                        "children": [
+                          {
+                            "id": 82,
+                            "content": "Homework:",
+                            "key": 1,
+                            "children": [
+                              {
+                                "id": 83,
+                                "content": "Collaboration and discussion is encouraged (find a homework group!), but you are responsible for understanding the solutions on your own, as the problems are meant to be preparation for the exams.",
+                                "key": 1
+                              }
+                            ]
+                          },
+                          {
+                            "id": 84,
+                            "content": "Labs:",
+                            "key": 2,
+                            "children": [
+                              {
+                                "id": 85,
+                                "content": "Collaboration should be restricted to high-level discussion (i.e. ideas only). A good rule of thumb is that you should never show your own code while helping another student (viewing their code is highly discouraged, as it often leads to problematic situations).",
+                                "key": 1
+                              }
+                            ]
+                          },
+                          {
+                            "id": 86,
+                            "content": "Exams:",
+                            "key": 3,
+                            "children": [
+                              {
+                                "id": 87,
+                                "content": "Exams are taken individually and any attempt to use unpermitted materials or copy off of another student's exam will be heavily punished.",
+                                "key": 1
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": 88,
+                        "content": "Cheating consists of sharing code or solutions to assignments by either copying, retyping, looking at, or supplying a copy of a file. Examples include:",
+                        "key": 2
+                      },
+                      {
+                        "id": 89,
+                        "content": "",
+                        "isList": true,
+                        "key": 3,
+                        "children": [
+                          {
+                            "id": 90,
+                            "content": "Coaching a friend to arrive at a solution by simply following your instructions (i.e. no thinking involved). An example is helping a friend write a program line-by-line.",
+                            "key": 1
+                          },
+                          {
+                            "id": 91,
+                            "content": "Copying code from a similar course at another university or using solutions/code on the web, including GitHub.",
+                            "key": 2
+                          },
+                          {
+                            "id": 92,
+                            "content": "Communicating your solution with another student via electronic or non-electronic means.",
+                            "key": 3
+                          }
+                        ]
+                      },
+                      {
+                        "id": 93,
+                        "content": "Cheating is a very serious offense. If you are caught cheating, you can expect a failing grade and initiation of a cheating case in the University system. Cheating is an insult to the instructor and course staff, to the department and major program, and most importantly, to you and your fellow students. If you feel that you are having a problem with the material, or don't have time to finish an assignment, or have any number of other reasons to cheat, then talk with the instructor. Just don't cheat.",
+                        "key": 4
+                      },
+                      {
+                        "id": 94,
+                        "content": "If you are in doubt about what might constitute cheating, send the instructor an email describing the situation and we will be happy to clarify it for you. For more information, you may consult the department's Academic Misconduct Policy.",
+                        "key": 5
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 95,
+                "content": "Re-grade Policy:",
+                "key": 4,
+                "children": [
+                  {
+                    "id": 96,
+                    "content": "Looking over your graded work to learn from your mistakes is invaluable. It is also entirely possible for graders to make mistakes, so if we misunderstood your work, you can let us know.",
+                    "key": 1
+                  },
+                  {
+                    "id": 97,
+                    "content": "",
+                    "isList": true,
+                    "key": 2,
+                    "children": [
+                      {
+                        "id": 98,
+                        "content": "When you request a regrade, we may look at the entire problem/lab/question/etc. Therefore, while it is possible for your grade to go up or down, though up is more likely.",
+                        "key": 1
+                      },
+                      {
+                        "id": 99,
+                        "content": "Labs:",
+                        "key": 2,
+                        "children": [
+                          {
+                            "id": 100,
+                            "content": "Send an email to the grader (find who commented on your assignment submission) and CC the instructor. Include a written summary describing why your work should be looked at again. Regrade requests should be submitted within a week of when the lab was graded.",
+                            "key": 1
+                          }
+                        ]
+                      },
+                      {
+                        "id": 101,
+                        "content": "Exams:",
+                        "key": 3,
+                        "children": [
+                          {
+                            "id": 102,
+                            "content": "We will use Gradescope to grade exams and manage regrade requests. Via Gradescope, you should submit any requests separately for each problem.",
+                            "key": 1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 103,
+        "content": "CSE 351: The Hardware/Software Interface",
+        "key": 5,
+        "children": [
+          {
+            "id": 104,
+            "content": "Spring 2018 Course Website Return home »",
+            "key": 1
+          }
+        ]
+      },
+      {
+        "id": 105,
+        "content": "Goals and Syllabus",
+        "key": 6,
+        "children": [
+          {
+            "id": 106,
+            "content": "Course Description",
+            "key": 1,
+            "children": [
+              {
+                "id": 107,
+                "content": "From the course catalog:",
+                "key": 1,
+                "children": [
+                  {
+                    "id": 108,
+                    "content": "CSE 351: The Hardware/Software Interface (4) - Examines key computational abstraction levels below modern high-level languages; number representation, assembly language, introduction to C, memory management, the operating-system process model, high-level machine architecture including the memory hierarchy, and how high-level languages are implemented. Prerequisite: CSE 143.",
+                    "key": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 109,
+            "content": "Course Goals",
+            "key": 2,
+            "children": [
+              {
+                "id": 110,
+                "content": "This course should develop students’ sense of “what really happens” when software runs — and that this question can be answered at several levels of abstraction, including the hardware architecture level, the assembly level, the C programming level, and the Java programming level. The core around which the course is built is C, assembly, and low-level data representation, but this is connected to higher levels (roughly how basic Java could be implemented), lower levels (the general structure of a processor), and the role of the operating system (but not how the operating system is implemented).",
+                "key": 1
+              },
+              {
+                "id": 111,
+                "content": "For (computer science) students wanting to specialize at higher levels of abstraction, this could in the extreme be the only course they take that considers the “C level” and below. However, most students will take a subset of Systems Programming (CSE333), Operating Systems (CSE451), Compilers (CSE401), Computer Networks (CSE461), etc.",
+                "key": 2
+              },
+              {
+                "id": 112,
+                "content": "For students interested in hardware, embedded systems, computer engineering, computer architecture, etc., this course is an introductory course along with the hardware courses Digital Design (CSE369) and Digital Circuits (EE371). More advanced courses of particular interest are Software for Embedded Systems, Computer Architecture I (CSE469), and Computer Architecture II CSE470, etc.",
+                "key": 3
+              }
+            ]
+          },
+          {
+            "id": 113,
+            "content": "Course Themes",
+            "key": 3,
+            "children": [
+              {
+                "id": 114,
+                "content": "The course has three principal themes:",
+                "key": 1
+              },
+              {
+                "id": 115,
+                "content": "",
+                "isList": true,
+                "key": 2,
+                "children": [
+                  {
+                    "id": 116,
+                    "content": "Representation :",
+                    "key": 1,
+                    "children": [
+                      {
+                        "id": 117,
+                        "content": "how different data types (from simple integers to arrays of data structures) are represented in memory, how instructions are encoded, and how memory addresses (pointers) are generated and used to create complex structures",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 118,
+                    "content": "Translation :",
+                    "key": 2,
+                    "children": [
+                      {
+                        "id": 119,
+                        "content": "how high-level languages are translated into the basic instructions executed hardware with a particular focus on C and Java",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 120,
+                    "content": "Control flow :",
+                    "key": 3,
+                    "children": [
+                      {
+                        "id": 121,
+                        "content": "how computers organize the order of their computations, keep track of where they are in large programs, and provide the illusion of multiple processes executing simultaneously",
+                        "key": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 122,
+            "content": "Course Objectives",
+            "key": 4,
+            "children": [
+              {
+                "id": 123,
+                "content": "At the end of this course, students should:",
+                "isList": true,
+                "key": 1,
+                "children": [
+                  {
+                    "id": 124,
+                    "content": "Understand the multi-step process by which a high-level program becomes a stream of instructions executed by a processor",
+                    "key": 1
+                  },
+                  {
+                    "id": 125,
+                    "content": "Know what a pointer is and how to use it in manipulating complex data structures",
+                    "key": 2
+                  },
+                  {
+                    "id": 126,
+                    "content": "Be facile enough with assembly programming (x86-64) to write simple pieces of code and understand how it maps to high-level languages (and vice-versa)",
+                    "key": 3
+                  },
+                  {
+                    "id": 127,
+                    "content": "Understand the basic organization and parameters of memory hierarchy and its importance for system performance",
+                    "key": 4
+                  },
+                  {
+                    "id": 128,
+                    "content": "Be able to explain the role of an operating system",
+                    "key": 5
+                  },
+                  {
+                    "id": 129,
+                    "content": "Know how Java fundamentally differs from C",
+                    "key": 6
+                  },
+                  {
+                    "id": 130,
+                    "content": "Be more effective programmers (more efficient at finding bugs, improved intuition about system performance)",
+                    "key": 7
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 131,
+            "content": "Course Topics",
+            "key": 5,
+            "children": [
+              {
+                "id": 132,
+                "content": "Approximate list of topics:",
+                "key": 1,
+                "children": [
+                  {
+                    "id": 133,
+                    "content": "",
+                    "isList": true,
+                    "key": 1,
+                    "children": [
+                      {
+                        "id": 134,
+                        "content": "Memory and data representation",
+                        "key": 1
+                      },
+                      {
+                        "id": 135,
+                        "content": "Number representation for integers and floats",
+                        "key": 2
+                      },
+                      {
+                        "id": 136,
+                        "content": "Machine code and the C programming language",
+                        "key": 3
+                      },
+                      {
+                        "id": 137,
+                        "content": "x86-64 assembly language",
+                        "key": 4
+                      },
+                      {
+                        "id": 138,
+                        "content": "Procedures and stacks",
+                        "key": 5
+                      },
+                      {
+                        "id": 139,
+                        "content": "Arrays and other data structures",
+                        "key": 6
+                      },
+                      {
+                        "id": 140,
+                        "content": "Memory and caches",
+                        "key": 7
+                      },
+                      {
+                        "id": 141,
+                        "content": "Operating system process model",
+                        "key": 8
+                      },
+                      {
+                        "id": 142,
+                        "content": "Virtual memory",
+                        "key": 9
+                      },
+                      {
+                        "id": 143,
+                        "content": "Memory allocation",
+                        "key": 10
+                      },
+                      {
+                        "id": 144,
+                        "content": "Implementation of high-level languages (e.g., Java)",
+                        "key": 11
+                      }
+                    ]
+                  },
+                  {
+                    "id": 145,
+                    "content": "Note that even more important than the topics at various levels of abstraction is the connection between them: students should get an informal sense of how Java could be translated to C, C to assembly, and assembly to binary.",
+                    "key": 2
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

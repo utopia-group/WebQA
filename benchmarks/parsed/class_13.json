@@ -1,0 +1,266 @@
+{
+    "id": 0,
+    "content": "ECS 240, Winter 2017",
+    "children": [
+        {
+            "id": 1,
+            "content": "Time",
+            "isList": true,
+            "key": 1,
+            "children": [
+                {
+                    "id": 2,
+                    "content": "",
+                    "isList": true,
+                    "key": 1,
+                    "children": [
+                        {
+                            "id": 3,
+                            "content": "Home",
+                            "key": 1
+                        },
+                        {
+                            "id": 4,
+                            "content": "Lectures",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "content": "",
+                    "key": 2,
+                    "children": [
+                        {
+                            "id": 6,
+                            "content": "ECS 240, Winter 2017",
+                            "key": 1,
+                            "children": [
+                                {
+                                    "id": 7,
+                                    "content": "Formal Semantics of Programming Languages",
+                                    "isList": true,
+                                    "key": 1,
+                                    "children": [
+                                        {
+                                            "id": 8,
+                                            "content": "01/10/2017: welcome to ECS 240!",
+                                            "key": 1
+                                        },
+                                        {
+                                            "id": 9,
+                                            "content": "Tuesday Thursday 4:40 - 6:00PM",
+                                            "isList": true,
+                                            "key": 2
+                                        },
+                                        {
+                                            "id": 10,
+                                            "content": "Location",
+                                            "key": 3,
+                                            "children": [
+                                                {
+                                                    "id": 11,
+                                                    "content": "118 Olson",
+                                                    "isList": true,
+                                                    "key": 1
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 12,
+                                            "content": "Instructor",
+                                            "key": 4,
+                                            "children": [
+                                                {
+                                                    "id": 13,
+                                                    "content": "Zhendong Su, 3011 Kemper Hall, OH: Th 1-2PM",
+                                                    "isList": true,
+                                                    "key": 1
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 14,
+                                            "content": "TA",
+                                            "key": 5,
+                                            "children": [
+                                                {
+                                                    "id": 15,
+                                                    "content": "Nima Johari (johari AT ucdavis DOT edu), OH: Tu 11-12:30PM (3106 Kemper), W 11-noon (3106 Kemper), F 1-2:30PM (53 Kemper)",
+                                                    "isList": true,
+                                                    "key": 1
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 16,
+                            "content": "Course Description",
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 17,
+                                    "content": "The goal of this course is to introduce students to fundamental ideas behind the design and analysis of modern programming languages. In the first part, we focus on the study of different approaches for specifying the semantics of programming languages. We will study operational semantics for specifying how programs compute and axiomatic semantics for verifying programs. We will apply these techniques to imperative, functional and object-oriented languages. A good reference for this part of the course is Glynn Winskel's book on The Formal Semantics of Programming Languages.",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 18,
+                                    "content": "In the second part, we focus on the basic techniques used in the study of type systems for programming languages. We will start with the simply typed lambda calculus and then move on to more advanced features such as types for imperative features and exceptions, parametric polymorphism, existential types for use in abstraction and module systems, and dependent types. Good references for this part of the course are Benjamin Pierce's Types and Programming Languages (more accessible) and John Mitchell's Foundations for Programming Languages.",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 19,
+                                    "content": "We will also cover additional special topics drawn from recent research in abstract interpretation, program analysis and verification, and novel applications of ideas from language semantics to system reliability and security. In addition to the topics covered in the lectures, students will have the opportunity to consider other related topics of interest in the form of a course project, most often in the form of a survey of recent research on a topic of interest.",
+                                    "key": 3
+                                },
+                                {
+                                    "id": 20,
+                                    "content": "Prerequisites",
+                                    "key": 4,
+                                    "children": [
+                                        {
+                                            "id": 21,
+                                            "content": "The prerequisites for this course are programming and mathematical experience. The ideal programming experience is practical exposure to several different programming languages, such as C, ML, Prolog and Java (eg, ECS 140A). The ideal mathematical experience is knowledge of mathematical logic and ability to construct rigorous proofs (in particular by structural induction). None of these prerequisites are strictly necessary, and your desire to be exposed to this material is very important.",
+                                            "key": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 22,
+                                    "content": "Textbook",
+                                    "key": 5,
+                                    "children": [
+                                        {
+                                            "id": 23,
+                                            "content": "The lectures will be supplemented with selected classical and recent research papers. We do not have any required textbook for the course. The following books are useful references:",
+                                            "key": 1
+                                        },
+                                        {
+                                            "id": 24,
+                                            "content": "",
+                                            "isList": true,
+                                            "key": 2,
+                                            "children": [
+                                                {
+                                                    "id": 25,
+                                                    "content": "Glynn Winskel, The Formal Semantics of Programming Languages: An Introduction, MIT Pres, 1993.",
+                                                    "key": 1
+                                                },
+                                                {
+                                                    "id": 26,
+                                                    "content": "John C. Mitchell, Foundations for Programming Languages, MIT Press, 1996.",
+                                                    "key": 2
+                                                },
+                                                {
+                                                    "id": 27,
+                                                    "content": "Benjamin Pierce, Types and Programming Languages, MIT Press, 2002.",
+                                                    "key": 3
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 28,
+                                            "content": "Useful:",
+                                            "key": 3,
+                                            "children": [
+                                                {
+                                                    "id": 29,
+                                                    "content": "Programming language theory texts online.",
+                                                    "key": 1
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 30,
+                                    "content": "Homework Assignments",
+                                    "key": 6,
+                                    "children": [
+                                        {
+                                            "id": 31,
+                                            "content": "There will be three to four homework assignments, mostly mathematical in nature.",
+                                            "key": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 32,
+                                    "content": "Exam",
+                                    "key": 7,
+                                    "children": [
+                                        {
+                                            "id": 33,
+                                            "content": "There will be a take-home final toward the end of the quarter (most likely during the last week of classes) to evaluate each student's understanding of the course material. More details to be announced later in the course.",
+                                            "key": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 34,
+                                    "content": "Project",
+                                    "key": 8,
+                                    "children": [
+                                        {
+                                            "id": 35,
+                                            "content": "A major component of this course is a class project. All students are expected to select and complete a course project (more information later). Ideally, the project is original research related in a broad sense to programming semantics or logic. I will suggest some potential topics later in the course.",
+                                            "key": 1
+                                        },
+                                        {
+                                            "id": 36,
+                                            "content": "You must select a project and write a one or two pages proposal describing why what you propose to do is interesting and giving a work schedule. You will also write a final report describing your project and prepare a 15-20 minute presentation at the end of the course. The due dates for the project proposal, final report, and project presentation will be announced later.",
+                                            "key": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 37,
+                                    "content": "Grading (tentative)",
+                                    "key": 9,
+                                    "children": [
+                                        {
+                                            "id": 38,
+                                            "content": "",
+                                            "isList": true,
+                                            "key": 1,
+                                            "children": [
+                                                {
+                                                    "id": 39,
+                                                    "content": "research project (~40%)",
+                                                    "key": 1
+                                                },
+                                                {
+                                                    "id": 40,
+                                                    "content": "homework (~30%)",
+                                                    "key": 2
+                                                },
+                                                {
+                                                    "id": 41,
+                                                    "content": "take-home final (~20%)",
+                                                    "key": 3
+                                                },
+                                                {
+                                                    "id": 42,
+                                                    "content": "class participation (~10%)",
+                                                    "key": 4
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 43,
+                                            "content": "Valid HTML 4.01!",
+                                            "key": 2
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

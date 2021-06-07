@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Designed by Aryan Naraghi (aryan@cs) during September
+     2011. Members of the Department of Computer Science & Engineering
+     at the University of Washington may freely reuse the design of
+     this website provided that credit to the original author is
+     retained.
+-->
+<head>
+<meta charset="utf-8"/>
+<meta content="Course website for the Spring 2018 offering of CSE 351 at the University of Washington. CSE 351 examines key computational abstraction levels below modern high-level languages; number representation, assembly language, introduction to C, memory management, the operating-system process model, high-level machine architecture including the memory hierarchy, and how high-level languages are implemented." name="description"/>
+<title>CSE 351 Course Website - Spring 2018</title>
+<link href="include/style.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="include/print.css" media="print" rel="stylesheet" type="text/css"/>
+<script>
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-25912195-1']);
+    _gaq.push(['_trackPageview']);
+    
+    (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })();
+  </script>
+</head>
+<body>
+<header>
+<a href="index.html">
+<hgroup>
+<h1>CSE 351: The Hardware/Software Interface</h1>
+<h2>Spring 2018 Course Website <span>Return home »</span></h2>
+</hgroup>
+</a>
+</header>
+<nav>
+<p><a href="index.html">Home</a></p>
+<p><a href="schedule.html">Schedule</a></p>
+<ul>
+<li><ul>
+<li><a href="goals-and-syllabus.html">Goals and Syllabus</a></li>
+<li><a href="policies.html">Course Policies</a></li>
+</ul></li>
+<!--          <li><a href="announcements.html">Announcements</a></li> -->
+<li><span>Labs</span>
+<ul>
+<!--          <li><i>Coming Soon</i></li> -->
+<li><a href="lab-0.html">Lab 0</a></li>
+<li><a href="lab-1.html">Lab 1</a></li>
+<li><a href="lab-2.html">Lab 2</a></li>
+<li><a href="lab-3.html">Lab 3</a></li>
+<li><a href="lab-4.html">Lab 4</a></li>
+<li><a href="lab-5.html">Lab 5</a></li>
+</ul>
+</li>
+<li><span>Homeworks</span>
+<ul>
+<li><a href="homework-1.html">Homework 1</a></li>
+<li><a href="homework-2.html">Homework 2</a></li>
+<li><a href="homework-3.html">Homework 3</a></li>
+<li><a href="homework-4.html">Homework 4</a></li>
+<li><a href="homework-5.html">Homework 5</a></li>
+<li> </li>
+<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdAGWEW4D_yfr5ni2f1hgG3UMWCTwPgpynjEvLVvncoAs_uPQ/viewform?usp=sf_link">Start-of-Course Survey</a></li>
+</ul>
+</li>
+<li><span>Tools and Such</span>
+<ul>
+<li><a href="https://groups.google.com/a/cs.washington.edu/d/forum/cse351-18sp-discussion">Discussion Board</a></li>
+<li><a href="https://canvas.uw.edu/courses/1130851/assignments">Assignment Turn-In</a></li>
+<li><a href="https://canvas.uw.edu/courses/1130851/grades">Grades</a></li>
+<li><a href="https://feedback.cs.washington.edu">Anonymous Feedback</a></li>
+</ul>
+</li>
+<li><span>Resources</span>
+<ul>
+<li><a href="https://www.cs.washington.edu/lab/software/linuxhomevm">VM Information</a></li>
+<li><a href="linux-instructions.html">Linux tips for CSE351</a></li>
+<li><a href="gdb.html">Using GDB to debug C</a></li>
+<li><a href="http://courses.cs.washington.edu/courses/cse391/">CSE391 Web</a></li>
+<li> </li>
+<li><a href="exams.html">Exams</a></li>
+<li> </li>
+<li><a href="videos.html">Videos</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+<div id="content">
+<h1>CSE 351 Home</h1>
+<h2 id="staff">Course Staff</h2>
+<table width="100%">
+<col width="130"/>
+<col width="50"/>
+<col width="150"/>
+<tr>
+<th colspan="2"></th>
+<th>Name</th>
+<th>Email</th>
+<th>Regular Office Hours (always check <a href="schedule.html">schedule</a>)</th>
+</tr>
+<tr>
+<td class="subheading">Instructor</td>
+<td><img src="include/staff-pics/djg.jpg"/></td>
+<td><a href="http://homes.cs.washington.edu/~djg/">Dan Grossman</a></td>
+<td>djg@cs.uw.edu (or djg7@uw.edu)</td>
+<td>Fridays 9:30-10:30, CSE574</td>
+</tr>
+<tr>
+<td class="subheading" rowspan="8">Teaching Assistants</td>
+<td><img src="include/staff-pics/natalie.png"/></td>
+<td>Natalie Andreeva</td>
+<td>andren4@uw.edu</td>
+<td>Wednesdays 2:30-3:30, CSE 3rd-floor breakout</td>
+</tr>
+<tr>
+<td><img src="include/staff-pics/pdewilde.jpg"/></td>
+<td>Parker DeWilde</td>
+<td>pdewilde@uw.edu</td>
+<td>Mondays and Wednesdays 1:00-2:00, both in CSE 3rd-floor breakout</td>
+</tr>
+<tr>
+<td><img src="include/staff-pics/rutad.jpg"/></td>
+<td>Ruta Dhaneshwar</td>
+<td>rutad@uw.edu</td>
+<td>Thursdays 1:30-2:30, CSE220</td>
+</tr>
+<tr>
+<td><img src="include/staff-pics/bryhan2.jpg"/></td>
+<td>Bryan Hanner</td>
+<td>bryhan@uw.edu</td>
+<td>Tuesdays 1:00-2:00, CSE 3rd-floor breakout</td>
+</tr>
+<tr>
+<td><img src="include/staff-pics/hendeb96.jpg"/></td>
+<td>Britt Henderson</td>
+<td>hendeb96@uw.edu</td>
+<td>Mondays 5:00-6:00, CSE 3rd-floor breakout</td>
+</tr>
+<tr>
+<td><img src="include/staff-pics/tqmcgaha2.jpg"/></td>
+<td>Travis McGaha</td>
+<td>tqmcgaha@uw.edu</td>
+<td>Wednesdays 9:30-10:30, CSE 3rd-floor breakout and
+        Saturdays 12:00-2:00, LOW 117</td>
+</tr>
+<tr>
+<td><img src="include/staff-pics/emullen2.jpg"/></td>
+<td>Eric Mullen</td>
+<td>eamullen@uw.edu</td>
+<td>Tuesdays 9:00-10:00, CSE220</td>
+</tr>
+<tr>
+<td><img src="include/staff-pics/wolfson.jpg"/></td>
+<td>Sam Wolfson</td>
+<td>wolfson@uw.edu</td>
+<td>Fridays 2:00-3:00, CSE021</td>
+</tr>
+</table>
+<h2>Asking Questions, Getting Assistance, Giving Feedback</h2>
+<p>Outside of lectures and sections, there are a few ways to ask questions or discuss course issues:</p>
+<ol>
+<li>Visit office hours!  In addition, if you need extra time or need to discuss something in private, <i>feel free to email and make an appointment</i>.</li>
+<li> Post questions about course content to
+the <a href="https://groups.google.com/a/cs.washington.edu/d/forum/cse351-18sp-discussion">class discussion board</a>, where they benefit the whole class.  If other students can
+answer your question, you may receive a response more quickly than you would by
+emailing the course staff. <strong>You need to access the board, which is a Google Group, with your UW NetID (UW Google Apps), <i>not</i> your CSE NetID</strong>.</li>
+<li>Email the course staff at <strong>cse351-staff@cs.uw.edu</strong> with any questions or issues you would prefer to discuss
+privately.  While you can email individual course-staff members individually when that makes sense, emailing the whole staff is generally preferred to get a faster response and to let the whole staff see what issues students are having.</li>
+<li>Send <a href="https://feedback.cs.washington.edu">anonymous feedback</a> that goes only to the instructor.  The instructor will address the issue and share it with others only as appropriate, but will not have a way to reply to you without addressing the whole class.</li>
+</ol>
+<h2>Mailing List</h2>
+<p>All students enrolled in the class have already been subscribed to
+the course mailing list for their lecture section:
+<strong>cse351a_sp18@uw.edu</strong>. If you'd like to
+change your mailing list settings or if you have not been subscribed,
+visit
+the 
+<a href="http://mailman1.u.washington.edu/mailman/listinfo/cse351a_sp18">mailing list info page</a>.  Relevant
+announcements will be sent to the list and you are responsible for
+receiving them in a timely manner (within a day).  The mailing list is
+low-traffic and is used to send out important
+announcements. Discussions should happen on the <a href="https://groups.google.com/a/cs.washington.edu/d/forum/cse351-18sp-discussion">discussion
+board</a>.</p>
+<h2>Meeting Times and Locations</h2>
+<table>
+<tr>
+<th></th>
+<th>Location</th>
+<th>Times</th>
+<th>Leaders</th>
+</tr>
+<tr>
+<td class="subheading">Lecture</td>
+<td><a href="http://www.washington.edu/maps/?l=KNE">Kane</a> 110</td>
+<td>MWF 11:30am-12:20pm</td>
+<td>Dan</td>
+</tr>
+<tr>
+<td class="subheading">Section AA &amp; AE</td>
+<td><a href="http://www.washington.edu/maps/?l=MGH">Mary Gates</a> 287</td>
+<td>Th 8:30am-9:20am</td>
+<td>Natalie, Britt</td>
+</tr>
+<tr>
+<td class="subheading">Section AB &amp; AF</td>
+<td><a href="http://www.washington.edu/maps/?l=SAV">Savery</a> 136</td>
+<td>Th 9:30am-10:20am</td>
+<td>Natalie, Eric</td>
+</tr>
+<tr>
+<td class="subheading">Section AC &amp; AG</td>
+<td><a href="http://www.washington.edu/maps/?l=MGH">Mary Gates</a> 231</td>
+<td>Th 10:30am-11:20am</td>
+<td>Parker, Travis</td>
+</tr>
+<tr>
+<td class="subheading">Section AD &amp; AH</td>
+<td><a href="http://www.washington.edu/maps/?l=MEB">Mechanical Engineering</a> 103</td>
+<td>Th 12:30pm-1:20pm</td>
+<td>Ruta, Sam</td>
+</tr>
+<tr>
+<td class="subheading">Section AI</td>
+<td><a href="http://www.washington.edu/maps/?l=MGH">Mary Gates</a> 234</td>
+<td>Th 11:30am-12:20pm</td>
+<td>Bryan, Britt</td>
+</tr>
+</table>
+<h2>Course Materials</h2>
+<p>We will assign reading and homework problems from the required textbook, <a href="http://csapp.cs.cmu.edu/">Bryant and O'Hallaron, Computer Systems: A
+      Programmer's Perspective, 3rd edition</a>. See also the <a href="http://csapp.cs.cmu.edu/3e/errata.html">errata</a>.</p>
+<p>Additionally, you may find a good C programming language reference quite useful.  Examples are <a href="http://uwashington.worldcat.org.offcampus.lib.washington.edu/oclc/17650642">Kernighan and Ritchie, The C Programming Language, 2nd edition</a> and <a href="http://careferencemanual.com/">Harbison and Steele, C: A Reference Manual, 5th edition</a>.  (Your instructor prefers Harbison and Steele.)
+</p>
+<p>
+A number of <a href="videos.html">videos on the course content</a> are available
+thanks to Luis Ceze and Gaetano Borriello, and TAs Katelin Bailey and Rachel
+Sobel, who ran an online version of this course.  Viewing these
+videos is generally optional.  They may be useful for reviewing lecture content
+or use of important tools for lab.  We may occasionally assign some videos to
+supplement topics that we cover only briefly in lecture.
+</p>
+</div>
+<div>
+<header>
+<a href="index.html">
+<hgroup>
+<h1>CSE 351: The Hardware/Software Interface</h1>
+<h2>Spring 2018 Course Website <span>Return home »</span></h2>
+</hgroup>
+</a>
+</header>
+
+<div id="content">
+<h1>Course Policies</h1>
+<h2>Workload</h2>
+<p>The course consists of the following elements: </p>
+<ol>
+<li><strong>Lectures:</strong> Attendance and participation is expected.</li>
+<li><strong>Online Assignments (Homework):</strong> There are 5 homework assignments, due roughly every other week, that will be mostly problems from the text. Homework is done online via Canvas. Students may receive slightly different problems on homework.</li>
+<li><strong>Programming Assignments (Labs):</strong> There are 6 total labs, due roughly every other week. All the undergraduate lab machines (and <a href="https://www.cs.washington.edu/lab/software/linuxhomevm">the VM</a>) will have access to the necessary tools. We will use these assignments to reinforce key concepts and will strive to have them be as practical as possible.
+</li>
+<li><strong>Reading:</strong> We will assign readings from the 
+    the <a href="http://csapp.cs.cmu.edu/">course textbook</a> that correspond to lecture topics.</li>
+<li><strong>Exams:</strong> There will be a midterm and a final — see the <a href="exams.html">Exams Page</a> for more information.</li>
+</ol>
+<p>We will try to ensure that the workload is typical for a
+four-credit course, namely, nine to twelve hours per week outside of
+the lectures.  If we do not succeed, please let us know in whichever
+way you feel the most comfortable (person-to-person, e-mail, anonymous
+feedback) and explain which parts of the course are causing you to
+spend too much time non-productively.</p>
+<p><em>We have structured the course so that spending a few hours per
+day will maximize your efficiency.</em> You will work this way in the
+real world — you cannot cram a three-month design assignment into
+the last night — so you may as well work this way now. Plus, you
+will understand the material better. If you leave the homework for the
+day before it is due you will not have time to ask questions when
+the software misbehaves.</p>
+<!-- <p>Your assignments must be neat and legible. We will not spend time
+trying to decipher messy work. We urge you to use the graphical and
+word processing tools that are readily available to you in all the
+labs in the department.</p> -->
+<h2>Inclusiveness</h2>
+<p> You should expect and demand to be treated by your classmates and
+the course staff with respect.  You belong here, and we are here to
+help you learn and enjoy a challenging course.  If any incident occurs
+that challenges this commitment to a supportive and inclusive
+environment, please let the instructor know so the issue can be addressed.
+</p>
+<h2>Grading</h2>
+<p>We will compute your course grade as follows:* </p>
+<ul>
+<li><strong>20%:</strong> written assignments</li>
+<li><strong>30%:</strong> programming assignments</li>
+<li><strong>20%:</strong> midterm</li>
+<li><strong>30%:</strong> final</li>
+</ul>
+<p>We will keep track of any <strong>extra credit</strong> items you attempt on labs and
+homeworks.  You won't see these affecting your grades for individual
+homeworks and labs, but they will be accumulated over the course and
+  will be used to bump up borderline grades at the end of the quarter.</p>
+<p>The bottom line is that these will only have a small effect on your
+overall grade (possibly none if you are not on a borderline) and you
+want to be sure you have completed the non-extra credit portions of
+the lab/homework in perfect form before attempting any extra credit.
+They are meant to be fun extensions to the assignments, so if you
+complete some extra credit it *may* positively impact your overall
+grade.</p>
+<p>*We do not expect to deviate from this, but reserve the right to
+make small changes, such as an additional piece of work that
+contributes slightly toward your grade.</p>
+<h2 id="assign">Assignment Policies</h2>
+<ul>
+<li> All assignments are due before <strong>11:59pm (and zero
+seconds)</strong> on the date specified. <span style="color:red;">This means that if your
+clock reads 11:59, then your assignment is late!</span> In addition, online
+submission can be fickle, so we highly recommend making partial
+submissions as you go and not waiting until the last (literal) minute
+to submit.</li>
+<li><strong>Written assignments (homework)</strong> are autograded via
+Canvas and late submissions are NOT allowed.  You are
+allowed <strong>20 attempts</strong> for each quiz and you will
+receive credit for every question that you answer correctly. As long
+as you make a submission before the deadline, you will be able to
+review the homework questions and your responses at any time.</li>
+<li><strong>Programming assignments (labs)</strong> are submitted by
+uploading files to Canvas assignments.Late lab submissions are subject
+to the <strong>late day policy</strong> described below.  Labs are
+graded by a combination of grading scripts and TAs.</li>
+<li><strong>Exams</strong> are on the course calendar and graded by the course staff.</li>
+</ul>
+<p><strong>Late-Day Policy (for Labs only):</strong></p>
+<ul>
+<li> You are allocated a total of <strong>4 late days</strong> for the
+entirety of the quarter to utilize should the need arise.</li>
+<li> You are not allowed to use more than <strong>2 late days</strong> for any given lab.</li>
+<li> An exception is made for weekends, which count as a single late day. That is, if an assignment is due at 11:59pm on Friday, submitting before Sunday at 11:59pm counts as only one day late (submitting by 11:59pm on Monday would count as TWO days late).</li>
+<li>If you exceed the late days afforded to you, you will lose 20% of the assignment score for each day an assignment is overdue. Note that all assignment submissions close at most 4 days after the due date.
+</li>
+<li> There is no bonus for having leftover late days at the end of the quarter. </li>
+</ul>
+<p><strong><em>Collaboration and Cheating:</em></strong></p>
+<p>In general, we encourage collaboration, but there is a line between collaboration and cheating. We can learn a lot from working with each other and it can make the course more fun, but we also want to ensure that every student can get the maximum benefit from the material this course has to offer and earn a fair grade.
+<strong>Keep in mind that the overall goal is for YOU to learn the material so you will be prepared for the exams and for job interviews, etc. in the future.</strong> Cheating turns the assignments into an exercise that is a silly waste of both your time and ours; save us both by not doing it.</p>
+<p>Permitted collaboration:</p>
+<ul>
+<li><strong>Homework:</strong> Collaboration and discussion is encouraged (find a homework group!), but you are responsible for understanding the solutions on your own, as the problems are meant to be preparation for the exams.</li>
+<li><strong>Labs:</strong> Collaboration should be restricted to <em>high-level</em> discussion (i.e. ideas only).
+    A good rule of thumb is that you should <em>never</em> show your own code while helping another student (viewing their code is highly discouraged, as it often leads to problematic situations).</li>
+<li><strong>Exams:</strong> Exams are taken individually and any attempt to use unpermitted materials or copy off of another student's exam will be heavily punished.</li>
+</ul>
+<p style="color:red; font-weight:bold;">Cheating consists of sharing code or solutions to assignments by either copying, retyping, looking at, or supplying a copy of a file. Examples include:</p>
+<ul>
+<li style="color:red;">Coaching a friend to arrive at a solution by simply following your instructions (i.e. no thinking involved).
+    An example is helping a friend write a program line-by-line.</li>
+<li style="color:red;">Copying code from a similar course at another university or using solutions/code on the web, including GitHub.</li>
+<li style="color:red;">Communicating your solution with another student via electronic or non-electronic means.</li>
+</ul>
+<p>Cheating is a very serious offense.
+  If you are caught cheating, you can expect a failing grade and initiation of a cheating case in the University system.
+  Cheating is an insult to the instructor and course staff, to the department and major program, and most importantly, to you and your fellow students.
+  If you feel that you are having a problem with the material, or don't have time to finish an assignment, or have any number of other reasons to cheat, then talk with the instructor.
+  Just don't cheat.</p>
+<p>If you are in doubt about what might constitute cheating, send the instructor an email describing the situation and we will be happy to clarify it for you.
+  For more information, you may consult the department's <a href="http://www.cs.washington.edu/education/AcademicMisconduct/">Academic Misconduct Policy</a>.</p>
+<p><strong>Re-grade Policy:</strong></p><p>
+</p><p> Looking over your graded work to learn from your mistakes is
+invaluable.  It is also entirely possible for graders to make
+mistakes, so if we misunderstood your work, you can let us know.
+
+</p><ul>
+<li> When you request a regrade, we may look at the entire
+problem/lab/question/etc.  Therefore, while it is possible for your
+grade to go up or down, though up is more likely.</li>
+<li> <strong>Labs:</strong> Send an email to the grader (find who
+commented on your assignment submission) and CC the instructor.
+Include a written summary describing why your work should be looked at
+again.  Regrade requests should be submitted within a week of when the
+lab was graded.</li>
+<li> <strong>Exams:</strong> We will use Gradescope to grade exams and
+manage regrade requests.  Via Gradescope, you should submit any
+requests separately for each problem.</li>
+</ul>
+</div>
+</div><div>
+<header>
+<a href="index.html">
+<hgroup>
+<h1>CSE 351: The Hardware/Software Interface</h1>
+<h2>Spring 2018 Course Website <span>Return home »</span></h2>
+</hgroup>
+</a>
+</header>
+
+<div id="content">
+<h1>Goals and Syllabus</h1>
+<h2>Course Description</h2>
+<p>From
+the <a href="http://www.washington.edu/students/crscat/cse.html#cse351">course
+catalog</a>:</p>
+<strong>CSE 351: The Hardware/Software Interface (4)
+-</strong> Examines key computational abstraction levels below modern
+high-level languages; number representation, assembly language,
+introduction to C, memory management, the operating-system process
+model, high-level machine architecture including the memory hierarchy,
+and how high-level languages are implemented. Prerequisite: CSE
+143.
+
+<h2>Course Goals</h2>
+<p>This course should develop students’ sense of “what
+  really happens” when software runs — and that this
+  question can be answered at several levels of abstraction, including
+  the hardware architecture level, the assembly level, the C
+  programming level, and the Java programming level. The core around
+  which the course is built is C, assembly, and low-level data
+  representation, but this is connected to higher levels (roughly how
+  basic Java could be implemented), 
+lower levels (the general
+  structure of a processor), and the role of the operating system (but
+  not how the operating system is implemented).</p>
+<p>For (computer science) students wanting to specialize at higher
+  levels of abstraction, this could in the extreme be the only course
+  they take that considers the “C level” and below.
+  However, most students will take a subset
+  of <a href="https://courses.cs.washington.edu/cse333/">Systems
+  Programming (CSE333)</a>,  <a href="https://courses.cs.washington.edu/cse451/">Operating
+  Systems (CSE451)</a>, <a href="https://courses.cs.washington.edu/cse401/">Compilers (CSE401)</a>, <a href="https://courses.cs.washington.edu/cse461/">Computer Networks (CSE461)</a>, 
+  etc.</p>
+<p>For students interested in hardware, embedded systems, computer
+  engineering, computer architecture, etc., this course is an
+  introductory course along with the hardware courses <a href="http://courses.cs.washington.edu/cse369/">Digital Design (CSE369)</a> and Digital Circuits (EE371).  More advanced courses of particular interest are
+<a href="https://courses.cs.washington.edu/cse466/">Software for Embedded Systems</a>, <a href="https://courses.cs.washington.edu/cse469/">Computer Architecture I (CSE469)</a>, and
+<a href="https://courses.cs.washington.edu/cse470/">Computer Architecture II CSE470</a>, etc.
+
+</p><h2>Course Themes</h2>
+
+The course has three principal themes:
+<p>
+</p><ul>
+<li><b>Representation</b>: how different data types (from simple integers to arrays of data structures) are represented in memory, how instructions are encoded, and how memory addresses (pointers) are generated and used to create complex structures</li>
+<li><b>Translation</b>: how high-level languages are translated into the basic instructions executed hardware with a particular focus on C and Java</li>
+<li><b>Control flow</b>: how computers organize the order of their computations, keep track of where they are in large programs, and provide the illusion of multiple processes executing simultaneously</li>
+</ul>
+<h2>Course Objectives</h2>
+
+At the end of this course, students should:
+<p>
+</p><ul>
+<li>Understand the multi-step process by which a high-level program becomes a stream of instructions executed by a processor</li>
+<li>Know what a pointer is and how to use it in manipulating complex data structures</li>
+<li>Be facile enough with assembly programming (x86-64) to write simple pieces of code and understand how it maps to high-level languages (and vice-versa)</li>
+<li>Understand the basic organization and parameters of memory hierarchy and its importance for system performance</li>
+<li>Be able to explain the role of an operating system</li>
+<li>Know how Java fundamentally differs from C</li>
+<!-- <li>grasp what parallelism is and why it is important at the system level; and</li>-->
+<li>Be more effective programmers (more efficient at finding bugs, improved intuition about system performance)</li>
+</ul>
+<h2>Course Topics</h2>
+
+Approximate list of topics:
+<p>
+</p><ul>
+<li>Memory and data representation</li>
+<li>Number representation for integers and floats</li>
+<li>Machine code and the C programming language</li>
+<li>x86-64 assembly language</li>
+<li>Procedures and stacks</li>
+<li>Arrays and other data structures</li>
+<li>Memory and caches</li>
+<li>Operating system process model</li>
+<li>Virtual memory</li>
+<li>Memory allocation</li>
+<li>Implementation of high-level languages (e.g., Java)</li>
+</ul>
+<p>Note that even more important than the topics at various levels of
+  abstraction is the connection between them: students should get an
+  informal sense of how Java could be translated to C, C to assembly,
+  and assembly to binary.</p>
+</div>
+</div></body>
+</html>

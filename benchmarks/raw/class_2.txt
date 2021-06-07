@@ -1,0 +1,418 @@
+<html>
+<head>
+<title> CS 313E: Elements of Software Design (Fall 2019) </title>
+</head>
+<body>
+<center>
+<h3>
+Department of Computer Sciences <br/>
+University of Texas at Austin
+</h3>
+<h4>
+CS 313E - Elements of Software Design (Fall 2019) <br/>
+Section: 50205, MWF 11:00 AM - 12:00 PM, RLP 0.130 <br/>
+Section: 50210, MWF 1:00 PM - 2:00 PM, JGB 2.216 <br/>
+</h4>
+</center>
+<p>
+<b> Instructor:</b> Dr. Shyamal Mitra <br/>
+<b> Office Hours: </b> MWF 3:00 PM - 4:00 PM <br/>
+<b> Location: </b> GDC 6.320 <br/>
+<b> E-mail: </b> mitra@cs.utexas.edu <br/>
+<b> Do not send mail on Canvas. </b>
+</p>
+<p>
+<b> Student Assistant:</b> Saad Ahmad <br/>
+<b> E-mail: </b> saad_ahmad@utexas.edu <br/>
+<b> Office Hours: </b> MW 4:00 pm - 6:00 pm <br/>
+<b> Location: </b> GDC 4.304 <br/>
+</p>
+<p>
+<b> Student Assistant:</b> Joshua Cook <br/>
+<b> E-mail: </b> joshuacook06@yahoo.com <br/>
+<b> Office Hours: </b> TTH 5:00 pm - 6:00 pm, F 4:00 pm - 6:00 pm <br/>
+<b> Location: </b> GDC 4.304 <br/>
+</p>
+<p>
+<b> Student Assistant:</b> Mahaa Noorani <br/>
+<b> E-mail: </b> mahaanoorani@gmail.com <br/>
+<b> Office Hours: </b> MW 4:00 PM - 6:00 PM <br/>
+<b> Location: </b> GDC 4.304 <br/>
+</p>
+<p>
+<b> Student Assistant:</b> Wei Sun <br/>
+<b> E-mail: </b> wsun@utexas.edu <br/>
+<b> Office Hours: </b> TTH 4:00 pm - 5:00 pm, F 4:00 pm - 6:00 pm <br/>
+<b> Location: </b> GDC 4.304 <br/>
+</p>
+<p>
+<b> Required Text: </b> Python 3 and Data Structures <br/>
+<b> Authors: </b> Bailey, Lysecky, Vahid <br/>
+<b> Publisher: </b> Zyante <br/>
+</p><ol>
+<li> Sign in or create an account at learn.zybooks.com </li>
+<li> Enter the correct zyBook code listed below </li>
+<li> Subscribe </li>
+</ol>
+<p>
+<b> Section 50205 </b> <br/>
+<b> zyBook Code: </b> UTEXASCS313E50205MitraFall2019 <br/>
+<b> ISBN: </b> 978-1-5418-7488-6 <br/>
+</p>
+<p>
+<b> Section 50210 </b> <br/>
+<b> zyBook Code: </b> UTEXASCS313E50210MitraFall2019 <br/>
+<b> ISBN: </b> 978-1-5418-7493-0 <br/>
+</p>
+<h3>Scope of the Course </h3> 
+This is the second course in the Elements of Software series. I assume
+that you know a programming language (C / Java / Python) at the level 
+taught in CS 303E. The emphasis of this course will be on software 
+development using object-oriented methodology. 
+
+<p>
+We will learn how to analyze and design software. We will learn how to 
+create reusable software components and to compose programs from already 
+available components. We will learn about some basic data structures and 
+algorithms and how to match the data structures and algorithms to problems. 
+We will test and evaluate programs for their functionality and their 
+performance. 
+</p>
+<p>
+We will be following the required text book closely. I will provide notes 
+in class that will be posted on the web for topics that are not covered in
+the book. Unlike the traditional lecture format, our classes will be a venue 
+for solving problems, writing programs, and exchanging, ideas. <b>Attendance 
+to the lectures is mandatory.</b> If you are not there for any lecture you 
+need to send me an e-mail explaining why.
+</p>
+<h3>Assignments </h3>
+<p>
+There will be programming assignments that you can complete in the CS Lab. 
+You may choose to use your own computer to work on these assignments. If you 
+work on your home computer, you will have to download and install Python 3.
+There is a graphical development environment (IDLE) that comes with Python
+that you can also install.
+</p>
+<p>
+The only way to learn programming is to program. Doing the programming
+assignments is crucial to performing well in class. There will be on the
+average two assignments every week. The assignments will be due on Mondays
+and Fridays. Each assignment will have a clearly stated due date and time. 
+Assignments start out being easy but get harder over the semester. If you 
+are having considerable difficulty with Assignments 2 and/or 3, please see 
+the Instructor immediately. 
+</p>
+<p>
+The assignments will require a substantial time commitment over several
+days (an average of 10 to 12 hours per week should be expected). Be sure 
+to budget sufficient time to complete assignments before the deadline. 
+</p>
+<p>
+Turn in your assignments on time. This permits grading to start promptly 
+after the submission deadline so that assignments maybe returned promptly. 
+If you do not finish an assignment by the deadline you have a maximum of 
+two days to turn your assignment in. However, there is a penalty of 10 
+points (out of a 100 points) per day. Your assignment is one day late until 
+the midnight of the day after it is due, two days late from then until 
+midnight of the second day. We will accept your assignment after two days 
+if there is a compelling reason. 
+</p>
+<p>
+Specific grading criteria vary on each assignment. However, in general, 
+programs that do not compile correctly on the CS Lab configuration will 
+receive no more than 80% of the possible points. Other point deductions are 
+given for such things as: incorrect results, missing features, bad solution 
+logic, no documentation etc. No matter what configuration of software that 
+you have on your home computer, the assignment that is turned in must run 
+successfully on the CS Lab configuration in order to be graded. Here
+is the <a href="./grading.html">general grading criteria</a> for 
+programming assignments.
+</p>
+<p>
+All assignments must be submitted using the web based
+<a href="http://canvas.utexas.edu/"> Canvas </a> program. You must
+always make a backup copy of the Python source code (i.e. the .py file) on 
+your removable secondary storage device (e.g. flash drive). This will be 
+necessary in cases where your program gets lost, is corrupted, or if there 
+is some dispute over what was turned in when.
+</p>
+<p>
+For assigned programs, the source code (.py file) must be turned in. The
+source code must be a text file that can be run through a Python 3 interpreter.
+Word processing files (those created with Microsoft Word, for example, and
+ending with .doc extension ) will not be accepted.
+</p>
+<p>
+If you want us to debug your program, come to us during our office
+hours with your laptop and we will go through the program with you.
+Do <b>NOT</b> just e-mail the program to us for debugging. We will
+not respond to e-mails that have full length programs that have to
+be debugged.
+</p>
+<p>
+<b>Grade Dispute: </b> Scores for assignments will be posted on Canvas. You 
+have one week from the date the assignment grade is posted to dispute your 
+grade. The student assistants will be grading the assignments. Visit the TAs
+and see if you can resolve your differences. If you cannot resolve your 
+differences, you may visit me to explain the situation. 
+<b><i> We will not entertain any grade disputes after one week. </i></b>
+</p>
+<p>
+<b> Assignment Identification: </b> All assignments must be submitted with
+the proper header, containing your name (as registered), your unique section 
+number, and the assignment number at the top of the assignment. The format
+for the header will be specified in the assignment. That specification will
+over ride any other header specification.
+</p>
+<p>
+In addition, because assignments are submitted as files on Canvas, they 
+must have the correct file name, which will be specified in the assignment 
+handout. You must also ensure that you turn in the assignment to the 
+correct unique section folder - that is, the section you are currently
+registered in. Lost assignments are typically caused by turning in an 
+incorrect file name and/or turning a file into the wrong section folder.
+Assignments, which omit the header or are incorrect in any one or more
+of these requirements, will have the grade reduced by 5% of the maximum
+grade.
+</p>
+<h3> Exercises </h3>
+<p>
+There will be assigned readings from the text and exercises that follow
+the readings. You must do the readings and exercises by the due date
+and time. <b> There are no extensions to the reading assignments. </b>
+</p>
+<h3> Quizzes </h3>
+<p>
+There will be in class quiz every day. There will be one or two questions 
+in a given quiz. The questions will be from the reading assignments or the 
+material discussed in class the previous day. The quizzes will be hosted 
+on Canvas. You will need a smart phone or laptop to answer the questions. 
+There are no makeup quizzes. I will drop the lowest of your three quiz 
+grades. This number (three quizzes) is non-negotiable. This drop will take 
+care of any absences that you may have or any electronic mishaps that you 
+may have with your smart phone or laptop.
+</p>
+<h3>Tests </h3>
+<p>
+There will be three tests and no final examination. All three tests will
+be on Fridays from 6:00 pm to 8:00 pm. There will be makeup tests on
+Mondays from 6:00 pm to 8:00 pm. You need to give me documented evidence
+that you cannot take the test on Fridays to be allowed to take the
+makeup tests. 
+</p>
+<p>
+</p><table border="1" width="75%">
+<caption> Test Schedule </caption>
+<tr>
+<th> Test </th><th> Date </th><th> Time </th><th> Room </th>
+<th> Section </th>
+</tr>
+<tr>
+<td> Test 1 </td><td> Fri, 11 Oct </td><td> 6:00 PM - 8:00 PM </td>
+<td> RLP 0.130 <br/> RLP 0.126 </td><td> 50205 <br/> 50210 </td>
+</tr>
+<tr>
+<td> Makeup 1 </td><td> Mon, 14 Oct </td><td> 6:00 PM - 8:00 PM </td>
+<td> UTC 4.110 </td><td> 50205 / 50210 </td>
+</tr>
+<tr>
+<td> Test 2 </td><td> Fri, 08 Nov </td><td> 6:00 PM - 8:00 PM </td>
+<td> RLP 0.130 <br/> RLP 0.126 </td><td> 50205 <br/> 50210 </td>
+</tr>
+<tr>
+<td> Makeup 2 </td><td> Mon, 11 Nov </td><td> 6:00 PM - 8:00 PM </td>
+<td> UTC 4.110 </td><td> 50205 / 50210 </td>
+</tr>
+<tr>
+<td> Test 3 </td><td> Fri, 06 Dec </td><td> 6:00 PM - 8:00 PM </td>
+<td> RLP 0.130 <br/> RLP 0.126 </td><td> 50205 <br/> 50210 </td>
+</tr>
+<tr>
+<td> Makeup 3 </td><td> Mon, 09 Dec </td><td> 6:00 PM - 8:00 PM </td>
+<td> UTC 4.110 </td><td> 50205 / 50210 </td>
+</tr>
+</table>
+<p>
+Make-up tests will be given only for the following reasons. In
+all cases you must provide some form of documentation.
+</p><ul>
+<li> Ill health </li>
+<li> Family emergency </li>
+<li> Official UT conflict </li>
+</ul>
+Having three tests on the same day is <i>not</i> official UT conflict!
+For each test you may bring a non-programmable calculator and a single
+8 1/2 x 11 sheet with handwritten notes (no photo reduction) on both
+sides of the paper. 
+
+
+<p>
+Questions concerning test grades should be given to me in writing along 
+with your test within the next class day that the test is handed back. 
+We will not entertain any disputes after that time.
+</p>
+<h3>Grades </h3> 
+Your performance in this class will be evaluated using your scores for
+quizzes, reading exercises, programming assignments, and three tests. The 
+weights of each of these components are listed below. <i> There are no 
+extra credit projects or assignments to improve your grade.</i> We do not 
+drop any of the assignment scores nor do we drop any of the reading exercises
+scores. We only drop the lowest three quiz scores.
+<ul>
+<li> Quizzes: 10% 
+</li><li> Exercises: 15%
+</li><li> Programming Assignments: 30%
+</li><li> Three Tests (15% each): 45%
+</li></ul>
+<p>
+All scores will be entered on Canvas. Check your scores regularly on
+Canvas to make sure that we have entered them correctly. Remember the
+average score as shown on Canvas is <b>not correct</b>. It does not
+weight the average with weights as shown above. Your final grade will 
+be assigned after we obtain the weighted average according to the weights 
+as given above. Your grade will be based on the traditional scheme:
+</p><ul>
+<li> A: 90 - 100
+</li><li> B: 80 - 89
+</li><li> C: 70 - 79
+</li><li> D: 60 - 69
+</li><li> F: 0 - 59
+</li></ul>
+We do assign grades on the +/- system. But those finer cutoffs will be
+determined at the very end after the weighted average and standard
+deviation of the class are computed.
+
+
+<p>
+You can earn 5 points extra credit on the total sum of the three
+tests for filling out the electronic evaluation for the class. To
+obtain those extra credit points you must take a screen shot of the
+fact that you completed the survey and then upload the screen shot 
+to the appropriate slot in Canvas.
+</p>
+<h3> Study Groups </h3>
+Please organize yourselves into study groups of ~5 students who will
+meet once a week or more to discuss the course. Typically, you will 
+review the lectures, do the reading, and attempt the homework independently
+before your weekly meeting with your study group. Studying for tests 
+together is permitted and encouraged. If you are unsure about how to 
+work together with your friend in a legal, helpful manner, do come and
+talk with us.  Remember, it is always ok to "work together" with your 
+professor or TA! 
+
+<p>
+We will be using <a href="https://piazza.com/utexas"> Piazza </a>
+for general discussion of class related questions rather than the
+discussion board on Canvas. <b>Please do not post solutions or code
+to any home work assignment problems on Piazza. </b>
+</p>
+<h3>Academic Misconduct Policy</h3>
+While you are free to discuss the course material with your classmates 
+and are encouraged to form study groups for the exams, collaboration on 
+homework or programming assignments is <b>not</b> permitted. 
+
+<p>
+Helping a friend understand the intent of a homework or programming 
+assignment specification is permitted. Students who work together too 
+closely (e.g. design their solution together) should be aware that this 
+is a form of cheating called COLLUSION and is subject to academic penalties. 
+Penalties for academic misconduct include a failing grade in this course.
+</p>
+<p>
+The homework, programs, and exams must be the work of students turning
+them in. University policy (see Dean of Students' policies on 
+<a href="http://deanofstudents.utexas.edu/sjs/acint_student.php"> 
+academic integrity</a>) will be followed strictly. We will be
+running a sophisticated program on all submitted assignments to
+detect plagiarism. If we do detect any cases of academic dishonesty,
+we will assign a grade of F to all students involved and refer the
+cases to the Dean of Students.
+</p>
+<p>
+Acts that exceed the bounds defined by the approved collaboration
+practices will be considered cheating. Such acts include:
+
+</p><ul>
+<li>Copying solutions, code, or programs from someone else or giving
+someone else your solutions, code, or programs
+
+</li><li>Participation in a discussion group that develops a solution that
+everyone copies
+
+</li><li> Posting your code to homework problems on Piazza or Facebook.
+
+</li><li> Copying code from the internet (e.g. from Piazza or Facebook
+or other internet sites)
+
+</li><li> Employing someone to write the solutions for you on homework
+assignment problems.
+</li></ul>
+
+We urge everyone in the class to take appropriate measures for
+protecting one's work. You should protect your files, homework
+solution sheets, etc. as deemed reasonable. The only exception 
+that we will make to these guidelines is if you are involved
+in <b>pair programming</b> with a friend.
+
+
+<h3>Your Responsibilities in This Class</h3>
+<ul>
+<li>Your performance in this class will be determined by you! It will
+require a strong dedication to learning the material and will require 
+a substantial time commitment to complete the programming assignments.
+
+</li><li>You are expected to show up on time for class and stay for the whole
+lecture. 
+
+</li><li> You are required to have your cell phones off at all times during
+the lecture. You may not make or receive calls on your cell phone or 
+send or receive text messages during lectures. 
+
+</li><li> You may <b>not</b> use a laptop in class unless you are asked to
+do so.
+
+</li><li>You are responsible for all material posted to the web site and
+sent as email. Ignorance of such material is no excuse.
+
+</li><li>You are responsible for all material presented in the lectures. 
+Note that lectures will include some material that is not available 
+elsewhere.
+
+</li><li>You are responsible for turning in your own work on all
+assignments. <b>Unauthorized</b> collusion is not allowed and constitutes 
+a violation of the university's policies on academic integrity.  See
+above guidelines for more information on what is or is not allowed.
+
+</li><li>You are responsible for protecting your work from being copied
+by others.
+
+</li><li>Your conduct in class should be conducive towards a positive learning
+environment for your class mates as well as your self.
+</li></ul>
+<h3> University Time Table </h3>
+<ul>
+<li> 28 Aug 2019: Classes begin
+</li><li> 03 Sep 2019: Last day of official add / drop
+</li><li> 13 Sep 2019: 12<sup>th</sup> class day, official enrollment count is 
+     taken
+</li><li> 31 Oct 2019: Last day to drop (with dean's approval) except for urgent 
+     and substantiated, non-academic reasons or to change to or from 
+     pass/fail basis. 
+</li><li> 27 - 30 Nov 2019: No class. Thanksgiving break.
+</li><li> 09 Dec 2019: Classes end
+</li></ul>
+<h3>General Policies </h3> 
+If you are absent from class or examination for the observance of a religious
+holy day you may turn in your assignment or take the examination on an
+alternate date provided you have given me written notice fourteen days prior
+to the class absence. For religious holy days that Fall within the first
+two weeks of class notice must be given on the first class day.
+
+<p>
+Students with disabilities who need special accommodations should contact
+the Services for Students with Disabilities (SSD) Office (471-6259 or
+471-4641 TTY).
+</p>
+</body>
+</html>

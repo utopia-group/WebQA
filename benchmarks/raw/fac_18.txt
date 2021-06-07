@@ -1,0 +1,645 @@
+<html>
+<head>
+<link href="/mit.css" rel="stylesheet" type="text/css"/>
+<title>Adam Chlipala</title>
+</head><body>
+<table style="font-size: large"><tr>
+<td class="photo"><a href="photos.html"><img border="0" height="350" src="adamc2019.jpg" width="299"/></a></td>
+<td class="box" width="100%"><b>Adam Chlipala</b><br/>
+          Associate Professor of Computer Science<br/>
+<a href="http://plv.csail.mit.edu/">Programming Languages &amp; Verification Group</a> <font size="-1"><a href="http://projects.csail.mit.edu/pl/">(more PL at MIT)</a></font><br/>
+<a href="http://www.csail.mit.edu/">Computer Science and Artificial Intelligence Laboratory</a><br/>
+<a href="http://www.eecs.mit.edu/">Department of Electrical Engineering and Computer Science</a><br/>
+<a href="http://www.mit.edu/">MIT</a><br/>
+<i>E-mail:</i> <a href="mailto:adamc@csail.mit.edu">adamc@csail.mit.edu</a><br/>
+<i>Office:</i> <a href="https://www.csail.mit.edu/sites/default/files/resources/maps/8G/G842.gif">32-G842</a>
+</td></tr></table>
+<div class="box">
+<a href="contact.html">Contact Information</a>
+      - <a href="papers/">Publications</a> [<a href="papers/adamc.bib">BibTeX</a>]
+      - <b>CV:</b> <a href="cv.html">HTML</a>, <a href="cv.pdf">PDF</a>
+</div>
+<div class="box">
+<b>Startup update:</b> Including during sabbatical recently (which ended in late 2019), I've been developing a startup company based on <a href="http://www.impredicative.com/ur/">Ur/Web</a> and <a href="http://upo.csail.mit.edu/">UPO</a>.  We are empowering "normal folks" without programming training to create full-featured, database-backed web apps quickly.  Watch this space for a link to the company web site when one exists!  Do let me know if you're an expert in subjects like dependent types or compilers and might be interested in joining our engineering team.
+    </div>
+<div class="box">
+<p>I'm in a transitional period, in terms of simple descriptions of my research interests.  My traditional areas are <i>programming languages</i> and <i>formal methods</i>, but my interests have broadened to include other aspects of computer-system design and implementation.  I like the idea of doing clean-slate redesign of computing stacks with current security and privacy concerns front-and-center, which I do believe involves, in a central way, my traditional focus of <b>mechanized mathematical proofs</b>, especially with <a href="http://coq.inria.fr/">the Coq proof assistant</a>.  However, I also spend a fair amount of time now thinking more generally about pleasant interfaces (e.g., hardware instruction sets, OS system-call interfaces, programming languages) and efficient implementations of hardware and software systems, including through tinkering with traditional boundaries between layers.</p>
+<p>I try to organize my research group as something like a startup company looking to produce one convincing unified demo of a clean-slate-ish full-stack, practical computer system.  (Like startup companies, we expect to pivot often based on what we learn!)  We are looking at simple embedded applications now, where the scope of machine-checked proofs and unified interface redesign reaches from <a href="https://en.wikipedia.org/wiki/Register-transfer_level">RTL</a> to relational specifications of network protocols.  I'm interested in recruiting students to contribute.  I do sometimes hire postdocs, though most of my recruiting strategy is centered on students (PhD, master's, undergrad).  Ideal candidates have strong backgrounds in both rigorous mathematical reasoning and software/hardware systems implementation.  There tends to be a bad match with students who use the word "theory" to describe their interests within programming languages or formal methods, to the point where our PhD program generally won't admit those people (they'd be better-served elsewhere!).  Current MIT students interested in working together should e-mail me, while for others I suggest following our normal PhD application process.</p>
+<p>For a bit more info on what I work on, two low-time-investment overviews (of the mechanized-proofs part) are <a href="http://www.cccblog.org/2018/06/13/the-surprising-security-benefits-of-end-to-end-formal-proofs/">my blog post on the surprising security benefits of formal proofs</a> and <a href="https://media.ccc.de/v/34c3-9105-coming_soon_machine-checked_mathematical_proofs_in_everyday_software_and_hardware_development">video of a talk I gave at the 34th Chaos Communication Congress in December 2017</a>.</p>
+</div>
+<div class="box">
+<h2>Current Research</h2>
+<table>
+<tr>
+<td>needs logo</td>
+<td class="project"><i>Unnamed (and somewhat incipient) umbrella project to build demonstration software/hardware systems with end-to-end mechanized proofs.</i>  I started my time as faculty developing the <a href="https://github.com/mit-plv/bedrock">Bedrock</a> library for verified multilanguage programming, but that project is largely over; we are working on a replacement project now that shares the name but makes very different design decisions, still supporting separation-logic-verified low-level programs (in a tasteful language, not C!) processed by a verified compiler, which I would like to use to explore alternative and drastically simplified OS-like functionality.  The programming layer on top is meant to involve our <a href="https://github.com/mit-plv/fiat">Fiat</a> system for automatic and correct-by-construction program derivation from specifications, which we are currently experimenting with using to generate code for practical network servers, a convenient domain for trying to make high-level programming more like relational-database programming but without the usual rough edges.  Beneath the level of assembly language, we have work in the <a href="https://github.com/mit-plv/kami">Kami</a> project on modular hardware verification and verified compilation, where development is proceeding now jointly with industry, and where I'm especially interested in exploring alternative concurrency support in general-purpose processors.  One of the cross-cutting focuses now is cryptography, including in our <a href="https://github.com/mit-plv/fiat-crypto">Fiat Cryptography</a> project that centers on what is essentially a verified domain-specific compiler for finite-field arithmetic, which should soon be included in the build process for Google Chrome (to produce some of the code to validate SSL connections).</td>
+</tr>
+<tr>
+<td align="center"><a href="http://css.csail.mit.edu/fscq/"><img class="project" height="95" src="fscq.png" width="125"/></a></td>
+<td class="project"><a href="http://css.csail.mit.edu/fscq/">FSCQ</a>, a file system verified in Coq using a separation logic for reasoning about crash safety, mostly carried out these days by colleagues in <a href="https://pdos.csail.mit.edu/">the PDOS group</a></td>
+</tr>
+<tr>
+<td><a href="http://deepspec.org"><img alt="DeepSpec" class="project" src="http://deepspec.org/img/deepspec-logo-300dpi.png" width="120"/></a></td>
+<td class="project"><a href="http://deepspec.org/"><strong>The Science of Deep Specification</strong></a>, a National Science Foundation Expedition in Computing, 2016-2021, promoting similar full-stack-verification research to what I described above, but on more conventional architectures</td>
+</tr>
+</table>
+</div>
+<div class="box">
+<h2>Some Old Research</h2>
+<table>
+<tr>
+<td><a href="http://www.impredicative.com/ur/"><img class="project" height="99" src="web.png" width="127"/></a></td>
+<td class="project"><a href="http://www.impredicative.com/ur/">Ur/Web</a>, a domain-specific functional programming language for modern Web applications.  I started working on it when I was a grad student, and it's pretty much done research-wise, yielding a production-quality tool suite that a fair number of people enjoy using.</td>
+</tr>
+<tr>
+<td><a href="http://ltamer.sf.net/"><img class="project" height="131" src="ltamer.png" width="192"/></a></td>
+<td class="project"><a href="http://ltamer.sf.net/">Lambda Tamer</a>, an umbrella library for the experiments in compiler verification that I started as a grad student.  The most concrete outcome of the work was the <a href="papers/PhoasICFP08/">parametric higher-order abstract syntax (PHOAS)</a> encoding of program syntax, which we still put to use in many of my projects, where different kinds of compilers remain frequent ingredients in novel system designs.</td>
+</tr>
+</table>
+</div>
+<div class="box">
+<h2>Research Students</h2>
+<!--h3>Postdocs</h3>
+
+      <ul>
+
+      </ul-->
+<h3>PhD</h3>
+<ul>
+<li><a href="http://people.csail.mit.edu/jgross/">Jason Gross</a> <i>[since Summer 2012]</i></li>
+<ul>
+<li>Master's thesis: <a href="theses/jgross_sm.pdf">An Extensible Framework for Synthesizing Efficient, Verified Parsers</a></li>
+</ul>
+<li><a href="http://pit-claudel.fr/clement/">Clément Pit--Claudel</a> <i>[since Spring 2014]</i></li>
+<ul>
+<li>Master's thesis: <a href="theses/cpitcla_sm.pdf">Compilation Using Correct-by-Construction Program Synthesis</a></li>
+</ul>
+<li><a href="http://people.csail.mit.edu/joonwonc/">Joonwon Choi</a> (coadvised with <a href="http://csg.csail.mit.edu/Users/arvind/">Arvind</a>) <i>[since Fall 2014]</i></li>
+<ul>
+<li>Master's thesis: <a href="theses/joonwonc_sm.pdf">An Inlining Approach to Formal Hardware Semantics</a></li>
+</ul>
+<li><a href="https://github.com/threonorm">Thomas Bourgeat</a> (coadvised with <a href="http://csg.csail.mit.edu/Users/arvind/">Arvind</a>) <i>[since Spring 2016]</i></li>
+<li><a href="https://samuelgruetter.net/">Samuel Gruetter</a> <i>[since Fall 2017]</i></li>
+<li><a href="https://mir-ikbch.github.io/">Mirai Ikebuchi</a> <i>[since Fall 2017]</i></li>
+<li><a href="http://andres.systems/">Andres Erbsen</a> <i>[since Fall 2015]</i></li>
+<ul>
+<li>Master's thesis: <a href="theses/andreser_meng.pdf">Crafting Certified Elliptic Curve Cryptography Implementations in Coq</a></li>
+</ul>
+<li><a href="http://people.csail.mit.edu/jadep/">Jade Philipoom</a> <i>[since Fall 2015]</i></li>
+<ul>
+<li>Master's thesis: <a href="theses/jadep_meng.pdf">Correct-by-Construction Finite Field Arithmetic in Coq</a></li>
+</ul>
+<li><a href="https://github.com/stellamplau">Stella Lau</a> <i>[since Fall 2018]</i></li>
+<li><a href="https://github.com/edwardcwang">Edward Wang</a> (coadvised with <a href="https://people.csail.mit.edu/saman/">Saman Amarasinghe</a>) <i>[since Fall 2019]</i></li>
+</ul>
+<h3>Master's</h3>
+<ul>
+<li><a href="https://www.linkedin.com/in/zygimantas-straznickas-6742ab46/">Zygimantas Straznickas</a> <i>[since Summer 2019]</i></li>
+</ul>
+<h3>Undergraduate</h3>
+<ul>
+<li><a href="https://github.com/jmgrosen">John Grosen</a> <i>[since Fall 2017]</i></li>
+<li><a href="https://web.mit.edu/shardulc/www/">Shardul Chiplunkar</a> <i>[since Spring 2019]</i></li>
+<li><a href="https://thetech.com/authors/aron-ricardo-perez-lopez">Áron Ricardo Perez-Lopez</a> <i>[since Spring 2019]</i></li>
+<li><a href="https://github.com/jhaag">Jasper Haag</a> <i>[since Fall 2019]</i></li>
+<li>Rachana Madhukara <i>[since Fall 2019]</i></li>
+</ul>
+<!--h3>Other</h3>
+
+      <ul>
+
+      </ul-->
+<a href="past.html">Past students</a>
+</div>
+<div class="box">
+<h2>Teaching</h2>
+<li>Spring 2020: <a href="https://frap.csail.mit.edu/">6.822: Formal Reasoning About Programs</a>* (also Spring 2018, Spring 2017 [as 6.887], and Spring 2016 [as 6.887])</li>
+<li>Spring 2019: <a href="https://6009.cat-soop.org/Spring19">6.009: Fundamentals of Programming</a>* (also <a href="https://eecs6009.mit.edu/Fall17">Fall 2017</a>, <a href="https://stellar.mit.edu/S/course/6/fa16/6.009/">Fall 2016</a>, and <a href="https://stellar.mit.edu/S/course/6/fa15/6.Spring 2004/">Fall 2015</a> [as 6.Spring 2004])</li>
+<li>Spring 2015: <a href="https://stellar.mit.edu/S/course/6/sp15/6.042/">6.042: Mathematics for Computer Science</a> (also Spring 2012)</li>
+<li>Fall 2014: <a href="https://stellar.mit.edu/S/course/6/fa14/6.170/">6.170: Software Studio</a></li>
+<li>Fall 2013: <a href="https://stellar.mit.edu/S/course/6/fa13/6.820/">6.820: Foundations of Program Analysis</a></li>
+<li>Spring 2013: <a href="http://mit.edu/6.033/www/">6.033: Computer Systems Engineering</a> [recitation instructor]</li>
+<li>Fall 2012: <a href="http://stellar.mit.edu/S/course/6/fa12/6.005/">6.005: Software Construction</a></li>
+<li>Fall 2011: <a href="http://stellar.mit.edu/S/course/6/fa11/6.892/">6.892: Interactive Computer Theorem Proving</a>*</li>
+<p>(An "*" indicates a class I [co]created.)</p>
+</div>
+<div class="box">
+<h2>Books</h2>
+<table>
+<tr>
+<td><a href="cpdt/"><img align="left" alt="Certified Programming with Dependent Types" border="0" height="234" src="cpdt.jpg" width="180"/></a></td>
+<td>
+<p><i><a href="cpdt/">Certified Programming with Dependent Types: A Pragmatic Introduction to the Coq Proof Assistant</a></i></p>
+<p>An introduction to <a href="http://coq.inria.fr/">the Coq proof assistant</a>, assuming just familiarity with rigorous math and functional programming.  Presents the techniques needed to scale to large formal developments in program verification and other domains, including scripted proof automation and expressive types for embedded programs.</p>
+</td>
+</tr>
+<tr>
+<td style="font-size: 400%; font-style: italic; font-weight: bold; text-align: center">FRAP</td>
+<td>
+<p><i><a href="frap/">Formal Reasoning About Programs</a></i></p>
+<p>Introducing <a href="http://coq.inria.fr/">Coq</a> simultaneously with semantics and program proof methods.  Emphasizes commonalities through casting (almost) everything in terms of invariants on transition systems, with abstraction and modularity as our standard tools for simplifying invariant proofs.  Presents ideas in parallel as chapters of a PDF with standard math notation and in Coq source files, mixing in bits of proof-automation wizardry at the author's whim.  <i>[I've used this book so far in three iterations of a graduate class and plan to fine-tune it through at least one more offering before declaring it beta-quality; but, for intrepid instructors of related classes, it could be worth experimenting with already!]</i></p>
+</td>
+</tr>
+</table>
+</div>
+<div class="box">
+<h2>Advisory-Board Memberships</h2>
+<li><a href="https://www.bedrocksystems.com/">BedRock Systems</a> <i>[since 2018]</i>: verified systems software for safety-critical computing</li>
+<li><a href="https://www.darpa.mil/">DARPA</a> Information Science and Technology (ISAT) study group <i>[2018-2021]</i></li>
+<li><a href="https://www.sifive.com/">SiFive</a> <i>[since 2018]</i>: rapid development of custom hardware solutions, based on <a href="https://riscv.org/">RISC-V</a></li>
+<h3>Former</h3>
+<li><a href="https://krypt.co/">krypt.co</a> <i>[2016-2019]</i>: smarter management for cryptographic keys <i><a href="https://www.akamai.com/us/en/about/news/press/2019-press/akamai-technologies-inc-acquires-authentication-technology-from-kryptco.jsp">(acquired by Akamai)</a></i></li>
+</div>
+<div class="box">
+<h2>How to Pronounce my Last Name</h2>
+      Pretend the first "l" isn't there ("Chipala") and you'll get close enough.
+    </div>
+<div class="box">
+<h2>Recommended Reading</h2>
+<p>I'm straying pretty off-topic here, but, especially for all the students who might be reading this far down the page, I'd like to recommend a few books that have had big influences on me and that I wish I'd been told about as a student.</p>
+<ul>
+<li>Everything we do in trying to debug problems in the world today depends on understanding how we and other people think, and I've found that <b>evolutionary psychology</b> provides a crucial toolbox for making sense of it all.  As a general starting point, I recommend <a href="http://robertwright.com/moral-animal/"><i>The Moral Animal</i></a>.
+          <ul>
+<li>An important subtopic is the roots of the ideological differences that divide us, which lately seem to be especially hard to dislodge.  <a href="https://righteousmind.com/"><i>The Righteous Mind</i></a> explains how genes influence moral intuitions and makes a good case for not demonizing people with opposing intuitions.  (And, straying even more off-topic, for a fascinating [but North-America-specific] take on regional culture as another source of differences, see <a href="http://www.colinwoodard.com/americannations.html"><i>American Nations</i></a>.)</li>
+</ul></li>
+<li>Many of the choices we make have significant <b>environmental</b> consequences, and it's important to have a sound scientific basis for evaluating them.  <a href="https://www.withouthotair.com/"><i>Sustainable Energy -- Without the Hot Air</i></a> is a good source for the quantitative details.  The most striking takeaway for me was, for my own carbon footprint, the total dominance of air travel, which is why it's super-cool that there is a <a href="http://www.sigplan.org/Resources/Climate/">SIGPLAN Climate Change</a> committee now, to help us get this excessive conference-going under control.  (I'm in favor of one conference per research area per year, with as many parallel tracks as needed!)</li>
+<li>One of the consequential kinds of choices we make is about <b>what to eat</b>.</li>
+<ul>
+<li>On the environmental-impact side, I have to admit I haven't found one book that summarizes the evidence and then makes recommendations without worrying too much about inertia and people's supposed unwillingness to change.  <a href="http://james-mcwilliams.com/?page_id=670"><i>Just Food</i></a> is a start, though.</li>
+<li>The standard American diet also has huge problems for promoting good health.  The best starter source of information there is <a href="https://nutritionfacts.org/book/"><i>How Not to Die</i></a>.</li>
+</ul>
+<li>Our <b>transportation</b> customs (in the USA, at least) also have some remarkably bad but underappreciated consequences.  Personally, I support dramatically curtailing use of vehicles that run on roads, in favor of much more walking and vehicles that run on rails, which are fundamentally more energy-efficient (as I learned in <i>Without the Hot Air</i>).  For a fascinating analysis of the implicit subsidy on cars via legal minimum standards on parking spaces, see <a href="https://en.wikipedia.org/wiki/The_High_Cost_of_Free_Parking"><i>The High Cost of Free Parking</i></a>.</li>
+<li>There's a lot of hand-wringing these days about how hard it is to "make it" <b>financially</b> starting as a student.  That may very well be true, but for the elite audience likely to read this page, with strong skills in computing (broadly construed), things are pretty rosy.  The challenge and opportunity is to reconsider norms about how much <i>stuff</i> we really want in our lives, and whether it is worth the cost in money, health, and whatever else.  See the blog <a href="http://www.mrmoneymustache.com/2013/02/22/getting-rich-from-zero-to-hero-in-one-blog-post/"><i>Mr. Money Mustache</i></a> for a firehose of suggestions, or <a href="https://jlcollinsnh.com/2016/06/18/the-simple-path-to-wealth-is-now-published/"><i>The Simple Path to Wealth</i></a> for a gentler introduction.</li>
+<li>Finally, relatively on-topically, anyone out there who is into programming and hasn't yet tried proof assistants should seriously consider grabbing a good introduction like <a href="https://softwarefoundations.cis.upenn.edu/"><i>Software Foundations</i></a>!  This technology is going mainstream any year now, and in the mean time it's great fun and mental exercise, which I'd like to think prepares us for solid rational analysis of all sorts of big questions in the world.</li>
+</ul>
+</div>
+<div class="box">
+<a href="more.html">More content and links....</a>
+</div>
+<div>
+<h1>Publications - Adam Chlipala</h1>
+<h2 class="morespace">Refereed journal articles (6)</h2>
+<div class="box">
+<a href="https://github.com/tgregoir">Thomas Gregoire</a>, <a href="http://adam.chlipala.net/">Adam Chlipala</a>.
+	<a href="StencilsJAR18/">Mostly Automated Formal Verification of Loop Dependencies with Applications to Distributed Stencil Algorithms</a>.
+	<a href="http://www.Springerlink.com/content/100280/">Journal of Automated Reasoning (JAR)</a>.
+			https://doi.org/10.1007/s10817-018-9451-y.
+                Springer-Verlag.
+				<blockquote><i>Extended version of <a href="StencilsITP16/">our ITP 2016 paper</a></i></blockquote>
+</div>
+<div class="box">
+<a href="https://www.cs.princeton.edu/~appel/">Andrew W. Appel</a>, <a href="https://www.cs.princeton.edu/~eberinge/">Lennart Beringer</a>, <a href="http://adam.chlipala.net/">Adam Chlipala</a>, <a href="http://www.cis.upenn.edu/~bcpierce/">Benjamin C. Pierce</a>, <a href="http://www.cs.yale.edu/homes/shao/">Zhong Shao</a>, <a href="http://www.cis.upenn.edu/~sweirich/">Stephanie Weirich</a>, <a href="http://www.cis.upenn.edu/~stevez/">Steve Zdancewic</a>.
+	<a href="DeepSpecPT/">The Science of Deep Specification</a>.
+	<a href="http://rsta.royalsocietypublishing.org/">Philosophical Transactions of the Royal Society A (PTA)</a>.
+			2017 375 20160331.
+                Royal Society.
+				<blockquote><i>Overview of and case for the <a href="https://deepspec.org/">DeepSpec project</a></i></blockquote>
+</div>
+<div class="box">
+<a href="https://github.com/tchajed">Tej Chajed</a>, <a href="http://pdos.csail.mit.edu/~hchen/">Haogang Chen</a>, <a href="http://adam.chlipala.net/">Adam Chlipala</a>, <a href="http://pdos.csail.mit.edu/~kaashoek/">Frans Kaashoek</a>, <a href="http://people.csail.mit.edu/nickolai/">Nickolai Zeldovich</a>, <a href="http://events.ccc.de/congress/2014/Fahrplan/speakers/5081.html">Daniel Ziegler</a>.
+	<a href="FscqCACM/">Research Highlight: Certifying a File System using Crash Hoare Logic: Correctness in the Presence of Crashes</a>.
+	<a href="http://cacm.acm.org/">Communications of the ACM (CACM)</a>.
+			60(4). 75-84, 2017.
+                Association for Computing Machinery.
+				<blockquote><i>A file system implemented and verified in Coq, using separation logic, connected to Linux and providing respectable performance</i></blockquote>
+</div>
+<div class="box">
+<a href="http://adam.chlipala.net/">Adam Chlipala</a>.
+	<a href="UrWebCACM/">Research Highlight: Ur/Web: A Simple Model for Programming the Web</a>.
+	<a href="http://cacm.acm.org/">Communications of the ACM (CACM)</a>.
+			59(8). 93-100, 2016.
+                Association for Computing Machinery.
+				<blockquote><i>Introducing the Ur/Web programming language</i></blockquote>
+</div>
+<div class="box">
+<a href="http://adam.chlipala.net/">Adam Chlipala</a>.
+	<a href="CpdtJFR/">An Introduction to Programming and Proving with Dependent Types in Coq</a>.
+	<a href="http://jfr.unibo.it/">Journal of Formalized Reasoning (JFR)</a>.
+			3(2). 1-93, 2010.
+                <blockquote><i>Excerpts from <a href="../cpdt/">CPDT</a></i></blockquote>
+</div>
+<div class="box">
+<a href="http://adam.chlipala.net/">Adam Chlipala</a>.
+	<a href="CertVerJFP/">Modular Development of Certified Program Verifiers with a Proof Assistant</a>.
+	<a href="http://journals.cambridge.org/jid_JFP">Journal of Functional Programming (JFP)</a>.
+			18(5/6). 599-647, 2008.
+                Cambridge University Press.
+				<blockquote><i>Extended version of <a href="CertVerICFP06/">my ICFP 2006 paper</a></i></blockquote>
+</div>
+<h2 class="morespace">Refereed conference papers (38)</h2>
+<div class="box">
+<a href="http://pit-claudel.fr/clement/">ClÃ©ment Pit--Claudel</a>, <a href="http://people.csail.mit.edu/wangpeng/">Peng Wang</a>, <a href="https://www.cs.purdue.edu/homes/bendy/">Benjamin Delaware</a>, <a href="http://people.csail.mit.edu/jgross/">Jason Gross</a>, <a href="http://adam.chlipala.net/">Adam Chlipala</a>.
+	<a href="FiatIJCAR20/">Extensible Extraction of Efficient Imperative Programs with Foreign Functions, Manually Managed Memory, and Proofs</a>.
+	
+			Proceedings of the <a href="https://ijcar2020.org/">9th International Joint Conference on Automated Reasoning (IJCAR 2020)</a>.
+		June  2020.
+			<blockquote><i>The last link in a pipeline for automatic compilation, with proofs, from relational specifications to Bedrock assembly programs</i></blockquote>
+</div>
+<div class="box">
+<a href="https://github.com/threonorm">Thomas Bourgeat</a>, <a href="http://pit-claudel.fr/clement/">ClÃ©ment Pit--Claudel</a>, <a href="http://adam.chlipala.net/">Adam Chlipala</a>, <a href="http://csg.csail.mit.edu/Users/arvind/">Arvind</a>.
+	<a href="KoikaPLDI20/">The Essence of Bluespec: A Core Language for Rule-Based Hardware Design</a>.
+	
+			Proceedings of the <a href="https://pldi20.sigplan.org/">ACM SIGPLAN 2020 Conference on Programming Language Design and Implementation (PLDI 2020)</a>.
+		June  2020.
+			<blockquote><i>A new hardware-description language that combines Bluespec's modular-decomposition style with fine-grained control of timing; includes Coq embedding with a verified compiler to circuits</i></blockquote>
+</div>
+<div class="box">
+<a href="https://www.cs.purdue.edu/homes/bendy/">Benjamin Delaware</a>, <a href="https://github.com/sorawit">Sorawit Suriyakarn</a>, <a href="http://pit-claudel.fr/clement/">ClÃ©ment Pit--Claudel</a>, <a href="https://www.cs.purdue.edu/homes/ye202/">Qianchuan Ye</a>, <a href="http://adam.chlipala.net/">Adam Chlipala</a>.
+	<a href="NarcissusICFP19/">Narcissus: Correct-By-Construction Derivation of Decoders and Encoders from Binary Formats</a>.
+	
+			Proceedings of the <a href="https://icfp19.sigplan.org/">24th ACM SIGPLAN International Conference on Functional Programming (ICFP 2019)</a>.
+		August  2019.
+			<blockquote><i>Using Coq to derive efficient binary-format parsers from declarative specifications, automatically</i></blockquote>
+</div>
+<div class="box">
+<a href="https://andres.systems/">Andres Erbsen</a>, <a href="https://github.com/jadephilipoom">Jade Philipoom</a>, <a href="http://people.csail.mit.edu/jgross/">Jason Gross</a>, <a href="https://blog.modt.io/">Robert Sloan</a>, <a href="http://adam.chlipala.net/">Adam Chlipala</a>.
+	<a href="FiatCryptoSP19/">Simple High-Level Code For Cryptographic Arithmetic -- With Proofs, Without Compromises</a>.
+	
+			Proceedings of the <a href="http://www.ieee-security.org/TC/SP2019/">IEEE Symposium on Security &amp; Privacy 2019 (S&amp;P 2019)</a>.
+		May  2019.
+			<blockquote><i>Correct-by-construction generation of low-level crypto-primitive code using Coq</i></blockquote>
+</div>
+<div class="box">
+<a href="http://adam.chlipala.net/">Adam Chlipala</a>.
+	<a href="HscGOMAC19/">Algorithmic Checking of Security Arguments for Microprocessors</a>.
+	
+			Proceedings of the <a href="https://www.gomactech.net/2019/">Annual GOMACTech Conference 2019 (GOMACTech 2019)</a>.
+		March  2019.
+			<blockquote><i>Summarizing our team's work with formal methods in <a href="https://www.darpa.mil/program/system-security-integration-through-hardware-and-firmware">the DARPA SSITH program</a></i></blockquote>
+</div>
+<div class="box">
+<a href="https://github.com/Atalay-Ileri">Atalay Ileri</a>, <a href="https://github.com/tchajed">Tej Chajed</a>, <a href="http://adam.chlipala.net/">Adam Chlipala</a>, <a href="http://pdos.csail.mit.edu/~kaashoek/">Frans Kaashoek</a>, <a href="http://people.csail.mit.edu/nickolai/">Nickolai Zeldovich</a>.
+	<a href="FscqOSDI18/">Proving confidentiality in a file system using DiskSec</a>.
+	
+			Proceedings of the <a href="https://www.usenix.org/conference/osdi18/">13th USENIX Symposium on Operating Systems Design and Implementation (OSDI 2018)</a>.
+		October  2018.
+			<blockquote><i><a href="FscqSOSP15/">FSCQ</a> extended to track information-flow policies that distinguish between different users</i></blockquote>
+</div>
+<div class="box">
+<a href="http://astampoulis.github.com/">Antonis Stampoulis</a>, <a href="http://adam.chlipala.net/">Adam Chlipala</a>.
+	<a href="MakamICFP18/">Prototyping a Functional Language using Higher-Order Logic Programming: A Functional Pearl on Learning the Ways of Lambda-Prolog/Makam</a>.
+	
+			Proceedings of the <a href="https://icfp18.sigplan.org/">23rd ACM SIGPLAN International Conference on Functional Programming (ICFP 2018)</a>.
+		September  2018.
+			<blockquote><i>An introduction to a slick way of implementing programming languages concisely and modularly, focusing on type checking, told in the style of a play, including songs</i></blockquote>
+</div>
+<div class="box">
+<a href="http://www.ben-sherman.net/">Benjamin Sherman</a>, <a href="https://github.com/lsciarappa">Luke Sciarappa</a>, <a href="http://adam.chlipala.net/">Adam Chlipala</a>, <a href="http://people.csail.mit.edu/mcarbin/">Michael Carbin</a>.
+	<a href="ComputableLICS18/">Computable decision-making on the reals and other spaces via partiality and nondeterminism</a>.
+	
+			Proceedings of the <a href="http://lics.siglog.org/lics18/">33rd Annual ACM/IEEE Symposium on Logic in Computer Science (LICS 2018)</a>.
+		July  2018.
+			<blockquote><i>A theorem in real analysis shows that, in a world where all computations are continuous, we can't implement interesting conditional tests over, say, the real numbers.  Here we show how to get around the problem with a functional-programming-friendly topological treatment of nondeterminism.  (We can make discrete decisions about values from continuous spaces so long as we leave some wiggle room about what will actually happen at runtime.)</i></blockquote>
+</div>
+<div class="box">
+<a href="http://people.csail.mit.edu/jgross/">Jason Gross</a>, <a href="https://andres.systems/">Andres Erbsen</a>, <a href="http://adam.chlipala.net/">Adam Chlipala</a>.
+	<a href="ReificationITP18/">Reification by Parametricity: Fast Setup for Proof by Reflection, in Two Lines of Ltac</a>.
+	
+			Proceedings of the <a href="https://itp2018.inria.fr/">Interactive Theorem Proving - Ninth International Conference (ITP 2018)</a>.
+		July  2018.
+			<blockquote><i>A surprisingly simple way to convert terms in higher-order logic into first-class syntax trees, using standard features: would you believe that reification can mostly be done by term normalization in the metalanguage?</i></blockquote>
+</div>
+<div class="box">
+<a href="http://pdos.csail.mit.edu/~hchen/">Haogang Chen</a>, <a href="https://github.com/tchajed">Tej Chajed</a>, <a href="https://www.linkedin.com/in/alex-konradi-89604081/">Alex Konradi</a>, <a href="https://github.com/stephanie-wang">Stephanie Wang</a>, <a href="https://github.com/Atalay-Ileri">Atalay Ileri</a>, <a href="http://adam.chlipala.net/">Adam Chlipala</a>, <a href="http://pdos.csail.mit.edu/~kaashoek/">Frans Kaashoek</a>, <a href="http://people.csail.mit.edu/nickolai/">Nickolai Zeldovich</a>.
+	<a href="FscqSOSP17/">Verifying a High-Performance Crash-Safe File System Using a Tree Specification</a>.
+	
+			Proceedings of the <a href="http://sigops.org/s/conferences/sosp/2017/">26th ACM Symposium on Operating Systems Principles (SOSP 2017)</a>.
+		October  2017.
+			<blockquote><i><a href="FscqSOSP15/">FSCQ</a> extended to support "flush" operations and delayed syncing of data to disk, as a performance optimization</i></blockquote>
+</div>
+<div class="box">
+<a href="http://people.csail.mit.edu/wangpeng/">Peng Wang</a>, <a href="https://www.cs.cmu.edu/~diw3/">Di Wang</a>, <a href="http://adam.chlipala.net/">Adam Chlipala</a>.
+	<a href="TimlOOPSLA17/">TiML: A Functional Language for Practical Complexity Analysis with Invariants</a>.
+	
+			Proceedings of the <a href="http://2017.splashcon.org/track/splash-2017-OOPSLA">2017 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, &amp; Applications (OOPSLA 2017)</a>.
+		October  2017.
+			<blockquote><i>Using refinement types to upper-bound program asymptotic running time, taking advantage of invariants specific to data structures</i></blockquote>
+</div>
+<div class="box">
+<a href="http://people.csail.mit.edu/joonwonc/">Joonwon Choi</a>, <a href="http://people.csail.mit.edu/vmurali/">Muralidaran Vijayaraghavan</a>, <a href="http://www.ben-sherman.net/">Benjamin Sherman</a>, <a href="http://adam.chlipala.net/">Adam Chlipala</a>, <a href="http://csg.csail.mit.edu/Users/arvind/">Arvind</a>.
+	<a href="KamiICFP17/">Kami: A Platform for High-Level Parametric Hardware Specification and its Modular Verification</a>.
+	
+			Proceedings of the <a href="https://icfp17.sigplan.org/">22nd ACM SIGPLAN International Conference on Functional Programming (ICFP 2017)</a>.
+		September  2017.
+			<blockquote><i>A Coq framework for modular correctness proofs of computer-architecture designs, supporting automatic extraction to circuits that run on FPGAs, etc.</i></blockquote>
+</div>
+<div class="box">
+<a href="http://adam.chlipala.net/">Adam Chlipala</a>, <a href="https://www.cs.purdue.edu/homes/bendy/">Benjamin Delaware</a>, <a href="https://github.com/sdukhovni">Samuel Duchovni</a>, <a href="http://people.csail.mit.edu/jgross/">Jason Gross</a>, <a href="http://pit-claudel.fr/clement/">ClÃ©ment Pit--Claudel</a>, <a href="https://github.com/sorawit">Sorawit Suriyakarn</a>, <a href="http://people.csail.mit.edu/wangpeng/">Peng Wang</a>, <a href="https://www.cs.cmu.edu/~kqy/">Katherine Ye</a>.
+	<a href="FiatSNAPL17/">The End of History? Using a Proof Assistant to Replace Language Design with Library Design</a>.
+	
+			Proceedings of the <a href="http://snapl.org/2017/">The 2nd Summit oN Advances in Programming Languages (SNAPL 2017)</a>.
+		May  2017.
+			<blockquote><i>The sales pitch for our Fiat system as embodying a new programming style, with novel and effective kinds of abstraction and modularity</i></blockquote>
+</div>
+<div class="box">
+<a href="http://ziv.codes/">Ziv Scully</a>, <a href="http://adam.chlipala.net/">Adam Chlipala</a>.
+	<a href="SqlcachePOPL17/">A Program Optimization for Automatic Database Result Caching</a>.
+	
+			Proceedings of the <a href="https://popl17.sigplan.org/">44th ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL 2017)</a>.
+		January  2017.
+			<blockquote><i>A compiler optimization for <a href="http://www.impredicative.com/ur/">Ur/Web</a> that adds caching for SQL-query results and derived computations, inferring sound invalidation strategies that often avoid bottlenecks for parallel execution</i></blockquote>
+</div>
+<div class="box">
+<a href="https://github.com/tgregoir">Thomas Gregoire</a>, <a href="http://adam.chlipala.net/">Adam Chlipala</a>.
+	<a href="StencilsITP16/">Mostly Automated Formal Verification of Loop Dependencies with Applications to Distributed Stencil Algorithms</a>.
+	
+			Proceedings of the <a href="http://itp2016.inria.fr/">Interactive Theorem Proving - Seventh International Conference (ITP 2016)</a>.
+		August  2016.
+			<blockquote><i>A Coq framework for verifying that nested loops obey dependency constraints, in message-passing distributed programs that collaboratively fill in the cells of large multidimensional grids</i></blockquote>
+</div>
+<div class="box">
+<a href="http://www.cs.ucr.edu/~lesani/">Mohsen Lesani</a>, <a href="http://people.csail.mit.edu/cj/">Christian J. Bell</a>, <a href="http://adam.chlipala.net/">Adam Chlipala</a>.
+	<a href="ChaparPOPL16/">Chapar: Certified Causally Consistent Distributed Key-Value Stores</a>.
+	
+			Proceedings of the <a href="http://popl16.sigplan.org/">43rd ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL 2016)</a>.
+		January  2016.
+			<blockquote><i>Coq proofs of several distributed key-value store algorithms, including principles for modular reasoning about client programs that use them</i></blockquote>
+</div>
+<div class="box">
+<a href="http://pdos.csail.mit.edu/~hchen/">Haogang Chen</a>, <a href="http://events.ccc.de/congress/2014/Fahrplan/speakers/5081.html">Daniel Ziegler</a>, <a href="https://github.com/tchajed">Tej Chajed</a>, <a href="http://adam.chlipala.net/">Adam Chlipala</a>, <a href="http://pdos.csail.mit.edu/~kaashoek/">Frans Kaashoek</a>, <a href="http://people.csail.mit.edu/nickolai/">Nickolai Zeldovich</a>.
+	<a href="FscqSOSP15/">Using Crash Hoare Logic for Certifying the FSCQ File System</a>.
+	
+			Proceedings of the <a href="http://www.ssrc.ucsc.edu/sosp15/">25th ACM Symposium on Operating Systems Principles (SOSP 2015)</a>.
+		October  2015.
+			<i>Best Paper Award</i>.<blockquote><i>A file system implemented and verified in Coq, using separation logic, connected to Linux and providing respectable performance</i></blockquote>
+</div>
+<div class="box">
+<a href="http://adam.chlipala.net/">Adam Chlipala</a>.
+	<a href="UrWebICFP15/">An Optimizing Compiler for a Purely Functional Web-Application Language</a>.
+	
+			Proceedings of the <a href="http://www.icfpconference.org/icfp2015/">20th ACM SIGPLAN International Conference on Functional Programming (ICFP 2015)</a>.
+		August  2015.
+			<blockquote><i>The whole-program optimizing compiler for <a href="http://www.impredicative.com/ur/">Ur/Web</a></i></blockquote>
+</div>
+<div class="box">
+<a href="http://people.csail.mit.edu/vmurali/">Muralidaran Vijayaraghavan</a>, <a href="http://adam.chlipala.net/">Adam Chlipala</a>, <a href="http://csg.csail.mit.edu/Users/arvind/">Arvind</a>, <a href="http://people.csail.mit.edu/ndave/">Nirav Dave</a>.
+	<a href="BlueCAV15/">Modular Deductive Verification of Multiprocessor Hardware Designs</a>.
+	
+			Proceedings of the <a href="http://i-cav.org/2015/">27th International Conference on Computer Aided Verification (CAV 2015)</a>.
+		July  2015.
+			<blockquote><i>Modular Coq proofs of Bluespec-style hardware descriptions, where processors and memory systems can be verified separately against generic specs (in the style of labeled transition systems) that are compatible with many different optimizations</i></blockquote>
+</div>
+<div class="box">
+<a href="https://www.cs.purdue.edu/homes/bendy/">Benjamin Delaware</a>, <a href="http://pit-claudel.fr/clement/">ClÃ©ment Pit--Claudel</a>, <a href="http://people.csail.mit.edu/jgross/">Jason Gross</a>, <a href="http://adam.chlipala.net/">Adam Chlipala</a>.
+	<a href="FiatPOPL15/">Fiat: Deductive Synthesis of Abstract Data Types in a Proof Assistant</a>.
+	
+			Proceedings of the <a href="http://popl.mpi-sws.org/2015/">42nd ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL 2015)</a>.
+		January  2015.
+			<blockquote><i>Deriving efficient OCaml implementations of abstract data types, from declarative specifications, in Coq, mostly automatically.  The main case study works with SQL-style relational queries and update operations.</i></blockquote>
+</div>
+<div class="box">
+<a href="http://adam.chlipala.net/">Adam Chlipala</a>.
+	<a href="UrWebPOPL15/">Ur/Web: A Simple Model for Programming the Web</a>.
+	
+			Proceedings of the <a href="http://popl.mpi-sws.org/2015/">42nd ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL 2015)</a>.
+		January  2015.
+			<blockquote><i>At long last, a paper on the design of <a href="http://www.impredicative.com/ur/">Ur/Web</a>, a DSL for Web applications, supporting novel encapsulation techniques and a simple concurrency model for distributed applications</i></blockquote>
+</div>
+<div class="box">
+<a href="http://adam.chlipala.net/">Adam Chlipala</a>.
+	<a href="BedrockPOPL15/">From Network Interface to Multithreaded Web Applications: A Case Study in Modular Program Verification</a>.
+	
+			Proceedings of the <a href="http://popl.mpi-sws.org/2015/">42nd ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL 2015)</a>.
+		January  2015.
+			<blockquote><i>A case study in building a whole-program Coq proof that covers both an application (a database-backed dynamic Web application) and systems infrastructure (a cooperative thread library).  The components are verified modularly with <a href="http://plv.csail.mit.edu/bedrock/">Bedrock</a>, and there is a verified compiler for a domain-specific language that can be used to derive similar theorems for similar Web applications, with minimal new proving work.</i></blockquote>
+</div>
+<div class="box">
+<a href="http://people.csail.mit.edu/wangpeng/">Peng Wang</a>, <a href="http://scholar.princeton.edu/scuellar/">Santiago Cuellar</a>, <a href="http://adam.chlipala.net/">Adam Chlipala</a>.
+	<a href="CitoOOPSLA14/">Compiler Verification Meets Cross-Language Linking via Data Abstraction</a>.
+	
+			Proceedings of the <a href="http://2014.splashcon.org/track/oopsla2014">2014 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, &amp; Applications (OOPSLA 2014)</a>.
+		October  2014.
+			<blockquote><i>An approach to verifying multilanguage programs in the <a href="http://plv.csail.mit.edu/bedrock/">Bedrock</a> framework, mixing operational semantics for intralanguage reasoning and axiomatic semantics for interlanguage reasoning</i></blockquote>
+</div>
+<div class="box">
+<a href="http://homes.cs.washington.edu/~xi/">Xi Wang</a>, <a href="http://www.csail.mit.edu/user/3604">David Lazar</a>, <a href="http://people.csail.mit.edu/nickolai/">Nickolai Zeldovich</a>, <a href="http://adam.chlipala.net/">Adam Chlipala</a>, <a href="http://homes.cs.washington.edu/~ztatlock/">Zachary Tatlock</a>.
+	<a href="JitkOSDI14/">Jitk: A Trustworthy In-Kernel Interpreter Infrastructure</a>.
+	
+			Proceedings of the <a href="https://www.usenix.org/conference/osdi14/">11th USENIX Symposium on Operating System Design and Implementation (OSDI 2014)</a>.
+		October  2014.
+			<blockquote><i>Coq-verified just-in-time compilation for packet filters, etc., in Linux</i></blockquote>
+</div>
+<div class="box">
+<a href="https://gmalecha.github.io/">Gregory Malecha</a>, <a href="http://adam.chlipala.net/">Adam Chlipala</a>, <a href="http://braibant.github.io/">Thomas Braibant</a>.
+	<a href="MirrorShardITP14/">Compositional Computational Reflection</a>.
+	
+			Proceedings of the <a href="http://www.cs.uwyo.edu/~ruben/itp-2014/">5th International Conference on Interactive Theorem Proving (ITP 2014)</a>.
+		July  2014.
+			<blockquote><i>A framework for combining reflective Coq tactics, applied in the <a href="http://plv.csail.mit.edu/bedrock/">Bedrock</a> system to verify imperative programs</i></blockquote>
+</div>
+<div class="box">
+<a href="http://people.csail.mit.edu/jgross/">Jason Gross</a>, <a href="http://adam.chlipala.net/">Adam Chlipala</a>, <a href="http://math.mit.edu/~dspivak/">David Spivak</a>.
+	<a href="CategoryITP14/">Experience Implementing a Performant Category-Theory Library in Coq</a>.
+	
+			Proceedings of the <a href="http://www.cs.uwyo.edu/~ruben/itp-2014/">5th International Conference on Interactive Theorem Proving (ITP 2014)</a>.
+		July  2014.
+			<blockquote><i>A Coq category-theory library, designed to support computationally efficient proofs of large goals, taking advantage of recent improvements to the homotopy-type-theory Coq version and giving some other wishlist items for Coq</i></blockquote>
+</div>
+<div class="box">
+<a href="http://adam.chlipala.net/">Adam Chlipala</a>.
+	<a href="BedrockICFP13/">The Bedrock Structured Programming System: Combining Generative Metaprogramming and Hoare Logic in an Extensible Program Verifier</a>.
+	
+			Proceedings of the <a href="http://www.icfpconference.org/icfp2013/">18th ACM SIGPLAN International Conference on Functional Programming (ICFP 2013)</a>.
+		September  2013.
+			<blockquote><i>Bedrock takes literally the idea of C as a "macro assembly language."  All the programming features are built up as macros on top of assembly language, and macros have verified Hoare logic-style proof rules attached to them, so that one gets a "free" environment for mostly automated deductive program verification for any mix of macros used in a particular program.</i></blockquote>
+</div>
+<div class="box">
+<a href="http://braibant.github.io/">Thomas Braibant</a>, <a href="http://adam.chlipala.net/">Adam Chlipala</a>.
+	<a href="FesiCAV13/">Formal Verification of Hardware Synthesis</a>.
+	
+			Proceedings of the <a href="http://cav2013.forsyte.at/">25th International Conference on Computer Aided Verification (CAV 2013)</a>.
+		July  2013.
+			<blockquote><i>A verified compiler for an idealization of the Bluespec hardware description language</i></blockquote>
+</div>
+<div class="box">
+<a href="http://adam.chlipala.net/">Adam Chlipala</a>.
+	<a href="BedrockPLDI11/">Mostly-Automated Verification of Low-Level Programs in Computational Separation Logic</a>.
+	
+			Proceedings of the <a href="http://pldi11.cs.utah.edu/">ACM SIGPLAN 2011 Conference on Programming Language Design and Implementation (PLDI 2011)</a>.
+		June  2011.
+			<blockquote><i>A constructive proof that automating separation logic proofs for systems code is easy, despite claims to the contrary coming from SMT solver-centric perspectives. ;-)  Specifically, this paper introduced <a href="http://plv.csail.mit.edu/bedrock/">Bedrock</a>, a Coq library for foundational verification of code at the assembly level of abstraction.  A mostly-automated separation logic prover uses a modest amount of programmer annotation to drive verification of examples like imperative data structures and a cooperative threading library.</i></blockquote>
+</div>
+<div class="box">
+<a href="http://adam.chlipala.net/">Adam Chlipala</a>.
+	<a href="UrFlowOSDI10/">Static Checking of Dynamically-Varying Security Policies in Database-Backed Applications</a>.
+	
+			Proceedings of the <a href="http://www.usenix.org/event/osdi10/">9th USENIX Symposium on Operating Systems Design and Implementation (OSDI 2010)</a>.
+		October  2010.
+			<blockquote><i>Static analysis for security policies for <a href="http://www.impredicative.com/ur/">Ur/Web</a> applications, based on the key new idea of representing policies as SQL queries.  The analysis follows the well-trod path of symbolic evaluation and automated first-order-logic theorem-proving.</i></blockquote>
+</div>
+<div class="box">
+<a href="http://adam.chlipala.net/">Adam Chlipala</a>.
+	<a href="UrPLDI10/">Ur: Statically-Typed Metaprogramming with Type-Level Record Computation</a>.
+	
+			Proceedings of the <a href="http://cs.stanford.edu/pldi10/">ACM SIGPLAN 2010 Conference on Programming Language Design and Implementation (PLDI 2010)</a>.
+		June  2010.
+			<blockquote><i>A first paper about <a href="http://www.impredicative.com/ur/">Ur</a>, focusing on the metaprogramming aspect: we can write generic programs that write programs, based on inputs like database schemas, summaries of HTML form configurations, etc., and we can type-check our generators statically without needing to write any proof terms.</i></blockquote>
+</div>
+<div class="box">
+<a href="http://adam.chlipala.net/">Adam Chlipala</a>.
+	<a href="ImpurePOPL10/">A Verified Compiler for an Impure Functional Language</a>.
+	
+			Proceedings of the <a href="http://www.cse.psu.edu/popl/10/">37th ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL 2010)</a>.
+		January  2010.
+			<blockquote><i>A case study in verifying a compiler to an idealized assembly language from an untyped source language with most of the key dynamic features of ML: functions, products, sums, mutable references, and value-carrying exceptions.  Syntax is encoded with parametric higher-order abstract syntax (PHOAS), which makes it possible to avoid almost all bookkeeping having to do with binders and fresh name generation.  The semantics of the object languages are encoded in a new substitution-free style.  All of the proofs are automated with tactic programs that can keep working even after changing the definitions of the languages.</i></blockquote>
+</div>
+<div class="box">
+<a href="http://adam.chlipala.net/">Adam Chlipala</a>, <a href="https://gmalecha.github.io/">Gregory Malecha</a>, <a href="http://www.cs.cornell.edu/~jgm/">Greg Morrisett</a>, <a href="http://researcher.watson.ibm.com/researcher/view.php?person=us-shinnar">Avraham Shinnar</a>, <a href="http://wisnesky.net/">Ryan Wisnesky</a>.
+	<a href="YnotICFP09/">Effective Interactive Proofs for Higher-Order Imperative Programs</a>.
+	
+			Proceedings of the <a href="http://www.cs.nott.ac.uk/~gmh/icfp09.html">14th ACM SIGPLAN International Conference on Functional Programming (ICFP 2009)</a>.
+		August  2009.
+			<blockquote><i>An approach to automating correctness proofs about higher-order, imperative programs in Coq, based on an extensible simplifier for separation logic formulas</i></blockquote>
+</div>
+<div class="box">
+<a href="http://adam.chlipala.net/">Adam Chlipala</a>.
+	<a href="PhoasICFP08/">Parametric Higher-Order Abstract Syntax for Mechanized Semantics</a>.
+	
+			Proceedings of the <a href="http://www.icfpconference.org/icfp2008/">13th ACM SIGPLAN International Conference on Functional Programming (ICFP 2008)</a>.
+		September  2008.
+			<i>Awarded Most Influential Paper ten years later</i>.<blockquote><i>A new trick for encoding variable binders in Coq, along with an exploration of its consequences: almost trivial syntax and type-theoretic semantics for languages including such features as polymorphism and complicated binding structure (e.g., ML-style pattern matching); almost trivial type preservation proofs for compiler passes that don't need intensional analysis of variables; mostly-automated semantic correctness proofs about those passes, by way of adding an axiom to make the parametricity of CIC usable explicitly in proofs; and the ability to drop down to more traditional syntactic representations for more arduous but feasible proofs of the same properties, when intensional variable analysis is needed.</i></blockquote>
+</div>
+<div class="box">
+<a href="http://adam.chlipala.net/">Adam Chlipala</a>.
+	<a href="CtpcPLDI07/">A Certified Type-Preserving Compiler from Lambda Calculus to Assembly Language</a>.
+	
+			Proceedings of the <a href="http://ties.ucsd.edu/PLDI/">ACM SIGPLAN 2007 Conference on Programming Language Design and Implementation (PLDI 2007)</a>.
+		June  2007.
+			<blockquote><i>A compiler for a tiny statically-typed functional programming language, implemented in Coq with a proof of correctness. The main interesting bits are my use of dependently-typed abstract syntax and denotational semantics, along with some engineering tricks for making the task manageable.</i></blockquote>
+</div>
+<div class="box">
+<a href="http://adam.chlipala.net/">Adam Chlipala</a>.
+	<a href="CertVerICFP06/">Modular Development of Certified Program Verifiers with a Proof Assistant</a>.
+	
+			Proceedings of the <a href="http://icfp06.cs.uchicago.edu/">11th ACM SIGPLAN International Conference on Functional Programming (ICFP 2006)</a>.
+		September  2006.
+			<blockquote><i>I report on an experience using the Coq proof assistant to develop a program verification tool with a machine-checkable proof of full correctness. The verifier is able to prove memory safety of x86 machine code programs compiled from code that uses algebraic datatypes. The tool's soundness theorem is expressed in terms of the bit-level semantics of x86 programs, so its correctness depends on very few assumptions. I take advantage of Coq's support for programming with dependent types and modules in the structure of my development. The approach is based on developing a library of reusable functors for transforming a verifier at one level of abstraction into a verifier at a lower level. Using this library, it's possible to prototype a verifier based on a new type system with a minimal amount of work, while obtaining a very strong soundness theorem about the final product.</i></blockquote>
+</div>
+<div class="box">
+<a href="http://www.cs.colorado.edu/~bec/">Bor-Yuh Evan Chang</a>, <a href="http://adam.chlipala.net/">Adam Chlipala</a>, <a href="http://www.cs.berkeley.edu/~necula/">George C. Necula</a>.
+	<a href="PcvVMCAI06/">A Framework for Certified Program Analysis and Its Applications to Mobile-Code Safety</a>.
+	
+			Proceedings of the <a href="http://www.informatik.uni-trier.de/~ley/db/conf/vmcai/vmcai2006.html">7th International Conference on Verification, Model Checking, and Abstract Interpretation (VMCAI 2006)</a>.
+		January  2006.
+			<blockquote><i>We propose a new technique in support of the construction of efficient Foundational Proof-Carrying Code systems. Instead of suggesting that pieces of mobile code come with proofs of their safety, we instead suggest that they come with executable verifiers that can attest to their safety, as in our previous work on the Open Verifier. However, in contrast to that previous work, here we do away with any runtime proof generation by these verifiers. Instead, we require that the verifier itself is proved sound. To support this, we present a novel technique for extracting proof obligations about ML programs. Using this approach, we are able to demonstrate the first foundational verification technique for Typed Assembly Language with performance comparable to that of the traditional, uncertified TAL type checker.</i></blockquote>
+</div>
+<div class="box">
+<a href="http://www.sosy-lab.org/~dbeyer/">Dirk Beyer</a>, <a href="http://adam.chlipala.net/">Adam J. Chlipala</a>, <a href="http://pub.ist.ac.at/~tah/">Thomas Henzinger</a>, <a href="http://goto.ucsd.edu/~rjhala/">Ranjit Jhala</a>, <a href="http://www.mpi-sws.org/~rupak/">Rupak Majumdar</a>.
+	<a href="BlastICSE04/">Generating Tests from Counterexamples</a>.
+	
+			Proceedings of the <a href="http://www.icse-conferences.org/2004/index.html">26th International Conference on Software Engineering (ICSE 2004)</a>, IEEE Computer Society Press.
+		May  2004.
+			<blockquote><i>We describe how to use the BLAST model checker to generate program test suites that achieve full coverage with respect to a given set of predicates.</i></blockquote>
+</div>
+<h2 class="morespace">Refereed workshop papers (6)</h2>
+<div class="box">
+<a href="http://pdos.csail.mit.edu/~hchen/">Haogang Chen</a>, <a href="http://events.ccc.de/congress/2014/Fahrplan/speakers/5081.html">Daniel Ziegler</a>, <a href="http://adam.chlipala.net/">Adam Chlipala</a>, <a href="http://pdos.csail.mit.edu/~kaashoek/">Frans Kaashoek</a>, <a href="http://read.seas.harvard.edu/~kohler/">Eddie Kohler</a>, <a href="http://people.csail.mit.edu/nickolai/">Nickolai Zeldovich</a>.
+	<a href="StorageHotOS15/">Towards Certified Storage Systems</a>.
+	
+			Proceedings of the <a href="https://www.usenix.org/conference/hotos15">15th Workshop on Hot Topics in Operating Systems (HotOS 2015)</a>.
+		May  2015.
+			<blockquote><i>On verifying functional properties of filesystems in the presence of failures, using proof assistants</i></blockquote>
+</div>
+<div class="box">
+<a href="http://adam.chlipala.net/">Adam Chlipala</a>.
+	<a href="PositionPLPV06/">Position Paper: Thoughts on Programming with Proof Assistants</a>.
+	
+			Proceedings of the <a href="http://www.easychair.org/FLoC-06/PLPV.html">Programming Languages meets Program Verification Workshop (PLPV 2006)</a>.
+		August  2006.
+			<blockquote><i>Some thoughts on how Coq is actually in pretty good shape to use today for non-trivial programming with dependent types</i></blockquote>
+</div>
+<div class="box">
+<a href="http://adam.chlipala.net/">Adam Chlipala</a>, <a href="http://www.cs.berkeley.edu/~necula/">George C. Necula</a>.
+	<a href="KettleStrategies06/">Cooperative Integration of an Interactive Proof Assistant and an Automated Prover</a>.
+	
+			Proceedings of the <a href="http://www.easychair.org/FLoC-06/Strategies.html">6th International Workshop on Strategies in Automated Deduction (STRATEGIES 2006)</a>.
+		August  2006.
+			<blockquote><i>We show how to combine the interactive proof assistant Coq and the Nelson-Oppen-style automated first-order theorem prover Kettle in a synergistic way. We do this with a Kettle tactic for Coq that uses theory-specific reasoning to simplify goals based on automatically chosen case analyses, returning to the user as subgoals the cases it couldn't prove automatically. The process can then be repeated recursively, using Coq's tactical language as a very expressive extension of the matching strategies found in provers like Simplify. We also discuss how to encode specialized first-order proofs efficiently in Coq using proof by reflection.</i></blockquote>
+</div>
+<div class="box">
+<a href="http://www.cs.colorado.edu/~bec/">Bor-Yuh Evan Chang</a>, <a href="http://adam.chlipala.net/">Adam Chlipala</a>, <a href="http://www.cs.berkeley.edu/~necula/">George C. Necula</a>, <a href="http://tupelo-schneck.org/robert/">Robert R. Schneck</a>.
+	<a href="OpenverTLDI05/">The Open Verifier Framework for Foundational Verifiers</a>.
+	
+			Proceedings of the <a href="http://research.microsoft.com/~maf/tldi05/">2nd ACM SIGPLAN Workshop on Types in Language Design and Implementation (TLDI 2005)</a>.
+		January  2005.
+			<blockquote><i>We propose a new framework for the construction of trustworthy program verifiers. The Open Verifier architecture can be viewed as an optimized Foundational Proof-Carrying Code toolkit. Instead of proposing that code producers send proofs of safety with all of their programs, we instead suggest that they send re-usable proof-generating verifiers. The proofs are generated in an online fashion via a novel interaction scheme between the untrusted verifier and the trusted core of the system.</i></blockquote>
+</div>
+<div class="box">
+<a href="http://www.cs.colorado.edu/~bec/">Bor-Yuh Evan Chang</a>, <a href="http://adam.chlipala.net/">Adam Chlipala</a>, <a href="http://www.cs.berkeley.edu/~necula/">George C. Necula</a>, <a href="http://tupelo-schneck.org/robert/">Robert R. Schneck</a>.
+	<a href="CoolaidTLDI05/">Type-Based Verification of Assembly Language for Compiler Debugging</a>.
+	
+			Proceedings of the <a href="http://research.microsoft.com/~maf/tldi05/">2nd ACM SIGPLAN Workshop on Types in Language Design and Implementation (TLDI 2005)</a>.
+		January  2005.
+			<blockquote><i>A new approach to checking assembly programs in a way similar to that used in the Java Bytecode Verifier. We introduce a novel mixed type/value technique that makes it tractable to deal with some of the "dependent typing" issues that come up. We also present results on using this technique to help students in an undergraduate compilers class debug their class projects.</i></blockquote>
+</div>
+<div class="box">
+<a href="http://adam.chlipala.net/">Adam Chlipala</a>, <a href="http://www.leafpetersen.com/">Leaf Petersen</a>, <a href="http://www.cs.cmu.edu/~rwh/">Robert Harper</a>.
+	<a href="StrictTLDI05/">Strict Bidirectional Type Checking</a>.
+	
+			Proceedings of the <a href="http://research.microsoft.com/~maf/tldi05/">2nd ACM SIGPLAN Workshop on Types in Language Design and Implementation (TLDI 2005)</a>.
+		January  2005.
+			<blockquote><i>We present a type system that is useful in saving type annotation space in intermediate language terms expressed in the restricted form called "A-normal form" or "one-half CPS." Our approach imports ideas from strict logic, which is based on the idea of hypotheses that must be used at least once. The resulting system is relevant to the efficiency of type-preserving compilers.</i></blockquote>
+</div>
+<h2 class="morespace">Refereed poster sessions (1)</h2>
+<div class="box">
+<a href="http://adam.chlipala.net/">Adam Chlipala</a>.
+	<a href="PosterPCC06/">Developing Certified Program Verifiers with a Proof Assistant</a>.
+	
+			Proceedings of the <a href="http://www.cs.stevens.edu/~abc/PCC-Workshop.html">International Workshop on Proof-Carrying Code (PCC 2006)</a>.
+		August  2006.
+			<blockquote><i>A poster about <a href="CertVerICFP06/">certified program verifiers in Coq</a></i></blockquote>
+</div>
+<h2 class="morespace">Invited conference papers (1)</h2>
+<div class="box">
+<a href="http://www.sosy-lab.org/~dbeyer/">Dirk Beyer</a>, <a href="http://adam.chlipala.net/">Adam J. Chlipala</a>, <a href="http://pub.ist.ac.at/~tah/">Thomas Henzinger</a>, <a href="http://goto.ucsd.edu/~rjhala/">Ranjit Jhala</a>, <a href="http://www.mpi-sws.org/~rupak/">Rupak Majumdar</a>.
+	<a href="BlastSAS04/">The Blast Query Language for Software Verification</a>.
+	
+			Proceedings of the <a href="http://profs.sci.univr.it/~sas04/">11th Static Analysis Symposium (SAS 2004)</a>, Lecture Notes in Computer Science 3148, Springer-Verlag.
+		August  2004.
+			<blockquote><i>We describe a system that combines security automaton-based program specification with a facility for relational-style queries about the possible execution paths of a program.</i></blockquote>
+</div>
+<h2 class="morespace">Technical reports (5)</h2>
+<div class="box">
+<a href="http://adam.chlipala.net/">Adam Chlipala</a>.
+	<a href="AutoSyntaxTR/">Generic Programming and Proving for Programming Language Metatheory</a>.
+	
+		Technical Report UCB/EECS-2007-147.
+	2007.
+	<blockquote><i>How to do dependently-typed generation of proofs about programming language syntax and semantics</i></blockquote>
+</div>
+<div class="box">
+<a href="http://adam.chlipala.net/">Adam Chlipala</a>.
+	<a href="ChlipalaPhD/">Implementing Certified Programming Language Tools in Dependent Type Theory</a>.
+	
+		Technical Report UCB/EECS-2007-113.
+	2007.
+	<blockquote><i>My PhD dissertation, re-presenting the work on certified program verifiers (from ICFP 2006) and certified compilers (from PLDI 2007)</i></blockquote>
+</div>
+<div class="box">
+<a href="http://adam.chlipala.net/">Adam Chlipala</a>.
+	<a href="LaconicTR/">Scrap Your Web Application Boilerplate, or Metaprogramming with Row Types</a>.
+	
+		Technical Report UCB/EECS-2006-120.
+	2006.
+	<blockquote><i>An overview of a work-in-progress functional programming language that puts dependent types and theorem proving to work to make it easier to write concise and maintainable web applications</i></blockquote>
+</div>
+<div class="box">
+<a href="http://www.cs.colorado.edu/~bec/">Bor-Yuh Evan Chang</a>, <a href="http://adam.chlipala.net/">Adam Chlipala</a>, <a href="http://www.cs.berkeley.edu/~necula/">George C. Necula</a>.
+	<a href="PcvTR/">A Framework for Certified Program Analysis and Its Applications to Mobile-Code Safety</a>.
+	
+		Technical Report UCB/ERL M05/32.
+	<a href="http://www.eecs.berkeley.edu/">UC Berkeley EECS Department</a>.
+	2005.
+	<blockquote><i>This is an extended version of our VMCAI 2006 paper, containing a formalization of our model extraction procedure and additional examples.</i></blockquote>
+</div>
+<div class="box">
+<a href="http://adam.chlipala.net/">Adam Chlipala</a>.
+	<a href="ChlipalaMS/">An Untrusted Verifier for Typed Assembly Language</a>.
+	MS Project Report.
+	
+		Technical Report UCB/ERL M04/41.
+	<a href="http://www.eecs.berkeley.edu/">UC Berkeley EECS Department</a>.
+	2004.
+	<blockquote><i>A summary of my experiences developing a proof-generating TAL type checker within the Open Verifier framework. In the style of Foundational PCC, the soundness of this verifier and the proofs it generates is based on no assumptions about the TAL type system. This was one of the first projects to consider the runtime performance of Foundational PCC-style verification.</i></blockquote>
+</div>
+</div></body></html>

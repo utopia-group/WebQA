@@ -1,0 +1,1431 @@
+{
+    "id": 0,
+    "content": "IEEE Symposium on Security and Privacy 2020",
+    "children": [
+      {
+        "id": 1,
+        "content": "MAY 18-20, 2020",
+        "key": 1
+      },
+      {
+        "id": 2,
+        "content": "41st IEEE Symposium on   Security and Privacy",
+        "key": 2
+      },
+      {
+        "id": 3,
+        "content": "Sponsored by the IEEE Computer Society Technical Committee on Security and Privacy in cooperation with the International Association for Cryptologic Research",
+        "key": 3
+      },
+      {
+        "id": 4,
+        "content": "Call For Papers",
+        "key": 4,
+        "children": [
+          {
+            "id": 5,
+            "content": "Please note that revisions for papers submitted to the 2019 Symposium need to be submitted to the S&P 2019 submission site.",
+            "key": 1
+          },
+          {
+            "id": 6,
+            "content": "Since 1980 in Oakland, the IEEE Symposium on Security and Privacy has been the premier forum for computer security research, presenting the latest developments and bringing together researchers and practitioners. We solicit previously unpublished papers offering novel research contributions in any aspect of security or privacy. Papers may present advances in the theory, design, implementation, analysis, verification, or empirical evaluation and measurement of secure systems.",
+            "key": 2
+          },
+          {
+            "id": 7,
+            "content": "Topics of interest include:",
+            "key": 3,
+            "children": [
+              {
+                "id": 8,
+                "content": "",
+                "isList": true,
+                "key": 1,
+                "children": [
+                  {
+                    "id": 9,
+                    "content": "Access control and authorization",
+                    "key": 1
+                  },
+                  {
+                    "id": 10,
+                    "content": "Anonymity",
+                    "key": 2
+                  },
+                  {
+                    "id": 11,
+                    "content": "Application security",
+                    "key": 3
+                  },
+                  {
+                    "id": 12,
+                    "content": "Attacks and defenses",
+                    "key": 4
+                  },
+                  {
+                    "id": 13,
+                    "content": "Authentication",
+                    "key": 5
+                  },
+                  {
+                    "id": 14,
+                    "content": "Blockchains and distributed ledger security",
+                    "key": 6
+                  },
+                  {
+                    "id": 15,
+                    "content": "Censorship resistance",
+                    "key": 7
+                  },
+                  {
+                    "id": 16,
+                    "content": "Cloud security",
+                    "key": 8
+                  },
+                  {
+                    "id": 17,
+                    "content": "Cyber physical systems security",
+                    "key": 9
+                  },
+                  {
+                    "id": 18,
+                    "content": "Distributed systems security",
+                    "key": 10
+                  },
+                  {
+                    "id": 19,
+                    "content": "Economics of security and privacy",
+                    "key": 11
+                  },
+                  {
+                    "id": 20,
+                    "content": "Embedded systems security",
+                    "key": 12
+                  },
+                  {
+                    "id": 21,
+                    "content": "Forensics",
+                    "key": 13
+                  },
+                  {
+                    "id": 22,
+                    "content": "Hardware security",
+                    "key": 14
+                  },
+                  {
+                    "id": 23,
+                    "content": "Intrusion detection and prevention",
+                    "key": 15
+                  },
+                  {
+                    "id": 24,
+                    "content": "Malware and unwanted software",
+                    "key": 16
+                  },
+                  {
+                    "id": 25,
+                    "content": "Mobile and Web security and privacy",
+                    "key": 17
+                  },
+                  {
+                    "id": 26,
+                    "content": "Language-based security",
+                    "key": 18
+                  },
+                  {
+                    "id": 27,
+                    "content": "Machine learning and AI security",
+                    "key": 19
+                  },
+                  {
+                    "id": 28,
+                    "content": "Network and systems security",
+                    "key": 20
+                  },
+                  {
+                    "id": 29,
+                    "content": "Privacy technologies and mechanisms",
+                    "key": 21
+                  },
+                  {
+                    "id": 30,
+                    "content": "Protocol security",
+                    "key": 22
+                  },
+                  {
+                    "id": 31,
+                    "content": "Secure information flow",
+                    "key": 23
+                  },
+                  {
+                    "id": 32,
+                    "content": "Security and privacy for the Internet of Things",
+                    "key": 24
+                  },
+                  {
+                    "id": 33,
+                    "content": "Security and privacy metrics",
+                    "key": 25
+                  },
+                  {
+                    "id": 34,
+                    "content": "Security and privacy policies",
+                    "key": 26
+                  },
+                  {
+                    "id": 35,
+                    "content": "Security architectures",
+                    "key": 27
+                  },
+                  {
+                    "id": 36,
+                    "content": "Usable security and privacy",
+                    "key": 28
+                  },
+                  {
+                    "id": 37,
+                    "content": "Trustworthy computing",
+                    "key": 29
+                  },
+                  {
+                    "id": 38,
+                    "content": "Web security",
+                    "key": 30
+                  }
+                ]
+              },
+              {
+                "id": 39,
+                "content": "This topic list is not meant to be exhaustive; S&P is interested in all aspects of computer security and privacy. Papers without a clear application to security or privacy, however, will be considered out of scope and may be rejected without full review.",
+                "key": 2
+              }
+            ]
+          },
+          {
+            "id": 40,
+            "content": "Systematization of Knowledge Papers",
+            "key": 4,
+            "children": [
+              {
+                "id": 41,
+                "content": "As in past years, we solicit systematization of knowledge (SoK) papers that evaluate, systematize, and contextualize existing knowledge, as such papers can provide a high value to our community. Suitable papers are those that provide an important new viewpoint on an established, major research area, support or challenge long-held beliefs in such an area with compelling evidence, or present a convincing, comprehensive new taxonomy of such an area. Survey papers without such insights are not appropriate. Submissions will be distinguished by the prefix âSoK:â in the title and a checkbox on the submission form. They will be reviewed by the full PC and held to the same standards as traditional research papers, but they will be accepted based on their treatment of existing work and value to the community, and not based on any new research results they may contain. Accepted papers will be presented at the symposium and included in the proceedings.",
+                "key": 1
+              }
+            ]
+          },
+          {
+            "id": 42,
+            "content": "Ongoing Submissions",
+            "key": 5,
+            "children": [
+              {
+                "id": 43,
+                "content": "To enhance the quality and timeliness of the scientific results presented as part of the Symposium, and to improve the quality of our reviewing process, IEEE S&P now accepts paper submissions 12 times a year, on the first of each month. The detailed process is as follows.",
+                "key": 1
+              },
+              {
+                "id": 44,
+                "content": "",
+                "isList": true,
+                "key": 2,
+                "children": [
+                  {
+                    "id": 45,
+                    "content": "A rolling deadline occurs on the 1st of each month, at 3:00PM (UTC-7, i.e., PDT). This deadline is strict and no extensions will be granted.",
+                    "key": 1
+                  },
+                  {
+                    "id": 46,
+                    "content": "Within two months of submission, author notifications of Accept/Revise/Reject decisions will be sent out.",
+                    "key": 2
+                  },
+                  {
+                    "id": 47,
+                    "content": "Within one month of acceptance, all accepted papers must submit a camera-ready copy incorporating reviewer feedback. The papers will immediately be published, open access, in the Computer Societyâs Digital Library, and they may be cited as âTo appear in the IEEE Symposium on Security & Privacy, May 20XXâ.",
+                    "key": 3
+                  },
+                  {
+                    "id": 48,
+                    "content": "A limited number of papers will be invited to submit a revision; such papers will receive a specific set of expectations to be met by that revision. Authors may take up to three months from decision notification to produce a revised manuscript and submit it as part of the standard deadline on the 1st of the month. Authors will receive decisions on revisions within one month. See below for additional details on the resubmission procedure.",
+                    "key": 4
+                  },
+                  {
+                    "id": 49,
+                    "content": "",
+                    "key": 5,
+                    "children": [
+                      {
+                        "id": 50,
+                        "content": "Rejected papers must wait for one year, from the date of original submission, to resubmit to IEEE S&P.",
+                        "key": 1
+                      },
+                      {
+                        "id": 51,
+                        "content": "A paper will be judged to be a resubmit (as opposed to a new submission) if the paper is from the same or similar authors, and a reviewer could write a substantially similar summary of the paper compared with the original submission. As a rule of thumb, if there is more than 40% overlap between the original submission and the new paper, it will be considered a resubmission.",
+                        "isList": true,
+                        "key": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": 52,
+                    "content": "",
+                    "key": 6,
+                    "children": [
+                      {
+                        "id": 53,
+                        "content": "All papers accepted by February 1st, 2020, or that are submitted as a revision by February 1st, 2020 and the revision is then accepted, will be included in the proceedings of the symposium in May, 2020 and invited to present their work. Other papers will be included in the 2021 proceedings.",
+                        "key": 1
+                      },
+                      {
+                        "id": 54,
+                        "content": "",
+                        "isList": true,
+                        "key": 2,
+                        "children": [
+                          {
+                            "id": 55,
+                            "content": "As a result, for authors who anticipate using the full three months to respond to a Revision decision, the final submission deadline for possible inclusion in the 2020 proceedings is September 1st, 2019.",
+                            "key": 1
+                          },
+                          {
+                            "id": 56,
+                            "content": "For authors who anticipate using only one month to respond to a Revision decision, the final submission deadline for possible inclusion in the 2020 proceedings is November 1st, 2019.",
+                            "key": 2
+                          },
+                          {
+                            "id": 57,
+                            "content": "The final submission deadline for possible inclusion in the 2020 proceedings is December 1st, 2019, but only for papers accepted without revision.",
+                            "key": 3
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 58,
+            "content": "Revised Submissions",
+            "key": 6,
+            "children": [
+              {
+                "id": 59,
+                "content": "As described above, some number of papers will receive a Revise decision, rather than Accept or Reject. This decision will be accompanied by a detailed summary of the expectations for the revision, in addition to the standard reviewer comments. Authors may take up to three months to prepare a revision, which may include running additional experiments, improving the paperâs presentation, or other such improvements. Papers meeting the expectations will typically be accepted. Those that do not will be rejected. Only in exceptional circumstances will additional revisions be requested.",
+                "key": 1
+              },
+              {
+                "id": 60,
+                "content": "Upon receiving a Revise decision, authors can choose to withdraw their paper or not submit a revision within three months, but they will be asked to not submit the same or similar work again (following the same rules as for Rejected papers) for 1 year from the date of the original submission.",
+                "key": 2
+              },
+              {
+                "id": 61,
+                "content": "Revised submissions should be submitted on the first of the month, just as with new submissions. Revisions must be accompanied by a summary of the changes that were made.",
+                "key": 3
+              }
+            ]
+          },
+          {
+            "id": 62,
+            "content": "Submission Statistics",
+            "key": 7,
+            "children": [
+              {
+                "id": 63,
+                "content": "Statistics on the submissions and decisions made thus far are available here.",
+                "key": 1
+              }
+            ]
+          },
+          {
+            "id": 64,
+            "content": "Student Program Committee",
+            "key": 8,
+            "children": [
+              {
+                "id": 65,
+                "content": "Following a successful model used at last yearâs conference, as well as other premier technical conferences, some paper submissions will be reviewed by a âshadow PCâ of students and junior researchers. For more information see https://www.ieee-security.org/TC/SP2020/studentpc.html.",
+                "key": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 66,
+        "content": "Instructions for Paper Submission",
+        "key": 5,
+        "children": [
+          {
+            "id": 67,
+            "content": "These instructions apply to both the research papers and systematization of knowledge papers.",
+            "key": 1
+          },
+          {
+            "id": 68,
+            "content": "All submissions must be original work; the submitter must clearly document any overlap with previously published or simultaneously submitted papers from any of the authors. Failure to point out and explain overlap will be grounds for rejection. Simultaneous submission of the same paper to another venue with proceedings or a journal is not allowed and will be grounds for automatic rejection. Contact the program committee chairs if there are questions about this policy.",
+            "key": 2
+          },
+          {
+            "id": 69,
+            "content": "Anonymous Submission",
+            "key": 3,
+            "children": [
+              {
+                "id": 70,
+                "content": "Papers must be submitted in a form suitable for anonymous review: no author names or affiliations may appear on the title page, and papers should avoid revealing their identity in the text. When referring to your previous work, do so in the third person, as though it were written by someone else. Only blind the reference itself in the (unusual) case that a third-person reference is infeasible. Publication as a technical report or in an online repository does not constitute a violation of this policy. Contact the program chairs if you have any questions. Papers that are not properly anonymized may be rejected without review.",
+                "key": 1
+              }
+            ]
+          },
+          {
+            "id": 71,
+            "content": "Conflicts of Interest",
+            "key": 4,
+            "children": [
+              {
+                "id": 72,
+                "content": "Drawn from the ACM SIGMOD 2015 CFP",
+                "key": 1,
+                "children": [
+                  {
+                    "id": 73,
+                    "content": "During submission of a research paper, the submission site will request information about conflicts of interest of the paper's authors with program committee (PC) members. It is the full responsibility of all authors of a paper to identify all and only their potential conflict-of-interest PC members, according to the following definition. A paper author has a conflict of interest with a PC member when and only when one or more of the following conditions holds:",
+                    "key": 1
+                  },
+                  {
+                    "id": 74,
+                    "content": "",
+                    "isList": true,
+                    "key": 2,
+                    "children": [
+                      {
+                        "id": 75,
+                        "content": "The PC member is a co-author of the paper.",
+                        "key": 1
+                      },
+                      {
+                        "id": 76,
+                        "content": "",
+                        "key": 2,
+                        "children": [
+                          {
+                            "id": 77,
+                            "content": "The PC member has been a co-worker in the same company or university within the past two years.",
+                            "key": 1
+                          },
+                          {
+                            "id": 78,
+                            "content": "For student interns, the student is conflicted with their supervisors and with members of the same research group. If the student no longer works for the organization, then they are not conflicted with a PC member from the larger organization.",
+                            "isList": true,
+                            "key": 2
+                          }
+                        ]
+                      },
+                      {
+                        "id": 79,
+                        "content": "The PC member has been a collaborator within the past two years.",
+                        "key": 3
+                      },
+                      {
+                        "id": 80,
+                        "content": "The PC member is or was the author's primary thesis advisor, no matter how long ago.",
+                        "key": 4
+                      },
+                      {
+                        "id": 81,
+                        "content": "The author is or was the PC member's primary thesis advisor, no matter how long ago.",
+                        "key": 5
+                      },
+                      {
+                        "id": 82,
+                        "content": "The PC member is a relative or close personal friend of the author.",
+                        "key": 6
+                      }
+                    ]
+                  },
+                  {
+                    "id": 83,
+                    "content": "For any other situation where the authors feel they have a conflict with a PC member, they must explain the nature of the conflict to the PC chairs, who will mark the conflict if appropriate. Papers with incorrect or incomplete conflict of interest information as of the submission closing time are subject to immediate rejection.",
+                    "key": 3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 84,
+            "content": "Human Subjects and Ethical Considerations",
+            "key": 5,
+            "children": [
+              {
+                "id": 85,
+                "content": "Drawn from the USENIX Security 2016 CFP",
+                "key": 1,
+                "children": [
+                  {
+                    "id": 86,
+                    "content": "Submissions that describe experiments on human subjects, that analyze data derived from human subjects (even anonymized data), or that otherwise may put humans at risk should:",
+                    "key": 1
+                  },
+                  {
+                    "id": 87,
+                    "content": "",
+                    "isList": true,
+                    "key": 2,
+                    "children": [
+                      {
+                        "id": 88,
+                        "content": "Disclose whether the research received an approval or waiver from each of the authors' institutional ethics review boards (IRB) if applicable.",
+                        "key": 1
+                      },
+                      {
+                        "id": 89,
+                        "content": "Discuss steps taken to ensure that participants and others who might have been affected by an experiment were treated ethically and with respect.",
+                        "key": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": 90,
+                    "content": "If the submission deals with vulnerabilities (e.g., software vulnerabilities in a given program or design weaknesses in a hardware system), the authors need to discuss in detail the steps they have taken or plan to take to address these vulnerabilities (e.g., by disclosing vulnerabilities to the vendors). The same applies if the submission deals with personal identifiable information (PII) or other kinds of sensitive data. If a paper raises significant ethical and legal concerns, it might be rejected based on these concerns.",
+                    "key": 3
+                  },
+                  {
+                    "id": 91,
+                    "content": "Contact the program co-chairs sp20-pcchairs@ieee-security.org if you have any questions.",
+                    "key": 4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 92,
+            "content": "Page Limit and Formatting",
+            "key": 6,
+            "children": [
+              {
+                "id": 93,
+                "content": "Submitted papers may include up to 13 pages of text and up to 5 pages for references and appendices, totalling no more than 18 pages. The same applies to camera-ready papers, although, at the PC chairsâ discretion, additional pages may be allowed for references and appendices. Reviewers are not required to read appendices.",
+                "key": 1
+              },
+              {
+                "id": 94,
+                "content": "Papers must be formatted for US letter (not A4) size paper. The text must be formatted in a two-column layout, with columns no more than 9.5 in. tall and 3.5 in. wide. The text must be in Times font, 10-point or larger, with 11-point or larger line spacing. Authors are encouraged to use the IEEE conference proceedings templates. LaTeX submissions should use IEEEtran.cls version 1.8. All submissions will be automatically checked for conformance to these requirements. Failure to adhere to the page limit and formatting requirements are grounds for rejection without review.",
+                "key": 2
+              }
+            ]
+          },
+          {
+            "id": 95,
+            "content": "Reviews from Prior Submissions",
+            "key": 7,
+            "children": [
+              {
+                "id": 96,
+                "content": "Authors may optionally submit a document (PDF or text) containing:",
+                "key": 1
+              },
+              {
+                "id": 97,
+                "content": "",
+                "isList": true,
+                "key": 2,
+                "children": [
+                  {
+                    "id": 98,
+                    "content": "the complete reviews they received from prior submission(s) and",
+                    "key": 1
+                  },
+                  {
+                    "id": 99,
+                    "content": "a page of up to 500 words documenting the improvements made since the prior submission(s).",
+                    "key": 2
+                  }
+                ]
+              },
+              {
+                "id": 100,
+                "content": "Also starting this year, if a submission is derived in any way from a submission submitted to another venue (conference, journal, etc.) in the past twelve months, we require that the authors provide the name of the most recent venue to which it was submitted. This information will not be shared with reviewers. It will only be used (1) for aggregate statistics to understand the percent of resubmissions among the set of submitted (and accepted) papers; (2) at the Chairsâ discretion, to identify dual submissions and verify the accuracy of prior reviews provided by authors regarding previously rejected papers.",
+                "key": 3
+              }
+            ]
+          },
+          {
+            "id": 101,
+            "content": "Submission",
+            "key": 8,
+            "children": [
+              {
+                "id": 102,
+                "content": "Submissions must be in Portable Document Format (.pdf). Authors should pay special attention to unusual fonts, images, and figures that might create problems for reviewers. Your document should render correctly in Adobe Reader 9 and when printed in black and white.",
+                "key": 1
+              }
+            ]
+          },
+          {
+            "id": 103,
+            "content": "Conference Submission Server",
+            "key": 9,
+            "children": [
+              {
+                "id": 104,
+                "content": "Papers must be submitted at https://oakland20.seclab.cs.ucsb.edu.",
+                "key": 1
+              }
+            ]
+          },
+          {
+            "id": 105,
+            "content": "Publication and Presentation",
+            "key": 10,
+            "children": [
+              {
+                "id": 106,
+                "content": "Authors are responsible for obtaining appropriate publication clearances. One of the authors of the accepted paper is expected to present the paper at the conference.",
+                "key": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 107,
+        "content": "Program Committee",
+        "key": 6,
+        "children": [
+          {
+            "id": 108,
+            "content": "PC Chairs",
+            "isList": true,
+            "key": 1,
+            "children": [
+              {
+                "id": 109,
+                "content": "Alina Oprea,Northeastern University",
+                "isList": true,
+                "key": 1
+              },
+              {
+                "id": 110,
+                "content": "Hovav Shacham,The University of Texas at Austin",
+                "isList": true,
+                "key": 2
+              }
+            ]
+          },
+          {
+            "id": 111,
+            "content": "PC Members",
+            "isList": true,
+            "key": 2,
+            "children": [
+              {
+                "id": 112,
+                "content": "Manos Antonakakis,Georgia Institute of Technology",
+                "isList": true,
+                "key": 1
+              },
+              {
+                "id": 113,
+                "content": "Davide Balzarotti,Eurecom",
+                "isList": true,
+                "key": 2
+              },
+              {
+                "id": 114,
+                "content": "Adam Bates,University of Illinois at Urbana-Champaign",
+                "isList": true,
+                "key": 3
+              },
+              {
+                "id": 115,
+                "content": "Konstantin (Kosta) Beznosov,University of British Columbia",
+                "isList": true,
+                "key": 4
+              },
+              {
+                "id": 116,
+                "content": "Karthikeyan Bhargavan,INRIA",
+                "isList": true,
+                "key": 5
+              },
+              {
+                "id": 117,
+                "content": "Battista Biggio,University of Cagliari, Italy",
+                "isList": true,
+                "key": 6
+              },
+              {
+                "id": 118,
+                "content": "Leyla Bilge,Symantec",
+                "isList": true,
+                "key": 7
+              },
+              {
+                "id": 119,
+                "content": "Marina Blanton,University at Buffalo",
+                "isList": true,
+                "key": 8
+              },
+              {
+                "id": 120,
+                "content": "Joseph Bonneau,NYU",
+                "isList": true,
+                "key": 9
+              },
+              {
+                "id": 121,
+                "content": "Chris Brzuska,Aalto University",
+                "isList": true,
+                "key": 10
+              },
+              {
+                "id": 122,
+                "content": "Kevin Butler,University of Florida",
+                "isList": true,
+                "key": 11
+              },
+              {
+                "id": 123,
+                "content": "Juan Caballero,IMDEA Software Institute",
+                "isList": true,
+                "key": 12
+              },
+              {
+                "id": 124,
+                "content": "Joe Calandrino,Federal Trade Commission",
+                "isList": true,
+                "key": 13
+              },
+              {
+                "id": 125,
+                "content": "Aylin Caliskan,The George Washington University",
+                "isList": true,
+                "key": 14
+              },
+              {
+                "id": 126,
+                "content": "Nicholas Carlini,Google",
+                "isList": true,
+                "key": 15
+              },
+              {
+                "id": 127,
+                "content": "Melissa Chase,Microsoft Research",
+                "isList": true,
+                "key": 16
+              },
+              {
+                "id": 128,
+                "content": "Stephen Checkoway,Oberlin College",
+                "isList": true,
+                "key": 17
+              },
+              {
+                "id": 129,
+                "content": "Haibo Chen,Shanghai Jiao Tong University",
+                "isList": true,
+                "key": 18
+              },
+              {
+                "id": 130,
+                "content": "David Choffnes,Northeastern University",
+                "isList": true,
+                "key": 19
+              },
+              {
+                "id": 131,
+                "content": "Omar Chowdhury,The University of Iowa",
+                "isList": true,
+                "key": 20
+              },
+              {
+                "id": 132,
+                "content": "Nicolas Christin,Carnegie Mellon University",
+                "isList": true,
+                "key": 21
+              },
+              {
+                "id": 133,
+                "content": "Mihai Christodorescu,Visa Research",
+                "isList": true,
+                "key": 22
+              },
+              {
+                "id": 134,
+                "content": "Henry Corrigan-Gibbs,Stanford University",
+                "isList": true,
+                "key": 23
+              },
+              {
+                "id": 135,
+                "content": "VÃ©ronique Cortier,CNRS, Loria, France",
+                "isList": true,
+                "key": 24
+              },
+              {
+                "id": 136,
+                "content": "Lorrie Cranor,Carnegie Mellon University",
+                "isList": true,
+                "key": 25
+              },
+              {
+                "id": 137,
+                "content": "Weidong Cui,Microsoft Research",
+                "isList": true,
+                "key": 26
+              },
+              {
+                "id": 138,
+                "content": "Emiliano De Cristofaro,University College London",
+                "isList": true,
+                "key": 27
+              },
+              {
+                "id": 139,
+                "content": "Brendan Dolan-Gavitt,NYU",
+                "isList": true,
+                "key": 28
+              },
+              {
+                "id": 140,
+                "content": "Adam DoupÃ©,Arizona State University",
+                "isList": true,
+                "key": 29
+              },
+              {
+                "id": 141,
+                "content": "Thomas Dullien,optimyze",
+                "isList": true,
+                "key": 30
+              },
+              {
+                "id": 142,
+                "content": "Annie Edmundson,Squarespace",
+                "isList": true,
+                "key": 31
+              },
+              {
+                "id": 143,
+                "content": "Manuel Egele,Boston University",
+                "isList": true,
+                "key": 32
+              },
+              {
+                "id": 144,
+                "content": "Sascha Fahl,Leibniz University Hannover",
+                "isList": true,
+                "key": 33
+              },
+              {
+                "id": 145,
+                "content": "Giulia Fanti,Carnegie Mellon University",
+                "isList": true,
+                "key": 34
+              },
+              {
+                "id": 146,
+                "content": "Nick Feamster,Princeton",
+                "isList": true,
+                "key": 35
+              },
+              {
+                "id": 147,
+                "content": "Anders Fogh,Intel Corporation",
+                "isList": true,
+                "key": 36
+              },
+              {
+                "id": 148,
+                "content": "AurÃ©lien Francillon,EURECOM",
+                "isList": true,
+                "key": 37
+              },
+              {
+                "id": 149,
+                "content": "Michael Franz,University of California, Irvine",
+                "isList": true,
+                "key": 38
+              },
+              {
+                "id": 150,
+                "content": "Christina Garman,Purdue University",
+                "isList": true,
+                "key": 39
+              },
+              {
+                "id": 151,
+                "content": "Daniel Genkin,University of Michigan",
+                "isList": true,
+                "key": 40
+              },
+              {
+                "id": 152,
+                "content": "Rosario Gennaro,The City College of New York",
+                "isList": true,
+                "key": 41
+              },
+              {
+                "id": 153,
+                "content": "Cristiano Giuffrida,VU Amsterdam",
+                "isList": true,
+                "key": 42
+              },
+              {
+                "id": 154,
+                "content": "Virgil Gligor,CMU",
+                "isList": true,
+                "key": 43
+              },
+              {
+                "id": 155,
+                "content": "Ian Goldberg,University of Waterloo",
+                "isList": true,
+                "key": 44
+              },
+              {
+                "id": 156,
+                "content": "Neil Gong,Duke University",
+                "isList": true,
+                "key": 45
+              },
+              {
+                "id": 157,
+                "content": "Guofei Gu,Texas A&M University",
+                "isList": true,
+                "key": 46
+              },
+              {
+                "id": 158,
+                "content": "Andreas Haeberlen,University of Pennsylvania",
+                "isList": true,
+                "key": 47
+              },
+              {
+                "id": 159,
+                "content": "Mike Hamburg,Rambus",
+                "isList": true,
+                "key": 48
+              },
+              {
+                "id": 160,
+                "content": "Ethan Heilman,Commonwealth Crypto",
+                "isList": true,
+                "key": 49
+              },
+              {
+                "id": 161,
+                "content": "Thorsten Holz,Ruhr-UniversitÃ¤t Bochum",
+                "isList": true,
+                "key": 50
+              },
+              {
+                "id": 162,
+                "content": "Amir Houmansadr,University of Massachusetts Amherst",
+                "isList": true,
+                "key": 51
+              },
+              {
+                "id": 163,
+                "content": "Suman Jana,Columbia University",
+                "isList": true,
+                "key": 52
+              },
+              {
+                "id": 164,
+                "content": "Limin Jia,Carnegie Mellon University",
+                "isList": true,
+                "key": 53
+              },
+              {
+                "id": 165,
+                "content": "Brent ByungHoon Kang,KAIST",
+                "isList": true,
+                "key": 54
+              },
+              {
+                "id": 166,
+                "content": "Alexandros Kapravelos,North Carolina State University",
+                "isList": true,
+                "key": 55
+              },
+              {
+                "id": 167,
+                "content": "Aniket Kate,Purdue University",
+                "isList": true,
+                "key": 56
+              },
+              {
+                "id": 168,
+                "content": "Stefan Katzenbeisser,TU Darmstadt",
+                "isList": true,
+                "key": 57
+              },
+              {
+                "id": 169,
+                "content": "Aggelos Kiayias,University of Edinburgh & IOHK",
+                "isList": true,
+                "key": 58
+              },
+              {
+                "id": 170,
+                "content": "Engin Kirda,Northeastern University",
+                "isList": true,
+                "key": 59
+              },
+              {
+                "id": 171,
+                "content": "David Kohlbrenner,UC Berkeley",
+                "isList": true,
+                "key": 60
+              },
+              {
+                "id": 172,
+                "content": "Vladimir Kolesnikov,Georgia Institute of Technology",
+                "isList": true,
+                "key": 61
+              },
+              {
+                "id": 173,
+                "content": "Ralf Kuesters,University of Stuttgart",
+                "isList": true,
+                "key": 62
+              },
+              {
+                "id": 174,
+                "content": "Wenke Lee,Georgia Institute of Technology",
+                "isList": true,
+                "key": 63
+              },
+              {
+                "id": 175,
+                "content": "Anja Lehmann,IBM",
+                "isList": true,
+                "key": 64
+              },
+              {
+                "id": 176,
+                "content": "Kirill Levchenko,University of Illinois",
+                "isList": true,
+                "key": 65
+              },
+              {
+                "id": 177,
+                "content": "Dave Levin,UMD",
+                "isList": true,
+                "key": 66
+              },
+              {
+                "id": 178,
+                "content": "Bo Li,UIUC",
+                "isList": true,
+                "key": 67
+              },
+              {
+                "id": 179,
+                "content": "Xiaojing Liao,Indiana University Bloomington",
+                "isList": true,
+                "key": 68
+              },
+              {
+                "id": 180,
+                "content": "Martina Lindorfer,TU Wien",
+                "isList": true,
+                "key": 69
+              },
+              {
+                "id": 181,
+                "content": "Long Lu,Northeastern University",
+                "isList": true,
+                "key": 70
+              },
+              {
+                "id": 182,
+                "content": "Matteo Maffei,TU Wien",
+                "isList": true,
+                "key": 71
+              },
+              {
+                "id": 183,
+                "content": "Sergio Maffeis,Imperial College London",
+                "isList": true,
+                "key": 72
+              },
+              {
+                "id": 184,
+                "content": "Piotr Mardziel,Carnegie Mellon University",
+                "isList": true,
+                "key": 73
+              },
+              {
+                "id": 185,
+                "content": "ClÃ©mentine Maurice,CNRS, IRISA",
+                "isList": true,
+                "key": 74
+              },
+              {
+                "id": 186,
+                "content": "Prateek Mittal,Princeton University",
+                "isList": true,
+                "key": 75
+              },
+              {
+                "id": 187,
+                "content": "Payman Mohassel,Visa Research",
+                "isList": true,
+                "key": 76
+              },
+              {
+                "id": 188,
+                "content": "Fabian Monrose,UNC",
+                "isList": true,
+                "key": 77
+              },
+              {
+                "id": 189,
+                "content": "Neha Narula,MIT Media Lab",
+                "isList": true,
+                "key": 78
+              },
+              {
+                "id": 190,
+                "content": "Nick Nikiforakis,Stony Brook University",
+                "isList": true,
+                "key": 79
+              },
+              {
+                "id": 191,
+                "content": "Yossi Oren,Ben Gurion University",
+                "isList": true,
+                "key": 80
+              },
+              {
+                "id": 192,
+                "content": "Dimitrios Papadopoulos,Hong Kong University of Science and Technology",
+                "isList": true,
+                "key": 81
+              },
+              {
+                "id": 193,
+                "content": "Nicolas Papernot,Google Brain",
+                "isList": true,
+                "key": 82
+              },
+              {
+                "id": 194,
+                "content": "Mathias Payer,EPFL",
+                "isList": true,
+                "key": 83
+              },
+              {
+                "id": 195,
+                "content": "Paul Pearce,Georgia Tech",
+                "isList": true,
+                "key": 84
+              },
+              {
+                "id": 196,
+                "content": "Marcus Peinado,Microsoft Research",
+                "isList": true,
+                "key": 85
+              },
+              {
+                "id": 197,
+                "content": "Roberto Perdisci,University of Georgia and Georgia Institute of Technology",
+                "isList": true,
+                "key": 86
+              },
+              {
+                "id": 198,
+                "content": "Adrian Perrig,ETH Zurich",
+                "isList": true,
+                "key": 87
+              },
+              {
+                "id": 199,
+                "content": "Frank Piessens,KU Leuven",
+                "isList": true,
+                "key": 88
+              },
+              {
+                "id": 200,
+                "content": "Christina Poepper,New York University Abu Dhabi",
+                "isList": true,
+                "key": 89
+              },
+              {
+                "id": 201,
+                "content": "Michalis Polychronakis,Stony Brook University",
+                "isList": true,
+                "key": 90
+              },
+              {
+                "id": 202,
+                "content": "Raluca Ada Popa,UC Berkeley",
+                "isList": true,
+                "key": 91
+              },
+              {
+                "id": 203,
+                "content": "Zhiyun Qian,University of California, Riverside",
+                "isList": true,
+                "key": 92
+              },
+              {
+                "id": 204,
+                "content": "Ananth Raghunathan,Google",
+                "isList": true,
+                "key": 93
+              },
+              {
+                "id": 205,
+                "content": "Aanjhan Ranganathan,Northeastern University",
+                "isList": true,
+                "key": 94
+              },
+              {
+                "id": 206,
+                "content": "Kasper Rasmussen,University of Oxford",
+                "isList": true,
+                "key": 95
+              },
+              {
+                "id": 207,
+                "content": "Elissa Redmiles,Microsoft Research/Princeton University",
+                "isList": true,
+                "key": 96
+              },
+              {
+                "id": 208,
+                "content": "Eric Rescorla,Mozilla",
+                "isList": true,
+                "key": 97
+              },
+              {
+                "id": 209,
+                "content": "Konrad Rieck,TU Braunschweig",
+                "isList": true,
+                "key": 98
+              },
+              {
+                "id": 210,
+                "content": "Tom Ristenpart,Cornell Tech",
+                "isList": true,
+                "key": 99
+              },
+              {
+                "id": 211,
+                "content": "William Robertson,Northeastern University",
+                "isList": true,
+                "key": 100
+              },
+              {
+                "id": 212,
+                "content": "Nitesh Saxena,University of Alabama at Birmingham",
+                "isList": true,
+                "key": 101
+              },
+              {
+                "id": 213,
+                "content": "Prateek Saxena,National university of Singapore",
+                "isList": true,
+                "key": 102
+              },
+              {
+                "id": 214,
+                "content": "Vyas Sekar,Carnegie Mellon University",
+                "isList": true,
+                "key": 103
+              },
+              {
+                "id": 215,
+                "content": "Simha Sethumadhavan,Columbia University/Chip Scan",
+                "isList": true,
+                "key": 104
+              },
+              {
+                "id": 216,
+                "content": "Srinath Setty,Microsoft Research",
+                "isList": true,
+                "key": 105
+              },
+              {
+                "id": 217,
+                "content": "Abhi Ahelat,Northeastern",
+                "isList": true,
+                "key": 106
+              },
+              {
+                "id": 218,
+                "content": "Emily Shen,MIT Lincoln Laboratory",
+                "isList": true,
+                "key": 107
+              },
+              {
+                "id": 219,
+                "content": "Reza Shokri,National University of Singapore (NUS)",
+                "isList": true,
+                "key": 108
+              },
+              {
+                "id": 220,
+                "content": "Yan Shoshitaishvili,Arizona State University",
+                "isList": true,
+                "key": 109
+              },
+              {
+                "id": 221,
+                "content": "Natalie Silvanovich,Google",
+                "isList": true,
+                "key": 110
+              },
+              {
+                "id": 222,
+                "content": "Asia Slowinska,IBM Security",
+                "isList": true,
+                "key": 111
+              },
+              {
+                "id": 223,
+                "content": "Emily Stark,Google",
+                "isList": true,
+                "key": 112
+              },
+              {
+                "id": 224,
+                "content": "Deian Stefan,UC San Diego",
+                "isList": true,
+                "key": 113
+              },
+              {
+                "id": 225,
+                "content": "Ben Stock,CISPA Helmholtz Center for Information Security",
+                "isList": true,
+                "key": 114
+              },
+              {
+                "id": 226,
+                "content": "Gianluca Stringhini,Boston University",
+                "isList": true,
+                "key": 115
+              },
+              {
+                "id": 227,
+                "content": "Vanessa Teague,university of Melbourne",
+                "isList": true,
+                "key": 116
+              },
+              {
+                "id": 228,
+                "content": "Yuan Tian,University of Virginia",
+                "isList": true,
+                "key": 117
+              },
+              {
+                "id": 229,
+                "content": "Mohit Tiwari,UT Austin",
+                "isList": true,
+                "key": 118
+              },
+              {
+                "id": 230,
+                "content": "Selcuk Uluagac,Florida International University",
+                "isList": true,
+                "key": 119
+              },
+              {
+                "id": 231,
+                "content": "Blase Ur,University of Chicago",
+                "isList": true,
+                "key": 120
+              },
+              {
+                "id": 232,
+                "content": "Thyla van der Merwe,Mozilla",
+                "isList": true,
+                "key": 121
+              },
+              {
+                "id": 233,
+                "content": "Mayank Varia,Boston University",
+                "isList": true,
+                "key": 122
+              },
+              {
+                "id": 234,
+                "content": "Xiao Wang,Northwestern University",
+                "isList": true,
+                "key": 123
+              },
+              {
+                "id": 235,
+                "content": "XiaoFeng Wang,Indiana University",
+                "isList": true,
+                "key": 124
+              },
+              {
+                "id": 236,
+                "content": "Christo Wilson,Northeastern University",
+                "isList": true,
+                "key": 125
+              },
+              {
+                "id": 237,
+                "content": "Emmett Witchel,The University of Texas at Austin",
+                "isList": true,
+                "key": 126
+              },
+              {
+                "id": 238,
+                "content": "Wenyuan Xu,Zhejiang University",
+                "isList": true,
+                "key": 127
+              },
+              {
+                "id": 239,
+                "content": "Danfeng (Daphne) Yao,Virginia Tech",
+                "isList": true,
+                "key": 128
+              },
+              {
+                "id": 240,
+                "content": "Yuval Yarom,University of Adelaide and Data61",
+                "isList": true,
+                "key": 129
+              },
+              {
+                "id": 241,
+                "content": "Yanfang (Fanny) Ye,West Virginia University",
+                "isList": true,
+                "key": 130
+              },
+              {
+                "id": 242,
+                "content": "Ting-Fang Yen,Datavisor",
+                "isList": true,
+                "key": 131
+              },
+              {
+                "id": 243,
+                "content": "Yinqian Zhang,The Ohio State University",
+                "isList": true,
+                "key": 132
+              },
+              {
+                "id": 244,
+                "content": "Saman Zonouz,Rutgers University",
+                "isList": true,
+                "key": 133
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

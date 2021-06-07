@@ -1,0 +1,294 @@
+{
+    "id": 0,
+    "content": "Bruce W. Porter - Computer Science Department University of Texas at Austin",
+    "children": [
+        {
+            "id": 1,
+            "content": "UTCS Home",
+            "key": 1
+        },
+        {
+            "id": 2,
+            "content": "CS378: Practical Applications of Natural Language Processing",
+            "key": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "content": "Syllabus for Spring 2019",
+                    "key": 1
+                },
+                {
+                    "id": 4,
+                    "content": "Course Description",
+                    "key": 2,
+                    "children": [
+                        {
+                          "id": 5,
+                          "content": "Automatically extracting information from natural-language text is one of the great scientific challenges in AI, and it also offers significant practical and commercial benefits. This class will explore the state of the art in applications of Natural Language Processing (NLP) through a series of increasingly ambitious projects. Each project is inspired by real use cases, sometimes with datasets provided by local companies. For each project, we will read research publications and investigate algorithms and tools that might apply.",
+                          "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "content": "Teaching Staff",
+                    "key": 3,
+                    "children": [
+                        {
+                            "id": 7,
+                            "content": "Professor: Bruce Porter, porter@cs.utexas.edu, GDC 3.704, (512)471-9565   Teaching Assistants:",
+                            "key": 1
+                        },
+                        {
+                            "id": 8,
+                            "content": "",
+                            "isList": true,
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 9,
+                                    "content": "Ashvin Govil, ashvin@cs.utexas.edu",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 10,
+                                    "content": "Marc Matvienko, m.matvienko@utexas.edu",
+                                    "key": 2
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 11,
+                    "content": "Office Hours",
+                    "key": 4,
+                    "children": [
+                        {
+                            "id": 12,
+                            "content": "",
+                            "isList": true,
+                            "key": 1,
+                            "children": [
+                              {
+                                "id": 13,
+                                "content": "Bruce Porter,Tuesday 10:00 - 11:00,GDC 3.704",
+                                "isList": true,
+                                "key": 1
+                              },
+                              {
+                                "id": 14,
+                                "content": "Ashvin Govil,Thursday, 3:30 - 4:30,GDC 1.302",
+                                "isList": true,
+                                "key": 2
+                              },
+                              {
+                                "id": 15,
+                                "content": "Marc Matvienko,Monday, 11:00 - 12:30,GDC 1.302",
+                                "isList": true,
+                                "key": 3
+                              }
+                            ]
+                        },
+                        {
+                            "id": 16,
+                            "content": "Other times by appointment.",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 17,
+                    "content": "Textbooks and Supplies",
+                    "key": 5,
+                    "children": [
+                        {
+                            "id": 18,
+                            "content": "Research papers and documentation for various NLP tools will be distributed throughout the semester. We will extensively use the following three tools, so you might consider investing in reference materials:",
+                            "key": 1
+                        },
+                        {
+                            "id": 19,
+                            "content": "",
+                            "isList": true,
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 20,
+                                    "content": "Apache SOLR",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 21,
+                                    "content": "Stanford CoreNLP",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 22,
+                                    "content": "spaCy",
+                                    "key": 3
+                                }
+                            ]
+                        },
+                        {
+                            "id": 23,
+                            "content": "In particular, the first project will use Solr extensively, and that system might play a role in later projects, too. Therefore, we recommend that you, or your group, invest in a reference book, such as \"Solr In Action\" by Grainger and Potter.",
+                            "key": 3
+                        }
+                    ]
+                },
+                {
+                    "id": 24,
+                    "content": "Pre-Requisites",
+                    "key": 6,
+                    "children": [
+                        {
+                            "id": 25,
+                            "content": "Students are expected to have strong programming skills, especially in Python, and to be proficient in using libraries, APIs, and development platforms like GitHub. Also, students are expected to have strong \"team skills\" to work in groups of about four. Prior experience with AI, Machine Learning and NLP is valuable, but not required.",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 26,
+                    "content": "Structure of the Class",
+                    "key": 7,
+                    "children": [
+                        {
+                            "id": 27,
+                            "content": "The class will mirror an advanced development group in a forward-looking company that is trying to extract actionable information from the increasing deluge of unstructured information that is critical to its clients' operations. You will work with a team of about three others to quickly learn NLP concepts and technologies, while building first-generation systems to meet the needs of clients who are paying the bills.",
+                            "key": 1
+                        },
+                        {
+                            "id": 28,
+                            "content": "Teams will be formed in a way that resembles the process used in companies. The process will ensure that every team includes the diverse skills required for the projects, while leaving some room for students to select teammates. Everyone is expected to contribute significantly to their team, and there will be a process for you to anonymously grade the contributions of your colleagues.",
+                            "key": 2
+                        },
+                        {
+                            "id": 29,
+                            "content": "An advanced-development team is continually learning. Everyone reads papers, experiments with new things, and reports their discoveries to the group. So, that's one of the class requirements. Everyone is required to give at least one 15-20 minute presentation sometime during the semester. Respect your colleagues by delivering an informative, interesting and coherent presentation that invites discussion.",
+                            "key": 3
+                        }
+                    ]
+                },
+                {
+                    "id": 30,
+                    "content": "Projects",
+                    "key": 8,
+                    "children": [
+                        {
+                            "id": 31,
+                            "content": "This will be a learning by doing class. As we go, we'll read and discuss research papers to help with the project at hand. Students will be expected to explore related work and to openly share their discoveries, insights and challenges with the class. The projects might change during the semester, but here is the current sequence:",
+                            "key": 1
+                        },
+                        {
+                            "id": 32,
+                            "content": "",
+                            "isList": true,
+                            "key": 2,
+                            "children": [
+                              {
+                                "id": 33,
+                                "content": "Information Retrieval. Google owns Internet-scale, \"open domain\" search. But, there are many opportunities to build information-retrieval systems that perform better than Google for searching a corpus of documents in a narrow domain, such as aircraft maintenance or pediatric oncology. The project will use SOLR to ingest and index documents, producing a simple IR system. We will attempt to improve the system with NLP techniques, such as stemming and lemmatizing, to improve the match between query terms and passages in the corpus. The project will use word vectors to represent semantics, so that the system is not limited to literal matches. We will assess the effectiveness of these attempts to improve the simple system.",
+                                "key": 1
+                              },
+                              {
+                                "id": 34,
+                                "content": "Named Entity Recognition and Parsing. While the first project focused on word-level constructs, this project aims to extract larger structures from text. Named entities are words or phrases that refer, for example, to a person, place, organization. The project will use parsers, such as SpaCy, CoreNLP and possibly OpenIE, to extract relationships among the named entities to populate a structured database with useful information.",
+                                "key": 2
+                              },
+                              {
+                                "id": 35,
+                                "content": "Question Answering. Building on the lessons and results from the first two projects, this one aims to create a system capable of answering a question, expressed in English (not just keywords), by retrieving an appropriate - and succinct - passage of text. The project will use techniques deployed in IBM's Watson system to determine the Lexical Answer Type of candidate answers, and to retrieve and rank candidates from the database of named entities.",
+                                "key": 3
+                              },
+                              {
+                                "id": 36,
+                                "content": "",
+                                "key": 4,
+                                "children": [
+                                  {
+                                    "id": 37,
+                                    "content": "Extracting larger units of knowledge. Each team of students will design a project to study an NLP problem that requires new research on an extraction task that is beyond the current state-of-the-art. Examples include:",
+                                    "key": 1
+                                  },
+                                  {
+                                    "id": 38,
+                                    "content": "",
+                                    "isList": true,
+                                    "key": 2,
+                                            "children": [
+                                                {
+                                                    "id": 39,
+                                                    "content": "extracting rules from written descriptions of tax codes. The Ernst & Young Tax Guide summarizes each nation's tax code. Much of this text describes events that trigger taxation. The challenge is to extract if-then rules, ideally in a representational form that can be interpreted by machine, to infer, for example, a client's tax liabilities.",
+                                                    "key": 1
+                                                },
+                                                {
+                                                    "id": 40,
+                                                    "content": "extracting process models from textbook descriptions. Science texts are rich with paragraph-length descriptions of processes, such as the water cycle or RNA Transcription. Process descriptions typically include multiple steps which are inter-related with temporal, spatial and causal relations. The challenge is extracting these rich models, ideally in a representational form that can be simulated by machine, to infer, for example, the consequences of varying the inputs to the process.",
+                                                    "key": 2
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 41,
+                    "content": "Grading",
+                    "key": 9,
+                    "children": [
+                        {
+                            "id": 42,
+                            "content": "The final course grade will be determined by these factors:",
+                            "key": 1
+                        },
+                        {
+                            "id": 43,
+                            "content": "",
+                            "isList": true,
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 44,
+                                    "content": "Grades on each of 4 team projects (15% per project, 60% in total)",
+                                    "key": 1
+                                },
+                                {
+                                    "id": 45,
+                                    "content": "Your teammates' assessment of your contributions to each of the 4 projects (5% per project, 20% in total)",
+                                    "key": 2
+                                },
+                                {
+                                    "id": 46,
+                                    "content": "Your class presentation (10%)",
+                                    "key": 3
+                                },
+                                {
+                                    "id": 47,
+                                    "content": "Class attendance and participation (10%). Attendance is required, although up to 3 absences will be excused",
+                                    "key": 4
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 48,
+                    "content": "Plans May Change",
+                    "key": 10,
+                    "children": [
+                      {
+                        "id": 49,
+                        "content": "This syllabus lays out my best plan for making the class rewarding, challenging and doable. But, this class has not been taught previously and I am new to the topic, so I might need to adjust the plan during the semester.",
+                        "key": 1
+                      }
+                    ]
+                }
+            ]
+        }
+    ]
+}

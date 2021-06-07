@@ -1,0 +1,1399 @@
+{
+    "id": 0,
+    "content": "ACM CCS 2019 – November 11-15, 2019, London, UK",
+    "children": [
+        {
+            "id": 1,
+            "content": "Skip to content",
+            "key": 1
+        },
+        {
+            "id": 2,
+            "content": "Home",
+            "key": 2
+        },
+        {
+            "id": 3,
+            "content": "ACM CCS 2019",
+            "key": 3,
+            "children": [
+                {
+                    "id": 4,
+                    "content": "The 26th ACM Conference on Computer and Communications Security will be held in London, United Kingdom from November 11 to November 15, 2019 at the Hilton Metropole. Information on how to participate is below:",
+                    "key": 1
+                },
+                {
+                    "id": 5,
+                    "content": "",
+                    "isList": true,
+                    "key": 2,
+                    "children": [
+                        {
+                            "id": 6,
+                            "content": "Call for Papers",
+                            "key": 1
+                        },
+                        {
+                            "id": 7,
+                            "content": "Call for Sponsorship",
+                            "key": 2
+                        },
+                        {
+                            "id": 8,
+                            "content": "Call for Posters",
+                            "key": 3
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "content": "The ACM Conference on Computer and Communications Security (CCS) is the flagship annual conference of the Special Interest Group on Security, Audit and Control (SIGSAC) of the Association for Computing Machinery (ACM). The conference brings together information security researchers, practitioners, developers, and users from all over the world to explore cutting-edge ideas and results. It provides an environment to conduct intellectual discussions. From its inception, CCS has established itself as a high standard research conference in its area.",
+                    "key": 3
+                },
+                {
+                  "id": 10,
+                  "content": "CCS will follow the ACM Policy Against Harassment at ACM Activities . Please familiarize yourself with the ACM Policy Against Harassment and guide to Reporting Unacceptable Behavior .",
+                  "key": 4
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "content": "Sponsors",
+            "key": 4,
+            "children": [
+                {
+                    "id": 12,
+                    "content": "CCS 2019 is sponsored by the following organizations.",
+                    "key": 1
+                },
+                {
+                    "id": 13,
+                    "content": "Platinum Patrons",
+                    "key": 2
+                },
+                {
+                    "id": 14,
+                    "content": "Gold Patrons",
+                    "key": 3
+                },
+                {
+                    "id": 15,
+                    "content": "Silver Patrons",
+                    "key": 4
+                },
+                {
+                    "id": 16,
+                    "content": "Bronze Patrons",
+                    "key": 5,
+                    "children": [
+                        {
+                            "id": 17,
+                            "content": "Tweets by acm_ccs",
+                            "key": 1
+                        },
+                        {
+                            "id": 18,
+                            "content": "Skip to content",
+                            "key": 2
+                        },
+                        {
+                            "id": 19,
+                            "content": "Call for Papers",
+                            "key": 3,
+                            "children": [
+                              {
+                                "id": 20,
+                                "content": "The Conference on Computer and Communications Security (CCS) seeks submissions presenting novel contributions related to all real-world aspects of computer security and privacy. Theoretical papers must make a convincing case for the relevance of their results to practice. Authors are encouraged to write the abstract and introduction of their paper in a way that makes the results accessible and compelling to a general computer-security researcher. In particular, authors should bear in mind that anyone on the program committee may be asked to give an opinion about any paper.",
+                                "key": 1
+                              },
+                              {
+                                "id": 21,
+                                "content": "IMPORTANT:",
+                                "key": 2,
+                                "children": [
+                                  {
+                                    "id": 22,
+                                    "content": "CCS will have three review cycles in 2019: the first with a submission deadline of February 5, the second with a submission deadline of May 15, and the third with a tentative submission deadline of September 1. The third review cycle is only for papers invited for resubmission from the first two cycles; no new submissions will be considered. Papers rejected from the first review cycle may not be submitted again (even in revised form) to the second review cycle.",
+                                    "key": 1
+                                  }
+                                ]
+                              }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 23,
+                    "content": "Paper Submission Information",
+                    "key": 6,
+                    "children": [
+                      {
+                        "id": 24,
+                        "content": "All submissions must be received by 11:59PM AoE (UTC-12) on the day of the corresponding deadline (February 5, May 15, and September 1) through the submission site. Submitted papers must not substantially overlap with papers that have been published, accepted for publication, or simultaneously in submission to a journal, conference, or workshop with published proceedings. All submissions should be properly anonymized, removing all identifiable information whenever possible including obvious self-references. Papers not properly anonymized may be rejected without review.",
+                        "key": 1
+                      },
+                      {
+                        "id": 25,
+                        "content": "All submitted papers will be evaluated based upon their merits, particularly their importance to practical aspects of computer and communications security and privacy, novelty, quality of execution, and presentation. For papers that might raise ethical concerns, authors are expected to convince reviewers that proper procedures (such as IRB approval) have been followed and due diligence has been made to minimize potential harm.",
+                        "key": 2
+                      },
+                      {
+                        "id": 26,
+                        "content": "For each submission to one of the main review cycles, one of the following decisions will be made:",
+                        "key": 3
+                      },
+                        {
+                            "id": 27,
+                            "content": "",
+                            "isList": true,
+                            "key": 4,
+                            "children": [
+                              {
+                                "id": 28,
+                                "content": "Accept:",
+                                "key": 1,
+                                "children": [
+                                  {
+                                    "id": 29,
+                                    "content": "Papers in this category will be accepted for publication in the proceedings and presentation at the conference, possibly after making minor changes with the oversight of a shepherd.",
+                                    "key": 1
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 30,
+                                "content": "Major Revision:",
+                                "key": 2,
+                                "children": [
+                                  {
+                                    "id": 31,
+                                    "content": "Papers in this category are considered to be promising but need additional work (e.g., new experiments, proofs, or implementations), after which they will be re-evaluated. Authors may choose to resubmit such papers, with appropriate revisions, to another review cycle of this conference in 2019, in which case they should clearly explain how the revisions address the comments of the reviewers.",
+                                    "key": 1
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 32,
+                                "content": "Reject:",
+                                "key": 3,
+                                "children": [
+                                  {
+                                    "id": 33,
+                                    "content": "Papers in this category are not allowed to resubmit to CCS in 2019.",
+                                    "key": 1
+                                  }
+                                ]
+                              }
+                            ]
+                        },
+                        {
+                            "id": 34,
+                            "content": "Authors of accepted papers must ensure that their papers will be presented at the conference.",
+                            "key": 5
+                        },
+                        {
+                            "id": 35,
+                            "content": "Paper Format",
+                            "key": 6,
+                            "children": [
+                                {
+                                    "id": 36,
+                                    "content": "Submissions must be single PDF files, no more than 12 pages long in double-column ACM format (the sigconf template from https://www.acm.org/publications/proceedings-template), excluding the bibliography, well-marked appendices, and supplementary material. Note that reviewers are not required to read the appendices or any supplementary material. Authors should not change the font or the margins of the ACM format. Submissions not following the required format may be rejected without review.",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 37,
+                            "content": "Format for Revised Submissions",
+                            "key": 7,
+                            "children": [
+                                {
+                                    "id": 38,
+                                    "content": "Revised submissions should come with a summary to highlight the changes that have been made and explain how these changes address key review comments.",
+                                    "key": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 39,
+                    "content": "Conflicts of Interest",
+                    "key": 7,
+                    "children": [
+                        {
+                            "id": 40,
+                            "content": "The conference requires cooperation from both authors and program-committee members to ensure a fair review process. For this purpose, authors must report all program-committee members who, in their opinion, have a conflict of interest and therefore may not be able to provide an unbiased review. Mandatory declared conflicts of interest include current or former doctoral advisor/advisee, members of the same organization, close family members and recent paper collaborators (2 years). For other CoI, authors are required to explain the nature of the conflicts in submissions, which are subject to the program co-chairs’ reviews. The chairs also reserve the right to request further explanations and can remove the conflicts when necessary.",
+                            "key": 1
+                        },
+                        {
+                            "id": 41,
+                            "content": "Program-committee members who have a genuine conflict of interest with a paper, including the program co-chairs, will be excluded from evaluation and discussion of that paper. When a program co-chair is conflicted, the other co-chair will be responsible for managing that paper. When both program co-chairs are in conflict, a committee member will be appointed to handle the paper. Program co-chairs are not allowed to be authors or co-authors of any submissions.",
+                            "key": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 42,
+                    "content": "Important Dates",
+                    "key": 8,
+                    "children": [
+                        {
+                            "id": 43,
+                            "content": "February Deadline:",
+                            "key": 1,
+                            "children": [
+                              {
+                                "id": 44,
+                                "content": "Paper submission deadline:",
+                                "key": 1,
+                                "children": [
+                                  {
+                                    "id": 45,
+                                    "content": "Tuesday, February 5, 2019 11:59PM AoE (UTC - 12)",
+                                    "key": 1
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 46,
+                                "content": "Author notification:",
+                                "key": 2,
+                                "children": [
+                                  {
+                                    "id": 47,
+                                    "content": "Friday, April 19, 2019",
+                                    "key": 1
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 48,
+                                "content": "Final papers due:",
+                                "key": 3,
+                                "children": [
+                                  {
+                                    "id": 49,
+                                    "content": "TBD",
+                                    "key": 1
+                                  }
+                                ]
+                              }
+                            ]
+                        },
+                        {
+                            "id": 50,
+                            "content": "May Deadline:",
+                            "key": 2,
+                            "children": [
+                              {
+                                "id": 51,
+                                "content": "Paper submission deadline:",
+                                "key": 1,
+                                "children": [
+                                  {
+                                    "id": 52,
+                                    "content": "Wednesday, May 15, 2019 11:59PM AoE (UTC - 12)",
+                                    "key": 1
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 53,
+                                "content": "Author notification:",
+                                "key": 2,
+                                "children": [
+                                  {
+                                    "id": 54,
+                                    "content": "Tuesday, July 30, 2019",
+                                    "key": 1
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 55,
+                                "content": "Final papers due:",
+                                "key": 3,
+                                "children": [
+                                  {
+                                    "id": 56,
+                                    "content": "TBD",
+                                    "key": 1
+                                  }
+                                ]
+                              }
+                            ]
+                        },
+                        {
+                            "id": 57,
+                            "content": "September Deadline (By Invitation Only):",
+                            "key": 3,
+                            "children": [
+                              {
+                                "id": 58,
+                                "content": "Paper submission deadline:",
+                                "key": 1,
+                                "children": [
+                                  {
+                                    "id": 59,
+                                    "content": "Sunday, September 1, 2019 11:59PM AoE (UTC - 12)",
+                                    "key": 1
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 60,
+                                "content": "Author notification:",
+                                "key": 2,
+                                "children": [
+                                  {
+                                    "id": 61,
+                                    "content": "Monday, September 16, 2019",
+                                    "key": 1
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 62,
+                                "content": "Final papers due:",
+                                "key": 3,
+                                "children": [
+                                  {
+                                    "id": 63,
+                                    "content": "TBD",
+                                    "key": 1
+                                  }
+                                ]
+                              },
+                              {
+                                "id": 64,
+                                "content": "AUTHORS TAKE NOTE:",
+                                "key": 4,
+                                "children": [
+                                  {
+                                    "id": 65,
+                                    "content": "The official publication date is the date the proceedings are made available in the ACM Digital Library. This date may be up to two weeks prior to the first day of your conference. The official publication date affects the deadline for any patent filings related to published work. (For those rare conferences whose proceedings are published in the ACM Digital Library after the conference is over, the official publication date remains the first day of the conference.)",
+                                    "key": 1
+                                  }
+                                ]
+                              }
+                            ]
+                        },
+                      {
+                        "id": 66,
+                        "content": "Skip to content",
+                        "key": 4
+                      },
+                      {
+                        "id": 67,
+                        "content": "Program Committee",
+                        "key": 5
+                      }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 68,
+            "content": "Program Chairs",
+            "isList": true,
+            "key": 5,
+            "children": [
+                {
+                    "id": 69,
+                    "content": "XiaoFeng Wang, Indiana University",
+                    "key": 1
+                },
+                {
+                    "id": 70,
+                    "content": "Jonathan Katz, George Mason University",
+                    "key": 2
+                }
+            ]
+        },
+        {
+            "id": 71,
+            "content": "Area Chairs",
+            "isList": true,
+            "key": 6,
+            "children": [
+                {
+                    "id": 72,
+                    "content": "Software and Web Security",
+                    "key": 1,
+                    "children": [
+                        {
+                            "id": 73,
+                            "content": ": Manuel Egele, Boston University",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 74,
+                    "content": "Network Security",
+                    "key": 2,
+                    "children": [
+                        {
+                            "id": 75,
+                            "content": ": Guofei Gu, Texas A&M University",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 76,
+                    "content": "Formal Methods and PL",
+                    "key": 3,
+                    "children": [
+                        {
+                            "id": 77,
+                            "content": ": Michael Hicks, University of Maryland",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 78,
+                    "content": "System Security",
+                    "key": 4,
+                    "children": [
+                        {
+                            "id": 79,
+                            "content": ": Zhiqiang Lin, Ohio State University",
+                            "key": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 80,
+                  "content": "Applied Cryptography",
+                  "key": 5,
+                  "children": [
+                    {
+                      "id": 81,
+                      "content": ": Mike Rosulek, Oregon State University",
+                      "key": 1
+                    }
+                  ]
+                },
+              {
+                "id": 82,
+                "content": "Privacy :",
+                "key": 6,
+                "children": [
+                  {
+                    "id": 83,
+                    "content": "Adam Smith, Boston University",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 84,
+                "content": "Authentication/Authorization and ML:",
+                "key": 7,
+                "children": [
+                  {
+                    "id": 85,
+                    "content": "Ninghui Li, Purdue University",
+                    "key": 1
+                  }
+                    ]
+                },
+                {
+                    "id": 86,
+                    "content": "Blockchain, Smart Contract and Distributed System Security:",
+                    "key": 8,
+                    "children": [
+                        {
+                            "id": 87,
+                            "content": "Andrew Miller, UIUC",
+                            "key": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 88,
+            "content": "Other Committee Members",
+            "isList": true,
+            "key": 7,
+            "children": [
+                {
+                    "id": 89,
+                    "content": "Gail-Joon Ahn, Arizona State University and SAMSUNG Research",
+                    "key": 1
+                },
+                {
+                    "id": 90,
+                    "content": "Sumayah Alrwais, King Saud University",
+                    "key": 2
+                },
+                {
+                    "id": 91,
+                    "content": "Owen Arden, UC Santa Cruz",
+                    "key": 3
+                },
+                {
+                    "id": 92,
+                    "content": "Adam Aviv, United States Naval Academy",
+                    "key": 4
+                },
+                {
+                    "id": 93,
+                    "content": "Erman Ayday, Case Western Reserve University/Bilkent University",
+                    "key": 5
+                },
+                {
+                    "id": 94,
+                    "content": "Michael Backes, CISPA Helmholtz Center for Information Security",
+                    "key": 6
+                },
+                {
+                    "id": 95,
+                    "content": "Gilles Barthe, IMDEA Software Institute",
+                    "key": 7
+                },
+                {
+                    "id": 96,
+                    "content": "Raef Bassily, Ohio State University",
+                    "key": 8
+                },
+                {
+                    "id": 97,
+                    "content": "Lujo Bauer, Carnegie Mellon University",
+                    "key": 9
+                },
+                {
+                    "id": 98,
+                    "content": "Mihir Bellare, UC San Diego",
+                    "key": 10
+                },
+                {
+                    "id": 99,
+                    "content": "Karthikeyan Bhargavan, INRIA",
+                    "key": 11
+                },
+                {
+                    "id": 100,
+                    "content": "Leyla Bilge, Symantec",
+                    "key": 12
+                },
+                {
+                    "id": 101,
+                    "content": "Vincent Bindschaedler, University of Florida",
+                    "key": 13
+                },
+                {
+                    "id": 102,
+                    "content": "Jeremiah Blocki, Purdue University",
+                    "key": 14
+                },
+                {
+                    "id": 103,
+                    "content": "Rakesh Bobba, Oregon State University",
+                    "key": 15
+                },
+                {
+                    "id": 104,
+                    "content": "Sven Bugiel, CISPA Helmholtz Center for Information Security",
+                    "key": 16
+                },
+                {
+                    "id": 105,
+                    "content": "Christian Cachin, IBM Research/University of Bern",
+                    "key": 17
+                },
+                {
+                    "id": 106,
+                    "content": "Jean Camp, Indiana University",
+                    "key": 18
+                },
+                {
+                    "id": 107,
+                    "content": "Yinzhi Cao, Johns Hopkins University",
+                    "key": 19
+                },
+                {
+                    "id": 108,
+                    "content": "Alvaro Cardenas, UC Santa Cruz",
+                    "key": 20
+                },
+                {
+                    "id": 109,
+                    "content": "David Cash, University of Chicago",
+                    "key": 21
+                },
+                {
+                    "id": 110,
+                    "content": "Hao Chen, UC Davis",
+                    "key": 22
+                },
+                {
+                    "id": 111,
+                    "content": "Shuo Chen, Microsoft Research",
+                    "key": 23
+                },
+                {
+                    "id": 112,
+                    "content": "Yan Chen, Northwestern University",
+                    "key": 24
+                },
+                {
+                    "id": 113,
+                    "content": "Kai Chen, IIE CAS",
+                    "key": 25
+                },
+                {
+                    "id": 114,
+                    "content": "Haibo Chen, Shanghai Jiao Tong University",
+                    "key": 26
+                },
+                {
+                    "id": 115,
+                    "content": "Hao Chen, Microsoft Research",
+                    "key": 27
+                },
+                {
+                    "id": 116,
+                    "content": "Yingying Chen, Rutgers University",
+                    "key": 28
+                },
+                {
+                    "id": 117,
+                    "content": "Omar Chowdhury, The University of Iowa",
+                    "key": 29
+                },
+                {
+                    "id": 118,
+                    "content": "Nicolas Christin, Carnegie Mellon University",
+                    "key": 30
+                },
+                {
+                    "id": 119,
+                    "content": "Weidong Cui, Microsoft Research",
+                    "key": 31
+                },
+                {
+                    "id": 120,
+                    "content": "Lucas Davi, University of Duisburg-Essen",
+                    "key": 32
+                },
+                {
+                    "id": 121,
+                    "content": "Lorenzo De Carli, Worcester Polytechnic Institute",
+                    "key": 33
+                },
+                {
+                    "id": 122,
+                    "content": "Emiliano De Cristofaro, University College London",
+                    "key": 34
+                },
+                {
+                    "id": 123,
+                    "content": "Soteris Demetriou, Imperial College London",
+                    "key": 35
+                },
+                {
+                    "id": 124,
+                    "content": "Wenrui Diao, Jinan University",
+                    "key": 36
+                },
+                {
+                    "id": 125,
+                    "content": "Adam Doupe, Arizona State University",
+                    "key": 37
+                },
+                {
+                    "id": 126,
+                    "content": "Haixin Duan, Tsinghua University",
+                    "key": 38
+                },
+                {
+                    "id": 127,
+                    "content": "Tudor Dumitras, University of Maryland",
+                    "key": 39
+                },
+                {
+                    "id": 128,
+                    "content": "Manuel Egele, Boston University",
+                    "key": 40
+                },
+                {
+                    "id": 129,
+                    "content": "Ittay Eyal, Technion",
+                    "key": 41
+                },
+                {
+                    "id": 130,
+                    "content": "Sascha Fahl, Leibniz University Hannover",
+                    "key": 42
+                },
+                {
+                    "id": 131,
+                    "content": "Kassem Fawaz, University of Wisconsin-Madison",
+                    "key": 43
+                },
+                {
+                    "id": 132,
+                    "content": "Dario Fiore, IMDEA Software Institute",
+                    "key": 44
+                },
+                {
+                    "id": 133,
+                    "content": "Marc Fischlin, TU Darmstadt",
+                    "key": 45
+                },
+                {
+                    "id": 134,
+                    "content": "Sara Foresti, Università degli Studi di Milano",
+                    "key": 46
+                },
+                {
+                    "id": 135,
+                    "content": "Michael Franz, UC Irvine",
+                    "key": 47
+                },
+                {
+                    "id": 136,
+                    "content": "Xinyang Ge, Microsoft Research",
+                    "key": 48
+                },
+                {
+                    "id": 137,
+                    "content": "Daniel Genkin, University of Michigan",
+                    "key": 49
+                },
+                {
+                    "id": 138,
+                    "content": "Rosario Gennaro, The City College of New York",
+                    "key": 50
+                },
+                {
+                    "id": 139,
+                    "content": "Irene Giacomelli, Protocol Labs",
+                    "key": 51
+                },
+                {
+                    "id": 140,
+                    "content": "Neil Gong, Iowa State University",
+                    "key": 52
+                },
+                {
+                    "id": 141,
+                    "content": "Guofei Gu, Texas A&M University",
+                    "key": 53
+                },
+                {
+                    "id": 142,
+                    "content": "Yong Guan, Iowa State University",
+                    "key": 54
+                },
+                {
+                    "id": 143,
+                    "content": "Carl Gunter, University of Illinois at Urbana-Champaign",
+                    "key": 55
+                },
+                {
+                    "id": 144,
+                    "content": "Weili Han, Fudan University",
+                    "key": 56
+                },
+                {
+                    "id": 145,
+                    "content": "Carmit Hazay, Bar-Ilan University",
+                    "key": 57
+                },
+                {
+                    "id": 146,
+                    "content": "Ryan Henry, University of Calgary",
+                    "key": 58
+                },
+                {
+                    "id": 147,
+                    "content": "Michael Hicks, University of Maryland",
+                    "key": 59
+                },
+                {
+                    "id": 148,
+                    "content": "Thorsten Holz, Ruhr-University Bochum",
+                    "key": 60
+                },
+                {
+                    "id": 149,
+                    "content": "Nick Hopper, University of Minnesota",
+                    "key": 61
+                },
+                {
+                    "id": 150,
+                    "content": "Amir Houmansadr, University of Massachusetts Amherst",
+                    "key": 62
+                },
+                {
+                    "id": 151,
+                    "content": "Yan Huang, Indiana University",
+                    "key": 63
+                },
+                {
+                    "id": 152,
+                    "content": "Trent Jaeger, Penn State University",
+                    "key": 64
+                },
+                {
+                    "id": 153,
+                    "content": "Tibor Jager, Paderborn University",
+                    "key": 65
+                },
+                {
+                    "id": 154,
+                    "content": "Rob Jansen, U.S. Naval Research Laboratory",
+                    "key": 66
+                },
+                {
+                    "id": 155,
+                    "content": "Somesh Jha, University of Wisconsin–Madison",
+                    "key": 67
+                },
+                {
+                    "id": 156,
+                    "content": "Shouling Ji, Zhejiang University",
+                    "key": 68
+                },
+                {
+                    "id": 157,
+                    "content": "Yier Jin, University of Florida",
+                    "key": 69
+                },
+                {
+                    "id": 158,
+                    "content": "Brent Byunghoon Kang, KAIST",
+                    "key": 70
+                },
+                {
+                    "id": 159,
+                    "content": "Murat Kantarcioglu, UT Dallas",
+                    "key": 71
+                },
+                {
+                    "id": 160,
+                    "content": "Alexandros Kapravelos, North Carolina State University",
+                    "key": 72
+                },
+                {
+                    "id": 161,
+                    "content": "Aniket Kate, Purdue University",
+                    "key": 73
+                },
+                {
+                    "id": 162,
+                    "content": "Aggelos Kiayias, University of Edinburgh and IOHK",
+                    "key": 74
+                },
+                {
+                    "id": 163,
+                    "content": "Yongdae Kim, KAIST",
+                    "key": 75
+                },
+                {
+                    "id": 164,
+                    "content": "Taesoo Kim, Georgia Tech",
+                    "key": 76
+                },
+                {
+                    "id": 165,
+                    "content": "Engin Kirda, Northeastern University",
+                    "key": 77
+                },
+                {
+                    "id": 166,
+                    "content": "Ralf Kuesters, University of Stuttgart",
+                    "key": 78
+                },
+                {
+                    "id": 167,
+                    "content": "BumJun Kwon, National Security Research Institute",
+                    "key": 79
+                },
+                {
+                    "id": 168,
+                    "content": "Wenke Lee, Georgia Tech",
+                    "key": 80
+                },
+                {
+                    "id": 169,
+                    "content": "Ruby Lee, Princeton",
+                    "key": 81
+                },
+                {
+                    "id": 170,
+                    "content": "Kirill Levchenko, University of Illinois at Urbana-Champaign",
+                    "key": 82
+                },
+                {
+                    "id": 171,
+                    "content": "Zhou Li, UC Irvine",
+                    "key": 83
+                },
+                {
+                    "id": 172,
+                    "content": "Bo Li, University of Illinois at Urbana-Champaign",
+                    "key": 84
+                },
+                {
+                    "id": 173,
+                    "content": "Ninghui Li, Purdue University",
+                    "key": 85
+                },
+                {
+                    "id": 174,
+                    "content": "Zhenkai Liang, National University of Singapore",
+                    "key": 86
+                },
+                {
+                    "id": 175,
+                    "content": "Xiaojing Liao, Indiana University",
+                    "key": 87
+                },
+                {
+                    "id": 176,
+                    "content": "David Lie, University of Toronto",
+                    "key": 88
+                },
+                {
+                    "id": 177,
+                    "content": "Zhiqiang Lin, Ohio State University",
+                    "key": 89
+                },
+                {
+                    "id": 178,
+                    "content": "Yang Liu, Nanyang Technological University",
+                    "key": 90
+                },
+                {
+                    "id": 179,
+                    "content": "Peng Liu, Penn State University",
+                    "key": 91
+                },
+                {
+                    "id": 180,
+                    "content": "Wenjing Lou, Virginia Tech",
+                    "key": 92
+                },
+                {
+                    "id": 181,
+                    "content": "Kangjie Lu, University of Minnesota",
+                    "key": 93
+                },
+                {
+                    "id": 182,
+                    "content": "Vadim Lyubashevsky, IBM Research – Zurich",
+                    "key": 94
+                },
+                {
+                    "id": 183,
+                    "content": "Ashwin Machanavajjhala, Duke University",
+                    "key": 95
+                },
+                {
+                    "id": 184,
+                    "content": "Matteo Maffei, TU Wien",
+                    "key": 96
+                },
+                {
+                    "id": 185,
+                    "content": "Mohammad Mannan, Concordia University",
+                    "key": 97
+                },
+                {
+                    "id": 186,
+                    "content": "Damon McCoy, New York University",
+                    "key": 98
+                },
+                {
+                    "id": 187,
+                    "content": "Patrick McDaniel, Penn State University",
+                    "key": 99
+                },
+                {
+                    "id": 188,
+                    "content": "Ian Miers, Cornell Tech",
+                    "key": 100
+                },
+                {
+                    "id": 189,
+                    "content": "Andrew Miller, University of Illinois at Urbana-Champaign",
+                    "key": 101
+                },
+                {
+                    "id": 190,
+                    "content": "Jiang Ming, UT Arlington",
+                    "key": 102
+                },
+                {
+                    "id": 191,
+                    "content": "Ilya Mironov, Google",
+                    "key": 103
+                },
+                {
+                    "id": 192,
+                    "content": "Esfandiar Mohammadi, ETH Zurich",
+                    "key": 104
+                },
+                {
+                    "id": 193,
+                    "content": "Payman Mohassel, Visa Research",
+                    "key": 105
+                },
+                {
+                    "id": 194,
+                    "content": "Muhammad Naveed, University of Southern California",
+                    "key": 106
+                },
+                {
+                    "id": 195,
+                    "content": "Olga Ohrimenko, Microsoft Research",
+                    "key": 107
+                },
+                {
+                    "id": 196,
+                    "content": "Claudio Orlandi, Aarhus University",
+                    "key": 108
+                },
+                {
+                    "id": 197,
+                    "content": "Nicolas Papernot, Google Brain",
+                    "key": 109
+                },
+                {
+                    "id": 198,
+                    "content": "Kenneth Paterson, RHUL/ETH Zurich",
+                    "key": 110
+                },
+                {
+                    "id": 199,
+                    "content": "Mathias Payer, EPFL",
+                    "key": 111
+                },
+                {
+                    "id": 200,
+                    "content": "Paul Pearce, Georgia Tech/Facebook",
+                    "key": 112
+                },
+                {
+                    "id": 201,
+                    "content": "Adrian Perrig, ETH",
+                    "key": 113
+                },
+                {
+                    "id": 202,
+                    "content": "Frank Piessens, KU Leuven",
+                    "key": 114
+                },
+                {
+                    "id": 203,
+                    "content": "Zhiyun Qian, UC Riverside",
+                    "key": 115
+                },
+                {
+                    "id": 204,
+                    "content": "Feng Qian, University of Minnesota",
+                    "key": 116
+                },
+                {
+                    "id": 205,
+                    "content": "William Robertson, Northeastern University",
+                    "key": 117
+                },
+                {
+                    "id": 206,
+                    "content": "Mike Rosulek, Oregon State University",
+                    "key": 118
+                },
+                {
+                    "id": 207,
+                    "content": "Andrew Ruef, Self",
+                    "key": 119
+                },
+                {
+                    "id": 208,
+                    "content": "Ulrich Rührmair, LMU Munich",
+                    "key": 120
+                },
+                {
+                    "id": 209,
+                    "content": "Andrei Sabelfeld, Chalmers University of Technology",
+                    "key": 121
+                },
+                {
+                    "id": 210,
+                    "content": "Ahmad-Reza Sadeghi, TU Darmstadt",
+                    "key": 122
+                },
+                {
+                    "id": 211,
+                    "content": "Stefan Nuernberger, CISPA Helmholtz Center for Information Security",
+                    "key": 123
+                },
+                {
+                    "id": 212,
+                    "content": "Michael Reiter, University of North Carolina at Chapel Hill",
+                    "key": 124
+                },
+                {
+                    "id": 213,
+                    "content": "Nitesh Saxena, University of Alabama at Birmingham",
+                    "key": 125
+                },
+                {
+                    "id": 214,
+                    "content": "Joshua Schiffman, HP Inc.",
+                    "key": 126
+                },
+                {
+                    "id": 215,
+                    "content": "Benedikt Schmidt, Google",
+                    "key": 127
+                },
+                {
+                    "id": 216,
+                    "content": "Dominique Schroder, University of Erlangen-Nuremberg",
+                    "key": 128
+                },
+                {
+                    "id": 217,
+                    "content": "Abhi Shelat, Northeastern University",
+                    "key": 129
+                },
+                {
+                    "id": 218,
+                    "content": "Seungwon Shin, KAIST",
+                    "key": 130
+                },
+                {
+                    "id": 219,
+                    "content": "Reza Shokri, National University of Singapore",
+                    "key": 131
+                },
+                {
+                    "id": 220,
+                    "content": "Adam Smith, Boston University",
+                    "key": 132
+                },
+                {
+                    "id": 221,
+                    "content": "Chengyu Song, UC Riverside",
+                    "key": 133
+                },
+                {
+                    "id": 222,
+                    "content": "Ben Stock, CISPA Helmholtz Center for Information Security",
+                    "key": 134
+                },
+                {
+                    "id": 223,
+                    "content": "Gianluca Stringhini, Boston University",
+                    "key": 135
+                },
+                {
+                    "id": 224,
+                    "content": "Kun Sun, George Mason University",
+                    "key": 136
+                },
+                {
+                    "id": 225,
+                    "content": "Paul Syverson, U.S. Naval Research Laboratory (NRL)",
+                    "key": 137
+                },
+                {
+                    "id": 226,
+                    "content": "Kunal Talwar, Google",
+                    "key": 138
+                },
+                {
+                    "id": 227,
+                    "content": "Yuan Tian, University of Virginia",
+                    "key": 139
+                },
+                {
+                    "id": 228,
+                    "content": "Nils Ole Tippenhauer, CISPA Helmholtz Center for Information Security",
+                    "key": 140
+                },
+                {
+                    "id": 229,
+                    "content": "Mohit Tiwari, UT Austin",
+                    "key": 141
+                },
+                {
+                    "id": 230,
+                    "content": "Blase Ur, University of Chicago",
+                    "key": 142
+                },
+                {
+                    "id": 231,
+                    "content": "Venkat Venkatakrishnan, University of Illinois at Chicago",
+                    "key": 143
+                },
+                {
+                    "id": 232,
+                    "content": "Giovanni Vigna, UC Santa Barbara",
+                    "key": 144
+                },
+                {
+                    "id": 233,
+                    "content": "Hayawardh Vijayakumar, Samsung Research America",
+                    "key": 145
+                },
+                {
+                    "id": 234,
+                    "content": "Haining Wang, University of Delaware",
+                    "key": 146
+                },
+                {
+                    "id": 235,
+                    "content": "Xiao Wang, MIT and Boston University",
+                    "key": 147
+                },
+                {
+                    "id": 236,
+                    "content": "Wenhao Wang, IIE CAS",
+                    "key": 148
+                },
+                {
+                    "id": 237,
+                    "content": "Ruoyu (Fish) Wang, Arizona State University",
+                    "key": 149
+                },
+                {
+                    "id": 238,
+                    "content": "Rebecca Wright, Rutgers and Barnard",
+                    "key": 150
+                },
+                {
+                    "id": 239,
+                    "content": "Dinghao Wu, Penn State University",
+                    "key": 151
+                },
+                {
+                    "id": 240,
+                    "content": "Tao Xie, University of Illinois at Urbana-Champaign",
+                    "key": 152
+                },
+                {
+                    "id": 241,
+                    "content": "Luyi Xing, Indiana University",
+                    "key": 153
+                },
+                {
+                    "id": 242,
+                    "content": "Xinyu Xing, Penn State University",
+                    "key": 154
+                },
+                {
+                    "id": 243,
+                    "content": "Li Xiong, Emory University",
+                    "key": 155
+                },
+                {
+                    "id": 244,
+                    "content": "Wenyuan Xu, Zhejiang University",
+                    "key": 156
+                },
+                {
+                    "id": 245,
+                    "content": "Min Yang, Fudan University",
+                    "key": 157
+                },
+                {
+                    "id": 246,
+                    "content": "Danfeng (Daphne) Yao, Virginia Tech",
+                    "key": 158
+                },
+                {
+                    "id": 247,
+                    "content": "Yuval Yarom, University of Adelaide",
+                    "key": 159
+                },
+                {
+                    "id": 248,
+                    "content": "Arkady Yerukhimovich, George Washington University",
+                    "key": 160
+                },
+                {
+                    "id": 249,
+                    "content": "Heng Yin, UC Riverside",
+                    "key": 161
+                },
+                {
+                    "id": 250,
+                    "content": "Ting Yu, Qatar Computing Research Institute",
+                    "key": 162
+                },
+                {
+                    "id": 251,
+                    "content": "Yu Yu, Shanghai Jiao Tong University",
+                    "key": 163
+                },
+                {
+                    "id": 252,
+                    "content": "Danfeng Zhang, Penn State University",
+                    "key": 164
+                },
+                {
+                    "id": 253,
+                    "content": "Yinqian Zhang, Ohio State University",
+                    "key": 165
+                },
+                {
+                    "id": 254,
+                    "content": "Xiangyu Zhang, Purdue University",
+                    "key": 166
+                },
+                {
+                    "id": 255,
+                    "content": "Kehuan Zhang, The Chinese University of Hong Kong",
+                    "key": 167
+                },
+                {
+                    "id": 256,
+                    "content": "Yang Zhang, CISPA Helmholtz Center for Information Security",
+                    "key": 168
+                },
+                {
+                    "id": 257,
+                    "content": "Fengwei Zhang, Wayne State University",
+                    "key": 169
+                },
+                {
+                    "id": 258,
+                    "content": "Chao Zhang, Tsinghua University",
+                    "key": 170
+                },
+                {
+                    "id": 259,
+                    "content": "Yajin Zhou, Zhejiang University",
+                    "key": 171
+                },
+                {
+                    "id": 260,
+                    "content": "Jianying Zhou, SUTD",
+                    "key": 172
+                },
+                {
+                    "id": 261,
+                    "content": "Yupeng Zhang, UC Berkeley",
+                    "key": 173
+                },
+                {
+                    "id": 262,
+                    "content": "Zhe Zhou, Fudan University",
+                    "key": 174
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,407 @@
+{
+    "id": 0,
+    "content": "Parallel Data Processing in MapReduce F’17",
+    "children": [
+        {
+            "id": 1,
+            "content": "Parallel Data Processing in MapReduce F’17",
+            "key": 1,
+            "children": [
+              {
+                "id": 2,
+                "content": "Big data is a catchall term for datasets that are resource intensive. This course will introduce student to parallel and distributed processing technologies for analyzing ‘big data’. The course will cover programming paradigms and abstractions for data analysis at scale. Students will gain an understanding of the performance and usability trade-offs of various technologies and paradigms. Students will become familiar with technologies such as Hadoop, Spark, H20 and TensorFlow amongst other. Hands-on assignments will focus on machine learning and data analysis tasks. The class builds on known principles such as the design recipe, testing and code reviews.",
+                "key": 1
+              },
+              {
+                "id": 3,
+                "content": "prereqs",
+                "key": 2,
+                "children": [
+                  {
+                    "id": 4,
+                    "content": "Students should have taken the Algorithms course, should enjoy programming and strive to write beautiful code.",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 5,
+                "content": "staff",
+                "key": 3,
+                "children": [
+                  {
+                    "id": 6,
+                    "content": "Instructors:",
+                    "key": 1,
+                    "children": [
+                      {
+                        "id": 7,
+                        "content": "Jan Vitek and Konrad Siek",
+                        "key": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8,
+                    "content": "Teaching Assistant:",
+                    "key": 2,
+                    "children": [
+                      {
+                        "id": 9,
+                        "content": "Aviral Goel",
+                        "key": 1
+                      },
+                      {
+                        "id": 10,
+                        "content": "Communication with staff is exclusively through Piazza. Use private notes for messages that should not be visible to other students.",
+                        "key": 2
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 11,
+                "content": "work",
+                "key": 4,
+                "children": [
+                  {
+                    "id": 12,
+                    "content": "Approximatively fifteen hours a week, with regular codewalks and in-class tests.",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 13,
+                "content": "grading",
+                "key": 5,
+                "children": [
+                  {
+                    "id": 14,
+                    "content": "The class grade is on 100 points with 33 points for in-class participation (quizzes, questions, paper presentation, note taking), 34 points for the final project (software, report and oral defense) and 33 points for codewalks. The final grade is given on a scale of A=90, A-=85, B+=80, B=75, B-=70, C=65, D=55. Codewalks conducted in class focus on the student’s code output and graded based on code quality.",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 15,
+                "content": "authorship",
+                "key": 6,
+                "children": [
+                  {
+                    "id": 16,
+                    "content": "Every code element (file or function) must have a note ascribing authorship to an initial author and, possibly, multiple maintainers. Sharing code is allowed. Changing authorship is cheating.",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 17,
+                "content": "integrity",
+                "key": 7,
+                "children": [
+                  {
+                    "id": 18,
+                    "content": "Cheating means an F to all involved parties, expulsion from the class and notification of ORAF.",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 19,
+                "content": "presence",
+                "key": 8,
+                "children": [
+                  {
+                    "id": 20,
+                    "content": "There will be few traditional lectures, instead we discuss code, books and papers. Student will answer questions about assigned reading during class. Students should notify the instructor of absences. A scribe will record discussions in a shared document.",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 21,
+                "content": "hours",
+                "key": 9,
+                "children": [
+                  {
+                    "id": 22,
+                    "content": "Reception hours are held daily M,W,R from 11am to 12am. Class is in the Forsyth Building , room 129, Tuesday, Friday 3:30 - 5:00.",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 23,
+                "content": "regrades",
+                "key": 10,
+                "children": [
+                  {
+                    "id": 24,
+                    "content": "All regrade requests and grade challenges must be submitted in writing, private posts on Piazza, no more than 7 days after the grade was awarded.",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 25,
+                "content": "codewalks",
+                "key": 11,
+                "children": [
+                  {
+                    "id": 26,
+                    "content": "A code review is conducted after each task. Teams review other teams’ work, commenting on code quality, design, documentation and tests. The goal is to produce actionable suggestions for improvements. The output of a review is a report. Code walks are in-class discussions of programming tasks that start from a code review and explore the implementation of a student’s project. Review are emailed in PDF to the instructor and code authors. They comment on the report, code and packaging. The report should give sufficient information to understand what was achieved. It should be clear and complete. The code should be well documents, avoid repetition, have no obvious bugs, have authorship comments. The packaging should make the results easily reproducible. Be curious about the code. Question the results. Don’t waste space in your report on what works well – spend your time on what could be improved. Avoid generalities, be precise, give examples.",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 27,
+                "content": "reading",
+                "isList": true,
+                "key": 12,
+                "children": [
+                  {
+                    "id": 28,
+                    "content": "HTDG,Hadoop The Definitive Guide 4th Edition, White, O’Reilly",
+                    "isList": true,
+                    "key": 1
+                  },
+                  {
+                    "id": 29,
+                    "content": "KKWZ,Learning Spark , Zaharia M., et al., O’Reilly",
+                    "isList": true,
+                    "key": 2
+                  },
+                  {
+                    "id": 30,
+                    "content": "MR04,MapReduce: Simplified Data Processing on Large Clusters , Dean, Ghemawat, OSDI04,link",
+                    "isList": true,
+                    "key": 3
+                  },
+                  {
+                    "id": 31,
+                    "content": "FJ10,FlumeJava: Easy, Efficient Data-Parallel Pipelines , Chambers+, PLDI’10,link",
+                    "isList": true,
+                    "key": 4
+                  },
+                  {
+                    "id": 32,
+                    "content": "SK12,Possible Hadoop Trajectories Stonebraker , Kepner, CACM’12,link",
+                    "isList": true,
+                    "key": 5
+                  },
+                  {
+                    "id": 33,
+                    "content": "Spring 2014,Hadoop at a Crossroads? Stonebraker, CACM’14,link",
+                    "isList": true,
+                    "key": 6
+                  },
+                  {
+                    "id": 34,
+                    "content": "M3R12,Increased Performance for In-Memory Hadoop Jobs , Shinnar+, VLDB’12,link",
+                    "isList": true,
+                    "key": 7
+                  },
+                  {
+                    "id": 35,
+                    "content": "Z+12,A Fault-Tolerant Abstraction for In-Memory Cluster Comp , Zaharia+, NSDI’12,link",
+                    "isList": true,
+                    "key": 8
+                  },
+                  {
+                    "id": 36,
+                    "content": "J+12,The Performance of MapReduce: An In-depth Study , Jiang+, VLDB’10,link",
+                    "isList": true,
+                    "key": 9
+                  },
+                  {
+                    "id": 37,
+                    "content": "MAS11,Evaluating MapReduce Performance Using Workload Suites , Chen+, MASCOTS’11,link",
+                    "isList": true,
+                    "key": 10
+                  },
+                  {
+                    "id": 38,
+                    "content": "OS06,Bigtable: A Distributed Storage System for Structured Data , Chang+, OSDI06,link",
+                    "isList": true,
+                    "key": 11
+                  },
+                  {
+                    "id": 39,
+                    "content": "R+12,Nobody ever got fired for using Hadoop on a cluster , Rowstron+,link",
+                    "isList": true,
+                    "key": 12
+                  },
+                  {
+                    "id": 40,
+                    "content": "A+15,Spark SQL: Relational Data Processing in Spark , Armburst+, SIGMOD15,link",
+                    "isList": true,
+                    "key": 13
+                  },
+                  {
+                    "id": 41,
+                    "content": "O+14,Processing Theta-Joins using MapReduce , Okcan+ SIGMOD11,link",
+                    "isList": true,
+                    "key": 14
+                  },
+                  {
+                    "id": 42,
+                    "content": "AD15,Scaling spark in the real world: performance and usability , Armburst+, VLDB15,link",
+                    "isList": true,
+                    "key": 15
+                  },
+                  {
+                    "id": 43,
+                    "content": "JMM,The Java Memory Model FAQ,link",
+                    "isList": true,
+                    "key": 16
+                  },
+                  {
+                    "id": 44,
+                    "content": "B+16,SystemML: Declarative Machine Learning on Spark , M. Boehm et al., VLDB16,link",
+                    "isList": true,
+                    "key": 17
+                  },
+                  {
+                    "id": 45,
+                    "content": "M+16,dmapply: A functional primitive to express distributed machine learning algorithms in R , Ma et al. VLDB16,link",
+                    "isList": true,
+                    "key": 18
+                  },
+                  {
+                    "id": 46,
+                    "content": "S+16,Titian: Data Provenance Support in Spark , Shah et al., VLDB16,link",
+                    "isList": true,
+                    "key": 19
+                  },
+                  {
+                    "id": 47,
+                    "content": "O+04,An Overview of the Scala Programming Language , Odersky et al., LAMP TR,link",
+                    "isList": true,
+                    "key": 20
+                  },
+                  {
+                    "id": 48,
+                    "content": "A+16,TensorFlow: A system for large-scale machine learning , Abadi et al., USENIX16,link",
+                    "isList": true,
+                    "key": 21
+                  }
+                ]
+              }
+            ]
+        },
+      {
+        "id": 49,
+        "content": "Tasks",
+        "isList": true,
+        "key": 2,
+        "children": [
+          {
+            "id": 50,
+            "content": "Assignment",
+            "isList": true,
+            "key": 1,
+            "children": [
+              {
+                "id": 51,
+                "content": ",Title,Release,Submission Date",
+                "key": 1
+              }
+            ]
+          },
+          {
+            "id": 52,
+            "content": "A0,Neighborhood Score,9/8/17,None",
+            "isList": true,
+            "key": 2
+          },
+          {
+            "id": 53,
+            "content": "A1,Neighborhood Score:",
+            "key": 3,
+            "children": [
+              {
+                "id": 54,
+                "content": "Benchmarking,9/15/17,12 Noon, 9/22/17",
+                "key": 1
+              }
+            ]
+          },
+          {
+            "id": 55,
+            "content": "A2,Neighborhood Score:",
+            "key": 4,
+            "children": [
+              {
+                "id": 56,
+                "content": "MapReduce,9/22/17,12 Noon, 9/29/17",
+                "key": 1
+              }
+            ]
+          },
+          {
+            "id": 57,
+            "content": "A3,Neighborhood Score:",
+            "key": 5,
+            "children": [
+              {
+                "id": 58,
+                "content": "Reloaded,9/29/17,12 Noon, 10/06/17",
+                "key": 1
+              }
+            ]
+          },
+          {
+            "id": 59,
+            "content": "A4,On-time performance:",
+            "key": 6,
+            "children": [
+              {
+                "id": 60,
+                "content": "Starter kit,10/06/17,12 Noon, 10/13/17",
+                "key": 1
+              }
+            ]
+          },
+          {
+            "id": 61,
+            "content": "A5,On-time performance:",
+            "key": 7,
+            "children": [
+              {
+                "id": 62,
+                "content": "Model and Join,10/13/17,12 Noon, 10/20/17",
+                "key": 1
+              }
+            ]
+          },
+          {
+            "id": 63,
+            "content": "A6,Spark: High Fidelity,10/20/17,12 Noon, 10/27/17",
+            "isList": true,
+            "key": 8
+          },
+          {
+            "id": 64,
+            "content": "A7,Spark: Clustering,10/27/17,12 Noon, 11/03/17",
+            "isList": true,
+            "key": 9
+          },
+          {
+            "id": 65,
+            "content": "A8,Ghost Protocol,11/04/17,12 Noon, 11/10/17",
+            "isList": true,
+            "key": 10
+          },
+          {
+            "id": 66,
+            "content": "Project,Crystal Discoball,11/04/17,12 Noon, 12/04/17",
+            "isList": true,
+            "key": 11
+          }
+        ]
+      }
+    ]
+}

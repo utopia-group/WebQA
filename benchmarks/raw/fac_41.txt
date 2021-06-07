@@ -1,0 +1,1030 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="CONTENT-TYPE"/>
+<title>Xiaoli Fern Homepage</title>
+<meta content="OpenOffice.org 1.1.2 (Linux)" name="GENERATOR"/>
+<meta content="20060912;11293100" name="CREATED"/>
+<meta content="20060912;11302800" name="CHANGED"/>
+<!-- start of include file info.inc --><!-- OWNER_NAME="Xiaoli Zhang Fern, Computer Science" --><!-- end of include file info.inc -->
+<style>
+	<!--
+		H1 { color: #000000 }
+		P { color: #000000 }
+		H3 { color: #000000 }
+		A:link { color: #000099 }
+		A:visited { color: #990099 }
+	-->
+	</style>
+</head>
+<body alink="#000099" dir="ltr" lang="en-US" link="#000099" style="color: rgb(0, 0, 0); background-color: rgb(255,
+    255, 239);" vlink="#990099">
+<h1><a href="piet_mondrian.gif"><font color="#000000"><img align="left" alt="" name="Graphic1" src="fernx.jpg" style="border: 2px solid;
+            width: 151px; height: 210px; border: 1px solid;"/></font></a></h1>
+<h1 style="text-align: center;">  Xiaoli Z. Fern, PhD</h1>
+<hr/>
+<h3 style="text-align: center;">   Associate Professor </h3>
+<div style="margin-left: 200px; text-align: center;"><a href="http://www.eecs.oregonstate.edu/"> School of
+        Electrical Engineering and Computer Science </a><br/>
+</div>
+<div style="text-align: center;"><a href="www.oregonstate.edu">Oregon
+State
+
+
+
+
+
+
+
+        University</a><br/>
+<br/>
+</div>
+<p><br/>
+</p>
+<h3><br/>
+</h3>
+<h2><b><font size="4"><a name="contact"></a>To contact me:</font></b></h2>
+<p>Office:   Kelly 3073 <br/>
+      Phone:  (541)737-2557 <br/>
+      e-mail:  xfern AT eecs.oregonstate.edu<br/>
+</p>
+<p><big>Quick links: <a href="#Teaching">Teaching</a>, <a href="#Research_and_Publications:_">Research Projects</a>, <a href="#Current_and_Past_Students:">Students</a>, <a href="vita-12.pdf"> CV</a>, <a href="publist.html">Publication
+
+
+
+
+
+
+          list</a>, <a href="http://eecs.oregonstate.edu/research/bioacoustics/">The
+          bioacoustic project</a> , <a href="CAREER.html"> Career Grant</a></big><br/>
+</p>
+<hr/>
+<h2>Education:</h2>
+<p>PhD, Computer Engineering, ECE, Purdue University, Indiana, USA.
+      2005<br/>
+      M.S. Institute of Image Processing and Pattern Recognition,
+      Shanghai Jiao Tong Univ., Shanghai, China 2000<br/>
+      B.S. Automation, Shanghai Jiao Tong University, Shanghai, China
+      2000<br/>
+</p>
+<h2><span style="font-weight: bold;">Short Biography:</span></h2>
+<h2><span style="font-weight: bold;"></span></h2>
+<p><span style="font-weight: bold;"></span>Dr. Xiaoli Fern is an
+      assistant professor at the School of Electrical Engineering and
+      Computer Science, Oregon State University, Corvallis, OR, since
+      2005.  She received her PhD degree in Computer Engineering
+      from Purdue University, West Lafayette, IN, in 2005 and her M.S.
+      degree from Shanghai Jiao Tong university (SJTU), Shanghai China
+      in 2000. Her general research interest is in the area of machine
+      learning and data mining. She received an NSF Career Award in
+      2011. She co-organized the first International Workshop on
+      Discovering, Utilizing and Summarizing Multiple Clustering
+      (MultiClust KDD 2010), and served as the publicity chair for
+      International Conference on Machine Learning in 2007. Dr. Xiaoli
+      Fern is currently an editorial board member of the Machine
+      Learning Journal and serves regularly on the program committee for
+      a number of top tier international conferences on machine learning
+      and data mining such as ICML, ECML, AAAI, KDD, ICDM, SIAM
+      SDM.  <br/>
+</p>
+<a name="Research_and_Publications:_"></a><big><font size="4"><big><b>Research:</b></big></font></big><br/>
+<br/>
+    My primary research interest is in the areas of machine learning and
+    data mining. My research is largely driven by practical applications
+    and the challenges they present to traditional machine learning and
+    data mining techniques. Below is a sample of my current and past
+    research projects and some selected publications related to these
+    projects. See <a href="web.engr.oregonstate.edu/%7Exfern/publist.html">my
+      publication list</a> for a more complete list of publications.<br/>
+<ul style="font-weight: bold;">
+<li><big>Fundamental research:</big></li>
+</ul>
+<div style="margin-left: 40px;"><span style="font-weight: bold;">Explorative
+
+
+
+
+
+
+
+        data clustering</span> involves grouping objects into clusters
+      such that similar objects are grouped together. My research
+      attemps to advance the field of unsupervised clutsering in a
+      number of directions. <br/>
+      First, motivated by the fact that objects in a data set maybe
+      similar to each other in multiple different ways, and different
+      clustering structures may exist in the same data. I am interested
+      in exploratively examining data in different ways to produce
+      different clusterings. Such clusterings can be sometimes combined
+      to provide a more reliable view of the structure of the data via <span style="font-style: italic; font-weight: bold;">cluster ensemble
+        methods</span>, or other times examined individually as they may
+      provide different insights (<span style="font-style: italic;
+        font-weight: bold;">non-redundant clustering</span>). <br/>
+<br/>
+<span style="font-weight: bold;">Clustering with partial
+        supervision and active learning.  </span>Due to the
+      inherent embiguous nature of the clustering task, in practice it
+      is very useful to consider some user-provided side information
+      such that a learning algorithm can seek to find a underlying
+      clustering struture to that is most consistent with the side
+      information. For example such information can be expressed in
+      terms of pairwise constraints requiring some objects to be placed
+      together or apart. I am interested in developing clustering
+      techniques that can take into consideration richer forms of user
+      constraints (e.g., comparative constraints involving multiple
+      objects), and active learning frameworks that effectively acquire
+      various form of user inputs without imposing heavy burden on the
+      users. This work is supported by  my NSF career grant. For
+      more details, please see the project page <a href="http://web.engr.orst.edu/%7Exfern/CAREER.html">here</a>.<br/>
+<br/>
+<span style="font-weight: bold;"><br/>
+        Selected publications:</span><br/>
+<br/>
+</div>
+<div style="margin-left: 80px;">Wei Zhang, Akshat Surve, Xiaoli Z.
+      Fern and Thomas Ditteriech, Learning Non-redundant Codebooks for
+      Classifying Complex Objects,  In <span style="font-style:
+        italic;">Proceedings of International Conference on Machine
+        Learning, ICML 2009. <a href="nonredundantcodebook.pdf">PDF</a></span><span style="font-weight: bold;"><span style="font-weight: bold;"></span><br/>
+<br/>
+</span>Javad Azimi and Xiaoli Fern, Adaptive Cluster Ensemble
+      Selection, In <span style="font-style: italic;">Proceedings of
+        International Joint Conference on Artificial Intellegence, IJCAI
+        2009. <a href="adaptive-ensembleselection.pdf">PDF</a></span><br/>
+<br/>
+      Xiaoli Z. Fern and Wei Lin, Cluster Ensemble Selection, <span style="font-style: italic;">Journal of Statistical Analysis and
+        Data Mining</span>, <span style="font-style: italic;">Special
+        Issue on Best of SDM08, </span>Volume 1, Issue 3
+      , Pages128 - 141, 2008 <a href="ensem-select-new.pdf">Preprint</a>
+<span style="font-style: italic;"></span><br/>
+<br/>
+      Xiaoli Z. Fern and Wei Lin, Cluster Ensemble Selection, In <span style="font-style: italic;">Proceedings of 2008 SIAM
+        International Conference on Data Mining</span> (SDM08). <a href="ensem_select.pdf">pdf</a><br/>
+<br/>
+</div>
+<div style="margin-left: 80px;">Ying Cui, Xiaoli Z. Fern and
+      Jennifer Dy, Non-redundant multi-view clustering via
+      orthogonalization, in <span style="font-style: italic;">Proceedings
+
+
+
+
+
+
+        of 7th IEEE International Conference on Data Mining (ICDM07)</span>
+<a href="multiview.pdf">pdf</a>.<br/>
+</div>
+<div style="margin-left: 80px;"><br/>
+      Xiaoli Z. Fern and <a href="http://mow.ecn.purdue.edu/%7Ebrodley">Carla
+E.
+
+
+
+
+
+
+
+        Brodley</a>,  "Cluster ensembles for high dimensional data
+      clustering: An empirical study", Techenical report  <a href="http://eecs.oregonstate.edu/library/?call=2006-23">CS06-30-02</a>.</div>
+<div style="margin-left: 80px;"><br/>
+      Xiaoli Z. Fern and Carla E. Brodley,  "Solving cluster
+      ensemble problems by bipartite graph partitioning", in Proceedings
+      of 21th International Conference on Machine learning (ICML2004), <a href="graph_icml04.pdf">PDF file</a>, <a href="HBGF_spec.m">Matlab
+
+
+
+
+
+
+        implementation of the algorithm</a> ( Note: this code is
+      provided on "as is" basis for research use only. )<br/>
+<br/>
+      Xiaoli Z. Fern and Carla E. Brodley,  "Random Projection for
+      High Dimensional Data Clustering: A Cluster Ensemble
+      Approach",  in Proceedings of 20th International Conference
+      on Machine learning (ICML2003), <a href="rpm_icml03.pdf">PDF file</a></div>
+<ul>
+</ul>
+<ul>
+<li><big><span style="font-weight: bold;">Applied research</span><br/>
+</big></li>
+</ul>
+<div style="text-align: left;">
+<ul style="list-style-type: circle;">
+<ul>
+<li><span style="font-weight: bold;"><a href="http://eecs.oregonstate.edu/research/bioacoustics/">The
+
+
+
+
+
+
+
+                Bird-Bioacoustic Project</a></span>. In this project, we
+            record and analyze bird songs to predict bird species and to
+            understand the behavior of birds through their songs. This
+            is a joint project with Dr. Raviv Raich (ECE, OSU) and Dr.
+            Matthew Betts (Forrestry, OSU). See project webpage for more
+            exciting details and publications related to this topic. <br/>
+</li>
+<ul>
+<br/>
+</ul>
+<ul>
+<li>Forrest Briggs, Xiaoli Fern and Raviv Raich,
+              Context-Aware MIML Instance Annotation, To appear in
+              Proceedings of IEEE International Conference on Data
+              Mining (ICDM 2013)</li>
+</ul>
+</ul>
+</ul>
+<ul style="list-style-type: circle;">
+<ul>
+<ul>
+<li>Forrest Briggs, Xiaoli Fern and Raviv Raich, Rank Loss
+              Support Instance Machines for MIML Instance Annotation, In
+              Proceedings of ACM International Conference on Knowledge
+              Discovery and Data Mining (KDD 2012)</li>
+</ul>
+</ul>
+</ul>
+<ul style="list-style-type: circle;">
+<ul>
+<ul>
+<li>Forrest Briggs, Balaji Lakshminarayanan, Lawrence Neal,
+              Xiaoli Z. Fern, Raviv Raich, Sarah Frey, Adam Hadley, and
+              Mattew G. Betts, Acoustic classification of multiple
+              simultaneous bird species: A multi-instance multi-label
+              approach, To appear in Journal of Acoustics Society of
+              America, 2012</li>
+</ul>
+</ul>
+</ul>
+<ul style="list-style-type: circle;">
+<ul>
+<ul>
+<li>Lawrence Neal, Forrest Briggs, Raviv Raich and Xiaoli
+              Fern, Time-frequency segmentation of bird song in noisy
+              acoustic environments, to appear in Proceedings of the
+              36th International Conference on Acoustics, Speech and
+              Signal Processing (ICASSP) 2011</li>
+</ul>
+</ul>
+</ul>
+<ul style="list-style-type: circle;">
+<ul>
+<ul>
+<li>Forrest Briggs, Raviv Raich, and Xiaoli Z. Fern, Audio
+              Classification of Bird Species: a Statistical Manifold
+              Approach, to appear in <span style="font-style: italic;">Proceedings
+
+
+
+
+
+
+
+                of International Conference on Data Mining</span>, ICDM
+              2009, <a href="bird-icdm09.pdf">pdf</a></li>
+</ul>
+</ul>
+</ul>
+<ul style="list-style-type: circle;">
+<ul>
+<ul>
+<li> B. Lakshminarayanan, R. Raich, and X. Fern, A
+              syllable-level probabilistic framework for bird species
+              identification, in <span style="font-style:italic;">
+                Proc. IEEE International Conference on Machine Learning
+                and Applications</span>, 2009. </li>
+</ul>
+</ul>
+</ul>
+<br/>
+<ul style="list-style-type: circle;">
+<ul>
+<li> <span style="font-weight:bold;">Experimental design and
+              Bayesian Optimization </span>. In this project, we
+            develop machine learning techniques to help scientists and
+            engineers to desgin better microbial fuels by allowing them
+            more efficiently experiment with different nano-structures.
+            This is an experimental design problem --- how to choose
+            appropriate experiments to perform under a budget
+            constraint. </li>
+</ul>
+</ul>
+<ul style="list-style-type: circle;">
+<ul>
+<ul>
+<li>Ali Jalali, Javad Azimi, and Xiaoli Fern, A Lipschitz
+              Exploration-Exploitation Scheme for Bayesian Optimization,
+              In Proceedings of ECML/PKDD 2013</li>
+</ul>
+</ul>
+</ul>
+<ul style="list-style-type: circle;">
+<ul>
+<ul>
+<li>Javad Azimi, Ali Jalali, and Xiaoli Fern, Hybrid Batch
+              Bayesian Optimization, In Proceedings of International
+              Conference on Machine Learning (ICML 2012)</li>
+</ul>
+</ul>
+</ul>
+<ul style="list-style-type: circle;">
+<ul>
+<ul>
+<li>Javad Azimi, Alan Fern and Xiaoli Fern, Batch Active
+              Learning via Coordinated Matching, In Proceedings of
+              International Conference on Machine Learning (ICML 2012)<br/>
+<br/>
+</li>
+<li>Javad Azimi, Alan Fern and Xiaoli Fern, Budgeted
+              Optimization with Concurrent Stochastic-Duration
+              Experiments, In NIPS 2011 (spotlight)</li>
+</ul>
+</ul>
+</ul>
+<ul style="list-style-type: circle;">
+<ul>
+<ul>
+<li> Javad Azimi, Alan Fern and Xiaoli Fern, Batch Bayesian
+              Optimization via Simulation Matching <span style="font-style: italic;"> Advances in Neural
+                Information Processing Systems (NIPS-2010)<a href="nips10-azimi.pdf">PDF</a></span></li>
+</ul>
+</ul>
+</ul>
+<ul style="list-style-type: circle;">
+<ul>
+<ul>
+<li> Javad Azimi, Xiaoli Fern, Alan Fern, Elizabeth Burrows,
+              Frank Chaplen, Yanzhen Fan, Hong Liu, Jun Jiao and Rebecca
+              Schaller. Myopic Policies for Budgeted Optimization with
+              Constrained Experiments In <span style="font-style:
+                italic;">Proceedings of AAAI Conference on Artificial
+                Intelligence (AAAI-2010) <a href="aaai10-azimi.pdf">PDF</a></span><span style="font-weight:bold;"></span>. <span style="font-weight: bold;"></span></li>
+<span style="font-weight: bold;"><br/>
+</span>
+</ul>
+</ul>
+</ul>
+<ul style="list-style-type: circle;">
+</ul>
+<ul style="list-style-type: circle;">
+<ul>
+<li><span style="font-weight:bold;"> Mining human strategies
+              (behavioral patterns) from human computer interaction data
+            </span>. In this research, we apply data mining to HCI log
+            data with the goal of finding interesting behavioral
+            patterns that shed some lights on the strategies users
+            employ while using software for problem solving. We
+            collaborate with the HCI researchers at <a href="http://eusesconsortium.org/index.php">EUSES</a>
+            consortium on this project.</li>
+<br/>
+<ul>
+<li>Xiaoli Fern, Chaitanya Komireddy, Valentina Grigoreanu,
+              and Margaret Burnett, "Mining Problem-Solving Strategies
+              from HCI Data", In <span style="font-style: italic"> ACM
+                Transaction on CHI (TOCHI) 2010.</span><br/>
+</li>
+</ul>
+</ul>
+</ul>
+<ul style="list-style-type: circle;">
+<ul>
+<ul>
+<li>Neeraja Subrahmaniyan, Laura Beckwith, Valentina
+              Grigoreanu, Margaret Burnett, Susan Wiedenbeck,Vaishnavi
+              Narayanan, Karin Bucht, Russell Drummond, and Xiaoli Fern,
+              “Testing vs. Code Inspection vs. ... What Else? Male and
+              Female End Users’ Debugging Strategies”, ACM Conference on
+              Human-Computer Interaction, April 2008  (CHI2008)<br/>
+</li>
+</ul>
+</ul>
+</ul>
+<ul style="list-style-type: circle;">
+<ul>
+<ul>
+<li>Xiaoli Fern, Chaitanya Komireddy, Margaret Burnett,
+              "Mining Interpretable Human Strategies: A Case Study", to
+              appear in Proceedings of 7th IEEE International Conference
+              on Data Mining (ICDM07) <a href="hci.pdf">pdf</a>. A
+              longer tech report version can be found here <a href="hci-techreport.pdf">pdf</a>.</li>
+</ul>
+</ul>
+</ul>
+<ul style="list-style-type: circle;">
+<ul>
+<ul>
+<li>Grigoreanu, V., Beckwith, L., Fern, X., Yang, S.,
+              Komireddy, C., Narayanan, V., Cook, C., Burnett, M.,
+              Gender Differences in End-User Debugging, Revisited: What
+              the Miners Found. In Proceedings of IEEE Symposium on
+              Visual Languages and Human-Centric Computing Languages and
+              Environments, Brighton, England, September 2006. <a href="vlhcc06.pdf">pdf</a></li>
+</ul>
+</ul>
+</ul>
+<ul style="list-style-type: circle;">
+<ul>
+<li><span style="font-weight: bold;">Correlation analysis on
+              Earth science data</span>. In this project, the goal is to
+            find out how one environmental factor impact another, for
+            example Sea Surface Temperature (SST) versus Sea Surface
+            Pressure (SSP), and vegetation index versus precipitation.
+            We developed a method that builds mixture of linear
+            canonical correlation (CCA) models to explain correlation
+            patterns between different domains.</li>
+<ul>
+<li>Xiaoli Z. Fern, Carla E. Brodley and Mark A. Friedl,
+               "Correlation clustering for learning mixture of
+              canonical correlation models ",  SIAM International
+              Conference on Data Mining (SDM2005). <a href="mcca.pdf">PDF
+
+
+
+
+
+
+
+                file</a>; <a href="gen.m">Matlab code </a>for
+              generating synthetic data with a prespecified correlation
+              structure.<br/>
+</li>
+</ul>
+</ul>
+</ul>
+</div>
+<div style="text-align: left;">
+<div style="text-align: left;">
+<ul>
+</ul>
+</div>
+</div>
+<div style="text-align: left;">
+<div style="text-align: left;">
+<hr style="width: 100%; height: 2px;"/>
+<h2><a name="Teaching"></a>Teaching:</h2>
+<p>    CS434: Introduction to Machine Learning
+          and Data Mining <a href="http://classes.engr.oregonstate.edu/eecs/Fall2012/cs434/">Fall
+
+
+
+
+
+
+
+            2012</a><br/>
+<br/>
+              CS519 <a href="http://ecoinformatics.oregonstate.edu/">IGERT
+            Ecosystem Informatics <br/>
+</a><br/>
+              CS534 Machine Learning <a href="http://classes.engr.oregonstate.edu/eecs/Spring2012/cs534/">Spring
+
+
+
+
+
+
+
+            2012</a><br/>
+<br/>
+              CS325 Analysis of Algorithms <a href="http://classes.engr.oregonstate.edu/eecs/Winter2012/cs325/">Winter
+
+
+
+
+
+
+
+            2012</a><br/>
+<br/>
+</p>
+<div style="text-align: left;">
+<hr style="width: 100%; height: 2px;"/>
+<h3><a name="Current_and_Past_Students:"></a>Current Students:</h3>
+<div style="margin-left: 40px;"><a href="http://web.engr.oregonstate.edu/%7Ebriggsf/">
+              Forrest Briggs (PhD)</a><br/>
+            Yuanli Pei (PhD)<br/>
+            Jun Xie (Master)<br/>
+            Lu Qin (Master)<br/>
+            Teresa Tjahja (Master)<br/>
+<br/>
+</div>
+<h3>Former students:</h3>
+<div style="margin-left: 40px;">Sicheng Xiong, Master 2013,
+            currently at ebay<br/>
+<a href="http://javad-azimi.com/">Javad Azimi</a>, PhD
+            2012, currently at Microsoft<br/>
+            Wei Lin, Master 2008 <br/>
+</div>
+<div style="margin-left: 40px;">Akshat Suave, Master 2009<br/>
+</div>
+<div style="margin-left: 40px;">Anshul Dube, Master 2009<br/>
+</div>
+<div style="margin-left: 40px;">Arunkumar Puppala, Master<br/>
+</div>
+<div style="margin-left: 40px;">Chaitanya Komireddy, Master <br/>
+</div>
+<br/>
+<hr style="width: 100%; height: 2px;"/>
+<h3>Useful links</h3>
+<a href="https://engr.oregonstate.edu/teach/">Engeering TEACH</a><br/>
+<a href="http://catalog.oregonstate.edu/SOCSearcher.aspx">OSU
+            class listing</a><br/>
+<a href="http://www.cs.ubc.ca/%7Emurphyk/Software/matlab_tips.html">Useful
+matlab
+
+
+
+
+
+
+
+            tips from Kevin Murphy at UBC</a><br/>
+<br/>
+<p><big><big><span style="font-weight: bold;"></span></big></big></p>
+<big><big><span style="font-weight: bold;"></span></big></big><big><big><span style="font-weight: bold;"></span></big></big><br/>
+<big><big><span style="font-weight: bold;"></span></big></big><big><big><span style="font-weight: bold;"><br/>
+</span></big></big> </div>
+</div>
+</div>
+<div>
+<div style="margin-left: 80px;"><span style="font-weight: bold;"></span><strong style="font-weight: normal;"></strong>
+<ul>
+</ul>
+<h2><big><span style="font-weight: bold;">Peer Reviewed Conference
+            and Workshop Papers</span></big></h2>
+      2014<br/>
+<ul>
+<li>John Walker Orr, Prasad Tadepalli, Janardhan Rao Doppa,
+          Xiaoli Fern, Thomas G. Dietterich. Learning Scripts as Hidden
+          Markov Models. AAAI 2014</li>
+</ul>
+<ul>
+<li>Chao Ma, Janardhan Rao Doppay, J. Walker Orr, Prashanth
+          Mannem, Xiaoli Fern, Tom Dietterich and Prasad Tadepalli.
+          Prune-and-Score: Learning for Greedy Coreference Resolution.
+          EMNLP2014</li>
+</ul>
+<ul>
+<li>Anh T. Pham, Raviv Raich, and Xiaoli Z. Fern, 
+          Efficient instance annotation in multi-instance
+          learning.  IEEE Statistical Signal Processing Workshop
+          (SSP), 2014</li>
+</ul>
+<ul>
+<li>Yuanli Pei, Arpit Christi, Xiaoli Fern, Alex Groce, and
+          Weng-Keen Wong,  Taming a Fuzzer Using Delta Debugging
+          Trails, ICDM workshop on Software Mining, 2014<br/>
+</li>
+</ul>
+<br/>
+      2013<br/>
+<h1> </h1>
+<ul>
+<li>Forrest Briggs, Yonghong Huang, Raviv Raich, Konstantinos
+          Eftaxias, Zhong Lei, William Cukierski, Sarah Frey Hadley,
+          Adam Hadley, Matthew Betts, Xiaoli Z. Fern, Jed Irvine,
+          Lawrence Neal, Anil Thomas, G�bor Fodor, Grigorios Tsoumakas,
+          Hong Wei Ng, Thi Ngoc Tho Nguyen, Heikki Huttunen, Pekka
+          Ruusuvuori, Tapio Manninen, Aleksandr Diment, Tuomas Virtanen,
+          Julien Marzat, Joseph Defretin, Dave Callender, Chris
+          Hurlburt, Ken Larrey, Maxim Milakov: The 9th annual MLSP
+          competition: New methods for acoustic classification of
+          multiple simultaneous bird species in a noisy environment.
+          IEEE International Workshop on MACHINE LEARNING FOR SIGNAL
+          PROCESSING (MLSP) 2013: 1-8</li>
+</ul>
+<ul>
+<li>Forrest Briggs, Xiaoli Fern and Raviv Raich, Context-Aware
+          MIML Instance Annotation,  IEEE International Conference
+          on Data Mining (ICDM 2013)</li>
+</ul>
+<ul>
+<li>Qi Lou, Raviv Raich, Forrest Briggs, Xiaoli Fern, Novelty
+          Detection Under Multi-Label Multi-Instance Framework, IEEE
+          International Workshop on MACHINE LEARNING FOR SIGNAL
+          PROCESSING (MLSP) 2013</li>
+</ul>
+<ul>
+<li>Forrest Briggs, Xiaoli Fern and Jed Irvine, <span style="color: rgb(0, 0, 0); font-family: 'Times New Roman';
+            font-size: medium; font-style: normal; font-variant: normal;
+            font-weight: normal; letter-spacing: normal; line-height:
+            normal; orphans: auto; text-align: start; text-indent: 0px;
+            text-transform: none; white-space: normal; widows: auto;
+            word-spacing: 0px; -webkit-text-stroke-width: 0px;
+            background-color: rgb(255, 255, 255); display: inline
+            !important; float: none;">Multi-Label Classifier Chains for
+            Bird Sound, ICML Workshop on Machine Learning for
+            Bioacoustics, 2013</span></li>
+</ul>
+<ul>
+</ul>
+<ul>
+<li>Ali Jalali, Javad Azimi, Xiaoli Fern, and Ruofei Zhang, A
+          Lipschitz Exploration-Exploitation Scheme for Bayesian
+          Optimization. ECML/PKDD 2013</li>
+</ul>
+<ul>
+<li>Yang Chen, Alex Groce, Chaoqiang Zhang, Weng-Keen Wong,
+          Xiaoli Fern, Eric Eide, John Regehr: Taming compiler fuzzers.
+          ACM SIGPLAN Programming Language Design and Implementation
+          (PLDI) 2013<br/>
+</li>
+</ul>
+<p>2012<br/>
+</p>
+<ul>
+<li>Javad Azimi, Ruofei Zhang, Yang Zhou, Vidhya Navalpakkam,
+          Jianchang Mao, Xiaoli Fern, Visual appearance of display ads
+          and its effect on click through rate. CIKM 2012: 495-504<br/>
+</li>
+</ul>
+<ul>
+<li>Javad Azimi, Alan Fern, Xiaoli Fern. Glencora 
+          Borradaile,Brent Heeringa, Batch Active Learning via
+          Coordinating  Matching, ICML 2012. <a href="ActiveLearning_ICML2012.pdf">pdf</a><br/>
+</li>
+</ul>
+<ul>
+<li>Javad Azimi, Ali Jalali, Xiaoli Fern, Hybrid Batch Bayesian
+          Optimization, ICML 2012.  <a href="dynamic_BO_ICML2012.pdf">pdf</a><br/>
+</li>
+</ul>
+<ul>
+<li>Forrest Briggs, Xiaoli Fern and Raviv Raich, Rank Loss
+          Support Instance Machines for MIML Instance Annotation, KDD
+          2012. <a href="kdd2012.pdf">pdf</a><br/>
+</li>
+</ul>
+<ul>
+<li>Javad Azimi, Bruce Zhang, Yang  Zhou, Vidhya
+          Navalpakkam, Jianchang Mao, Xiaoli Fern, The Impact of Visual
+          Appearance on User Response in Online Display Advertising, WWW
+          2012 (poster).  <a href="WWW2012.pdf">pdf</a><br/>
+</li>
+<li>
+<p>Li-ping Liu and Xiaoli Z Fern, Constructing Training Set
+            for Outlier Detection, SDM 2012, <a href="sdm2012.pdf">pdf</a></p>
+</li>
+<li>Behrouz Behmardi, Forrest Briggs, Xiaoli Z. Fern, and Raviv
+          Raich, Regularized Joint Density Estimation for Multi-Instance
+          Learning, IEEE Statistical Signal Processing Workshop 2012</li>
+</ul>
+<p>2011<br/>
+</p>
+<ul>
+<li>Shahed Sorower, Thomas Dietterich, Janardhan Rao Doppa,
+          Xiaoli Fern and Prasad Tadepalli, Inverting Grice's Maxims to
+          Learn Rules from Natural Language Extractions, NIPS 2011 <a href="gracian-nips2011.pdf">pdf</a></li>
+</ul>
+<ul>
+<li> Janardhan Rao Doppa, Mohammad Sorower,Mohammad
+          NasrEsfahani, Jed Irvine, Thomas G. Dietterich, Xiaoli Fern
+          and Prasad Tadepalli, Learning Rules from Incomplete Examples
+          via Implicit Mention Models, ACML 2011 <a href="doppa-acml2011.pdf">pdf</a></li>
+</ul>
+<ul>
+<li>
+<p>Javad Azimi, Alan Fern and Xiaoli Fern, Budgeted
+            Optimization with Concurent Stochastic-Duration Experiments,
+            NIPS 2011 (Spotlight) <a href="nips2011-scheduling.pdf">pdf</a></p>
+</li>
+<li>Lawrence Neal, Forrest Briggs, Raviv Raich, and Xiaoli
+          Z.Fern, Time-Frequency Segmentation of Bird Song in Noisy
+          Acoustic Environments, In Proc. International Conference on
+          Acoustics, Speech and Signal Processing, ICASSP 2011.<a href="neal-icassp11.pdf">(pdf)</a></li>
+<li>Javad Azimi, Ali Jalali, and Xiaoli Fern, Dynamic Batch
+          Bayesian Optimization, In NIPS 2011 workshop on Bayesian
+          Optimization. <a href="file:///C:/xfern/Dropbox/webpage/nips2011-bo-ws.pdf">pdf</a></li>
+</ul>
+<ul>
+<li>Javad Azimi, Alan Fern and Xiaoli Fern. Active Function
+          Optimization with Multiple Stochastic-Duration Experiments.In
+          ICML Workshop on Combining Learning Strategies to Reduce Label
+          Cost, 2011<br/>
+</li>
+</ul>
+<ul>
+</ul>
+<p>2010 and prior<br/>
+</p>
+<ul>
+</ul>
+<ul>
+<li>Javad Azimi, Alan Fern and Xiaoli Fern, Batch Bayesian
+          Optimization via Simulation Matching, <span style="font-style: italic;">Advances in Neural Information
+            Processing Systems (NIPS-2010) </span> <a href="nips10-azimi.pdf">pdf</a> </li>
+</ul>
+<ul>
+<li>Javad Azimi, Xiaoli Fern, Alan Fern, Elizabeth Burrows,
+          Frank Chaplen, Yanzhen Fan, Hong Liu, Jun Jiao, and Rebecca
+          Schaller, Myopic Policies for Budgeted Optimization with
+          Constrained Experiments, <span style="font-style: italic;">Proceedings
+
+
+
+
+
+
+
+
+
+            of AAAI 2010.</span> <a href="aaai10-azimi.pdf">pdf</a> </li>
+</ul>
+<ul>
+<li>Janardhan Rao Doppa, Mohammad NasrEsfahani, Mohammad
+          Sorower, Thomas G. Dietterich, Xiaoli Fern and Prasad
+          Tadepalli, Learning Rules from Incomplete Examples via
+          Observation Models In Proceedings of the 1st International
+          Workshop on Formalisms and Methodology for Learning by
+          Reading, <a href="file:///C:/xfern/Dropbox/webpage/lbr2011-observation-model.pdf">FAM-LR
+
+            2010</a></li>
+</ul>
+<ul>
+<li>B. Lakshminarayanan, R. Raich, and X. Fern, A syllable-level
+          probabilistic framework for bird species identification, in <span style="font-style:italic;"> Proc. IEEE International
+            Conference on Machine Learning and Applications</span>,
+          ICMLA 2009.<a href="lakshminarayanan_icmla09.pdf">pdf</a></li>
+</ul>
+<ul>
+<li>Forrest Briggs, Raviv Raich, and Xiaoli Z. Fern, Audio
+          Classification of Bird Species: a Statistical Manifold
+          Approach, to appear in <span style="font-style: italic;">Proceedings
+
+
+
+
+
+
+
+
+            of International Conference on Data Mining</span>, ICDM
+          2009, <a href="bird-icdm09.pdf">pdf</a></li>
+</ul>
+<ul>
+</ul>
+<ul>
+<li>Wei Zhang, Akshat Surve, Xiaoli Z. Fern and Thomas
+          Ditteriech, Learning Non-redundant Codebooks for Classifying
+          Complex Objects,  In <span style="font-style: italic;">Proceedings
+of
+
+
+
+
+
+
+
+
+
+            International Conference on Machine Learning, ICML 2009. <a href="nonredundantcodebook.pdf">PDF</a></span></li>
+</ul>
+<ul>
+</ul>
+<ul>
+<li>Javad Azimi and Xiaoli Fern, Adaptive Cluster Ensemble
+          Selection, In <span style="font-style: italic;">Proceedings
+            of International Joint Conference on Artificial
+            Intellegence, IJCAI 2009. <a href="adaptive-ensembleselection.pdf">PDF</a></span></li>
+</ul>
+<ul>
+</ul>
+<ul>
+</ul>
+<ul>
+<li>Neeraja Subrahmaniyan, Laura Beckwith, Valentina Grigoreanu,
+          Margaret Burnett, Susan Wiedenbeck,Vaishnavi Narayanan, Karin
+          Bucht, Russell Drummond, and Xiaoli Fern, Testing vs. Code
+          Inspection vs. ... What Else? Male and Female End Users'
+          Debugging Strategies, ACM Conference on Human-Computer
+          Interaction, April 2008  (CHI2008) <a href="chi08.pdf">pdf</a><br/>
+</li>
+</ul>
+<ul>
+</ul>
+<ul>
+<li>Xiaoli Z. Fern and Wei Lin, Cluster Ensemble Selection, In <span style="font-style: italic;">Proceedings of 2008 SIAM
+            International Conference on Data Mining</span> (SDM08). <a href="ensem_select.pdf">pdf</a></li>
+</ul>
+<ul>
+</ul>
+</div>
+<div style="margin-left: 80px;">
+<ul>
+<li> Ying Cui, Xiaoli Z. Fern and Jennifer Dy, Non-redundant
+          multi-view clustering via orthogonalization, in <span style="font-style: italic;">Proceedings of 7th IEEE
+            International Conference on Data Mining (ICDM07)</span> <a href="multiview.pdf">pdf</a>.</li>
+</ul>
+<ul>
+</ul>
+<ul>
+<li>Xiaoli Fern, Chaitanya Komireddy, Margaret Burnett, Mining
+          Interpretable Human Strategies: A Case Study, In Proceedings
+          of 7th IEEE International Conference on Data Mining (ICDM07) <a href="hci.pdf">pdf</a>. A longer tech report version can be
+          found here <a href="hci-techreport.pdf">pdf</a>.</li>
+</ul>
+<ul>
+</ul>
+</div>
+<div style="margin-left: 80px;">
+<ul>
+<li>Grigoreanu, V., Beckwith, L., Fern, X., Yang, S., Komireddy,
+          C., Narayanan, V., Cook, C., Burnett, M., Gender Differences
+          in End-User Debugging, Revisited: What the Miners Found. In
+          Proceedings of IEEE Symposium on Visual Languages and
+          Human-Centric Computing Languages and Environments, Brighton,
+          England, September 2006. <a href="vlhcc06.pdf">pdf</a></li>
+</ul>
+<ul>
+</ul>
+<ul>
+</ul>
+</div>
+<div style="margin-left: 80px;">
+<ul>
+<li> Xiaoli Z. Fern, Carla E. Brodley and Mark A. Friedl, 
+          Correlation clustering for learning mixture of canonical
+          correlation models,  Accepted for SIAM International
+          Conference on Data Mining (SDM2005). <a href="mcca.pdf">PDF
+            file</a></li>
+</ul>
+<ul>
+</ul>
+<span style="font-weight: bold;"></span>
+<ul>
+<li>Xiaoli Z. Fern and Carla E. Brodley,  Solving cluster
+          ensemble problems by bipartite graph partitioning, in
+          Proceedings of 21th International Conference on Machine
+          learning (ICML2004), <a href="graph_icml04.pdf">PDF file</a>,
+        </li>
+</ul>
+<ul>
+</ul>
+<span style="font-weight: bold;"></span>
+<ul>
+<li>Xiaoli Z. Fern and Carla E. Brodley,  Random Projection
+          for High Dimensional Data Clustering: A Cluster Ensemble
+          Approach,  in Proceedings of 20th International
+          Conference on Machine learning (ICML2003), <a href="rpm_icml03.pdf">PDF file</a></li>
+</ul>
+<ul>
+</ul>
+<ul>
+<li>Xiaoli Z. Fern and Carla E. Brodley,  Boosting Lazy
+          Decision Trees,  Proceedings of 20th Iternational
+          Conference on Machine Learning (ICML 2003), <a href="bldt_icml03.pdf">PDF file</a></li>
+</ul>
+<ul>
+</ul>
+</div>
+<div style="margin-left: 40px;">
+<ul>
+<ul style="list-style-type: disc;">
+</ul>
+</ul>
+<p><br/>
+</p>
+<h1><span style="font-weight: bold;">Journal Papers</span></h1>
+</div>
+<ul>
+<ul>
+<ul style="list-style-type: disc;">
+<li>Forrest Briggs, Xiaoli Fern, Raviv Raich, 
+            Context-Aware MIML Instance Annotation: Exploiting Label
+            Correlations With Classifier Chains, To appear in <i>Knowledge
+              and Information Systems</i> (2014)<br/>
+</li>
+</ul>
+</ul>
+</ul>
+<ul>
+<ul>
+<ul style="list-style-type: disc;">
+<li>Yuanli Pei and Xiaoli Fern, Constrained Instance
+            Clustering in Multi-Instance Multi-Label Learning, 
+            Pattern Recognition Letters 37: 107-114 (2014)<span style="color: rgb(80, 91, 98); font-family: 'Open Sans',
+              sans-serif; font-size: 15px; font-style: normal;
+              font-variant: normal; font-weight: normal; letter-spacing:
+              normal; line-height: normal; orphans: auto; text-align:
+              left; text-indent: 0px; text-transform: none; white-space:
+              normal; widows: auto; word-spacing: 0px;
+              -webkit-text-stroke-width: 0px; display: inline
+              !important; float: none; background-color: rgb(255, 255,
+              255);"></span> </li>
+</ul>
+</ul>
+</ul>
+<ul>
+<ul>
+<ul style="list-style-type: disc;">
+<li>Forrest Briggs, Xiaoli Fern and Raviv Raich, Instance
+            Annotation for Multi-instance Multi-Label Learning, <i>ACM
+              Transactions on Knowledge Discovery from Data </i>TKDD
+            7(3), 2013<i><span style="color: rgb(80, 91, 98);
+                font-family: 'Open Sans', sans-serif; font-size: 15px;
+                font-style: normal; font-variant: normal; font-weight:
+                normal; letter-spacing: normal; line-height: normal;
+                orphans: auto; text-align: left; text-indent: 0px;
+                text-transform: none; white-space: normal; widows: auto;
+                word-spacing: 0px; -webkit-text-stroke-width: 0px;
+                display: inline !important; float: none;
+                background-color: rgb(255, 255, 255);"></span></i></li>
+</ul>
+</ul>
+</ul>
+<ul>
+<ul>
+<ul style="list-style-type: disc;">
+<li>Sicheng Xiong, Javad Azimi, Xiaoli Z. Fern, Active
+            Learning of Constraints for Semi-Supervised Clustering, <i>IEEE
+
+
+
+
+
+              Transactions on Knowledge and Data Engineering</i>
+            (TKDE),  vol. 99, 2013<br/>
+<br/>
+</li>
+<li>Forrest Briggs, Balaji Lakshminarayanan, Lawrence Neal,
+            Xiaoli Z. Fern, Raviv Raich, Sarah Frey, Adam Hadley, and
+            Mattew G. Betts, Acoustic classification of multiple
+            simultaneous bird species: A multi-instance multi-label
+            approach,  <i>Journal of Acoustics Society of America</i>,
+            2012</li>
+</ul>
+</ul>
+</ul>
+<ul>
+<ul>
+<ul style="list-style-type: disc;">
+<li>Ying Cui, Xiaoli Z. Fern, and Jennifer Dy, Learning
+            Multiple Non-Redundant Clusterings, <span style="font-style: italic;">ACM Transaction on Knowledge
+              Discovery from Data</span> (TKDD) 2010 <br/>
+</li>
+</ul>
+</ul>
+</ul>
+<ul>
+<ul>
+<ul style="list-style-type: disc;">
+<li>Xiaoli Z. Fern, Ian Davidson, Jennifer G. Dy, MultiClust
+            2010: discovering, summarizing and using multiple
+            clusterings. <i>SIGKDD Explorations</i>, 12(2): 47-49
+            (2010)<br/>
+</li>
+</ul>
+</ul>
+</ul>
+<ul>
+<ul>
+<ul style="list-style-type: disc;">
+<li>Xiaoli Fern, Chaitanya Komireddy, Valentina Grigoreanu,
+            and Margaret Burnett, Mining Problem-Solving Strategies from
+            HCI Data, <span style="font-style: italic;">ACM Transaction
+              on CHI </span>(TOCHI), 2010 <br/>
+</li>
+</ul>
+</ul>
+</ul>
+<ul>
+<ul>
+<ul style="list-style-type: disc;">
+<li>Elizabeth H. Burrows, Weng-Keen Wong, Xiaoli Fern, Frank
+            W.R. Chaplen, and Roger L. Ely. Optimization of ph and
+            nitrogen for enhanced hydrogen production by synechocystis
+            sp. pcc 6803 via statistical and machine learning methods. <span style="font-style: italic;">Biotechnology Progress</span>,
+            <span style="font-weight: normal;">Volume 25, Issue 4</span><strong style="font-weight: normal;">, 2009</strong></li>
+</ul>
+</ul>
+</ul>
+<ul>
+<ul>
+<ul style="list-style-type: disc;">
+<li> Xiaoli Z. Fern and Wei Lin, Cluster Ensemble
+            Selection, <span style="font-style: italic;">Journal of
+              Statistical Analysis and Data Mining</span>, <span style="font-style: italic;">Special Issue on Best of
+              SDM08, </span>Volume 1, Issue 3 ,
+            Pages128 - 141, 2008 <a href="ensem-select-new.pdf">Preprint</a></li>
+</ul>
+</ul>
+</ul>
+<ul>
+</ul>
+<h2 style="margin-left: 40px;"><br/>
+</h2>
+<h1 style=" margin-left: 40px;">Unpublished Technical Reports</h1>
+<ul>
+<ul style="list-style-type: disc;">
+<li>Xiaoli Z. Fern and Carla E. Brodley,  Cluster ensembles
+          for high dimensional data clustering: An empirical study,
+          Techenical report  CS06-30-02.<br/>
+</li>
+</ul>
+</ul>
+</div></body>
+</html>

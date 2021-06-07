@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width,
+				   initial-scale=1" name="viewport"/>
+<title>CMSC 330, Fall 2017</title>
+<!-- Bootstrap core CSS -->
+<link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body data-spy="scroll" data-target="#navbar">
+<!-- Fixed navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+<div class="container">
+<div class="navbar-header">
+<button aria-controls="navbar" aria-expanded="false" class="navbar-toggle collapsed" data-target="#navbar" data-toggle="collapse" type="button">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="#">CMSC 330</a>
+</div>
+<div class="navbar-collapse collapse" id="navbar">
+<ul class="nav navbar-nav">
+<li class="active"><a href="#home">Home</a></li>
+<li><a href="#officehours">Office Hours</a></li>
+<li><a href="#description">Description</a></li>
+<li><a href="#schedule">Schedule</a>
+</li><li><a href="#projects">Projects</a></li>
+<li><a href="#exams">Exams</a></li>
+<li><a href="#syllabus">Syllabus</a></li>
+<li><a href="#resources">Resources</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li><a href="http://piazza.com/umd/Fall2017/cmsc330">Piazza</a></li>
+<li><a href="https://submit.cs.umd.edu/Fall2017">Submit</a></li>
+<li><a href="https://grades.cs.umd.edu">Grades</a></li>
+</ul>
+</div><!--/.nav-collapse -->
+</div>
+</nav>
+<div class="container">
+<div class="jumbotron my-jumbotron" id="home">
+<h1>CMSC 330<br/>
+<small>Organization of Programming Languages, Fall 2017 </small> </h1>
+</div>
+</div> <!-- /container -->
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<div class="panel panel-default panel-primary">
+<div class="panel-heading">
+<h3>Instructors</h3></div>
+<table class="table">
+<tr><th>Name</th>
+<th>Office</th>
+<th>E-mail</th>
+<th>Office Hours<br/>(also available by appointment)</th>
+</tr>
+<tr><td><a href="http://www.cs.umd.edu/~jfoster">Jeff Foster</a></td>
+<td>3423 AVW</td>
+<td>jfoster at cs</td>
+<td>Tu/Th 10:45-11:45am</td>
+</tr>
+<tr>
+<td><a href="http://cs.umd.edu/~anwar">Anwar Mamat</a></td>
+<td>3259 AVW</td>
+<td>anwar at cs</td>
+<td>Tu/Th 1:00-2:00pm</td>
+</tr>
+</table>
+<div class="panel-heading"><h3>TAs</h3></div>
+<table cellpadding="0" cellspacing="0">
+<col width="248"/>
+<col width="256"/>
+<col width="609"/>
+</table>
+<table class="table">
+<tr><th width="122">Name </th><th width="205">E-mail
+     
+</th></tr><tr><td>	Abdulbaseer Khan	</td><td>baseer19936@gmail.com	</td></tr>
+<tr><td>	Andres Ignacio Gonzalez	</td><td>andrez.gonzalez@gmail.com	</td></tr>
+<tr><td>	Bhavik Yashwant	Bhatt	</td><td>bbhatt@terpmail.umd.edu	</td></tr>
+<tr><td>	Bracha Rappaport</td><td>btrappaport@gmail.com	</td></tr>
+<tr><td>	Bryan Nicholas  Ross</td><td>bryan.ross96@gmail.com	</td></tr>
+<tr><td>	Cameron Moy	</td><td>camoy@terpmail.umd.edu	</td></tr>
+<tr><td>	Daniel  Portin</td><td>portin.daniel@gmail.com	</td></tr>
+<tr><td>	Daniel Kapit</td><td>daniel.kapit05@gmail.com	</td></tr>
+<tr>
+<td>	David Pfeiffer	</td><td>		dpfeiff1@terpmail.umd.edu	</td></tr>
+<tr><td>	Derek Ray	Wendel	</td><td>		derek.r.wendel@gmail.com	</td></tr>
+<tr><td>	Eric Sim	</td><td>		ericysim@gmail.com	</td></tr>
+<tr>
+<td>	Greg Bekher	</td><td>	 	gbekher@umd.edu	</td></tr>
+<tr><td>	Kesha Hietala 	</td><td>	kesha@cs.umd.edu	</td></tr>
+<tr><td>Henry Gillen</td><td> hgillen@terpmail.umd.edu </td></tr>
+<tr><td>	Jake Sandler	</td><td>		jsandler18@gmail.com	</td></tr>
+<tr><td>	John Holman	Kastner	</td><td>		john.h.kastner@gmail.com	</td></tr>
+<tr><td>	Joseph Bergman	</td><td>	 	JTBerg17@umd.edu	</td></tr>
+<tr>
+<td>	Justin Lehr	</td><td>		jlehr97@umd.edu	</td></tr>
+<tr>
+<td>	Kameron Sheppard	</td><td>		kameronsheppard@verizon.net	</td></tr>
+<tr><td>	Meena Sengottuvelu	</td><td>		meena97@terpmail.umd.edu	</td></tr>
+<tr><td>	Michael James Strauch	</td><td>		mstrauch@terpmail.umd.edu	</td></tr>
+<tr><td>	Michael Pearson	</td><td>		mpearso7@terpmail.umd.edu	</td></tr>
+<tr><td>	Omar El-Mihilmy	</td><td>		omihilmy@terpmail.umd.edu	</td></tr>
+<tr><td>	Pei-Jo Yang	</td><td>		peijo97@gmail.com		</td></tr>
+<tr>
+<td>	Shriraj Gandhi	</td><td>		shrirajgandhi@gmail.com	</td></tr>
+<tr><td>	Tal Davidi	</td><td>tal.davidi@gmail.com	</td></tr>
+</table>
+<table cellpadding="0" cellspacing="0">
+<col width="248"/>
+<col width="256"/>
+<col width="609"/>
+</table>
+</div>
+</div> <!-- /col-md-6 -->
+<div class="col-md-6">
+<div class="panel panel-default panel-primary">
+<div class="panel-heading"><h3>Information</h3></div>
+<table class="table">
+<tr><th>Location</th>
+<td>
+		  Section 1: TuTh 3:30pm - 4:45pm  ESJ 0202<br/>
+		 Section 3: TuTh 11:00am - 12:15pm CSI 1115<br/>
+		 Section 4:TuTh 12:30pm - 1:45pm CSI 1115
+
+	      
+	      </td></tr><tr><th>Midterm 1</th>
+<td><s>Thu, Oct 5</s> Oct 17, in class</td></tr>
+<tr><th>Midterm 2</th>
+<td>Thu, Nov 16, in class</td></tr>
+<tr><th>Final</th>
+<td>Wed, Dec 13, 4:00-6:00pm </td></tr>
+<tr><th>Location:</th>
+<td>Sections 01XX,03XX in TYD 0130<br/>Sections 04XX in HJP 0226  </td></tr>
+<tr><th>Textbooks</th>
+<td>There are no required or recommended texts.
+		  See the <a href="#resources">resources</a> page 
+		  for useful online links. <br/>
+</td></tr>
+</table>
+<div class="panel-heading"><h3>Discussions</h3></div>
+<table class="table">
+<tr><td>	101	</td><td>	F  1:00pm - 1:50pm	</td><td>	CSI 2120	</td>
+<td>Joseph Bergman</td></tr>
+<tr><td>	102	</td><td>	F  11:00am - 11:50am	</td><td>	CSI2120	</td>
+<td>Greg Bekher</td></tr>
+<tr><td>	103	</td><td>	F  12:00pm - 12:50pm	</td><td>	CSI2120	</td>
+<td>Justin Lehr</td></tr>
+<tr><td>	104	</td><td>	F  2:00pm - 2:50pm	</td><td>	CSI 2120	</td>
+<td>Michael Pearson</td></tr>
+<tr><td>	105	</td><td>	F  10:00am - 10:50am	</td><td>	CSI3120	</td>
+<td>Bracha Rappaport</td></tr>
+<tr><td>	106	</td><td>	F  11:00am - 11:50am	</td><td>	CSI3120	</td>
+<td>Daniel Kapit</td></tr>
+<tr><td>	107	</td><td>	F  12:00pm - 12:50pm	</td><td>	CSI3120	</td>
+<td>David Pfeiffer</td></tr>
+<tr><td>	108	</td><td>	F  1:00pm - 1:50pm	</td><td>	CSI3120	</td>
+<td>Derek Ray	Wendel</td></tr>
+<tr><td>	301	</td><td>	F  3:00pm - 3:50pm	</td><td>	CSI2120	</td>
+<td>Cameron Moy</td></tr>
+<tr><td>	302	</td><td>	F  2:00pm - 2:50pm	</td><td>	CSI3120	</td>
+<td>Eric Sim</td></tr>
+<tr><td>	303	</td><td>	F  3:00pm - 3:50pm	</td><td>	CSI3120	</td>
+<td>Kesha Hietala</td></tr>
+<tr><td>	304	</td><td>	F  10:00am - 10:50am	</td><td>	CSI2120	</td>
+<td>Shriraj Gandhi</td></tr>
+<tr><td>	401	</td><td>	F  10:00am - 10:50am	</td><td>	CSI2107	</td>
+<td>Pei-Jo Yang</td></tr>
+<tr><td>	402	</td><td>	F  11:00am - 11:50am	</td><td>	CSI2107	</td>
+<td>Michael James Strauch</td></tr>
+<tr><td>	403	</td><td>	F  12:00pm - 12:50pm	</td><td>	CSI2107	</td>
+<td>Bryan Nicholas  Ross</td></tr>
+<tr><td>	404	</td><td>	F  1:00pm - 1:50pm	</td><td>	CSI2107	</td>
+<td>Kameron Sheppard</td></tr>
+</table>
+</div> <!-- /panel -->
+</div> <!-- /col-md-6 -->
+</div> <!-- /row -->
+</div> <!-- /container -->
+<div class="container">
+<div class="row"></div>
+<div class="panel-heading">
+<h3>Office Hours: (AVW 1120)</h3></div>
+<section id="officehours">
+<table class="table">
+<tr>
+<td></td>
+<td>Mon</td>
+<td>Tue 
+   </td><td>Wed
+   </td><td>Thu 
+   </td><td>Fri 
+  </td></tr>
+<tr>
+<td>10:00 
+   </td><td>Eric, Andres, Omar	
+   </td><td>Pei-jo, Tal	
+   </td><td>Shriraj, Andres	
+   </td><td>Abdulbaseer, Tal	
+  </td><td>Jake, John   </td></tr>
+<tr>
+<td>10:30 
+   </td><td> Eric, Andres, Omar</td><td>	Pei-jo, Tal</td><td>	Shriraj, Andres	</td><td>Abdulbaseer, Tal</td><td>	Jake, John
+  </td></tr>
+<tr>
+<td>11:00 
+   </td><td>Michael P,Andres, Meena
+   </td><td>	BT, Tal</td><td>	Kesha, Andres	</td><td> Abdulbaseer, Tal	</td><td>David P, Jake
+  </td></tr>
+<tr>
+<td>11:30 
+   </td><td> Michael P, Andres, Meena
+   </td><td>	BT, Tal
+   </td><td>	Kesha, Andres</td><td>	Abdulbaseer, Tal</td><td>	David P, Jake
+  </td></tr>
+<tr>
+<td>12:00 
+   </td><td>Kameron</td><td>	BT	</td><td>Abdulbaseer, Omar
+   </td><td>JT	</td><td>	Daniel P
+  </td></tr>
+<tr>
+<td>12:30 
+   </td><td> Justin, Kameron</td><td>	BT, John</td><td>	Abdulbaseer, Omar
+   </td><td>	John, JT</td><td>	Daniel P
+  </td></tr>
+<tr>
+<td>1:00 
+   </td><td> Justin,Bhavik</td><td>	John, Meena	</td><td>Abdulbaseer, Omar</td><td>	Jake, john</td><td>	Daniel P
+  </td></tr>
+<tr>
+<td>1:30 
+   </td><td> Bhavik</td><td>	Meena
+   </td><td>	Abdulbaseer	, Omar</td><td>Jake, john</td><td>	Daniel P
+  </td></tr>
+<tr>
+<td>2:00 
+   </td><td> Derek, Bhavik</td><td>	Michael S, Henry, Meena
+   </td><td>Omar</td><td>		Henry, Jake, John	
+   </td><td> Daniel P
+  </td></tr>
+<tr>
+<td>2:30 
+   </td><td> Derek,Bhavik</td><td>	Michael S, Henry, Meena	
+   </td><td>Omar</td><td>	Henry, Jake	
+   </td><td> Daniel P
+  </td></tr>
+<tr>
+<td>3:00 
+   </td><td> Daniel P	
+   </td><td>Meena</td><td></td><td></td><td> 		  	Henry
+  </td></tr>
+<tr>
+<td>3:30 
+   </td><td> Daniel P	 
+   </td><td>Meena
+   </td><td></td><td></td><td> 		 	Henry
+  </td></tr>
+<tr>
+<td>4:00 
+   </td><td>Weekly TA meeting</td><td>	Bryan	
+   </td><td></td><td> </td><td>	Cameron,  Henry 
+  </td></tr>
+<tr>
+<td>4:30 
+   </td><td>Weekly TA meeting
+   </td><td>Bryan	
+   </td><td></td><td> </td><td>		Cameron, Henry
+  </td></tr>
+</table>
+<div class="container">
+<section id="description">
+<div class="page-header"><h2>Announcements</h2></div>
+<p>
+		Class announcements will be posted via Piazza; please check the course <a href="http://piazza.com/umd/Fall2017/cmsc330">Piazza</a> page daily. You may sign up for the class on <a href="http://piazza.com/umd/Fall2017/cmsc330">Piazza</a>  here. 
+		  </p>
+<div class="page-header"><h2>Description</h2></div>
+<p>
+	  A study of programming languages, including their syntax, semantics, and implementation. Several different models of languages are discussed, including procedural (Ruby), functional (OCaml), logical (Prolog) and object-oriented (Java). Language features such as formal syntax, scoping and binding of variables, higher-order programming, typing and type polymorphism, and object inheritance are explored. 
+
+      </p></section>
+</div> <!-- /container -->
+<div class="container">
+<section id="schedule">
+<div class="page-header"><h2>Schedule</h2></div>
+<table class="table table-striped table-condensed">
+<tr><th>Week</th>
+<th>Tuesday</th>
+<th>Thursday</th></tr>
+<tr>
+<th>Aug 29</th>
+<td><a href="lectures/01-intro.pdf">Introduction</a>
+<br/>
+<a href="lectures/02-ruby_1.pdf">Ruby 1 </a></td>
+<td><a href="lectures/02-ruby_2.pdf">Ruby 2</a><br/><a href=""></a></td>
+</tr>
+<tr>
+<th>Sep 5</th>
+<td>
+<a href="lectures/03-ruby-regexp.pdf">Ruby Regex</a><br/>
+<a href="https://github.com/anwarmamat/cmsc330/tree/master/ruby/Ruby_Lecture_3_Regexp">code (github)</a></td>
+<td>Ruby cont.<br/>
+<a href="https://github.com/anwarmamat/cmsc330/tree/master/ruby/Ruby_Lecture_4">code (github)</a></td>
+</tr>
+<tr>
+<th>Sep 12</th>
+<td>
+<a href="lectures/00-ocaml-introduction.pdf">OCaml Intro </a><br/>
+<a href="lectures/01-ocaml-functions.pdf">Functions</a><br/>
+<a href="lectures/02-working-with-ocaml.pdf">Work with OCaml</a><br/>
+<a href="notes/ocaml_lecture1.html">Lecture Notes</a><br/>
+</td><td><a href="lectures/03-ocaml-lists-polymorphic-types.pdf">Lists</a><br/>
+<a href="notes/ocaml_lecture2.html">Lecture Notes</a></td>
+</tr>
+<tr>
+<th>Sep 19</th>
+<td>
+<a href="lectures/04-ocaml-lets-tuples.pdf">Lets, Tuples, Records </a><br/>
+<a href="lectures/05-ocaml-higher-order-funs.pdf">Higher Order Functions</a><br/>
+<a href="notes/ocaml_lecture3.html">Lecture Notes</a><br/>
+</td><td><p><a href="lectures/05-ocaml-higher-order-funs.pdf">Higher Order Functions</a></p>
+<p><a href="notes/ocaml_lecture4.html">Lecture Notes</a><br/>
+</p>
+</td></tr>
+<tr>
+<th>Sep 26</th>
+<td>
+<a href="lectures/06-datatypes.pdf">Data Types</a><br/>
+<a href="lectures/07-ocaml-closures.pdf">Closures</a><br/>
+<a href="notes/ocaml_lecture5.html">Lecture Notes</a><br/>
+</td><td><p><a href="lectures/08-imperative.pdf">Imperative Programming </a><br/>
+</p>
+</td></tr>
+<tr>
+<th>Oct 3</th>
+<td>
+<a href="lectures/01-automata.pdf">Finite Automate</a><br/>
+</td><td><a href="lectures/02-automata.pdf">DFA/NFA</a>
+</td></tr>
+<tr>
+<th>Oct 10</th>
+<td>
+<a href="lectures/03-cfg.pdf">Context Free Grammar</a>
+</td><td>
+<a href="lectures/03-cfg.pdf">Context Free Grammar</a>
+</td></tr>
+<tr>
+<th>Oct 17</th>
+<td><a href="grades.html">Midterm 1</a>
+</td><td>
+<a href="lectures/04-parsing.pdf">Parsing (pdf) </a> <a href="https://github.com/anwarmamat/cmsc330/tree/master/ocaml/parser"> [Code (github)]</a>
+</td></tr>
+<tr>
+<th>Oct 24</th>
+<td><a href="lectures/13-semantics.pdf">Operational Semantics</a>
+<a href="https://github.com/anwarmamat/cmsc330/blob/master/ocaml/interp.ml">[Code (github)]</a>
+</td><td>
+<a href="lectures/01-lambda-calc-basics.pdf">Lambda Calculus </a>
+<a href="https://github.com/anwarmamat/cmsc330/tree/master/ocaml/lambda">[Code (github)]</a>
+</td></tr>
+<tr>
+<th>Oct 31</th>
+<td><a href="lectures/02-lambda-calc-encodings.pdf">Lambda Calculus Encodings</a></td>
+<td><a href="lectures/01-prolog-basics.pdf">Prolog Basics</a>
+<a href="https://github.com/anwarmamat/cmsc330/tree/master/prolog/prolog_lecture1">[Code (github)]</a>
+</td></tr>
+<tr>
+<th>Nov 7</th>
+<td><a href="lectures/02-prolog-lists.pdf">Prolog Lists </a> <a href="https://github.com/anwarmamat/cmsc330/tree/master/prolog/prolog_lecture2"> [Code (github)] </a></td>
+<td><a href="lectures/03-prolog-advanced.pdf">Prolog Advanced </a>
+<a href="https://github.com/anwarmamat/cmsc330/tree/master/prolog/prolog_lecture3"> [Extra Code Examples (github)] </a></td>
+</tr>
+<tr>
+<th>Nov 14</th>
+<td><a href="lectures/software-security.pdf">Software Security</a> </td>
+<td>Midterm 2</td>
+</tr>
+<tr>
+<th>Nov 21</th>
+<td><a href="lectures/software-security-2.pdf">Web Security</a> </td>
+<td>Thanksgiving</td>
+</tr>
+<tr>
+<th>Nov 28</th>
+<td>Guest Lectures</td>
+<td><a href="lectures/GC.pdf"> Garbage Collection</a></td>
+</tr>
+<th>Dec 5</th>
+<td><a href="lectures/types.pdf"> Types</a>, <a href="lectures/modules.pdf">  Modules </a>,<a href="lectures/10-objectsFP.pdf"> Objects and FP</a> </td>
+<td><a href="lectures/24-history.pdf"> History</a></td>
+<tr>
+<th>Dec 13 4:00-6:00pm</th>
+<td>Final Exam <br/><i>Location: Sections 01XX,03XX in TYD 0130 <br/>
+Sections 04XX in HJP 0226 </i></td>
+<td></td>
+</tr>
+</table>
+</section>
+</div> <!-- /container -->
+<div class="container">
+<section id="projects">
+<div class="page-header"><h2>Projects</h2></div>
+<table class="table table-striped">
+<tr><th>Project 1</th><td><a href="https://github.com/anwarmamat/cmsc330Fall17public/tree/master/p1">WordNet</a></td>
+</tr><tr>
+<th>Project 2A</th><td><a href="https://github.com/anwarmamat/cmsc330Fall17public/tree/master/p2a">OCaml Basics</a></td>
+</tr><tr>
+<th>Project 2B</th><td><a href="https://github.com/anwarmamat/cmsc330Fall17public/tree/master/p2b">OCaml OCaml Higher Order Functions and Data</a></td>
+</tr><tr>
+<th>Project 3</th><td><a href="https://github.com/anwarmamat/cmsc330Fall17public/tree/master/p3">Regular Expression Interpreter</a></td>
+</tr><tr>
+<th>Project 4A</th>
+<td><a href="https://github.com/anwarmamat/cmsc330Fall17public/tree/master/p4">SmallC Parser</a></td>
+</tr><tr>
+<th>Project 4B</th>
+<td><a href="https://github.com/anwarmamat/cmsc330Fall17public/tree/master/p4b">SmallC Interpreter</a></td>
+</tr><tr>
+<th>Project 5</th>
+<td><a href="https://github.com/anwarmamat/cmsc330Fall17public/tree/master/p5">Prolog</a></td>
+</tr><tr>
+<th>Project 6</th>
+<td><a href="https://github.com/anwarmamat/cmsc330Fall17public/tree/master/p6">Security</a></td>
+</tr></table>
+</section>
+</div> <!-- /container -->
+<div class="container">
+<section id="exams">
+<div class="page-header"><h2>Exams</h2></div>
+<ul>
+<li>Quiz 1 Ocaml (09/29)
+      <ul>
+<li>Quiz 1 will cover all OCaml.</li>
+<li><a href="tests/prac3-Fall13.pdf">Ocaml Practice Problems</a> <a href="tests/prac3-soln-Fall13.pdf">(Solution)</a></li>
+<li>Sample Quizzes </li>
+<ul>
+<li><a href="tests/quiz2-Spring14.pdf">Spring14 (Questions 1,2 only)</a> <a href="tests/quiz2-soln-Spring14.pdf">(Solution)</a></li>
+<li><a href="tests/quiz2-Fall15.pdf">Fall15</a> (<a href="tests/quiz2-soln-Fall15.pdf">Solution</a>)</li>
+<li> <a href="tests/quiz3-Spring15.pdf">Spring15</a> (Question 2 only) (<a href="tests/quiz3-soln-Spring15.pdf">Solution</a>)</li>
+<li><a href="tests/quiz2-Spring16.pdf">Spring16</a> <a href="tests/quiz2-soln-spr16.pdf">[Solution]</a></li>
+<li><a href="tests/quiz2-Fall16.pdf">Fall16</a> <a href="tests/quiz2-soln-Fall16.pdf">[Solution]</a></li>
+<li><a href="tests/quiz2-Spring17.pdf">Spring17</a> [<a href="tests/quiz2-soln-Spring17.pdf">Solution</a>]</li>
+<li><a href="tests/quiz1-Fall17.pdf">Fall17</a> [<a href="tests/quiz1-soln-Fall17.pdf">Solution</a>]</li>
+</ul></ul>
+</li><li>Quiz 2,3 DFA, NFA, CFG Sample Quizzes</li>
+</ul>
+<ul>
+<ul>
+<li><a href="tests/quiz2-Fall17.pdf">Fall 17 Quiz 2</a>
+<a href="tests/quiz2-soln-Fall17.pdf">(Solution)</a></li>
+<li><a href="tests/quiz3-Fall17.pdf">Fall 17 Quiz 3</a>
+<a href="tests/quiz3-soln-Fall17.pdf">(Solution)</a></li>
+<li><a href="tests/quiz3-Spring17.pdf">Spring 17 </a><a href="quiz3-soln-Spring17.pdf">(Solution)</a></li>
+<li><a href="tests/quiz3-Fall16.pdf'">Fall 16 </a><a href="quiz3-soln-Fall16.pdf">(Solution)</a></li>
+<li><a href="tests/quiz3-Spring16.pdf">Spring 16 </a><a href="tests/quiz3-soln-Spring16.pdf">(Solution)</a></li>
+<li><a href="tests/quiz3-Fall15.pdf">Fall 15</a> <a href="tests/quiz3-soln-Fall2015.pdf">(Solution)</a></li>
+<li><a href="tests/quiz3-Fall11.pdf">Fall 11</a><a href="tests/quiz3-soln-Fall11.pdf">(Solution)</a></li>
+<li><a href="tests/quiz3-Fall10.pdf">Fall10</a> <a href="tests/quiz3-soln-Fall10.pdf">(Solution)</a></li>
+</ul>
+</ul>
+<ul>
+<li> Quiz 4 Operational Semantics (10/27)</li>
+<ul>
+<li><a href="tests/quiz4-Fall17.pdf">Fall 17</a>
+<a href="tests/quiz4-soln-Fall17.pdf">(Solution)</a></li>
+<li> Practice Problems </li>
+<ul>
+<li><a href="tests/opsem.pdf">Operational Semantics</a> <a href="tests/opsem_soln.pdf"> [Solution]</a> </li>
+</ul>
+</ul>
+</ul>
+<ul>
+<li>Quiz 5</li>
+<ul>
+				  
+				  Practice Problems
+				  <ul>
+<li><a href="tests/prac8-Fall13.pdf">Lambda Calculus</a> <a href="tests/prac8-soln-Fall13.pdf"> [ Solution ] </a></li>
+</ul>
+</ul>
+</ul>
+<ul>
+<li> Midterm 1  (10/17)</li>
+<ul>
+<li><a href="tests/m1-Spring17.pdf">Spring 2017 </a><a href="tests/m1-soln-Spring17.pdf">[Solution]</a></li>
+<li><a href="tests/m1-Fall16.pdf">Fall 2016 </a><a href="tests/m1-soln-Fall16.pdf">[Solution]</a></li>
+<li><a href="tests/m1-spr16.pdf">Spring 2016 </a><a href="tests/m1-soln-sp16.pdf">[Solution]</a></li>
+<li><a href="tests/m1-Fall15.pdf">Fall 2015</a> <a href="tests/m1-Fall15-soln.pdf">[Solution]</a></li>
+<li><a href="tests/m1-spr15.pdf">Spring 2015</a> <a href="tests/m1-sol-spr15.pdf">[Solution]</a> (DFA and NFA are not included in this exam.)</li>
+<li><a href="tests/m1-Fall14.pdf">Fall 2014</a> <a href="tests/m1-sol-Fall14.pdf">[Solution ]</a></li>
+</ul>
+</ul>
+<ul>
+<li> Midterm 2  (11/16)</li>
+<ul>
+<li><a href="tests/m2-Spring17.pdf">Spring 2017</a> <a href="tests/m2-soln-Spring17.pdf">[Solution]</a></li>
+<li><a href="tests/m2-Fall16.pdf">Fall 2016 </a><a href="tests/m2-soln-Fall16.pdf">[Solution]</a></li>
+<li><a href="tests/m2-Fall15.pdf">Fall 2015 </a><a href="tests/m2-soln-Fall15.pdf">[Solution]</a></li>
+<li><a href="tests/m2-Spring16.pdf">Spring 2016</a> <a href="tests/m2-soln-Spring16.pdf">[Solution]</a></li>
+</ul>
+<li>Final</li>
+<ul>
+<li><a href="tests/final-Fall13.pdf">Final Fall 2013</a> [<a href="tests/final-soln-Fall13.pdf">Solution</a>] </li>
+<li><a href="tests/final-Fall14.pdf">Final Fall 2014</a> [<a href="tests/final-soln-Fall14.pdf">Solution</a>] </li>
+<li><a href="tests/final-spr15.pdf">Final Spring 2015</a> [<a href="tests/final-soln-spr15.pdf">Solution</a>] </li>
+<li><a href="tests/final-Fall15.pdf">Fall2015</a> [<a href="tests/final-soln-Fall15.pdf">Solution</a>] </li>
+<li><a href="tests/final-Spring16.pdf">Spring2016</a> [<a href="tests/final-soln-Spring16.pdf">Solution</a>] </li>
+<li><a href="tests/final-Fall16.pdf">Fall2016</a> [<a href="tests/final-soln-Fall16.pdf">Solution</a>] </li>
+<li><a href="tests/final-soln-Spring17.pdf">Spring2017 Solution</a> </li>
+<li><a href="tests/final-Fall17.pdf">Fall 2017</a> [<a href="tests/final-soln-Fall17.pdf">Solution</a>] </li>
+</ul>
+</ul>
+<ul>
+<li>Practice Problems</li>
+<ul>
+<li><a href="tests/prac4-Fall13.pdf">CFG</a><a href="tests/prac4-soln-Fall13.pdf"> [Solution]</a></li>
+<li><a href="tests/prac3-Fall13.pdf">OCaml</a> <a href="tests/prac3-soln-Fall13.pdf">[Solution]</a></li>
+<li><a href="tests/prac2-Fall09.pdf">Finite Automata</a> <a href="tests/prac2-soln-Fall09.pdf">[Solution]</a></li>
+<li><a href="tests/prac8-Fall13.pdf">Lambda Calculus</a> [ <a href="tests/prac8-soln-Fall13.pdf">Solution</a> ] </li>
+<li><a href="tests/prac9-spr14.pdf">Operational Semantics 1</a> [ <a href="https://www.cs.umd.edu/class/Spring2017/cmsc330/tests/prac9-soln-spr14.pdf"> Solution 1</a> ] </li>
+<li>
+<a href="tests/opsem.pdf">Operational Semantics 2 </a> <a href="tests/opsem_soln.pdf"> [Solution 2]</a>
+</li>
+<li><a href="tests/prac7-spr14.pdf">Prolog</a><a href="tests/prac7-soln-spr14.pdf"> [Soluion]</a></li>
+</ul>
+</ul>
+</section>
+</div> <!-- /container -->
+<div class="container">
+<section id="syllabus">
+<div class="page-header"><h2>Syllabus</h2></div>
+<div class="alert alert-danger">Syllabus subject to change until the start of the semester</div>
+<table class="table">
+<tr>
+<td>Prerequisites:</td>
+<td>Prerequisites: 	C- or better in CMSC 216 and CMSC 250</td>
+</tr>
+<tr>
+<td>Credits:</td>
+<td>3 credits</td>
+</tr>
+</table>
+<p> A study of programming languages, including their syntax, semantics, and implementation. Several different models of languages are discussed, including dynamic, scripting (e.g., Ruby, Python) functional (e.g., OCaml, Haskell, Scheme), logical (e.g., Prolog), and concurrent/parallel (an aspect of many languages).  Language features such as formal syntax, scoping and binding of variables, higher-order programming, typing and type polymorphism, and concurrent language features will be explored. </p>
+<h3>List of Topics (subject to change)</h3>
+The following list of lecture topics will vary according to the pace of lecture.
+<ul>
+<li>Dynamic Languages (Ruby)
+    <ul>
+<li>Implicit vs. explicit declarations </li>
+<li>Dynamic vs. static typing </li>
+<li>Text processing and string manipulation </li>
+</ul>
+</li>
+<li> Regular expressions and finite automata </li>
+<li> Context-free grammars and parsing </li>
+<li> Functional programming (OCaml)
+    <ul>
+<li>Lists and recursion </li>
+<li>Type inference and polymorphism </li>
+<li>Higher-order functions and closures </li>
+<li>Static (lexical) vs. dynamic scoping </li>
+<li>Modularity and abstraction </li>
+</ul>
+</li>
+<li> Logic programming (Prolog)
+    <ul>
+<li>Rules and facts </li>
+<li>Unification and evaluation </li>
+<li>Cut and negation </li>
+</ul>
+</li>
+<li>Software security
+    <ul>
+<li> Design anti-patterns that lead to security flaws </li>
+<li> Defenses against security attacks </li>
+</ul>
+</li>
+<li>Advanced Topics
+    <ul>
+<li>Lambda calculus </li>
+<li>Operational Semantics </li>
+<li>Garbage collection and memory management </li>
+<li>History of Programming Languages </li>
+</ul>
+</li>
+</ul>
+<h3>Computing Resources</h3>
+<p> Programming projects will be developed on the Grace Cluster <a href="http://www.grace.umd.edu">www.grace.umd.edu</a>.  Accounts are distributed via the grades server, <a href="http://grades.cs.umd.edu">grades.cs.umd.edu</a>. Log in with your OIT account; if you do not have a OIT account, request one immediately <a href="http://www.oit.umd.edu/new">online</a>. </p>
+<p> If you have access to another system you are welcome to do your development there instead, but all project submissions <strong>must</strong> work correctly on the Grace cluster, and your projects will be graded solely based on their results on the cluster (by the submit server).  Because language and library versions may vary with the installation, in unfortunate circumstances a program might work perfectly on your system but not work at all on the cluster. Thus we strongly recommend that if you develop any project on another system, you should complete it <strong>several days early</strong> to have time to address any compatibility problems. </p>
+<h3>Grading</h3>
+<p> Grades will be maintained on the CS Department <a href="https://grades.cs.umd.edu">grades</a> server.  You can always see your current grade here. </p>
+<p> You are responsible for all material discussed in lecture and discussion section and posted on the class web page, including announcements, deadlines, policies, etc.  During the semester we may provide ungraded practice homework exercises and solutions.  While we will not collect these exercises, completing them is essential preparation for exams.  You may work together on these ungraded homeworks, and you may of course come to office hours for additional help. </p>
+<p> Your final course grade will be determined according to the following percentages:    
+</p><table border="1">
+<tbody>
+<tr>
+<td width="344">6 Programming Projects (some may be pair-programming projects) </td>
+<td width="108"><p>40% total </p></td>
+</tr>
+<tr>
+<td>5 Quizzes, lowest grade dropped. No makeup quizzes.<br/>
+        1. Ocaml (09/29)<br/>
+        2. DFA, NFA (10/13)<br/>
+        3. CFG (10/20)<br/>
+        4. Operational Semantics (10/27)<br/>
+          5. Lambda Calc  (11/03)<br/>
+</td>
+<td>8% total</td>
+</tr>
+<tr>
+<td>2 Midterms (<s>10/05</s>10/17, 11/16) </td>
+<td>14% each </td>
+</tr>
+<tr>
+<td>Final (12/13 4:00-6:00pm)</td>
+<td>24% </td>
+</tr>
+</tbody>
+</table>
+<p> Any request for reconsideration of any grading on coursework <strong>must</strong> be submitted within <strong>one week</strong> of when it is returned (or published on gradescope).  Exam regrading requests must be made through gradecscope.  Any coursework submitted for reconsideration may be regraded in its entirety, which could result in a lower score if warranted. </p>
+<p> Final course grades will be curved as necessary, based on each student's total numeric score for all coursework at the end of the semester. <strong>But</strong>: It is very likely that 90 and above earns an A, 80-90 earns a B, 70-80 earns a C, etc.; the curve will only lower the cutoffs, not raise them. <strong>Important:</strong> Completing the programming assignments is an essential part of the course.  Therefore, <strong>we may fail any student who does not make a good-faith attempt on all course projects</strong>, regardless of the student's performance or scores on the other coursework.  We will define good-faith attempt as achieving at least 20 percent on the submit server for each project. To obtain these points you may submit solutions past the late deadline. </p>
+<h3>Programming Projects</h3>
+<p> Projects must be submitted electronically following the instructions given in class.  Projects <strong>may not</strong> be submitted by any other means (e.g., please do not email your projects to us).  It is <strong>your responsibility</strong> to test your program and <strong>verify that it works properly</strong> before submitting.  All projects are due at 11:59pm on the day indicated on the project assignment, according to the submission server's internal clock. </p>
+<p> Projects may be submitted up to 24 hours late for a 10% penalty.  For example, a project that would earn 90 points for an on-time submission will earn 81 (which is 90 times 0.90) if submitted late.   Note that your project score as it appears on the project submission server will not include any late penalties.  Any penalties will be incorporated into the final project grade on the grade server.  If you submit both on-time &amp; late, your project will received the maximum of  the penalty-adjusted scores. </p>
+<p> Project extensions will not be granted due to system problems, network problems, power outages, etc., so do not wait to submit a project until the night it is due.  You may submit multiple times up to the deadline, and only your <strong>last on-time submission is graded</strong>.  Similarly, if you submit late, only your <strong>last submission before the  deadline will be graded</strong>.  No consideration in grading will be made for errors made in transferring files or submitting the wrong version of your project.  Having a working, unsubmitted version will not count; only submitted code will be be counted. </p>
+<p><strong>Your projects will be graded based on test cases not provided in advance.</strong> Because grading is done automatically, you must follow the project specification exactly. Also, while projects will generally not be graded on style or documentation, we reserve the right to manually grade program source code for some projects. </p>
+<p> Finally, any "hard coding" in a project assignment may result in a score of zero for that project, and is considered a bad-faith effort. Hard coding refers to attempting to make a program appear as if it works correctly, when in fact it does not.  One example of hard coding would be printing the desired output instead of computing it.  This is only one example, and if you have any questions as to what constitutes hard coding, be sure to ask ahead of time. </p>
+<p> Do not share or publicly post your project solutions on-line; doing so constitutes a violation of academic integrity. This issue is discussed in greater detail below. </p>
+<h3>Clicker Quizzes</h3>
+<p> Clicker quizzes will be given in-class during lectures. Effective August 22, 2017, students and faculty at UMD have access to TurningPoint (Clickers) mobile license subscriptions at NO cost. You don't have to purchase clicker devices, but you have to register your phone app here:<a href="https://myelms.umd.edu/courses/1020311"> https://myelms.umd.edu/courses/1020311</a></p>
+<h3>Laptops in class</h3>
+<p> In general, we discourage the use of laptops in class. Not only are they a distraction for their user, they are a distraction for students around that user. For those who wish to use laptops to take notes, please sit in the back two rows of the lecture hall. Elsewhere, laptops must remain closed. </p>
+<h3>Outside-of-class communication with course staff</h3>
+<p> We will interact with students outside of class in primarily three ways: in-person during office hours, electronically via the web forum and course web page, and electronically via e-mail.  The large majority of communication should employ the first two methods, reserving e-mail for personal (presumably rare) circumstances. </p>
+<p> Personalized assistance, e.g., with programming assignments or exam preparation, will be provided during office hours.  You are responsible for developing and debugging your own programs. Do not rely on the instructional staff to make your project work. Lower-level CMSC courses provide extensive debugging and development help in office hours, but upper-level CMSC courses expect students to complete projects with minimal extra help. Therefore in CMSC 330, we will provide less debugging help than some students may be used to. If you come in with a question, expect to be pointed in the right direction, but it will be up to you to finish solving the problem on your own. Office hours for the instructional staff will be posted on the course web page a few days into the semester. </p>
+<p> Additional assistance will provided via the <a href="https://piazza.com/umd/Fall2017/cmsc330">Piazza web forum</a>. You may use this forum to ask general questions of interest to the class as a whole, e.g., administrative issues or project clarification questions.  The course staff will monitor piazza on a daily basis, but do not expect immediate answers to questions. Please do not post publicly any information that would violate the university  academic integrity policy (e.g., project code or test cases). </p>
+<p> Piazza allows students to post private questions that are only  visible to instructors. Please use this feature if you wish to ask specific questions concerning your project solutions. Generally it will also be helpful to submit your current project code to the submit server, so instructors &amp; TAs can try running your code on their machines before answering your questions. </p>
+<p> Personal e-mail to instructors or TAs should be reserved for issues that <em>cannot</em> be handled by the above methods. </p>
+<p> Important announcements will be made in class or on the class web page, and via piazza. </p>
+<h3>Excused Absences</h3>
+<p> Any student who needs to be excused for an absence from a single <strong>lecture, recitation, or lab</strong> due to illness shall: </p>
+<ol>
+<li> Make a reasonable attempt to inform the instructor of his/her illness prior to the class.</li>
+<li> Upon returning to the class, present their instructor with a  self-signed note attesting to the date of their illness.  Each note  must contain an acknowledgment by the student that the information  provided is true and correct.  Providing false information to  University officials is prohibited under Part 9(h) of the Code of  Student Conduct (V-1.00(B) University of Maryland Code of Student  Conduct) and may result in disciplinary action.</li>
+</ol>
+<p> Missing an <strong> exam</strong> for reasons such as illness, religious observance, participation in required university activities, or family or personal emergency (such as a serious automobile accident or close relative's funeral) will be excused so long as the absence is requested in writing at least <strong> 2 days</strong> in advance and the student includes documentation that shows the absence qualifies as excused; <strong> a self-signed note is not sufficient</strong> as exams are <em>Major Scheduled Grading Events</em>. For  this class, such events are the final exam, and the two midterms,  which will be given in class on the following dates </p>
+<ul>
+<li>Midterm 1 - <strong><s>October 5</s>October 17</strong></li>
+<li>Midterm 2 - <strong>November 16</strong></li>
+</ul>
+<p> For medical absences, you must furnish documentation from the health care professional who treated you. This documentation must verify dates of treatment and indicate the timeframe that the student was unable to meet academic responsibilities. In addition, it must contain the name and phone number of the medical service provider to be used if verification is needed. No diagnostic information will ever be requested.  Note that simply being seen by a health care professional does not constitute an excused absence; it must be clear  that you were unable to perform your academic duties. </p>
+<p> It is the University's policy to provide accommodations for students with religious observances conflicting with exams, but it is the your responsibility to inform the instructor in advance of intended religious observances.  If you have a conflict with one of the planned exams, you <strong>must</strong> inform us prior to the end of the first two weeks of the class. </p>
+<p> For missed exams due to excused absences, the instructor will arrange a makeup exam.  If you might miss an exam for any other reason other than those above, you must contact the instructor <strong>in advance</strong> to discuss the circumstances.  We are not obligated to offer a substitute assignment or to provide a makeup exam unless the failure to perform was due to an excused absence. </p>
+<p> The policies for excused absences <strong>do not</strong> apply to project assignments. Projects will be assigned with sufficient time to be completed by students who have a reasonable understanding of the necessary material and begin promptly.  In cases of <strong>extremely serious</strong> documented illness of <strong>lengthy duration</strong> or other protracted, severe emergency situations, the instructor may consider extensions on project assignments, depending upon the specific circumstances. </p>
+<p> Besides the policies in this syllabus, the University's policies apply during the semester.  Various policies that may be relevant appear in the <a href="http://www.umd.edu/catalog">Undergraduate Catalog</a>. </p>
+<p> If you experience difficulty during the semester keeping up with the academic demands of your courses, you may consider contacting the Learning Assistance Service in 2201 Shoemaker Building at (301) 314-7693.  Their educational counselors can help with time management issues, reading, note-taking, and exam preparation skills. </p>
+<h3>Students with Disabilities</h3>
+<p> Students with disabilities who have been certified by Disability Support Services as needing any type of special accommodations should see the instructor as soon as possible during the schedule adjustment period (the first two weeks of class). Please provide DSS's letter of accommodation to the instructor at that time. </p>
+<p>All arrangements for exam accommodations as a result of disability <strong>must</strong> be made and arranged with the instructor <strong>at least</strong> three business days prior to the exam date; later requests (including retroactive ones) will be refused. </p>
+<h3>Academic Integrity</h3>
+<p> The Campus Senate has adopted a policy asking students to include the following statement on each examination or assignment in every course: "I pledge on my honor that I have not given or received any unauthorized assistance on this examination (or assignment)." Consequently, you will be requested to include this pledge on each exam and project.  Please also carefully read the Office of Information Technology's <a href="http://www.nethics.umd.edu/aup/">policy</a> regarding acceptable use of computer accounts. </p>
+<p> Programming projects are to be written <strong>individually</strong>, therefore cooperation or use of unauthorized materials on projects is a violation of the University's Code of Academic Integrity. Both the person receiving assistance <strong>and the person providing assistance</strong> are in violation of the honor code. <strong>Any evidence</strong> of this, or of unacceptable use of computer accounts, use of unauthorized materials or cooperation on exams or quizzes, or other possible violations of the Honor Code, <strong>will be submitted</strong> to the Student Honor Council, which could result in an XF for the course, suspension, or expulsion. </p>
+<ul>
+<li> For learning the course concepts (including the programming languages), students are welcome to study together or to receive help from anyone else.  You may discuss with others the project requirements, the features of the programming languages used, what was discussed in class and in the class web forum, and general syntax errors.  Examples of questions that would be allowed are "Does a Java class definition end in a semicolon?"  or "What does a 'class not found' error indicate?", because they convey no information about the contents of a project. </li>
+<li> When it comes to actually writing a project assignment, other than help from the instructional staff a project must solely and entirely be your own work.  Working with another student or individual, or using anyone else's work <strong>in any way</strong> except as noted in this paragraph, is a violation of the code of academic integrity and <strong>will be reported</strong> to the Honor Council.  You may not discuss design of any part of a project with <strong>anyone</strong> except the instructor or teaching assistants.  Examples of questions you may <strong>not</strong> ask others might be "How did you implement this part of the project?"  or "Please look at my code and help me find my stupid syntax error!".  You may not use any disallowed source of information in creating either their project design or code.  When writing projects you are free to use ideas or <strong>short fragments</strong> of code from <strong>published</strong> textbooks or <strong>publicly available</strong> information, but the specific source must be cited in a comment in the relevant section of the program. </li>
+</ul>
+<p> <strong>Violations of the Code of Academic Integrity may include, but are not limited to:</strong></p>
+<ol>
+<li> Failing to do all or any of the work on a project by yourself, other than assistance from the instructional staff. </li>
+<li> Using any ideas or any part of another person's project, or copying any other individual's work in any way. </li>
+<li> Giving any parts or ideas from your project, including test data, to another student. </li>
+<li> Allowing any other students access to your program on any computer system. </li>
+<li> Posting solutions to your projects to publicly-accessible sites,   e.g., on github. (Note that if you want to use Git, you can request   free, private accounts from Bitbucket.) </li>
+<li> Transferring any part of a project to or from another student or individual by any means, electronic or otherwise. </li>
+</ol>
+<p> If you have any question about a particular situation or source then consult with the instructors in advance.  Should you have difficulty with a programming assignment you should <strong>see the instructional staff in office hours</strong>, and not solicit help from anyone else in violation of these rules. </p>
+<p> <strong>It is the responsibility, under the honor policy, of anyone who suspects an incident of academic dishonesty has occurred to report it to their instructor, or directly to the Honor Council.</strong></p>
+<p> Every semester the department has discovered a number of students attempting to cheat on project assignments, in violation of academic integrity requirements.  Students' academic careers have been significantly affected by a decision to cheat.  Think about whether you want to join them before contemplating cheating, or before helping a friend to cheat. </p>
+<p> You are welcome and encouraged to study and compare or discuss their implementations of the programming projects with any others after they are graded, <strong>provided that</strong> all of the students in question have received nonzero scores for that project assignment, and if that project will not be extended upon in a later project assignment. </p>
+<h4>Course Evaluations</h4>
+<p> If you have a suggestion for improving this class, don't hesitate to tell the instructor or TAs during the semester.  At the end of the semester, please don't forget to provide your feedback using the campus-wide <a href="https://www.courseevalum.umd.edu/">CourseEvalUM</a> system. Your comments will help make this class better.  CourseEvalUM is scheduled to be open between  Tuesday, December 1 and Sunday, December 13, but this is subject to change by campus. </p>
+<h4>Right to Change Information</h4>
+<p> Although every effort has been made to be complete and accurate, unforeseen circumstances arising during the semester could require the adjustment of any material given here.  Consequently, given due notice to students, the instructors reserve the right to change any information on this syllabus or in other course materials. </p>
+<h4>Copyright</h4>
+<p> All course materials are copyright Dept. of Computer Science, University of Maryland (Marvin Zelkowitz, Jeff Foster, Larry Herman, Atif Memon, Chau-Wen Tseng, Michael Hicks, David Levin,  Nelson Padua-Perez,Anwar Mamat).  All rights reserved.  Students are permitted to use  course materials for their own personal use only.  Course materials may not be distributed publicly or provided to others (excepting other students in the course), in any way or format. </p>
+<h4> </h4>
+</section>
+</div> <!-- /container -->
+<div class="container">
+<section id="resources">
+<div class="page-header"><h2>Resources</h2></div>
+<h3>Quick Reference </h3>
+<ul>
+<li> Ruby (2.4)
+          <ul>
+<li> <a href="http://www.ruby-doc.org/docs/ProgrammingRuby/html/language.html"> Core language</a> (old text, but mostly right) </li>
+<li> <a href="http://www.ruby-doc.org/core-2.2.3/"> Classes &amp; methods </a>: <a href="http://www.ruby-doc.org/core-2.2.3/Array.html">Array</a>, <a href="http://www.ruby-doc.org/core-2.2.3/Hash.html">Hash</a>, <a href="http://www.ruby-doc.org/core-2.2.3/Regexp.html">Regexp</a>, <a href="http://www.ruby-doc.org/core-2.2.3/String.html">String</a></li>
+</ul>
+</li>
+<li> OCaml (4.02.x)
+          <ul>
+<li> <a href="https://www.cs.umd.edu/class/Fall2017/cmsc330/ocaml.html">Installation Guide</a></li>
+<li> <a href="http://caml.inria.fr/pub/docs/manual-ocaml-4.01/language.html">Core language</a></li>
+<li> <a href="http://caml.inria.fr/pub/docs/manual-ocaml/libref">Basic libraries</a>: <a href="http://caml.inria.fr/pub/docs/manual-ocaml/libref/Pervasives.html"> Pervasives</a>, <a href="http://caml.inria.fr/pub/docs/manual-ocaml/libref/List.html"> List</a>, <a href="http://caml.inria.fr/pub/docs/manual-ocaml/libref/String.html"> String</a>, <a href="http://caml.inria.fr/pub/docs/manual-ocaml/libref/Str.html"> Str</a></li>
+</ul>
+</li>
+<li> Prolog (SWI Prolog 7.2.3)
+          <ul>
+<li> <a href="http://en.wikibooks.org/wiki/Prolog">Core language</a></li>
+<li> <a href="http://en.wikibooks.org/wiki/Prolog/Built-in_predicates">Built-in predicates</a></li>
+</ul>
+</li>
+</ul>
+<h3>Software Installation </h3>
+<ul>
+<li> Download Ruby 2.4 for Windows <a href="https://rubyinstaller.org/downloads/">here</a>. Directions for other systems <a href="http://www.ruby-lang.org/en/downloads/">here</a>. </li>
+<li>OCaml Directions  <a href="https://ocaml.org/docs/install.html">here</a>. Directions for Installing OCaml on Windows <a href="ocamlInstallationGuide.pdf">here.</a></li>
+<li> Download SWI-prolog 7.2.3 for Windows and other platforms <a href="http://www.swi-prolog.org/download/stable"> here</a>. It is   also available with standard package management tools (e.g.,   homebrew, ports for the Mac). </li>
+</ul>
+<h3>VirtualBox Linux VM </h3>
+<ul>
+<li> If you want to work in a virtual Linux environment on your Windows  computer, you can use a virtual machine. First, you have to download  VirtualBox from <a href="https://www.virtualbox.org/">https://www.virtualbox.org/</a> and install it. Then download the Linux VM image file <a href="https://www.cs.umd.edu/class/Fall2017/cmsc330/protected/CMSC330-Fall17.zip">CMSC330-Fall17.zip</a>,  and open it with VirtualBox. This Linux image have Ruby, OCaml, Prolog,  and emacs installed. You can install other tools if you want. </li>
+<li> <a href="https://www.cs.umd.edu/class/Fall2017/cmsc330/protected/CMSC330-Fall17.zip"> Linux VM Image</a> (CMSC330_Fall17.zip, 2.8GB) (Linux admin user name: cs, password: cmsc330!)</li>
+</ul>
+<h3>Ruby</h3>
+<ul>
+<li> <a href="http://www.ruby-lang.org">ruby-lang.org</a> -                The main Ruby website. </li>
+<li><a href="https://www.ruby-lang.org/en/documentation/quickstart/">Quick           Start (Ruby in 20 minutes)</a></li>
+<li> <a href="http://www.ruby-doc.org/docs/ruby-doc-bundle/Tutorial/index.html"> Introduction to Ruby</a> -                 A simple introduction to basic Ruby </li>
+<li><a href="http://pythontutor.com/ruby.html">PythonTutor for Ruby</a> - An           interactive, web-based visual debugger for Ruby programs</li>
+<li> <a href="http://www.ruby-doc.org/docs/ruby-doc-bundle/ProgrammingRuby/index.html"> The Pragmatic Programmer's Guide</a> - "The Pickaxe                Book" is a more comprehensive overview of Ruby.  It's an                online version of the first edition of a printed Ruby                book.  The only thing to keep in mind is that it covers                Ruby 1.6, while you can buy the <a href="http://www.amazon.com/Programming-Ruby-1-9-2-0-Programmers/dp/1937785491">newest printed version</a> which covers                the Ruby 1.9 and 2.0.  We probably won't do anything                for this course where the difference between versions.                There's a lot                of information here which you won't need- the most                relevant sections are the first fourteen listed (the                first up through "Basic Input and Output"), then "When                Trouble Strkes", "Ruby and Its World", and <a href="http://www.ruby-doc.org/docs/ruby-doc-bundle/ProgrammingRuby/book/language.html"> "The Ruby Language"</a> and <a href="http://www.ruby-doc.org/docs/ruby-doc-bundle/ProgrammingRuby/book/classes.html"> "Classes and Objects"</a>.  These last two are good                summary references for the language. </li>
+<li><a href="http://www.ruby-doc.org/docs/ProgrammingRuby/html/builtins.html"> Ruby Class Reference</a></li>
+<li> <a href="https://www.ruby-lang.org/en/documentation/"> Ruby documentation</a> - A list from ruby-lang.org 	       of Ruby reference manuals, online sources of Ruby 	       information (some of the ones which will probably be 	       more useful are mentioned specifically below), and Ruby 	       articles.  If you want to buy a printed book about Ruby 	       several are listed. </li>
+<li> <a href="http://www.ruby-doc.org/docs/ruby-doc-bundle/UsersGuide/rg/index.html"> Ruby User's Guide</a> - An English translation of a                book written by the designer of the language.  More of                a language reference than a tutorial. </li>
+</ul>
+<h3>OCaml</h3>
+<ul>
+<li><a href="http://ocaml.org/">Main OCaml site</a></li>
+<li><a href="http://caml.inria.fr/pub/docs/manual-ocaml/index.html">The OCaml Manual</a></li>
+<li> Tutorials: at <a href="http://ocaml.org/tutorials/">OCaml site</a> and <a href="http://try.ocamlpro.com/">interactive tutorial</a> in the style of Code Academy </li>
+<li> <a href="https://realworldocaml.org/">Real World OCaml</a> -   Excellent (free, on-line) book about how to   use OCaml for industrial strength programming. </li>
+<li><a href="http://caml.inria.fr/pub/docs/oreilly-book/index.html">Developing Applications with Objective Caml</a> - Entire book in html &amp; PDF </li>
+<li><a href="http://camelia.sourceforge.net">Camelia tool for OCaml</a></li>
+<li><a href="http://www-rocq.inria.fr/%7Eacohen/tuareg/">Tuareg mode for Emacs</a></li>
+<li><a href="http://quiz.cs.ucla.edu/">CamlQuiz - Interactive OCaml Tutorial</a></li>
+</ul>
+<h3>Prolog</h3>
+<ul>
+<li> <a href="http://en.wikibooks.org/wiki/Prolog">Core language</a></li>
+<li><a href="http://www.swi-prolog.org/pldoc/refman/">SWI-Prolog manual</a></li>
+<li><a href="http://www.swi-prolog.org/FAQ/">SWI-Prolog FAQ</a></li>
+<li><a href="http://www.swi-prolog.org/Links.html">Links to Prolog resources</a></li>
+</ul>
+<h3>Formal grammars and finite automata</h3>
+<ul>
+<li><a href="http://osteele.com/tools/rework/">On-line tool for   playing with regular expressions</a></li>
+<ul>
+<li><a href="http://rubular.com/">Rubular</a> does Ruby     regexps specifically</li>
+</ul>
+<li><a href="http://smlweb.cpsc.ucalgary.ca/start.html">On-line   tool for playing with CFGs</a></li>
+<li>Book: <a href="http://www.pmfst.unist.hr/%7Emilica/Matem_teorija_r/MTR_web/Introduction%20To%20Automata%20Theory.pdf">Introduction   to Automata Theory, Languages &amp; Computation</a></li>
+<li>Book: Introduction to the Theory of Computation by Michael Sipser<br/>
+          This book has lots of good explanation. See <a href="http://math.mit.edu/%7Esipser/18404/">Sipser's course for more material.</a></li>
+<li>Wikipedia actually has good pages on some of these things (and the references they cite are generally useful too):
+          <ul>
+<li><a href="http://en.wikipedia.org/wiki/Regular_expression">regular expressions</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Deterministic_finite_state_machine">dfas</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Nondeterministic_finite_state_machine">nfas</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Context-free_grammar">context-free   grammars</a></li>
+</ul>
+</li>
+</ul>
+<h3>Lambda calculus</h3>
+<ul>
+<li> <a href="http://en.wikipedia.org/wiki/Lambda_calculus#Informal_description"> Overview of lambda calculus at Wikipedia</a></li>
+</ul>
+<h3>Java Garbage Collection</h3>
+<ul>
+<li><a href="http://www.javaworld.com/javaworld/jw-08-1996/jw-08-gc.html?page=1">Java's garbage-collected heap: Java World article</a></li>
+</ul>
+<h3>Ruby On Rails</h3>
+<ul>
+<li> <a href="http://www.rubyonrails.org/">Rails</a> is a full-stack  framework for developing database-backed web applications according  to the Model-View-Control pattern. </li>
+<li> <a href="http://rubyforge.org/projects/instantrails/"> Instant Rails</a> is a single package containing Ruby, Rails, Apache,  and MySQL, all pre-configured and ready to run without installation.  Currently for Windows only. </li>
+</ul>
+<h3> Git </h3>
+<ul>
+<li><a href="http://try.github.io">Learn Git</a></li>
+</ul>
+<h3>Other relevant texts</h3>
+<p> Previous required texts for CMSC 330 have chapters on relevant topics covered in this course. If the lecture notes are insufficient, look for these books. They should be available in the university library. </p>
+<ul>
+<li> <em>Concepts of Programming Languages (Seventh Edition)</em> by R. Sebesta, Addison Wesley (2006) (ISBN 0-321-33025-0). </li>
+<li> <em>Programming Languages: Design and Implementation (Fourth Edition)</em> by T. Pratt and M. Zelkowitz, Prentice Hall (2001) (ISBN 0-13-027678-2). </li>
+<li><a href="http://www.oreilly.com/news/graphics/prog_lang_poster.pdf">O'Reilly History of Programming Languages Poster</a></li>
+</ul>
+</section>
+</div> <!-- /container -->
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster
+    -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<p style="text-align: right;"><a href="https://www.umd.edu/web-accessibility" title="UMD Web Accessibility">Web Accessibility</a></p>
+</section></div></body>
+</html>

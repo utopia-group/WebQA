@@ -1,0 +1,367 @@
+{
+    "id": 0,
+    "content": "CS 565: Programming Languages",
+    "children": [
+        {
+            "id": 1,
+          "content": "Meeting Time",
+          "key": 1,
+          "children": [
+            {
+              "id": 2,
+              "content": "Monday, Wednesday, Friday: 1:30 - 2:20   FRNY G124",
+              "key": 1
+            }
+          ]
+        },
+      {
+        "id": 3,
+        "content": "Instructor",
+        "key": 2,
+        "children": [
+          {
+            "id": 4,
+            "content": "Suresh Jagannathan   LWSN 3154J   Ph: x4 - 0971   email: suresh@cs.purdue.edu   Office Hours: Monday, Wednesday: 3 - 4pm",
+            "key": 1
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "content": "Teaching Assistant",
+        "key": 3,
+        "children": [
+          {
+            "id": 6,
+            "content": "Kia Rahmani   HAAS GO50   email: rahmank@purdue.edu   Office Hours: Friday: 12 - 1pm",
+            "key": 1
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "content": "Course Overview",
+        "key": 4,
+        "children": [
+          {
+            "id": 8,
+            "content": "The field of programming languages is as old as computing itself, and is central to the way we transform abstract algorithmic notions to concrete executable plans. While some aspects of language design entail issues related to choice of syntax (e.g., Lisp), contain features that are only relevant to the specific domains in which the language is intended to operate (e.g., Cuda), or are centered around particular methdologies the language designer wishes to promote (e.g., Javascript), other aspects of the study of programming languages are more universal, concerned with exploring foundational questions. That is, beyond thinking of programming languages in terms of qualitative judgments (why is language X better to write programs in than language Y ?), we might pursue a more substantive line of inquiry centered around notions of semantics and correctness",
+            "key": 1
+          },
+          {
+            "id": 9,
+            "content": "- how can we best describe what a program does or means, without injecting subjective bias into our characterization; and, how do we ascertain from this description, assurance that any execution of this program will be faithful to the intent of the developer? Surprisingly, answers to these questions can often be pursued without appealing to specific syntactic forms or any particular design features.",
+            "isList": true,
+            "key": 2
+          },
+          {
+            "id": 10,
+            "content": "More generally, these questions broadly Fall under the term formal methods , an important branch of computer science that looks to mathematics (specifically, logic) to help us (at least in this class) precisely reason about programming language features and behaviors. Our focus will be to explore core ideas in programming languages from a rigorous, foundational, and principled perspective enabled by couching programming language concepts and the vocabulary we use to reason about them in terms of well-defined mathematical objects (e.g., sets, functions, relations) and associated reasoning strategies (e.g., induction). To do so, we will undertake our study using small language definitions (program calcuii), sufficiently expressive to serve as a useful object of study, but not burdened with features that while perhaps necessary for real-world implementations, are semantically uninteresting.",
+            "key": 3
+          },
+          {
+            "id": 11,
+            "content": "The course will be centered around the use of tools (proof assistants, model checkers, type systems) that enable better understanding of how we might design, specify, and implement language features. We will also use these tools to help us think about how to gain stronger assurance and confidence that the programs we write do what we expect them to do.",
+            "key": 4
+          },
+          {
+            "id": 12,
+            "content": "From the above description, you can conclude that this course will not be a survey of existing languages or a taxonomy of language constructs. Neither will it be a course on programming or software engineering per se. Instead, presented material will be structured to allow us to explore new ways to understand programming languages generally that help us to answer questions such as the following:",
+            "key": 5
+          },
+          {
+            "id": 13,
+            "content": "",
+            "isList": true,
+            "key": 6,
+            "children": [
+              {
+                "id": 14,
+                "content": "What is a program specification and what role do specifications play in program construction and reliability?",
+                "key": 1
+              },
+              {
+                "id": 15,
+                "content": "What does program verification mean?",
+                "key": 2
+              },
+              {
+                "id": 16,
+                "content": "What are sensible and tractable notions of program correctness? What are the conditions under which we can assert that a program is “safe”?",
+                "key": 3
+              },
+              {
+                "id": 17,
+                "content": "How do we prove useful properties about a program; what do we mean by a proof in this context?",
+                "key": 4
+              },
+              {
+                "id": 18,
+                "content": "How do we qualify the “expressive power” of a language feature? How do we relate different features found in different languages?",
+                "key": 5
+              },
+              {
+                "id": 19,
+                "content": "What is a type and how can they be used to reason about program correctness?",
+                "key": 6
+              },
+              {
+                "id": 20,
+                "content": "How foundationally different are various methodologies espoused by different languages (e.g., object-oriented, functional, imperative)?",
+                "key": 7
+              },
+              {
+                "id": 21,
+                "content": "How do we reason about the equivalence of programs, or programs and their compiled translation?",
+                "key": 8
+              },
+              {
+                "id": 22,
+                "content": "What tools can we bring to bear to help automate the way we reason about a program’s behavior?",
+                "key": 9
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "content": "To help answer these questions, the course is designed around several interleaved themes: (1) the role of logic and related mathematical formalisms in programming language specification and design; (2) formal reasoning devices that precisely explain the meaning of programming language features and program executions; (3) the use of types to define and specify safety conditions on program executions, and to enrich language expressivity; (4) characterization of different notions of correctness and development of mechanisms to verify that programs are correct with respect to their specification; (5) the use of automated tools (e.g., proof assistants, program verifiers) to help validate important theorems that describe useful properties based on the structure of (2) and (3), using techniques enabled by (1).",
+            "key": 7
+          },
+          {
+            "id": 24,
+            "content": "By the end of the class, students should be comfortable with objectively assessing and comparing superficially disparate language features, understanding how these features impact implementations, be able to distinguish concepts that are truly foundational from those that just appear to be, and be able to critically reason about program correctness and safety. Most importantly, the overarching goal of this course is to equip students to ask better questions about language design, even if the answers themselves are not readily apparent.",
+            "key": 8
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "content": "Prerequistes",
+        "key": 5,
+        "children": [
+          {
+            "id": 26,
+            "content": "It is assumed that students taking this class would have had exposure to an undergraduate software engineering and/or compilers class, and be comfortable with basic mathematical concepts, and software implementation techniques. There will be a number of programming exercises in the class, but no prior background in any specific programming language is necessary.",
+            "key": 1
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "content": "Academic Honesty",
+        "key": 6,
+        "children": [
+          {
+            "id": 28,
+            "content": "Students are encouraged to work together to clarify issues presented in class. However, students are not allowed to collaborate on programming assignments or examinations.",
+            "key": 1
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "content": "Grading",
+        "key": 7,
+        "children": [
+          {
+            "id": 30,
+            "content": "Grading for the class is as follows:",
+            "key": 1
+          },
+          {
+            "id": 31,
+            "content": "",
+            "isList": true,
+            "key": 2,
+            "children": [
+              {
+                "id": 32,
+                "content": "Homeworks : 30%",
+                "key": 1
+              },
+              {
+                "id": 33,
+                "content": "Midterm :",
+                "key": 2,
+                "children": [
+                  {
+                    "id": 34,
+                    "content": "35%",
+                    "key": 1
+                  }
+                ]
+              },
+              {
+                "id": 35,
+                "content": "Final :",
+                "key": 3,
+                "children": [
+                  {
+                    "id": 36,
+                    "content": "35%",
+                    "key": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 37,
+        "content": "Text",
+        "key": 8,
+        "children": [
+          {
+            "id": 38,
+            "content": "We will use the online textbook Software Foundations , available here for part of the course. Students should download the text, and install the Coq mechanized proof assistant (see here).",
+            "key": 1
+          },
+          {
+            "id": 39,
+            "content": "In fact, the textbook is essentially one large Coq program, with explanation provided in comments, so students are encouraged to bring their laptops to class to interactively explore the material along with the instructor.",
+            "key": 2
+          },
+          {
+            "id": 40,
+            "content": "In addition, students might find the following texts also useful:",
+            "key": 3
+          },
+          {
+            "id": 41,
+            "content": "",
+            "isList": true,
+            "key": 4,
+            "children": [
+              {
+                "id": 42,
+                "content": "Certified Programming with Dependent Types, Adam Chlipala, MIT Press, 2013",
+                "key": 1
+              },
+              {
+                "id": 43,
+                "content": "Types and Programming Languages , Benjamin Pierce, MIT Press, 2002.",
+                "key": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "content": "Topics",
+        "key": 9,
+        "children": [
+          {
+            "id": 45,
+            "content": "Foundations",
+            "key": 1
+          },
+          {
+            "id": 46,
+            "content": "",
+            "isList": true,
+            "key": 2,
+            "children": [
+              {
+                "id": 47,
+                "content": "Functional Programming",
+                "key": 1
+              },
+              {
+                "id": 48,
+                "content": "Induction Principles",
+                "key": 2
+              },
+              {
+                "id": 49,
+                "content": "Logic and Propositions",
+                "key": 3
+              },
+              {
+                "id": 50,
+                "content": "Curry-Howard Correspondence",
+                "key": 4
+              },
+              {
+                "id": 51,
+                "content": "Relations",
+                "key": 5
+              }
+            ]
+          },
+          {
+            "id": 52,
+            "content": "Specifications, Semantics, and Verification",
+            "key": 3
+          },
+          {
+            "id": 53,
+            "content": "",
+            "isList": true,
+            "key": 4,
+            "children": [
+              {
+                "id": 54,
+                "content": "Program Equivalence",
+                "key": 1
+              },
+              {
+                "id": 55,
+                "content": "Operational Semantics",
+                "key": 2
+              },
+              {
+                "id": 56,
+                "content": "Hoare Logic",
+                "key": 3
+              },
+              {
+                "id": 57,
+                "content": "Automated Program Verification",
+                "key": 4
+              }
+            ]
+          },
+          {
+            "id": 58,
+            "content": "Types",
+            "key": 5
+          },
+          {
+            "id": 59,
+            "content": "",
+            "isList": true,
+            "key": 6,
+            "children": [
+              {
+                "id": 60,
+                "content": "Simply-Typed Lambda Calculus",
+                "key": 1
+              },
+              {
+                "id": 61,
+                "content": "Polymorphism",
+                "key": 2
+              },
+              {
+                "id": 62,
+                "content": "Subtyping",
+                "key": 3
+              },
+              {
+                "id": 63,
+                "content": "Refinement Types",
+                "key": 4
+              },
+              {
+                "id": 64,
+                "content": "Advanced Topics",
+                "key": 5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

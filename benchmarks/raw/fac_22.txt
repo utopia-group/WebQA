@@ -1,0 +1,403 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Michael Carbin</title>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<meta content="" name="description"/>
+<meta content="" name="keywords"/>
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet"/>
+<script src="js/jquery.min.js"></script>
+<script src="js/config.js"></script>
+<script src="js/skel.min.js"></script>
+<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-7890925-2']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		 function recordOutboundLink(link, category, action) {
+		    _gat._getTrackerByName()._trackEvent(category, action);
+		    setTimeout('document.location = "' + link.href + '"', 100);
+		  }
+		</script>
+<noscript>
+<link href="css/skel-noscript.css" rel="stylesheet"/>
+<link href="css/style.css" rel="stylesheet"/>
+<link href="css/style-desktop.css" rel="stylesheet"/>
+<link href="css/noscript.css" rel="stylesheet"/>
+</noscript>
+<!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
+</head>
+<body class="homepage">
+<!-- Wrapper-->
+<div id="wrapper">
+<!-- Nav -->
+<nav id="nav">
+<!--
+   <a href="#front" class="icon icon-home active">Home</a>
+						<a id="navwork" href="#work" class="icon icon-file-text ">Publications</a>
+					  	<a href="#email" class="icon icon-envelope">Contact</a>	
+-->
+</nav>
+<!-- Main -->
+<div id="main">
+<!-- Me -->
+<article class="panel" id="front">
+<section id="me">
+<header>
+<span><h1>Michael Carbin</h1></span>
+</header>
+<img alt="" src="images/me.jpg"/>
+</section>
+<section id="about">
+<br/>
+<br/>
+I am an Assistant Professor of Electrical Engineering and Computer Science at
+MIT and lead the Programming Systems Group. We investigate the semantics, design, and implementation of
+systems that operate in the presence of uncertainty 
+in their environment (perception), implementation (neural networks or approximate transformations), or
+execution (unreliable hardware).
+ 
+
+<!--<br /><br /> From 2015-2018, I was a Researcher at Microsoft Research Redmond
+	working on Large-Scale Deep Learning Systems, including both optimization and application.--->
+<br/><br/> I am looking for PhD students. If you are interested in working in my group, please 
+apply to the EECS Department at MIT. More information <a href="https://www.eecs.mit.edu/academics-admissions/graduate-program/admissions">here</a>.
+
+<!--
+<br /><br />
+
+<div id="links">
+<a href="mailto:mcarbin@csail.mit.edu" class="icon icon-envelope"> : mcarbin@csail.mit.edu</a>
+<a href="http://www.linkedin.com/pub/michael-carbin/74/641/924" class="icon icon-linkedin"> : LinkedIn</a>
+<a href="https://www.facebook.com/mcarbin" class="icon icon-facebook"><span> : Facebook</span></a>
+</div>
+-->
+</section>
+<!--
+<section id="news">
+<h2>News</h2>
+<br />
+<ul>
+  <li class="icon icon-circle-blank"> Best Paper Award @ ICLR 2019</li>
+  <li class="icon icon-circle-blank"> Ithemal accepted to ICML 2019</li>
+  <li class="icon icon-circle-blank"> Google Faculty Award building on our work on Ithemal</li>
+  <li class="icon icon-circle-blank"> Lottery Ticket Hypothesis accepted to ICLR 2019 with an Oral Presentation (24 of 500 accepted papers)</li>
+  <li class="icon icon-circle-blank"> Leto accepted to OOPSLA 2018</li>
+  <li class="icon icon-circle-blank"> Our work on computing with real numbers accepted to LICS 2018</li>
+  <li class="icon icon-circle-blank"> 2018 NSF CAREER AWARD </li>
+</section>
+-->
+<section id="students">
+<h2>Students</h2>
+<br/>
+<ul>
+<li class="icon icon-circle-blank"> Current Graduate Students: Eric Atkinson, Jonathan Frankle, Alexander Renda, Benjamin Sherman, and Cambridge Yang </li>
+<li class="icon icon-circle-blank"> Current Masters of Engineering Students:  Jesse Michel, James Gilles</li>
+<!--<li class="icon icon-circle-blank"> Current Undergraduate Students:  Jesse Michel </li>--->
+<li class="icon icon-circle-blank"> Alumni:  Brett Boston (MS, Aarno Labs), Sahil Verma (UG Visitor, University of Washington, Phd)</li>
+</ul></section>
+<section id="teaching">
+<h2>Teaching</h2>
+<br/>
+<ul>
+<li class="icon icon-circle-blank"> Dynamic Computer Language Engineering (6.Spring 20081), Spring 2019 </li>
+<li class="icon icon-circle-blank"> Dynamic Computer Language Engineering (6.Spring 20081), Spring 2018</li>
+<li class="icon icon-circle-blank"> Computer Language Engineering (6.035),  Fall 2017 </li>
+<li class="icon icon-circle-blank"> (Dynamic) Computer Language Engineering (6.035), Spring 2017 </li>
+<li class="icon icon-circle-blank"> Computer Systems Engineering (6.033), Spring 2016 </li>
+</ul></section>
+<section id="service">
+<h2><a name="service">Service</a></h2>
+<br/>
+<ul>
+<li class="icon icon-circle-blank"> Program Committee Service: PLDI 2020, ICML 2020, ASPLOS 2020, SysML 2020, CGO 2019, EuroSys 2019, ECOOP
+  2018, USENIX ATC 2018, CGO 2018, PLDI 2017 (ERC), CGO 2017, OOPSLA 2016, PLDI 2016, CGO 2015</li>
+</ul></section>
+<section id="awards">
+<h2><a name="awards">Awards</a></h2>
+<ul>
+<br/>
+<li class="icon icon-circle-blank"> Sloan Research Fellowship, 2020 </li>
+<li class="icon icon-circle-blank"> Facebook Research Award, 2019 </li>
+<li class="icon icon-circle-blank"> Distinguished Paper Award, ICFP 2019 </li>
+<li class="icon icon-circle-blank"> Best Paper Award, ICLR 2019 </li>
+<li class="icon icon-circle-blank"> Google Faculty Research Award, 2018 </li>
+<li class="icon icon-circle-blank"> NSF CAREER Award, 2018 </li>
+<li class="icon icon-circle-blank"> CACM Research Highlight, 2016 </li>
+<li class="icon icon-circle-blank"> Best Paper Award, OOPSLA 2014 </li>
+<li class="icon icon-circle-blank"> Best Paper Award, OOPSLA 2013 </li>
+<li class="icon icon-circle-blank"> Best Talk Award, POPL Student Session 2013 </li>
+<li class="icon icon-circle-blank"> Microsoft Research Graduate Fellowship, 2008 </li>
+<li class="icon icon-circle-blank"> MIT Lemelson Presidential Fellowship, 2006 </li>
+<li class="icon icon-circle-blank"> Stanford Wegbreit Best Computer Science Undergraduate Honors Thesis, 2006 </li>
+</ul></section>
+<section id="work">
+<h2><a name="pubs">Drafts</a></h2> <br/>
+<b>Linear Mode Connectivity and the Lottery Ticket Hypothesis</b><br/>
+Jonathan Frankle, Gintare Karolina Dziugaite, Daniel M. Roy, and Michael Carbin
+(<a href="https://arxiv.org/abs/1912.05671">arXiv</a>)
+<!-- (<a href="https://arxiv.org/abs/1903.01611">arXiv</a>) -->
+<br/><br/>
+<b>Verifying Handcoded Probabilistic Inference Procedures</b><br/>
+Eric Atkinson, Cambridge Yang, and Michael Carbin
+ (<a href="https://arxiv.org/abs/1805.01863">arXiv</a>)<br/>
+<br/>
+<h2><a name="pubs">Publications</a></h2> <br/>
+<b>2020</b><br/>
+<b>Reactive Probabilistic Programming</b><br/>
+Guillaume Baudart, Louis Mandel, Eric Atkinson, Benjamin Sherman, Marc Pouzet, and Michael Carbin <br/>
+<b>PLDI  2020 (To Appear)</b> — Programming Language Design and Implementation (<a href="https://arxiv.org/abs/1908.07563">arXiv</a>) <br/>
+<br/>
+<b>Comparing Fine-tuning and Rewinding in Neural Network Pruning</b><br/>
+Alex Renda, Jonathan Frankle, and Michael Carbin
+<br/>
+<b>ICLR  2020 (Oral  — To Appear)</b> — International Conference on Learning Representations
+<br/><br/>
+<b>A Type System and Semantics for Sound Programmable Inference in Probabilistic Languages</b><br/>
+Alexander K. Lew, Marco F. Cusumano Towner, Benjamin Sherman, Michael Carbin, and Vikash K. Mansinghka<br/>
+<b>POPL  2020 </b>  — Principles of Programming Languages <br/>
+<br/>
+<b>2019</b><br/>
+<b>The Lottery Ticket Hypothesis: Finding Small, Trainable Neural Networks</b><br/>
+Jonathan Frankle and Michael Carbin
+<br/>
+<b>ICLR  2019 (Best Paper Award)</b> — International Conference on Learning Representations (<a href="https://arxiv.org/abs/1803.03635">arXiv</a>)
+<br/><br/>
+<b>Sound and Robust Solid Modelling via Exact Real Arithmetic and Continuity</b><br/>
+Benjamin Sherman, Jesse Michel, and Michael Carbin <br/>
+<b>ICFP  2019 (Distinguished Paper Award)</b> — International Conference on Functional Programming
+<br/><br/>
+<b>Ithemal: Accurate, Portable, and Fast Basic Block Throughput Estimation using Deep Neural Networks</b><br/>
+Charith Mendis, Alex Renda, Saman Amarasinghe, and Michael Carbin <br/>
+<b>MLSys @ ISCA  2019 (Best Paper Award) </b> — Workshop on Machine Learning for Systems, co-located with ISCA <br/>
+<b>ICML  2019</b> — International Conference on Machine Learning (<a href="https://arxiv.org/abs/1808.07412">arXiv</a>)<br/>
+<br/>
+<b>Compiler Auto-Vectorization using Imitation Learning</b><br/>
+Charith Mendis, Cambridge Yang, Yewen Pu, Saman Amarasinghe, and Michael Carbin<br/>
+<b>NeurIPS  2019 </b>  — Neural Information Processing Systems<br/>
+<br/>
+<b>BHive: A Benchmark Suite For Validating x86-64 Performance Models</b><br/>
+Yishen Chen, Ajay Brahmakshatriya, Charith Mendis, Alex Renda, Eric Atkinson, Ondrej Sykora, Saman Amarasinghe, and Michael Carbin<br/>
+<b>IISWC  2019 </b> — International Symposium on Workload Characterization<br/>
+<br/>
+<b>Tiramisu: A Polyhedral Compiler for Dense and Sparse Deep Learning</b><br/>
+Riyadh Baghdadi, Fatima Zohra Benhamid, Alex Renda, Jonathan Frankle, Michael Carbin, and Saman Amarasinghe<br/>
+NeurIPS Workshop on Systems for ML, 2019 <br/>
+<br/>
+<b>Mode Connectivity and Sparse Neural Networks.</b><br/>
+Jonathan Frankle, Gintare Karolina Dziugaite, Daniel M. Roy, Michael Carbin<br/>
+<b> SEDL  2019 </b> — NeurIPS Workshop on Science meets Engineering of Deep Learning, 2019<br/>
+<br/>
+<b>Noise-Based Sensitivity Analysis of Programs</b><br/>
+Jesse Michel, Sahil Verma, Benjamin Sherman, and Michael Carbin<br/>
+<b>WAX  2019</b> — Workshop on Approximate Computing, co-located with PLDI
+<br/><br/>
+<b>Overparameterization: A Connection Between Software 1.0 and Software 2.0</b><br/>
+Michael Carbin <br/>
+<b>SNAPL  2019</b> — Summit on Advances in Programming Languages
+<br/><br/>
+<b>2018</b><br/>
+<b>Leto: Verifying Application-Specific Fault Tolerance via First-Class Execution Models</b><br/>
+Brett Boston, Zoe Gong, and Michael Carbin<br/>
+<b>OOPSLA  2018</b> — Object-Oriented Programming, Systems, Languages, and Applications (<a href="https://arxiv.org/pdf/1805.06090.pdf">draft</a>)
+<br/><br/>
+<b>Computable decision-making on the reals and other spaces via partiality and nondeterminism</b><br/>
+Benjamin Sherman, Luke Sciarappa, Adam Chlipala, and Michael Carbin<br/>
+<b>LICS  2018</b> — Logic in Computer Science
+<br/><br/>
+<b>Constructive probabilistic semantics with non-spatial locales</b><br/>
+Benjamin Sherman, Jared Tramontano, and Michael Carbin<br/>
+<b>PPS  2018</b> — Probabilistic Program Semantics (<a href="https://pps2018.soic.indiana.edu/files/2017/12/constructive-locales-PPS-2018.pdf">paper</a>)
+<br/><br/>
+<b>2017</b><br/>
+<b>Optimizing Convolutional Neural Networks for Multicores for Scalability, Performance, and Goodput</b><br/>
+Samyam Rajbhandari, Yuxiong He, Olatunji Ruwase, Michael Carbin, and Trishul Chilimbi<br/>
+<b>ASPLOS  2017</b> — Architectural Support for Programming Languages and Operating Systems
+
+<br/><br/>
+<b>2016</b><br/>
+<b>Towards Correct-by-Construction Probabilistic Inference</b> <br/>
+Eric Atkinson and Michael Carbin <br/>
+<b>NIPS MLS  2016</b> — NIPS Workshop on Machine Learning Systems.
+
+<br/><br/>
+<b>Verifying Quantitative Reliability for Programs that Execute on Unreliable Hardware</b> <br/>
+<u>Michael Carbin</u>, Sasa Misailovic, and Martin C. Rinard <br/>
+<b>CACM Research Highlight  2016</b> — Communications of the ACM
+
+<br/><br/>
+<b>2014</b><br/>
+<b>Chisel: Reliability- and Accuracy-Aware Optimization of Approximate Computational Kernels</b> <br/>
+Sasa Misailovic, <u>Michael Carbin</u>, Sara Achour, Zichao Qi,  and Martin C. Rinard <br/>
+<b>OOPSLA  2014 (Best Paper Award)</b> — Object-Oriented Programming, Systems, Languages, and Applications.
+<br/><br/>
+<b>2013</b><br/>
+<b>Verifying Quantitative Reliability for Programs that Execute on Unreliable Hardware</b> <br/>
+<u>Michael Carbin</u>, Sasa Misailovic, and Martin C. Rinard <br/>
+<b>OOPSLA  2013 (Best Paper Award)</b> — Object-Oriented Programming, Systems, Languages, and Applications.
+<br/>
+<a href="papers/oopsla13.pdf" onclick="recordOutboundLink(this, 'Outbound Links', 'rely_paper');return false;" target="_blank">Paper</a>
+<a href="slides/oopsla13.pdf" onclick="recordOutboundLink(this, 'Outbound Links', 'rely_slides');return false;" target="_blank">Slides</a>
+<br/>
+Press:
+<a href="http://bit.ly/JpvfQK" onclick="recordOutboundLink(this, 'Outbound Links', 'rely_slashdot');return false;" target="_blank">Slashdot</a>
+<a href="http://bit.ly/1bSbkEQ" onclick="recordOutboundLink(this, 'Outbound Links', 'rely_mitnews');return false;" target="_blank">MITNews</a>
+<br/><br/>
+<b>Verified Integrity Properties for Safe Approximate Program Transformations</b> <br/>
+<u>Michael Carbin</u>, Deokhwan Kim, Sasa Misailovic, and Martin C. Rinard <br/>
+<b>PEPM  2013</b> — Partial Evaluation and Program Manipulation, co-located with POPL <br/> <br/>
+<b>2012</b><br/>
+<b>(Relative) Safety Properties for Relaxed Appproximate Programs</b> <br/>
+<u>Michael Carbin</u> and Martin C. Rinard <br/>
+<b>RACES  2012</b> — Relaxing Synchronization for Multicore and Manycore Scalability,
+<br/>  co-located with OOPSLA  <br/> <br/>
+<b>Cryptographic Path Hardening: Hiding Vulnerabilities in Software using Cryptography</b> <br/>
+Vijay Ganesh, <u>Michael Carbin</u>, and Martin C. Rinard <br/>
+<b>OBT  2012</b> — Off the Beaten Track, co-located with POPL  <br/> <br/>
+<b>Bolt: On-Demand Infinite Loop Escape in Unmodified Binaries</b> <br/>
+Michael Kling, Sasa Misailovic, <u>Michael Carbin</u>, and Martin C. Rinard <br/>
+<b>OOPSLA  2012</b> — Object-Oriented Programming, Systems, Languages, and Applications 
+<br/> <a href="http://people.csail.mit.edu/mcarbin/papers/oopsla12.bolt.pdf" onclick="recordOutboundLink(this, 'Outbound Links', 'bolt');return false;" target="_blank">Paper</a> <a href="slides/oopsla12.pptx" onclick="recordOutboundLink(this, 'Outbound Links', 'bolt_slides');return false;" target="_blank">
+Slides</a>
+<br/><br/>
+<b>Proving Acceptability Properties of Relaxed Nondeterministic Approximate Programs</b> <br/>
+<u>Michael Carbin</u>, Deokhwan Kim, Sasa Misailovic, and Martin C. Rinard <br/>
+<b>PLDI  2012</b> — Programming Language Design and Implementation  <br/>
+<a href="http://people.csail.mit.edu/rinard/paper/pldi12.relaxed.pdf" onclick="recordOutboundLink(this, 'Outbound Links', 'relax_cr');return false;" target="_blank">
+Paper</a>
+<a href="slides/pldi12.pptx" onclick="recordOutboundLink(this, 'Outbound Links', 'relax_slides');return false;" target="_blank">
+Slides</a>
+<br/><br/>
+<b>Automatic Input Rectification</b> <br/>
+Fan Long, Vijay Ganesh, <u>Michael Carbin</u>, Stelios Sidirolgou, and Martin C. Rinard <br/>
+<b>ICSE  2012</b> — International Conference on Software Engineering   <br/>
+<br/>
+<b>2011</b><br/>
+<b>Detecting and Escaping Infinite Loops with Jolt</b> <br/>
+<u>Michael Carbin</u>, Sasa Misailovic, Michael Kling, and Martin C. Rinard<br/>
+<b>ECOOP  2011</b> — European Conference on Object-Oriented Programming  <br/>
+<a href="http://groups.csail.mit.edu/pac/jolt/paper.pdf" onclick="recordOutboundLink(this, 'Outbound Links', 'ecoop_2011_paper');return false;">Paper</a>
+<a href="http://groups.csail.mit.edu/pac/jolt/appendix.pdf" onclick="recordOutboundLink(this, 'Outbound Links', 'ecoop_2011');return false;">Appendix</a>
+<a href="slides/ecoop11.pptx" onclick="recordOutboundLink(this, 'Outbound Links', 'ecoop_2011_slides');return false;">Slides</a>
+<br/>
+Press: <a href="http://developers.slashdot.org/story/11/08/02/2031215/Escaping-Infinite-Loops" onclick="recordOutboundLink(this, 'Outbound Links', 'ecoop_2011');return false;" target="_blank">Slashdot</a> <a href="http://arstechnica.com/science/news/2011/08/jolt-framework-lets-users-force-some-hung-programs-to-recover.ars" onclick="recordOutboundLink(this, 'Outbound Links', 'ecoop_2011');return false;" target="_blank">Ars Technica</a> <a href="http://web.mit.edu/newsoffice/2011/infinite-loops-interrupt-0802.html" onclick="recordOutboundLink(this, 'Outbound Links', 'ecoop_2011');return false;" target="_blank">MIT News</a>
+<br/><br/>
+<b>Dynamic Knobs for Power-Aware Computing</b><br/>
+Henry Hoffman, Stelios Sidiroglou, <u>Michael Carbin</u>,  Sasa Misailovic, <br/>Anant Agarwal, and Martin Rinard <br/>
+<b>ASPLOS  2011</b> — Architectural Support for Programming Languages and Operating Systems<br/>
+<a href="http://people.csail.mit.edu/rinard/paper/asplos11.pdf" onclick="recordOutboundLink(this, 'Outbound Links', 'asplos_2011_paper');return false;" target="_blank">Paper</a>
+<br/><br/>
+<b> Automatically Identifying Critical Input Regions and Code Regions in Applications </b> <br/>
+<u>Michael Carbin</u> and Martin C. Rinard<br/>
+<b>ISSTA  2010</b> — International Symposium of Software Testing And Analysis <br/>
+<a href="http://people.csail.mit.edu/rinard/paper/issta10.pdf" onclick="recordOutboundLink(this, 'Outbound Links', 'issta_2010_paper');return false;" target="_blank">Paper</a> <br/> <br/>
+<b>Automatically Patching Errors in Deployed Software</b><br/>
+Jeff H. Perkins, Sunghun Kim, Sam Larsen, Saman Amarasinghe, Jonathan Bachrach, <u>Michael Carbin</u>, Carlos Pacheco, Frank Sherwood, Stelios Sidiroglou, Greg Sullivan, Weng-Fai Wong, Yoav Zibin, Michael D. Ernst and Martin C. Rinard <br/>
+<b>SOSP  2009</b> — Symposium on Operating Systems Principles<br/> 
+Press: <a href="http://science.slashdot.org/story/09/10/29/2248246/Fixing-Bugs-But-Bypassing-the-Source-Code">Slashdot</a>
+<a href="http://web.mit.edu/newsoffice/2010/web-attacks-0317.html">MIT News</a> <a href="http://www.technologyreview.com/computing/23821/">MIT Technology Review</a>
+<br/> <br/>
+<b>Transactional Collection Classes</b> <br/>
+Brian D. Carlstrom, Austen McDonald, <u>Michael Carbin</u>, Christos Kozyrakis, and Kunle Olukotun <br/>
+<b>PPoPP  2007</b> — Principles and Practice of Parallel Computing <br/>
+<a href="papers/ppopp07.pdf">Paper</a><br/><br/>
+<b>Reflective Program Generation with Patterns</b> <br/>
+Manuel Fähndrich, <u>Michael Carbin</u>, James R. Larus<br/>
+<b>GPCE  2006</b> — Generative Programming and Component Engineering <br/>
+<a href="papers/gpce06.pdf">Paper</a><br/> <br/>
+<b>Using Datalog with Binary Decision Diagrams for Program Analysis</b><br/>
+John Whaley, Dzintars Avots, <u>Michael Carbin</u>, Monica S. Lam<br/>
+<b>APLAS  2005</b> — Asian Symposium Programming Languages and Systems 2005 <br/>
+<a href="papers/aplas05.pdf">Paper</a><br/>
+<br/>
+<b>Context-Sensitive Program Analysis as Database Queries</b><br/>
+Monica S. Lam, John Whaley, V, Benjamin Livshits, Michael Martin,
+Dzintars Avots, <br/> <u>Michael Carbin</u>, and Christopher Unkel<br/>
+<b>PODS  2005</b> — Principles of Database Systems (Invited paper) <br/>
+<a href="papers/pods05.pdf">Paper</a><br/>
+<br/>
+<h2><a name="reports">Theses and Technical Reports</a></h2><br/>
+<b>Reasoning about Relaxed Programs</b> <br/>
+<u>Michael Carbin</u>, Deokwan Kim, Sasa Misailovic, Martin C. Rinard <br/>
+<a href="http://hdl.handle.net/1721.1/67031" onclick="recordOutboundLink(this, 'Outbound Links', 'relax_tech_report');return false;" target="_blank">
+Technical Report</a>, MIT-CSAIL-TR-2011-050 <br/><br/>
+<b>Power-Aware Computing with Dynamic Knobs</b> <br/>
+Henry Hoffmann, Stelios Sidiroglou, <u>Michael Carbin</u>, <br/> Sasa Misailovic, Anant Agarwal, and Martin Rinard <br/>
+Tehcnical Report, MIT-CSAIL-TR-2010-027 <br/><br/>
+<b>Learning Effective BDD Variable Orders for BDD-Based Program Analysis</b> <br/>
+Michael Carbin<br/>
+Stanford University Undergraduate Honors Thesis, May 2006 <br/>
+<a href="papers/thesis.pdf">Paper</a><br/><br/>
+<h2><a name="patents">Patents</a></h2><br/>
+<b>Configuration of Isolated Extensions and Device Drivers</b> <br/>
+Galen C. Hunt, James R. Larus, Manuel A. Fanndrich, Orion Hodson, David R. Tarditi, Michael Spear, Michael Carbin, Steven P. Levi, Bjarne Steensgaard <br/>
+U.S. Patent Number 8,074,231. Filed: June 30, 2006. Issued: December 6, 2011 <br/> <br/>
+<b>Bypass Virtualization</b> <br/>
+Thomas Joseph Purtell, Won Chun, Michael Carbin <br/>
+U.S. Patent Number 8,065,687. Filed: Jan 7, 2008. Issued November 22, 2011 
+
+</section>
+<h2>Contact</h2><br/>
+<a class="icon icon-envelope" href="mailto:mcarbin@csail.mit.edu"> : mcarbin@csail.mit.edu</a>
+<br/>
+<a class="icon icon-facebook" href="https://www.facebook.com/mcarbin"><span> : Facebook</span></a>
+<br/>
+<a class="icon icon-linkedin" href="http://www.linkedin.com/pub/michael-carbin/74/641/924"> : LinkedIn</a>
+<br/>
+<div class="icon icon-home"> :  Michael Carbin, MIT CSAIL, 77 Massachusetts Ave, 32-G782
+Cambridge, MA 02139</div>
+<div class="icon icon-phone"> : Office : (617) 253-5881
+
+
+
+<!----
+								<form action="#" method="post">
+									<div>
+										<div class="row half">
+											<div class="6u">
+												<input type="text" class="text" name="name" placeholder="Name" />
+											</div>
+											<div class="6u">
+												<input type="text" class="text" name="email" placeholder="Email" />
+											</div>
+										</div>
+										<div class="row half">
+											<div class="12u">
+												<input type="text" class="text" name="subject" placeholder="Subject" />
+											</div>
+										</div>
+										<div class="row half">
+											<div class="12u">
+												<textarea name="message" placeholder="Message"></textarea>
+											</div>
+										</div>
+										<div class="row">
+											<div class="12u">
+												<input type="submit" class="button" value="Send Message" />
+											</div>
+										</div>
+									</div>
+								</form>
+---!>
+							</article>
+
+
+
+					</div>
+		
+				<!-- Footer -->
+<div id="footer">
+<ul class="links">
+<li>© Michael Carbin</li>
+</ul>
+</div>
+</div>
+</article></div></div></body>
+</html>

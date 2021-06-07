@@ -1,0 +1,2867 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link href="grossmanHomepage.css" rel="stylesheet" title="styles" type="text/css"/>
+<script src="grossmanHomepage.js"></script>
+<script>
+window.onload = function () {
+    installNavigation();
+    updateSection(window.location.hash);
+}
+window.onhashchange = function () { 
+    updateSection(window.location.hash);
+}
+</script>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<meta content="Dan Grossman, Faculty, Paul G. Allen School of Computer Science &amp; Engineering, University of Washington" name="description"/>
+<meta content="Dan, Grossman" name="keywords"/>
+<title>Dan Grossman</title>
+</head>
+<body>
+<div id="top">
+<div class="topblocks">
+<h1>Dan Grossman</h1>
+<span>
+Professor and Vice Director<br/>
+<a href="http://www.cs.washington.edu">Paul G. Allen School of<br/> Computer Science &amp; Engineering</a><br/>
+<a href="http://www.washington.edu">University of Washington</a><br/>
+Box 352355<br/>
+Seattle, WA 98195-2355<br/>
+</span>
+<br/>
+<img alt="picture of Dan's email address: username djg for UW CSE" src="grossman_email.png"/><br/>
+206-616-1124<br/>
+</div>
+<div class="topblocks">
+<a href="mugshot2020.jpg"><img alt="picture of Dan" id="mugshot" src="mugshot2020_small.jpg"/></a>
+</div>
+<p>My office is in the spectacular
+<b><a href="http://www.cs.washington.edu/visitors/getting_here/">Bill
+&amp; Melinda Gates Center for Computer Science &amp; Engineering</a>
+Room 309</b>.  The easiest way to find Gates Center 309 (aka CSE2 309)
+is to take one of the two side-by-side elevators to the third floor,
+turn left out of the elevator, then turn left again.
+</p>
+</div>
+<div id="otherpages">
+See also:
+<ul>
+<li><a href="publications/">Publications</a></li>
+<li><a href="teachingMaterials/">Teaching Materials</a></li>
+<li><a href="presentations.html">Presentations</a></li>
+<li><a href="grossman_bio.html">Short Biography</a></li>
+</ul>
+</div>
+<div id="navbar">
+<!-- a ul is filled in here onload by Javascript with one "button" li for each section that follows plus an "all" -->
+</div>
+<div class="section" id="teaching">
+<h2>Teaching</h2>
+<p>I have a free <a href="https://www.coursera.org/learn/programming-languages">programming-languages course on Coursera</a></p>
+<p><a href="teachingMaterials/">Materials I have packaged for others to use and adapt</a></p>
+<p>
+  Current courses:
+</p>
+<ol class="courselist">
+<li><a href="http://courses.cs.washington.edu/courses/cse390b/20sp">CSE390B: Building Academic Success through Bottom-Up Computing</a><br/><br/></li>
+<li><a href="http://courses.cs.washington.edu/courses/cse492e/20sp">CSE492E: Computer Ethics</a></li>
+</ol>
+<p>Web pages for full courses:</p>
+<ol class="courselist">
+<li><b>CSE332 Data Abstractions</b>
+<ol>
+<li><a href="http://courses.cs.washington.edu/courses/cse332/12sp">Spring 2012</a></li>
+<li><a class="small" href="http://courses.cs.washington.edu/courses/cse332/10sp">Spring 2010</a></li>
+</ol>
+</li>
+<li><b>CSE341 Programming Languages</b>
+<ol>
+<li><a href="http://courses.cs.washington.edu/courses/cse341/19sp">Spring 2019</a></li>
+<li><a class="small" href="http://courses.cs.washington.edu/courses/cse341/18au">Fall 2018</a></li>
+<li><a class="small" href="http://courses.cs.washington.edu/courses/cse341/17au">Fall 2017</a></li>
+<li><a class="small" href="http://courses.cs.washington.edu/courses/cse341/17sp">Spring 2017</a></li>
+<li><a class="small" href="http://courses.cs.washington.edu/courses/cse341/16sp">Spring 2016</a></li>
+<li><a class="small" href="http://courses.cs.washington.edu/courses/cse341/13sp">Spring 2013</a></li>
+<li><a class="small" href="http://courses.cs.washington.edu/courses/cse341/13wi">Winter 2013</a></li>
+<li><a class="small" href="http://courses.cs.washington.edu/courses/cse341/11au">Fall 2011</a></li>
+<li><a class="small" href="http://courses.cs.washington.edu/courses/cse341/08sp">Spring 2008</a></li>
+<li><a class="small" href="http://courses.cs.washington.edu/courses/cse341/08wi">Winter 2008</a></li>
+<li><a class="small" href="http://courses.cs.washington.edu/courses/cse341/04au">Fall 2004</a></li>
+<li><a class="small" href="http://courses.cs.washington.edu/courses/cse341/04sp">Spring 2004</a></li>
+</ol>
+</li>
+<li><b>CSE505 Concepts of Programming Languages</b>
+<ol>
+<li><a href="http://courses.cs.washington.edu/courses/cse505/12au">Fall 2012</a></li>
+<li><a class="small" href="http://courses.cs.washington.edu/courses/cse505/12wi">Winter 2012</a></li>
+<li><a class="small" href="http://courses.cs.washington.edu/courses/cse505/09au">Fall 2009</a></li>
+<li><a class="small" href="http://courses.cs.washington.edu/courses/cse505/08au">Fall 2008</a></li>
+<li><a class="small" href="http://courses.cs.washington.edu/courses/cse505/07au">Fall 2007</a></li>
+<li><a class="small" href="http://courses.cs.washington.edu/courses/cse505/06au">Fall 2006</a></li>
+<li><a class="small" href="http://courses.cs.washington.edu/courses/cse505/05au">Fall 2005</a></li>
+<li><a class="small" href="http://courses.cs.washington.edu/courses/cse505/03au">Fall 2003</a></li>
+</ol>
+</li>
+<li> </li>
+<li>CSE142 Computer Programming I
+   <ol>
+<li><a href="http://courses.cs.washington.edu/courses/cse142/09sp">Spring 2009</a></li>
+</ol>
+</li>
+<li>CSE303 Concepts and Tools for Software Development 
+   <ol>
+<li><a href="http://courses.cs.washington.edu/courses/cse303/07sp">Spring 2007</a></li>
+<li><a class="small" href="http://courses.cs.washington.edu/courses/cse303/06wi">Winter 2006</a></li>
+<li><a class="small" href="http://courses.cs.washington.edu/courses/cse303/05sp">Spring 2005</a></li>
+</ol>
+</li>
+<li>CSE331 Software Design and Implementation
+  <ol>
+<li><a href="http://courses.cs.washington.edu/courses/cse331/19au">Autumn 2019</a></li>
+<li><a class="small" href="http://courses.cs.washington.edu/courses/cse331/15sp">Spring 2015</a></li>
+<li><a class="small" href="http://courses.cs.washington.edu/courses/cse331/14au">Fall 2014</a></li>
+<li><a class="sma ll" href="http://courses.cs.washington.edu/courses/cse331/14wi">Winter 2014</a></li>
+</ol>
+</li>
+<li>CSE351 The Hardware/Software Interface
+  <ol>
+<li><a href="http://courses.cs.washington.edu/courses/cse351/18sp">Spring 2018</a></li>
+<li><a class="small" href="http://courses.cs.washington.edu/courses/cse351/16wi">Winter 2016</a></li>
+</ol>
+</li>
+<li>CSE373 Data Structures &amp; Algorithms (for non-majors)
+  <ol>
+<li><a href="http://courses.cs.washington.edu/courses/cse373/13au">Fall 2013</a></li>
+</ol>
+</li>
+<li>CSE506 Advanced Topics in Programming Languages
+   <ol>
+<li><a href="http://courses.cs.washington.edu/courses/cse506/07wi">Winter 2007</a></li>
+</ol>
+</li>
+<li>CSEP505 Programming Languages
+   <ol>
+<li><a href="http://courses.cs.washington.edu/courses/csep505/16au">Autumn 2016</a></li>
+<li><a class="small" href="http://courses.cs.washington.edu/courses/csep505/09wi">Winter 2009</a></li>
+<li><a class="small" href="http://courses.cs.washington.edu/courses/csep505/06sp">Spring 2006</a></li>
+</ol>
+</li>
+<li>CSE590dg Language-Based Techniques for Improving C-Level Software Quality 
+   <ol>
+<li><a href="http://courses.cs.washington.edu/courses/cse590dg/04wi">Winter 2004</a></li>
+</ol>
+</li>
+<li>Harvard CS152 Programming Langauges
+   <ol>
+<li><a href="2011sp">Spring 2011</a></li>
+</ol>
+</li>
+</ol>
+<p>In Winter Quarter, I co-lead the Leadership Seminar
+Series (CSE390L), with Ed Lazowska:<br/>
+  <a href="http://courses.cs.washington.edu/courses/cse390l/20wi">Winter 2020</a>
+<span class="small">
+  <a href="http://courses.cs.washington.edu/courses/cse390l/19wi">Winter 2019</a>
+  <a href="http://courses.cs.washington.edu/courses/cse390l/18wi">Winter 2018</a>
+  <a href="http://courses.cs.washington.edu/courses/cse390l/17wi">Winter 2017</a>
+  <a href="http://courses.cs.washington.edu/courses/cse390l/16wi">Winter 2016</a>
+</span>
+</p>
+</div>
+<div class="section" id="students">
+<span class="navtitle">Students</span>
+<h2>PhD Students</h2>
+<p> Current Advisees:</p>
+<ul class="studentlist">
+<li><a href="http://homes.cs.washington.edu/~cnandi/">Chandrakana Nandi</a>
+<span class="small">coadvised with <a href="http://homes.cs.washington.edu/~ztatlock">Zach Tatlock</a></span></li>
+<li><a href="http://tlringer.github.io/">Talia Ringer</a></li>
+<li><a href="http://homes.cs.washington.edu/~billzorn/">Bill Zorn</a>
+<span class="small">coadvised with <a href="http://homes.cs.washington.edu/~ztatlock">Zach Tatlock</a></span></li>
+</ul>
+<p>PhD Alumni and Dissertations:</p>
+<dl class="studentlist">
+<dt>Tom Bergan, Google, 
+<span class="small">coadvised with <a href="http://homes.cs.washington.edu/~luisceze">Luis Ceze</a></span></dt>
+<dd><i><a href="theses/tbergan-dissertation.pdf">Avoiding State-Space Explosion in Multithreaded Programs with Input-Covering Schedules and Symbolic Execution</a></i></dd>
+<dt><a href="http://cs.utexas.edu/~bornholt/">James Bornholt</a>, University of Texas,  
+<span class="small">coadvised with <a href="http://homes.cs.washington.edu/~luisceze">Luis Ceze</a> and <a href="http://homes.cs.washington.edu/~emina">Emina Torlak</a></span></dt>
+<dd><i><a href="theses/bornholt_dissertation.pdf">Optimizing the Automated Programming Stack</a></i></dd>
+<dt><a href="http://www.cis.upenn.edu/~devietti/">Joe Devietti</a>, University of Pennsylvania,  
+<span class="small">coadvised with <a href="http://homes.cs.washington.edu/~luisceze">Luis Ceze</a></span></dt>
+<dd><i><a href="theses/devietti-dissertation.pdf">Deterministic Execution for Arbitrary Multithreaded Programs</a></i></dd>
+<dt><a href="https://www.linkedin.com/in/lauraeffingerdean">Laura Effinger-Dean</a>, Google</dt>
+<dd>
+<i><a href="theses/LauraEffinger-DeanPhDThesis.pdf">Interference-Free Regions and Their Application to Compiler Optimization and Dynamic Data-Race Detection</a></i>
+</dd>
+<dt><a href="https://www.cs.drexel.edu/~csgordon/">Colin Gordon</a>, Drexel University, 
+<span class="small">coadvised with <a href="http://homes.cs.washington.edu/~mernst">Michael Ernst</a></span></dt>
+<dd><i><a href="theses/ColinGordon_dissertation.pdf">Verifying Concurrent Programs by Controlling Alias Interference</a></i></dd>
+<dt><a href="http://www.ccs.neu.edu/home/blerner/">Benjamin Lerner</a>, Northeastern University</dt>
+<dd><i><a href="theses/BenLerner_thesis.pdf">Designing for Extensibility and Planning for Conflict: Experiments in Web-Browser Design</a></i></dd>
+<dt><a href="https://sites.google.com/a/cs.washington.edu/kmorton/">Kristi Morton</a>, 
+<span class="small">coadvised with <a href="http://homes.cs.washington.edu/~magda">Magdalena Balazinska</a> and <a href="http://ssli.ee.washington.edu/~hannaneh/">Hannaneh Hajishirzi</a></span></dt>
+<dd><i><a href="theses/kmorton-thesis.pdf">Interactive Data Integration and Entity Resolution for Exploratory Visual Data Analytics</a></i></dd>
+<dt><a href="https://sliverdragon37.github.io/">Eric Mullen</a>, Google, 
+<span class="small">coadvised with <a href="http://homes.cs.washington.edu/~ztatlock">Zach Tatlock</a></span></dt>
+<dd><i><a href="theses/mullen_thesis.pdf">Pushing the Limits of Compiler Verification</a></i></dd>
+<dt><a href="https://aweirdimagination.net/~perelman/">Daniel Perelman</a>, Microsoft, 
+<span class="small">coadvised with <a href="http://research.microsoft.com/~sumitg/">Sumit Gulwani (MSR)</a></span></dt>
+<dd><i><a href="theses/perelman_dissertation.pdf">Program Synthesis Without Full Specifications for Novel Applications</a></i></dd>
+<dt><a href="https://www.linkedin.com/in/michael-ringenburg-phd/">Michael Ringenburg</a>, Cray, 
+<span class="small">coadvised with <a href="http://homes.cs.washington.edu/~luisceze">Luis Ceze</a></span></dt>
+<dd><i><a href="theses/ringenburg_thesis.pdf">Dynamic Analyses of Result Quality in Energy-Aware Approximate Programs</a></i></dd>
+<dt><a href="https://www.cs.cornell.edu/~asampson/">Adrian Sampson</a>, Cornell University, 
+<span class="small">coadvised with <a href="http://homes.cs.washington.edu/~luisceze">Luis Ceze</a></span></dt>
+<dd><a href="theses/sampson_thesis.pdf"><i>Hardware and Software for Approximate Computing</i></a></dd>
+<dt><a href="https://www.fos.kuis.kyoto-u.ac.jp/~jtoman/">John Toman</a>, Kyoto University [post-doc]</dt>
+<dd><a href="theses/toman_dissertation.pdf"><i>Learning to Adapt:
+Analyses for Configurable Software</i></a></dd>
+<dt><a href="http://cs.wellesley.edu/~bpw/">Benjamin Wood</a>, Wellesley College, 
+<span class="small">coadvised with <a href="http://homes.cs.washington.edu/~luisceze">Luis Ceze</a></span></dt>
+<dd><i><a href="theses/BenWood_dissertation.pdf">Software and Hardware Support for Data-Race Exceptions</a></i></dd>
+</dl>
+</div>
+<div class="section" id="research">
+<h2>Research</h2>
+<p>My primary research area is programming languages, encompassing
+theory, implementation, and design.  However, I have collaborated broadly, with 
+applications in computer architecture, software engineering, large-scale
+data processing, and computational fabrication.
+</p>
+<p>For specific work, see
+<a href="publications/">publications</a> and
+<a href="presentations.html">presentations</a>
+</p>
+<p class="listcaption">For projects and news, see
+the <a href="http://uwplse.org">UW PLSE group</a>.</p>
+<p>Some of my older projects are on other, sometimes
+outdated-but-preserved-for-posterity group
+pages: <a href="https://sampa.cs.washington.edu/research/">Sampa
+group</a>, <a href="http://www.cs.washington.edu/research/plse/projects">older
+plse page</a>, even older <a href="http://wasp.cs.washington.edu">WASP
+page</a>.</p>
+</div>
+<div class="section" id="activities">
+<h2>Professional Activities</h2>
+<p class="listcaption">Boards and Such</p>
+<ol class="byyearlist">
+<li>2014–2023
+   <ol><li><a href="http://cra.org">CRA Board</a></li></ol>
+</li>
+<li>2013–2017
+    <ol><li><a href="https://www.acm.org/education/education-governance">ACM Education Board</a></li></ol>
+</li>
+<li>2011–2013
+    <ol><li><a href="https://www.acm.org/binaries/content/assets/education/cs2013_web_final.pdf">Computing Curriculum: Computer Science 2013 Steering Committee</a></li></ol>
+</li>
+<li>2010–2017
+    <ol><li>ACM Education Council</li></ol>
+</li>
+<li>2009–2012
+    <ol><li><a href="http://www.sigplan.org">SIGPLAN Executive Committee</a></li></ol>
+</li>
+<li>2009–2012
+    <ol><li><!--<a href="http://wp.acm.org/sigplaneducationboard/">-->SIGPLAN Programming Langauges Education Board<!--</a>--></li></ol>
+</li>
+</ol>
+<p class="listcaption">Chair</p>
+<ol class="byyearlist">
+<li>2020
+  <ol>
+<li>CRA Career Mentoring Workshop Co-Chair</li>
+</ol>
+</li>
+<li> 2018
+    <ol>
+<li><a href="http://pldi18.sigplan.org/">PLDI</a> Program Chair</li>
+</ol>
+</li>
+<li>2016
+  <ol>
+<li><a href="http://cra.org/events/2016-career-mentoring-workshop/">CRA Career Mentoring Workshop</a> Co-Chair</li>
+</ol>
+</li>
+<li>2013
+  <ol>
+<li><a href="http://pldi2013.ucombinator.org/">PLDI Tutorials</a> Chair</li>
+</ol>
+</li>
+<li>2009 
+   <ol>
+<li><a href="http://transact09.cs.washington.edu">TRANSACT</a> Program Chair</li>
+</ol>
+</li>
+<li>2008
+   <ol>
+<li><a href="http://www.cs.washington.edu/mssi/2008/">UW/MSR Institute</a></li>
+</ol>
+</li>
+<li>2007
+   <ol>
+<li><a href="http://paste07.cs.washington.edu">PASTE</a> Co-Chair</li>
+<li><a href="http://www.cs.uoregon.edu/research/Summerschool/Summer07/">Oregon Summer School</a> Co-Chair</li>
+</ol>
+</li>
+<li>2006
+   <ol>
+<li><a href="http://www.cs.uoregon.edu/research/Summerschool/Summer06/">Oregon Summer School</a> Co-Chair</li>
+</ol>
+</li>
+<li>2004
+   <ol>
+<li><a href="http://www.cs.indiana.edu/icfp04/">ICFP Poster Session</a> Chair</li>
+</ol>
+</li>
+</ol>
+<p class="listcaption">Program Committee</p>
+<ol class="byyearlist">
+<li>2017
+  <ol>
+<li><a href="http://conf.researchr.org/home/pldi-2017">PLDI</a></li>
+</ol>
+</li>
+<li>2016
+  <ol>
+<li><a href="http://conf.researchr.org/home/icfp-2016">ICFP</a></li>
+</ol>
+</li>
+<li>2015
+  <ol>
+<li><a href="http://asplos15.bilkent.edu.tr/">ASPLOS</a></li>
+</ol>
+</li>
+<li>2014
+  <ol>
+<li><a href="http://conferences.inf.ed.ac.uk/pldi2014/">PLDI</a></li>
+<li><a href="http://www.moocworkshop.org/">LWMOOC</a></li>
+<li><a href="http://approx2014.cs.umass.edu/">APPROX</a></li>
+<li><a href="http://sampa.cs.washington.edu/new/wacas14/">WACAS</a></li>
+</ol>
+</li>
+<li>2013
+  <ol>
+<li><a href="http://splashcon.org/2013/cfp/due-june-14-2013/670-splash-e-education">SPLASH-E</a></li>
+</ol>
+</li>
+<li>2012
+   <ol>
+<li><a href="http://research.microsoft.com/asplos_2012">ASPLOS</a></li>
+<li><a href="http://pldi12.cs.purdue.edu/">PLDI</a></li>
+</ol>
+</li>
+<li>2011
+   <ol>
+<li><a href="http://www.cse.psu.edu/popl/11/">POPL</a></li>
+<li><a href="http://www.cs.technion.ac.il/~erez/vee11/VEE_2011/Home_Page.html">VEE</a></li>
+</ol>
+</li>
+<li>2010
+   <ol>
+<li><a href="http://research.microsoft.com/en-us/um/people/akenn/tldi2010/">TLDI</a></li>
+<li><a href="http://www-ali.cs.umass.edu/~moss/transact-2010/">TRANSACT</a></li>
+<li><a href="http://www.cs.jhu.edu/~spaa/2010/index.html">SPAA</a></li>
+<li><a href="http://www.cs.stanford.edu/pldi10/fit.html">PLDIFIT</a></li>
+</ol>
+</li>
+<li>2009
+   <ol>
+<li><a href="http://sysrun.haifa.il.ibm.com/hrl/ISMM2009/">ISMM</a></li>
+<li><a href="http://www.oopsla.org/oopsla2009/">OOPSLA</a></li>
+</ol>
+</li>
+<li>2008 
+   <ol>
+<li><a href="http://www.clip.dia.fi.upm.es/Conferences/DAMP08/">DAMP</a></li>
+<li><a href="http://www.cs.kent.ac.uk/people/staff/rej/ismm2008/">ISMM</a></li>
+<li><a href="http://www.kb.ecei.tohoku.ac.jp/ml2008/">ML</a></li>
+</ol>
+</li>
+<li>2007
+   <ol>
+<li><a href="http://www.cs.ucsd.edu/popl/07/">POPL</a></li>
+<li><a href="http://cc2007.cs.brown.edu">CC</a></li>
+<li><a href="http://www.program-transformation.org/PEPM07/">PEPM</a></li>
+<li><a href="http://www.oopsla.org/oopsla2007/index.php?page=subs/researchpapers/">OOPSLA</a></li>
+</ol>
+</li>
+<li>2006
+   <ol>
+<li><a href="http://www.cs.purdue.edu/homes/jv/events/TRANSACT/">TRANSACT</a></li>
+<li><a href="http://www.cs.purdue.edu/MSPC06/Home.html">MSPC</a></li>
+</ol>
+</li>
+<li>2005 
+   <ol>
+<li><a href="http://www.cs.umd.edu/~pugh/BugWorkshop05/">BUGS</a></li>
+</ol>
+</li>
+<li>2004
+   <ol>
+<li><a href="http://www.cs.umd.edu/~pugh/pldi04/">PLDI</a></li>
+<li><a href="http://www.st.cs.uni-sb.de/paste/">PASTE</a></li>
+</ol>
+</li>
+</ol>
+</div>
+<div class="section" id="rest">
+<h2>The Rest</h2>
+<p>I use my <a href="http://www.facebook.com/profile.php?id=10717335">Facebook page</a> regularly — if I have met you (including students, colleagues, etc.), please feel free to send me a friend request.  I have this 
+“<a href="random_personal/">personal</a>” page that is many years out of date presently.</p>
+<p>I joined UW CSE longer ago than 57 of 79 (70.9%) other current
+<a href="http://www.cs.washington.edu/people/faculty/">faculty members</a>
+(as of Fall 2019)
+</p>
+<p>A nice <a href="https://www.cs.rice.edu/dgrossman">alumni-profile
+write-up</a> of me from my undergraduate institution, March 2017, that
+unpacks a few of the random events that led to where I am</p>
+<p>My academic genealogy:</p>
+<pre>
+              me
+              |
+        Greg Morrisett
+        /            \
+   Robert Harper   Jeannette Wing
+       |               |
+  Robert Constable  John Guttag
+       |               |
+  Stephen Kleene    Jim Horning
+       |               |
+  Alonzo Church     Jerome Feldman
+       |               |
+        \            Alan Perlis
+         \             |
+          \         Philip Franklin
+           \         /
+         Oswald Veblen     
+              |               
+          E.H. Moore        
+              |
+          H.A. Newton
+              |
+       Michael Chasles
+              |
+       Simeon Poisson
+          /        \
+ Joseph Lagrange  Pierre-Simon Laplace
+         |               |
+  Leonhard Euler   Jean Le Rond d'Alembert
+         |
+  Johann Bernoulli
+         |            
+   Jacob Bernoulli  
+         |
+  Nicolas Malebranche
+         |
+ Gottfried Wilhelm Leibniz
+</pre>
+</div>
+<hr/>
+<p>Last updated: April 2020</p>
+<div>
+<h1><a href="http://homes.cs.washington.edu/~djg">Dan Grossman</a>'s Publications</h1>
+<hr/>
+<div id="preliminaries">
+<p> Last updated: March 2020 </p>
+<p>
+<span class="question" id="copyright_question">Copyright notice</span>
+<span class="hidden" id="copyright_hide">hide copyright notice</span>
+</p>
+<p class="hidden" id="copyright_answer">
+ The documents contained in these directories are included by the
+ contributing authors as a means to ensure timely dissemination of
+ scholarly and technical work on a non-commercial basis. Copyright and
+ all rights therein are maintained by the authors or by other
+ copyright holders, notwithstanding that they have offered their works
+ here electronically. It is understood that all persons copying this
+ information will adhere to the terms and constraints invoked by each
+ author's copyright. These works may not be reposted without the
+ explicit permission of the copyright holder.
+</p>
+<p>
+This page contains all of Dan Grossman's academic publications.  It is
+available in several formats.  You are currently viewing: 
+</p>
+<ul>
+<li><span class="fulldetails">Full Bibliography
+          [<span class="toggle" onclick="abbrev()">Switch to Titles and Abbreviated Venues</span>]
+        </span>
+<span class="abbrevplace">Titles and Abbreviated Venues
+	  [<span class="toggle" onclick="details()">Switch to Full Bibliography</span>]
+        </span>
+</li>
+<li><span class="acmhref">Most Links Hosted by the ACM Digital Library
+          [<span class="toggle" onclick="localhref()">Switch to All Links Hosted by Dan</span>]
+        </span>
+<span class="localhref">All Links Hosted by Dan
+	  [<span class="toggle" onclick="acmhref()">Switch to Most Links Hosted by the ACM Digital Library</span>]
+        </span>
+</li>
+<li><span class="allpapers">Purely Reverse Chronological
+                                               [<span class="toggle" onclick="categories()">Switch to Separate Categories (Journal, Conference, Workshop, Invited, Other)</span>]
+        </span>
+<span class="bycategory">Separate Categories (Journal, Conference, Workshop, Invited, Other)
+	  [<span class="toggle" onclick="allpapers()">Switch to Purely Reverse Chronological</span>]
+        </span>
+</li>
+</ul>
+<p>
+<span class="question" id="acm_question">Why are ACM Digital Library links the default?</span>
+<span class="hidden" id="acm_hide">hide answer</span>
+</p>
+<p class="hidden" id="acm_answer">
+There are many reasons: The ACM DL is the archival location for papers
+published in ACM journals and conferences.  ACM is the copyright
+holder and ACM prefers links to point to the DL.  The DL has useful
+information like reverse citations.  It also counts downloads.  Each
+SIG (special-interest group) gets some money based on how many times
+papers from the conferences it sponsors are downloaded, so downloading
+the papers from the DL helps SIGPLAN.
+
+<br/><br/>
+
+On the other hand, not everyone has ubiquitous DL access, so all the
+papers are also available for free for everyone by choosing, "All
+Links Hosted by Dan."
+</p>
+<p>
+<span class="question" id="formats_question">Why are so many formats available?</span>
+<span class="hidden" id="formats_hide">hide answer</span>
+</p>
+<p class="hidden" id="formats_answer">
+Pretty much because Dan wrote this page as a way to learn PHP, and the result seemed marginally useful
+</p>
+</div>
+<hr/>
+<!-- The rest of the file is generated automatically using PHP -->
+<div class="papers allpapers">
+<ul>
+<li>
+<span class="papertitle localhref">Synthesizing Structured CAD Models with Equality Saturation and Inverse Transformations</span>
+<span class="papertitle acmhref">Synthesizing Structured CAD Models with Equality Saturation and Inverse Transformations</span>
+<span class="abbrevplace">  [PLDI 2020]</span>
+<br/>
+<span class="fulldetails">
+        Chandrakana Nandi, Max Willsey, Adam Anderson, James R. Wilcox, Eva Darulova, Dan Grossman, Zachary Tatlock.<br/>
+        ACM Conference on Programming Language Design and Implementation, 
+        London, UK,
+        June, 2020.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/cpp2020.pdf">REPLICA: REPL Instrumentation for Coq Analysis</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/cpp2020.pdf">REPLICA: REPL Instrumentation for Coq Analysis</a></span>
+<span class="abbrevplace">  [CPP 2020]</span>
+<br/>
+<span class="fulldetails">
+        Talia Ringer, Alex Sanchez-Stern, Dan Grossman, Sorin Lerner.<br/>
+        The 9th ACM SIGPLAN International Conference on Certified Programs and Proofs, 
+        New Orleans, LA,
+        January, 2020.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/itp19.pdf">Ornaments for Proof Reuse in Coq</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/itp19.pdf">Ornaments for Proof Reuse in Coq</a></span>
+<span class="abbrevplace">  [ITP 2019]</span>
+<br/>
+<span class="fulldetails">
+        Talia Ringer, Nathaniel Yazdani, John Leo, Dan Grossman.<br/>
+        Tenth International Conference on Interactive Theorem Proving, 
+        Portland, OR,
+        September, 2019.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/conga19-zorn-sinking-point.pdf">Sinking Point: Dynamic Precision Tracking for Floating-Point</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/conga19-zorn-sinking-point.pdf">Sinking Point: Dynamic Precision Tracking for Floating-Point</a></span>
+<span class="abbrevplace">  [CoNGA 2019]</span>
+<br/>
+<span class="fulldetails">
+        Bill Zorn, Dan Grossman, Zach Tatlock.<br/>
+        Conference for Next Generation Arithmetic, 
+        Singapore,
+        March, 2019.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/popl19.pdf">Concerto: A Framework for Combined Concrete and Abstract Interpretation</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/3290356">Concerto: A Framework for Combined Concrete and Abstract Interpretation</a></span>
+<span class="abbrevplace">  [POPL 2019]</span>
+<br/>
+<span class="fulldetails">
+        John Toman, Dan Grossman.<br/>
+        ACM Symposium on Principles of Programming Languages, 
+        Lisbon, Portugal,
+        January, 2019.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/icfp18.pdf">Functional Programming for Compiling and Decompiling Computer-Aided Design</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/3236794">Functional Programming for Compiling and Decompiling Computer-Aided Design</a></span>
+<span class="abbrevplace">  [ICFP 2018]</span>
+<br/>
+<span class="fulldetails">
+        Chandrakana Nandi, James R. Wilcox, Pavel Panchekha, Taylor Blau, Dan Grossman, Zachary Tatlock.<br/>
+        23rd International Conference on Functional Programming, 
+        St. Louis, MO,
+        September, 2018.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/ecoop18.pdf">Legato: An At-Most-Once Analysis with Applications to Dynamic Configuration Updates</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/ecoop18.pdf">Legato: An At-Most-Once Analysis with Applications to Dynamic Configuration Updates</a></span>
+<span class="abbrevplace">  [ECOOP 2018]</span>
+<br/>
+<span class="fulldetails">
+        John Toman, Dan Grossman.<br/>
+        European Conference on Object-Oriented Programming, 
+        Amsterdman, Netherlands,
+        June, 2018.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/pumpkin2018.pdf">Adapting Proof Automation to Adapt Proofs</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/pumpkin2018.pdf">Adapting Proof Automation to Adapt Proofs</a></span>
+<span class="abbrevplace">  [CPP 2018]</span>
+<br/>
+<span class="fulldetails">
+        Talia Ringer, Nathaniel Yazdani, John Leo, Dan Grossman.<br/>
+        The 7th ACM SIGPLAN International Conference on Certified Programs and Proofs, 
+        Los Angeles, CA,
+        January, 2018.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/oeuf2018.pdf">Œuf: Minimizing the Coq Extraction TCB</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/oeuf2018.pdf">Œuf: Minimizing the Coq Extraction TCB</a></span>
+<span class="abbrevplace">  [CPP 2018]</span>
+<br/>
+<span class="fulldetails">
+        Eric Mullen, Stuart Pernsteiner, James R. Wilcox, Zachary Tatlock, Dan Grossman.<br/>
+        The 7th ACM SIGPLAN International Conference on Certified Programs and Proofs, 
+        Los Angeles, CA,
+        January, 2018.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/fibpaper.pdf">Instrumentation Bias for Dynamic Data Race Detection</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/fibpaper.pdf">Instrumentation Bias for Dynamic Data Race Detection</a></span>
+<span class="abbrevplace">  [OOPSLA 2017]</span>
+<br/>
+<span class="fulldetails">
+        Benjamin P. Wood, Man Cao, Michael D. Bond, Dan Grossman.<br/>
+        ACM Conference on Object-Oriented Programming Systems, Languages, and Applications, 
+        Vancouver, Canada,
+        October, 2017.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/iorekpaper.pdf">A Solver-Aided Language for Test Input Generation</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/iorekpaper.pdf">A Solver-Aided Language for Test Input Generation</a></span>
+<span class="abbrevplace">  [OOPSLA 2017]</span>
+<br/>
+<span class="fulldetails">
+        Talia Ringer, Dan Grossman, Daniel Schwartz-Narbonne, Serdar Tasiran.<br/>
+        ACM Conference on Object-Oriented Programming Systems, Languages, and Applications, 
+        Vancouver, Canada,
+        October, 2017.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/wddd17.pdf">Solver Aided Reverse Engineering of Architectural Features</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/wddd17.pdf">Solver Aided Reverse Engineering of Architectural Features</a></span>
+<span class="abbrevplace">  [WDDD 2017]</span>
+<br/>
+<span class="fulldetails">
+        Bill Zorn, Dan Grossman, Luis Ceze.<br/>
+        14th Annual Workshop on Duplicating, Deconstructing and Debunking, 
+        Toronto, Canada,
+        June, 2017.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/mapl17.pdf">Debugging Probabilistic Programs</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/mapl17.pdf">Debugging Probabilistic Programs</a></span>
+<span class="abbrevplace">  [MAPL 2017]</span>
+<br/>
+<span class="fulldetails">
+        Chandrakana Nandi, Dan Grossman, Adrian Sampson, Todd Mytkowicz, Kathryn S. McKinley.<br/>
+        The First ACM SIGPLAN Workshop on Machine Learning and Programming Languages, 
+        Barcelona, Spain,
+        June, 2017.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/toplas17.pdf">Verifying Invariants of Lock-Free Data Structures with Rely-Guarantee and Refinement Types</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/3064850">Verifying Invariants of Lock-Free Data Structures with Rely-Guarantee and Refinement Types</a></span>
+<span class="abbrevplace">  [TOPLAS 2017]</span>
+<br/>
+<span class="fulldetails">
+        Colin S. Gordon, Michael D. Ernst, Dan Grossman, and Matthew J. Parkinson.<br/>
+        ACM Transactions on Programming Languages and Systems, 39(3), 
+        May, 2017.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/snapl17_nandi.pdf">Programming Language Tools and Techniques for 3D Printing</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/snapl17_nandi.pdf">Programming Language Tools and Techniques for 3D Printing</a></span>
+<span class="abbrevplace">  [SNAPL 2017]</span>
+<br/>
+<span class="fulldetails">
+        Chandrakana Nandi, Anat Caspi, Dan Grossman, Zachary Tatlock.<br/>
+        SNAPL: The 2nd Summit On Advances in Programming Languages, 
+        Asilomar, CA,
+        May, 2017.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/snapl17_toman.pdf">Taming the Static Analysis Beast</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/snapl17_toman.pdf">Taming the Static Analysis Beast</a></span>
+<span class="abbrevplace">  [SNAPL 2017]</span>
+<br/>
+<span class="fulldetails">
+        John Toman, Dan Grossman.<br/>
+        SNAPL: The 2nd Summit On Advances in Programming Languages, 
+        Asilomar, CA,
+        May, 2017.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/ccs2016.pdf">AUDACIOUS: User-Driven Access Control with Unmodified Operating Systems</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/ccs2016.pdf">AUDACIOUS: User-Driven Access Control with Unmodified Operating Systems</a></span>
+<span class="abbrevplace">  [CCS 2016]</span>
+<br/>
+<span class="fulldetails">
+        Talia Ringer, Dan Grossman, Franziska Roesner.<br/>
+        23rd ACM Conference on Computer and Communications Security, 
+        Vienna, Austria,
+        October, 2016.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/ecoop2016.pdf">Staccato: A Bug-Finder for Dynamic Configuration Updates</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/ecoop2016.pdf">Staccato: A Bug-Finder for Dynamic Configuration Updates</a></span>
+<span class="abbrevplace">  [ECOOP 2016]</span>
+<br/>
+<span class="fulldetails">
+        John Toman, Dan Grossman.<br/>
+        European Conference on Object-Oriented Programming, 
+        Rome, Italy,
+        July, 2016.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/pldi2016.pdf">Verified Peephole Optimizations for CompCert</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/pldi2016.pdf">Verified Peephole Optimizations for CompCert</a></span>
+<span class="abbrevplace">  [PLDI 2016]</span>
+<br/>
+<span class="fulldetails">
+        Eric Mullen, Daryl Zuniga, Zachary Tatlock, Dan Grossman.<br/>
+        ACM Conference on Programming Language Design and Implementation, 
+        Santa Barbara, CA,
+        June, 2016.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/popl16.pdf">Optimizing Synthesis with Metasketches</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/2837614.2837666">Optimizing Synthesis with Metasketches</a></span>
+<span class="abbrevplace">  [POPL 2016]</span>
+<br/>
+<span class="fulldetails">
+        James Bornholt, Emina Torlak, Dan Grossman, Luis Ceze.<br/>
+        ACM Symposium on Principles of Programming Languages, 
+        St. Petersburg, FL,
+        January, 2016.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/oopsla2015.pdf">Probability Type Inference for Flexible Approximate Programming</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/oopsla2015.pdf">Probability Type Inference for Flexible Approximate Programming</a></span>
+<span class="abbrevplace">  [OOPSLA 2015]</span>
+<br/>
+<span class="fulldetails">
+        Brett Boston, Adrian Sampson, Dan Grossman, Luis Ceze.<br/>
+        ACM Conference on Object-Oriented Programming Systems, Languages, and Applications, 
+        Pittsburgh, PA,
+        October, 2015.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/wax2015.pdf">Approximate Program Synthesis</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/wax2015.pdf">Approximate Program Synthesis</a></span>
+<span class="abbrevplace">  [WAX 2015]</span>
+<br/>
+<span class="fulldetails">
+        James Bornholt, Emina Torlak, Luis Ceze, Dan Grossman.<br/>
+        Workshop on Approximate Computing Across the Stack, 
+        Portland, OR,
+        June, 2015.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/snapl15.pdf">Toward a Dependability Case Language and Workflow for a Radiation Therapy System</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/snapl15.pdf">Toward a Dependability Case Language and Workflow for a Radiation Therapy System</a></span>
+<span class="abbrevplace">  [SNAPL 2015]</span>
+<br/>
+<span class="fulldetails">
+        Michael D. Ernst, Dan Grossman, Jon Jacky, Calvin Loncaric, Stuart Pernsteiner, Zachary Tatlock, Emina Torlak, Xi Wang.<br/>
+        The Inaugural Summit On Advances in Programming Languages, 
+        Asilomar, CA,
+        May, 2015.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/asplos15.pdf">Monitoring and Debugging the Quality of Results in Approximate Programs</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/asplos15.pdf">Monitoring and Debugging the Quality of Results in Approximate Programs</a></span>
+<span class="abbrevplace">  [ASPLOS 2015]</span>
+<br/>
+<span class="fulldetails">
+        Michael F. Ringenburg, Adrian Sampson, Isaac Ackerman, Luis Ceze, Dan Grossman.<br/>
+        20th International Conference on Architectural Support for Programming Languages and Operating Systems, 
+        Istanbul, Turkey,
+        March, 2015.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/coqpl15.pdf">Peek: A Formally Verified Peephole Optimization Framework for x86</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/coqpl15.pdf">Peek: A Formally Verified Peephole Optimization Framework for x86</a></span>
+<span class="abbrevplace">  [CoqPL 2015]</span>
+<br/>
+<span class="fulldetails">
+        Eric Mullen, Zachary Tatlock, Dan Grossman.<br/>
+        1st International Workshop on Coq for Programming Languages, 
+        Mumbai, India,
+        January, 2015.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/oopsla2014.pdf">Symbolic Execution of Multithreaded Programs from Arbitrary Program Contexts</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/2714064.2660200">Symbolic Execution of Multithreaded Programs from Arbitrary Program Contexts</a></span>
+<span class="abbrevplace">  [OOPSLA 2014]</span>
+<br/>
+<span class="fulldetails">
+        Tom Bergan, Dan Grossman, Luis Ceze.<br/>
+        ACM Conference on Object-Oriented Programming Systems, Languages, and Applications, 
+        Portland, OR,
+        October, 2014.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/pvldb14.pdf">Support the Data Enthusiast: Challenges for Next-Generation Data-Analysis Systems</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/pvldb14.pdf">Support the Data Enthusiast: Challenges for Next-Generation Data-Analysis Systems</a></span>
+<span class="abbrevplace">  [PVLDB (vision track) 2014]</span>
+<br/>
+<span class="fulldetails">
+        Kristi Morton, Magdalena Balazinska, Dan Grossman, Jock Mackinlay.<br/>
+        Proceedings of the 40th International Conference on Very Large Databases (Vision Track), 
+        Hangzhou, China,
+        September, 2014.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/fose14.pdf">How Programming Languages Will Co-evolve with Software Engineering: A Bright Decade Ahead</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/2593882.2593898">How Programming Languages Will Co-evolve with Software Engineering: A Bright Decade Ahead</a></span>
+<span class="abbrevplace">  [FoSE 2014]</span>
+<br/>
+<span class="fulldetails">
+        Emerson Murphy-Hill, Dan Grossman.<br/>
+        36th International Conference on Software Engineering — Future of Software Engineering track, 
+        Hyderabad, India,
+        June, 2014.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/tds-pldi2014.pdf">Test-Driven Synthesis</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/2594291.2594297">Test-Driven Synthesis</a></span>
+<span class="abbrevplace">  [PLDI 2014]</span>
+<br/>
+<span class="fulldetails">
+        Daniel Perelman, Sumit Gulwani, Dan Grossman, Peter Provost.<br/>
+        ACM Conference on Programming Language Design and Implementation, 
+        Edinburgh, Scotland,
+        June, 2014.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/passert-pldi2014.pdf">Expressing and Verifying Probabilistic Assertions</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/2594291.2594294">Expressing and Verifying Probabilistic Assertions</a></span>
+<span class="abbrevplace">  [PLDI 2014]</span>
+<br/>
+<span class="fulldetails">
+        Adrian Sampson, Pavel Panchekha, Todd Mytkowicz, Kathryn S. McKinley, Dan Grossman, Luis Ceze.<br/>
+        ACM Conference on Programming Language Design and Implementation, 
+        Edinburgh, Scotland,
+        June, 2014.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/sigmod_record2014.pdf">Public Data and Visualizations: How are Many Eyes and Tableau Public Used for Collaborative Analytics?</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/2694413.2694417">Public Data and Visualizations: How are Many Eyes and Tableau Public Used for Collaborative Analytics?</a></span>
+<span class="abbrevplace">  [SIGMOD Record 2014]</span>
+<br/>
+<span class="fulldetails">
+        Kristi Morton, Magdalena Balazinska, Dan Grossman, Robert Kosara, Jock Mackinlay.<br/>
+        SIGMOD Record, 
+        June, 2014.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/asplos14.pdf">Low-Level Detection of Language-Level Data Races with LARD</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/2654822.2541955">Low-Level Detection of Language-Level Data Races with LARD</a></span>
+<span class="abbrevplace">  [ASPLOS 2014]</span>
+<br/>
+<span class="fulldetails">
+        Benjamin P. Wood, Luis Ceze, Dan Grossman.<br/>
+        19th International Conference on Architectural Support for Programming Languages and Operating Systems, 
+        Salt Lake City, UT,
+        March, 2014.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/wacas_infer.pdf">Tuning Approximate Computations with Constraint-Based Type Inference</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/wacas_infer.pdf">Tuning Approximate Computations with Constraint-Based Type Inference</a></span>
+<span class="abbrevplace">  [WACAS 2014]</span>
+<br/>
+<span class="fulldetails">
+        Brett Boston, Adrian Sampson, Dan Grossman, Luis Ceze.<br/>
+        Workshop on Approximate Computing Across the System Stack, 
+        Salt Lake City, UT,
+        March, 2014.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/wacas_autotune.pdf">Profiling and Autotuning for Energy-Aware Approximate Programming</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/wacas_autotune.pdf">Profiling and Autotuning for Energy-Aware Approximate Programming</a></span>
+<span class="abbrevplace">  [WACAS 2014]</span>
+<br/>
+<span class="fulldetails">
+        Michael F. Ringenburg, Adrian Sampson, Luis Ceze, Dan Grossman.<br/>
+        Workshop on Approximate Computing Across the System Stack, 
+        Salt Lake City, UT,
+        March, 2014.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/oopsla13-ics.pdf">Input-Covering Schedules for Multithreaded Programs</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/2509136.2509508">Input-Covering Schedules for Multithreaded Programs</a></span>
+<span class="abbrevplace">  [OOPSLA 2013]</span>
+<br/>
+<span class="fulldetails">
+        Tom Bergan, Luis Ceze, Dan Grossman.<br/>
+        ACM Conference on Object-Oriented Programming Systems, Languages, and Applications, 
+        Indianapolis, IN,
+        October, 2013.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://spectrum.ieee.org/computing/software/enerj-the-language-of-goodenough-computing">EnerJ, the Language of Good-Enough Computing</a></span>
+<span class="papertitle acmhref"><a href="http://spectrum.ieee.org/computing/software/enerj-the-language-of-goodenough-computing">EnerJ, the Language of Good-Enough Computing</a></span>
+<span class="abbrevplace">  [IEEE Spectrum 2013]</span>
+<br/>
+<span class="fulldetails">
+        Adrian Sampson, Luis Ceze, Dan Grossman.<br/>
+        IEEE Spectrum, 
+        October, 2013.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/ecoop13.pdf">JavaUI: Effects for Controlling UI Object Access</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/ecoop13.pdf">JavaUI: Effects for Controlling UI Object Access</a></span>
+<span class="abbrevplace">  [ECOOP 2013]</span>
+<br/>
+<span class="fulldetails">
+        Colin S. Gordon, Werner M. Dietl, Michael D. Ernst, Dan Grossman.<br/>
+        European Conference on Object-Oriented Programming, 
+        Montpellier, France,
+        July, 2013.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/pldi13.pdf">Rely-Guarantee References for Refinement Types over Aliased Mutable Data</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/2462156.2462160">Rely-Guarantee References for Refinement Types over Aliased Mutable Data</a></span>
+<span class="abbrevplace">  [PLDI 2013]</span>
+<br/>
+<span class="fulldetails">
+        Colin S. Gordon, Michael D. Ernst, Dan Grossman.<br/>
+        ACM Conference on Programming Language Design and Implementation, 
+        Seattle, WA,
+        June, 2013.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/wodet13.pdf">Input-Covering Schedules for Multithreaded Programs</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/wodet13.pdf">Input-Covering Schedules for Multithreaded Programs</a></span>
+<span class="abbrevplace">  [WoDET 2013]</span>
+<br/>
+<span class="fulldetails">
+        Tom Bergan, Luis Ceze, Dan Grossman.<br/>
+        4th Workshop on Determinism and Correctness in Parallel Programming, 
+        Houston, TX,
+        March, 2013.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6165314">Identifying and Summarizing Systematic Code Changes via Rule Inference</a></span>
+<span class="papertitle acmhref"><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6165314">Identifying and Summarizing Systematic Code Changes via Rule Inference</a></span>
+<span class="abbrevplace">  [TSE 2013]</span>
+<br/>
+<span class="fulldetails">
+        Miryung Kim, David Notkin, Dan Grossman, Gary Wilson Jr.<br/>
+        IEEE Transactions on Software Engineering 39(1), 
+        pages 45–62,
+        January, 2013.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/oopsla12-ifrit.pdf">IFRit: Interference-Free Regions for Dynamic Data-Race Detection</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/2384616.2384650">IFRit: Interference-Free Regions for Dynamic Data-Race Detection</a></span>
+<span class="abbrevplace">  [OOPSLA 2012]</span>
+<br/>
+<span class="fulldetails">
+        Laura Effinger-Dean, Brandon Lucia, Luis Ceze, Dan Grossman, Hans-J. Boehm.<br/>
+        ACM Conference on Object-Oriented Programming Systems, Languages, and Applications, 
+        Tucson, AZ,
+        October, 2012.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/dls12.pdf">Detecting Conflicts Among Declarative UI Extensions</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/2480360.2384590">Detecting Conflicts Among Declarative UI Extensions</a></span>
+<span class="abbrevplace">  [DLS 2012]</span>
+<br/>
+<span class="fulldetails">
+        Benjamin S. Lerner, Dan Grossman.<br/>
+        Dynamic Languages Symposium, 
+        Tucson, AZ,
+        October, 2012.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/radish_isca_2012.pdf">RADISH: Always-On Sound and Complete Race Detection in Software and Hardware</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/2366231.2337182">RADISH: Always-On Sound and Complete Race Detection in Software and Hardware</a></span>
+<span class="abbrevplace">  [ISCA 2012]</span>
+<br/>
+<span class="fulldetails">
+        Joseph Devietti, Benjamin P. Wood, Karin Strauss, Luis Ceze, Dan Grossman, Shaz Qadeer.<br/>
+        39th International Symposium on Computer Architecture, 
+        Portland, OR,
+        June, 2012.
+        <br/><i>Technical report with proofs: <a href="http://homes.cs.washington.edu/~djg/papers/UW-CSE-12-04-01.pdf">UW-CSE Technical Report 2012-04-01</a>, April 2012</i>
+</span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/pldi12.pdf">Type-Directed Completion of Partial Expressions</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/2254064.2254098">Type-Directed Completion of Partial Expressions</a></span>
+<span class="abbrevplace">  [PLDI 2012]</span>
+<br/>
+<span class="fulldetails">
+        Daniel Perelman, Sumit Gulwani, Thomas Ball, Dan Grossman.<br/>
+        ACM Conference on Programming Language Design and Implementation, 
+        Beijing, China,
+        June, 2012.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/wodet_meld.pdf">The Case For Merging Execution- and Language-level Determinism with MELD</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/wodet_meld.pdf">The Case For Merging Execution- and Language-level Determinism with MELD</a></span>
+<span class="abbrevplace">  [WoDET 2012]</span>
+<br/>
+<span class="fulldetails">
+        Joseph Devietti, Dan Grossman, Luis Ceze.<br/>
+        3rd Workshop on Determinism and Correctness in Parallel Programming, 
+        London, United Kingdon,
+        March, 2012.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/SIGCSE2012.pdf">Introducing Parallelism and Concurrency in the Data Structures Course</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/2157136.2157285">Introducing Parallelism and Concurrency in the Data Structures Course</a></span>
+<span class="abbrevplace">  [SIGCSE 2012]</span>
+<br/>
+<span class="fulldetails">
+        Dan Grossman, Ruth E. Anderson.<br/>
+        43rd SIGCSE Technical Symposium on Computer Science Education, 
+        Raleigh, NC,
+        March, 2012.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/tldi12.pdf">Static Lock Capabilities for Deadlock Freedom</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/2103786.2103796">Static Lock Capabilities for Deadlock Freedom</a></span>
+<span class="abbrevplace">  [TLDI 2012]</span>
+<br/>
+<span class="fulldetails">
+        Colin S. Gordon, Michael D. Ernst, Dan Grossman.<br/>
+        ACM SIGPLAN Workshop on Types in Language Design and Implementation, 
+        Philadelphia, PA,
+        January, 2012.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/Enerj-pldi2011.pdf">EnerJ: Approximate Data Types for Safe and General Low-Power Computation</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1993498.1993518">EnerJ: Approximate Data Types for Safe and General Low-Power Computation</a></span>
+<span class="abbrevplace">  [PLDI 2011]</span>
+<br/>
+<span class="fulldetails">
+        Adrian Sampson, Werner Dietl, Emily Fortuna, Danushen Gnanapragasam, Luis Ceze, Dan Grossman.<br/>
+        ACM Conference on Programming Language Design and Implementation, 
+        San Jose, CA,
+        June, 2011.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/mspc2011.pdf">Data-Race Exceptions Have Benefits Beyond the Memory Model</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1988915.1988923">Data-Race Exceptions Have Benefits Beyond the Memory Model</a></span>
+<span class="abbrevplace">  [MSPC 2011]</span>
+<br/>
+<span class="fulldetails">
+        Benjamin P. Wood, Luis Ceze, Dan Grossman.<br/>
+        ACM SIGPLAN Workshop on Memory Systems Performance and Correctness, 
+        San Jose, CA,
+        June, 2011.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/transact2011.pdf">Region-Based Dynamic Separation for STM Haskell</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/transact2011.pdf">Region-Based Dynamic Separation for STM Haskell</a></span>
+<span class="abbrevplace">  [TRANSACT 2011]</span>
+<br/>
+<span class="fulldetails">
+        Laura Effinger-Dean, Dan Grossman.<br/>
+        ACM SIGPLAN Workshop on Transactional Computing, 
+        San Jose, CA,
+        June, 2011.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/sci708s-morton.pdf">The Case for Being Lazy: How to Leverage Lazy Evaluation in MapReduce</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1996109.1996111">The Case for Being Lazy: How to Leverage Lazy Evaluation in MapReduce</a></span>
+<span class="abbrevplace">  [SciCloud 2011]</span>
+<br/>
+<span class="fulldetails">
+        Kristi Morton, Magdalena Balazinska, Dan Grossman, Christopher Olston.<br/>
+        ScienceCloud 2011: 2nd Workshop on Scientific Cloud Computing, 
+        San Jose, CA,
+        June, 2011.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/softxmt_hotpar2011.pdf">Crunching Large Graphs With Commodity Processors</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/softxmt_hotpar2011.pdf">Crunching Large Graphs With Commodity Processors</a></span>
+<span class="abbrevplace">  [HotPar 2011]</span>
+<br/>
+<span class="fulldetails">
+        Jacob Nelson, Brandon Myers, A. H. Hunter, Preston Briggs, Luis Ceze, Carl Ebeling, Dan Grossman, Simon Kahan, Mark Oskin.<br/>
+        3rd USENIX Workshop on Hot Topics in Parallelism, 
+        Berkeley, CA,
+        May, 2011.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/asplos11-rcdc.pdf">RCDC: A Relaxed-Consistency Deterministic Computer</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1950365.1950376">RCDC: A Relaxed-Consistency Deterministic Computer</a></span>
+<span class="abbrevplace">  [ASPLOS 2011]</span>
+<br/>
+<span class="fulldetails">
+        Joseph Devietti, Jacob Nelson, Tom Bergan, Luis Ceze and Dan Grossman.<br/>
+        16th International Conference on Architectural Support for Programming Languages and Operating Systems, 
+        pages 67–78,
+        Newport Beach, CA,
+        March, 2011.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/asf_micro2010.pdf">ASF: AMD64 Extension for Lock-free Data Structures and Transactional Memory</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/asf_micro2010.pdf">ASF: AMD64 Extension for Lock-free Data Structures and Transactional Memory</a></span>
+<span class="abbrevplace">  [MICRO 2010]</span>
+<br/>
+<span class="fulldetails">
+        Jaewoong Chung, Luke Yen, Stephan Diestelhorst, Martin Pohlack, Michael Hohmuth, David Christie, Dan Grossman.<br/>
+        International Symposium on Microarchitecture, 
+        Atlanta, GA,
+        December, 2010.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/oopsla2010jsaspects.pdf">Supporting Dynamic, Third-Party Code Customizations in JavaScript Using Aspects</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1869459.1869490">Supporting Dynamic, Third-Party Code Customizations in JavaScript Using Aspects</a></span>
+<span class="abbrevplace">  [OOPSLA 2010]</span>
+<br/>
+<span class="fulldetails">
+        Benjamin S. Lerner, Herman Venter, Dan Grossman.<br/>
+        ACM Conference on Object-Oriented Programming Systems, Languages, and Applications, 
+        pages 361–376,
+        Reno, NV,
+        October, 2010.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/oopsla2010oshajava.pdf">Composable Specifications for Structured Shared-Memory Communication</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1869459.1869473">Composable Specifications for Structured Shared-Memory Communication</a></span>
+<span class="abbrevplace">  [OOPSLA 2010]</span>
+<br/>
+<span class="fulldetails">
+        Benjamin P. Wood, Adrian Sampson, Luis Ceze, Dan Grossman.<br/>
+        ACM Conference on Object-Oriented Programming Systems, Languages, and Applications, 
+        pages 140–159,
+        Reno, NV,
+        October, 2010.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/grossmanSPAC_position2010.pdf">Ready-For-Use: 3 Weeks of Parallelism and Concurrency in a Required Second-Year Data-Structures Course</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/grossmanSPAC_position2010.pdf">Ready-For-Use: 3 Weeks of Parallelism and Concurrency in a Required Second-Year Data-Structures Course</a></span>
+<span class="abbrevplace">  [CCP 2010]</span>
+<br/>
+<span class="fulldetails">
+        Dan Grossman.<br/>
+        Workshop on Curricula for Concurrency and Parallelism, 
+        Reno, NV,
+        October, 2010.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/hotpar10-lockprediction.pdf">Lock Prediction</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/hotpar10-lockprediction.pdf">Lock Prediction</a></span>
+<span class="abbrevplace">  [HotPar 2010]</span>
+<br/>
+<span class="fulldetails">
+        Brandon Lucia, Joseph Devietti, Tom Bergan, Luis Ceze, Dan Grossman.<br/>
+        2nd USENIX Workshop on Hot Topics in Parallelism, 
+        Berkeley, CA,
+        June, 2010.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/sigmod10.pdf">ParaTimer: A Progress Indicator for MapReduce DAGs</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1807167.1807223">ParaTimer: A Progress Indicator for MapReduce DAGs</a></span>
+<span class="abbrevplace">  [SIGMOD 2010]</span>
+<br/>
+<span class="fulldetails">
+        Kristi Morton, Magdalena Balazinska, Dan Grossman.<br/>
+        ACM SIGMOD International Conference on Management of Data, 
+        pages 507–518,
+        Indianapolis, IN,
+        June, 2010.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/aplwaca2010.pdf">Language Support for Extensible Web Browsers</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1810139.1810146">Language Support for Extensible Web Browsers</a></span>
+<span class="abbrevplace">  [APLWACA 2010]</span>
+<br/>
+<span class="fulldetails">
+        Benjamin S. Lerner, Dan Grossman.<br/>
+        Workshop on Analysis and Programming Languages for
+Web Applications and Cloud Applications, 
+        Toronto, Canada,
+        June, 2010.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/asplos10-coredet.pdf">CoreDet: A Compiler and Runtime System for Deterministic Multithreaded Execution</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1736020.1736029">CoreDet: A Compiler and Runtime System for Deterministic Multithreaded Execution</a></span>
+<span class="abbrevplace">  [ASPLOS 2010]</span>
+<br/>
+<span class="fulldetails">
+        Tom Bergan, Joe Devietti, Owen Anderson, Luis Ceze, Dan Grossman.<br/>
+        15th International Conference on Architectural Support for Programming Languages and Operating Systems, 
+        pages 53–64,
+        Pittsburgh, PA,
+        March, 2010.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/ICDE10.pdf">Estimating the Progress of MapReduce Pipelines</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/ICDE10.pdf">Estimating the Progress of MapReduce Pipelines</a></span>
+<span class="abbrevplace">  [ICDE 2010]</span>
+<br/>
+<span class="fulldetails">
+        Kristi Morton, Abram Friesen, Magdalena Balazinska, and Dan Grossman.<br/>
+        26th IEEE International Conference on Data Engineering, 
+        pages 681–684,
+        Long Beach, CA,
+        March, 2010.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/te_idioms.pdf">Programming Idioms for Transactional Events</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/te_idioms.pdf">Programming Idioms for Transactional Events</a></span>
+<span class="abbrevplace">  [PLACES 2009]</span>
+<br/>
+<span class="fulldetails">
+        Matthew Kehrt, Laura Effinger-Dean, Michael Schmitz, Dan Grossman.<br/>
+        Workshop on Programming Language Approaches to Concurrency and Communication-Centric Software, 
+        York, United Kingdom,
+        March, 2009.
+        <br/><i>Published in Electronic Proceedings in Theoretical Computer Science, Volume 17, 2010, pages 43–48, doi 10.4204/EPTCS.17.4</i>
+</span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/teml.pdf">Transactional Events for ML</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1411204.1411222">Transactional Events for ML</a></span>
+<span class="abbrevplace">  [ICFP 2008]</span>
+<br/>
+<span class="fulldetails">
+        Laura Effinger-Dean, Matthew Kehrt, Dan Grossman.<br/>
+        13th ACM International Conference on Functional Programming, 
+        pages 103–114,
+        Victoria, Canada,
+        September, 2008.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/nita-cc08.pdf">Automatic Transformation of Bit-Level C Code to Support Multiple Equivalent Data Layouts</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/nita-cc08.pdf">Automatic Transformation of Bit-Level C Code to Support Multiple Equivalent Data Layouts</a></span>
+<span class="abbrevplace">  [CC 2008]</span>
+<br/>
+<span class="fulldetails">
+        Marius Nita, Dan Grossman.<br/>
+        International Conference on Compiler Construction, 
+        pages 85–99,
+        Budapest, Hungary,
+        March, 2008.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/tpdlls.pdf">A Theory of Platform-Dependent Low-Level Software</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1328438.1328465">A Theory of Platform-Dependent Low-Level Software</a></span>
+<span class="abbrevplace">  [POPL 2008]</span>
+<br/>
+<span class="fulldetails">
+        Marius Nita, Dan Grossman, Craig Chambers.<br/>
+        The 35th Annual ACM Symposium on Principles of Programming Languages, 
+        pages 209–220,
+        San Francisco, CA,
+        January, 2008.
+        <br/><i><a href="http://www.cs.washington.edu/homes/marius/papers/tpd/">Technical companion with full proofs</a></i>
+</span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/atomsfamily.pdf">High-Level Small-Step Operational Semantics for Transactions</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1328438.1328448">High-Level Small-Step Operational Semantics for Transactions</a></span>
+<span class="abbrevplace">  [POPL 2008]</span>
+<br/>
+<span class="fulldetails">
+        Katherine F. Moore, Dan Grossman.<br/>
+        The 35th Annual ACM Symposium on Principles of Programming Languages, 
+        pages 51–62,
+        San Francisco, CA,
+        January, 2008.
+        <br/><i><a href="../papers/atomsfamily_proofs.pdf">Technical
+companion with full proofs</a><br/> Note: An earlier version was presented at the <a href="http://www.cs.rochester.edu/meetings/TRANSACT07/">2nd ACM
+SIGPLAN Workshop on Transactional Computing</a>, August 2007.</i>
+</span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/analogy_oopsla07.pdf">The Transactional Memory / Garbage Collection Analogy</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1297027.1297080">The Transactional Memory / Garbage Collection Analogy</a></span>
+<span class="abbrevplace">  [OOPSLA 2007]</span>
+<br/>
+<span class="fulldetails">
+        Dan Grossman.<br/>
+        ACM Conference on Object-Oriented Programming Systems, Languages, and Applications (Essays Track), 
+        pages 695–706,
+        Montreal, Canada,
+        October, 2007.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/transactions_continuations.pdf">Software Transactions Meet First-Class Continuations</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/transactions_continuations.pdf">Software Transactions Meet First-Class Continuations</a></span>
+<span class="abbrevplace">  [SCHEME 2007]</span>
+<br/>
+<span class="fulldetails">
+        Aaron Kimball, Dan Grossman.<br/>
+        8th Annual Workshop on Scheme and Functional Programming, 
+        pages 47–58,
+        Freiburg, Germany,
+        September, 2007.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/seminal_pldi07.pdf">Searching for Type-Error Messages</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1250734.1250783">Searching for Type-Error Messages</a></span>
+<span class="abbrevplace">  [PLDI 2007]</span>
+<br/>
+<span class="fulldetails">
+        Benjamin Lerner, Matthew Flower, Dan Grossman, Craig Chambers.<br/>
+        ACM Conference on Programming Language Design and Implementation, 
+        pages 425–434,
+        San Diego, CA,
+        June, 2007.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/tm_pldi07.pdf">Enforcing Isolation and Ordering in STM</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1250734.1250744">Enforcing Isolation and Ordering in STM</a></span>
+<span class="abbrevplace">  [PLDI 2007]</span>
+<br/>
+<span class="fulldetails">
+        Tatiana Shpeisman, Vijay Menon, Ali-Reza Adl-Tabatabai, Steve Balensiefer, Dan Grossman, Richard Hudson, Katherine F. Moore, Bratin Saha.<br/>
+        ACM Conference on Programming Language Design and Implementation, 
+        pages 78–88,
+        San Diego, CA,
+        June, 2007.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/matching_icse07.pdf">Automatically Inferring Structural Changes for Matching Across Program Versions</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/matching_icse07.pdf">Automatically Inferring Structural Changes for Matching Across Program Versions</a></span>
+<span class="abbrevplace">  [ICSE 2007]</span>
+<br/>
+<span class="fulldetails">
+        Miryung Kim, David Notkin, Dan Grossman.<br/>
+        29th International Conference on Software Engineering, 
+        pages 333–343,
+        Minneapolis, MN,
+        May, 2007.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/atomjava_mspc.pdf">Atomicity via Source-to-Source Translation</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1178597.1178611">Atomicity via Source-to-Source Translation</a></span>
+<span class="abbrevplace">  [MSPC 2006]</span>
+<br/>
+<span class="fulldetails">
+        Benjamin Hindman, Dan Grossman.<br/>
+        ACM SIGPLAN Workshop on Memory Systems Performance and Correctness, 
+        pages 82–91,
+        San Jose, CA,
+        October, 2006.
+        <br/><i>Extended description: <a href="http://homes.cs.washington.edu/~djg/papers/atomjava_tr_may06.pdf">UW-CSE Technical Report 2006-05-01</a>, May 2006</i>
+</span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/memmodel_mspc06.pdf">What Do High-Level Memory Models Mean for Transactions?</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1178597.1178609">What Do High-Level Memory Models Mean for Transactions?</a></span>
+<span class="abbrevplace">  [MSPC 2006]</span>
+<br/>
+<span class="fulldetails">
+        Dan Grossman, Jeremy Manson, William Pugh.<br/>
+        ACM SIGPLAN Workshop on Memory Systems Performance and Correctness, 
+        pages 62–69,
+        San Jose, CA,
+        October, 2006.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/cyclone_scp.pdf">Safe Manual Memory Management in Cyclone</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/cyclone_scp.pdf">Safe Manual Memory Management in Cyclone</a></span>
+<span class="abbrevplace">  [SCP 2006]</span>
+<br/>
+<span class="fulldetails">
+        Nikhil Swamy, Michael Hicks, Greg Morrisett, Dan Grossman, Trevor Jim.<br/>
+        Science of Computer Programming, 62(2), 
+        pages 122–144,
+        October, 2006.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/seminal_ml06.pdf">Seminal: Searching for ML Type-Error Messages</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1159876.1159887">Seminal: Searching for ML Type-Error Messages</a></span>
+<span class="abbrevplace">  [ML 2006]</span>
+<br/>
+<span class="fulldetails">
+        Benjamin Lerner, Dan Grossman, Craig Chambers.<br/>
+        ACM SIGPLAN Workshop on ML, 
+        pages 63–73,
+        Portland, OR,
+        September, 2006.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/qtil.pdf">Quantified Types in an Imperative Language</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1133651.1133653">Quantified Types in an Imperative Language</a></span>
+<span class="abbrevplace">  [TOPLAS 2006]</span>
+<br/>
+<span class="fulldetails">
+        Dan Grossman.<br/>
+        ACM Transactions on Programming Languages and Systems, 28(3), 
+        pages 429–475,
+        May, 2006.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/format_string.pdf">Preventing Format-String Attacks via Automatic and Efficient Dynamic Checking</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/102120.1102166">Preventing Format-String Attacks via Automatic and Efficient Dynamic Checking</a></span>
+<span class="abbrevplace">  [CCS 2005]</span>
+<br/>
+<span class="fulldetails">
+        Michael F. Ringenburg, Dan Grossman.<br/>
+        12th ACM Conference on Computer and Communications Security, 
+        pages 354–363,
+        Alexandria, VA,
+        November, 2005.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/atomcaml_icfp.pdf">AtomCaml: First-Class Atomicity via Rollback</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1086365.1086378">AtomCaml: First-Class Atomicity via Rollback</a></span>
+<span class="abbrevplace">  [ICFP 2005]</span>
+<br/>
+<span class="fulldetails">
+        Michael F. Ringenburg, Dan Grossman.<br/>
+        10th ACM International Conference on Functional Programming, 
+        pages 92–104,
+        Tallinn, Estonia,
+        September, 2005.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/coordinated_tldi05.pdf">Types for Describing Coordinated Data Structures</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1040294.1040297">Types for Describing Coordinated Data Structures</a></span>
+<span class="abbrevplace">  [TLDI 2005]</span>
+<br/>
+<span class="fulldetails">
+        Michael F. Ringenburg, Dan Grossman.<br/>
+        ACM SIGPLAN Workshop on Types in Language Design and Implementation, 
+        pages 25–36,
+        Long Beach, CA,
+        January, 2005.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/cyclone-cuj.pdf">Cyclone: a Type-safe Dialect of C</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/cyclone-cuj.pdf">Cyclone: a Type-safe Dialect of C</a></span>
+<span class="abbrevplace">  [C/C++ Users Journal 2005]</span>
+<br/>
+<span class="fulldetails">
+        Dan Grossman, Michael Hicks, Greg Morrisett, Trevor Jim.<br/>
+        C/C++ Users Journal, 23(1), 
+        January, 2005.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/cyclone_ismm04.pdf">Experience With Safe Manual Memory-Management in Cyclone</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1029873.1029883">Experience With Safe Manual Memory-Management in Cyclone</a></span>
+<span class="abbrevplace">  [ISMM 2004]</span>
+<br/>
+<span class="fulldetails">
+        Michael Hicks, Greg Morrisett, Dan Grossman, Trevor Jim.<br/>
+        4th International Symposium on Memory Management, 
+        pages 73–84,
+        Vancouver, Canada,
+        October, 2004.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/grossman_thesis.pdf">Safe Programming at the C Level of Abstraction</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/grossman_thesis.pdf">Safe Programming at the C Level of Abstraction</a></span>
+<span class="abbrevplace">  [PhD thesis 2003]</span>
+<br/>
+<span class="fulldetails">
+        Dan Grossman.<br/>
+        PhD thesis, Cornell University, 
+        August, 2003.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/compile_rtcg.pdf">Compiling for Template-Based Run-Time Code Generation</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/compile_rtcg.pdf">Compiling for Template-Based Run-Time Code Generation</a></span>
+<span class="abbrevplace">  [JFP 2003]</span>
+<br/>
+<span class="fulldetails">
+        Frederick Smith, Dan Grossman, Greg Morrisett, Luke Hornof, Trevor Jim.<br/>
+        Journal of Functional Programming, 13(3), 
+        pages 677–708,
+        May, 2003.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/cycthreads.pdf">Type-Safe Multithreading in Cyclone</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/604174.604177">Type-Safe Multithreading in Cyclone</a></span>
+<span class="abbrevplace">  [TLDI 2003]</span>
+<br/>
+<span class="fulldetails">
+        Dan Grossman.<br/>
+        ACM SIGPLAN Workshop on Types in Language Design and Implementation, 
+        pages 13–25,
+        New Orleans, LA,
+        January, 2003.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/cyclone_regions.pdf">Region-Based Memory Management in Cyclone</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/512529.512563">Region-Based Memory Management in Cyclone</a></span>
+<span class="abbrevplace">  [PLDI 2002]</span>
+<br/>
+<span class="fulldetails">
+        Dan Grossman, Greg Morrisett, Trevor Jim, Michael Hicks, Yanling Wang, James Cheney.<br/>
+        ACM Conference on Programming Language Design and Implementation, 
+        pages 282–293,
+        Berlin, Germany,
+        June, 2002.
+        <br/><i>Associated Technical Report: <a href="http://homes.cs.washington.edu/~djg/papers/cyclone_regions_tr.pdf">Cornell CS Technical Report 2001-1856</a></i>
+</span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/cyclone.pdf">Cyclone: A Safe Dialect of C</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/cyclone.pdf">Cyclone: A Safe Dialect of C</a></span>
+<span class="abbrevplace">  [USENIX 2002]</span>
+<br/>
+<span class="fulldetails">
+        Trevor Jim, Greg Morrisett, Dan Grossman, Michael Hicks, James Cheney, Yanling Wang.<br/>
+        USENIX Annual Technical Conference, 
+        pages 275–288,
+        Monterey, CA,
+        June, 2002.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/exists_imp.pdf">Existential Types for Imperative Languages</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/exists_imp.pdf">Existential Types for Imperative Languages</a></span>
+<span class="abbrevplace">  [ESOP 2002]</span>
+<br/>
+<span class="fulldetails">
+        Dan Grossman.<br/>
+        11th European Symposium on Programming, volume 2305 of Lecture Notes in Computer Science, 
+        pages 21–35,
+        Grenoble, France,
+        April, 2002.
+        <br/><i>Associated Technical Report: <a href="http://homes.cs.washington.edu/~djg/papers/exists_imp_tr.pdf">Cornell CS Technical Report 2001-1854</a></i>
+</span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/syntactic_abs.pdf">Syntactic Type Abstraction</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/371880.371887">Syntactic Type Abstraction</a></span>
+<span class="abbrevplace">  [TOPLAS 2000]</span>
+<br/>
+<span class="fulldetails">
+        Dan Grossman, Greg Morrisett, Steve Zdancewic.<br/>
+        ACM Transactions on Programming Languages and Systems, 22(6), 
+        pages 1037–1080,
+        November, 2000.
+        <br/><i>This work extends, "Principals in Programming Languages:  A Syntactic Proof Technique."</i>
+</span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/tal_scale.pdf">Scalable Certification for Typed Assembly Language</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/tal_scale.pdf">Scalable Certification for Typed Assembly Language</a></span>
+<span class="abbrevplace">  [TIC 2000]</span>
+<br/>
+<span class="fulldetails">
+        Dan Grossman, Greg Morrisett.<br/>
+        3rd International Workshop on Types in Compilation, volume 2071 of Lecture Notes in Computer Science, 
+        pages 117–145,
+        Montreal, Canada,
+        September, 2000.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/pipl.pdf">Principals in Programming Languages: A Syntactic Proof Technique</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/317636.317799">Principals in Programming Languages: A Syntactic Proof Technique</a></span>
+<span class="abbrevplace">  [ICFP 1999]</span>
+<br/>
+<span class="fulldetails">
+        Steve Zdancewic, Dan Grossman, Greg Morrisett.<br/>
+        4th ACM International Conference on Functional Programming, 
+        pages 197–207,
+        Paris, France,
+        September, 1999.
+        <br/><i>"Syntactic Type Abstraction" is a revised and extended version.</i>
+</span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/talx86-wcsss.pdf">TALx86: A Realistic Typed Assembly Language</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/talx86-wcsss.pdf">TALx86: A Realistic Typed Assembly Language</a></span>
+<span class="abbrevplace">  [WCSSS 1999]</span>
+<br/>
+<span class="fulldetails">
+        Greg Morrisett, Karl Crary, Neal Glew, Dan Grossman, Richard Samuels, Frederick Smith, David Walker, Stephanie Weirich, Steve Zdancewic.<br/>
+        Workshop on Compiler Support for System Software, 
+        pages 25–35,
+        Atlanta, Georgia,
+        May, 1999.
+        <br/><i>Published as INRIA Technical Report 0288</i>
+</span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/jduck.pdf">JDuck: Building a Software Engineering Tool in Java as a CS2 Project</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/299649.299676">JDuck: Building a Software Engineering Tool in Java as a CS2 Project</a></span>
+<span class="abbrevplace">  [SIGCSE 1999]</span>
+<br/>
+<span class="fulldetails">
+        Michael Godfrey, Dan Grossman.<br/>
+        30th SIGCSE Technical Symposium on Computer Science Education, 
+        pages 48–52,
+        New Orleans, LA,
+        March, 1999.
+      </span>
+</li>
+</ul>
+</div>
+<div class="papers bycategory" id="sorted_papers">
+<h2>Highly Selective Conference Publications</h2>
+<ul>
+<li>
+<span class="papertitle localhref">Synthesizing Structured CAD Models with Equality Saturation and Inverse Transformations</span>
+<span class="papertitle acmhref">Synthesizing Structured CAD Models with Equality Saturation and Inverse Transformations</span>
+<span class="abbrevplace">  [PLDI 2020]</span>
+<br/>
+<span class="fulldetails">
+        Chandrakana Nandi, Max Willsey, Adam Anderson, James R. Wilcox, Eva Darulova, Dan Grossman, Zachary Tatlock.<br/>
+        ACM Conference on Programming Language Design and Implementation, 
+        London, UK,
+        June, 2020.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/itp19.pdf">Ornaments for Proof Reuse in Coq</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/itp19.pdf">Ornaments for Proof Reuse in Coq</a></span>
+<span class="abbrevplace">  [ITP 2019]</span>
+<br/>
+<span class="fulldetails">
+        Talia Ringer, Nathaniel Yazdani, John Leo, Dan Grossman.<br/>
+        Tenth International Conference on Interactive Theorem Proving, 
+        Portland, OR,
+        September, 2019.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/popl19.pdf">Concerto: A Framework for Combined Concrete and Abstract Interpretation</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/3290356">Concerto: A Framework for Combined Concrete and Abstract Interpretation</a></span>
+<span class="abbrevplace">  [POPL 2019]</span>
+<br/>
+<span class="fulldetails">
+        John Toman, Dan Grossman.<br/>
+        ACM Symposium on Principles of Programming Languages, 
+        Lisbon, Portugal,
+        January, 2019.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/icfp18.pdf">Functional Programming for Compiling and Decompiling Computer-Aided Design</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/3236794">Functional Programming for Compiling and Decompiling Computer-Aided Design</a></span>
+<span class="abbrevplace">  [ICFP 2018]</span>
+<br/>
+<span class="fulldetails">
+        Chandrakana Nandi, James R. Wilcox, Pavel Panchekha, Taylor Blau, Dan Grossman, Zachary Tatlock.<br/>
+        23rd International Conference on Functional Programming, 
+        St. Louis, MO,
+        September, 2018.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/ecoop18.pdf">Legato: An At-Most-Once Analysis with Applications to Dynamic Configuration Updates</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/ecoop18.pdf">Legato: An At-Most-Once Analysis with Applications to Dynamic Configuration Updates</a></span>
+<span class="abbrevplace">  [ECOOP 2018]</span>
+<br/>
+<span class="fulldetails">
+        John Toman, Dan Grossman.<br/>
+        European Conference on Object-Oriented Programming, 
+        Amsterdman, Netherlands,
+        June, 2018.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/iorekpaper.pdf">A Solver-Aided Language for Test Input Generation</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/iorekpaper.pdf">A Solver-Aided Language for Test Input Generation</a></span>
+<span class="abbrevplace">  [OOPSLA 2017]</span>
+<br/>
+<span class="fulldetails">
+        Talia Ringer, Dan Grossman, Daniel Schwartz-Narbonne, Serdar Tasiran.<br/>
+        ACM Conference on Object-Oriented Programming Systems, Languages, and Applications, 
+        Vancouver, Canada,
+        October, 2017.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/fibpaper.pdf">Instrumentation Bias for Dynamic Data Race Detection</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/fibpaper.pdf">Instrumentation Bias for Dynamic Data Race Detection</a></span>
+<span class="abbrevplace">  [OOPSLA 2017]</span>
+<br/>
+<span class="fulldetails">
+        Benjamin P. Wood, Man Cao, Michael D. Bond, Dan Grossman.<br/>
+        ACM Conference on Object-Oriented Programming Systems, Languages, and Applications, 
+        Vancouver, Canada,
+        October, 2017.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/ccs2016.pdf">AUDACIOUS: User-Driven Access Control with Unmodified Operating Systems</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/ccs2016.pdf">AUDACIOUS: User-Driven Access Control with Unmodified Operating Systems</a></span>
+<span class="abbrevplace">  [CCS 2016]</span>
+<br/>
+<span class="fulldetails">
+        Talia Ringer, Dan Grossman, Franziska Roesner.<br/>
+        23rd ACM Conference on Computer and Communications Security, 
+        Vienna, Austria,
+        October, 2016.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/ecoop2016.pdf">Staccato: A Bug-Finder for Dynamic Configuration Updates</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/ecoop2016.pdf">Staccato: A Bug-Finder for Dynamic Configuration Updates</a></span>
+<span class="abbrevplace">  [ECOOP 2016]</span>
+<br/>
+<span class="fulldetails">
+        John Toman, Dan Grossman.<br/>
+        European Conference on Object-Oriented Programming, 
+        Rome, Italy,
+        July, 2016.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/pldi2016.pdf">Verified Peephole Optimizations for CompCert</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/pldi2016.pdf">Verified Peephole Optimizations for CompCert</a></span>
+<span class="abbrevplace">  [PLDI 2016]</span>
+<br/>
+<span class="fulldetails">
+        Eric Mullen, Daryl Zuniga, Zachary Tatlock, Dan Grossman.<br/>
+        ACM Conference on Programming Language Design and Implementation, 
+        Santa Barbara, CA,
+        June, 2016.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/popl16.pdf">Optimizing Synthesis with Metasketches</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/2837614.2837666">Optimizing Synthesis with Metasketches</a></span>
+<span class="abbrevplace">  [POPL 2016]</span>
+<br/>
+<span class="fulldetails">
+        James Bornholt, Emina Torlak, Dan Grossman, Luis Ceze.<br/>
+        ACM Symposium on Principles of Programming Languages, 
+        St. Petersburg, FL,
+        January, 2016.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/oopsla2015.pdf">Probability Type Inference for Flexible Approximate Programming</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/oopsla2015.pdf">Probability Type Inference for Flexible Approximate Programming</a></span>
+<span class="abbrevplace">  [OOPSLA 2015]</span>
+<br/>
+<span class="fulldetails">
+        Brett Boston, Adrian Sampson, Dan Grossman, Luis Ceze.<br/>
+        ACM Conference on Object-Oriented Programming Systems, Languages, and Applications, 
+        Pittsburgh, PA,
+        October, 2015.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/asplos15.pdf">Monitoring and Debugging the Quality of Results in Approximate Programs</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/asplos15.pdf">Monitoring and Debugging the Quality of Results in Approximate Programs</a></span>
+<span class="abbrevplace">  [ASPLOS 2015]</span>
+<br/>
+<span class="fulldetails">
+        Michael F. Ringenburg, Adrian Sampson, Isaac Ackerman, Luis Ceze, Dan Grossman.<br/>
+        20th International Conference on Architectural Support for Programming Languages and Operating Systems, 
+        Istanbul, Turkey,
+        March, 2015.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/oopsla2014.pdf">Symbolic Execution of Multithreaded Programs from Arbitrary Program Contexts</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/2714064.2660200">Symbolic Execution of Multithreaded Programs from Arbitrary Program Contexts</a></span>
+<span class="abbrevplace">  [OOPSLA 2014]</span>
+<br/>
+<span class="fulldetails">
+        Tom Bergan, Dan Grossman, Luis Ceze.<br/>
+        ACM Conference on Object-Oriented Programming Systems, Languages, and Applications, 
+        Portland, OR,
+        October, 2014.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/passert-pldi2014.pdf">Expressing and Verifying Probabilistic Assertions</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/2594291.2594294">Expressing and Verifying Probabilistic Assertions</a></span>
+<span class="abbrevplace">  [PLDI 2014]</span>
+<br/>
+<span class="fulldetails">
+        Adrian Sampson, Pavel Panchekha, Todd Mytkowicz, Kathryn S. McKinley, Dan Grossman, Luis Ceze.<br/>
+        ACM Conference on Programming Language Design and Implementation, 
+        Edinburgh, Scotland,
+        June, 2014.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/tds-pldi2014.pdf">Test-Driven Synthesis</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/2594291.2594297">Test-Driven Synthesis</a></span>
+<span class="abbrevplace">  [PLDI 2014]</span>
+<br/>
+<span class="fulldetails">
+        Daniel Perelman, Sumit Gulwani, Dan Grossman, Peter Provost.<br/>
+        ACM Conference on Programming Language Design and Implementation, 
+        Edinburgh, Scotland,
+        June, 2014.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/asplos14.pdf">Low-Level Detection of Language-Level Data Races with LARD</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/2654822.2541955">Low-Level Detection of Language-Level Data Races with LARD</a></span>
+<span class="abbrevplace">  [ASPLOS 2014]</span>
+<br/>
+<span class="fulldetails">
+        Benjamin P. Wood, Luis Ceze, Dan Grossman.<br/>
+        19th International Conference on Architectural Support for Programming Languages and Operating Systems, 
+        Salt Lake City, UT,
+        March, 2014.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/oopsla13-ics.pdf">Input-Covering Schedules for Multithreaded Programs</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/2509136.2509508">Input-Covering Schedules for Multithreaded Programs</a></span>
+<span class="abbrevplace">  [OOPSLA 2013]</span>
+<br/>
+<span class="fulldetails">
+        Tom Bergan, Luis Ceze, Dan Grossman.<br/>
+        ACM Conference on Object-Oriented Programming Systems, Languages, and Applications, 
+        Indianapolis, IN,
+        October, 2013.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/ecoop13.pdf">JavaUI: Effects for Controlling UI Object Access</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/ecoop13.pdf">JavaUI: Effects for Controlling UI Object Access</a></span>
+<span class="abbrevplace">  [ECOOP 2013]</span>
+<br/>
+<span class="fulldetails">
+        Colin S. Gordon, Werner M. Dietl, Michael D. Ernst, Dan Grossman.<br/>
+        European Conference on Object-Oriented Programming, 
+        Montpellier, France,
+        July, 2013.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/pldi13.pdf">Rely-Guarantee References for Refinement Types over Aliased Mutable Data</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/2462156.2462160">Rely-Guarantee References for Refinement Types over Aliased Mutable Data</a></span>
+<span class="abbrevplace">  [PLDI 2013]</span>
+<br/>
+<span class="fulldetails">
+        Colin S. Gordon, Michael D. Ernst, Dan Grossman.<br/>
+        ACM Conference on Programming Language Design and Implementation, 
+        Seattle, WA,
+        June, 2013.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/oopsla12-ifrit.pdf">IFRit: Interference-Free Regions for Dynamic Data-Race Detection</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/2384616.2384650">IFRit: Interference-Free Regions for Dynamic Data-Race Detection</a></span>
+<span class="abbrevplace">  [OOPSLA 2012]</span>
+<br/>
+<span class="fulldetails">
+        Laura Effinger-Dean, Brandon Lucia, Luis Ceze, Dan Grossman, Hans-J. Boehm.<br/>
+        ACM Conference on Object-Oriented Programming Systems, Languages, and Applications, 
+        Tucson, AZ,
+        October, 2012.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/radish_isca_2012.pdf">RADISH: Always-On Sound and Complete Race Detection in Software and Hardware</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/2366231.2337182">RADISH: Always-On Sound and Complete Race Detection in Software and Hardware</a></span>
+<span class="abbrevplace">  [ISCA 2012]</span>
+<br/>
+<span class="fulldetails">
+        Joseph Devietti, Benjamin P. Wood, Karin Strauss, Luis Ceze, Dan Grossman, Shaz Qadeer.<br/>
+        39th International Symposium on Computer Architecture, 
+        Portland, OR,
+        June, 2012.
+        <br/><i>Technical report with proofs: <a href="http://homes.cs.washington.edu/~djg/papers/UW-CSE-12-04-01.pdf">UW-CSE Technical Report 2012-04-01</a>, April 2012</i>
+</span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/pldi12.pdf">Type-Directed Completion of Partial Expressions</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/2254064.2254098">Type-Directed Completion of Partial Expressions</a></span>
+<span class="abbrevplace">  [PLDI 2012]</span>
+<br/>
+<span class="fulldetails">
+        Daniel Perelman, Sumit Gulwani, Thomas Ball, Dan Grossman.<br/>
+        ACM Conference on Programming Language Design and Implementation, 
+        Beijing, China,
+        June, 2012.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/Enerj-pldi2011.pdf">EnerJ: Approximate Data Types for Safe and General Low-Power Computation</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1993498.1993518">EnerJ: Approximate Data Types for Safe and General Low-Power Computation</a></span>
+<span class="abbrevplace">  [PLDI 2011]</span>
+<br/>
+<span class="fulldetails">
+        Adrian Sampson, Werner Dietl, Emily Fortuna, Danushen Gnanapragasam, Luis Ceze, Dan Grossman.<br/>
+        ACM Conference on Programming Language Design and Implementation, 
+        San Jose, CA,
+        June, 2011.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/asplos11-rcdc.pdf">RCDC: A Relaxed-Consistency Deterministic Computer</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1950365.1950376">RCDC: A Relaxed-Consistency Deterministic Computer</a></span>
+<span class="abbrevplace">  [ASPLOS 2011]</span>
+<br/>
+<span class="fulldetails">
+        Joseph Devietti, Jacob Nelson, Tom Bergan, Luis Ceze and Dan Grossman.<br/>
+        16th International Conference on Architectural Support for Programming Languages and Operating Systems, 
+        pages 67–78,
+        Newport Beach, CA,
+        March, 2011.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/asf_micro2010.pdf">ASF: AMD64 Extension for Lock-free Data Structures and Transactional Memory</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/asf_micro2010.pdf">ASF: AMD64 Extension for Lock-free Data Structures and Transactional Memory</a></span>
+<span class="abbrevplace">  [MICRO 2010]</span>
+<br/>
+<span class="fulldetails">
+        Jaewoong Chung, Luke Yen, Stephan Diestelhorst, Martin Pohlack, Michael Hohmuth, David Christie, Dan Grossman.<br/>
+        International Symposium on Microarchitecture, 
+        Atlanta, GA,
+        December, 2010.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/oopsla2010oshajava.pdf">Composable Specifications for Structured Shared-Memory Communication</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1869459.1869473">Composable Specifications for Structured Shared-Memory Communication</a></span>
+<span class="abbrevplace">  [OOPSLA 2010]</span>
+<br/>
+<span class="fulldetails">
+        Benjamin P. Wood, Adrian Sampson, Luis Ceze, Dan Grossman.<br/>
+        ACM Conference on Object-Oriented Programming Systems, Languages, and Applications, 
+        pages 140–159,
+        Reno, NV,
+        October, 2010.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/oopsla2010jsaspects.pdf">Supporting Dynamic, Third-Party Code Customizations in JavaScript Using Aspects</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1869459.1869490">Supporting Dynamic, Third-Party Code Customizations in JavaScript Using Aspects</a></span>
+<span class="abbrevplace">  [OOPSLA 2010]</span>
+<br/>
+<span class="fulldetails">
+        Benjamin S. Lerner, Herman Venter, Dan Grossman.<br/>
+        ACM Conference on Object-Oriented Programming Systems, Languages, and Applications, 
+        pages 361–376,
+        Reno, NV,
+        October, 2010.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/sigmod10.pdf">ParaTimer: A Progress Indicator for MapReduce DAGs</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1807167.1807223">ParaTimer: A Progress Indicator for MapReduce DAGs</a></span>
+<span class="abbrevplace">  [SIGMOD 2010]</span>
+<br/>
+<span class="fulldetails">
+        Kristi Morton, Magdalena Balazinska, Dan Grossman.<br/>
+        ACM SIGMOD International Conference on Management of Data, 
+        pages 507–518,
+        Indianapolis, IN,
+        June, 2010.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/asplos10-coredet.pdf">CoreDet: A Compiler and Runtime System for Deterministic Multithreaded Execution</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1736020.1736029">CoreDet: A Compiler and Runtime System for Deterministic Multithreaded Execution</a></span>
+<span class="abbrevplace">  [ASPLOS 2010]</span>
+<br/>
+<span class="fulldetails">
+        Tom Bergan, Joe Devietti, Owen Anderson, Luis Ceze, Dan Grossman.<br/>
+        15th International Conference on Architectural Support for Programming Languages and Operating Systems, 
+        pages 53–64,
+        Pittsburgh, PA,
+        March, 2010.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/ICDE10.pdf">Estimating the Progress of MapReduce Pipelines</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/ICDE10.pdf">Estimating the Progress of MapReduce Pipelines</a></span>
+<span class="abbrevplace">  [ICDE 2010]</span>
+<br/>
+<span class="fulldetails">
+        Kristi Morton, Abram Friesen, Magdalena Balazinska, and Dan Grossman.<br/>
+        26th IEEE International Conference on Data Engineering, 
+        pages 681–684,
+        Long Beach, CA,
+        March, 2010.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/teml.pdf">Transactional Events for ML</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1411204.1411222">Transactional Events for ML</a></span>
+<span class="abbrevplace">  [ICFP 2008]</span>
+<br/>
+<span class="fulldetails">
+        Laura Effinger-Dean, Matthew Kehrt, Dan Grossman.<br/>
+        13th ACM International Conference on Functional Programming, 
+        pages 103–114,
+        Victoria, Canada,
+        September, 2008.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/nita-cc08.pdf">Automatic Transformation of Bit-Level C Code to Support Multiple Equivalent Data Layouts</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/nita-cc08.pdf">Automatic Transformation of Bit-Level C Code to Support Multiple Equivalent Data Layouts</a></span>
+<span class="abbrevplace">  [CC 2008]</span>
+<br/>
+<span class="fulldetails">
+        Marius Nita, Dan Grossman.<br/>
+        International Conference on Compiler Construction, 
+        pages 85–99,
+        Budapest, Hungary,
+        March, 2008.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/atomsfamily.pdf">High-Level Small-Step Operational Semantics for Transactions</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1328438.1328448">High-Level Small-Step Operational Semantics for Transactions</a></span>
+<span class="abbrevplace">  [POPL 2008]</span>
+<br/>
+<span class="fulldetails">
+        Katherine F. Moore, Dan Grossman.<br/>
+        The 35th Annual ACM Symposium on Principles of Programming Languages, 
+        pages 51–62,
+        San Francisco, CA,
+        January, 2008.
+        <br/><i><a href="../papers/atomsfamily_proofs.pdf">Technical
+companion with full proofs</a><br/> Note: An earlier version was presented at the <a href="http://www.cs.rochester.edu/meetings/TRANSACT07/">2nd ACM
+SIGPLAN Workshop on Transactional Computing</a>, August 2007.</i>
+</span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/tpdlls.pdf">A Theory of Platform-Dependent Low-Level Software</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1328438.1328465">A Theory of Platform-Dependent Low-Level Software</a></span>
+<span class="abbrevplace">  [POPL 2008]</span>
+<br/>
+<span class="fulldetails">
+        Marius Nita, Dan Grossman, Craig Chambers.<br/>
+        The 35th Annual ACM Symposium on Principles of Programming Languages, 
+        pages 209–220,
+        San Francisco, CA,
+        January, 2008.
+        <br/><i><a href="http://www.cs.washington.edu/homes/marius/papers/tpd/">Technical companion with full proofs</a></i>
+</span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/analogy_oopsla07.pdf">The Transactional Memory / Garbage Collection Analogy</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1297027.1297080">The Transactional Memory / Garbage Collection Analogy</a></span>
+<span class="abbrevplace">  [OOPSLA 2007]</span>
+<br/>
+<span class="fulldetails">
+        Dan Grossman.<br/>
+        ACM Conference on Object-Oriented Programming Systems, Languages, and Applications (Essays Track), 
+        pages 695–706,
+        Montreal, Canada,
+        October, 2007.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/tm_pldi07.pdf">Enforcing Isolation and Ordering in STM</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1250734.1250744">Enforcing Isolation and Ordering in STM</a></span>
+<span class="abbrevplace">  [PLDI 2007]</span>
+<br/>
+<span class="fulldetails">
+        Tatiana Shpeisman, Vijay Menon, Ali-Reza Adl-Tabatabai, Steve Balensiefer, Dan Grossman, Richard Hudson, Katherine F. Moore, Bratin Saha.<br/>
+        ACM Conference on Programming Language Design and Implementation, 
+        pages 78–88,
+        San Diego, CA,
+        June, 2007.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/seminal_pldi07.pdf">Searching for Type-Error Messages</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1250734.1250783">Searching for Type-Error Messages</a></span>
+<span class="abbrevplace">  [PLDI 2007]</span>
+<br/>
+<span class="fulldetails">
+        Benjamin Lerner, Matthew Flower, Dan Grossman, Craig Chambers.<br/>
+        ACM Conference on Programming Language Design and Implementation, 
+        pages 425–434,
+        San Diego, CA,
+        June, 2007.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/matching_icse07.pdf">Automatically Inferring Structural Changes for Matching Across Program Versions</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/matching_icse07.pdf">Automatically Inferring Structural Changes for Matching Across Program Versions</a></span>
+<span class="abbrevplace">  [ICSE 2007]</span>
+<br/>
+<span class="fulldetails">
+        Miryung Kim, David Notkin, Dan Grossman.<br/>
+        29th International Conference on Software Engineering, 
+        pages 333–343,
+        Minneapolis, MN,
+        May, 2007.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/format_string.pdf">Preventing Format-String Attacks via Automatic and Efficient Dynamic Checking</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/102120.1102166">Preventing Format-String Attacks via Automatic and Efficient Dynamic Checking</a></span>
+<span class="abbrevplace">  [CCS 2005]</span>
+<br/>
+<span class="fulldetails">
+        Michael F. Ringenburg, Dan Grossman.<br/>
+        12th ACM Conference on Computer and Communications Security, 
+        pages 354–363,
+        Alexandria, VA,
+        November, 2005.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/atomcaml_icfp.pdf">AtomCaml: First-Class Atomicity via Rollback</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1086365.1086378">AtomCaml: First-Class Atomicity via Rollback</a></span>
+<span class="abbrevplace">  [ICFP 2005]</span>
+<br/>
+<span class="fulldetails">
+        Michael F. Ringenburg, Dan Grossman.<br/>
+        10th ACM International Conference on Functional Programming, 
+        pages 92–104,
+        Tallinn, Estonia,
+        September, 2005.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/cyclone_regions.pdf">Region-Based Memory Management in Cyclone</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/512529.512563">Region-Based Memory Management in Cyclone</a></span>
+<span class="abbrevplace">  [PLDI 2002]</span>
+<br/>
+<span class="fulldetails">
+        Dan Grossman, Greg Morrisett, Trevor Jim, Michael Hicks, Yanling Wang, James Cheney.<br/>
+        ACM Conference on Programming Language Design and Implementation, 
+        pages 282–293,
+        Berlin, Germany,
+        June, 2002.
+        <br/><i>Associated Technical Report: <a href="http://homes.cs.washington.edu/~djg/papers/cyclone_regions_tr.pdf">Cornell CS Technical Report 2001-1856</a></i>
+</span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/cyclone.pdf">Cyclone: A Safe Dialect of C</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/cyclone.pdf">Cyclone: A Safe Dialect of C</a></span>
+<span class="abbrevplace">  [USENIX 2002]</span>
+<br/>
+<span class="fulldetails">
+        Trevor Jim, Greg Morrisett, Dan Grossman, Michael Hicks, James Cheney, Yanling Wang.<br/>
+        USENIX Annual Technical Conference, 
+        pages 275–288,
+        Monterey, CA,
+        June, 2002.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/exists_imp.pdf">Existential Types for Imperative Languages</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/exists_imp.pdf">Existential Types for Imperative Languages</a></span>
+<span class="abbrevplace">  [ESOP 2002]</span>
+<br/>
+<span class="fulldetails">
+        Dan Grossman.<br/>
+        11th European Symposium on Programming, volume 2305 of Lecture Notes in Computer Science, 
+        pages 21–35,
+        Grenoble, France,
+        April, 2002.
+        <br/><i>Associated Technical Report: <a href="http://homes.cs.washington.edu/~djg/papers/exists_imp_tr.pdf">Cornell CS Technical Report 2001-1854</a></i>
+</span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/pipl.pdf">Principals in Programming Languages: A Syntactic Proof Technique</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/317636.317799">Principals in Programming Languages: A Syntactic Proof Technique</a></span>
+<span class="abbrevplace">  [ICFP 1999]</span>
+<br/>
+<span class="fulldetails">
+        Steve Zdancewic, Dan Grossman, Greg Morrisett.<br/>
+        4th ACM International Conference on Functional Programming, 
+        pages 197–207,
+        Paris, France,
+        September, 1999.
+        <br/><i>"Syntactic Type Abstraction" is a revised and extended version.</i>
+</span>
+</li>
+</ul>
+<h2>Journal Publications</h2>
+<ul>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/toplas17.pdf">Verifying Invariants of Lock-Free Data Structures with Rely-Guarantee and Refinement Types</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/3064850">Verifying Invariants of Lock-Free Data Structures with Rely-Guarantee and Refinement Types</a></span>
+<span class="abbrevplace">  [TOPLAS 2017]</span>
+<br/>
+<span class="fulldetails">
+        Colin S. Gordon, Michael D. Ernst, Dan Grossman, and Matthew J. Parkinson.<br/>
+        ACM Transactions on Programming Languages and Systems, 39(3), 
+        May, 2017.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6165314">Identifying and Summarizing Systematic Code Changes via Rule Inference</a></span>
+<span class="papertitle acmhref"><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6165314">Identifying and Summarizing Systematic Code Changes via Rule Inference</a></span>
+<span class="abbrevplace">  [TSE 2013]</span>
+<br/>
+<span class="fulldetails">
+        Miryung Kim, David Notkin, Dan Grossman, Gary Wilson Jr.<br/>
+        IEEE Transactions on Software Engineering 39(1), 
+        pages 45–62,
+        January, 2013.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/cyclone_scp.pdf">Safe Manual Memory Management in Cyclone</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/cyclone_scp.pdf">Safe Manual Memory Management in Cyclone</a></span>
+<span class="abbrevplace">  [SCP 2006]</span>
+<br/>
+<span class="fulldetails">
+        Nikhil Swamy, Michael Hicks, Greg Morrisett, Dan Grossman, Trevor Jim.<br/>
+        Science of Computer Programming, 62(2), 
+        pages 122–144,
+        October, 2006.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/qtil.pdf">Quantified Types in an Imperative Language</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1133651.1133653">Quantified Types in an Imperative Language</a></span>
+<span class="abbrevplace">  [TOPLAS 2006]</span>
+<br/>
+<span class="fulldetails">
+        Dan Grossman.<br/>
+        ACM Transactions on Programming Languages and Systems, 28(3), 
+        pages 429–475,
+        May, 2006.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/compile_rtcg.pdf">Compiling for Template-Based Run-Time Code Generation</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/compile_rtcg.pdf">Compiling for Template-Based Run-Time Code Generation</a></span>
+<span class="abbrevplace">  [JFP 2003]</span>
+<br/>
+<span class="fulldetails">
+        Frederick Smith, Dan Grossman, Greg Morrisett, Luke Hornof, Trevor Jim.<br/>
+        Journal of Functional Programming, 13(3), 
+        pages 677–708,
+        May, 2003.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/syntactic_abs.pdf">Syntactic Type Abstraction</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/371880.371887">Syntactic Type Abstraction</a></span>
+<span class="abbrevplace">  [TOPLAS 2000]</span>
+<br/>
+<span class="fulldetails">
+        Dan Grossman, Greg Morrisett, Steve Zdancewic.<br/>
+        ACM Transactions on Programming Languages and Systems, 22(6), 
+        pages 1037–1080,
+        November, 2000.
+        <br/><i>This work extends, "Principals in Programming Languages:  A Syntactic Proof Technique."</i>
+</span>
+</li>
+</ul>
+<h2>Other Conference and Workshop Publications</h2>
+<ul>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/cpp2020.pdf">REPLICA: REPL Instrumentation for Coq Analysis</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/cpp2020.pdf">REPLICA: REPL Instrumentation for Coq Analysis</a></span>
+<span class="abbrevplace">  [CPP 2020]</span>
+<br/>
+<span class="fulldetails">
+        Talia Ringer, Alex Sanchez-Stern, Dan Grossman, Sorin Lerner.<br/>
+        The 9th ACM SIGPLAN International Conference on Certified Programs and Proofs, 
+        New Orleans, LA,
+        January, 2020.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/conga19-zorn-sinking-point.pdf">Sinking Point: Dynamic Precision Tracking for Floating-Point</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/conga19-zorn-sinking-point.pdf">Sinking Point: Dynamic Precision Tracking for Floating-Point</a></span>
+<span class="abbrevplace">  [CoNGA 2019]</span>
+<br/>
+<span class="fulldetails">
+        Bill Zorn, Dan Grossman, Zach Tatlock.<br/>
+        Conference for Next Generation Arithmetic, 
+        Singapore,
+        March, 2019.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/oeuf2018.pdf">Œuf: Minimizing the Coq Extraction TCB</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/oeuf2018.pdf">Œuf: Minimizing the Coq Extraction TCB</a></span>
+<span class="abbrevplace">  [CPP 2018]</span>
+<br/>
+<span class="fulldetails">
+        Eric Mullen, Stuart Pernsteiner, James R. Wilcox, Zachary Tatlock, Dan Grossman.<br/>
+        The 7th ACM SIGPLAN International Conference on Certified Programs and Proofs, 
+        Los Angeles, CA,
+        January, 2018.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/pumpkin2018.pdf">Adapting Proof Automation to Adapt Proofs</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/pumpkin2018.pdf">Adapting Proof Automation to Adapt Proofs</a></span>
+<span class="abbrevplace">  [CPP 2018]</span>
+<br/>
+<span class="fulldetails">
+        Talia Ringer, Nathaniel Yazdani, John Leo, Dan Grossman.<br/>
+        The 7th ACM SIGPLAN International Conference on Certified Programs and Proofs, 
+        Los Angeles, CA,
+        January, 2018.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/wddd17.pdf">Solver Aided Reverse Engineering of Architectural Features</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/wddd17.pdf">Solver Aided Reverse Engineering of Architectural Features</a></span>
+<span class="abbrevplace">  [WDDD 2017]</span>
+<br/>
+<span class="fulldetails">
+        Bill Zorn, Dan Grossman, Luis Ceze.<br/>
+        14th Annual Workshop on Duplicating, Deconstructing and Debunking, 
+        Toronto, Canada,
+        June, 2017.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/mapl17.pdf">Debugging Probabilistic Programs</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/mapl17.pdf">Debugging Probabilistic Programs</a></span>
+<span class="abbrevplace">  [MAPL 2017]</span>
+<br/>
+<span class="fulldetails">
+        Chandrakana Nandi, Dan Grossman, Adrian Sampson, Todd Mytkowicz, Kathryn S. McKinley.<br/>
+        The First ACM SIGPLAN Workshop on Machine Learning and Programming Languages, 
+        Barcelona, Spain,
+        June, 2017.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/snapl17_toman.pdf">Taming the Static Analysis Beast</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/snapl17_toman.pdf">Taming the Static Analysis Beast</a></span>
+<span class="abbrevplace">  [SNAPL 2017]</span>
+<br/>
+<span class="fulldetails">
+        John Toman, Dan Grossman.<br/>
+        SNAPL: The 2nd Summit On Advances in Programming Languages, 
+        Asilomar, CA,
+        May, 2017.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/snapl17_nandi.pdf">Programming Language Tools and Techniques for 3D Printing</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/snapl17_nandi.pdf">Programming Language Tools and Techniques for 3D Printing</a></span>
+<span class="abbrevplace">  [SNAPL 2017]</span>
+<br/>
+<span class="fulldetails">
+        Chandrakana Nandi, Anat Caspi, Dan Grossman, Zachary Tatlock.<br/>
+        SNAPL: The 2nd Summit On Advances in Programming Languages, 
+        Asilomar, CA,
+        May, 2017.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/wax2015.pdf">Approximate Program Synthesis</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/wax2015.pdf">Approximate Program Synthesis</a></span>
+<span class="abbrevplace">  [WAX 2015]</span>
+<br/>
+<span class="fulldetails">
+        James Bornholt, Emina Torlak, Luis Ceze, Dan Grossman.<br/>
+        Workshop on Approximate Computing Across the Stack, 
+        Portland, OR,
+        June, 2015.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/snapl15.pdf">Toward a Dependability Case Language and Workflow for a Radiation Therapy System</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/snapl15.pdf">Toward a Dependability Case Language and Workflow for a Radiation Therapy System</a></span>
+<span class="abbrevplace">  [SNAPL 2015]</span>
+<br/>
+<span class="fulldetails">
+        Michael D. Ernst, Dan Grossman, Jon Jacky, Calvin Loncaric, Stuart Pernsteiner, Zachary Tatlock, Emina Torlak, Xi Wang.<br/>
+        The Inaugural Summit On Advances in Programming Languages, 
+        Asilomar, CA,
+        May, 2015.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/coqpl15.pdf">Peek: A Formally Verified Peephole Optimization Framework for x86</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/coqpl15.pdf">Peek: A Formally Verified Peephole Optimization Framework for x86</a></span>
+<span class="abbrevplace">  [CoqPL 2015]</span>
+<br/>
+<span class="fulldetails">
+        Eric Mullen, Zachary Tatlock, Dan Grossman.<br/>
+        1st International Workshop on Coq for Programming Languages, 
+        Mumbai, India,
+        January, 2015.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/pvldb14.pdf">Support the Data Enthusiast: Challenges for Next-Generation Data-Analysis Systems</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/pvldb14.pdf">Support the Data Enthusiast: Challenges for Next-Generation Data-Analysis Systems</a></span>
+<span class="abbrevplace">  [PVLDB (vision track) 2014]</span>
+<br/>
+<span class="fulldetails">
+        Kristi Morton, Magdalena Balazinska, Dan Grossman, Jock Mackinlay.<br/>
+        Proceedings of the 40th International Conference on Very Large Databases (Vision Track), 
+        Hangzhou, China,
+        September, 2014.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/wacas_autotune.pdf">Profiling and Autotuning for Energy-Aware Approximate Programming</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/wacas_autotune.pdf">Profiling and Autotuning for Energy-Aware Approximate Programming</a></span>
+<span class="abbrevplace">  [WACAS 2014]</span>
+<br/>
+<span class="fulldetails">
+        Michael F. Ringenburg, Adrian Sampson, Luis Ceze, Dan Grossman.<br/>
+        Workshop on Approximate Computing Across the System Stack, 
+        Salt Lake City, UT,
+        March, 2014.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/wacas_infer.pdf">Tuning Approximate Computations with Constraint-Based Type Inference</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/wacas_infer.pdf">Tuning Approximate Computations with Constraint-Based Type Inference</a></span>
+<span class="abbrevplace">  [WACAS 2014]</span>
+<br/>
+<span class="fulldetails">
+        Brett Boston, Adrian Sampson, Dan Grossman, Luis Ceze.<br/>
+        Workshop on Approximate Computing Across the System Stack, 
+        Salt Lake City, UT,
+        March, 2014.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/wodet13.pdf">Input-Covering Schedules for Multithreaded Programs</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/wodet13.pdf">Input-Covering Schedules for Multithreaded Programs</a></span>
+<span class="abbrevplace">  [WoDET 2013]</span>
+<br/>
+<span class="fulldetails">
+        Tom Bergan, Luis Ceze, Dan Grossman.<br/>
+        4th Workshop on Determinism and Correctness in Parallel Programming, 
+        Houston, TX,
+        March, 2013.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/dls12.pdf">Detecting Conflicts Among Declarative UI Extensions</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/2480360.2384590">Detecting Conflicts Among Declarative UI Extensions</a></span>
+<span class="abbrevplace">  [DLS 2012]</span>
+<br/>
+<span class="fulldetails">
+        Benjamin S. Lerner, Dan Grossman.<br/>
+        Dynamic Languages Symposium, 
+        Tucson, AZ,
+        October, 2012.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/wodet_meld.pdf">The Case For Merging Execution- and Language-level Determinism with MELD</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/wodet_meld.pdf">The Case For Merging Execution- and Language-level Determinism with MELD</a></span>
+<span class="abbrevplace">  [WoDET 2012]</span>
+<br/>
+<span class="fulldetails">
+        Joseph Devietti, Dan Grossman, Luis Ceze.<br/>
+        3rd Workshop on Determinism and Correctness in Parallel Programming, 
+        London, United Kingdon,
+        March, 2012.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/SIGCSE2012.pdf">Introducing Parallelism and Concurrency in the Data Structures Course</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/2157136.2157285">Introducing Parallelism and Concurrency in the Data Structures Course</a></span>
+<span class="abbrevplace">  [SIGCSE 2012]</span>
+<br/>
+<span class="fulldetails">
+        Dan Grossman, Ruth E. Anderson.<br/>
+        43rd SIGCSE Technical Symposium on Computer Science Education, 
+        Raleigh, NC,
+        March, 2012.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/tldi12.pdf">Static Lock Capabilities for Deadlock Freedom</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/2103786.2103796">Static Lock Capabilities for Deadlock Freedom</a></span>
+<span class="abbrevplace">  [TLDI 2012]</span>
+<br/>
+<span class="fulldetails">
+        Colin S. Gordon, Michael D. Ernst, Dan Grossman.<br/>
+        ACM SIGPLAN Workshop on Types in Language Design and Implementation, 
+        Philadelphia, PA,
+        January, 2012.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/mspc2011.pdf">Data-Race Exceptions Have Benefits Beyond the Memory Model</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1988915.1988923">Data-Race Exceptions Have Benefits Beyond the Memory Model</a></span>
+<span class="abbrevplace">  [MSPC 2011]</span>
+<br/>
+<span class="fulldetails">
+        Benjamin P. Wood, Luis Ceze, Dan Grossman.<br/>
+        ACM SIGPLAN Workshop on Memory Systems Performance and Correctness, 
+        San Jose, CA,
+        June, 2011.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/transact2011.pdf">Region-Based Dynamic Separation for STM Haskell</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/transact2011.pdf">Region-Based Dynamic Separation for STM Haskell</a></span>
+<span class="abbrevplace">  [TRANSACT 2011]</span>
+<br/>
+<span class="fulldetails">
+        Laura Effinger-Dean, Dan Grossman.<br/>
+        ACM SIGPLAN Workshop on Transactional Computing, 
+        San Jose, CA,
+        June, 2011.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/sci708s-morton.pdf">The Case for Being Lazy: How to Leverage Lazy Evaluation in MapReduce</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1996109.1996111">The Case for Being Lazy: How to Leverage Lazy Evaluation in MapReduce</a></span>
+<span class="abbrevplace">  [SciCloud 2011]</span>
+<br/>
+<span class="fulldetails">
+        Kristi Morton, Magdalena Balazinska, Dan Grossman, Christopher Olston.<br/>
+        ScienceCloud 2011: 2nd Workshop on Scientific Cloud Computing, 
+        San Jose, CA,
+        June, 2011.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/softxmt_hotpar2011.pdf">Crunching Large Graphs With Commodity Processors</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/softxmt_hotpar2011.pdf">Crunching Large Graphs With Commodity Processors</a></span>
+<span class="abbrevplace">  [HotPar 2011]</span>
+<br/>
+<span class="fulldetails">
+        Jacob Nelson, Brandon Myers, A. H. Hunter, Preston Briggs, Luis Ceze, Carl Ebeling, Dan Grossman, Simon Kahan, Mark Oskin.<br/>
+        3rd USENIX Workshop on Hot Topics in Parallelism, 
+        Berkeley, CA,
+        May, 2011.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/grossmanSPAC_position2010.pdf">Ready-For-Use: 3 Weeks of Parallelism and Concurrency in a Required Second-Year Data-Structures Course</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/grossmanSPAC_position2010.pdf">Ready-For-Use: 3 Weeks of Parallelism and Concurrency in a Required Second-Year Data-Structures Course</a></span>
+<span class="abbrevplace">  [CCP 2010]</span>
+<br/>
+<span class="fulldetails">
+        Dan Grossman.<br/>
+        Workshop on Curricula for Concurrency and Parallelism, 
+        Reno, NV,
+        October, 2010.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/hotpar10-lockprediction.pdf">Lock Prediction</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/hotpar10-lockprediction.pdf">Lock Prediction</a></span>
+<span class="abbrevplace">  [HotPar 2010]</span>
+<br/>
+<span class="fulldetails">
+        Brandon Lucia, Joseph Devietti, Tom Bergan, Luis Ceze, Dan Grossman.<br/>
+        2nd USENIX Workshop on Hot Topics in Parallelism, 
+        Berkeley, CA,
+        June, 2010.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/aplwaca2010.pdf">Language Support for Extensible Web Browsers</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1810139.1810146">Language Support for Extensible Web Browsers</a></span>
+<span class="abbrevplace">  [APLWACA 2010]</span>
+<br/>
+<span class="fulldetails">
+        Benjamin S. Lerner, Dan Grossman.<br/>
+        Workshop on Analysis and Programming Languages for
+Web Applications and Cloud Applications, 
+        Toronto, Canada,
+        June, 2010.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/te_idioms.pdf">Programming Idioms for Transactional Events</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/te_idioms.pdf">Programming Idioms for Transactional Events</a></span>
+<span class="abbrevplace">  [PLACES 2009]</span>
+<br/>
+<span class="fulldetails">
+        Matthew Kehrt, Laura Effinger-Dean, Michael Schmitz, Dan Grossman.<br/>
+        Workshop on Programming Language Approaches to Concurrency and Communication-Centric Software, 
+        York, United Kingdom,
+        March, 2009.
+        <br/><i>Published in Electronic Proceedings in Theoretical Computer Science, Volume 17, 2010, pages 43–48, doi 10.4204/EPTCS.17.4</i>
+</span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/transactions_continuations.pdf">Software Transactions Meet First-Class Continuations</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/transactions_continuations.pdf">Software Transactions Meet First-Class Continuations</a></span>
+<span class="abbrevplace">  [SCHEME 2007]</span>
+<br/>
+<span class="fulldetails">
+        Aaron Kimball, Dan Grossman.<br/>
+        8th Annual Workshop on Scheme and Functional Programming, 
+        pages 47–58,
+        Freiburg, Germany,
+        September, 2007.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/memmodel_mspc06.pdf">What Do High-Level Memory Models Mean for Transactions?</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1178597.1178609">What Do High-Level Memory Models Mean for Transactions?</a></span>
+<span class="abbrevplace">  [MSPC 2006]</span>
+<br/>
+<span class="fulldetails">
+        Dan Grossman, Jeremy Manson, William Pugh.<br/>
+        ACM SIGPLAN Workshop on Memory Systems Performance and Correctness, 
+        pages 62–69,
+        San Jose, CA,
+        October, 2006.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/atomjava_mspc.pdf">Atomicity via Source-to-Source Translation</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1178597.1178611">Atomicity via Source-to-Source Translation</a></span>
+<span class="abbrevplace">  [MSPC 2006]</span>
+<br/>
+<span class="fulldetails">
+        Benjamin Hindman, Dan Grossman.<br/>
+        ACM SIGPLAN Workshop on Memory Systems Performance and Correctness, 
+        pages 82–91,
+        San Jose, CA,
+        October, 2006.
+        <br/><i>Extended description: <a href="http://homes.cs.washington.edu/~djg/papers/atomjava_tr_may06.pdf">UW-CSE Technical Report 2006-05-01</a>, May 2006</i>
+</span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/seminal_ml06.pdf">Seminal: Searching for ML Type-Error Messages</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1159876.1159887">Seminal: Searching for ML Type-Error Messages</a></span>
+<span class="abbrevplace">  [ML 2006]</span>
+<br/>
+<span class="fulldetails">
+        Benjamin Lerner, Dan Grossman, Craig Chambers.<br/>
+        ACM SIGPLAN Workshop on ML, 
+        pages 63–73,
+        Portland, OR,
+        September, 2006.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/coordinated_tldi05.pdf">Types for Describing Coordinated Data Structures</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1040294.1040297">Types for Describing Coordinated Data Structures</a></span>
+<span class="abbrevplace">  [TLDI 2005]</span>
+<br/>
+<span class="fulldetails">
+        Michael F. Ringenburg, Dan Grossman.<br/>
+        ACM SIGPLAN Workshop on Types in Language Design and Implementation, 
+        pages 25–36,
+        Long Beach, CA,
+        January, 2005.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/cyclone_ismm04.pdf">Experience With Safe Manual Memory-Management in Cyclone</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/1029873.1029883">Experience With Safe Manual Memory-Management in Cyclone</a></span>
+<span class="abbrevplace">  [ISMM 2004]</span>
+<br/>
+<span class="fulldetails">
+        Michael Hicks, Greg Morrisett, Dan Grossman, Trevor Jim.<br/>
+        4th International Symposium on Memory Management, 
+        pages 73–84,
+        Vancouver, Canada,
+        October, 2004.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/cycthreads.pdf">Type-Safe Multithreading in Cyclone</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/604174.604177">Type-Safe Multithreading in Cyclone</a></span>
+<span class="abbrevplace">  [TLDI 2003]</span>
+<br/>
+<span class="fulldetails">
+        Dan Grossman.<br/>
+        ACM SIGPLAN Workshop on Types in Language Design and Implementation, 
+        pages 13–25,
+        New Orleans, LA,
+        January, 2003.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/tal_scale.pdf">Scalable Certification for Typed Assembly Language</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/tal_scale.pdf">Scalable Certification for Typed Assembly Language</a></span>
+<span class="abbrevplace">  [TIC 2000]</span>
+<br/>
+<span class="fulldetails">
+        Dan Grossman, Greg Morrisett.<br/>
+        3rd International Workshop on Types in Compilation, volume 2071 of Lecture Notes in Computer Science, 
+        pages 117–145,
+        Montreal, Canada,
+        September, 2000.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/talx86-wcsss.pdf">TALx86: A Realistic Typed Assembly Language</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/talx86-wcsss.pdf">TALx86: A Realistic Typed Assembly Language</a></span>
+<span class="abbrevplace">  [WCSSS 1999]</span>
+<br/>
+<span class="fulldetails">
+        Greg Morrisett, Karl Crary, Neal Glew, Dan Grossman, Richard Samuels, Frederick Smith, David Walker, Stephanie Weirich, Steve Zdancewic.<br/>
+        Workshop on Compiler Support for System Software, 
+        pages 25–35,
+        Atlanta, Georgia,
+        May, 1999.
+        <br/><i>Published as INRIA Technical Report 0288</i>
+</span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/jduck.pdf">JDuck: Building a Software Engineering Tool in Java as a CS2 Project</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/299649.299676">JDuck: Building a Software Engineering Tool in Java as a CS2 Project</a></span>
+<span class="abbrevplace">  [SIGCSE 1999]</span>
+<br/>
+<span class="fulldetails">
+        Michael Godfrey, Dan Grossman.<br/>
+        30th SIGCSE Technical Symposium on Computer Science Education, 
+        pages 48–52,
+        New Orleans, LA,
+        March, 1999.
+      </span>
+</li>
+</ul>
+<h2>Invited Publications</h2>
+<ul>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/fose14.pdf">How Programming Languages Will Co-evolve with Software Engineering: A Bright Decade Ahead</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/2593882.2593898">How Programming Languages Will Co-evolve with Software Engineering: A Bright Decade Ahead</a></span>
+<span class="abbrevplace">  [FoSE 2014]</span>
+<br/>
+<span class="fulldetails">
+        Emerson Murphy-Hill, Dan Grossman.<br/>
+        36th International Conference on Software Engineering — Future of Software Engineering track, 
+        Hyderabad, India,
+        June, 2014.
+      </span>
+</li>
+</ul>
+<h2>Other Publications</h2>
+<ul>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/sigmod_record2014.pdf">Public Data and Visualizations: How are Many Eyes and Tableau Public Used for Collaborative Analytics?</a></span>
+<span class="papertitle acmhref"><a href="http://doi.acm.org/10.1145/2694413.2694417">Public Data and Visualizations: How are Many Eyes and Tableau Public Used for Collaborative Analytics?</a></span>
+<span class="abbrevplace">  [SIGMOD Record 2014]</span>
+<br/>
+<span class="fulldetails">
+        Kristi Morton, Magdalena Balazinska, Dan Grossman, Robert Kosara, Jock Mackinlay.<br/>
+        SIGMOD Record, 
+        June, 2014.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://spectrum.ieee.org/computing/software/enerj-the-language-of-goodenough-computing">EnerJ, the Language of Good-Enough Computing</a></span>
+<span class="papertitle acmhref"><a href="http://spectrum.ieee.org/computing/software/enerj-the-language-of-goodenough-computing">EnerJ, the Language of Good-Enough Computing</a></span>
+<span class="abbrevplace">  [IEEE Spectrum 2013]</span>
+<br/>
+<span class="fulldetails">
+        Adrian Sampson, Luis Ceze, Dan Grossman.<br/>
+        IEEE Spectrum, 
+        October, 2013.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/cyclone-cuj.pdf">Cyclone: a Type-safe Dialect of C</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/cyclone-cuj.pdf">Cyclone: a Type-safe Dialect of C</a></span>
+<span class="abbrevplace">  [C/C++ Users Journal 2005]</span>
+<br/>
+<span class="fulldetails">
+        Dan Grossman, Michael Hicks, Greg Morrisett, Trevor Jim.<br/>
+        C/C++ Users Journal, 23(1), 
+        January, 2005.
+      </span>
+</li>
+<li>
+<span class="papertitle localhref"><a href="http://homes.cs.washington.edu/~djg/papers/grossman_thesis.pdf">Safe Programming at the C Level of Abstraction</a></span>
+<span class="papertitle acmhref"><a href="http://homes.cs.washington.edu/~djg/papers/grossman_thesis.pdf">Safe Programming at the C Level of Abstraction</a></span>
+<span class="abbrevplace">  [PhD thesis 2003]</span>
+<br/>
+<span class="fulldetails">
+        Dan Grossman.<br/>
+        PhD thesis, Cornell University, 
+        August, 2003.
+      </span>
+</li>
+</ul>
+</div>
+</div></body>
+</html>

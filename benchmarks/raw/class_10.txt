@@ -1,0 +1,323 @@
+<html><head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<title>ALR</title>
+</head><body bgcolor="#ffffff">
+ 
+<table bgcolor="5400f5" cellpadding="3" cellspacing="0" width="100%">
+<tbody><tr align="CENTER">
+<td><b><font face="Arial, Helvetica"><font color="#ffffff"><font size="+3">ALR
+Spring 2019</font></font></font></b></td>
+</tr>
+</tbody></table>
+<br/><br/>
+<table border="0" width="600">
+<tr>
+<td> <img src="logic-icon.png"/> </td>
+<td> <h2>     Welcome to the home page for <br/>
+     Automated Logical Reasoning! </h2> </td>
+</tr>
+</table>
+<br/>
+<h2> Logistical Information: </h2>
+<table border="0" cellspacing="10">
+<!-- WIDTH="100%" -->
+<tr><td>
+         Instructor:
+      </td><td>
+<a href="http://www.cs.utexas.edu/~isil/">  Işıl Dillig </a>
+</td></tr>
+<tr><td>
+         Time:
+      </td><td>
+      Tuesday, Thursday 3:30pm - 5 pm 
+      </td></tr>
+<tr><td>
+         Place:
+      </td><td>
+      GDC 4.304
+      </td></tr>
+<tr><td>
+         Instructor e-mail:
+      </td><td>
+      isil@cs.utexas.edu 
+      </td></tr>
+<tr><td>
+         Instructor office hours: 
+      </td><td>
+	Thursday 5-6:30pm in GDC 5.726 
+      </td></tr>
+<tr><td>
+        TA #1:
+      </td><td>
+	Kostas Ferles
+      </td></tr>
+<tr><td>
+        TA #1 e-mail:
+      </td><td>
+	kferles@cs.utexas.edu
+      </td></tr>
+<tr><td>
+        TA #1 office hours:
+      </td><td>
+	Wednesday 1-2:30 pm in GDC 5.710B
+      </td></tr>
+<tr><td>
+        TA #2:
+      </td><td>
+	Rushi Shah
+      </td></tr>
+<tr><td>
+        TA #2 e-mail:
+      </td><td>
+	2016rshah@gmail.com 
+      </td></tr>
+<tr><td>
+        TA #2 office hours:
+      </td><td>
+	Mondays 4-5 pm in GDC 5.710B
+      </td></tr>
+<tr><td>
+        Reference books (optional):
+        </td><td>
+<a href="http://www.Springer.com/computer/theoretical+computer+science/book/978-3-540-74112-1"> The Calculus of Computation </a> by Aaron Bradley and Zohar Manna;   <br/>
+<a href="http://www.Springer.com/computer/theoretical+computer+science/book/978-3-540-74104-6"> Decision Procedures: An Algorithmic Point of View </a> by Daniel Kroening and Ofer Strichman
+      </td>
+</tr>
+<tr><td>
+         Course Webpage:
+      </td><td>
+<a href="http://www.cs.utexas.edu/~isil/cs389L/index.html"> 
+	http://www.cs.utexas.edu/~isil/cs389L/ </a>
+</td></tr>
+</table>
+<h2>Course Description: </h2>
+Automated logical reasoning has enabled substantial progress in many fields of computer science, including software and hardware verification, theorem proving, program analysis, and artifical intelligence. In this course, we will study widely-used logical theories and decision procedures  for answering whether formulas in these theories are satisfiable. In particular, we will consider automated reasoning techniques for propositional logic, first-order logic, linear arithmetic over reals and integers, theory of uninterpreted functions, and combinations of these theories. We will also look at applications of logic in program analysis and verification.
+
+<h2> Requirements and Grading: </h2>
+<li> Regular class attendance is required. Please email instructor if you will not be able to attend class on a particular day.
+</li><li> The course will have two in-class exams. The exams are closed-book and closed-notes.
+</li><li> The homework assignments collectively count for 35% of your final grade, and each exam will count for 30% of final grade. The remaining 5% will be based on class attendance and participation.
+
+
+
+
+<h2> Announcements: </h2>
+</li><li> Our first class will meet on Tuesday, Jan 22.
+</li><li> <a href="https://piazza.com/class/jr59i2jepb42au"> Here </a> is the Piazza page for the class. Please post ANY questions on Piazza -- do not email the instructor or TA unless it is a personal question.
+</li><li> The <a href="hw1.pdf"> first problem set </a><a> is due in class on Janurary 31 at 3:30pm.
+<li> The second problem set is available <a href="hw2.pdf"> here </a><a>. It's due February 12 in class.
+<li> The third problem set is available <a href="hw3-2019.pdf"> here </a><a>. It's due February 21 in class.
+<li> Problem set 4 is available <a href="hw4-2019.pdf"> here </a><a> and is due Tuesday, March 26 in class.
+<li> Problem set 5 is available <a href="ps5-2019.pdf"> here </a><a> and is due Tuesday, April 9 in class.
+<li> Problem set 6 is available <a href="ps6-2019.pdf"> here </a><a> and is due Tuesday, April 25 in class.
+<h2> Syllabus: </h2>
+
+In the Reading section of the syllabus below, COC refers to the Bradley &amp; Manna Calculus of Computation book, while DP refers to the "Decision Procedures: An Algorithmic Point of Book" by Kroening &amp; Strichman.  <br/>
+<br/>
+</a><table border="2" cellpadding="2" cellspacing="2">
+<tr>
+<td><b>Date</b></td>
+<td><b>Lecture topics</b></td>
+<td><b>Notes</b></td>
+<td><b> Reference </b></td>
+</tr>
+<tr>
+<td>01/22  </td>
+<td>Introduction and basics </td>
+<td> <a href="lecture1-6up.pdf"> Lecture 1 </a> </td>
+<td> COC 1.1-1.5 </td>
+</tr>
+<tr>
+<td>01/24 </td>
+<td> Normal forms and DPLL </td>
+<td> <a href="lecture2-6up.pdf"> Lecture 2 </a> </td>
+<td> COC 1.6-1.7 </td>
+</tr>
+<tr>
+<td>01/29 </td>
+<td> CDCL-based SAT Solvers </td>
+<td> <a href="lecture3-6up.pdf"> Lecture 3 </a> </td>
+<td> DP 2.2 <br/>
+<a href="CDCL.pdf"> CDCL SAT solvers </a> </td>
+</tr>
+<tr>
+<td>01/31 </td>
+<td> Practical applications of boolean satisfiability </td>
+<td> <a href="lecture4-6up.pdf"> Lecture 4 </a> </td>
+<td> N/A </td>
+</tr>
+<tr>
+<td>02/05 </td>
+<td> Binary decision diagrams  </td>
+<td> <a href="lecture5-6up.pdf"> Lecture 5 </a> </td>
+<td> <a href="bdd.pdf"> Notes on BDDs </a> <br/> DP 2.3 </td>
+</tr>
+<tr>
+<td>02/07 </td>
+<td> Semantics of First Order Logic   </td>
+<td> <a href="lecture6-6up.pdf"> Lecture 6 </a> </td>
+<td>  COC 2.1-2.4, COC 2.7  </td>
+</tr>
+<tr>
+<td>02/12 </td>
+<td> Proof rules for first order logic <br/> Properties of FOL    </td>
+<td> <a href="lecture7-6up.pdf"> Lecture 7 </a> </td>
+<td>  COC 2.6 </td>
+</tr>
+<tr>
+<td>02/14 </td>
+<td> No class  </td>
+<td>       </td>
+<td>   </td>
+</tr>
+<tr>
+</tr><tr>
+<td> 02/19 </td>
+<td>  Unification  </td>
+<td> <a href="lecture8-6up.pdf"> Lecture 8 </a>
+<br/> <a href="lecture8-3up.pdf"> 3-up version </a> </td>
+<td>   </td>
+</tr>
+<tr>
+<td>02/21 </td>
+<td>  First-order Theorem Proving  </td>
+<td> <a href="lecture9-6up.pdf"> Lecture 9 </a>
+<br/> <a href="lecture9-3up.pdf"> 3-up version </a>
+</td>
+<td> </td>
+</tr>
+<tr>
+</tr><tr>
+<td>02/26 </td>
+<td> Review  </td>
+<td>   </td>
+<td> N/A </td>
+</tr>
+<tr>
+<td> 02/28 </td>
+<td> Exam  </td>
+<td>   </td>
+<td> N/A </td>
+</tr>
+<tr>
+<td> 03/05 </td>
+<td>  Go over exam    </td>
+<td>     </td>
+<td>    </td>
+</tr>
+<tr>
+<td>03/07 </td>
+<td>  Overview of First-Order Theories  </td>
+<td> <a href="lecture10-6up.pdf"> Lecture 10 </a> </td>
+<td> COC Chapter 3   </td>
+</tr>
+<td>03/12 </td>
+<td>  Theory of Equality  <br/> </td>
+<td> <a href="lecture11-6up.pdf"> Lecture 11 </a> </td>
+<td>  COC Chapter 9   </td>
+<tr>
+<td>03/14 </td>
+<td>  Linear Arithmetic over Rationals   </td>
+<td> <a href="lecture12-6up.pdf"> Lecture 12 </a> </td>
+<td>  CLRS Chapter 29   </td>
+</tr>
+<tr>
+</tr><tr>
+<td>03/19 </td>
+<td>  Spring break </td>
+<td>     </td>
+<td>     </td>
+</tr>
+<tr>
+</tr><tr>
+<td>03/21 </td>
+<td>  Spring break </td>
+<td>     </td>
+<td>     </td>
+</tr>
+<tr>
+<td>03/26 </td>
+<td>  Linear Arithmetic over Integers   </td>
+<td> <a href="lecture13-6up.pdf"> Lecture 13 </a> </td>
+<td>    </td>
+</tr>
+<tr>
+<td>03/28 </td>
+<td>   Nelson-Oppen      </td>
+<td> <a href="lecture16-6up.pdf"> Lecture 14 </a> </td>
+<td> COC Chapter 10 </td>
+</tr>
+<tr>
+<td>04/02 </td>
+<td> DPLL(T) Framework   </td>
+<td> <a href="lecture17-6up.pdf"> Lecture 15 </a></td>
+<td>   </td>
+</tr>
+<tr>
+</tr><tr>
+<td> 04/09 </td>
+<td> Hoare Logic  </td>
+<td> <a href="HoareLogic-6up.pdf"> Lecture 16 </a> </td>
+<td>&amp;nbsp </td>
+</tr>
+<tr>
+<td> 04/11 </td>
+<td>  Verification conditions  </td>
+<td>  Lecture 17
+</td>
+<td>&amp;nbsp </td>
+</tr>
+<tr>
+<td> 04/16 </td>
+<td> VCs with functions and pointers </td>
+<td> <a href="HoareLogic3-6up.pdf"> Lecture 18 </a>
+</td>
+<td>&amp;nbsp </td>
+</tr>
+<tr>
+<td> 04/18 </td>
+<td>  Play with Dafny  </td>
+<td> &amp;nbsp
+</td>
+<td>&amp;nbsp </td>
+</tr>
+<tr>
+<td> 04/23 </td>
+<td> Invariant Inference I </td>
+<td> <a href="AI-6up.pdf"> Lecture 19 </a>
+</td>
+<td>&amp;nbsp </td>
+</tr>
+<tr>
+<td> 04/25 </td>
+<td> Invariant Inference II </td>
+<td> <a href="houdini-6up.pdf"> Lecture 20  </a>
+</td>
+<td> <a href="esc-pldi02.pdf"> Houdini </a> <br/>
+<a href="oopsla13.pdf"> Abduction </a> </td>
+</tr>
+<tr>
+<td> 04/30 </td>
+<td> ALR Taboo Game </td>
+<td>   
+</td>
+<td>&amp;nbsp </td>
+</tr>
+<tr>
+<td> 05/02 </td>
+<td> Exam </td>
+<td>   
+</td>
+<td>&amp;nbsp </td>
+</tr>
+<tr>
+<td> 05/07 </td>
+<td> Go over exam </td>
+<td>   
+</td>
+<td>&amp;nbsp </td>
+</tr>
+<tr>
+</tr>
+<tr>
+</tr></table></li></a></li></a></li></a></li></a></li></a></li></body></html>

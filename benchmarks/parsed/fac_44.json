@@ -1,0 +1,551 @@
+{
+    "id": 0,
+    "content": "Todd Millstein",
+    "children": [
+        {
+            "id": 1,
+            "content": "Todd Millstein",
+            "isList": true,
+            "key": 1,
+            "children": [
+                {
+                    "id": 2,
+                    "content": "Professor Vice Chair for Graduate Studies UCLA Computer Science Department   476 Engineering VI   Los Angeles, CA 90095-1596   todd [at] cs.ucla.edu   (310) 825-5942",
+                    "key": 1
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "content": " projects | publications | students | courses | bio ",
+            "key": 2
+        },
+        {
+            "id": 4,
+            "content": "Current Research Projects",
+            "key": 3,
+            "children": [
+                {
+                    "id": 5,
+                    "content": "Verified Software",
+                    "key": 1
+                },
+                {
+                    "id": 6,
+                    "content": "Despite lots of testing, bugs are rampant in modern software systems. How do we make it cost-effective to verify critical correctness properties of programs? This question motivates a lot of my research; current directions include automatic inference of program properties and abstractions for reasoning about probabilistic programs.",
+                    "key": 2
+                },
+                {
+                    "id": 7,
+                    "content": "Simple and Efficient Concurrency",
+                    "key": 3
+                },
+                {
+                    "id": 8,
+                    "content": "Mainstream programming languages like C++ and Java provide an incredibly complex and error-prone semantics for threads in the name of efficiency. Can we instead provide the simple interleaving semantics of threads (known formally as sequential consistency) at a reasonable cost? Start here for the high-level problem and motivation. In recent work we built a sequentially consistent Java virtual machine and measured its performance.",
+                    "key": 4
+                },
+                {
+                    "id": 9,
+                    "content": "Network Programming and Verification",
+                    "key": 5
+                },
+                {
+                    "id": 10,
+                    "content": "Computer networks have become critical infrastructure for all Internet-based services, and as a result the requirements on and complexity of networks have rapidly increased. Can programming languages technology help to manage this complexity? We are working on both verification of existing networks and new languages to design networks that are correct by construction.",
+                    "key": 6
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "content": "Recent Publications",
+            "key": 4,
+            "children": [
+                {
+                    "id": 12,
+                    "content": "Finding Network Misconfigurations by Automatic Template Inference (NSDI 2020)   Siva Kesava Reddy Kakarla, Alan Tang, Ryan Beckett, Karthick Jayaraman, Todd Millstein, Yuval Tamir, George Varghese",
+                    "key": 1
+                },
+                {
+                    "id": 13,
+                    "content": "Generating and Sampling Orbits for Lifted Probabilistic Inference (UAI 2019, Oral Presentation )   Steven Holtzen, Todd Millstein, Guy Van den Broeck",
+                    "key": 2
+                },
+                {
+                    "id": 14,
+                    "content": "Overfitting in Synthesis: Theory and Practice (CAV 2019)   Saswat Padhi, Todd Millstein, Aditya Nori, Rahul Sharma",
+                    "key": 3
+                },
+                {
+                    "id": 15,
+                    "content": "more publications...",
+                    "key": 4
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "content": "PhD Students",
+            "key": 5,
+            "children": [
+                {
+                    "id": 17,
+                    "content": "Steven Holtzen (co-advised with Guy Van den Broeck) Siva Kesava Reddy Kakarla (co-advised with George Varghese) Lun Liu Saswat Padhi Aishwarya Sivaraman   Alan Tang (co-advised with George Varghese)   Graduated Students",
+                    "key": 1
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "content": "Courses",
+            "key": 6,
+            "children": [
+                {
+                    "id": 19,
+                    "content": "I regularly teach these courses:",
+                    "key": 1
+                },
+                {
+                    "id": 20,
+                    "content": "CS30: Principles and Practices of Computing   an introduction to computing for computer-science majors with no prior programming experience",
+                    "key": 2
+                },
+                {
+                    "id": 21,
+                    "content": "CS131: Programming Languages   an upper-division undergraduate course on programming language concepts and the relationships among different programming paradigms",
+                    "key": 3
+                },
+                {
+                    "id": 22,
+                    "content": "CS231: Types and Programming Languages   an introductory graduate course on programming language theory and static type systems",
+                    "key": 4
+                },
+                {
+                    "id": 23,
+                    "content": "CS239: Current Topics in Programming Languages and Systems   a graduate research seminar with varying topics",
+                    "key": 5
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "content": "Brief Biography",
+            "key": 7,
+            "children": [
+                {
+                    "id": 25,
+                    "content": "I joined the UCLA faculty in November 2003. I am also a co-founder and Chief Scientist of Intentionet. I have been an Academic Visitor at Oxford (2010-11), a Visiting Researcher at Microsoft Research (2012), and a Visiting Fellow at Princeton (2018-19). I received my PhD from the University of Washington Department of Computer Science, where I was a member of the Cecil group led by Craig Chambers. Before that, I was an undergraduate at Brown University, where I was advised by Paris Kanellakis and Pascal Van Hentenryck. I grew up in suburban Maryland, outside of Washington D.C.",
+                    "key": 1
+                },
+                {
+                    "id": 26,
+                    "content": "I received an NSF CAREER award in 2006, an IBM Faculty Award in 2008, the Most Influential PLDI Paper Award in 2011, an IEEE Micro Top Picks selection in 2012, the Northrop Grumman Excellence in Teaching Award from UCLA Engineering in 2016, a Microsoft Research Outstanding Collaborator Award in 2016, and an Okawa Foundation Research Grant in 2016.",
+                    "key": 2
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "content": "Publications",
+            "key": 8,
+            "children": [
+                {
+                    "id": 28,
+                    "content": "Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation or the Defense Advanced Research Projects Agency. Finding Network Misconfigurations by Automatic Template Inference (NSDI 2020)   Siva Kesava Reddy Kakarla, Alan Tang, Ryan Beckett, Karthick Jayaraman, Todd Millstein, Yuval Tamir, George Varghese",
+                    "key": 1
+                },
+                {
+                    "id": 29,
+                    "content": "Generating and Sampling Orbits for Lifted Probabilistic Inference (UAI 2019, Oral Presentation )   Steven Holtzen, Todd Millstein, Guy Van den Broeck",
+                    "key": 2
+                },
+                {
+                    "id": 30,
+                    "content": "Overfitting in Synthesis: Theory and Practice (CAV 2019)   Saswat Padhi, Todd Millstein, Aditya Nori, Rahul Sharma",
+                    "key": 3
+                },
+                {
+                    "id": 31,
+                    "content": "Accelerating Sequential Consistency for Java with Speculative Compilation (PLDI 2019)   Lun Liu, Todd Millstein, Madanlal Musuvathi",
+                    "key": 4
+                },
+                {
+                    "id": 32,
+                    "content": "FlashProfile: A Framework for Synthesizing Data Profiles (OOPSLA 2018)   Saswat Padhi, Prateek Jain, Daniel Perelman, Oleksandr Polozov, Sumit Gulwani, Todd Millstein",
+                    "key": 5
+                },
+                {
+                    "id": 33,
+                    "content": "Adding data provenance support to Apache Spark (VLDB Journal, Special issue on best papers of VLDB 2016 )   Matteo Interlandi, Ari Ekmekji, Kshitij Shah, Muhammad Ali Gulzar, Sai Deep Tetali, Miryung Kim, Todd Millstein, Tyson Condie",
+                    "key": 6
+                },
+                {
+                    "id": 34,
+                    "content": "Sound Abstraction and Decomposition of Probabilistic Programs (ICML 2018)   Steven Holtzen, Guy Van den Broeck, Todd Millstein",
+                    "key": 7
+                },
+                {
+                    "id": 35,
+                    "content": "A Volatile-by-Default JVM for Server Applications (OOPSLA 2017)   Lun Liu, Todd Millstein, Madanlal Musuvathi",
+                    "key": 8
+                },
+                {
+                    "id": 36,
+                    "content": "Probabilistic Program Abstractions (UAI 2017)   Steven Holtzen, Todd Millstein, Guy Van den Broeck",
+                    "key": 9
+                },
+                {
+                    "id": 37,
+                    "content": "Network Configuration Synthesis with Abstract Topologies (PLDI 2017)   Ryan Beckett, Ratul Mahajan, Todd Millstein, Jitendra Padhye, David Walker",
+                    "key": 10
+                },
+                {
+                    "id": 38,
+                    "content": "Efficient Network Reachability Analysis Using a Succinct Control Plane Representation (OSDI 2016)   Seyed K. Fayaz, Tushar Sharma, Ari Fogel, Ratul Mahajan, Todd Millstein, Vyas Sekar, George Varghese",
+                    "key": 11
+                },
+                {
+                    "id": 39,
+                    "content": "Optimizing Interactive Development of Data-Intensive Applications (SOCC 2016)   Matteo Interlandi, Sai Deep Tetali, Muhammad Ali Gulzar, Joseph Noor, Tyson Condie, Miryung Kim, Todd Millstein",
+                    "key": 12
+                },
+                {
+                    "id": 40,
+                    "content": "DRFx: An Understandable, High Performance, and Flexible Memory Model for Concurrent Languages (TOPLAS)   Daniel Marino, Abhayendra Singh, Todd Millstein, Madanlal Musuvathi, Satish Narayanasamy",
+                    "key": 13
+                },
+                {
+                    "id": 41,
+                    "content": "Don't Mind the Gap: Bridging Network-wide Objectives and Device-level Configurations (SIGCOMM 2016, Best Paper Award )   Ryan Beckett, Ratul Mahajan, Todd Millstein, Jitendra Padhye, David Walker",
+                    "key": 14
+                },
+                {
+                    "id": 42,
+                    "content": "Technical Perspective: Toward Reliable Programming for Unreliable Hardware (CACM)   Todd Millstein",
+                    "key": 15
+                },
+                {
+                    "id": 43,
+                    "content": "Interactive Debugging for Big Data Analytics (HotCloud 2016)   Muhammad Ali Gulzar, Xueyuan Han, Matteo Interlandi, Shaghayegh Mardani, Sai Deep Tetali, Tyson Condie, Todd Millstein, Miryung Kim",
+                    "key": 16
+                },
+                {
+                    "id": 44,
+                    "content": "Data-Driven Precondition Inference with Learned Features (PLDI 2016, Winner of the Invariant Synthesis track in both the 2017 and 2018 Syntax Guided Synthesis Competition)   Saswat Padhi, Rahul Sharma, Todd Millstein",
+                    "key": 17
+                },
+                {
+                    "id": 45,
+                    "content": "BigDebug: Debugging Primitives for Interactive Big Data Processing in Spark (ICSE 2016)   Muhammad Ali Gulzar, Matteo Interlandi, Seunghyun Yoo, Sai Deep Tetali, Tyson Condie, Todd Millstein, Miryung Kim",
+                    "key": 18
+                },
+                {
+                    "id": 46,
+                    "content": "Titian: Data Provenance Support in Spark (PVLDB, Selected for The VLDB Journal's special issue on best papers of VLDB 2016 )   Matteo Interlandi, Kshitij Shah, Sai Deep Tetali, Muhammad Ali Gulzar, Seunghyun Yoo, Miryung Kim, Todd Millstein, Tyson Condie",
+                    "key": 19
+                },
+                {
+                    "id": 47,
+                    "content": "Checks and Balances: Constraint Solving without Surprises in Object-Constraint Programming Languages (OOPSLA 2015)   Tim Felgentreff, Todd Millstein, Alan Borning, Robert Hirschfeld",
+                    "key": 20
+                },
+                {
+                    "id": 48,
+                    "content": "The Silently Shifting Semicolon (SNAPL 2015)   Daniel Marino, Todd Millstein, Madanlal Musuvathi, Satish Narayanasamy, Abhayendra Singh",
+                    "key": 21
+                },
+                {
+                    "id": 49,
+                    "content": "A General Approach to Network Configuration Analysis (NSDI 2015)   Ari Fogel, Stanley Fung, Luis Pedrosa, Meg Walraed-Sullivan, Ramesh Govindan, Ratul Mahajan, Todd Millstein",
+                    "key": 22
+                },
+                {
+                    "id": 50,
+                    "content": "Analyzing Protocol Implementations for Interoperability (NSDI 2015)   Luis Pedrosa, Ari Fogel, Nupur Kothari, Ramesh Govindan, Ratul Mahajan, Todd Millstein",
+                    "key": 23
+                },
+                {
+                    "id": 51,
+                    "content": "Call by Meaning (Onward! 2014)   Hesam Samimi, Chris Deaton, Yoshiki Ohshima, Alessandro Warth, Todd Millstein",
+                    "key": 24
+                },
+                {
+                    "id": 52,
+                    "content": "Automatic Atomicity Verification for Clients of Concurrent Data Structures (CAV 2014)   Mohsen Lesani, Todd Millstein, Jens Palsberg",
+                    "key": 25
+                },
+                {
+                    "id": 53,
+                    "content": "MrCrypt: Static Analysis for Secure Cloud Computations (OOPSLA 2013)   Sai Deep Tetali, Mohsen Lesani, Rupak Majumdar, Todd Millstein",
+                    "key": 26
+                },
+                {
+                    "id": 54,
+                    "content": "Declarative Mocking (ISSTA 2013)   Hesam Samimi, Rebecca Hicks, Ari Fogel, Todd Millstein",
+                    "key": 27
+                },
+                {
+                    "id": 55,
+                    "content": "A Safety-First Approach to Memory Models (IEEE Micro)   Abhayendra Singh, Satish Narayanasamy, Daniel Marino, Todd Millstein, Madanlal Musuvathi",
+                    "key": 28
+                },
+                {
+                    "id": 56,
+                    "content": "RERAN: Timing- and Touch-Sensitive Record and Replay for Android (ICSE 2013)   Lorenzo Gomez, Iulian Neamtiu, Tanzirul Azim, Todd Millstein",
+                    "key": 29
+                },
+                {
+                    "id": 57,
+                    "content": "Dr. Android and Mr. Hide: Fine-grained Permissions in Android Applications (SPSM 2012)   Jinseong Jeon, Kristopher K. Micinski, Jeffrey A. Vaughan, Ari Fogel, Nikhilesh Reddy, Jeffrey S. Foster, Todd Millstein",
+                    "key": 30
+                },
+                {
+                    "id": 58,
+                    "content": "Secure Information Flow for Concurrent Programs under Total Store Order (CSF 2012)   Jeffrey A. Vaughan, Todd Millstein",
+                    "key": 31
+                },
+                {
+                    "id": 59,
+                    "content": "End-to-End Sequential Consistency (ISCA 2012, IEEE Micro Top Pick )   Abhayendra Singh, Satish Narayanasamy, Daniel Marino, Todd Millstein, Madanlal Musuvathi",
+                    "key": 32
+                },
+                {
+                    "id": 60,
+                    "content": "Automated Repair of HTML Generation Errors in PHP Applications Using String Constraint Solving (ICSE 2012)   Hesam Samimi, Max Schäfer, Shay Artzi, Todd Millstein, Frank Tip, Laurie Hendren",
+                    "key": 33
+                },
+                {
+                    "id": 61,
+                    "content": "Tool-supported Refactoring for JavaScript (OOPSLA 2011)   Asger Felthaus, Todd Millstein, Anders Møller, Max Schäfer, Frank Tip",
+                    "key": 34
+                },
+                {
+                    "id": 62,
+                    "content": "Finding Protocol Manipulation Attacks (SIGCOMM 2011)   Nupur Kothari, Ratul Mahajan, Todd Millstein, Ramesh Govindan, Madanlal Musuvathi",
+                    "key": 35
+                },
+                {
+                    "id": 63,
+                    "content": "A Case for an SC-Preserving Compiler (PLDI 2011)   Daniel Marino, Abhayendra Singh, Todd Millstein, Madanlal Musuvathi, Satish Narayanasamy",
+                    "key": 36
+                },
+                {
+                    "id": 64,
+                    "content": "Efficient Processor Support for DRFx, a Memory Model with Exceptions (ASPLOS 2011)   Abhayendra Singh, Daniel Marino, Satish Narayanasamy, Todd Millstein, Madanlal Musuvathi",
+                    "key": 37
+                },
+                {
+                    "id": 65,
+                    "content": "Falling Back on Executable Specifications (ECOOP 2010)   Hesam Samimi, Ei Darli Aung, Todd Millstein",
+                    "key": 38
+                },
+                {
+                    "id": 66,
+                    "content": "DRFx: A Simple and Efficient Memory Model for Concurrent Programming Languages (PLDI 2010)   Daniel Marino, Abhayendra Singh, Todd Millstein, Madanlal Musuvathi, Satish Narayanasamy",
+                    "key": 39
+                },
+                {
+                    "id": 67,
+                    "content": "JavaCOP: Declarative Pluggable Types for Java (TOPLAS)   Shane Markstrum, Daniel Marino, Matthew Esquivel, Todd Millstein, Chris Andreae, James Noble",
+                    "key": 40
+                },
+                {
+                    "id": 68,
+                    "content": "Fine-Grained Access Control with Object-Sensitive Roles (ECOOP 2009)   Jeffrey Fischer, Daniel Marino, Rupak Majumdar, Todd Millstein",
+                    "key": 41
+                },
+                {
+                    "id": 69,
+                    "content": "Expressive and Modular Predicate Dispatch for Java (TOPLAS)   Todd Millstein, Christopher Frost, Jason Ryder, Alessandro Warth",
+                    "key": 42
+                },
+                {
+                    "id": 70,
+                    "content": "A Generic Type-and-Effect System (TLDI 2009)   Daniel Marino, Todd Millstein",
+                    "key": 43
+                },
+                {
+                    "id": 71,
+                    "content": "Can You Fool Me? Towards Automatically Checking Protocol Gullibility (HotNets 2008)   Milan Stanojevic, Ratul Mahajan, Todd Millstein, Madanlal Musuvathi",
+                    "key": 44
+                },
+                {
+                    "id": 72,
+                    "content": "An Extensible State Machine Pattern for Interactive Applications (ECOOP 2008)   Brian Chin, Todd Millstein",
+                    "key": 45
+                },
+                {
+                    "id": 73,
+                    "content": "Deriving State Machines from TinyOS Programs using Symbolic Execution (IPSN 2008, Best Paper Award )   Nupur Kothari, Todd Millstein, Ramesh Govindan",
+                    "key": 46
+                },
+                {
+                    "id": 74,
+                    "content": "Packrat Parsers Can Support Left Recursion (PEPM 2008)   Alessandro Warth, James R. Douglass, Todd Millstein",
+                    "key": 47
+                },
+                {
+                    "id": 75,
+                    "content": "Reliable and Efficient Programming Abstractions for Wireless Sensor Networks (PLDI 2007)   Nupur Kothari, Ramakrishna Gummadi, Todd Millstein, Ramesh Govindan",
+                    "key": 48
+                },
+                {
+                    "id": 76,
+                    "content": "Enforcing and Validating User-Defined Programming Disciplines (PASTE 2007)   Brian Chin, Daniel Marino, Shane Markstrum, Todd Millstein",
+                    "key": 49
+                },
+                {
+                    "id": 77,
+                    "content": "Declarative Failure Recovery for Sensor Networks (AOSD 2007)   Ramakrishna Gummadi, Nupur Kothari, Todd Millstein, Ramesh Govindan",
+                    "key": 50
+                },
+                {
+                    "id": 78,
+                    "content": "Tasks: Language Support for Event-driven Programming (PEPM 2007)   Jeffrey Fischer, Rupak Majumdar, Todd Millstein",
+                    "key": 51
+                },
+                {
+                    "id": 79,
+                    "content": "Statically Scoped Object Adaptation with Expanders (OOPSLA 2006)   Alessandro Warth, Milan Stanojevic, Todd Millstein",
+                    "key": 52
+                },
+                {
+                    "id": 80,
+                    "content": "A Framework for Implementing Pluggable Type Systems (OOPSLA 2006)   Chris Andreae, James Noble, Shane Markstrum, Todd Millstein",
+                    "key": 53
+                },
+                {
+                    "id": 81,
+                    "content": "Mechanized Metatheory for User-Defined Type Extensions (WMM 2006)   Daniel Marino, Brian Chin, Todd Millstein, Gang Tan, Robert Simmons, David Walker",
+                    "key": 54
+                },
+                {
+                    "id": 82,
+                    "content": "Responders: Language Support for Interactive Applications (ECOOP 2006)   Brian Chin, Todd Millstein",
+                    "key": 55
+                },
+                {
+                    "id": 83,
+                    "content": "MultiJava: Design Rationale, Compiler Implementation, and Applications (TOPLAS)   Curtis Clifton, Todd Millstein, Gary Leavens, Craig Chambers",
+                    "key": 56
+                },
+                {
+                    "id": 84,
+                    "content": "Inference of User-Defined Type Qualifiers and Qualifier Rules (ESOP 2006)   Brian Chin, Shane Markstrum, Todd Millstein, Jens Palsberg",
+                    "key": 57
+                },
+                {
+                    "id": 85,
+                    "content": "Modularly Typesafe Interface Dispatch in JPred (FOOL/WOOD 2006)   Christopher Frost, Todd Millstein",
+                    "key": 58
+                },
+                {
+                    "id": 86,
+                    "content": "Semantic Type Qualifiers (PLDI 2005)   Brian Chin, Shane Markstrum, Todd Millstein",
+                    "key": 59
+                },
+                {
+                    "id": 87,
+                    "content": "Cobalt: A Language for Writing Provably-Sound Compiler Optimizations (ENTCS)   Sorin Lerner, Todd Millstein, Craig Chambers",
+                    "key": 60
+                },
+                {
+                    "id": 88,
+                    "content": "Polymorphic Predicate Abstraction (TOPLAS)   Thomas Ball, Todd Millstein, Sriram Rajamani",
+                    "key": 61
+                },
+                {
+                    "id": 89,
+                    "content": "Generating Error Traces from Verification-Condition Counterexamples (SCP)   Rustan Leino, Todd Millstein, James Saxe",
+                    "key": 62
+                },
+                {
+                    "id": 90,
+                    "content": "Automated Soundness Proofs for Dataflow Analyses and Transformations via Local Rules (POPL 2005)   Sorin Lerner, Todd Millstein, Erika Rice, Craig Chambers",
+                    "key": 63
+                },
+                {
+                    "id": 91,
+                    "content": "Bounded Similarity Querying for Time-Series Data (I&C)   Dina Goldin, Todd Millstein, Ayferi Kutlu",
+                    "key": 64
+                },
+                {
+                    "id": 92,
+                    "content": "Practical Predicate Dispatch (OOPSLA 2004)   Todd Millstein",
+                    "key": 65
+                },
+                {
+                    "id": 93,
+                    "content": "Modular Typechecking for Hierarchically Extensible Datatypes and Functions (TOPLAS)   Todd Millstein, Colin Bleckner, Craig Chambers",
+                    "key": 66
+                },
+                {
+                    "id": 94,
+                    "content": "Reconciling Software Extensibility with Modular Program Reasoning (PhD Dissertation)   Todd Millstein",
+                    "key": 67
+                },
+                {
+                    "id": 95,
+                    "content": "Relaxed MultiJava: Balancing Extensibility and Modular Typechecking (OOPSLA 2003)   Todd Millstein, Mark Reay, Craig Chambers",
+                    "key": 68
+                },
+                {
+                    "id": 96,
+                    "content": "Automatically Proving the Correctness of Compiler Optimizations (PLDI 2003, Best Paper Award )   Sorin Lerner, Todd Millstein, Craig Chambers",
+                    "key": 69
+                },
+                {
+                    "id": 97,
+                    "content": "Query Containment for Data Integration Systems (JCSS)   Todd Millstein, Alon Halevy, Marc Friedman",
+                    "key": 70
+                },
+                {
+                    "id": 98,
+                    "content": "Modular Typechecking for Hierarchically Extensible Datatypes and Functions (ICFP 2002)   Todd Millstein, Colin Bleckner, Craig Chambers",
+                    "key": 71
+                },
+                {
+                    "id": 99,
+                    "content": "Modular Statically Typed Multimethods (I&C)   Todd Millstein, Craig Chambers",
+                    "key": 72
+                },
+                {
+                    "id": 100,
+                    "content": "Automatic Predicate Abstraction of C Programs (PLDI 2001, 2011 Most Influential PLDI Paper Award )   Thomas Ball, Rupak Majumdar, Todd Millstein, Sriram Rajamani",
+                    "key": 73
+                },
+                {
+                    "id": 101,
+                    "content": "MultiJava: Modular Open Classes and Symmetric Multiple Dispatch for Java (OOPSLA 2000)   Curtis Clifton, Gary Leavens, Craig Chambers, Todd Millstein",
+                    "key": 74
+                },
+                {
+                    "id": 102,
+                    "content": "Query Containment for Data Integration Systems (PODS 2000)   Todd Millstein, Alon Halevy, Marc Friedman",
+                    "key": 75
+                },
+                {
+                    "id": 103,
+                    "content": "Navigational Plans for Data Integration (AAAI 1999)   Marc Friedman, Alon Halevy, Todd Millstein",
+                    "key": 76
+                },
+                {
+                    "id": 104,
+                    "content": "Modular Statically Typed Multimethods (ECOOP 1999)   Todd Millstein, Craig Chambers",
+                    "key": 77
+                },
+                {
+                    "id": 105,
+                    "content": "Multiple Dispatch as Dispatch on Tuples (OOPSLA 1998)   Gary Leavens, Todd Millstein",
+                    "key": 78
+                },
+                {
+                    "id": 106,
+                    "content": "Automatic SAT-Compilation of Planning Problems (IJCAI 1997)   Michael Ernst, Todd Millstein, Daniel Weld",
+                    "key": 79
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,653 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<title>6.033 | Spring 2020 | General Information</title>
+<meta content="no-cache" http-equiv="pragma"/>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
+<link href="6033.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript">
+    function autofill_email() {
+        var spans = document.getElementsByTagName("span");
+        for (i = 0; i < spans.length; i++) {
+            if (spans[i].className != "email_autofill")
+                continue;
+            spans[i].innerHTML = spans[i].innerHTML.replace(/ at /, "@");
+        }
+    }
+
+    function page_onload() {
+        autofill_email();
+    }
+</script>
+</head>
+<body><div class="navbar">
+<span class="menuItem">6.033 Spring 2020</span>
+<a href="index.shtml">Calendar</a>
+<a href="general.shtml">Information</a>
+<div class="dropdown">
+<button class="dropbtn" onclick="myFunction()">Assignments
+      <i class="fa fa-caret-down"></i>
+</button>
+<div class="dropdown-content" id="myDropdown">
+<a href="dp.shtml">Design Project</a>
+<a href="critiques.shtml">System Critiques</a>
+<a href="handsons.shtml">Hands-ons</a>
+<a href="https://6033.scripts.mit.edu:444/submit.cgi/">Submit Site</a>
+</div>
+<a href="help.shtml">Office Hours</a>
+<a href="https://piazza.com/mit/Spring2020/6033/">Piazza</a>
+</div>
+</div>
+<div align="center" class="main">
+<!-- End Menu -->
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+<link href="6033.css" rel="stylesheet" type="text/css"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
+<!-- ------------------ -->
+<!-- Begin Page Content -->
+<a href="#objectives">Learning Objectives</a>
+| <a href="#structure">Course Structure</a>
+| <a href="#sched">Recitation + Tutorial Schedule</a>
+| <a href="#staff">Staff Contact</a> | <a href="#grading">Grade
+	Breakdown + Late Policy</a> | <a href="#comp">Grade Components</a>
+| <a href="#collaboration">Collaboration Policy</a>
+<a name="objectives">
+<h2>6.033 Learning Objectives</h2>
+<p>After 6.033, the students will be able to design their own
+  distributed systems to solve real-world problems.  The ability to
+  design one's own distributed system includes an ability to argue for
+  one's design choices.
+
+</p><p>This primary objective is supported by a few others:
+
+</p><ul>
+<li>The students will be able to evaluate and critique existing
+  systems, as well as their own system designs.  As part of that, students
+  will learn to recognize design choices made in existing systems.
+</li><li>The students will be able to apply the technical material taught
+  in lecture to new system components.  This implies an ability to
+  recognize and describe:
+<ul>
+<li>How common design patterns in computer system—such as abstraction
+  and modularity—are used to limit complexity.
+</li><li>How operating systems use virtualization and abstraction to enforce
+  modularity.
+</li><li>How the Internet is designed to deal with scale, a diversity of
+  applications, and competing economic interests.
+</li><li>How reliable, usable distributed systems are able to be built on top
+  of an unreliable network.
+</li><li>Common pitFalls in the security of computer systems, and how to combat
+  them.
+</li></ul>
+</li></ul>
+<p>Because 6.033 is a CI-M class, students will also learn to
+  communicate in forms that are common in the field of computer
+  systems. This includes written design reports, oral presentations,
+  and peer review.
+
+</p><p>The communication instruction also supports the primary learning
+  objective of designing systems.  In the real world, we design
+  systems in teams, and communication of many forms (written, oral,
+  etc.) is part of that process.
+
+</p><p><b>Prerequisites:</b> 6.004; 6.005 or 6.009<br/>
+<b>Units:</b> 5-1-6 <br/>
+<b>Requirements satisfied:</b> CI-M for Course 6-1, 6-2, 6-3, 6-P, and
+18-C<br/><br/>
+<b>Textbook:</b> 6.033 uses Saltzer and
+Kaashoek's <i><a href="http://ocw.mit.edu/ans7870/resources/system/index.htm">Principles
+of Computer System Design: An Introduction</a></i> (Morgan Kaufmann
+2009).  The text supplements the lectures and recitations; it should
+be your first resource when you are confused by a lecture topic, or
+want more information.  </p>
+<p> If you notice errors of any kind in the 6.033 text, from minor
+    typos to major blunders, please report them by e-mail
+    to <a href="mailto:saltzer@mit.edu">saltzer@mit.edu</a>
+    and <a href="mailto:kaashoek@mit.edu">kaashoek@mit.edu</a>.
+
+</p><p> You can find PDFs with corrections to the printed and online
+  textbook <a href="http://ocw.mit.edu/resources/res-6-004-principles-of-computer-system-design-an-introduction-Spring-2009/online-textbook/">here</a><a>.
+  A more up to date version of the Part II errata
+  is </a><a href="errata_p2.pdf">here</a>.
+
+
+
+<a name="structure">
+<h2>Course Structure</h2>
+<!-- Put learning objectives for lectures, recitations, and tutorials --
+  -- here. -->
+<p>6.033 has three components: lectures, recitations, and tutorials.
+  We expect you to attend all three, as they each serve a different
+  purpose.
+
+</p><h3>Lectures</h3>
+<p> <b>Lectures</b> are held on Mondays and Wednesdays from 2:00pm-3:00pm in
+    26-100.  The lectures are designed to teach students the technical details
+  necessary to design their own systems and to put those details in
+  larger contexts: both the contexts of a specific area of systems as
+  well as systems in general.
+
+</p><p>This type of material appears in lectures because that's what lectures
+  are good at: giving a higher-level context for the details of the
+  class.
+
+</p><h3>Recitations</h3>
+<p><b>Recitations</b> are held on Tuesdays and Thursdays (schedule
+  below).  For the first recitation, attend whichever one
+  you want.  After that, you will be assigned a permanent section.
+
+</p><p>Recitations are designed to give students a chance to practice
+  their system-analysis and oral communication skills. Each recitation
+  revolves around a particular paper in systems.  Through reading
+  these papers, students get a better sense of how communication in
+  the field is done.  Recitations are discussion-based; students get
+  practice analyzing, critiquing, and communicating about systems.
+
+</p><h3>Writing Tutorials</h3>
+<p><b>Writing tutorials</b> are held on Fridays (schedule
+  below).  <b>All tutorials occur at 1:00pm or 2:00pm</b>; we will
+  assign you timeslot during the first week of classes.
+
+</p><p>Most of these tutorials will teach the communication theory and
+  practices of this course, and assist you in preparing for the
+  assignments. You'll become fluent in a variety of communication
+  genres, develop strategies and skills needed to present technical
+  concepts to different audiences, learn how to use writing to develop
+  and deepen your technical understanding—and get specific, directed
+  instruction on writing and presenting your 6.033 assignments.  A
+  handful of the tutorials will be dedicated to discussing the design
+  project.</p>
+</a><a name="sched">
+<h2>Recitation + Tutorial Schedule</h2>
+<div class="note"><center>All recitation sections meet on
+	Tuesdays <b>and</b> Thursdays at the specified time.  All tutorials meet on
+	Fridays, at either 1pm or 2pm.  Your section (and tutorial time)
+	will be assigned during the first week of class.</center></div>
+<p></p></a></p></a><table cellpadding="4" cellspacing="0">
+<tr bgcolor="#CCCCCC">
+<td style="border-right: solid 2px"></td>
+<td align="center" colspan="3" style="border-right: solid 2px;"><b>Recitations</b></td>
+<td align="center" colspan="2" style="border-right: solid 2px;"><b>Tutorials</b></td>
+<td></td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td align="center" style="border-right: solid 2px;"><strong>#</strong></td>
+<td align="center"><strong>Time</strong></td>
+<td align="center"><strong>Location</strong></td>
+<td align="center" style="border-right: solid 2px;"><strong>Instructor</strong></td>
+<td align="center"><strong>Instructor</strong></td>
+<td align="center" style="border-right: solid 2px;"><strong>Location</strong></td>
+<td align="center"><strong>TA</strong></td>
+</tr>
+<tr>
+<td style="border-right: solid 2px">1</td>
+<td>10am</td>
+<td>34-302</td>
+<td style="border-right: solid 2px">Karen Sollins</td>
+<td>Keith Clavin</td>
+<td align="center" style="border-right: solid 2px">34-301</td>
+<td>Christabel Sitienei</td>
+</tr>
+<tr>
+<td style="border-right: solid 2px">2</td>
+<td>11am</td>
+<td>34-302</td>
+<td style="border-right: solid 2px">Karen Sollins</td>
+<td>Keith Clavin</td>
+<td align="center" style="border-right: solid 2px">34-301</td>
+<td>Christabel Sitienei</td>
+</tr>
+<tr>
+<td style="border-right: solid 2px">3</td>
+<td>10am</td>
+<td>26-168</td>
+<td style="border-right: solid 2px">Howie Shrobe</td>
+<td>Caroline Beimford and Juergen Schoenstein</td>
+<td align="center" style="border-right: solid 2px">24-112</td>
+<td>Urmi Mustafi</td>
+</tr>
+<tr>
+<td style="border-right: solid 2px">4</td>
+<td>11am</td>
+<td>26-168</td>
+<td style="border-right: solid 2px">Howie Shrobe</td>
+<td>Caroline Beimford and Juergen Schoenstein</td>
+<td align="center" style="border-right: solid 2px">24-112</td>
+<td>Urmi Mustafi</td>
+</tr>
+<tr>
+<td style="border-right: solid 2px">5</td>
+<td>10am</td>
+<td>34-304</td>
+<td style="border-right: solid 2px">Manya Ghobadi</td>
+<td>Atissa Banuazizi &amp; Rebecca Thorndike-Breeze</td>
+<td align="center" style="border-right: solid 2px">26-328</td>
+<td>Peter Griggs</td>
+</tr>
+<tr>
+<td style="border-right: solid 2px">6</td>
+<td>11am</td>
+<td>34-304</td>
+<td style="border-right: solid 2px">Manya Ghobadi</td>
+<td>Atissa Banuazizi &amp; Rebecca Thorndike-Breeze</td>
+<td align="center" style="border-right: solid 2px">26-328</td>
+<td>Peter Griggs</td>
+</tr>
+<tr>
+<td style="border-right: solid 2px">7</td>
+<td>12pm</td>
+<td>34-304</td>
+<td style="border-right: solid 2px">Katrina LaCurts</td>
+<td>Jessie Stickgold-Sarah &amp; Michael Maune</td>
+<td align="center" style="border-right: solid 2px">34-304</td>
+<td>Diana Wofk</td>
+</tr>
+<tr>
+<td style="border-right: solid 2px">8</td>
+<td>1pm</td>
+<td>34-304</td>
+<td style="border-right: solid 2px">Katrina LaCurts</td>
+<td>Jessie Stickgold-Sarah &amp; Michael Maune</td>
+<td align="center" style="border-right: solid 2px">34-304</td>
+<td>Diana Wofk</td>
+</tr>
+<tr>
+<td style="border-right: solid 2px">9</td>
+<td>12pm</td>
+<td>34-302</td>
+<td style="border-right: solid 2px">Olivia Brode-Roger</td>
+<td>Dave Larson</td>
+<td align="center" style="border-right: solid 2px">26-142</td>
+<td>Crystal Wang</td>
+</tr>
+<tr>
+<td style="border-right: solid 2px">10</td>
+<td>1pm</td>
+<td>34-302</td>
+<td style="border-right: solid 2px">Olivia Brode-Roger</td>
+<td>Dave Larson</td>
+<td align="center" style="border-right: solid 2px">26-142</td>
+<td>Crystal Wang</td>
+</tr>
+<tr>
+<td style="border-right: solid 2px">11</td>
+<td>12pm</td>
+<td>36-372</td>
+<td style="border-right: solid 2px">Steve Bauer</td>
+<td>Amy Carleton</td>
+<td align="center" style="border-right: solid 2px">36-372</td>
+<td>Alex Lynch</td>
+</tr>
+<tr>
+<td style="border-right: solid 2px">12</td>
+<td>1pm</td>
+<td>36-372</td>
+<td style="border-right: solid 2px">Steve Bauer</td>
+<td>Amy Carleton</td>
+<td align="center" style="border-right: solid 2px">36-372</td>
+<td>Alex Lynch</td>
+</tr>
+<tr>
+<td style="border-right: solid 2px">13</td>
+<td>1pm</td>
+<td>36-155</td>
+<td style="border-right: solid 2px">Michael Cafarella</td>
+<td>Michael Trice</td>
+<td align="center" style="border-right: solid 2px">36-155</td>
+<td>Yunyi Zhu</td>
+</tr>
+<tr>
+<td style="border-right: solid 2px">14</td>
+<td>2pm</td>
+<td>36-155</td>
+<td style="border-right: solid 2px">Michael Cafarella</td>
+<td>Michael Trice</td>
+<td align="center" style="border-right: solid 2px">36-155</td>
+<td>Yunyi Zhu</td>
+</tr>
+<tr>
+<td style="border-right: solid 2px">15</td>
+<td>1pm</td>
+<td>38-166</td>
+<td style="border-right: solid 2px">Adam Belay</td>
+<td>Kevin Marinelli</td>
+<td align="center" style="border-right: solid 2px">66-168</td>
+<td>Sydney Gibson</td>
+</tr>
+<tr>
+<td style="border-right: solid 2px">16</td>
+<td>2pm</td>
+<td>38-166</td>
+<td style="border-right: solid 2px">Adam Belay</td>
+<td>Kevin Marinelli</td>
+<td align="center" style="border-right: solid 2px">66-168</td>
+<td>Sydney Gibson</td>
+</tr>
+</table>
+<a name="staff">
+<h2>Staff</h2>
+<p> To contact the course staff as a whole, please
+  use <a href="https://piazza.com/mit/Spring2020/6033/">Piazza</a>
+  unless you need to email a staff member individually.  You can post
+  a private question
+  on <a href="https://piazza.com/mit/Spring2020/6033/">Piazza</a> if
+  you do not want your communication to be visible to the other
+  students in the class.
+
+
+</p></a><table cellpadding="3" cellspacing="3">
+<tr>
+<th>Role</th>
+<th>Name</th>
+<th>Email
+</th></tr>
+<!-- Lecturers -->
+<tr bgcolor="beige">
+<td rowspan="1">Lectures</td>
+<td>Katrina LaCurts</td>
+<td align="center"><span class="email_autofill"><tt>lacurts at mit.edu</tt></span></td>
+</tr>
+<!-- Recitation Instructors -->
+<tr bgcolor="lightgreen">
+<td rowspan="7">Recitations</td>
+<td>Adam Belay</td>
+<td align="center"><span class="Email_autofill"><tt>abelay at mit.edu</tt></span></td>
+</tr>
+<tr bgcolor="lightgreen">
+<td>Steve Bauer</td>
+<td align="center"><span class="Email_autofill"><tt>bauer at mit.edu</tt></span></td>
+</tr>
+<tr bgcolor="lightgreen">
+<td>Olivia Brode-Roger</td>
+<td align="center"><span class="email_autofill"><tt>nibr at mit.edu</tt></span></td>
+</tr>
+<tr bgcolor="lightgreen">
+<td>Michael Cafarella</td>
+<td align="center"><span class="email_autofill"><tt>michjc at mit.edu</tt></span></td>
+</tr>
+<tr bgcolor="lightgreen">
+<td>Manya Ghobadi</td>
+<td align="center"><span class="email_autofill"><tt>ghobadi at mit.edu</tt></span></td>
+</tr>
+<tr bgcolor="lightgreen">
+<td>Howard Shrobe</td>
+<td align="center"><span class="email_autofill"><tt>hes at csail.mit.edu</tt></span></td>
+</tr>
+<tr bgcolor="lightgreen">
+<td>Karen Sollins</td>
+<td align="center"><span class="email_autofill"><tt>sollins at csail.mit.edu</tt></span></td>
+</tr>
+<!-- WRAP Staff -->
+<tr bgcolor="lightblue">
+<td rowspan="11">Tutorials</td>
+<td>Atissa Banuazizi</td>
+<td align="center"><span class="email_autofill"><tt>atissa at mit.edu</tt></span></td>
+</tr>
+<tr bgcolor="lightblue">
+<td>Caroline Beimford</td>
+<td align="center"><span class="email_autofill"><tt>beimford at mit.edu</tt></span></td>
+</tr>
+<tr bgcolor="lightblue">
+<td>Amy Carleton</td>
+<td align="center"><span class="email_autofill"><tt>amymarie at mit.edu</tt></span></td>
+</tr>
+<tr bgcolor="lightblue">
+<td>Keith Clavin</td>
+<td align="center"><spam class="email_autofill"><tt>clavin at mit.edu</tt></spam></td>
+</tr>
+<tr bgcolor="lightblue">
+<td>Dave Larson</td>
+<td align="center"><spam class="email_autofill"><tt>larsond at mit.edu</tt></spam></td></tr>
+<tr bgcolor="lightblue">
+<td>Kevin Marinelli</td>
+<td align="center"><spam class="email_autofill"><tt>kevinmar at mit.edu</tt></spam></td>
+</tr>
+<tr bgcolor="lightblue">
+<td>Michael Maune</td>
+<td align="center"><spam class="email_autofill"><tt>mmaune at mit.edu</tt></spam></td>
+</tr>
+<tr bgcolor="lightblue">
+<td>Juergen Schoenstein</td>
+<td align="center"><span class="email_autofill"><tt>juergen at mit.edu</tt></span></td>
+</tr>
+<tr bgcolor="lightblue">
+<td>Jessie Stickgold-Sarah</td>
+<td align="center"><span class="email_autofill"><tt>jmss at mit.edu</tt></span></td>
+</tr>
+<tr bgcolor="lightblue">
+<td>Rebecca Thorndike-Breeze</td>
+<td align="center"><span class="email_autofill"><tt>rtb at mit.edu</tt></span></td>
+</tr>
+<tr bgcolor="lightblue">
+<td>Michael Trice</td>
+<td align="center"><span class="email_autofill"><tt>mtrice at mit.edu</tt></span></td>
+</tr>
+<!-- TAs -->
+<tr bgcolor="lightpink">
+<td rowspan="11">TAs<br/></td>
+<td>Eric Bradford</td>
+<td align="center"><span class="email_autofill"><tt>ebrad at mit.edu</tt></span></td>
+</tr>
+<tr bgcolor="lightpink">
+<td>Johnny Bui</td>
+<td align="center"><span class="email_autofill"><tt>jbui at mit.edu</tt></span></td>
+</tr>
+<tr bgcolor="lightpink">
+<td>Sydney Gibson</td>
+<td align="center"><span class="email_autofill"><tt>gibsons at mit.edu</tt></span></td>
+</tr>
+<tr bgcolor="lightpink">
+<td>Peter Griggs</td>
+<td align="center"><span class="email_autofill"><tt>pgriggs at mit.edu</tt></span></td>
+</tr>
+<tr bgcolor="lightpink">
+<td>EJ Jiang</td>
+<td align="center"><span class="email_autofill"><tt>jiange at mit.edu</tt></span></td>
+</tr>
+<tr bgcolor="lightpink">
+<td>Alex Lynch</td>
+<td align="center"><span class="email_autofill"><tt>ajlynch at mit.edu</tt></span></td>
+</tr>
+<tr bgcolor="lightpink">
+<td>Urmi Mustafi</td>
+<td align="center"><span class="email_autofill"><tt>umustafi at mit.edu</tt></span></td>
+</tr>
+<tr bgcolor="lightpink">
+<td>Christabel Sitienei</td>
+<td align="center"><span class="email_autofill"><tt>sitienei at mit.edu</tt></span></td>
+</tr>
+<tr bgcolor="lightpink">
+<td>Crystal Wang</td>
+<td align="center"><span class="email_autofill"><tt>cyqwang at mit.edu</tt></span></td>
+</tr>
+<tr bgcolor="lightpink">
+<td>Diana Wofk</td>
+<td align="center"><span class="email_autofill"><tt>diana96 at mit.edu</tt></span></td>
+</tr>
+<tr bgcolor="lightpink">
+<td>Yunyi Zhu</td>
+<td align="center"><span class="email_autofill"><tt>yunyizhu at mit.edu</tt></span></td>
+</tr>
+</table>
+<a name="grading">
+<h2>Grading</h2>
+<p>6.033 consists of three components: technical material,
+  communication/system design and analysis, and participation.  Each
+  of these components comprises <i>roughly</i> one third of your
+  grade, according to the following breakdown:
+
+</p><p>
+</p></a><table>
+<tr><th>35%:</th><td><b>Technical Material</b></td></tr>
+<tr><td></td><td>30% for Quizzes (two @ 15% each)</td></tr>
+<tr><td></td><td>5% for Hands-ons</td></tr>
+<tr><th>40%:</th><td><b>Communication + System design and
+  analysis</b></td></tr>
+<tr><td></td><td>10% for DP preliminary report + DP presentation</td></tr>
+<tr><td></td><td>20% for DP report</td></tr>
+<tr><td></td><td>4% for the DP peer review</td></tr>
+<tr><td></td><td>6% for critiques (2%, 4%)</td></tr>
+<tr><th>25%:</th><td><b>Participation</b></td></tr>
+<tr><td></td><td>20% for recitation participation</td></tr>
+<tr><td></td><td>5% for communication participation</td></tr>
+</table>
+<div class="note"><b>You must complete all design project assignments in order to
+  pass 6.033.  If you do not, you will automatically receive an
+  F.</b></div>
+<a name="late"> </a>
+<h3>Late Policy</h3>
+
+You must hand in assignments when they are due, and you must attend
+quizzes at the scheduled times. If you feel you have a compelling
+reason for not handing in an assignment on time, or for not attending
+a quiz, please talk to Dr. LaCurts <b>in advance</b>; with support
+from <a href="http://mit.edu/uaap/s3/">S3</a> we will make exceptions.
+
+<p>The only exception to this late policy is design-project materials.
+  For those, the late policy will be explicitly posted on each
+  assignment.
+
+</p><p>If you miss an assignment deadline, you should still hand in the
+assignment; we'll give you feedback even though we won't give you
+credit for your final grade.  Furthermore, doing assignments is the
+best way to prepare for exams and design project.  Unless otherwise
+specified, assignments are due at 5:00pm on their assigned due-date
+(hands-ons are due at 11:59pm).
+
+<a name="comp">
+<h2>Grade Components</h2>
+<p>Each assignment supports the objectives of 6.033 in various ways.
+
+</p><h3>Technical Material</h3>
+<p> <b>Quizzes:</b> One quiz is held during the term. A second quiz
+    will be scheduled during finals week. Each quiz will focus on half
+    of the class' material, but keep in mind that later topics in
+    6.033 build heavily upon the earlier topics.  The quizzes will
+    test material from lectures, recitations, and the assigned
+    reading, and let us test whether students have mastered the
+    technical material.</p>
+<p> <b>Hands-ons:</b> During most weeks, you will be expected to
+    complete a hands-on experiment that requires a computer, usually
+    an Athena workstation, and sometimes the Internet. These reinforce
+    some of the abstract concepts from the lectures or papers that
+    week, and let you find out how things really work.
+
+</p><h3>Communication + System design and analysis</h3>
+<p>The 6.033 staff have worked with the MIT Writing, Rhetoric, and
+  Professional Communication (WRAP) program for more than 10 years to
+  design 6.033 writing and speaking assignments. We have chosen
+  assignments that are similar to the kinds of writing you will do in
+  the engineering workplace: preliminary reports, final
+  reports, and presentations. Communication assignments are designed
+  to help you conceptualize and develop the design project.</p>
+<h4>Design Project</h4>
+<p>The primary assignment in 6.033 is the design project (DP).  This
+project is where the students get to design their own system, which is
+the primary objective of this course.
+
+</p><p> The DP requires you to develop a detailed system design to solve a
+real-world problem.  This project will extend over most of the
+semester, and will be done in teams of three students, all of whom
+attend the same writing tutorial (with exceptions only for extenuating
+circumstances). Real-world systems are not built individually; it's
+always a team effort.  Part of the DP is to learn to work productively
+and effectively in this setting.  We will give you tools for doing so
+in the writing tutorials.
+
+</p><p>The DP consists of multiple deliverables: a preliminary report,
+  oral presentation, final report, and peer review.
+  The <a href="dp.shtml">Design Project</a> page gives more detail
+  about the DP deliverables.
+
+</p><h4>System Critiques</h4>
+<p>One of the goals of 6.033 is for students to be able to analyze and
+  critique technical systems.  We will assign multiple system critiques
+  during the semester.
+
+</p><p>These critiques will be graded by your TAs and/or Communication
+  Instructors, and assigned a letter grade (we will specify more
+  details about grading in each of the assignments).  The
+  expectations for each individual critique will be detailed in the
+  tutorials.  As your skills at analyzing and reading technical papers
+  improve throughout the semester, we will expect your critiques to
+  reflect that.
+
+<a name="participation">
+<h3>Participation</h3>
+<h4>Recitation Participation</h4>
+<p>Our recitations are discussion-based, and we expect you to be
+  engaged and participate.  Participating in a recitation means:
+
+</p><ul>
+<li>Coming prepared to recitation (doing the reading, turning in the
+pre-reading question etc.)
+</li><li> Paying attention when the instructor is speaking (you can't
+  participation in a discussion if you don't know what it's about)
+</li><li>Participating (verbally) in pair-/group-work
+</li><li>Volunteering to answer questions when the instructor asks them.
+  (Note that you may not get called on each time.  That's okay; our
+  class sizes prevent that.  Statistically, if you're raising your
+  hand frequently, you'll get called on with some frequency.)
+</li><li>Responding to other student's comments with an opinion of their own.
+</li><li>Asking good questions in recitation (where "good" just means it's
+  clear that you prepared for the recitation).
+</li></ul>
+<p>We will assign the participation grade at the end of the
+  semester. So that you know where you stand throughout the class, we
+  will you three preliminary participation grades (one about a quarter
+  into the semester, one about halfway through, and one three quarters
+  into the semester). <a href="participation.pdf">This document</a>
+  explains in more detail how your participation grade is determined.
+
+<!--<p>Just like we expect you to be engaged in recitation, we also expect
+  you to be engaged with the class as a whole, including the
+  syllabus.  To that end, once you've read this, please send
+  Dr. LaCurts your favorite .gif (a link to it is fine).-->
+</p><h4>Communication Participation</h4>
+<p> A portion of your participation grade will also be based on your
+  participation in writing tutorials and on your understanding of
+  communication concepts and skills, as demonstrated by your work on
+  the design project and evaluated by your communication
+  instructor.</p><p>
+</p><p>Note that over a third of your grade comes from written
+assignments: we expect you to take writing seriously in this class.
+
+<a name="collaboration"> </a>
+</p><h2>Collaboration</h2>
+<p> You may not collaborate on quizzes.  On hands-ons, it's okay to
+    discuss ideas with your classmates, but you should not be
+    collaborating on the actual answers.  Take the UNIX hands-on for
+    example: it's okay to talk to your classmates about what pipes
+    are, it's not okay to work together to come up with a command that
+    gives a long listing of the smallest give files in the /etc
+    directory whose name contains the string ".conf", sorted by
+    increasing file size (i.e., the solution to one of the first
+    questions).
+
+</p><p>On all writing assignments you are welcome to discuss ideas with
+    others, but your writing should be your own and you
+    should <em>acknowledge all contributions of ideas by others</em>,
+    whether from classmates or from papers you have read. </p>
+<!--  End Page Content  -->
+<!-- ------------------ -->
+<!--</td></tr> 
+<tr bgcolor="#999999" height="20">
+<td style="padding-left: 10px; padding-top: 10px; padding-bottom: 10px;">-->
+</a></p></a></p>
+</div></body></html>

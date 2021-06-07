@@ -1,0 +1,817 @@
+{
+    "id": 0,
+    "content": "Hank Hoffmann, CS@U-Chicago",
+    "isList": true,
+    "children": [
+        {
+            "id": 1,
+            "content": "News | Research | Publications",
+            "isList": true,
+            "key": 1
+        },
+        {
+            "id": 2,
+            "content": "",
+            "key": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "content": "Henry (Hank) Hoffmann   Associate Professor   Email: hankhoffmann @ cs.uchicago.edu   Phone: Please Email   John Crerar Library 341   5730 S. Ellis   Chicago, IL 60637   CV: [pdf]   Bio: [html]   Research Statement: [pdf]",
+                    "isList": true,
+                    "key": 1
+                },
+                {
+                    "id": 4,
+                    "content": "Research",
+                    "isList": true,
+                    "key": 2,
+                    "children": [
+                        {
+                            "id": 5,
+                            "content": "Research Areas :",
+                            "key": 1,
+                            "children": [
+                                {
+                                    "id": 6,
+                                    "content": "Self-aware & Adaptive Computing, Operating Systems, Computer Architecture (UChicago Systems Group)",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 7,
+                            "content": "Research Interests:",
+                            "key": 2,
+                            "children": [
+                                {
+                                    "id": 8,
+                                    "content": "Modern computer systems have to meet goals in multiple -- often competing -- dimensions; e.g., high performance and low energy consumption. This creates a great burden on programmers who must be experts in both their application domain and in the myriad system issues that affect power, energy, reliability, performance, and more. To alleviate this burden, I study ways to build self-aware computing systems that understand high-level goals and automatically adapt their behavior to meet those goals optimally. This is interdisciplinary work covering traditional areas, like operating systems and computer architecture, as well as new areas, like control theory and machine learning applied to computer system management and optimization.",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 9,
+                            "content": "Project Web Pages:",
+                            "key": 3,
+                            "children": [
+                                {
+                                    "id": 10,
+                                    "content": "CERES , SEEC, POET, LEO",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 11,
+                            "content": "Current Students:",
+                            "key": 4,
+                            "children": [
+                                {
+                                    "id": 12,
+                                    "content": "Saeid Barati, Bernard Dickens, Yi Ding, Anne Farrel, Tejas Kannan, Will Kong, Ivana Marincic, Ahsan Pervaiz, Muhammad Husni Santriaji, Yuliana Zamora",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 13,
+                            "content": "Alumni:",
+                            "key": 5,
+                            "children": [
+                                {
+                                    "id": 14,
+                                    "content": "Huazhe Zhang, PhD 2019 [thesis, masters] , Facebook   Gökalp Demirci, PhD 2019 [thesis] , Facebook   Zhixuan Zhou, PhD 2018 [thesis] , Google   Connor Imes, PhD, 2018 [thesis] , ISI East   Nikita Mishra, PhD 2017 [thesis], Twitch   Lee Ehudin, BS/MS 2017, Google   Tristan Rasmussen, BS/MS 2015, Google",
+                                    "key": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 15,
+                            "content": "Old Research Statement (from 2015): [pdf]",
+                            "key": 6
+                        }
+                    ]
+                },
+                {
+                    "id": 16,
+                    "content": "News",
+                    "isList": true,
+                    "key": 3,
+                    "children": [
+                        {
+                            "id": 17,
+                            "content": "After three trips to the emergency room, two patellar tendon ruptures, two dislocations, 37 stitches, and 33 staples, I finally earned a black belt in Tang Soo Do.",
+                            "key": 1
+                        },
+                        {
+                            "id": 18,
+                            "content": "I just won a PECASE (Presidential Early Career Award for Scientists and Engineers).",
+                            "key": 2
+                        },
+                        {
+                            "id": 19,
+                            "content": "Yulie Zamora received a National Physical Science Consortium Fellowship. Congrats, Yulie!",
+                            "key": 3
+                        },
+                        {
+                            "id": 20,
+                            "content": "Our ICAC 2019 paper won the Karsten Schwann Best Paper Award!",
+                            "key": 4
+                        },
+                        {
+                            "id": 21,
+                            "content": "Huazhe (Harper) Zhang's Supercomputing 2019 paper has been nominated for both Best Student Paper and Best Paper!",
+                            "key": 5
+                        },
+                        {
+                            "id": 22,
+                            "content": "Our CALOREE paper from ASPLOS 2018 was selected as an IEEE Micro Top Picks Honorable Mention. Here is the summary we submitted: [pdf].",
+                            "key": 6
+                        },
+                        {
+                            "id": 23,
+                            "content": "I got a great introduction to quantum computing from Fred Chong and the EPICQ project at UChicago. Our collaboration creating an optimizing quantum compiler (with up to 10x reductions in program latency!) will appear at ASPLOS 2019.",
+                            "key": 7
+                        },
+                        {
+                            "id": 24,
+                            "content": "I had a great time representing our department at the Grace Hopper Celebration 2018. [article]",
+                            "key": 8
+                        },
+                        {
+                            "id": 25,
+                            "content": "We recently published two papers with exponential improvements on the worst case approximation for scheduling under performance and power constraints. The first (at STACS 2018) improved the known bound from O(n) to O(log n). The second (at Supercomputing 2018) made this algorithm practical by accounting for configurable power/performance tradeoffs. To the best of our knowledge these are the first practical scheduling algorithms that use something other than greedy approaches.",
+                            "key": 9
+                        },
+                        {
+                            "id": 26,
+                            "content": "Bernard Dickens III has received a Generation Google Scholarship. Congrats Bernard!",
+                            "key": 10
+                        },
+                        {
+                            "id": 27,
+                            "content": "Efforts to commercialize my self-aware computing research were described in a recent Crunchbase article.",
+                            "key": 11
+                        },
+                        {
+                            "id": 28,
+                            "content": "I was granted early tenure by the University of Chicago (effective 07/01/2018).",
+                            "key": 12
+                        },
+                        {
+                            "id": 29,
+                            "content": "Paper on hardware support for real-time GPU computing accepted to RTAS.",
+                            "key": 13
+                        },
+                        {
+                            "id": 30,
+                            "content": "We got three papers into ASPLOS 2018!",
+                            "key": 14
+                        },
+                        {
+                            "id": 31,
+                            "content": "CALOREE, combining learning and control for intelligent resource management.",
+                            "key": 15
+                        },
+                        {
+                            "id": 32,
+                            "content": "SmartConf, automatically adjusting performance-sensitive configurations in web-infrastructure software.",
+                            "key": 16
+                        },
+                        {
+                            "id": 33,
+                            "content": "StrongBox, using mobile hardware and stream ciphers for secure file systems with much higher performance than AES-XTS.",
+                            "key": 17
+                        },
+                        {
+                            "id": 34,
+                            "content": "I am honored to serve as the program chair of WAX 2018, co-located with ASPLOS.",
+                            "key": 18
+                        },
+                        {
+                            "id": 35,
+                            "content": "I have graduated my first PhD student, Nikita Mishra. Congratulations, Nikita!",
+                            "key": 19
+                        },
+                        {
+                            "id": 36,
+                            "content": "Collaboration with Fred Chong's group on using ML to optimize non-volatile memory accepted to MICRO 2017",
+                            "key": 20
+                        },
+                        {
+                            "id": 37,
+                            "content": "Paper on automated MPC synthesis accepted to FSE 2017",
+                            "key": 21
+                        },
+                        {
+                            "id": 38,
+                            "content": "Our collaboration with Mozilla Research is accepted to FSE 2016",
+                            "key": 22
+                        },
+                        {
+                            "id": 39,
+                            "content": "Our paper on adding hardware control of resources to GPUs is accepted to MICRO 2016",
+                            "key": 23
+                        },
+                        {
+                            "id": 40,
+                            "content": "We have been invited to present a paper on POET at MCSoC 2016",
+                            "key": 24
+                        },
+                        {
+                            "id": 41,
+                            "content": "Our paper on using approximation to meet hard real-time deadlines with low energy consumption was accepted to USENIX ATC 2016",
+                            "key": 25
+                        },
+                        {
+                            "id": 42,
+                            "content": "I am giving a keynote on approximate computing at IPDRM, the first Workshop on Emerging Parallel and Distributed Runtime Systems and Middleware, part of IPDPS",
+                            "key": 26
+                        },
+                        {
+                            "id": 43,
+                            "content": "I am giving the keynote on the research challenges of incorporating self-aware software into cyber physical systems at SelPhyS 2016, the first Workshop on Self-aware Cyber Physical Systems, part of CPS week in Vienna",
+                            "key": 27
+                        },
+                        {
+                            "id": 44,
+                            "content": "Our collaboration with David Wentzlaff's team from Princeton was accepted to ISCA 2016",
+                            "key": 28
+                        },
+                        {
+                            "id": 45,
+                            "content": "Our team -- led by Krishna Palem (Rice) and including Corky Cartwright (Rice), Arvind (MIT), Keshav Pingali (UT Austin), Don Fussell (UT Austin) and me -- is one of the funded projects under DARPA's BRASS program",
+                            "key": 29
+                        },
+                        {
+                            "id": 46,
+                            "content": "Our paper on hardware, software, and hybrid power capping is accepted to ASPLOS 2016",
+                            "key": 30
+                        },
+                        {
+                            "id": 47,
+                            "content": "Along with Andrew Chien, I am a vice chair for the Architecture Track at IPDPS 2016",
+                            "key": 31
+                        },
+                        {
+                            "id": 48,
+                            "content": "My research in the news",
+                            "key": 32
+                        },
+                        {
+                            "id": 49,
+                            "content": "JouleGuard is accepted by SOSP 2015",
+                            "key": 33
+                        },
+                        {
+                            "id": 50,
+                            "content": "Our paper on automated design of multidimensional software control is accepted at FSE 2015",
+                            "key": 34
+                        },
+                        {
+                            "id": 51,
+                            "content": "I received the DoE Early Career Award in 2015",
+                            "key": 35
+                        },
+                        {
+                            "id": 52,
+                            "content": "Our paper on ML for energy optimization is accepted to ASPLOS 2015",
+                            "key": 36
+                        },
+                        {
+                            "id": 53,
+                            "content": "Connor Imes and I received the best paper award at the Embedded Operating Systems Workshop 2014",
+                            "key": 37
+                        },
+                        {
+                            "id": 54,
+                            "content": "My work on self-aware computing was named one of ten \"World Changing Ideas\" by Scientific American in 2011",
+                            "key": 38
+                        }
+                    ]
+                },
+                {
+                    "id": 55,
+                    "content": "Academic Career",
+                    "isList": true,
+                    "key": 4,
+                    "children": [
+                        {
+                            "id": 56,
+                            "content": "Associate Professor, University of Chicago, 2018-",
+                            "key": 1
+                        },
+                        {
+                            "id": 57,
+                            "content": "Assistant Professor, University of Chicago, 2013-2018",
+                            "key": 2
+                        },
+                        {
+                            "id": 58,
+                            "content": "PhD, MIT, 2013 Dissertation: \"SEEC : a framework for self-aware management of goals and constraints in computing systems\"   Advisors: Anant Agarwal and Srinivas Devadas",
+                            "key": 3
+                        },
+                        {
+                            "id": 59,
+                            "content": "S.M., MIT, 2003 Thesis: \"Stream Algorithms and Architectures\"   Advisor:Anant Agarwal",
+                            "key": 4
+                        },
+                        {
+                            "id": 60,
+                            "content": "B.S. with highest honors and highest distinction, UNC-Chapel Hill, 1999",
+                            "key": 5
+                        }
+                    ]
+                },
+                {
+                    "id": 61,
+                    "content": "Professional Career",
+                    "isList": true,
+                    "key": 5,
+                    "children": [
+                        {
+                            "id": 62,
+                            "content": "Design Engineer, Tilera Corporation, 2005-2008",
+                            "key": 1
+                        },
+                        {
+                            "id": 63,
+                            "content": "Associate Staff, MIT Lincoln Laboratory, 2003-2004",
+                            "key": 2
+                        },
+                        {
+                            "id": 64,
+                            "content": "Assistant Staff, MIT Lincoln Laboratory, 1999-2003",
+                            "key": 3
+                        }
+                    ]
+                },
+                {
+                  "id": 65,
+                  "content": "Recent Publications",
+                  "isList": true,
+                  "key": 6,
+                  "children": [
+                    {
+                      "id": 66,
+                      "content": "",
+                      "isList": true,
+                      "key": 1,
+                      "children": [
+                        {
+                          "id": 67,
+                          "content": "As recorded by DBLP",
+                          "key": 1
+                        },
+                        {
+                          "id": 68,
+                          "content": "As recorded by Google Scholar",
+                          "key": 2
+                        }
+                      ]
+                    },
+                    {
+                      "id": 69,
+                      "content": "A Simple Cache Coherence Scheme for Integrated CPU-GPU Systems [DAC 2020]",
+                      "key": 2
+                    },
+                    {
+                      "id": 70,
+                      "content": "",
+                      "key": 3,
+                      "children": [
+                        {
+                          "id": 71,
+                          "content": "SeeSAw: Optimizing Performance of In-Situ Analytics Applications under Power Constraints [IPDPS 2020]",
+                          "key": 1
+                        },
+                        {
+                          "id": 72,
+                          "content": "2019:",
+                          "key": 2
+                        }
+                      ]
+                    },
+                    {
+                      "id": 73,
+                      "content": "Partial Compilation of Variational Algorithms for Noisy Intermediate-Scale Quantum Machines [MICRO 2019]",
+                      "key": 4
+                    },
+                    {
+                      "id": 74,
+                      "content": "PoDD: Power-capping Dependent Distributed Applications [Supercomputing 2019]",
+                      "key": 5
+                    },
+                    {
+                      "id": 75,
+                      "content": "Generative and Multi-phase Learning for Computer Systems Optimization [ISCA 2019]",
+                      "key": 6
+                    },
+                    {
+                      "id": 76,
+                      "content": "Optimized Compilation of Aggregated Instructions for Realistic Quantum Computers [ASPLOS 2019]",
+                      "key": 7
+                    },
+                    {
+                      "id": 77,
+                      "content": "Proteus: Language and Runtime Support for Self-Adaptive Software Development [IEEE Software]",
+                      "key": 8
+                    },
+                    {
+                      "id": 78,
+                      "content": "CoPPer: Soft Real-time Application Performance Using Hardware Power Capping [ICAC 2019] Best Paper!",
+                      "key": 9
+                    },
+                    {
+                      "id": 79,
+                      "content": "",
+                      "key": 10,
+                      "children": [
+                        {
+                          "id": 80,
+                          "content": "A Simple Cache Coherence Scheme for Integrated CPU-GPU Systems [tech report]",
+                          "key": 1
+                        },
+                        {
+                          "id": 81,
+                          "content": "2018:",
+                          "key": 2
+                        }
+                      ]
+                    },
+                    {
+                      "id": 82,
+                      "content": "A divide and conquer algorithm for DAG scheduling under power constraints [Supercomputing 2018]",
+                      "key": 11
+                    },
+                    {
+                      "id": 83,
+                      "content": "Understanding and Auto-Adjusting Performance-Sensitive Configurations [ASPLOS 2018] [preprint]",
+                      "key": 12
+                    },
+                    {
+                      "id": 84,
+                      "content": "StrongBox: Confidentiality, Integrity, and Performance using Stream Ciphers for Full Drive Encryption [ASPLOS 2018] [preprint]",
+                      "key": 13
+                    },
+                    {
+                      "id": 85,
+                      "content": "CALOREE: Learning Control for Predictable Latency and Low Energy [ASPLOS 2018] [preprint] [early techreport (2016)] [short summary] IEEE Micro Top Picks Honorable Mention",
+                      "key": 14
+                    },
+                    {
+                      "id": 86,
+                      "content": "MERLOT: Architectural Support for Energy-Efficient Real-time Processing in GPUs [RTAS 2018]",
+                      "key": 15
+                    },
+                    {
+                      "id": 87,
+                      "content": "Performance & Energy Tradeoffs for Dependent Distributed Applications Under System-wide Power Caps [ICPP]",
+                      "key": 16
+                    },
+                    {
+                      "id": 88,
+                      "content": "Energy-efficient Application Resource Scheduling using Machine Learning Classifiers [ICPP]",
+                      "key": 17
+                    },
+                    {
+                      "id": 89,
+                      "content": "Approximation Algorithms for Scheduling with Resource and Precedence Constraints [STACS 2018] [techreport]",
+                      "key": 18
+                    },
+                    {
+                      "id": 90,
+                      "content": "GraphZ: Improving the Performance of Large-Scale Graph Analytics on Small-Scale Machines [ICDE 2018] [techreport]",
+                      "key": 19
+                    },
+                    {
+                      "id": 91,
+                      "content": "",
+                      "key": 20,
+                      "children": [
+                        {
+                          "id": 92,
+                          "content": "Controlling AI Engines in Dynamic Environments [SysML 2018] [paper]",
+                          "key": 1
+                        },
+                        {
+                          "id": 93,
+                          "content": "2017:",
+                          "key": 2
+                        }
+                      ]
+                    },
+                    {
+                      "id": 94,
+                      "content": "Memory Cocktail Therapy: A General Learning-Based Framework to Optimize Dynamic Tradeoffs in NVMs [MICRO 2017]",
+                      "key": 21
+                    },
+                    {
+                      "id": 95,
+                      "content": "Automated Control of Multiple Software Goals using Multiple Actuators [FSE 2017] [preprint]",
+                      "key": 22
+                    },
+                    {
+                      "id": 96,
+                      "content": "ESP: A Machine Learning Approach to Predicting Application Interference [ICAC 2017] [preprint]",
+                      "key": 23
+                    },
+                    {
+                      "id": 97,
+                      "content": "PoLiMEr: An Energy Monitoring and Power Limiting Interface for HPC Applications. [E2SC@SC 2017]",
+                      "key": 24
+                    },
+                    {
+                      "id": 98,
+                      "content": "Self-Adaptive Video Encoder: Comparison of Multiple Adaptation Strategies Made Simple [SEAMS 2017]",
+                      "key": 25
+                    },
+                    {
+                      "id": 99,
+                      "content": "Control Strategies for Self-Adaptive Software Systems [ACM TAAS 2017]",
+                      "key": 26
+                    },
+                    {
+                      "id": 100,
+                      "content": "",
+                      "key": 27,
+                      "children": [
+                        {
+                          "id": 101,
+                          "content": "Power Mitigation by Performance Equalization in a Heterogeneous Reconfigurable Multicore. [Journal of Signal Processing Systems 2017]",
+                          "key": 1
+                        },
+                        {
+                          "id": 102,
+                          "content": "2016:",
+                          "key": 2
+                        }
+                      ]
+                    },
+                    {
+                      "id": 103,
+                      "content": "A Portable Interface for Runtime Energy Monitoring [FSE 2016]",
+                      "key": 28
+                    },
+                    {
+                      "id": 104,
+                      "content": "GRAPE: Minimizing Energy for GPU Applications with Performance Requirements [MICRO 2016] [preprint]",
+                      "key": 29
+                    },
+                    {
+                      "id": 105,
+                      "content": "Portable Multicore Resource Management for Applications with Performance Constraints (invited) [MCSoC 2016] [preprint]",
+                      "key": 30
+                    },
+                    {
+                      "id": 106,
+                      "content": "MEANTIME: Achieving Both Minimal Energy and Timeliness with Approximate Computing [USENIX ATC 2016] [preprint]",
+                      "key": 31
+                    },
+                    {
+                      "id": 107,
+                      "content": "Providing Fairness in Heterogeneous Multicores with a Predictive, Adaptive Scheduler [HCW@IPDPS 2016] [preprint]",
+                      "key": 32
+                    },
+                    {
+                      "id": 108,
+                      "content": "Bard: A Unified Framework for Managing Soft Timing and Power Constraints [SAMOS 2016] [preprint]",
+                      "key": 33
+                    },
+                    {
+                      "id": 109,
+                      "content": "CASH: Supporting IaaS Customers with a Sub-core Configurable Architecture [ISCA 2016] [preprint]",
+                      "key": 34
+                    },
+                    {
+                      "id": 110,
+                      "content": "Maximizing Performance Under a Power Cap: A Comparison of Hardware, Software, and Hybrid Techniques [ASPLOS 2016] [preprint]",
+                      "key": 35
+                    },
+                    {
+                      "id": 111,
+                      "content": "",
+                      "key": 36,
+                      "children": [
+                        {
+                          "id": 112,
+                          "content": "Adapt&Cap: Coordinating System and Application-level Adaptation for Power Constrained Systems [IEEE Design & Test 2016]",
+                          "key": 1
+                        },
+                        {
+                          "id": 113,
+                          "content": "2015:",
+                          "key": 2
+                        }
+                      ]
+                    },
+                    {
+                      "id": 114,
+                      "content": "JouleGuard: Energy Guarantees for Approximate Computation [SOSP 2015] [preprint]",
+                      "key": 37
+                    },
+                    {
+                      "id": 115,
+                      "content": "Automated Multi-Objective Control for Self-Adaptive Software Design [FSE 2015] [preprint]",
+                      "key": 38
+                    },
+                    {
+                      "id": 116,
+                      "content": "Racing and Pacing to Idle: Theoretical and Empirical Analysis of Energy Optimization Heuristics [CPSNA 2015] [preprint]",
+                      "key": 39
+                    },
+                    {
+                      "id": 117,
+                      "content": "Distributed Monitoring and Management of Exascale Systems in the Argo Project [DAIS 2015]",
+                      "key": 40
+                    },
+                    {
+                      "id": 118,
+                      "content": "POET: a portable approach to minimizing energy under soft real-time constraints [RTAS 2015]",
+                      "key": 41
+                    },
+                    {
+                      "id": 119,
+                      "content": "A Probabilistic Graphical Model-based Approach for Minimizing Energy Under Performance Constraints [ASPLOS 2015]",
+                      "key": 42
+                    },
+                    {
+                      "id": 120,
+                      "content": "JouleGuard [WACAS 2015] [pdf]",
+                      "key": 43
+                    },
+                    {
+                      "id": 121,
+                      "content": "A Quantitative Evaluation of the RAPL Power Control System [Feedback Computing 2015] [pdf]",
+                      "key": 44
+                    },
+                    {
+                      "id": 122,
+                      "content": "A STT-RAM-based Low-Power Hybrid Register File for GPGPUs [DAC 2015]",
+                      "key": 45
+                    },
+                    {
+                      "id": 123,
+                      "content": "",
+                      "key": 46,
+                      "children": [
+                        {
+                          "id": 124,
+                          "content": "Software engineering meets control theory [SEAMS 2015]",
+                          "key": 1
+                        },
+                        {
+                          "id": 125,
+                          "content": "2014:",
+                          "key": 2
+                        }
+                      ]
+                    },
+                    {
+                      "id": 126,
+                      "content": "Minimizing energy under performance constraints on embedded platforms: resource allocation heuristics for homogeneous and single-ISA heterogeneous multi-cores [SIGBED Review 2014]",
+                      "key": 47
+                    },
+                    {
+                      "id": 127,
+                      "content": "Design of an accelerator-rich architecture by integrating multiple heterogeneous coarse grain reconfigurable arrays over a network-on-chip [ASAP 2014]",
+                      "key": 48
+                    },
+                    {
+                      "id": 128,
+                      "content": "A self-aware processor SoC using energy monitors integrated into power converters for self-adaptation [VLSI Symposium 2014]",
+                      "key": 49
+                    },
+                    {
+                      "id": 129,
+                      "content": "Automated design of self-adaptive software with control-theoretical formal guarantees [ICSE 2014]",
+                      "key": 50
+                    },
+                    {
+                      "id": 130,
+                      "content": "PCP: A generalized approach to optimizing performance under power constraints through resource management [ICAC 2014]",
+                      "key": 51
+                    },
+                    {
+                      "id": 131,
+                      "content": "CoAdapt: Predictable Behavior for Accuracy-Aware Applications Running on Power-Aware Systems [ECRTS 2014]",
+                      "key": 52
+                    },
+                    {
+                      "id": 132,
+                      "content": "Constraint-driven frequency scaling in a Coarse Grain Reconfigurable Array [ISSoC 2014]",
+                      "key": 53
+                    },
+                    {
+                      "id": 133,
+                      "content": "",
+                      "key": 54,
+                      "children": [
+                        {
+                          "id": 134,
+                          "content": "Performance and energy limits of a processor-integrated FFT accelerator [HPEC 2014]",
+                          "key": 1
+                        },
+                        {
+                          "id": 135,
+                          "content": "2013:",
+                          "key": 2
+                        }
+                      ]
+                    },
+                    {
+                      "id": 136,
+                      "content": "Power optimization in embedded systems via feedback control of resource allocation [IEEE TCST 2013]",
+                      "key": 55
+                    },
+                    {
+                      "id": 137,
+                      "content": "A generalized software framework for accurate and efficient management of performance goals [EMSOFT 2013]",
+                      "key": 56
+                    },
+                    {
+                      "id": 138,
+                      "content": "Racing and pacing to idle: an evaluation of heuristics for energy-aware resource allocation [HotPower 2013]",
+                      "key": 57
+                    },
+                    {
+                      "id": 139,
+                      "content": "",
+                      "key": 58,
+                      "children": [
+                        {
+                          "id": 140,
+                          "content": "ARPE: A Tool To Build Equation Models of Computing Systems [Feedback Computing 2013]",
+                          "key": 1
+                        },
+                        {
+                          "id": 141,
+                          "content": "2012:",
+                          "key": 2
+                        }
+                      ]
+                    },
+                    {
+                      "id": 142,
+                      "content": "Comparison of Decision-Making Strategies for Self-Optimization in Autonomic Computing Systems [ACM TAAS 2012]",
+                      "key": 59
+                    },
+                    {
+                      "id": 143,
+                      "content": "Selecting Spatiotemporal Patterns for Development of Parallel Applications [IEEE TPDS 2012]",
+                      "key": 60
+                    },
+                    {
+                      "id": 144,
+                      "content": "Self-aware computing in the Angstrom processor [DAC 2012]",
+                      "key": 61
+                    },
+                    {
+                      "id": 145,
+                      "content": "",
+                      "key": 62,
+                      "children": [
+                        {
+                          "id": 146,
+                          "content": "Metronome: operating system level performance management via self-adaptive computing [DAC 2012]",
+                          "key": 1
+                        },
+                        {
+                          "id": 147,
+                          "content": "2011:",
+                          "key": 2
+                        }
+                      ]
+                    },
+                    {
+                      "id": 148,
+                      "content": "Evolvable systems on reconfigurable architecture via self-aware adaptive applications [AHS 2011]",
+                      "key": 63
+                    },
+                    {
+                      "id": 149,
+                      "content": "Dynamic knobs for responsive power-aware computing [ASPLOS 2011]",
+                      "key": 64
+                    },
+                    {
+                      "id": 150,
+                      "content": "Decision making in autonomic computing systems: comparison of approaches and techniques [ICAC 2011]",
+                      "key": 65
+                    },
+                    {
+                      "id": 151,
+                      "content": "ARCc: A case for an architecturally redundant cache-coherence architecture for large multicores [ICCD 2011]",
+                      "key": 66
+                    },
+                    {
+                      "id": 152,
+                      "content": "Managing performance vs. accuracy trade-offs with loop perforation [FSE 2011]",
+                      "key": 67
+                    }
+                  ]
+                }
+            ]
+        }
+    ]
+}

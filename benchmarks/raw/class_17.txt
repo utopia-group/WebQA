@@ -1,0 +1,594 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<meta content="IE=8" http-equiv="X-UA-Compatible"/>
+<title>6.170 Class Home</title>
+<style media="all" type="text/css">@import "/stellar/f/shared/2.2.1/css/global.css";</style>
+<style media="all" type="text/css">@import "/stellar/f/mit2/2.1/css/mit2.css";</style>
+<style media="print" type="text/css">@import "/stellar/f/shared/2.2.1/css/print.css";</style>
+</head>
+<body>
+<div id="container">
+<div id="banner">
+<h1>6.170 
+Software Studio</h1>
+</div>
+<div id="mainnav">
+<ul id="login">
+<li id="log">
+<a href="/S/login/?u=%2FS%2Fcourse%2F6%2Ffa14%2F6.170%2F">
+LOGIN
+</a>
+</li>
+<li id="user"></li>
+</ul>
+<ul>
+<li class="here">Home</li>
+<li>
+<a href="/S/course/6/fa14/6.170/materials/general.html">All materials</a>
+</li>
+<li>
+<a href="/S/course/6/fa14/6.170/calendar.html">Calendar</a>
+</li>
+<li>
+<a href="/S/course/6/fa14/6.170/materials/projects.html">Projects</a>
+</li>
+<li>
+<a href="/S/course/6/fa14/6.170/gradebook3/" target="_blank">Gradebook Module</a>
+</li>
+<li>
+<a href="https://piazza.com/class/hz8s9d2nnm51rj">Piazza</a>
+</li>
+<li>
+<a href="https://docs.google.com/forms/d/187zgJ_7X5WMozQtEi8ezHGiU_Q_8XyG9GfjNE-U71cI/viewform">Enrollment form</a>
+</li>
+<li>
+<a href="https://docs.google.com/forms/d/1VfFydX2EDrKSwfFHtac_jZKVb4TLGccYtD0_n_xbadk/viewform?usp=send_form">Feedback form</a>
+</li>
+<li>
+<a href="http://goo.gl/forms/q0o9EZlZm8">Load ideas survey</a>
+</li>
+<li>
+<a href="http://goo.gl/forms/XkXhMv3QD5">Project vote form</a>
+</li>
+<li class="space"> </li>
+<li>
+<a href="/S/course/6/fa14/6.170/people/membership.html" target="_blank">Membership</a>
+</li>
+<li>
+<a href="/S/course/6/fa14/6.170/people/stafflist.html">Staff List</a>
+</li>
+<li>
+<a href="/S/course/6/fa14/6.170/search.html">Search</a>
+</li>
+<li>
+<a href="/context-help/index.phtml?mode=students&amp;nexus=/S/course/6/fa14/6.170/" id="help" target="_new">
+Stellar Help</a>
+</li>
+<li>
+<br/>
+<a href="http://ist.mit.edu/support" target="_new">Contact Help Desk</a>
+</li>
+</ul>
+</div>
+<p id="crumbs">
+<a class="spanlink" href="/">Course</a>»<a class="spanlink" href="/courseguide/course/6/">Course 6</a>»<a class="spanlink" href="/courseguide/course/6/fa14/">Fall 2014</a>»<a class="spanlink" href="/S/course/6/fa14/6.170/">6.170</a>»Homepage</p>
+<div id="content">
+<!--
+$Revision: 1.119 $ / $Date: 2007-07-14 01:53:39 $
+-->
+<h2>6.170 
+Software Studio</h2>
+<p>
+<strong>Fall 2014</strong>
+</p>
+<p></p>
+<p>
+<strong>Instructors:</strong> Adam Chlipala, Mark Stuart Day, Daniel Jackson</p>
+<p>
+<strong>TAs:</strong> Bryan O Collazo, Vivek Dasari, Cynthia Jing, Rebecca P Krosnick, Charles Z Liu, Michael A Maddox, Kathryn I Siegel, Kimberly L Toy, Evan P Wang, Emily H Zhang</p>
+<p>
+<strong>Lecture</strong>:  
+MW 11-12:30  
+(26-100)
+<br/>
+<strong>Recitation</strong>:  R10 (34-301), R11 (34-303), R12 (26-142), R1 (26-142), R2 (26-142), R3 (34-303)  
+<br/>
+<strong>Office Hours</strong>:  Office hours will no longer be held for the duration of the semester.   
+  
+  
+</p>
+<p class="subhead">
+<strong>Information:</strong> </p>
+<p></p>
+<p xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:x="urn:schemas-microsoft-com:office:excel">Optional lab sessions are for students to work in a more
+collaborative setting with TA assistance. They will be held
+occasionally, when new technologies are being introduced. Check
+back on Stellar to see if a session will be held during the
+week.</p>
+<p>
+<a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-170-software-studio-Spring-2013" target="_blank" title="See an older published version
+of this class in OpenCourseware">
+OCW archive available</a>
+</p>
+<h3 class="topicheading">Announcements
+
+</h3>
+<div class="announcements" id="ann">
+<div class="announcement" id="ann1419258771">
+<h4>Ad for a class next semester: 6.Spring 20194, Open Source Software Project Lab</h4>
+<div xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:x="urn:schemas-microsoft-com:office:excel">If you enjoyed building real applications in 6.170, then you
+might also want to look into the latest iteration of a rather new
+MIT class that connects students with real open-source
+projects.  The announcement says the deadline for announcing
+interest is yesterday, but probably there's still a chance to
+get in.<br/>
+<br/>
+<pre wrap="" xml:space="preserve">
+6.Spring 20194 Open Source Software Project Lab, a Lab-based class in large-scale software development, will be offered in the Spring.  In this class, the students will be joining an international team coming from universities such as Stanford, U. of Tokyo, U. of Singapore, U. of Helsinki etc. Each team will be embedded with a prominent open source project (see <a class="moz-txt-link-freetext" href="http://tinyurl.com/6S194projects">http://tinyurl.com/6S194projects</a> for next semester's projects) and your grade will be based on your contribution to the project.  Teams will be mentored by leaders from their open source project.  In 6.Spring 20194, you will learn about project management, how to extend and debug unfamiliar systems, coordinate a distributed team, use modern tools, apply open source as a business model.     Because this course is a global collaboration, we need to start forming the teams by early next week. We need to hear from you by 11:59PM on Sunday December 21st  ***THIS SUNDAY***.  The enrollment is limited, apply at <a class="moz-txt-link-freetext" href="http://tinyurl.com/6S194application">http://tinyurl.com/6S194application</a>.  As this class gets heavily oversubscribed, apply only if you are fully committed to take the class.
+</pre>
+<br/>
+<pre wrap="" xml:space="preserve">
+Spring Semester TTh 2:30-4:00 | Undergraduate | 12 Credits (2-5-5)
+</pre>
+</div> <p class="announcedBy">
+Announced on 
+22 December 2014 
+9:32 
+a.m.
+
+by Adam Chlipala</p>
+</div>
+<div class="announcement" id="ann1418061665">
+<h4>Load survey summaries posted</h4>
+See <a href="https://stellar.mit.edu/S/course/6/fa14/6.170/materials/general.html." xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:x="urn:schemas-microsoft-com:office:excel">
+https://stellar.mit.edu/S/course/6/fa14/6.170/materials/general.html.</a> <p class="announcedBy">
+Announced on 
+08 December 2014 
+1:01 
+p.m.
+
+by Daniel Jackson</p>
+</div>
+<div class="announcement" id="ann1417655098">
+<h4>Final Project Demos during TA meetings 12/4, 12/5</h4>
+TA meetings this week will be for demoing your project to your TAs.
+Walk us through how users might interact with the app to show us
+its complete functionality. 
+
+<p xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:x="urn:schemas-microsoft-com:office:excel">If you feel that you still need more time (up until the final
+code submission deadline) to properly demo, please email your TAs
+to set up a makeup date to demo.</p> <p class="announcedBy">
+Announced on 
+03 December 2014 
+8:04 
+p.m.
+
+by Emily H Zhang</p>
+</div>
+<div class="announcement" id="ann1417615316">
+<h4>Reminder: last regular lecture today</h4>
+... on agile: what it's really about, whether it's just
+hype or not, and why people get so excited (or angry) about
+it.<br xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:x="urn:schemas-microsoft-com:office:excel"/> <p class="announcedBy">
+Announced on 
+03 December 2014 
+9:01 
+a.m.
+
+by Daniel Jackson</p>
+</div>
+<div class="announcement" id="ann1417553263">
+<h4>Project Fair Demos</h4>
+We are looking for volunteers for the final project fair
+presentations on Dec 8. Selected groups will demo their final
+project to the rest of the class and the staff, and awards and
+prizes will be given to the best projects. The length of the
+presentation is still undetermined, but it would be no more than 5
+minutes. To sign up, please use the following google form.
+
+<p xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:x="urn:schemas-microsoft-com:office:excel">
+<a href="https://docs.google.com/forms/d/1MNgfgUDISzyMNCd1atxmxvyaOhERwY2RIqMf3Ch0x9g/viewform?usp=send_form">
+https://docs.google.com/forms/d/1MNgfgUDISzyMNCd1atxmxvyaOhERwY2RIqMf3Ch0x9g/viewform?usp=send_form</a>
+</p> <p class="announcedBy">
+Announced on 
+02 December 2014 
+3:47 
+p.m.
+
+by Cynthia Jing</p>
+</div>
+<p>
+<a href="announce.html">View archived announcements</a>
+</p>
+</div>
+</div>
+<div id="footer">
+<a href="#container" id="topLink" title="Back to top">top</a>
+<a class="library" href="http://libraries.mit.edu">
+<img alt="MIT Library logo" class="librarylogo" src="/stellar/f/shared/images/library-logo.png" title="Go to MIT Library"/>
+</a> | <a href="https://wikis.mit.edu/confluence/display/SUG2/Stellar+Terms+of+Service" target="new">TERMS OF SERVICE</a> | <a href="http://web.mit.edu/copyright/">MIT COPYRIGHT</a> | <a href="http://libraries.mit.edu/scholarly/publishing/copyright-information-for-mit-faculty/">FAIR USE GUIDELINES</a>
+</div>
+</div>
+<div>
+<div id="container">
+<div id="banner">
+<h1>6.170 
+Software Studio</h1>
+</div>
+<div id="mainnav">
+<ul id="login">
+<li id="log">
+<a href="/S/login/?u=">
+LOGIN
+</a>
+</li>
+<li id="user"></li>
+</ul>
+<ul>
+<li>
+<a href="/S/course/6/fa14/6.170/index.html">Home</a>
+</li>
+<li>
+<a href="/S/course/6/fa14/6.170/materials/general.html">All materials</a>
+</li>
+<li>
+<a href="/S/course/6/fa14/6.170/calendar.html">Calendar</a>
+</li>
+<li>
+<a href="/S/course/6/fa14/6.170/materials/projects.html">Projects</a>
+</li>
+<li>
+<a href="/S/course/6/fa14/6.170/gradebook3/" target="_blank">Gradebook Module</a>
+</li>
+<li>
+<a href="https://piazza.com/class/hz8s9d2nnm51rj">Piazza</a>
+</li>
+<li>
+<a href="https://docs.google.com/forms/d/187zgJ_7X5WMozQtEi8ezHGiU_Q_8XyG9GfjNE-U71cI/viewform">Enrollment form</a>
+</li>
+<li>
+<a href="https://docs.google.com/forms/d/1VfFydX2EDrKSwfFHtac_jZKVb4TLGccYtD0_n_xbadk/viewform?usp=send_form">Feedback form</a>
+</li>
+<li>
+<a href="http://goo.gl/forms/q0o9EZlZm8">Load ideas survey</a>
+</li>
+<li>
+<a href="http://goo.gl/forms/XkXhMv3QD5">Project vote form</a>
+</li>
+<li class="space"> </li>
+<li>
+<a href="/S/course/6/fa14/6.170/people/membership.html" target="_blank">Membership</a>
+</li>
+<li>
+<a href="/S/course/6/fa14/6.170/people/stafflist.html">Staff List</a>
+</li>
+<li>
+<a href="/S/course/6/fa14/6.170/search.html">Search</a>
+</li>
+<li>
+<a href="/context-help/index.phtml?mode=students&amp;nexus=/S/course/6/fa14/6.170/" id="help" target="_new">
+Stellar Help</a>
+</li>
+<li>
+<br/>
+<a href="http://ist.mit.edu/support" target="_new">Contact Help Desk</a>
+</li>
+</ul>
+</div>
+<p id="crumbs">
+<a class="spanlink" href="/">Course</a>»<a class="spanlink" href="/courseguide/course/6/">Course 6</a>»<a class="spanlink" href="/courseguide/course/6/fa14/">Fall 2014</a>»<a class="spanlink" href="/S/course/6/fa14/6.170/">6.170</a>
+</p>
+<div id="content">
+<!--
+$Revision: 1.13 $ / $Date: 2004-12-31 00:56:30 $
+-->
+<div xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:x="urn:schemas-microsoft-com:office:excel">
+<div>
+<h1>General Information</h1>
+<h2>Background</h2>
+<p>This is a class in software engineering, with an emphasis on
+design. It focuses on building web applications and services
+because of their prominence today. Not every software system is a
+web app, but the lessons learned in this class apply more
+broadly.</p>
+<p>The class emphasizes how to write modular and elegant code, and
+how to design an application. Design means clarifying goals,
+inventing key concepts, and choosing how the application should
+behave, in addition to structuring the internals. In our
+experience, these external aspects of design are the most
+important, the least well understood by MIT students, and the ones
+that are hardest to acquire in most industrial settings.</p>
+<p>Focusing on some aspects inevitably means deemphasizing others.
+So while the class will teach the fundamentals of web application
+architecture, and you will become proficient with a particular
+collection of technologies, these technologies are not the subject
+of the class. Likewise, quality assurance techniques, such as code
+review, testing and verification, are not extensively covered.</p>
+<h2>Objectives</h2>
+<p>By the end of this class, you will have developed skills in four
+distinct competency areas:</p>
+<ul>
+<li>
+<strong>Hacking:</strong>
+<p>being able to build a working web application, which involves:
+writing code fluently in several languages (eg, JavaScript, HTML
+and CSS); becoming familiar and comfortable with using libraries
+(such as JQuery), web frameworks (such as Node and Express),
+databases (such as MongoDB) and browser tools (such as the Chrome
+IDE); working with GitHub repositories.</p>
+</li>
+<li>
+<strong>Robust coding:</strong>
+<p>writing code that is well organized at a high level; exploiting
+the best programming language features appropriately and avoiding
+troublesome ones; applying sophisticated idioms (such as
+functionals and closures) to structure code elegantly; using
+modularization features to encapsulate data representations and
+other design secrets, and to minimize repetition; defining clean
+interfaces to decouple components; preventing security attacks by
+using standard mitigations; including automatable unit tests in the
+code base; writing succinct and helpful specifications; choosing
+names and commenting judiciously.</p>
+</li>
+<li>
+<strong>Design:</strong>
+<p>analyzing problems to understand what the tricky aspects are;
+focusing and prioritizing the goals of a software project;
+constructing a conceptual design for a system that identifies the
+key concepts and their relationships; developing an interaction
+design using wireframes; identifying key design issues, and
+analyzing their tradeoffs; selecting features for a minimal viable
+product; designing a data model and transforming it into a database
+schema.</p>
+</li>
+<li>
+<strong>Professionalism:</strong>
+<p>constructing and delivering a slide presentation on your work;
+collaborating with team members; making constructive critiques of
+other students' work; ensuring a polished visual appearance and
+clear organization in written work, slides and deployed
+software.</p>
+</li>
+</ul>
+<h2>Textbooks</h2>
+<p>There is no required text. Here are some books that provide
+useful background on JavaScript and node.js:</p>
+<ul>
+<li>
+<p>Douglas Crockford. <a href="http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742">
+JavaScript: The Good Parts</a> ($17)</p>
+</li>
+<li>
+<p>Stoyan Stefanov. <a href="http://www.amazon.com/JavaScript-Patterns-Stoyan-Stefanov/dp/0596806752">
+JavaScript Patterns</a> ($20)</p>
+</li>
+<li>
+<p>Michael Mikowski. <a href="http://www.amazon.com/Single-Page-Applications-end-end/dp/1617290750">
+Single Page Web Applications: JavaScript end-to-end</a> ($41)</p>
+</li>
+<li>
+<p>John Resig. <a href="http://www.amazon.com/Secrets-JavaScript-Ninja-John-Resig/dp/193398869X">
+Secrets of the JavaScript Ninja</a> ($26)</p>
+</li>
+<li>
+<p>Jim R. Wilson. <a href="http://www.amazon.com/Node-js-Right-Way-Server-Side-JavaScript/dp/1937785734">
+Node.js the Right Way: Practical, Server-Side JavaScript That
+Scales</a> ($14)</p>
+</li>
+<li>
+<p>Mike Cantelon. <a href="http://www.amazon.com/Node-js-Action-Mike-Cantelon/dp/1617290572">
+Node.js in Action</a> ($27)</p>
+</li>
+</ul>
+<h2>Course Structure</h2>
+<p>
+<strong>Projects</strong>. There are weekly assignments for the
+first half of term, grouped into four separate projects, of which
+the first three are solo and the last is a team project. The second
+half of term is spent on a larger team project. Teams will
+generally have four members; you will be able to choose your
+teammates, but may not work with the same teammate on both
+projects.</p>
+<p> </p>
+<p>
+<strong>Repositories</strong>. You'll keep all your work in
+a GitHub repository, and you will receive grading comments from
+your TAs on GitHub too. You are responsible for obtaining your own
+repository. Free repositories are public by default. If you prefer
+to make your repository private, you will need to pay the fee for
+an upgrade.</p>
+<p>
+<strong>Lectures</strong>. There are two 80-minute lectures each
+week, which will focus on fundamental concepts and exemplars.</p>
+<p>
+<strong>Quizzes</strong>. After each segment of the course
+(typically lasting a week or two) there will be a short in-class
+quiz consisting of around five multiple choice questions to test
+your understanding of the lecture material.</p>
+<p>
+<strong>Recitations</strong>. Each student will attend one
+50-minute recitation each week. Recitations are taught by teaching
+assistants and focus on the basics of the various technologies you
+will be using. You can choose which recitation to attend, and may
+attend a different one each week.</p>
+<p>
+<strong>Office hours and labs</strong>. The TAs will be
+available for office hours and lab hours each week at times that
+will be posted on the Stellar front page. These are likely to
+change in response to student demand, so be sure to check when you
+make your plans for the week. Office hours are intended for
+students who have a particular topic they want to discuss with a
+TA; labs are intended to provide a place where several students and
+TAs will be working so that you can get help as you need it. Labs
+will likely be phased out as the term progresses once students
+become familiar with the key technologies.</p>
+<!--
+<p><strong>Critiques</strong>. During the final project, in place of lectures, class time will be used for critiques of student work by other students. Details will be provided later about how this will work.
+-->
+<h2>Collaboration and Grading Policy</h2>
+<p>
+<strong>Individual projects</strong>. Your work on the solo
+projects should be entirely your own, although you are encouraged
+to ask TAs for advice in lab sessions and office hours, and to use
+Piazza to obtain answers to questions from other students. This
+policy is designed to ensure that all students come to grips with
+the basic languages and technologies that they will need throughout
+the course.</p>
+<p>
+<strong>Team projects</strong>. Team projects, of course,
+encourage collaboration. You are encouraged to work together on all
+aspects of the projects; you should ensure that every team member
+is involved in all aspects of the project (design, coding and
+documentation).</p>
+<p>
+<strong>Reuse of third-party material</strong>. You are free to
+use any third-party code, whether as libraries or code fragments,
+and to adopt any ideas you find online or in books, so long as it
+is publicly available and appropriately cited (see the <a href="http://web.mit.edu/academicintegrity/writing-code.html">section
+on code</a> in the <a href="http://web.mit.edu/academicintegrity">MIT handbook on
+academic integrity</a> for details). You may not use work produced
+by students in earlier offerings of this class. Obviously, you may
+not reuse a complete solution to a project.</p>
+<p>
+<strong>Sanctions</strong>. If you violate the course
+collaboration policy, for example by collaborating outside lab
+sessions on individual projects, you can expect to be asked to drop
+the class (or worse).</p>
+<!--
+<p><strong>Competency-based Grading</strong>. Your overall class grade will be determined as follows. We will maintain a separate grade for each of the skill areas described above (hacking, robust coding, design and professionalism). Your overall grade will be obtained by combining these four components and will roughly be the average of the four. Bear in mind, however, that a poor grade in one area will not necessarily balance out a better grade in another area. In particular, you should not expect to get an A if you excel only in the coding components.</p>
+
+<p>Within each of the four areas, the work you do over the term will contribute to your grade in proportion to the amount of time allocated to it. For example, a week of implementation on an individual project will contribute to the hacking and robust coding component the same amount as a week of implementation on the final project.</p>
+
+<p>If your final grade determined by this method Falls near the borderline between two grades, your participation in class and recitations, and your performance on the nanoquizzes, will be taken into account.
+-->
+<p>
+<strong>Grading</strong>. Components of the class will be
+weighted as follows: solo projects 30%, small team project 20%,
+final project 35%, quizzes 10%, participation 5%. The participation
+grade is a determined subjectively by the staff observing your
+interactions in lecture, recitation and team mentoring sessions,
+and your contributions to online forums such as Piazza. Your lowest
+quiz grade will be dropped. For the assignments, the four
+competency areas described above will account for these proportions
+of your grade: hacking 30%, robust coding 30%, design 30%,
+professionalism 10%.</p>
+<p>
+<strong>Lateness</strong>. Each student has four slack days that
+can be distributed throughout the solo projects in any way. Slack
+days may not be used for team projects. For each day that an
+assignment is handed in late without a slack day, 10% of the total
+assignment value is lost. Missed quizzes cannot be made up.
+Extensions without penalty are given for (a) major illness, and (b)
+other extraordinary circumstances; in both cases, a letter from a
+doctor or dean is required. Note that trips, interviews, minor
+illness, etc., are not grounds for extensions: this is what slack
+days are for.</p>
+<h2>Class Contract</h2>
+<p>The teaching staff of the course will endeavor to:</p>
+<ul>
+<li>
+<p>Deliver content that is stimulating, practically useful and of
+long-term intellectual value;</p>
+</li>
+<li>
+<p>Encourage interaction during all class and recitation sections,
+and take all questions seriously;</p>
+</li>
+<li>
+<p>Provide constructive and helpful feedback on student work in a
+timely fashion;</p>
+</li>
+<li>
+<p>Assign grades in a fair and consistent way;</p>
+</li>
+<li>
+<p>Take seriously suggestions about course content and
+structure;</p>
+</li>
+<li>
+<p>Help students who feel overwhelmed or lacking in background,
+despite prerequisites;</p>
+</li>
+<li>
+<p>Support and encourage full participation of all students.</p>
+</li>
+</ul>
+<p>As a student, by taking this course, you agree to endeavor
+to:</p>
+<ul>
+<li>
+<p>Attend all class sessions, and to participate
+enthusiastically;</p>
+</li>
+<li>
+<p>Not use laptops and mobile devices during class, except when
+asked to do exercises that require them;</p>
+</li>
+<li>
+<p>Share concerns and comments about the course with the lecturers;
+<!--
+<li>Help create a sense of community by making forum postings anonymous only when absolutely necessary;
+--></p>
+</li>
+<li>
+<p>Do your fair share of work on your team project.</p>
+</li>
+</ul>
+<h2>Advice</h2>
+<p>
+<strong>Open-ended projects.</strong> In each of the small
+projects (prior to the final project), you'll be given an
+outline of a problem to solve. In contrast to many of the
+assignments you'll have done at MIT, these will not be
+precisely specified. It'll be your job to figure out exactly
+what the problem is! This is one of the most important things to
+learn in being any kind of designer. You should take this aspect
+very seriously, not only because it's important and fun, but
+also because you'll save yourself a lot of time and effort if
+you know what the problem is before you start trying to solve
+it.</p>
+<p>
+<strong>Getting started early.</strong> We strongly recommend
+that you get going on projects as soon as you can, so you can get
+help from the teaching staff and from your colleagues using the
+Piazza forum, and make good use of lab and office hours. A good
+practice is to make a start early in the week, giving the project
+enough time to give you a sense of what's involved and how much
+work it's likely to be. Whatever you do, don't leave work
+until the night of the deadline!</p>
+<p>
+<strong>Professionalism.</strong> Part of being professional is
+presenting your work well. Use this class as an opportunity to
+practice presenting your design and implementation work in a
+professional way. So make sure your diagrams are neat; your writing
+is succinct and grammatical; your text documents show good
+typographic taste; your user interfaces are clean and stylish; and
+so on. Also think about how your TA will encounter your work: is it
+organized in the right way, following class guidelines, so that
+it's accessible and clear where everything is?</p>
+<p>
+<strong>Attending class.</strong> Every term, some number of
+students skip class. You should realize that these are typically
+the weaker students, and they tend to perform more poorly. If you
+don't find class helpful, let us know why and we'll try and
+address your concerns.</p>
+<h2>Questions?</h2>
+<p>Questions that might be of interest to other students should be
+posted in the online forum. Personal questions should be sent to
+<tt>6170-staff</tt> at <tt>mit.edu</tt>. You can also contact the
+assistants or lecturers directly using <tt>6170-ta</tt> and
+<tt>6170-lec</tt>.</p>
+</div>
+</div>
+</div>
+<div id="footer">
+<a href="#container" id="topLink" title="Back to top">top</a>
+<a class="library" href="http://libraries.mit.edu">
+<img alt="MIT Library logo" class="librarylogo" src="/stellar/f/shared/images/library-logo.png" title="Go to MIT Library"/>
+</a> | <a href="https://wikis.mit.edu/confluence/display/SUG2/Stellar+Terms+of+Service" target="new">TERMS OF SERVICE</a> | <a href="http://web.mit.edu/copyright/">MIT COPYRIGHT</a> | <a href="http://libraries.mit.edu/scholarly/publishing/copyright-information-for-mit-faculty/">FAIR USE GUIDELINES</a>
+</div>
+</div>
+</div></body>
+</html>
