@@ -24,11 +24,21 @@ class DSL:
 
         self.nlp_api = NLPFunc() if cache is not None else NLPFunc(disable=True)
 
+
     def GetChildren(self, ln: List[NodeContext],
                     pred_nn: Callable) -> List[NodeContext]:
+        """Get the children of a list of nodes that satisfy the predicate
+
+        Args:
+            ln (List[NodeContext]): A list of node 
+            pred_nn (Callable): a predicate function
+
+        Returns:
+            List[NodeContext]: a list of node that is the children of node in ln that satisfy pred_nn
+        """
+
         ret_list = []
 
-        # print("ln:", ln)
 
         def helper(parse_node, list_node):
 
@@ -62,12 +72,20 @@ class DSL:
         for elem in ln:
             ret_list.extend(helper(elem.tree_node, elem.list_node))
 
-        # print("ret_list:", ret_list)
-
         return ret_list
 
     def GetLeaves(self, ln: List[NodeContext],
                   pred_nn: Callable = None) -> List[NodeContext]:
+
+        """Get the leaves of a list of nodes that satisfy the predicate
+
+        Args:
+            ln (List[NodeContext]): A list of nodes 
+            pred_nn (Callable): a predicate function
+
+        Returns:
+            List[NodeContext]: a list of node that is the leaves of nodes in ln that satisfy pred_nn
+        """
 
         if pred_nn is None:
             pred_nn = self.isAny
@@ -134,36 +152,72 @@ class DSL:
         return ret_list
 
     def isStructured(self, node):
+        """Check if the given node is a list (pred_nn function)
+
+        Args:
+            node: a node in the parse tree
+
+        Returns:
+            bool: whether this node is a list
+        """
+
         return isinstance(node, ListNode) or node.is_content_list_tree
 
     def isAny(self, node):
+        """Check if the given node is a any type of node (pred_nn function)
+
+        Args:
+            node: a node in the parse tree
+
+        Returns:
+            bool: always return true
+        """
         return True
 
     def GetNode(self, np_1: Callable, _input=None,
                 k: int = 1, threshold: float = 0.0) -> List[NodeContext]:
+        """Get the node using the function np_1
+
+        Args:
+            np_1 (Callable): get nodes using the function np_1
+            k (int): get the top-k node returned from np_1
+            threshold (float): pass into np_1 to only includes nodes whose np_1 confidence is greater than threshold
+        Returns:
+            List[NodeContext]: a list nodes that obtain using np_1
+        """
+
         return np_1(_input, k, threshold)
 
-    def GetRoot(self, _input=None):
+    def GetRoot(self, _input=None) -> List[NodeContext]:
+        """Get the root node
+
+        Args:
+            None
+        Returns:
+            List[NodeContext]: a list of nodes that only contain the root node of the parse tree
+        """
+
         return [NodeContext(
             self.pt.start_node, None, (self.pt.start_node.id, 0))]
 
     def matchSection1(self, _input, k, threshold,
                       everything=False) -> List[NodeContext]:
-        """
-        reach a consensus through the results
-         if matchQA gives consistent results
-         1) the section are all the same (except 0-0)
-         2) its parent nodes are all the same
-         then choose matchqa
-         else take results in matchkeyword
-        """
-        # keyword_results = self.sbert_helper(
-        #     self.pt.file_name, self.task.keyword)
-        # qa_results = self.qa_helper(self.pt.file_name, self.task.q)
-        qa_results = self.qa_node_id_helper(self.pt.file_name, self.task.q)['{}-{}'.format(self.pt.start_node.id, 0)]
+        """Get a list of node using a combination of matchQA and matchKeyword operation.  (np_1 function)
+           The logic is specified as:
+              if matchQA gives consistent results (i.e. located the same nodes), then return the top-k nodes that returned by matchQA
+              else return the top-k nodes matched by keywords.
 
-        # print("keyword_results:", keyword_results)
-        # print("qa_results:", qa_results)
+
+        Args:
+            _input: cache purpose argument, ignore
+            k (int): get the top-k nodes
+            threshold (float): include nodes whose confidence is greater than threshold
+            everything (bool): not useful, ignore
+        Returns:
+            List[NodeContext]: a list nodes that obtained using the procedure described above
+        """
+
+        qa_results = self.qa_node_id_helper(self.pt.file_name, self.task.q)['{}-{}'.format(self.pt.start_node.id, 0)]
 
         # check section consistency
         section_list = []
@@ -186,10 +240,22 @@ class DSL:
 
     def matchSection2(self, _input, k, threshold=0.85,
                       everything=False) -> List[NodeContext]:
+
+        """Get a list of node using a combination of matchQA and matchKeyword operation.  (np_1 function)
+           The logic is specified as:
+              if there exists nodes whose content's similarity to the keyword > threshold, get the top-k nodes returned by matchKeyword
+              else return the top-k nodes matched by question answering system
+
+
+        Args:
+            _input: cache purpose argument, ignore
+            k (int): get the top-k nodes
+            threshold (float): include nodes whose confidence is greater than threshold
+            everything (bool): not useful, ignore
+        Returns:
+            List[NodeContext]: a list nodes that obtained using the procedure described above
         """
-        check if the highest similarity in match keyword > 0.85,
-        if so use matchKeyword, else use matchQA
-        """
+
         # header_candidates = self.pt.get_header()
         # header_candidates_str = list(header_candidates.keys())
         keyword_results = self.sbert_helper(
@@ -198,13 +264,11 @@ class DSL:
         highest_probs = [
             keyword_prob for _, keyword_prob in keyword_results[0][1]]
 
-        #print("highest_probs:", highest_probs)
 
         if threshold == 1.0:
             threshold = 0.99
 
         if any(p >= threshold for p in highest_probs):
-            #print("here")
             res = self.matchKeyword(
                     self.pt.file_name, k, threshold, everything=everything)
             printc(PRINT_MATCHSECTION_INFO, "matchSection2 keyword:", res)
@@ -215,9 +279,21 @@ class DSL:
             printc(PRINT_MATCHSECTION_INFO, "matchSection2 qa:", res)
             return res
 
-    # TODO: to deal with keyword hierarchy issue, need to concatenate headers
+    
     def matchKeyword(self, _input,
                      k, threshold, everything=False) -> List[NodeContext]:
+        """Get a list of nodes by finding those contents that has similarity to provided keyword > threshold (np_1 function)
+
+
+        Args:
+            _input: cache purpose argument, ignore
+            k (int): get the top-k nodes
+            threshold (float): include nodes whose confidence is greater than threshold
+            everything (bool): not useful, ignore
+        Returns:
+            List[NodeContext]: a list nodes that obtained using the procedure described above
+        """
+
         keywords = self.task.keyword
 
         if everything:
@@ -225,8 +301,6 @@ class DSL:
         else:
             return_nodes_idx = self.match_keyword_helper(
             self.pt.file_name, keywords, k, threshold=threshold, partial_exact_match=read_flag('partial_exact_match'))
-            # return_nodes_idx = self.match_keyword_helper(
-            #     self.pt.file_name, keywords, k, threshold=0.0)
             return_nodes = [
                 NodeContext(*(self.pt.get_node_by_tuple_id(nid)), nid)
                 for nid in return_nodes_idx]
@@ -234,6 +308,16 @@ class DSL:
             return return_nodes
 
     def matchQA(self, _input, k, threshold) -> List[NodeContext]:
+        """Get a list of nodes by finding those contents is recognized as answer to the question by the QA system (np_1 function)
+
+        Args:
+            _input: cache purpose argument, ignore
+            k (int): get the top-k nodes
+            threshold (float): include nodes whose confidence is greater than threshold
+        Returns:
+            List[NodeContext]: a list nodes that obtained using the procedure described above
+        """
+
         return_nodes_idx_ans = self.match_qa_node_id_helper(
             self.pt.file_name, self.task.q, k)
         printc("matchQA:", return_nodes_idx_ans)
@@ -242,14 +326,20 @@ class DSL:
             for nid in return_nodes_idx_ans]
 
     def ExtractContent(self, v: List[NodeContext]) -> List[StrContext]:
+        """Given a list of nodes, extract its contents to form a list of strings
+
+        Args:
+            v (List[NodeContext]): a list of nodes
+        Returns:
+            List[StrContext]: a list strings that includes the content of the nodes
+        """
+
         node_str_pairs = []
 
         for elem in v:
             p_n = elem.tree_node
             l_n = elem.list_node
             bindex = (p_n.id, l_n.id if l_n is not None else 0)
-
-            # print("nodeToStr bindex:", bindex)
 
             context = self.string_context_helper(
                 elem, self.pt.file_name, bindex[0], bindex[1])
@@ -270,6 +360,15 @@ class DSL:
         return node_str_pairs
 
     def Split(self, contexts: List[StrContext], c: str = ',') -> List[StrContext]:
+        """Given a list of strings, split all the strings using delimiter c
+
+        Args:
+            contexts (List[StrContext]): a list of strings
+            c (str): a delimiter to split the string
+        Returns:
+            List[StrContext]: the results of splitting the strings in contexts
+        """
+
         results = []
 
         # getCSVItem(getDoc) => getCSVItem(getLeaves(getDoc))
@@ -280,8 +379,6 @@ class DSL:
         for context in contexts:
             content = context.get_str_text()
 
-            # NOTE: if the the const str only shows up once here, then there is no point for a csv split (since we
-            #  are going to filter by const_str later, this is written to handle fac_5)
             if self.filter_const_getcsv_prog:
                 total_count = 0
                 for const_str in self.task.const_str:
@@ -289,10 +386,8 @@ class DSL:
                         total_count += content.count(const_str)
                     else:
                         split_content = re.split(split_str_pattern, content)
-                        # print("split_content:", split_content)
                         total_count += len([s for s in split_content if s.lower() == const_str.lower()])
 
-                # print("total count:", total_count)
 
                 if total_count == 1:
                     results.append(StrContext(context.bindex, content, None,
@@ -309,7 +404,14 @@ class DSL:
         return results
 
     def Filter(self, contexts: List[StrContext], np_2: Callable) -> List[StrContext]:
-        # print("filter:", contexts)
+        """Given a list of strings, filter the strings using function np_2
+
+        Args:
+            contexts (List[StrContext]): a list of strings
+            np_2 (Callable): a function that specifies how to filter the strings
+        Returns:
+            List[StrContext]: a list strings that includes all strings in contexts that satisfy np_2
+        """
         if len(contexts) == 1 and contexts[0].is_whole_doc:
             # split the whole-doc context by sentence and
             doc_context = contexts[0]
@@ -331,6 +433,16 @@ class DSL:
         return ret_contexts
 
     def GetAnswer(self, contexts: List[StrContext], q=None, k: int = 1) -> List[StrContext]:
+        """Given a list of strings, obtain the answers to the question using the strings as contexts
+
+        Args:
+            contexts (List[StrContext]): a list of strings
+            q (str): a question
+            k (int): get top-k answers
+
+        Returns:
+            List[StrContext]: a list strings that includes the answers to the question using each string in contexts as contexts
+        """
 
         # print("in getAnswer contexts:", contexts)
 
@@ -381,13 +493,16 @@ class DSL:
         return results
 
     def GetEntity(self, contexts: List[StrContext], LABEL: str):
+        """Given a list of strings, extract those strings that has the entity LABEL
+        Args:
+            contexts (List[StrContext]): a list of strings
+            LABEL (str): a specific entity label
+        Returns:
+            List[StrContext]: a list strings of the entity LABEL
+        """
 
-        # print('getEntity:', contexts, LABEL)
         ret_ents_list = []
         for context in contexts:
-
-            # if context.is_whole_doc:
-            #     continue
 
             cache_string_key = self.generate_cache_string_key(context)
             res = []
@@ -456,6 +571,15 @@ class DSL:
 
     def GetString(self, contexts: List[StrContext],
                   keywords: List[str], threshold=1.0) -> List[StrContext]:
+        """Given a list of nodes, get those substrings that is similar to keywords above certain threshold
+
+        Args:
+            contexts (List[StrContextg]): a list of strings
+            keywords (List[str]): a list of keywords
+            threshold (float): the threshold
+        Returns:
+            List[StrContext]: a list strings that is at least threshold similar to the keywords in contexts
+        """
         results = []
         if threshold == 1.0:
             keywords_standardize = []
@@ -474,16 +598,33 @@ class DSL:
                                 partial=True))
                             break
         else:
-            # TODO: to be implemented
             pass
         return results
 
     def isSingleton(self, v: List[NodeContext]) -> PredContext:
+        """Given a list of nodes, check if there is only one node in the list
+
+        Args:
+            v (List[NodeContext]): a list of nodes
+        Returns:
+            PredContext (wrapper of boolean): True if there is only one node in v False otherwise
+        """
+
         if len(v) == 1:
             return PredContext(True, [n.match_section_nid for n in v])
         return PredContext(False, [n.match_section_nid for n in v])
 
     def AnySat(self, v: List[NodeContext], np_2: Callable, matchSection=False) -> PredContext:
+        """Given a list of nodes, check if any of the nodes satisfy np_2
+
+        Args:
+            v (List[NodeContext]): a list of nodes
+            np_2 (Callable): a function that uses to filter nodes
+            matchSection (bool): book-keeping argument, ignore
+        Returns:
+            PredContext: True if there is any nodes in v that satisfy np_2 False otherwise
+        """
+
         if len(v) == 0:
             return PredContext(False, [])
 
@@ -494,7 +635,6 @@ class DSL:
         # print("matchSection:", matchSection)
         # print([n.match_section_nid for n in v])
         if all(n.match_section_nid[0] == self.pt.start_node.id and n.match_section_nid[1] == 0 for n in v) and matchSection:
-            # print( "here")
             return PredContext(False, [n.match_section_nid for n in v])
 
         contexts = self.ExtractContent(v)
@@ -504,11 +644,28 @@ class DSL:
             eval_res = any([np_2(context) for context in contexts])
         return PredContext(eval_res, [n.match_section_nid for n in v])
 
-    # TODO: I keep the semantic for this as before just to be safe, may modify this later
-    def hasHeader(self, contexts, threshold):
+    def hasHeader(self, contexts: List[NodeContext], threshold: float) -> bool:
+        """Given a list of nodes, check if it contains any non-leaf nodes whose is threshold similar to keywords (np_2 funtion)
+
+        Args:
+            contexts (List[NodeContext]): a list of nodes
+            threshold (float): a threshold value for keyword matching
+        Returns:
+            bool: True if found at least one matched node False otherwise
+        """
+
         return len(self.matchKeyword(self.pt, 1, threshold)) > 0
 
-    def hasString(self, context: StrContext, keywords: List, threshold=0.9) -> bool:
+    def hasString(self, context: StrContext, keywords: List[str], threshold=0.9) -> bool:
+        """Given a string, check if it contains any content is threshold similar to keywords (np_2 funtion)
+
+        Args:
+            context (StrContext): a string
+            keywords (List[Str]): a list of keywords
+            threshold (float): a threshold value for keyword matching
+        Returns:
+            bool: True if found at least one matched content False otherwise
+        """
         # print("keywords:", keywords)
         if threshold == 1.0:
             threshold = 0.99
@@ -540,7 +697,6 @@ class DSL:
 
         similarity_res = self.sbert_string_helper(
             context, self.pt.file_name, cache_string_key, keywords)
-        # print(similarity_res)
 
         similarity_res_values = []
         for v in similarity_res.values():
@@ -553,6 +709,14 @@ class DSL:
         return False
 
     def hasEntity(self, context: StrContext, LABEL: str) -> bool:
+        """Given a string, check if it contains any contents of the entity LABEL
+
+        Args:
+            context (StrContext): a string
+            LABEL (str): a entity label
+        Returns:
+            bool: True if found at least one matched content False otherwise
+        """
 
         context_str = context.get_str_text()
 
@@ -582,7 +746,17 @@ class DSL:
             context, self.pt.file_name, LABEL, cache_string_key)
         return len(entities) > 0
 
-    def hasStrEnt(self, context: StrContext, const_str: List, LABEL: str, threshold=1.0) -> bool:
+    def hasStrEnt(self, context: StrContext, const_str: List[str], LABEL: str, threshold=1.0) -> bool:
+        """Given a string, check if it contains any contents that are similar to const_str and of the entity LABEL
+
+        Args:
+            context (StrContext): a string
+            const_str (List[str]): a list of keywords
+            LABEL (str): a entity label
+            threshold (float): the threshold for keyword matching
+        Returns:
+            bool: True if found at least one matched content False otherwise
+        """
         return self.hasEntity(context, LABEL) and self.hasString(context, const_str, threshold)
 
     def _not(self, pred: bool) -> bool:
@@ -595,7 +769,7 @@ class DSL:
     All the helper methods
     """
 
-    # @cache(ignore_args=[0])
+    @cache(ignore_args=[0])
     def match_keyword_helper(self, file_name, keywords, k, threshold=0.0, partial_exact_match=read_flag('partial_exact_match')):
 
         # print("partial_exact_match:", partial_exact_match)
@@ -742,7 +916,7 @@ class DSL:
                         (parse_tree_node.id, list_tree_node.id))
         return return_nodes, return_nodes_idx
 
-    # @cache(ignore_args=[0])
+    @cache(ignore_args=[0])
     def match_qa_node_id_helper(self, file_name, question, k):
         answers = self.qa_node_id_helper(self.pt.file_name, question)[
                       '{}-{}'.format(self.pt.start_node.id, 0)][:k]

@@ -49,12 +49,6 @@ class Production:
         if self.return_symbol.name.startswith("np") or self.return_symbol.name == "pn":
             return "{}.{}".format(self.prefix, self.getName())
 
-        # if self.getName() == "contains":
-        #     # print(args)
-        #     if "-" not in self.operator_name:
-        #         return "{}.{}({}, [{}])".format(self.prefix, self.getName(), args[0], args[1])
-        #     else:
-        #         return "{}.{}({}, [{}, {}])".format(self.prefix, self.getName(), args[0], args[1], args[2])
         return "{}.{}({})".format(self.prefix, self.getName(), ", ".join(args))
 
     def getName(self):

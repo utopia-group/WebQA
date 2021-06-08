@@ -125,3 +125,7 @@ For compactness, the top-level program structure that we use in the implementati
 ## User mode
 
 We will release a interface for user to run WebQA (other than running a set of benchmark for evaluation purpose) soon. 
+
+## WebQA DSL
+
+For simpler presentation, the WebQA DSL builds on top of the DSL presented in the paper with a few syntactic sugar. You can refer to the detailed extractor and guard grammar [here](https://github.com/utopia-group/WebQA/blob/master/lib/grammar/cfg.py). You can see the documentation of the DSL [here](https://github.com/utopia-group/WebQA/blob/master/lib/interpreter/dsl.py).
